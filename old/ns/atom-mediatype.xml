@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id: atom-mediatype.xml 784 2012-09-12 19:28:04Z dret $ -->
+<nsdesc version="1.0" external="" xmlns="http://ns.emc.com/schema/nsdesc" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ns.emc.com/schema/nsdesc nsdesc.xsd">
+    <title>
+        <description xml:lang="en">Atom Syndication Format</description>
+    </title>
+    <abstract>
+        <description xml:lang="en">This document specifies Atom, an XML-based Web content and metadata syndication format.</description>
+    </abstract>
+    <documentation>
+        <description href="http://tools.ietf.org/html/rfc4287" xml:lang="en">RFC 4287 defines the Atom syndication format.</description>
+    </documentation>
+    <contacts>
+        <vcard xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:ietf:params:xml:ns:vcard-4.0 xcard.xsd" xmlns="urn:ietf:params:xml:ns:vcard-4.0">
+            <fn>
+                <text>Erik Wilde</text>
+            </fn>
+            <n>
+                <surname>Wilde</surname>
+                <given>Erik</given>
+                <additional/>
+                <prefix/>
+                <suffix/>
+            </n>
+            <nickname>
+                <text>dret</text>
+            </nickname>
+            <org>
+                <text>EMC Corporation</text>
+            </org>
+            <adr>
+                <pobox/>
+                <ext/>
+                <street>6801 Koll Center Parkway</street>
+                <locality>Pleasanton</locality>
+                <region>CA</region>
+                <code>94566</code>
+                <country>USA</country>
+            </adr>
+            <tel>
+                <uri>tel:+1-925-600-6244</uri>
+            </tel>
+            <email>
+                <text>erik.wilde@emc.com</text>
+            </email>
+            <url>
+                <uri>http://dret.net/netdret/</uri>
+            </url>
+        </vcard>
+    </contacts>
+    <mediatype type="application" subtype="atom+xml"/>
+</nsdesc>

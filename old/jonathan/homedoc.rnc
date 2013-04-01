@@ -1,0 +1,44 @@
+namespace local = ""
+
+start = resources
+
+resources = element resources { resource* }
+resource = element resource { linkrel, linkdesc*, hints? }
+linkrel = attribute rel { xsd:anyURI }
+linkdesc = link | template
+
+link = element link { href }
+href = attribute href { xsd:anyURI }
+
+template = element template { format, var* }
+format = attribute href-template { xsd:anyURI }
+var = element var { name, uri }
+name = attribute name { xsd:string }
+uri = attribute uri { xsd:anyURI }
+
+hints = element hints { 
+      ( allow 
+      | representations 
+      | accept-patch 
+      | accept-post 
+      | accept-put 
+      | accept-ranges 
+      | prefer 
+      | docs 
+      | precondition-req 
+      | auth-req)+ 
+}
+
+allow = element allow { list { ("GET"|"PUT"|"HEAD"|"POST"|"DELETE"|"TRACE"|"OPTIONS"|"CONNECT"|"PATCH")+ } }
+
+representations = element representations { list { xsd:string+ } }
+accept-put = element accept-put { list { xsd:string+ } }
+accept-post = element accept-post { list { xsd:string+ } }
+accept-patch = element accept-patch { list { xsd:string+ } }
+accept-ranges = element accept-ranges { list { xsd:string+ } }
+prefer = element prefer { list { xsd:string+ } }
+docs = element docs { xsd:anyURI }
+precondition-req = element precondition-req{ "deprecated" | "gone" }
+auth-req = element auth-req { scheme, realms }
+scheme = attribute scheme { xsd:string }
+realms = list { xsd:string+ }

@@ -1,0 +1,28 @@
+<resources>
+  <resource rel="about">
+    <link href="http://127.0.0.1:8080/xcp-rest/about" />
+    <hints>
+      <allow>GET</allow>
+      <representations>application/xml</representations>
+      <representations>application/json</representations>
+      <representations>application/vnd.emc.xcp+xml</representations>
+      <representations>application/vnd.emc.xcp+json</representations>
+    </hints>
+  </resource>
+
+  <resource rel="http://example.org/rel/widgets">
+    <link href="/widgets"/>
+  </resource>
+  <resource rel="http://example.org/rel/widget">
+    <template href-template="/widgets/{widget_id}">
+      <var name="widget-id" uri="http://example.org/param/widget"/>
+    </template>
+    <hints>
+      <allow>GET PUT DELETE PATCH</allow>
+      <representations>application/json application/xml</representations>
+      <accept-patch>application/json-patch</accept-patch>
+      <accept-post>application/xml</accept-post>
+      <accept-ranges>bytes</accept-ranges>
+    </hints>
+  </resource>
+</resources>

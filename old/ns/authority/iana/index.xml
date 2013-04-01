@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated on 2012-08-08T17:24:51.385+02:00 by $Id: nsdesc.xslt 766 2012-05-30 01:58:55Z dret $ -->
+<?xml-stylesheet href="../../nsdesc2html.xslt" type="text/xsl"?>
+<nsdesc xmlns="http://ns.emc.com/schema/nsdesc"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        version="1.0"
+        entity="iana"
+        xsi:schemaLocation="http://ns.emc.com/schema/nsdesc nsdesc.xsd">
+    <title>
+        <description xml:lang="en">Internet Assigned Numbers Authority (IANA)</description>
+    </title>
+    <abstract>
+        <description xml:lang="en">The Internet Assigned Numbers Authority (IANA) is a department of ICANN responsible for coordinating some of the key elements that keep the Internet running smoothly. Whilst the Internet is renowned for being a worldwide network free from central coordination, there is a technical need for some key parts of the Internet to be globally coordinated – and this coordination role is undertaken by IANA.</description>
+    </abstract>
+    <documentation>
+        <description href="http://www.iana.org/" xml:lang="en"/>
+    </documentation>
+    <contacts>
+        <vcard xmlns="urn:ietf:params:xml:ns:vcard-4.0">
+            <fn>
+                <text>Erik Wilde</text>
+            </fn>
+            <n>
+                <surname>Wilde</surname>
+                <given>Erik</given>
+                <additional/>
+                <prefix/>
+                <suffix/>
+            </n>
+            <nickname>
+                <text>dret</text>
+            </nickname>
+            <org>
+                <text>EMC Corporation</text>
+            </org>
+            <adr>
+                <pobox/>
+                <ext/>
+                <street>6801 Koll Center Parkway</street>
+                <locality>Pleasanton</locality>
+                <region>CA</region>
+                <code>94566</code>
+                <country>USA</country>
+            </adr>
+            <tel>
+                <uri>tel:+1-925-600-6244</uri>
+            </tel>
+            <email>
+                <text>erik.wilde@emc.com</text>
+            </email>
+            <url>
+                <uri>http://dret.net/netdret/</uri>
+            </url>
+        </vcard>
+    </contacts>
+    <authority name="iana" type="external"/>
+</nsdesc>

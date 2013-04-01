@@ -1,0 +1,279 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="model2reference.xsl"?>
+<rest-model xmlns:xs="http://www.w3.org/2001/XMLSchema" id="NGIS" entry-point="service">
+  <resources>
+    
+    <resource id="service" implemented="full" readonly="true">
+      <description>
+        The <ref resource="service"/> resource is the 
+        <ref url="http://tools.ietf.org/html/draft-nottingham-json-home-02">home document</ref> for the 
+        NGIS REST service.
+      </description>
+      <media-type-ref id="ngis" root="service"/>
+      <links>
+        <link rel="platform" uri-source="link">
+          <description>
+            Returns the <ref resource="platform"/> for cloud administration. Requires 
+            <ref url="http://wcw-storm.corp.emc.com:8080/display/CMAAT/RESTful+Authentication">authentication</ref>
+            with the platform's Identity Provider.
+          </description>
+          <source type="link"/>
+        </link>
+        <link rel="tenant" uri-source="template">
+          <description>
+	          Returns information about a <ref resource="tenant"/>. Requires 
+	          <ref url="http://wcw-storm.corp.emc.com:8080/display/CMAAT/RESTful+Authentication">authentication</ref>
+	          with the tenant's Identity Provider.
+          </description>
+          <template>
+            <var type="http://names.emc.com/param/tenant-id">the ID of the tenant of interest</var>
+          </template>
+        </link>
+        <link rel="tenant-by-name" uri-source="template">
+          <description>
+	          Returns information about a <ref resource="tenant-by-name">tenant with the given name</ref>.
+          </description>
+          <template>
+            <var type="http://names.emc.com/param/tenant-name">the name of the tenant of interest</var>
+          </template>
+        </link>
+      </links>
+    </resource>
+
+    <resource id="tenant-by-name" implemented="full" readonly="true">
+      <description>
+        The <ref resource="tenant-by-name"/> resource allows one to retrieve details about a <ref resource="tenant"/> 
+        without knowing its ID. The response to a <code>GET</code> on this resource will be a redirect (<code>303 See 
+        Other</code>) to the tenant with the supplied name (or <code>404 Not Found</code> when no tenant with the 
+        given name could be found). The response will include an <code>x-ngis-tenant-id</code> header containing the 
+        tenant's ID.
+      </description>
+    </resource>    
+    
+    <resource id="platform" implemented="partial" readonly="true">
+      <description>The <ref resource="platform"/> resource describes the security context for <em>managing</em> the 
+      cloud. All the aspects that cannot be influenced by <em>users</em> of the cloud are dealt with here. 
+      This part of the service is only accessible to 
+      <ref url="https://centerstagecma.corp.emc.com/CenterStagePro/#CenterStagePro/SourceOne_SaaS;v=content/0b0278cd802cd943">cloud 
+      administrators</ref>.</description>
+      <media-type-ref id="ngis" root="platform"/>
+      <links>
+        <link rel="bundles" uri-source="link">
+          <description>The OSGi <ref resource="bundles"/> that contribute code to the platform</description>
+        </link>   
+        <link rel="applications" uri-source="link">
+          <description>The <ref resource="applications"/> available in the platform</description>
+        </link>
+        <link rel="identity-providers" uri-source="link" implemented="full">
+          <description>The <ref resource="identity-providers"/> available in the platform</description>
+        </link>  
+        <link rel="identity-provider-configurations" uri-source="link">
+          <description>The <ref resource="identity-provider-configurations"/> available for users of the platform</description>
+        </link>  
+        <link rel="tenant-templates" uri-source="link" implemented="full">
+          <description>The <ref resource="tenant-templates"/> available in the platform</description>
+        </link>  
+        <link rel="tenants" uri-source="link" implemented="full">
+          <description>The <ref resource="tenants"/> that have access to the cloud</description>
+        </link>   
+        <link rel="spaces" uri-source="link">
+          <description>The <ref resource="spaces"/> that are available for organizing meta-data in the platform</description>
+        </link>  
+        <link rel="federations" uri-source="link">
+          <description>The <ref resource="federations"/> that are available for storing meta-data in the platform</description>
+        </link>  
+        <link rel="platform-spaces" uri-source="link">
+          <description>The <ref resource="spaces"/> that organize meta-data that is specific to operation of the platform (like billing 
+          information)</description>
+        </link>   
+        <link rel="data-stores" uri-source="link">
+          <description>The <ref resource="data-stores"/> available for storing (binary) data</description>
+        </link>   
+        <link rel="logs" uri-source="link">
+          <description>The <ref resource="logs"/> created by code running in the platform</description>
+        </link>  
+        <link rel="job-templates" uri-source="link">
+          <description>The <ref resource="job-templates"/> available in the platform</description>
+        </link>   
+        <link rel="features" uri-source="link">
+          <description>The <ref resource="features"/> available for Information Servers to provide</description>
+        </link>   
+        <link rel="storage-allocation-strategies" uri-source="link" implemented="full">
+          <description>The <ref resource="storage-allocation-strategies"/> available in the platform</description>
+        </link>   
+        <link rel="data-partitioning-strategies" uri-source="link">
+          <description>The <ref resource="data-partitioning-strategies"/> available in the platform</description>
+        </link>  
+        <link rel="access-domains" uri-source="link">
+          <description>An <ref resource="access-domains"/> resource containing all access domains for the platform</description>
+        </link>         
+      </links>
+    </resource>
+
+    <resource id="bundles">
+      <collection title="Bundles" entry="bundle">
+        <media-type-ref id="osgi"/>
+        <media-type-ref id="form"/>
+      </collection>
+    </resource>
+    
+    <resource id="bundle">
+      <description>The <ref resource="bundle"/> resource describes an 
+        <ref url="http://www.osgi.org/Main/HomePage">OSGi</ref> bundle that runs in an Information Server in the 
+        platform. All code in the platform is deployed as bundles. Some of those bundles ship with NGIS, while others 
+        are <ref url="http://wcw-storm.corp.emc.com:8080/display/CMAAT/Extensibility">extensions</ref> to the core 
+        platform.
+      </description>
+      <media-type-ref id="ngis" root="bundle"/>
+      <links>
+        <link uri-source="self" method="DELETE">
+          <description>Uninstall and remove the bundle</description>
+        </link>
+        <link rel="alternate" uri-source="link">
+          <description>Return the OSGi bundle contents as a jar file (media type 
+            <code><ref url="http://www.iana.org/assignments/media-types/application/vnd.osgi.bundle">application/vnd.osgi.bundle</ref></code>)</description>
+        </link>
+        <link rel="alternate" uri-source="link" method="PUT">
+          <description>Replace the OSGi bundle contents with the jar file supplied in the body (media type either   
+            <code><ref url="http://www.iana.org/assignments/media-types/application/vnd.osgi.bundle">application/vnd.osgi.bundle</ref></code>
+            or <code><ref url="http://tools.ietf.org/html/rfc2388">multipart/form-data</ref></code>)</description>
+        </link>
+      </links>
+    </resource>
+    
+    <resource id="artifact-bundles">
+      <collection title="Artifact Bundles" entry="artifact-bundle">
+        <media-type-ref id="ngis" root="artifact-bundle"/>
+      </collection>
+    </resource>
+    
+    <resource id="artifact-bundle">
+      <description>The <ref resource="artifact-bundle"/> resource defines which artifacts (for example, traits, 
+          object types, roles, etc.) are contained within the artifact-bundle.</description>
+      <media-type-ref id="ngis" root="artifact-bundle"/>
+    </resource>
+        
+  </resources>
+  
+  <media-types>
+    <media-type id="ngis" name="application/vnd.emc.ngis+xml">
+      <schema>
+			  <xs:complexType name="xml">
+			    <xs:sequence>
+			      <xs:any processContents="skip" maxOccurs="unbounded"/>
+			    </xs:sequence>
+			  </xs:complexType>
+			
+			  <xs:complexType name="authorization-configuration">
+			    <xs:complexContent>
+			      <xs:extension base="xml"/>
+			    </xs:complexContent>
+			  </xs:complexType>
+
+			  <xs:simpleType name="qualified-name">
+			    <xs:restriction base="xs:string">
+			      <xs:pattern value="[a-z][a-z0-9_]+(\.[a-zA-Z0-9_]+)*"/>
+			    </xs:restriction>
+			  </xs:simpleType>
+			
+			  <xs:simpleType name="symbolic-name">
+			    <xs:restriction base="qualified-name"/>
+			  </xs:simpleType>
+			
+			  <xs:simpleType name="file-path">
+			    <xs:restriction base="xs:string"/>
+			  </xs:simpleType>
+
+			  <xs:simpleType name="version">
+			    <xs:restriction base="xs:string">
+			      <xs:pattern value="\d+(\.\d+){0,3}(\-[a-zA-Z0-9]+)?"/>
+			    </xs:restriction>
+			  </xs:simpleType>
+
+			  <xs:element name="link">
+			    <xs:complexType>
+			      <xs:attribute name="href" type="xs:anyURI" use="required"/>
+			    </xs:complexType>
+			  </xs:element>
+			
+			  <xs:element name="template">
+			    <xs:complexType>
+			      <xs:sequence maxOccurs="unbounded" minOccurs="0">
+			        <xs:element name="var">
+			          <xs:complexType>
+			            <xs:attribute name="name" use="required"/>
+			            <xs:attribute name="uri" type="xs:anyURI" use="required"/>
+			          </xs:complexType>
+			        </xs:element>
+			      </xs:sequence>
+			      <xs:attribute name="href-template" use="required"/>
+			    </xs:complexType>
+			  </xs:element>
+			
+			  <xs:element name="resource">
+			    <xs:complexType>
+			      <xs:choice>
+			        <xs:element ref="link"/>
+			        <xs:element ref="template"/>
+			      </xs:choice>
+			      <xs:attribute name="rel" type="xs:anyURI" use="required"/>
+			    </xs:complexType>
+			  </xs:element>
+			
+			  <xs:complexType name="versioned">
+			    <xs:sequence>
+			      <xs:element name="name" type="qualified-name">
+			        <description>Human readable identification</description>
+			      </xs:element>
+			      <xs:element name="version" type="version">
+			        <description>A <ref url="http://semver.org/">semantic version</ref> number</description>
+			      </xs:element>
+			    </xs:sequence>
+			  </xs:complexType>
+      </schema>
+      
+      <schema id="platform">
+        <xs:element name="authorization" type="authorization-configuration">
+          <description><ref url="http://wcw-storm.corp.emc.com:8080/display/CMAAT/Integrating+the+XACML+Engine">Configuration</ref>
+          of the <ref url="https://community.emc.com/docs/DOC-7314">XACML</ref> policies that determine 
+          <ref url="http://wcw-storm.corp.emc.com:8080/display/CMAAT/Authorization">authorization</ref>.</description>
+        </xs:element>
+      </schema>
+      
+      <schema id="bundle">
+        <xs:element name="symbolic-name" type="symbolic-name">
+          <description>The <ref url="http://wiki.osgi.org/wiki/Bundle-SymbolicName">symbolic name</ref> of the OSGi bundle </description>
+        </xs:element>
+        <xs:element name="version" type="version">
+          <description>The <ref url="http://wiki.osgi.org/wiki/Bundle-Version">version</ref> of the OSGi bundle</description>
+        </xs:element>
+        <xs:element name="file-name" type="xs:string">
+          <description>The name of the jar file representing the OSGi bundle on the file system</description>
+        </xs:element>
+      </schema>
+      
+      <schema id="artifact-bundle" extends="versioned">
+	      <xs:element name="require-bundle" type="xs:string">
+	        <description>Object ids of other artifact bundles that this artifact bundle depends on</description>
+	      </xs:element>
+	      <xs:element name="symbolic-name" type="xs:string">
+	        <description>The namespace of the artifact bundle (think Maven groupId). The name attribute will have the 
+	           actual artifact bundle name (think Maven artifactId) </description>
+	      </xs:element>
+	      <xs:element name="bundle-install-status" type="xs:string">
+	        <description>The overall installed status of the artifact bundle. If any <code>artifact-install-status</code>
+	           are failed then this will be <code>failed</code> too </description>
+	      </xs:element>
+      </schema>
+    </media-type>
+
+    
+    <media-type id="osgi" name="application/vnd.osgi.bundle" 
+        href="http://www.iana.org/assignments/media-types/application/vnd.osgi.bundle"/>
+    
+    
+    <media-type id="form" name="multipart/form-data"
+        href="http://tools.ietf.org/html/rfc2388"/>
+  </media-types>
+  
+</rest-model>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated on 2012-08-08T17:24:51.385+02:00 by $Id: nsdesc.xslt 766 2012-05-30 01:58:55Z dret $ -->
+<?xml-stylesheet href="../../nsdesc2html.xslt" type="text/xsl"?>
+<nsdesc xmlns="http://ns.emc.com/schema/nsdesc"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        version="1.0"
+        xsi:schemaLocation="http://ns.emc.com/schema/nsdesc nsdesc.xsd">
+    <title>
+        <description xml:lang="en">Feed Paging and Archiving</description>
+    </title>
+    <abstract>
+        <description xml:lang="en">This specification defines three types of syndicated Web feeds that enable publication of entries across one or more feed documents. This includes "paged" feeds for piecemeal access, "archived" feeds that allow reconstruction of the feed's contents, and feeds that are explicitly "complete".</description>
+    </abstract>
+    <documentation>
+        <description href="http://tools.ietf.org/html/rfc5005" xml:lang="en">RFC 5005 defines the link relations for feed paging and archiving.</description>
+    </documentation>
+    <contacts>
+        <vcard xmlns="urn:ietf:params:xml:ns:vcard-4.0"
+             xsi:schemaLocation="urn:ietf:params:xml:ns:vcard-4.0 xcard.xsd">
+            <fn>
+                <text>Erik Wilde</text>
+            </fn>
+            <n>
+                <surname>Wilde</surname>
+                <given>Erik</given>
+                <additional/>
+                <prefix/>
+                <suffix/>
+            </n>
+            <nickname>
+                <text>dret</text>
+            </nickname>
+            <org>
+                <text>EMC Corporation</text>
+            </org>
+            <adr>
+                <pobox/>
+                <ext/>
+                <street>6801 Koll Center Parkway</street>
+                <locality>Pleasanton</locality>
+                <region>CA</region>
+                <code>94566</code>
+                <country>USA</country>
+            </adr>
+            <tel>
+                <uri>tel:+1-925-600-6244</uri>
+            </tel>
+            <email>
+                <text>erik.wilde@emc.com</text>
+            </email>
+            <url>
+                <uri>http://dret.net/netdret/</uri>
+            </url>
+        </vcard>
+    </contacts>
+    <linkrel name="rfc5005">
+        <type value="first">
+            <description href="http://tools.ietf.org/html/rfc5005#section-3" xml:lang="en">A URI that refers to the furthest preceding document in a series of documents.</description>
+        </type>
+        <type value="last">
+            <description href="http://tools.ietf.org/html/rfc5005#section-3" xml:lang="en">A URI that refers to the furthest following document in a series of documents.</description>
+        </type>
+        <type value="previous">
+            <description href="http://tools.ietf.org/html/rfc5005#section-3" xml:lang="en">A URI that refers to the immediately preceding document in a series of documents.</description>
+        </type>
+        <type value="next">
+            <description href="http://tools.ietf.org/html/rfc5005#section-3" xml:lang="en">A URI that refers to the immediately following document in a series of documents.</description>
+        </type>
+        <type value="prev-archive">
+            <description href="http://tools.ietf.org/html/rfc5005#section-4" xml:lang="en">A URI that refers to the immediately preceding archive document.</description>
+        </type>
+        <type value="next-archive">
+            <description href="http://tools.ietf.org/html/rfc5005#section-4" xml:lang="en">A URI that refers to the immediately following archive document.</description>
+        </type>
+        <type value="current">
+            <description href="http://tools.ietf.org/html/rfc5005#section-4" xml:lang="en">A URI that, when dereferenced, returns a feed document containing the most recent entries in the feed.</description>
+        </type>
+    </linkrel>
+</nsdesc>

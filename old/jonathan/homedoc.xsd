@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:simpleType name="HTTPMethod">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="GET"/>
+      <xs:enumeration value="HEAD"/>
+      <xs:enumeration value="POST"/>
+      <xs:enumeration value="PUT"/>
+      <xs:enumeration value="DELETE"/>
+      <xs:enumeration value="TRACE"/>
+      <xs:enumeration value="OPTIONS"/>
+      <xs:enumeration value="CONNECT"/>
+      <xs:enumeration value="PATCH"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="arrayOfHTTPMethods">
+    <xs:list itemType="HTTPMethod"/>
+  </xs:simpleType>
+
+  <xs:simpleType name="mediaType">
+    <xs:restriction base="xs:string">
+      <!-- 
+      Pattern stolen from
+      http://lists.w3.org/Archives/Public/xml-dist-app/2003Jul/0064.html,
+      needs to be adapted to XML Schema.
+      
+      <xs:pattern value="[a-zA-Z0-9!#$%^&\*_-\+{}\|'.`~]+/[a-zA-Z0-9!#$%^&\*_-\+{}\|'.`~]+"/>
+      -->
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="arrayOfMediaTypes">
+    <xs:list itemType="mediaType"/>
+  </xs:simpleType>
+
+  <xs:simpleType name="rangeSpecifier">
+    <xs:restriction base="xs:string">
+      <!-- TODO: sloppy, make more precise later -->
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="arrayOfRangeSpecifiers">
+    <xs:list itemType="xs:string"/>
+  </xs:simpleType>
+
+  <xs:simpleType name="precondition">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="etag"/>
+      <xs:enumeration value="last-modified"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="arrayOfPreconditions">
+    <xs:list itemType="precondition"/>
+  </xs:simpleType>
+
+  <xs:simpleType name="arrayOfStrings">
+    <xs:list itemType="xs:string"/>
+  </xs:simpleType>
+
+  <xs:simpleType name="resourceStatus">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="deprecated"/>
+      <xs:enumeration value="gone"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="realms">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+
+
+  <xs:element name="resources">   
+    <xs:complexType>
+      <xs:sequence maxOccurs="unbounded" minOccurs="0">
+
+	<xs:element name="resource">
+	  <xs:complexType>
+	    <xs:sequence>
+
+	      <xs:choice>
+
+		<xs:element name="link">
+		  <xs:complexType>
+		    <xs:attribute name="href" type="xs:anyURI" use="required"/>
+		  </xs:complexType>
+		</xs:element>
+
+		<xs:element name="template">
+		  <xs:complexType>
+		    <xs:sequence maxOccurs="unbounded" minOccurs="0">
+		      <xs:element name="var">
+			<xs:complexType>
+			  <xs:attribute name="name" use="required"/>
+			  <xs:attribute name="uri" type="xs:anyURI" use="required"/>
+			</xs:complexType>
+		      </xs:element>
+		    </xs:sequence>
+		    <xs:attribute name="href-template" use="required"/>
+		  </xs:complexType>
+		</xs:element>
+
+	      </xs:choice>
+
+	      <xs:element minOccurs="0" name="hints">
+		<xs:complexType>
+		  <xs:choice maxOccurs="unbounded" minOccurs="0">
+		    <xs:element name="allow" type="arrayOfHTTPMethods"/>
+		    <xs:element name="representations" type="arrayOfMediaTypes"/>
+		    <xs:element name="accept-patch" type="arrayOfMediaTypes"/>
+		    <xs:element name="accept-post" type="arrayOfMediaTypes"/>
+		    <xs:element name="accept-put"  type="arrayOfMediaTypes"/>
+		    <xs:element name="accept-ranges" type="arrayOfRangeSpecifiers"/>
+		    <xs:element name="prefer" type="arrayOfStrings"/>
+		    <xs:element name="docs" type="xs:anyURI"/>
+		    <xs:element name="precondition-req" type="arrayOfPreconditions"/>
+		    <xs:element name="auth-req">
+		      <xs:complexType>
+			<xs:simpleContent>
+			  <xs:extension base="realms">
+			    <xs:attribute name="scheme"/>
+			  </xs:extension>
+			</xs:simpleContent>
+		      </xs:complexType>
+		    </xs:element>
+		    <xs:element name="status" type="resourceStatus"/>
+		  </xs:choice>
+		</xs:complexType>
+	      </xs:element>
+
+	    </xs:sequence>
+
+	    <xs:attribute name="rel" type="xs:anyURI" use="required"/>
+
+	  </xs:complexType>
+	</xs:element>
+
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

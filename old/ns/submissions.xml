@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id: submissions.xml 784 2012-09-12 19:28:04Z dret $ -->
+<nsdescs xmlns="http://ns.emc.com/schema/nsdesc">
+    <nsdesc href="nsdesc.xml" submitted="2012-04-15T12:00:00Z"/>
+    <nsdesc href="atom-schema.xml" submitted="2012-04-15T12:00:00Z"/>
+    <nsdesc href="atom-mediatype.xml" submitted="2012-04-15T12:00:00Z"/>
+    <nsdesc href="rfc5005.xml" submitted="2012-04-15T12:00:00Z"/>
+    <nsdesc href="iig.xml" submitted="2012-04-15T12:00:00Z"/>
+    <nsdesc href="iana.xml" submitted="2012-04-15T12:00:00Z"/>
+    <nsdesc href="xcard-schema.xml" submitted="2012-04-15T12:00:00Z"/>
+    <approver xml:id="dret" name="Erik Wilde">
+        <vcard xmlns="urn:ietf:params:xml:ns:vcard-4.0">
+            <fn>
+                <text>Erik Wilde</text>
+            </fn>
+            <n>
+                <surname>Wilde</surname>
+                <given>Erik</given>
+                <additional/>
+                <prefix/>
+                <suffix/>
+            </n>
+            <nickname>
+                <text>dret</text>
+            </nickname>
+            <org>
+                <text>EMC Corporation</text>
+            </org>
+            <adr>
+                <pobox/>
+                <ext/>
+                <street>6801 Koll Center Parkway</street>
+                <locality>Pleasanton</locality>
+                <region>CA</region>
+                <code>94566</code>
+                <country>USA</country>
+            </adr>
+            <tel>
+                <uri>tel:+1-925-600-6244</uri>
+            </tel>
+            <email>
+                <text>erik.wilde@emc.com</text>
+            </email>
+            <url>
+                <uri>http://dret.net/netdret/</uri>
+            </url>
+        </vcard>
+    </approver>
+</nsdescs>

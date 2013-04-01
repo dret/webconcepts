@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated on 2012-08-08T17:24:51.385+02:00 by $Id: nsdesc.xslt 766 2012-05-30 01:58:55Z dret $ -->
+<?xml-stylesheet href="../../nsdesc2html.xslt" type="text/xsl"?>
+<nsdesc xmlns="http://ns.emc.com/schema/nsdesc"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        version="1.0"
+        entity="iig"
+        xsi:schemaLocation="http://ns.emc.com/schema/nsdesc nsdesc.xsd"
+        xml:lang="en">
+    <title>
+        <description xml:lang="en">Namespace Description Language (NSDesc)</description>
+    </title>
+    <abstract>
+        <description>...</description>
+    </abstract>
+    <documentation>
+        <description href="">White paper explaining the goals and mission of ns.emc.com.</description>
+        <description href="">Submission guidelines for submitting new entries for ns.emc.com.</description>
+        <description href="">Documented schema for the submission schema for ns.emc.com.</description>
+    </documentation>
+    <contacts>
+        <vcard xmlns="urn:ietf:params:xml:ns:vcard-4.0">
+            <fn>
+                <text>Erik Wilde</text>
+            </fn>
+            <n>
+                <surname>Wilde</surname>
+                <given>Erik</given>
+                <additional/>
+                <prefix/>
+                <suffix/>
+            </n>
+            <nickname>
+                <text>dret</text>
+            </nickname>
+            <org>
+                <text>EMC Corporation</text>
+            </org>
+            <adr>
+                <pobox/>
+                <ext/>
+                <street>6801 Koll Center Parkway</street>
+                <locality>Pleasanton</locality>
+                <region>CA</region>
+                <code>94566</code>
+                <country>USA</country>
+            </adr>
+            <tel>
+                <uri>tel:+1-925-600-6244</uri>
+            </tel>
+            <email>
+                <text>erik.wilde@emc.com</text>
+            </email>
+            <url>
+                <uri>http://dret.net/netdret/</uri>
+            </url>
+        </vcard>
+    </contacts>
+    <schema name="nsdesc">
+        <schemaLocation href="http://dret.net/ns/nsdesc.xsd" type="application/xsd+xml"/>
+        <schemaLocation href="http://dret.net/ns/nsdesc.sch" type="application/schematron+xml"/>
+    </schema>
+</nsdesc>
