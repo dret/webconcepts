@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="US-ASCII" ?>
-<!-- $Id: atompub.xml 805 2012-10-05 21:56:56Z dret $ -->
-<service>
-    <class id="feed"></class>
-</service>
