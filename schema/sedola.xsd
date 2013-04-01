@@ -3,9 +3,45 @@
     <xs:element name="service">
         <xs:complexType>
             <xs:sequence>
-                <xs:element maxOccurs="unbounded" minOccurs="0" name="include"/>
-                <xs:element maxOccurs="unbounded" minOccurs="0" name="mediatype"/>
+                <xs:group ref="descriptions" maxOccurs="unbounded" minOccurs="0"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" name="include">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:group ref="descriptions" maxOccurs="unbounded" minOccurs="0"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element maxOccurs="unbounded" minOccurs="0" name="mediatype">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:group ref="descriptions" maxOccurs="unbounded" minOccurs="0"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
+    <xs:group name="descriptions">
+        <xs:choice>
+            <xs:element name="appinfo" id="appinfo">
+                <xs:complexType mixed="true">
+                    <xs:sequence minOccurs="0" maxOccurs="unbounded">
+                        <xs:any processContents="lax"/>
+                    </xs:sequence>
+                    <xs:attribute name="source" type="xs:anyURI"/>
+                    <xs:anyAttribute namespace="##other" processContents="lax"/>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="documentation" id="documentation">
+                <xs:complexType mixed="true">
+                    <xs:sequence minOccurs="0" maxOccurs="unbounded">
+                        <xs:any processContents="lax"/>
+                    </xs:sequence>
+                    <xs:attribute name="source" type="xs:anyURI"/>
+                    <xs:attribute ref="xml:lang"/>
+                    <xs:anyAttribute namespace="##other" processContents="lax"/>
+                </xs:complexType>
+            </xs:element>
+        </xs:choice>
+    </xs:group>
 </xs:schema>
