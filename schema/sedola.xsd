@@ -31,7 +31,8 @@
                                 </xs:complexType>
                             </xs:element>
                         </xs:sequence>
-                        <xs:attribute name="name" type="mediaTypeType"></xs:attribute>
+                        <xs:attribute name="name" type="mediaTypeType"/>
+                        <xs:attribute name="profile" type="xs:anyURI" use="optional"/>
                     </xs:complexType>
                 </xs:element>
             </xs:sequence>
