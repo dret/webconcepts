@@ -1,27 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xs:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="http://www.w3.org/2001/xml.xsd">
+        <xs:annotation>
+            <xs:documentation>Get access to the xml: attribute groups that are in the XML namespace for XML itself.</xs:documentation>
+        </xs:annotation>
+    </xs:import>
     <xs:element name="service">
         <xs:complexType>
             <xs:sequence>
+                <xs:group ref="title" maxOccurs="unbounded" minOccurs="0"/>
                 <xs:group ref="descriptions" maxOccurs="unbounded" minOccurs="0"/>
-                <xs:element maxOccurs="unbounded" minOccurs="0" name="include">
+                <xs:element name="include" maxOccurs="unbounded" minOccurs="0">
                     <xs:complexType>
                         <xs:sequence>
                             <xs:group ref="descriptions" maxOccurs="unbounded" minOccurs="0"/>
                         </xs:sequence>
                     </xs:complexType>
                 </xs:element>
-                <xs:element maxOccurs="unbounded" minOccurs="0" name="mediatype">
+                <xs:element name="mediatype" maxOccurs="unbounded" minOccurs="0">
                     <xs:complexType>
                         <xs:sequence>
                             <xs:group ref="descriptions" maxOccurs="unbounded" minOccurs="0"/>
+                            <xs:element name="resource" minOccurs="1" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:group ref="title" maxOccurs="unbounded" minOccurs="0"/>
+                                        <xs:group ref="descriptions" maxOccurs="unbounded" minOccurs="0"/>
+                                    </xs:sequence>
+                                    <xs:attribute name="name"/>
+                                </xs:complexType>
+                            </xs:element>
                         </xs:sequence>
+                        <xs:attribute name="name" type="mediaTypeType"></xs:attribute>
                     </xs:complexType>
                 </xs:element>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
+    <xs:group name="title">
+        <xs:sequence>
+            <xs:element name="title">
+                <xs:complexType mixed="true">
+                    <xs:attribute name="short" type="xs:string" use="optional"/>
+                    <xs:attribute ref="xml:lang" use="optional"/>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:group>
     <xs:group name="descriptions">
+        <xs:annotation>
+            <xs:documentation>This is a copy of the "description" group as it is defined and used in XSD's schema for schemas.</xs:documentation>
+        </xs:annotation>
         <xs:choice>
             <xs:element name="appinfo" id="appinfo">
                 <xs:complexType mixed="true">
@@ -44,4 +73,9 @@
             </xs:element>
         </xs:choice>
     </xs:group>
+    <xs:simpleType name="mediaTypeType">
+        <xs:restriction base="xs:token">
+            <xs:pattern value="[a-zA-Z0-9!#$%^&amp;\*_\-\+{}\|'\.`~]+/[a-zA-Z0-9!#$%^&amp;\*_\-\+{}\|'\.`~]+"/>
+        </xs:restriction>
+    </xs:simpleType>
 </xs:schema>

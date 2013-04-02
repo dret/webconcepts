@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <!-- $Id: atompub.xml 805 2012-10-05 21:56:56Z dret $ -->
 <service xsi:noNamespaceSchemaLocation="../schema/sedola.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    
+    <title short="AtomPub">Atom Publishing Protocol</title>
+    <include href="../atom/atom.xml"/>
 </service>
