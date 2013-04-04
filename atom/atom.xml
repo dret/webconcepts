@@ -2,12 +2,19 @@
 <!-- $Id: atompub.xml 805 2012-10-05 21:56:56Z dret $ -->
 <service xsi:noNamespaceSchemaLocation="../schema/sedola.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <title short="Atom">Atom Syndication Format</title>
-    <mediatype name="application/atom+xml">
-        <resource name="feed">
-            <title>Atom Feed</title>
+    <mediatype xml:id="atom" type="application/atom+xml">
+        <resource xml:id="atom-feed">
+            <title>Atom Feed Document</title>
+            <documentation source="http://tools.ietf.org/html/rfc4287#section-2">An Atom Feed Document is a representation of an Atom feed, including metadata about the feed, and some or all of the entries associated with it. Its root is the atom:feed element.</documentation>
         </resource>
-        <resource name="entry">
-            <title>Atom Entry</title>
+        <resource xml:id="atom-entry">
+            <title>Atom Entry Document</title>
+            <documentation source="http://tools.ietf.org/html/rfc4287#section-2">An Atom Entry Document represents exactly one Atom entry, outside of the context of an Atom feed. Its root is the atom:entry element.</documentation>
         </resource>
+        <link-relation xml:id="alternate"></link-relation>
+        <link-relation xml:id="related"></link-relation>
+        <link-relation xml:id="self"></link-relation>
+        <link-relation xml:id="enclosure"></link-relation>
+        <link-relation xml:id="via"></link-relation>
     </mediatype>
 </service>

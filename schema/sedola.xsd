@@ -15,6 +15,7 @@
                         <xs:sequence>
                             <xs:group ref="descriptions" maxOccurs="unbounded" minOccurs="0"/>
                         </xs:sequence>
+                        <xs:attribute name="href" type="xs:anyURI" use="required"/>
                     </xs:complexType>
                 </xs:element>
                 <xs:element name="mediatype" maxOccurs="unbounded" minOccurs="0">
@@ -27,15 +28,26 @@
                                         <xs:group ref="title" maxOccurs="unbounded" minOccurs="0"/>
                                         <xs:group ref="descriptions" maxOccurs="unbounded" minOccurs="0"/>
                                     </xs:sequence>
-                                    <xs:attribute name="name"/>
+                                    <xs:attribute ref="xml:id" use="required"/>
                                 </xs:complexType>
                             </xs:element>
+                            <xs:element ref="link-relation" minOccurs="0" maxOccurs="unbounded"/>
                         </xs:sequence>
-                        <xs:attribute name="name" type="mediaTypeType"/>
+                        <xs:attribute ref="xml:id" use="required"/>
+                        <xs:attribute name="type" type="mediaTypeType" use="required"/>
                         <xs:attribute name="profile" type="xs:anyURI" use="optional"/>
                     </xs:complexType>
                 </xs:element>
+                <xs:element ref="link-relation" minOccurs="0" maxOccurs="unbounded"/>
             </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="link-relation">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:group ref="descriptions" maxOccurs="unbounded" minOccurs="0"/>
+            </xs:sequence>
+            <xs:attribute ref="xml:id" use="required"/>
         </xs:complexType>
     </xs:element>
     <xs:group name="title">
