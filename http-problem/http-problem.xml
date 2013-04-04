@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="US-ASCII" ?>
+<service xsi:noNamespaceSchemaLocation="../schema/sedola.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <title short="HTTP Problem">HTTP Problem Detail</title>
+    <mediatype xml:id="http-problem-json" type="application/api-problem+json">
+        <resource xml:id="http-problem-document-json">
+            <title>HTTP Problem Detail (JSON)</title>
+            <documentation source="http://tools.ietf.org/html/draft-nottingham-http-problem#section-3">The canonical model for problem details is a JSON object. When serialised as a JSON document, that format is identified with the "application/api-problem+json" media type.</documentation>
+        </resource>
+        <mediatype xml:id="http-problem-json" type="application/api-problem+xml">
+            <resource xml:id="http-problem-document-xml">
+                <title>HTTP Problem Detail (XML)</title>
+                <documentation source="http://tools.ietf.org/html/draft-nottingham-http-problem#appendix-A">Some HTTP-based APIs use XML as their primary format convention. Such APIs MAY express problem details using the format defined in this appendix.</documentation>
+            </resource>
+        </mediatype>
+</service>
