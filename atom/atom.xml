@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="US-ASCII" ?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <service xsi:noNamespaceSchemaLocation="../core/sedola.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <title short="Atom">Atom Syndication Format</title>
     <mediatype xml:id="atom" type="application/atom+xml">

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="US-ASCII" ?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <service xsi:noNamespaceSchemaLocation="../schema/sedola.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <title short="HTTP Problem">HTTP Problem Detail</title>
     <mediatype xml:id="http-problem-json" type="application/api-problem+json">
