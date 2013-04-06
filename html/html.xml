@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="US-ASCII" ?>
+<service xsi:noNamespaceSchemaLocation="../core/sedola.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <title short="HTML">Hypertext Markup Language</title>
+    <mediatype xml:id="html" type="text/html">
+        <resource xml:id="html-page">
+            <title>HTML Page</title>
+            <documentation source="http://www.w3.org/TR/html4/struct/global.html">An HTML 4 document is composed of three parts: line containing HTML version information, declarative header section (delimited by the HEAD element), and a body, which contains the document's actual content. The content may be presented by a user agent in a variety of ways. For example, for visual browsers, you can think of the body as a canvas where the content appears: text, images, colors, graphics, etc. For audio user agents, the same content may be spoken.</documentation>
+        </resource>
+        <resource xml:id="html-frameset">
+            <title>HTML Frameset</title>
+            <documentation source="http://www.w3.org/TR/html4/present/frames.html">HTML frames allow authors to present documents in multiple views, which may be independent windows or subwindows. Multiple views offer designers a way to keep certain information visible, while other views are scrolled or replaced. For example, within the same window, one frame might display a static banner, a second a navigation menu, and a third the main document that can be scrolled through or replaced by navigating in the second frame.</documentation>
+        </resource>
+    </mediatype>
+</service>

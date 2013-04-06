@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="US-ASCII" ?>
+<service xsi:noNamespaceSchemaLocation="../core/sedola.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <title>OpenSearch</title>
+    <include href="atom.xml"/>
+    <profile mediatype="">
+        <title>OpenSearch Atom Profile</title>
+        <documentation></documentation>
+    </profile>
+</service>

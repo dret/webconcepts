@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="US-ASCII" ?>
+<service xsi:noNamespaceSchemaLocation="../core/sedola.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <title short="GIF">Graphics Interchange Format</title>
+    <documentation source="http://www.w3.org/Graphics/GIF/spec-gif89a.txt">The Graphics Interchange Format(sm) defines a protocol intended for the on-line transmission and interchange of raster graphic data in a way that is independent of the hardware used in their creation or display.</documentation>
+    <mediatype xml:id="gif" type="image/gif"/>
+</service>

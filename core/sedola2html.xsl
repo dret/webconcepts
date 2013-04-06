@@ -8,8 +8,14 @@
             <xsl:apply-templates select="@*|node()" mode="include"/>
         </xsl:copy>
     </xsl:template>
+    <xsl:template match="service" mode="include">
+        <xsl:copy>
+            <xsl:attribute name="src" select="document-uri(/)"/>
+            <xsl:apply-templates select="@*|node()" mode="include"/>
+        </xsl:copy>
+    </xsl:template>
     <xsl:template match="include" mode="include">
-        <xsl:variable name="include" select="doc(@href)"/>
+        <xsl:variable name="include" select="doc(resolve-uri(@href, document-uri(/)))"/>
         <xsl:apply-templates select="$include" mode="include"/>
     </xsl:template>
 </xsl:stylesheet>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="US-ASCII" ?>
+<service xsi:noNamespaceSchemaLocation="../core/sedola.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <title>Web Browser Services</title>
+    <include href="html.xml"/>
+    <include href="../image/gif.xml"/>
+    <include href="../image/jpeg.xml"/>
+    <include href="../image/png.xml"/>
+    <include href="../atom/atom.xml"/>
+    <include href="../atom/opensearch.xml"/>
+</service>
