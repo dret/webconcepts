@@ -131,5 +131,65 @@
             <title>&lt;script src></title>
             <documentation source="http://www.w3.org/TR/html4/interact/scripts.html#edef-SCRIPT">This attribute specifies the location of an external script.</documentation>
         </link-relation>
+        <link-relation xml:id="html-linkrel-alternate">
+            <title>Alternate</title>
+            <documentation source="http://www.w3.org/TR/html4/types.html#type-links">Designates substitute versions for the document in which the link occurs. When used together with the lang attribute, it implies a translated version of the document. When used together with the media attribute, it implies a version designed for a different medium (or media).</documentation>
+        </link-relation>
+        <link-relation xml:id="html-linkrel-stylesheet">
+            <title>Stylesheet</title>
+            <documentation source="http://www.w3.org/TR/html4/types.html#type-links">Refers to an external style sheet. See the section on external style sheets for details. This is used together with the link type "Alternate" for user-selectable alternate style sheets.</documentation>
+        </link-relation>
+        <link-relation xml:id="html-linkrel-start">
+            <title>Start</title>
+            <documentation source="http://www.w3.org/TR/html4/types.html#type-links">Refers to the first document in a collection of documents. This link type tells search engines which document is considered by the author to be the starting point of the collection.</documentation>
+        </link-relation>
+        <link-relation xml:id="html-linkrel-next">
+            <title>Next</title>
+            <documentation source="http://www.w3.org/TR/html4/types.html#type-links">Refers to the next document in a linear sequence of documents. User agents may choose to preload the "next" document, to reduce the perceived load time.</documentation>
+        </link-relation>
+        <link-relation xml:id="html-linkrel-prev">
+            <title>Prev</title>
+            <documentation source="http://www.w3.org/TR/html4/types.html#type-links">Refers to the previous document in an ordered series of documents. Some user agents also support the synonym "Previous".</documentation>
+        </link-relation>
+        <link-relation xml:id="html-linkrel-contents">
+            <title>Contents</title>
+            <documentation source="http://www.w3.org/TR/html4/types.html#type-links">Refers to a document serving as a table of contents. Some user agents also support the synonym ToC (from "Table of Contents").</documentation>
+        </link-relation>
+        <link-relation xml:id="html-linkrel-index">
+            <title>Index</title>
+            <documentation source="http://www.w3.org/TR/html4/types.html#type-links">Refers to a document providing an index for the current document.</documentation>
+        </link-relation>
+        <link-relation xml:id="html-linkrel-glossary">
+            <title>Glossary</title>
+            <documentation source="http://www.w3.org/TR/html4/types.html#type-links">Refers to a document providing a glossary of terms that pertain to the current document.</documentation>
+        </link-relation>
+        <link-relation xml:id="html-linkrel-copyright">
+            <title>Copyright</title>
+            <documentation source="http://www.w3.org/TR/html4/types.html#type-links">Refers to a copyright statement for the current document.</documentation>
+        </link-relation>
+        <link-relation xml:id="html-linkrel-chapter">
+            <title>Chapter</title>
+            <documentation source="http://www.w3.org/TR/html4/types.html#type-links">Refers to a document serving as a chapter in a collection of documents.</documentation>
+        </link-relation>
+        <link-relation xml:id="html-linkrel-section">
+            <title>Section</title>
+            <documentation source="http://www.w3.org/TR/html4/types.html#type-links">Refers to a document serving as a section in a collection of documents.</documentation>
+        </link-relation>
+        <link-relation xml:id="html-linkrel-subsection">
+            <title>Subsection</title>
+            <documentation source="http://www.w3.org/TR/html4/types.html#type-links">Refers to a document serving as a subsection in a collection of documents.</documentation>
+        </link-relation>
+        <link-relation xml:id="html-linkrel-appendix">
+            <title>Appendix</title>
+            <documentation source="http://www.w3.org/TR/html4/types.html#type-links">Refers to a document serving as an appendix in a collection of documents.</documentation>
+        </link-relation>
+        <link-relation xml:id="html-linkrel-help">
+            <title>Help</title>
+            <documentation source="http://www.w3.org/TR/html4/types.html#type-links">Refers to a document offering help (more information, links to other sources information, etc.)</documentation>
+        </link-relation>
+        <link-relation xml:id="html-linkrel-bookmark">
+            <title>Bookmark</title>
+            <documentation source="http://www.w3.org/TR/html4/types.html#type-links">Refers to a bookmark. A bookmark is a link to a key entry point within an extended document. The title attribute may be used, for example, to label the bookmark. Note that several bookmarks may be defined in each document.</documentation>
+        </link-relation>
     </mediatype>
 </service>
