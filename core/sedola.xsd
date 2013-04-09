@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
-    <xs:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="http://www.w3.org/2001/xml.xsd">
+    <xs:import namespace="http://www.w3.org/XML/1998/namespace"
+        schemaLocation="http://www.w3.org/2001/xml.xsd">
         <xs:annotation>
             <xs:documentation>Get access to the xml: attribute groups that are in the XML namespace for XML itself.</xs:documentation>
         </xs:annotation>
@@ -27,13 +28,15 @@
                                 <xs:element name="resource" minOccurs="1" maxOccurs="unbounded">
                                     <xs:complexType>
                                         <xs:sequence>
-                                            <xs:group ref="title" minOccurs="0" maxOccurs="unbounded"/>
-                                            <xs:group ref="descriptions" minOccurs="0" maxOccurs="unbounded"/>
+                                            <xs:group ref="title" minOccurs="0"
+                                                maxOccurs="unbounded"/>
+                                            <xs:group ref="descriptions" minOccurs="0"
+                                                maxOccurs="unbounded"/>
                                         </xs:sequence>
                                         <xs:attribute ref="xml:id" use="required"/>
                                     </xs:complexType>
                                 </xs:element>
-                                <xs:element ref="linkrel" minOccurs="0" maxOccurs="unbounded"/>
+                                <xs:element ref="link" minOccurs="0" maxOccurs="unbounded"/>
                             </xs:sequence>
                             <xs:attribute ref="xml:id" use="required"/>
                             <xs:attribute name="type" type="mediaTypeType" use="required"/>
@@ -54,19 +57,19 @@
                             <xs:attribute name="href" type="xs:anyURI" use="optional"/>
                         </xs:complexType>
                     </xs:element>
-                    <xs:element ref="linkrel"/>
+                    <xs:element ref="link"/>
                 </xs:choice>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
-    <xs:element name="linkrel">
+    <xs:element name="link">
         <xs:complexType>
             <xs:sequence>
                 <xs:group ref="title" minOccurs="0" maxOccurs="unbounded"/>
                 <xs:group ref="descriptions" minOccurs="0" maxOccurs="unbounded"/>
             </xs:sequence>
             <xs:attribute ref="xml:id" use="required"/>
-            <xs:attribute name="name" use="optional">
+            <xs:attribute name="relation" use="optional">
                 <xs:annotation>
                     <xs:documentation>Must be names or URIs for RFC 5988 links, but links also can be encoded differently (for example in XML element names), in which case they don't have a @name.</xs:documentation>
                 </xs:annotation>
@@ -114,7 +117,9 @@
     </xs:group>
     <xs:simpleType name="mediaTypeType">
         <xs:restriction base="xs:token">
-            <xs:pattern value="[a-zA-Z0-9!#$%^&amp;\*_\-\+{}\|'\.`~]+/[a-zA-Z0-9!#$%^&amp;\*_\-\+{}\|'\.`~]+"/>
+            <xs:pattern
+                value="[a-zA-Z0-9!#$%^&amp;\*_\-\+{}\|'\.`~]+/[a-zA-Z0-9!#$%^&amp;\*_\-\+{}\|'\.`~]+"
+            />
         </xs:restriction>
     </xs:simpleType>
 </xs:schema>

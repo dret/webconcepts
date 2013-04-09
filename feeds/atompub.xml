@@ -14,10 +14,10 @@
             <documentation source="http://tools.ietf.org/html/rfc5023#section-8">For authoring to commence, a client needs to discover the capabilities and locations of the available Collections. Service Documents are designed to support this discovery process.</documentation>
         </resource>
     </mediatype>
-    <linkrel xml:id="edit">
+    <link xml:id="atompub-linkrel-edit" relation="edit">
         <documentation source="http://tools.ietf.org/html/rfc5023#section-11.1">The value of "edit" specifies that the value of the href attribute is the IRI of an editable Member Entry. When appearing within an atom:entry, the href IRI can be used to retrieve, update, and delete the Resource represented by that Entry. An atom:entry MUST NOT contain more than one "edit" link relation.</documentation>
-    </linkrel>
-    <linkrel xml:id="edit-media">
+    </link>
+    <link xml:id="atompub-linkrel-edit-media" relation="edit-media">
         <documentation source="http://tools.ietf.org/html/rfc5023#section-11.2">When appearing within an atom:entry, the value of the href attribute is an IRI that can be used to modify a Media Resource associated with that Entry.</documentation>
-    </linkrel>
+    </link>
 </service>
