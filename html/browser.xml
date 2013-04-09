@@ -5,6 +5,6 @@
     <include href="../image/gif.xml"/>
     <include href="../image/jpeg.xml"/>
     <include href="../image/png.xml"/>
-    <include href="../atom/atom.xml"/>
-    <include href="../atom/opensearch.xml"/>
+    <include href="../feeds/atom.xml"/>
+    <include href="../feeds/opensearch.xml"/>
 </service>

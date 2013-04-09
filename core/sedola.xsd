@@ -33,11 +33,10 @@
                                         <xs:attribute ref="xml:id" use="required"/>
                                     </xs:complexType>
                                 </xs:element>
-                                <xs:element ref="link-relation" minOccurs="0" maxOccurs="unbounded"/>
+                                <xs:element ref="linkrel" minOccurs="0" maxOccurs="unbounded"/>
                             </xs:sequence>
                             <xs:attribute ref="xml:id" use="required"/>
                             <xs:attribute name="type" type="mediaTypeType" use="required"/>
-                            <xs:attribute name="profile" type="xs:anyURI" use="optional"/>
                         </xs:complexType>
                     </xs:element>
                     <xs:element name="profile">
@@ -46,21 +45,35 @@
                                 <xs:group ref="title" minOccurs="0" maxOccurs="unbounded"/>
                                 <xs:group ref="descriptions" minOccurs="0" maxOccurs="unbounded"/>
                             </xs:sequence>
-                            <xs:attribute name="mediatype" type="xs:token" use="required"/>
+                            <xs:attribute ref="xml:id" use="required"/>
+                            <xs:attribute name="mediatypes" use="required">
+                                <xs:simpleType>
+                                    <xs:list itemType="xs:token"/>
+                                </xs:simpleType>
+                            </xs:attribute>
+                            <xs:attribute name="href" type="xs:anyURI" use="optional"/>
                         </xs:complexType>
                     </xs:element>
-                    <xs:element ref="link-relation"/>
+                    <xs:element ref="linkrel"/>
                 </xs:choice>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
-    <xs:element name="link-relation">
+    <xs:element name="linkrel">
         <xs:complexType>
             <xs:sequence>
                 <xs:group ref="title" minOccurs="0" maxOccurs="unbounded"/>
                 <xs:group ref="descriptions" minOccurs="0" maxOccurs="unbounded"/>
             </xs:sequence>
             <xs:attribute ref="xml:id" use="required"/>
+            <xs:attribute name="name" use="optional">
+                <xs:annotation>
+                    <xs:documentation>Must be names or URIs for RFC 5988 links, but links also can be encoded differently (for example in XML element names), in which case they don't have a @name.</xs:documentation>
+                </xs:annotation>
+                <xs:simpleType>
+                    <xs:union memberTypes="xs:anyURI xs:token"/>
+                </xs:simpleType>
+            </xs:attribute>
         </xs:complexType>
     </xs:element>
     <xs:group name="title">
