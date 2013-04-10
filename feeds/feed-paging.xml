@@ -9,7 +9,7 @@
         <documentation source="http://tools.ietf.org/html/rfc5005#section-3">A URI that refers to the furthest following document in a series of documents.</documentation>
     </link>
     <link xml:id="rfc5005-linkrel-previous" relation="previous">
-        <documentation source="http://tools.ietf.org/html/rfc5005#section-3">A URI that refers to the immediately preceding document in a series of documents..</documentation>
+        <documentation source="http://tools.ietf.org/html/rfc5005#section-3">A URI that refers to the immediately preceding document in a series of documents.</documentation>
     </link>
     <link xml:id="rfc5005-linkrel-next" relation="next">
         <documentation source="http://tools.ietf.org/html/rfc5005#section-3">A URI that refers to the immediately following document in a series of documents.</documentation>

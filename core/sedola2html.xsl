@@ -22,7 +22,7 @@
                         <style type="text/css">
                             a { text-decoration : none ; border-bottom : 1px dotted ; }
                             a:hover { background-color: #E0E0E0 ; }
-                            *:target { outline : red solid thin ; }
+                            *:target { outline : red solid medium ; }
                         </style>
                     </head>
                     <body>
@@ -31,9 +31,10 @@
                             <xsl:if test="exists(/service/title/@short)">
                                 <xsl:text> (</xsl:text>
                                 <xsl:value-of select="/service/title/@short"/>
-                                <xsl:text>></xsl:text>
+                                <xsl:text>)</xsl:text>
                             </xsl:if>
                         </h1>
+                        <h4><a href="service-index.html">Index</a></h4>
                         <hr size="5"/>
                         <div class="toc">
                             <ul>
@@ -191,7 +192,7 @@
                             </div>
                         </xsl:if>
                         <hr size="5"/>
-                        <h5>Service Index:</h5>
+                        <h2>Sources:</h2>
                         <ul>
                             <xsl:for-each select="//service">
                                 <li>
@@ -202,15 +203,72 @@
                                             <xsl:value-of select="title/@short"/>
                                             <xsl:text>)</xsl:text>
                                         </xsl:if>
-                                        <xsl:text>: </xsl:text>
                                     </b>
                                     <xsl:if test="exists(@src)">
-                                        <xsl:text> (included from </xsl:text>
+                                        <xsl:text>: included from </xsl:text>
                                         <a href="{@src}"><code><xsl:value-of select="@src"/></code></a>
-                                        <xsl:text>)</xsl:text>
                                     </xsl:if>
                                 </li>
                             </xsl:for-each>
+                        </ul>
+                    </body>
+                </html>
+            </xsl:for-each>
+        </xsl:result-document>
+        <xsl:result-document method="xhtml" href="../service-index.html">
+            <xsl:for-each select="$include">
+                <html>
+                    <head>
+                        <title>
+                            <xsl:value-of select="/service/title/text()"/>
+                            <xsl:if test="exists(/service/title/@short)">
+                                <xsl:text> (</xsl:text>
+                                <xsl:value-of select="/service/title/@short"/>
+                                <xsl:text>)</xsl:text>
+                            </xsl:if>
+                            <xsl:text> Index</xsl:text>
+                        </title>
+                        <style type="text/css">
+                            a { text-decoration : none ; border-bottom : 1px dotted ; }
+                            a:hover { background-color: #E0E0E0 ; }
+                            *:target { outline : red solid medium ; }
+                        </style>
+                    </head>
+                    <body>
+                        <h1>
+                            <a href="service.html">
+                                <xsl:value-of select="/service/title/text()"/>
+                                <xsl:if test="exists(/service/title/@short)">
+                                    <xsl:text> (</xsl:text>
+                                    <xsl:value-of select="/service/title/@short"/>
+                                    <xsl:text>)</xsl:text>
+                                </xsl:if>
+                            </a>
+                            <xsl:text> Index</xsl:text>
+                        </h1>
+                        <hr size="5"/>
+                        <ul>
+                            <xsl:for-each-group select="//*[exists(@xml:id)]" group-by="local-name()">
+                                <xsl:sort select="current-grouping-key()"/>
+                                <li>
+                                    <b><xsl:value-of select="current-grouping-key()"/>s</b>
+                                    <ul>
+                                        <xsl:for-each select="current-group()">
+                                            <li id="{@xml:id}">
+                                                <code><a href="service.html#{@xml:id}"><xsl:value-of select="@xml:id"/></a></code>
+                                                <xsl:text>: </xsl:text>
+                                                <xsl:choose>
+                                                    <xsl:when test="local-name() eq 'link' and empty(@relation)"><xsl:value-of select="title/text()"/> <small>[ <xsl:value-of select="documentation[1]/text()"/> ]</small></xsl:when>
+                                                    <xsl:when test="local-name() eq 'link' and exists(@relation)">Relation <code><xsl:value-of select="@relation"/></code> <small>[ <xsl:value-of select="documentation[1]/text()"/> ]</small></xsl:when>
+                                                    <xsl:when test="local-name() eq 'mediatype'"><code><xsl:value-of select="@type"/></code> <small>[ <xsl:value-of select=" if ( exists(documentation[1]/text()) ) then documentation[1]/text() else ../documentation[1]/text() "/> ]</small></xsl:when>
+                                                    <xsl:when test="local-name() eq 'profile' and empty(@relation)">Based on <a href="#{@mediatypes}" title="{//mediatype[@xml:id eq current()/@mediatypes]/documentation[1]/text()}"><code><xsl:value-of select="//mediatype[@xml:id eq current()/@mediatypes]/@type"/></code></a> <small>[ <xsl:value-of select="documentation[1]/text()"/> ]</small></xsl:when>
+                                                    <xsl:when test="local-name() eq 'resource' and empty(@relation)"><xsl:value-of select="title/text()"/> from <a href="#{../@xml:id}" title="{../documentation[1]/text()}"><code><xsl:value-of select="../@type"/></code></a> <small>[ <xsl:value-of select="documentation[1]/text()"/> ]</small></xsl:when>
+                                                </xsl:choose>
+                                            </li>
+                                        </xsl:for-each>
+                                    </ul>
+                                </li>
+                            </xsl:for-each-group>
                         </ul>
                     </body>
                 </html>
