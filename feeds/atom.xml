@@ -3,14 +3,14 @@
     <title short="Atom">Atom Syndication Format</title>
     <documentation source="http://tools.ietf.org/html/rfc4287">Atom is an XML-based document format that describes lists of related information known as "feeds".  Feeds are composed of a number of items, known as "entries", each with an extensible set of attached metadata.  For example, each entry has a title.</documentation>
     <mediatype xml:id="atom" type="application/atom+xml">
-        <resource xml:id="atom-feed">
+        <document xml:id="atom-feed">
             <title>Atom Feed Document</title>
             <documentation source="http://tools.ietf.org/html/rfc4287#section-2">An Atom Feed Document is a representation of an Atom feed, including metadata about the feed, and some or all of the entries associated with it. Its root is the atom:feed element.</documentation>
-        </resource>
-        <resource xml:id="atom-entry">
+        </document>
+        <document xml:id="atom-entry">
             <title>Atom Entry Document</title>
             <documentation source="http://tools.ietf.org/html/rfc4287#section-2">An Atom Entry Document represents exactly one Atom entry, outside of the context of an Atom feed. Its root is the atom:entry element.</documentation>
-        </resource>
+        </document>
         <link xml:id="atom-linkrel-alternate" relation="alternate">
             <documentation source="http://tools.ietf.org/html/rfc4287#section-4.2.7.2">The value "alternate" signifies that the IRI in the value of the href attribute identifies an alternate version of the resource described by the containing element.</documentation>
         </link>

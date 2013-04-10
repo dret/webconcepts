@@ -147,10 +147,10 @@
                                             </xsl:if>
                                         </p>
                                     </xsl:if>
-                                    <xsl:if test="exists(resource)">
-                                        <h4>Resources:</h4>
+                                    <xsl:if test="exists(document)">
+                                        <h4>Documents:</h4>
                                         <ul>
-                                            <xsl:for-each select="resource">
+                                            <xsl:for-each select="document">
                                                 <li id="{@xml:id}">
                                                     <b><xsl:value-of select="title/text()"/>: </b>
                                                     <xsl:copy-of select="documentation[1]"/>
@@ -262,7 +262,7 @@
                                                     <xsl:when test="local-name() eq 'link' and exists(@relation)">Relation <code><xsl:value-of select="@relation"/></code> <small>[ <xsl:value-of select="documentation[1]/text()"/> ]</small></xsl:when>
                                                     <xsl:when test="local-name() eq 'mediatype'"><code><xsl:value-of select="@type"/></code> <small>[ <xsl:value-of select=" if ( exists(documentation[1]/text()) ) then documentation[1]/text() else ../documentation[1]/text() "/> ]</small></xsl:when>
                                                     <xsl:when test="local-name() eq 'profile' and empty(@relation)">Based on <a href="#{@mediatypes}" title="{//mediatype[@xml:id eq current()/@mediatypes]/documentation[1]/text()}"><code><xsl:value-of select="//mediatype[@xml:id eq current()/@mediatypes]/@type"/></code></a> <small>[ <xsl:value-of select="documentation[1]/text()"/> ]</small></xsl:when>
-                                                    <xsl:when test="local-name() eq 'resource' and empty(@relation)"><xsl:value-of select="title/text()"/> from <a href="#{../@xml:id}" title="{../documentation[1]/text()}"><code><xsl:value-of select="../@type"/></code></a> <small>[ <xsl:value-of select="documentation[1]/text()"/> ]</small></xsl:when>
+                                                    <xsl:when test="local-name() eq 'document' and empty(@relation)"><xsl:value-of select="title/text()"/> from <a href="#{../@xml:id}" title="{../documentation[1]/text()}"><code><xsl:value-of select="../@type"/></code></a> <small>[ <xsl:value-of select="documentation[1]/text()"/> ]</small></xsl:when>
                                                 </xsl:choose>
                                             </li>
                                         </xsl:for-each>

@@ -25,7 +25,7 @@
                             <xs:sequence>
                                 <xs:group ref="title" minOccurs="0" maxOccurs="unbounded"/>
                                 <xs:group ref="descriptions" minOccurs="0" maxOccurs="unbounded"/>
-                                <xs:element name="resource" minOccurs="1" maxOccurs="unbounded">
+                                <xs:element name="document" minOccurs="1" maxOccurs="unbounded">
                                     <xs:complexType>
                                         <xs:sequence>
                                             <xs:group ref="title" minOccurs="0"
