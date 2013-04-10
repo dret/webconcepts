@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<service xsi:noNamespaceSchemaLocation="../core/sedola.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <title short="Template Descriptions"> URI Template Descriptions</title>
+    <documentation source="http://tools.ietf.org/html/draft-wilde-template-desc">Interactions with many resources on the Web are driven by and/or can be described by URI Templates. RFC 6570 says that "a URI Template is a compact sequence of characters for describing a range of Uniform Resource Identifiers through variable expansion." This specification defines Template Descriptions, a schema and a media type that can be used to document and describe a URI Template by supporting descriptive markup that allows variables to be associated with documentation (human-oriented) and/or descriptions (machine-oriented). Template Descriptions can be used by media types (by inclusion or by reference) that seek to make URI Templates self-describing, without having to create their own representation.</documentation>
+    <mediatype xml:id="template-desc" type="application/td+xml">
+        <resource xml:id="template-desc-document-xml">
+            <title>Template Descriptions (XML)</title>
+            <documentation source="http://tools.ietf.org/html/draft-wilde-template-desc#section-4.1">The Internet media type for a Template Description document is application/td+xml.</documentation>
+        </resource>
+    </mediatype>
+    <link xml:id="template-desc-linkrel-uri-template" relation="uri-template">
+        <documentation source="http://tools.ietf.org/html/draft-wilde-template-desc#section-4.1">Linking to a resource that can be used as a template description for creating a request URI for the context resource.</documentation>
+    </link>
+</service>
