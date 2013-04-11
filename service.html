@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?><html>
+   <head>
+      <title>Atom Publishing Protocol (AtomPub)</title>
+      <style type="text/css">
+         a { text-decoration : none ; border-bottom : 1px dotted ; }
+         a:hover { background-color: #E0E0E0 ; }
+         *:target { outline : red solid medium ; }
+         
+      </style>
+   </head>
+   <body>
+      <h1>Atom Publishing Protocol (AtomPub)</h1>
+      <h4>
+         <a href="service-index.html">Index</a>
+      </h4>
+      <hr size="5"></hr>
+      <div class="toc">
+         <ul>
+            <li>
+               <a href="#linkrels">
+                  <b>Link Relations: </b>
+               </a>
+               <a href="#atom-linkrel-alternate">alternate</a>; 
+               <a href="#atom-linkrel-related">related</a>; 
+               <a href="#atom-linkrel-self">self</a>; 
+               <a href="#atom-linkrel-enclosure">enclosure</a>; 
+               <a href="#atom-linkrel-via">via</a>; 
+               <a href="#atompub-linkrel-edit">edit</a>; 
+               <a href="#atompub-linkrel-edit-media">edit-media</a>; 
+            </li>
+            <li>
+               <a href="#mediatypes">
+                  <b>Media Types: </b>
+               </a>
+               <a href="#atom" name="Atom">Atom Syndication Format</a>; 
+               <a href="#atompub-category" name="AtomPub">Atom Publishing Protocol</a>; 
+               <a href="#atompub-service" name="AtomPub">Atom Publishing Protocol</a>; 
+            </li>
+         </ul>
+      </div>
+      <hr size="5"></hr>
+      <div class="linkrelations">
+         <h2 id="mediatypes&gt;">Link Relations</h2>
+         <ul>
+            <li id="atompub-linkrel-edit">
+               <b>
+                  <code>edit</code>: 
+               </b>
+               <documentation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" source="http://tools.ietf.org/html/rfc5023#section-11.1">The value of "edit" specifies that the value of the href attribute is the IRI of an
+                  editable Member Entry. When appearing within an atom:entry, the href IRI can be used
+                  to retrieve, update, and delete the Resource represented by that Entry. An atom:entry
+                  MUST NOT contain more than one "edit" link relation.
+               </documentation> 
+               <em>
+                  <a href="http://tools.ietf.org/html/rfc5023#section-11.1">more...</a>
+               </em>
+            </li>
+            <li id="atompub-linkrel-edit-media">
+               <b>
+                  <code>edit-media</code>: 
+               </b>
+               <documentation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" source="http://tools.ietf.org/html/rfc5023#section-11.2">When appearing within an atom:entry, the value of the href attribute is an IRI that
+                  can be used to modify a Media Resource associated with that Entry.
+               </documentation> 
+               <em>
+                  <a href="http://tools.ietf.org/html/rfc5023#section-11.2">more...</a>
+               </em>
+            </li>
+         </ul>
+      </div>
+      <hr size="5"></hr>
+      <hr size="5"></hr>
+      <div class="mediatypes">
+         <h2 id="mediatypes&gt;">Media Types</h2>
+         <hr></hr>
+         <h3 id="atom">
+            <code>
+               <b>application/atom+xml: </b>
+            </code>Atom Syndication Format (Atom)
+         </h3>
+         <h4>Documents:</h4>
+         <ul>
+            <li id="atom-feed">
+               <b>Atom Feed Document: </b>
+               <documentation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" source="http://tools.ietf.org/html/rfc4287#section-2">An Atom Feed Document is a representation of an Atom feed, including metadata about
+                  the feed, and some or all of the entries associated with it. Its root is the atom:feed
+                  element.
+               </documentation> 
+               <em>
+                  <a href="http://tools.ietf.org/html/rfc4287#section-2">more...</a>
+               </em>
+            </li>
+            <li id="atom-entry">
+               <b>Atom Entry Document: </b>
+               <documentation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" source="http://tools.ietf.org/html/rfc4287#section-2">An Atom Entry Document represents exactly one Atom entry, outside of the context of
+                  an Atom feed. Its root is the atom:entry element.
+               </documentation> 
+               <em>
+                  <a href="http://tools.ietf.org/html/rfc4287#section-2">more...</a>
+               </em>
+            </li>
+         </ul>
+         <h4>Links and Link Relations:</h4>
+         <ul>
+            <li id="atom-linkrel-alternate">
+               <b>
+                  <code>alternate</code>: 
+               </b>
+               <documentation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" source="http://tools.ietf.org/html/rfc4287#section-4.2.7.2">The value "alternate" signifies that the IRI in the value of the href attribute identifies
+                  an alternate version of the resource described by the containing element.
+               </documentation> 
+               <em>
+                  <a href="http://tools.ietf.org/html/rfc4287#section-4.2.7.2">more...</a>
+               </em>
+            </li>
+            <li id="atom-linkrel-related">
+               <b>
+                  <code>related</code>: 
+               </b>
+               <documentation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" source="http://tools.ietf.org/html/rfc4287#section-4.2.7.2">The value "related" signifies that the IRI in the value of the href attribute identifies
+                  a resource related to the resource described by the containing element.  For example,
+                  the feed for a site that discusses the performance of the search engine at "http://search.example.com"
+                  might contain, as a child of atom:feed: &lt;link rel="related" href="http://search.example.com/"/&gt;
+                  An identical link might appear as a child of any atom:entry whose content contains
+                  a discussion of that same search engine.
+               </documentation> 
+               <em>
+                  <a href="http://tools.ietf.org/html/rfc4287#section-4.2.7.2">more...</a>
+               </em>
+            </li>
+            <li id="atom-linkrel-self">
+               <b>
+                  <code>self</code>: 
+               </b>
+               <documentation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" source="http://tools.ietf.org/html/rfc4287#section-4.2.7.2">The value "self" signifies that the IRI in the value of the href attribute identifies
+                  a resource equivalent to the containing element.
+               </documentation> 
+               <em>
+                  <a href="http://tools.ietf.org/html/rfc4287#section-4.2.7.2">more...</a>
+               </em>
+            </li>
+            <li id="atom-linkrel-enclosure">
+               <b>
+                  <code>enclosure</code>: 
+               </b>
+               <documentation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" source="http://tools.ietf.org/html/rfc4287#section-4.2.7.2">The value "enclosure" signifies that the IRI in the value of the href attribute identifies
+                  a related resource that is potentially large in size and might require special handling.
+                  For atom:link elements with rel="enclosure", the length attribute SHOULD be provided.
+               </documentation> 
+               <em>
+                  <a href="http://tools.ietf.org/html/rfc4287#section-4.2.7.2">more...</a>
+               </em>
+            </li>
+            <li id="atom-linkrel-via">
+               <b>
+                  <code>via</code>: 
+               </b>
+               <documentation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" source="http://tools.ietf.org/html/rfc4287#section-4.2.7.2">The value "via" signifies that the IRI in the value of the href attribute identifies
+                  a resource that is the source of the information provided in the containing element.
+               </documentation> 
+               <em>
+                  <a href="http://tools.ietf.org/html/rfc4287#section-4.2.7.2">more...</a>
+               </em>
+            </li>
+         </ul>
+         <hr></hr>
+         <h3 id="atompub-category">
+            <code>
+               <b>application/atomcat+xml: </b>
+            </code>Atom Publishing Protocol (AtomPub)
+         </h3>
+         <h4>Documents:</h4>
+         <ul>
+            <li id="atompub-categorydoc">
+               <b>Atom Category Document: </b>
+               <documentation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" source="http://tools.ietf.org/html/rfc5023#section-7">Category Documents contain lists of categories described using the "atom:category"
+                  element from the Atom Syndication Format.
+               </documentation> 
+               <em>
+                  <a href="http://tools.ietf.org/html/rfc5023#section-7">more...</a>
+               </em>
+            </li>
+         </ul>
+         <hr></hr>
+         <h3 id="atompub-service">
+            <code>
+               <b>application/atomsvc+xml: </b>
+            </code>Atom Publishing Protocol (AtomPub)
+         </h3>
+         <h4>Documents:</h4>
+         <ul>
+            <li id="atompub-servicedoc">
+               <b>Atom Service Document: </b>
+               <documentation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" source="http://tools.ietf.org/html/rfc5023#section-8">For authoring to commence, a client needs to discover the capabilities and locations
+                  of the available Collections. Service Documents are designed to support this discovery
+                  process.
+               </documentation> 
+               <em>
+                  <a href="http://tools.ietf.org/html/rfc5023#section-8">more...</a>
+               </em>
+            </li>
+         </ul>
+      </div>
+      <hr size="5"></hr>
+      <h2>Sources:</h2>
+      <ul>
+         <li>
+            <b>Atom Publishing Protocol (AtomPub)</b>
+         </li>
+         <li>
+            <b>Atom Syndication Format (Atom)</b>: included from 
+            <a href="file:/Users/dret/Desktop/github/sedola/feeds/atom.xml">
+               <code>file:/Users/dret/Desktop/github/sedola/feeds/atom.xml</code>
+            </a>
+         </li>
+      </ul>
+   </body>
+</html>

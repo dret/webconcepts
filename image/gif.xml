@@ -4,5 +4,6 @@
     <mediatype xml:id="gif" type="image/gif">
         <title short="GIF">Graphics Interchange Format</title>
         <documentation source="http://www.w3.org/Graphics/GIF/spec-gif89a.txt">The Graphics Interchange Format(sm) defines a protocol intended for the on-line transmission and interchange of raster graphic data in a way that is independent of the hardware used in their creation or display.</documentation>
+        <document xml:id="gif-image"/>
     </mediatype>
 </service>

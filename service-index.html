@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?><html>
+   <head>
+      <title>Atom Publishing Protocol (AtomPub) Index</title>
+      <style type="text/css">
+         a { text-decoration : none ; border-bottom : 1px dotted ; }
+         a:hover { background-color: #E0E0E0 ; }
+         *:target { outline : red solid medium ; }
+         
+      </style>
+   </head>
+   <body>
+      <h1>
+         <a href="service.html">Atom Publishing Protocol (AtomPub)</a> Index
+      </h1>
+      <hr size="5"></hr>
+      <ul>
+         <li>
+            <b>documents</b>
+            <ul>
+               <li id="atom-feed">
+                  <code>
+                     <a href="service.html#atom-feed">atom-feed</a>
+                  </code>: Atom Feed Document from 
+                  <a href="#atom" title="">
+                     <code>application/atom+xml</code>
+                  </a>
+                  <small>[ An Atom Feed Document is a representation of an Atom feed, including metadata about
+                     the feed, and some or all of the entries associated with it. Its root is the atom:feed
+                     element. ]
+                  </small>
+               </li>
+               <li id="atom-entry">
+                  <code>
+                     <a href="service.html#atom-entry">atom-entry</a>
+                  </code>: Atom Entry Document from 
+                  <a href="#atom" title="">
+                     <code>application/atom+xml</code>
+                  </a>
+                  <small>[ An Atom Entry Document represents exactly one Atom entry, outside of the context of
+                     an Atom feed. Its root is the atom:entry element. ]
+                  </small>
+               </li>
+               <li id="atompub-categorydoc">
+                  <code>
+                     <a href="service.html#atompub-categorydoc">atompub-categorydoc</a>
+                  </code>: Atom Category Document from 
+                  <a href="#atompub-category" title="">
+                     <code>application/atomcat+xml</code>
+                  </a>
+                  <small>[ Category Documents contain lists of categories described using the "atom:category"
+                     element from the Atom Syndication Format. ]
+                  </small>
+               </li>
+               <li id="atompub-servicedoc">
+                  <code>
+                     <a href="service.html#atompub-servicedoc">atompub-servicedoc</a>
+                  </code>: Atom Service Document from 
+                  <a href="#atompub-service" title="">
+                     <code>application/atomsvc+xml</code>
+                  </a>
+                  <small>[ For authoring to commence, a client needs to discover the capabilities and locations
+                     of the available Collections. Service Documents are designed to support this discovery
+                     process. ]
+                  </small>
+               </li>
+            </ul>
+         </li>
+         <li>
+            <b>links</b>
+            <ul>
+               <li id="atom-linkrel-alternate">
+                  <code>
+                     <a href="service.html#atom-linkrel-alternate">atom-linkrel-alternate</a>
+                  </code>: Relation 
+                  <code>alternate</code>
+                  <small>[ The value "alternate" signifies that the IRI in the value of the href attribute identifies
+                     an alternate version of the resource described by the containing element. ]
+                  </small>
+               </li>
+               <li id="atom-linkrel-related">
+                  <code>
+                     <a href="service.html#atom-linkrel-related">atom-linkrel-related</a>
+                  </code>: Relation 
+                  <code>related</code>
+                  <small>[ The value "related" signifies that the IRI in the value of the href attribute identifies
+                     a resource related to the resource described by the containing element.  For example,
+                     the feed for a site that discusses the performance of the search engine at "http://search.example.com"
+                     might contain, as a child of atom:feed: &lt;link rel="related" href="http://search.example.com/"/&gt;
+                     An identical link might appear as a child of any atom:entry whose content contains
+                     a discussion of that same search engine. ]
+                  </small>
+               </li>
+               <li id="atom-linkrel-self">
+                  <code>
+                     <a href="service.html#atom-linkrel-self">atom-linkrel-self</a>
+                  </code>: Relation 
+                  <code>self</code>
+                  <small>[ The value "self" signifies that the IRI in the value of the href attribute identifies
+                     a resource equivalent to the containing element. ]
+                  </small>
+               </li>
+               <li id="atom-linkrel-enclosure">
+                  <code>
+                     <a href="service.html#atom-linkrel-enclosure">atom-linkrel-enclosure</a>
+                  </code>: Relation 
+                  <code>enclosure</code>
+                  <small>[ The value "enclosure" signifies that the IRI in the value of the href attribute identifies
+                     a related resource that is potentially large in size and might require special handling.
+                     For atom:link elements with rel="enclosure", the length attribute SHOULD be provided. ]
+                  </small>
+               </li>
+               <li id="atom-linkrel-via">
+                  <code>
+                     <a href="service.html#atom-linkrel-via">atom-linkrel-via</a>
+                  </code>: Relation 
+                  <code>via</code>
+                  <small>[ The value "via" signifies that the IRI in the value of the href attribute identifies
+                     a resource that is the source of the information provided in the containing element. ]
+                  </small>
+               </li>
+               <li id="atompub-linkrel-edit">
+                  <code>
+                     <a href="service.html#atompub-linkrel-edit">atompub-linkrel-edit</a>
+                  </code>: Relation 
+                  <code>edit</code>
+                  <small>[ The value of "edit" specifies that the value of the href attribute is the IRI of an
+                     editable Member Entry. When appearing within an atom:entry, the href IRI can be used
+                     to retrieve, update, and delete the Resource represented by that Entry. An atom:entry
+                     MUST NOT contain more than one "edit" link relation. ]
+                  </small>
+               </li>
+               <li id="atompub-linkrel-edit-media">
+                  <code>
+                     <a href="service.html#atompub-linkrel-edit-media">atompub-linkrel-edit-media</a>
+                  </code>: Relation 
+                  <code>edit-media</code>
+                  <small>[ When appearing within an atom:entry, the value of the href attribute is an IRI that
+                     can be used to modify a Media Resource associated with that Entry. ]
+                  </small>
+               </li>
+            </ul>
+         </li>
+         <li>
+            <b>mediatypes</b>
+            <ul>
+               <li id="atom">
+                  <code>
+                     <a href="service.html#atom">atom</a>
+                  </code>: 
+                  <code>application/atom+xml</code>
+                  <small>[ Atom is an XML-based document format that describes lists of related information known
+                     as "feeds".  Feeds are composed of a number of items, known as "entries", each with
+                     an extensible set of attached metadata.  For example, each entry has a title. ]
+                  </small>
+               </li>
+               <li id="atompub-category">
+                  <code>
+                     <a href="service.html#atompub-category">atompub-category</a>
+                  </code>: 
+                  <code>application/atomcat+xml</code>
+                  <small>[  ]</small>
+               </li>
+               <li id="atompub-service">
+                  <code>
+                     <a href="service.html#atompub-service">atompub-service</a>
+                  </code>: 
+                  <code>application/atomsvc+xml</code>
+                  <small>[  ]</small>
+               </li>
+            </ul>
+         </li>
+      </ul>
+   </body>
+</html>
