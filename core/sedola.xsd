@@ -27,7 +27,8 @@
                                 <xs:group ref="title" minOccurs="1" maxOccurs="unbounded"/>
                                 <xs:group ref="descriptions" minOccurs="0" maxOccurs="unbounded"/>
                             </xs:sequence>
-                            <xs:attribute name="href" type="xs:anyURI"/>
+                            <xs:attribute ref="xml:id" use="required"/>
+                            <xs:attribute name="href" type="xs:anyURI" use="optional"/>
                             <xs:assert test="count((@href, td:td)) le 1">
                                 <xs:annotation>
                                     <xs:documentation>@href (a resource having a concrete URI) and td:td (a resource set identified by a template description) are mutually exclusive.</xs:documentation>
