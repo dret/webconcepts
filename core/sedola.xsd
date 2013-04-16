@@ -72,6 +72,16 @@
                         </xs:complexType>
                     </xs:element>
                     <xs:element ref="link"/>
+                    <xs:element name="uri-parameter">
+                        <xs:complexType>
+                            <xs:attribute ref="xml:id" use="required"/>
+                            <xs:attribute name="name" use="required">
+                                <xs:simpleType>
+                                    <xs:union memberTypes="xs:anyURI xs:NCName"/>
+                                </xs:simpleType>
+                            </xs:attribute>
+                        </xs:complexType>
+                    </xs:element>
                 </xs:choice>
             </xs:sequence>
         </xs:complexType>
