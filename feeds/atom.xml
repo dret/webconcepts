@@ -27,4 +27,8 @@
             <documentation source="http://tools.ietf.org/html/rfc4287#section-4.2.7.2">The value "via" signifies that the IRI in the value of the href attribute identifies a resource that is the source of the information provided in the containing element.</documentation>
         </link>
     </mediatype>
+    <vocabulary xml:id="atom-vocabulary" id="http://www.w3.org/2005/Atom" type="xmlns">
+        <title>The Atom Vocabulary</title>
+        <documentation source="http://tools.ietf.org/html/rfc4287#appendix-B">The Relax NG schema explicitly excludes elements in the Atom namespace that are not defined in this revision of the specification.</documentation>
+    </vocabulary>
 </service>

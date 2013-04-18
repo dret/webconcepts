@@ -179,4 +179,28 @@
             <documentation source="http://www.w3.org/TR/html4/types.html#type-links">Refers to a bookmark. A bookmark is a link to a key entry point within an extended document. The title attribute may be used, for example, to label the bookmark. Note that several bookmarks may be defined in each document.</documentation>
         </link>
     </mediatype>
+    <vocabulary xml:id="html-vocabulary-html-strict" id="-//W3C//DTD HTML 4.01//EN" type="FPI">
+        <title>HTML 4.01 Strict DTD</title>
+        <documentation source="http://www.w3.org/TR/html4/sgml/dtd.html">This is HTML 4.01 Strict DTD, which excludes the presentation attributes and elements that W3C expects to phase out as support for style sheets matures. Authors should use the Strict DTD when possible, but may use the Transitional DTD when support for presentation attribute and elements is required.</documentation>
+    </vocabulary>
+    <vocabulary xml:id="html-vocabulary-html-transitional" id="-//W3C//DTD HTML 4.01 Transitional//EN" type="FPI">
+        <title>HTML 4.01 Transitional DTD</title>
+        <documentation source="http://www.w3.org/TR/html4/sgml/loosedtd.html">This is the HTML 4.01 Transitional DTD, which includes presentation attributes and elements that W3C expects to phase out as support for style sheets matures. Authors should use the Strict DTD when possible, but may use the Transitional DTD when support for presentation attribute and elements is required.</documentation>
+    </vocabulary>
+    <vocabulary xml:id="html-vocabulary-html-frameset" id="-//W3C//DTD HTML 4.01 Frameset//EN   " type="FPI">
+        <title>HTML 4.01 Frameset DTD</title>
+        <documentation source="http://www.w3.org/TR/html4/sgml/dtd.html">This is the HTML 4.01 Frameset DTD, which should be used for documents with frames. This DTD is identical to the HTML 4.01 Transitional DTD except for the content model of the "HTML" element: in frameset documents, the "FRAMESET" element replaces the "BODY" element.</documentation>
+    </vocabulary>
+    <vocabulary xml:id="html-vocabulary-xhtml-strict" id="-//W3C//DTD XHTML 1.0 Strict//EN" type="FPI">
+        <title>Extensible HTML version 1.0 Strict DTD</title>
+        <documentation source="http://www.w3.org/TR/html/dtds.html#a_dtd_XHTML-1.0-Strict">This is the same as HTML 4 Strict except for changes due to the differences between XML and SGML.</documentation>
+    </vocabulary>
+    <vocabulary xml:id="html-vocabulary-xhtml-transitional" id="-//W3C//DTD XHTML 1.0 Transitional//EN" type="FPI">
+        <title>Extensible HTML version 1.0 Transitional DTD</title>
+        <documentation source="http://www.w3.org/TR/html/dtds.html#a_dtd_XHTML-1.0-Transitional">This is the same as HTML 4 Transitional except for changes due to the differences between XML and SGML.</documentation>
+    </vocabulary>
+    <vocabulary xml:id="html-vocabulary-xhtml-frameset" id="-//W3C//DTD XHTML 1.0 Frameset//EN" type="FPI">
+        <title>Extensible HTML version 1.0 Frameset DTD</title>
+        <documentation source="http://www.w3.org/TR/html/dtds.html#a_dtd_XHTML-1.0-Frameset">This is the same as HTML 4 Frameset except for changes due to the differences between XML and SGML.</documentation>
+    </vocabulary>
 </service>

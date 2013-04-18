@@ -82,6 +82,31 @@
                             </xs:attribute>
                         </xs:complexType>
                     </xs:element>
+                    <xs:element name="vocabulary">
+                        <xs:complexType>
+                            <xs:sequence>
+                                <xs:group ref="title" minOccurs="0" maxOccurs="unbounded"/>
+                                <xs:group ref="descriptions" minOccurs="0" maxOccurs="unbounded"/>
+                            </xs:sequence>
+                            <xs:attribute ref="xml:id" use="required"/>
+                            <xs:attribute name="id" type="xs:token" use="required"/>
+                            <xs:attribute name="type" use="optional">
+                                <xs:simpleType>
+                                    <xs:union>
+                                        <xs:simpleType>
+                                            <xs:restriction base="xs:token">
+                                                <xs:enumeration value="xmlns"/>
+                                                <xs:enumeration value="FPI"/>
+                                            </xs:restriction>
+                                        </xs:simpleType>
+                                        <xs:simpleType>
+                                            <xs:restriction base="xs:token"/>
+                                        </xs:simpleType>
+                                    </xs:union>
+                                </xs:simpleType>
+                            </xs:attribute>
+                        </xs:complexType>
+                    </xs:element>
                 </xs:choice>
             </xs:sequence>
         </xs:complexType>
