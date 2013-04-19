@@ -48,6 +48,11 @@
                                             <xs:group ref="descriptions" minOccurs="0" maxOccurs="unbounded"/>
                                         </xs:sequence>
                                         <xs:attribute ref="xml:id" use="required"/>
+                                        <xs:attribute name="vocabularies" use="optional">
+                                            <xs:simpleType>
+                                                <xs:list itemType="xs:token"/>
+                                            </xs:simpleType>
+                                        </xs:attribute>
                                     </xs:complexType>
                                 </xs:element>
                                 <xs:element ref="link" minOccurs="0" maxOccurs="unbounded"/>
