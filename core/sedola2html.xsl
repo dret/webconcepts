@@ -71,12 +71,23 @@
                                         </xsl:for-each>
                                     </li>
                                 </xsl:if>
+                                <xsl:if test="exists(//vocabulary)">
+                                    <li>
+                                        <a href="#mediatypes"><b>Vocabularies: </b></a>
+                                        <xsl:for-each select="//vocabulary">
+                                            <a href="#{@xml:id}" name="{ if ( exists(title/@short) ) then title/@short else ../title/@short }">
+                                                <xsl:value-of select="if ( exists(title/text()) ) then title/text() else ../title/text()"/>
+                                            </a>
+                                            <xsl:text>; </xsl:text>
+                                        </xsl:for-each>
+                                    </li>
+                                </xsl:if>
                             </ul>
                         </div>
                         <hr size="5"/>
                         <xsl:if test="exists(//link[exists(parent::service)][exists(@relation)])">
                             <div class="linkrelations">
-                                <h2 id="mediatypes>">Link Relations</h2>
+                                <h2 id="linkrelations>">Link Relations</h2>
                                 <ul>
                                     <xsl:for-each select="//link[exists(parent::service)][exists(@relation)]">
                                         <li id="{@xml:id}">
@@ -124,6 +135,24 @@
                         </div>
                         </xsl:if>
                         <hr size="5"/>
+                        <xsl:if test="exists(//vocabulary)">
+                            <div class="vocabularies">
+                                <h2>Vocabularies:</h2>
+                                <ul>
+                                    <xsl:for-each select="//vocabulary">
+                                        <li id="{@xml:id}">
+                                            <b><xsl:value-of select="title/text()"/>: </b>
+                                            <xsl:copy-of select="documentation[1]"/>
+                                            <xsl:if test="exists(documentation[1]/@source)">
+                                                <xsl:text> </xsl:text>
+                                                <em><a href="{documentation[1]/@source}">more...</a></em>
+                                            </xsl:if>
+                                        </li>
+                                    </xsl:for-each>
+                                </ul>
+                            </div>
+                        </xsl:if>
+                        <hr size="5"/>
                         <xsl:if test="exists(//mediatype)">
                             <div class="mediatypes">
                                 <h2 id="mediatypes>">Media Types</h2>
@@ -152,7 +181,30 @@
                                         <ul>
                                             <xsl:for-each select="document">
                                                 <li id="{@xml:id}">
-                                                    <b><xsl:value-of select="title/text()"/>: </b>
+                                                    <b><xsl:value-of select="title/text()"/></b>
+                                                    <xsl:if test="exists(@vocabularies)">
+                                                        <b>(Vocabularies: </b>
+                                                        <xsl:for-each select="tokenize(@vocabularies, '\s+')">
+                                                            <xsl:variable name="vocab" select="$include//vocabulary[@xml:id eq current()]"/>
+                                                            <xsl:choose>
+                                                                <xsl:when test="exists($vocab/title/@short)">
+                                                                    <a href="#{current()}" title="{$vocab/title/text()}">
+                                                                        <xsl:value-of select="$vocab/title/@short"/>
+                                                                    </a>
+                                                                </xsl:when>
+                                                                <xsl:otherwise>
+                                                                    <a href="#{current()}">
+                                                                        <xsl:value-of select="$vocab/title/text()"/>
+                                                                    </a>
+                                                                </xsl:otherwise>
+                                                            </xsl:choose>
+                                                            <xsl:if test="position() ne last()">
+                                                                <xsl:text>; </xsl:text>
+                                                            </xsl:if>
+                                                        </xsl:for-each>
+                                                        <xsl:text>)</xsl:text>
+                                                    </xsl:if>
+                                                    <xsl:text>: </xsl:text>
                                                     <xsl:copy-of select="documentation[1]"/>
                                                     <xsl:if test="exists(documentation[1]/@source)">
                                                         <xsl:text> </xsl:text>
@@ -251,7 +303,7 @@
                             <xsl:for-each-group select="//*[exists(@xml:id)]" group-by="local-name()">
                                 <xsl:sort select="current-grouping-key()"/>
                                 <li>
-                                    <b><xsl:value-of select="current-grouping-key()"/>s</b>
+                                    <b><xsl:value-of select="current-grouping-key()"/></b>
                                     <ul>
                                         <xsl:for-each select="current-group()">
                                             <li id="{@xml:id}">
@@ -261,8 +313,9 @@
                                                     <xsl:when test="local-name() eq 'link' and empty(@relation)"><xsl:value-of select="title/text()"/> <small>[ <xsl:value-of select="documentation[1]/text()"/> ]</small></xsl:when>
                                                     <xsl:when test="local-name() eq 'link' and exists(@relation)">Relation <code><xsl:value-of select="@relation"/></code> <small>[ <xsl:value-of select="documentation[1]/text()"/> ]</small></xsl:when>
                                                     <xsl:when test="local-name() eq 'mediatype'"><code><xsl:value-of select="@type"/></code> <small>[ <xsl:value-of select=" if ( exists(documentation[1]/text()) ) then documentation[1]/text() else ../documentation[1]/text() "/> ]</small></xsl:when>
-                                                    <xsl:when test="local-name() eq 'profile' and empty(@relation)">Based on <a href="#{@mediatypes}" title="{//mediatype[@xml:id eq current()/@mediatypes]/documentation[1]/text()}"><code><xsl:value-of select="//mediatype[@xml:id eq current()/@mediatypes]/@type"/></code></a> <small>[ <xsl:value-of select="documentation[1]/text()"/> ]</small></xsl:when>
-                                                    <xsl:when test="local-name() eq 'document' and empty(@relation)"><xsl:value-of select="title/text()"/> from <a href="#{../@xml:id}" title="{../documentation[1]/text()}"><code><xsl:value-of select="../@type"/></code></a> <small>[ <xsl:value-of select="documentation[1]/text()"/> ]</small></xsl:when>
+                                                    <xsl:when test="local-name() eq 'profile'">Based on <a href="#{@mediatypes}" title="{//mediatype[@xml:id eq current()/@mediatypes]/documentation[1]/text()}"><code><xsl:value-of select="//mediatype[@xml:id eq current()/@mediatypes]/@type"/></code></a> <small>[ <xsl:value-of select="documentation[1]/text()"/> ]</small></xsl:when>
+                                                    <xsl:when test="local-name() eq 'document'"><xsl:value-of select="title/text()"/> from <a href="#{../@xml:id}" title="{../documentation[1]/text()}"><code><xsl:value-of select="../@type"/></code></a> <small>[ <xsl:value-of select="documentation[1]/text()"/> ]</small></xsl:when>
+                                                    <xsl:when test="local-name() eq 'vocabulary'"><xsl:value-of select="title/text()"/> <small>[ <xsl:value-of select="documentation[1]/text()"/> ]</small></xsl:when>
                                                 </xsl:choose>
                                             </li>
                                         </xsl:for-each>
