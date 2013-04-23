@@ -33,6 +33,7 @@
                                 <xsl:value-of select="/service/title/@short"/>
                                 <xsl:text>)</xsl:text>
                             </xsl:if>
+                            <xsl:text> Service</xsl:text>
                         </h1>
                         <h4><a href="service-index.html">Index</a></h4>
                         <hr size="5"/>
@@ -54,7 +55,20 @@
                                         <a href="#linkrels"><b>Link Relations: </b></a>
                                         <xsl:for-each select="//link[exists(@relation)]">
                                             <a href="#{@xml:id}">
-                                                <xsl:value-of select="@relation"/>
+                                                <code>
+                                                    <xsl:value-of select="@relation"/>
+                                                </code>
+                                            </a>
+                                            <xsl:text>; </xsl:text>
+                                        </xsl:for-each>
+                                    </li>
+                                </xsl:if>
+                                <xsl:if test="exists(//vocabulary)">
+                                    <li>
+                                        <a href="#mediatypes"><b>Vocabularies: </b></a>
+                                        <xsl:for-each select="//vocabulary">
+                                            <a href="#{@xml:id}" name="{ if ( exists(title/@short) ) then title/@short else ../title/@short }">
+                                                <xsl:value-of select="if ( exists(title/text()) ) then title/text() else ../title/text()"/>
                                             </a>
                                             <xsl:text>; </xsl:text>
                                         </xsl:for-each>
@@ -71,12 +85,14 @@
                                         </xsl:for-each>
                                     </li>
                                 </xsl:if>
-                                <xsl:if test="exists(//vocabulary)">
+                                <xsl:if test="exists(//http-header)">
                                     <li>
-                                        <a href="#mediatypes"><b>Vocabularies: </b></a>
-                                        <xsl:for-each select="//vocabulary">
-                                            <a href="#{@xml:id}" name="{ if ( exists(title/@short) ) then title/@short else ../title/@short }">
-                                                <xsl:value-of select="if ( exists(title/text()) ) then title/text() else ../title/text()"/>
+                                        <a href="#mediatypes"><b>HTTP Headers: </b></a>
+                                        <xsl:for-each select="//http-header">
+                                            <a href="#{@xml:id}">
+                                                <code>
+                                                    <xsl:value-of select="@id"/>
+                                                </code>
                                             </a>
                                             <xsl:text>; </xsl:text>
                                         </xsl:for-each>
@@ -241,6 +257,34 @@
                                         </ul>
                                     </xsl:if>
                                 </xsl:for-each>
+                                <hr size="5"/>
+                                <xsl:if test="exists(//http-header)">
+                                    <div class="http-headers">
+                                        <h2>HTTP Headers:</h2>
+                                        <ul>
+                                            <xsl:for-each select="//http-header">
+                                                <li id="{@xml:id}">
+                                                    <b>
+                                                        <xsl:value-of select="@id"/>
+                                                        <xsl:text> (</xsl:text>
+                                                        <xsl:choose>
+                                                            <xsl:when test="@type eq 'general'">General</xsl:when>
+                                                            <xsl:when test="@type eq 'request'">Request</xsl:when>
+                                                            <xsl:when test="@type eq 'response'">Response</xsl:when>
+                                                            <xsl:when test="@type eq 'entity'">Entity</xsl:when>
+                                                        </xsl:choose>
+                                                        <xsl:text> Header):  </xsl:text>
+                                                    </b>
+                                                    <xsl:copy-of select="documentation[1]"/>
+                                                    <xsl:if test="exists(documentation[1]/@source)">
+                                                        <xsl:text> </xsl:text>
+                                                        <em><a href="{documentation[1]/@source}">more...</a></em>
+                                                    </xsl:if>
+                                                </li>
+                                            </xsl:for-each>
+                                        </ul>
+                                    </div>
+                                </xsl:if>
                             </div>
                         </xsl:if>
                         <hr size="5"/>
@@ -278,7 +322,7 @@
                                 <xsl:value-of select="/service/title/@short"/>
                                 <xsl:text>)</xsl:text>
                             </xsl:if>
-                            <xsl:text> Index</xsl:text>
+                            <xsl:text> Service Index</xsl:text>
                         </title>
                         <style type="text/css">
                             a { text-decoration : none ; border-bottom : 1px dotted ; }
@@ -316,6 +360,7 @@
                                                     <xsl:when test="local-name() eq 'profile'">Based on <a href="#{@mediatypes}" title="{//mediatype[@xml:id eq current()/@mediatypes]/documentation[1]/text()}"><code><xsl:value-of select="//mediatype[@xml:id eq current()/@mediatypes]/@type"/></code></a> <small>[ <xsl:value-of select="documentation[1]/text()"/> ]</small></xsl:when>
                                                     <xsl:when test="local-name() eq 'document'"><xsl:value-of select="title/text()"/> from <a href="#{../@xml:id}" title="{../documentation[1]/text()}"><code><xsl:value-of select="../@type"/></code></a> <small>[ <xsl:value-of select="documentation[1]/text()"/> ]</small></xsl:when>
                                                     <xsl:when test="local-name() eq 'vocabulary'"><xsl:value-of select="title/text()"/> <small>[ <xsl:value-of select="documentation[1]/text()"/> ]</small></xsl:when>
+                                                    <xsl:when test="local-name() eq 'http-header'"> <small>[ <xsl:value-of select="documentation[1]/text()"/> ]</small></xsl:when>
                                                 </xsl:choose>
                                             </li>
                                         </xsl:for-each>

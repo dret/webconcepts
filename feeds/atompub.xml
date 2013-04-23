@@ -3,12 +3,14 @@
     <title short="AtomPub">Atom Publishing Protocol</title>
     <include href="atom.xml"/>
     <mediatype xml:id="atompub-category" type="application/atomcat+xml">
+        <documentation source="http://tools.ietf.org/html/rfc5023#section-16.1">An Atom Publishing Protocol Category Document, when serialized as XML 1.0, can be identified with the following media type.</documentation>
         <document xml:id="atompub-categorydoc" vocabularies="atompub-vocabulary">
             <title>Atom Category Document</title>
             <documentation source="http://tools.ietf.org/html/rfc5023#section-7">Category Documents contain lists of categories described using the "atom:category" element from the Atom Syndication Format.</documentation>
         </document>
     </mediatype>
     <mediatype xml:id="atompub-service" type="application/atomsvc+xml">
+        <documentation source="http://tools.ietf.org/html/rfc5023#section-16.2">An Atom Publishing Protocol Service Document, when serialized as XML 1.0, can be identified with the following media type.</documentation>
         <document xml:id="atompub-servicedoc" vocabularies="atompub-vocabulary">
             <title>Atom Service Document</title>
             <documentation source="http://tools.ietf.org/html/rfc5023#section-8">For authoring to commence, a client needs to discover the capabilities and locations of the available Collections. Service Documents are designed to support this discovery process.</documentation>
@@ -24,4 +26,8 @@
         <title>The AtomPub Vocabulary</title>
         <documentation source="http://tools.ietf.org/html/rfc5023#appendix-B">The Relax NG schema explicitly excludes elements in the Atom Protocol namespace that are not defined in this revision of the specification.</documentation>
     </vocabulary>
+    <http-header xml:id="atompub-slug" id="Slug" type="entity">
+        <title>The Slug Header</title>
+        <documentation source="http://tools.ietf.org/html/rfc5023#section-9.7">Slug is an HTTP entity-header whose presence in a POST to a Collection constitutes a request by the client to use the header's value as part of any URIs that would normally be used to retrieve the to-be-created Entry or Media Resources.</documentation>
+    </http-header>
 </service>
