@@ -115,7 +115,7 @@
                     <xs:element name="http-header">
                         <xs:complexType>
                             <xs:sequence>
-                                <!-- HTTP Headers need no titles, their name should serve as their title. -->
+                                <!-- HTTP Headers need no title, their name should serve as their title. -->
                                 <xs:group ref="descriptions" minOccurs="0" maxOccurs="unbounded"/>
                             </xs:sequence>
                             <xs:attribute ref="xml:id" use="required"/>
