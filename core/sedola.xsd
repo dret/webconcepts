@@ -145,10 +145,16 @@
             <xs:attribute ref="xml:id" use="required"/>
             <xs:attribute name="relation" use="optional">
                 <xs:annotation>
-                    <xs:documentation>Must be names or URIs for RFC 5988 links, but links also can be encoded differently (for example in XML element names), in which case they don't have a @name.</xs:documentation>
+                    <xs:documentation source="http://tools.ietf.org/html/rfc5988#section-4">Link relations must be names or URIs for RFC 5988 links. Links also can be encoded differently (for example in XML element names), in which case they don't have a @relation.</xs:documentation>
                 </xs:annotation>
                 <xs:simpleType>
-                    <xs:union memberTypes="xs:anyURI xs:token"/>
+                    <xs:restriction base="xs:token">
+                        <xs:pattern value="[a-z][a-z0-9\.\-]+">
+                            <xs:annotation>
+                                <xs:documentation source="http://tools.ietf.org/html/rfc5988#section-5">reg-rel-type = LOALPHA *( LOALPHA | DIGIT | "." | "-" )</xs:documentation>
+                            </xs:annotation>
+                        </xs:pattern>
+                    </xs:restriction>
                 </xs:simpleType>
             </xs:attribute>
         </xs:complexType>

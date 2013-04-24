@@ -100,8 +100,8 @@
                                 </xsl:if>
                             </ul>
                         </div>
-                        <hr size="5"/>
                         <xsl:if test="exists(//link[exists(parent::service)][exists(@relation)])">
+                            <hr size="5"/>
                             <div class="linkrelations">
                                 <h2 id="linkrelations>">Link Relations</h2>
                                 <ul>
@@ -121,8 +121,8 @@
                                 </ul>
                             </div>
                         </xsl:if>
-                        <hr size="5"/>
                         <xsl:if test="exists(//profile)">
+                            <hr size="5"/>
                             <div class="profiles">
                                 <h2 id="profiles>">Profiles</h2>
                                 <xsl:for-each select="//profile">
@@ -150,8 +150,8 @@
                                 </xsl:for-each>
                         </div>
                         </xsl:if>
-                        <hr size="5"/>
                         <xsl:if test="exists(//vocabulary)">
+                            <hr size="5"/>
                             <div class="vocabularies">
                                 <h2>Vocabularies:</h2>
                                 <ul>
@@ -168,8 +168,8 @@
                                 </ul>
                             </div>
                         </xsl:if>
-                        <hr size="5"/>
                         <xsl:if test="exists(//mediatype)">
+                            <hr size="5"/>
                             <div class="mediatypes">
                                 <h2 id="mediatypes>">Media Types</h2>
                                 <xsl:for-each select="//mediatype">
@@ -257,8 +257,8 @@
                                         </ul>
                                     </xsl:if>
                                 </xsl:for-each>
-                                <hr size="5"/>
                                 <xsl:if test="exists(//http-header)">
+                                    <hr size="5"/>
                                     <div class="http-headers">
                                         <h2>HTTP Headers:</h2>
                                         <ul>
@@ -288,7 +288,7 @@
                             </div>
                         </xsl:if>
                         <hr size="5"/>
-                        <h2>Sources:</h2>
+                        <h2>Service Sources:</h2>
                         <ul>
                             <xsl:for-each select="//service">
                                 <li>
@@ -350,6 +350,7 @@
                                     <b><xsl:value-of select="current-grouping-key()"/></b>
                                     <ul>
                                         <xsl:for-each select="current-group()">
+                                            <xsl:sort select="@xml:id"/>
                                             <li id="{@xml:id}">
                                                 <code><a href="service.html#{@xml:id}"><xsl:value-of select="@xml:id"/></a></code>
                                                 <xsl:text>: </xsl:text>
