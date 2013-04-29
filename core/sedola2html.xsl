@@ -41,8 +41,10 @@
                             <ul>
                                 <xsl:if test="exists(//profile)">
                                     <li>
-                                        <a href="#profiles"><b>Profiles: </b></a>
+                                        <a href="#profiles"><b>Profiles</b></a>
+                                        <xsl:text>: </xsl:text>
                                         <xsl:for-each select="//profile">
+                                            <xsl:sort select="@href"/>
                                             <a href="#{@xml:id}" name="{ if ( exists(title/@short) ) then title/@short else ../title/@short }">
                                                 <xsl:value-of select="if ( exists(title/text()) ) then title/text() else ../title/text()"/>
                                             </a>
@@ -52,8 +54,10 @@
                                 </xsl:if>
                                 <xsl:if test="exists(//link[exists(@relation)])">
                                     <li>
-                                        <a href="#linkrels"><b>Link Relations: </b></a>
+                                        <a href="#linkrels"><b>Link Relations</b></a>
+                                        <xsl:text>: </xsl:text>
                                         <xsl:for-each select="//link[exists(@relation)]">
+                                            <xsl:sort select="@relation"/>
                                             <a href="#{@xml:id}">
                                                 <code>
                                                     <xsl:value-of select="@relation"/>
@@ -65,8 +69,10 @@
                                 </xsl:if>
                                 <xsl:if test="exists(//vocabulary)">
                                     <li>
-                                        <a href="#mediatypes"><b>Vocabularies: </b></a>
+                                        <a href="#mediatypes"><b>Vocabularies</b></a>
+                                        <xsl:text>: </xsl:text>
                                         <xsl:for-each select="//vocabulary">
+                                            <xsl:sort select="if ( exists(title/@short) ) then title/@short else ../title/@short"/>
                                             <a href="#{@xml:id}" name="{ if ( exists(title/@short) ) then title/@short else ../title/@short }">
                                                 <xsl:value-of select="if ( exists(title/text()) ) then title/text() else ../title/text()"/>
                                             </a>
@@ -76,10 +82,12 @@
                                 </xsl:if>
                                 <xsl:if test="exists(//mediatype)">
                                     <li>
-                                        <a href="#mediatypes"><b>Media Types: </b></a>
+                                        <a href="#mediatypes"><b>Media Types</b></a>
+                                        <xsl:text>: </xsl:text>
                                         <xsl:for-each select="//mediatype">
+                                            <xsl:sort select="@type"/>
                                             <a href="#{@xml:id}" name="{ if ( exists(title/@short) ) then title/@short else ../title/@short }">
-                                                <xsl:value-of select="if ( exists(title/text()) ) then title/text() else ../title/text()"/>
+                                                <xsl:value-of select="@type"/>
                                             </a>
                                             <xsl:text>; </xsl:text>
                                         </xsl:for-each>
@@ -87,11 +95,13 @@
                                 </xsl:if>
                                 <xsl:if test="exists(//http-header)">
                                     <li>
-                                        <a href="#mediatypes"><b>HTTP Headers: </b></a>
+                                        <a href="#mediatypes"><b>HTTP Headers</b></a>
+                                        <xsl:text>: </xsl:text>
                                         <xsl:for-each select="//http-header">
+                                            <xsl:sort select="@name"/>
                                             <a href="#{@xml:id}">
                                                 <code>
-                                                    <xsl:value-of select="@id"/>
+                                                    <xsl:value-of select="@name"/>
                                                 </code>
                                             </a>
                                             <xsl:text>; </xsl:text>
@@ -106,6 +116,7 @@
                                 <h2 id="linkrelations>">Link Relations</h2>
                                 <ul>
                                     <xsl:for-each select="//link[exists(parent::service)][exists(@relation)]">
+                                        <xsl:sort select="@relation"/>
                                         <li id="{@xml:id}">
                                             <b>
                                                 <code><xsl:value-of select="@relation"/></code>
@@ -126,6 +137,7 @@
                             <div class="profiles">
                                 <h2 id="profiles>">Profiles</h2>
                                 <xsl:for-each select="//profile">
+                                    <xsl:sort select="@href"/>
                                     <hr/>
                                     <h3 id="{@xml:id}">
                                         <code><b><xsl:value-of select="@href"/>: </b></code>
@@ -156,6 +168,7 @@
                                 <h2>Vocabularies:</h2>
                                 <ul>
                                     <xsl:for-each select="//vocabulary">
+                                        <xsl:sort select="if ( exists(title/@short) ) then title/@short else ../title/@short"/>
                                         <li id="{@xml:id}">
                                             <b><xsl:value-of select="title/text()"/>: </b>
                                             <xsl:copy-of select="documentation[1]"/>
@@ -173,6 +186,7 @@
                             <div class="mediatypes">
                                 <h2 id="mediatypes>">Media Types</h2>
                                 <xsl:for-each select="//mediatype">
+                                    <xsl:sort select="@type"/>
                                     <hr/>
                                     <h3 id="{@xml:id}">
                                         <code><b><xsl:value-of select="@type"/>: </b></code>
@@ -235,6 +249,7 @@
                                         <ul>
                                             <xsl:for-each select="link">
                                                 <xsl:sort select="exists(@relation)"/>
+                                                <xsl:sort select="@relation"/>
                                                 <li id="{@xml:id}">
                                                     <b>
                                                         <xsl:choose>
@@ -263,9 +278,10 @@
                                         <h2>HTTP Headers:</h2>
                                         <ul>
                                             <xsl:for-each select="//http-header">
+                                                <xsl:sort select="@name"/>
                                                 <li id="{@xml:id}">
                                                     <b>
-                                                        <xsl:value-of select="@id"/>
+                                                        <xsl:value-of select="@name"/>
                                                         <xsl:text> (</xsl:text>
                                                         <xsl:choose>
                                                             <xsl:when test="@type eq 'general'">General</xsl:when>

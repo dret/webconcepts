@@ -60,7 +60,7 @@
         </link>
     </mediatype>
     <vocabulary xml:id="atom-vocabulary" id="http://www.w3.org/2005/Atom" type="xmlns">
-        <title>The Atom Vocabulary</title>
+        <title>The Atom XML Vocabulary</title>
         <documentation source="http://tools.ietf.org/html/rfc4287#appendix-B">The Relax NG schema explicitly excludes elements in the Atom namespace that are not defined in this revision of the specification.</documentation>
     </vocabulary>
 </service>
