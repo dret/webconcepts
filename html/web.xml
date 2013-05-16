@@ -5,7 +5,7 @@
     <include href="../image/gif.xml"/>
     <include href="../image/jpeg.xml"/>
     <include href="../image/png.xml"/>
-    <include href="../feeds/atom.xml"/>
-    <include href="../feeds/feed-paging.xml"/>
+    <include href="../feeds/rfc4287.xml"/>
+    <include href="../feeds/rfc5005.xml"/>
     <include href="../feeds/opensearch.xml"/>
 </service>

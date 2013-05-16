@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <service xsi:noNamespaceSchemaLocation="../core/sedola.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <title short="AtomPub">Atom Publishing Protocol</title>
-    <include href="atom.xml"/>
+    <include href="rfc4287.xml"/>
     <mediatype xml:id="atompub-category" type="application/atomcat+xml">
         <documentation source="http://tools.ietf.org/html/rfc5023#section-16.1">An Atom Publishing Protocol Category Document, when serialized as XML 1.0, can be identified with the following media type.</documentation>
         <document xml:id="atompub-categorydoc" vocabularies="atompub-vocabulary">
