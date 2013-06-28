@@ -1,0 +1,1030 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified"
+  targetNamespace="urn:ietf:params:xml:ns:vcard-4.0" xmlns:vcard="urn:ietf:params:xml:ns:vcard-4.0">
+  <!-- 3.3 -->
+  <xs:simpleType name="iana-token">
+    <xs:annotation>
+      <xs:documentation>Section 3.3: vCard Format Specification</xs:documentation>
+    </xs:annotation>
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[a-zA-Z0-9-]+"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="x-name">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="x-[a-zA-Z0-9-]+"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <!-- 4.1 -->
+  <xs:element name="text" type="xs:string"/>
+  <xs:group name="value-text-list">
+    <xs:sequence>
+      <xs:element maxOccurs="unbounded" ref="vcard:text"/>
+    </xs:sequence>
+  </xs:group>
+  <!-- 4.2 -->
+  <xs:element name="uri" type="xs:anyURI"/>
+  <!-- 4.3.1 -->
+  <xs:element name="date" substitutionGroup="vcard:value-date-and-or-time">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:pattern value="\d{8}|\d{4}-\d\d|--\d\d(\d\d)?|---\d\d"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+  <!-- 4.3.2 -->
+  <xs:element name="time" substitutionGroup="vcard:value-date-and-or-time">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:pattern value="(\d\d(\d\d(\d\d)?)?|-\d\d(\d\d?)|--\d\d)(Z|[+\-]\d\d(\d\d)?)?"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+  <!-- 4.3.3 -->
+  <xs:element name="date-time" substitutionGroup="vcard:value-date-and-or-time">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:pattern value="(\d{8}|--\d{4}|---\d\d)T\d\d(\d\d(\d\d)?)?(Z|[+\-]\d\d(\d\d)?)?"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+  <!-- 4.3.4 -->
+  <xs:element name="value-date-and-or-time" abstract="true"/>
+  <!-- 4.3.5 -->
+  <xs:complexType name="value-timestamp">
+    <xs:sequence>
+      <xs:element ref="vcard:timestamp"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="timestamp">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:pattern value="\d{8}T\d{6}(Z|[+\-]\d\d(\d\d)?)?"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+  <!-- 4.4 -->
+  <xs:element name="boolean" type="xs:boolean"/>
+  <!-- 4.5 -->
+  <xs:element name="integer" type="xs:integer"/>
+  <!-- 4.6 -->
+  <xs:element name="float" type="xs:float"/>
+  <!-- 4.7 -->
+  <xs:element name="utc-offset">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:pattern value="[+\-]\d\d(\d\d)?"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+  <!-- 4.8 -->
+  <xs:element name="language-tag">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:pattern
+          value="([a-z]{2,3}((-[a-z]{3}){0,3})?|[a-z]{4,8})(-[a-z]{4})?(-([a-z]{2}|\d{3}))?(-([0-9a-z]{5,8}|\d[0-9a-z]{3}))*(-[0-9a-wyz](-[0-9a-z]{2,8})+)*(-x(-[0-9a-z]{1,8})+)?|x(-[0-9a-z]{1,8})+|[a-z]{1,3}(-[0-9a-z]{2,8}){1,2}"
+        />
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+  <!-- 5.1 -->
+  <xs:group name="param-language">
+    <xs:annotation>
+      <xs:documentation>Section 5: Parameters</xs:documentation>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element minOccurs="0" ref="vcard:language"/>
+    </xs:sequence>
+  </xs:group>
+  <xs:element name="language">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="vcard:language-tag"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <!-- 5.2 -->
+  <xs:group name="param-pref">
+    <xs:sequence>
+      <xs:element minOccurs="0" ref="vcard:pref"/>
+    </xs:sequence>
+  </xs:group>
+  <xs:element name="pref">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="integer">
+          <xs:simpleType>
+            <xs:restriction base="xs:integer">
+              <xs:minInclusive value="1"/>
+              <xs:maxInclusive value="100"/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <!-- 5.4 -->
+  <xs:group name="param-altid">
+    <xs:sequence>
+      <xs:element minOccurs="0" ref="vcard:altid"/>
+    </xs:sequence>
+  </xs:group>
+  <xs:element name="altid">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="vcard:text"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <!-- 5.5 -->
+  <xs:group name="param-pid">
+    <xs:sequence>
+      <xs:element minOccurs="0" ref="vcard:pid"/>
+    </xs:sequence>
+  </xs:group>
+  <xs:element name="pid">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" name="text">
+          <xs:simpleType>
+            <xs:restriction base="xs:string">
+              <xs:pattern value="\d+(\.\d+)?"/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <!-- 5.6 -->
+  <xs:group name="param-type">
+    <xs:sequence>
+      <xs:element minOccurs="0" ref="vcard:type"/>
+    </xs:sequence>
+  </xs:group>
+  <xs:element name="type">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" name="text">
+          <xs:simpleType>
+            <xs:restriction base="xs:token">
+              <xs:enumeration value="work"/>
+              <xs:enumeration value="home"/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <!-- 5.7 -->
+  <xs:group name="param-mediatype">
+    <xs:sequence>
+      <xs:element minOccurs="0" ref="vcard:mediatype"/>
+    </xs:sequence>
+  </xs:group>
+  <xs:element name="mediatype">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="vcard:text"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <!-- 5.8 -->
+  <xs:group name="param-calscale">
+    <xs:sequence>
+      <xs:element minOccurs="0" ref="vcard:calscale"/>
+    </xs:sequence>
+  </xs:group>
+  <xs:element name="calscale">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="text">
+          <xs:simpleType>
+            <xs:restriction base="xs:token">
+              <xs:enumeration value="gregorian"/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <!-- 5.9 -->
+  <xs:group name="param-sort-as">
+    <xs:sequence>
+      <xs:element minOccurs="0" ref="vcard:sort-as"/>
+    </xs:sequence>
+  </xs:group>
+  <xs:element name="sort-as">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="vcard:text"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <!-- 5.10 -->
+  <xs:group name="param-geo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="geo">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element ref="vcard:uri"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:group>
+  <!-- 5.11 -->
+  <xs:group name="param-tz">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="tz">
+        <xs:complexType>
+          <xs:choice>
+            <xs:element ref="vcard:text"/>
+            <xs:element ref="vcard:uri"/>
+          </xs:choice>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:group>
+  <!-- 6.1.3 -->
+  <xs:element name="source">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="parameters">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:group ref="vcard:param-altid"/>
+              <xs:group ref="vcard:param-pid"/>
+              <xs:group ref="vcard:param-pref"/>
+              <xs:group ref="vcard:param-mediatype"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element ref="vcard:uri"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <!-- 6.1.4 -->
+  <xs:element name="kind">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" name="text">
+          <xs:simpleType>
+            <xs:union memberTypes="vcard:x-name vcard:iana-token">
+              <xs:simpleType>
+                <xs:restriction base="xs:token">
+                  <xs:enumeration value="individual"/>
+                </xs:restriction>
+              </xs:simpleType>
+              <xs:simpleType>
+                <xs:restriction base="xs:token">
+                  <xs:enumeration value="group"/>
+                </xs:restriction>
+              </xs:simpleType>
+              <xs:simpleType>
+                <xs:restriction base="xs:token">
+                  <xs:enumeration value="org"/>
+                </xs:restriction>
+              </xs:simpleType>
+              <xs:simpleType>
+                <xs:restriction base="xs:token">
+                  <xs:enumeration value="location"/>
+                </xs:restriction>
+              </xs:simpleType>
+            </xs:union>
+          </xs:simpleType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <!-- 6.2.1 -->
+  <xs:element name="fn">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="parameters">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:group ref="vcard:param-language"/>
+              <xs:group ref="vcard:param-altid"/>
+              <xs:group ref="vcard:param-pid"/>
+              <xs:group ref="vcard:param-pref"/>
+              <xs:group ref="vcard:param-type"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element ref="vcard:text"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <!-- 6.2.2 -->
+  <xs:element name="n">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="parameters">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:group ref="vcard:param-language"/>
+              <xs:group ref="vcard:param-sort-as"/>
+              <xs:group ref="vcard:param-altid"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element maxOccurs="unbounded" ref="vcard:surname"/>
+        <xs:element maxOccurs="unbounded" ref="vcard:given"/>
+        <xs:element maxOccurs="unbounded" ref="vcard:additional"/>
+        <xs:element maxOccurs="unbounded" ref="vcard:prefix"/>
+        <xs:element maxOccurs="unbounded" ref="vcard:suffix"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="surname" type="xs:string"/>
+  <xs:element name="given" type="xs:string"/>
+  <xs:element name="additional" type="xs:string"/>
+  <xs:element name="prefix" type="xs:string"/>
+  <xs:element name="suffix" type="xs:string"/>
+  <!-- 6.2.3 -->
+  <xs:element name="nickname">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="parameters">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:group ref="vcard:param-language"/>
+              <xs:group ref="vcard:param-altid"/>
+              <xs:group ref="vcard:param-pid"/>
+              <xs:group ref="vcard:param-pref"/>
+              <xs:group ref="vcard:param-type"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:group ref="vcard:value-text-list"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <!-- 6.2.4 -->
+  <xs:element name="photo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="parameters">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:group ref="vcard:param-altid"/>
+              <xs:group ref="vcard:param-pid"/>
+              <xs:group ref="vcard:param-pref"/>
+              <xs:group ref="vcard:param-type"/>
+              <xs:group ref="vcard:param-mediatype"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element ref="vcard:uri"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <!-- 6.2.5 -->
+  <xs:element name="bday">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="parameters">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:group ref="vcard:param-altid"/>
+              <xs:group ref="vcard:param-calscale"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:choice>
+          <xs:element ref="vcard:value-date-and-or-time"/>
+          <xs:element ref="vcard:text"/>
+        </xs:choice>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <!-- 6.2.6 -->
+  <xs:element name="anniversary">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="parameters">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:group ref="vcard:param-altid"/>
+              <xs:group ref="vcard:param-calscale"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:choice>
+          <xs:element ref="vcard:value-date-and-or-time"/>
+          <xs:element ref="vcard:text"/>
+        </xs:choice>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <!-- 6.2.7 -->
+  <xs:element name="gender">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="vcard:sex"/>
+        <xs:element minOccurs="0" ref="vcard:identity"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="sex">
+    <xs:simpleType>
+      <xs:restriction base="xs:token">
+        <xs:enumeration value=""/>
+        <xs:enumeration value="M"/>
+        <xs:enumeration value="F"/>
+        <xs:enumeration value="O"/>
+        <xs:enumeration value="N"/>
+        <xs:enumeration value="U"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+  <xs:element name="identity" type="xs:string"/>
+  <!-- 6.3.1 -->
+  <xs:group name="param-label">
+    <xs:sequence>
+      <xs:element minOccurs="0" ref="vcard:label"/>
+    </xs:sequence>
+  </xs:group>
+  <xs:element name="label">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="vcard:text"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="adr">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="parameters">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:group ref="vcard:param-language"/>
+              <xs:group ref="vcard:param-altid"/>
+              <xs:group ref="vcard:param-pid"/>
+              <xs:group ref="vcard:param-pref"/>
+              <xs:group ref="vcard:param-type"/>
+              <xs:group ref="vcard:param-geo"/>
+              <xs:group ref="vcard:param-tz"/>
+              <xs:group ref="vcard:param-label"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element maxOccurs="unbounded" ref="vcard:pobox"/>
+        <xs:element maxOccurs="unbounded" ref="vcard:ext"/>
+        <xs:element maxOccurs="unbounded" ref="vcard:street"/>
+        <xs:element maxOccurs="unbounded" ref="vcard:locality"/>
+        <xs:element maxOccurs="unbounded" ref="vcard:region"/>
+        <xs:element maxOccurs="unbounded" ref="vcard:code"/>
+        <xs:element maxOccurs="unbounded" ref="vcard:country"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="pobox" type="xs:string"/>
+  <xs:element name="ext" type="xs:string"/>
+  <xs:element name="street" type="xs:string"/>
+  <xs:element name="locality" type="xs:string"/>
+  <xs:element name="region" type="xs:string"/>
+  <xs:element name="code" type="xs:string"/>
+  <xs:element name="country" type="xs:string"/>
+  <!-- 6.4.1 -->
+  <xs:element name="tel">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="parameters">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:group ref="vcard:param-altid"/>
+              <xs:group ref="vcard:param-pid"/>
+              <xs:group ref="vcard:param-pref"/>
+              <xs:element minOccurs="0" name="type">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element maxOccurs="unbounded" name="text">
+                      <xs:simpleType>
+                        <xs:restriction base="xs:token">
+                          <xs:enumeration value="work"/>
+                          <xs:enumeration value="home"/>
+                          <xs:enumeration value="text"/>
+                          <xs:enumeration value="voice"/>
+                          <xs:enumeration value="fax"/>
+                          <xs:enumeration value="cell"/>
+                          <xs:enumeration value="video"/>
+                          <xs:enumeration value="pager"/>
+                          <xs:enumeration value="textphone"/>
+                        </xs:restriction>
+                      </xs:simpleType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:group ref="vcard:param-mediatype"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:choice>
+          <xs:element ref="vcard:text"/>
+          <xs:element ref="vcard:uri"/>
+        </xs:choice>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <!-- 6.4.2 -->
+  <xs:element name="email">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="parameters">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:group ref="vcard:param-altid"/>
+              <xs:group ref="vcard:param-pid"/>
+              <xs:group ref="vcard:param-pref"/>
+              <xs:group ref="vcard:param-type"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element ref="vcard:text"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <!-- 6.4.3 -->
+  <xs:element name="impp">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="parameters">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:group ref="vcard:param-altid"/>
+              <xs:group ref="vcard:param-pid"/>
+              <xs:group ref="vcard:param-pref"/>
+              <xs:group ref="vcard:param-type"/>
+              <xs:group ref="vcard:param-mediatype"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element ref="vcard:uri"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <!-- 6.4.4 -->
+  <xs:element name="lang">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="parameters">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:group ref="vcard:param-altid"/>
+              <xs:group ref="vcard:param-pid"/>
+              <xs:group ref="vcard:param-pref"/>
+              <xs:group ref="vcard:param-type"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element ref="vcard:language-tag"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <!-- 6.5.1 -->
+  <xs:group name="property-tz">
+    <xs:sequence>
+      <xs:element name="tz">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="parameters">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:group ref="vcard:param-altid"/>
+                  <xs:group ref="vcard:param-pid"/>
+                  <xs:group ref="vcard:param-pref"/>
+                  <xs:group ref="vcard:param-type"/>
+                  <xs:group ref="vcard:param-mediatype"/>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:choice>
+              <xs:element ref="vcard:text"/>
+              <xs:element ref="vcard:uri"/>
+              <xs:element ref="vcard:utc-offset"/>
+            </xs:choice>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:group>
+  <!-- 6.5.2 -->
+  <xs:group name="property-geo">
+    <xs:sequence>
+      <xs:element name="geo">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="parameters">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:group ref="vcard:param-altid"/>
+                  <xs:group ref="vcard:param-pid"/>
+                  <xs:group ref="vcard:param-pref"/>
+                  <xs:group ref="vcard:param-type"/>
+                  <xs:group ref="vcard:param-mediatype"/>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element ref="vcard:uri"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:group>
+  <!-- 6.6.1 -->
+  <xs:element name="title">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="parameters">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:group ref="vcard:param-language"/>
+              <xs:group ref="vcard:param-altid"/>
+              <xs:group ref="vcard:param-pid"/>
+              <xs:group ref="vcard:param-pref"/>
+              <xs:group ref="vcard:param-type"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element ref="vcard:text"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <!-- 6.6.2 -->
+  <xs:element name="role">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="parameters">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:group ref="vcard:param-language"/>
+              <xs:group ref="vcard:param-altid"/>
+              <xs:group ref="vcard:param-pid"/>
+              <xs:group ref="vcard:param-pref"/>
+              <xs:group ref="vcard:param-type"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element ref="vcard:text"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <!-- 6.6.3 -->
+  <xs:element name="logo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="parameters">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:group ref="vcard:param-language"/>
+              <xs:group ref="vcard:param-altid"/>
+              <xs:group ref="vcard:param-pid"/>
+              <xs:group ref="vcard:param-pref"/>
+              <xs:group ref="vcard:param-type"/>
+              <xs:group ref="vcard:param-mediatype"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element ref="vcard:uri"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <!-- 6.6.4 -->
+  <xs:element name="org">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="parameters">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:group ref="vcard:param-language"/>
+              <xs:group ref="vcard:param-altid"/>
+              <xs:group ref="vcard:param-pid"/>
+              <xs:group ref="vcard:param-pref"/>
+              <xs:group ref="vcard:param-type"/>
+              <xs:group ref="vcard:param-sort-as"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:group ref="vcard:value-text-list"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <!-- 6.6.5 -->
+  <xs:element name="member">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="parameters">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:group ref="vcard:param-altid"/>
+              <xs:group ref="vcard:param-pid"/>
+              <xs:group ref="vcard:param-pref"/>
+              <xs:group ref="vcard:param-mediatype"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element ref="vcard:uri"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <!-- 6.6.6 -->
+  <xs:element name="related">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="parameters">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:group ref="vcard:param-altid"/>
+              <xs:group ref="vcard:param-pid"/>
+              <xs:group ref="vcard:param-pref"/>
+              <xs:element minOccurs="0" name="type">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element maxOccurs="unbounded" name="text">
+                      <xs:simpleType>
+                        <xs:restriction base="xs:token">
+                          <xs:enumeration value="work"/>
+                          <xs:enumeration value="home"/>
+                          <xs:enumeration value="contact"/>
+                          <xs:enumeration value="acquaintance"/>
+                          <xs:enumeration value="friend"/>
+                          <xs:enumeration value="met"/>
+                          <xs:enumeration value="co-worker"/>
+                          <xs:enumeration value="colleague"/>
+                          <xs:enumeration value="co-resident"/>
+                          <xs:enumeration value="neighbor"/>
+                          <xs:enumeration value="child"/>
+                          <xs:enumeration value="parent"/>
+                          <xs:enumeration value="sibling"/>
+                          <xs:enumeration value="spouse"/>
+                          <xs:enumeration value="kin"/>
+                          <xs:enumeration value="muse"/>
+                          <xs:enumeration value="crush"/>
+                          <xs:enumeration value="date"/>
+                          <xs:enumeration value="sweetheart"/>
+                          <xs:enumeration value="me"/>
+                          <xs:enumeration value="agent"/>
+                          <xs:enumeration value="emergency"/>
+                        </xs:restriction>
+                      </xs:simpleType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:group ref="vcard:param-mediatype"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:choice>
+          <xs:element ref="vcard:uri"/>
+          <xs:element ref="vcard:text"/>
+        </xs:choice>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <!-- 6.7.1 -->
+  <xs:element name="categories">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="parameters">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:group ref="vcard:param-altid"/>
+              <xs:group ref="vcard:param-pid"/>
+              <xs:group ref="vcard:param-pref"/>
+              <xs:group ref="vcard:param-type"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:group ref="vcard:value-text-list"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <!-- 6.7.2 -->
+  <xs:element name="note">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="parameters">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:group ref="vcard:param-language"/>
+              <xs:group ref="vcard:param-altid"/>
+              <xs:group ref="vcard:param-pid"/>
+              <xs:group ref="vcard:param-pref"/>
+              <xs:group ref="vcard:param-type"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element ref="vcard:text"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <!-- 6.7.3 -->
+  <xs:element name="prodid">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="vcard:text"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <!-- 6.7.4 -->
+  <xs:element name="rev" type="vcard:value-timestamp"/>
+  <!-- 6.7.5 -->
+  <xs:element name="sound">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="parameters">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:group ref="vcard:param-language"/>
+              <xs:group ref="vcard:param-altid"/>
+              <xs:group ref="vcard:param-pid"/>
+              <xs:group ref="vcard:param-pref"/>
+              <xs:group ref="vcard:param-type"/>
+              <xs:group ref="vcard:param-mediatype"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element ref="vcard:uri"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <!-- 6.7.6 -->
+  <xs:element name="uid">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="vcard:uri"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <!-- 6.7.7 -->
+  <xs:element name="clientpidmap">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="vcard:sourceid"/>
+        <xs:element ref="vcard:uri"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="sourceid" type="xs:positiveInteger"/>
+  <!-- 6.7.8 -->
+  <xs:element name="url">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="parameters">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:group ref="vcard:param-altid"/>
+              <xs:group ref="vcard:param-pid"/>
+              <xs:group ref="vcard:param-pref"/>
+              <xs:group ref="vcard:param-type"/>
+              <xs:group ref="vcard:param-mediatype"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element ref="vcard:uri"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <!-- 6.8.1 -->
+  <xs:element name="key">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="parameters">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:group ref="vcard:param-altid"/>
+              <xs:group ref="vcard:param-pid"/>
+              <xs:group ref="vcard:param-pref"/>
+              <xs:group ref="vcard:param-type"/>
+              <xs:group ref="vcard:param-mediatype"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:choice>
+          <xs:element ref="vcard:uri"/>
+          <xs:element ref="vcard:text"/>
+        </xs:choice>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <!-- 6.9.1 -->
+  <xs:element name="fburl">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="parameters">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:group ref="vcard:param-altid"/>
+              <xs:group ref="vcard:param-pid"/>
+              <xs:group ref="vcard:param-pref"/>
+              <xs:group ref="vcard:param-type"/>
+              <xs:group ref="vcard:param-mediatype"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element ref="vcard:uri"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <!-- 6.9.2 -->
+  <xs:element name="caladruri">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="parameters">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:group ref="vcard:param-altid"/>
+              <xs:group ref="vcard:param-pid"/>
+              <xs:group ref="vcard:param-pref"/>
+              <xs:group ref="vcard:param-type"/>
+              <xs:group ref="vcard:param-mediatype"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element ref="vcard:uri"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <!-- 6.9.3 -->
+  <xs:element name="caluri">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="parameters">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:group ref="vcard:param-altid"/>
+              <xs:group ref="vcard:param-pid"/>
+              <xs:group ref="vcard:param-pref"/>
+              <xs:group ref="vcard:param-type"/>
+              <xs:group ref="vcard:param-mediatype"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element ref="vcard:uri"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <!-- Top-level grammar -->
+  <xs:group name="property">
+    <xs:choice>
+      <xs:element ref="vcard:adr"/>
+      <xs:element ref="vcard:anniversary"/>
+      <xs:element ref="vcard:bday"/>
+      <xs:element ref="vcard:caladruri"/>
+      <xs:element ref="vcard:caluri"/>
+      <xs:element ref="vcard:categories"/>
+      <xs:element ref="vcard:clientpidmap"/>
+      <xs:element ref="vcard:email"/>
+      <xs:element ref="vcard:fburl"/>
+      <xs:element ref="vcard:fn"/>
+      <xs:group ref="vcard:property-geo"/>
+      <xs:element ref="vcard:impp"/>
+      <xs:element ref="vcard:key"/>
+      <xs:element ref="vcard:kind"/>
+      <xs:element ref="vcard:lang"/>
+      <xs:element ref="vcard:logo"/>
+      <xs:element ref="vcard:member"/>
+      <xs:element ref="vcard:n"/>
+      <xs:element ref="vcard:nickname"/>
+      <xs:element ref="vcard:note"/>
+      <xs:element ref="vcard:org"/>
+      <xs:element ref="vcard:photo"/>
+      <xs:element ref="vcard:prodid"/>
+      <xs:element ref="vcard:related"/>
+      <xs:element ref="vcard:rev"/>
+      <xs:element ref="vcard:role"/>
+      <xs:element ref="vcard:gender"/>
+      <xs:element ref="vcard:sound"/>
+      <xs:element ref="vcard:source"/>
+      <xs:element ref="vcard:tel"/>
+      <xs:element ref="vcard:title"/>
+      <xs:group ref="vcard:property-tz"/>
+      <xs:element ref="vcard:uid"/>
+      <xs:element ref="vcard:url"/>
+    </xs:choice>
+  </xs:group>
+  <xs:element name="vcards">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="vcard:vcard"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="vcard">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:group ref="vcard:property"/>
+        <xs:element ref="vcard:group"/>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="group">
+    <xs:complexType>
+      <xs:group minOccurs="0" maxOccurs="unbounded" ref="vcard:property"/>
+      <xs:attribute name="name" use="required"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
