@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" xmlns:td="urn:ietf:rfc:XXXX">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" xmlns:ld="urn:ietf:rfc:XXXX">
     <xs:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="http://www.w3.org/2001/xml.xsd">
         <xs:annotation>
             <xs:documentation>Get access to the xml: attribute groups that are in the XML namespace for XML itself.</xs:documentation>
         </xs:annotation>
     </xs:import>
-    <xs:import schemaLocation="td.xsd" namespace="urn:ietf:rfc:XXXX"/>
+    <xs:import schemaLocation="ld-00.xsd" namespace="urn:ietf:rfc:XXXX"/>
     <xs:element name="service">
         <xs:complexType>
             <xs:sequence>
@@ -23,15 +23,15 @@
                     <xs:element name="resource">
                         <xs:complexType>
                             <xs:sequence minOccurs="0" maxOccurs="unbounded">
-                                <xs:element ref="td:td" minOccurs="0"/>
+                                <xs:element ref="ld:ld" minOccurs="0"/>
                                 <xs:group ref="title" minOccurs="1" maxOccurs="unbounded"/>
                                 <xs:group ref="descriptions" minOccurs="0" maxOccurs="unbounded"/>
                             </xs:sequence>
                             <xs:attribute ref="xml:id" use="required"/>
                             <xs:attribute name="href" type="xs:anyURI" use="optional"/>
-                            <xs:assert test="count((@href, td:td)) le 1">
+                            <xs:assert test="count((@href, ld:ld)) le 1">
                                 <xs:annotation>
-                                    <xs:documentation>@href (a resource having a concrete URI) and td:td (a resource set identified by a template description) are mutually exclusive.</xs:documentation>
+                                    <xs:documentation>@href (a resource having a concrete URI) and ld:ld (a resource set identified by a template description) are mutually exclusive.</xs:documentation>
                                 </xs:annotation>
                             </xs:assert>
                         </xs:complexType>
