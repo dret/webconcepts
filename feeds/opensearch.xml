@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <service xsi:noNamespaceSchemaLocation="../core/sedola.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <title>OpenSearch</title>
-    <include href="atom.xml"/>
-    <profile xml:id="opensearch-profile" href="http://www.opensearch.org/">
+    <include href="rfc4287.xml"/>
+    <profile xml:id="opensearch-profile" id="http://www.opensearch.org/">
         <title>OpenSearch Profile</title>
         <documentation source="http://www.opensearch.org/Specifications/OpenSearch/1.1#OpenSearch_response_elements">The OpenSearch response elements can be used by search engines to augment existing XML formats with search-related metadata. OpenSearch response elements are typically found augmenting search results returned in list-based XML syndication formats, such as RSS 2.0 and Atom 1.0, but may be used in other contexts without restriction.</documentation>
     </profile>
