@@ -5,7 +5,7 @@
             <xs:documentation>Get access to the xml: attribute groups for xml:lang as declared on 'documentation' below.</xs:documentation>
         </xs:annotation>
     </xs:import>
-    <xs:element name="ld" type="ld:ld-type"> </xs:element>
+    <xs:element name="link" type="ld:link-type"> </xs:element>
     <xs:simpleType name="uriTemplate">
         <xs:restriction base="xs:string"/>
     </xs:simpleType>
@@ -47,7 +47,7 @@
             </xs:restriction>
         </xs:complexContent>
     </xs:complexType>
-    <xs:complexType name="ld-type">
+    <xs:complexType name="link-type">
         <xs:choice maxOccurs="unbounded">
             <xs:element name="var">
                 <xs:complexType>
