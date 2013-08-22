@@ -140,15 +140,13 @@
                                     <xsl:sort select="@href"/>
                                     <hr/>
                                     <h3 id="{@xml:id}">
-                                        <code><b><xsl:value-of select="@href"/>: </b></code>
+                                        <code><b><xsl:value-of select="@id"/>: </b></code>
                                         <xsl:value-of select="title/text()"/>
                                         <xsl:if test="exists(title/@short)">
                                             <xsl:text> (</xsl:text>
                                             <xsl:value-of select="title/@short"/>
                                             <xsl:text>)</xsl:text>
                                         </xsl:if>
-                                        <xsl:text> based on </xsl:text>
-                                        <a href="#{id(@mediatypes)/@xml:id}"><code><xsl:value-of select="id(@mediatypes)/@type"/></code></a>
                                     </h3>
                                     <xsl:if test="exists(documentation)">
                                         <p>
@@ -160,7 +158,7 @@
                                         </p>
                                     </xsl:if>
                                 </xsl:for-each>
-                        </div>
+                            </div>
                         </xsl:if>
                         <xsl:if test="exists(//vocabulary)">
                             <hr size="5"/>
