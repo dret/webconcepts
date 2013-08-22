@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <service xsi:noNamespaceSchemaLocation="../core/sedola.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <title>xCP</title>
-    <profile xml:id="xcp-profile" href="http://names.emc.com/profile/xcp">
+    <profile xml:id="xcp-profile" id="http://names.emc.com/profile/xcp">
         <title>xCP Profile</title>
         <documentation source="http://iig.emc.com/products/xCP/docs/profile">The xCP profile applies to both XML and JSON variants of the xCP REST services. It is used to indicate xCP-specific constraints and extensions in standardized media types that are exposed by xCP.</documentation>
     </profile>
