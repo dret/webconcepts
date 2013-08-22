@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<service xsi:noNamespaceSchemaLocation="../core/sedola.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <title short="FSM">Feed Service Management</title>
-    <include href="rfc4287.xml"/>
-    <resource xml:id="fsm-resource-bundle">
-        <title>FSM Bundle</title>
-    </resource>
-</service>
