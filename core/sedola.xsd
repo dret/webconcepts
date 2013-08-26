@@ -1,16 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
-    <xs:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="http://www.w3.org/2001/xml.xsd">
+    <xs:import namespace="http://www.w3.org/XML/1998/namespace"
+        schemaLocation="http://www.w3.org/2001/xml.xsd">
         <xs:annotation>
             <xs:documentation>Get access to the xml: attribute groups that are in the XML namespace for XML itself.</xs:documentation>
         </xs:annotation>
     </xs:import>
     <xs:element name="service">
+        <xs:annotation>
+            <xs:documentation>A service in Sedola is defined as an inventory of used concepts, which are listed in the Sedola description. The list is unordered. Other services can be referenced by including their Sedola description.</xs:documentation>
+        </xs:annotation>
         <xs:complexType>
             <xs:sequence>
                 <xs:group ref="title" minOccurs="1" maxOccurs="unbounded"/>
                 <xs:group ref="descriptions" minOccurs="0" maxOccurs="unbounded"/>
                 <xs:element name="include" minOccurs="0" maxOccurs="unbounded">
+                    <xs:annotation>
+                        <xs:documentation>Sedola allows inclusions which reference other Sedola descriptions and include their description as if it were copied into the referencing description. Includes can be nested. Includes must not be circular, but it is possible that inclusions form an acyclic graph (and not just a tree), so Sedola implementations have to make sure that inclusion processing correctly handles this situation.</xs:documentation>
+                    </xs:annotation>
                     <xs:complexType>
                         <xs:sequence>
                             <xs:group ref="descriptions" minOccurs="0" maxOccurs="unbounded"/>
@@ -26,8 +33,10 @@
                                 <xs:element name="document" minOccurs="1" maxOccurs="unbounded">
                                     <xs:complexType>
                                         <xs:sequence>
-                                            <xs:group ref="title" minOccurs="0" maxOccurs="unbounded"/>
-                                            <xs:group ref="descriptions" minOccurs="0" maxOccurs="unbounded"/>
+                                            <xs:group ref="title" minOccurs="0"
+                                                maxOccurs="unbounded"/>
+                                            <xs:group ref="descriptions" minOccurs="0"
+                                                maxOccurs="unbounded"/>
                                         </xs:sequence>
                                         <xs:attribute ref="xml:id" use="required"/>
                                         <xs:attribute name="vocabularies" use="optional">
@@ -184,7 +193,9 @@
     </xs:group>
     <xs:simpleType name="mediaTypeType">
         <xs:restriction base="xs:token">
-            <xs:pattern value="[a-zA-Z0-9!#$%^&amp;\*_\-\+{}\|'\.`~]+/[a-zA-Z0-9!#$%^&amp;\*_\-\+{}\|'\.`~]+"/>
+            <xs:pattern
+                value="[a-zA-Z0-9!#$%^&amp;\*_\-\+{}\|'\.`~]+/[a-zA-Z0-9!#$%^&amp;\*_\-\+{}\|'\.`~]+"
+            />
         </xs:restriction>
     </xs:simpleType>
 </xs:schema>
