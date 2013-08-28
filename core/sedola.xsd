@@ -192,6 +192,9 @@
         </xs:choice>
     </xs:group>
     <xs:simpleType name="mediaTypeType">
+        <xs:annotation>
+            <xs:documentation>This is a type for representing media type names. It uses the media type name syntax from RFC 4288.</xs:documentation>
+        </xs:annotation>
         <xs:restriction base="xs:token">
             <xs:pattern
                 value="[a-zA-Z0-9!#$%^&amp;\*_\-\+{}\|'\.`~]+/[a-zA-Z0-9!#$%^&amp;\*_\-\+{}\|'\.`~]+"
