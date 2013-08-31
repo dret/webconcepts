@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
-    <xs:import namespace="http://www.w3.org/XML/1998/namespace"
-        schemaLocation="http://www.w3.org/2001/xml.xsd">
+    <xs:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="http://www.w3.org/2001/xml.xsd">
         <xs:annotation>
             <xs:documentation>Get access to the xml: attribute groups that are in the XML namespace for XML itself.</xs:documentation>
         </xs:annotation>
@@ -33,10 +32,8 @@
                                 <xs:element name="document" minOccurs="1" maxOccurs="unbounded">
                                     <xs:complexType>
                                         <xs:sequence>
-                                            <xs:group ref="title" minOccurs="0"
-                                                maxOccurs="unbounded"/>
-                                            <xs:group ref="descriptions" minOccurs="0"
-                                                maxOccurs="unbounded"/>
+                                            <xs:group ref="title" minOccurs="0" maxOccurs="unbounded"/>
+                                            <xs:group ref="descriptions" minOccurs="0" maxOccurs="unbounded"/>
                                         </xs:sequence>
                                         <xs:attribute ref="xml:id" use="required"/>
                                         <xs:attribute name="vocabularies" use="optional">
@@ -139,7 +136,7 @@
                 <xs:group ref="descriptions" minOccurs="0" maxOccurs="unbounded"/>
             </xs:sequence>
             <xs:attribute ref="xml:id" use="required"/>
-            <xs:attribute name="relation" use="optional">
+            <xs:attribute name="rel" use="optional">
                 <xs:annotation>
                     <xs:documentation source="http://tools.ietf.org/html/rfc5988#section-4">Link relations must be names or URIs for RFC 5988 links. Links also can be encoded differently (for example in XML element names), in which case they don't have a @relation.</xs:documentation>
                 </xs:annotation>
@@ -196,9 +193,7 @@
             <xs:documentation>This is a type for representing media type names. It uses the media type name syntax from RFC 4288.</xs:documentation>
         </xs:annotation>
         <xs:restriction base="xs:token">
-            <xs:pattern
-                value="[a-zA-Z0-9!#$%^&amp;\*_\-\+{}\|'\.`~]+/[a-zA-Z0-9!#$%^&amp;\*_\-\+{}\|'\.`~]+"
-            />
+            <xs:pattern value="[a-zA-Z0-9!#$%^&amp;\*_\-\+{}\|'\.`~]+/[a-zA-Z0-9!#$%^&amp;\*_\-\+{}\|'\.`~]+"/>
         </xs:restriction>
     </xs:simpleType>
 </xs:schema>

@@ -8,7 +8,7 @@
             <documentation source="http://tools.ietf.org/html/draft-wilde-link-desc#section-4.1">The Internet media type for a Link Description document is application/ldesc+xml.</documentation>
         </document>
     </mediatype>
-    <link xml:id="link-desc-linkrel-ldesc" relation="ldesc">
+    <link xml:id="link-desc-linkrel-ldesc" rel="ldesc">
         <documentation source="http://tools.ietf.org/html/draft-wilde-template-desc#section-4.1">Linking to a resource that can be used as a link description for requesting runtime information about a particular link's interaction affordances.</documentation>
     </link>
 </service>
