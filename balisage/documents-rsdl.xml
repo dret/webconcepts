@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<service name="Documents" 
+    identity-provider-ref="idp" 
+    xmlns="http://identifiers.emc.com/rsdl"
+    xmlns:html="http://www.w3.org/1999/xhtml/">
+    
+    <documentation>This RESTful service provides a simple ATOM feed that allows documents to be read,
+        created, modified, or deleted. </documentation>
+    
+    <start ref="res-home"/>
+    
+    <media-types>
+        <media-type id="med-document" name="application/vnd.example.document+xml">
+            <documentation> The media type for the service described by this RSDL description.</documentation>
+            <description href="example.com/mediatypes/documents.rnc" type="rnc"/>
+        </media-type>
+        <media-type id="med-home-xml" name="application/home+xml">
+            <documentation> Home Documents for HTTP Services: XML Syntax </documentation>
+            <description href="http://tools.ietf.org/html/draft-wilde-home-xml-01.html" type="html"/>
+        </media-type>
+        <media-type id="med-atom" name="application/atom+xml">
+            <documentation> Atom feeds, updateable using AtomPub conventions, with feed paging.
+            </documentation>
+        </media-type>
+        <media-type id="med-html" name="text/html">
+            <documentation> HTML documents. </documentation>
+        </media-type>
+    </media-types>
+    
+    <resources>
+        <resource id="res-home" name="home">
+            <location uri="/"/>
+            <links>
+                <link link-relation-ref="rel-documents" resource-ref="res-documents"/>
+                <link link-relation-ref="rel-about" resource-ref="res-about"/>
+            </links>
+            <methods>
+                <method name="GET">
+                    <response>
+                        <representation media-type-ref="med-home-xml" entity="resources"/>
+                    </response>
+                </method>
+            </methods>
+        </resource>
+        
+        <resource id="res-documents" name="documents">
+            <location uri="/documents"/>
+            <links>
+                <link link-relation-ref="rel-self" resource-ref="res-documents"/>
+                <link link-relation-ref="rel-first" resource-ref="res-documents"/>
+                <link link-relation-ref="rel-next" resource-ref="res-documents"/>
+                <link link-relation-ref="rel-last" resource-ref="res-documents"/>
+                <link link-relation-ref="rel-previous" resource-ref="res-documents"/>
+                
+                <link link-relation-ref="rel-alternate" resource-ref="res-document">
+                    <documentation> 
+                        In an ATOM feed, we use the alternate link relation to indicate the member
+                        type. 
+                    </documentation>
+                </link>
+            </links>
+            <methods>
+                <method name="GET">
+                    <response>
+                        <representation media-type-ref="med-atom" entity="atom:feed"/>
+                    </response>
+                </method>
+                <method name="POST">
+                    <request>
+                        <documentation>Creates a document</documentation>
+                        <representation media-type-ref="med-document" entity="document"/>
+                    </request>
+                    <response>
+                        <documentation>Returns the newly created document</documentation>
+                        <representation media-type-ref="med-document" entity="document"/>
+                    </response>
+                </method>
+            </methods>
+        </resource>
+        
+        <resource id="res-document" name="document">
+            <documentation> </documentation>
+            <location template="/document/{oid}">
+                <var name="oid">
+                    <documentation> Identifier for the document. </documentation>
+                </var>
+            </location>
+            <links>
+                <link link-relation-ref="rel-self" resource-ref="res-document"/>
+            </links>
+            <methods>
+                <method name="GET">
+                    <response>
+                        <representation media-type-ref="med-document" entity="res-document"/>
+                    </response>
+                </method>
+                
+                <method name="PUT">
+                    <request>
+                        <representation media-type-ref="med-document" entity="res-document"/>
+                    </request>
+                </method>
+                
+                <method name="DELETE"/>
+                
+            </methods>
+        </resource>
+        
+        <resource id="res-about" name="about" public="true">
+            <documentation>An HTML page describing the service.</documentation>
+            <location uri="/about"/>
+            <methods>
+                <method name="GET">
+                    <response>
+                        <representation media-type-ref="med-html" entity="html"/>
+                    </response>
+                </method>
+            </methods>
+        </resource>
+        
+    </resources>
+    
+    <link-relations>
+        <documentation> Link relations used in the media-type. IANA link relations can be found <ref
+            uri="http://www.iana.org/assignments/link-relations/link-relations.xml">here</ref>. Non-IANA
+            link relations will be registered on identifiers.example.com. </documentation>
+        
+        <link-relation id="rel-about" name="about"/>
+        <link-relation id="rel-alternate" name="alternate"/>
+        <link-relation id="rel-self" name="self"/>
+        <link-relation id="rel-edit" name="edit"/>
+        <link-relation id="rel-first" name="first"/>
+        <link-relation id="rel-last" name="last"/>
+        <link-relation id="rel-next" name="next"/>
+        <link-relation id="rel-previous" name="previous"/>
+        <link-relation id="rel-parent" name="parent"/>
+        
+        <link-relation id="rel-documents" name="identifiers.example.com/linkrel/documents"/>
+        
+    </link-relations>
+    
+    <headers>
+        <header id="hea-authenticate" name="WWW-Authenticate" type="request"/>
+    </headers>
+    
+    <authentication>
+        <mechanism id="aut-http" name="HTTP Authentication" authentication-type="rfc2617">
+            <documentation> 
+                We use HTTP Authentication as defined in <ref uri="http://tools.ietf.org/html/rfc2617">RFC 2617</ref> 
+                with custom schemes. If an unauthenticated user tries to access a protected resource, a 
+                <ref status-code="sta-unauthorized"/> status is returned, along with one or more 
+                <ref header="hea-authenticate"/> headers, each of which contains an authentication 
+                <html:em>challenge</html:em>. The challenges consist of a scheme followed by one or more parameters. 
+            </documentation>
+            <scheme name="basic">
+                <parameter name="realm"/>
+            </scheme>       
+        </mechanism>
+        <identity-provider id="idp" mechanism-ref="aut-http"/>        
+    </authentication>
+    
+    <status-codes>
+        <status id="sta-unauthorized" code="401">
+            <documentation> The request requires authentication. When this status code is returned, the
+                response contains one or more <ref header="hea-authenticate"/> headers that each contain an
+                <ref mechanism="aut-http">authentication challenge</ref>. </documentation>
+        </status>
+    </status-codes>
+</service>
