@@ -2,12 +2,12 @@
 <service xsi:noNamespaceSchemaLocation="../core/sedola.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <title short="Atom">Atom Syndication Format</title>
     <documentation source="http://tools.ietf.org/html/rfc4287">Atom is an XML-based document format that describes lists of related information known as "feeds". Feeds are composed of a number of items, known as "entries", each with an extensible set of attached metadata. For example, each entry has a title.</documentation>
-    <mediatype xml:id="atom" type="application/atom+xml">
-        <document xml:id="atom-feed" vocabularies="atom-vocabulary">
+    <mediatype xml:id="atom-mediatype" type="application/atom+xml">
+        <document xml:id="atom-document-feed" vocabularies="atom-vocabulary">
             <title>Atom Feed Document</title>
             <documentation source="http://tools.ietf.org/html/rfc4287#section-2">An Atom Feed Document is a representation of an Atom feed, including metadata about the feed, and some or all of the entries associated with it. Its root is the atom:feed element.</documentation>
         </document>
-        <document xml:id="atom-entry" vocabularies="atom-vocabulary">
+        <document xml:id="atom-document-entry" vocabularies="atom-vocabulary">
             <title>Atom Entry Document</title>
             <documentation source="http://tools.ietf.org/html/rfc4287#section-2">An Atom Entry Document represents exactly one Atom entry, outside of the context of an Atom feed. Its root is the atom:entry element.</documentation>
         </document>
