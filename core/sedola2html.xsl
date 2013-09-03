@@ -69,10 +69,10 @@
                                 </xsl:if>
                                 <xsl:if test="exists(//vocabulary)">
                                     <li>
-                                        <a href="#mediatypes"><b>Vocabularies</b></a>
+                                        <a href="#vocabularies"><b>Vocabularies</b></a>
                                         <xsl:text>: </xsl:text>
                                         <xsl:for-each select="//vocabulary">
-                                            <xsl:sort select="if ( exists(title/@short) ) then title/@short else ../title/@short"/>
+                                            <xsl:sort select="if ( exists(title/text()) ) then title/text() else ../title/text()"/>
                                             <a href="#{@xml:id}" name="{ if ( exists(title/@short) ) then title/@short else ../title/@short }">
                                                 <xsl:value-of select="if ( exists(title/text()) ) then title/text() else ../title/text()"/>
                                             </a>
@@ -95,7 +95,7 @@
                                 </xsl:if>
                                 <xsl:if test="exists(//http-header)">
                                     <li>
-                                        <a href="#mediatypes"><b>HTTP Headers</b></a>
+                                        <a href="#http-headers"><b>HTTP Headers</b></a>
                                         <xsl:text>: </xsl:text>
                                         <xsl:for-each select="//http-header">
                                             <xsl:sort select="@name"/>
@@ -166,7 +166,7 @@
                                 <h2>Vocabularies:</h2>
                                 <ul>
                                     <xsl:for-each select="//vocabulary">
-                                        <xsl:sort select="if ( exists(title/@short) ) then title/@short else ../title/@short"/>
+                                        <xsl:sort select="title/text()"/>
                                         <li id="{@xml:id}">
                                             <b><xsl:value-of select="title/text()"/>: </b>
                                             <xsl:copy-of select="documentation[1]"/>
