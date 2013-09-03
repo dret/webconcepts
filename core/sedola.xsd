@@ -71,6 +71,9 @@
                         </xs:complexType>
                     </xs:element>
                     <xs:element name="problem-type">
+                        <xs:annotation>
+                            <xs:documentation>A problem type is a URI that identifies an HTTP problem detail, according to the specification of "Problem Details for HTTP APIs" http://tools.ietf.org/html/draft-nottingham-http-problem. It is primarily intended to be used in the media type(s) for HTTP Problem Details. </xs:documentation>
+                        </xs:annotation>
                         <xs:complexType>
                             <xs:attribute ref="xml:id" use="required"/>
                             <xs:attribute name="name" type="xs:anyURI" use="required"/>
