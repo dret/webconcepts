@@ -17,11 +17,11 @@
         </document>
     </mediatype>
     <mediatype ref="atom-mediatype">
-        <document ref="atom-document-feed">
+        <document ref="atom-document-feed" profile="atompub-profile">
             <title>AtomPub Interactions with Atom Feed Document</title>
             <documentation source="http://tools.ietf.org/html/rfc5023#section-9.2">To add members to a Collection, clients send POST requests to the URI of the Collection.</documentation>
         </document>
-        <document ref="atom-document-entry">
+        <document ref="atom-document-entry" profile="atompub-profile">
             <title>AtomPub Interactions with Atom Entry Document</title>
             <documentation source="http://tools.ietf.org/html/rfc5023#section-9.3">To edit or delete a Member Resource, a client sends a PUT or DELETE request to its Member URI, as specified in RFC 2616</documentation>
         </document>
