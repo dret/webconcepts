@@ -45,8 +45,14 @@
                                 </xs:element>
                                 <xs:element ref="link" minOccurs="0" maxOccurs="unbounded"/>
                             </xs:sequence>
-                            <xs:attribute ref="xml:id" use="required"/>
-                            <xs:attribute name="type" type="mediaTypeType" use="required"/>
+                            <xs:attribute ref="xml:id" use="optional"/>
+                            <xs:attribute name="type" type="mediaTypeType" use="optional"/>
+                            <xs:attribute name="ref" type="xs:ID" use="optional"/>
+                            <xs:assert test="(((count(@xml:id) + count(@type))=2) and count(@ref)=0) or (((count(@xml:id) + count(@type))=0) and count(@ref)=1)">
+                                <xs:annotation>
+                                    <xs:documentation>A mediatype is even defned by giving it an ID (@xml:id) and a name (@type), or referenced by referring to an existing (probably included) media type (@ref).</xs:documentation>
+                                </xs:annotation>
+                            </xs:assert>
                         </xs:complexType>
                     </xs:element>
                     <xs:element name="profile">
