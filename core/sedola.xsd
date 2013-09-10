@@ -41,16 +41,21 @@
                                                 <xs:list itemType="xs:token"/>
                                             </xs:simpleType>
                                         </xs:attribute>
+                                        <xs:attribute name="profile" type="xs:NMTOKEN" use="optional">
+                                            <xs:annotation>
+                                                <xs:documentation>A @profile attribute indicates that a media type's document is using a profile according to RFC 6906. It must refer to the ID of a profile that is declared in a profile element.</xs:documentation>
+                                            </xs:annotation>
+                                        </xs:attribute>
                                     </xs:complexType>
                                 </xs:element>
                                 <xs:element ref="link" minOccurs="0" maxOccurs="unbounded"/>
                             </xs:sequence>
                             <xs:attribute ref="xml:id" use="optional"/>
                             <xs:attribute name="type" type="mediaTypeType" use="optional"/>
-                            <xs:attribute name="ref" type="xs:ID" use="optional"/>
+                            <xs:attribute name="ref" type="xs:NMTOKEN" use="optional"/>
                             <xs:assert test="(((count(@xml:id) + count(@type))=2) and count(@ref)=0) or (((count(@xml:id) + count(@type))=0) and count(@ref)=1)">
                                 <xs:annotation>
-                                    <xs:documentation>A mediatype is even defned by giving it an ID (@xml:id) and a name (@type), or referenced by referring to an existing (probably included) media type (@ref).</xs:documentation>
+                                    <xs:documentation>A mediatype is either defined by giving it an ID (@xml:id) and a name (@type), or referenced by referring to an existing (probably included) media type (@ref).</xs:documentation>
                                 </xs:annotation>
                             </xs:assert>
                         </xs:complexType>
