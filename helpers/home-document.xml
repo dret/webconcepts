@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <service xsi:noNamespaceSchemaLocation="../core/sedola.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <title>Home Documents</title>
+    <documentation source="http://tools.ietf.org/html/draft-nottingham-json-home">This document proposes a "home document" format for non-browser HTTP clients.</documentation>
+    <documentation source="http://tools.ietf.org/html/draft-wilde-home-xml">The current draft for HTTP Home Documents provides a JSON syntax only. This draft provides an XML syntax for the same underlying data model, so that the concept of HTTP Home Documents can be consistently exposed in both JSON- and XML-based HTTP services.</documentation>
     <mediatype xml:id="home-document-json" type="application/home+json">
         <document xml:id="home-document-document-json">
             <title>Home Documents (JSON)</title>
