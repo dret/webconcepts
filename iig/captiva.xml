@@ -4,4 +4,7 @@
     <include href="../helpers/CORS.html"/>
     <include href="../helpers/home-document.html"/>
     <include href="../helpers/http-problem.html"/>
+    <mediatype xml:id="captiva-mediatype-captiva+json" type="application/vnd.emc.captiva+json">
+        <document></document>
+    </mediatype>
 </service>
