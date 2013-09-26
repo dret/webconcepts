@@ -39,8 +39,10 @@
     <http-header xml:id="atompub-slug" name="Slug" type="entity">
         <documentation source="http://tools.ietf.org/html/rfc5023#section-9.7">Slug is an HTTP entity-header whose presence in a POST to a Collection constitutes a request by the client to use the header's value as part of any URIs that would normally be used to retrieve the to-be-created Entry or Media Resources.</documentation>
     </http-header>
+<!--
     <profile xml:id="atompub-profile" id="urn:ietf:rfc:5023">
         <title>The AtomPub Profile</title>
         <documentation source="http://tools.ietf.org/html/draft-wilde-atom-profile-02#section-2.3">This is hypothetical (for now), assuming that AtomPub defines a profile URI a la RFC 6906, defining that it should be used in both feeds and entries that are supporting AtomPub interactions.</documentation>
     </profile>
+-->
 </service>
