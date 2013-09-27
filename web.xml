@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<service xsi:noNamespaceSchemaLocation="../core/sedola.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <title>The Web</title>
+    <include href="../W3C/html4.xml"/>
+    <include href="../misc/gif.xml"/>
+    <include href="../misc/jpeg.xml"/>
+    <include href="../misc/png.xml"/>
+    <include href="../RFC/4287.xml"/>
+    <include href="../RFC/5005.xml"/>
+    <include href="../misc/opensearch.xml"/>
+</service>
