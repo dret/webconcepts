@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<service xsi:noNamespaceSchemaLocation="../core/sedola.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <title>Documents</title>
-    <include href="document-mediatype.xml"/>
-    <include href="../helpers/home-document.xml"/>
-    <include href="../html/html.xml"/>
-    <include href="../feeds/rfc4287.xml"/>
-</service>
