@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <service xsi:noNamespaceSchemaLocation="../core/sedola.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <title>Additional Link Relation Types</title>
-    <documentation source="http://tools.ietf.org/html/rfc6903"> This specification defines a number of additional link relation types that can used for a range of purposes in a variety of applications types.</documentation>
+    <documentation source="http://tools.ietf.org/html/rfc6903">This specification defines a number of additional link relation types that can used for a range of purposes in a variety of applications types.</documentation>
     <link xml:id="rfc6903-linkrel-about" rel="about">
         <documentation source="http://tools.ietf.org/html/rfc6903#section-2">The "about" link relation can be used to refer to a resource that is the subject or topic of the link's context.  Multiple subjects can be indicated through the use of multiple "about" link relations.</documentation>
     </link>
