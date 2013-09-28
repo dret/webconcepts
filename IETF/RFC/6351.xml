@@ -5,8 +5,7 @@
     <mediatype xml:id="xcard-mediatype" type="application/vcard+xml">
         <document xml:id="webfinger-mediatype-jrd" vocabularies="webfinger-vocabulary-jrd">
             <title short="xCard">JSON Resource Descriptor</title>
-            <documentation source="http://tools.ietf.org/html/rfc6351#section-8.2">The MIME media type for use with vCard-in-XML data.
-            </documentation>
+            <documentation source="http://tools.ietf.org/html/rfc6351#section-8.2">The MIME media type for use with vCard-in-XML data.</documentation>
         </document>
     </mediatype>
     <vocabulary xml:id="xcard-vocabulary-jrd" id="urn:ietf:params:xml:ns:vcard-4.0">
