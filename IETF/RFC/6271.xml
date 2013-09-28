@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<service xsi:noNamespaceSchemaLocation="../core/sedola.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<service xsi:noNamespaceSchemaLocation="../../core/sedola.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <title>The Atom "deleted-entry" Element</title>
     <documentation source="http://tools.ietf.org/html/rfc6721">This specification adds mechanisms to the Atom Syndication Format that publishers of Atom Feed and Entry documents can use to explicitly identify Atom entries that have been removed.</documentation>
     <mediatype xml:id="atom-deleted-entry-mediatype" type="application/atomdeleted+xml">

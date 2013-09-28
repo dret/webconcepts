@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<service xsi:noNamespaceSchemaLocation="../core/sedola.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<service xsi:noNamespaceSchemaLocation="../../core/sedola.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <title>Feed Paging and Archiving</title>
     <documentation source="http://tools.ietf.org/html/rfc5005">Syndicated Web feeds (using formats such as Atom) are often split into multiple documents to save bandwidth, allow "sliding window" access, or for other purposes. This specification formalizes two types of feeds that can span one or more feed documents; "paged" feeds and "archived" feeds. Additionally, it defines "complete" feeds to cover the case when a single feed document explicitly represents all of the feed's entries.</documentation>
     <link xml:id="rfc5005-linkrel-first" rel="first">
