@@ -128,10 +128,19 @@
                                 <xs:group ref="descriptions" minOccurs="0" maxOccurs="unbounded"/>
                             </xs:sequence>
                             <xs:attribute ref="xml:id" use="required"/>
-                            <xs:attribute name="name" type="xs:token" use="required">
+                            <xs:attribute name="name" use="required">
                                 <xs:annotation>
                                     <xs:documentation>The name of the HTTP header field.</xs:documentation>
                                 </xs:annotation>
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:token">
+                                        <xs:pattern value="[!#$%&amp;'\*\+\-\.\^_`\|~0-9a-zA-Z]+">
+                                            <xs:annotation>
+                                                <xs:documentation source="http://tools.ietf.org/html/draft-ietf-httpbis-p1-messaging#section-3.2">field-name = 1*( "!" / "#" / "$" / "%" / "&amp;" / "'" / "*" / "+" / "-" / "." / "^" / "_" / "`" / "|" / "~" / DIGIT / ALPHA</xs:documentation>
+                                            </xs:annotation>
+                                        </xs:pattern>
+                                    </xs:restriction>
+                                </xs:simpleType>
                             </xs:attribute>
                             <xs:attribute name="type" use="optional">
                                 <xs:simpleType>
