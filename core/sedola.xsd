@@ -226,7 +226,11 @@
             <xs:documentation>This is a type for representing media type names. It uses the media type name syntax from RFC 4288.</xs:documentation>
         </xs:annotation>
         <xs:restriction base="xs:token">
-            <xs:pattern value="[a-zA-Z0-9!#$%^&amp;\*_\-\+{}\|'\.`~]+/[a-zA-Z0-9!#$%^&amp;\*_\-\+{}\|'\.`~]+"/>
+            <xs:pattern value="[a-zA-Z0-9!#$&amp;\.\+\-^_]+/[a-zA-Z0-9!#$&amp;\.\+\-^_]+">
+                <xs:annotation>
+                    <xs:documentation source="http://tools.ietf.org/html/rfc4288#section-4.2">(sub)type-name = ALPHA / DIGIT / "!" / "#" / "$" / "&amp;" / "." / "+" / "-" / "^" / "_"</xs:documentation>
+                </xs:annotation>
+            </xs:pattern>
         </xs:restriction>
     </xs:simpleType>
 </xs:schema>
