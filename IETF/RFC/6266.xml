@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<service xsi:noNamespaceSchemaLocation="../../core/sedola.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <title>Use of the Content-Disposition Header Field in the Hypertext Transfer Protocol (HTTP)</title>
+    <documentation source="http://tools.ietf.org/html/rfc6266">RFC 2616 defines the Content-Disposition response header field, but points out that it is not part of the HTTP/1.1 Standard. This specification takes over the definition and registration of Content-Disposition, as used in HTTP, and clarifies internationalization aspects.</documentation>
+    <http-header xml:id="rfc6266-header-Content-Disposition" name="Content-Disposition">
+        <documentation source="http://tools.ietf.org/html/rfc6266#section-4">The Content-Disposition response header field is used to convey additional information about how to process the response payload, and also can be used to attach additional metadata, such as the filename to use when saving the response payload locally.</documentation>
+    </http-header>
+</service>
