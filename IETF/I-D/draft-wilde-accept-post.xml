@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <service xsi:noNamespaceSchemaLocation="../../core/sedola.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <title>Home Documents</title>
+    <title>The Accept-Post HTTP Header</title>
     <documentation source="http://tools.ietf.org/html/draft-wilde-accept-post">This specification defines a new HTTP response header field Accept-Post, which indicates server support for specific media types for entity bodies in HTTP POST requests.</documentation>
     <http-header xml:id="accept-post-header-Accept-Post" name="Accept-Post">
         <documentation source="http://tools.ietf.org/html/draft-wilde-accept-post-01#section-3">Accept-Post SHOULD appear in the OPTIONS response for any resource that supports the use of the POST method. The presence of the Accept-Post header in response to any method is an implicit indication that POST is allowed on the resource identified by the Request-URI. The presence of a specific document format in this header indicates that that specific format is allowed on the resource identified by the Request-URI.</documentation>
