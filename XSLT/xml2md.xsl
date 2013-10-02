@@ -25,6 +25,12 @@
                 <xsl:value-of select="documentation/@source"/>
                 <xsl:text> "</xsl:text>
                 <xsl:value-of select="documentation/text()"/>
+                <xsl:text>" ) : [</xsl:text>
+                <xsl:value-of select="../title/text()"/>
+                <xsl:text>](</xsl:text>
+                <xsl:value-of select="../documentation/@source"/>
+                <xsl:text> "</xsl:text>
+                <xsl:value-of select="../documentation/text()"/>
                 <xsl:text>" )&#xa;</xsl:text>
             </xsl:for-each>
         </xsl:result-document>
