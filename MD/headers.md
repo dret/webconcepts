@@ -1,9 +1,10 @@
-HTTP Headers
+HTTP Header Fields
 ==============
 
-The following HTTP header field definitions were found in 24 services (5 [W3C](../W3C/), 13 [RFC](../IETF/RFC/), 6 [I-D](../IETF/I-D)):
+The following HTTP header field definitions were found in 25 services (5 [W3C](../W3C/), 13 [RFC](../IETF/RFC/), 7 [I-D](../IETF/I-D)):
 
 * [Accept-Patch](http://tools.ietf.org/html/rfc5789#section-3.1 "This specification introduces a new response header Accept-Patch used to specify the patch document formats accepted by the server. Accept-Patch SHOULD appear in the OPTIONS response for any resource that supports the use of the PATCH method. The presence of the Accept-Patch header in response to any method is an implicit indication that PATCH is allowed on the resource identified by the Request-URI." )
+* [Accept-Post](http://tools.ietf.org/html/draft-wilde-accept-post-01#section-3 "Accept-Post SHOULD appear in the OPTIONS response for any resource that supports the use of the POST method. The presence of the Accept-Post header in response to any method is an implicit indication that POST is allowed on the resource identified by the Request-URI. The presence of a specific document format in this header indicates that that specific format is allowed on the resource identified by the Request-URI." )
 * [Access-Control-Allow-Credentials](http://www.w3.org/TR/cors/#access-control-allow-credentials-response-header "The Access-Control-Allow-Credentials header indicates whether the response to request can be exposed when the omit credentials flag is unset. When part of the response to a preflight request it indicates that the actual request can include user credentials." )
 * [Access-Control-Allow-Headers](http://www.w3.org/TR/cors/#access-control-allow-headers-response-header "The Access-Control-Allow-Headers header indicates, as part of the response to a preflight request, which header field names can be used during the actual request." )
 * [Access-Control-Allow-Methods](http://www.w3.org/TR/cors/#access-control-allow-methods-response-header "The Access-Control-Allow-Methods header indicates, as part of the response to a preflight request, which methods can be used during the actual request." )

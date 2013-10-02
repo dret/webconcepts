@@ -8,7 +8,7 @@
     <xsl:variable name="allfiles" select="$RFC | $I-D | $W3C"/>
     <xsl:template match="/">
         <xsl:result-document href="../MD/headers.md" format="md-text">
-            <xsl:text>HTTP Headers&#xa;==============&#xa;&#xa;The following HTTP header field definitions were found in </xsl:text>
+            <xsl:text>HTTP Header Fields&#xa;==============&#xa;&#xa;The following HTTP header field definitions were found in </xsl:text>
             <xsl:value-of select="count($allfiles)"/>
             <xsl:text> services (</xsl:text>
             <xsl:value-of select="count($W3C)"/>
