@@ -19,13 +19,13 @@
             <xsl:text> [I-D](../IETF/I-D)):&#xa;&#xa;</xsl:text>
             <xsl:for-each select="$allfiles//http-header">
                 <xsl:sort select="@name"/>
-                    <xsl:text>* (</xsl:text>
+                    <xsl:text>* [</xsl:text>
                 <xsl:value-of select="@name"/>
-                <xsl:text>)[</xsl:text>
+                <xsl:text>](</xsl:text>
                 <xsl:value-of select="documentation/@source"/>
                 <xsl:text> "</xsl:text>
                 <xsl:value-of select="documentation/text()"/>
-                <xsl:text>" ]&#xa;</xsl:text>
+                <xsl:text>" )&#xa;</xsl:text>
             </xsl:for-each>
         </xsl:result-document>
     </xsl:template>
