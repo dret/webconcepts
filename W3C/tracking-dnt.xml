@@ -5,4 +5,7 @@
     <http-header xml:id="tracking-dnt-header-DNT" name="DNT">
         <documentation source="http://www.w3.org/TR/tracking-dnt/#dnt-header-field">The DNT header field is defined as the means for expressing a user's tracking preference via HTTP.</documentation>
     </http-header>
+    <http-header xml:id="tracking-dnt-header-Tk" name="Tk">
+        <documentation source="http://www.w3.org/TR/tracking-dnt/#response-header-field">The Tk response header field is defined as an OPTIONAL means for indicating the tracking status that applied to the corresponding request, and as a REQUIRED means for indicating that a state-changing request has resulted in an interactive change to the tracking status.</documentation>
+    </http-header>
 </service>
