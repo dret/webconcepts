@@ -19,13 +19,42 @@
             <xsl:text> [I-D](../IETF/I-D)):&#xa;&#xa;</xsl:text>
             <xsl:for-each select="$allfiles//http-header">
                 <xsl:sort select="@name"/>
-                    <xsl:text>* [</xsl:text>
+                <xsl:text>* [</xsl:text>
                 <xsl:value-of select="@name"/>
                 <xsl:text>](</xsl:text>
                 <xsl:value-of select="documentation/@source"/>
                 <xsl:text> "</xsl:text>
                 <xsl:value-of select="documentation/text()"/>
                 <xsl:text>" ) : [</xsl:text>
+                <xsl:value-of select="../title/text()"/>
+                <xsl:text>](</xsl:text>
+                <xsl:value-of select="../documentation/@source"/>
+                <xsl:text> "</xsl:text>
+                <xsl:value-of select="../documentation/text()"/>
+                <xsl:text>" )&#xa;</xsl:text>
+            </xsl:for-each>
+        </xsl:result-document>
+        <xsl:result-document href="../MD/mediatypes.md" format="md-text">
+            <xsl:text>Media Types&#xa;==============&#xa;&#xa;The following media type definitions were found in </xsl:text>
+            <xsl:value-of select="count($allfiles)"/>
+            <xsl:text> services (</xsl:text>
+            <xsl:value-of select="count($W3C)"/>
+            <xsl:text> [W3C](../W3C/), </xsl:text>
+            <xsl:value-of select="count($RFC)"/>
+            <xsl:text> [RFC](../IETF/RFC/), </xsl:text>
+            <xsl:value-of select="count($I-D)"/>
+            <xsl:text> [I-D](../IETF/I-D)):&#xa;&#xa;</xsl:text>
+            <xsl:for-each select="$allfiles//mediatype[exists(@type)]">
+                <xsl:sort select="@type"/>
+                <xsl:text>* </xsl:text>
+                <xsl:value-of select="@type"/>
+<!--
+                <xsl:text>](</xsl:text>
+                <xsl:value-of select="documentation/@source"/>
+                <xsl:text> "</xsl:text>
+                <xsl:value-of select="documentation/text()"/>
+-->
+                <xsl:text> : [</xsl:text>
                 <xsl:value-of select="../title/text()"/>
                 <xsl:text>](</xsl:text>
                 <xsl:value-of select="../documentation/@source"/>
