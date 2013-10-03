@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <service xsi:noNamespaceSchemaLocation="../../core/sedola.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <title short="AtomPub">Atom Publishing Protocol</title>
+    <documentation source="http://tools.ietf.org/html/rfc5023">The Atom Publishing Protocol (AtomPub) is an application-level protocol for publishing and editing Web resources. The protocol is based on HTTP transfer of Atom-formatted representations. The Atom format is documented in the Atom Syndication Format.</documentation>
     <include href="4287.xml"/>
     <mediatype xml:id="atompub-category" type="application/atomcat+xml">
         <documentation source="http://tools.ietf.org/html/rfc5023#section-16.1">An Atom Publishing Protocol Category Document, when serialized as XML 1.0, can be identified with the following media type.</documentation>
