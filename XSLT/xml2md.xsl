@@ -24,13 +24,13 @@
                 <xsl:text>](</xsl:text>
                 <xsl:value-of select="documentation/@source"/>
                 <xsl:text> "</xsl:text>
-                <xsl:value-of select="documentation/text()"/>
+                <xsl:value-of select="replace(documentation/text(), '&quot;', '&#x201d;')"/>
                 <xsl:text>" ) : [</xsl:text>
                 <xsl:value-of select="../title/text()"/>
                 <xsl:text>](</xsl:text>
                 <xsl:value-of select="../documentation/@source"/>
                 <xsl:text> "</xsl:text>
-                <xsl:value-of select="../documentation/text()"/>
+                <xsl:value-of select="replace(../documentation/text(), '&quot;', '&#x201d;')"/>
                 <xsl:text>" )&#xa;</xsl:text>
             </xsl:for-each>
         </xsl:result-document>
@@ -52,14 +52,14 @@
                 <xsl:text>](</xsl:text>
                 <xsl:value-of select="documentation/@source"/>
                 <xsl:text> "</xsl:text>
-                <xsl:value-of select="documentation/text()"/>
+                <xsl:value-of select="replace(documentation/text(), '&quot;', '&#x201d;')"/>
 -->
                 <xsl:text> : [</xsl:text>
                 <xsl:value-of select="../title/text()"/>
                 <xsl:text>](</xsl:text>
                 <xsl:value-of select="../documentation/@source"/>
                 <xsl:text> "</xsl:text>
-                <xsl:value-of select="../documentation/text()"/>
+                <xsl:value-of select="replace(../documentation/text(), '&quot;', '&#x201d;')"/>
                 <xsl:text>" )&#xa;</xsl:text>
             </xsl:for-each>
         </xsl:result-document>
@@ -80,13 +80,13 @@
                 <xsl:text>](</xsl:text>
                 <xsl:value-of select="documentation/@source"/>
                 <xsl:text> "</xsl:text>
-                <xsl:value-of select="documentation/text()"/>
+                <xsl:value-of select="replace(documentation/text(), '&quot;', '&#x201d;')"/>
                 <xsl:text>") : [</xsl:text>
                 <xsl:value-of select="../title/text()"/>
                 <xsl:text>](</xsl:text>
                 <xsl:value-of select="../documentation/@source"/>
                 <xsl:text> "</xsl:text>
-                <xsl:value-of select="../documentation/text()"/>
+                <xsl:value-of select="replace(documentation/text(), '&quot;', '&#x201d;')"/>
                 <xsl:text>" )&#xa;</xsl:text>
             </xsl:for-each>
         </xsl:result-document>
