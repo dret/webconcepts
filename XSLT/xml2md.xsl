@@ -48,13 +48,40 @@
                 <xsl:sort select="@def"/>
                 <xsl:text>* </xsl:text>
                 <xsl:value-of select="@def"/>
-<!--
+                <!--
                 <xsl:text>](</xsl:text>
                 <xsl:value-of select="documentation/@source"/>
                 <xsl:text> "</xsl:text>
                 <xsl:value-of select="documentation/text()"/>
 -->
                 <xsl:text> : [</xsl:text>
+                <xsl:value-of select="../title/text()"/>
+                <xsl:text>](</xsl:text>
+                <xsl:value-of select="../documentation/@source"/>
+                <xsl:text> "</xsl:text>
+                <xsl:value-of select="../documentation/text()"/>
+                <xsl:text>" )&#xa;</xsl:text>
+            </xsl:for-each>
+        </xsl:result-document>
+        <xsl:result-document href="../MD/linkrels.md" format="md-text">
+            <xsl:text>Link Relations&#xa;==============&#xa;&#xa;The following link relation definitions were found in </xsl:text>
+            <xsl:value-of select="count($allfiles)"/>
+            <xsl:text> services (</xsl:text>
+            <xsl:value-of select="count($W3C)"/>
+            <xsl:text> [W3C](../W3C/), </xsl:text>
+            <xsl:value-of select="count($RFC)"/>
+            <xsl:text> [RFC](../IETF/RFC/), </xsl:text>
+            <xsl:value-of select="count($I-D)"/>
+            <xsl:text> [I-D](../IETF/I-D)):&#xa;&#xa;</xsl:text>
+            <xsl:for-each select="$allfiles//link[exists(@def)]">
+                <xsl:sort select="@def"/>
+                <xsl:text>* [</xsl:text>
+                <xsl:value-of select="@def"/>
+                <xsl:text>](</xsl:text>
+                <xsl:value-of select="documentation/@source"/>
+                <xsl:text> "</xsl:text>
+                <xsl:value-of select="documentation/text()"/>
+                <xsl:text>") : [</xsl:text>
                 <xsl:value-of select="../title/text()"/>
                 <xsl:text>](</xsl:text>
                 <xsl:value-of select="../documentation/@source"/>

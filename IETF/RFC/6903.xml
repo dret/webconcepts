@@ -3,19 +3,18 @@
     <title>Additional Link Relation Types</title>
     <documentation source="http://tools.ietf.org/html/rfc6903">This specification defines a number of additional link relation types that can used for a range of purposes in a variety of applications types.</documentation>
     <link def="about">
-        <documentation source="http://tools.ietf.org/html/rfc6903#section-2">The "about" link relation can be used to refer to a resource that is the subject or topic of the link's context.  Multiple subjects can be indicated through the use of multiple "about" link relations.</documentation>
+        <documentation source="http://tools.ietf.org/html/rfc6903#section-2">The "about" link relation can be used to refer to a resource that is the subject or topic of the link's context. Multiple subjects can be indicated through the use of multiple "about" link relations.</documentation>
     </link>
     <link def="preview">
-        <documentation source="http://tools.ietf.org/html/rfc6903#section-3">The "preview" link relation can be used to refer to a resource that serves as a preview of the link's context, likely with reduced quality or limited content.  For instance, the preview link might reference a screen capture of a video, a brief snippet of audio from a song, or a thumbnail representation of an image.</documentation>
+        <documentation source="http://tools.ietf.org/html/rfc6903#section-3">The "preview" link relation can be used to refer to a resource that serves as a preview of the link's context, likely with reduced quality or limited content. For instance, the preview link might reference a screen capture of a video, a brief snippet of audio from a song, or a thumbnail representation of an image.</documentation>
     </link>
     <link def="privacy-policy">
-        <documentation source="http://tools.ietf.org/html/rfc6596#section-4">The "privacy-policy" link relation can be used to refer to a resource describing the privacy policy associated with the link's context. The privacy policy can be any resource that discloses what personal information about the user is collected and how that personal information is stored, used, managed, and disclosed to other parties.</documentation>
+        <documentation source="http://tools.ietf.org/html/rfc6903#section-4">The "privacy-policy" link relation can be used to refer to a resource describing the privacy policy associated with the link's context. The privacy policy can be any resource that discloses what personal information about the user is collected and how that personal information is stored, used, managed, and disclosed to other parties.</documentation>
     </link>
     <link def="terms-of-service">
-        <documentation source="http://tools.ietf.org/html/rfc6596#section-5">The "terms-of-service" link relation can be used to refer to a resource describing the terms of service associated with the link's context.  The terms of service can be any resource that describes the rules to which a consumer of the service must agree to follow when using the service provided by the link's context.</documentation>
+        <documentation source="http://tools.ietf.org/html/rfc6903#section-5">The "terms-of-service" link relation can be used to refer to a resource describing the terms of service associated with the link's context. The terms of service can be any resource that describes the rules to which a consumer of the service must agree to follow when using the service provided by the link's context.</documentation>
     </link>
     <link def="type">
-        <documentation source="http://tools.ietf.org/html/rfc6596#section-6">The "type" link relation can be used to indicate that the context resource is an instance of the resource identified by the target
-            Internationalized Resource Identifier (IRI).</documentation>
+        <documentation source="http://tools.ietf.org/html/rfc6903#section-6">The "type" link relation can be used to indicate that the context resource is an instance of the resource identified by the target Internationalized Resource Identifier (IRI).</documentation>
     </link>
 </service>
