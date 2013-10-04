@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<service xsi:noNamespaceSchemaLocation="../../core/sedola.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <title>The 'disclosure' Link Relation Type</title>
+    <documentation source="http://tools.ietf.org/html/rfc6579">This document specifies the 'disclosure' link relation type. It designates a list of IPR disclosures made with respect to the material for which such a relation type is specified.</documentation>
+    <link def="disclosure">
+        <documentation source="http://tools.ietf.org/html/rfc6579#section-2">Whenever the 'disclosure' relation type is used, the resource at the target Internationalized Resource Identifier (IRI) MUST represent a list of patent disclosures made with respect to the material referenced by context IRI.</documentation>
+    </link>
+</service>
