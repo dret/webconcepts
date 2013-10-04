@@ -2,7 +2,7 @@
 <service xsi:noNamespaceSchemaLocation="../../core/sedola.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <title short="Atom">Atom Syndication Format</title>
     <documentation source="http://tools.ietf.org/html/rfc4287">Atom is an XML-based document format that describes lists of related information known as "feeds". Feeds are composed of a number of items, known as "entries", each with an extensible set of attached metadata. For example, each entry has a title.</documentation>
-    <mediatype xml:id="atom-mediatype" type="application/atom+xml">
+    <mediatype def="application/atom+xml">
         <document xml:id="atom-document-feed" vocabularies="atom-vocabulary">
             <title>Atom Feed Document</title>
             <documentation source="http://tools.ietf.org/html/rfc4287#section-2">An Atom Feed Document is a representation of an Atom feed, including metadata about the feed, and some or all of the entries associated with it. Its root is the atom:feed element.</documentation>
@@ -43,23 +43,23 @@
             <title>atom:logo</title>
             <documentation source="http://tools.ietf.org/html/rfc4287#section-4.2.8">The "atom:logo" element's content is an IRI reference that identifies an image that provides visual identification for a feed.</documentation>
         </link>
-        <link xml:id="atom-linkrel-alternate" relation="alternate">
-            <documentation source="http://tools.ietf.org/html/rfc4287#section-4.2.7.2">The value "alternate" signifies that the IRI in the value of the href attribute identifies an alternate version of the resource described by the containing element.</documentation>
-        </link>
-        <link xml:id="atom-linkrel-related" relation="related">
-            <documentation source="http://tools.ietf.org/html/rfc4287#section-4.2.7.2">The value "related" signifies that the IRI in the value of the href attribute identifies a resource related to the resource described by the containing element. For example, the feed for a site that discusses the performance of the search engine at "http://search.example.com" might contain, as a child of atom:feed: &lt;link rel="related" href="http://search.example.com/"/> An identical link might appear as a child of any atom:entry whose content contains a discussion of that same search engine.</documentation>
-        </link>
-        <link xml:id="atom-linkrel-self" relation="self">
-            <documentation source="http://tools.ietf.org/html/rfc4287#section-4.2.7.2">The value "self" signifies that the IRI in the value of the href attribute identifies a resource equivalent to the containing element.</documentation>
-        </link>
-        <link xml:id="atom-linkrel-enclosure" relation="enclosure">
-            <documentation source="http://tools.ietf.org/html/rfc4287#section-4.2.7.2">The value "enclosure" signifies that the IRI in the value of the href attribute identifies a related resource that is potentially large in size and might require special handling. For atom:link elements with rel="enclosure", the length attribute SHOULD be provided.</documentation>
-        </link>
-        <link xml:id="atom-linkrel-via" relation="via">
-            <documentation source="http://tools.ietf.org/html/rfc4287#section-4.2.7.2">The value "via" signifies that the IRI in the value of the href attribute identifies a resource that is the source of the information provided in the containing element.</documentation>
-        </link>
     </mediatype>
-    <vocabulary xml:id="atom-vocabulary" id="http://www.w3.org/2005/Atom" type="xmlns">
+    <link def="alternate">
+        <documentation source="http://tools.ietf.org/html/rfc4287#section-4.2.7.2">The value "alternate" signifies that the IRI in the value of the href attribute identifies an alternate version of the resource described by the containing element.</documentation>
+    </link>
+    <link def="related">
+        <documentation source="http://tools.ietf.org/html/rfc4287#section-4.2.7.2">The value "related" signifies that the IRI in the value of the href attribute identifies a resource related to the resource described by the containing element. For example, the feed for a site that discusses the performance of the search engine at "http://search.example.com" might contain, as a child of atom:feed: &lt;link rel="related" href="http://search.example.com/"/> An identical link might appear as a child of any atom:entry whose content contains a discussion of that same search engine.</documentation>
+    </link>
+    <link def="self">
+        <documentation source="http://tools.ietf.org/html/rfc4287#section-4.2.7.2">The value "self" signifies that the IRI in the value of the href attribute identifies a resource equivalent to the containing element.</documentation>
+    </link>
+    <link def="enclosure">
+        <documentation source="http://tools.ietf.org/html/rfc4287#section-4.2.7.2">The value "enclosure" signifies that the IRI in the value of the href attribute identifies a related resource that is potentially large in size and might require special handling. For atom:link elements with rel="enclosure", the length attribute SHOULD be provided.</documentation>
+    </link>
+    <link def="via">
+        <documentation source="http://tools.ietf.org/html/rfc4287#section-4.2.7.2">The value "via" signifies that the IRI in the value of the href attribute identifies a resource that is the source of the information provided in the containing element.</documentation>
+    </link>
+    <vocabulary def="http://www.w3.org/2005/Atom" type="xmlns">
         <title>The Atom XML Vocabulary</title>
         <documentation source="http://tools.ietf.org/html/rfc4287#appendix-B">The Relax NG schema explicitly excludes elements in the Atom namespace that are not defined in this revision of the specification.</documentation>
     </vocabulary>

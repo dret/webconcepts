@@ -2,7 +2,7 @@
 <service xsi:noNamespaceSchemaLocation="../../core/sedola.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <title>Home Documents</title>
     <documentation source="http://tools.ietf.org/html/draft-nottingham-json-home">This document proposes a "home document" format for non-browser HTTP clients.</documentation>
-    <mediatype xml:id="home-document-json" type="application/home+json">
+    <mediatype def="application/home+json">
         <document xml:id="home-document-document-json">
             <title>Home Documents (JSON)</title>
             <documentation source="http://tools.ietf.org/html/draft-nottingham-json-home">This document proposes a "home document" format for non-browser HTTP clients.</documentation>

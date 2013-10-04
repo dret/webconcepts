@@ -2,13 +2,13 @@
 <service xsi:noNamespaceSchemaLocation="../../core/sedola.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <title>The Atom "deleted-entry" Element</title>
     <documentation source="http://tools.ietf.org/html/rfc6721">This specification adds mechanisms to the Atom Syndication Format that publishers of Atom Feed and Entry documents can use to explicitly identify Atom entries that have been removed.</documentation>
-    <mediatype xml:id="atom-deleted-entry-mediatype" type="application/atomdeleted+xml">
+    <mediatype def="application/atomdeleted+xml">
         <document xml:id="deleted-entry" vocabularies="deleted-entry-vocabulary">
             <title>Atom Entry Document</title>
             <documentation source="http://tools.ietf.org/html/rfc6721#section-4">A "Deleted Entry Document" represents exactly one at:deleted-entry element outside the context of an Atom feed. Its root is the at:deleted-entry element.</documentation>
         </document>
     </mediatype>
-    <vocabulary xml:id="atom-deleted-entry-vocabulary" id="http://purl.org/atompub/tombstones/1.0" type="xmlns">
+    <vocabulary def="http://purl.org/atompub/tombstones/1.0" type="xmlns">
         <title>The Atom "deleted-entry" Element XML Vocabulary</title>
         <documentation source="http://tools.ietf.org/html/rfc6721#section-3">The at:deleted-entry element represents an Atom Entry that has been removed.</documentation>
     </vocabulary>

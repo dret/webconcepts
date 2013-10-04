@@ -2,14 +2,14 @@
 <service xsi:noNamespaceSchemaLocation="../core/sedola.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <title>Server-Sent Events</title>
     <documentation source="http://www.w3.org/TR/eventsource/"> specification defines an API for opening an HTTP connection for receiving push notifications from a server in the form of DOM events. The API is designed such that it can be extended to work with other push notification schemes such as Push SMS.</documentation>
-    <mediatype xml:id="eventsource-mediatype-text-event-stream" type="text/event-stream">
+    <mediatype def="text/event-stream">
         <documentation source="http://www.w3.org/TR/eventsource/#text-event-stream">Defines a media type for representing an event stream for Server-Sent Events.</documentation>
-        <document>
+        <document xml:id="event-stream-document">
             <title>Event Stream</title>
             <documentation source="http://www.w3.org/TR/eventsource/#parsing-an-event-stream">An event stream as represented by Server-Sent Events.</documentation>
         </document>
     </mediatype>
-    <http-header xml:id="eventsource-http-header-Last-Event-ID" name="Last-Event-ID">
+    <http-header def="Last-Event-ID">
         <documentation source="http://www.w3.org/TR/eventsource/#last-event-id">The Last-Event-ID HTTP header specifies the value of the event source's last event ID string, encoded as UTF-8.</documentation>
     </http-header>
 </service>

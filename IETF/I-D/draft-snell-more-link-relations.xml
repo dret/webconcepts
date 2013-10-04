@@ -2,37 +2,37 @@
 <service xsi:noNamespaceSchemaLocation="../../core/sedola.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <title>Additional Link Relations and the urn:social Namespace</title>
     <documentation source="http://tools.ietf.org/html/draft-snell-more-link-relations">This specification defines a number of additional Link Relation Types that can used for a variety of purposes.</documentation>
-    <link xml:id="snell-more-linkrel-to" rel="to">
+    <link def="to">
         <documentation source="http://tools.ietf.org/html/draft-snell-more-link-relations#section-3">Refers to a resource that is considered to be part of the public primary audience of the link's context.</documentation>
     </link>
-    <link xml:id="snell-more-linkrel-bto" rel="bto">
+    <link def="bto">
         <documentation source="http://tools.ietf.org/html/draft-snell-more-link-relations#section-3">Refers to a resource that is considered to be part of the private primary audience of the link's context.</documentation>
     </link>
-    <link xml:id="snell-more-linkrel-cc" rel="cc">
+    <link def="cc">
         <documentation source="http://tools.ietf.org/html/draft-snell-more-link-relations#section-3">Refers to a resource that is considered to be  part of the public secondary audience of the link's context.</documentation>
     </link>
-    <link xml:id="snell-more-linkrel-bcc" rel="bcc">
+    <link def="bcc">
         <documentation source="http://tools.ietf.org/html/draft-snell-more-link-relations#section-3">Refers to a resource that is considered to be part of the private secondary audience of the link's context.</documentation>
     </link>
-    <link xml:id="snell-more-linkrel-from" rel="from">
+    <link def="from">
         <documentation source="http://tools.ietf.org/html/draft-snell-more-link-relations#section-3">Refers to a resource that is publicly considered to be the originator of the link's context.</documentation>
     </link>
-    <link xml:id="snell-more-linkrel-bfrom" rel="bfrom">
+    <link def="bfrom">
         <documentation source="http://tools.ietf.org/html/draft-snell-more-link-relations#section-3">Refers to a resource that is privately considered to be the originator of the link's context.</documentation>
     </link>
-    <link xml:id="snell-more-linkrel-source" rel="source">
+    <link def="source">
         <documentation source="http://tools.ietf.org/html/draft-snell-more-link-relations#section-3">Refers to the original source of information contained by the context resource.</documentation>
     </link>
-    <link xml:id="snell-more-linkrel-provider" rel="provider">
+    <link def="provider">
         <documentation source="http://tools.ietf.org/html/draft-snell-more-link-relations#section-3">Refers to the resource that provided the context resource. Typically, this would be used to identify the entity publishing the resource.</documentation>
     </link>
-    <link xml:id="snell-more-linkrel-generator" rel="generator">
+    <link def="generator">
         <documentation source="http://tools.ietf.org/html/draft-snell-more-link-relations#section-3">Refers to the resource that generated the context  resource.  Typically, this would be used to identify the software application that created the context resource.</documentation>
     </link>
-    <link xml:id="snell-more-linkrel-mentionedby" rel="mentionedby">
+    <link def="mentionedby">
         <documentation source="http://tools.ietf.org/html/draft-snell-more-link-relations#section-3">Refers to a resource that mentions the context resource in some fashion. This, for example, would be used when an article mentions another article, or a social status update mentions a particular user, etc.</documentation>
     </link>
-    <link xml:id="snell-more-linkrel-location" rel="location">
+    <link def="location">
         <documentation source="http://tools.ietf.org/html/draft-snell-more-link-relations#section-3">References a URI/IRI that represents a physical or logical location with which the context resource is associated.</documentation>
     </link>
 </service>

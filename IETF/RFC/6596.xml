@@ -2,7 +2,7 @@
 <service xsi:noNamespaceSchemaLocation="../../core/sedola.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <title>The Canonical Link Relation</title>
     <documentation source="http://tools.ietf.org/html/rfc6596">RFC 5988 specifies a way to define relationships between links on the web. This document describes a new type of such a relationship, "canonical", to designate an Internationalized Resource Identifier (IRI) as preferred over resources with duplicative content.</documentation>
-    <link xml:id="rfc6596-linkrel-canonical" rel="canonical">
+    <link def="canonical">
         <documentation source="http://tools.ietf.org/html/rfc6596#section-3">The target (canonical) IRI MUST identify content that is either duplicative or a superset of the content at the context (referring) IRI.</documentation>
     </link>
 </service>

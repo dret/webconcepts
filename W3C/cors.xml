@@ -2,31 +2,31 @@
 <service xsi:noNamespaceSchemaLocation="../core/sedola.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <title short="CORS">Cross-Origin Resource Sharing</title>
     <documentation source="http://www.w3.org/TR/cors/">This document defines a mechanism to enable client-side cross-origin requests. Specifications that enable an API to make cross-origin requests to resources can use the algorithms defined by this specification. If such an API is used on http://example.org resources, a resource on http://hello-world.example can opt in using the mechanism described by this specification (e.g., specifying Access-Control-Allow-Origin: http://example.org as response header), which would allow that resource to be fetched cross-origin from http://example.org.</documentation>
-    <http-header xml:id="CORS-header-Access-Control-Allow-Origin" name="Access-Control-Allow-Origin">
+    <http-header def="Access-Control-Allow-Origin">
         <documentation source="http://www.w3.org/TR/cors/#access-control-allow-origin-response-header">The Access-Control-Allow-Origin header indicates whether a resource can be shared based by returning the value of the Origin request header, "*", or "null" in the response.</documentation>
     </http-header>
-    <http-header xml:id="CORS-header-Access-Control-Allow-Credentials" name="Access-Control-Allow-Credentials">
+    <http-header def="Access-Control-Allow-Credentials">
         <documentation source="http://www.w3.org/TR/cors/#access-control-allow-credentials-response-header">The Access-Control-Allow-Credentials header indicates whether the response to request can be exposed when the omit credentials flag is unset. When part of the response to a preflight request it indicates that the actual request can include user credentials.</documentation>
     </http-header>
-    <http-header xml:id="CORS-header-Access-Control-Expose-Headers" name="Access-Control-Expose-Headers">
+    <http-header def="Access-Control-Expose-Headers">
         <documentation source="http://www.w3.org/TR/cors/#access-control-expose-headers-response-header">The Access-Control-Expose-Headers header indicates which headers are safe to expose to the API of a CORS API specification.</documentation>
     </http-header>
-    <http-header xml:id="CORS-header-Access-Control-Max-Age" name="Access-Control-Max-Age">
+    <http-header def="Access-Control-Max-Age">
         <documentation source="http://www.w3.org/TR/cors/#access-control-max-age-response-header">The Access-Control-Max-Age header indicates how long the results of a preflight request can be cached in a preflight result cache.</documentation>
     </http-header>
-    <http-header xml:id="CORS-header-Access-Control-Allow-Methods" name="Access-Control-Allow-Methods">
+    <http-header def="Access-Control-Allow-Methods">
         <documentation source="http://www.w3.org/TR/cors/#access-control-allow-methods-response-header">The Access-Control-Allow-Methods header indicates, as part of the response to a preflight request, which methods can be used during the actual request.</documentation>
     </http-header>
-    <http-header xml:id="CORS-header-Access-Control-Allow-Headers" name="Access-Control-Allow-Headers">
+    <http-header def="Access-Control-Allow-Headers">
         <documentation source="http://www.w3.org/TR/cors/#access-control-allow-headers-response-header">The Access-Control-Allow-Headers header indicates, as part of the response to a preflight request, which header field names can be used during the actual request.</documentation>
     </http-header>
-    <http-header xml:id="CORS-header-Origin" name="Origin">
+    <http-header def="Origin">
         <documentation source="http://www.w3.org/TR/cors/#origin-request-header">The Origin header indicates where the cross-origin request or preflight request originates from.</documentation>
     </http-header>
-    <http-header xml:id="CORS-header-Access-Control-Request-Method" name="Access-Control-Request-Method">
+    <http-header def="Access-Control-Request-Method">
         <documentation source="http://www.w3.org/TR/cors/#access-control-request-method-request-header">The Access-Control-Request-Method header indicates which method will be used in the actual request as part of the preflight request.</documentation>
     </http-header>
-    <http-header xml:id="CORS-header-Access-Control-Request-Headers" name="Access-Control-Request-Headers">
+    <http-header def="Access-Control-Request-Headers">
         <documentation source="http://www.w3.org/TR/cors/#access-control-request-headers-request-header">The Access-Control-Request-Headers header indicates which headers will be used in the actual request as part of the preflight request.</documentation>
     </http-header>
 </service>

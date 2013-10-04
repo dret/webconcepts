@@ -17,10 +17,10 @@
             <xsl:text> [RFC](../IETF/RFC/), </xsl:text>
             <xsl:value-of select="count($I-D)"/>
             <xsl:text> [I-D](../IETF/I-D)):&#xa;&#xa;</xsl:text>
-            <xsl:for-each select="$allfiles//http-header">
-                <xsl:sort select="@name"/>
+            <xsl:for-each select="$allfiles//http-header[exists(@def)]">
+                <xsl:sort select="@def"/>
                 <xsl:text>* [</xsl:text>
-                <xsl:value-of select="@name"/>
+                <xsl:value-of select="@def"/>
                 <xsl:text>](</xsl:text>
                 <xsl:value-of select="documentation/@source"/>
                 <xsl:text> "</xsl:text>
@@ -44,10 +44,10 @@
             <xsl:text> [RFC](../IETF/RFC/), </xsl:text>
             <xsl:value-of select="count($I-D)"/>
             <xsl:text> [I-D](../IETF/I-D)):&#xa;&#xa;</xsl:text>
-            <xsl:for-each select="$allfiles//mediatype[exists(@type)]">
-                <xsl:sort select="@type"/>
+            <xsl:for-each select="$allfiles//mediatype[exists(@def)]">
+                <xsl:sort select="@def"/>
                 <xsl:text>* </xsl:text>
-                <xsl:value-of select="@type"/>
+                <xsl:value-of select="@def"/>
 <!--
                 <xsl:text>](</xsl:text>
                 <xsl:value-of select="documentation/@source"/>

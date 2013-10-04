@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
-    <xs:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="http://www.w3.org/2001/xml.xsd">
+    <xs:import namespace="http://www.w3.org/XML/1998/namespace"
+        schemaLocation="http://www.w3.org/2001/xml.xsd">
         <xs:annotation>
             <xs:documentation>Get access to the xml: attribute groups that are in the XML namespace for XML itself.</xs:documentation>
         </xs:annotation>
@@ -11,7 +12,7 @@
         </xs:annotation>
         <xs:complexType>
             <xs:sequence>
-                <xs:group ref="title" minOccurs="1" maxOccurs="unbounded"/>
+                <xs:group ref="title" minOccurs="1"/>
                 <xs:group ref="descriptions" minOccurs="0" maxOccurs="unbounded"/>
                 <xs:element name="include" minOccurs="0" maxOccurs="unbounded">
                     <xs:annotation>
@@ -32,8 +33,10 @@
                                 <xs:element name="document" minOccurs="1" maxOccurs="unbounded">
                                     <xs:complexType>
                                         <xs:sequence>
-                                            <xs:group ref="title" minOccurs="0" maxOccurs="unbounded"/>
-                                            <xs:group ref="descriptions" minOccurs="0" maxOccurs="unbounded"/>
+                                            <xs:group ref="title" minOccurs="0"
+                                                maxOccurs="unbounded"/>
+                                            <xs:group ref="descriptions" minOccurs="0"
+                                                maxOccurs="unbounded"/>
                                         </xs:sequence>
                                         <xs:attribute ref="xml:id" use="optional"/>
                                         <xs:attribute name="vocabularies" use="optional">
@@ -41,7 +44,8 @@
                                                 <xs:list itemType="xs:token"/>
                                             </xs:simpleType>
                                         </xs:attribute>
-                                        <xs:attribute name="profile" type="xs:NMTOKEN" use="optional">
+                                        <xs:attribute name="profile" type="xs:NMTOKEN"
+                                            use="optional">
                                             <xs:annotation>
                                                 <xs:documentation>A @profile attribute indicates that a media type's document is using a profile according to RFC 6906. It must refer to the ID of a profile that is declared in a profile element.</xs:documentation>
                                             </xs:annotation>
@@ -56,12 +60,11 @@
                                 </xs:element>
                                 <xs:element ref="link" minOccurs="0" maxOccurs="unbounded"/>
                             </xs:sequence>
-                            <xs:attribute ref="xml:id" use="optional"/>
-                            <xs:attribute name="type" type="mediaTypeType" use="optional"/>
-                            <xs:attribute name="ref" type="xs:NMTOKEN" use="optional"/>
-                            <xs:assert test="(((count(@xml:id) + count(@type))=2) and count(@ref)=0) or (((count(@xml:id) + count(@type))=0) and count(@ref)=1)">
+                            <xs:attribute name="def" type="mediaTypeType" use="optional"/>
+                            <xs:attribute name="ref" type="mediaTypeType" use="optional"/>
+                            <xs:assert test="count(@def | @ref) = 1">
                                 <xs:annotation>
-                                    <xs:documentation>A media type is either defined by giving it an ID (@xml:id) and a name (@type), or referenced by referring to an existing (probably included) media type (@ref).</xs:documentation>
+                                    <xs:documentation>Media types are either defined or referenced; @def and @ref are mutually exclusive.</xs:documentation>
                                 </xs:annotation>
                             </xs:assert>
                         </xs:complexType>
@@ -102,8 +105,7 @@
                                 <xs:group ref="title" minOccurs="0" maxOccurs="unbounded"/>
                                 <xs:group ref="descriptions" minOccurs="0" maxOccurs="unbounded"/>
                             </xs:sequence>
-                            <xs:attribute ref="xml:id" use="required"/>
-                            <xs:attribute name="id" type="xs:token"/>
+                            <xs:attribute name="def" type="xs:token"/>
                             <xs:attribute name="type" use="optional">
                                 <xs:simpleType>
                                     <xs:union>
@@ -127,31 +129,13 @@
                                 <!-- HTTP Headers need no title, their name should serve as their title. -->
                                 <xs:group ref="descriptions" minOccurs="0" maxOccurs="unbounded"/>
                             </xs:sequence>
-                            <xs:attribute ref="xml:id" use="required"/>
-                            <xs:attribute name="name" use="required">
+                            <xs:attribute name="def" use="optional" type="httpHeaderType"/>
+                            <xs:attribute name="ref" use="optional" type="httpHeaderType"/>
+                            <xs:assert test="count(@def | @ref) = 1">
                                 <xs:annotation>
-                                    <xs:documentation>The name of the HTTP header field.</xs:documentation>
+                                    <xs:documentation>Media types are either defined or referenced; @def and @ref are mutually exclusive.</xs:documentation>
                                 </xs:annotation>
-                                <xs:simpleType>
-                                    <xs:restriction base="xs:token">
-                                        <xs:pattern value="[!#$%&amp;'\*\+\-\.\^_`\|~0-9a-zA-Z]+">
-                                            <xs:annotation>
-                                                <xs:documentation source="http://tools.ietf.org/html/draft-ietf-httpbis-p1-messaging#section-3.2">field-name = 1*( "!" / "#" / "$" / "%" / "&amp;" / "'" / "*" / "+" / "-" / "." / "^" / "_" / "`" / "|" / "~" / DIGIT / ALPHA</xs:documentation>
-                                            </xs:annotation>
-                                        </xs:pattern>
-                                    </xs:restriction>
-                                </xs:simpleType>
-                            </xs:attribute>
-                            <xs:attribute name="type" use="optional">
-                                <xs:simpleType>
-                                    <xs:restriction base="xs:token">
-                                        <xs:enumeration value="general"/>
-                                        <xs:enumeration value="request"/>
-                                        <xs:enumeration value="response"/>
-                                        <xs:enumeration value="entity"/>
-                                    </xs:restriction>
-                                </xs:simpleType>
-                            </xs:attribute>
+                            </xs:assert>
                         </xs:complexType>
                     </xs:element>
                 </xs:choice>
@@ -164,8 +148,7 @@
                 <xs:group ref="title" minOccurs="0" maxOccurs="unbounded"/>
                 <xs:group ref="descriptions" minOccurs="0" maxOccurs="unbounded"/>
             </xs:sequence>
-            <xs:attribute ref="xml:id" use="required"/>
-            <xs:attribute name="rel" use="optional">
+            <xs:attribute name="def" use="optional">
                 <xs:annotation>
                     <xs:documentation source="http://tools.ietf.org/html/rfc5988#section-4">Link relations must be names or URIs for RFC 5988 links. Links also can be encoded differently (for example in XML element names), in which case they don't have a @relation.</xs:documentation>
                 </xs:annotation>
@@ -190,7 +173,6 @@
             <xs:element name="title">
                 <xs:complexType mixed="true">
                     <xs:attribute name="short" type="xs:string" use="optional"/>
-                    <xs:attribute ref="xml:lang" use="optional"/>
                 </xs:complexType>
             </xs:element>
         </xs:sequence>
@@ -229,6 +211,15 @@
             <xs:pattern value="[a-zA-Z0-9!#$&amp;\.\+\-^_]+/[a-zA-Z0-9!#$&amp;\.\+\-^_]+">
                 <xs:annotation>
                     <xs:documentation source="http://tools.ietf.org/html/rfc4288#section-4.2">(sub)type-name = ALPHA / DIGIT / "!" / "#" / "$" / "&amp;" / "." / "+" / "-" / "^" / "_"</xs:documentation>
+                </xs:annotation>
+            </xs:pattern>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="httpHeaderType">
+        <xs:restriction base="xs:token">
+            <xs:pattern value="[!#$%&amp;'\*\+\-\.\^_`\|~0-9a-zA-Z]+">
+                <xs:annotation>
+                    <xs:documentation source="http://tools.ietf.org/html/draft-ietf-httpbis-p1-messaging#section-3.2">field-name = 1*( "!" / "#" / "$" / "%" / "&amp;" / "'" / "*" / "+" / "-" / "." / "^" / "_" / "`" / "|" / "~" / DIGIT / ALPHA</xs:documentation>
                 </xs:annotation>
             </xs:pattern>
         </xs:restriction>

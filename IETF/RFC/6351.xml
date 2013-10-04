@@ -2,13 +2,13 @@
 <service xsi:noNamespaceSchemaLocation="../../core/sedola.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <title>xCard: vCard XML Representation</title>
     <documentation source="http://tools.ietf.org/html/rfc6351">This document defines the XML schema of the vCard data format.</documentation>
-    <mediatype xml:id="xcard-mediatype" type="application/vcard+xml">
+    <mediatype def="application/vcard+xml">
         <document xml:id="webfinger-mediatype-jrd" vocabularies="webfinger-vocabulary-jrd">
             <title short="xCard">JSON Resource Descriptor</title>
             <documentation source="http://tools.ietf.org/html/rfc6351#section-8.2">The MIME media type for use with vCard-in-XML data.</documentation>
         </document>
     </mediatype>
-    <vocabulary xml:id="xcard-vocabulary-jrd" id="urn:ietf:params:xml:ns:vcard-4.0">
+    <vocabulary def="urn:ietf:params:xml:ns:vcard-4.0" type="xmlns">
         <title>xCard XML Vocabulary</title>
         <documentation source="http://tools.ietf.org/html/rfc6351#section-8.1">This document defines xCard, an XML representation for vCard. The underlying data structure is exactly the same, enabling a 1-to-1 mapping between the original vCard format and the XML representation. The XML formatting may be preferred in some contexts where an XML engine is readily available and may be reused instead of writing a standalone vCard parser.</documentation>
     </vocabulary>
