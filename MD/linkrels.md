@@ -1,7 +1,7 @@
 Link Relations
 ==============
 
-The following link relation definitions were found in 26 services (5 [W3C](../W3C/), 14 [RFC](../IETF/RFC/), 7 [I-D](../IETF/I-D)):
+The following link relation definitions were found in 27 services (5 [W3C](../W3C/), 15 [RFC](../IETF/RFC/), 7 [I-D](../IETF/I-D)):
 
 * [about](http://tools.ietf.org/html/rfc6903#section-2 "The ”about” link relation can be used to refer to a resource that is the subject or topic of the link's context. Multiple subjects can be indicated through the use of multiple ”about” link relations.") : [Additional Link Relation Types](http://tools.ietf.org/html/rfc6903 "The ”about” link relation can be used to refer to a resource that is the subject or topic of the link's context. Multiple subjects can be indicated through the use of multiple ”about” link relations." )
 * [alternate](http://tools.ietf.org/html/rfc4287#section-4.2.7.2 "The value ”alternate” signifies that the IRI in the value of the href attribute identifies an alternate version of the resource described by the containing element.") : [Atom Syndication Format](http://tools.ietf.org/html/rfc4287 "The value ”alternate” signifies that the IRI in the value of the href attribute identifies an alternate version of the resource described by the containing element." )
