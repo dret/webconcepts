@@ -3,6 +3,7 @@
     <title short="Atom">Atom Syndication Format</title>
     <documentation source="http://tools.ietf.org/html/rfc4287">Atom is an XML-based document format that describes lists of related information known as "feeds". Feeds are composed of a number of items, known as "entries", each with an extensible set of attached metadata. For example, each entry has a title.</documentation>
     <mediatype def="application/atom+xml">
+        <documentation source="http://tools.ietf.org/html/rfc4287#section-2">This specification describes two kinds of Atom Documents: Atom Feed Documents and Atom Entry Documents. Both kinds of Atom Documents are specified in terms of the XML Information Set, serialized as XML 1.0 and identified with the "application/atom+xml" media type. Atom Documents MUST be well-formed XML.</documentation>
         <document xml:id="atom-document-feed" vocabularies="atom-vocabulary">
             <title>Atom Feed Document</title>
             <documentation source="http://tools.ietf.org/html/rfc4287#section-2">An Atom Feed Document is a representation of an Atom feed, including metadata about the feed, and some or all of the entries associated with it. Its root is the atom:feed element.</documentation>
