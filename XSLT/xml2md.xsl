@@ -16,16 +16,16 @@
             <xsl:value-of select="count($RFC)"/>
             <xsl:text> [RFC](../IETF/RFC/), </xsl:text>
             <xsl:value-of select="count($I-D)"/>
-            <xsl:text> [I-D](../IETF/I-D)):&#xa;&#xa;</xsl:text>
+            <xsl:text> [I-D](../IETF/I-D)):&#xa;&#xa;Header Field | Description | Specification&#xa;-------: | :---------- | :---&#xa;</xsl:text>
             <xsl:for-each select="$allfiles//http-header[exists(@def)]">
                 <xsl:sort select="@def"/>
-                <xsl:text>* [</xsl:text>
+                <xsl:text>`</xsl:text>
                 <xsl:value-of select="@def"/>
+                <xsl:text>` | "[</xsl:text>
+                <xsl:value-of select="documentation/text()"/>
                 <xsl:text>](</xsl:text>
                 <xsl:value-of select="documentation/@source"/>
-                <xsl:text> "</xsl:text>
-                <xsl:value-of select="replace(documentation/text(), '&quot;', '&#x201d;')"/>
-                <xsl:text>" ) : [</xsl:text>
+                <xsl:text>)" | [</xsl:text>
                 <xsl:value-of select="../title/text()"/>
                 <xsl:text>](</xsl:text>
                 <xsl:value-of select="../documentation/@source"/>
@@ -79,7 +79,7 @@
                 <xsl:value-of select="@def"/>
                 <xsl:text>` | "[</xsl:text>
                 <xsl:value-of select="documentation/text()"/>
-                <xsl:text> ](</xsl:text>
+                <xsl:text>](</xsl:text>
                 <xsl:value-of select="documentation/@source"/>
                 <xsl:text>)" | [</xsl:text>
                 <xsl:value-of select="../title/text()"/>
