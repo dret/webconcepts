@@ -6,7 +6,6 @@
         <documentation source="http://tools.ietf.org/html/rfc6573#section-2.1">When included in a resource that represents a collection, the 'item' link relation identifies a target resource that represents a member of that collection.</documentation>
     </link>
     <link def="collection">
-        <documentation source="http://tools.ietf.org/html/rfc6573#section-2.2">When included in a resource that represents a member of a collection, the 'collection' link relation identifies a target resource that represents a collection of which the context resource is a member.
-        </documentation>
+        <documentation source="http://tools.ietf.org/html/rfc6573#section-2.2">When included in a resource that represents a member of a collection, the 'collection' link relation identifies a target resource that represents a collection of which the context resource is a member.</documentation>
     </link>
 </service>
