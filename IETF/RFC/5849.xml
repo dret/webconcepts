@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<service xsi:noNamespaceSchemaLocation="../../core/sedola.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <title>The OAuth 1.0 Protocol</title>
+    <documentation source="http://tools.ietf.org/html/rfc5849">OAuth provides a method for clients to access server resources on behalf of a resource owner (such as a different client or an end-user). It also provides a process for end-users to authorize third-party access to their server resources without sharing their credentials (typically, a username and password pair), using user-agent redirections.</documentation>
+    <http-header def="Authorization">
+        <documentation source="http://tools.ietf.org/html/rfc5849#section-3.5.1">Protocol parameters can be transmitted using the HTTP "Authorization" header field as defined by RFC 2617 with the auth-scheme name set to "OAuth" (case insensitive).</documentation>
+    </http-header>
+</service>
