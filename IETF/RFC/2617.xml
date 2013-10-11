@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<service xsi:noNamespaceSchemaLocation="../../core/sedola.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <title>HTTP Authentication: Basic and Digest Access Authentication</title>
+    <documentation source="http://tools.ietf.org/html/rfc2617">"HTTP/1.0", includes the specification for a Basic Access Authentication scheme. This scheme is not considered to be a secure method of user authentication (unless used in conjunction with some external secure system such as SSL), as the user name and password are passed over the network as cleartext. This document also provides the specification for HTTP's authentication framework, the original Basic authentication scheme and a scheme based on cryptographic hashes, referred to as "Digest Access Authentication". It is therefore also intended to serve as a replacement for RFC 2069. Some optional elements specified by RFC 2069 have been removed from this specification due to problems found since its publication; other new elements have been added for compatibility, those new elements have been made optional, but are strongly recommended. Like Basic, Digest access authentication verifies that both parties to a communication know a shared secret (a password); unlike Basic, this verification can be done without sending the password in the clear, which is Basic's biggest weakness. As with most other authentication protocols, the greatest sources of risks are usually found not in the core protocol itself but in policies and procedures surrounding its use.</documentation>
+    <http-header def="WWW-Authenticate">
+        <documentation source="http://tools.ietf.org/html/rfc2617#section-3.2.1">If a server receives a request for an access-protected object, and an acceptable Authorization header is not sent, the server responds with a "401 Unauthorized" status code, and a WWW-Authenticate header as per the framework defined above.</documentation>
+    </http-header>
+    <http-header def="Authorization">
+        <documentation source="http://tools.ietf.org/html/rfc2617#section-3.2.2">The client is expected to retry the request, passing an Authorization header line, which is defined according to the framework above.</documentation>
+    </http-header>
+    <http-header def="Authentication-Info">
+        <documentation source="http://tools.ietf.org/html/rfc2617#section-3.2.3">The Authentication-Info header is used by the server to communicate some information regarding the successful authentication in the response.</documentation>
+    </http-header>
+</service>
