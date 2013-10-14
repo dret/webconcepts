@@ -1,7 +1,7 @@
 HTTP Header Fields
 ==============
 
-The following HTTP header field definitions were found in 37 services (6 [W3C](../W3C/), 22 [RFC](../IETF/RFC/), 9 [I-D](../IETF/I-D)):
+The following 22 HTTP header field definitions were found in 37 services (6 [W3C](../W3C/), 22 [RFC](../IETF/RFC/), 9 [I-D](../IETF/I-D)):
 
 Header Field | Description | Specification
 -------: | :---------- | :---

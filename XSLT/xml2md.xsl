@@ -8,7 +8,9 @@
     <xsl:variable name="allfiles" select="$RFC | $I-D | $W3C"/>
     <xsl:template match="/">
         <xsl:result-document href="../MD/headers.md" format="md-text">
-            <xsl:text>HTTP Header Fields&#xa;==============&#xa;&#xa;The following HTTP header field definitions were found in </xsl:text>
+            <xsl:text>HTTP Header Fields&#xa;==============&#xa;&#xa;The following </xsl:text>
+            <xsl:value-of select="count($allfiles//http-header[exists(@def)])"/>
+            <xsl:text> HTTP header field definitions were found in </xsl:text>
             <xsl:value-of select="count($allfiles)"/>
             <xsl:text> services (</xsl:text>
             <xsl:value-of select="count($W3C)"/>
@@ -35,7 +37,9 @@
             </xsl:for-each>
         </xsl:result-document>
         <xsl:result-document href="../MD/mediatypes.md" format="md-text">
-            <xsl:text>Media Types&#xa;==============&#xa;&#xa;The following media type definitions were found in </xsl:text>
+            <xsl:text>Media Types&#xa;==============&#xa;&#xa;The following </xsl:text>
+            <xsl:value-of select="count($allfiles//mediatype[exists(@def)])"/>
+            <xsl:text> media type definitions were found in </xsl:text>
             <xsl:value-of select="count($allfiles)"/>
             <xsl:text> services (</xsl:text>
             <xsl:value-of select="count($W3C)"/>
@@ -64,7 +68,9 @@
             </xsl:for-each>
         </xsl:result-document>
         <xsl:result-document href="../MD/linkrels.md" format="md-text">
-            <xsl:text>Link Relations&#xa;==============&#xa;&#xa;The following link relation definitions were found in </xsl:text>
+            <xsl:text>Link Relations&#xa;==============&#xa;&#xa;The following </xsl:text>
+            <xsl:value-of select="count($allfiles//link[exists(@def)])"/>
+            <xsl:text> link relation definitions were found in </xsl:text>
             <xsl:value-of select="count($allfiles)"/>
             <xsl:text> services (</xsl:text>
             <xsl:value-of select="count($W3C)"/>
