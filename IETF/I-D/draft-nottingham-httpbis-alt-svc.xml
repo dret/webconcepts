@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<service xsi:noNamespaceSchemaLocation="../../core/sedola.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <title>HTTP Alternate Services</title>
+    <documentation source="http://tools.ietf.org/html/draft-nottingham-httpbis-alt-svc">This document introduces "alternate services" to allow an HTTP origin's resources to be available at a seperate network location, possibly accessed with a different protocol configuration. It also specifies one means of discovering alternate services, the "Alt-Svc" header field.</documentation>
+    <http-header def="Alt-Svc">
+        <documentation source="http://tools.ietf.org/html/draft-nottingham-httpbis-alt-svc#section-3">A HTTP(S) origin server can advertise the availability of alternate services to HTTP/1.1 and HTTP/2.0 clients by adding an Alt-Svc header field to responses.</documentation>
+    </http-header>
+</service>
