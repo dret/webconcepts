@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<service xsi:noNamespaceSchemaLocation="../../core/sedola.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <title>The Link-Template HTTP Header Field</title>
+    <documentation source="http://tools.ietf.org/html/draft-nottingham-link-template">This specification defines the Link-Template HTTP header field, providing a means for describing the structure of a link between two resources, so that new links can be generated.</documentation>
+    <http-header def="Link-Template">
+        <documentation source="http://tools.ietf.org/html/draft-nottingham-link-template#section-4">The Link-Template entity-header field provides a means for serialising one or more links into HTTP headers. It is semantically equivalent to the Link header field, except that it uses URI Templates to convey the structure of links.</documentation>
+    </http-header>
+</service>
