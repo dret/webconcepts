@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<service xsi:noNamespaceSchemaLocation="../../core/sedola.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <title>HTTP framework for time-based access to resource states - Memento</title>
+    <documentation source="http://tools.ietf.org/html/draft-vandesompel-memento">The HTTP-based Memento framework bridges the present and past Web. It facilitates obtaining representations of prior states of a given resource by introducing datetime negotiation and TimeMaps. Datetime negotiation is a variation on content negotiation that leverages the given resource's URI and a user agent's preferred datetime. TimeMaps are lists that enumerate URIs of resources that encapsulate prior states of the given resource. The framework also facilitates recognizing a resource that encapsulates a frozen prior state of another resource.</documentation>
+    <http-header def="Accept-Datetime">
+        <documentation source="http://tools.ietf.org/html/draft-vandesompel-memento#section-2.1.1">The "Accept-Datetime" request header is transmitted by a user agent to indicate it wants to access a past state of an Original Resource. To that end, the "Accept-Datetime" header is conveyed in an HTTP request issued against a TimeGate for an Original Resource, and its value indicates the datetime of the desired past state of the Original Resource.</documentation>
+    </http-header>
+    <http-header def="Memento-Datetime">
+        <documentation source="http://tools.ietf.org/html/draft-vandesompel-memento#section-2.1.1">The "Memento-Datetime" response header is used by a server to indicate that a response reflects a prior state of an Original Resource. Its value expresses the datetime of that state.</documentation>
+    </http-header>
+    <link def="original">
+        <documentation source="http://tools.ietf.org/html/draft-vandesompel-memento#section-2.2.1">A link with an "original" Relation Type is used to point from a TimeGate or a Memento to its associated Original Resource.</documentation>
+    </link>
+    <link def="timegate">
+        <documentation source="http://tools.ietf.org/html/draft-vandesompel-memento#section-2.2.2">A link with a "timegate" Relation Type is used to point from the Original Resource, as well as from a Memento associated with the Original Resource, to a TimeGate for the Original Resource.</documentation>
+    </link>
+    <link def="timemap">
+        <documentation source="http://tools.ietf.org/html/draft-vandesompel-memento#section-2.2.3">A link with a "timemap" Relation Type is used to point from a TimeGate or a Memento associated with an Original Resource, as well as from the Original Resource itself, to a TimeMap for the Original Resource.</documentation>
+    </link>
+    <link def="memento">
+        <documentation source="http://tools.ietf.org/html/draft-vandesompel-memento#section-2.2.4">A link with a "memento" Relation Type is used to point from a TimeGate or a Memento for an Original Resource, as well as from the Original Resource itself, to a Memento for the Original Resource.</documentation>
+    </link>
+</service>
