@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<service xsi:noNamespaceSchemaLocation="../../core/sedola.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <title>Hypertext Transfer Protocol (HTTP/1.1): Message Syntax and Routing</title>
+    <documentation source="http://tools.ietf.org/html/draft-ietf-httpbis-p1-messaging">The Hypertext Transfer Protocol (HTTP) is an application-level protocol for distributed, collaborative, hypertext information systems. HTTP has been in use by the World Wide Web global information initiative since 1990. This document provides an overview of HTTP architecture and its associated terminology, defines the "http" and "https" Uniform Resource Identifier (URI) schemes, defines the HTTP/1.1 message syntax and parsing requirements, and describes general security concerns for implementations.</documentation>
+    <http-header def="Transfer-Encoding">
+        <documentation source="http://tools.ietf.org/html/draft-ietf-httpbis-p1-messaging#section-3.3.1">The Transfer-Encoding header field lists the transfer coding names corresponding to the sequence of transfer codings that have been (or will be) applied to the payload body in order to form the message body.</documentation>
+    </http-header>
+    <http-header def="Content-Length">
+        <documentation source="http://tools.ietf.org/html/draft-ietf-httpbis-p1-messaging#section-3.3.2">When a message does not have a Transfer-Encoding header field, a Content-Length header field can provide the anticipated size, as a decimal number of octets, for a potential payload body. For messages that do include a payload body, the Content-Length field-value provides the framing information necessary for determining where the body (and message) ends. For messages that do not include a payload body, the Content-Length indicates the size of the selected representation (Section 3 of [Part2]).</documentation>
+    </http-header>
+    <http-header def="TE">
+        <documentation source="http://tools.ietf.org/html/draft-ietf-httpbis-p1-messaging#section-4.3">The "TE" header field in a request indicates what transfer codings, besides chunked, the client is willing to accept in response, and whether or not the client is willing to accept trailer fields in a chunked transfer coding.</documentation>
+    </http-header>
+    <http-header def="Trailer">
+        <documentation source="http://tools.ietf.org/html/draft-ietf-httpbis-p1-messaging#section-4.4">When a message includes a message body encoded with the chunked transfer coding and the sender desires to send metadata in the form of trailer fields at the end of the message, the sender SHOULD generate a Trailer header field before the message body to indicate which fields will be present in the trailers.</documentation>
+    </http-header>
+    <http-header def="Host">
+        <documentation source="http://tools.ietf.org/html/draft-ietf-httpbis-p1-messaging#section-5.4">The "Host" header field in a request provides the host and port information from the target URI, enabling the origin server to distinguish among resources while servicing requests for multiple host names on a single IP address.</documentation>
+    </http-header>
+    <http-header def="Via">
+        <documentation source="http://tools.ietf.org/html/draft-ietf-httpbis-p1-messaging#section-5.7.1">The "Via" header field indicates the presence of intermediate protocols and recipients between the user agent and the server (on requests) or between the origin server and the client (on responses), similar to the "Received" header field in email (Section 3.6.7 of RFC 5322). Via can be used for tracking message forwards, avoiding request loops, and identifying the protocol capabilities of senders along the request/response chain.</documentation>
+    </http-header>
+    <http-header def="Connection">
+        <documentation source="http://tools.ietf.org/html/draft-ietf-httpbis-p1-messaging#section-6.1">The "Connection" header field allows the sender to indicate desired control options for the current connection. In order to avoid confusing downstream recipients, a proxy or gateway MUST remove or replace any received connection options before forwarding the message.</documentation>
+    </http-header>
+    <http-header def="Upgrade">
+        <documentation source="http://tools.ietf.org/html/draft-ietf-httpbis-p1-messaging#section-6.7">The "Upgrade" header field is intended to provide a simple mechanism for transitioning from HTTP/1.1 to some other protocol on the same connection. A client MAY send a list of protocols in the Upgrade header field of a request to invite the server to switch to one or more of those protocols, in order of descending preference, before sending the final response.</documentation>
+    </http-header>
+</service>
