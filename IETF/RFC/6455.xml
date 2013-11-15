@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<service xsi:noNamespaceSchemaLocation="../../core/sedola.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <title>The WebSocket Protocol</title>
+    <documentation source="http://tools.ietf.org/html/rfc6455">The WebSocket Protocol enables two-way communication between a client running untrusted code in a controlled environment to a remote host that has opted-in to communications from that code. The security model used for this is the origin-based security model commonly used by web browsers. The protocol consists of an opening handshake followed by basic message framing, layered over TCP. The goal of this technology is to provide a mechanism for browser-based applications that need two-way communication with servers that does not rely on opening multiple HTTP connections (e.g., using XMLHttpRequest or &lt;iframe>s and long polling).</documentation>
+    <http-header def="Sec-WebSocket-Key">
+        <documentation source="http://tools.ietf.org/html/rfc6455#section-11.3.1">The Sec-WebSocket-Key header field is used in the WebSocket opening handshake. It is sent from the client to the server to provide part of the information used by the server to prove that it received a valid WebSocket opening handshake.</documentation>
+    </http-header>
+    <http-header def="Sec-WebSocket-Extensions">
+        <documentation source="http://tools.ietf.org/html/rfc6455#section-11.3.2">The Sec-WebSocket-Extensions header field is used in the WebSocket opening handshake. It is initially sent from the client to the server, and then subsequently sent from the server to the client, to agree on a set of protocol-level extensions to use for the duration of the connection.</documentation>
+    </http-header>
+    <http-header def="Sec-WebSocket-Accept">
+        <documentation source="http://tools.ietf.org/html/rfc6455#section-11.3.3">The Sec-WebSocket-Accept header field is used in the WebSocket opening handshake. It is sent from the server to the client to confirm that the server is willing to initiate the WebSocket connection.</documentation>
+    </http-header>
+    <http-header def="Sec-WebSocket-Protocol">
+        <documentation source="http://tools.ietf.org/html/rfc6455#section-11.3.4">The Sec-WebSocket-Protocol header field is used in the WebSocket opening handshake. It is sent from the client to the server and back from the server to the client to confirm the subprotocol of the connection. This enables scripts to both select a subprotocol and be sure that the server agreed to serve that subprotocol.</documentation>
+    </http-header>
+    <http-header def="Sec-WebSocket-Version">
+        <documentation source="http://tools.ietf.org/html/rfc6455#section-11.3.5">The Sec-WebSocket-Version header field is used in the WebSocket opening handshake. It is sent from the client to the server to indicate the protocol version of the connection. This enables servers to correctly interpret the opening handshake and subsequent data being sent from the data, and close the connection if the server cannot interpret that data in a safe manner. The Sec-WebSocket-Version header field is also sent from the server to the client on WebSocket handshake error, when the version received from the client does not match a version understood by the server. In such a case, the header field includes the protocol version(s) supported by the server.</documentation>
+    </http-header>
+</service>
