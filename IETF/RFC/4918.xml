@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<service xsi:noNamespaceSchemaLocation="../../core/sedola.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <title>HTTP Extensions for Web Distributed Authoring and Versioning (WebDAV)</title>
+    <documentation source="http://tools.ietf.org/html/rfc4918">Web Distributed Authoring and Versioning (WebDAV) consists of a set of methods, headers, and content-types ancillary to HTTP/1.1 for the management of resource properties, creation and management of resource collections, URL namespace manipulation, and resource locking (collision avoidance).</documentation>
+    <http-header def="DAV">
+        <documentation source="http://tools.ietf.org/html/rfc4918#section-10.1">This general-header appearing in the response indicates that the resource supports the DAV schema and protocol as specified. As a request header, this header allows the client to advertise compliance with named features when the server needs that information.</documentation>
+    </http-header>
+    <http-header def="Depth">
+        <documentation source="http://tools.ietf.org/html/rfc4918#section-10.2">The Depth request header is used with methods executed on resources that could potentially have internal members to indicate whether the method is to be applied only to the resource ("Depth: 0"), to the resource and its internal members only ("Depth: 1"), or the resource and all its members ("Depth: infinity").</documentation>
+    </http-header>
+    <http-header def="Destination">
+        <documentation source="http://tools.ietf.org/html/rfc4918#section-10.3">The Destination request header specifies the URI that identifies a destination resource for methods such as COPY and MOVE, which take two URIs as parameters.</documentation>
+    </http-header>
+    <http-header def="If">
+        <documentation source="http://tools.ietf.org/html/rfc4918#section-10.4">The If request header is intended to have similar functionality to the If-Match header defined in Section 14.24 of RFC 2616. However, the If header handles any state token as well as ETags. A typical example of a state token is a lock token, and lock tokens are the only state tokens defined in this specification.</documentation>
+    </http-header>
+    <http-header def="Lock-Token">
+        <documentation source="http://tools.ietf.org/html/rfc4918#section-10.5">The Lock-Token request header is used with the UNLOCK method to identify the lock to be removed.</documentation>
+    </http-header>
+    <http-header def="Overwrite">
+        <documentation source="http://tools.ietf.org/html/rfc4918#section-10.6">The Overwrite request header specifies whether the server should overwrite a resource mapped to the destination URL during a COPY or MOVE.</documentation>
+    </http-header>
+    <http-header def="Timeout">
+        <documentation source="http://tools.ietf.org/html/rfc4918#section-10.7">Clients MAY include Timeout request headers in their LOCK requests. However, the server is not required to honor or even consider these requests.</documentation>
+    </http-header>
+</service>
