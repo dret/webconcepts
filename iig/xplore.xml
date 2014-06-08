@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<service xsi:noNamespaceSchemaLocation="../core/sedola.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <title>xPlore</title>
-    <profile xml:id="xPlore-profile" href="http://names.emc.com/profile/xPlore">
-        <title>xPlore Profile</title>
-        <documentation source="http://iig.emc.com/products/xCP/docs/profile">The xPlore profile applies to the xPlore REST services. It is used to indicate xPlore-specific constraints and extensions in standardized media types that are exposed by xPlore.</documentation>
-    </profile>
-</service>
