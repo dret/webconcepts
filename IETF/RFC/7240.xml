@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<service xsi:noNamespaceSchemaLocation="../../core/sedola.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <title>Prefer Header for HTTP</title>
+    <documentation source="http://tools.ietf.org/html/rfc7240">This specification defines an HTTP header field that can be used by a client to request that certain behaviors be employed by a server while processing a request.</documentation>
+    <http-header def="Prefer">
+        <documentation source="http://tools.ietf.org/html/rfc7240#section-2">The Prefer request header field is used to indicate that particular server behaviors are preferred by the client, but not required for successful completion of the request. Prefer is similar in nature to the Expect header field with the exception that servers are allowed to ignore stated preferences.</documentation>
+    </http-header>
+    <http-header def="Preference-Applied">
+        <documentation source="http://tools.ietf.org/html/rfc7240#section-3">The Preference-Applied response header MAY be included within a response message as an indication as to which Prefer tokens were honored by the server and applied to the processing of a request.</documentation>
+    </http-header>
+</service>
