@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<service xsi:noNamespaceSchemaLocation="../../core/sedola.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <title>Hypertext Transfer Protocol (HTTP/1.1): Semantics and Content</title>
+    <documentation source="http://tools.ietf.org/html/rfc7231">The Hypertext Transfer Protocol (HTTP) is an application-level protocol for distributed, collaborative, hypertext information systems. This document defines the semantics of HTTP/1.1 messages as expressed by request methods, request header fields, response status codes, and response header fields, along with the payload of messages (metadata and body content) and mechanisms for content negotiation.</documentation>
+    <http-header def="Content-Type">
+        <documentation source="http://tools.ietf.org/html/rfc7231#section-3.1.1.5">The "Content-Type" header field indicates the media type of the associated representation: either the representation enclosed in the message payload or the selected representation, as determined by the message semantics. The indicated media type defines both the data format and how that data is intended to be processed by a recipient, within the scope of the received message semantics, after any content codings indicated by Content-Encoding are decoded.</documentation>
+    </http-header>
+    <http-header def="Content-Encoding">
+        <documentation source="http://tools.ietf.org/html/rfc7231#section-3.1.2.2">The "Content-Encoding" header field indicates what content codings have been applied to the representation, beyond those inherent in the media type, and thus what decoding mechanisms have to be applied in order to obtain data in the media type referenced by the Content-Type header field. Content-Encoding is primarily used to allow a representation's data to be compressed without losing the identity of its underlying media type.</documentation>
+    </http-header>
+    <http-header def="Content-Language">
+        <documentation source="http://tools.ietf.org/html/rfc7231#section-3.1.3.2">The "Content-Language" header field describes the natural language(s) of the intended audience for the representation. Note that this might not be equivalent to all the languages used within the representation.</documentation>
+    </http-header>
+    <http-header def="Content-Language">
+        <documentation source="http://tools.ietf.org/html/rfc7231#section-3.1.4.2">The "Content-Location" header field references a URI that can be used as an identifier for a specific resource corresponding to the representation in this message's payload. In other words, if one were to perform a GET request on this URI at the time of this message's generation, then a 200 (OK) response would contain the same representation that is enclosed as payload in this message.</documentation>
+    </http-header>
+    <http-header def="Expect">
+        <documentation source="http://tools.ietf.org/html/rfc7231#section-5.1.1">The "Expect" header field in a request indicates a certain set of behaviors (expectations) that need to be supported by the server in order to properly handle this request.</documentation>
+    </http-header>
+    <http-header def="Max-Forwards">
+        <documentation source="http://tools.ietf.org/html/rfc7231#section-5.1.2">The "Max-Forwards" header field provides a mechanism with the TRACE and OPTIONS request methods to limit the number of times that the request is forwarded by proxies.</documentation>
+    </http-header>
+    <http-header def="Accept">
+        <documentation source="http://tools.ietf.org/html/rfc7231#section-5.3.2">The "Accept" header field can be used by user agents to specify response media types that are acceptable. Accept header fields can be used to indicate that the request is specifically limited to a small set of desired types, as in the case of a request for an in-line image.</documentation>
+    </http-header>
+    <http-header def="Accept-Charset">
+        <documentation source="http://tools.ietf.org/html/rfc7231#section-5.3.3">The "Accept-Charset" header field can be sent by a user agent to indicate what charsets are acceptable in textual response content. This field allows user agents capable of understanding more comprehensive or special-purpose charsets to signal that capability to an origin server that is capable of representing information in those charsets.</documentation>
+    </http-header>
+    <http-header def="Accept-Encoding">
+        <documentation source="http://tools.ietf.org/html/rfc7231#section-5.3.4">The "Accept-Encoding" header field can be used by user agents to indicate what response content-codings are acceptable in the response. An "identity" token is used as a synonym for "no encoding" in order to communicate when no encoding is preferred.</documentation>
+    </http-header>
+    <http-header def="Accept-Language">
+        <documentation source="http://tools.ietf.org/html/rfc7231#section-5.3.5">The "Accept-Language" header field can be used by user agents to indicate the set of natural languages that are preferred in the response.</documentation>
+    </http-header>
+    <http-header def="From">
+        <documentation source="http://tools.ietf.org/html/rfc7231#section-5.5.1">The "From" header field contains an Internet email address for a human user who controls the requesting user agent.</documentation>
+    </http-header>
+    <http-header def="Referer">
+        <documentation source="http://tools.ietf.org/html/rfc7231#section-5.5.2">The "Referer" header field allows the user agent to specify a URI reference for the resource from which the target URI was obtained (i.e., the "referrer", though the field name is misspelled).</documentation>
+    </http-header>
+    <http-header def="User-Agent">
+        <documentation source="http://tools.ietf.org/html/rfc7231#section-5.5.3">The "User-Agent" header field contains information about the user agent originating the request, which is often used by servers to help identify the scope of reported interoperability problems, to work around or tailor responses to avoid particular user agent limitations, and for analytics regarding browser or operating system use.</documentation>
+    </http-header>
+    <http-header def="Date">
+        <documentation source="http://tools.ietf.org/html/rfc7231#section-7.1.1.2">The "Date" header field represents the date and time at which the message was originated, having the same semantics as the Origination Date Field (orig-date) defined in Section 3.6.1 of RFC 5322.</documentation>
+    </http-header>
+    <http-header def="Location">
+        <documentation source="http://tools.ietf.org/html/rfc7231#section-7.1.2">The "Location" header field is used in some responses to refer to a specific resource in relation to the response. The type of relationship is defined by the combination of request method and status code semantics.</documentation>
+    </http-header>
+    <http-header def="Retry-After">
+        <documentation source="http://tools.ietf.org/html/rfc7231#section-7.1.3">Servers send the "Retry-After" header field to indicate how long the user agent ought to wait before making a follow-up request. When sent with a 503 (Service Unavailable) response, Retry-After indicates how long the service is expected to be unavailable to the client. When sent with any 3xx (Redirection) response, Retry-After indicates the minimum time that the user agent is asked to wait before issuing the redirected request.</documentation>
+    </http-header>
+    <http-header def="Vary">
+        <documentation source="http://tools.ietf.org/html/rfc7231#section-7.1.4">The "Vary" header field in a response describes what parts of a request message, aside from the method, Host header field, and request target, might influence the origin server's process for selecting and representing this response. The value consists of either a single asterisk ("*") or a list of header field names (case-insensitive).</documentation>
+    </http-header>
+    <http-header def="Allow">
+        <documentation source="http://tools.ietf.org/html/rfc7231#section-7.4.1">The "Allow" header field lists the set of methods advertised as supported by the target resource. The purpose of this field is strictly to inform the recipient of valid request methods associated with the resource.</documentation>
+    </http-header>
+    <http-header def="Server">
+        <documentation source="http://tools.ietf.org/html/rfc7231#section-7.4.2">The "Server" header field contains information about the software used by the origin server to handle the request, which is often used by clients to help identify the scope of reported interoperability problems, to work around or tailor requests to avoid particular server limitations, and for analytics regarding server or operating system use.</documentation>
+    </http-header>
+    <http-header def="MIME-Version">
+        <documentation source="http://tools.ietf.org/html/rfc7231#appendix-A.1">HTTP is not a MIME-compliant protocol. However, messages can include a single MIME-Version header field to indicate what version of the MIME protocol was used to construct the message. Use of the MIME-Version header field indicates that the message is in full conformance with the MIME protocol (as defined in RFC 2045). Senders are responsible for ensuring full conformance (where possible) when exporting HTTP messages to strict MIME environments.</documentation>
+    </http-header>
+</service>
