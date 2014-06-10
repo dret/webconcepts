@@ -33,8 +33,15 @@
                         <xsl:text>RFC </xsl:text>
                         <xsl:value-of select="substring-after(../documentation/@source, 'http://tools.ietf.org/html/rfc')"/>
                     </xsl:when>
+                    <xsl:when test="starts-with(../documentation/@source, 'http://tools.ietf.org/html/draft')">
+                        <xsl:value-of select="substring-after(../documentation/@source, 'http://tools.ietf.org/html/')"/>
+                    </xsl:when>
+                    <xsl:when test="starts-with(../documentation/@source, 'http://www.w3.org/TR/')">
+                        <xsl:text>W3C TR </xsl:text>
+                        <xsl:value-of select="substring-before(substring-after(../documentation/@source, 'http://www.w3.org/TR/'), '/')"/>
+                    </xsl:when>
                     <xsl:otherwise>
-                        <xsl:value-of select="../title/text()"/>
+                        <xsl:text>??????</xsl:text>
                     </xsl:otherwise>
                 </xsl:choose>
                 <xsl:text>](</xsl:text>
