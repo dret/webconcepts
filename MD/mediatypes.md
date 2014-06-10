@@ -1,7 +1,7 @@
 Media Types
 ==============
 
-The following 21 media type definitions were found in 53 services (6 [W3C](../W3C/), 28 [RFC](../IETF/RFC/), 19 [I-D](../IETF/I-D)):
+The following 21 media type definitions were found in 53 services (6 [W3C](../W3C/), 30 [RFC](../IETF/RFC/), 17 [I-D](../IETF/I-D)):
 
 * application/api-problem+json : [HTTP Problem Detail](http://tools.ietf.org/html/draft-nottingham-http-problem "This document defines a ”problem detail” as a way to carry machine-readable details of errors in a HTTP response, to avoid the need to invent new error response formats for HTTP APIs." )
 * application/api-problem+xml : [HTTP Problem Detail](http://tools.ietf.org/html/draft-nottingham-http-problem "This document defines a ”problem detail” as a way to carry machine-readable details of errors in a HTTP response, to avoid the need to invent new error response formats for HTTP APIs." )

@@ -28,11 +28,19 @@
                 <xsl:text>](</xsl:text>
                 <xsl:value-of select="documentation/@source"/>
                 <xsl:text>)" | [</xsl:text>
-                <xsl:value-of select="../title/text()"/>
+                <xsl:choose>
+                    <xsl:when test="starts-with(../documentation/@source, 'http://tools.ietf.org/html/rfc')">
+                        <xsl:text>RFC </xsl:text>
+                        <xsl:value-of select="substring-after(../documentation/@source, 'http://tools.ietf.org/html/rfc')"/>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:value-of select="../title/text()"/>
+                    </xsl:otherwise>
+                </xsl:choose>
                 <xsl:text>](</xsl:text>
                 <xsl:value-of select="../documentation/@source"/>
                 <xsl:text> "</xsl:text>
-                <xsl:value-of select="replace(../documentation/text(), '&quot;', '&#x201d;')"/>
+                <xsl:value-of select="replace(../title/text(), '&quot;', '&#x201d;')"/>
                 <xsl:text>" )&#xa;</xsl:text>
             </xsl:for-each>
         </xsl:result-document>
