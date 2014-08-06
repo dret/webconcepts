@@ -32,10 +32,8 @@
                                 <xs:element name="document" minOccurs="1" maxOccurs="unbounded">
                                     <xs:complexType>
                                         <xs:sequence>
-                                            <xs:group ref="title" minOccurs="0"
-                                                maxOccurs="unbounded"/>
-                                            <xs:group ref="descriptions" minOccurs="0"
-                                                maxOccurs="unbounded"/>
+                                            <xs:group ref="title" minOccurs="0" maxOccurs="unbounded"/>
+                                            <xs:group ref="descriptions" minOccurs="0" maxOccurs="unbounded"/>
                                         </xs:sequence>
                                         <xs:attribute ref="xml:id" use="optional"/>
                                         <xs:attribute name="vocabularies" use="optional">
@@ -43,8 +41,7 @@
                                                 <xs:list itemType="xs:token"/>
                                             </xs:simpleType>
                                         </xs:attribute>
-                                        <xs:attribute name="profile" type="xs:NMTOKEN"
-                                            use="optional">
+                                        <xs:attribute name="profile" type="xs:NMTOKEN" use="optional">
                                             <xs:annotation>
                                                 <xs:documentation>A @profile attribute indicates that a media type's document is using a profile according to RFC 6906. It must refer to the ID of a profile that is declared in a profile element.</xs:documentation>
                                             </xs:annotation>
@@ -127,6 +124,7 @@
                             <xs:sequence>
                                 <!-- HTTP Headers need no title, their name should serve as their title. -->
                                 <xs:group ref="descriptions" minOccurs="0" maxOccurs="unbounded"/>
+                                <xs:element minOccurs="0" ref="ABNF"/>
                             </xs:sequence>
                             <xs:attribute name="def" use="optional" type="httpHeaderType"/>
                             <xs:attribute name="ref" use="optional" type="httpHeaderType"/>
@@ -241,4 +239,13 @@
             </xs:simpleType>
         </xs:union>
     </xs:simpleType>
+    <xs:element name="ABNF">
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base="xs:string">
+                    <xs:attribute name="src" type="xs:anyURI" use="required"/>
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
 </xs:schema>
