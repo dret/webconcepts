@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<service xsi:noNamespaceSchemaLocation="../../core/sedola.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <title>The Key HTTP Response Header Field</title>
+    <documentation source="http://tools.ietf.org/html/draft-fielding-http-key">The 'Key' header field for HTTP responses allows an origin server to describe the cache key for a negotiated response: a short algorithm that can be used upon later requests to determine if the same response is reusable. Key has the advantage of avoiding an additional round trip for validation whenever a new request differs slightly, but not significantly, from prior requests. Key also informs user agents of the request characteristics that might result in different content, which can be useful if the user agent is not sending Accept* fields in order to reduce the risk of fingerprinting.</documentation>
+    <http-header def="Key">
+        <documentation source="draft-fielding-http-key#section-2">The "Key" response header field describes the request attributes that the server has used to select the current representation. As such, its semantics are similar to the "Vary" response header field, but it allows more fine-grained description, using "key modifiers". Caches can use this information as part of determining whether a stored response can be used to satisfy a given request. When a cache fully implements this mechanism, it MAY ignore the Vary response header field. Additionally, user agents can use this information to discover if additional request header fields might influence the resulting response.</documentation>
+    </http-header>
+</service>
