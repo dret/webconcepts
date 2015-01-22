@@ -12,4 +12,5 @@
             <title>Collection</title>
             <documentation source="http://www.w3.org/TR/activitystreams-core/#collection"> Collection objects are a specialization of the base Object that contain a listing of other Objects. The Collection object is used primarily as the root of an Activity Streams Document, but can also be used as the value of object properties. Collections have both a logical model and a physical serialization. While the logical view of a collection might contain a large number of objects, any single serialized representation might include only a subset of those objects, with specific "paging" Links used to reference additional serialized representations that include additional subsets. Such representations are known as "multi-page collections", with each serialized subset representing a single "page".</documentation>
         </document>
+    </mediatype>
 </service>
