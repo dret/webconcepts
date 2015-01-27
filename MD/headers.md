@@ -1,7 +1,7 @@
 HTTP Header Fields
 ==============
 
-The following 101 HTTP header field definitions were found in 60 services (9 [W3C](../W3C/), 37 [RFC](../IETF/RFC/), 14 [I-D](../IETF/I-D)):
+The following 103 HTTP header field definitions were found in 61 services (9 [W3C](../W3C/), 37 [RFC](../IETF/RFC/), 15 [I-D](../IETF/I-D)):
 
 Header Field | Description | Specification
 -------: | :---------- | :---
@@ -73,6 +73,9 @@ Header Field | Description | Specification
 `Nice` | "[The "Nice" header field indicates that a request is less important than a request that doesn't bear this header.](http://tools.ietf.org/html/draft-thomson-http-nice#section-2)" | [draft-thomson-http-nice](http://tools.ietf.org/html/draft-thomson-http-nice "Marking HTTP Requests as Unimportant" )
 `Origin` | "[The Origin header indicates where the cross-origin request or preflight request originates from.](http://www.w3.org/TR/cors/#origin-request-header)" | [W3C TR cors](http://www.w3.org/TR/cors/ "Cross-Origin Resource Sharing" )
 `Overwrite` | "[The Overwrite request header specifies whether the server should overwrite a resource mapped to the destination URL during a COPY or MOVE.](http://tools.ietf.org/html/rfc4918#section-10.6)" | [RFC 4918](http://tools.ietf.org/html/rfc4918 "HTTP Extensions for Web Distributed Authoring and Versioning (WebDAV)" )
+`POE` | "[The POE HTTP header is a request-header field whose field-value indicates the version of POE that a client supports.
+        ](https://tools.ietf.org/html/draft-nottingham-http-poe-00#section-4)" | [draft-nottingham-http-poe](http://tools.ietf.org/html/draft-nottingham-http-poe "POST Once Exactly (POE)" )
+`POE-Links` | "[The POE-Links HTTP header is an entity-header field whose field-value is a comma-separated list of quoted URI-references (without fragment identifiers) that the origin server asserts to be POE resources. The contents of the POE-Links response header SHOULD correspond to links found in the content of the response body.](https://tools.ietf.org/html/draft-nottingham-http-poe-00#section-3)" | [draft-nottingham-http-poe](http://tools.ietf.org/html/draft-nottingham-http-poe "POST Once Exactly (POE)" )
 `Pragma` | "[The "Pragma" header field allows backwards compatibility with HTTP/1.0 caches, so that clients can specify a "no-cache" request that they will understand (as Cache-Control was not defined until HTTP/1.1). When the Cache-Control header field is also present and understood in a request, Pragma is ignored.](http://tools.ietf.org/html/rfc7234#section-5.4)" | [RFC 7234](http://tools.ietf.org/html/rfc7234 "Hypertext Transfer Protocol (HTTP/1.1): Caching" )
 `Prefer` | "[The Prefer request header field is used to indicate that particular server behaviors are preferred by the client, but not required for successful completion of the request. Prefer is similar in nature to the Expect header field with the exception that servers are allowed to ignore stated preferences.](http://tools.ietf.org/html/rfc7240#section-2)" | [RFC 7240](http://tools.ietf.org/html/rfc7240 "Prefer Header for HTTP" )
 `Preference-Applied` | "[The Preference-Applied response header MAY be included within a response message as an indication as to which Prefer tokens were honored by the server and applied to the processing of a request.](http://tools.ietf.org/html/rfc7240#section-3)" | [RFC 7240](http://tools.ietf.org/html/rfc7240 "Prefer Header for HTTP" )
