@@ -6,7 +6,6 @@
         <documentation source="https://tools.ietf.org/html/draft-nottingham-http-poe-00#section-3">The POE-Links HTTP header is an entity-header field whose field-value is a comma-separated list of quoted URI-references (without fragment identifiers) that the origin server asserts to be POE resources. The contents of the POE-Links response header SHOULD correspond to links found in the content of the response body.</documentation>
     </http-header>
     <http-header def="POE">
-        <documentation source="https://tools.ietf.org/html/draft-nottingham-http-poe-00#section-4">The POE HTTP header is a request-header field whose field-value indicates the version of POE that a client supports.
-        </documentation>
+        <documentation source="https://tools.ietf.org/html/draft-nottingham-http-poe-00#section-4">The POE HTTP header is a request-header field whose field-value indicates the version of POE that a client supports.</documentation>
     </http-header>
 </service>
