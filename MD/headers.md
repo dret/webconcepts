@@ -1,7 +1,7 @@
 HTTP Header Fields
 ==============
 
-The following 106 HTTP header field definitions were found in 64 services (11 [W3C](../W3C/), 38 [RFC](../IETF/RFC/), 15 [I-D](../IETF/I-D)):
+The following 107 HTTP header field definitions were found in 65 services (11 [W3C](../W3C/), 39 [RFC](../IETF/RFC/), 15 [I-D](../IETF/I-D)):
 
 Header Field | Description | Specification
 -------: | :---------- | :---
@@ -93,6 +93,7 @@ Header Field | Description | Specification
 `Set-Cookie` | "[The Set-Cookie HTTP response header is used to send cookies from the server to the user agent.](http://tools.ietf.org/html/rfc6265#section-4.1)" | [RFC 6265](http://tools.ietf.org/html/rfc6265 "HTTP State Management Mechanism" )
 `Set-Cookie2` | "[The origin server initiates a session, if it so desires.  To do so, it returns an extra response header to the client, Set-Cookie2.](http://tools.ietf.org/html/rfc2965#section-3.2)" | [RFC 2965](http://tools.ietf.org/html/rfc2965 "HTTP State Management Mechanism" )
 `Slug` | "[Slug is an HTTP entity-header whose presence in a POST to a Collection constitutes a request by the client to use the header's value as part of any URIs that would normally be used to retrieve the to-be-created Entry or Media Resources.](http://tools.ietf.org/html/rfc5023#section-9.7)" | [RFC 5023](http://tools.ietf.org/html/rfc5023 "Atom Publishing Protocol" )
+`Status-URI` | "[The Status-URI response header may be used with the 102 (Processing) status code to inform the client as to the status of a method.](https://tools.ietf.org/html/rfc2518#section-9.7)" | [RFC 2518](http://tools.ietf.org/html/rfc2518 "HTTP Extensions for Distributed Authoring - WEBDAV" )
 `Surrogate-Capability` | "[The Surrogate-Capabilities request header allows surrogates to advertise their capabilities with capability tokens. Capability tokens indicate sets of operations (e.g., caching, processing) that a surrogate is willing to perform. They follow the form of product tokens in HTTP.](http://www.w3.org/TR/edge-arch/)" | [W3C TR edge-arch](http://www.w3.org/TR/edge-arch/ "Edge Architecture Specification" )
 `Surrogate-Control` | "[The Surrogate-Control response header allows origin servers to dictate how surrogates should handle response entities, with control directives. Currently defined directives control processing and cache behavior.](http://www.w3.org/TR/edge-arch/)" | [W3C TR edge-arch](http://www.w3.org/TR/edge-arch/ "Edge Architecture Specification" )
 `TCN` | "[The TCN response header is used by a server to signal that the resource is transparently negotiated.](http://tools.ietf.org/html/rfc2295#section-8.5)" | [RFC 2295](http://tools.ietf.org/html/rfc2295 "Transparent Content Negotiation in HTTP" )
