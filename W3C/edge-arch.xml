@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<service xsi:noNamespaceSchemaLocation="../core/sedola.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <title>Edge Architecture Specification</title>
+    <documentation source="http://www.w3.org/TR/edge-arch/">This document defines the Edge Architecture, which extend the Web infrastructure through the use of HTTP surrogates - intermediaries that act on behalf of an origin server.</documentation>
+    <http-header def="Surrogate-Capability">
+        <documentation source="http://www.w3.org/TR/edge-arch/">The Surrogate-Capabilities request header allows surrogates to advertise their capabilities with capability tokens. Capability tokens indicate sets of operations (e.g., caching, processing) that a surrogate is willing to perform. They follow the form of product tokens in HTTP.</documentation>
+    </http-header>
+    <http-header def="Surrogate-Control">
+        <documentation source="http://www.w3.org/TR/edge-arch/">The Surrogate-Control response header allows origin servers to dictate how surrogates should handle response entities, with control directives. Currently defined directives control processing and cache behavior.</documentation>
+    </http-header>
+</service>

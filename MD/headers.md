@@ -1,7 +1,7 @@
 HTTP Header Fields
 ==============
 
-The following 104 HTTP header field definitions were found in 63 services (10 [W3C](../W3C/), 38 [RFC](../IETF/RFC/), 15 [I-D](../IETF/I-D)):
+The following 106 HTTP header field definitions were found in 64 services (11 [W3C](../W3C/), 38 [RFC](../IETF/RFC/), 15 [I-D](../IETF/I-D)):
 
 Header Field | Description | Specification
 -------: | :---------- | :---
@@ -93,6 +93,8 @@ Header Field | Description | Specification
 `Set-Cookie` | "[The Set-Cookie HTTP response header is used to send cookies from the server to the user agent.](http://tools.ietf.org/html/rfc6265#section-4.1)" | [RFC 6265](http://tools.ietf.org/html/rfc6265 "HTTP State Management Mechanism" )
 `Set-Cookie2` | "[The origin server initiates a session, if it so desires.  To do so, it returns an extra response header to the client, Set-Cookie2.](http://tools.ietf.org/html/rfc2965#section-3.2)" | [RFC 2965](http://tools.ietf.org/html/rfc2965 "HTTP State Management Mechanism" )
 `Slug` | "[Slug is an HTTP entity-header whose presence in a POST to a Collection constitutes a request by the client to use the header's value as part of any URIs that would normally be used to retrieve the to-be-created Entry or Media Resources.](http://tools.ietf.org/html/rfc5023#section-9.7)" | [RFC 5023](http://tools.ietf.org/html/rfc5023 "Atom Publishing Protocol" )
+`Surrogate-Capability` | "[The Surrogate-Capabilities request header allows surrogates to advertise their capabilities with capability tokens. Capability tokens indicate sets of operations (e.g., caching, processing) that a surrogate is willing to perform. They follow the form of product tokens in HTTP.](http://www.w3.org/TR/edge-arch/)" | [W3C TR edge-arch](http://www.w3.org/TR/edge-arch/ "Edge Architecture Specification" )
+`Surrogate-Control` | "[The Surrogate-Control response header allows origin servers to dictate how surrogates should handle response entities, with control directives. Currently defined directives control processing and cache behavior.](http://www.w3.org/TR/edge-arch/)" | [W3C TR edge-arch](http://www.w3.org/TR/edge-arch/ "Edge Architecture Specification" )
 `TCN` | "[The TCN response header is used by a server to signal that the resource is transparently negotiated.](http://tools.ietf.org/html/rfc2295#section-8.5)" | [RFC 2295](http://tools.ietf.org/html/rfc2295 "Transparent Content Negotiation in HTTP" )
 `TE` | "[The "TE" header field in a request indicates what transfer codings, besides chunked, the client is willing to accept in response, and whether or not the client is willing to accept trailer fields in a chunked transfer coding.](http://tools.ietf.org/html/rfc7230#section-4.3)" | [RFC 7230](http://tools.ietf.org/html/rfc7230 "Hypertext Transfer Protocol (HTTP/1.1): Message Syntax and Routing" )
 `Timeout` | "[Clients MAY include Timeout request headers in their LOCK requests. However, the server is not required to honor or even consider these requests.](http://tools.ietf.org/html/rfc4918#section-10.7)" | [RFC 4918](http://tools.ietf.org/html/rfc4918 "HTTP Extensions for Web Distributed Authoring and Versioning (WebDAV)" )
