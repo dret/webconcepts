@@ -1,7 +1,7 @@
 HTTP Header Fields
 ==============
 
-The following 107 HTTP header field definitions were found in 65 services (11 [W3C](../W3C/), 39 [RFC](../IETF/RFC/), 15 [I-D](../IETF/I-D)):
+The following 108 HTTP header field definitions were found in 66 services (11 [W3C](../W3C/), 40 [RFC](../IETF/RFC/), 15 [I-D](../IETF/I-D)):
 
 Header Field | Description | Specification
 -------: | :---------- | :---
@@ -42,6 +42,7 @@ Header Field | Description | Specification
 `Content-Type` | "[The "Content-Type" header field indicates the media type of the associated representation: either the representation enclosed in the message payload or the selected representation, as determined by the message semantics. The indicated media type defines both the data format and how that data is intended to be processed by a recipient, within the scope of the received message semantics, after any content codings indicated by Content-Encoding are decoded.](http://tools.ietf.org/html/rfc7231#section-3.1.1.5)" | [RFC 7231](http://tools.ietf.org/html/rfc7231 "Hypertext Transfer Protocol (HTTP/1.1): Semantics and Content" )
 `Cookie` | "[The user agent sends stored cookies to the origin server in the Cookie header.](http://tools.ietf.org/html/rfc6265#section-4.2)" | [RFC 6265](http://tools.ietf.org/html/rfc6265 "HTTP State Management Mechanism" )
 `Cookie2` | "[The Cookie2 request header facilitates interoperation between clients and servers that understand different versions of the cookie specification.](http://tools.ietf.org/html/rfc2965#section-3.3)" | [RFC 2965](http://tools.ietf.org/html/rfc2965 "HTTP State Management Mechanism" )
+`DASL` | "[The DASL response header indicates server support for query grammars in the OPTIONS method.  The value is a list of URIs that indicate the types of supported grammars.  Note that although the URIs can be used to identify each supported search grammar, there is not necessarily a direct relationship between the URI and the XML element name that can be used in XML based SEARCH requests (the element name itself is identified by its namespace name (a URI reference) and the element's local name).](http://tools.ietf.org/html/rfc5323#section-9.1.1)" | [RFC 5323](http://tools.ietf.org/html/rfc5323 "Web Distributed Authoring and Versioning (WebDAV) SEARCH" )
 `DAV` | "[This general-header appearing in the response indicates that the resource supports the DAV schema and protocol as specified. As a request header, this header allows the client to advertise compliance with named features when the server needs that information.](http://tools.ietf.org/html/rfc4918#section-10.1)" | [RFC 4918](http://tools.ietf.org/html/rfc4918 "HTTP Extensions for Web Distributed Authoring and Versioning (WebDAV)" )
 `DNT` | "[The DNT header field is defined as the means for expressing a user's tracking preference via HTTP.](http://www.w3.org/TR/tracking-dnt/#dnt-header-field)" | [W3C TR tracking-dnt](http://www.w3.org/TR/tracking-dnt/ "Tracking Preference Expression" )
 `Date` | "[The "Date" header field represents the date and time at which the message was originated, having the same semantics as the Origination Date Field (orig-date) defined in Section 3.6.1 of RFC 5322.](http://tools.ietf.org/html/rfc7231#section-7.1.1.2)" | [RFC 7231](http://tools.ietf.org/html/rfc7231 "Hypertext Transfer Protocol (HTTP/1.1): Semantics and Content" )
