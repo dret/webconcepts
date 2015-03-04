@@ -23,11 +23,11 @@
                 <xsl:sort select="@def"/>
                 <xsl:text>`</xsl:text>
                 <xsl:value-of select="@def"/>
-                <xsl:text>` | "[</xsl:text>
+                <xsl:text>` | [</xsl:text>
                 <xsl:value-of select="documentation/text()"/>
                 <xsl:text>](</xsl:text>
                 <xsl:value-of select="documentation/@source"/>
-                <xsl:text>)" | [</xsl:text>
+                <xsl:text>) | [</xsl:text>
                 <xsl:choose>
                     <xsl:when test="starts-with(../documentation/@source, 'http://tools.ietf.org/html/rfc')">
                         <xsl:text>RFC </xsl:text>
