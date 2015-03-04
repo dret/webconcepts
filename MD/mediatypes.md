@@ -1,7 +1,7 @@
 Media Types
 ==============
 
-The following 25 media type definitions were found in 68 services (13 [W3C](../W3C/), 41 [RFC](../IETF/RFC/), 14 [I-D](../IETF/I-D)):
+The following 25 media type definitions were found in 69 services (13 [W3C](../W3C/), 42 [RFC](../IETF/RFC/), 14 [I-D](../IETF/I-D)):
 
 * application/activity+json : [Activity Streams 2.0](http://www.w3.org/TR/activitystreams-core/ "This specification details a model for representing potential and completed activities using the JSON format." )
 * application/api-problem+json : [HTTP Problem Detail](http://tools.ietf.org/html/draft-ietf-appsawg-http-problem "This document defines a ”problem detail” as a way to carry machine-readable details of errors in a HTTP response, to avoid the need to invent new error response formats for HTTP APIs." )
