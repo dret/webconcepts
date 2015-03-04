@@ -18,16 +18,12 @@
             <xsl:value-of select="count($RFC)"/>
             <xsl:text> [RFC](../IETF/RFC/), </xsl:text>
             <xsl:value-of select="count($I-D)"/>
-            <xsl:text> [I-D](../IETF/I-D)):&#xa;&#xa;Header Field | Description | Specification&#xa;-------: | :---------- | :---&#xa;</xsl:text>
+            <xsl:text> [I-D](../IETF/I-D)):&#xa;&#xa;Header Field | Specification/Description&#xa;-------: | :---------- | :---&#xa;</xsl:text>
             <xsl:for-each select="$allfiles//http-header[exists(@def)]">
                 <xsl:sort select="@def"/>
                 <xsl:text>`</xsl:text>
                 <xsl:value-of select="@def"/>
-                <xsl:text>` | [</xsl:text>
-                <xsl:value-of select="documentation/text()"/>
-                <xsl:text>](</xsl:text>
-                <xsl:value-of select="documentation/@source"/>
-                <xsl:text>) | [</xsl:text>
+                <xsl:text>` | [**</xsl:text>
                 <xsl:choose>
                     <xsl:when test="starts-with(../documentation/@source, 'http://tools.ietf.org/html/rfc')">
                         <xsl:text>RFC </xsl:text>
@@ -44,11 +40,15 @@
                         <xsl:text>??????</xsl:text>
                     </xsl:otherwise>
                 </xsl:choose>
-                <xsl:text>](</xsl:text>
+                <xsl:text>**](</xsl:text>
                 <xsl:value-of select="../documentation/@source"/>
                 <xsl:text> "</xsl:text>
                 <xsl:value-of select="replace(../title/text(), '&quot;', '&#x201d;')"/>
-                <xsl:text>" )&#xa;</xsl:text>
+                <xsl:text>" ): [</xsl:text>
+                <xsl:value-of select="documentation/text()"/>
+                <xsl:text>](</xsl:text>
+                <xsl:value-of select="documentation/@source"/>
+                <xsl:text>)&#xa;</xsl:text>
             </xsl:for-each>
         </xsl:result-document>
         <xsl:result-document href="../MD/mediatypes.md" format="md-text">
