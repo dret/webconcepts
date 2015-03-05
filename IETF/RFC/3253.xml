@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- This description ignores all the HTTP header fields that have been specified in the newer RFC 4918. Only the Status-URI header field is listed here, because it is the only header field that has been specified in RFC 2518, but has not been included in RFC 4918. -->
+<service xsi:noNamespaceSchemaLocation="../../core/sedola.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <title>Versioning Extensions to WebDAV (Web Distributed Authoring and Versioning)</title>
+    <documentation source="http://tools.ietf.org/html/rfc3253">This document specifies a set of methods, headers, and resource types that define the WebDAV (Web Distributed Authoring and Versioning) versioning extensions to the HTTP/1.1 protocol.  WebDAV versioning will minimize the complexity of clients that are capable of interoperating with a variety of versioning repository managers, to facilitate widespread deployment of applications capable of utilizing the WebDAV Versioning services.  WebDAV versioning includes automatic versioning for versioning-unaware clients, version history management, workspace management, baseline management, activity management, and URL namespace versioning.</documentation>
+    <http-header def="Label">
+        <documentation source="http://tools.ietf.org/html/rfc3253#section-8.3">For certain methods (e.g. GET, PROPFIND), if the request-URL identifies a version-controlled resource, a label can be specified in a Label request header to cause the method to be applied to the version selected by that label from the version history of that version-controlled resource.</documentation>
+    </http-header>
+</service>
