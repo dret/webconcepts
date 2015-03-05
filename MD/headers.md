@@ -1,7 +1,7 @@
 HTTP Header Fields
 ==============
 
-The following 127 HTTP header field definitions were found in 72 services (13 [W3C](../W3C/), 45 [RFC](../IETF/RFC/), 14 [I-D](../IETF/I-D)):
+The following 128 HTTP header field definitions were found in 73 services (13 [W3C](../W3C/), 45 [RFC](../IETF/RFC/), 15 [I-D](../IETF/I-D)):
 
 Header Field | Specification/Description
 -------: | :---------- | :---
@@ -67,6 +67,7 @@ Header Field | Specification/Description
 `Ext` | [**RFC 2774**](http://tools.ietf.org/html/rfc2774 "An HTTP Extension Framework" ): [The Ext header field is used to indicate that all end-to-end mandatory extension declarations in the request were fulfilled.](http://tools.ietf.org/html/rfc2774#section-4.3)
 `Forwarded` | [**RFC 7239**](http://tools.ietf.org/html/rfc7239 "Forwarded HTTP Extension" ): [The "Forwarded" HTTP header field is an OPTIONAL header field that, when used, contains a list of parameter-identifier pairs that disclose information that is altered or lost when a proxy is involved in the path of the request.](http://tools.ietf.org/html/rfc7239#section-4)
 `From` | [**RFC 7231**](http://tools.ietf.org/html/rfc7231 "Hypertext Transfer Protocol (HTTP/1.1): Semantics and Content" ): [The "From" header field contains an Internet email address for a human user who controls the requesting user agent.](http://tools.ietf.org/html/rfc7231#section-5.5.1)
+`HTTP2-Settings` | [**draft-ietf-httpbis-http2**](http://tools.ietf.org/html/draft-ietf-httpbis-http2 "Hypertext Transfer Protocol Version 2" ): [A request that upgrades from HTTP/1.1 to HTTP/2 MUST include exactly one "HTTP2-Settings" header field. The "HTTP2-Settings" header field is a connection-specific header field that includes parameters that govern the HTTP/2 connection, provided in anticipation of the server accepting the request to upgrade.](http://tools.ietf.org/html/draft-ietf-httpbis-http2#section-3.2.1)
 `Host` | [**RFC 7230**](http://tools.ietf.org/html/rfc7230 "Hypertext Transfer Protocol (HTTP/1.1): Message Syntax and Routing" ): [The "Host" header field in a request provides the host and port information from the target URI, enabling the origin server to distinguish among resources while servicing requests for multiple host names on a single IP address.](http://tools.ietf.org/html/rfc7230#section-5.4)
 `IM` | [**RFC 3229**](http://tools.ietf.org/html/rfc3229 "Delta encoding in HTTP" ): [The IM response-header field is used to indicate the instance-manipulations, if any, that have been applied to the instance represented by the response. Typical instance manipulations include delta encoding and compression.](http://tools.ietf.org/html/rfc3229#section-10.5.2)
 `If` | [**RFC 4918**](http://tools.ietf.org/html/rfc4918 "HTTP Extensions for Web Distributed Authoring and Versioning (WebDAV)" ): [The If request header is intended to have similar functionality to the If-Match header defined in Section 14.24 of RFC 2616. However, the If header handles any state token as well as ETags. A typical example of a state token is a lock token, and lock tokens are the only state tokens defined in this specification.](http://tools.ietf.org/html/rfc4918#section-10.4)
