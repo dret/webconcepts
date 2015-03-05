@@ -20,7 +20,7 @@
             <xsl:value-of select="count($I-D)"/>
             <xsl:text> [I-D](../IETF/I-D)):&#xa;&#xa;Header Field | Specification/Description&#xa;-------: | :---------- | :---&#xa;</xsl:text>
             <xsl:for-each select="$allfiles//http-header[exists(@def)]">
-                <xsl:sort select="@def"/>
+                <xsl:sort select="lower-case(@def)"/>
                 <xsl:text>`</xsl:text>
                 <xsl:value-of select="@def"/>
                 <xsl:text>` | [**</xsl:text>
