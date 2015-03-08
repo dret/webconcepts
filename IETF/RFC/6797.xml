@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <service xsi:noNamespaceSchemaLocation="../../core/sedola.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <title>Constrained RESTful Environments (CoRE) Link Format</title>
-    <documentation source="http://tools.ietf.org/html/rfc6690">This specification defines Web Linking using a link format for use by constrained web servers to describe hosted resources, their attributes, and other relationships between links. Based on the HTTP Link Header field defined in RFC 5988, the Constrained RESTful Environments (CoRE) Link Format is carried as a payload and is assigned an Internet media type. "RESTful" refers to the Representational State Transfer (REST) architecture. A well-known URI is defined as a default entry point for requesting the links hosted by a server.</documentation>
-    <mediatype def="application/link-format">
-        <documentation source="http://tools.ietf.org/html/rfc6690#section-2">The CoRE Link Format extends the HTTP Link Header field specified in RFC 5988.</documentation>
-    </mediatype>
-    <link def="hosts">
-        <documentation source="http://tools.ietf.org/html/rfc6690#section-7.2">Refers to a resource hosted by the server indicated by the link context.</documentation>
-    </link>
+    <title short="HSTS">HTTP Strict Transport Security (HSTS)</title>
+    <documentation source="http://tools.ietf.org/html/rfc6797">This specification defines a mechanism enabling web sites to declare themselves accessible only via secure connections and/or for users to be able to direct their user agent(s) to interact with given sites only over secure connections. This overall policy is referred to as HTTP Strict Transport Security (HSTS). The policy is declared by web sites via the Strict-Transport-Security HTTP response header field and/or by other means, such as user agent configuration, for example.</documentation>
+    <http-header def="Strict-Transport-Security">
+        <documentation source="http://tools.ietf.org/html/rfc6797#section-6.1">The Strict-Transport-Security HTTP response header field (STS header field) indicates to a UA that it MUST enforce the HSTS Policy in regards to the host emitting the response message containing this header field.</documentation>
+    </http-header>
 </service>
