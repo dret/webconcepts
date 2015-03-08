@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <service xsi:noNamespaceSchemaLocation="../../core/sedola.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <title short="HTTP Problem">HTTP Problem Detail</title>
-    <documentation source="http://tools.ietf.org/html/draft-ietf-appsawg-http-problem">This document defines a "problem detail" as a way to carry machine-readable details of errors in a HTTP response, to avoid the need to invent new error response formats for HTTP APIs.</documentation>
-    <mediatype def="application/api-problem+json">
-        <document xml:id="http-problem-document-json">
-            <title>HTTP Problem Detail (JSON)</title>
-            <documentation source="http://tools.ietf.org/html/draft-ietf-appsawg-http-problem#section-3">The canonical model for problem details is a JSON object. When serialised as a JSON document, that format is identified with the "application/api-problem+json" media type.</documentation>
-        </document>
-    </mediatype>
-    <mediatype def="application/api-problem+xml">
-        <document xml:id="http-problem-document-xml">
-            <title>HTTP Problem Detail (XML)</title>
-            <documentation source="http://tools.ietf.org/html/draft-ietf-appsawg-http-problem#appendix-A">Some HTTP-based APIs use XML as their primary format convention. Such APIs MAY express problem details using the format defined in this appendix.</documentation>
-        </document>
-    </mediatype>
+    <title>Public Key Pinning Extension for HTTP</title>
+    <documentation source="http://tools.ietf.org/html/draft-ietf-websec-key-pinning">This document defines a new HTTP header that allows web host operators to instruct user agents to remember ("pin") the hosts' cryptographic identities over a period of time.  During that time, UAs will require that the host presents a certificate chain including at least one Subject Public Key Info structure whose fingerprint matches one of the pinned fingerprints for that host.  By effectively reducing the number of trusted authorities who can authenticate the domain during the lifetime of the pin, pinning may reduce the incidence of man-in-the-middle attacks due to compromised Certification Authorities.</documentation>
+    <http-header def="Public-Key-Pins">
+        <documentation source="http://tools.ietf.org/html/draft-ietf-websec-key-pinning#section-2.2.1">When replying to an HTTP request that was conveyed over a secure transport, a Pinned Host should include in its response exactly one Public-Key-Pins header field, exactly one Public-Key-Pins-Report-Only header field, or one of each.</documentation>
+    </http-header>
+    <http-header def="Public-Key-Pins-Report-Only">
+        <documentation source="http://tools.ietf.org/html/draft-ietf-websec-key-pinning#section-2.2.1">When replying to an HTTP request that was conveyed over a secure transport, a Pinned Host should include in its response exactly one Public-Key-Pins header field, exactly one Public-Key-Pins-Report-Only header field, or one of each.</documentation>
+    </http-header>
 </service>
