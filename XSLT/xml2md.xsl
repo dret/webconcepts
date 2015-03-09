@@ -18,7 +18,7 @@
             <xsl:value-of select="count($RFC)"/>
             <xsl:text> [RFC](../IETF/RFC/), </xsl:text>
             <xsl:value-of select="count($I-D)"/>
-            <xsl:text> [I-D](../IETF/I-D)). Please be advised that the table shown here is maintained and compiled from [Sedola](https://github.com/dret/sedola) sources. The [official HTTP Header Field registry](http://www.iana.org/assignments/message-headers/message-headers.xhtml) is maintained by [the Internet Assigned Numbers Authority (IANA)](http://www.iana.org/).&#xa;&#xa;Header Field | Specification/Description&#xa;-------: | :---------- | :---&#xa;</xsl:text>
+            <xsl:text> [I-D](../IETF/I-D)). Please be advised that the table shown here is maintained and compiled from [Sedola](https://github.com/dret/sedola) sources. The [official HTTP Header Field registry](http://www.iana.org/assignments/message-headers/message-headers.xhtml) is maintained by [the *Internet Assigned Numbers Authority (IANA)*](http://www.iana.org/).&#xa;&#xa;Header Field | Specification/Description&#xa;-------: | :---------- | :---&#xa;</xsl:text>
             <xsl:for-each select="$allfiles//http-header[exists(@def)]">
                 <xsl:sort select="lower-case(@def)"/>
                 <xsl:text>`</xsl:text>
