@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <service xsi:noNamespaceSchemaLocation="../core/sedola.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <title short="LDP">Linked Data Platform 1.0</title>
+    <title short="LDP">Linked Data Platform 1.0 (LDP)</title>
     <documentation source="http://www.w3.org/TR/ldp/">Linked Data Platform (LDP) defines a set of rules for HTTP operations on web resources, some based on RDF, to provide an architecture for read-write Linked Data on the web.</documentation>
     <http-header def="Accept-Post">
         <documentation source="http://www.w3.org/TR/ldp/#header-accept-post">The Accept-Post HTTP header SHOULD appear in the OPTIONS response for any resource that supports the use of the POST method. The presence of the Accept-Post header in response to any method is an implicit indication that POST is allowed on the resource identified by the Request-URI. The presence of a specific document format in this header indicates that that specific format is allowed on POST requests to the resource identified by the Request-URI.</documentation>

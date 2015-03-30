@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <service xsi:noNamespaceSchemaLocation="../core/sedola.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <title short="CORS">Cross-Origin Resource Sharing</title>
+    <title short="CORS">Cross-Origin Resource Sharing (CORS)</title>
     <documentation source="http://www.w3.org/TR/cors/">This document defines a mechanism to enable client-side cross-origin requests. Specifications that enable an API to make cross-origin requests to resources can use the algorithms defined by this specification. If such an API is used on http://example.org resources, a resource on http://hello-world.example can opt in using the mechanism described by this specification (e.g., specifying Access-Control-Allow-Origin: http://example.org as response header), which would allow that resource to be fetched cross-origin from http://example.org.</documentation>
     <http-header def="Access-Control-Allow-Origin">
         <documentation source="http://www.w3.org/TR/cors/#access-control-allow-origin-response-header">The Access-Control-Allow-Origin header indicates whether a resource can be shared based by returning the value of the Origin request header, "*", or "null" in the response.</documentation>
