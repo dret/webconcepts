@@ -8,7 +8,4 @@
     <http-header def="Authorization">
         <documentation source="http://tools.ietf.org/html/rfc2617#section-3.2.2">The client is expected to retry the request, passing an Authorization header line, which is defined according to the framework above.</documentation>
     </http-header>
-    <http-header def="Authentication-Info">
-        <documentation source="http://tools.ietf.org/html/rfc2617#section-3.2.3">The Authentication-Info header is used by the server to communicate some information regarding the successful authentication in the response.</documentation>
-    </http-header>
 </service>
