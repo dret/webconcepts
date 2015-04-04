@@ -3,6 +3,6 @@
     <title short="HTCPCP-TEA">The Hyper Text Coffee Pot Control Protocol for Tea Efflux Appliances (HTCPCP-TEA)</title>
     <documentation source="http://tools.ietf.org/html/rfc7168">The Hyper Text Coffee Pot Control Protocol (HTCPCP) specification does not allow for the brewing of tea, in all its variety and complexity. This paper outlines an extension to HTCPCP to allow for pots to provide networked tea-brewing facilities.</documentation>
     <http-header def="Accept-Additions">
-        <documentation source="https://tools.ietf.org/html/rfc7168#section-2.2.1">It has been observed that some users of blended teas have an occasional preference for teas brewed as an emulsion of cane sugar with hints of water. To allow for this circumstance, the Accept-Additions header field defined in the base HTCPCP specification is updated to allow the following options.</documentation>
+        <documentation source="http://tools.ietf.org/html/rfc7168#section-2.2.1">It has been observed that some users of blended teas have an occasional preference for teas brewed as an emulsion of cane sugar with hints of water. To allow for this circumstance, the Accept-Additions header field defined in the base HTCPCP specification is updated to allow the following options.</documentation>
     </http-header>
 </service>
