@@ -101,6 +101,8 @@
                                 <xs:group ref="title" minOccurs="0" maxOccurs="unbounded"/>
                                 <xs:group ref="descriptions" minOccurs="0" maxOccurs="unbounded"/>
                             </xs:sequence>
+                            <xs:attribute ref="xml:id" use="optional"/>
+                            <xs:attribute name="id" type="xs:string" use="optional"/>
                             <xs:attribute name="def" type="xs:token"/>
                             <xs:attribute name="type" use="optional">
                                 <xs:simpleType>
@@ -142,6 +144,7 @@
     <xs:element name="link">
         <xs:complexType>
             <xs:group ref="descriptions" minOccurs="0" maxOccurs="unbounded"/>
+            <xs:attribute ref="xml:id" use="optional"/>
             <xs:attribute name="def" type="linkRelationType">
                 <xs:annotation>
                     <xs:documentation source="http://tools.ietf.org/html/rfc5988#section-4">Links can be based on relations, or defined by selectors. Link relations must be names or URIs for RFC 5988 links. Links also can be encoded differently (for example in XML element names), in which case they have a selector.</xs:documentation>
