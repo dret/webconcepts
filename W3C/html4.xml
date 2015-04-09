@@ -157,7 +157,7 @@
         <title short="HTML Transitional">HTML 4.01 Transitional DTD</title>
         <documentation source="http://www.w3.org/TR/html4/sgml/loosedtd.html">This is the HTML 4.01 Transitional DTD, which includes presentation attributes and elements that W3C expects to phase out as support for style sheets matures. Authors should use the Strict DTD when possible, but may use the Transitional DTD when support for presentation attribute and elements is required.</documentation>
     </vocabulary>
-    <vocabulary xml:id="html-vocabulary-html-frameset" id="-//W3C//DTD HTML 4.01 Frameset//EN   " type="FPI">
+    <vocabulary xml:id="html-vocabulary-html-frameset" id="-//W3C//DTD HTML 4.01 Frameset//EN" type="FPI">
         <title short="HTML Frameset">HTML 4.01 Frameset DTD</title>
         <documentation source="http://www.w3.org/TR/html4/sgml/dtd.html">This is the HTML 4.01 Frameset DTD, which should be used for documents with frames. This DTD is identical to the HTML 4.01 Transitional DTD except for the content model of the "HTML" element: in frameset documents, the "FRAMESET" element replaces the "BODY" element.</documentation>
     </vocabulary>
