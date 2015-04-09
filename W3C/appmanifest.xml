@@ -6,9 +6,9 @@
         <documentation source="http://www.w3.org/TR/appmanifest/#linking">Imports or links to a manifest.</documentation>
     </link>
     <mediatype def="application/manifest+json">
-        <document xml:id="web-app-manifest">
+        <documentation source="http://www.w3.org/TR/appmanifest/#manifest-and-its-members">A manifest is a JSON document that contains startup parameters and application defaults for when a web application is launched. A manifest consists of a top-level object that contains zero or more members.</documentation>
+        <document xml:id="web-app-manifest" vocabularies="web-app-manifest-json-schema">
             <title>Web Application Manifest</title>
-            <documentation source=""></documentation>
         </document>
     </mediatype>
     <vocabulary xml:id="web-app-manifest-json-schema">
