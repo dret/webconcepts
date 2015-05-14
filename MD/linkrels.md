@@ -1,7 +1,7 @@
 Link Relations
 ==============
 
-The following 87 link relation definitions were found in 94 services (19 [W3C](../W3C/), 56 [RFC](../IETF/RFC/), 19 [I-D](../IETF/I-D)):
+The following 87 link relation definitions were found in 94 services (19 [W3C](../W3C/), 57 [RFC](../IETF/RFC/), 18 [I-D](../IETF/I-D)):
 
 Relation | Description | Specification
 -------: | :---------- | :---
