@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <service xsi:noNamespaceSchemaLocation="../../core/sedola.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <title>The Sunset HTTP Header</title>
-    <documentation source="http://tools.ietf.org/html/draft-wilde-sunset-header">As a general rule, URIs should be stable and persistent, so that applications can use them as stable and persistent identifiers for resources. However, there are many scenarios where for a variety of reasons, URIs have a limited lifetime. In some of these scenarios, this limited lifetime is known in advance. In this case, it can be useful for clients if resources make this information about their limited lifetime known. This specification defines the Sunset HTTP response header field, which indicates that a URI is likely to become unresponsive at some point in the future.</documentation>
+    <documentation source="http://tools.ietf.org/html/draft-wilde-sunset-header">This specification defines the Sunset HTTP response header field, which indicates that a URI is likely to become unresponsive at a specified point in the future.</documentation>
     <http-header def="Sunset">
         <documentation source="http://tools.ietf.org/html/draft-wilde-sunset-header#section-3">The Sunset HTTP response header field allows a server to communicate the fact that a resource is expected to become unresponsive at a specific point in time. It provides information for clients which they can use to control their usage of the resource. The Sunset header contains a single timestamp which advertises the point in time when the resource is expected to become unresponsive.</documentation>
     </http-header>
