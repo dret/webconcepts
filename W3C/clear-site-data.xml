@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<service xsi:noNamespaceSchemaLocation="../core/sedola.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <title>Clear Site Data</title>
+    <documentation source="http://www.w3.org/TR/clear-site-data/">This document defines an imperative mechanism which allows web developers to instruct a user agent to clear a user's locally stored data related to a host and its subdomains.</documentation>
+    <http-header def="Clear-Site-Data">
+        <documentation source="http://www.w3.org/TR/clear-site-data/#header">The Clear-Site-Data HTTP response header field sends a signal to the user agent that it ought to remove all data of a certain set of types.</documentation>
+    </http-header>
+</service>
