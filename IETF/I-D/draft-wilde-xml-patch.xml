@@ -5,7 +5,7 @@
     <mediatype def="application/xml-patch+xml">
         <documentation source="http://tools.ietf.org/html/draft-wilde-xml-patch#section-4">The Internet media type for an XML Patch Document is application/xml-patch+xml.</documentation>
         <document xml:id="wilde-xml-patch-document">
-            <title>Link Descriptions (XML)</title>
+            <title>XML Patch Document</title>
             <documentation source="http://tools.ietf.org/html/draft-wilde-xml-patch-05#section-2">The XML patch document format is based on a simple schema that uses a "patch" element as the document element, and allows an arbitrary sequence of "add", "remove", and "replace" elements as the children of the document element.</documentation>
         </document>
     </mediatype>
