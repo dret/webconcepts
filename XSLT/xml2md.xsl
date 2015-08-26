@@ -9,7 +9,7 @@
     <xsl:template match="/">
         <xsl:result-document href="../MD/headers.md" format="md-text">
             <xsl:text>HTTP Header Fields&#xa;==============&#xa;&#xa;The following </xsl:text>
-            <xsl:value-of select="count($allfiles//http-header[exists(@def)])"/>
+            <xsl:value-of select="count(distinct-values($allfiles//http-header/@def))"/>
             <xsl:text> HTTP header field definitions were found in </xsl:text>
             <xsl:value-of select="count($allfiles)"/>
             <xsl:text> services (</xsl:text>
@@ -19,36 +19,47 @@
             <xsl:text> [RFC](../IETF/RFC/), </xsl:text>
             <xsl:value-of select="count($I-D)"/>
             <xsl:text> [I-D](../IETF/I-D)). Please be advised that the table shown here is maintained and compiled from [Sedola](https://github.com/dret/sedola) sources. The [official HTTP Header Field registry](http://www.iana.org/assignments/message-headers/message-headers.xhtml) is maintained by [the *Internet Assigned Numbers Authority (IANA)*](http://www.iana.org/).&#xa;&#xa;Header Field | Specification/Description&#xa;-------: | :---------- | :---&#xa;</xsl:text>
-            <xsl:for-each select="$allfiles//http-header[exists(@def)]">
-                <xsl:sort select="lower-case(@def)"/>
+            <xsl:for-each select="distinct-values($allfiles//http-header/@def)">
+                <xsl:sort select="lower-case(.)"/>
                 <xsl:text>`</xsl:text>
-                <xsl:value-of select="@def"/>
-                <xsl:text>` | [**</xsl:text>
-                <xsl:choose>
-                    <xsl:when test="starts-with(../documentation/@source, 'http://tools.ietf.org/html/rfc')">
-                        <xsl:text>RFC </xsl:text>
-                        <xsl:value-of select="substring-after(../documentation/@source, 'http://tools.ietf.org/html/rfc')"/>
-                    </xsl:when>
-                    <xsl:when test="starts-with(../documentation/@source, 'http://tools.ietf.org/html/draft')">
-                        <xsl:value-of select="substring-after(../documentation/@source, 'http://tools.ietf.org/html/')"/>
-                    </xsl:when>
-                    <xsl:when test="starts-with(../documentation/@source, 'http://www.w3.org/TR/')">
-                        <xsl:text>W3C TR </xsl:text>
-                        <xsl:value-of select="substring-before(substring-after(../documentation/@source, 'http://www.w3.org/TR/'), '/')"/>
-                    </xsl:when>
-                    <xsl:otherwise>
-                        <xsl:text>??????</xsl:text>
-                    </xsl:otherwise>
-                </xsl:choose>
-                <xsl:text>**](</xsl:text>
-                <xsl:value-of select="../documentation/@source"/>
-                <xsl:text> "</xsl:text>
-                <xsl:value-of select="replace(../title/text(), '&quot;', '&#x201d;')"/>
-                <xsl:text>" ): [</xsl:text>
-                <xsl:value-of select="documentation/text()"/>
-                <xsl:text>](</xsl:text>
-                <xsl:value-of select="documentation/@source"/>
-                <xsl:text>)&#xa;</xsl:text>
+                <xsl:value-of select="."/>
+                <xsl:text>` |</xsl:text>
+                <xsl:for-each select="$allfiles//http-header[@def eq current()]">
+                    <xsl:text> [**</xsl:text>
+                    <xsl:choose>
+                        <xsl:when test="starts-with(../documentation/@source, 'http://tools.ietf.org/html/rfc')">
+                            <xsl:text>RFC </xsl:text>
+                            <xsl:value-of select="substring-after(../documentation/@source, 'http://tools.ietf.org/html/rfc')"/>
+                        </xsl:when>
+                        <xsl:when test="starts-with(../documentation/@source, 'http://tools.ietf.org/html/draft')">
+                            <xsl:value-of select="substring-after(../documentation/@source, 'http://tools.ietf.org/html/')"/>
+                        </xsl:when>
+                        <xsl:when test="starts-with(../documentation/@source, 'http://www.w3.org/TR/')">
+                            <xsl:text>W3C TR </xsl:text>
+                            <xsl:value-of select="substring-before(substring-after(../documentation/@source, 'http://www.w3.org/TR/'), '/')"/>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:text>??????</xsl:text>
+                        </xsl:otherwise>
+                    </xsl:choose>
+                    <xsl:text>**](</xsl:text>
+                    <xsl:value-of select="../documentation/@source"/>
+                    <xsl:text> "</xsl:text>
+                    <xsl:value-of select="replace(../title/text(), '&quot;', '&#x201d;')"/>
+                    <xsl:text>" ): [</xsl:text>
+                    <xsl:value-of select="documentation/text()"/>
+                    <xsl:text>](</xsl:text>
+                    <xsl:value-of select="documentation/@source"/>
+                    <xsl:text>)</xsl:text>
+                    <xsl:choose>
+                        <xsl:when test="position() ne last()">
+                            <xsl:text> &lt;br/></xsl:text>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:text>&#xa;</xsl:text>
+                        </xsl:otherwise>
+                    </xsl:choose>
+                </xsl:for-each>
             </xsl:for-each>
         </xsl:result-document>
         <xsl:result-document href="../MD/mediatypes.md" format="md-text">
