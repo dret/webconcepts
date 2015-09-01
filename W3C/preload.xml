@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <service xsi:noNamespaceSchemaLocation="../core/sedola.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <title>Preload</title>
-    <documentation source="http://www.w3.org/TR/preload/">This specification defines the preload relationship of the HTML Link Element (&lt;link>).</documentation>
+    <documentation source="http://www.w3.org/TR/preload/">This specification defines the preload keyword that may be used with link elements. This keyword provides a declarative fetch primitive that initiates an early fetch and separates fetching from resource execution.</documentation>
     <link def="preload">
         <documentation source="http://www.w3.org/TR/preload/#preload">The preload relationship is used to declare a resource and its fetch properties. Initiating an early fetch allows the application to mask request latency and make it available sooner to the application, which can then decide when and in which order each resource is applied to the current document.</documentation>
     </link>
