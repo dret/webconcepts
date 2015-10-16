@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<service xsi:noNamespaceSchemaLocation="../core/sedola.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <title short="COWL">Confinement with Origin Web Labels</title>
+    <documentation source="http://www.w3.org/TR/COWL/">This specification defines an API for specifying privacy and integrity policies on data, in the form of origin labels, and a mechanism for confining code according to such policies. This allows Web application authors and server operators to share data with untrusted—buggy but not malicious—code (e.g., in a mashup scenario) yet impose restrictions on how the code can share the data further.</documentation>
+    <http-header def="Sec-COWL">
+        <documentation source="http://www.w3.org/TR/COWL/#header">The Sec-COWL HTTP request and response headers are used by user agents and servers to convey label metadata to servers and user agents, respectively.</documentation>
+    </http-header>
+</service>
