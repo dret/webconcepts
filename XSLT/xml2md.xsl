@@ -53,7 +53,7 @@
                     <xsl:text>)</xsl:text>
                     <xsl:choose>
                         <xsl:when test="position() ne last()">
-                            <xsl:text> &lt;br/></xsl:text>
+                            <xsl:text> &lt;br/>&#xa;&#xa;---&#xa;&#xa;</xsl:text>
                         </xsl:when>
                         <xsl:otherwise>
                             <xsl:text>&#xa;</xsl:text>
