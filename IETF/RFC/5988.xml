@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <service xsi:noNamespaceSchemaLocation="../../core/sedola.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <title>Web Linking</title>
-    <documentation source="http://tools.ietf.org/html/rfc5988">This document specifies relation types for Web links, and defines a registry for them.  It also defines the use of such links in HTTP headers with the Link header field.</documentation>
+    <documentation source="http://tools.ietf.org/html/rfc5988">This document specifies relation types for Web links, and defines a registry for them. It also defines the use of such links in HTTP headers with the Link header field.</documentation>
     <link def="link">
-        <documentation source="http://tools.ietf.org/html/rfc5988#section-4">In the simplest case, a link relation type identifies the semantics of a link.  For example, a link with the relation type "copyright" indicates that the resource identified by the target IRI is a statement of the copyright terms applying to the current context IRI. Link relation types can also be used to indicate that the target resource has particular attributes, or exhibits particular behaviours; for example, a "service" link implies that the identified resource is part of a defined protocol (in this case, a service description).</documentation>
+        <documentation source="http://tools.ietf.org/html/rfc5988#section-4">In the simplest case, a link relation type identifies the semantics of a link. For example, a link with the relation type "copyright" indicates that the resource identified by the target IRI is a statement of the copyright terms applying to the current context IRI. Link relation types can also be used to indicate that the target resource has particular attributes, or exhibits particular behaviours; for example, a "service" link implies that the identified resource is part of a defined protocol (in this case, a service description).</documentation>
     </link>
     <http-header def="Link">
-        <documentation source="http://tools.ietf.org/html/rfc5988#section-5">The Link entity-header field provides a means for serialising one or more links in HTTP headers.  It is semantically equivalent to the &lt;LINK> element in HTML, as well as the atom:link feed-level element in Atom.</documentation>
+        <documentation source="http://tools.ietf.org/html/rfc5988#section-5">The Link entity-header field provides a means for serialising one or more links in HTTP headers. It is semantically equivalent to the &lt;LINK> element in HTML, as well as the atom:link feed-level element in Atom.</documentation>
     </http-header>
 </service>

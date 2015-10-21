@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <service xsi:noNamespaceSchemaLocation="../../core/sedola.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <title>HTTP State Management Mechanism</title>
-    <documentation source="http://tools.ietf.org/html/rfc2965">This document specifies a way to create a stateful session with Hypertext Transfer Protocol (HTTP) requests and responses.  It describes three new headers, Cookie, Cookie2, and Set-Cookie2, which carry state information between participating origin servers and user agents.  The method described here differs from Netscape's Cookie proposal [Netscape], but it can interoperate with HTTP/1.0 user agents that use Netscape's method.</documentation>
+    <documentation source="http://tools.ietf.org/html/rfc2965">This document specifies a way to create a stateful session with Hypertext Transfer Protocol (HTTP) requests and responses. It describes three new headers, Cookie, Cookie2, and Set-Cookie2, which carry state information between participating origin servers and user agents. The method described here differs from Netscape's Cookie proposal [Netscape], but it can interoperate with HTTP/1.0 user agents that use Netscape's method.</documentation>
     <http-header def="Set-Cookie2">
-        <documentation source="http://tools.ietf.org/html/rfc2965#section-3.2">The origin server initiates a session, if it so desires.  To do so, it returns an extra response header to the client, Set-Cookie2.</documentation>
+        <documentation source="http://tools.ietf.org/html/rfc2965#section-3.2">The origin server initiates a session, if it so desires. To do so, it returns an extra response header to the client, Set-Cookie2.</documentation>
     </http-header>
     <http-header def="Cookie2">
         <documentation source="http://tools.ietf.org/html/rfc2965#section-3.3">The Cookie2 request header facilitates interoperation between clients and servers that understand different versions of the cookie specification.</documentation>
