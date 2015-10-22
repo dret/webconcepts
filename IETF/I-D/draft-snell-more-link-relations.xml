@@ -27,7 +27,7 @@
         <documentation source="http://tools.ietf.org/html/draft-snell-more-link-relations#section-3">Refers to the resource that provided the context resource. Typically, this would be used to identify the entity publishing the resource.</documentation>
     </link>
     <link def="generator">
-        <documentation source="http://tools.ietf.org/html/draft-snell-more-link-relations#section-3">Refers to the resource that generated the context  resource.  Typically, this would be used to identify the software application that created the context resource.</documentation>
+        <documentation source="http://tools.ietf.org/html/draft-snell-more-link-relations#section-3">Refers to the resource that generated the context  resource. Typically, this would be used to identify the software application that created the context resource.</documentation>
     </link>
     <link def="mentionedby">
         <documentation source="http://tools.ietf.org/html/draft-snell-more-link-relations#section-3">Refers to a resource that mentions the context resource in some fashion. This, for example, would be used when an article mentions another article, or a social status update mentions a particular user, etc.</documentation>
