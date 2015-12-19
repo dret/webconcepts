@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<service xsi:noNamespaceSchemaLocation="../../core/sedola.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <title>Accept-Push-Policy Header Field</title>
+    <documentation source="http://tools.ietf.org/html/draft-ruellan-http-accept-push-policy">The "Accept-Push-Policy" and "Push-Policy" header fields enable a client and a server to negotiate the behaviour of the server regarding the usage of push on a per-request basis.</documentation>
+    <http-header def="Accept-Push-Policy">
+        <documentation source="http://tools.ietf.org/html/draft-ruellan-http-accept-push-policy#section-3.1">A client can express the desired push policy for a request by sending an "Accept-Push-Policy" header field in the request. The header field value contains the push policy that the client expects the server to use when processing the request.</documentation>
+    </http-header>
+    <http-header def="Push-Policy">
+        <documentation source="http://tools.ietf.org/html/draft-ruellan-http-accept-push-policy#section-3.2">A server can indicate to a client the push policy it used when processing a request by sending a "Push-Policy" header field in the corresponding response.</documentation>
+    </http-header>
+</service>
