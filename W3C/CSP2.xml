@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<service xsi:noNamespaceSchemaLocation="../core/sedola.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <title short="CSP2">Content Security Policy Level 2</title>
+    <documentation source="http://www.w3.org/TR/CSP2/">This document defines a policy language used to declare a set of content restrictions for a web resource, and a mechanism for transmitting the policy from a server to a client where the policy is enforced.</documentation>
+    <http-header def="Content-Security-Policy">
+        <documentation source="http://www.w3.org/TR/CSP2/#content-security-policy-header-field">The Content-Security-Policy header field is the preferred mechanism for delivering a policy.</documentation>
+    </http-header>
+    <http-header def="Content-Security-Policy-Report-Only">
+        <documentation source="http://www.w3.org/TR/CSP2/#content-security-policy-report-only-header-field">The Content-Security-Policy-Report-Only header field lets servers experiment with policies by monitoring (rather than enforcing) a policy.</documentation>
+    </http-header>
+</service>
