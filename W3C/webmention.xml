@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<service xsi:noNamespaceSchemaLocation="../core/sedola.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <title>Webmention</title>
+    <documentation source="http://www.w3.org/TR/webmention/">Webmention is a simple way to notify any URL when you link to it on your site. From the receiver's perspective, it's a way to request notifications when other sites link to it.</documentation>
+    <link def="webmention">
+        <documentation source="https://www.w3.org/TR/webmention/#sender-discovers-receiver-webmention-endpoint">Identifies a target URI that supports the Webmention protocol. This allows clients that mention a resource in some form of publishing process to contact that endpoint and inform it that this resource has been mentioned.</documentation>
+    </link>
+</service>
