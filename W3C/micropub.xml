@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<service xsi:noNamespaceSchemaLocation="../core/sedola.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <title>Micropub</title>
+    <documentation source="http://www.w3.org/TR/micropub/">Micropub is an open API standard that is used to create posts on one's own domain using third-party clients. Web apps and native apps (e.g. iPhone, Android) can use Micropub to post short notes, photos, events or other posts to your own site.</documentation>
+    <link def="micropub">
+        <documentation source="https://www.w3.org/TR/micropub/#endpoint-discovery">Allows discovery of a Micropub endpoint which will be used to create posts.</documentation>
+    </link>
+</service>
