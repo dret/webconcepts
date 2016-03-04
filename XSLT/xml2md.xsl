@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- This XSLT transforms https://github.com/dret/sedola XMLs into github-friendly markdown. -->
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0">
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0" xpath-default-namespace="http://github.com/dret/sedola">
     <xsl:output name="md-text" method="text" encoding="UTF-8"/>
     <xsl:variable name="RFC" select="collection(concat('../IETF/RFC/','?select=*.xml'))"/>
     <xsl:variable name="I-D" select="collection(concat('../IETF/I-D/','?select=*.xml'))"/>

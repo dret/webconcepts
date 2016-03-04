@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<service>
+<service xmlns="http://github.com/dret/sedola">
     <title>Server-Sent Events</title>
     <documentation source="http://www.w3.org/TR/eventsource/"> specification defines an API for opening an HTTP connection for receiving push notifications from a server in the form of DOM events. The API is designed such that it can be extended to work with other push notification schemes such as Push SMS.</documentation>
     <mediatype def="text/event-stream">

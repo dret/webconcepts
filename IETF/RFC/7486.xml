@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<service>
+<service xmlns="http://github.com/dret/sedola">
     <title short="HOBA">HTTP Origin-Bound Authentication (HOBA)</title>
     <documentation source="http://tools.ietf.org/html/rfc7486">HTTP Origin-Bound Authentication (HOBA) is a digital-signature-based design for an HTTP authentication method. The design can also be used in JavaScript-based authentication embedded in HTML. HOBA is an alternative to HTTP authentication schemes that require passwords and therefore avoids all problems related to passwords, such as leakage of server-side password databases.</documentation>
     <http-header def="Hobareg">

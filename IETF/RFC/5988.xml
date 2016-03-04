@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<service>
+<service xmlns="http://github.com/dret/sedola">
     <title>Web Linking</title>
     <documentation source="http://tools.ietf.org/html/rfc5988">This document specifies relation types for Web links, and defines a registry for them. It also defines the use of such links in HTTP headers with the Link header field.</documentation>
     <link def="link">

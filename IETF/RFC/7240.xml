@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<service>
+<service xmlns="http://github.com/dret/sedola">
     <title>Prefer Header for HTTP</title>
     <documentation source="http://tools.ietf.org/html/rfc7240">This specification defines an HTTP header field that can be used by a client to request that certain behaviors be employed by a server while processing a request.</documentation>
     <http-header def="Prefer">

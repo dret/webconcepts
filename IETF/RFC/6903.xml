@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<service>
+<service xmlns="http://github.com/dret/sedola">
     <title>Additional Link Relation Types</title>
     <documentation source="http://tools.ietf.org/html/rfc6903">This specification defines a number of additional link relation types that can used for a range of purposes in a variety of applications types.</documentation>
     <link def="about">

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<service>
+<service xmlns="http://github.com/dret/sedola">
     <title>The Hypertext Transfer Protocol (HTTP) Authentication-Info and Proxy-Authentication-Info Response Header Fields</title>
     <documentation source="http://tools.ietf.org/html/draft-ietf-httpbis-auth-info">This specification defines the "Authentication-Info" and "Proxy-Authentication-Info" response header fields for use in HTTP authentication schemes which need to return information once the client's authentication credentials have been accepted.</documentation>
     <http-header def="Authentication-Info">

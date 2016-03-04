@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<service>
+<service xmlns="http://github.com/dret/sedola">
     <title>The 'describes' Link Relation Type</title>
     <documentation source="http://tools.ietf.org/html/rfc6892">This specification defines the 'describes' link relation type that allows resource representations to indicate that they are describing another resource. In contexts where applications want to associate described resources and description resources, and want to build services based on these associations, the 'describes' link relation type provides the opposite direction of the 'describedby' link relation type, which already is a registered link relation type.</documentation>
     <link def="describes">
