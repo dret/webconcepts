@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<service xsi:noNamespaceSchemaLocation="../../core/sedola.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<service>
     <title>Link Relation Types for Simple Version Navigation between Web Resources</title>
     <documentation source="http://tools.ietf.org/html/rfc5829">This specification defines a set of link relation types that may be used on Web resources for navigation between a resource and other resources related to version control, such as past versions and working copies.</documentation>
     <link def="version-history">

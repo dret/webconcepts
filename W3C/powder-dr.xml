@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<service xsi:noNamespaceSchemaLocation="../core/sedola.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<service>
     <title short="POWDER-DR">Protocol for Web Description Resources (POWDER): Description Resources</title>
     <documentation source="http://www.w3.org/TR/powder-dr/">The purpose of the Protocol for Web Description Resources (POWDER) is to provide a means for individuals or organizations to describe a group of resources through the publication of machine-readable metadata, as motivated by the POWDER Use Cases. This document details the creation and lifecycle of Description Resources (DRs), which encapsulate such metadata. These are typically represented in a highly constrained XML dialect that is relatively human-readable. The meaning of such DRs are underpinned by formal semantics, accessible by performing a GRDDL Transform.</documentation>
     <mediatype def="application/powder+xml">

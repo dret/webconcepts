@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<service xsi:noNamespaceSchemaLocation="../../core/sedola.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<service>
     <title>Transparent Content Negotiation in HTTP</title>
     <documentation source="http://tools.ietf.org/html/rfc2295">HTTP allows web site authors to put multiple versions of the same information under a single URL. Transparent content negotiation is an extensible negotiation mechanism, layered on top of HTTP, for automatically selecting the best version when the URL is accessed. This enables the smooth deployment of new web data formats and markup tags.</documentation>
     <http-header def="Accept-Features">

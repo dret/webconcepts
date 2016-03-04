@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<service xsi:noNamespaceSchemaLocation="../core/sedola.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<service>
     <title short="P3P">The Platform for Privacy Preferences 1.0 (P3P1.0) Specification</title>
     <documentation source="http://www.w3.org/TR/P3P/">This is the specification of the Platform for Privacy Preferences (P3P). This document, along with its normative references, includes all the specification necessary for the implementation of interoperable P3P applications.</documentation>
     <http-header def="P3P">

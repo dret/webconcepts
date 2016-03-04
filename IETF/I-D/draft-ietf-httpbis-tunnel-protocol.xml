@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<service xsi:noNamespaceSchemaLocation="../../core/sedola.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<service>
     <title>The Tunnel-Protocol HTTP Header Field</title>
     <documentation source="http://tools.ietf.org/html/draft-ietf-httpbis-tunnel-protocol">This specification allows HTTP CONNECT requests to indicate what protocol will be used within the tunnel once established, using the Tunnel-Protocol header field.</documentation>
     <http-header def="Tunnel-Protocol">
