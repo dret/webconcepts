@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<service xsi:noNamespaceSchemaLocation="../core/sedola.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<service>
     <title short="PNG">Portable Network Graphics</title>
     <mediatype xml:id="png" type="image/png">
         <document xml:id="png-image">

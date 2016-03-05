@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<service xsi:noNamespaceSchemaLocation="../core/sedola.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<service>
     <title short="GIF">Graphics Interchange Format</title>
     <mediatype xml:id="gif" type="image/gif">
         <document xml:id="gif-image">
