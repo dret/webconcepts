@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<service>
+<service xmlns="http://github.com/dret/sedola">
     <title>The Web</title>
     <include href="../W3C/html4.xml"/>
     <include href="../misc/gif.xml"/>
