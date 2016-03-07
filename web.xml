@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <service xmlns="http://github.com/dret/sedola">
     <title>The Web</title>
-    <include href="../W3C/html4.xml"/>
-    <include href="../misc/gif.xml"/>
-    <include href="../misc/jpeg.xml"/>
-    <include href="../misc/png.xml"/>
-    <include href="../RFC/4287.xml"/>
-    <include href="../RFC/5005.xml"/>
-    <include href="../misc/opensearch.xml"/>
+    <import href="../W3C/html4.xml"/>
+    <import href="../misc/gif.xml"/>
+    <import href="../misc/jpeg.xml"/>
+    <import href="../misc/png.xml"/>
+    <import href="../RFC/4287.xml"/>
+    <import href="../RFC/5005.xml"/>
+    <import href="../misc/opensearch.xml"/>
 </service>

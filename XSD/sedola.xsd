@@ -13,9 +13,9 @@
             <xs:sequence>
                 <xs:group ref="sedola:title" minOccurs="1"/>
                 <xs:group ref="sedola:descriptions" minOccurs="0" maxOccurs="unbounded"/>
-                <xs:element name="include" minOccurs="0" maxOccurs="unbounded">
+                <xs:element name="import" minOccurs="0" maxOccurs="unbounded">
                     <xs:annotation>
-                        <xs:documentation>Sedola allows inclusions which reference other Sedola descriptions and include their description as if it were copied into the referencing description. Includes can be nested. Includes must not be circular, but it is possible that inclusions form an acyclic graph (and not just a tree), so Sedola implementations have to make sure that inclusion processing correctly handles this situation.</xs:documentation>
+                        <xs:documentation>Sedola allows inclusions which reference other Sedola descriptions and import their description as if it were copied into the referencing description. Imports can be nested. Imports must not be circular, but it is possible that inclusions form an acyclic graph (and not just a tree), so Sedola implementations have to make sure that inclusion processing correctly handles this situation.</xs:documentation>
                     </xs:annotation>
                     <xs:complexType>
                         <xs:sequence>

@@ -2,7 +2,7 @@
 <service xmlns="http://github.com/dret/sedola">
     <title short="AtomPub">Atom Publishing Protocol (AtomPub)</title>
     <documentation source="http://tools.ietf.org/html/rfc5023">The Atom Publishing Protocol (AtomPub) is an application-level protocol for publishing and editing Web resources. The protocol is based on HTTP transfer of Atom-formatted representations. The Atom format is documented in the Atom Syndication Format.</documentation>
-    <include href="4287.xml"/>
+    <import href="4287.xml"/>
     <mediatype def="application/atomcat+xml">
         <documentation source="http://tools.ietf.org/html/rfc5023#section-16.1">An Atom Publishing Protocol Category Document, when serialized as XML 1.0, can be identified with the following media type.</documentation>
         <document xml:id="atompub-categorydoc" vocabularies="atompub-vocabulary">
