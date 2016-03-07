@@ -29,7 +29,7 @@
         </xsl:copy>
     </xsl:template>
     <xsl:template match="service" mode="include-dedup">
-        <!-- only include service if there is it is the last copy of included services from the same location (de-duplication). -->
+        <!-- only include service if it is the last copy of included services from the same location (de-duplication). -->
         <xsl:if test="empty(following::service[@src eq current()/@src])">
             <xsl:copy>
                 <xsl:apply-templates select="@*|node()" mode="include-dedup"/>
