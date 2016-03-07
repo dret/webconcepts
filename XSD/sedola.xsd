@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" vc:minVersion="1.1" targetNamespace="http://github.com/dret/sedola">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" vc:minVersion="1.1" targetNamespace="http://github.com/dret/sedola" xmlns:sedola="http://github.com/dret/sedola">
     <xs:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="http://www.w3.org/2001/xml.xsd">
         <xs:annotation>
             <xs:documentation>Get access to the xml: attribute groups that are in the XML namespace for XML itself.</xs:documentation>
@@ -11,15 +11,15 @@
         </xs:annotation>
         <xs:complexType>
             <xs:sequence>
-                <xs:group ref="title" minOccurs="1"/>
-                <xs:group ref="descriptions" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:group ref="sedola:title" minOccurs="1"/>
+                <xs:group ref="sedola:descriptions" minOccurs="0" maxOccurs="unbounded"/>
                 <xs:element name="include" minOccurs="0" maxOccurs="unbounded">
                     <xs:annotation>
                         <xs:documentation>Sedola allows inclusions which reference other Sedola descriptions and include their description as if it were copied into the referencing description. Includes can be nested. Includes must not be circular, but it is possible that inclusions form an acyclic graph (and not just a tree), so Sedola implementations have to make sure that inclusion processing correctly handles this situation.</xs:documentation>
                     </xs:annotation>
                     <xs:complexType>
                         <xs:sequence>
-                            <xs:group ref="descriptions" minOccurs="0" maxOccurs="unbounded"/>
+                            <xs:group ref="sedola:descriptions" minOccurs="0" maxOccurs="unbounded"/>
                         </xs:sequence>
                         <xs:attribute name="href" type="xs:anyURI" use="required"/>
                     </xs:complexType>
@@ -28,12 +28,12 @@
                     <xs:element name="mediatype">
                         <xs:complexType>
                             <xs:sequence>
-                                <xs:group ref="descriptions" minOccurs="0" maxOccurs="unbounded"/>
+                                <xs:group ref="sedola:descriptions" minOccurs="0" maxOccurs="unbounded"/>
                                 <xs:element name="document" minOccurs="1" maxOccurs="unbounded">
                                     <xs:complexType>
                                         <xs:sequence>
-                                            <xs:group ref="title" minOccurs="0" maxOccurs="unbounded"/>
-                                            <xs:group ref="descriptions" minOccurs="0" maxOccurs="unbounded"/>
+                                            <xs:group ref="sedola:title" minOccurs="0" maxOccurs="unbounded"/>
+                                            <xs:group ref="sedola:descriptions" minOccurs="0" maxOccurs="unbounded"/>
                                         </xs:sequence>
                                         <xs:attribute ref="xml:id" use="optional"/>
                                         <xs:attribute name="vocabularies" use="optional">
@@ -54,10 +54,10 @@
                                         </xs:assert>
                                     </xs:complexType>
                                 </xs:element>
-                                <xs:element ref="link" minOccurs="0" maxOccurs="unbounded"/>
+                                <xs:element ref="sedola:link" minOccurs="0" maxOccurs="unbounded"/>
                             </xs:sequence>
-                            <xs:attribute name="def" type="mediaTypeType" use="optional"/>
-                            <xs:attribute name="ref" type="mediaTypeType" use="optional"/>
+                            <xs:attribute name="def" type="sedola:mediaTypeType" use="optional"/>
+                            <xs:attribute name="ref" type="sedola:mediaTypeType" use="optional"/>
                             <xs:assert test="count(@def | @ref) = 1">
                                 <xs:annotation>
                                     <xs:documentation>Media types are either defined or referenced; @def and @ref are mutually exclusive.</xs:documentation>
@@ -68,8 +68,8 @@
                     <xs:element name="profile">
                         <xs:complexType>
                             <xs:sequence>
-                                <xs:group ref="title" minOccurs="0" maxOccurs="unbounded"/>
-                                <xs:group ref="descriptions" minOccurs="0" maxOccurs="unbounded"/>
+                                <xs:group ref="sedola:title" minOccurs="0" maxOccurs="unbounded"/>
+                                <xs:group ref="sedola:descriptions" minOccurs="0" maxOccurs="unbounded"/>
                             </xs:sequence>
                             <xs:attribute ref="xml:id" use="required"/>
                             <xs:attribute name="id" type="xs:anyURI" use="required">
@@ -79,7 +79,7 @@
                             </xs:attribute>
                         </xs:complexType>
                     </xs:element>
-                    <xs:element ref="link"/>
+                    <xs:element ref="sedola:link"/>
                     <xs:element name="uri-parameter">
                         <xs:complexType>
                             <xs:attribute ref="xml:id" use="required"/>
@@ -98,8 +98,8 @@
                     <xs:element name="vocabulary">
                         <xs:complexType>
                             <xs:sequence>
-                                <xs:group ref="title" minOccurs="0" maxOccurs="unbounded"/>
-                                <xs:group ref="descriptions" minOccurs="0" maxOccurs="unbounded"/>
+                                <xs:group ref="sedola:title" minOccurs="0" maxOccurs="unbounded"/>
+                                <xs:group ref="sedola:descriptions" minOccurs="0" maxOccurs="unbounded"/>
                             </xs:sequence>
                             <xs:attribute ref="xml:id" use="optional"/>
                             <xs:attribute name="id" type="xs:string" use="optional"/>
@@ -125,11 +125,11 @@
                         <xs:complexType>
                             <xs:sequence>
                                 <!-- HTTP Headers need no title, their name should serve as their title. -->
-                                <xs:group ref="descriptions" minOccurs="0" maxOccurs="unbounded"/>
-                                <xs:element minOccurs="0" ref="ABNF"/>
+                                <xs:group ref="sedola:descriptions" minOccurs="0" maxOccurs="unbounded"/>
+                                <xs:element minOccurs="0" ref="sedola:ABNF"/>
                             </xs:sequence>
-                            <xs:attribute name="def" use="optional" type="httpHeaderType"/>
-                            <xs:attribute name="ref" use="optional" type="httpHeaderType"/>
+                            <xs:attribute name="def" use="optional" type="sedola:httpHeaderType"/>
+                            <xs:attribute name="ref" use="optional" type="sedola:httpHeaderType"/>
                             <xs:assert test="count(@def | @ref) = 1">
                                 <xs:annotation>
                                     <xs:documentation>Media types are either defined or referenced; @def and @ref are mutually exclusive.</xs:documentation>
@@ -143,9 +143,9 @@
     </xs:element>
     <xs:element name="link">
         <xs:complexType>
-            <xs:group ref="descriptions" minOccurs="0" maxOccurs="unbounded"/>
+            <xs:group ref="sedola:descriptions" minOccurs="0" maxOccurs="unbounded"/>
             <xs:attribute ref="xml:id" use="optional"/>
-            <xs:attribute name="def" type="linkRelationType">
+            <xs:attribute name="def" type="sedola:linkRelationType">
                 <xs:annotation>
                     <xs:documentation source="http://tools.ietf.org/html/rfc5988#section-4">Links can be based on relations, or defined by selectors. Link relations must be names or URIs for RFC 5988 links. Links also can be encoded differently (for example in XML element names), in which case they have a selector.</xs:documentation>
                 </xs:annotation>
@@ -166,7 +166,7 @@
                     </xs:restriction>
                 </xs:simpleType>
             </xs:attribute>
-            <xs:attribute name="ref" type="linkRelationType">
+            <xs:attribute name="ref" type="sedola:linkRelationType">
                 <xs:annotation>
                     <xs:documentation>Used to reference an existing and included link relation, that is reused. The documentation should describe how the link is used specifically in the context where it is referenced.</xs:documentation>
                 </xs:annotation>
