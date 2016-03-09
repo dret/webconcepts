@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<service xmlns="http://github.com/dret/sedola">
+<service id="urn:ietf:rfc:6455" xmlns="http://github.com/dret/sedola">
     <title>The WebSocket Protocol</title>
     <documentation source="http://tools.ietf.org/html/rfc6455">The WebSocket Protocol enables two-way communication between a client running untrusted code in a controlled environment to a remote host that has opted-in to communications from that code. The security model used for this is the origin-based security model commonly used by web browsers. The protocol consists of an opening handshake followed by basic message framing, layered over TCP. The goal of this technology is to provide a mechanism for browser-based applications that need two-way communication with servers that does not rely on opening multiple HTTP connections (e.g., using XMLHttpRequest or &lt;iframe>s and long polling).</documentation>
     <http-header def="Sec-WebSocket-Key">

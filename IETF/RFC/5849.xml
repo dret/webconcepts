@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<service xmlns="http://github.com/dret/sedola">
+<service id="urn:ietf:rfc:5849" xmlns="http://github.com/dret/sedola">
     <title>The OAuth 1.0 Protocol</title>
     <documentation source="http://tools.ietf.org/html/rfc5849">OAuth provides a method for clients to access server resources on behalf of a resource owner (such as a different client or an end-user). It also provides a process for end-users to authorize third-party access to their server resources without sharing their credentials (typically, a username and password pair), using user-agent redirections.</documentation>
     <http-header def="Authorization">

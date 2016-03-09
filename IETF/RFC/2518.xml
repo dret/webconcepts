@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- This description ignores all the HTTP header fields that have been specified in the newer RFC 4918. Only the Status-URI header field is listed here, because it is the only header field that has been specified in RFC 2518, but has not been included in RFC 4918. -->
-<service xmlns="http://github.com/dret/sedola">
+<service id="urn:ietf:rfc:2518" xmlns="http://github.com/dret/sedola">
     <title short="WEBDAV">HTTP Extensions for Distributed Authoring - WEBDAV</title>
     <documentation source="http://tools.ietf.org/html/rfc2518">This document specifies a set of methods, headers, and content-types ancillary to HTTP/1.1 for the management of resource properties, creation and management of resource collections, namespace manipulation, and resource locking (collision avoidance).</documentation>
     <http-header def="Status-URI">
