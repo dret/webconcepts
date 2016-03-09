@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" vc:minVersion="1.1" targetNamespace="http://github.com/dret/sedola" xmlns:sedola="http://github.com/dret/sedola">
-    <xs:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="http://www.w3.org/2001/xml.xsd">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified"
+    xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" vc:minVersion="1.1"
+    targetNamespace="http://github.com/dret/sedola" xmlns:sedola="http://github.com/dret/sedola">
+    <xs:import namespace="http://www.w3.org/XML/1998/namespace"
+        schemaLocation="http://www.w3.org/2001/xml.xsd">
         <xs:annotation>
             <xs:documentation>Get access to the xml: attribute groups that are in the XML namespace for XML itself.</xs:documentation>
         </xs:annotation>
@@ -19,7 +22,8 @@
                     </xs:annotation>
                     <xs:complexType>
                         <xs:sequence>
-                            <xs:group ref="sedola:descriptions" minOccurs="0" maxOccurs="unbounded"/>
+                            <xs:group ref="sedola:descriptions" minOccurs="0" maxOccurs="unbounded"
+                            />
                         </xs:sequence>
                         <xs:attribute name="href" type="xs:anyURI" use="required"/>
                     </xs:complexType>
@@ -28,12 +32,15 @@
                     <xs:element name="mediatype">
                         <xs:complexType>
                             <xs:sequence>
-                                <xs:group ref="sedola:descriptions" minOccurs="0" maxOccurs="unbounded"/>
+                                <xs:group ref="sedola:descriptions" minOccurs="0"
+                                    maxOccurs="unbounded"/>
                                 <xs:element name="document" minOccurs="1" maxOccurs="unbounded">
                                     <xs:complexType>
                                         <xs:sequence>
-                                            <xs:group ref="sedola:title" minOccurs="0" maxOccurs="unbounded"/>
-                                            <xs:group ref="sedola:descriptions" minOccurs="0" maxOccurs="unbounded"/>
+                                            <xs:group ref="sedola:title" minOccurs="0"
+                                                maxOccurs="unbounded"/>
+                                            <xs:group ref="sedola:descriptions" minOccurs="0"
+                                                maxOccurs="unbounded"/>
                                         </xs:sequence>
                                         <xs:attribute ref="xml:id" use="optional"/>
                                         <xs:attribute name="vocabularies" use="optional">
@@ -41,7 +48,8 @@
                                                 <xs:list itemType="xs:token"/>
                                             </xs:simpleType>
                                         </xs:attribute>
-                                        <xs:attribute name="profile" type="xs:NMTOKEN" use="optional">
+                                        <xs:attribute name="profile" type="xs:NMTOKEN"
+                                            use="optional">
                                             <xs:annotation>
                                                 <xs:documentation>A @profile attribute indicates that a media type's document is using a profile according to RFC 6906. It must refer to the ID of a profile that is declared in a profile element.</xs:documentation>
                                             </xs:annotation>
@@ -69,7 +77,8 @@
                         <xs:complexType>
                             <xs:sequence>
                                 <xs:group ref="sedola:title" minOccurs="0" maxOccurs="unbounded"/>
-                                <xs:group ref="sedola:descriptions" minOccurs="0" maxOccurs="unbounded"/>
+                                <xs:group ref="sedola:descriptions" minOccurs="0"
+                                    maxOccurs="unbounded"/>
                             </xs:sequence>
                             <xs:attribute ref="xml:id" use="required"/>
                             <xs:attribute name="id" type="xs:anyURI" use="required">
@@ -99,7 +108,8 @@
                         <xs:complexType>
                             <xs:sequence>
                                 <xs:group ref="sedola:title" minOccurs="0" maxOccurs="unbounded"/>
-                                <xs:group ref="sedola:descriptions" minOccurs="0" maxOccurs="unbounded"/>
+                                <xs:group ref="sedola:descriptions" minOccurs="0"
+                                    maxOccurs="unbounded"/>
                             </xs:sequence>
                             <xs:attribute ref="xml:id" use="optional"/>
                             <xs:attribute name="id" type="xs:string" use="optional"/>
@@ -125,7 +135,8 @@
                         <xs:complexType>
                             <xs:sequence>
                                 <!-- HTTP Headers need no title, their name should serve as their title. -->
-                                <xs:group ref="sedola:descriptions" minOccurs="0" maxOccurs="unbounded"/>
+                                <xs:group ref="sedola:descriptions" minOccurs="0"
+                                    maxOccurs="unbounded"/>
                                 <xs:element minOccurs="0" ref="sedola:ABNF"/>
                             </xs:sequence>
                             <xs:attribute name="def" use="optional" type="sedola:httpHeaderType"/>
@@ -139,6 +150,7 @@
                     </xs:element>
                 </xs:choice>
             </xs:sequence>
+            <xs:attribute name="id" type="xs:anyURI" use="optional"/>
         </xs:complexType>
     </xs:element>
     <xs:element name="link">
