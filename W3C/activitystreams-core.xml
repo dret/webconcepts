@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<service xmlns="http://github.com/dret/sedola">
+<service id="http://www.w3.org/TR/activitystreams-core/" xmlns="http://github.com/dret/sedola">
     <title>Activity Streams 2.0</title>
     <documentation source="http://www.w3.org/TR/activitystreams-core/">This specification details a model for representing potential and completed activities using the JSON format.</documentation>
     <mediatype def="application/activity+json">

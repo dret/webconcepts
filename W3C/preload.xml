@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<service xmlns="http://github.com/dret/sedola">
+<service id="http://www.w3.org/TR/preload/" xmlns="http://github.com/dret/sedola">
     <title>Preload</title>
     <documentation source="http://www.w3.org/TR/preload/">This specification defines the preload keyword that may be used with link elements. This keyword provides a declarative fetch primitive that initiates an early fetch and separates fetching from resource execution.</documentation>
     <link def="preload">
