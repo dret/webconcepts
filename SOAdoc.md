@@ -27,3 +27,8 @@ The [Restful API Modeling Language (RAML)](http://raml.org/) is based on [YAML A
 
 [RESTdesc](http://restdesc.org/) has the goal to describe the functionality of hypermedia APIs. It is reusing existing vocabularies on the Semantic Web, and built with today's Semantic Web technologies and tools.
 
+
+## API Blueprint
+
+[API Blueprint](http://apiblueprint.org/) is markdown-based and intended to be a powerful high-level API design language for Web APIs.
+
