@@ -1,5 +1,4 @@
-Media Types
-==============
+# Media Types
 
 The following 32 media type definitions were found in 110 services (27 [W3C](../W3C/), 62 [RFC](../IETF/RFC/), 21 [I-D](../IETF/I-D)):
 

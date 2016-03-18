@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- This XSLT transforms https://github.com/dret/sedola XMLs into github-friendly markdown. -->
+<!-- This XSLT transforms https://github.com/dret/sedola XML documents into github-friendly MD. -->
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0" xpath-default-namespace="http://github.com/dret/sedola">
     <xsl:output name="md-text" method="text" encoding="UTF-8"/>
     <xsl:variable name="RFC" select="collection(concat('../IETF/RFC/','?select=*.xml'))"/>
@@ -8,7 +8,7 @@
     <xsl:variable name="allfiles" select="$RFC | $I-D | $W3C"/>
     <xsl:template match="/">
         <xsl:result-document href="../MD/headers.md" format="md-text">
-            <xsl:text>HTTP Header Fields&#xa;==============&#xa;&#xa;The following </xsl:text>
+            <xsl:text># HTTP Header Fields&#xa;&#xa;The following </xsl:text>
             <xsl:value-of select="count(distinct-values($allfiles//http-header/@def))"/>
             <xsl:text> HTTP header field definitions were found in </xsl:text>
             <xsl:value-of select="count($allfiles)"/>
@@ -63,7 +63,7 @@
             </xsl:for-each>
         </xsl:result-document>
         <xsl:result-document href="../MD/mediatypes.md" format="md-text">
-            <xsl:text>Media Types&#xa;==============&#xa;&#xa;The following </xsl:text>
+            <xsl:text># Media Types&#xa;&#xa;The following </xsl:text>
             <xsl:value-of select="count($allfiles//mediatype[exists(@def)])"/>
             <xsl:text> media type definitions were found in </xsl:text>
             <xsl:value-of select="count($allfiles)"/>
@@ -94,7 +94,7 @@
             </xsl:for-each>
         </xsl:result-document>
         <xsl:result-document href="../MD/linkrels.md" format="md-text">
-            <xsl:text>Link Relations&#xa;==============&#xa;&#xa;The following </xsl:text>
+            <xsl:text># Link Relations&#xa;&#xa;The following </xsl:text>
             <xsl:value-of select="count($allfiles//link[exists(@def)])"/>
             <xsl:text> link relation definitions were found in </xsl:text>
             <xsl:value-of select="count($allfiles)"/>
