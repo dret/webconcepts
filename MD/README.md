@@ -1,5 +1,4 @@
-Sedola Documentation: Work-in-Progress
-======================================
+# Sedola Documentation: Work-in-Progress
 
 Sedola is about documenting services, and some examples (a growing collection, feel free to contribute) are available in the form of [W3C](W3C/) and [IETF](IETF/) (with [RFC](IETF/RFC/) as well as [I-D](IETF/I-D) documents) specifications. From these specification, lists of [HTTP Header Fields](headers.md), [Link Relations](linkrels.md), and [Media Types](mediatypes.md) are generated, and the intent is to also generate documentation for each specification.
 
