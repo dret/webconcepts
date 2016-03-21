@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<service xmlns="http://github.com/dret/sedola">
+<service id="urn:ietf:id:cavage-http-signatures" xmlns="http://github.com/dret/sedola">
     <title>Signing HTTP Messages</title>
     <documentation source="http://tools.ietf.org/html/draft-cavage-http-signatures">When communicating over the Internet using the HTTP protocol, it can be desirable for a server or client to authenticate the sender of a particular message. It can also be desirable to ensure that the message was not tampered with during transit. This document describes a way for servers and clients to simultaneously add authentication and message integrity to HTTP messages by using a digital signature.</documentation>
     <http-header def="Signature">

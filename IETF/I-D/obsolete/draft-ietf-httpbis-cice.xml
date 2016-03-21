@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<service xmlns="http://github.com/dret/sedola">
+<service id="urn:ietf:id:ietf-httpbis-cice" xmlns="http://github.com/dret/sedola">
     <title>Hypertext Transfer Protocol (HTTP) Client-Initiated Content-Encoding</title>
     <documentation source="http://tools.ietf.org/html/draft-ietf-httpbis-cice">In HTTP, content codings allow for payload encodings such as for compression or integrity checks. In particular, the "gzip" content coding is widely used for payload data sent in response messages. Content codings can be used in request messages as well, however discoverability is not on par with response messages. This document extends the HTTP "Accept-Encoding" header field for use in responses, to indicate that content codings are supported in requests.</documentation>
     <http-header def="Accept-Encoding">
