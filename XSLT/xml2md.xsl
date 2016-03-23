@@ -25,6 +25,16 @@
                 <xsl:value-of select="substring-after(@id, 'urn:ietf:rfc:')"/>
                 <xsl:text>)&#xa;</xsl:text>
             </xsl:for-each>
+            <xsl:text>&#xa;### IETF Internet Drafts (I-D)&#xa;&#xa;</xsl:text>
+                <xsl:for-each select="$allfiles/service[starts-with(@id, 'urn:ietf:id:')]">
+                <xsl:text>* [I-D </xsl:text>
+                <xsl:value-of select="substring-after(@id, 'urn:ietf:id:')"/>
+                <xsl:text>: </xsl:text>
+                <xsl:value-of select="title/text()"/>
+                <xsl:text>](http://tools.ietf.org/html/draft-</xsl:text>
+                <xsl:value-of select="substring-after(@id, 'urn:ietf:id:')"/>
+                <xsl:text>)&#xa;</xsl:text>
+            </xsl:for-each>
         </xsl:result-document>
         <xsl:result-document href="../MD/headers.md" format="md-text">
             <xsl:text># HTTP Header Fields&#xa;&#xa;The following </xsl:text>
