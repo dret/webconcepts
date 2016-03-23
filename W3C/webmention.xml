@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<service id="http://www.w3.org/TR/webmention/" xmlns="http://github.com/dret/sedola">
+<service id="http://www.w3.org/TR/webmention" xmlns="http://github.com/dret/sedola">
     <title>Webmention</title>
     <documentation source="http://www.w3.org/TR/webmention/">Webmention is a simple way to notify any URL when you link to it on your site. From the receiver's perspective, it's a way to request notifications when other sites link to it.</documentation>
     <link def="webmention">
