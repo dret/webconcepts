@@ -7,6 +7,15 @@
     <xsl:variable name="W3C" select="collection(concat('../W3C/','?select=*.xml'))"/>
     <xsl:variable name="allfiles" select="$RFC | $I-D | $W3C"/>
     <xsl:template match="/">
+        <xsl:result-document href="../MD/specs.md" format="md-text">
+            <xsl:text># Specifications&#xa;&#xa;Listing a total of </xsl:text>
+            <xsl:value-of select="count(distinct-values($allfiles))"/>
+            <xsl:text> specifications, which can be broken down into </xsl:text>
+            <xsl:value-of select="count(distinct-values($allfiles/service/@id[starts-with(., 'urn:ietf:')]))"/>
+            <xsl:text> [IETF](http://www.ietf.org/ "Internet Engineering Taskforce") specifications and </xsl:text>
+            <xsl:value-of select="count(distinct-values($allfiles/service/@id[starts-with(., 'http://www.w3.org/TR/')]))"/>
+            <xsl:text> [W3C](http://www.w3.org/ "World Wide Web Consortium") specifications.</xsl:text>
+        </xsl:result-document>
         <xsl:result-document href="../MD/headers.md" format="md-text">
             <xsl:text># HTTP Header Fields&#xa;&#xa;The following </xsl:text>
             <xsl:value-of select="count(distinct-values($allfiles//http-header/@def))"/>
