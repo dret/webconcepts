@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <service id="urn:ietf:id:ietf-appsawg-http-problem" xmlns="http://github.com/dret/sedola">
-    <title short="HTTP Problem">HTTP Problem Detail</title>
+    <title short="Problem Details">Problem Details for HTTP APIs</title>
     <documentation source="http://tools.ietf.org/html/draft-ietf-appsawg-http-problem">This document defines a "problem detail" as a way to carry machine-readable details of errors in a HTTP response, to avoid the need to invent new error response formats for HTTP APIs.</documentation>
     <mediatype def="application/api-problem+json">
         <document xml:id="http-problem-document-json">
