@@ -37,6 +37,17 @@
                 <xsl:value-of select="substring-after(@id, 'urn:ietf:id:')"/>
                 <xsl:text>)&#xa;</xsl:text>
             </xsl:for-each>
+            <xsl:text>&#xa;## W3C Specifications&#xa;&#xa;</xsl:text>
+            <xsl:for-each select="$allfiles/service[starts-with(@id, 'http://www.w3.org/TR/')]">
+                <xsl:sort select="title/text()"/>
+                <xsl:text>* [</xsl:text>
+                <xsl:value-of select="title/text()"/>
+                <xsl:text> (`</xsl:text>
+                <xsl:value-of select="substring-after(@id, 'http://www.w3.org/TR/')"/>
+                <xsl:text>`)](</xsl:text>
+                <xsl:value-of select="@id"/>
+                <xsl:text>)&#xa;</xsl:text>
+            </xsl:for-each>
         </xsl:result-document>
         <xsl:result-document href="../MD/headers.md" format="md-text">
             <xsl:text># HTTP Header Fields&#xa;&#xa;The following </xsl:text>
