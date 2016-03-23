@@ -36,7 +36,7 @@
                         </xsl:when>
                         <xsl:when test="starts-with(../documentation/@source, 'http://www.w3.org/TR/')">
                             <xsl:text>W3C TR </xsl:text>
-                            <xsl:value-of select="substring-before(substring-after(../documentation/@source, 'http://www.w3.org/TR/'), '/')"/>
+                            <xsl:value-of select="if ( ends-with(../documentation/@source, '/') ) then substring-before(substring-after(../documentation/@source, 'http://www.w3.org/TR/'), '/') else substring-after(../documentation/@source, 'http://www.w3.org/TR/')"/>
                         </xsl:when>
                         <xsl:otherwise>
                             <xsl:text>??????</xsl:text>
