@@ -33,7 +33,7 @@
                 <xsl:value-of select="title/text()"/>
                 <xsl:text> (`draft-</xsl:text>
                 <xsl:value-of select="substring-after(@id, 'urn:ietf:id:')"/>
-                <xsl:text>`](http://tools.ietf.org/html/draft-</xsl:text>
+                <xsl:text>`)](http://tools.ietf.org/html/draft-</xsl:text>
                 <xsl:value-of select="substring-after(@id, 'urn:ietf:id:')"/>
                 <xsl:text>)&#xa;</xsl:text>
             </xsl:for-each>
