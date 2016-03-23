@@ -17,21 +17,23 @@
             <xsl:text> [W3C](http://www.w3.org/ "World Wide Web Consortium") specifications.&#xa;&#xa;</xsl:text>
             <xsl:text>## IETF Specifications&#xa;&#xa;This list is split into stable RFC specifications, and work-in-progress I-D drafts.&#xa;&#xa;### IETF Request for Comments (RFC)&#xa;&#xa;</xsl:text>
             <xsl:for-each select="$allfiles/service[starts-with(@id, 'urn:ietf:rfc:')]">
-                <xsl:text>* [RFC </xsl:text>
-                <xsl:value-of select="substring-after(@id, 'urn:ietf:rfc:')"/>
-                <xsl:text>: </xsl:text>
+                <xsl:sort select="title/text()"/>
+                <xsl:text>* [</xsl:text>
                 <xsl:value-of select="title/text()"/>
-                <xsl:text>](http://tools.ietf.org/html/rfc</xsl:text>
+                <xsl:text> (RFC </xsl:text>
+                <xsl:value-of select="substring-after(@id, 'urn:ietf:rfc:')"/>
+                <xsl:text>)](http://tools.ietf.org/html/rfc</xsl:text>
                 <xsl:value-of select="substring-after(@id, 'urn:ietf:rfc:')"/>
                 <xsl:text>)&#xa;</xsl:text>
             </xsl:for-each>
             <xsl:text>&#xa;### IETF Internet Drafts (I-D)&#xa;&#xa;</xsl:text>
-                <xsl:for-each select="$allfiles/service[starts-with(@id, 'urn:ietf:id:')]">
-                <xsl:text>* [I-D </xsl:text>
-                <xsl:value-of select="substring-after(@id, 'urn:ietf:id:')"/>
-                <xsl:text>: </xsl:text>
+            <xsl:for-each select="$allfiles/service[starts-with(@id, 'urn:ietf:id:')]">
+                <xsl:sort select="title/text()"/>
+                <xsl:text>* [</xsl:text>
                 <xsl:value-of select="title/text()"/>
-                <xsl:text>](http://tools.ietf.org/html/draft-</xsl:text>
+                <xsl:text> (`draft-</xsl:text>
+                <xsl:value-of select="substring-after(@id, 'urn:ietf:id:')"/>
+                <xsl:text>`](http://tools.ietf.org/html/draft-</xsl:text>
                 <xsl:value-of select="substring-after(@id, 'urn:ietf:id:')"/>
                 <xsl:text>)&#xa;</xsl:text>
             </xsl:for-each>
