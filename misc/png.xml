@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<service xmlns="http://github.com/dret/sedola">
+<service id="http://www.w3.org/TR/PNG" xmlns="http://github.com/dret/sedola">
     <title short="PNG">Portable Network Graphics</title>
     <mediatype xml:id="png" type="image/png">
         <document xml:id="png-image">
