@@ -1,6 +1,6 @@
 # Specifications
 
-Listing a total of 110 specifications, which can be broken down into 83 [IETF](http://www.ietf.org/ "Internet Engineering Taskforce") specifications and 27 [W3C](http://www.w3.org/ "World Wide Web Consortium") specifications.
+Listing a total of 111 specifications, which can be broken down into 83 [IETF](http://www.ietf.org/ "Internet Engineering Taskforce") specifications and 28 [W3C](http://www.w3.org/ "World Wide Web Consortium") specifications.
 
 ## IETF Specifications
 
@@ -113,6 +113,7 @@ This list is split into stable RFC specifications, and work-in-progress I-D draf
 * [Micropub (`micropub`)](http://www.w3.org/TR/micropub)
 * [Notification for Proxy Caches (`WD-proxy`)](http://www.w3.org/TR/WD-proxy)
 * [PEP - An Extension Mechanism for HTTP (`WD-http-pep`)](http://www.w3.org/TR/WD-http-pep)
+* [Portable Network Graphics (`PNG`)](http://www.w3.org/TR/PNG)
 * [Preload (`preload`)](http://www.w3.org/TR/preload)
 * [Protocol for Web Description Resources (POWDER): Description Resources (`powder-dr`)](http://www.w3.org/TR/powder-dr)
 * [Resource Hints (`resource-hints`)](http://www.w3.org/TR/resource-hints)
