@@ -1,10 +1,10 @@
 # Media Types
 
-The following 33 media type definitions were found in 111 services (28 [W3C](../W3C/), 62 [RFC](../IETF/RFC/), 21 [I-D](../IETF/I-D)):
+The following 33 media type definitions were found in 111 services (28 [W3C](../W3C/), 63 [RFC](../IETF/RFC/), 20 [I-D](../IETF/I-D)):
 
 * application/activity+json : [Activity Streams 2.0](http://www.w3.org/TR/activitystreams-core/ "This specification details a model for representing potential and completed activities using the JSON format." )
-* application/api-problem+json : [Problem Details for HTTP APIs](http://tools.ietf.org/html/draft-ietf-appsawg-http-problem "This document defines a ”problem detail” as a way to carry machine-readable details of errors in a HTTP response, to avoid the need to invent new error response formats for HTTP APIs." )
-* application/api-problem+xml : [Problem Details for HTTP APIs](http://tools.ietf.org/html/draft-ietf-appsawg-http-problem "This document defines a ”problem detail” as a way to carry machine-readable details of errors in a HTTP response, to avoid the need to invent new error response formats for HTTP APIs." )
+* application/api-problem+json : [Problem Details for HTTP APIs](http://tools.ietf.org/html/rfc7807 "This document defines a ”problem detail” as a way to carry machine-readable details of errors in a HTTP response, to avoid the need to invent new error response formats for HTTP APIs." )
+* application/api-problem+xml : [Problem Details for HTTP APIs](http://tools.ietf.org/html/rfc7807 "This document defines a ”problem detail” as a way to carry machine-readable details of errors in a HTTP response, to avoid the need to invent new error response formats for HTTP APIs." )
 * application/atom+xml : [Atom Syndication Format](http://tools.ietf.org/html/rfc4287 "Atom is an XML-based document format that describes lists of related information known as ”feeds”. Feeds are composed of a number of items, known as ”entries”, each with an extensible set of attached metadata. For example, each entry has a title." )
 * application/atomcat+xml : [Atom Publishing Protocol (AtomPub)](http://tools.ietf.org/html/rfc5023 "The Atom Publishing Protocol (AtomPub) is an application-level protocol for publishing and editing Web resources. The protocol is based on HTTP transfer of Atom-formatted representations. The Atom format is documented in the Atom Syndication Format." )
 * application/atomdeleted+xml : [The Atom "deleted-entry" Element](http://tools.ietf.org/html/rfc6721 "This specification adds mechanisms to the Atom Syndication Format that publishers of Atom Feed and Entry documents can use to explicitly identify Atom entries that have been removed." )
