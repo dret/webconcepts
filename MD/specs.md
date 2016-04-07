@@ -1,6 +1,6 @@
 # Specifications
 
-Listing a total of 111 specifications, which can be broken down into 83 [IETF](http://www.ietf.org/ "Internet Engineering Taskforce") specifications and 28 [W3C](http://www.w3.org/ "World Wide Web Consortium") specifications.
+Listing a total of 112 specifications, which can be broken down into 83 [IETF](http://www.ietf.org/ "Internet Engineering Taskforce") specifications and 29 [W3C](http://www.w3.org/ "World Wide Web Consortium") specifications.
 
 ## IETF Specifications
 
@@ -116,6 +116,7 @@ This list is split into stable RFC specifications, and work-in-progress I-D draf
 * [Portable Network Graphics (`PNG`)](http://www.w3.org/TR/PNG)
 * [Preload (`preload`)](http://www.w3.org/TR/preload)
 * [Protocol for Web Description Resources (POWDER): Description Resources (`powder-dr`)](http://www.w3.org/TR/powder-dr)
+* [Reporting API 1 (`reporting-1`)](http://www.w3.org/TR/reporting-1)
 * [Resource Hints (`resource-hints`)](http://www.w3.org/TR/resource-hints)
 * [Server-Sent Events (`eventsource`)](http://www.w3.org/TR/eventsource)
 * [Simple Object Access Protocol (SOAP) 1.1 (`SOAP`)](http://www.w3.org/TR/SOAP)

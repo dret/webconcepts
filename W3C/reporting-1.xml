@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<service id="http://www.w3.org/TR/reporting-1" xmlns="http://github.com/dret/sedola">
+    <title>Reporting API 1</title>
+    <documentation source="http://www.w3.org/TR/reporting-1/">This document defines a generic reporting framework which allows web developers to associate a set of named reporting endpoints with an origin. Various platform features (like Content Security Policy, Network Error Reporting, and others) will use these endpoints to deliver feature-specific reports in a consistent manner.</documentation>
+    <http-header def="Report-To">
+        <documentation source="http://www.w3.org/TR/reporting-1/#header">The Report-To HTTP response header field instructs the user agent to store reporting endpoints for an origin.</documentation>
+    </http-header>
+</service>
