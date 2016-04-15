@@ -75,6 +75,7 @@ This list is split into stable RFC specifications, and work-in-progress I-D draf
 
 ### IETF Internet Drafts (I-D)
 
+* [A JSON Media Type for Describing the Structure and Meaning of JSON Documents (`draft-zyp-json-schema`)](http://tools.ietf.org/html/draft-zyp-json-schema)
 * [Accept-Push-Policy Header Field (`draft-ruellan-http-accept-push-policy`)](http://tools.ietf.org/html/draft-ruellan-http-accept-push-policy)
 * [Additional Link Relations and the urn:social Namespace (`draft-snell-more-link-relations`)](http://tools.ietf.org/html/draft-snell-more-link-relations)
 * [Content-Signature Header Field for HTTP (`draft-thomson-http-content-signature`)](http://tools.ietf.org/html/draft-thomson-http-content-signature)
@@ -85,7 +86,6 @@ This list is split into stable RFC specifications, and work-in-progress I-D draf
 * [Home Documents (`draft-nottingham-json-home`)](http://tools.ietf.org/html/draft-nottingham-json-home)
 * [Home Documents (`draft-wilde-home-xml`)](http://tools.ietf.org/html/draft-wilde-home-xml)
 * [Link Relation Types for Web Services (`draft-wilde-link-desc`)](http://tools.ietf.org/html/draft-wilde-link-desc)
-* [Link Relation Types for Web Services (`draft-zyp-json-schema`)](http://tools.ietf.org/html/draft-zyp-json-schema)
 * [Marking HTTP Requests as Unimportant (`draft-thomson-http-nice`)](http://tools.ietf.org/html/draft-thomson-http-nice)
 * [Origin Cookies (`draft-west-origin-cookies`)](http://tools.ietf.org/html/draft-west-origin-cookies)
 * [POST Once Exactly (POE) (`draft-nottingham-http-poe`)](http://tools.ietf.org/html/draft-nottingham-http-poe)
