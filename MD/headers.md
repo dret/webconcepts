@@ -1,6 +1,6 @@
 # HTTP Header Fields
 
-The following 163 HTTP header field definitions were found in 112 services (29 [W3C](../W3C/), 64 [RFC](../IETF/RFC/), 19 [I-D](../IETF/I-D)). Please be advised that the table shown here is maintained and compiled from [Sedola](https://github.com/dret/sedola) sources. The [official HTTP Header Field registry](http://www.iana.org/assignments/message-headers/message-headers.xhtml) is maintained by [the *Internet Assigned Numbers Authority (IANA)*](http://www.iana.org/).
+The following 163 HTTP header field definitions were found in 113 services (29 [W3C](../W3C/), 64 [RFC](../IETF/RFC/), 20 [I-D](../IETF/I-D)). Please be advised that the table shown here is maintained and compiled from [Sedola](https://github.com/dret/sedola) sources. The [official HTTP Header Field registry](http://www.iana.org/assignments/message-headers/message-headers.xhtml) is maintained by [the *Internet Assigned Numbers Authority (IANA)*](http://www.iana.org/).
 
 Header Field | Specification/Description
 -------: | :---------- | :---

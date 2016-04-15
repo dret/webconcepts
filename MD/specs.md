@@ -1,6 +1,6 @@
 # Specifications
 
-Listing a total of 112 specifications, which can be broken down into 83 [IETF](http://www.ietf.org/ "Internet Engineering Taskforce") specifications and 29 [W3C](http://www.w3.org/ "World Wide Web Consortium") specifications.
+Listing a total of 113 specifications, which can be broken down into 84 [IETF](http://www.ietf.org/ "Internet Engineering Taskforce") specifications and 29 [W3C](http://www.w3.org/ "World Wide Web Consortium") specifications.
 
 ## IETF Specifications
 
@@ -85,6 +85,7 @@ This list is split into stable RFC specifications, and work-in-progress I-D draf
 * [Home Documents (`draft-nottingham-json-home`)](http://tools.ietf.org/html/draft-nottingham-json-home)
 * [Home Documents (`draft-wilde-home-xml`)](http://tools.ietf.org/html/draft-wilde-home-xml)
 * [Link Relation Types for Web Services (`draft-wilde-link-desc`)](http://tools.ietf.org/html/draft-wilde-link-desc)
+* [Link Relation Types for Web Services (`draft-zyp-json-schema`)](http://tools.ietf.org/html/draft-zyp-json-schema)
 * [Marking HTTP Requests as Unimportant (`draft-thomson-http-nice`)](http://tools.ietf.org/html/draft-thomson-http-nice)
 * [Origin Cookies (`draft-west-origin-cookies`)](http://tools.ietf.org/html/draft-west-origin-cookies)
 * [POST Once Exactly (POE) (`draft-nottingham-http-poe`)](http://tools.ietf.org/html/draft-nottingham-http-poe)
