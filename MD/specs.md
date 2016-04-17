@@ -1,6 +1,6 @@
 # Specifications
 
-Listing a total of 113 specifications, which can be broken down into 84 [IETF](http://www.ietf.org/ "Internet Engineering Taskforce") specifications and 29 [W3C](http://www.w3.org/ "World Wide Web Consortium") specifications.
+Listing a total of 114 specifications, which can be broken down into 85 [IETF](http://www.ietf.org/ "Internet Engineering Taskforce") specifications and 29 [W3C](http://www.w3.org/ "World Wide Web Consortium") specifications.
 
 ## IETF Specifications
 
@@ -81,6 +81,7 @@ This list is split into stable RFC specifications, and work-in-progress I-D draf
 * [Content-Signature Header Field for HTTP (`draft-thomson-http-content-signature`)](http://tools.ietf.org/html/draft-thomson-http-content-signature)
 * [Encrypted Content-Encoding for HTTP (`draft-nottingham-http-encryption-encoding`)](http://tools.ietf.org/html/draft-nottingham-http-encryption-encoding)
 * [HTTP Client Hints (`draft-grigorik-http-client-hints`)](http://tools.ietf.org/html/draft-grigorik-http-client-hints)
+* [HTTP Client Hints (`draft-ietf-httpbis-client-hints`)](http://tools.ietf.org/html/draft-ietf-httpbis-client-hints)
 * [HTTP/1.1: Range Responses of Indeterminate Length (`draft-combs-http-indeterminate-range`)](http://tools.ietf.org/html/draft-combs-http-indeterminate-range)
 * [Hierarchy Relations for Atom (`draft-divilly-atom-hierarchy`)](http://tools.ietf.org/html/draft-divilly-atom-hierarchy)
 * [Home Documents (`draft-nottingham-json-home`)](http://tools.ietf.org/html/draft-nottingham-json-home)
