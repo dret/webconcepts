@@ -92,7 +92,7 @@ This list is split into stable RFC specifications, and work-in-progress I-D draf
 * [POST Once Exactly (POE) (`draft-nottingham-http-poe`)](http://tools.ietf.org/html/draft-nottingham-http-poe)
 * [Signing HTTP Messages (`draft-cavage-http-signatures`)](http://tools.ietf.org/html/draft-cavage-http-signatures)
 * [The 'XML2RFC' version 3 Vocabulary (`draft-hoffman-xml2rfc`)](http://tools.ietf.org/html/draft-hoffman-xml2rfc)
-* [The Key HTTP Response Header Field (`draft-fielding-http-key`)](http://tools.ietf.org/html/draft-fielding-http-key)
+* [The Key HTTP Response Header Field (`draft-ietf-httpbis-key`)](http://tools.ietf.org/html/draft-ietf-httpbis-key)
 * [The Link-Template HTTP Header Field (`draft-nottingham-link-template`)](http://tools.ietf.org/html/draft-nottingham-link-template)
 * [The Sunset HTTP Header (`draft-wilde-sunset-header`)](http://tools.ietf.org/html/draft-wilde-sunset-header)
 * [The Tunnel-Protocol HTTP Header Field (`draft-ietf-httpbis-tunnel-protocol`)](http://tools.ietf.org/html/draft-ietf-httpbis-tunnel-protocol)
