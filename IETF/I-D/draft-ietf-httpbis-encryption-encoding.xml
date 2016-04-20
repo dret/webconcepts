@@ -6,6 +6,6 @@
         <documentation source="http://tools.ietf.org/html/draft-ietf-httpbis-encryption-encoding#section-3">The "Encryption" HTTP header field describes the encrypted content encoding(s) that have been applied to a message payload, and therefore how those content encoding(s) can be removed.</documentation>
     </http-header>
     <http-header def="Crypto-Key">
-        <documentation source="http://tools.ietf.org/html/draft-ietf-httpbis-encryption-encoding#section-4">An Crypto-Key header field can be used to describe the input keying material used in the Encryption header field.</documentation>
+        <documentation source="http://tools.ietf.org/html/draft-ietf-httpbis-encryption-encoding#section-4">A Crypto-Key header field can be used to describe the input keying material used in the Encryption header field.</documentation>
     </http-header>
 </service>
