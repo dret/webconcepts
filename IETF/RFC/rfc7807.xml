@@ -2,13 +2,13 @@
 <service id="urn:ietf:rfc:7807" xmlns="http://github.com/dret/sedola">
     <title short="Problem Details">Problem Details for HTTP APIs</title>
     <documentation source="http://tools.ietf.org/html/rfc7807">This document defines a "problem detail" as a way to carry machine-readable details of errors in a HTTP response, to avoid the need to invent new error response formats for HTTP APIs.</documentation>
-    <mediatype def="application/api-problem+json">
+    <mediatype def="application/problem+json">
         <document xml:id="http-problem-document-json">
             <title>HTTP Problem Detail (JSON)</title>
-            <documentation source="http://tools.ietf.org/html/rfc7807#section-3">The canonical model for problem details is a JSON object. When serialised as a JSON document, that format is identified with the "application/api-problem+json" media type.</documentation>
+            <documentation source="http://tools.ietf.org/html/rfc7807#section-3">The canonical model for problem details is a JSON object. When serialised as a JSON document, that format is identified with the "application/problem+json" media type.</documentation>
         </document>
     </mediatype>
-    <mediatype def="application/api-problem+xml">
+    <mediatype def="application/problem+xml">
         <document xml:id="http-problem-document-xml">
             <title>HTTP Problem Detail (XML)</title>
             <documentation source="http://tools.ietf.org/html/rfc7807#appendix-A">Some HTTP-based APIs use XML as their primary format convention. Such APIs MAY express problem details using the format defined in this appendix.</documentation>
