@@ -137,7 +137,7 @@
         </xsl:result-document>
         <xsl:result-document href="../MD/linkrels.md" format="md-text">
             <xsl:text># Link Relations&#xa;&#xa;The following </xsl:text>
-            <xsl:value-of select="count($allfiles//link[exists(@def)])"/>
+            <xsl:value-of select="count($allfiles//link-relation[exists(@def)])"/>
             <xsl:text> link relation definitions were found in </xsl:text>
             <xsl:value-of select="count($allfiles)"/>
             <xsl:text> services (</xsl:text>
@@ -147,7 +147,7 @@
             <xsl:text> [RFC](../IETF/RFC/), </xsl:text>
             <xsl:value-of select="count($I-D)"/>
             <xsl:text> [I-D](../IETF/I-D)):&#xa;&#xa;Relation | Description | Specification&#xa;-------: | :---------- | :---&#xa;</xsl:text>
-            <xsl:for-each select="$allfiles//link[exists(@def)]">
+            <xsl:for-each select="$allfiles//link-relation[exists(@def)]">
                 <xsl:sort select="@def"/>
                 <xsl:text>`</xsl:text>
                 <xsl:value-of select="@def"/>

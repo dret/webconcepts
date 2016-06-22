@@ -27,12 +27,12 @@
             <documentation source="http://tools.ietf.org/html/rfc5023#section-9.3">To edit or delete a Member Resource, a client sends a PUT or DELETE request to its Member URI, as specified in RFC 2616</documentation>
         </document>
     </mediatype>
-    <link def="edit">
+    <link-relation def="edit">
         <documentation source="http://tools.ietf.org/html/rfc5023#section-11.1">The value of "edit" specifies that the value of the href attribute is the IRI of an editable Member Entry. When appearing within an atom:entry, the href IRI can be used to retrieve, update, and delete the Resource represented by that Entry. An atom:entry MUST NOT contain more than one "edit" link relation.</documentation>
-    </link>
-    <link def="edit-media">
+    </link-relation>
+    <link-relation def="edit-media">
         <documentation source="http://tools.ietf.org/html/rfc5023#section-11.2">When appearing within an atom:entry, the value of the href attribute is an IRI that can be used to modify a Media Resource associated with that Entry.</documentation>
-    </link>
+    </link-relation>
     <vocabulary def="http://www.w3.org/2007/app" type="xmlns">
         <title>The AtomPub XML Vocabulary</title>
         <documentation source="http://tools.ietf.org/html/rfc5023#appendix-B">The Relax NG schema explicitly excludes elements in the Atom Protocol namespace that are not defined in this revision of the specification.</documentation>

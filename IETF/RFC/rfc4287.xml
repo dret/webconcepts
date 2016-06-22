@@ -12,54 +12,54 @@
             <title>Atom Entry Document</title>
             <documentation source="http://tools.ietf.org/html/rfc4287#section-2">An Atom Entry Document represents exactly one Atom entry, outside of the context of an Atom feed. Its root is the atom:entry element.</documentation>
         </document>
-        <link xml:id="atom-link-uri">
+        <link-relation xml:id="atom-link-uri">
             <title>atom:uri</title>
             <documentation source="http://tools.ietf.org/html/rfc4287#section-3.2.2">The "atom:uri" element's content conveys an IRI associated with the person. Person constructs MAY contain an atom:uri element, but MUST NOT contain more than one.</documentation>
-        </link>
-        <link xml:id="atom-link-content-src">
+        </link-relation>
+        <link-relation xml:id="atom-link-content-src">
             <title>atom:content/@src</title>
             <documentation source="http://tools.ietf.org/html/rfc4287#section-4.1.3.2">atom:content MAY have a "src" attribute, whose value MUST be an IRI reference. If the "src" attribute is present, atom:content MUST be empty. Atom Processors MAY use the IRI to retrieve the content and MAY choose to ignore remote content or to present it in a different manner than local content.</documentation>
-        </link>
-        <link xml:id="atom-link-category-scheme">
+        </link-relation>
+        <link-relation xml:id="atom-link-category-scheme">
             <title>atom:category/@scheme</title>
             <documentation source="http://tools.ietf.org/html/rfc4287#section-4.2.2.2">The "scheme" attribute is an IRI that identifies a categorization scheme. Category elements MAY have a "scheme" attribute.</documentation>
-        </link>
-        <link xml:id="atom-link-generator-uri">
+        </link-relation>
+        <link-relation xml:id="atom-link-generator-uri">
             <title>atom:generator/@uri</title>
             <documentation source="http://tools.ietf.org/html/rfc4287#section-4.2.4">The atom:generator element MAY have a "uri" attribute whose value MUST be an IRI reference. When dereferenced, the resulting URI (mapped from an IRI, if necessary) SHOULD produce a representation that is relevant to that agent.</documentation>
-        </link>
-        <link xml:id="atom-link-icon">
+        </link-relation>
+        <link-relation xml:id="atom-link-icon">
             <title>atom:icon</title>
             <documentation source="http://tools.ietf.org/html/rfc4287#section-4.2.5">The "atom:icon" element's content is an IRI reference that identifies an image that provides iconic visual identification for a feed.</documentation>
-        </link>
-        <link xml:id="atom-link-id">
+        </link-relation>
+        <link-relation xml:id="atom-link-id">
             <title>atom:id</title>
             <documentation source="http://tools.ietf.org/html/rfc4287#section-4.2.6">The "atom:id" element conveys a permanent, universally unique identifier for an entry or feed. Its content MUST be an IRI. Note that the definition of "IRI" excludes relative references. Though the IRI might use a dereferencable scheme, Atom Processors MUST NOT assume it can be dereferenced.</documentation>
-        </link>
-        <link xml:id="atom-link-link-href">
+        </link-relation>
+        <link-relation xml:id="atom-link-link-href">
             <title>atom:link/@href</title>
             <documentation source="http://tools.ietf.org/html/rfc4287#section-4.2.7.1">The "href" attribute contains the link's IRI. atom:link elements MUST have an href attribute, whose value MUST be a IRI reference.</documentation>
-        </link>
-        <link xml:id="atom-link-logo">
+        </link-relation>
+        <link-relation xml:id="atom-link-logo">
             <title>atom:logo</title>
             <documentation source="http://tools.ietf.org/html/rfc4287#section-4.2.8">The "atom:logo" element's content is an IRI reference that identifies an image that provides visual identification for a feed.</documentation>
-        </link>
+        </link-relation>
     </mediatype>
-    <link def="alternate">
+    <link-relation def="alternate">
         <documentation source="http://tools.ietf.org/html/rfc4287#section-4.2.7.2">The value "alternate" signifies that the IRI in the value of the href attribute identifies an alternate version of the resource described by the containing element.</documentation>
-    </link>
-    <link def="related">
+    </link-relation>
+    <link-relation def="related">
         <documentation source="http://tools.ietf.org/html/rfc4287#section-4.2.7.2">The value "related" signifies that the IRI in the value of the href attribute identifies a resource related to the resource described by the containing element. For example, the feed for a site that discusses the performance of the search engine at "http://search.example.com" might contain, as a child of atom:feed: &lt;link rel="related" href="http://search.example.com/"/> An identical link might appear as a child of any atom:entry whose content contains a discussion of that same search engine.</documentation>
-    </link>
-    <link def="self">
+    </link-relation>
+    <link-relation def="self">
         <documentation source="http://tools.ietf.org/html/rfc4287#section-4.2.7.2">The value "self" signifies that the IRI in the value of the href attribute identifies a resource equivalent to the containing element.</documentation>
-    </link>
-    <link def="enclosure">
+    </link-relation>
+    <link-relation def="enclosure">
         <documentation source="http://tools.ietf.org/html/rfc4287#section-4.2.7.2">The value "enclosure" signifies that the IRI in the value of the href attribute identifies a related resource that is potentially large in size and might require special handling. For atom:link elements with rel="enclosure", the length attribute SHOULD be provided.</documentation>
-    </link>
-    <link def="via">
+    </link-relation>
+    <link-relation def="via">
         <documentation source="http://tools.ietf.org/html/rfc4287#section-4.2.7.2">The value "via" signifies that the IRI in the value of the href attribute identifies a resource that is the source of the information provided in the containing element.</documentation>
-    </link>
+    </link-relation>
     <vocabulary def="http://www.w3.org/2005/Atom" type="xmlns">
         <title>The Atom XML Vocabulary</title>
         <documentation source="http://tools.ietf.org/html/rfc4287#appendix-B">The Relax NG schema explicitly excludes elements in the Atom namespace that are not defined in this revision of the specification.</documentation>

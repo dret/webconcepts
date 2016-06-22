@@ -8,7 +8,7 @@
             <documentation source="https://tools.ietf.org/html/draft-hoffman-xml2rfc-15#section-6.1">This document updates the specification for the Internet media type "application/rfc+xml" from the one in I-D draft-reschke-xml2rfc.  The following is to be registered with IANA.</documentation>
         </document>
     </mediatype>
-    <link def="derivedfrom">
+    <link-relation def="derivedfrom">
         <documentation source="https://tools.ietf.org/html/draft-hoffman-xml2rfc-15#section-6.2">The document linked to was later converted to the document that contains this link relation. For example, an RFC can have a link to the Internet Draft that became the RFC; in that case, the link relation would be "derivedfrom".</documentation>
-    </link>
+    </link-relation>
 </service>

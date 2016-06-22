@@ -12,143 +12,143 @@
             <title>HTML Frameset</title>
             <documentation source="http://www.w3.org/TR/html4/present/frames.html">HTML frames allow authors to present documents in multiple views, which may be independent windows or subwindows. Multiple views offer designers a way to keep certain information visible, while other views are scrolled or replaced. For example, within the same window, one frame might display a static banner, a second a navigation menu, and a third the main document that can be scrolled through or replaced by navigating in the second frame.</documentation>
         </document>
-        <link xml:id="html-link-body" select="/html/body/@background" selector="xpath1">
+        <link-relation xml:id="html-link-body" select="/html/body/@background" selector="xpath1">
             <documentation source="http://www.w3.org/TR/html4/struct/global.html#adef-background">The value of this attribute is a URI that designates an image resource. The image generally tiles the background (for visual browsers).</documentation>
-        </link>
-        <link xml:id="html-link-a" select="//a/@href" selector="xpath1">
+        </link-relation>
+        <link-relation xml:id="html-link-a" select="//a/@href" selector="xpath1">
             <documentation source="http://www.w3.org/TR/html4/struct/links.html#edef-A">Each A element defines an anchor: the A element's content defines the position of the anchor; the name attribute names the anchor so that it may be the destination of zero or more links (see also anchors with id).; and the href attribute makes this anchor the source anchor of exactly one link.</documentation>
-        </link>
-        <link xml:id="html-link-area" select="//area/@href" selector="xpath1">
+        </link-relation>
+        <link-relation xml:id="html-link-area" select="//area/@href" selector="xpath1">
             <documentation source="http://www.w3.org/TR/html4/struct/objects.html#edef-AREA">AREA elements have no content but specify the geometric regions of the image map and the link associated with each region.</documentation>
-        </link>
-        <link xml:id="html-link-link" select="/html/head/link/@href" selector="xpath1">
+        </link-relation>
+        <link-relation xml:id="html-link-link" select="/html/head/link/@href" selector="xpath1">
             <documentation source="http://www.w3.org/TR/html4/struct/links.html#edef-LINK">This element defines a link. Unlike A, it may only appear in the HEAD section of a document, although it may appear any number of times. Although LINK has no content, it conveys relationship information that may be rendered by user agents in a variety of ways (e.g., a tool-bar with a drop-down menu of links).</documentation>
-        </link>
-        <link xml:id="html-link-img-src" select="//img/@src" selector="xpath1">
+        </link-relation>
+        <link-relation xml:id="html-link-img-src" select="//img/@src" selector="xpath1">
             <documentation source="http://www.w3.org/TR/html4/struct/objects.html#edef-IMG">This attribute specifies the location of the image resource. Examples of widely recognized image formats include GIF, JPEG, and PNG.</documentation>
-        </link>
-        <link xml:id="html-link-img-longdesc" select="//img/@longdesc" selector="xpath1">
+        </link-relation>
+        <link-relation xml:id="html-link-img-longdesc" select="//img/@longdesc" selector="xpath1">
             <documentation source="http://www.w3.org/TR/html4/struct/objects.html#edef-IMG">This attribute specifies a link to a long description of the image. This description should supplement the short description provided using the alt attribute. When the image has an associated image map, this attribute should provide information about the image map's contents. This is particularly important for server-side image maps. Since an IMG element may be within the content of an A element, the user agent's mechanism in the user interface for accessing the "longdesc" resource of the former must be different than the mechanism for accessing the href resource of the latter.</documentation>
-        </link>
-        <link xml:id="html-link-img-usemap" select="//img/@usemap" selector="xpath1">
+        </link-relation>
+        <link-relation xml:id="html-link-img-usemap" select="//img/@usemap" selector="xpath1">
             <documentation source="http://www.w3.org/TR/html4/struct/objects.html#edef-IMG">This attribute associates an image map with an element. The image map is defined by a MAP element. The value of usemap must match the value of the name attribute of the associated MAP element.</documentation>
-        </link>
-        <link xml:id="html-link-object-classid" select="//object/@classid" selector="xpath1">
+        </link-relation>
+        <link-relation xml:id="html-link-object-classid" select="//object/@classid" selector="xpath1">
             <documentation source="http://www.w3.org/TR/html4/struct/objects.html#edef-OBJECT">This attribute may be used to specify the location of an object's implementation via a URI. It may be used together with, or as an alternative to the data attribute, depending on the type of object involved.</documentation>
-        </link>
-        <link xml:id="html-link-object-codebase" select="//object/@codebase" selector="xpath1">
+        </link-relation>
+        <link-relation xml:id="html-link-object-codebase" select="//object/@codebase" selector="xpath1">
             <documentation source="http://www.w3.org/TR/html4/struct/objects.html#edef-OBJECT">This attribute specifies the base path used to resolve relative URIs specified by the classid, data, and archive attributes. When absent, its default value is the base URI of the current document.</documentation>
-        </link>
-        <link xml:id="html-link-object-archive" select="//object/@archive" selector="xpath1">
+        </link-relation>
+        <link-relation xml:id="html-link-object-archive" select="//object/@archive" selector="xpath1">
             <documentation source="http://www.w3.org/TR/html4/struct/objects.html#edef-OBJECT">This attribute may be used to specify a space-separated list of URIs for archives containing resources relevant to the object, which may include the resources specified by the classid and data attributes. Preloading archives will generally result in reduced load times for objects. Archives specified as relative URIs should be interpreted relative to the codebase attribute.</documentation>
-        </link>
-        <link xml:id="html-link-object-data" select="//object/@data" selector="xpath1">
+        </link-relation>
+        <link-relation xml:id="html-link-object-data" select="//object/@data" selector="xpath1">
             <documentation source="http://www.w3.org/TR/html4/struct/objects.html#edef-OBJECT">This attribute may be used to specify the location of the object's data, for instance image data for objects defining images, or more generally, a serialized form of an object which can be used to recreate it. If given as a relative URI, it should be interpreted relative to the codebase attribute.</documentation>
-        </link>
-        <link xml:id="html-link-object-usemap" select="//object/@usemap" selector="xpath1">
+        </link-relation>
+        <link-relation xml:id="html-link-object-usemap" select="//object/@usemap" selector="xpath1">
             <documentation source="http://www.w3.org/TR/html4/struct/objects.html#edef-OBJECT">This attribute associates an image map with an element. The image map is defined by a MAP element. The value of usemap must match the value of the name attribute of the associated MAP element.</documentation>
-        </link>
-        <link xml:id="html-link-applet-codebase" select="//applet/@codebase" selector="xpath1">
+        </link-relation>
+        <link-relation xml:id="html-link-applet-codebase" select="//applet/@codebase" selector="xpath1">
             <documentation source="http://www.w3.org/TR/html4/struct/objects.html#edef-APPLET">This attribute specifies the base URI for the applet. If this attribute is not specified, then it defaults the same base URI as for the current document. Values for this attribute may only refer to subdirectories of the directory containing the current document.</documentation>
-        </link>
-        <link xml:id="html-link-applet-archive" select="//applet/@archive" selector="xpath1">
+        </link-relation>
+        <link-relation xml:id="html-link-applet-archive" select="//applet/@archive" selector="xpath1">
             <documentation source="http://www.w3.org/TR/html4/struct/objects.html#edef-APPLET">This attribute specifies a comma-separated list of URIs for archives containing classes and other resources that will be "preloaded". The classes are loaded using an instance of an AppletClassLoader with the given codebase. Relative URIs for archives are interpreted with respect to the applet's codebase. Preloading resources can significantly improve the performance of applets.</documentation>
-        </link>
-        <link xml:id="html-link-applet-code" select="//applet/@code" selector="xpath1">
+        </link-relation>
+        <link-relation xml:id="html-link-applet-code" select="//applet/@code" selector="xpath1">
             <documentation source="http://www.w3.org/TR/html4/struct/objects.html#edef-APPLET">This attribute specifies either the name of the class file that contains the applet's compiled applet subclass or the path to get the class, including the class file itself. It is interpreted with respect to the applet's codebase. One of code or object must be present.</documentation>
-        </link>
-        <link xml:id="html-link-applet-object" select="//applet/@object" selector="xpath1">
+        </link-relation>
+        <link-relation xml:id="html-link-applet-object" select="//applet/@object" selector="xpath1">
             <documentation source="http://www.w3.org/TR/html4/struct/objects.html#edef-APPLET">This attribute names a resource containing a serialized representation of an applet's state. It is interpreted relative to the applet's codebase. The serialized data contains the applet's class name but not the implementation. The class name is used to retrieve the implementation from a class file or archive. When the applet is "deserialized" the start() method is invoked but not the init() method. Attributes valid when the original object was serialized are not restored. Any attributes passed to this APPLET instance will be available to the applet. Authors should use this feature with extreme caution. An applet should be stopped before it is serialized.
  Either code or object must be present. If both code and object are given, it is an error if they provide different class names.</documentation>
-        </link>
-        <link xml:id="html-link-q" select="//q/@cite" selector="xpath1">
+        </link-relation>
+        <link-relation xml:id="html-link-q" select="//q/@cite" selector="xpath1">
             <documentation source="http://www.w3.org/TR/html4/struct/text.html#edef-Q">The value of this attribute is a URI that designates a source document or message. This attribute is intended to give information about the source from which the quotation was borrowed.</documentation>
-        </link>
-        <link xml:id="html-link-blockquote" select="//blockquote/@cite" selector="xpath1">
+        </link-relation>
+        <link-relation xml:id="html-link-blockquote" select="//blockquote/@cite" selector="xpath1">
             <documentation source="http://www.w3.org/TR/html4/struct/text.html#edef-BLOCKQUOTE">The value of this attribute is a URI that designates a source document or message. This attribute is intended to give information about the source from which the quotation was borrowed.</documentation>
-        </link>
-        <link xml:id="html-link-ins" select="//ins/@cite" selector="xpath1">
+        </link-relation>
+        <link-relation xml:id="html-link-ins" select="//ins/@cite" selector="xpath1">
             <documentation source="http://www.w3.org/TR/html4/struct/text.html#edef-ins">The value of this attribute is a URI that designates a source document or message. This attribute is intended to point to information explaining why a document was changed.</documentation>
-        </link>
-        <link xml:id="html-link-del" select="//del/@cite" selector="xpath1">
+        </link-relation>
+        <link-relation xml:id="html-link-del" select="//del/@cite" selector="xpath1">
             <documentation source="http://www.w3.org/TR/html4/struct/text.html#edef-del">The value of this attribute is a URI that designates a source document or message. This attribute is intended to point to information explaining why a document was changed.</documentation>
-        </link>
-        <link xml:id="html-link-form" select="//form/@action" selector="xpath1">
+        </link-relation>
+        <link-relation xml:id="html-link-form" select="//form/@action" selector="xpath1">
             <documentation source="http://www.w3.org/TR/html4/interact/forms.html#edef-FORM">This attribute specifies a form processing agent. User agent behavior for a value other than an HTTP URI is undefined.</documentation>
-        </link>
-        <link xml:id="html-link-input-src" select="//input/@src" selector="xpath1">
+        </link-relation>
+        <link-relation xml:id="html-link-input-src" select="//input/@src" selector="xpath1">
             <documentation source="http://www.w3.org/TR/html4/interact/forms.html#edef-INPUT">When the type attribute has the value "image", this attribute specifies the location of the image to be used to decorate the graphical submit button.</documentation>
-        </link>
-        <link xml:id="html-link-input-usemap" select="//input/@usemap" selector="xpath1">
+        </link-relation>
+        <link-relation xml:id="html-link-input-usemap" select="//input/@usemap" selector="xpath1">
             <documentation source="http://www.w3.org/TR/html4/interact/forms.html#edef-INPUT">This attribute associates an image map with an element. The image map is defined by a MAP element. The value of usemap must match the value of the name attribute of the associated MAP element.</documentation>
-        </link>
-        <link xml:id="html-link-frame-longdesc" select="//frame/@longdesc" selector="xpath1">
+        </link-relation>
+        <link-relation xml:id="html-link-frame-longdesc" select="//frame/@longdesc" selector="xpath1">
             <documentation source="http://www.w3.org/TR/html4/present/frames.html#edef-FRAME">This attribute specifies a link to a long description of the frame. This description should supplement the short description provided using the title attribute, and may be particularly useful for non-visual user agents.</documentation>
-        </link>
-        <link xml:id="html-link-frame-src" select="//frame/@src" selector="xpath1">
+        </link-relation>
+        <link-relation xml:id="html-link-frame-src" select="//frame/@src" selector="xpath1">
             <documentation source="http://www.w3.org/TR/html4/present/frames.html#edef-FRAME">This attribute specifies the location of the initial contents to be contained in the frame.</documentation>
-        </link>
-        <link xml:id="html-link-iframe-longdesc" select="//iframe/@longdesc" selector="xpath1">
+        </link-relation>
+        <link-relation xml:id="html-link-iframe-longdesc" select="//iframe/@longdesc" selector="xpath1">
             <documentation source="http://www.w3.org/TR/html4/present/frames.html#edef-IFRAME">This attribute specifies a link to a long description of the frame. This description should supplement the short description provided using the title attribute, and is particularly useful for non-visual user agents.</documentation>
-        </link>
-        <link xml:id="html-link-iframe-src" select="//iframe/@src" selector="xpath1">
+        </link-relation>
+        <link-relation xml:id="html-link-iframe-src" select="//iframe/@src" selector="xpath1">
             <documentation source="http://www.w3.org/TR/html4/present/frames.html#edef-IFRAME">This attribute specifies the location of the initial contents to be contained in the frame.</documentation>
-        </link>
-        <link xml:id="html-link-head" select="/html/head/@profile" selector="xpath1">
+        </link-relation>
+        <link-relation xml:id="html-link-head" select="/html/head/@profile" selector="xpath1">
             <documentation source="http://www.w3.org/TR/html4/struct/global.html#edef-HEAD">This attribute specifies the location of one or more meta data profiles, separated by white space. For future extensions, user agents should consider the value to be a list even though this specification only considers the first URI to be significant.</documentation>
-        </link>
-        <link xml:id="html-link-base" select="/html/head/base" selector="xpath1">
+        </link-relation>
+        <link-relation xml:id="html-link-base" select="/html/head/base" selector="xpath1">
             <documentation source="http://www.w3.org/TR/html4/struct/links.html#edef-BASE">This attribute specifies an absolute URI that acts as the base URI for resolving relative URIs.</documentation>
-        </link>
-        <link xml:id="html-link-script" select="/html/head/script/@src" selector="xpath1">
+        </link-relation>
+        <link-relation xml:id="html-link-script" select="/html/head/script/@src" selector="xpath1">
             <documentation source="http://www.w3.org/TR/html4/interact/scripts.html#edef-SCRIPT">This attribute specifies the location of an external script.</documentation>
-        </link>
+        </link-relation>
     </mediatype>
-    <link def="alternate">
+    <link-relation def="alternate">
         <documentation source="http://www.w3.org/TR/html4/types.html#type-links">Designates substitute versions for the document in which the link occurs. When used together with the lang attribute, it implies a translated version of the document. When used together with the media attribute, it implies a version designed for a different medium (or media).</documentation>
-    </link>
-    <link def="stylesheet">
+    </link-relation>
+    <link-relation def="stylesheet">
         <documentation source="http://www.w3.org/TR/html4/types.html#type-links">Refers to an external style sheet. See the section on external style sheets for details. This is used together with the link type "Alternate" for user-selectable alternate style sheets.</documentation>
-    </link>
-    <link def="start">
+    </link-relation>
+    <link-relation def="start">
         <documentation source="http://www.w3.org/TR/html4/types.html#type-links">Refers to the first document in a collection of documents. This link type tells search engines which document is considered by the author to be the starting point of the collection.</documentation>
-    </link>
-    <link def="next">
+    </link-relation>
+    <link-relation def="next">
         <documentation source="http://www.w3.org/TR/html4/types.html#type-links">Refers to the next document in a linear sequence of documents. User agents may choose to preload the "next" document, to reduce the perceived load time.</documentation>
-    </link>
-    <link def="prev">
+    </link-relation>
+    <link-relation def="prev">
         <documentation source="http://www.w3.org/TR/html4/types.html#type-links">Refers to the previous document in an ordered series of documents. Some user agents also support the synonym "Previous".</documentation>
-    </link>
-    <link def="contents">
+    </link-relation>
+    <link-relation def="contents">
         <documentation source="http://www.w3.org/TR/html4/types.html#type-links">Refers to a document serving as a table of contents. Some user agents also support the synonym ToC (from "Table of Contents").</documentation>
-    </link>
-    <link def="index">
+    </link-relation>
+    <link-relation def="index">
         <documentation source="http://www.w3.org/TR/html4/types.html#type-links">Refers to a document providing an index for the current document.</documentation>
-    </link>
-    <link def="glossary">
+    </link-relation>
+    <link-relation def="glossary">
         <documentation source="http://www.w3.org/TR/html4/types.html#type-links">Refers to a document providing a glossary of terms that pertain to the current document.</documentation>
-    </link>
-    <link def="copyright">
+    </link-relation>
+    <link-relation def="copyright">
         <documentation source="http://www.w3.org/TR/html4/types.html#type-links">Refers to a copyright statement for the current document.</documentation>
-    </link>
-    <link def="chapter">
+    </link-relation>
+    <link-relation def="chapter">
         <documentation source="http://www.w3.org/TR/html4/types.html#type-links">Refers to a document serving as a chapter in a collection of documents.</documentation>
-    </link>
-    <link def="section">
+    </link-relation>
+    <link-relation def="section">
         <documentation source="http://www.w3.org/TR/html4/types.html#type-links">Refers to a document serving as a section in a collection of documents.</documentation>
-    </link>
-    <link def="subsection">
+    </link-relation>
+    <link-relation def="subsection">
         <documentation source="http://www.w3.org/TR/html4/types.html#type-links">Refers to a document serving as a subsection in a collection of documents.</documentation>
-    </link>
-    <link def="appendix">
+    </link-relation>
+    <link-relation def="appendix">
         <documentation source="http://www.w3.org/TR/html4/types.html#type-links">Refers to a document serving as an appendix in a collection of documents.</documentation>
-    </link>
-    <link def="help">
+    </link-relation>
+    <link-relation def="help">
         <documentation source="http://www.w3.org/TR/html4/types.html#type-links">Refers to a document offering help (more information, links to other sources information, etc.)</documentation>
-    </link>
-    <link def="bookmark">
+    </link-relation>
+    <link-relation def="bookmark">
         <documentation source="http://www.w3.org/TR/html4/types.html#type-links">Refers to a bookmark. A bookmark is a link to a key entry point within an extended document. The title attribute may be used, for example, to label the bookmark. Note that several bookmarks may be defined in each document.</documentation>
-    </link>
+    </link-relation>
     <vocabulary xml:id="html-vocabulary-html-strict" id="-//W3C//DTD HTML 4.01//EN" type="FPI">
         <title short="HTML Strict">HTML 4.01 Strict DTD</title>
         <documentation source="http://www.w3.org/TR/html4/sgml/dtd.html">This is HTML 4.01 Strict DTD, which excludes the presentation attributes and elements that W3C expects to phase out as support for style sheets matures. Authors should use the Strict DTD when possible, but may use the Transitional DTD when support for presentation attribute and elements is required.</documentation>

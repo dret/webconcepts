@@ -8,16 +8,16 @@
     <http-header def="Memento-Datetime">
         <documentation source="http://tools.ietf.org/html/rfc7089#section-2.1.1">The "Memento-Datetime" response header is used by a server to indicate that a response reflects a prior state of an Original Resource. Its value expresses the datetime of that state.</documentation>
     </http-header>
-    <link def="original">
+    <link-relation def="original">
         <documentation source="http://tools.ietf.org/html/rfc7089#section-2.2.1">A link with an "original" Relation Type is used to point from a TimeGate or a Memento to its associated Original Resource.</documentation>
-    </link>
-    <link def="timegate">
+    </link-relation>
+    <link-relation def="timegate">
         <documentation source="http://tools.ietf.org/html/rfc7089#section-2.2.2">A link with a "timegate" Relation Type is used to point from the Original Resource, as well as from a Memento associated with the Original Resource, to a TimeGate for the Original Resource.</documentation>
-    </link>
-    <link def="timemap">
+    </link-relation>
+    <link-relation def="timemap">
         <documentation source="http://tools.ietf.org/html/rfc7089#section-2.2.3">A link with a "timemap" Relation Type is used to point from a TimeGate or a Memento associated with an Original Resource, as well as from the Original Resource itself, to a TimeMap for the Original Resource.</documentation>
-    </link>
-    <link def="memento">
+    </link-relation>
+    <link-relation def="memento">
         <documentation source="http://tools.ietf.org/html/rfc7089#section-2.2.4">A link with a "memento" Relation Type is used to point from a TimeGate or a Memento for an Original Resource, as well as from the Original Resource itself, to a Memento for the Original Resource.</documentation>
-    </link>
+    </link-relation>
 </service>

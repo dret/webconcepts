@@ -62,7 +62,7 @@
                                         </xs:assert>
                                     </xs:complexType>
                                 </xs:element>
-                                <xs:element ref="sedola:link" minOccurs="0" maxOccurs="unbounded"/>
+                                <xs:element ref="sedola:link-relation" minOccurs="0" maxOccurs="unbounded"/>
                             </xs:sequence>
                             <xs:attribute name="def" type="sedola:mediaTypeType" use="optional"/>
                             <xs:attribute name="ref" type="sedola:mediaTypeType" use="optional"/>
@@ -88,7 +88,7 @@
                             </xs:attribute>
                         </xs:complexType>
                     </xs:element>
-                    <xs:element ref="sedola:link"/>
+                    <xs:element ref="sedola:link-relation"/>
                     <xs:element name="vocabulary">
                         <xs:complexType>
                             <xs:sequence>
@@ -138,7 +138,7 @@
             <xs:attribute name="id" type="xs:anyURI" use="optional"/>
         </xs:complexType>
     </xs:element>
-    <xs:element name="link">
+    <xs:element name="link-relation">
         <xs:complexType>
             <xs:group ref="sedola:descriptions" minOccurs="0" maxOccurs="unbounded"/>
             <xs:attribute ref="xml:id" use="optional"/>

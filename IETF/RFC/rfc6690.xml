@@ -5,7 +5,7 @@
     <mediatype def="application/link-format">
         <documentation source="http://tools.ietf.org/html/rfc6690#section-2">The CoRE Link Format extends the HTTP Link Header field specified in RFC 5988.</documentation>
     </mediatype>
-    <link def="hosts">
+    <link-relation def="hosts">
         <documentation source="http://tools.ietf.org/html/rfc6690#section-7.2">Refers to a resource hosted by the server indicated by the link context.</documentation>
-    </link>
+    </link-relation>
 </service>

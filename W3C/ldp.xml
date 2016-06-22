@@ -5,7 +5,7 @@
     <http-header def="Accept-Post">
         <documentation source="http://www.w3.org/TR/ldp/#header-accept-post">The Accept-Post HTTP header SHOULD appear in the OPTIONS response for any resource that supports the use of the POST method. The presence of the Accept-Post header in response to any method is an implicit indication that POST is allowed on the resource identified by the Request-URI. The presence of a specific document format in this header indicates that that specific format is allowed on POST requests to the resource identified by the Request-URI.</documentation>
     </http-header>
-    <link def="describedby">
+    <link-relation def="describedby">
         <documentation source="http://www.w3.org/TR/ldp/#link-relation-describedby">The relationship A describedby B asserts that resource B provides a description of resource A. There are no constraints on the format or representation of either A or B, neither are there any further constraints on either resource.</documentation>
-    </link>
+    </link-relation>
 </service>

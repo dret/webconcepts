@@ -12,7 +12,7 @@
         <title>POWDER XML Elements</title>
         <documentation source="http://www.w3.org/TR/powder-dr/#xmlElements"></documentation>
     </vocabulary>
-    <link def="describedby">
+    <link-relation def="describedby">
         <documentation source="http://www.w3.org/TR/powder-dr/#appD">The relationship A 'describedby' B asserts that resource B provides a description of resource A. There are no constraints on the format or representation of either A or B, neither are there any further constraints on either resource.</documentation>
-    </link>
+    </link-relation>
 </service>
