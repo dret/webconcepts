@@ -128,7 +128,7 @@
                             <xs:attribute name="ref" use="optional" type="sedola:httpHeaderType"/>
                             <xs:assert test="count(@def | @ref) = 1">
                                 <xs:annotation>
-                                    <xs:documentation>Media types are either defined or referenced; @def and @ref are mutually exclusive.</xs:documentation>
+                                    <xs:documentation>HTTP header types are either defined or referenced; @def and @ref are mutually exclusive.</xs:documentation>
                                 </xs:annotation>
                             </xs:assert>
                         </xs:complexType>
