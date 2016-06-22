@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<service id="urn:ietf:rfc:5861" xmlns="http://github.com/dret/sedola">
+    <title>HTTP Cache-Control Extensions for Stale Content</title>
+    <documentation source="http://tools.ietf.org/html/rfc5861">This document defines two independent HTTP Cache-Control extensions that allow control over the use of stale responses by caches.</documentation>
+    <http-cache-directive def="stale-while-revalidate">
+        <documentation source="http://tools.ietf.org/html/rfc5861#section-3">When present in an HTTP response, the stale-while-revalidate Cache-Control extension indicates that caches MAY serve the response in which it appears after it becomes stale, up to the indicated number of seconds.</documentation>
+    </http-cache-directive>
+    <http-cache-directive def="stale-if-error">
+        <documentation source="http://tools.ietf.org/html/rfc5861#section-4">The stale-if-error Cache-Control extension indicates that when an error is encountered, a cached stale response MAY be used to satisfy the request, regardless of other freshness information.</documentation>
+    </http-cache-directive>
+</service>
