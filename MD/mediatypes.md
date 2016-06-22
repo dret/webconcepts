@@ -1,6 +1,6 @@
 # Media Types
 
-The following 33 media type definitions were found in 114 services (29 [W3C](../W3C/), 64 [RFC](../IETF/RFC/), 21 [I-D](../IETF/I-D)):
+The following 33 media type definitions were found in 115 services (29 [W3C](../W3C/), 65 [RFC](../IETF/RFC/), 21 [I-D](../IETF/I-D)):
 
 * application/activity+json : [Activity Streams 2.0](http://www.w3.org/TR/activitystreams-core/ "This specification details a model for representing potential and completed activities using the JSON format." )
 * application/atom+xml : [Atom Syndication Format](http://tools.ietf.org/html/rfc4287 "Atom is an XML-based document format that describes lists of related information known as ”feeds”. Feeds are composed of a number of items, known as ”entries”, each with an extensible set of attached metadata. For example, each entry has a title." )

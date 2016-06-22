@@ -1,6 +1,6 @@
 # Specifications
 
-Listing a total of 114 specifications, which can be broken down into 85 [IETF](http://www.ietf.org/ "Internet Engineering Taskforce") specifications and 29 [W3C](http://www.w3.org/ "World Wide Web Consortium") specifications.
+Listing a total of 115 specifications, which can be broken down into 86 [IETF](http://www.ietf.org/ "Internet Engineering Taskforce") specifications and 29 [W3C](http://www.w3.org/ "World Wide Web Consortium") specifications.
 
 ## IETF Specifications
 
@@ -21,6 +21,7 @@ This list is split into stable RFC specifications, and work-in-progress I-D draf
 * [Feed Paging and Archiving (RFC 5005)](http://tools.ietf.org/html/rfc5005)
 * [Forwarded HTTP Extension (RFC 7239)](http://tools.ietf.org/html/rfc7239)
 * [HTTP Alternate Services (RFC 7838)](http://tools.ietf.org/html/rfc7838)
+* [HTTP Cache-Control Extensions for Stale Content (RFC 5861)](http://tools.ietf.org/html/rfc5861)
 * [HTTP Digest Access Authentication (RFC 7616)](http://tools.ietf.org/html/rfc7616)
 * [HTTP Extensions for Distributed Authoring - WEBDAV (RFC 2518)](http://tools.ietf.org/html/rfc2518)
 * [HTTP Extensions for Web Distributed Authoring and Versioning (WebDAV) (RFC 4918)](http://tools.ietf.org/html/rfc4918)
