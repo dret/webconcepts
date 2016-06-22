@@ -89,12 +89,6 @@
                         </xs:complexType>
                     </xs:element>
                     <xs:element ref="sedola:link"/>
-                    <xs:element name="uri-parameter">
-                        <xs:complexType>
-                            <xs:attribute ref="xml:id" use="required"/>
-                            <xs:attribute name="name" type="xs:anyURI" use="required"/>
-                        </xs:complexType>
-                    </xs:element>
                     <xs:element name="vocabulary">
                         <xs:complexType>
                             <xs:sequence>
