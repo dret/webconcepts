@@ -193,5 +193,36 @@
                 <xsl:text>" )&#xa;</xsl:text>
             </xsl:for-each>
         </xsl:result-document>
+        <xsl:result-document href="../MD/statuscodes.md" format="md-text">
+            <xsl:text># HTTP Cache Directives&#xa;&#xa;The following </xsl:text>
+            <xsl:value-of select="count($allfiles//http-status[exists(@def)])"/>
+            <xsl:text> HTTP cach directive definitions were found in </xsl:text>
+            <xsl:value-of select="count($allfiles)"/>
+            <xsl:text> services (</xsl:text>
+            <xsl:value-of select="count($W3C)"/>
+            <xsl:text> [W3C](../W3C/), </xsl:text>
+            <xsl:value-of select="count($RFC)"/>
+            <xsl:text> [RFC](../IETF/RFC/), </xsl:text>
+            <xsl:value-of select="count($I-D)"/>
+            <xsl:text> [I-D](../IETF/I-D)):&#xa;&#xa;Status Code | Description | Specification&#xa;-------: | :---------- | :---&#xa;</xsl:text>
+            <xsl:for-each select="$allfiles//http-status[exists(@def)]">
+                <xsl:sort select="@def"/>
+                <xsl:text>`</xsl:text>
+                <xsl:value-of select="@def"/>
+                <xsl:text>: </xsl:text>
+                <xsl:value-of select="@desc"/>
+                <xsl:text>` | "[</xsl:text>
+                <xsl:value-of select="documentation/text()"/>
+                <xsl:text>](</xsl:text>
+                <xsl:value-of select="documentation/@source"/>
+                <xsl:text>)" | [</xsl:text>
+                <xsl:value-of select="../title/text()"/>
+                <xsl:text>](</xsl:text>
+                <xsl:value-of select="../documentation/@source"/>
+                <xsl:text> "</xsl:text>
+                <xsl:value-of select="replace(../documentation/text(), '&quot;', '&#x201d;')"/>
+                <xsl:text>" )&#xa;</xsl:text>
+            </xsl:for-each>
+        </xsl:result-document>
     </xsl:template>
 </xsl:stylesheet>
