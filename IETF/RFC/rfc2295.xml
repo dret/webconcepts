@@ -17,4 +17,7 @@
     <http-header def="Variant-Vary">
         <documentation source="http://tools.ietf.org/html/rfc2295#section-8.6">The Variant-Vary response header can be used in a choice response to record any vary information which applies to the variant data (the entity body combined with some of the entity headers) contained in the response, rather than to the response as a whole.</documentation>
     </http-header>
+    <http-status def="506" desc="Variant Also Negotiates">
+        <documentation source="http://tools.ietf.org/html/rfc7725#section-3">The 506 status code indicates that the server has an internal configuration error: the chosen variant resource is configured to engage in transparent content negotiation itself, and is therefore not a proper end point in the negotiation process.</documentation>
+    </http-status>
 </service>
