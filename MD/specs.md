@@ -1,6 +1,6 @@
 # Specifications
 
-Listing a total of 119 specifications, which can be broken down into 90 [IETF](http://www.ietf.org/ "Internet Engineering Taskforce") specifications and 29 [W3C](http://www.w3.org/ "World Wide Web Consortium") specifications.
+Listing a total of 120 specifications, which can be broken down into 91 [IETF](http://www.ietf.org/ "Internet Engineering Taskforce") specifications and 29 [W3C](http://www.w3.org/ "World Wide Web Consortium") specifications.
 
 ## IETF Specifications
 
@@ -16,6 +16,7 @@ This list is split into stable RFC specifications, and work-in-progress I-D draf
 * [Atom License Extension (RFC 4946)](http://tools.ietf.org/html/rfc4946)
 * [Atom Publishing Protocol (AtomPub) (RFC 5023)](http://tools.ietf.org/html/rfc5023)
 * [Atom Syndication Format (RFC 4287)](http://tools.ietf.org/html/rfc4287)
+* [Binding Extensions to Web Distributed Authoring and Versioning (WebDAV) (RFC 5842)](http://tools.ietf.org/html/rfc5842)
 * [Concise Binary Object Representation (CBOR) (RFC 7049)](http://tools.ietf.org/html/rfc7049)
 * [Constrained RESTful Environments (CoRE) Link Format (RFC 6690)](http://tools.ietf.org/html/rfc6690)
 * [Delta encoding in HTTP (RFC 3229)](http://tools.ietf.org/html/rfc3229)
