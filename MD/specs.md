@@ -1,6 +1,6 @@
 # Specifications
 
-Listing a total of 115 specifications, which can be broken down into 86 [IETF](http://www.ietf.org/ "Internet Engineering Taskforce") specifications and 29 [W3C](http://www.w3.org/ "World Wide Web Consortium") specifications.
+Listing a total of 117 specifications, which can be broken down into 88 [IETF](http://www.ietf.org/ "Internet Engineering Taskforce") specifications and 29 [W3C](http://www.w3.org/ "World Wide Web Consortium") specifications.
 
 ## IETF Specifications
 
@@ -12,6 +12,7 @@ This list is split into stable RFC specifications, and work-in-progress I-D draf
 * [Additional Link Relation Types (RFC 6903)](http://tools.ietf.org/html/rfc6903)
 * [An Extensible Markup Language (XML) Patch Operations Framework Utilizing XML Path Language (XPath) Selectors (RFC 5261)](http://tools.ietf.org/html/rfc5261)
 * [An HTTP Extension Framework (RFC 2774)](http://tools.ietf.org/html/rfc2774)
+* [An HTTP Status Code to Report Legal Obstacles (RFC 7725)](http://tools.ietf.org/html/rfc7725)
 * [Atom License Extension (RFC 4946)](http://tools.ietf.org/html/rfc4946)
 * [Atom Publishing Protocol (AtomPub) (RFC 5023)](http://tools.ietf.org/html/rfc5023)
 * [Atom Syndication Format (RFC 4287)](http://tools.ietf.org/html/rfc4287)
@@ -31,6 +32,7 @@ This list is split into stable RFC specifications, and work-in-progress I-D draf
 * [HTTP State Management Mechanism (RFC 6265)](http://tools.ietf.org/html/rfc6265)
 * [HTTP Strict Transport Security (HSTS) (RFC 6797)](http://tools.ietf.org/html/rfc6797)
 * [HTTP framework for time-based access to resource states - Memento (RFC 7089)](http://tools.ietf.org/html/rfc7089)
+* [Hyper Text Coffee Pot Control Protocol (HTCPCP/1.0) (RFC 2324)](http://tools.ietf.org/html/rfc2324)
 * [Hypertext Transfer Protocol (HTTP) Client-Initiated Content-Encoding (RFC 7694)](http://tools.ietf.org/html/rfc7694)
 * [Hypertext Transfer Protocol (HTTP/1.1): Authentication (RFC 7235)](http://tools.ietf.org/html/rfc7235)
 * [Hypertext Transfer Protocol (HTTP/1.1): Caching (RFC 7234)](http://tools.ietf.org/html/rfc7234)

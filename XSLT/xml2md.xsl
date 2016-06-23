@@ -175,7 +175,7 @@
             <xsl:value-of select="count($RFC)"/>
             <xsl:text> [RFC](../IETF/RFC/), </xsl:text>
             <xsl:value-of select="count($I-D)"/>
-            <xsl:text> [I-D](../IETF/I-D)):&#xa;&#xa;Relation | Description | Specification&#xa;-------: | :---------- | :---&#xa;</xsl:text>
+            <xsl:text> [I-D](../IETF/I-D)):&#xa;&#xa;Directive | Description | Specification&#xa;-------: | :---------- | :---&#xa;</xsl:text>
             <xsl:for-each select="$allfiles//http-cache-directive[exists(@def)]">
                 <xsl:sort select="@def"/>
                 <xsl:text>`</xsl:text>

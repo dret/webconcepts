@@ -1,8 +1,8 @@
 # HTTP Cache Directives
 
-The following 14 HTTP cach directive definitions were found in 115 services (29 [W3C](../W3C/), 65 [RFC](../IETF/RFC/), 21 [I-D](../IETF/I-D)):
+The following 14 HTTP cach directive definitions were found in 117 services (29 [W3C](../W3C/), 67 [RFC](../IETF/RFC/), 21 [I-D](../IETF/I-D)):
 
-Relation | Description | Specification
+Directive | Description | Specification
 -------: | :---------- | :---
 `max-age` | "[The "max-age" request directive indicates that the client is unwilling to accept a response whose age is greater than the specified number of seconds. Unless the max-stale request directive is also present, the client is not willing to accept a stale response. The "max-age" response directive indicates that the response is to be considered stale after its age is greater than the specified number of seconds.](http://tools.ietf.org/html/rfc7234#section-5.2.1.1)" | [Hypertext Transfer Protocol (HTTP/1.1): Caching](http://tools.ietf.org/html/rfc7234 "The Hypertext Transfer Protocol (HTTP) is an application-level protocol for distributed, collaborative, hypertext information systems. This document defines requirements on HTTP caches and the associated header fields that control cache behavior or indicate cacheable response messages." )
 `max-stale` | "[The "max-stale" request directive indicates that the client is willing to accept a response that has exceeded its freshness lifetime. If max-stale is assigned a value, then the client is willing to accept a response that has exceeded its freshness lifetime by no more than the specified number of seconds. If no value is assigned to max-stale, then the client is willing to accept a stale response of any age.](http://tools.ietf.org/html/rfc7234#section-5.2.1.2)" | [Hypertext Transfer Protocol (HTTP/1.1): Caching](http://tools.ietf.org/html/rfc7234 "The Hypertext Transfer Protocol (HTTP) is an application-level protocol for distributed, collaborative, hypertext information systems. This document defines requirements on HTTP caches and the associated header fields that control cache behavior or indicate cacheable response messages." )
