@@ -1,6 +1,6 @@
-# HTTP Cache Directives
+# HTTP Status Codes
 
-The following 2 HTTP cach directive definitions were found in 117 services (29 [W3C](../W3C/), 67 [RFC](../IETF/RFC/), 21 [I-D](../IETF/I-D)):
+The following 2 HTTP status code definitions were found in 117 services (29 [W3C](../W3C/), 67 [RFC](../IETF/RFC/), 21 [I-D](../IETF/I-D)):
 
 Status Code | Description | Specification
 -------: | :---------- | :---

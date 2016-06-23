@@ -167,7 +167,7 @@
         <xsl:result-document href="../MD/cachedirs.md" format="md-text">
             <xsl:text># HTTP Cache Directives&#xa;&#xa;The following </xsl:text>
             <xsl:value-of select="count($allfiles//http-cache-directive[exists(@def)])"/>
-            <xsl:text> HTTP cach directive definitions were found in </xsl:text>
+            <xsl:text> HTTP cache directive definitions were found in </xsl:text>
             <xsl:value-of select="count($allfiles)"/>
             <xsl:text> services (</xsl:text>
             <xsl:value-of select="count($W3C)"/>
@@ -194,9 +194,9 @@
             </xsl:for-each>
         </xsl:result-document>
         <xsl:result-document href="../MD/statuscodes.md" format="md-text">
-            <xsl:text># HTTP Cache Directives&#xa;&#xa;The following </xsl:text>
+            <xsl:text># HTTP Status Codes&#xa;&#xa;The following </xsl:text>
             <xsl:value-of select="count($allfiles//http-status[exists(@def)])"/>
-            <xsl:text> HTTP cach directive definitions were found in </xsl:text>
+            <xsl:text> HTTP status code definitions were found in </xsl:text>
             <xsl:value-of select="count($allfiles)"/>
             <xsl:text> services (</xsl:text>
             <xsl:value-of select="count($W3C)"/>
