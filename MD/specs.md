@@ -1,6 +1,6 @@
 # Specifications
 
-Listing a total of 120 specifications, which can be broken down into 91 [IETF](http://www.ietf.org/ "Internet Engineering Taskforce") specifications and 29 [W3C](http://www.w3.org/ "World Wide Web Consortium") specifications.
+Listing a total of 121 specifications, which can be broken down into 92 [IETF](http://www.ietf.org/ "Internet Engineering Taskforce") specifications and 29 [W3C](http://www.w3.org/ "World Wide Web Consortium") specifications.
 
 ## IETF Specifications
 
@@ -9,6 +9,7 @@ This list is split into stable RFC specifications, and work-in-progress I-D draf
 ### IETF Request for Comments (RFC)
 
 * [A Media Type for XML Patch Operations (RFC 7351)](http://tools.ietf.org/html/rfc7351)
+* [Additional HTTP Status Codes (RFC 6585)](http://tools.ietf.org/html/rfc6585)
 * [Additional Link Relation Types (RFC 6903)](http://tools.ietf.org/html/rfc6903)
 * [An Extensible Markup Language (XML) Patch Operations Framework Utilizing XML Path Language (XPath) Selectors (RFC 5261)](http://tools.ietf.org/html/rfc5261)
 * [An HTTP Extension Framework (RFC 2774)](http://tools.ietf.org/html/rfc2774)

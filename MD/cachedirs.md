@@ -1,6 +1,6 @@
 # HTTP Cache Directives
 
-The following 14 HTTP cache directive definitions were found in 120 services (29 [W3C](../W3C/), 70 [RFC](../IETF/RFC/), 21 [I-D](../IETF/I-D)):
+The following 14 HTTP cache directive definitions were found in 121 services (29 [W3C](../W3C/), 71 [RFC](../IETF/RFC/), 21 [I-D](../IETF/I-D)):
 
 Directive | Description | Specification
 -------: | :---------- | :---
