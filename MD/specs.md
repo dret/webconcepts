@@ -1,6 +1,6 @@
 # Specifications
 
-Listing a total of 118 specifications, which can be broken down into 89 [IETF](http://www.ietf.org/ "Internet Engineering Taskforce") specifications and 29 [W3C](http://www.w3.org/ "World Wide Web Consortium") specifications.
+Listing a total of 119 specifications, which can be broken down into 90 [IETF](http://www.ietf.org/ "Internet Engineering Taskforce") specifications and 29 [W3C](http://www.w3.org/ "World Wide Web Consortium") specifications.
 
 ## IETF Specifications
 
@@ -65,6 +65,7 @@ This list is split into stable RFC specifications, and work-in-progress I-D draf
 * [The Safe Response Header Field (RFC 2310)](http://tools.ietf.org/html/rfc2310)
 * [The Secure HyperText Transfer Protocol (S-HTTP) (RFC 2660)](http://tools.ietf.org/html/rfc2660)
 * [The WebSocket Protocol (RFC 6455)](http://tools.ietf.org/html/rfc6455)
+* [The text/markdown Media Type (RFC 7763)](http://tools.ietf.org/html/rfc7763)
 * [Transparent Content Negotiation in HTTP (RFC 2295)](http://tools.ietf.org/html/rfc2295)
 * [Use of the Content-Disposition Header Field in the Hypertext Transfer Protocol (HTTP) (RFC 6266)](http://tools.ietf.org/html/rfc6266)
 * [Versioning Extensions to WebDAV (Web Distributed Authoring and Versioning) (RFC 3253)](http://tools.ietf.org/html/rfc3253)

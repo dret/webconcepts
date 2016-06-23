@@ -1,6 +1,6 @@
 # HTTP Status Codes
 
-The following 3 HTTP status code definitions were found in 118 services (29 [W3C](../W3C/), 68 [RFC](../IETF/RFC/), 21 [I-D](../IETF/I-D)):
+The following 3 HTTP status code definitions were found in 119 services (29 [W3C](../W3C/), 69 [RFC](../IETF/RFC/), 21 [I-D](../IETF/I-D)):
 
 Status Code | Description | Specification
 -------: | :---------- | :---
