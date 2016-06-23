@@ -1,6 +1,6 @@
 # Specifications
 
-Listing a total of 117 specifications, which can be broken down into 88 [IETF](http://www.ietf.org/ "Internet Engineering Taskforce") specifications and 29 [W3C](http://www.w3.org/ "World Wide Web Consortium") specifications.
+Listing a total of 118 specifications, which can be broken down into 89 [IETF](http://www.ietf.org/ "Internet Engineering Taskforce") specifications and 29 [W3C](http://www.w3.org/ "World Wide Web Consortium") specifications.
 
 ## IETF Specifications
 
@@ -59,6 +59,7 @@ This list is split into stable RFC specifications, and work-in-progress I-D draf
 * [The Canonical Link Relation (RFC 6596)](http://tools.ietf.org/html/rfc6596)
 * [The Hyper Text Coffee Pot Control Protocol for Tea Efflux Appliances (HTCPCP-TEA) (RFC 7168)](http://tools.ietf.org/html/rfc7168)
 * [The Hypertext Transfer Protocol (HTTP) Authentication-Info and Proxy-Authentication-Info Response Header Fields (RFC 7615)](http://tools.ietf.org/html/rfc7615)
+* [The Hypertext Transfer Protocol Status Code 308 (Permanent Redirect) (RFC 7538)](http://tools.ietf.org/html/rfc7538)
 * [The Item and Collection Link Relations (RFC 6573)](http://tools.ietf.org/html/rfc6573)
 * [The OAuth 1.0 Protocol (RFC 5849)](http://tools.ietf.org/html/rfc5849)
 * [The Safe Response Header Field (RFC 2310)](http://tools.ietf.org/html/rfc2310)
