@@ -20,4 +20,7 @@
     <http-header def="C-Ext">
         <documentation source="http://tools.ietf.org/html/rfc2774#section-4.3">The C-Ext response header field is used to indicate that all hop-by-hop mandatory extension declarations in the request were fulfilled.</documentation>
     </http-header>
+    <http-status def="510" desc="Not Extended">
+        <documentation source="http://tools.ietf.org/html/rfc2774#section-7">The policy for accessing the resource has not been met in the request. The server should send back all the information necessary for the client to issue an extended request. It is outside the scope of this specification to specify how the extensions inform the client.</documentation>
+    </http-status>
 </service>
