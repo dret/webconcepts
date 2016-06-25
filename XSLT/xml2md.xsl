@@ -201,36 +201,43 @@
                 <xsl:text>" )&#xa;</xsl:text>
             </xsl:for-each>
         </xsl:result-document>
-        <xsl:result-document href="../MD/statuscodes.md" format="md-text">
-            <xsl:text># HTTP Status Codes&#xa;&#xa;The following </xsl:text>
-            <xsl:value-of select="count($allfiles//sedola:http-status[exists(@def)])"/>
-            <xsl:text> HTTP status code definitions were found in </xsl:text>
-            <xsl:value-of select="count($allfiles)"/>
-            <xsl:text> services (</xsl:text>
-            <xsl:value-of select="count($W3C)"/>
-            <xsl:text> [W3C](../W3C/), </xsl:text>
-            <xsl:value-of select="count($RFC)"/>
-            <xsl:text> [RFC](../IETF/RFC/), </xsl:text>
-            <xsl:value-of select="count($I-D)"/>
-            <xsl:text> [I-D](../IETF/I-D)):&#xa;&#xa;Status Code | Description | Specification&#xa;-------: | :---------- | :---&#xa;</xsl:text>
-            <xsl:for-each select="$allfiles//sedola:http-status[exists(@def)]">
-                <xsl:sort select="@def"/>
-                <xsl:text>`</xsl:text>
-                <xsl:value-of select="@def"/>
-                <xsl:text>: </xsl:text>
-                <xsl:value-of select="@desc"/>
-                <xsl:text>` | "[</xsl:text>
-                <xsl:value-of select="sedola:documentation/text()"/>
-                <xsl:text>](</xsl:text>
-                <xsl:value-of select="sedola:documentation/@source"/>
-                <xsl:text>)" | [</xsl:text>
-                <xsl:value-of select="../sedola:title/text()"/>
-                <xsl:text>](</xsl:text>
-                <xsl:value-of select="../sedola:documentation/@source"/>
-                <xsl:text> "</xsl:text>
-                <xsl:value-of select="replace(../sedola:documentation/text(), '&quot;', '&#x201d;')"/>
-                <xsl:text>" )&#xa;</xsl:text>
-            </xsl:for-each>
-        </xsl:result-document>
+        <xsl:for-each select="$concepts/concepts/concept">
+            <xsl:variable name="concept" select="."/>
+            <xsl:result-document href="../MD/{$concept/filename/text()}.md" format="md-text">
+                <xsl:text># </xsl:text>
+                <xsl:value-of select="$concept/title-plural/text()"/>
+                <xsl:text>&#xa;&#xa;The following </xsl:text>
+                <xsl:value-of select="concat(count($allfiles//sedola:*[local-name() eq $concept/element-name/text()][exists(@def)]), ' ', $concept/title-singular/text())"/>
+                <xsl:text> definitions were found in </xsl:text>
+                <xsl:value-of select="count($allfiles)"/>
+                <xsl:text> services (</xsl:text>
+                <xsl:value-of select="count($W3C)"/>
+                <xsl:text> [W3C](../W3C/), </xsl:text>
+                <xsl:value-of select="count($RFC)"/>
+                <xsl:text> [RFC](../IETF/RFC/), </xsl:text>
+                <xsl:value-of select="count($I-D)"/>
+                <xsl:text> [I-D](../IETF/I-D)):&#xa;&#xa;</xsl:text>
+                <xsl:value-of select="$concept/title-singular/text()"/>
+                <xsl:text> | Description | Specification&#xa;-------: | :---------- | :---&#xa;</xsl:text>
+                <xsl:for-each select="$allfiles//*[local-name() eq $concept/element-name/text()][exists(@def)]">
+                    <xsl:sort select="@def"/>
+                    <xsl:text>`</xsl:text>
+                    <xsl:value-of select="@def"/>
+                    <xsl:text>: </xsl:text>
+                    <xsl:value-of select="@desc"/>
+                    <xsl:text>` | "[</xsl:text>
+                    <xsl:value-of select="sedola:documentation/text()"/>
+                    <xsl:text>](</xsl:text>
+                    <xsl:value-of select="sedola:documentation/@source"/>
+                    <xsl:text>)" | [</xsl:text>
+                    <xsl:value-of select="../sedola:title/text()"/>
+                    <xsl:text>](</xsl:text>
+                    <xsl:value-of select="../sedola:documentation/@source"/>
+                    <xsl:text> "</xsl:text>
+                    <xsl:value-of select="replace(../sedola:documentation/text(), '&quot;', '&#x201d;')"/>
+                    <xsl:text>" )&#xa;</xsl:text>
+                </xsl:for-each>
+            </xsl:result-document>
+        </xsl:for-each>
     </xsl:template>
 </xsl:stylesheet>
