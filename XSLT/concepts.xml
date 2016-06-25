@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <concepts file-extension="md">
     <concept>
+        <title-singular>HTTP Header Field</title-singular>
+        <title-plural>HTTP Header Fields</title-plural>
+        <filename>headers</filename>
+        <element-name>http-header</element-name>
+    </concept>
+    <concept>
         <title-singular>HTTP Status Code</title-singular>
         <title-plural>HTTP Status Codes</title-plural>
         <filename>statuscodes</filename>
