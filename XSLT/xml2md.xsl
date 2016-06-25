@@ -145,6 +145,11 @@
         </xsl:result-document>
         <xsl:for-each select="$concepts/concepts/concept">
             <xsl:variable name="concept" select="."/>
+            <xsl:for-each select="distinct-values($allfiles//sedola:*[local-name() eq $concept/element-name/text()]/@def)">
+                <xsl:if test="count($allfiles//sedola:*[local-name() eq $concept/element-name/text()][@def eq current()]) gt 1">
+                    <xsl:message select="concat($concept/title-singular, ' &quot;', . ,'&quot; defined more than once.')"/>
+                </xsl:if>
+            </xsl:for-each>
             <xsl:result-document href="../MD/{$concept/filename/text()}.md" format="md-text">
                 <xsl:text># </xsl:text>
                 <xsl:value-of select="$concept/title-plural/text()"/>
