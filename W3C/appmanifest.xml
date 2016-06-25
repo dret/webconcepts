@@ -5,12 +5,12 @@
     <link-relation def="manifest">
         <documentation source="http://www.w3.org/TR/appmanifest/#linking">Imports or links to a manifest.</documentation>
     </link-relation>
-    <mediatype def="application/manifest+json">
+    <media-type def="application/manifest+json">
         <documentation source="http://www.w3.org/TR/appmanifest/#manifest-and-its-members">A manifest is a JSON document that contains startup parameters and application defaults for when a web application is launched. A manifest consists of a top-level object that contains zero or more members.</documentation>
         <document xml:id="web-app-manifest" vocabularies="web-app-manifest-json-schema">
             <title>Web Application Manifest</title>
         </document>
-    </mediatype>
+    </media-type>
     <vocabulary xml:id="web-app-manifest-json-schema">
         <title>Web Application Manifest JSON Schema</title>
         <documentation source="http://www.w3.org/TR/appmanifest/#json-schema">Developers interested in validating manifest documents can find an unofficial JSON schema for the manifest format at schemastore.org. It is licensed under Apache 2.0. It is kindly maintained by Mads Kristensen. If you find any issues with the JSON schema, please file a bug at the SchemaStore repository on GitHub. </documentation>

@@ -3,12 +3,12 @@
     <title>WebFinger</title>
     <documentation source="http://tools.ietf.org/html/rfc7033">This specification defines the WebFinger protocol, which can be used to discover information about people or other entities on the Internet using standard HTTP methods. WebFinger discovers information for a URI that might not be usable as a locator otherwise, such as account or email URIs.</documentation>
     <import href="../../W3C/cors.xml"/>
-    <mediatype def="application/jrd+json">
+    <media-type def="application/jrd+json">
         <document xml:id="webfinger-mediatype-jrd" vocabularies="webfinger-vocabulary-jrd">
             <title short="JRD">JSON Resource Descriptor</title>
             <documentation source="http://tools.ietf.org/html/rfc7033#section-10.2">The WebFinger resource returns a JSON Resource Descriptor (JRD) as the resource representation to convey information about an entity on the Internet.</documentation>
         </document>
-    </mediatype>
+    </media-type>
     <vocabulary xml:id="webfinger-vocabulary-jrd">
         <title>The JSON Resource Descriptor Vocabulary</title>
         <documentation source="http://tools.ietf.org/html/rfc7033#section-4.4">The JSON Resource Descriptor (JRD), originally introduced in RFC 6415 and based on the Extensible Resource Descriptor (XRD) format, is a JSON object that comprises the following name/value pairs: subject, aliases, properties, links. The member "subject" is a name/value pair whose value is a string, "aliases" is an array of strings, "properties" is an object comprising name/value pairs whose values are strings, and "links" is an array of objects that contain link relation information.</documentation>

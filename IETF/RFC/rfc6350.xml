@@ -2,12 +2,12 @@
 <service id="urn:ietf:rfc:6350" xmlns="http://github.com/dret/sedola">
     <title>vCard Format Specification</title>
     <documentation source="http://tools.ietf.org/html/rfc6350">This document defines the vCard data format for representing and exchanging a variety of information about individuals and other entities (e.g., formatted and structured name and delivery addresses, email address, multiple telephone numbers, photograph, logo, audio clips, etc.). This document obsoletes RFCs 2425, 2426, and 4770, and updates RFC 2739.</documentation>
-    <mediatype def="text/vcard">
+    <media-type def="text/vcard">
         <document xml:id="vcard-mediatype-vcard" vocabularies="vcard-vocabulary">
             <title>vCard</title>
             <documentation source="http://tools.ietf.org/html/rfc6350#section-10.1"/>
         </document>
-    </mediatype>
+    </media-type>
     <vocabulary xml:id="vcard-vocabulary">
         <documentation source="http://tools.ietf.org/html/rfc6350#section-3">The text/vcard MIME content type contains contact information, typically pertaining to a single contact or group of contacts.</documentation>
     </vocabulary>

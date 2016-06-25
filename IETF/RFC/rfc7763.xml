@@ -2,7 +2,7 @@
 <service id="urn:ietf:rfc:7763" xmlns="http://github.com/dret/sedola">
     <title>The text/markdown Media Type</title>
     <documentation source="http://tools.ietf.org/html/rfc7763">This document registers the text/markdown media type for use with Markdown, a family of plain-text formatting syntaxes that optionally can be converted to formal markup languages such as HTML.</documentation>
-    <mediatype def="text/markdown">
+    <media-type def="text/markdown">
         <documentation source="http://tools.ietf.org/html/rfc7763">This document registers the text/markdown media type for use with Markdown, a family of plain-text formatting syntaxes that optionally can be converted to formal markup languages such as HTML.</documentation>
-    </mediatype>
+    </media-type>
 </service>

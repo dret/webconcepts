@@ -2,12 +2,12 @@
 <service id="urn:ietf:id:nottingham-json-home" xmlns="http://github.com/dret/sedola">
     <title>Home Documents for HTTP APIs</title>
     <documentation source="http://tools.ietf.org/html/draft-nottingham-json-home">This document proposes a "home document" format for non-browser HTTP clients.</documentation>
-    <mediatype def="application/home+json">
+    <media-type def="application/home+json">
         <document xml:id="home-document-document-json">
             <title>Home Documents (JSON)</title>
             <documentation source="http://tools.ietf.org/html/draft-nottingham-json-home">This document proposes a "home document" format for non-browser HTTP clients.</documentation>
         </document>
-    </mediatype>
+    </media-type>
     <vocabulary xml:id="home-document-json-vocabulary">
         <title>The Home Document JSON Vocabulary</title>
         <documentation source="http://tools.ietf.org/html/draft-nottingham-json-home-03#section-2">A JSON Home Document uses the format described in RFC 4627 and has the media type "application/json-home". Its content consists of a root object with a "resources" property, whose member names are link relation types (as defined by RFC 5988), and values are Resource Objects, defined below.</documentation>

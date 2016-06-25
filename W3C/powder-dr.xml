@@ -2,12 +2,12 @@
 <service id="http://www.w3.org/TR/powder-dr" xmlns="http://github.com/dret/sedola">
     <title short="POWDER-DR">Protocol for Web Description Resources (POWDER): Description Resources</title>
     <documentation source="http://www.w3.org/TR/powder-dr/">The purpose of the Protocol for Web Description Resources (POWDER) is to provide a means for individuals or organizations to describe a group of resources through the publication of machine-readable metadata, as motivated by the POWDER Use Cases. This document details the creation and lifecycle of Description Resources (DRs), which encapsulate such metadata. These are typically represented in a highly constrained XML dialect that is relatively human-readable. The meaning of such DRs are underpinned by formal semantics, accessible by performing a GRDDL Transform.</documentation>
-    <mediatype def="application/powder+xml">
+    <media-type def="application/powder+xml">
         <documentation source="http://www.w3.org/TR/powder-dr/#assoc-linking"></documentation>
-    </mediatype>
-    <mediatype def="application/powder-s+xml">
+    </media-type>
+    <media-type def="application/powder-s+xml">
         <documentation source="http://www.w3.org/TR/powder-dr/#assoc-linking"></documentation>
-    </mediatype>
+    </media-type>
     <vocabulary def="http://www.w3.org/2007/05/powder#" type="xmlns">
         <title>POWDER XML Elements</title>
         <documentation source="http://www.w3.org/TR/powder-dr/#xmlElements"></documentation>

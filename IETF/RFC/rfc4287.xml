@@ -2,7 +2,7 @@
 <service id="urn:ietf:rfc:4287" xmlns="http://github.com/dret/sedola">
     <title short="Atom">Atom Syndication Format</title>
     <documentation source="http://tools.ietf.org/html/rfc4287">Atom is an XML-based document format that describes lists of related information known as "feeds". Feeds are composed of a number of items, known as "entries", each with an extensible set of attached metadata. For example, each entry has a title.</documentation>
-    <mediatype def="application/atom+xml">
+    <media-type def="application/atom+xml">
         <documentation source="http://tools.ietf.org/html/rfc4287#section-2">This specification describes two kinds of Atom Documents: Atom Feed Documents and Atom Entry Documents. Both kinds of Atom Documents are specified in terms of the XML Information Set, serialized as XML 1.0 and identified with the "application/atom+xml" media type. Atom Documents MUST be well-formed XML.</documentation>
         <document xml:id="atom-document-feed" vocabularies="atom-vocabulary">
             <title>Atom Feed Document</title>
@@ -44,7 +44,7 @@
             <title>atom:logo</title>
             <documentation source="http://tools.ietf.org/html/rfc4287#section-4.2.8">The "atom:logo" element's content is an IRI reference that identifies an image that provides visual identification for a feed.</documentation>
         </link-relation>
-    </mediatype>
+    </media-type>
     <link-relation def="alternate">
         <documentation source="http://tools.ietf.org/html/rfc4287#section-4.2.7.2">The value "alternate" signifies that the IRI in the value of the href attribute identifies an alternate version of the resource described by the containing element.</documentation>
     </link-relation>

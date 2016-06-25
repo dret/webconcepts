@@ -29,7 +29,7 @@
                     </xs:complexType>
                 </xs:element>
                 <xs:choice minOccurs="0" maxOccurs="unbounded">
-                    <xs:element name="mediatype">
+                    <xs:element name="media-type">
                         <xs:complexType>
                             <xs:sequence>
                                 <xs:group ref="sedola:descriptions" minOccurs="0"

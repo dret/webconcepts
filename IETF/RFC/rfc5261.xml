@@ -2,13 +2,13 @@
 <service id="urn:ietf:rfc:5261" xmlns="http://github.com/dret/sedola">
     <title>An Extensible Markup Language (XML) Patch Operations Framework Utilizing XML Path Language (XPath) Selectors</title>
     <documentation source="http://tools.ietf.org/html/rfc5261">Extensible Markup Language (XML) documents are widely used as containers for the exchange and storage of arbitrary data in today's systems. In order to send changes to an XML document, an entire copy of the new version must be sent, unless there is a means of indicating only the portions that have changed. This document describes an XML patch framework utilizing XML Path language (XPath) selectors. These selector values and updated new data content constitute the basis of patch operations described in this document. In addition to them, with basic &lt;add>, &lt;replace>, and &lt;remove> directives a set of patches can then be applied to update an existing XML document.</documentation>
-    <mediatype def="application/patch-ops-error+xml">
+    <media-type def="application/patch-ops-error+xml">
         <documentation source="http://tools.ietf.org/html/rfc5261#section-5">A new MIME error format is defined for applications that require deterministic error handling when patching cannot be applied. It is anticipated that these error elements can be used within other MIME types that allow extension elements.</documentation>
         <document xml:id="rfc5261-error-document">
             <title>Error Document</title>
             <documentation source="http://tools.ietf.org/html/rfc5261#section-5.1">The root element of the error document is &lt;patch-ops-error>. The content of this element is a specific error condition.  Each error condition is represented by a different element. This allows for different error conditions to provide different data about the nature of the error.</documentation>
         </document>
-    </mediatype>
+    </media-type>
     <vocabulary def="urn:ietf:params:xml:schema:patch-ops" type="xmlns">
         <title>Patch-Ops-Types XML Schema</title>
         <documentation source="http://tools.ietf.org/html/rfc5261#section-8">The schema types for the patch operation elements.</documentation>

@@ -2,12 +2,12 @@
 <service id="urn:ietf:id:hoffman-xml2rfc" xmlns="http://github.com/dret/sedola">
     <title>The 'XML2RFC' version 3 Vocabulary</title>
     <documentation source="http://tools.ietf.org/html/draft-hoffman-xml2rfc"> This document defines the "XML2RFC" version 3 vocabulary; an XML-based language used for writing RFCs and Internet-Drafts. It is heavily derived from the version 2 vocabulary that is also under discussion. This document obsoletes the v2 grammar described in RFC 2629 and its expected followup, draft-reschke-xml2rfc.</documentation>
-    <mediatype def="application/rfc+xml">
+    <media-type def="application/rfc+xml">
         <document xml:id="xml2rfc-document-xml">
             <title>XML2RFC Document</title>
             <documentation source="https://tools.ietf.org/html/draft-hoffman-xml2rfc-15#section-6.1">This document updates the specification for the Internet media type "application/rfc+xml" from the one in I-D draft-reschke-xml2rfc.  The following is to be registered with IANA.</documentation>
         </document>
-    </mediatype>
+    </media-type>
     <link-relation def="derivedfrom">
         <documentation source="https://tools.ietf.org/html/draft-hoffman-xml2rfc-15#section-6.2">The document linked to was later converted to the document that contains this link relation. For example, an RFC can have a link to the Internet Draft that became the RFC; in that case, the link relation would be "derivedfrom".</documentation>
     </link-relation>

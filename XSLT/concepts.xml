@@ -32,7 +32,7 @@
         <title-singular>Media Type</title-singular>
         <title-plural>Media Types</title-plural>
         <filename>mediatypes</filename>
-        <element-name>mediatype</element-name>
+        <element-name>media-type</element-name>
         <iana-registry>http://www.iana.org/assignments/media-types/media-types.xhtml</iana-registry>
     </concept>
 </concepts>
