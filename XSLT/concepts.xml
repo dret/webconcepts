@@ -12,4 +12,10 @@
         <filename>cachedirs</filename>
         <element-name>http-cache-directive</element-name>
     </concept>
+    <concept>
+        <title-singular>Link Relation</title-singular>
+        <title-plural>Link Relations</title-plural>
+        <filename>linkrels</filename>
+        <element-name>link-relation</element-name>
+    </concept>
 </concepts>

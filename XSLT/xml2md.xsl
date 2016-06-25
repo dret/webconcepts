@@ -143,35 +143,6 @@
                 <xsl:text>" )&#xa;</xsl:text>
             </xsl:for-each>
         </xsl:result-document>
-        <xsl:result-document href="../MD/linkrels.md" format="md-text">
-            <xsl:text># Link Relations&#xa;&#xa;The following </xsl:text>
-            <xsl:value-of select="count($allfiles//sedola:link-relation[exists(@def)])"/>
-            <xsl:text> link relation definitions were found in </xsl:text>
-            <xsl:value-of select="count($allfiles)"/>
-            <xsl:text> services (</xsl:text>
-            <xsl:value-of select="count($W3C)"/>
-            <xsl:text> [W3C](../W3C/), </xsl:text>
-            <xsl:value-of select="count($RFC)"/>
-            <xsl:text> [RFC](../IETF/RFC/), </xsl:text>
-            <xsl:value-of select="count($I-D)"/>
-            <xsl:text> [I-D](../IETF/I-D)):&#xa;&#xa;Relation | Description | Specification&#xa;-------: | :---------- | :---&#xa;</xsl:text>
-            <xsl:for-each select="$allfiles//sedola:link-relation[exists(@def)]">
-                <xsl:sort select="@def"/>
-                <xsl:text>`</xsl:text>
-                <xsl:value-of select="@def"/>
-                <xsl:text>` | "[</xsl:text>
-                <xsl:value-of select="sedola:documentation/text()"/>
-                <xsl:text>](</xsl:text>
-                <xsl:value-of select="sedola:documentation/@source"/>
-                <xsl:text>)" | [</xsl:text>
-                <xsl:value-of select="../sedola:title/text()"/>
-                <xsl:text>](</xsl:text>
-                <xsl:value-of select="../sedola:documentation/@source"/>
-                <xsl:text> "</xsl:text>
-                <xsl:value-of select="replace(../sedola:documentation/text(), '&quot;', '&#x201d;')"/>
-                <xsl:text>" )&#xa;</xsl:text>
-            </xsl:for-each>
-        </xsl:result-document>
         <xsl:for-each select="$concepts/concepts/concept">
             <xsl:variable name="concept" select="."/>
             <xsl:result-document href="../MD/{$concept/filename/text()}.md" format="md-text">

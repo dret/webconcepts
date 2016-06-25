@@ -1,8 +1,8 @@
 # Link Relations
 
-The following 84 link relation definitions were found in 121 services (29 [W3C](../W3C/), 71 [RFC](../IETF/RFC/), 21 [I-D](../IETF/I-D)):
+The following 84 Link Relation definitions were found in 121 services (29 [W3C](../W3C/), 71 [RFC](../IETF/RFC/), 21 [I-D](../IETF/I-D)):
 
-Relation | Description | Specification
+Link Relation | Description | Specification
 -------: | :---------- | :---
 `about` | "[The "about" link relation can be used to refer to a resource that is the subject or topic of the link's context. Multiple subjects can be indicated through the use of multiple "about" link relations.](http://tools.ietf.org/html/rfc6903#section-2)" | [Additional Link Relation Types](http://tools.ietf.org/html/rfc6903 "This specification defines a number of additional link relation types that can used for a range of purposes in a variety of applications types." )
 `alternate` | "[The value "alternate" signifies that the IRI in the value of the href attribute identifies an alternate version of the resource described by the containing element.](http://tools.ietf.org/html/rfc4287#section-4.2.7.2)" | [Atom Syndication Format](http://tools.ietf.org/html/rfc4287 "Atom is an XML-based document format that describes lists of related information known as ”feeds”. Feeds are composed of a number of items, known as ”entries”, each with an extensible set of attached metadata. For example, each entry has a title." )
