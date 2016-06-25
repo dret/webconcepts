@@ -178,7 +178,24 @@
                     <xsl:value-of select="sedola:documentation/text()"/>
                     <xsl:text>](</xsl:text>
                     <xsl:value-of select="sedola:documentation/@source"/>
-                    <xsl:text>)" | [</xsl:text>
+                    <xsl:text>)" | [**</xsl:text>
+                    <xsl:choose>
+                        <xsl:when test="starts-with(../sedola:documentation/@source, 'http://tools.ietf.org/html/rfc')">
+                            <xsl:text>RFC </xsl:text>
+                            <xsl:value-of select="substring-after(../sedola:documentation/@source, 'http://tools.ietf.org/html/rfc')"/>
+                        </xsl:when>
+                        <xsl:when test="starts-with(../sedola:documentation/@source, 'http://tools.ietf.org/html/draft')">
+                            <xsl:value-of select="substring-after(../sedola:documentation/@source, 'http://tools.ietf.org/html/')"/>
+                        </xsl:when>
+                        <xsl:when test="starts-with(../sedola:documentation/@source, 'http://www.w3.org/TR/')">
+                            <xsl:text>W3C TR </xsl:text>
+                            <xsl:value-of select="if ( ends-with(../sedola:documentation/@source, '/') ) then substring-before(substring-after(../sedola:documentation/@source, 'http://www.w3.org/TR/'), '/') else substring-after(../sedola:documentation/@source, 'http://www.w3.org/TR/')"/>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:text>??????</xsl:text>
+                        </xsl:otherwise>
+                    </xsl:choose>
+                    <xsl:text>**: </xsl:text>
                     <xsl:value-of select="../sedola:title/text()"/>
                     <xsl:text>](</xsl:text>
                     <xsl:value-of select="../sedola:documentation/@source"/>
