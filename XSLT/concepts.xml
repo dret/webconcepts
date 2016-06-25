@@ -6,4 +6,10 @@
         <filename>statuscodes</filename>
         <element-name>http-status</element-name>
     </concept>
+    <concept>
+        <title-singular>HTTP Cache Directive</title-singular>
+        <title-plural>HTTP Cache Directives</title-plural>
+        <filename>cachedirs</filename>
+        <element-name>http-cache-directive</element-name>
+    </concept>
 </concepts>

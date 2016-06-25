@@ -172,35 +172,6 @@
                 <xsl:text>" )&#xa;</xsl:text>
             </xsl:for-each>
         </xsl:result-document>
-        <xsl:result-document href="../MD/cachedirs.md" format="md-text">
-            <xsl:text># HTTP Cache Directives&#xa;&#xa;The following </xsl:text>
-            <xsl:value-of select="count($allfiles//sedola:http-cache-directive[exists(@def)])"/>
-            <xsl:text> HTTP cache directive definitions were found in </xsl:text>
-            <xsl:value-of select="count($allfiles)"/>
-            <xsl:text> services (</xsl:text>
-            <xsl:value-of select="count($W3C)"/>
-            <xsl:text> [W3C](../W3C/), </xsl:text>
-            <xsl:value-of select="count($RFC)"/>
-            <xsl:text> [RFC](../IETF/RFC/), </xsl:text>
-            <xsl:value-of select="count($I-D)"/>
-            <xsl:text> [I-D](../IETF/I-D)):&#xa;&#xa;Directive | Description | Specification&#xa;-------: | :---------- | :---&#xa;</xsl:text>
-            <xsl:for-each select="$allfiles//sedola:http-cache-directive[exists(@def)]">
-                <xsl:sort select="@def"/>
-                <xsl:text>`</xsl:text>
-                <xsl:value-of select="@def"/>
-                <xsl:text>` | "[</xsl:text>
-                <xsl:value-of select="sedola:documentation/text()"/>
-                <xsl:text>](</xsl:text>
-                <xsl:value-of select="sedola:documentation/@source"/>
-                <xsl:text>)" | [</xsl:text>
-                <xsl:value-of select="../sedola:title/text()"/>
-                <xsl:text>](</xsl:text>
-                <xsl:value-of select="../sedola:documentation/@source"/>
-                <xsl:text> "</xsl:text>
-                <xsl:value-of select="replace(../sedola:documentation/text(), '&quot;', '&#x201d;')"/>
-                <xsl:text>" )&#xa;</xsl:text>
-            </xsl:for-each>
-        </xsl:result-document>
         <xsl:for-each select="$concepts/concepts/concept">
             <xsl:variable name="concept" select="."/>
             <xsl:result-document href="../MD/{$concept/filename/text()}.md" format="md-text">
@@ -223,8 +194,10 @@
                     <xsl:sort select="@def"/>
                     <xsl:text>`</xsl:text>
                     <xsl:value-of select="@def"/>
-                    <xsl:text>: </xsl:text>
-                    <xsl:value-of select="@desc"/>
+                    <xsl:if test="exists(@desc)">
+                        <xsl:text>: </xsl:text>
+                        <xsl:value-of select="@desc"/>
+                    </xsl:if>
                     <xsl:text>` | "[</xsl:text>
                     <xsl:value-of select="sedola:documentation/text()"/>
                     <xsl:text>](</xsl:text>
