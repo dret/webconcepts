@@ -174,7 +174,16 @@
                         <xsl:text>: </xsl:text>
                         <xsl:value-of select="@desc"/>
                     </xsl:if>
-                    <xsl:text>` | "[</xsl:text>
+                    <xsl:text>`</xsl:text>
+                    <xsl:variable name="number-of-defs" select="count($allfiles//*[local-name() eq $concept/element-name/text()][@def eq current()/@def])"/>
+                    <xsl:if test="$number-of-defs gt 1">
+                        <xsl:text>&lt;sub></xsl:text>
+                        <xsl:text>(</xsl:text>
+                        <xsl:value-of select="$number-of-defs"/>
+                        <xsl:text> definitions)</xsl:text>
+                        <xsl:text>&lt;/sub></xsl:text>
+                    </xsl:if>
+                    <xsl:text> | "[</xsl:text>
                     <xsl:value-of select="sedola:documentation/text()"/>
                     <xsl:text>](</xsl:text>
                     <xsl:value-of select="sedola:documentation/@source"/>
