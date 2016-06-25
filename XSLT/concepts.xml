@@ -28,4 +28,11 @@
         <element-name>link-relation</element-name>
         <iana-registry>http://www.iana.org/assignments/link-relations/link-relations.xhtml</iana-registry>
     </concept>
+    <concept>
+        <title-singular>Media Type</title-singular>
+        <title-plural>Media Types</title-plural>
+        <filename>mediatypes</filename>
+        <element-name>mediatype</element-name>
+        <iana-registry>http://www.iana.org/assignments/media-types/media-types.xhtml</iana-registry>
+    </concept>
 </concepts>

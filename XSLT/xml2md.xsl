@@ -57,37 +57,6 @@
                 <xsl:text>)&#xa;</xsl:text>
             </xsl:for-each>
         </xsl:result-document>
-        <xsl:result-document href="../MD/mediatypes.md" format="md-text">
-            <xsl:text># Media Types&#xa;&#xa;The following </xsl:text>
-            <xsl:value-of select="count($allfiles//sedola:mediatype[exists(@def)])"/>
-            <xsl:text> media type definitions were found in </xsl:text>
-            <xsl:value-of select="count($allfiles)"/>
-            <xsl:text> services (</xsl:text>
-            <xsl:value-of select="count($W3C)"/>
-            <xsl:text> [W3C](../W3C/), </xsl:text>
-            <xsl:value-of select="count($RFC)"/>
-            <xsl:text> [RFC](../IETF/RFC/), </xsl:text>
-            <xsl:value-of select="count($I-D)"/>
-            <xsl:text> [I-D](../IETF/I-D)):&#xa;&#xa;</xsl:text>
-            <xsl:for-each select="$allfiles//sedola:mediatype[exists(@def)]">
-                <xsl:sort select="@def"/>
-                <xsl:text>* </xsl:text>
-                <xsl:value-of select="@def"/>
-                <!--
-                <xsl:text>](</xsl:text>
-                <xsl:value-of select="documentation/@source"/>
-                <xsl:text> "</xsl:text>
-                <xsl:value-of select="replace(documentation/text(), '&quot;', '&#x201d;')"/>
--->
-                <xsl:text> : [</xsl:text>
-                <xsl:value-of select="../sedola:title/text()"/>
-                <xsl:text>](</xsl:text>
-                <xsl:value-of select="../sedola:documentation/@source"/>
-                <xsl:text> "</xsl:text>
-                <xsl:value-of select="replace(../sedola:documentation/text(), '&quot;', '&#x201d;')"/>
-                <xsl:text>" )&#xa;</xsl:text>
-            </xsl:for-each>
-        </xsl:result-document>
         <xsl:for-each select="$concepts/concepts/concept">
             <xsl:variable name="concept" select="."/>
             <xsl:for-each select="distinct-values($allfiles//sedola:*[local-name() eq $concept/element-name/text()]/@def)">
