@@ -1,6 +1,6 @@
 # HTTP Cache Directives
 
-The following 14 HTTP Cache Directive definitions were found in 121 services (29 [W3C](../W3C/), 71 [RFC](../IETF/RFC/), 21 [I-D](../IETF/I-D)):
+The following 14 HTTP Cache Directive definitions were found in 121 services (29 [W3C](../W3C/), 71 [RFC](../IETF/RFC/), 21 [I-D](../IETF/I-D)). Please be advised that the table shown here is maintained and compiled from [Sedola](https://github.com/dret/sedola) sources. The [official HTTP Cache Directive registry](http://www.iana.org/assignments/http-cache-directives/http-cache-directives.xhtml) is maintained by the [*Internet Assigned Numbers Authority (IANA)*](http://www.iana.org/).
 
 HTTP Cache Directive | Description | Specification
 -------: | :---------- | :---

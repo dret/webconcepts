@@ -5,23 +5,27 @@
         <title-plural>HTTP Header Fields</title-plural>
         <filename>headers</filename>
         <element-name>http-header</element-name>
+        <iana-registry>http://www.iana.org/assignments/message-headers/message-headers.xhtml</iana-registry>
     </concept>
     <concept>
         <title-singular>HTTP Status Code</title-singular>
         <title-plural>HTTP Status Codes</title-plural>
         <filename>statuscodes</filename>
         <element-name>http-status</element-name>
+        <iana-registry>http://www.iana.org/assignments/http-status-codes/http-status-codes.xhtml</iana-registry>
     </concept>
     <concept>
         <title-singular>HTTP Cache Directive</title-singular>
         <title-plural>HTTP Cache Directives</title-plural>
         <filename>cachedirs</filename>
         <element-name>http-cache-directive</element-name>
+        <iana-registry>http://www.iana.org/assignments/http-cache-directives/http-cache-directives.xhtml</iana-registry>
     </concept>
     <concept>
         <title-singular>Link Relation</title-singular>
         <title-plural>Link Relations</title-plural>
         <filename>linkrels</filename>
         <element-name>link-relation</element-name>
+        <iana-registry>http://www.iana.org/assignments/link-relations/link-relations.xhtml</iana-registry>
     </concept>
 </concepts>

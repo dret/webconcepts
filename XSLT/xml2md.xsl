@@ -108,7 +108,11 @@
                 <xsl:value-of select="count($RFC)"/>
                 <xsl:text> [RFC](../IETF/RFC/), </xsl:text>
                 <xsl:value-of select="count($I-D)"/>
-                <xsl:text> [I-D](../IETF/I-D)):&#xa;&#xa;</xsl:text>
+                <xsl:text> [I-D](../IETF/I-D)). Please be advised that the table shown here is maintained and compiled from [Sedola](https://github.com/dret/sedola) sources. The [official </xsl:text>
+                <xsl:value-of select="$concept/title-singular/text()"/>
+                <xsl:text> registry](</xsl:text>
+                <xsl:value-of select="$concept/iana-registry/text()"/>
+                <xsl:text>) is maintained by the [*Internet Assigned Numbers Authority (IANA)*](http://www.iana.org/).&#xa;&#xa;</xsl:text>
                 <xsl:value-of select="$concept/title-singular/text()"/>
                 <xsl:text> | Description | Specification&#xa;-------: | :---------- | :---&#xa;</xsl:text>
                 <xsl:for-each select="$allfiles//*[local-name() eq $concept/element-name/text()][exists(@def)]">
