@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <concepts file-extension="md">
     <concept>
+        <title-singular>HTTP Request Method</title-singular>
+        <title-plural>HTTP Request Methods</title-plural>
+        <filename>methods</filename>
+        <element-name>http-method</element-name>
+        <iana-registry>http://www.iana.org/assignments/http-methods/http-methods.xhtml#methods</iana-registry>
+    </concept>
+    <concept>
         <title-singular>HTTP Header Field</title-singular>
         <title-plural>HTTP Header Fields</title-plural>
         <filename>headers</filename>
