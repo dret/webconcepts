@@ -172,4 +172,28 @@
     <http-status def="505" desc="HTTP Version Not Supported">
         <documentation source="http://tools.ietf.org/html/rfc7231#section-6.6.6">The 505 (HTTP Version Not Supported) status code indicates that the server does not support, or refuses to support, the major version of HTTP that was used in the request message. The server is indicating that it is unable or unwilling to complete the request using the same major version as the client, other than with this error message. The server SHOULD generate a representation for the 505 response that describes why that version is not supported and what other protocols are supported by that server.</documentation>
     </http-status>
+    <http-method def="GET">
+        <documentation source="http://tools.ietf.org/html/rfc7231#section-4.3.1">The GET method requests transfer of a current selected representation for the target resource. GET is the primary mechanism of information retrieval and the focus of almost all performance optimizations. Hence, when people speak of retrieving some identifiable information via HTTP, they are generally referring to making a GET request.</documentation>
+    </http-method>
+    <http-method def="HEAD">
+        <documentation source="http://tools.ietf.org/html/rfc7231#section-4.3.2">The HEAD method is identical to GET except that the server MUST NOT send a message body in the response (i.e., the response terminates at the end of the header section). The server SHOULD send the same header fields in response to a HEAD request as it would have sent if the request had been a GET, except that the payload header fields MAY be omitted. This method can be used for obtaining metadata about the selected representation without transferring the representation data and is often used for testing hypertext links for validity, accessibility, and recent modification.</documentation>
+    </http-method>
+    <http-method def="POST">
+        <documentation source="http://tools.ietf.org/html/rfc7231#section-4.3.3">The POST method requests that the target resource process the representation enclosed in the request according to the resource's own specific semantics.</documentation>
+    </http-method>
+    <http-method def="PUT">
+        <documentation source="http://tools.ietf.org/html/rfc7231#section-4.3.4">The PUT method requests that the state of the target resource be created or replaced with the state defined by the representation enclosed in the request message payload. A successful PUT of a given representation would suggest that a subsequent GET on that same target resource will result in an equivalent representation being sent in a 200 (OK) response. However, there is no guarantee that such a state change will be observable, since the target resource might be acted upon by other user agents in parallel, or might be subject to dynamic processing by the origin server, before any subsequent GET is received. A successful response only implies that the user agent's intent was achieved at the time of its processing by the origin server.</documentation>
+    </http-method>
+    <http-method def="DELETE">
+        <documentation source="http://tools.ietf.org/html/rfc7231#section-4.3.5">The DELETE method requests that the origin server remove the association between the target resource and its current functionality. In effect, this method is similar to the rm command in UNIX: it expresses a deletion operation on the URI mapping of the origin server rather than an expectation that the previously associated information be deleted.</documentation>
+    </http-method>
+    <http-method def="CONNECT">
+        <documentation source="http://tools.ietf.org/html/rfc7231#section-4.3.6">The CONNECT method requests that the recipient establish a tunnel to the destination origin server identified by the request-target and, if successful, thereafter restrict its behavior to blind forwarding of packets, in both directions, until the tunnel is closed. Tunnels are commonly used to create an end-to-end virtual connection, through one or more proxies, which can then be secured using TLS (Transport Layer Security).</documentation>
+    </http-method>
+    <http-method def="OPTIONS">
+        <documentation source="http://tools.ietf.org/html/rfc7231#section-4.3.7">The OPTIONS method requests information about the communication options available for the target resource, at either the origin server or an intervening intermediary. This method allows a client to determine the options and/or requirements associated with a resource, or the capabilities of a server, without implying a resource action.</documentation>
+    </http-method>
+    <http-method def="TRACE">
+        <documentation source="http://tools.ietf.org/html/rfc7231#section-4.3.8">The TRACE method requests a remote, application-level loop-back of the request message. The final recipient of the request SHOULD reflect the message received, excluding some fields described below, back to the client as the message body of a 200 (OK) response with a Content-Type of "message/http". The final recipient is either the origin server or the first server to receive a Max-Forwards value of zero (0) in the request.</documentation>
+    </http-method>
 </service>
