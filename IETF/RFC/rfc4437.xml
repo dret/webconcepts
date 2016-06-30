@@ -8,4 +8,10 @@
     <http-header def="Apply-To-Redirect-Ref">
         <documentation source="http://tools.ietf.org/html/rfc4437#section-12.2">The optional Apply-To-Redirect-Ref header can be used on any request to a redirect reference resource. When it is present and set to "T", the request MUST be applied to the reference resource itself, and a 3xx response MUST NOT be returned.</documentation>
     </http-header>
+    <http-method def="MKREDIRECTREF">
+        <documentation source="http://tools.ietf.org/html/rfc4437#section-6">The MKREDIRECTREF method requests the creation of a redirect reference resource.</documentation>
+    </http-method>
+    <http-method def="UPDATEREDIRECTREF">
+        <documentation source="http://tools.ietf.org/html/rfc4437#section-7">The UPDATEREDIRECTREF method requests the update of a redirect reference resource.</documentation>
+    </http-method>
 </service>
