@@ -8,4 +8,7 @@
     <http-header def="Position">
         <documentation source="http://tools.ietf.org/html/rfc3648#section-6.1">When a new member is added to a collection with a client-maintained ordering (for example, with PUT, COPY, or MKCOL), its position in the ordering can be set with the new Position header. The Position header allows the client to specify that an internal member URI should be first in the collection's ordering, last in the collection's ordering, immediately before some other internal member URI in the collection's ordering, or immediately after some other internal member URI in the collection's ordering.</documentation>
     </http-header>
+    <http-method def="ORDERPATCH">
+        <documentation source="http://tools.ietf.org/html/rfc3648#section-7">The ORDERPATCH method is used to change the ordering semantics of a collection, to change the order of the collection's members in the ordering, or both.</documentation>
+    </http-method>
 </service>
