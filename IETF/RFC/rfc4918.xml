@@ -38,4 +38,25 @@
     <http-status def="507" desc="Insufficient Storage">
         <documentation source="http://tools.ietf.org/html/rfc4918#section-11.5">The 507 (Insufficient Storage) status code means the method could not be performed on the resource because the server is unable to store the representation needed to successfully complete the request. This condition is considered to be temporary. If the request that received this status code was the result of a user action, the request MUST NOT be repeated until it is requested by a separate user action.</documentation>
     </http-status>
+    <http-method def="PROPFIND">
+        <documentation source="http://tools.ietf.org/html/rfc4918#section-9.1">The PROPFIND method retrieves properties defined on the resource identified by the Request-URI, if the resource does not have any internal members, or on the resource identified by the Request-URI and potentially its member resources, if the resource is a collection that has internal member URLs.</documentation>
+    </http-method>
+    <http-method def="PROPPATCH">
+        <documentation source="http://tools.ietf.org/html/rfc4918#section-9.2">The PROPPATCH method processes instructions specified in the request body to set and/or remove properties defined on the resource identified by the Request-URI.</documentation>
+    </http-method>
+    <http-method def="MKCOL">
+        <documentation source="http://tools.ietf.org/html/rfc4918#section-9.3">MKCOL creates a new collection resource at the location specified by the Request-URI. If the Request-URI is already mapped to a resource, then the MKCOL MUST fail. During MKCOL processing, a server MUST make the Request-URI an internal member of its parent collection, unless the Request-URI is "/". If no such ancestor exists, the method MUST fail. When the MKCOL operation creates a new collection resource, all ancestors MUST already exist, or the method MUST fail with a 409 (Conflict) status code.</documentation>
+    </http-method>
+    <http-method def="COPY">
+        <documentation source="http://tools.ietf.org/html/rfc4918#section-9.8">The COPY method creates a duplicate of the source resource identified by the Request-URI, in the destination resource identified by the URI in the Destination header. The Destination header MUST be present. The exact behavior of the COPY method depends on the type of the source resource.</documentation>
+    </http-method>
+    <http-method def="MOVE">
+        <documentation source="http://tools.ietf.org/html/rfc4918#section-9.9">The MOVE operation on a non-collection resource is the logical equivalent of a copy (COPY), followed by consistency maintenance processing, followed by a delete of the source, where all three actions are performed in a single operation. The consistency maintenance step allows the server to perform updates caused by the move, such as updating all URLs, other than the Request-URI that identifies the source resource, to point to the new destination resource.</documentation>
+    </http-method>
+    <http-method def="LOCK">
+        <documentation source="http://tools.ietf.org/html/rfc4918#section-9.10">The LOCK method is used to take out a lock of any access type and to refresh an existing lock.</documentation>
+    </http-method>
+    <http-method def="UNLOCK">
+        <documentation source="http://tools.ietf.org/html/rfc4918#section-9.11">The UNLOCK method removes the lock identified by the lock token in the Lock-Token request header. The Request-URI MUST identify a resource within the scope of the lock.</documentation>
+    </http-method>
 </service>
