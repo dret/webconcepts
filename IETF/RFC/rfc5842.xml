@@ -8,4 +8,13 @@
     <http-status def="508" desc="Loop Detected">
         <documentation source="http://tools.ietf.org/html/rfc5842#section-7.1">The 508 (Loop Detected) status code indicates that the server terminated an operation because it encountered an infinite loop while processing a request with "Depth: infinity". This status indicates that the entire operation failed.</documentation>
     </http-status>
+    <http-method def="BIND">
+        <documentation source="http://tools.ietf.org/html/rfc5842#section-4">The BIND method modifies the collection identified by the Request-URI, by adding a new binding from the segment specified in the BIND body to the resource identified in the BIND body.</documentation>
+    </http-method>
+    <http-method def="UNBIND">
+        <documentation source="http://tools.ietf.org/html/rfc5842#section-5">The UNBIND method modifies the collection identified by the Request-URI by removing the binding identified by the segment specified in the UNBIND body.</documentation>
+    </http-method>
+    <http-method def="REBIND">
+        <documentation source="http://tools.ietf.org/html/rfc5842#section-6">The REBIND method removes a binding to a resource from a collection, and adds a binding to that resource into the collection identified by the Request-URI. The request body specifies the binding to be added (segment) and the old binding to be removed (href). It is effectively an atomic form of a MOVE request, and MUST be treated the same way as MOVE for the purpose of determining access permissions.</documentation>
+    </http-method>
 </service>
