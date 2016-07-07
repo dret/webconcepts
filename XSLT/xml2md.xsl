@@ -16,14 +16,16 @@
     <!-- -->
     <xsl:template match="/">
         <xsl:result-document href="../MD/README.md" format="md-text">
-            <xsl:text># Sedola Documentation: Work-in-Progress
+            <xsl:text># Sedola Documentation: The Web Surface
 
 Sedola is about documenting services, and some examples (a growing collection, feel free to contribute) are available in the form of [W3C](W3C/) and [IETF](IETF/) (with [RFC](IETF/RFC/) as well as [I-D](IETF/I-D) documents) specifications. From these specification, lists of&#xa;&#xa;</xsl:text>
             <xsl:for-each select="$concepts/concepts/concept">
                 <xsl:sort select="title-plural/text()"/>
                 <xsl:text>* [</xsl:text>
                 <xsl:value-of select="title-plural/text()"/>
-                <xsl:text>](</xsl:text>
+                <xsl:text> (</xsl:text>
+                <xsl:value-of select="count(distinct-values($allfiles//sedola:*[local-name() eq current()/element-name/text()]/@def))"/>
+                <xsl:text> entries)](</xsl:text>
                 <xsl:value-of select="filename/text()"/>
                 <xsl:text>.md)</xsl:text>
                 <xsl:choose>
