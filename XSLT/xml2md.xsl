@@ -96,8 +96,12 @@ Consider this directory a workspace; whatever is here may change or disappear at
                 <xsl:text># </xsl:text>
                 <xsl:value-of select="$concept/title-plural/text()"/>
                 <xsl:text>&#xa;&#xa;The following </xsl:text>
-                <xsl:value-of select="concat(count($allfiles//sedola:*[local-name() eq $concept/element-name/text()][exists(@def)]), ' ', $concept/title-singular/text())"/>
-                <xsl:text> definitions were found in </xsl:text>
+                <xsl:value-of select="count($allfiles//sedola:*[local-name() eq $concept/element-name/text()]/@def)"/>
+                <xsl:text> </xsl:text>
+                <xsl:value-of select="$concept/title-singular/text()"/>
+                <xsl:text> definitions (</xsl:text>
+                <xsl:value-of select="count(distinct-values($allfiles//sedola:*[local-name() eq $concept/element-name/text()]/@def))"/>
+                <xsl:text> distinct values) were found in </xsl:text>
                 <xsl:value-of select="count($allfiles)"/>
                 <xsl:text> services (</xsl:text>
                 <xsl:value-of select="count($W3C)"/>

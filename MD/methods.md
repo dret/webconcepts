@@ -1,6 +1,6 @@
 # HTTP Request Methods
 
-The following 37 HTTP Request Method definitions were found in 123 services (29 [W3C](../W3C/), 73 [RFC](../IETF/RFC/), 21 [I-D](../IETF/I-D)). Please be advised that the table shown here is maintained and compiled from [Sedola](https://github.com/dret/sedola) sources. The [official HTTP Request Method registry](http://www.iana.org/assignments/http-methods/http-methods.xhtml#methods) is maintained by the [*Internet Assigned Numbers Authority (IANA)*](http://www.iana.org/).
+The following 37 HTTP Request Method definitions (37 distinct values) were found in 123 services (29 [W3C](../W3C/), 73 [RFC](../IETF/RFC/), 21 [I-D](../IETF/I-D)). Please be advised that the table shown here is maintained and compiled from [Sedola](https://github.com/dret/sedola) sources. The [official HTTP Request Method registry](http://www.iana.org/assignments/http-methods/http-methods.xhtml#methods) is maintained by the [*Internet Assigned Numbers Authority (IANA)*](http://www.iana.org/).
 
 HTTP Request Method | Description | Specification
 -------: | :---------- | :---

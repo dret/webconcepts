@@ -1,6 +1,6 @@
 # Link Relations
 
-The following 85 Link Relation definitions were found in 123 services (29 [W3C](../W3C/), 73 [RFC](../IETF/RFC/), 21 [I-D](../IETF/I-D)). Please be advised that the table shown here is maintained and compiled from [Sedola](https://github.com/dret/sedola) sources. The [official Link Relation registry](http://www.iana.org/assignments/link-relations/link-relations.xhtml) is maintained by the [*Internet Assigned Numbers Authority (IANA)*](http://www.iana.org/).
+The following 85 Link Relation definitions (82 distinct values) were found in 123 services (29 [W3C](../W3C/), 73 [RFC](../IETF/RFC/), 21 [I-D](../IETF/I-D)). Please be advised that the table shown here is maintained and compiled from [Sedola](https://github.com/dret/sedola) sources. The [official Link Relation registry](http://www.iana.org/assignments/link-relations/link-relations.xhtml) is maintained by the [*Internet Assigned Numbers Authority (IANA)*](http://www.iana.org/).
 
 Link Relation | Description | Specification
 -------: | :---------- | :---
