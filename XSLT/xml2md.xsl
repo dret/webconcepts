@@ -18,7 +18,25 @@
         <xsl:result-document href="../MD/README.md" format="md-text">
             <xsl:text># Sedola Documentation: Work-in-Progress
 
-Sedola is about documenting services, and some examples (a growing collection, feel free to contribute) are available in the form of [W3C](W3C/) and [IETF](IETF/) (with [RFC](IETF/RFC/) as well as [I-D](IETF/I-D) documents) specifications. From these specification, lists of [HTTP Request Methods](methods.md), [HTTP Header Fields](headers.md), [HTTP Cache Directives](cachedirs.md), [HTTP Status Codes](statuscodes.md), [Link Relations](linkrels.md), and [Media Types](mediatypes.md) are generated, and there also is a [list of all specifications](specs.md).
+Sedola is about documenting services, and some examples (a growing collection, feel free to contribute) are available in the form of [W3C](W3C/) and [IETF](IETF/) (with [RFC](IETF/RFC/) as well as [I-D](IETF/I-D) documents) specifications. From these specification, lists of&#xa;&#xa;</xsl:text>
+            <xsl:for-each select="$concepts/concepts/concept">
+                <xsl:sort select="title-plural/text()"/>
+                <xsl:text>* [</xsl:text>
+                <xsl:value-of select="title-plural/text()"/>
+                <xsl:text>](</xsl:text>
+                <xsl:value-of select="filename/text()"/>
+                <xsl:text>.md)</xsl:text>
+                <xsl:choose>
+                    <xsl:when test="position() lt last()-1">
+                        <xsl:text>,</xsl:text>
+                    </xsl:when>
+                    <xsl:when test="position() eq last()-1">
+                        <xsl:text>, and</xsl:text>
+                    </xsl:when>
+                </xsl:choose>
+                <xsl:text>&#xa;</xsl:text>
+            </xsl:for-each>
+            <xsl:text>&#xa;are generated, and there also is a [list of all specifications](specs.md).
 
 Consider this directory a workspace; whatever is here may change or disappear at any point in time. If you'd like to see how the content is generated, check out the [XSLT](../XSLT/) directory. If there's anything you find interesting but confusing, if there's something you're missing, or if there's something that you think should be fixed, please raise an issue. Thanks!
 </xsl:text>
