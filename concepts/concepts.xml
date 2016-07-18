@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<concepts file-extension="md">
+    <concept>
+        <title-singular>HTTP Request Method</title-singular>
+        <title-plural>HTTP Request Methods</title-plural>
+        <filename>methods</filename>
+        <element-name>http-method</element-name>
+        <iana-registry>http://www.iana.org/assignments/http-methods/http-methods.xhtml#methods</iana-registry>
+    </concept>
+    <concept>
+        <title-singular>HTTP Header Field</title-singular>
+        <title-plural>HTTP Header Fields</title-plural>
+        <filename>headers</filename>
+        <element-name>http-header</element-name>
+        <iana-registry>http://www.iana.org/assignments/message-headers/message-headers.xhtml</iana-registry>
+    </concept>
+    <concept>
+        <title-singular>HTTP Status Code</title-singular>
+        <title-plural>HTTP Status Codes</title-plural>
+        <filename>statuscodes</filename>
+        <element-name>http-status</element-name>
+        <iana-registry>http://www.iana.org/assignments/http-status-codes/http-status-codes.xhtml</iana-registry>
+    </concept>
+    <concept>
+        <title-singular>HTTP Cache Directive</title-singular>
+        <title-plural>HTTP Cache Directives</title-plural>
+        <filename>cachedirs</filename>
+        <element-name>http-cache-directive</element-name>
+        <iana-registry>http://www.iana.org/assignments/http-cache-directives/http-cache-directives.xhtml</iana-registry>
+    </concept>
+    <concept>
+        <title-singular>Link Relation</title-singular>
+        <title-plural>Link Relations</title-plural>
+        <filename>linkrels</filename>
+        <element-name>link-relation</element-name>
+        <iana-registry>http://www.iana.org/assignments/link-relations/link-relations.xhtml</iana-registry>
+    </concept>
+    <concept>
+        <title-singular>Media Type</title-singular>
+        <title-plural>Media Types</title-plural>
+        <filename>mediatypes</filename>
+        <element-name>media-type</element-name>
+        <iana-registry>http://www.iana.org/assignments/media-types/media-types.xhtml</iana-registry>
+    </concept>
+</concepts>
