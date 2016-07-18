@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  <h1 class="page-heading">History of all Updates</h1>
+
+  <ul>
+    {% for post in site.posts %}
+      <li>
+        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: "%b %-d, %Y" }}: {{ post.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">Subscribe to updates <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a>.</p>
+
+</div>

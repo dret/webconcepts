@@ -4,20 +4,18 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
+  <p>...</p>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
+  <h1 class="page-heading">Recent Updates</h1>
+
+  <ul>
+    {% for post in site.posts limit:5 %}
       <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
+        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: "%b %-d, %Y" }}: {{ post.title }}</a>
       </li>
     {% endfor %}
   </ul>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  <p class="rss-subscribe">For a complete list, <a href="{{ "/history.html" | prepend: site.baseurl }}">here is the history of all updates</a>; subscribe to updates <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a>.</p>
 
 </div>
