@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<specs>
+    <spec match="urn:ietf:rfc:(\d+$)" replace="http://tools.ietf.org/html/rfc$1" path="IETF/RFC">
+        <organization short="IETF">Internet Engineering Task Force</organization>
+        <series short="RFC">Request for Comments</series>
+    </spec>
+    <spec match="urn:ietf:id:(.+$)" replace="http://tools.ietf.org/html/draft-$1" path="IETF/I-D">
+        <organization short="IETF">Internet Engineering Task Force</organization>
+        <series short="I-D">Internet Draft</series>
+    </spec>
+    <spec match="http://www.w3.org/TR/(.+)/" path="W3C">
+        <organization short="W3C">World Wide Web Consortium</organization>
+        <series short="TR">Technical Report</series>
+    </spec>
+</specs>
