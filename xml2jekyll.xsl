@@ -38,7 +38,9 @@
                     </xsl:if>
                     <xsl:text>](</xsl:text>
                     <xsl:value-of select="concat(../@id, '/', @id)"/>
-                    <xsl:text>) Series&#xa;</xsl:text>
+                    <xsl:text>) Series: </xsl:text>
+                    <xsl:value-of select="count(collection(concat($specs-dir, '/', ../@id, '/', @id,'?select=*.xml')))"/>
+                    <xsl:text> Specifications&#xa;</xsl:text>
                 </xsl:for-each>
             </xsl:for-each>
         </xsl:result-document>
