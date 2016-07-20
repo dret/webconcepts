@@ -15,6 +15,7 @@
             <xsl:text>layout: page&#xa;</xsl:text>
             <xsl:text>title:  "Web Concept Specifications: Organizations"&#xa;</xsl:text>
             <xsl:text>---&#xa;&#xa;</xsl:text>
+            <xsl:text>This is a list of all organizations and their specification series that are currently used to compile the list of Web Concepts.&#xa;&#xa;</xsl:text>
             <xsl:for-each select="$specs/specs/organization">
                 <xsl:sort select="name"/>
                 <xsl:text>* [</xsl:text>
