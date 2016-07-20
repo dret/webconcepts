@@ -15,7 +15,7 @@
         <name short="W3C">World Wide Web Consortium</name>
         <series id="TR">
             <name short="TR">Technical Report</name>
-            <uri-pattern>http://www.w3.org/TR/(.+)/</uri-pattern>
+            <uri-pattern>http://www.w3.org/TR/(.+)</uri-pattern>
         </series>
     </organization>
 </specs>
