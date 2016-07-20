@@ -109,7 +109,7 @@
                                     <xsl:text>---&#xa;</xsl:text>
                                     <xsl:text>layout: page&#xa;</xsl:text>
                                     <xsl:text>title:  "</xsl:text>
-                                    <xsl:value-of select="sedola:title"/>
+                                    <xsl:value-of select="replace(sedola:title, '&#34;', '&amp;#34;')"/>
                                     <xsl:text>"&#xa;</xsl:text>
                                     <xsl:text>---&#xa;&#xa;</xsl:text>
                                     <xsl:text>| Canonical Name | </xsl:text>
