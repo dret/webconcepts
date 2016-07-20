@@ -12,10 +12,11 @@
     <xsl:template match="/">
         <xsl:result-document href="{$specs-dir}/index.md" format="jekyll">
             <xsl:text>---&#xa;</xsl:text>
-            <xsl:text>layout:      page&#xa;</xsl:text>
-            <xsl:text>title:       "Web Concept Specifications: Organizations"&#xa;</xsl:text>
+            <xsl:text>layout: page&#xa;</xsl:text>
+            <xsl:text>title:  "Web Concept Specifications: Organizations"&#xa;</xsl:text>
             <xsl:text>---&#xa;&#xa;</xsl:text>
             <xsl:for-each select="$specs/specs/organization">
+                <xsl:sort select="name"/>
                 <xsl:text>* [</xsl:text>
                 <xsl:value-of select="name"/>
                 <xsl:if test="exists(name/@short)">
@@ -26,6 +27,19 @@
                 <xsl:text>](</xsl:text>
                 <xsl:value-of select="@id"/>
                 <xsl:text>)&#xa;</xsl:text>
+                <xsl:for-each select="series">
+                    <xsl:sort select="name"/>
+                    <xsl:text>  * [</xsl:text>
+                    <xsl:value-of select="name"/>
+                    <xsl:if test="exists(name/@short)">
+                        <xsl:text> (</xsl:text>
+                        <xsl:value-of select="name/@short"/>
+                        <xsl:text>)</xsl:text>
+                    </xsl:if>
+                    <xsl:text>](</xsl:text>
+                    <xsl:value-of select="concat(../@id, '/', @id)"/>
+                    <xsl:text>) Series&#xa;</xsl:text>
+                </xsl:for-each>
             </xsl:for-each>
         </xsl:result-document>
         <xsl:result-document href="{$concepts-dir}/index.md" format="jekyll">
