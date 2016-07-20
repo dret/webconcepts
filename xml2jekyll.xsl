@@ -135,7 +135,7 @@
                                         <xsl:value-of select="$series/name/@short"/>
                                         <xsl:text>)</xsl:text>
                                     </xsl:if>
-                                    <xsl:text>](..)&#xa;</xsl:text>
+                                    <xsl:text>](.)&#xa;</xsl:text>
                                     <xsl:text>| Abstract | </xsl:text>
                                     <xsl:value-of select="sedola:documentation/text()"/>
                                 </xsl:result-document>
