@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  "Technical Report Series"
+title:  "W3C Technical Report Series"
 ---
 
 There are currently 29 listed specifications in the [World Wide Web Consortium (W3C)](..)'s Technical Report (TR) series.

@@ -69,6 +69,15 @@
                             <xsl:text>---&#xa;</xsl:text>
                             <xsl:text>layout: page&#xa;</xsl:text>
                             <xsl:text>title:  "</xsl:text>
+                            <xsl:choose>
+                                <xsl:when test="exists(../name/@short)">
+                                    <xsl:value-of select="../name/@short"/>
+                                </xsl:when>
+                                <xsl:otherwise>
+                                    <xsl:value-of select="../name"/>
+                                </xsl:otherwise>
+                            </xsl:choose>
+                            <xsl:text> </xsl:text>
                             <xsl:value-of select="name"/>
                             <xsl:text> Series"&#xa;</xsl:text>
                             <xsl:text>---&#xa;&#xa;</xsl:text>
