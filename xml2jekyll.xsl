@@ -43,6 +43,29 @@
                     <xsl:value-of select="count(collection(concat($specs-dir, '/', ../@id, '/', @id,'?select=*.xml')))"/>
                     <xsl:text> Specifications&#xa;</xsl:text>
                 </xsl:for-each>
+                <xsl:result-document href="{$specs-dir}/{@id}/index.md" format="jekyll">
+                    <xsl:text>---&#xa;</xsl:text>
+                    <xsl:text>layout: page&#xa;</xsl:text>
+                    <xsl:text>title:  "</xsl:text>
+                    <xsl:value-of select="name"/>
+                    <xsl:text>: Specifications"&#xa;</xsl:text>
+                    <xsl:text>---&#xa;&#xa;</xsl:text>
+                    <xsl:for-each select="series">
+                        <xsl:sort select="name"/>
+                        <xsl:text>  * [</xsl:text>
+                        <xsl:value-of select="name"/>
+                        <xsl:if test="exists(name/@short)">
+                            <xsl:text> (</xsl:text>
+                            <xsl:value-of select="name/@short"/>
+                            <xsl:text>)</xsl:text>
+                        </xsl:if>
+                        <xsl:text>](</xsl:text>
+                        <xsl:value-of select="@id"/>
+                        <xsl:text>) Series: </xsl:text>
+                        <xsl:value-of select="count(collection(concat($specs-dir, '/', ../@id, '/', @id,'?select=*.xml')))"/>
+                        <xsl:text> Specifications&#xa;</xsl:text>
+                    </xsl:for-each>
+                </xsl:result-document>
             </xsl:for-each>
         </xsl:result-document>
         <xsl:result-document href="{$concepts-dir}/index.md" format="jekyll">
