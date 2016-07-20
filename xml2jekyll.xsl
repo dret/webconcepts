@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- This XSLT transforms https://github.com/dret/HTML5-overview into a jekyll site. -->
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="3.0">
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="3.0" xmlns:sedola="http://github.com/dret/sedola">
     <xsl:output name="jekyll" method="text" encoding="UTF-8"/>
     <!-- -->
     <xsl:variable name="specs-dir" select="'specs'"/>
@@ -52,6 +52,7 @@
                     <xsl:text>---&#xa;&#xa;</xsl:text>
                     <xsl:for-each select="series">
                         <xsl:sort select="name"/>
+                        <xsl:variable name= "services" select="collection(concat($specs-dir, '/', ../@id, '/', @id,'?select=*.xml'))"/>
                         <xsl:text>  * [</xsl:text>
                         <xsl:value-of select="name"/>
                         <xsl:if test="exists(name/@short)">
@@ -62,8 +63,40 @@
                         <xsl:text>](</xsl:text>
                         <xsl:value-of select="@id"/>
                         <xsl:text>) Series: </xsl:text>
-                        <xsl:value-of select="count(collection(concat($specs-dir, '/', ../@id, '/', @id,'?select=*.xml')))"/>
+                        <xsl:value-of select="count($services)"/>
                         <xsl:text> Specifications&#xa;</xsl:text>
+                        <xsl:result-document href="{$specs-dir}/{../@id}/{@id}/index.md" format="jekyll">
+                            <xsl:text>---&#xa;</xsl:text>
+                            <xsl:text>layout: page&#xa;</xsl:text>
+                            <xsl:text>title:  "</xsl:text>
+                            <xsl:value-of select="name"/>
+                            <xsl:text> Series"&#xa;</xsl:text>
+                            <xsl:text>---&#xa;&#xa;</xsl:text>
+                            <xsl:text>There are currently </xsl:text>
+                            <xsl:value-of select="count($services)"/>
+                            <xsl:text> listed specifications in the [</xsl:text>
+                            <xsl:value-of select="../name"/>
+                            <xsl:text>](..)'s </xsl:text>
+                            <xsl:value-of select="name"/>
+                            <xsl:text> series.&#xa;&#xa;</xsl:text>
+                            <xsl:variable name="series" select="."/>
+                            <xsl:for-each select="collection(concat($specs-dir, '/', ../@id, '/', @id,'?select=*.xml'))/sedola:service">
+                                <xsl:sort select="sedola:title"/>
+                                <xsl:variable name="id" select="replace(@id, $series/uri-pattern, '$1')"/>
+                                <xsl:choose>
+                                    <xsl:when test="$id eq @id">
+                                        <xsl:message select="concat('Non-matching service id: ', @id)"/>
+                                    </xsl:when>
+                                    <xsl:otherwise>
+                                        <xsl:text>  * [</xsl:text>
+                                        <xsl:value-of select="sedola:title"/>
+                                        <xsl:text>](</xsl:text>
+                                        <xsl:value-of select="$id"/>
+                                        <xsl:text>)&#xa;</xsl:text>
+                                    </xsl:otherwise>
+                                </xsl:choose>
+                            </xsl:for-each>
+                        </xsl:result-document>
                     </xsl:for-each>
                 </xsl:result-document>
             </xsl:for-each>
