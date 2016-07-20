@@ -164,6 +164,7 @@
             <xsl:text>This is a list of all Web Concepts that have been harvested from all [available specifications](../specs):&#xa;&#xa;</xsl:text>
             <xsl:for-each select="$concepts/concepts/concept">
                 <xsl:sort select="title-plural"/>
+                <xsl:variable name="concept" select="."/>
                 <xsl:text>* [</xsl:text>
                 <xsl:value-of select="title-plural"/>
                 <xsl:text>](</xsl:text>
@@ -178,6 +179,67 @@
                     <xsl:value-of select="title-plural"/>
                     <xsl:text>"&#xa;</xsl:text>
                     <xsl:text>---&#xa;&#xa;</xsl:text>
+                    <xsl:text>&#xa;&#xa;The following </xsl:text>
+                    <xsl:value-of select="count($allfiles//sedola:*[local-name() eq $concept/element-name/text()]/@def)"/>
+                    <xsl:text> </xsl:text>
+                    <xsl:value-of select="$concept/title-singular/text()"/>
+                    <xsl:text> definitions (</xsl:text>
+                    <xsl:value-of select="count(distinct-values($allfiles//sedola:*[local-name() eq $concept/element-name/text()]/@def))"/>
+                    <xsl:text> distinct values) were found in </xsl:text>
+                    <xsl:value-of select="count($allfiles)"/>
+                    <xsl:text> services. Please be advised that the table shown here is maintained and compiled from [Sedola](https://github.com/dret/sedola) sources. The [official </xsl:text>
+                    <xsl:value-of select="$concept/title-singular/text()"/>
+                    <xsl:text> registry](</xsl:text>
+                    <xsl:value-of select="$concept/iana-registry/text()"/>
+                    <xsl:text>) is maintained by the [*Internet Assigned Numbers Authority (IANA)*](http://www.iana.org/).&#xa;&#xa;</xsl:text>
+                    <xsl:value-of select="$concept/title-singular/text()"/>
+                    <xsl:text> | Description | Specification&#xa;-------: | :---------- | :---&#xa;</xsl:text>
+                    <xsl:for-each select="$allfiles//*[local-name() eq $concept/element-name/text()][exists(@def)]">
+                        <xsl:sort select="@def"/>
+                        <xsl:text>`</xsl:text>
+                        <xsl:value-of select="@def"/>
+                        <xsl:if test="exists(@desc)">
+                            <xsl:text>: </xsl:text>
+                            <xsl:value-of select="@desc"/>
+                        </xsl:if>
+                        <xsl:text>`</xsl:text>
+                        <xsl:variable name="number-of-defs" select="count($allfiles//*[local-name() eq $concept/element-name/text()][@def eq current()/@def])"/>
+                        <xsl:if test="$number-of-defs gt 1">
+                            <xsl:text>&lt;sub></xsl:text>
+                            <xsl:text>(</xsl:text>
+                            <xsl:value-of select="$number-of-defs"/>
+                            <xsl:text> definitions)</xsl:text>
+                            <xsl:text>&lt;/sub></xsl:text>
+                        </xsl:if>
+                        <xsl:text> | "[</xsl:text>
+                        <xsl:value-of select="sedola:documentation/text()"/>
+                        <xsl:text>](</xsl:text>
+                        <xsl:value-of select="sedola:documentation/@source"/>
+                        <xsl:text>)" | [**</xsl:text>
+                        <xsl:choose>
+                            <xsl:when test="starts-with(../sedola:documentation/@source, 'http://tools.ietf.org/html/rfc')">
+                                <xsl:text>RFC </xsl:text>
+                                <xsl:value-of select="substring-after(../sedola:documentation/@source, 'http://tools.ietf.org/html/rfc')"/>
+                            </xsl:when>
+                            <xsl:when test="starts-with(../sedola:documentation/@source, 'http://tools.ietf.org/html/draft')">
+                                <xsl:value-of select="substring-after(../sedola:documentation/@source, 'http://tools.ietf.org/html/')"/>
+                            </xsl:when>
+                            <xsl:when test="starts-with(../sedola:documentation/@source, 'http://www.w3.org/TR/')">
+                                <xsl:text>W3C TR </xsl:text>
+                                <xsl:value-of select="if ( ends-with(../sedola:documentation/@source, '/') ) then substring-before(substring-after(../sedola:documentation/@source, 'http://www.w3.org/TR/'), '/') else substring-after(../sedola:documentation/@source, 'http://www.w3.org/TR/')"/>
+                            </xsl:when>
+                            <xsl:otherwise>
+                                <xsl:text>??????</xsl:text>
+                            </xsl:otherwise>
+                        </xsl:choose>
+                        <xsl:text>**: </xsl:text>
+                        <xsl:value-of select="../sedola:title/text()"/>
+                        <xsl:text>](</xsl:text>
+                        <xsl:value-of select="../sedola:documentation/@source"/>
+                        <xsl:text> "</xsl:text>
+                        <xsl:value-of select="replace(../sedola:documentation/text(), '&quot;', '&#x201d;')"/>
+                        <xsl:text>" )&#xa;</xsl:text>
+                    </xsl:for-each>
                 </xsl:result-document>
             </xsl:for-each>
         </xsl:result-document>
