@@ -161,7 +161,7 @@
             <xsl:text>layout: page&#xa;</xsl:text>
             <xsl:text>title:  "Web Concepts: Overview"&#xa;</xsl:text>
             <xsl:text>---&#xa;&#xa;</xsl:text>
-            <xsl:text>This is a list of all Web Concepts that have been harvested from all [available specifications](../specs).&#xa;&#xa;</xsl:text>
+            <xsl:text>This is a list of all Web Concepts that have been harvested from all [available specifications](../specs):&#xa;&#xa;</xsl:text>
             <xsl:for-each select="$concepts/concepts/concept">
                 <xsl:sort select="title-plural"/>
                 <xsl:text>* [</xsl:text>

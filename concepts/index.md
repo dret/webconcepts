@@ -3,7 +3,7 @@ layout: page
 title:  "Web Concepts: Overview"
 ---
 
-This is a list of all Web Concepts that have been harvested from all [available specifications](../specs).
+This is a list of all Web Concepts that have been harvested from all [available specifications](../specs):
 
 * [HTTP Cache Directives](http-cache-directives) (14 entries)
 * [HTTP Header Fields](http-headers) (170 entries)
