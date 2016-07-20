@@ -105,6 +105,14 @@
                                         <xsl:text>)&#xa;</xsl:text>
                                     </xsl:otherwise>
                                 </xsl:choose>
+                                <xsl:result-document href="{$specs-dir}/{$series/../@id}/{$series/@id}/{$id}.md" format="jekyll">
+                                    <xsl:text>---&#xa;</xsl:text>
+                                    <xsl:text>layout: page&#xa;</xsl:text>
+                                    <xsl:text>title:  "</xsl:text>
+                                    <xsl:value-of select="sedola:title"/>
+                                    <xsl:text>"&#xa;</xsl:text>
+                                    <xsl:text>---&#xa;&#xa;</xsl:text>
+                                </xsl:result-document>
                             </xsl:for-each>
                         </xsl:result-document>
                     </xsl:for-each>
