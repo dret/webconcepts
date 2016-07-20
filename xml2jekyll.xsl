@@ -112,6 +112,24 @@
                                     <xsl:value-of select="sedola:title"/>
                                     <xsl:text>"&#xa;</xsl:text>
                                     <xsl:text>---&#xa;&#xa;</xsl:text>
+                                    <xsl:text>| Organization | [</xsl:text>
+                                    <xsl:value-of select="$series/../name"/>
+                                    <xsl:if test="exists($series/../name/@short)">
+                                        <xsl:text> (</xsl:text>
+                                        <xsl:value-of select="$series/../name/@short"/>
+                                        <xsl:text>)</xsl:text>
+                                    </xsl:if>
+                                    <xsl:text>](..)&#xa;</xsl:text>
+                                    <xsl:text>| Series | [</xsl:text>
+                                    <xsl:value-of select="$series/name"/>
+                                    <xsl:if test="exists($series/name/@short)">
+                                        <xsl:text> (</xsl:text>
+                                        <xsl:value-of select="$series/name/@short"/>
+                                        <xsl:text>)</xsl:text>
+                                    </xsl:if>
+                                    <xsl:text>](..)&#xa;</xsl:text>
+                                    <xsl:text>| Abstract | </xsl:text>
+                                    <xsl:value-of select="sedola:documentation/text()"/>
                                 </xsl:result-document>
                             </xsl:for-each>
                         </xsl:result-document>
