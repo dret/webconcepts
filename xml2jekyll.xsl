@@ -112,6 +112,9 @@
                                     <xsl:value-of select="sedola:title"/>
                                     <xsl:text>"&#xa;</xsl:text>
                                     <xsl:text>---&#xa;&#xa;</xsl:text>
+                                    <xsl:text>| Canonical Name | </xsl:text>
+                                    <xsl:value-of select="replace($id, '^(..*)$', $series/uri-pattern/@name-pattern)"/>
+                                    <xsl:text>&#xa;</xsl:text>
                                     <xsl:text>| Organization | [</xsl:text>
                                     <xsl:value-of select="$series/../name"/>
                                     <xsl:if test="exists($series/../name/@short)">
