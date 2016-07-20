@@ -115,6 +115,11 @@
                                     <xsl:text>| Canonical Name | </xsl:text>
                                     <xsl:value-of select="replace($id, '^(..*)$', $series/uri-pattern/@name-pattern)"/>
                                     <xsl:text>&#xa;</xsl:text>
+                                    <xsl:text>| Online Version | [`</xsl:text>
+                                    <xsl:value-of select="replace($id, '^(..*)$', $series/uri-pattern/@url-pattern)"/>
+                                    <xsl:text>`](</xsl:text>
+                                    <xsl:value-of select="replace($id, '^(..*)$', $series/uri-pattern/@url-pattern)"/>
+                                    <xsl:text>)&#xa;</xsl:text>
                                     <xsl:text>| Organization | [</xsl:text>
                                     <xsl:value-of select="$series/../name"/>
                                     <xsl:if test="exists($series/../name/@short)">
