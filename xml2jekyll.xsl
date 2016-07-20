@@ -236,9 +236,7 @@
                         <xsl:value-of select="../sedola:title/text()"/>
                         <xsl:text>](</xsl:text>
                         <xsl:value-of select="../sedola:documentation/@source"/>
-                        <xsl:text> "</xsl:text>
-                        <xsl:value-of select="replace(../sedola:documentation/text(), '&quot;', '&#x201d;')"/>
-                        <xsl:text>" )&#xa;</xsl:text>
+                        <xsl:text>)&#xa;</xsl:text>
                     </xsl:for-each>
                 </xsl:result-document>
             </xsl:for-each>
