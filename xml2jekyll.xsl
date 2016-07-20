@@ -9,6 +9,8 @@
     <xsl:variable name="concepts-dir" select="'concepts'"/>
     <xsl:variable name="concepts" select="document(concat($concepts-dir, '/concepts.xml'))"/>
     <!-- -->
+    <xsl:variable name="allfiles" select="for $i in $specs/specs/organization/series return collection(concat($specs-dir, '/', $i/../@id, '/', $i/@id,'/','?select=*.xml'))"/>
+    <!-- -->
     <xsl:template match="/">
         <xsl:result-document href="{$specs-dir}/index.md" format="jekyll">
             <xsl:text>---&#xa;</xsl:text>
@@ -166,7 +168,9 @@
                 <xsl:value-of select="title-plural"/>
                 <xsl:text>](</xsl:text>
                 <xsl:value-of select="filename"/>
-                <xsl:text>)&#xa;</xsl:text>
+                <xsl:text>) (</xsl:text>
+                <xsl:value-of select="count(distinct-values($allfiles//sedola:*[local-name() eq current()/element-name/text()]/@def))"/>
+                <xsl:text> entries)&#xa;</xsl:text>
                 <xsl:result-document href="{$concepts-dir}/{filename}/index.md" format="jekyll">
                     <xsl:text>---&#xa;</xsl:text>
                     <xsl:text>layout: page&#xa;</xsl:text>
