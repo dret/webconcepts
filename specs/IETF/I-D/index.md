@@ -3,7 +3,7 @@ layout: page
 title:  "Internet Draft Series"
 ---
 
-There are currently 21 listed specifications in the [Internet Engineering Task Force](..)'s Internet Draft series.
+There are currently 21 listed specifications in the [Internet Engineering Task Force (IETF)](..)'s Internet Draft (I-D) series.
 
   * [A JSON Media Type for Describing the Structure and Meaning of JSON Documents](zyp-json-schema)
   * [Accept-Push-Policy Header Field](ruellan-http-accept-push-policy)

@@ -3,7 +3,7 @@ layout: page
 title:  "Technical Report Series"
 ---
 
-There are currently 29 listed specifications in the [World Wide Web Consortium](..)'s Technical Report series.
+There are currently 29 listed specifications in the [World Wide Web Consortium (W3C)](..)'s Technical Report (TR) series.
 
   * [Activity Streams 2.0](activitystreams-core)
   * [Clear Site Data](clear-site-data)

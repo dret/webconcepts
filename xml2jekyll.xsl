@@ -76,8 +76,18 @@
                             <xsl:value-of select="count($services)"/>
                             <xsl:text> listed specifications in the [</xsl:text>
                             <xsl:value-of select="../name"/>
+                            <xsl:if test="exists(../name/@short)">
+                                <xsl:text> (</xsl:text>
+                                <xsl:value-of select="../name/@short"/>
+                                <xsl:text>)</xsl:text>
+                            </xsl:if>
                             <xsl:text>](..)'s </xsl:text>
                             <xsl:value-of select="name"/>
+                            <xsl:if test="exists(name/@short)">
+                                <xsl:text> (</xsl:text>
+                                <xsl:value-of select="name/@short"/>
+                                <xsl:text>)</xsl:text>
+                            </xsl:if>
                             <xsl:text> series.&#xa;&#xa;</xsl:text>
                             <xsl:variable name="series" select="."/>
                             <xsl:for-each select="collection(concat($specs-dir, '/', ../@id, '/', @id,'?select=*.xml'))/sedola:service">

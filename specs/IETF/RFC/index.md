@@ -3,7 +3,7 @@ layout: page
 title:  "Request for Comments Series"
 ---
 
-There are currently 73 listed specifications in the [Internet Engineering Task Force](..)'s Request for Comments series.
+There are currently 73 listed specifications in the [Internet Engineering Task Force (IETF)](..)'s Request for Comments (RFC) series.
 
   * [A Media Type for XML Patch Operations](7351)
   * [Additional HTTP Status Codes](6585)
