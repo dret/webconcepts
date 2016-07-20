@@ -147,8 +147,8 @@
         </xsl:result-document>
         <xsl:result-document href="{$concepts-dir}/index.md" format="jekyll">
             <xsl:text>---&#xa;</xsl:text>
-            <xsl:text>layout:      page&#xa;</xsl:text>
-            <xsl:text>title:       "Web Concepts: Overview"&#xa;</xsl:text>
+            <xsl:text>layout: page&#xa;</xsl:text>
+            <xsl:text>title:  "Web Concepts: Overview"&#xa;</xsl:text>
             <xsl:text>---&#xa;&#xa;</xsl:text>
             <xsl:text>This is a list of all Web Concepts that have been harvested from all [available specifications](../specs).&#xa;&#xa;</xsl:text>
             <xsl:for-each select="$concepts/concepts/concept">
@@ -158,6 +158,14 @@
                 <xsl:text>](</xsl:text>
                 <xsl:value-of select="filename"/>
                 <xsl:text>)&#xa;</xsl:text>
+                <xsl:result-document href="{$concepts-dir}/{filename}/index.md" format="jekyll">
+                    <xsl:text>---&#xa;</xsl:text>
+                    <xsl:text>layout: page&#xa;</xsl:text>
+                    <xsl:text>title:  "</xsl:text>
+                    <xsl:value-of select="title-plural"/>
+                    <xsl:text>"&#xa;</xsl:text>
+                    <xsl:text>---&#xa;&#xa;</xsl:text>
+                </xsl:result-document>
             </xsl:for-each>
         </xsl:result-document>
     </xsl:template>

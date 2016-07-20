@@ -1,6 +1,6 @@
 ---
-layout:      page
-title:       "Web Concepts: Overview"
+layout: page
+title:  "Web Concepts: Overview"
 ---
 
 This is a list of all Web Concepts that have been harvested from all [available specifications](../specs).
