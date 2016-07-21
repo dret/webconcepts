@@ -219,7 +219,9 @@
                         <xsl:value-of select="../sedola:title/text()"/>
                         <xsl:text>](</xsl:text>
                         <xsl:value-of select="concat('/', $specs-dir, '/', $series/../@id, '/', $series/@id, '/', $id)"/>
-                        <xsl:text>)&#xa;</xsl:text>
+                        <xsl:text> "</xsl:text>
+                        <xsl:value-of select="replace(../sedola:documentation/text(), '&#34;', '&amp;#34;')"/>
+                        <xsl:text>")&#xa;</xsl:text>
                     </xsl:for-each>
                 </xsl:result-document>
             </xsl:for-each>
