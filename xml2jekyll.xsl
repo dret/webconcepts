@@ -187,7 +187,7 @@
                     <xsl:value-of select="count(distinct-values($allfiles//sedola:*[local-name() eq $concept/element-name/text()]/@def))"/>
                     <xsl:text> distinct values) were found in </xsl:text>
                     <xsl:value-of select="count($allfiles)"/>
-                    <xsl:text> services. Please be advised that the table shown here is maintained and compiled from [Sedola](https://github.com/dret/sedola) sources. The [official </xsl:text>
+                    <xsl:text> services. Please be advised that the table shown here is maintained and compiled from [Web Concepts](/) sources. The [official </xsl:text>
                     <xsl:value-of select="$concept/title-singular/text()"/>
                     <xsl:text> registry](</xsl:text>
                     <xsl:value-of select="$concept/iana-registry/text()"/>
@@ -205,7 +205,7 @@
                         <xsl:text>`</xsl:text>
                         <xsl:variable name="number-of-defs" select="count($allfiles//*[local-name() eq $concept/element-name/text()][@def eq current()/@def])"/>
                         <xsl:if test="$number-of-defs gt 1">
-                            <xsl:text>&lt;sub></xsl:text>
+                            <xsl:text> &lt;sub></xsl:text>
                             <xsl:text>(</xsl:text>
                             <xsl:value-of select="$number-of-defs"/>
                             <xsl:text> definitions)</xsl:text>
@@ -216,26 +216,13 @@
                         <xsl:text>](</xsl:text>
                         <xsl:value-of select="sedola:documentation/@source"/>
                         <xsl:text>)" | [**</xsl:text>
-                        <xsl:choose>
-                            <xsl:when test="starts-with(../sedola:documentation/@source, 'http://tools.ietf.org/html/rfc')">
-                                <xsl:text>RFC </xsl:text>
-                                <xsl:value-of select="substring-after(../sedola:documentation/@source, 'http://tools.ietf.org/html/rfc')"/>
-                            </xsl:when>
-                            <xsl:when test="starts-with(../sedola:documentation/@source, 'http://tools.ietf.org/html/draft')">
-                                <xsl:value-of select="substring-after(../sedola:documentation/@source, 'http://tools.ietf.org/html/')"/>
-                            </xsl:when>
-                            <xsl:when test="starts-with(../sedola:documentation/@source, 'http://www.w3.org/TR/')">
-                                <xsl:text>W3C TR </xsl:text>
-                                <xsl:value-of select="if ( ends-with(../sedola:documentation/@source, '/') ) then substring-before(substring-after(../sedola:documentation/@source, 'http://www.w3.org/TR/'), '/') else substring-after(../sedola:documentation/@source, 'http://www.w3.org/TR/')"/>
-                            </xsl:when>
-                            <xsl:otherwise>
-                                <xsl:text>??????</xsl:text>
-                            </xsl:otherwise>
-                        </xsl:choose>
+                        <xsl:variable name="series" select="$specs//series[matches(current()/../@id, uri-pattern/text())]"/>
+                        <xsl:variable name="id" select="replace(current()/../@id, $series/uri-pattern, '$1')"/>
+                        <xsl:value-of select="replace($id, '^(..*)$', $series/uri-pattern/@name-pattern)"/>
                         <xsl:text>**: </xsl:text>
                         <xsl:value-of select="../sedola:title/text()"/>
                         <xsl:text>](</xsl:text>
-                        <xsl:value-of select="../sedola:documentation/@source"/>
+                        <xsl:value-of select="concat('/', $specs-dir, '/', $series/../@id, '/', $series/@id, '/', $id)"/>
                         <xsl:text>)&#xa;</xsl:text>
                     </xsl:for-each>
                 </xsl:result-document>
