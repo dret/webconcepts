@@ -193,7 +193,7 @@
                     <xsl:value-of select="$concept/iana-registry/text()"/>
                     <xsl:text>) is maintained by the [*Internet Assigned Numbers Authority (IANA)*](http://www.iana.org/).&#xa;&#xa;</xsl:text>
                     <xsl:value-of select="$concept/title-singular/text()"/>
-                    <xsl:text> | Description | Specification&#xa;-------: | :---------- | :---&#xa;</xsl:text>
+                    <xsl:text> | Specification&#xa;-------: | :---------- | :---&#xa;</xsl:text>
                     <xsl:for-each select="$allfiles//*[local-name() eq $concept/element-name/text()][exists(@def)]">
                         <xsl:sort select="@def"/>
                         <xsl:text>`</xsl:text>
@@ -211,11 +211,7 @@
                             <xsl:text> definitions)</xsl:text>
                             <xsl:text>&lt;/sub></xsl:text>
                         </xsl:if>
-                        <xsl:text> | "[</xsl:text>
-                        <xsl:value-of select="sedola:documentation/text()"/>
-                        <xsl:text>](</xsl:text>
-                        <xsl:value-of select="sedola:documentation/@source"/>
-                        <xsl:text>)" | [**</xsl:text>
+                        <xsl:text> | [**</xsl:text>
                         <xsl:variable name="series" select="$specs//series[matches(current()/../@id, uri-pattern/text())]"/>
                         <xsl:variable name="id" select="replace(current()/../@id, $series/uri-pattern, '$1')"/>
                         <xsl:value-of select="replace($id, '^(..*)$', $series/uri-pattern/@name-pattern)"/>
