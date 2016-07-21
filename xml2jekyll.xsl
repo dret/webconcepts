@@ -204,7 +204,9 @@
                         </xsl:if>
                         <xsl:text>`](</xsl:text>
                         <xsl:value-of select="@def"/>
-                        <xsl:text>)</xsl:text>
+                        <xsl:text> "</xsl:text>
+                        <xsl:value-of select="replace(sedola:documentation/text(), '&#34;', '&amp;#34;')"/>
+                        <xsl:text>")</xsl:text>
                         <xsl:variable name="number-of-defs" select="count($allfiles//*[local-name() eq $concept/element-name/text()][@def eq current()/@def])"/>
                         <xsl:if test="$number-of-defs gt 1">
                             <xsl:text> &lt;sub></xsl:text>
