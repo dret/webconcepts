@@ -196,13 +196,15 @@
                     <xsl:text> | Specification&#xa;-------: | :---------- | :---&#xa;</xsl:text>
                     <xsl:for-each select="$allfiles//*[local-name() eq $concept/element-name/text()][exists(@def)]">
                         <xsl:sort select="@def"/>
-                        <xsl:text>`</xsl:text>
+                        <xsl:text>[`</xsl:text>
                         <xsl:value-of select="@def"/>
                         <xsl:if test="exists(@desc)">
                             <xsl:text>: </xsl:text>
                             <xsl:value-of select="@desc"/>
                         </xsl:if>
-                        <xsl:text>`</xsl:text>
+                        <xsl:text>`](</xsl:text>
+                        <xsl:value-of select="@def"/>
+                        <xsl:text>)</xsl:text>
                         <xsl:variable name="number-of-defs" select="count($allfiles//*[local-name() eq $concept/element-name/text()][@def eq current()/@def])"/>
                         <xsl:if test="$number-of-defs gt 1">
                             <xsl:text> &lt;sub></xsl:text>
