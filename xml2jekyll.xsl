@@ -194,17 +194,19 @@
                     <xsl:text>) is maintained by the [*Internet Assigned Numbers Authority (IANA)*](http://www.iana.org/).&#xa;&#xa;</xsl:text>
                     <xsl:value-of select="$concept/title-singular/text()"/>
                     <xsl:text> | Specification&#xa;-------: | :-------&#xa;</xsl:text>
-                    <xsl:for-each select="$allfiles//*[local-name() eq $concept/element-name/text()][exists(@def)]">
-                        <xsl:sort select="@def"/>
+                    <xsl:for-each select="distinct-values($allfiles//sedola:*[local-name() eq $concept/element-name/text()]/@def)">
+                        <xsl:sort select="."/>
+                        <xsl:variable name="concept-name" select="."/>
                         <xsl:text>[`</xsl:text>
-                        <xsl:value-of select="@def"/>
-                        <xsl:if test="exists(@desc)">
+                        <xsl:value-of select="$concept-name"/>
+                        <xsl:variable name="desc" select="$allfiles//sedola:*[local-name() eq $concept/element-name/text()][@def eq $concept-name][1]/@desc"/>
+                        <xsl:if test="exists($desc)">
                             <xsl:text>: </xsl:text>
-                            <xsl:value-of select="@desc"/>
+                            <xsl:value-of select="$desc"/>
                         </xsl:if>
                         <xsl:text>`](</xsl:text>
-                        <xsl:value-of select="@def"/>
-                        <xsl:variable name="number-of-defs" select="count($allfiles//*[local-name() eq $concept/element-name/text()][@def eq current()/@def])"/>
+                        <xsl:value-of select="$concept-name"/>
+                        <xsl:variable name="number-of-defs" select="count($allfiles//sedola:*[local-name() eq $concept/element-name/text()][@def eq $concept-name])"/>
                         <xsl:if test="$number-of-defs gt 1">
                             <xsl:text> "</xsl:text>
                             <xsl:value-of select="$number-of-defs"/>
@@ -212,7 +214,7 @@
                         </xsl:if>
                         <xsl:text>)</xsl:text>
                         <xsl:text> | </xsl:text>
-                        <xsl:for-each select="$allfiles//*[local-name() eq $concept/element-name/text()][@def eq current()/@def]">
+                        <xsl:for-each select="$allfiles//sedola:*[local-name() eq $concept/element-name/text()][@def eq $concept-name]">
                             <xsl:text>[**</xsl:text>
                             <xsl:variable name="series" select="$specs//series[matches(current()/../@id, uri-pattern/text())]"/>
                             <xsl:variable name="id" select="replace(current()/../@id, $series/uri-pattern, '$1')"/>
@@ -226,7 +228,7 @@
                             <xsl:text>")</xsl:text>
                             <xsl:choose>
                                 <xsl:when test="position() ne last()">
-                                    <xsl:text>; </xsl:text>
+                                    <xsl:text>&lt;br/></xsl:text>
                                 </xsl:when>
                                 <xsl:otherwise>
                                     <xsl:text>&#xa;</xsl:text>
