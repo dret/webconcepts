@@ -14,7 +14,7 @@ title:  "Encrypted Content-Encoding for HTTP"
 
 ### HTTP Header Fields
 
-[`Crypto-Key`](/concepts/http-header/Crypto-Key "This memo introduces a content-coding for HTTP that allows message payloads to be encrypted."), [`Encryption`](/concepts/http-header/Encryption "This memo introduces a content-coding for HTTP that allows message payloads to be encrypted.")
+[`Crypto-Key`](/concepts/http-header/Crypto-Key "A Crypto-Key header field can be used to describe the input keying material used in the Encryption header field."), [`Encryption`](/concepts/http-header/Encryption "The &#34;Encryption&#34; HTTP header field describes the encrypted content encoding(s) that have been applied to a message payload, and therefore how those content encoding(s) can be removed.")
 
 
 

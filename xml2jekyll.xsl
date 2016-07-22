@@ -162,7 +162,7 @@
                                             <xsl:text>`](/</xsl:text>
                                             <xsl:value-of select="concat($concepts-dir, '/', $concepts//concept[element-name eq current()/local-name()]/filename-singular, '/', @def)"/>
                                             <xsl:text> "</xsl:text>
-                                            <xsl:value-of select="replace(../sedola:documentation/text(), '&#34;', '&amp;#34;')"/>
+                                            <xsl:value-of select="replace(sedola:documentation/text(), '&#34;', '&amp;#34;')"/>
                                             <xsl:text>")</xsl:text>
                                             <xsl:choose>
                                                 <xsl:when test="position() ne last()">

@@ -14,7 +14,7 @@ title:  "Entry Point Regulation (EPR)"
 
 ### HTTP Header Fields
 
-[`EPR`](/concepts/http-header/EPR "Entry Point Regulation aims to mitigate the risk of reflected cross-site scripting (XSS), cross-site script inclusion (XSSI), and cross-site request forgery (CSRF) attacks by demarcating the areas of an application which are intended to be externally referencable. A specified policy is applied on external requests for all non-demarcated resources.")
+[`EPR`](/concepts/http-header/EPR "Servers may request the protections outlined by Entry Point Regulation (EPR) by sending an EPR HTTP response header field along with a response.")
 
 
 

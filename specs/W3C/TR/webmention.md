@@ -14,7 +14,7 @@ title:  "Webmention"
 
 ### Link Relations
 
-[`webmention`](/concepts/link-relation/webmention "Webmention is a simple way to notify any URL when you link to it on your site. From the receiver's perspective, it's a way to request notifications when other sites link to it.")
+[`webmention`](/concepts/link-relation/webmention "Identifies a target URI that supports the Webmention protocol. This allows clients that mention a resource in some form of publishing process to contact that endpoint and inform it that this resource has been mentioned.")
 
 
 

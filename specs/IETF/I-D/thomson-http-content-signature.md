@@ -14,7 +14,7 @@ title:  "Content-Signature Header Field for HTTP"
 
 ### HTTP Header Fields
 
-[`Content-Signature`](/concepts/http-header/Content-Signature "A Content-Signature header field is defined for use in HTTP. This header field carries a signature of the payload body of a message.")
+[`Content-Signature`](/concepts/http-header/Content-Signature "The Content-Signature header field carries a signature of the payload body of an HTTP message. This allows for content to be protected from modification.")
 
 
 

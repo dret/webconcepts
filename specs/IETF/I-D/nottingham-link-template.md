@@ -14,7 +14,7 @@ title:  "The Link-Template HTTP Header Field"
 
 ### HTTP Header Fields
 
-[`Link-Template`](/concepts/http-header/Link-Template "This specification defines the Link-Template HTTP header field, providing a means for describing the structure of a link between two resources, so that new links can be generated.")
+[`Link-Template`](/concepts/http-header/Link-Template "The Link-Template entity-header field provides a means for serialising one or more links into HTTP headers. It is semantically equivalent to the Link header field, except that it uses URI Templates to convey the structure of links.")
 
 
 

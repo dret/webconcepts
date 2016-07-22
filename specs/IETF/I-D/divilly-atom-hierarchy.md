@@ -14,7 +14,7 @@ title:  "Hierarchy Relations for Atom"
 
 ### Link Relations
 
-[`down`](/concepts/link-relation/down "Many applications, besides blogs, provide their data in the form of syndicated Web feeds using formats such as Atom. Some such applications organize Atom Entries in a hierarchical fashion similar to a file system. This specification describes a means of communicating about Atom Entries that are hierarchically related to each other since resource identifiers are opaque to clients and cannot be directly manipulated for the purposes of representation exchange, i.e., navigation. This specification proposes new link relations for hierarchically related Atom resources."), [`up`](/concepts/link-relation/up "Many applications, besides blogs, provide their data in the form of syndicated Web feeds using formats such as Atom. Some such applications organize Atom Entries in a hierarchical fashion similar to a file system. This specification describes a means of communicating about Atom Entries that are hierarchically related to each other since resource identifiers are opaque to clients and cannot be directly manipulated for the purposes of representation exchange, i.e., navigation. This specification proposes new link relations for hierarchically related Atom resources.")
+[`down`](/concepts/link-relation/down "An Atom link element with a rel attribute value of &#34;down&#34; may be used to reference a resource where child entries of an entry may be found."), [`up`](/concepts/link-relation/up "An Atom link element with a rel attribute value of &#34;up&#34; may be used to reference a resource where parent entries of an entry or a feed may be found.")
 
 
 

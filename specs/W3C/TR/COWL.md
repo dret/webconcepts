@@ -14,7 +14,7 @@ title:  "Confinement with Origin Web Labels"
 
 ### HTTP Header Fields
 
-[`Sec-COWL`](/concepts/http-header/Sec-COWL "This specification defines an API for specifying privacy and integrity policies on data, in the form of origin labels, and a mechanism for confining code according to such policies. This allows Web application authors and server operators to share data with untrusted—buggy but not malicious—code (e.g., in a mashup scenario) yet impose restrictions on how the code can share the data further.")
+[`Sec-COWL`](/concepts/http-header/Sec-COWL "The Sec-COWL HTTP request and response headers are used by user agents and servers to convey label metadata to servers and user agents, respectively.")
 
 
 

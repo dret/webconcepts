@@ -14,7 +14,7 @@ title:  "Accept-Push-Policy Header Field"
 
 ### HTTP Header Fields
 
-[`Accept-Push-Policy`](/concepts/http-header/Accept-Push-Policy "The &#34;Accept-Push-Policy&#34; and &#34;Push-Policy&#34; header fields enable a client and a server to negotiate the behaviour of the server regarding the usage of push on a per-request basis."), [`Push-Policy`](/concepts/http-header/Push-Policy "The &#34;Accept-Push-Policy&#34; and &#34;Push-Policy&#34; header fields enable a client and a server to negotiate the behaviour of the server regarding the usage of push on a per-request basis.")
+[`Accept-Push-Policy`](/concepts/http-header/Accept-Push-Policy "A client can express the desired push policy for a request by sending an &#34;Accept-Push-Policy&#34; header field in the request. The header field value contains the push policy that the client expects the server to use when processing the request."), [`Push-Policy`](/concepts/http-header/Push-Policy "A server can indicate to a client the push policy it used when processing a request by sending a &#34;Push-Policy&#34; header field in the corresponding response.")
 
 
 

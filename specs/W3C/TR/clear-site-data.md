@@ -14,7 +14,7 @@ title:  "Clear Site Data"
 
 ### HTTP Header Fields
 
-[`Clear-Site-Data`](/concepts/http-header/Clear-Site-Data "This document defines an imperative mechanism which allows web developers to instruct a user agent to clear a user's locally stored data related to a host and its subdomains.")
+[`Clear-Site-Data`](/concepts/http-header/Clear-Site-Data "The Clear-Site-Data HTTP response header field sends a signal to the user agent that it ought to remove all data of a certain set of types.")
 
 
 

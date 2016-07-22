@@ -14,11 +14,11 @@ title:  "Protocol for Web Description Resources (POWDER): Description Resources"
 
 ### Media Types
 
-[`application/powder+xml`](/concepts/media-type/application/powder+xml "The purpose of the Protocol for Web Description Resources (POWDER) is to provide a means for individuals or organizations to describe a group of resources through the publication of machine-readable metadata, as motivated by the POWDER Use Cases. This document details the creation and lifecycle of Description Resources (DRs), which encapsulate such metadata. These are typically represented in a highly constrained XML dialect that is relatively human-readable. The meaning of such DRs are underpinned by formal semantics, accessible by performing a GRDDL Transform."), [`application/powder-s+xml`](/concepts/media-type/application/powder-s+xml "The purpose of the Protocol for Web Description Resources (POWDER) is to provide a means for individuals or organizations to describe a group of resources through the publication of machine-readable metadata, as motivated by the POWDER Use Cases. This document details the creation and lifecycle of Description Resources (DRs), which encapsulate such metadata. These are typically represented in a highly constrained XML dialect that is relatively human-readable. The meaning of such DRs are underpinned by formal semantics, accessible by performing a GRDDL Transform.")
+[`application/powder+xml`](/concepts/media-type/application/powder+xml ""), [`application/powder-s+xml`](/concepts/media-type/application/powder-s+xml "")
 
 ### Link Relations
 
-[`describedby`](/concepts/link-relation/describedby "The purpose of the Protocol for Web Description Resources (POWDER) is to provide a means for individuals or organizations to describe a group of resources through the publication of machine-readable metadata, as motivated by the POWDER Use Cases. This document details the creation and lifecycle of Description Resources (DRs), which encapsulate such metadata. These are typically represented in a highly constrained XML dialect that is relatively human-readable. The meaning of such DRs are underpinned by formal semantics, accessible by performing a GRDDL Transform.")
+[`describedby`](/concepts/link-relation/describedby "The relationship A 'describedby' B asserts that resource B provides a description of resource A. There are no constraints on the format or representation of either A or B, neither are there any further constraints on either resource.")
 
 
 

@@ -14,11 +14,11 @@ title:  "Linked Data Platform 1.0 (LDP)"
 
 ### HTTP Header Fields
 
-[`Accept-Post`](/concepts/http-header/Accept-Post "Linked Data Platform (LDP) defines a set of rules for HTTP operations on web resources, some based on RDF, to provide an architecture for read-write Linked Data on the web.")
+[`Accept-Post`](/concepts/http-header/Accept-Post "The Accept-Post HTTP header SHOULD appear in the OPTIONS response for any resource that supports the use of the POST method. The presence of the Accept-Post header in response to any method is an implicit indication that POST is allowed on the resource identified by the Request-URI. The presence of a specific document format in this header indicates that that specific format is allowed on POST requests to the resource identified by the Request-URI.")
 
 ### Link Relations
 
-[`describedby`](/concepts/link-relation/describedby "Linked Data Platform (LDP) defines a set of rules for HTTP operations on web resources, some based on RDF, to provide an architecture for read-write Linked Data on the web.")
+[`describedby`](/concepts/link-relation/describedby "The relationship A describedby B asserts that resource B provides a description of resource A. There are no constraints on the format or representation of either A or B, neither are there any further constraints on either resource.")
 
 
 

@@ -14,7 +14,7 @@ title:  "Content Security Policy Pinning"
 
 ### HTTP Header Fields
 
-[`Content-Security-Policy-Pin`](/concepts/http-header/Content-Security-Policy-Pin "This document defines a new HTTP header that allows authors to instruct user agents to remember (&#34;pin&#34;) and enforce a Content Security Policy for a set of hosts for a period of time."), [`Content-Security-Policy-Report-Only-Pin`](/concepts/http-header/Content-Security-Policy-Report-Only-Pin "This document defines a new HTTP header that allows authors to instruct user agents to remember (&#34;pin&#34;) and enforce a Content Security Policy for a set of hosts for a period of time.")
+[`Content-Security-Policy-Pin`](/concepts/http-header/Content-Security-Policy-Pin "The Content-Security-Policy-Pin header field is the mechanism for delivering a pinned policy that the user agent MUST enforce for any resource which is not delivered with a Content-Security-Policy header (as described in the &#34;Pin a policy to response&#34; algorithm)."), [`Content-Security-Policy-Report-Only-Pin`](/concepts/http-header/Content-Security-Policy-Report-Only-Pin "The Content-Security-Policy-Report-Only-Pin header field is the mechanism for delivering a pinned policy that the user agent MUST monitor for any resource which is not delivered with a Content-Security-Policy-Report-Only header (as described in the &#34;Pin a policy to response&#34; algorithm).")
 
 
 

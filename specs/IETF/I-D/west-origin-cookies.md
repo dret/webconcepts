@@ -14,7 +14,7 @@ title:  "Origin Cookies"
 
 ### HTTP Header Fields
 
-[`Origin-Cookie`](/concepts/http-header/Origin-Cookie "This document updates RFC 6265, defining the &#34;origin&#34; attribute for cookies and the &#34;Origin-Cookie&#34; header field, which together allow servers to choose to harmonize the security policy of their cookies with the same-origin policy which governs other available client-side storage mechanisms.")
+[`Origin-Cookie`](/concepts/http-header/Origin-Cookie "The user agent includes stored cookies whose &#34;origin-flag&#34; is set in the &#34;Origin-Cookie&#34; request header. When the user agent generates an HTTP request, it MUST NOT attach more than one &#34;Origin-Cookie&#34; header field.")
 
 
 
