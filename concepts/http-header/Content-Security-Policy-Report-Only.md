@@ -8,9 +8,9 @@ title:  "HTTP Header Field: Content-Security-Policy-Report-Only"
 <br/>
 <hr/>
 
-<p style="text-align: right"><a href="../http-headers">Return to list of all HTTP Header Fields</a></p>**[W3C TR http://www.w3.org/TR/CSP3: Content Security Policy Level 3](/specs/W3C/TR/CSP3 "This document defines a mechanism by which web developers can control the resources which a particular page can fetch or execute, as well as a number of security-relevant policy decisions."):** [The Content-Security-Policy-Report-Only HTTP response header field allows web developers to experiment with policies by monitoring (but not enforcing) their effects.](http://www.w3.org/TR/CSP3/#cspro-header)
+<p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>**[W3C TR http://www.w3.org/TR/CSP3: Content Security Policy Level 3](/specs/W3C/TR/CSP3 "This document defines a mechanism by which web developers can control the resources which a particular page can fetch or execute, as well as a number of security-relevant policy decisions."):** [The Content-Security-Policy-Report-Only HTTP response header field allows web developers to experiment with policies by monitoring (but not enforcing) their effects.](http://www.w3.org/TR/CSP3/#cspro-header)
 
 <br/>
 <hr/>
 
-<p style="text-align: right"><a href="../http-headers">Return to list of all HTTP Header Fields</a></p>
+<p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

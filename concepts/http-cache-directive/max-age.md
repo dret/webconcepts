@@ -8,4 +8,4 @@ title:  "HTTP Cache Directive: max-age"
 <br/>
 <hr/>
 
-<p style="text-align: right"><a href="../http-cache-directives">Return to list of all HTTP Cache Directives</a></p>
+<p style="text-align: right">Return to list of all ( <a href="../http-cache-directives">HTTP Cache Directives</a> | <a href="../">Web Concepts</a> )</p>

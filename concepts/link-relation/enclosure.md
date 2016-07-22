@@ -8,4 +8,4 @@ title:  "Link Relation: enclosure"
 <br/>
 <hr/>
 
-<p style="text-align: right"><a href="../link-relations">Return to list of all Link Relations</a></p>
+<p style="text-align: right">Return to list of all ( <a href="../link-relations">Link Relations</a> | <a href="../">Web Concepts</a> )</p>

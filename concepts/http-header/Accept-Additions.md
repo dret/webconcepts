@@ -8,9 +8,9 @@ title:  "HTTP Header Field: Accept-Additions"
 <br/>
 <hr/>
 
-<p style="text-align: right"><a href="../http-headers">Return to list of all HTTP Header Fields</a></p>**[RFC 7168: The Hyper Text Coffee Pot Control Protocol for Tea Efflux Appliances (HTCPCP-TEA)](/specs/IETF/RFC/7168 "The Hyper Text Coffee Pot Control Protocol (HTCPCP) specification does not allow for the brewing of tea, in all its variety and complexity. This paper outlines an extension to HTCPCP to allow for pots to provide networked tea-brewing facilities."):** [It has been observed that some users of blended teas have an occasional preference for teas brewed as an emulsion of cane sugar with hints of water. To allow for this circumstance, the Accept-Additions header field defined in the base HTCPCP specification is updated to allow the following options.](http://tools.ietf.org/html/rfc7168#section-2.2.1)
+<p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>**[RFC 7168: The Hyper Text Coffee Pot Control Protocol for Tea Efflux Appliances (HTCPCP-TEA)](/specs/IETF/RFC/7168 "The Hyper Text Coffee Pot Control Protocol (HTCPCP) specification does not allow for the brewing of tea, in all its variety and complexity. This paper outlines an extension to HTCPCP to allow for pots to provide networked tea-brewing facilities."):** [It has been observed that some users of blended teas have an occasional preference for teas brewed as an emulsion of cane sugar with hints of water. To allow for this circumstance, the Accept-Additions header field defined in the base HTCPCP specification is updated to allow the following options.](http://tools.ietf.org/html/rfc7168#section-2.2.1)
 
 <br/>
 <hr/>
 
-<p style="text-align: right"><a href="../http-headers">Return to list of all HTTP Header Fields</a></p>
+<p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

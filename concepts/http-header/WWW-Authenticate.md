@@ -8,9 +8,9 @@ title:  "HTTP Header Field: WWW-Authenticate"
 <br/>
 <hr/>
 
-<p style="text-align: right"><a href="../http-headers">Return to list of all HTTP Header Fields</a></p>**[RFC 7616: HTTP Digest Access Authentication](/specs/IETF/RFC/7616 "The Hypertext Transfer Protocol (HTTP) provides a simple challenge-response authentication mechanism that may be used by a server to challenge a client request and by a client to provide authentication information. This document defines the HTTP Digest Authentication scheme that can be used with the HTTP authentication mechanism."):** [If a server receives a request for an access-protected object, and an acceptable Authorization header is not sent, the server responds with a "401 Unauthorized" status code, and a WWW-Authenticate header as per the framework defined above.](http://tools.ietf.org/html/rfc7616#section-3.3)
+<p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>**[RFC 7616: HTTP Digest Access Authentication](/specs/IETF/RFC/7616 "The Hypertext Transfer Protocol (HTTP) provides a simple challenge-response authentication mechanism that may be used by a server to challenge a client request and by a client to provide authentication information. This document defines the HTTP Digest Authentication scheme that can be used with the HTTP authentication mechanism."):** [If a server receives a request for an access-protected object, and an acceptable Authorization header is not sent, the server responds with a "401 Unauthorized" status code, and a WWW-Authenticate header as per the framework defined above.](http://tools.ietf.org/html/rfc7616#section-3.3)
 
 <br/>
 <hr/>
 
-<p style="text-align: right"><a href="../http-headers">Return to list of all HTTP Header Fields</a></p>
+<p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

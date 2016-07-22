@@ -8,4 +8,4 @@ title:  "HTTP Request Method: UPDATE"
 <br/>
 <hr/>
 
-<p style="text-align: right"><a href="../http-methods">Return to list of all HTTP Request Methods</a></p>
+<p style="text-align: right">Return to list of all ( <a href="../http-methods">HTTP Request Methods</a> | <a href="../">Web Concepts</a> )</p>

@@ -8,4 +8,4 @@ title:  "Media Type: application/json"
 <br/>
 <hr/>
 
-<p style="text-align: right"><a href="../media-types">Return to list of all Media Types</a></p>
+<p style="text-align: right">Return to list of all ( <a href="../media-types">Media Types</a> | <a href="../">Web Concepts</a> )</p>
