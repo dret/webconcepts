@@ -263,7 +263,7 @@
                                 <xsl:text>[</xsl:text>
                                 <xsl:value-of select="sedola:documentation"/>
                                 <xsl:text>](</xsl:text>
-                                <xsl:value-of select="sedola/documentation/@source"/>
+                                <xsl:value-of select="sedola:documentation/@source"/>
                                 <xsl:text>)&#xa;&#xa;</xsl:text>
                             </xsl:for-each>
                         </xsl:result-document>
