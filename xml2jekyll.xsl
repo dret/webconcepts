@@ -268,6 +268,12 @@
                                 <xsl:text>](</xsl:text>
                                 <xsl:value-of select="sedola:documentation/@source"/>
                                 <xsl:text>)&#xa;&#xa;</xsl:text>
+                                <xsl:text>&lt;br/>&#xa;&lt;hr/>&#xa;&#xa;</xsl:text>
+                                <xsl:text>&lt;p style="text-align: right">&lt;a href="../</xsl:text>
+                                <xsl:value-of select="$concept/filename-plural/text()"/>
+                                <xsl:text>">Return to list of all </xsl:text>
+                                <xsl:value-of select="$concept/title-plural/text()"/>
+                                <xsl:text>&lt;/a>&lt;/p></xsl:text>
                             </xsl:for-each>
                         </xsl:result-document>
                     </xsl:for-each>

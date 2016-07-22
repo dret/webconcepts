@@ -5,3 +5,7 @@ title:  "HTTP Header Field: Security-Scheme"
 
 **[RFC 2660: The Secure HyperText Transfer Protocol (S-HTTP)](/specs/IETF/RFC/2660 "This memo describes a syntax for securing messages sent using the Hypertext Transfer Protocol (HTTP), which forms the basis for the World Wide Web. Secure HTTP (S-HTTP) provides independently applicable security services for transaction confidentiality, authenticity/integrity and non-repudiability of origin. The protocol emphasizes maximum flexibility in choice of key management mechanisms, security policies and cryptographic algorithms by supporting option negotiation between parties for each transaction."):** [All S-HTTP compliant agents must generate the Security-Scheme header in the headers of all HTTP messages they generate. This header permits other agents to detect that they are communicating with an S-HTTP compliant agent and generate the appropriate cryptographic options headers.](http://tools.ietf.org/html/rfc2660#section-4.1)
 
+<br/>
+<hr/>
+
+<p style="text-align: right"><a href="../http-headers">Return to list of all HTTP Header Fields</a></p>

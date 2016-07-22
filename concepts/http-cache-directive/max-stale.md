@@ -5,3 +5,7 @@ title:  "HTTP Cache Directive: max-stale"
 
 **[RFC 7234: Hypertext Transfer Protocol (HTTP/1.1): Caching](/specs/IETF/RFC/7234 "The Hypertext Transfer Protocol (HTTP) is an application-level protocol for distributed, collaborative, hypertext information systems. This document defines requirements on HTTP caches and the associated header fields that control cache behavior or indicate cacheable response messages."):** [The "max-stale" request directive indicates that the client is willing to accept a response that has exceeded its freshness lifetime. If max-stale is assigned a value, then the client is willing to accept a response that has exceeded its freshness lifetime by no more than the specified number of seconds. If no value is assigned to max-stale, then the client is willing to accept a stale response of any age.](http://tools.ietf.org/html/rfc7234#section-5.2.1.2)
 
+<br/>
+<hr/>
+
+<p style="text-align: right"><a href="../http-cache-directives">Return to list of all HTTP Cache Directives</a></p>
