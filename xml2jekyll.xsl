@@ -168,11 +168,11 @@
                 <xsl:text>* [</xsl:text>
                 <xsl:value-of select="title-plural"/>
                 <xsl:text>](</xsl:text>
-                <xsl:value-of select="filename"/>
+                <xsl:value-of select="filename-plural"/>
                 <xsl:text>) (</xsl:text>
                 <xsl:value-of select="count(distinct-values($allfiles//sedola:*[local-name() eq current()/element-name/text()]/@def))"/>
                 <xsl:text> entries)&#xa;</xsl:text>
-                <xsl:result-document href="{$concepts-dir}/{filename}/index.md" format="jekyll">
+                <xsl:result-document href="{$concepts-dir}/{filename-plural}.md" format="jekyll">
                     <xsl:text>---&#xa;</xsl:text>
                     <xsl:text>layout: page&#xa;</xsl:text>
                     <xsl:text>title:  "</xsl:text>
@@ -205,7 +205,7 @@
                             <xsl:value-of select="$desc"/>
                         </xsl:if>
                         <xsl:text>`](</xsl:text>
-                        <xsl:value-of select="$concept-name"/>
+                        <xsl:value-of select="concat('../', $concept/filename-singular, '/', $concept-name)"/>
                         <xsl:variable name="number-of-defs" select="count($allfiles//sedola:*[local-name() eq $concept/element-name/text()][@def eq $concept-name])"/>
                         <xsl:if test="$number-of-defs gt 1">
                             <xsl:text> "</xsl:text>
@@ -235,6 +235,20 @@
                                 </xsl:otherwise>
                             </xsl:choose>
                         </xsl:for-each>
+                        <xsl:result-document href="{$concepts-dir}/{$concept/filename-singular}/{$concept-name}.md" format="jekyll">
+                            <xsl:text>---&#xa;</xsl:text>
+                            <xsl:text>layout: page&#xa;</xsl:text>
+                            <xsl:text>title:  "</xsl:text>
+                            <xsl:value-of select="$concept/title-singular/text()"/>
+                            <xsl:text>: </xsl:text>
+                            <xsl:value-of select="$concept-name"/>
+                            <xsl:if test="exists($desc)">
+                                <xsl:text>: </xsl:text>
+                                <xsl:value-of select="$desc"/>
+                            </xsl:if>
+                            <xsl:text>"&#xa;</xsl:text>
+                            <xsl:text>---&#xa;&#xa;</xsl:text>
+                        </xsl:result-document>
                     </xsl:for-each>
                 </xsl:result-document>
             </xsl:for-each>
