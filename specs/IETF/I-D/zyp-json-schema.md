@@ -12,4 +12,13 @@ title:  "A JSON Media Type for Describing the Structure and Meaning of JSON Docu
 <br/>
 <hr/>
 
+### Link Relations
+
+[`create`](/concepts/link-relation/create "JSON (JavaScript Object Notation) Schema defines the media type &#34;application/schema+json&#34;, a JSON based format for defining the structure of JSON data. JSON Schema provides a contract for what JSON data is required for a given application and how to interact with it. JSON Schema is intended to define validation, documentation, hyperlink navigation, and interaction control of JSON data."), [`full`](/concepts/link-relation/full "JSON (JavaScript Object Notation) Schema defines the media type &#34;application/schema+json&#34;, a JSON based format for defining the structure of JSON data. JSON Schema provides a contract for what JSON data is required for a given application and how to interact with it. JSON Schema is intended to define validation, documentation, hyperlink navigation, and interaction control of JSON data."), [`instances`](/concepts/link-relation/instances "JSON (JavaScript Object Notation) Schema defines the media type &#34;application/schema+json&#34;, a JSON based format for defining the structure of JSON data. JSON Schema provides a contract for what JSON data is required for a given application and how to interact with it. JSON Schema is intended to define validation, documentation, hyperlink navigation, and interaction control of JSON data."), [`root`](/concepts/link-relation/root "JSON (JavaScript Object Notation) Schema defines the media type &#34;application/schema+json&#34;, a JSON based format for defining the structure of JSON data. JSON Schema provides a contract for what JSON data is required for a given application and how to interact with it. JSON Schema is intended to define validation, documentation, hyperlink navigation, and interaction control of JSON data.")
+
+
+
+<br/>
+<hr/>
+
 <p style="text-align: right">Return to ( <a href="./">Series</a> | <a href="../">Organization</a> | <a href="../../">all Specifications</a> )</p>

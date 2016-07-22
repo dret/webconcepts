@@ -12,4 +12,13 @@ title:  "The Link-Template HTTP Header Field"
 <br/>
 <hr/>
 
+### HTTP Header Fields
+
+[`Link-Template`](/concepts/http-header/Link-Template "This specification defines the Link-Template HTTP header field, providing a means for describing the structure of a link between two resources, so that new links can be generated.")
+
+
+
+<br/>
+<hr/>
+
 <p style="text-align: right">Return to ( <a href="./">Series</a> | <a href="../">Organization</a> | <a href="../../">all Specifications</a> )</p>

@@ -151,6 +151,31 @@
                                     <xsl:value-of select="sedola:documentation/text()"/>
                                     <xsl:text>&#xa;&#xa;</xsl:text>
                                     <xsl:text>&lt;br/>&#xa;&lt;hr/>&#xa;&#xa;</xsl:text>
+                                    <xsl:for-each-group select="sedola:*[local-name() = $concepts//element-name/text()]" group-by="local-name()">
+                                        <xsl:text>### </xsl:text>
+                                        <xsl:value-of select="$concepts//concept[element-name eq current()/local-name()]/title-plural"/>
+                                        <xsl:text>&#xa;&#xa;</xsl:text>
+                                        <xsl:for-each select="current-group()">
+                                            <xsl:sort select="@def"/>
+                                            <xsl:text>[`</xsl:text>
+                                            <xsl:value-of select="@def"/>
+                                            <xsl:text>`](/</xsl:text>
+                                            <xsl:value-of select="concat($concepts-dir, '/', $concepts//concept[element-name eq current()/local-name()]/filename-singular, '/', @def)"/>
+                                            <xsl:text> "</xsl:text>
+                                            <xsl:value-of select="replace(../sedola:documentation/text(), '&#34;', '&amp;#34;')"/>
+                                            <xsl:text>")</xsl:text>
+                                            <xsl:choose>
+                                                <xsl:when test="position() ne last()">
+                                                    <xsl:text>, </xsl:text>
+                                                </xsl:when>
+                                                <xsl:otherwise>
+                                                    <xsl:text>&#xa;&#xa;</xsl:text>
+                                                </xsl:otherwise>
+                                            </xsl:choose>
+                                        </xsl:for-each>
+                                    </xsl:for-each-group>
+                                    <xsl:text>&#xa;&#xa;</xsl:text>
+                                    <xsl:text>&lt;br/>&#xa;&lt;hr/>&#xa;&#xa;</xsl:text>
                                     <xsl:text>&lt;p style="text-align: right">Return to ( &lt;a href="./">Series&lt;/a> | &lt;a href="../">Organization&lt;/a> | &lt;a href="../../">all Specifications&lt;/a> )&lt;/p></xsl:text>
                                 </xsl:result-document>
                             </xsl:for-each>

@@ -12,4 +12,13 @@ title:  "Home Documents for HTTP APIs"
 <br/>
 <hr/>
 
+### Media Types
+
+[`application/home+json`](/concepts/media-type/application/home+json "This document proposes a &#34;home document&#34; format for non-browser HTTP clients.")
+
+
+
+<br/>
+<hr/>
+
 <p style="text-align: right">Return to ( <a href="./">Series</a> | <a href="../">Organization</a> | <a href="../../">all Specifications</a> )</p>

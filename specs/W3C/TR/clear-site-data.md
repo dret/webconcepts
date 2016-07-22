@@ -12,4 +12,13 @@ title:  "Clear Site Data"
 <br/>
 <hr/>
 
+### HTTP Header Fields
+
+[`Clear-Site-Data`](/concepts/http-header/Clear-Site-Data "This document defines an imperative mechanism which allows web developers to instruct a user agent to clear a user's locally stored data related to a host and its subdomains.")
+
+
+
+<br/>
+<hr/>
+
 <p style="text-align: right">Return to ( <a href="./">Series</a> | <a href="../">Organization</a> | <a href="../../">all Specifications</a> )</p>

@@ -12,4 +12,13 @@ title:  "Preload"
 <br/>
 <hr/>
 
+### Link Relations
+
+[`preload`](/concepts/link-relation/preload "This specification defines the preload keyword that may be used with link elements. This keyword provides a declarative fetch primitive that initiates an early fetch and separates fetching from resource execution.")
+
+
+
+<br/>
+<hr/>
+
 <p style="text-align: right">Return to ( <a href="./">Series</a> | <a href="../">Organization</a> | <a href="../../">all Specifications</a> )</p>

@@ -12,4 +12,13 @@ title:  "Marking HTTP Requests as Unimportant"
 <br/>
 <hr/>
 
+### HTTP Header Fields
+
+[`Nice`](/concepts/http-header/Nice "An HTTP &#34;Nice&#34; header field is defined that marks a request as low priority. Intermediaries can choose to discard the request or serve it from cache rather than forwarding it to an origin server. This enables constrained origin servers, such as those that rely on battery power, to avoid expending limited resources on serving requests.")
+
+
+
+<br/>
+<hr/>
+
 <p style="text-align: right">Return to ( <a href="./">Series</a> | <a href="../">Organization</a> | <a href="../../">all Specifications</a> )</p>

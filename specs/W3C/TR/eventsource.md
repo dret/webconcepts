@@ -12,4 +12,17 @@ title:  "Server-Sent Events"
 <br/>
 <hr/>
 
+### Media Types
+
+[`text/event-stream`](/concepts/media-type/text/event-stream " specification defines an API for opening an HTTP connection for receiving push notifications from a server in the form of DOM events. The API is designed such that it can be extended to work with other push notification schemes such as Push SMS.")
+
+### HTTP Header Fields
+
+[`Last-Event-ID`](/concepts/http-header/Last-Event-ID " specification defines an API for opening an HTTP connection for receiving push notifications from a server in the form of DOM events. The API is designed such that it can be extended to work with other push notification schemes such as Push SMS.")
+
+
+
+<br/>
+<hr/>
+
 <p style="text-align: right">Return to ( <a href="./">Series</a> | <a href="../">Organization</a> | <a href="../../">all Specifications</a> )</p>

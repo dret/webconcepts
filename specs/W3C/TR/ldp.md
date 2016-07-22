@@ -12,4 +12,17 @@ title:  "Linked Data Platform 1.0 (LDP)"
 <br/>
 <hr/>
 
+### HTTP Header Fields
+
+[`Accept-Post`](/concepts/http-header/Accept-Post "Linked Data Platform (LDP) defines a set of rules for HTTP operations on web resources, some based on RDF, to provide an architecture for read-write Linked Data on the web.")
+
+### Link Relations
+
+[`describedby`](/concepts/link-relation/describedby "Linked Data Platform (LDP) defines a set of rules for HTTP operations on web resources, some based on RDF, to provide an architecture for read-write Linked Data on the web.")
+
+
+
+<br/>
+<hr/>
+
 <p style="text-align: right">Return to ( <a href="./">Series</a> | <a href="../">Organization</a> | <a href="../../">all Specifications</a> )</p>

@@ -12,4 +12,13 @@ title:  "Origin Cookies"
 <br/>
 <hr/>
 
+### HTTP Header Fields
+
+[`Origin-Cookie`](/concepts/http-header/Origin-Cookie "This document updates RFC 6265, defining the &#34;origin&#34; attribute for cookies and the &#34;Origin-Cookie&#34; header field, which together allow servers to choose to harmonize the security policy of their cookies with the same-origin policy which governs other available client-side storage mechanisms.")
+
+
+
+<br/>
+<hr/>
+
 <p style="text-align: right">Return to ( <a href="./">Series</a> | <a href="../">Organization</a> | <a href="../../">all Specifications</a> )</p>

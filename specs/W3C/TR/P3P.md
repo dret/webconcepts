@@ -12,4 +12,13 @@ title:  "The Platform for Privacy Preferences 1.0 (P3P1.0) Specification"
 <br/>
 <hr/>
 
+### HTTP Header Fields
+
+[`P3P`](/concepts/http-header/P3P "This is the specification of the Platform for Privacy Preferences (P3P). This document, along with its normative references, includes all the specification necessary for the implementation of interoperable P3P applications.")
+
+
+
+<br/>
+<hr/>
+
 <p style="text-align: right">Return to ( <a href="./">Series</a> | <a href="../">Organization</a> | <a href="../../">all Specifications</a> )</p>

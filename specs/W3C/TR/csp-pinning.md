@@ -12,4 +12,13 @@ title:  "Content Security Policy Pinning"
 <br/>
 <hr/>
 
+### HTTP Header Fields
+
+[`Content-Security-Policy-Pin`](/concepts/http-header/Content-Security-Policy-Pin "This document defines a new HTTP header that allows authors to instruct user agents to remember (&#34;pin&#34;) and enforce a Content Security Policy for a set of hosts for a period of time."), [`Content-Security-Policy-Report-Only-Pin`](/concepts/http-header/Content-Security-Policy-Report-Only-Pin "This document defines a new HTTP header that allows authors to instruct user agents to remember (&#34;pin&#34;) and enforce a Content Security Policy for a set of hosts for a period of time.")
+
+
+
+<br/>
+<hr/>
+
 <p style="text-align: right">Return to ( <a href="./">Series</a> | <a href="../">Organization</a> | <a href="../../">all Specifications</a> )</p>

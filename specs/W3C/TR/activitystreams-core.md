@@ -12,4 +12,13 @@ title:  "Activity Streams 2.0"
 <br/>
 <hr/>
 
+### Media Types
+
+[`application/activity+json`](/concepts/media-type/application/activity+json "This specification details a model for representing potential and completed activities using the JSON format.")
+
+
+
+<br/>
+<hr/>
+
 <p style="text-align: right">Return to ( <a href="./">Series</a> | <a href="../">Organization</a> | <a href="../../">all Specifications</a> )</p>

@@ -12,4 +12,13 @@ title:  "Notification for Proxy Caches"
 <br/>
 <hr/>
 
+### HTTP Header Fields
+
+[`Proxy-Features`](/concepts/http-header/Proxy-Features "A mechanism to enable better functioning of proxies is proposed. This mechanism allows proxies to inform a remote server about transactions performed using the cache and for servers to inform proxies when data becomes stale."), [`Proxy-Instruction`](/concepts/http-header/Proxy-Instruction "A mechanism to enable better functioning of proxies is proposed. This mechanism allows proxies to inform a remote server about transactions performed using the cache and for servers to inform proxies when data becomes stale.")
+
+
+
+<br/>
+<hr/>
+
 <p style="text-align: right">Return to ( <a href="./">Series</a> | <a href="../">Organization</a> | <a href="../../">all Specifications</a> )</p>

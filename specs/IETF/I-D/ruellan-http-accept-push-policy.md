@@ -12,4 +12,13 @@ title:  "Accept-Push-Policy Header Field"
 <br/>
 <hr/>
 
+### HTTP Header Fields
+
+[`Accept-Push-Policy`](/concepts/http-header/Accept-Push-Policy "The &#34;Accept-Push-Policy&#34; and &#34;Push-Policy&#34; header fields enable a client and a server to negotiate the behaviour of the server regarding the usage of push on a per-request basis."), [`Push-Policy`](/concepts/http-header/Push-Policy "The &#34;Accept-Push-Policy&#34; and &#34;Push-Policy&#34; header fields enable a client and a server to negotiate the behaviour of the server regarding the usage of push on a per-request basis.")
+
+
+
+<br/>
+<hr/>
+
 <p style="text-align: right">Return to ( <a href="./">Series</a> | <a href="../">Organization</a> | <a href="../../">all Specifications</a> )</p>

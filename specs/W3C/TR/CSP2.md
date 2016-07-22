@@ -12,4 +12,13 @@ title:  "Content Security Policy Level 2"
 <br/>
 <hr/>
 
+### HTTP Header Fields
+
+[`Content-Security-Policy`](/concepts/http-header/Content-Security-Policy "This document defines a policy language used to declare a set of content restrictions for a web resource, and a mechanism for transmitting the policy from a server to a client where the policy is enforced."), [`Content-Security-Policy-Report-Only`](/concepts/http-header/Content-Security-Policy-Report-Only "This document defines a policy language used to declare a set of content restrictions for a web resource, and a mechanism for transmitting the policy from a server to a client where the policy is enforced.")
+
+
+
+<br/>
+<hr/>
+
 <p style="text-align: right">Return to ( <a href="./">Series</a> | <a href="../">Organization</a> | <a href="../../">all Specifications</a> )</p>
