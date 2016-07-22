@@ -249,17 +249,17 @@
                             <xsl:text>"&#xa;</xsl:text>
                             <xsl:text>---&#xa;&#xa;</xsl:text>
                             <xsl:for-each select="$allfiles//sedola:*[local-name() eq $concept/element-name/text()][@def eq $concept-name]">
-                                <xsl:text>[**</xsl:text>
+                                <xsl:text>**[</xsl:text>
                                 <xsl:variable name="series" select="$specs//series[matches(current()/../@id, uri-pattern/text())]"/>
                                 <xsl:variable name="id" select="replace(current()/../@id, $series/uri-pattern, '$1')"/>
                                 <xsl:value-of select="replace($id, '^(..*)$', $series/uri-pattern/@name-pattern)"/>
-                                <xsl:text>**: </xsl:text>
+                                <xsl:text>: </xsl:text>
                                 <xsl:value-of select="../sedola:title/text()"/>
                                 <xsl:text>](</xsl:text>
                                 <xsl:value-of select="concat('/', $specs-dir, '/', $series/../@id, '/', $series/@id, '/', $id)"/>
                                 <xsl:text> "</xsl:text>
                                 <xsl:value-of select="replace(../sedola:documentation/text(), '&#34;', '&amp;#34;')"/>
-                                <xsl:text>"): </xsl:text>
+                                <xsl:text>"):** </xsl:text>
                                 <xsl:text>[</xsl:text>
                                 <xsl:value-of select="sedola:documentation"/>
                                 <xsl:text>](</xsl:text>
