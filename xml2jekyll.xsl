@@ -205,7 +205,7 @@
                             <xsl:value-of select="$desc"/>
                         </xsl:if>
                         <xsl:text>`](</xsl:text>
-                        <xsl:value-of select="concat('../', $concept/filename-singular, '/', $concept-name)"/>
+                        <xsl:value-of select="concat('/', $concepts-dir, '/', $concept/filename-singular, '/', $concept-name)"/>
                         <xsl:variable name="number-of-defs" select="count($allfiles//sedola:*[local-name() eq $concept/element-name/text()][@def eq $concept-name])"/>
                         <xsl:if test="$number-of-defs gt 1">
                             <xsl:text> "</xsl:text>
