@@ -3,3 +3,5 @@ layout: page
 title:  "Link Relation: enclosure"
 ---
 
+[**RFC 4287**: Atom Syndication Format](/specs/IETF/RFC/4287 "Atom is an XML-based document format that describes lists of related information known as &#34;feeds&#34;. Feeds are composed of a number of items, known as &#34;entries&#34;, each with an extensible set of attached metadata. For example, each entry has a title."): [The value "enclosure" signifies that the IRI in the value of the href attribute identifies a related resource that is potentially large in size and might require special handling. For atom:link elements with rel="enclosure", the length attribute SHOULD be provided.]()
+
