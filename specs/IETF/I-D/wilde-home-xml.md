@@ -8,3 +8,8 @@ title:  "Home Documents for HTTP Services: XML Syntax"
 | Organization | [Internet Engineering Task Force (IETF)](..)
 | Series | [Internet Draft (I-D)](.)
 | Abstract | The specification for HTTP API Home Documents provides a JSON syntax only. This specification provides an XML syntax for the same data model, so that the concept of Home Documents can be consistently exposed in both JSON- and XML-based HTTP APIs. It also defines the link relation type "home" so that applications can identify links to home documents.
+
+<br/>
+<hr/>
+
+<p style="text-align: right">Return to ( <a href="./">Series</a> | <a href="../">Organization</a> | <a href="../../">all Specifications</a> )</p>

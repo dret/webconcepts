@@ -50,7 +50,7 @@
                     <xsl:text>layout: page&#xa;</xsl:text>
                     <xsl:text>title:  "</xsl:text>
                     <xsl:value-of select="name"/>
-                    <xsl:text>: Specifications"&#xa;</xsl:text>
+                    <xsl:text>: Specification Series"&#xa;</xsl:text>
                     <xsl:text>---&#xa;&#xa;</xsl:text>
                     <xsl:for-each select="series">
                         <xsl:sort select="name"/>
@@ -149,6 +149,9 @@
                                     <xsl:text>](.)&#xa;</xsl:text>
                                     <xsl:text>| Abstract | </xsl:text>
                                     <xsl:value-of select="sedola:documentation/text()"/>
+                                    <xsl:text>&#xa;&#xa;</xsl:text>
+                                    <xsl:text>&lt;br/>&#xa;&lt;hr/>&#xa;&#xa;</xsl:text>
+                                    <xsl:text>&lt;p style="text-align: right">Return to ( &lt;a href="./">Series&lt;/a> | &lt;a href="../">Organization&lt;/a> | &lt;a href="../../">all Specifications&lt;/a> )&lt;/p></xsl:text>
                                 </xsl:result-document>
                             </xsl:for-each>
                         </xsl:result-document>

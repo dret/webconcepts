@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  "Internet Engineering Task Force: Specifications"
+title:  "Internet Engineering Task Force: Specification Series"
 ---
 
   * [Internet Draft (I-D)](I-D) Series: 21 Specifications

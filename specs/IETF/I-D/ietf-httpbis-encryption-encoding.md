@@ -8,3 +8,8 @@ title:  "Encrypted Content-Encoding for HTTP"
 | Organization | [Internet Engineering Task Force (IETF)](..)
 | Series | [Internet Draft (I-D)](.)
 | Abstract | This memo introduces a content-coding for HTTP that allows message payloads to be encrypted.
+
+<br/>
+<hr/>
+
+<p style="text-align: right">Return to ( <a href="./">Series</a> | <a href="../">Organization</a> | <a href="../../">all Specifications</a> )</p>

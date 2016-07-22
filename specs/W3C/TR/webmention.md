@@ -8,3 +8,8 @@ title:  "Webmention"
 | Organization | [World Wide Web Consortium (W3C)](..)
 | Series | [Technical Report (TR)](.)
 | Abstract | Webmention is a simple way to notify any URL when you link to it on your site. From the receiver's perspective, it's a way to request notifications when other sites link to it.
+
+<br/>
+<hr/>
+
+<p style="text-align: right">Return to ( <a href="./">Series</a> | <a href="../">Organization</a> | <a href="../../">all Specifications</a> )</p>
