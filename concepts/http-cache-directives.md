@@ -1,6 +1,7 @@
 ---
-layout: page
-title:  "HTTP Cache Directives"
+layout:    page
+title:     "HTTP Cache Directives"
+permalink: /concepts/http-cache-directives
 ---
 
 

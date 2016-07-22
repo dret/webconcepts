@@ -1,6 +1,7 @@
 ---
-layout: page
-title:  "Media Types"
+layout:    page
+title:     "Media Types"
+permalink: /concepts/media-types
 ---
 
 

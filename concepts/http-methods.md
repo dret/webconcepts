@@ -1,6 +1,7 @@
 ---
-layout: page
-title:  "HTTP Request Methods"
+layout:    page
+title:     "HTTP Request Methods"
+permalink: /concepts/http-methods
 ---
 
 

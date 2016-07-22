@@ -1,6 +1,7 @@
 ---
-layout: page
-title:  "HTTP Header Fields"
+layout:    page
+title:     "HTTP Header Fields"
+permalink: /concepts/http-headers
 ---
 
 

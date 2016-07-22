@@ -1,6 +1,7 @@
 ---
-layout: page
-title:  "Link Relations"
+layout:    page
+title:     "Link Relations"
+permalink: /concepts/link-relations
 ---
 
 

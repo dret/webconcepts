@@ -174,10 +174,13 @@
                 <xsl:text> entries)&#xa;</xsl:text>
                 <xsl:result-document href="{$concepts-dir}/{filename-plural}.md" format="jekyll">
                     <xsl:text>---&#xa;</xsl:text>
-                    <xsl:text>layout: page&#xa;</xsl:text>
-                    <xsl:text>title:  "</xsl:text>
+                    <xsl:text>layout:    page&#xa;</xsl:text>
+                    <xsl:text>title:     "</xsl:text>
                     <xsl:value-of select="title-plural"/>
                     <xsl:text>"&#xa;</xsl:text>
+                    <xsl:text>permalink: </xsl:text>
+                    <xsl:value-of select="concat('/', $concepts-dir, '/', filename-plural)"/>
+                    <xsl:text>&#xa;</xsl:text>
                     <xsl:text>---&#xa;&#xa;</xsl:text>
                     <xsl:text>&#xa;&#xa;The following </xsl:text>
                     <xsl:value-of select="count($allfiles//sedola:*[local-name() eq $concept/element-name/text()]/@def)"/>

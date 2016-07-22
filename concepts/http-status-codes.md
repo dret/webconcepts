@@ -1,6 +1,7 @@
 ---
-layout: page
-title:  "HTTP Status Codes"
+layout:    page
+title:     "HTTP Status Codes"
+permalink: /concepts/http-status-codes
 ---
 
 
