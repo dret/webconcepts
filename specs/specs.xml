@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <specs>
-    <organization id="IETF">
+    <organization id="IETF" href="http://www.ietf.org/">
         <name short="IETF">Internet Engineering Task Force</name>
         <series id="RFC">
             <name short="RFC">Request for Comments</name>
@@ -11,7 +11,7 @@
             <uri-pattern url-pattern="http://tools.ietf.org/html/draft-$1" name-pattern="Internet Draft $1">urn:ietf:id:(.+$)</uri-pattern>
         </series>
     </organization>
-    <organization id="W3C">
+    <organization id="W3C" href="http://www.w3.org/">
         <name short="W3C">World Wide Web Consortium</name>
         <series id="TR">
             <name short="TR">Technical Report</name>

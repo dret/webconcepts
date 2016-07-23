@@ -52,6 +52,16 @@
                     <xsl:value-of select="name"/>
                     <xsl:text>: Specification Series"&#xa;</xsl:text>
                     <xsl:text>---&#xa;&#xa;</xsl:text>
+                    <xsl:text>Here is a list of all specification series by the [</xsl:text>
+                    <xsl:value-of select="name"/>
+                    <xsl:if test="exists(name/@short)">
+                        <xsl:text> (</xsl:text>
+                        <xsl:value-of select="name/@short"/>
+                        <xsl:text>)</xsl:text>
+                    </xsl:if>
+                    <xsl:text>](</xsl:text>
+                    <xsl:value-of select="@href"/>
+                    <xsl:text>) that are currently available:&#xa;&#xa;</xsl:text>
                     <xsl:for-each select="series">
                         <xsl:sort select="name"/>
                         <xsl:variable name= "services" select="collection(concat($specs-dir, '/', ../@id, '/', @id,'?select=*.xml'))"/>
