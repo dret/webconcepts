@@ -138,7 +138,7 @@
                                         <xsl:value-of select="$series/../name/@short"/>
                                         <xsl:text>)</xsl:text>
                                     </xsl:if>
-                                    <xsl:text>](..)&#xa;</xsl:text>
+                                    <xsl:text>](..  "List of specification series by this organization")&#xa;</xsl:text>
                                     <xsl:text>| Series | [</xsl:text>
                                     <xsl:value-of select="$series/name"/>
                                     <xsl:if test="exists($series/name/@short)">
@@ -146,7 +146,7 @@
                                         <xsl:value-of select="$series/name/@short"/>
                                         <xsl:text>)</xsl:text>
                                     </xsl:if>
-                                    <xsl:text>](.)&#xa;</xsl:text>
+                                    <xsl:text>](.  "List of specifications in this series")&#xa;</xsl:text>
                                     <xsl:text>| Abstract | </xsl:text>
                                     <xsl:value-of select="sedola:documentation/text()"/>
                                     <xsl:text>&#xa;&#xa;</xsl:text>

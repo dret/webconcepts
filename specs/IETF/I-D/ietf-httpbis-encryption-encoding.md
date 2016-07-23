@@ -5,8 +5,8 @@ title:  "Encrypted Content-Encoding for HTTP"
 
 | Canonical Name | Internet Draft ietf-httpbis-encryption-encoding
 | Online Version | [`http://tools.ietf.org/html/draft-ietf-httpbis-encryption-encoding`](http://tools.ietf.org/html/draft-ietf-httpbis-encryption-encoding)
-| Organization | [Internet Engineering Task Force (IETF)](..)
-| Series | [Internet Draft (I-D)](.)
+| Organization | [Internet Engineering Task Force (IETF)](..  "List of specification series by this organization")
+| Series | [Internet Draft (I-D)](.  "List of specifications in this series")
 | Abstract | This memo introduces a content-coding for HTTP that allows message payloads to be encrypted.
 
 <br/>

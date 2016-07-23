@@ -5,8 +5,8 @@ title:  "Upgrade Insecure Requests"
 
 | Canonical Name | W3C TR http://www.w3.org/TR/upgrade-insecure-requests
 | Online Version | [`http://www.w3.org/TR/upgrade-insecure-requests`](http://www.w3.org/TR/upgrade-insecure-requests)
-| Organization | [World Wide Web Consortium (W3C)](..)
-| Series | [Technical Report (TR)](.)
+| Organization | [World Wide Web Consortium (W3C)](..  "List of specification series by this organization")
+| Series | [Technical Report (TR)](.  "List of specifications in this series")
 | Abstract | This document defines a mechanism which allows authors to instruct a user agent to upgrade a priori insecure resource requests to secure transport before fetching them.
 
 <br/>
