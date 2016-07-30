@@ -12,6 +12,8 @@ title:  "TriG"
 <br/>
 <hr/>
 
+## Specified Web Concepts:
+
 ### Media Types
 
 [`application/trig`](/concepts/media-type/application/trig "")

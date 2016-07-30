@@ -12,6 +12,8 @@ title:  "Edge Architecture Specification"
 <br/>
 <hr/>
 
+## Specified Web Concepts:
+
 ### HTTP Header Fields
 
 [`Surrogate-Capability`](/concepts/http-header/Surrogate-Capability "The Surrogate-Capabilities request header allows surrogates to advertise their capabilities with capability tokens. Capability tokens indicate sets of operations (e.g., caching, processing) that a surrogate is willing to perform. They follow the form of product tokens in HTTP."), [`Surrogate-Control`](/concepts/http-header/Surrogate-Control "The Surrogate-Control response header allows origin servers to dictate how surrogates should handle response entities, with control directives. Currently defined directives control processing and cache behavior.")

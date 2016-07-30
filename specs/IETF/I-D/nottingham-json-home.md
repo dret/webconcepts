@@ -12,6 +12,8 @@ title:  "Home Documents for HTTP APIs"
 <br/>
 <hr/>
 
+## Specified Web Concepts:
+
 ### Media Types
 
 [`application/home+json`](/concepts/media-type/application/home+json "")

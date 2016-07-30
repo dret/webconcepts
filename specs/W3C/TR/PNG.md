@@ -12,6 +12,8 @@ title:  "Portable Network Graphics"
 <br/>
 <hr/>
 
+## Specified Web Concepts:
+
 ### Media Types
 
 [`image/png`](/concepts/media-type/image/png "")

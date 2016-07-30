@@ -12,6 +12,8 @@ title:  "Micropub"
 <br/>
 <hr/>
 
+## Specified Web Concepts:
+
 ### Link Relations
 
 [`micropub`](/concepts/link-relation/micropub "Allows discovery of a Micropub endpoint which will be used to create posts.")

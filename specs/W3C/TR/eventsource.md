@@ -12,6 +12,8 @@ title:  "Server-Sent Events"
 <br/>
 <hr/>
 
+## Specified Web Concepts:
+
 ### Media Types
 
 [`text/event-stream`](/concepts/media-type/text/event-stream "Defines a media type for representing an event stream for Server-Sent Events.")

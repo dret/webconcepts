@@ -12,6 +12,8 @@ title:  "Confinement with Origin Web Labels"
 <br/>
 <hr/>
 
+## Specified Web Concepts:
+
 ### HTTP Header Fields
 
 [`Sec-COWL`](/concepts/http-header/Sec-COWL "The Sec-COWL HTTP request and response headers are used by user agents and servers to convey label metadata to servers and user agents, respectively.")

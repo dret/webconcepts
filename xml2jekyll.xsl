@@ -161,6 +161,7 @@
                                     <xsl:value-of select="sedola:documentation/text()"/>
                                     <xsl:text>&#xa;&#xa;</xsl:text>
                                     <xsl:text>&lt;br/>&#xa;&lt;hr/>&#xa;&#xa;</xsl:text>
+                                    <xsl:text>## Specified Web Concepts:&#xa;&#xa;</xsl:text>
                                     <xsl:for-each-group select="sedola:*[local-name() = $concepts//element-name/text()]" group-by="local-name()">
                                         <xsl:text>### </xsl:text>
                                         <xsl:value-of select="$concepts//concept[element-name eq current()/local-name()]/title-plural"/>

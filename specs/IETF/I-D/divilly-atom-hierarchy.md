@@ -12,6 +12,8 @@ title:  "Hierarchy Relations for Atom"
 <br/>
 <hr/>
 
+## Specified Web Concepts:
+
 ### Link Relations
 
 [`down`](/concepts/link-relation/down "An Atom link element with a rel attribute value of &#34;down&#34; may be used to reference a resource where child entries of an entry may be found."), [`up`](/concepts/link-relation/up "An Atom link element with a rel attribute value of &#34;up&#34; may be used to reference a resource where parent entries of an entry or a feed may be found.")

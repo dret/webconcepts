@@ -12,6 +12,8 @@ title:  "HTTP/1.1: Range Responses of Indeterminate Length"
 <br/>
 <hr/>
 
+## Specified Web Concepts:
+
 ### HTTP Header Fields
 
 [`Accept-Indefinite-Ranges`](/concepts/http-header/Accept-Indefinite-Ranges "The Accept-Indefinite-Ranges request-header field allows the client to indicate its acceptance of indefinite-sized range requests for a resource."), [`Content-Range`](/concepts/http-header/Content-Range "The Content-Range entity-header is sent with a partial entity-body to specify where in the full entity-body the partial body should be applied.")

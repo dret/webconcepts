@@ -12,6 +12,8 @@ title:  "Manifest for Web Application"
 <br/>
 <hr/>
 
+## Specified Web Concepts:
+
 ### Link Relations
 
 [`manifest`](/concepts/link-relation/manifest "Imports or links to a manifest.")

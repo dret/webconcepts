@@ -12,6 +12,8 @@ title:  "Content Security Policy Level 2"
 <br/>
 <hr/>
 
+## Specified Web Concepts:
+
 ### HTTP Header Fields
 
 [`Content-Security-Policy`](/concepts/http-header/Content-Security-Policy "The Content-Security-Policy header field is the preferred mechanism for delivering a policy."), [`Content-Security-Policy-Report-Only`](/concepts/http-header/Content-Security-Policy-Report-Only "The Content-Security-Policy-Report-Only header field lets servers experiment with policies by monitoring (rather than enforcing) a policy.")

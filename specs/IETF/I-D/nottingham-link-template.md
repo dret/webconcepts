@@ -12,6 +12,8 @@ title:  "The Link-Template HTTP Header Field"
 <br/>
 <hr/>
 
+## Specified Web Concepts:
+
 ### HTTP Header Fields
 
 [`Link-Template`](/concepts/http-header/Link-Template "The Link-Template entity-header field provides a means for serialising one or more links into HTTP headers. It is semantically equivalent to the Link header field, except that it uses URI Templates to convey the structure of links.")

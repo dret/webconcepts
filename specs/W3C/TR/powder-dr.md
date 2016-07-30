@@ -12,6 +12,8 @@ title:  "Protocol for Web Description Resources (POWDER): Description Resources"
 <br/>
 <hr/>
 
+## Specified Web Concepts:
+
 ### Media Types
 
 [`application/powder+xml`](/concepts/media-type/application/powder+xml ""), [`application/powder-s+xml`](/concepts/media-type/application/powder-s+xml "")

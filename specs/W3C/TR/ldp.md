@@ -12,6 +12,8 @@ title:  "Linked Data Platform 1.0 (LDP)"
 <br/>
 <hr/>
 
+## Specified Web Concepts:
+
 ### HTTP Header Fields
 
 [`Accept-Post`](/concepts/http-header/Accept-Post "The Accept-Post HTTP header SHOULD appear in the OPTIONS response for any resource that supports the use of the POST method. The presence of the Accept-Post header in response to any method is an implicit indication that POST is allowed on the resource identified by the Request-URI. The presence of a specific document format in this header indicates that that specific format is allowed on POST requests to the resource identified by the Request-URI.")

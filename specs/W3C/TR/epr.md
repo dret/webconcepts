@@ -12,6 +12,8 @@ title:  "Entry Point Regulation (EPR)"
 <br/>
 <hr/>
 
+## Specified Web Concepts:
+
 ### HTTP Header Fields
 
 [`EPR`](/concepts/http-header/EPR "Servers may request the protections outlined by Entry Point Regulation (EPR) by sending an EPR HTTP response header field along with a response.")
