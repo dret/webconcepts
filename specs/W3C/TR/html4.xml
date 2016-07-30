@@ -4,14 +4,6 @@
     <documentation source="http://www.w3.org/TR/html4">This specification defines the HyperText Markup Language (HTML), the publishing language of the World Wide Web. This specification defines HTML 4.01, which is a subversion of HTML 4. In addition to the text, multimedia, and hyperlink features of the previous versions of HTML (HTML 3.2 and HTML 2.0), HTML 4 supports more multimedia options, scripting languages, style sheets, better printing facilities, and documents that are more accessible to users with disabilities. HTML 4 also takes great strides towards the internationalization of documents, with the goal of making the Web truly World Wide.</documentation>
     <media-type def="text/html">
         <documentation source="http://www.w3.org/TR/html4/intro/intro.html">To publish information for global distribution, one needs a universally understood language, a kind of publishing mother tongue that all computers may potentially understand. The publishing language used by the World Wide Web is HTML (from HyperText Markup Language). HTML gives authors the means to publish online documents with headings, text, tables, lists, photos, etc.; retrieve online information via hypertext links, at the click of a button; design forms for conducting transactions with remote services, for use in searching for information, making reservations, ordering products, etc.; and include spread-sheets, video clips, sound clips, and other applications directly in their documents.</documentation>
-        <document xml:id="html-page" vocabularies="html-vocabulary-html-strict html-vocabulary-html-transitional html-vocabulary-xhtml-strict html-vocabulary-xhtml-transitional">
-            <title>HTML Page</title>
-            <documentation source="http://www.w3.org/TR/html4/struct/global.html">An HTML 4 document is composed of three parts: line containing HTML version information, declarative header section (delimited by the HEAD element), and a body, which contains the document's actual content. The content may be presented by a user agent in a variety of ways. For example, for visual browsers, you can think of the body as a canvas where the content appears: text, images, colors, graphics, etc. For audio user agents, the same content may be spoken.</documentation>
-        </document>
-        <document xml:id="html-frameset" vocabularies="html-vocabulary-html-frameset html-vocabulary-xhtml-frameset">
-            <title>HTML Frameset</title>
-            <documentation source="http://www.w3.org/TR/html4/present/frames.html">HTML frames allow authors to present documents in multiple views, which may be independent windows or subwindows. Multiple views offer designers a way to keep certain information visible, while other views are scrolled or replaced. For example, within the same window, one frame might display a static banner, a second a navigation menu, and a third the main document that can be scrolled through or replaced by navigating in the second frame.</documentation>
-        </document>
         <link-relation xml:id="html-link-body" select="/html/body/@background" selector="xpath1">
             <documentation source="http://www.w3.org/TR/html4/struct/global.html#adef-background">The value of this attribute is a URI that designates an image resource. The image generally tiles the background (for visual browsers).</documentation>
         </link-relation>
@@ -149,28 +141,4 @@
     <link-relation def="bookmark">
         <documentation source="http://www.w3.org/TR/html4/types.html#type-links">Refers to a bookmark. A bookmark is a link to a key entry point within an extended document. The title attribute may be used, for example, to label the bookmark. Note that several bookmarks may be defined in each document.</documentation>
     </link-relation>
-    <vocabulary xml:id="html-vocabulary-html-strict" id="-//W3C//DTD HTML 4.01//EN" type="FPI">
-        <title short="HTML Strict">HTML 4.01 Strict DTD</title>
-        <documentation source="http://www.w3.org/TR/html4/sgml/dtd.html">This is HTML 4.01 Strict DTD, which excludes the presentation attributes and elements that W3C expects to phase out as support for style sheets matures. Authors should use the Strict DTD when possible, but may use the Transitional DTD when support for presentation attribute and elements is required.</documentation>
-    </vocabulary>
-    <vocabulary xml:id="html-vocabulary-html-transitional" id="-//W3C//DTD HTML 4.01 Transitional//EN" type="FPI">
-        <title short="HTML Transitional">HTML 4.01 Transitional DTD</title>
-        <documentation source="http://www.w3.org/TR/html4/sgml/loosedtd.html">This is the HTML 4.01 Transitional DTD, which includes presentation attributes and elements that W3C expects to phase out as support for style sheets matures. Authors should use the Strict DTD when possible, but may use the Transitional DTD when support for presentation attribute and elements is required.</documentation>
-    </vocabulary>
-    <vocabulary xml:id="html-vocabulary-html-frameset" id="-//W3C//DTD HTML 4.01 Frameset//EN" type="FPI">
-        <title short="HTML Frameset">HTML 4.01 Frameset DTD</title>
-        <documentation source="http://www.w3.org/TR/html4/sgml/dtd.html">This is the HTML 4.01 Frameset DTD, which should be used for documents with frames. This DTD is identical to the HTML 4.01 Transitional DTD except for the content model of the "HTML" element: in frameset documents, the "FRAMESET" element replaces the "BODY" element.</documentation>
-    </vocabulary>
-    <vocabulary xml:id="html-vocabulary-xhtml-strict" id="-//W3C//DTD XHTML 1.0 Strict//EN" type="FPI">
-        <title short="XHTML Strict">Extensible HTML version 1.0 Strict DTD</title>
-        <documentation source="http://www.w3.org/TR/html/dtds.html#a_dtd_XHTML-1.0-Strict">This is the same as HTML 4 Strict except for changes due to the differences between XML and SGML.</documentation>
-    </vocabulary>
-    <vocabulary xml:id="html-vocabulary-xhtml-transitional" id="-//W3C//DTD XHTML 1.0 Transitional//EN" type="FPI">
-        <title short="XHTML Transitional">Extensible HTML version 1.0 Transitional DTD</title>
-        <documentation source="http://www.w3.org/TR/html/dtds.html#a_dtd_XHTML-1.0-Transitional">This is the same as HTML 4 Transitional except for changes due to the differences between XML and SGML.</documentation>
-    </vocabulary>
-    <vocabulary xml:id="html-vocabulary-xhtml-frameset" id="-//W3C//DTD XHTML 1.0 Frameset//EN" type="FPI">
-        <title short="XHTML Frameset">Extensible HTML version 1.0 Frameset DTD</title>
-        <documentation source="http://www.w3.org/TR/html/dtds.html#a_dtd_XHTML-1.0-Frameset">This is the same as HTML 4 Frameset except for changes due to the differences between XML and SGML.</documentation>
-    </vocabulary>
 </service>

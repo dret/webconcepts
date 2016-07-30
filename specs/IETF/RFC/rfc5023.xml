@@ -15,10 +15,6 @@
     <link-relation def="edit-media">
         <documentation source="http://tools.ietf.org/html/rfc5023#section-11.2">When appearing within an atom:entry, the value of the href attribute is an IRI that can be used to modify a Media Resource associated with that Entry.</documentation>
     </link-relation>
-    <vocabulary def="http://www.w3.org/2007/app" type="xmlns">
-        <title>The AtomPub XML Vocabulary</title>
-        <documentation source="http://tools.ietf.org/html/rfc5023#appendix-B">The Relax NG schema explicitly excludes elements in the Atom Protocol namespace that are not defined in this revision of the specification.</documentation>
-    </vocabulary>
     <http-header def="Slug">
         <documentation source="http://tools.ietf.org/html/rfc5023#section-9.7">Slug is an HTTP entity-header whose presence in a POST to a Collection constitutes a request by the client to use the header's value as part of any URIs that would normally be used to retrieve the to-be-created Entry or Media Resources.</documentation>
     </http-header>

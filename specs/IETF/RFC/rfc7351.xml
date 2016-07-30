@@ -4,12 +4,5 @@
     <documentation source="http://tools.ietf.org/html/rfc7351">The XML Patch media type "application/xml-patch+xml" defines an XML document structure for expressing a sequence of patch operations that are applied to an XML document. The XML Patch document format's foundations are defined in RFC 5261, this specification defines a document format and a media type registration, so that XML Patch documents can be labeled with a media type, for example in HTTP conversations. In addition to the media type registration, this specification also updates RFC 5261 in some aspects, limiting these updates to cases where RFC 5261 needed to be fixed, or was hard to understand.</documentation>
     <media-type def="application/xml-patch+xml">
         <documentation source="http://tools.ietf.org/html/rfc7351#section-3">The Internet media type for an XML Patch Document is application/xml-patch+xml.</documentation>
-        <document xml:id="rfc7351-xml-patch-document">
-            <title>XML Patch Document</title>
-            <documentation source="http://tools.ietf.org/html/rfc7351#section-2">The XML patch document format is based on a simple schema that uses a "patch" element as the document element, and allows an arbitrary sequence of "add", "remove", and "replace" elements as the children of the document element.</documentation>
-        </document>
     </media-type>
-    <vocabulary def="urn:ietf:rfc:7351" type="xmlns">
-        <documentation source="http://tools.ietf.org/html/rfc7351#section-2">The XML patch document format is based on a simple schema that uses a "patch" element as the document element, and allows an arbitrary sequence of "add", "remove", and "replace" elements as the children of the document element.</documentation>
-    </vocabulary>
 </service>

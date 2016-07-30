@@ -4,46 +4,6 @@
     <documentation source="http://tools.ietf.org/html/rfc4287">Atom is an XML-based document format that describes lists of related information known as "feeds". Feeds are composed of a number of items, known as "entries", each with an extensible set of attached metadata. For example, each entry has a title.</documentation>
     <media-type def="application/atom+xml">
         <documentation source="http://tools.ietf.org/html/rfc4287#section-2">This specification describes two kinds of Atom Documents: Atom Feed Documents and Atom Entry Documents. Both kinds of Atom Documents are specified in terms of the XML Information Set, serialized as XML 1.0 and identified with the "application/atom+xml" media type. Atom Documents MUST be well-formed XML.</documentation>
-        <document xml:id="atom-document-feed" vocabularies="atom-vocabulary">
-            <title>Atom Feed Document</title>
-            <documentation source="http://tools.ietf.org/html/rfc4287#section-2">An Atom Feed Document is a representation of an Atom feed, including metadata about the feed, and some or all of the entries associated with it. Its root is the atom:feed element.</documentation>
-        </document>
-        <document xml:id="atom-document-entry" vocabularies="atom-vocabulary">
-            <title>Atom Entry Document</title>
-            <documentation source="http://tools.ietf.org/html/rfc4287#section-2">An Atom Entry Document represents exactly one Atom entry, outside of the context of an Atom feed. Its root is the atom:entry element.</documentation>
-        </document>
-        <link-relation xml:id="atom-link-uri">
-            <title>atom:uri</title>
-            <documentation source="http://tools.ietf.org/html/rfc4287#section-3.2.2">The "atom:uri" element's content conveys an IRI associated with the person. Person constructs MAY contain an atom:uri element, but MUST NOT contain more than one.</documentation>
-        </link-relation>
-        <link-relation xml:id="atom-link-content-src">
-            <title>atom:content/@src</title>
-            <documentation source="http://tools.ietf.org/html/rfc4287#section-4.1.3.2">atom:content MAY have a "src" attribute, whose value MUST be an IRI reference. If the "src" attribute is present, atom:content MUST be empty. Atom Processors MAY use the IRI to retrieve the content and MAY choose to ignore remote content or to present it in a different manner than local content.</documentation>
-        </link-relation>
-        <link-relation xml:id="atom-link-category-scheme">
-            <title>atom:category/@scheme</title>
-            <documentation source="http://tools.ietf.org/html/rfc4287#section-4.2.2.2">The "scheme" attribute is an IRI that identifies a categorization scheme. Category elements MAY have a "scheme" attribute.</documentation>
-        </link-relation>
-        <link-relation xml:id="atom-link-generator-uri">
-            <title>atom:generator/@uri</title>
-            <documentation source="http://tools.ietf.org/html/rfc4287#section-4.2.4">The atom:generator element MAY have a "uri" attribute whose value MUST be an IRI reference. When dereferenced, the resulting URI (mapped from an IRI, if necessary) SHOULD produce a representation that is relevant to that agent.</documentation>
-        </link-relation>
-        <link-relation xml:id="atom-link-icon">
-            <title>atom:icon</title>
-            <documentation source="http://tools.ietf.org/html/rfc4287#section-4.2.5">The "atom:icon" element's content is an IRI reference that identifies an image that provides iconic visual identification for a feed.</documentation>
-        </link-relation>
-        <link-relation xml:id="atom-link-id">
-            <title>atom:id</title>
-            <documentation source="http://tools.ietf.org/html/rfc4287#section-4.2.6">The "atom:id" element conveys a permanent, universally unique identifier for an entry or feed. Its content MUST be an IRI. Note that the definition of "IRI" excludes relative references. Though the IRI might use a dereferencable scheme, Atom Processors MUST NOT assume it can be dereferenced.</documentation>
-        </link-relation>
-        <link-relation xml:id="atom-link-link-href">
-            <title>atom:link/@href</title>
-            <documentation source="http://tools.ietf.org/html/rfc4287#section-4.2.7.1">The "href" attribute contains the link's IRI. atom:link elements MUST have an href attribute, whose value MUST be a IRI reference.</documentation>
-        </link-relation>
-        <link-relation xml:id="atom-link-logo">
-            <title>atom:logo</title>
-            <documentation source="http://tools.ietf.org/html/rfc4287#section-4.2.8">The "atom:logo" element's content is an IRI reference that identifies an image that provides visual identification for a feed.</documentation>
-        </link-relation>
     </media-type>
     <link-relation def="alternate">
         <documentation source="http://tools.ietf.org/html/rfc4287#section-4.2.7.2">The value "alternate" signifies that the IRI in the value of the href attribute identifies an alternate version of the resource described by the containing element.</documentation>
@@ -60,8 +20,4 @@
     <link-relation def="via">
         <documentation source="http://tools.ietf.org/html/rfc4287#section-4.2.7.2">The value "via" signifies that the IRI in the value of the href attribute identifies a resource that is the source of the information provided in the containing element.</documentation>
     </link-relation>
-    <vocabulary def="http://www.w3.org/2005/Atom" type="xmlns">
-        <title>The Atom XML Vocabulary</title>
-        <documentation source="http://tools.ietf.org/html/rfc4287#appendix-B">The Relax NG schema explicitly excludes elements in the Atom namespace that are not defined in this revision of the specification.</documentation>
-    </vocabulary>
 </service>
