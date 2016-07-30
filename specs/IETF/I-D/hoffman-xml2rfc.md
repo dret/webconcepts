@@ -16,7 +16,7 @@ title:  "The 'XML2RFC' version 3 Vocabulary"
 
 ### Media Types
 
-[`application/rfc+xml`](/concepts/media-type/application/rfc+xml "")
+[`application/rfc+xml`](/concepts/media-type/application/rfc+xml "This document updates the specification for the Internet media type &#34;application/rfc+xml&#34; from the one in I-D draft-reschke-xml2rfc.  The following is to be registered with IANA.")
 
 ### Link Relations
 

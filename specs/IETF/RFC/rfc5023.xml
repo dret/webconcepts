@@ -5,27 +5,9 @@
     <import href="4287.xml"/>
     <media-type def="application/atomcat+xml">
         <documentation source="http://tools.ietf.org/html/rfc5023#section-16.1">An Atom Publishing Protocol Category Document, when serialized as XML 1.0, can be identified with the following media type.</documentation>
-        <document xml:id="atompub-categorydoc" vocabularies="atompub-vocabulary">
-            <title>Atom Category Document</title>
-            <documentation source="http://tools.ietf.org/html/rfc5023#section-7">Category Documents contain lists of categories described using the "atom:category" element from the Atom Syndication Format.</documentation>
-        </document>
     </media-type>
     <media-type def="application/atomsvc+xml">
         <documentation source="http://tools.ietf.org/html/rfc5023#section-16.2">An Atom Publishing Protocol Service Document, when serialized as XML 1.0, can be identified with the following media type.</documentation>
-        <document xml:id="atompub-servicedoc" vocabularies="atompub-vocabulary">
-            <title>Atom Service Document</title>
-            <documentation source="http://tools.ietf.org/html/rfc5023#section-8">For authoring to commence, a client needs to discover the capabilities and locations of the available Collections. Service Documents are designed to support this discovery process.</documentation>
-        </document>
-    </media-type>
-    <media-type ref="application/atom+xml">
-        <document ref="atom-document-feed" profile="atompub-profile">
-            <title>AtomPub Interactions with Atom Feed Document</title>
-            <documentation source="http://tools.ietf.org/html/rfc5023#section-9.2">To add members to a Collection, clients send POST requests to the URI of the Collection.</documentation>
-        </document>
-        <document ref="atom-document-entry" profile="atompub-profile">
-            <title>AtomPub Interactions with Atom Entry Document</title>
-            <documentation source="http://tools.ietf.org/html/rfc5023#section-9.3">To edit or delete a Member Resource, a client sends a PUT or DELETE request to its Member URI, as specified in RFC 2616</documentation>
-        </document>
     </media-type>
     <link-relation def="edit">
         <documentation source="http://tools.ietf.org/html/rfc5023#section-11.1">The value of "edit" specifies that the value of the href attribute is the IRI of an editable Member Entry. When appearing within an atom:entry, the href IRI can be used to retrieve, update, and delete the Resource represented by that Entry. An atom:entry MUST NOT contain more than one "edit" link relation.</documentation>
@@ -40,10 +22,4 @@
     <http-header def="Slug">
         <documentation source="http://tools.ietf.org/html/rfc5023#section-9.7">Slug is an HTTP entity-header whose presence in a POST to a Collection constitutes a request by the client to use the header's value as part of any URIs that would normally be used to retrieve the to-be-created Entry or Media Resources.</documentation>
     </http-header>
-<!--
-    <profile xml:id="atompub-profile" id="urn:ietf:rfc:5023">
-        <title>The AtomPub Profile</title>
-        <documentation source="http://tools.ietf.org/html/draft-wilde-atom-profile-02#section-2.3">This is hypothetical (for now), assuming that AtomPub defines a profile URI a la RFC 6906, defining that it should be used in both feeds and entries that are supporting AtomPub interactions.</documentation>
-    </profile>
--->
 </service>

@@ -16,7 +16,7 @@ title:  "Web Video Text Tracks (WebVTT)"
 
 ### Media Types
 
-[`text/vtt`](/concepts/media-type/text/vtt "")
+[`text/vtt`](/concepts/media-type/text/vtt "The WebVTT (Web Video Text Tracks) format is intended for marking up external text track resources. The main use for WebVTT files is captioning or subtitling video content.")
 
 
 
