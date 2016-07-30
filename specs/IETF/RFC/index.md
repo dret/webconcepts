@@ -3,7 +3,7 @@ layout: page
 title:  "IETF Request for Comments Series"
 ---
 
-There are currently 73 listed specifications in the [Internet Engineering Task Force (IETF)](..)'s Request for Comments (RFC) series.
+There are currently 74 listed specifications in the [Internet Engineering Task Force (IETF)](..)'s Request for Comments (RFC) series.
 
   * [A Media Type for XML Patch Operations](7351)
   * [Additional HTTP Status Codes](6585)
@@ -15,6 +15,7 @@ There are currently 73 listed specifications in the [Internet Engineering Task F
   * [Atom Publishing Protocol (AtomPub)](5023)
   * [Atom Syndication Format](4287)
   * [Binding Extensions to Web Distributed Authoring and Versioning (WebDAV)](5842)
+  * [Brotli Compressed Data Format](7932)
   * [Calendaring Extensions to WebDAV (CalDAV)](4791)
   * [Concise Binary Object Representation (CBOR)](7049)
   * [Constrained RESTful Environments (CoRE) Link Format](6690)

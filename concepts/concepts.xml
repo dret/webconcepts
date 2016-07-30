@@ -48,4 +48,12 @@
         <element-name>media-type</element-name>
         <iana-registry>http://www.iana.org/assignments/media-types/media-types.xhtml</iana-registry>
     </concept>
+    <concept>
+        <title-singular>HTTP Content Coding</title-singular>
+        <title-plural>HTTP Content Codings</title-plural>
+        <filename-singular>http-content-coding</filename-singular>
+        <filename-plural>http-content-codings</filename-plural>
+        <element-name>http-content-coding</element-name>
+        <iana-registry>http://www.iana.org/assignments/http-parameters/http-parameters.xhtml#content-coding</iana-registry>
+    </concept>
 </concepts>
