@@ -3,7 +3,7 @@ layout: page
 title:  "W3C Technical Report Series"
 ---
 
-There are currently 29 listed specifications in the [World Wide Web Consortium (W3C)](..)'s Technical Report (TR) series.
+There are currently 30 listed specifications in the [World Wide Web Consortium (W3C)](..)'s Technical Report (TR) series.
 
   * [Activity Streams 2.0](activitystreams-core)
   * [Clear Site Data](clear-site-data)
@@ -13,6 +13,7 @@ There are currently 29 listed specifications in the [World Wide Web Consortium (
   * [Content Security Policy Pinning](csp-pinning)
   * [Cross-Origin Resource Sharing (CORS)](cors)
   * [Edge Architecture Specification](edge-arch)
+  * [Efficient XML Interchange (EXI) Format 1.0](exi)
   * [Entry Point Regulation (EPR)](epr)
   * [Hypertext Markup Language (HTML)](html4)
   * [JSON-LD 1.0](json-ld)

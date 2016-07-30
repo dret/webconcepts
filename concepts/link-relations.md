@@ -6,7 +6,7 @@ permalink: /concepts/link-relations
 
 
 
-The following 85 Link Relation definitions (82 distinct values) were found in 124 services. Please be advised that the table shown here is maintained and compiled from [Web Concepts](/) sources. The [official Link Relation registry](http://www.iana.org/assignments/link-relations/link-relations.xhtml) is maintained by the [*Internet Assigned Numbers Authority (IANA)*](http://www.iana.org/).
+The following 85 Link Relation definitions (82 distinct values) were found in 125 specifications. Please be advised that the table shown here is maintained and compiled from [Web Concepts](/) sources. The [official Link Relation registry](http://www.iana.org/assignments/link-relations/link-relations.xhtml) is maintained by the [*Internet Assigned Numbers Authority (IANA)*](http://www.iana.org/).
 
 Link Relation | Specification
 -------: | :-------
