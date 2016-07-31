@@ -22,7 +22,7 @@
         <name short="JCP">Java Community Process</name>
         <series id="JSR">
             <name short="JSR">Java Specification Request</name>
-            <uri-pattern url-pattern="https://www.jcp.org/en/jsr/detail?id=$1" name-pattern="JSR $1">https://www.jcp.org/en/jsr/detail?id=(\d+)$</uri-pattern>
+            <uri-pattern url-pattern="http://www.jcp.org/en/jsr/detail?id=$1" name-pattern="JSR $1">http://www.jcp.org/en/jsr/detail\?id=(\d+)$</uri-pattern>
         </series>
     </organization>
 </specs>
