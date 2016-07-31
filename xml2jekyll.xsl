@@ -130,7 +130,7 @@
                                     <xsl:text>---&#xa;</xsl:text>
                                     <xsl:text>layout: page&#xa;</xsl:text>
                                     <xsl:text>title:  "</xsl:text>
-                                    <xsl:value-of select="replace(sedola:title, '&#34;', '&amp;#34;')"/>
+                                    <xsl:value-of select="replace(sedola:title, '&quot;', '\\&quot;')"/>
                                     <xsl:text>"&#xa;</xsl:text>
                                     <xsl:text>---&#xa;&#xa;</xsl:text>
                                     <xsl:text>| Canonical Name | </xsl:text>
@@ -173,7 +173,7 @@
                                             <xsl:text>`](/</xsl:text>
                                             <xsl:value-of select="concat($concepts-dir, '/', $concepts//concept[element-name eq current()/local-name()]/filename-singular, '/', @def)"/>
                                             <xsl:text> "</xsl:text>
-                                            <xsl:value-of select="replace(sedola:documentation/text(), '&#34;', '&amp;#34;')"/>
+                                            <xsl:value-of select="replace(sedola:documentation/text(), '&quot;', '&amp;#34;')"/>
                                             <xsl:text>")</xsl:text>
                                             <xsl:choose>
                                                 <xsl:when test="position() ne last()">
@@ -272,7 +272,7 @@
                             <xsl:text>](</xsl:text>
                             <xsl:value-of select="concat('/', $specs-dir, '/', $series/../@id, '/', $series/@id, '/', $id)"/>
                             <xsl:text> "</xsl:text>
-                            <xsl:value-of select="replace(../sedola:documentation/text(), '&#34;', '&amp;#34;')"/>
+                            <xsl:value-of select="replace(../sedola:documentation/text(), '&quot;', '&amp;#34;')"/>
                             <xsl:text>")</xsl:text>
                             <xsl:choose>
                                 <xsl:when test="position() ne last()">
@@ -306,7 +306,7 @@
                                 <xsl:text>](</xsl:text>
                                 <xsl:value-of select="concat('/', $specs-dir, '/', $series/../@id, '/', $series/@id, '/', $id)"/>
                                 <xsl:text> "</xsl:text>
-                                <xsl:value-of select="replace(../sedola:documentation/text(), '&#34;', '&amp;#34;')"/>
+                                <xsl:value-of select="replace(../sedola:documentation/text(), '&quot;', '&amp;#34;')"/>
                                 <xsl:text>"):** </xsl:text>
                                 <xsl:text>[</xsl:text>
                                 <xsl:value-of select="sedola:documentation"/>
