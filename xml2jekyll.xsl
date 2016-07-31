@@ -202,7 +202,9 @@
             <xsl:text>---&#xa;&#xa;</xsl:text>
             <xsl:text>This is a list of all </xsl:text>
             <xsl:value-of select="count(distinct-values($allfiles//sedola:*[local-name() = $concepts/concepts/concept/element-name/text()]/@def))"/>
-            <xsl:text> Web Concepts that have been harvested from all [available specifications](../specs):&#xa;&#xa;</xsl:text>
+            <xsl:text> Web Concepts that have been harvested from all [available specifications](/</xsl:text>
+            <xsl:value-of select="$specs-dir"/>
+            <xsl:text>):&#xa;&#xa;</xsl:text>
             <xsl:for-each select="$concepts/concepts/concept">
                 <xsl:sort select="title-plural"/>
                 <xsl:variable name="concept" select="."/>
@@ -229,9 +231,11 @@
                     <xsl:value-of select="$concept/title-singular/text()"/>
                     <xsl:text> definitions (</xsl:text>
                     <xsl:value-of select="count(distinct-values($allfiles//sedola:*[local-name() eq $concept/element-name/text()]/@def))"/>
-                    <xsl:text> distinct values) were found in </xsl:text>
+                    <xsl:text> distinct values) were found in [</xsl:text>
                     <xsl:value-of select="count($allfiles)"/>
-                    <xsl:text> specifications. Please be advised that the table shown here is maintained and compiled from [Web Concepts](/) sources. The [official </xsl:text>
+                    <xsl:text> specifications](/</xsl:text>
+                    <xsl:value-of select="$specs-dir"/>
+                    <xsl:text>). Please be advised that the table shown here is maintained and compiled from [Web Concepts](/) sources. The [official </xsl:text>
                     <xsl:value-of select="$concept/title-singular/text()"/>
                     <xsl:text> registry](</xsl:text>
                     <xsl:value-of select="$concept/iana-registry/text()"/>
