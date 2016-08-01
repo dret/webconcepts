@@ -3,7 +3,7 @@ layout: page
 title:  "IETF Internet Draft Series"
 ---
 
-There are currently 21 listed specifications in the [Internet Engineering Task Force (IETF)](..)'s Internet Draft (I-D) series.
+There are currently 22 listed specifications in the [Internet Engineering Task Force (IETF)](..)'s Internet Draft (I-D) series.
 
   * [A JSON Media Type for Describing the Structure and Meaning of JSON Documents](zyp-json-schema)
   * [Accept-Push-Policy Header Field](ruellan-http-accept-push-policy)
@@ -16,6 +16,7 @@ There are currently 21 listed specifications in the [Internet Engineering Task F
   * [Hierarchy Relations for Atom](divilly-atom-hierarchy)
   * [Home Documents for HTTP APIs](nottingham-json-home)
   * [Home Documents for HTTP Services: XML Syntax](wilde-home-xml)
+  * [Hypertext Transfer Protocol: Improved HTTP Caching](drechsler-httpbis-improved-caching)
   * [Link Relation Types for Web Services](wilde-link-desc)
   * [Marking HTTP Requests as Unimportant](thomson-http-nice)
   * [Origin Cookies](west-origin-cookies)
