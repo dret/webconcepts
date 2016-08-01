@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <service id="urn:ietf:id:ietf-httpbis-encryption-encoding" xmlns="http://github.com/dret/sedola">
     <title>Encrypted Content-Encoding for HTTP</title>
-    <documentation source="http://tools.ietf.org/html/draft-ietf-httpbis-encryption-encoding">This memo introduces a content-coding for HTTP that allows message payloads to be encrypted.</documentation>
+    <documentation source="http://tools.ietf.org/html/draft-ietf-httpbis-encryption-encoding">This memo introduces a content coding for HTTP that allows message payloads to be encrypted.</documentation>
     <http-header def="Encryption">
         <documentation source="http://tools.ietf.org/html/draft-ietf-httpbis-encryption-encoding#section-3">The "Encryption" HTTP header field describes the encrypted content encoding(s) that have been applied to a message payload, and therefore how those content encoding(s) can be removed.</documentation>
     </http-header>
     <http-header def="Crypto-Key">
         <documentation source="http://tools.ietf.org/html/draft-ietf-httpbis-encryption-encoding#section-4">A Crypto-Key header field can be used to describe the input keying material used in the Encryption header field.</documentation>
     </http-header>
+    <http-content-coding def="aesgcm">
+        <documentation source="http://tools.ietf.org/html/draft-ietf-httpbis-encryption-encoding#section-2">The "aesgcm" HTTP content coding indicates that a payload has been encrypted using Advanced Encryption Standard (AES) in Galois/Counter Mode (GCM) as identified as AEAD_AES_128_GCM in RFC 5116.</documentation>
+    </http-content-coding>
 </service>
