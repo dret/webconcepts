@@ -3,7 +3,7 @@ layout: page
 title:  "IETF Request for Comments Series"
 ---
 
-There are currently 74 listed specifications in the [Internet Engineering Task Force (IETF)](..)'s Request for Comments (RFC) series.
+There are currently 75 listed specifications in the [Internet Engineering Task Force (IETF)](..)'s Request for Comments (RFC) series.
 
   * [A Media Type for XML Patch Operations](7351)
   * [Additional HTTP Status Codes](6585)
@@ -68,6 +68,7 @@ There are currently 74 listed specifications in the [Internet Engineering Task F
   * [The WebSocket Protocol](6455)
   * [The text/markdown Media Type](7763)
   * [Transparent Content Negotiation in HTTP](2295)
+  * [URI Fragment Identifiers for the text/plain Media Type](5174)
   * [Use of the Content-Disposition Header Field in the Hypertext Transfer Protocol (HTTP)](6266)
   * [Versioning Extensions to WebDAV (Web Distributed Authoring and Versioning)](3253)
   * [Web Distributed Authoring and Versioning (WebDAV) Access Control Protocol](3744)
