@@ -3,7 +3,7 @@ layout: page
 title:  "IETF Internet Draft Series"
 ---
 
-There are currently 22 listed specifications in the [Internet Engineering Task Force (IETF)](..)'s Internet Draft (I-D) series.
+There are currently 23 listed specifications in the [Internet Engineering Task Force (IETF)](..)'s Internet Draft (I-D) series.
 
   * [A JSON Media Type for Describing the Structure and Meaning of JSON Documents (Internet Draft zyp-json-schema)](zyp-json-schema)
   * [Accept-Push-Policy Header Field (Internet Draft ruellan-http-accept-push-policy)](ruellan-http-accept-push-policy)
@@ -12,6 +12,7 @@ There are currently 22 listed specifications in the [Internet Engineering Task F
   * [Encrypted Content-Encoding for HTTP (Internet Draft ietf-httpbis-encryption-encoding)](ietf-httpbis-encryption-encoding)
   * [HTTP Client Hints (Internet Draft grigorik-http-client-hints)](grigorik-http-client-hints)
   * [HTTP Client Hints (Internet Draft ietf-httpbis-client-hints)](ietf-httpbis-client-hints)
+  * [HTTP bytes-live Range Unit for Live Content (Internet Draft pratt-httpbis-bytes-live-range-unit)](pratt-httpbis-bytes-live-range-unit)
   * [HTTP/1.1: Range Responses of Indeterminate Length (Internet Draft combs-http-indeterminate-range)](combs-http-indeterminate-range)
   * [Hierarchy Relations for Atom (Internet Draft divilly-atom-hierarchy)](divilly-atom-hierarchy)
   * [Home Documents for HTTP APIs (Internet Draft nottingham-json-home)](nottingham-json-home)

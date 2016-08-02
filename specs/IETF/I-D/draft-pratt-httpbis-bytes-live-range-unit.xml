@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<service id="urn:ietf:id:pratt-httpbis-bytes-live-range-unit" xmlns="http://github.com/dret/sedola">
+    <title>HTTP bytes-live Range Unit for Live Content</title>
+    <documentation source="http://tools.ietf.org/html/draft-pratt-httpbis-bytes-live-range-unit">To accommodate byte range requests for content that has data appended over time, this document defines a new HTTP range unit named "bytes-live". The "bytes-live" range unit provides the ability for a client to specify a byte range in a GET or HEAD request which starts at an arbitrary byte offset within the representation and ends at an indeterminate offset, represented by "*".</documentation>
+    <http-range-unit def="bytes-live">
+        <documentation source="http://tools.ietf.org/html/draft-pratt-httpbis-bytes-live-range-unit#section-2">As with the "bytes" range unit, a "bytes-live" Range request allows a client to designate a subset of bytes from the representation data to be transferred in payloads as a sequence of octets. But the form of a "bytes-live" request is focused on accessing data that may be appended to the representation over time.</documentation>
+    </http-range-unit>
+</service>
