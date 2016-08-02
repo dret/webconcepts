@@ -20,4 +20,10 @@
     <http-status def="416" desc="Range Not Satisfiable">
         <documentation source="http://tools.ietf.org/html/rfc7233#section-4.4">The 416 (Range Not Satisfiable) status code indicates that none of the ranges in the request's Range header field (Section 3.1) overlap the current extent of the selected resource or that the set of ranges requested has been rejected due to invalid ranges or an excessive request of small or overlapping ranges.</documentation>
     </http-status>
+    <http-range-unit def="none">
+        <documentation source="http://tools.ietf.org/html/rfc7233#section-2.3">A server that does not support any kind of range request for the target resource MAY send "Accept-Ranges: none" to advise the client not to attempt a range request.</documentation>
+    </http-range-unit>
+    <http-range-unit def="bytes">
+        <documentation source="http://tools.ietf.org/html/rfc7233#section-2.1">Since representation data is transferred in payloads as a sequence of octets, a byte range is a meaningful substructure for any representation transferable over HTTP. The "bytes" range unit is defined for expressing subranges of the data's octet sequence.</documentation>
+    </http-range-unit>
 </service>

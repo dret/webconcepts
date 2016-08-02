@@ -56,4 +56,12 @@
         <element-name>http-content-coding</element-name>
         <iana-registry>http://www.iana.org/assignments/http-parameters/http-parameters.xhtml#content-coding</iana-registry>
     </concept>
+    <concept>
+        <title-singular>HTTP Range Unit</title-singular>
+        <title-plural>HTTP Range Units</title-plural>
+        <filename-singular>http-range-unit</filename-singular>
+        <filename-plural>http-range-units</filename-plural>
+        <element-name>http-range-unit</element-name>
+        <iana-registry>http://www.iana.org/assignments/http-parameters/http-parameters.xhtml#range-units</iana-registry>
+    </concept>
 </concepts>
