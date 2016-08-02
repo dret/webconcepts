@@ -121,7 +121,9 @@
                                     <xsl:otherwise>
                                         <xsl:text>  * [</xsl:text>
                                         <xsl:value-of select="sedola:title"/>
-                                        <xsl:text>](</xsl:text>
+                                        <xsl:text> (</xsl:text>
+                                        <xsl:value-of select="replace($id, '^(..*)$', $series/uri-pattern/@name-pattern)"/>
+                                        <xsl:text>)](</xsl:text>
                                         <xsl:value-of select="$id"/>
                                         <xsl:text>)&#xa;</xsl:text>
                                     </xsl:otherwise>
