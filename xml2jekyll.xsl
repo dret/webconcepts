@@ -312,7 +312,9 @@
                                 <xsl:value-of select="sedola:documentation"/>
                                 <xsl:text>](</xsl:text>
                                 <xsl:value-of select="sedola:documentation/@source"/>
-                                <xsl:text>)&#xa;&#xa;</xsl:text>
+                                <xsl:text> "Read documentation for </xsl:text>
+                                <xsl:value-of select="concat($concept/title-singular/text(), ' &amp;#34;', $concept-name)"/>
+                                <xsl:text>&amp;#34;")&#xa;&#xa;</xsl:text>
                             </xsl:for-each>
                             <xsl:text>&lt;br/>&#xa;&lt;hr/>&#xa;&#xa;</xsl:text>
                             <xsl:text>&lt;p style="text-align: right">Return to list of all ( &lt;a href="../</xsl:text>
