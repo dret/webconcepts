@@ -6,8 +6,8 @@
         <documentation source="http://tools.ietf.org/html/rfc6690#section-2">The CoRE Link Format extends the HTTP Link Header field specified in RFC 5988.</documentation>
     </media-type>
     <link-relation def="hosts">
-        <documentation source="http://tools.ietf.org/html/rfc6690#section-7.2">Refers to a resource hosted by the server indicated by the link context.</documentation>
-    </link-relation>
+        <documentation source="http://tools.ietf.org/html/rfc6690#section-2.2">The "hosts" relation type (from the verb "to host") indicates that the target URI is a resource hosted by the server (i.e., server hosts resource) indicated by the context URI. The target URI MUST be a relative URI of the context URI for this relation type.</documentation>
+        </link-relation>
     <well-known-uri def="core">
         <documentation source="http://tools.ietf.org/html/rfc6690#section-4">Resource discovery in CoRE is accomplished through the use of a well-known resource URI that returns a list of links about resources hosted by that server and other link relations. Well-known resources have a path component that begins with "/.well-known/" as specified in RFC 5785. This specification defines a new well-known resource for CoRE Resource Discovery: "/.well-known/core".</documentation>
     </well-known-uri>
