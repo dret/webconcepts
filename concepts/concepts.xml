@@ -64,4 +64,12 @@
         <element-name>http-range-unit</element-name>
         <iana-registry>http://www.iana.org/assignments/http-parameters/http-parameters.xhtml#range-units</iana-registry>
     </concept>
+    <concept>
+        <title-singular>Well-Known URI</title-singular>
+        <title-plural>Well-Known URIs</title-plural>
+        <filename-singular>well-known-uri</filename-singular>
+        <filename-plural>well-known-uris</filename-plural>
+        <element-name>well-known-uri</element-name>
+        <iana-registry>http://www.iana.org/assignments/well-known-uris/well-known-uris.xhtml</iana-registry>
+    </concept>
 </concepts>
