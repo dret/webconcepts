@@ -7,7 +7,7 @@ This is a list of all organizations and their specification series that are curr
 
 * [Internet Engineering Task Force (IETF)](IETF)
   * [Internet Draft (I-D)](IETF/I-D) Series: 23 Specifications
-  * [Request for Comments (RFC)](IETF/RFC) Series: 75 Specifications
+  * [Request for Comments (RFC)](IETF/RFC) Series: 76 Specifications
 * [Java Community Process (JCP)](JCP)
   * [Java Specification Request (JSR)](JCP/JSR) Series: 1 Specifications
 * [World Wide Web Consortium (W3C)](W3C)
