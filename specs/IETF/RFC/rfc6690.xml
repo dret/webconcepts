@@ -8,4 +8,7 @@
     <link-relation def="hosts">
         <documentation source="http://tools.ietf.org/html/rfc6690#section-7.2">Refers to a resource hosted by the server indicated by the link context.</documentation>
     </link-relation>
+    <well-known-uri def="core">
+        <documentation source="http://tools.ietf.org/html/rfc6690#section-4">Resource discovery in CoRE is accomplished through the use of a well-known resource URI that returns a list of links about resources hosted by that server and other link relations. Well-known resources have a path component that begins with "/.well-known/" as specified in RFC 5785. This specification defines a new well-known resource for CoRE Resource Discovery: "/.well-known/core".</documentation>
+    </well-known-uri>
 </service>
