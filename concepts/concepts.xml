@@ -72,4 +72,12 @@
         <element-name>well-known-uri</element-name>
         <iana-registry>http://www.iana.org/assignments/well-known-uris/well-known-uris.xhtml</iana-registry>
     </concept>
+    <concept>
+        <title-singular>HTTP Preference</title-singular>
+        <title-plural>HTTP Preferences</title-plural>
+        <filename-singular>http-preference</filename-singular>
+        <filename-plural>http-preferences</filename-plural>
+        <element-name>http-preference</element-name>
+        <iana-registry>http://www.iana.org/assignments/http-parameters/http-parameters.xhtml#preferences</iana-registry>
+    </concept>
 </concepts>
