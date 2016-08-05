@@ -88,4 +88,12 @@
         <element-name>http-forwarded-parameter</element-name>
         <iana-registry>http://www.iana.org/assignments/http-parameters/http-parameters.xhtml#forwarded</iana-registry>
     </concept>
+    <concept>
+        <title-singular>HTTP Transfer Coding</title-singular>
+        <title-plural>HTTP Transfer Codings</title-plural>
+        <filename-singular>http-transfer-coding</filename-singular>
+        <filename-plural>http-transfer-codings</filename-plural>
+        <element-name>http-transfer-coding</element-name>
+        <iana-registry>http://www.iana.org/assignments/http-parameters/http-parameters.xhtml#transfer-coding</iana-registry>
+    </concept>
 </concepts>
