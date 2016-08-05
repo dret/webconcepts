@@ -5,4 +5,16 @@
     <http-header def="Forwarded">
         <documentation source="http://tools.ietf.org/html/rfc7239#section-4">The "Forwarded" HTTP header field is an OPTIONAL header field that, when used, contains a list of parameter-identifier pairs that disclose information that is altered or lost when a proxy is involved in the path of the request.</documentation>
     </http-header>
+    <http-forwarded-parameter def="by">
+        <documentation source="http://tools.ietf.org/html/rfc7239#section-5.1">The "by" parameter is used to disclose the interface where the request came in to the proxy server.</documentation>
+    </http-forwarded-parameter>
+    <http-forwarded-parameter def="for">
+        <documentation source="http://tools.ietf.org/html/rfc7239#section-5.2">The "for" parameter is used to disclose information about the client that initiated the request and subsequent proxies in a chain of proxies.</documentation>
+    </http-forwarded-parameter>
+    <http-forwarded-parameter def="host">
+        <documentation source="http://tools.ietf.org/html/rfc7239#section-5.3">The "host" parameter is used to forward the original value of the "Host" header field.</documentation>
+    </http-forwarded-parameter>
+    <http-forwarded-parameter def="proto">
+        <documentation source="http://tools.ietf.org/html/rfc7239#section-5.4">The "proto" parameter has the value of the used protocol type.</documentation>
+    </http-forwarded-parameter>
 </service>
