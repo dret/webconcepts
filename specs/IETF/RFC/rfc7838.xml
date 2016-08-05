@@ -4,16 +4,8 @@
     <documentation source="http://tools.ietf.org/html/rfc7838">This document specifies "alternative services" for HTTP, which allow an origin's resources to be authoritatively available at a separate network location, possibly accessed with a different protocol configuration.</documentation>
     <http-header def="Alt-Svc">
         <documentation source="http://tools.ietf.org/html/rfc7838#section-3">An HTTP(S) origin server can advertise the availability of alternative services to clients by adding an Alt-Svc header field to responses.</documentation>
-        <ABNF>Alt-Svc       = clear / 1#alt-value
-clear         = %s"clear"; "clear", case-sensitive
-alt-value     = alternative *( OWS ";" OWS parameter )
-alternative   = protocol-id "=" alt-authority
-protocol-id   = token ; percent-encoded ALPN protocol name
-alt-authority = quoted-string ; containing [ uri-host ] ":" port
-parameter     = token "=" ( token / quoted-string )</ABNF>
     </http-header>
     <http-header def="Alt-Used">
         <documentation source="http://tools.ietf.org/html/rfc7838#section-5">The Alt-Used header field is used in requests to indicate the identity of the alternative service in use, just as the Host header field identifies the host and port of the origin. Alt-Used is intended to allow alternative services to detect loops, differentiate traffic for purposes of load balancing, and generally to ensure that it is possible to identify the intended destination of traffic, since introducing this information after a protocol is in use has proven to be problematic.</documentation>
-        <ABNF>Alt-Used     = uri-host [ ":" port ]</ABNF>
     </http-header>
 </service>

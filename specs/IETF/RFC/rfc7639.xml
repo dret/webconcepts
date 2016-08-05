@@ -4,7 +4,5 @@
     <documentation source="http://tools.ietf.org/html/rfc7639">This specification allows HTTP CONNECT requests to indicate what protocol is intended to be used within the tunnel once established, using the ALPN header field.</documentation>
     <http-header def="ALPN">
         <documentation source="http://tools.ietf.org/html/rfc7639#section-2">Clients include the ALPN header field in an HTTP CONNECT request to indicate the application-layer protocol that a client intends to use within the tunnel, or a set of protocols that might be used within the tunnel.</documentation>
-        <ABNF>ALPN            = 1#protocol-id
-protocol-id     = token ; percent-encoded ALPN protocol identifier</ABNF>
     </http-header>
 </service>
