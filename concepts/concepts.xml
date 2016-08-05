@@ -80,4 +80,12 @@
         <element-name>http-preference</element-name>
         <iana-registry>http://www.iana.org/assignments/http-parameters/http-parameters.xhtml#preferences</iana-registry>
     </concept>
+    <concept>
+        <title-singular>HTTP Forwarded Parameter</title-singular>
+        <title-plural>HTTP Forwarded Parameters</title-plural>
+        <filename-singular>http-forwarded-parameter</filename-singular>
+        <filename-plural>http-forwarded-parameters</filename-plural>
+        <element-name>http-forwarded-parameter</element-name>
+        <iana-registry>http://www.iana.org/assignments/http-parameters/http-parameters.xhtml#forwarded</iana-registry>
+    </concept>
 </concepts>
