@@ -3,7 +3,7 @@ layout: page
 title:  "W3C Technical Report Series"
 ---
 
-There are currently 30 listed specifications in the [World Wide Web Consortium (W3C)](..)'s Technical Report (TR) series.
+There are currently 31 listed specifications in the [World Wide Web Consortium (W3C)](..)'s Technical Report (TR) series.
 
   * [Activity Streams 2.0 (W3C TR http://www.w3.org/TR/activitystreams-core)](activitystreams-core)
   * [Clear Site Data (W3C TR http://www.w3.org/TR/clear-site-data)](clear-site-data)
@@ -25,6 +25,7 @@ There are currently 30 listed specifications in the [World Wide Web Consortium (
   * [Portable Network Graphics (W3C TR http://www.w3.org/TR/PNG)](PNG)
   * [Preload (W3C TR http://www.w3.org/TR/preload)](preload)
   * [Protocol for Web Description Resources (POWDER): Description Resources (W3C TR http://www.w3.org/TR/powder-dr)](powder-dr)
+  * [RDF 1.1 Concepts and Abstract Syntax (W3C TR http://www.w3.org/TR/rdf11-concepts)](rdf11-concepts)
   * [Reporting API 1 (W3C TR http://www.w3.org/TR/reporting-1)](reporting-1)
   * [Resource Hints (W3C TR http://www.w3.org/TR/resource-hints)](resource-hints)
   * [Server-Sent Events (W3C TR http://www.w3.org/TR/eventsource)](eventsource)
