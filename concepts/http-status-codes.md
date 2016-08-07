@@ -6,7 +6,7 @@ permalink: /concepts/http-status-codes
 
 
 
-The following 61 HTTP Status Code definitions (61 distinct values) were found in [134 specifications](/specs). Please be advised that the table shown here is maintained and compiled from [Web Concepts](/) sources. The [official HTTP Status Code registry](http://www.iana.org/assignments/http-status-codes/http-status-codes.xhtml) is maintained by the [*Internet Assigned Numbers Authority (IANA)*](http://www.iana.org/).
+The following 61 HTTP Status Code definitions (61 distinct values) were found in [135 specifications](/specs). Please be advised that the table shown here is maintained and compiled from [Web Concepts](/) sources. The [official HTTP Status Code registry](http://www.iana.org/assignments/http-status-codes/http-status-codes.xhtml) is maintained by the [*Internet Assigned Numbers Authority (IANA)*](http://www.iana.org/).
 
 HTTP Status Code | Specification
 -------: | :-------
