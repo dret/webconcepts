@@ -96,4 +96,12 @@
         <element-name>http-transfer-coding</element-name>
         <iana-registry>http://www.iana.org/assignments/http-parameters/http-parameters.xhtml#transfer-coding</iana-registry>
     </concept>
+    <concept>
+        <title-singular>URI Scheme</title-singular>
+        <title-plural>URI Schemes</title-plural>
+        <filename-singular>uri-scheme</filename-singular>
+        <filename-plural>uri-schemes</filename-plural>
+        <element-name>uri-scheme</element-name>
+        <iana-registry>http://www.iana.org/assignments/uri-schemes/uri-schemes.xhtml</iana-registry>
+    </concept>
 </concepts>
