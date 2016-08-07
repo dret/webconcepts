@@ -3,7 +3,7 @@ layout: page
 title:  "IETF Request for Comments Series"
 ---
 
-There are currently 78 listed specifications in the [Internet Engineering Task Force (IETF)](..)'s Request for Comments (RFC) series.
+There are currently 79 listed specifications in the [Internet Engineering Task Force (IETF)](..)'s Request for Comments (RFC) series.
 
   * [A Media Type for XML Patch Operations (RFC 7351)](7351)
   * [Additional HTTP Status Codes (RFC 6585)](6585)
@@ -49,6 +49,7 @@ There are currently 78 listed specifications in the [Internet Engineering Task F
   * [Link Relation Types for Simple Version Navigation between Web Resources (RFC 5829)](5829)
   * [Locating Services for Calendaring Extensions to WebDAV (CalDAV) and vCard Extensions to WebDAV (CardDAV) (RFC 6764)](6764)
   * [PATCH Method for HTTP (RFC 5789)](5789)
+  * [PKIX over Secure HTTP (POSH) (RFC 7711)](7711)
   * [Prefer Header for HTTP (RFC 7240)](7240)
   * [Problem Details for HTTP APIs (RFC 7807)](7807)
   * [Public Key Pinning Extension for HTTP (RFC 7469)](7469)
