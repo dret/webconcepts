@@ -6,7 +6,7 @@ title:  "Web Concept Specifications: Organizations"
 This is a list of all organizations and their specification series that are currently used to compile the list of [Web Concepts](../concepts).
 
 * [International Organization for Standardization (ISO)](ISO)
-  * [International Electrotechnical Commission (IEC) Series](ISO/IEC "Series overview"): 1 Specifications
+  * [International Electrotechnical Commission (IEC) Series](ISO/IEC "Series overview"): 2 Specifications
 * [Internet Engineering Task Force (IETF)](IETF)
   * [Internet Draft (I-D) Series](IETF/I-D "Series overview"): 24 Specifications
   * [Request for Comments (RFC) Series](IETF/RFC "Series overview"): 83 Specifications
