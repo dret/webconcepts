@@ -3,7 +3,7 @@ layout: page
 title:  "IETF Request for Comments Series"
 ---
 
-There are currently 81 listed specifications in the [Internet Engineering Task Force (IETF)](..)'s Request for Comments (RFC) series.
+There are currently 82 listed specifications in the [Internet Engineering Task Force (IETF)](..)'s Request for Comments (RFC) series.
 
   * [A Media Type for XML Patch Operations (RFC 7351)](7351)
   * [A Uniform Resource Identifier for Geographic Locations ('geo' URI) (RFC 5870)](5870)
@@ -23,6 +23,7 @@ There are currently 81 listed specifications in the [Internet Engineering Task F
   * [Delta encoding in HTTP (RFC 3229)](3229)
   * [Feed Paging and Archiving (RFC 5005)](5005)
   * [Forwarded HTTP Extension (RFC 7239)](7239)
+  * [Guidelines and Registration Procedures for URI Schemes (RFC 7595)](7595)
   * [HTTP Alternate Services (RFC 7838)](7838)
   * [HTTP Cache-Control Extensions for Stale Content (RFC 5861)](5861)
   * [HTTP Digest Access Authentication (RFC 7616)](7616)

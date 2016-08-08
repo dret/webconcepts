@@ -6,7 +6,7 @@ permalink: /concepts/http-transfer-codings
 
 
 
-The following 7 HTTP Transfer Coding definitions (7 distinct values) were found in [138 specifications](/specs). Please be advised that the table shown here is maintained and compiled from [Web Concepts](/) sources. The [official HTTP Transfer Coding registry](http://www.iana.org/assignments/http-parameters/http-parameters.xhtml#transfer-coding) is maintained by the [*Internet Assigned Numbers Authority (IANA)*](http://www.iana.org/).
+The following 7 HTTP Transfer Coding definitions (7 distinct values) were found in [139 specifications](/specs). Please be advised that the table shown here is maintained and compiled from [Web Concepts](/) sources. The [official HTTP Transfer Coding registry](http://www.iana.org/assignments/http-parameters/http-parameters.xhtml#transfer-coding) is maintained by the [*Internet Assigned Numbers Authority (IANA)*](http://www.iana.org/).
 
 HTTP Transfer Coding | Specification
 -------: | :-------
