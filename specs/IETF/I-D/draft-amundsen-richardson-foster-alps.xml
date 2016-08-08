@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <service id="urn:ietf:id:amundsen-richardson-foster-alps" xmlns="http://github.com/dret/sedola">
     <title>Application-Level Profile Semantics (ALPS)</title>
-    <documentation source="http://tools.ietf.org/html/draft-amundsen-richardson-foster-alps">This document describes ALPS, a data format for defining simple descriptions of application-level semantics, similar in complexity to HTML microformats.  An ALPS document can be used as a profile to explain the application semantics of a document with an application-agnostic media type (such as HTML, HAL, Collection+JSON, Siren, etc.).  This increases the reusability of profile documents across media types.</documentation>
+    <documentation source="http://tools.ietf.org/html/draft-amundsen-richardson-foster-alps">This document describes ALPS, a data format for defining simple descriptions of application-level semantics, similar in complexity to HTML microformats. An ALPS document can be used as a profile to explain the application semantics of a document with an application-agnostic media type (such as HTML, HAL, Collection+JSON, Siren, etc.). This increases the reusability of profile documents across media types.</documentation>
     <media-type def="application/alps+xml">
-        <documentation source="http://tools.ietf.org/html/draft-amundsen-richardson-foster-alps#section-4.1">In the XML version of an ALPS document, the following ALPS properties always appear as XML elements: 'alps', 'doc', 'descriptor', and 'ext'.  All other ALPS properties appear as XML attributes.</documentation>
+        <documentation source="http://tools.ietf.org/html/draft-amundsen-richardson-foster-alps#section-4.1">In the XML version of an ALPS document, the following ALPS properties always appear as XML elements: 'alps', 'doc', 'descriptor', and 'ext'. All other ALPS properties appear as XML attributes.</documentation>
     </media-type>
     <media-type def="application/alps+json">
         <documentation source="http://tools.ietf.org/html/draft-amundsen-richardson-foster-alps#section-4.2">When representing ALPS documents in JSON format, the 'descriptor' and 'ext' properties are always expressed as arrays of anonymous objects - even when there is only one member in the array.</documentation>
