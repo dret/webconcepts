@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<service id="urn:ietf:id:ietf-geojson" xmlns="http://github.com/dret/sedola">
+    <title>The GeoJSON Format</title>
+    <documentation source="http://tools.ietf.org/html/draft-ietf-geojson">GeoJSON is a geospatial data interchange format based on JavaScript Object Notation (JSON). It defines several types of JSON objects and the manner in which they are combined to represent data about geographic features, their properties, and their spatial extents. GeoJSON uses a geographic coordinate reference system, World Geodetic System 1984, and units of decimal degrees.</documentation>
+    <media-type def="application/geo+json">
+        <documentation source="http://tools.ietf.org/html/draft-ietf-geojson#section-12">The media type for GeoJSON text is "application/geo+json". The entry for "application/vnd.geo+json" in the same registry should have its status changed to be Obsolete with a pointer to the media type "application/geo+json" and a reference added to this RFC.</documentation>
+    </media-type>
+</service>
