@@ -3,7 +3,7 @@ layout: page
 title:  "IETF Request for Comments Series"
 ---
 
-There are currently 82 listed specifications in the [Internet Engineering Task Force (IETF)](..)'s Request for Comments (RFC) series.
+There are currently 83 listed specifications in the [Internet Engineering Task Force (IETF)](..)'s Request for Comments (RFC) series.
 
   * [A Media Type for XML Patch Operations (RFC 7351)](7351)
   * [A Uniform Resource Identifier for Geographic Locations ('geo' URI) (RFC 5870)](5870)
@@ -56,6 +56,7 @@ There are currently 82 listed specifications in the [Internet Engineering Task F
   * [Prefer Header for HTTP (RFC 7240)](7240)
   * [Problem Details for HTTP APIs (RFC 7807)](7807)
   * [Public Key Pinning Extension for HTTP (RFC 7469)](7469)
+  * [REsource LOcation And Discovery (RELOAD) Base Protocol (RFC 6940)](6940)
   * [Returning Values from Forms: multipart/form-data (RFC 2388)](2388)
   * [Scheduling Extensions to CalDAV (RFC 6638)](6638)
   * [The "create-form" and "edit-form" Link Relations (RFC 6861)](6861)

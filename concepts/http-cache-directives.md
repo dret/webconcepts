@@ -6,7 +6,7 @@ permalink: /concepts/http-cache-directives
 
 
 
-The following 14 HTTP Cache Directive definitions (14 distinct values) were found in [139 specifications](/specs). Please be advised that the table shown here is maintained and compiled from [Web Concepts](/) sources. The [official HTTP Cache Directive registry](http://www.iana.org/assignments/http-cache-directives/http-cache-directives.xhtml) is maintained by the [*Internet Assigned Numbers Authority (IANA)*](http://www.iana.org/).
+The following 14 HTTP Cache Directive definitions (14 distinct values) were found in [140 specifications](/specs). Please be advised that the table shown here is maintained and compiled from [Web Concepts](/) sources. The [official HTTP Cache Directive registry](http://www.iana.org/assignments/http-cache-directives/http-cache-directives.xhtml) is maintained by the [*Internet Assigned Numbers Authority (IANA)*](http://www.iana.org/).
 
 HTTP Cache Directive | Specification
 -------: | :-------
