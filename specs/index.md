@@ -6,7 +6,7 @@ title:  "Web Concept Specifications: Organizations"
 This is a list of all organizations and their specification series that are currently used to compile the list of [Web Concepts](../concepts).
 
 * [Internet Engineering Task Force (IETF)](IETF)
-  * [Internet Draft (I-D) Series](IETF/I-D "Series overview"): 23 Specifications
+  * [Internet Draft (I-D) Series](IETF/I-D "Series overview"): 24 Specifications
   * [Request for Comments (RFC) Series](IETF/RFC "Series overview"): 79 Specifications
 * [Java Community Process (JCP)](JCP)
   * [Java Specification Request (JSR) Series](JCP/JSR "Series overview"): 1 Specifications

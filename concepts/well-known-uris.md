@@ -6,7 +6,7 @@ permalink: /concepts/well-known-uris
 
 
 
-The following 8 Well-Known URI definitions (8 distinct values) were found in [135 specifications](/specs). Please be advised that the table shown here is maintained and compiled from [Web Concepts](/) sources. The [official Well-Known URI registry](http://www.iana.org/assignments/well-known-uris/well-known-uris.xhtml) is maintained by the [*Internet Assigned Numbers Authority (IANA)*](http://www.iana.org/).
+The following 8 Well-Known URI definitions (8 distinct values) were found in [136 specifications](/specs). Please be advised that the table shown here is maintained and compiled from [Web Concepts](/) sources. The [official Well-Known URI registry](http://www.iana.org/assignments/well-known-uris/well-known-uris.xhtml) is maintained by the [*Internet Assigned Numbers Authority (IANA)*](http://www.iana.org/).
 
 Well-Known URI | Specification
 -------: | :-------
