@@ -235,9 +235,7 @@
                     <xsl:value-of select="$concept/title-singular/text()"/>
                     <xsl:text> definitions (</xsl:text>
                     <xsl:value-of select="count(distinct-values($allfiles//sedola:*[local-name() eq $concept/element-name/text()]/@def))"/>
-                    <xsl:text> distinct values) were found in [</xsl:text>
-                    <xsl:value-of select="count($allfiles)"/>
-                    <xsl:text> specifications](/</xsl:text>
+                    <xsl:text> distinct values) were found in [all available `webconcepts.info` specifications](/</xsl:text>
                     <xsl:value-of select="$specs-dir"/>
                     <xsl:text>). Please be advised that the table shown here is maintained and compiled from [Web Concepts](/) sources. The [official </xsl:text>
                     <xsl:value-of select="$concept/title-singular/text()"/>
