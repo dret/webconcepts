@@ -6,7 +6,7 @@ permalink: /concepts/http-content-codings
 
 
 
-The following 10 HTTP Content Coding definitions (10 distinct values) were found in [136 specifications](/specs). Please be advised that the table shown here is maintained and compiled from [Web Concepts](/) sources. The [official HTTP Content Coding registry](http://www.iana.org/assignments/http-parameters/http-parameters.xhtml#content-coding) is maintained by the [*Internet Assigned Numbers Authority (IANA)*](http://www.iana.org/).
+The following 10 HTTP Content Coding definitions (10 distinct values) were found in [137 specifications](/specs). Please be advised that the table shown here is maintained and compiled from [Web Concepts](/) sources. The [official HTTP Content Coding registry](http://www.iana.org/assignments/http-parameters/http-parameters.xhtml#content-coding) is maintained by the [*Internet Assigned Numbers Authority (IANA)*](http://www.iana.org/).
 
 HTTP Content Coding | Specification
 -------: | :-------

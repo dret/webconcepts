@@ -6,7 +6,7 @@ permalink: /concepts/http-range-units
 
 
 
-The following 3 HTTP Range Unit definitions (3 distinct values) were found in [136 specifications](/specs). Please be advised that the table shown here is maintained and compiled from [Web Concepts](/) sources. The [official HTTP Range Unit registry](http://www.iana.org/assignments/http-parameters/http-parameters.xhtml#range-units) is maintained by the [*Internet Assigned Numbers Authority (IANA)*](http://www.iana.org/).
+The following 3 HTTP Range Unit definitions (3 distinct values) were found in [137 specifications](/specs). Please be advised that the table shown here is maintained and compiled from [Web Concepts](/) sources. The [official HTTP Range Unit registry](http://www.iana.org/assignments/http-parameters/http-parameters.xhtml#range-units) is maintained by the [*Internet Assigned Numbers Authority (IANA)*](http://www.iana.org/).
 
 HTTP Range Unit | Specification
 -------: | :-------

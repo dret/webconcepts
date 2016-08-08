@@ -3,9 +3,10 @@ layout: page
 title:  "IETF Request for Comments Series"
 ---
 
-There are currently 79 listed specifications in the [Internet Engineering Task Force (IETF)](..)'s Request for Comments (RFC) series.
+There are currently 80 listed specifications in the [Internet Engineering Task Force (IETF)](..)'s Request for Comments (RFC) series.
 
   * [A Media Type for XML Patch Operations (RFC 7351)](7351)
+  * [A Uniform Resource Identifier for Geographic Locations ('geo' URI) (RFC 5870)](5870)
   * [Additional HTTP Status Codes (RFC 6585)](6585)
   * [Additional Link Relation Types (RFC 6903)](6903)
   * [An Extensible Markup Language (XML) Patch Operations Framework Utilizing XML Path Language (XPath) Selectors (RFC 5261)](5261)
