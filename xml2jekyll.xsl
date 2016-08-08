@@ -113,10 +113,10 @@
                             <xsl:variable name="series" select="."/>
                             <xsl:for-each select="collection(concat($specs-dir, '/', ../@id, '/', @id,'?select=*.xml'))/sedola:service">
                                 <xsl:sort select="sedola:title"/>
-                                <xsl:variable name="id" select="replace(@id, $series/uri-pattern, '$1')"/>
+                                <xsl:variable name="id" select="replace(@id, $series/uri-pattern, $series/uri-pattern/@md-pattern)"/>
                                 <xsl:choose>
                                     <xsl:when test="$id eq @id">
-                                        <xsl:message select="concat('Non-matching service id: ', @id)"/>
+                                        <xsl:message select="concat('Non-matching service/@id: ', @id)"/>
                                     </xsl:when>
                                     <xsl:otherwise>
                                         <xsl:text>  * [</xsl:text>
@@ -139,9 +139,9 @@
                                     <xsl:value-of select="replace($id, '^(..*)$', $series/uri-pattern/@name-pattern)"/>
                                     <xsl:text>&#xa;</xsl:text>
                                     <xsl:text>| Online Version | [`</xsl:text>
-                                    <xsl:value-of select="replace($id, '^(..*)$', $series/uri-pattern/@url-pattern)"/>
+                                    <xsl:value-of select="replace(@id, $series/uri-pattern, $series/uri-pattern/@url-pattern)"/>
                                     <xsl:text>`](</xsl:text>
-                                    <xsl:value-of select="replace($id, '^(..*)$', $series/uri-pattern/@url-pattern)"/>
+                                    <xsl:value-of select="replace(@id, $series/uri-pattern, $series/uri-pattern/@url-pattern)"/>
                                     <xsl:text>)&#xa;</xsl:text>
                                     <xsl:text>| Organization | [</xsl:text>
                                     <xsl:value-of select="$series/../name"/>
