@@ -303,7 +303,7 @@
                             <xsl:for-each select="$allfiles//sedola:*[local-name() eq $concept/element-name/text()][@def eq $concept-name]">
                                 <xsl:text>**[</xsl:text>
                                 <xsl:variable name="series" select="$specs//series[matches(current()/../@id, id-pattern/text())]"/>
-                                <xsl:variable name="id" select="replace(current()/../@id, $series/id-pattern, '$1')"/>
+                                <xsl:variable name="id" select="replace(current()/../@id, $series/id-pattern, $series/id-pattern/@md-pattern)"/>
                                 <xsl:value-of select="replace($id, '^(..*)$', $series/id-pattern/@name-pattern)"/>
                                 <xsl:text>: </xsl:text>
                                 <xsl:value-of select="../sedola:title/text()"/>
