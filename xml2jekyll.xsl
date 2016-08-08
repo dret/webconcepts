@@ -113,7 +113,7 @@
                             <xsl:variable name="series" select="."/>
                             <xsl:for-each select="collection(concat($specs-dir, '/', ../@id, '/', @id,'?select=*.xml'))/sedola:service">
                                 <xsl:sort select="sedola:title"/>
-                                <xsl:variable name="id" select="replace(@id, $series/uri-pattern, $series/uri-pattern/@md-pattern)"/>
+                                <xsl:variable name="id" select="replace(@id, $series/id-pattern, $series/id-pattern/@md-pattern)"/>
                                 <xsl:choose>
                                     <xsl:when test="$id eq @id">
                                         <xsl:message select="concat('Non-matching service/@id: ', @id)"/>
@@ -122,7 +122,7 @@
                                         <xsl:text>  * [</xsl:text>
                                         <xsl:value-of select="sedola:title"/>
                                         <xsl:text> (</xsl:text>
-                                        <xsl:value-of select="replace($id, '^(..*)$', $series/uri-pattern/@name-pattern)"/>
+                                        <xsl:value-of select="replace($id, '^(..*)$', $series/id-pattern/@name-pattern)"/>
                                         <xsl:text>)](</xsl:text>
                                         <xsl:value-of select="$id"/>
                                         <xsl:text>)&#xa;</xsl:text>
@@ -136,12 +136,12 @@
                                     <xsl:text>"&#xa;</xsl:text>
                                     <xsl:text>---&#xa;&#xa;</xsl:text>
                                     <xsl:text>| Canonical Name | </xsl:text>
-                                    <xsl:value-of select="replace($id, '^(..*)$', $series/uri-pattern/@name-pattern)"/>
+                                    <xsl:value-of select="replace($id, '^(..*)$', $series/id-pattern/@name-pattern)"/>
                                     <xsl:text>&#xa;</xsl:text>
                                     <xsl:text>| Online Version | [`</xsl:text>
-                                    <xsl:value-of select="replace(@id, $series/uri-pattern, $series/uri-pattern/@url-pattern)"/>
+                                    <xsl:value-of select="replace(@id, $series/id-pattern, $series/id-pattern/@url-pattern)"/>
                                     <xsl:text>`](</xsl:text>
-                                    <xsl:value-of select="replace(@id, $series/uri-pattern, $series/uri-pattern/@url-pattern)"/>
+                                    <xsl:value-of select="replace(@id, $series/id-pattern, $series/id-pattern/@url-pattern)"/>
                                     <xsl:text>)&#xa;</xsl:text>
                                     <xsl:text>| Organization | [</xsl:text>
                                     <xsl:value-of select="$series/../name"/>
@@ -268,9 +268,9 @@
                         <xsl:text> | </xsl:text>
                         <xsl:for-each select="$allfiles//sedola:*[local-name() eq $concept/element-name/text()][@def eq $concept-name]">
                             <xsl:text>[**</xsl:text>
-                            <xsl:variable name="series" select="$specs//series[matches(current()/../@id, uri-pattern/text())]"/>
-                            <xsl:variable name="id" select="replace(current()/../@id, $series/uri-pattern, '$1')"/>
-                            <xsl:value-of select="replace($id, '^(..*)$', $series/uri-pattern/@name-pattern)"/>
+                            <xsl:variable name="series" select="$specs//series[matches(current()/../@id, id-pattern/text())]"/>
+                            <xsl:variable name="id" select="replace(current()/../@id, $series/id-pattern, '$1')"/>
+                            <xsl:value-of select="replace($id, '^(..*)$', $series/id-pattern/@name-pattern)"/>
                             <xsl:text>**: </xsl:text>
                             <xsl:value-of select="../sedola:title/text()"/>
                             <xsl:text>](</xsl:text>
@@ -302,9 +302,9 @@
                             <xsl:text>---&#xa;&#xa;</xsl:text>
                             <xsl:for-each select="$allfiles//sedola:*[local-name() eq $concept/element-name/text()][@def eq $concept-name]">
                                 <xsl:text>**[</xsl:text>
-                                <xsl:variable name="series" select="$specs//series[matches(current()/../@id, uri-pattern/text())]"/>
-                                <xsl:variable name="id" select="replace(current()/../@id, $series/uri-pattern, '$1')"/>
-                                <xsl:value-of select="replace($id, '^(..*)$', $series/uri-pattern/@name-pattern)"/>
+                                <xsl:variable name="series" select="$specs//series[matches(current()/../@id, id-pattern/text())]"/>
+                                <xsl:variable name="id" select="replace(current()/../@id, $series/id-pattern, '$1')"/>
+                                <xsl:value-of select="replace($id, '^(..*)$', $series/id-pattern/@name-pattern)"/>
                                 <xsl:text>: </xsl:text>
                                 <xsl:value-of select="../sedola:title/text()"/>
                                 <xsl:text>](</xsl:text>
