@@ -19,7 +19,7 @@ There are currently 25 listed specifications in the [Internet Engineering Task F
   * [Home Documents for HTTP APIs (Internet Draft nottingham-json-home)](nottingham-json-home)
   * [Home Documents for HTTP Services: XML Syntax (Internet Draft wilde-home-xml)](wilde-home-xml)
   * [Hypertext Transfer Protocol: Improved HTTP Caching (Internet Draft drechsler-httpbis-improved-caching)](drechsler-httpbis-improved-caching)
-  * [Link Relation Types for Web Services (Internet Draft wilde-link-desc)](wilde-link-desc)
+  * [Link Relation Types for Web Services (Internet Draft wilde-link-rel)](wilde-link-rel)
   * [Marking HTTP Requests as Unimportant (Internet Draft thomson-http-nice)](thomson-http-nice)
   * [Origin Cookies (Internet Draft west-origin-cookies)](west-origin-cookies)
   * [POST Once Exactly (POE) (Internet Draft nottingham-http-poe)](nottingham-http-poe)
