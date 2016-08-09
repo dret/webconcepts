@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<service id="urn:ietf:rfc:6415" xmlns="http://github.com/dret/sedola">
+    <title>Web Host Metadata</title>
+    <documentation source="http://tools.ietf.org/html/rfc6415">This specification describes a method for locating host metadata as well as information about individual resources controlled by the host.</documentation>
+    <well-known-uri def="host-meta">
+        <documentation source="http://tools.ietf.org/html/rfc6415#section-2">The client obtains the host-meta document for a given host by sending an HTTP or an HTTPS GET request to the host for the "/.well-known/host-meta" path.</documentation>
+    </well-known-uri>
+    <well-known-uri def="host-meta.json">
+        <documentation source="http://tools.ietf.org/html/rfc6415#section-2">Alternatively, the client MAY request a JRD representation by requesting the "host-meta.json" well-known document, by making a GET request for "/.well-known/host-meta.json", following the same process used for "/.well-known/host-meta".</documentation>
+    </well-known-uri>
+    <link-relation def="lrdd">
+        <documentation source="http://tools.ietf.org/html/rfc6415#section-1.1.1">LRDD documents are linked to resources or host-meta documents using link templates with the "lrdd" relation type.</documentation>
+    </link-relation>
+</service>
