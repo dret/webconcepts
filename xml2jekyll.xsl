@@ -29,7 +29,10 @@
                 </xsl:if>
                 <xsl:text>](</xsl:text>
                 <xsl:value-of select="@id"/>
-                <xsl:text>)&#xa;</xsl:text>
+                <xsl:text>): </xsl:text>
+                <xsl:variable name="org-specs-count" select="count( for $series in series return collection(concat($specs-dir, '/', $series/../@id, '/', $series/@id,'?select=*.xml')))"/>
+                <xsl:value-of select="$org-specs-count"/>
+                <xsl:text> Specifications&#xa;</xsl:text>
                 <xsl:for-each select="series">
                     <xsl:sort select="name"/>
                     <xsl:text>  * [</xsl:text>
@@ -61,7 +64,9 @@
                     </xsl:if>
                     <xsl:text>](</xsl:text>
                     <xsl:value-of select="@href"/>
-                    <xsl:text>) that are currently available:&#xa;&#xa;</xsl:text>
+                    <xsl:text>) that are currently available, for a total of </xsl:text>
+                    <xsl:value-of select="$org-specs-count"/>
+                    <xsl:text> specifications:&#xa;&#xa;</xsl:text>
                     <xsl:for-each select="series">
                         <xsl:sort select="name"/>
                         <xsl:variable name= "services" select="collection(concat($specs-dir, '/', ../@id, '/', @id,'?select=*.xml'))"/>

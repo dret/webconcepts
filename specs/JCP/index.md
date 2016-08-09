@@ -3,6 +3,6 @@ layout: page
 title:  "Java Community Process: Specification Series"
 ---
 
-Here is a list of all specification series by the [Java Community Process (JCP)](http://jcp.org/) that are currently available:
+Here is a list of all specification series by the [Java Community Process (JCP)](http://jcp.org/) that are currently available, for a total of 1 specifications:
 
   * [Java Specification Request (JSR)](JSR) Series: 1 Specifications
