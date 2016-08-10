@@ -3,7 +3,7 @@ layout: page
 title:  "W3C Technical Report Series"
 ---
 
-There are currently 32 listed specifications in the [World Wide Web Consortium (W3C)](..)'s Technical Report (TR) series.
+There are currently 33 listed specifications in the [World Wide Web Consortium (W3C)](..)'s Technical Report (TR) series.
 
   * [Activity Streams 2.0 (W3C TR http://www.w3.org/TR/activitystreams-core)](activitystreams-core)
   * [Clear Site Data (W3C TR http://www.w3.org/TR/clear-site-data)](clear-site-data)
@@ -21,6 +21,7 @@ There are currently 32 listed specifications in the [World Wide Web Consortium (
   * [Linked Data Platform 1.0 (LDP) (W3C TR http://www.w3.org/TR/ldp)](ldp)
   * [Manifest for Web Application (W3C TR http://www.w3.org/TR/appmanifest)](appmanifest)
   * [Micropub (W3C TR http://www.w3.org/TR/micropub)](micropub)
+  * [Model for Tabular Data and Metadata on the Web (W3C TR http://www.w3.org/TR/tabular-data-model)](tabular-data-model)
   * [Notification for Proxy Caches (W3C TR http://www.w3.org/TR/WD-proxy)](WD-proxy)
   * [PEP - An Extension Mechanism for HTTP (W3C TR http://www.w3.org/TR/WD-http-pep)](WD-http-pep)
   * [Portable Network Graphics (W3C TR http://www.w3.org/TR/PNG)](PNG)

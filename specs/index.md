@@ -12,5 +12,5 @@ This is a list of all organizations and their specification series that are curr
   * [Request for Comments (RFC) Series](IETF/RFC "Series overview"): 86 Specifications
 * [Java Community Process (JCP)](JCP): 1 Specifications
   * [Java Specification Request (JSR) Series](JCP/JSR "Series overview"): 1 Specifications
-* [World Wide Web Consortium (W3C)](W3C): 32 Specifications
-  * [Technical Report (TR) Series](W3C/TR "Series overview"): 32 Specifications
+* [World Wide Web Consortium (W3C)](W3C): 33 Specifications
+  * [Technical Report (TR) Series](W3C/TR "Series overview"): 33 Specifications
