@@ -5,4 +5,7 @@
     <http-header def="Hobareg">
         <documentation source="http://tools.ietf.org/html/rfc7486#section-6.1.1">The server MUST add a header field to the response message when the registration has succeeded in order to indicate the new state. The header to be used is "Hobareg", and the value when registration has succeeded is to be "regok". When registration is in an intermediate state (e.g., on an HTTP response for an interstitial page), the server MAY add this header with a value of "reginwork".</documentation>
     </http-header>
+    <well-known-uri def="hoba">
+        <documentation source="http://tools.ietf.org/html/rfc7486#section-6">HOBA-http uses a well-known URI "hoba" as a base URI for performing many tasks: "https://www.example.com/.well-known/hoba". These URIs are based on the name of the host that the HTTP client is accessing.</documentation>
+    </well-known-uri>
 </service>
