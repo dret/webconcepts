@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<service id="urn:ietf:rfc:7390" xmlns="http://github.com/dret/sedola">
+    <title>Group Communication for the Constrained Application Protocol (CoAP)</title>
+    <documentation source="http://tools.ietf.org/html/rfc7390">The Constrained Application Protocol (CoAP) is a specialized web transfer protocol for constrained devices and constrained networks. It is anticipated that constrained devices will often naturally operate in groups (e.g., in a building automation scenario, all lights in a given room may need to be switched on/off as a group). This specification defines how CoAP should be used in a group communication context.  An approach for using CoAP on top of IP multicast is detailed based on existing CoAP functionality as well as new features introduced in this specification.  Also, various use cases and corresponding protocol flows are provided to illustrate important concepts.  Finally, guidance is provided for deployment in various network topologies.</documentation>
+    <media-type def="application/coap-group+json">
+        <documentation source="http://tools.ietf.org/html/rfc7390#section-2.6.2.1">CoAP endpoints implementing the membership configuration RESTful interface MUST support the CoAP group configuration Internet Media Type "application/coap-group+json".</documentation>
+    </media-type>
+</service>
