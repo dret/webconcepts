@@ -3,11 +3,11 @@ layout: page
 title:  "Home Documents for HTTP APIs"
 ---
 
-| *Canonical Name* | Internet Draft nottingham-json-home
-| *Online Version* | [`http://tools.ietf.org/html/draft-nottingham-json-home`](http://tools.ietf.org/html/draft-nottingham-json-home)
-| *Organization* | [Internet Engineering Task Force (IETF)](..  "List of specification series by this organization")
-| *Series* | [Internet Draft (I-D)](.  "List of specifications in this series")
-| *Abstract* | This document proposes a "home document" format for non-browser HTTP clients.
+| *Canonical Name:* | Internet Draft nottingham-json-home
+| *Online Version:* | [`http://tools.ietf.org/html/draft-nottingham-json-home`](http://tools.ietf.org/html/draft-nottingham-json-home)
+| *Organization:* | [Internet Engineering Task Force (IETF)](..  "List of specification series by this organization")
+| *Series:* | [Internet Draft (I-D)](.  "List of specifications in this series")
+| *Abstract:* | This document proposes a "home document" format for non-browser HTTP clients.
 
 <br/>
 <hr/>
