@@ -1,3 +1,16 @@
 # Web Concepts
 
 This is the repository for the [Web Concepts site published at `webconcepts.info`](http://webconcepts.info/).
+
+There probably should be a bit of documentation of how all of this works... A very high-level overview is this:
+
+* New categories ([concepts](http://webconcepts.info/concepts) or [specification organizations/series](http://webconcepts.info/specs)) get added via XML configuration files in those directories.
+
+* New specification data get added to the appropriate specification organization/series directory as individual XML files.
+
+* A new version of the complete site is generated via `xml2jekyll.xsl`, which requires an XSLT 3.0 processor (and reads no input files).
+
+* The actual MD-based site is created by Jekyll generating a new site from the output of the XSLT processing step.
+
+* After validating locally that everything looks good, a new version is committed to GitHub, and Jekyll runs there as well as part of the repository setup.
+
