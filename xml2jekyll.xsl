@@ -140,15 +140,15 @@
                                     <xsl:value-of select="replace(sedola:title, '&quot;', '\\&quot;')"/>
                                     <xsl:text>"&#xa;</xsl:text>
                                     <xsl:text>---&#xa;&#xa;</xsl:text>
-                                    <xsl:text>| Canonical Name | </xsl:text>
+                                    <xsl:text>| *Canonical&#160;Name* | </xsl:text>
                                     <xsl:value-of select="replace($id, '^(..*)$', $series/id-pattern/@name-pattern)"/>
                                     <xsl:text>&#xa;</xsl:text>
-                                    <xsl:text>| Online Version | [`</xsl:text>
+                                    <xsl:text>| *Online&#160;Version* | [`</xsl:text>
                                     <xsl:value-of select="replace(@id, $series/id-pattern, $series/id-pattern/@url-pattern)"/>
                                     <xsl:text>`](</xsl:text>
                                     <xsl:value-of select="replace(@id, $series/id-pattern, $series/id-pattern/@url-pattern)"/>
                                     <xsl:text>)&#xa;</xsl:text>
-                                    <xsl:text>| Organization | [</xsl:text>
+                                    <xsl:text>| *Organization* | [</xsl:text>
                                     <xsl:value-of select="$series/../name"/>
                                     <xsl:if test="exists($series/../name/@short)">
                                         <xsl:text> (</xsl:text>
@@ -156,7 +156,7 @@
                                         <xsl:text>)</xsl:text>
                                     </xsl:if>
                                     <xsl:text>](..  "List of specification series by this organization")&#xa;</xsl:text>
-                                    <xsl:text>| Series | [</xsl:text>
+                                    <xsl:text>| *Series* | [</xsl:text>
                                     <xsl:value-of select="$series/name"/>
                                     <xsl:if test="exists($series/name/@short)">
                                         <xsl:text> (</xsl:text>
@@ -164,7 +164,7 @@
                                         <xsl:text>)</xsl:text>
                                     </xsl:if>
                                     <xsl:text>](.  "List of specifications in this series")&#xa;</xsl:text>
-                                    <xsl:text>| Abstract | </xsl:text>
+                                    <xsl:text>| *Abstract* | </xsl:text>
                                     <xsl:value-of select="sedola:documentation/text()"/>
                                     <xsl:text>&#xa;&#xa;</xsl:text>
                                     <xsl:text>&lt;br/>&#xa;&lt;hr/>&#xa;&#xa;</xsl:text>

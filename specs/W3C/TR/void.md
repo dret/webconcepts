@@ -3,11 +3,11 @@ layout: page
 title:  "Describing Linked Datasets with the VoID Vocabulary"
 ---
 
-| Canonical Name | W3C TR http://www.w3.org/TR/void
-| Online Version | [`http://www.w3.org/TR/void`](http://www.w3.org/TR/void)
-| Organization | [World Wide Web Consortium (W3C)](..  "List of specification series by this organization")
-| Series | [Technical Report (TR)](.  "List of specifications in this series")
-| Abstract | VoID is an RDF Schema vocabulary for expressing metadata about RDF datasets. It is intended as a bridge between the publishers and users of RDF data, with applications ranging from data discovery to cataloging and archiving of datasets. This document is a detailed guide to the VoID vocabulary. It describes how VoID can be used to express general metadata based on Dublin Core, access metadata, structural metadata, and links between datasets. It also provides deployment advice and discusses the discovery of VoID descriptions.
+| *Canonical Name* | W3C TR http://www.w3.org/TR/void
+| *Online Version* | [`http://www.w3.org/TR/void`](http://www.w3.org/TR/void)
+| *Organization* | [World Wide Web Consortium (W3C)](..  "List of specification series by this organization")
+| *Series* | [Technical Report (TR)](.  "List of specifications in this series")
+| *Abstract* | VoID is an RDF Schema vocabulary for expressing metadata about RDF datasets. It is intended as a bridge between the publishers and users of RDF data, with applications ranging from data discovery to cataloging and archiving of datasets. This document is a detailed guide to the VoID vocabulary. It describes how VoID can be used to express general metadata based on Dublin Core, access metadata, structural metadata, and links between datasets. It also provides deployment advice and discusses the discovery of VoID descriptions.
 
 <br/>
 <hr/>
