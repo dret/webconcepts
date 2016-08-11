@@ -3,7 +3,7 @@ layout: page
 title:  "IETF Request for Comments Series"
 ---
 
-There are currently 87 listed specifications in the [Internet Engineering Task Force (IETF)](..)'s Request for Comments (RFC) series.
+There are currently 88 listed specifications in the [Internet Engineering Task Force (IETF)](..)'s Request for Comments (RFC) series.
 
   * [A Media Type for XML Patch Operations (RFC 7351)](7351)
   * [A Reputation Query Protocol (RFC 7072)](7072)
@@ -22,6 +22,7 @@ There are currently 87 listed specifications in the [Internet Engineering Task F
   * [Concise Binary Object Representation (CBOR) (RFC 7049)](7049)
   * [Constrained RESTful Environments (CoRE) Link Format (RFC 6690)](6690)
   * [Delta encoding in HTTP (RFC 3229)](3229)
+  * [Enrollment over Secure Transport (RFC 7030)](7030)
   * [Feed Paging and Archiving (RFC 5005)](5005)
   * [Forwarded HTTP Extension (RFC 7239)](7239)
   * [Guidelines and Registration Procedures for URI Schemes (RFC 7595)](7595)

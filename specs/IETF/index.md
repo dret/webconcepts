@@ -3,7 +3,7 @@ layout: page
 title:  "Internet Engineering Task Force: Specification Series"
 ---
 
-Here is a list of all specification series by the [Internet Engineering Task Force (IETF)](http://www.ietf.org/) that are currently available, for a total of 111 specifications:
+Here is a list of all specification series by the [Internet Engineering Task Force (IETF)](http://www.ietf.org/) that are currently available, for a total of 112 specifications:
 
   * [Internet Draft (I-D)](I-D) Series: 24 Specifications
-  * [Request for Comments (RFC)](RFC) Series: 87 Specifications
+  * [Request for Comments (RFC)](RFC) Series: 88 Specifications
