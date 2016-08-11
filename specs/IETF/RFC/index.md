@@ -3,7 +3,7 @@ layout: page
 title:  "IETF Request for Comments Series"
 ---
 
-There are currently 86 listed specifications in the [Internet Engineering Task Force (IETF)](..)'s Request for Comments (RFC) series.
+There are currently 87 listed specifications in the [Internet Engineering Task Force (IETF)](..)'s Request for Comments (RFC) series.
 
   * [A Media Type for XML Patch Operations (RFC 7351)](7351)
   * [A Reputation Query Protocol (RFC 7072)](7072)
@@ -67,6 +67,7 @@ There are currently 86 listed specifications in the [Internet Engineering Task F
   * [The ALPN HTTP Header Field (RFC 7639)](7639)
   * [The Atom "deleted-entry" Element (RFC 6271)](6271)
   * [The Canonical Link Relation (RFC 6596)](6596)
+  * [The GeoJSON Format (RFC 7946)](7946)
   * [The Hyper Text Coffee Pot Control Protocol for Tea Efflux Appliances (HTCPCP-TEA) (RFC 7168)](7168)
   * [The Hypertext Transfer Protocol (HTTP) Authentication-Info and Proxy-Authentication-Info Response Header Fields (RFC 7615)](7615)
   * [The Hypertext Transfer Protocol Status Code 308 (Permanent Redirect) (RFC 7538)](7538)
