@@ -9,7 +9,7 @@
     <xsl:variable name="concepts-dir" select="'concepts'"/>
     <xsl:variable name="concepts" select="document(concat($concepts-dir, '/concepts.xml'))"/>
     <!-- -->
-    <xsl:variable name="allfiles" select="for $i in $specs/specs/organization/series return collection(concat($specs-dir, '/', $i/../@id, '/', $i/@id,'/','?select=*.xml'))"/>
+    <xsl:variable name="allspecs" select="for $i in $specs/specs/organization/series return collection(concat($specs-dir, '/', $i/../@id, '/', $i/@id,'/','?select=*.xml'))"/>
     <!-- -->
     <xsl:template match="/">
         <xsl:result-document href="{$specs-dir}/index.md" format="jekyll">
@@ -213,7 +213,7 @@
             <xsl:text>This is an overview of </xsl:text>
             <xsl:value-of select="count($concepts/concepts/concept)"/>
             <xsl:text> Web Concepts (with a total of </xsl:text>
-            <xsl:value-of select="count(distinct-values($allfiles//sedola:*[local-name() = $concepts/concepts/concept/element-name/text()]/@def))"/>
+            <xsl:value-of select="count(distinct-values($allspecs//sedola:*[local-name() = $concepts/concepts/concept/element-name/text()]/@def))"/>
             <xsl:text> distinct entries) that have been harvested from all [available specifications](/</xsl:text>
             <xsl:value-of select="$specs-dir"/>
             <xsl:text>):&#xa;&#xa;</xsl:text>
@@ -225,7 +225,7 @@
                 <xsl:text>](</xsl:text>
                 <xsl:value-of select="filename-plural"/>
                 <xsl:text>) (</xsl:text>
-                <xsl:value-of select="count(distinct-values($allfiles//sedola:*[local-name() eq current()/element-name/text()]/@def))"/>
+                <xsl:value-of select="count(distinct-values($allspecs//sedola:*[local-name() eq current()/element-name/text()]/@def))"/>
                 <xsl:text> entries)&#xa;</xsl:text>
                 <xsl:result-document href="{$concepts-dir}/{filename-plural}.md" format="jekyll">
                     <xsl:text>---&#xa;</xsl:text>
@@ -238,11 +238,11 @@
                     <xsl:text>&#xa;</xsl:text>
                     <xsl:text>---&#xa;&#xa;</xsl:text>
                     <xsl:text>&#xa;&#xa;The following </xsl:text>
-                    <xsl:value-of select="count($allfiles//sedola:*[local-name() eq $concept/element-name/text()]/@def)"/>
+                    <xsl:value-of select="count($allspecs//sedola:*[local-name() eq $concept/element-name/text()]/@def)"/>
                     <xsl:text> </xsl:text>
                     <xsl:value-of select="$concept/title-singular/text()"/>
                     <xsl:text> definitions (</xsl:text>
-                    <xsl:value-of select="count(distinct-values($allfiles//sedola:*[local-name() eq $concept/element-name/text()]/@def))"/>
+                    <xsl:value-of select="count(distinct-values($allspecs//sedola:*[local-name() eq $concept/element-name/text()]/@def))"/>
                     <xsl:text> distinct values) were found in [all available `webconcepts.info` specifications](/</xsl:text>
                     <xsl:value-of select="$specs-dir"/>
                     <xsl:text>). Please be advised that the table shown here is maintained and compiled from [Web Concepts](/) sources. The [official </xsl:text>
@@ -252,19 +252,19 @@
                     <xsl:text>) is maintained by the [*Internet Assigned Numbers Authority (IANA)*](http://www.iana.org/).&#xa;&#xa;</xsl:text>
                     <xsl:value-of select="$concept/title-singular/text()"/>
                     <xsl:text> | Specification&#xa;-------: | :-------&#xa;</xsl:text>
-                    <xsl:for-each select="distinct-values($allfiles//sedola:*[local-name() eq $concept/element-name/text()]/@def)">
+                    <xsl:for-each select="distinct-values($allspecs//sedola:*[local-name() eq $concept/element-name/text()]/@def)">
                         <xsl:sort select="."/>
                         <xsl:variable name="concept-name" select="."/>
                         <xsl:text>[`</xsl:text>
                         <xsl:value-of select="$concept-name"/>
-                        <xsl:variable name="desc" select="$allfiles//sedola:*[local-name() eq $concept/element-name/text()][@def eq $concept-name][1]/@desc"/>
+                        <xsl:variable name="desc" select="$allspecs//sedola:*[local-name() eq $concept/element-name/text()][@def eq $concept-name][1]/@desc"/>
                         <xsl:if test="exists($desc)">
                             <xsl:text>: </xsl:text>
                             <xsl:value-of select="$desc"/>
                         </xsl:if>
                         <xsl:text>`](</xsl:text>
                         <xsl:value-of select="concat('/', $concepts-dir, '/', $concept/filename-singular, '/', $concept-name)"/>
-                        <xsl:variable name="number-of-defs" select="count($allfiles//sedola:*[local-name() eq $concept/element-name/text()][@def eq $concept-name])"/>
+                        <xsl:variable name="number-of-defs" select="count($allspecs//sedola:*[local-name() eq $concept/element-name/text()][@def eq $concept-name])"/>
                         <xsl:if test="$number-of-defs gt 1">
                             <xsl:text> "</xsl:text>
                             <xsl:value-of select="$number-of-defs"/>
@@ -272,7 +272,7 @@
                         </xsl:if>
                         <xsl:text>)</xsl:text>
                         <xsl:text> | </xsl:text>
-                        <xsl:for-each select="$allfiles//sedola:*[local-name() eq $concept/element-name/text()][@def eq $concept-name]">
+                        <xsl:for-each select="$allspecs//sedola:*[local-name() eq $concept/element-name/text()][@def eq $concept-name]">
                             <xsl:text>[**</xsl:text>
                             <xsl:variable name="series" select="$specs//series[matches(current()/../@id, id-pattern/text())]"/>
                             <xsl:variable name="id" select="replace(current()/../@id, $series/id-pattern, '$1')"/>
@@ -306,7 +306,7 @@
                             </xsl:if>
                             <xsl:text>"&#xa;</xsl:text>
                             <xsl:text>---&#xa;&#xa;</xsl:text>
-                            <xsl:for-each select="$allfiles//sedola:*[local-name() eq $concept/element-name/text()][@def eq $concept-name]">
+                            <xsl:for-each select="$allspecs//sedola:*[local-name() eq $concept/element-name/text()][@def eq $concept-name]">
                                 <xsl:text>**[</xsl:text>
                                 <xsl:variable name="series" select="$specs//series[matches(current()/../@id, id-pattern/text())]"/>
                                 <xsl:variable name="id" select="replace(current()/../@id, $series/id-pattern, $series/id-pattern/@md-pattern)"/>
