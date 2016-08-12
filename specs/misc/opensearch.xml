@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<service id="http://www.opensearch.org/Specifications/OpenSearch/1.1" xmlns="http://github.com/dret/sedola">
+<service primary="misc" id="OpenSearch" xmlns="http://github.com/dret/sedola">
     <title>OpenSearch</title>
     <import href="rfc4287.xml"/>
     <profile xml:id="opensearch-profile" id="http://www.opensearch.org/">
