@@ -3,7 +3,7 @@ layout: page
 title:  "Upgrade Insecure Requests"
 ---
 
-| *Canonical Name:* | W3C TR http://www.w3.org/TR/upgrade-insecure-requests
+| *Document Name:* | W3C TR http://www.w3.org/TR/upgrade-insecure-requests
 | *Document URI:* | `http://www.w3.org/TR/upgrade-insecure-requests`
 | *Online Version:* | [`http://www.w3.org/TR/upgrade-insecure-requests`](http://www.w3.org/TR/upgrade-insecure-requests)
 | *Organization:* | [World Wide Web Consortium (W3C)](..  "List of specification series by this organization")

@@ -3,7 +3,7 @@ layout: page
 title:  "Micropub"
 ---
 
-| *Canonical Name:* | W3C TR http://www.w3.org/TR/micropub
+| *Document Name:* | W3C TR http://www.w3.org/TR/micropub
 | *Document URI:* | `http://www.w3.org/TR/micropub`
 | *Online Version:* | [`http://www.w3.org/TR/micropub`](http://www.w3.org/TR/micropub)
 | *Organization:* | [World Wide Web Consortium (W3C)](..  "List of specification series by this organization")

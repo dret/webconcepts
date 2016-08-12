@@ -3,7 +3,7 @@ layout: page
 title:  "HTTP bytes-live Range Unit for Live Content"
 ---
 
-| *Canonical Name:* | Internet Draft pratt-httpbis-bytes-live-range-unit
+| *Document Name:* | Internet Draft pratt-httpbis-bytes-live-range-unit
 | *Document URI:* | `urn:ietf:id:pratt-httpbis-bytes-live-range-unit`
 | *Online Version:* | [`http://tools.ietf.org/html/draft-pratt-httpbis-bytes-live-range-unit`](http://tools.ietf.org/html/draft-pratt-httpbis-bytes-live-range-unit)
 | *Organization:* | [Internet Engineering Task Force (IETF)](..  "List of specification series by this organization")

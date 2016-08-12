@@ -3,7 +3,7 @@ layout: page
 title:  "Clear Site Data"
 ---
 
-| *Canonical Name:* | W3C TR http://www.w3.org/TR/clear-site-data
+| *Document Name:* | W3C TR http://www.w3.org/TR/clear-site-data
 | *Document URI:* | `http://www.w3.org/TR/clear-site-data`
 | *Online Version:* | [`http://www.w3.org/TR/clear-site-data`](http://www.w3.org/TR/clear-site-data)
 | *Organization:* | [World Wide Web Consortium (W3C)](..  "List of specification series by this organization")

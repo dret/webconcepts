@@ -3,7 +3,7 @@ layout: page
 title:  "Activity Streams 2.0"
 ---
 
-| *Canonical Name:* | W3C TR http://www.w3.org/TR/activitystreams-core
+| *Document Name:* | W3C TR http://www.w3.org/TR/activitystreams-core
 | *Document URI:* | `http://www.w3.org/TR/activitystreams-core`
 | *Online Version:* | [`http://www.w3.org/TR/activitystreams-core`](http://www.w3.org/TR/activitystreams-core)
 | *Organization:* | [World Wide Web Consortium (W3C)](..  "List of specification series by this organization")

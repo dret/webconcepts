@@ -3,7 +3,7 @@ layout: page
 title:  "Notification for Proxy Caches"
 ---
 
-| *Canonical Name:* | W3C TR http://www.w3.org/TR/WD-proxy
+| *Document Name:* | W3C TR http://www.w3.org/TR/WD-proxy
 | *Document URI:* | `http://www.w3.org/TR/WD-proxy`
 | *Online Version:* | [`http://www.w3.org/TR/WD-proxy`](http://www.w3.org/TR/WD-proxy)
 | *Organization:* | [World Wide Web Consortium (W3C)](..  "List of specification series by this organization")

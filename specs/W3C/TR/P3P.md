@@ -3,7 +3,7 @@ layout: page
 title:  "The Platform for Privacy Preferences 1.0 (P3P1.0) Specification"
 ---
 
-| *Canonical Name:* | W3C TR http://www.w3.org/TR/P3P
+| *Document Name:* | W3C TR http://www.w3.org/TR/P3P
 | *Document URI:* | `http://www.w3.org/TR/P3P`
 | *Online Version:* | [`http://www.w3.org/TR/P3P`](http://www.w3.org/TR/P3P)
 | *Organization:* | [World Wide Web Consortium (W3C)](..  "List of specification series by this organization")

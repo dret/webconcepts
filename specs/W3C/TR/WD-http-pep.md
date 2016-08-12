@@ -3,7 +3,7 @@ layout: page
 title:  "PEP - An Extension Mechanism for HTTP"
 ---
 
-| *Canonical Name:* | W3C TR http://www.w3.org/TR/WD-http-pep
+| *Document Name:* | W3C TR http://www.w3.org/TR/WD-http-pep
 | *Document URI:* | `http://www.w3.org/TR/WD-http-pep`
 | *Online Version:* | [`http://www.w3.org/TR/WD-http-pep`](http://www.w3.org/TR/WD-http-pep)
 | *Organization:* | [World Wide Web Consortium (W3C)](..  "List of specification series by this organization")

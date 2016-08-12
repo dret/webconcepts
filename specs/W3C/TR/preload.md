@@ -3,7 +3,7 @@ layout: page
 title:  "Preload"
 ---
 
-| *Canonical Name:* | W3C TR http://www.w3.org/TR/preload
+| *Document Name:* | W3C TR http://www.w3.org/TR/preload
 | *Document URI:* | `http://www.w3.org/TR/preload`
 | *Online Version:* | [`http://www.w3.org/TR/preload`](http://www.w3.org/TR/preload)
 | *Organization:* | [World Wide Web Consortium (W3C)](..  "List of specification series by this organization")

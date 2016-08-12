@@ -3,7 +3,7 @@ layout: page
 title:  "Model for Tabular Data and Metadata on the Web"
 ---
 
-| *Canonical Name:* | W3C TR http://www.w3.org/TR/tabular-data-model
+| *Document Name:* | W3C TR http://www.w3.org/TR/tabular-data-model
 | *Document URI:* | `http://www.w3.org/TR/tabular-data-model`
 | *Online Version:* | [`http://www.w3.org/TR/tabular-data-model`](http://www.w3.org/TR/tabular-data-model)
 | *Organization:* | [World Wide Web Consortium (W3C)](..  "List of specification series by this organization")

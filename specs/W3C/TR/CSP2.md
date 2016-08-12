@@ -3,7 +3,7 @@ layout: page
 title:  "Content Security Policy Level 2"
 ---
 
-| *Canonical Name:* | W3C TR http://www.w3.org/TR/CSP2
+| *Document Name:* | W3C TR http://www.w3.org/TR/CSP2
 | *Document URI:* | `http://www.w3.org/TR/CSP2`
 | *Online Version:* | [`http://www.w3.org/TR/CSP2`](http://www.w3.org/TR/CSP2)
 | *Organization:* | [World Wide Web Consortium (W3C)](..  "List of specification series by this organization")

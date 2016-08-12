@@ -3,7 +3,7 @@ layout: page
 title:  "Additional Link Relations and the urn:social Namespace"
 ---
 
-| *Canonical Name:* | Internet Draft snell-more-link-relations
+| *Document Name:* | Internet Draft snell-more-link-relations
 | *Document URI:* | `urn:ietf:id:snell-more-link-relations`
 | *Online Version:* | [`http://tools.ietf.org/html/draft-snell-more-link-relations`](http://tools.ietf.org/html/draft-snell-more-link-relations)
 | *Organization:* | [Internet Engineering Task Force (IETF)](..  "List of specification series by this organization")

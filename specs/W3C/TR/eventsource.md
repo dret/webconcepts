@@ -3,7 +3,7 @@ layout: page
 title:  "Server-Sent Events"
 ---
 
-| *Canonical Name:* | W3C TR http://www.w3.org/TR/eventsource
+| *Document Name:* | W3C TR http://www.w3.org/TR/eventsource
 | *Document URI:* | `http://www.w3.org/TR/eventsource`
 | *Online Version:* | [`http://www.w3.org/TR/eventsource`](http://www.w3.org/TR/eventsource)
 | *Organization:* | [World Wide Web Consortium (W3C)](..  "List of specification series by this organization")

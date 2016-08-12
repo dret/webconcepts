@@ -3,7 +3,7 @@ layout: page
 title:  "Edge Architecture Specification"
 ---
 
-| *Canonical Name:* | W3C TR http://www.w3.org/TR/edge-arch
+| *Document Name:* | W3C TR http://www.w3.org/TR/edge-arch
 | *Document URI:* | `http://www.w3.org/TR/edge-arch`
 | *Online Version:* | [`http://www.w3.org/TR/edge-arch`](http://www.w3.org/TR/edge-arch)
 | *Organization:* | [World Wide Web Consortium (W3C)](..  "List of specification series by this organization")

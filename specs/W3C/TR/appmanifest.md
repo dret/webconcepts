@@ -3,7 +3,7 @@ layout: page
 title:  "Manifest for Web Application"
 ---
 
-| *Canonical Name:* | W3C TR http://www.w3.org/TR/appmanifest
+| *Document Name:* | W3C TR http://www.w3.org/TR/appmanifest
 | *Document URI:* | `http://www.w3.org/TR/appmanifest`
 | *Online Version:* | [`http://www.w3.org/TR/appmanifest`](http://www.w3.org/TR/appmanifest)
 | *Organization:* | [World Wide Web Consortium (W3C)](..  "List of specification series by this organization")

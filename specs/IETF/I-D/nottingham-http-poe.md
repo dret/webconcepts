@@ -3,7 +3,7 @@ layout: page
 title:  "POST Once Exactly (POE)"
 ---
 
-| *Canonical Name:* | Internet Draft nottingham-http-poe
+| *Document Name:* | Internet Draft nottingham-http-poe
 | *Document URI:* | `urn:ietf:id:nottingham-http-poe`
 | *Online Version:* | [`http://tools.ietf.org/html/draft-nottingham-http-poe`](http://tools.ietf.org/html/draft-nottingham-http-poe)
 | *Organization:* | [Internet Engineering Task Force (IETF)](..  "List of specification series by this organization")

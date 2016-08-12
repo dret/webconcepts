@@ -3,7 +3,7 @@ layout: page
 title:  "HTTP/1.1: Range Responses of Indeterminate Length"
 ---
 
-| *Canonical Name:* | Internet Draft combs-http-indeterminate-range
+| *Document Name:* | Internet Draft combs-http-indeterminate-range
 | *Document URI:* | `urn:ietf:id:combs-http-indeterminate-range`
 | *Online Version:* | [`http://tools.ietf.org/html/draft-combs-http-indeterminate-range`](http://tools.ietf.org/html/draft-combs-http-indeterminate-range)
 | *Organization:* | [Internet Engineering Task Force (IETF)](..  "List of specification series by this organization")

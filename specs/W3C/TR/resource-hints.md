@@ -3,7 +3,7 @@ layout: page
 title:  "Resource Hints"
 ---
 
-| *Canonical Name:* | W3C TR http://www.w3.org/TR/resource-hints
+| *Document Name:* | W3C TR http://www.w3.org/TR/resource-hints
 | *Document URI:* | `http://www.w3.org/TR/resource-hints`
 | *Online Version:* | [`http://www.w3.org/TR/resource-hints`](http://www.w3.org/TR/resource-hints)
 | *Organization:* | [World Wide Web Consortium (W3C)](..  "List of specification series by this organization")

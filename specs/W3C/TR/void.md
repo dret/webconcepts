@@ -3,7 +3,7 @@ layout: page
 title:  "Describing Linked Datasets with the VoID Vocabulary"
 ---
 
-| *Canonical Name:* | W3C TR http://www.w3.org/TR/void
+| *Document Name:* | W3C TR http://www.w3.org/TR/void
 | *Document URI:* | `http://www.w3.org/TR/void`
 | *Online Version:* | [`http://www.w3.org/TR/void`](http://www.w3.org/TR/void)
 | *Organization:* | [World Wide Web Consortium (W3C)](..  "List of specification series by this organization")

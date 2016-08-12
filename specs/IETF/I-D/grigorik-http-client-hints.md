@@ -3,7 +3,7 @@ layout: page
 title:  "HTTP Client Hints"
 ---
 
-| *Canonical Name:* | Internet Draft grigorik-http-client-hints
+| *Document Name:* | Internet Draft grigorik-http-client-hints
 | *Document URI:* | `urn:ietf:id:grigorik-http-client-hints`
 | *Online Version:* | [`http://tools.ietf.org/html/draft-grigorik-http-client-hints`](http://tools.ietf.org/html/draft-grigorik-http-client-hints)
 | *Organization:* | [Internet Engineering Task Force (IETF)](..  "List of specification series by this organization")

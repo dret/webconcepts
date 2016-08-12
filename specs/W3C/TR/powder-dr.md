@@ -3,7 +3,7 @@ layout: page
 title:  "Protocol for Web Description Resources (POWDER): Description Resources"
 ---
 
-| *Canonical Name:* | W3C TR http://www.w3.org/TR/powder-dr
+| *Document Name:* | W3C TR http://www.w3.org/TR/powder-dr
 | *Document URI:* | `http://www.w3.org/TR/powder-dr`
 | *Online Version:* | [`http://www.w3.org/TR/powder-dr`](http://www.w3.org/TR/powder-dr)
 | *Organization:* | [World Wide Web Consortium (W3C)](..  "List of specification series by this organization")

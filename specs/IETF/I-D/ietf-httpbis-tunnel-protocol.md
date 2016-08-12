@@ -3,7 +3,7 @@ layout: page
 title:  "The Tunnel-Protocol HTTP Header Field"
 ---
 
-| *Canonical Name:* | Internet Draft ietf-httpbis-tunnel-protocol
+| *Document Name:* | Internet Draft ietf-httpbis-tunnel-protocol
 | *Document URI:* | `urn:ietf:id:ietf-httpbis-tunnel-protocol`
 | *Online Version:* | [`http://tools.ietf.org/html/draft-ietf-httpbis-tunnel-protocol`](http://tools.ietf.org/html/draft-ietf-httpbis-tunnel-protocol)
 | *Organization:* | [Internet Engineering Task Force (IETF)](..  "List of specification series by this organization")

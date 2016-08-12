@@ -140,7 +140,7 @@
                                     <xsl:value-of select="replace(sedola:title, '&quot;', '\\&quot;')"/>
                                     <xsl:text>"&#xa;</xsl:text>
                                     <xsl:text>---&#xa;&#xa;</xsl:text>
-                                    <xsl:text>| *Canonical&#160;Name:* | </xsl:text>
+                                    <xsl:text>| *Document&#160;Name:* | </xsl:text>
                                     <xsl:value-of select="replace($id, '^(..*)$', $series/id-pattern/@name-pattern)"/>
                                     <xsl:text>&#xa;</xsl:text>
                                     <xsl:text>| *Document&#160;URI:* | `</xsl:text>

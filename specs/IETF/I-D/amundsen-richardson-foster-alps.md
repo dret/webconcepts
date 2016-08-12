@@ -3,7 +3,7 @@ layout: page
 title:  "Application-Level Profile Semantics (ALPS)"
 ---
 
-| *Canonical Name:* | Internet Draft amundsen-richardson-foster-alps
+| *Document Name:* | Internet Draft amundsen-richardson-foster-alps
 | *Document URI:* | `urn:ietf:id:amundsen-richardson-foster-alps`
 | *Online Version:* | [`http://tools.ietf.org/html/draft-amundsen-richardson-foster-alps`](http://tools.ietf.org/html/draft-amundsen-richardson-foster-alps)
 | *Organization:* | [Internet Engineering Task Force (IETF)](..  "List of specification series by this organization")
