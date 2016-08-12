@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<service id="http://www.w3.org/TR/trig" xmlns="http://github.com/dret/sedola">
+<service primary="W3C" secondary="TR" id="trig" xmlns="http://github.com/dret/sedola">
     <title>TriG</title>
     <documentation source="http://www.w3.org/TR/trig/">The Resource Description Framework (RDF) is a general-purpose language for representing information in the Web. This document defines a textual syntax for RDF called TriG that allows an RDF dataset to be completely written in a compact and natural text form, with abbreviations for common usage patterns and datatypes. TriG is an extension of the Turtle [turtle] format.</documentation>
     <media-type def="application/trig">

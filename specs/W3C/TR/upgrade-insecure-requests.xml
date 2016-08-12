@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<service id="http://www.w3.org/TR/upgrade-insecure-requests" xmlns="http://github.com/dret/sedola">
+<service primary="W3C" secondary="TR" id="upgrade-insecure-requests" xmlns="http://github.com/dret/sedola">
     <title>Upgrade Insecure Requests</title>
     <documentation source="http://www.w3.org/TR/upgrade-insecure-requests/">This document defines a mechanism which allows authors to instruct a user agent to upgrade a priori insecure resource requests to secure transport before fetching them.</documentation>
     <http-header def="HTTPS">

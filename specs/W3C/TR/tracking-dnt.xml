@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<service id="http://www.w3.org/TR/tracking-dnt" xmlns="http://github.com/dret/sedola">
+<service primary="W3C" secondary="TR" id="tracking-dnt" xmlns="http://github.com/dret/sedola">
     <title short="DNT">Tracking Preference Expression (DNT)</title>
     <documentation source="http://www.w3.org/TR/tracking-dnt/">This specification defines the technical mechanisms for expressing a tracking preference via the DNT request header field in HTTP, via an HTML DOM property readable by embedded scripts, and via properties accessible to various user agent plug-in or extension APIs. It also defines mechanisms for sites to signal whether and how they honor this preference, both in the form of a machine-readable tracking status resource at a well-known location and via a "Tk" response header field, and a mechanism for allowing the user to approve exceptions to DNT as desired.</documentation>
     <http-header def="DNT">

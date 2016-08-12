@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<service id="http://www.w3.org/TR/edge-arch" xmlns="http://github.com/dret/sedola">
+<service primary="W3C" secondary="TR" id="edge-arch" xmlns="http://github.com/dret/sedola">
     <title>Edge Architecture Specification</title>
     <documentation source="http://www.w3.org/TR/edge-arch/">This document defines the Edge Architecture, which extend the Web infrastructure through the use of HTTP surrogates - intermediaries that act on behalf of an origin server.</documentation>
     <http-header def="Surrogate-Capability">

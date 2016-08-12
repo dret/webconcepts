@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<service id="http://www.w3.org/TR/clear-site-data" xmlns="http://github.com/dret/sedola">
+<service primary="W3C" secondary="TR" id="clear-site-data" xmlns="http://github.com/dret/sedola">
     <title>Clear Site Data</title>
     <documentation source="http://www.w3.org/TR/clear-site-data/">This document defines an imperative mechanism which allows web developers to instruct a user agent to clear a user's locally stored data related to a host and its subdomains.</documentation>
     <http-header def="Clear-Site-Data">
