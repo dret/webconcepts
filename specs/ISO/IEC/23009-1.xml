@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<service id="http://www.iso.org/obp/ui/#iso:std:iso-iec:23009:-1" xmlns="http://github.com/dret/sedola">
+<service id="urn:iso:std:iso-iec:23009:-1" xmlns="http://github.com/dret/sedola">
     <title>Information technology — Dynamic adaptive streaming over HTTP (DASH) — Part 1: Media presentation description and segment formats</title>
     <documentation source="http://www.iso.org/obp/ui/#iso:std:iso-iec:23009:-1">ISO/IEC 23009-1:2014 primarily specifies formats for the Media Presentation Description and Segments for dynamic adaptive streaming delivery of MPEG media over HTTP. It is applicable to streaming services over the Internet.</documentation>
     <media-type def="application/dash+xml">

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<service id="http://www.iso.org/obp/ui/#iso:std:iso-iec:14496:-22" xmlns="http://github.com/dret/sedola">
+<service id="urn:iso:std:iso-iec:14496:-22" xmlns="http://github.com/dret/sedola">
     <title>Information technology — Coding of audio-visual objects — Part 22: Open Font Format</title>
     <documentation source="http://www.iso.org/obp/ui/#iso:std:iso-iec:14496:-22">ISO/IEC 14496-22:2015 specifies the Open Font Format (OFF) specification, the TrueType and Compact Font Format (CFF) outline formats, and the TrueType hinting language. Many references to both TrueType and PostScript exist throughout this document, as Open Font Format fonts combine the two technologies.</documentation>
     <media-type def="application/font-sfnt">

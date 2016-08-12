@@ -29,7 +29,7 @@
         <name short="ISO">International Organization for Standardization</name>
         <series id="IEC">
             <name short="IEC">International Electrotechnical Commission</name>
-            <id-pattern url-pattern="http://www.iso.org/obp/ui/#iso:std:iso-iec:$1:-$2" name-pattern="ISO/IEC $1" md-pattern="$1-$2">http://www.iso.org/obp/ui/#iso:std:iso-iec:(\d+):-(\d+):?.*$</id-pattern>
+            <id-pattern url-pattern="http://www.iso.org/obp/ui/#iso:std:iso-iec:$1:-$2" name-pattern="ISO/IEC $1" md-pattern="$1-$2">urn:iso:std:iso-iec:(\d+):-(\d+):?.*$</id-pattern>
         </series>
     </organization>
 </specs>
