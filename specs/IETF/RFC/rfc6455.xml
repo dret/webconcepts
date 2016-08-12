@@ -17,4 +17,10 @@
     <http-header def="Sec-WebSocket-Version">
         <documentation source="http://tools.ietf.org/html/rfc6455#section-11.3.5">The Sec-WebSocket-Version header field is used in the WebSocket opening handshake. It is sent from the client to the server to indicate the protocol version of the connection. This enables servers to correctly interpret the opening handshake and subsequent data being sent from the data, and close the connection if the server cannot interpret that data in a safe manner. The Sec-WebSocket-Version header field is also sent from the server to the client on WebSocket handshake error, when the version received from the client does not match a version understood by the server. In such a case, the header field includes the protocol version(s) supported by the server.</documentation>
     </http-header>
+    <uri-scheme def="ws">
+        <documentation source="http://tools.ietf.org/html/rfc6455#section-3">The only operation for this scheme is to open a connection using the WebSocket Protocol.</documentation>
+    </uri-scheme>
+    <uri-scheme def="wss">
+        <documentation source="http://tools.ietf.org/html/rfc6455#section-3">The only operation for this scheme is to open a connection using the WebSocket Protocol, encrypted using TLS.</documentation>
+    </uri-scheme>
 </service>
