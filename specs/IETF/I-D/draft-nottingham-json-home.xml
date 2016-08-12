@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<service id="urn:ietf:id:nottingham-json-home" xmlns="http://github.com/dret/sedola">
+<service primary="IETF" secondary="ID" id="nottingham-json-home" xmlns="http://github.com/dret/sedola">
     <title>Home Documents for HTTP APIs</title>
     <documentation source="http://tools.ietf.org/html/draft-nottingham-json-home">This document proposes a "home document" format for non-browser HTTP clients.</documentation>
     <media-type def="application/home+json">

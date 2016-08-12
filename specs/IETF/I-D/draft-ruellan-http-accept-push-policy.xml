@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<service id="urn:ietf:id:ruellan-http-accept-push-policy" xmlns="http://github.com/dret/sedola">
+<service primary="IETF" secondary="ID" id="ruellan-http-accept-push-policy" xmlns="http://github.com/dret/sedola">
     <title>Accept-Push-Policy Header Field</title>
     <documentation source="http://tools.ietf.org/html/draft-ruellan-http-accept-push-policy">The "Accept-Push-Policy" and "Push-Policy" header fields enable a client and a server to negotiate the behaviour of the server regarding the usage of push on a per-request basis.</documentation>
     <http-header def="Accept-Push-Policy">
