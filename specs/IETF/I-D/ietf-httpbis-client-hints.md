@@ -4,6 +4,7 @@ title:  "HTTP Client Hints"
 ---
 
 | *Canonical Name:* | Internet Draft ietf-httpbis-client-hints
+| *Document URI:* | `urn:ietf:id:ietf-httpbis-client-hints`
 | *Online Version:* | [`http://tools.ietf.org/html/draft-ietf-httpbis-client-hints`](http://tools.ietf.org/html/draft-ietf-httpbis-client-hints)
 | *Organization:* | [Internet Engineering Task Force (IETF)](..  "List of specification series by this organization")
 | *Series:* | [Internet Draft (I-D)](.  "List of specifications in this series")

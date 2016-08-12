@@ -4,6 +4,7 @@ title:  "RDF 1.1 Concepts and Abstract Syntax"
 ---
 
 | *Canonical Name:* | W3C TR http://www.w3.org/TR/rdf11-concepts
+| *Document URI:* | `http://www.w3.org/TR/rdf11-concepts`
 | *Online Version:* | [`http://www.w3.org/TR/rdf11-concepts`](http://www.w3.org/TR/rdf11-concepts)
 | *Organization:* | [World Wide Web Consortium (W3C)](..  "List of specification series by this organization")
 | *Series:* | [Technical Report (TR)](.  "List of specifications in this series")

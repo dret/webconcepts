@@ -4,6 +4,7 @@ title:  "The 'XML2RFC' version 3 Vocabulary"
 ---
 
 | *Canonical Name:* | Internet Draft hoffman-xml2rfc
+| *Document URI:* | `urn:ietf:id:hoffman-xml2rfc`
 | *Online Version:* | [`http://tools.ietf.org/html/draft-hoffman-xml2rfc`](http://tools.ietf.org/html/draft-hoffman-xml2rfc)
 | *Organization:* | [Internet Engineering Task Force (IETF)](..  "List of specification series by this organization")
 | *Series:* | [Internet Draft (I-D)](.  "List of specifications in this series")

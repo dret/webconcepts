@@ -143,6 +143,9 @@
                                     <xsl:text>| *Canonical&#160;Name:* | </xsl:text>
                                     <xsl:value-of select="replace($id, '^(..*)$', $series/id-pattern/@name-pattern)"/>
                                     <xsl:text>&#xa;</xsl:text>
+                                    <xsl:text>| *Document&#160;URI:* | `</xsl:text>
+                                    <xsl:value-of select="@id"/>
+                                    <xsl:text>`&#xa;</xsl:text>
                                     <xsl:text>| *Online&#160;Version:* | [`</xsl:text>
                                     <xsl:value-of select="replace(@id, $series/id-pattern, $series/id-pattern/@url-pattern)"/>
                                     <xsl:text>`](</xsl:text>

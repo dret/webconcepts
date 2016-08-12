@@ -4,6 +4,7 @@ title:  "Home Documents for HTTP Services: XML Syntax"
 ---
 
 | *Canonical Name:* | Internet Draft wilde-home-xml
+| *Document URI:* | `urn:ietf:id:wilde-home-xml`
 | *Online Version:* | [`http://tools.ietf.org/html/draft-wilde-home-xml`](http://tools.ietf.org/html/draft-wilde-home-xml)
 | *Organization:* | [Internet Engineering Task Force (IETF)](..  "List of specification series by this organization")
 | *Series:* | [Internet Draft (I-D)](.  "List of specifications in this series")

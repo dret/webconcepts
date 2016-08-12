@@ -4,6 +4,7 @@ title:  "Hierarchy Relations for Atom"
 ---
 
 | *Canonical Name:* | Internet Draft divilly-atom-hierarchy
+| *Document URI:* | `urn:ietf:id:divilly-atom-hierarchy`
 | *Online Version:* | [`http://tools.ietf.org/html/draft-divilly-atom-hierarchy`](http://tools.ietf.org/html/draft-divilly-atom-hierarchy)
 | *Organization:* | [Internet Engineering Task Force (IETF)](..  "List of specification series by this organization")
 | *Series:* | [Internet Draft (I-D)](.  "List of specifications in this series")

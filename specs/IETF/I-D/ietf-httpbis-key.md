@@ -4,6 +4,7 @@ title:  "The Key HTTP Response Header Field"
 ---
 
 | *Canonical Name:* | Internet Draft ietf-httpbis-key
+| *Document URI:* | `urn:ietf:id:ietf-httpbis-key`
 | *Online Version:* | [`http://tools.ietf.org/html/draft-ietf-httpbis-key`](http://tools.ietf.org/html/draft-ietf-httpbis-key)
 | *Organization:* | [Internet Engineering Task Force (IETF)](..  "List of specification series by this organization")
 | *Series:* | [Internet Draft (I-D)](.  "List of specifications in this series")

@@ -4,6 +4,7 @@ title:  "TriG"
 ---
 
 | *Canonical Name:* | W3C TR http://www.w3.org/TR/trig
+| *Document URI:* | `http://www.w3.org/TR/trig`
 | *Online Version:* | [`http://www.w3.org/TR/trig`](http://www.w3.org/TR/trig)
 | *Organization:* | [World Wide Web Consortium (W3C)](..  "List of specification series by this organization")
 | *Series:* | [Technical Report (TR)](.  "List of specifications in this series")

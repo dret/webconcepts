@@ -4,6 +4,7 @@ title:  "The Link-Template HTTP Header Field"
 ---
 
 | *Canonical Name:* | Internet Draft nottingham-link-template
+| *Document URI:* | `urn:ietf:id:nottingham-link-template`
 | *Online Version:* | [`http://tools.ietf.org/html/draft-nottingham-link-template`](http://tools.ietf.org/html/draft-nottingham-link-template)
 | *Organization:* | [Internet Engineering Task Force (IETF)](..  "List of specification series by this organization")
 | *Series:* | [Internet Draft (I-D)](.  "List of specifications in this series")

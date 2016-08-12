@@ -4,6 +4,7 @@ title:  "Cross-Origin Resource Sharing (CORS)"
 ---
 
 | *Canonical Name:* | W3C TR http://www.w3.org/TR/cors
+| *Document URI:* | `http://www.w3.org/TR/cors`
 | *Online Version:* | [`http://www.w3.org/TR/cors`](http://www.w3.org/TR/cors)
 | *Organization:* | [World Wide Web Consortium (W3C)](..  "List of specification series by this organization")
 | *Series:* | [Technical Report (TR)](.  "List of specifications in this series")
