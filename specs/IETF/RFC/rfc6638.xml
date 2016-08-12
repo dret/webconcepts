@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- This description ignores all the HTTP header fields that have been specified in the newer RFC 2616 (which was obsoleted as well). -->
-<service id="urn:ietf:rfc:6638" xmlns="http://github.com/dret/sedola">
+<service primary="IETF" secondary="RFC" id="6638" xmlns="http://github.com/dret/sedola">
     <title>Scheduling Extensions to CalDAV</title>
     <documentation source="http://tools.ietf.org/html/rfc6638">This document defines extensions to the Calendaring Extensions to WebDAV (CalDAV) "calendar-access" feature to specify a standard way of performing scheduling operations with iCalendar-based calendar components. This document defines the "calendar-auto-schedule" feature of CalDAV.</documentation>
     <http-header def="Schedule-Reply">

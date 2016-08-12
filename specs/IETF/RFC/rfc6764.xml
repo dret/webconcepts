@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<service id="urn:ietf:rfc:6764" xmlns="http://github.com/dret/sedola">
+<service primary="IETF" secondary="RFC" id="6764" xmlns="http://github.com/dret/sedola">
     <title>Locating Services for Calendaring Extensions to WebDAV (CalDAV) and vCard Extensions to WebDAV (CardDAV)</title>
     <documentation source="http://tools.ietf.org/html/rfc6764">This specification describes how DNS SRV records, DNS TXT records, and well-known URIs can be used together or separately to locate CalDAV (Calendaring Extensions to Web Distributed Authoring and Versioning (WebDAV)) or CardDAV (vCard Extensions to WebDAV) services.</documentation>
     <well-known-uri def="caldav">

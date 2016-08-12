@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<service id="urn:ietf:rfc:7807" xmlns="http://github.com/dret/sedola">
+<service primary="IETF" secondary="RFC" id="7807" xmlns="http://github.com/dret/sedola">
     <title short="Problem Details">Problem Details for HTTP APIs</title>
     <documentation source="http://tools.ietf.org/html/rfc7807">This document defines a "problem detail" as a way to carry machine-readable details of errors in a HTTP response, to avoid the need to invent new error response formats for HTTP APIs.</documentation>
     <media-type def="application/problem+json">

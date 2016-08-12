@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<service id="urn:ietf:rfc:5829" xmlns="http://github.com/dret/sedola">
+<service primary="IETF" secondary="RFC" id="5829" xmlns="http://github.com/dret/sedola">
     <title>Link Relation Types for Simple Version Navigation between Web Resources</title>
     <documentation source="http://tools.ietf.org/html/rfc5829">This specification defines a set of link relation types that may be used on Web resources for navigation between a resource and other resources related to version control, such as past versions and working copies.</documentation>
     <link-relation def="version-history">

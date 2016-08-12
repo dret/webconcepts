@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<service id="urn:ietf:rfc:6351" xmlns="http://github.com/dret/sedola">
+<service primary="IETF" secondary="RFC" id="6351" xmlns="http://github.com/dret/sedola">
     <title>xCard: vCard XML Representation</title>
     <documentation source="http://tools.ietf.org/html/rfc6351">This document defines the XML schema of the vCard data format.</documentation>
     <media-type def="application/vcard+xml">

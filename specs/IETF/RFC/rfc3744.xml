@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<service id="urn:ietf:rfc:3744" xmlns="http://github.com/dret/sedola">
+<service primary="IETF" secondary="RFC" id="3744" xmlns="http://github.com/dret/sedola">
     <title>Web Distributed Authoring and Versioning (WebDAV) Access Control Protocol</title>
     <documentation source="http://tools.ietf.org/html/rfc3744">This document specifies a set of methods, headers, message bodies, properties, and reports that define Access Control extensions to the WebDAV Distributed Authoring Protocol. This protocol permits a client to read and modify access control lists that instruct a server whether to allow or deny operations upon a resource (such as HyperText Transfer Protocol (HTTP) method invocations) by a given principal. A lightweight representation of principals as Web resources supports integration of a wide range of user management repositories. Search operations allow discovery and manipulation of principals using human names.</documentation>
     <http-method def="ACL">

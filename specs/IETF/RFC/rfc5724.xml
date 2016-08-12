@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<service id="urn:ietf:rfc:5724" xmlns="http://github.com/dret/sedola">
+<service primary="IETF" secondary="RFC" id="5724" xmlns="http://github.com/dret/sedola">
     <title>URI Scheme for Global System for Mobile Communications (GSM) Short Message Service (SMS)</title>
     <documentation source="http://tools.ietf.org/html/rfc5724">This memo specifies the Uniform Resource Identifier (URI) scheme "sms" for specifying one or more recipients for an SMS message. SMS messages are two-way paging messages that can be sent from and received by a mobile phone or a suitably equipped networked device.</documentation>
     <uri-scheme def="sms">

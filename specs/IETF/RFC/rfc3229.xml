@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<service id="urn:ietf:rfc:3229" xmlns="http://github.com/dret/sedola">
+<service primary="IETF" secondary="RFC" id="3229" xmlns="http://github.com/dret/sedola">
     <title>Delta encoding in HTTP</title>
     <documentation source="http://tools.ietf.org/html/rfc3229">This document describes how delta encoding can be supported as a compatible extension to HTTP/1.1. Many HTTP (Hypertext Transport Protocol) requests cause the retrieval of slightly modified instances of resources for which the client already has a cache entry. Research has shown that such modifying updates are frequent, and that the modifications are typically much smaller than the actual entity. In such cases, HTTP would make more efficient use of network bandwidth if it could transfer a minimal description of the changes, rather than the entire new instance of the resource. This is called "delta encoding."</documentation>
     <http-header def="Delta-Base">

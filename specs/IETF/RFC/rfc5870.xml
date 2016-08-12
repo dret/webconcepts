@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<service id="urn:ietf:rfc:5870" xmlns="http://github.com/dret/sedola">
+<service primary="IETF" secondary="RFC" id="5870" xmlns="http://github.com/dret/sedola">
     <title>A Uniform Resource Identifier for Geographic Locations ('geo' URI)</title>
     <documentation source="http://tools.ietf.org/html/rfc5870">This document specifies a Uniform Resource Identifier (URI) for geographic locations using the 'geo' scheme name. A 'geo' URI identifies a physical location in a two- or three-dimensional coordinate reference system in a compact, simple, human-readable, and protocol-independent way. The default coordinate reference system used is the World Geodetic System 1984 (WGS-84).</documentation>
     <uri-scheme def="geo">

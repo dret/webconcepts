@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<service id="urn:ietf:rfc:5842" xmlns="http://github.com/dret/sedola">
+<service primary="IETF" secondary="RFC" id="5842" xmlns="http://github.com/dret/sedola">
     <title>Binding Extensions to Web Distributed Authoring and Versioning (WebDAV)</title>
     <documentation source="http://tools.ietf.org/html/rfc5842">This specification defines bindings, and the BIND method for creating multiple bindings to the same resource. Creating a new binding to a resource causes at least one new URI to be mapped to that resource. Servers are required to ensure the integrity of any bindings that they allow to be created.</documentation>
     <http-status def="208" desc="Already Reported">

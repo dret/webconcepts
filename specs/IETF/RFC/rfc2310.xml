@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- This description ignores all the HTTP header fields that have been specified in the newer RFC 2616 (which was obsoleted as well). -->
-<service id="urn:ietf:rfc:2310" xmlns="http://github.com/dret/sedola">
+<service primary="IETF" secondary="RFC" id="2310" xmlns="http://github.com/dret/sedola">
     <title>The Safe Response Header Field</title>
     <documentation source="http://tools.ietf.org/html/rfc2310">This document defines a HTTP response header field called Safe, which can be used to indicate that repeating a HTTP request is safe. Such an indication will allow user agents to handle retries of some safe requests, in particular safe POST requests, in a more user-friendly way.</documentation>
     <http-header def="Safe">

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<service id="urn:ietf:rfc:5861" xmlns="http://github.com/dret/sedola">
+<service primary="IETF" secondary="RFC" id="5861" xmlns="http://github.com/dret/sedola">
     <title>HTTP Cache-Control Extensions for Stale Content</title>
     <documentation source="http://tools.ietf.org/html/rfc5861">This document defines two independent HTTP Cache-Control extensions that allow control over the use of stale responses by caches.</documentation>
     <http-cache-directive def="stale-while-revalidate">
