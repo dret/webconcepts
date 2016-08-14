@@ -4,32 +4,51 @@
         <name short="IETF">Internet Engineering Task Force</name>
         <secondary id="RFC">
             <name short="RFC">Request for Comments</name>
-            <id-pattern url-pattern="http://tools.ietf.org/html/rfc$1" name-pattern="RFC $1" md-pattern="$1">urn:ietf:rfc:(\d+)$</id-pattern>
+            <id-pattern>^(\d+)$</id-pattern>
+            <md-pattern>$1</md-pattern>
+            <name-pattern>RFC $1</name-pattern>
+            <uri-pattern>urn:ietf:rfc:$1</uri-pattern>
+            <url-pattern>http://tools.ietf.org/html/rfc$1</url-pattern>
         </secondary>
         <secondary id="I-D">
             <name short="I-D">Internet Draft</name>
-            <id-pattern url-pattern="http://tools.ietf.org/html/draft-$1" name-pattern="Internet Draft $1" md-pattern="$1">urn:ietf:id:(.+)$</id-pattern>
+            <id-pattern>^(.+)$</id-pattern>
+            <md-pattern>$1</md-pattern>
+            <name-pattern>Internet Draft $1</name-pattern>
+            <uri-pattern>urn:ietf:id:$1</uri-pattern>
+            <url-pattern>http://tools.ietf.org/html/draft-$1</url-pattern>
         </secondary>
     </primary>
     <primary id="W3C" href="http://www.w3.org/">
         <name short="W3C">World Wide Web Consortium</name>
         <secondary id="TR">
             <name short="TR">Technical Report</name>
-            <id-pattern url-pattern="http://www.w3.org/TR/$1" name-pattern="W3C TR http://www.w3.org/TR/$1" md-pattern="$1">http://www.w3.org/TR/(.+)$</id-pattern>
+            <id-pattern>^(.+)$</id-pattern>
+            <md-pattern>$1</md-pattern>
+            <name-pattern>W3C TR http://www.w3.org/TR/$1</name-pattern>
+            <uri-pattern>http://www.w3.org/TR/$1</uri-pattern>
+            <url-pattern>http://www.w3.org/TR/$1</url-pattern>
         </secondary>
     </primary>
     <primary id="JCP" href="http://jcp.org/">
         <name short="JCP">Java Community Process</name>
         <secondary id="JSR">
             <name short="JSR">Java Specification Request</name>
-            <id-pattern url-pattern="http://www.jcp.org/en/jsr/detail?id=$1" name-pattern="JSR $1" md-pattern="$1">http://www.jcp.org/en/jsr/detail\?id=(\d+)$</id-pattern>
+            <id-pattern>^(\d+)$</id-pattern>
+            <md-pattern>$1</md-pattern>
+            <name-pattern>JSR $1</name-pattern>
+            <url-pattern>http://www.jcp.org/en/jsr/detail?id=$1</url-pattern>
         </secondary>
     </primary>
     <primary id="ISO" href="http://www.iso.org/">
         <name short="ISO">International primary for Standardization</name>
         <secondary id="IEC">
             <name short="IEC">International Electrotechnical Commission</name>
-            <id-pattern url-pattern="http://www.iso.org/obp/ui/#iso:std:iso-iec:$1:-$2" name-pattern="ISO/IEC $1" md-pattern="$1-$2">urn:iso:std:iso-iec:(\d+):-(\d+):?.*$</id-pattern>
+            <id-pattern>^(\d+)-(\d+)$</id-pattern>
+            <md-pattern>$1-$2</md-pattern>
+            <name-pattern>ISO/IEC $1</name-pattern>
+            <uri-pattern>urn:iso:std:iso-iec:$1:-$2</uri-pattern>
+            <url-pattern>http://www.iso.org/obp/ui/#iso:std:iso-iec:$1:-$2</url-pattern>
         </secondary>
     </primary>
 </specs>
