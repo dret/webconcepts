@@ -41,7 +41,7 @@
         </secondary>
     </primary>
     <primary id="ISO" href="http://www.iso.org/">
-        <name short="ISO">International primary for Standardization</name>
+        <name short="ISO">International Organization for Standardization</name>
         <secondary id="IEC">
             <name short="IEC">International Electrotechnical Commission</name>
             <id-pattern>^(\d+)-(\d+)$</id-pattern>
