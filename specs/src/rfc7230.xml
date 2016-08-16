@@ -68,4 +68,10 @@
     <uri-scheme def="https">
         <documentation source="http://tools.ietf.org/html/rfc7230#section-2.7.2">The "https" URI scheme is hereby defined for the purpose of minting identifiers according to their association with the hierarchical namespace governed by a potential HTTP origin server listening to a given TCP port for TLS-secured connections.</documentation>
     </uri-scheme>
+    <media-type def="message/http">
+        <documentation source="http://tools.ietf.org/html/rfc7230#section-8.3.1">The message/http type can be used to enclose a single HTTP request or response message, provided that it obeys the MIME restrictions for all "message" types regarding line length and encodings.</documentation>
+    </media-type>
+    <media-type def="application/http">
+        <documentation source="http://tools.ietf.org/html/rfc7230#section-8.3.2">The application/http type can be used to enclose a pipeline of one or more HTTP request or response messages (not intermixed).</documentation>
+    </media-type>
 </service>
