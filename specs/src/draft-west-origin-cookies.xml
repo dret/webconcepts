@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<service primary="IETF" secondary="ID" id="west-origin-cookies" xmlns="http://github.com/dret/sedola">
+<service primary="IETF" secondary="I-D" id="west-origin-cookies" xmlns="http://github.com/dret/sedola">
     <title>Origin Cookies</title>
     <documentation source="http://tools.ietf.org/html/draft-west-origin-cookies">This document updates RFC 6265, defining the "origin" attribute for cookies and the "Origin-Cookie" header field, which together allow servers to choose to harmonize the security policy of their cookies with the same-origin policy which governs other available client-side storage mechanisms.</documentation>
     <http-header def="Origin-Cookie">

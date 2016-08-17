@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<service primary="IETF" secondary="ID" id="divilly-atom-hierarchy" xmlns="http://github.com/dret/sedola">
+<service primary="IETF" secondary="I-D" id="divilly-atom-hierarchy" xmlns="http://github.com/dret/sedola">
     <title>Hierarchy Relations for Atom</title>
     <documentation source="http://tools.ietf.org/html/draft-divilly-atom-hierarchy">Many applications, besides blogs, provide their data in the form of syndicated Web feeds using formats such as Atom. Some such applications organize Atom Entries in a hierarchical fashion similar to a file system. This specification describes a means of communicating about Atom Entries that are hierarchically related to each other since resource identifiers are opaque to clients and cannot be directly manipulated for the purposes of representation exchange, i.e., navigation. This specification proposes new link relations for hierarchically related Atom resources.</documentation>
     <link-relation def="down">

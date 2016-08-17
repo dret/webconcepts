@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<service primary="IETF" secondary="ID" id="wilde-link-desc" xmlns="http://github.com/dret/sedola">
+<service primary="IETF" secondary="I-D" id="wilde-link-desc" xmlns="http://github.com/dret/sedola">
     <title>Link Descriptions</title>
     <documentation source="http://tools.ietf.org/html/draft-wilde-link-desc">Interactions with many resources on the Web are driven by links, and these links often define certain expectations about the interactions (such as HTTP methods being used, media types being sent in the request, or URI parameters being used in a certain way). While these expectations are essential to define the possible framework for interactions, it may be useful to further narrow them down by providing link descriptions, which can help clients to gain more runtime knowledge about the resource they are about to interact with. This memo defines Link Descriptions, a schema and a media type that can be used to describe links by supporting descriptive markup for representing interaction information with links. Link Descriptions can be used by media types (by inclusion or by reference) that seek to make Link Descriptions runtime-capable, without having to create their own representation.</documentation>
     <media-type def="application/ldesc+xml">
