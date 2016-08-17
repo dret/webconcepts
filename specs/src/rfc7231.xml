@@ -11,7 +11,7 @@
     <http-header def="Content-Language">
         <documentation source="http://tools.ietf.org/html/rfc7231#section-3.1.3.2">The "Content-Language" header field describes the natural language(s) of the intended audience for the representation. Note that this might not be equivalent to all the languages used within the representation.</documentation>
     </http-header>
-    <http-header def="Content-Language">
+    <http-header def="Content-Location">
         <documentation source="http://tools.ietf.org/html/rfc7231#section-3.1.4.2">The "Content-Location" header field references a URI that can be used as an identifier for a specific resource corresponding to the representation in this message's payload. In other words, if one were to perform a GET request on this URI at the time of this message's generation, then a 200 (OK) response would contain the same representation that is enclosed as payload in this message.</documentation>
     </http-header>
     <http-header def="Expect">
