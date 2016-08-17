@@ -15,13 +15,13 @@ title:  "Home Documents for HTTP Services: XML Syntax"
 
 ## Specified Web Concepts:
 
-### Media Types
-
-[`application/home+xml`](/concepts/media-type/application/home+xml "The specification for HTTP Home Documents provides a JSON syntax only. This media type provides an XML syntax for the same underlying data model, so that the concept of HTTP Home Documents can be consistently exposed in both JSON- and XML-based HTTP services.")
-
 ### Link Relations
 
 [`home`](/concepts/link-relation/home "Identifies a resource that provides a &#34;home&#34; document for the context resource. Home documents often serve as starting points for a certain resource context, such as for Web APIs where the home resource provides access to a number of &#34;entry points&#34; to the Web API.")
+
+### Media Types
+
+[`application/home+xml`](/concepts/media-type/application/home+xml "The specification for HTTP Home Documents provides a JSON syntax only. This media type provides an XML syntax for the same underlying data model, so that the concept of HTTP Home Documents can be consistently exposed in both JSON- and XML-based HTTP services.")
 
 
 

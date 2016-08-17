@@ -15,13 +15,13 @@ title:  "Server-Sent Events"
 
 ## Specified Web Concepts:
 
-### Media Types
-
-[`text/event-stream`](/concepts/media-type/text/event-stream "Defines a media type for representing an event stream for Server-Sent Events.")
-
 ### HTTP Header Fields
 
 [`Last-Event-ID`](/concepts/http-header/Last-Event-ID "The Last-Event-ID HTTP header specifies the value of the event source's last event ID string, encoded as UTF-8.")
+
+### Media Types
+
+[`text/event-stream`](/concepts/media-type/text/event-stream "Defines a media type for representing an event stream for Server-Sent Events.")
 
 
 

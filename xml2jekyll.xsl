@@ -324,6 +324,7 @@
                 <xsl:text>&lt;br/>&#xa;&lt;hr/>&#xa;&#xa;</xsl:text>
                 <xsl:text>## Specified Web Concepts:&#xa;&#xa;</xsl:text>
                 <xsl:for-each-group select="sedola:*[local-name() = $concepts/concepts/concept/@id]" group-by="local-name()">
+                    <xsl:sort select="$concepts//concept[@id eq current()/local-name()]/title-plural"/>
                     <xsl:text>### </xsl:text>
                     <xsl:value-of select="$concepts//concept[@id eq current()/local-name()]/title-plural"/>
                     <xsl:text>&#xa;&#xa;</xsl:text>

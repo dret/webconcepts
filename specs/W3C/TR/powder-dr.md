@@ -15,13 +15,13 @@ title:  "Protocol for Web Description Resources (POWDER): Description Resources"
 
 ## Specified Web Concepts:
 
-### Media Types
-
-[`application/powder+xml`](/concepts/media-type/application/powder+xml "???"), [`application/powder-s+xml`](/concepts/media-type/application/powder-s+xml "???")
-
 ### Link Relations
 
 [`describedby`](/concepts/link-relation/describedby "The relationship A 'describedby' B asserts that resource B provides a description of resource A. There are no constraints on the format or representation of either A or B, neither are there any further constraints on either resource.")
+
+### Media Types
+
+[`application/powder+xml`](/concepts/media-type/application/powder+xml "???"), [`application/powder-s+xml`](/concepts/media-type/application/powder-s+xml "???")
 
 
 

@@ -15,13 +15,13 @@ title:  "Encrypted Content-Encoding for HTTP"
 
 ## Specified Web Concepts:
 
-### HTTP Header Fields
-
-[`Crypto-Key`](/concepts/http-header/Crypto-Key "A Crypto-Key header field can be used to describe the input keying material used in the Encryption header field."), [`Encryption`](/concepts/http-header/Encryption "The &#34;Encryption&#34; HTTP header field describes the encrypted content encoding(s) that have been applied to a message payload, and therefore how those content encoding(s) can be removed.")
-
 ### HTTP Content Codings
 
 [`aesgcm`](/concepts/http-content-coding/aesgcm "The &#34;aesgcm&#34; HTTP content coding indicates that a payload has been encrypted using Advanced Encryption Standard (AES) in Galois/Counter Mode (GCM) as identified as AEAD_AES_128_GCM in RFC 5116.")
+
+### HTTP Header Fields
+
+[`Crypto-Key`](/concepts/http-header/Crypto-Key "A Crypto-Key header field can be used to describe the input keying material used in the Encryption header field."), [`Encryption`](/concepts/http-header/Encryption "The &#34;Encryption&#34; HTTP header field describes the encrypted content encoding(s) that have been applied to a message payload, and therefore how those content encoding(s) can be removed.")
 
 
 
