@@ -190,7 +190,7 @@
                         <xsl:value-of select="$concept-name"/>
                         <xsl:variable name="desc" select="$allspecs//sedola:*[local-name() eq $concept/@id][@def eq $concept-name][1]/@desc"/>
                         <xsl:if test="exists($desc)">
-                            <xsl:text>: </xsl:text>
+                            <xsl:text> </xsl:text>
                             <xsl:value-of select="$desc"/>
                         </xsl:if>
                         <xsl:text>`](</xsl:text>
@@ -233,7 +233,7 @@
                             <xsl:text>: </xsl:text>
                             <xsl:value-of select="$concept-name"/>
                             <xsl:if test="exists($desc)">
-                                <xsl:text>: </xsl:text>
+                                <xsl:text> </xsl:text>
                                 <xsl:value-of select="$desc"/>
                             </xsl:if>
                             <xsl:text>"&#xa;</xsl:text>
