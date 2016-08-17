@@ -4,7 +4,7 @@ title:  "Micropub"
 ---
 
 | *Document Name:* | W3C TR http://www.w3.org/TR/micropub
-| *Document URI:* | `http://www.w3.org/TR/micropub`
+| *Document URI:* | `micropub`
 | *Online Version:* | [`http://www.w3.org/TR/micropub`](http://www.w3.org/TR/micropub)
 | *Organization:* | [World Wide Web Consortium (W3C)](..  "List of specification series by this organization")
 | *Series:* | [Technical Report (TR)](.  "List of specifications in this series")
@@ -14,10 +14,6 @@ title:  "Micropub"
 <hr/>
 
 ## Specified Web Concepts:
-
-### Link Relations
-
-[`micropub`](/concepts/link-relation/micropub "Allows discovery of a Micropub endpoint which will be used to create posts.")
 
 
 

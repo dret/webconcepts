@@ -4,7 +4,7 @@ title:  "Tracking Preference Expression (DNT)"
 ---
 
 | *Document Name:* | W3C TR http://www.w3.org/TR/tracking-dnt
-| *Document URI:* | `http://www.w3.org/TR/tracking-dnt`
+| *Document URI:* | `tracking-dnt`
 | *Online Version:* | [`http://www.w3.org/TR/tracking-dnt`](http://www.w3.org/TR/tracking-dnt)
 | *Organization:* | [World Wide Web Consortium (W3C)](..  "List of specification series by this organization")
 | *Series:* | [Technical Report (TR)](.  "List of specifications in this series")
@@ -14,14 +14,6 @@ title:  "Tracking Preference Expression (DNT)"
 <hr/>
 
 ## Specified Web Concepts:
-
-### HTTP Header Fields
-
-[`DNT`](/concepts/http-header/DNT "The DNT header field is defined as the means for expressing a user's tracking preference via HTTP."), [`Tk`](/concepts/http-header/Tk "The Tk response header field is defined as an OPTIONAL means for indicating the tracking status that applied to the corresponding request, and as a REQUIRED means for indicating that a state-changing request has resulted in an interactive change to the tracking status.")
-
-### Well-Known URIs
-
-[`dnt`](/concepts/well-known-uri/dnt "A site-wide tracking status resource provides information about the potential tracking behavior of resources located at that origin server. A site-wide tracking status resource has the well-known identifier /.well-known/dnt/ relative to the origin server's URI.")
 
 
 

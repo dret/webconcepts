@@ -4,7 +4,7 @@ title:  "Model for Tabular Data and Metadata on the Web"
 ---
 
 | *Document Name:* | W3C TR http://www.w3.org/TR/tabular-data-model
-| *Document URI:* | `http://www.w3.org/TR/tabular-data-model`
+| *Document URI:* | `tabular-data-model`
 | *Online Version:* | [`http://www.w3.org/TR/tabular-data-model`](http://www.w3.org/TR/tabular-data-model)
 | *Organization:* | [World Wide Web Consortium (W3C)](..  "List of specification series by this organization")
 | *Series:* | [Technical Report (TR)](.  "List of specifications in this series")
@@ -14,10 +14,6 @@ title:  "Model for Tabular Data and Metadata on the Web"
 <hr/>
 
 ## Specified Web Concepts:
-
-### Well-Known URIs
-
-[`csvm`](/concepts/well-known-uri/csvm "If the user has not supplied a metadata file as overriding metadata and no applicable metadata file has been discovered through a Link header, processors must attempt to locate a metadata documents through site-wide configuration. In this case, processors must retrieve the file from the well-known URI /.well-known/csvm.")
 
 
 

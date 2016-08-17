@@ -4,7 +4,7 @@ title:  "The 'XML2RFC' version 3 Vocabulary"
 ---
 
 | *Document Name:* | Internet Draft hoffman-xml2rfc
-| *Document URI:* | `urn:ietf:id:hoffman-xml2rfc`
+| *Document URI:* | `hoffman-xml2rfc`
 | *Online Version:* | [`http://tools.ietf.org/html/draft-hoffman-xml2rfc`](http://tools.ietf.org/html/draft-hoffman-xml2rfc)
 | *Organization:* | [Internet Engineering Task Force (IETF)](..  "List of specification series by this organization")
 | *Series:* | [Internet Draft (I-D)](.  "List of specifications in this series")
@@ -14,14 +14,6 @@ title:  "The 'XML2RFC' version 3 Vocabulary"
 <hr/>
 
 ## Specified Web Concepts:
-
-### Media Types
-
-[`application/rfc+xml`](/concepts/media-type/application/rfc+xml "This document updates the specification for the Internet media type &#34;application/rfc+xml&#34; from the one in I-D draft-reschke-xml2rfc.  The following is to be registered with IANA.")
-
-### Link Relations
-
-[`derivedfrom`](/concepts/link-relation/derivedfrom "The document linked to was later converted to the document that contains this link relation. For example, an RFC can have a link to the Internet Draft that became the RFC; in that case, the link relation would be &#34;derivedfrom&#34;.")
 
 
 

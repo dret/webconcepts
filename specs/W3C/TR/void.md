@@ -4,7 +4,7 @@ title:  "Describing Linked Datasets with the VoID Vocabulary"
 ---
 
 | *Document Name:* | W3C TR http://www.w3.org/TR/void
-| *Document URI:* | `http://www.w3.org/TR/void`
+| *Document URI:* | `void`
 | *Online Version:* | [`http://www.w3.org/TR/void`](http://www.w3.org/TR/void)
 | *Organization:* | [World Wide Web Consortium (W3C)](..  "List of specification series by this organization")
 | *Series:* | [Technical Report (TR)](.  "List of specifications in this series")
@@ -14,10 +14,6 @@ title:  "Describing Linked Datasets with the VoID Vocabulary"
 <hr/>
 
 ## Specified Web Concepts:
-
-### Well-Known URIs
-
-[`void`](/concepts/well-known-uri/void "The URI /.well-known/void on any Web server is registered by this specification for a VoID description of any datasets hosted on that server. This URI may be an HTTP redirect to the location of the actual VoID file.")
 
 
 

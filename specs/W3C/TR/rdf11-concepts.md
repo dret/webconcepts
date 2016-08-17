@@ -4,7 +4,7 @@ title:  "RDF 1.1 Concepts and Abstract Syntax"
 ---
 
 | *Document Name:* | W3C TR http://www.w3.org/TR/rdf11-concepts
-| *Document URI:* | `http://www.w3.org/TR/rdf11-concepts`
+| *Document URI:* | `rdf11-concepts`
 | *Online Version:* | [`http://www.w3.org/TR/rdf11-concepts`](http://www.w3.org/TR/rdf11-concepts)
 | *Organization:* | [World Wide Web Consortium (W3C)](..  "List of specification series by this organization")
 | *Series:* | [Technical Report (TR)](.  "List of specifications in this series")
@@ -14,10 +14,6 @@ title:  "RDF 1.1 Concepts and Abstract Syntax"
 <hr/>
 
 ## Specified Web Concepts:
-
-### Well-Known URIs
-
-[`genid`](/concepts/well-known-uri/genid "Systems that want Skolem IRIs to be recognizable outside of the system boundaries should use a well-known IRI with the registered name genid. This is an IRI that uses the HTTP or HTTPS scheme, or another scheme that has been specified to use well-known IRIs; and whose path component starts with /.well-known/genid/.")
 
 
 

@@ -4,7 +4,7 @@ title:  "Protocol for Web Description Resources (POWDER): Description Resources"
 ---
 
 | *Document Name:* | W3C TR http://www.w3.org/TR/powder-dr
-| *Document URI:* | `http://www.w3.org/TR/powder-dr`
+| *Document URI:* | `powder-dr`
 | *Online Version:* | [`http://www.w3.org/TR/powder-dr`](http://www.w3.org/TR/powder-dr)
 | *Organization:* | [World Wide Web Consortium (W3C)](..  "List of specification series by this organization")
 | *Series:* | [Technical Report (TR)](.  "List of specifications in this series")
@@ -14,14 +14,6 @@ title:  "Protocol for Web Description Resources (POWDER): Description Resources"
 <hr/>
 
 ## Specified Web Concepts:
-
-### Media Types
-
-[`application/powder+xml`](/concepts/media-type/application/powder+xml "???"), [`application/powder-s+xml`](/concepts/media-type/application/powder-s+xml "???")
-
-### Link Relations
-
-[`describedby`](/concepts/link-relation/describedby "The relationship A 'describedby' B asserts that resource B provides a description of resource A. There are no constraints on the format or representation of either A or B, neither are there any further constraints on either resource.")
 
 
 

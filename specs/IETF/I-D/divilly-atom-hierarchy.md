@@ -4,7 +4,7 @@ title:  "Hierarchy Relations for Atom"
 ---
 
 | *Document Name:* | Internet Draft divilly-atom-hierarchy
-| *Document URI:* | `urn:ietf:id:divilly-atom-hierarchy`
+| *Document URI:* | `divilly-atom-hierarchy`
 | *Online Version:* | [`http://tools.ietf.org/html/draft-divilly-atom-hierarchy`](http://tools.ietf.org/html/draft-divilly-atom-hierarchy)
 | *Organization:* | [Internet Engineering Task Force (IETF)](..  "List of specification series by this organization")
 | *Series:* | [Internet Draft (I-D)](.  "List of specifications in this series")
@@ -14,10 +14,6 @@ title:  "Hierarchy Relations for Atom"
 <hr/>
 
 ## Specified Web Concepts:
-
-### Link Relations
-
-[`down`](/concepts/link-relation/down "An Atom link element with a rel attribute value of &#34;down&#34; may be used to reference a resource where child entries of an entry may be found."), [`up`](/concepts/link-relation/up "An Atom link element with a rel attribute value of &#34;up&#34; may be used to reference a resource where parent entries of an entry or a feed may be found.")
 
 
 

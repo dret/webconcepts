@@ -4,7 +4,7 @@ title:  "Preload"
 ---
 
 | *Document Name:* | W3C TR http://www.w3.org/TR/preload
-| *Document URI:* | `http://www.w3.org/TR/preload`
+| *Document URI:* | `preload`
 | *Online Version:* | [`http://www.w3.org/TR/preload`](http://www.w3.org/TR/preload)
 | *Organization:* | [World Wide Web Consortium (W3C)](..  "List of specification series by this organization")
 | *Series:* | [Technical Report (TR)](.  "List of specifications in this series")
@@ -14,10 +14,6 @@ title:  "Preload"
 <hr/>
 
 ## Specified Web Concepts:
-
-### Link Relations
-
-[`preload`](/concepts/link-relation/preload "The preload keyword may be used with link elements. This keyword creates an external resource link (preload link) that is used to declare a resource and its fetch properties.")
 
 
 

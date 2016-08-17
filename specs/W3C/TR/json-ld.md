@@ -4,7 +4,7 @@ title:  "JSON-LD 1.0"
 ---
 
 | *Document Name:* | W3C TR http://www.w3.org/TR/json-ld
-| *Document URI:* | `http://www.w3.org/TR/json-ld`
+| *Document URI:* | `json-ld`
 | *Online Version:* | [`http://www.w3.org/TR/json-ld`](http://www.w3.org/TR/json-ld)
 | *Organization:* | [World Wide Web Consortium (W3C)](..  "List of specification series by this organization")
 | *Series:* | [Technical Report (TR)](.  "List of specifications in this series")
@@ -14,10 +14,6 @@ title:  "JSON-LD 1.0"
 <hr/>
 
 ## Specified Web Concepts:
-
-### Media Types
-
-[`application/ld+json`](/concepts/media-type/application/ld+json "Generally speaking, the data model used for JSON-LD is a labeled, directed graph. The graph contains nodes, which are connected by edges. A node is typically data such as a string, number, typed values (like dates and times) or an IRI. There is also a special class of node called a blank node, which is typically used to express data that does not have a global identifier like an IRI. Blank nodes are identified using a blank node identifier.")
 
 
 

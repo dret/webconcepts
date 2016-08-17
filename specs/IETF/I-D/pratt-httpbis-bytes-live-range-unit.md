@@ -4,7 +4,7 @@ title:  "HTTP bytes-live Range Unit for Live Content"
 ---
 
 | *Document Name:* | Internet Draft pratt-httpbis-bytes-live-range-unit
-| *Document URI:* | `urn:ietf:id:pratt-httpbis-bytes-live-range-unit`
+| *Document URI:* | `pratt-httpbis-bytes-live-range-unit`
 | *Online Version:* | [`http://tools.ietf.org/html/draft-pratt-httpbis-bytes-live-range-unit`](http://tools.ietf.org/html/draft-pratt-httpbis-bytes-live-range-unit)
 | *Organization:* | [Internet Engineering Task Force (IETF)](..  "List of specification series by this organization")
 | *Series:* | [Internet Draft (I-D)](.  "List of specifications in this series")
@@ -14,10 +14,6 @@ title:  "HTTP bytes-live Range Unit for Live Content"
 <hr/>
 
 ## Specified Web Concepts:
-
-### HTTP Range Units
-
-[`bytes-live`](/concepts/http-range-unit/bytes-live "As with the &#34;bytes&#34; range unit, a &#34;bytes-live&#34; Range request allows a client to designate a subset of bytes from the representation data to be transferred in payloads as a sequence of octets. But the form of a &#34;bytes-live&#34; request is focused on accessing data that may be appended to the representation over time.")
 
 
 

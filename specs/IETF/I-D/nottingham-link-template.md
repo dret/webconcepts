@@ -4,7 +4,7 @@ title:  "The Link-Template HTTP Header Field"
 ---
 
 | *Document Name:* | Internet Draft nottingham-link-template
-| *Document URI:* | `urn:ietf:id:nottingham-link-template`
+| *Document URI:* | `nottingham-link-template`
 | *Online Version:* | [`http://tools.ietf.org/html/draft-nottingham-link-template`](http://tools.ietf.org/html/draft-nottingham-link-template)
 | *Organization:* | [Internet Engineering Task Force (IETF)](..  "List of specification series by this organization")
 | *Series:* | [Internet Draft (I-D)](.  "List of specifications in this series")
@@ -14,10 +14,6 @@ title:  "The Link-Template HTTP Header Field"
 <hr/>
 
 ## Specified Web Concepts:
-
-### HTTP Header Fields
-
-[`Link-Template`](/concepts/http-header/Link-Template "The Link-Template entity-header field provides a means for serialising one or more links into HTTP headers. It is semantically equivalent to the Link header field, except that it uses URI Templates to convey the structure of links.")
 
 
 

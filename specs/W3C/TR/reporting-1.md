@@ -4,7 +4,7 @@ title:  "Reporting API 1"
 ---
 
 | *Document Name:* | W3C TR http://www.w3.org/TR/reporting-1
-| *Document URI:* | `http://www.w3.org/TR/reporting-1`
+| *Document URI:* | `reporting-1`
 | *Online Version:* | [`http://www.w3.org/TR/reporting-1`](http://www.w3.org/TR/reporting-1)
 | *Organization:* | [World Wide Web Consortium (W3C)](..  "List of specification series by this organization")
 | *Series:* | [Technical Report (TR)](.  "List of specifications in this series")
@@ -14,10 +14,6 @@ title:  "Reporting API 1"
 <hr/>
 
 ## Specified Web Concepts:
-
-### HTTP Header Fields
-
-[`Report-To`](/concepts/http-header/Report-To "The Report-To HTTP response header field instructs the user agent to store reporting endpoints for an origin.")
 
 
 

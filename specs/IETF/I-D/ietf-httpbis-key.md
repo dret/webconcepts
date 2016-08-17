@@ -4,7 +4,7 @@ title:  "The Key HTTP Response Header Field"
 ---
 
 | *Document Name:* | Internet Draft ietf-httpbis-key
-| *Document URI:* | `urn:ietf:id:ietf-httpbis-key`
+| *Document URI:* | `ietf-httpbis-key`
 | *Online Version:* | [`http://tools.ietf.org/html/draft-ietf-httpbis-key`](http://tools.ietf.org/html/draft-ietf-httpbis-key)
 | *Organization:* | [Internet Engineering Task Force (IETF)](..  "List of specification series by this organization")
 | *Series:* | [Internet Draft (I-D)](.  "List of specifications in this series")
@@ -14,10 +14,6 @@ title:  "The Key HTTP Response Header Field"
 <hr/>
 
 ## Specified Web Concepts:
-
-### HTTP Header Fields
-
-[`Key`](/concepts/http-header/Key "The &#34;Key&#34; response header field describes the request attributes that the server has used to select the current representation. As such, its semantics are similar to the &#34;Vary&#34; response header field, but it allows more fine-grained description, using &#34;key modifiers&#34;.")
 
 
 

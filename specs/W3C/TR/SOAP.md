@@ -4,7 +4,7 @@ title:  "Simple Object Access Protocol (SOAP) 1.1"
 ---
 
 | *Document Name:* | W3C TR http://www.w3.org/TR/SOAP
-| *Document URI:* | `http://www.w3.org/TR/SOAP`
+| *Document URI:* | `SOAP`
 | *Online Version:* | [`http://www.w3.org/TR/SOAP`](http://www.w3.org/TR/SOAP)
 | *Organization:* | [World Wide Web Consortium (W3C)](..  "List of specification series by this organization")
 | *Series:* | [Technical Report (TR)](.  "List of specifications in this series")
@@ -14,10 +14,6 @@ title:  "Simple Object Access Protocol (SOAP) 1.1"
 <hr/>
 
 ## Specified Web Concepts:
-
-### HTTP Header Fields
-
-[`SOAPAction`](/concepts/http-header/SOAPAction "The SOAPAction HTTP request header field can be used to indicate the intent of the SOAP HTTP request. The value is a URI identifying the intent. SOAP places no restrictions on the format or specificity of the URI or that it is resolvable. An HTTP client MUST use this header field when issuing a SOAP HTTP Request.")
 
 
 

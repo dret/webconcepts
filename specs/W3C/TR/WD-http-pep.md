@@ -4,7 +4,7 @@ title:  "PEP - An Extension Mechanism for HTTP"
 ---
 
 | *Document Name:* | W3C TR http://www.w3.org/TR/WD-http-pep
-| *Document URI:* | `http://www.w3.org/TR/WD-http-pep`
+| *Document URI:* | `WD-http-pep`
 | *Online Version:* | [`http://www.w3.org/TR/WD-http-pep`](http://www.w3.org/TR/WD-http-pep)
 | *Organization:* | [World Wide Web Consortium (W3C)](..  "List of specification series by this organization")
 | *Series:* | [Technical Report (TR)](.  "List of specifications in this series")
@@ -14,10 +14,6 @@ title:  "PEP - An Extension Mechanism for HTTP"
 <hr/>
 
 ## Specified Web Concepts:
-
-### HTTP Header Fields
-
-[`C-PEP`](/concepts/http-header/C-PEP "PEP hop-by-hop extension declarations are meaningful only for a single transport-level connection. The C-PEP header field is a hop-by-hop header field and must not be communicated by proxies over further connections."), [`C-PEP-Info`](/concepts/http-header/C-PEP-Info "PEP hop-by-hop policies are meaningful only for a single transport-level connection. The C-PEP-Info header field is a hop-by-hop header field and MUST NOT be communicated by proxies over further connections."), [`PEP`](/concepts/http-header/PEP "PEP end-to-end declarations must be transmitted to the ultimate recipient of the declaration. The PEP header field is an end-to-end header field."), [`PEP-Info`](/concepts/http-header/PEP-Info "PEP end-to-end policies MUST be transmitted to the ultimate recipient of a message.")
 
 
 

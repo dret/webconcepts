@@ -4,7 +4,7 @@ title:  "The Tunnel-Protocol HTTP Header Field"
 ---
 
 | *Document Name:* | Internet Draft ietf-httpbis-tunnel-protocol
-| *Document URI:* | `urn:ietf:id:ietf-httpbis-tunnel-protocol`
+| *Document URI:* | `ietf-httpbis-tunnel-protocol`
 | *Online Version:* | [`http://tools.ietf.org/html/draft-ietf-httpbis-tunnel-protocol`](http://tools.ietf.org/html/draft-ietf-httpbis-tunnel-protocol)
 | *Organization:* | [Internet Engineering Task Force (IETF)](..  "List of specification series by this organization")
 | *Series:* | [Internet Draft (I-D)](.  "List of specifications in this series")
@@ -14,10 +14,6 @@ title:  "The Tunnel-Protocol HTTP Header Field"
 <hr/>
 
 ## Specified Web Concepts:
-
-### HTTP Header Fields
-
-[`Tunnel-Protocol`](/concepts/http-header/Tunnel-Protocol "Clients include the Tunnel-Protocol header field in an HTTP CONNECT request to indicate the application layer protocol that will be used within the tunnel, or the set of protocols that might be used within the tunnel.")
 
 
 

@@ -4,7 +4,7 @@ title:  "Efficient XML Interchange (EXI) Format 1.0"
 ---
 
 | *Document Name:* | W3C TR http://www.w3.org/TR/exi
-| *Document URI:* | `http://www.w3.org/TR/exi`
+| *Document URI:* | `exi`
 | *Online Version:* | [`http://www.w3.org/TR/exi`](http://www.w3.org/TR/exi)
 | *Organization:* | [World Wide Web Consortium (W3C)](..  "List of specification series by this organization")
 | *Series:* | [Technical Report (TR)](.  "List of specifications in this series")
@@ -14,14 +14,6 @@ title:  "Efficient XML Interchange (EXI) Format 1.0"
 <hr/>
 
 ## Specified Web Concepts:
-
-### HTTP Content Codings
-
-[`exi`](/concepts/http-content-coding/exi "The content-coding value &#34;exi&#34; is registered with the Internet Assigned Numbers Authority (IANA) for use with EXI. Protocols that can identify and negotiate the content coding of XML information independent of its media type, SHOULD use the content coding &#34;exi&#34; (case-insensitive) to convey the acceptance or actual use of EXI encoding for XML information.")
-
-### Media Types
-
-[`application/exi`](/concepts/media-type/application/exi "A new media type registration &#34;application/exi&#34; described below is being proposed for community review, with the intent to eventually submit it to the IESG for review, approval, and registration with IANA.")
 
 
 

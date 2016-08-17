@@ -4,7 +4,7 @@ title:  "Content Security Policy Level 2"
 ---
 
 | *Document Name:* | W3C TR http://www.w3.org/TR/CSP2
-| *Document URI:* | `http://www.w3.org/TR/CSP2`
+| *Document URI:* | `CSP2`
 | *Online Version:* | [`http://www.w3.org/TR/CSP2`](http://www.w3.org/TR/CSP2)
 | *Organization:* | [World Wide Web Consortium (W3C)](..  "List of specification series by this organization")
 | *Series:* | [Technical Report (TR)](.  "List of specifications in this series")
@@ -14,10 +14,6 @@ title:  "Content Security Policy Level 2"
 <hr/>
 
 ## Specified Web Concepts:
-
-### HTTP Header Fields
-
-[`Content-Security-Policy`](/concepts/http-header/Content-Security-Policy "The Content-Security-Policy header field is the preferred mechanism for delivering a policy."), [`Content-Security-Policy-Report-Only`](/concepts/http-header/Content-Security-Policy-Report-Only "The Content-Security-Policy-Report-Only header field lets servers experiment with policies by monitoring (rather than enforcing) a policy.")
 
 
 

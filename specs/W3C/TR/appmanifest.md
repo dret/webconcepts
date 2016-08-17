@@ -4,7 +4,7 @@ title:  "Manifest for Web Application"
 ---
 
 | *Document Name:* | W3C TR http://www.w3.org/TR/appmanifest
-| *Document URI:* | `http://www.w3.org/TR/appmanifest`
+| *Document URI:* | `appmanifest`
 | *Online Version:* | [`http://www.w3.org/TR/appmanifest`](http://www.w3.org/TR/appmanifest)
 | *Organization:* | [World Wide Web Consortium (W3C)](..  "List of specification series by this organization")
 | *Series:* | [Technical Report (TR)](.  "List of specifications in this series")
@@ -14,14 +14,6 @@ title:  "Manifest for Web Application"
 <hr/>
 
 ## Specified Web Concepts:
-
-### Link Relations
-
-[`manifest`](/concepts/link-relation/manifest "Imports or links to a manifest.")
-
-### Media Types
-
-[`application/manifest+json`](/concepts/media-type/application/manifest+json "A manifest is a JSON document that contains startup parameters and application defaults for when a web application is launched. A manifest consists of a top-level object that contains zero or more members.")
 
 
 

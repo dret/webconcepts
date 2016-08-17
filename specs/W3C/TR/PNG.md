@@ -4,7 +4,7 @@ title:  "Portable Network Graphics"
 ---
 
 | *Document Name:* | W3C TR http://www.w3.org/TR/PNG
-| *Document URI:* | `http://www.w3.org/TR/PNG`
+| *Document URI:* | `PNG`
 | *Online Version:* | [`http://www.w3.org/TR/PNG`](http://www.w3.org/TR/PNG)
 | *Organization:* | [World Wide Web Consortium (W3C)](..  "List of specification series by this organization")
 | *Series:* | [Technical Report (TR)](.  "List of specifications in this series")
@@ -14,10 +14,6 @@ title:  "Portable Network Graphics"
 <hr/>
 
 ## Specified Web Concepts:
-
-### Media Types
-
-[`image/png`](/concepts/media-type/image/png "PNG (Portable Network Graphics) is an extensible file format for the lossless, portable, well-compressed storage of raster images. PNG provides a patent-free replacement for GIF and can also replace many common uses of TIFF. Indexed-color, grayscale, and truecolor images are supported, plus an optional alpha channel. Sample depths range from 1 to 16 bits. PNG is designed to work well in online viewing applications, such as the World Wide Web, so it is fully streamable with a progressive display option. PNG is robust, providing both full file integrity checking and simple detection of common transmission errors. Also, PNG can store gamma and chromaticity data for improved color matching on heterogeneous platforms.")
 
 
 

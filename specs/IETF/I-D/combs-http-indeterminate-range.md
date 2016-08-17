@@ -4,7 +4,7 @@ title:  "HTTP/1.1: Range Responses of Indeterminate Length"
 ---
 
 | *Document Name:* | Internet Draft combs-http-indeterminate-range
-| *Document URI:* | `urn:ietf:id:combs-http-indeterminate-range`
+| *Document URI:* | `combs-http-indeterminate-range`
 | *Online Version:* | [`http://tools.ietf.org/html/draft-combs-http-indeterminate-range`](http://tools.ietf.org/html/draft-combs-http-indeterminate-range)
 | *Organization:* | [Internet Engineering Task Force (IETF)](..  "List of specification series by this organization")
 | *Series:* | [Internet Draft (I-D)](.  "List of specifications in this series")
@@ -14,10 +14,6 @@ title:  "HTTP/1.1: Range Responses of Indeterminate Length"
 <hr/>
 
 ## Specified Web Concepts:
-
-### HTTP Header Fields
-
-[`Accept-Indefinite-Ranges`](/concepts/http-header/Accept-Indefinite-Ranges "The Accept-Indefinite-Ranges request-header field allows the client to indicate its acceptance of indefinite-sized range requests for a resource."), [`Content-Range`](/concepts/http-header/Content-Range "The Content-Range entity-header is sent with a partial entity-body to specify where in the full entity-body the partial body should be applied.")
 
 
 

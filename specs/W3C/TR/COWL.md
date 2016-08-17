@@ -4,7 +4,7 @@ title:  "Confinement with Origin Web Labels"
 ---
 
 | *Document Name:* | W3C TR http://www.w3.org/TR/COWL
-| *Document URI:* | `http://www.w3.org/TR/COWL`
+| *Document URI:* | `COWL`
 | *Online Version:* | [`http://www.w3.org/TR/COWL`](http://www.w3.org/TR/COWL)
 | *Organization:* | [World Wide Web Consortium (W3C)](..  "List of specification series by this organization")
 | *Series:* | [Technical Report (TR)](.  "List of specifications in this series")
@@ -14,10 +14,6 @@ title:  "Confinement with Origin Web Labels"
 <hr/>
 
 ## Specified Web Concepts:
-
-### HTTP Header Fields
-
-[`Sec-COWL`](/concepts/http-header/Sec-COWL "The Sec-COWL HTTP request and response headers are used by user agents and servers to convey label metadata to servers and user agents, respectively.")
 
 
 

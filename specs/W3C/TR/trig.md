@@ -4,7 +4,7 @@ title:  "TriG"
 ---
 
 | *Document Name:* | W3C TR http://www.w3.org/TR/trig
-| *Document URI:* | `http://www.w3.org/TR/trig`
+| *Document URI:* | `trig`
 | *Online Version:* | [`http://www.w3.org/TR/trig`](http://www.w3.org/TR/trig)
 | *Organization:* | [World Wide Web Consortium (W3C)](..  "List of specification series by this organization")
 | *Series:* | [Technical Report (TR)](.  "List of specifications in this series")
@@ -14,10 +14,6 @@ title:  "TriG"
 <hr/>
 
 ## Specified Web Concepts:
-
-### Media Types
-
-[`application/trig`](/concepts/media-type/application/trig "A TriG document allows writing down an RDF Dataset in a compact textual form. It consists of a sequence of directives, triple statements, graph statements which contain triple-generating statements and optional blank lines. Comments may be given after a # that is not part of another lexical token and continue to the end of the line.")
 
 
 

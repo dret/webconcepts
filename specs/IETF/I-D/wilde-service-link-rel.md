@@ -4,7 +4,7 @@ title:  "Link Relation Types for Web Services"
 ---
 
 | *Document Name:* | Internet Draft wilde-service-link-rel
-| *Document URI:* | `urn:ietf:id:wilde-service-link-rel`
+| *Document URI:* | `wilde-service-link-rel`
 | *Online Version:* | [`http://tools.ietf.org/html/draft-wilde-service-link-rel`](http://tools.ietf.org/html/draft-wilde-service-link-rel)
 | *Organization:* | [Internet Engineering Task Force (IETF)](..  "List of specification series by this organization")
 | *Series:* | [Internet Draft (I-D)](.  "List of specifications in this series")
@@ -14,10 +14,6 @@ title:  "Link Relation Types for Web Services"
 <hr/>
 
 ## Specified Web Concepts:
-
-### Link Relations
-
-[`service-desc`](/concepts/link-relation/service-desc "Used to represent the fact that a resource is part of a bigger set of resources that are described at a specific URI. The target resource is expected to provide a service description that is intended for machine consumption. Very often, it is provided in a format that is consumed by tools, code libraries, or similar components."), [`service-doc`](/concepts/link-relation/service-doc "Used to represent the fact that a resource is part of a bigger set of resources that are documented at a specific URI. The target resource is expected to provide documentation that is intended for human consumption.")
 
 
 
