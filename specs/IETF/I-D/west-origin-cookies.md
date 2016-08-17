@@ -15,6 +15,10 @@ title:  "Origin Cookies"
 
 ## Specified Web Concepts:
 
+### HTTP Header Fields
+
+[`Origin-Cookie`](/concepts/http-header/Origin-Cookie "The user agent includes stored cookies whose &#34;origin-flag&#34; is set in the &#34;Origin-Cookie&#34; request header. When the user agent generates an HTTP request, it MUST NOT attach more than one &#34;Origin-Cookie&#34; header field.")
+
 
 
 <br/>

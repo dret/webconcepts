@@ -15,6 +15,10 @@ title:  "Describing Linked Datasets with the VoID Vocabulary"
 
 ## Specified Web Concepts:
 
+### Well-Known URIs
+
+[`void`](/concepts/well-known-uri/void "The URI /.well-known/void on any Web server is registered by this specification for a VoID description of any datasets hosted on that server. This URI may be an HTTP redirect to the location of the actual VoID file.")
+
 
 
 <br/>

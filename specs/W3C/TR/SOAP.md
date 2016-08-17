@@ -15,6 +15,10 @@ title:  "Simple Object Access Protocol (SOAP) 1.1"
 
 ## Specified Web Concepts:
 
+### HTTP Header Fields
+
+[`SOAPAction`](/concepts/http-header/SOAPAction "The SOAPAction HTTP request header field can be used to indicate the intent of the SOAP HTTP request. The value is a URI identifying the intent. SOAP places no restrictions on the format or specificity of the URI or that it is resolvable. An HTTP client MUST use this header field when issuing a SOAP HTTP Request.")
+
 
 
 <br/>

@@ -15,6 +15,10 @@ title:  "Upgrade Insecure Requests"
 
 ## Specified Web Concepts:
 
+### HTTP Header Fields
+
+[`HTTPS`](/concepts/http-header/HTTPS "The HTTPS HTTP request header field sends a signal to the server expressing the client’s preference for an encrypted and authenticated response, and that it can successfully handle the upgrade-insecure-requests directive in order to make that preference as seamless as possible to provide.")
+
 
 
 <br/>

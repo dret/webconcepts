@@ -15,6 +15,10 @@ title:  "Application-Level Profile Semantics (ALPS)"
 
 ## Specified Web Concepts:
 
+### Media Types
+
+[`application/alps+json`](/concepts/media-type/application/alps+json "When representing ALPS documents in JSON format, the 'descriptor' and 'ext' properties are always expressed as arrays of anonymous objects - even when there is only one member in the array."), [`application/alps+xml`](/concepts/media-type/application/alps+xml "In the XML version of an ALPS document, the following ALPS properties always appear as XML elements: 'alps', 'doc', 'descriptor', and 'ext'. All other ALPS properties appear as XML attributes.")
+
 
 
 <br/>

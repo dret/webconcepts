@@ -15,6 +15,10 @@ title:  "Preload"
 
 ## Specified Web Concepts:
 
+### Link Relations
+
+[`preload`](/concepts/link-relation/preload "The preload keyword may be used with link elements. This keyword creates an external resource link (preload link) that is used to declare a resource and its fetch properties.")
+
 
 
 <br/>

@@ -15,6 +15,10 @@ title:  "RDF 1.1 Concepts and Abstract Syntax"
 
 ## Specified Web Concepts:
 
+### Well-Known URIs
+
+[`genid`](/concepts/well-known-uri/genid "Systems that want Skolem IRIs to be recognizable outside of the system boundaries should use a well-known IRI with the registered name genid. This is an IRI that uses the HTTP or HTTPS scheme, or another scheme that has been specified to use well-known IRIs; and whose path component starts with /.well-known/genid/.")
+
 
 
 <br/>

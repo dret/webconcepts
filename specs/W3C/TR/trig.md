@@ -15,6 +15,10 @@ title:  "TriG"
 
 ## Specified Web Concepts:
 
+### Media Types
+
+[`application/trig`](/concepts/media-type/application/trig "A TriG document allows writing down an RDF Dataset in a compact textual form. It consists of a sequence of directives, triple statements, graph statements which contain triple-generating statements and optional blank lines. Comments may be given after a # that is not part of another lexical token and continue to the end of the line.")
+
 
 
 <br/>

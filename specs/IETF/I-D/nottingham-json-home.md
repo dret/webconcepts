@@ -15,6 +15,10 @@ title:  "Home Documents for HTTP APIs"
 
 ## Specified Web Concepts:
 
+### Media Types
+
+[`application/home+json`](/concepts/media-type/application/home+json "This document proposes a &#34;home document&#34; format for non-browser HTTP clients.")
+
 
 
 <br/>

@@ -15,6 +15,10 @@ title:  "HTTP bytes-live Range Unit for Live Content"
 
 ## Specified Web Concepts:
 
+### HTTP Range Units
+
+[`bytes-live`](/concepts/http-range-unit/bytes-live "As with the &#34;bytes&#34; range unit, a &#34;bytes-live&#34; Range request allows a client to designate a subset of bytes from the representation data to be transferred in payloads as a sequence of octets. But the form of a &#34;bytes-live&#34; request is focused on accessing data that may be appended to the representation over time.")
+
 
 
 <br/>

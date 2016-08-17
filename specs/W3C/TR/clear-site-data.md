@@ -15,6 +15,10 @@ title:  "Clear Site Data"
 
 ## Specified Web Concepts:
 
+### HTTP Header Fields
+
+[`Clear-Site-Data`](/concepts/http-header/Clear-Site-Data "The Clear-Site-Data HTTP response header field sends a signal to the user agent that it ought to remove all data of a certain set of types.")
+
 
 
 <br/>

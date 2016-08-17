@@ -15,6 +15,10 @@ title:  "Marking HTTP Requests as Unimportant"
 
 ## Specified Web Concepts:
 
+### HTTP Header Fields
+
+[`Nice`](/concepts/http-header/Nice "The &#34;Nice&#34; header field indicates that a request is less important than a request that doesn't bear this header.")
+
 
 
 <br/>

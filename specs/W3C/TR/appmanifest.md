@@ -15,6 +15,14 @@ title:  "Manifest for Web Application"
 
 ## Specified Web Concepts:
 
+### Link Relations
+
+[`manifest`](/concepts/link-relation/manifest "Imports or links to a manifest.")
+
+### Media Types
+
+[`application/manifest+json`](/concepts/media-type/application/manifest+json "A manifest is a JSON document that contains startup parameters and application defaults for when a web application is launched. A manifest consists of a top-level object that contains zero or more members.")
+
 
 
 <br/>

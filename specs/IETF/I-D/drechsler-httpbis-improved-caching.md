@@ -15,6 +15,10 @@ title:  "Hypertext Transfer Protocol: Improved HTTP Caching"
 
 ## Specified Web Concepts:
 
+### HTTP Header Fields
+
+[`Cache-NT`](/concepts/http-header/Cache-NT "For precisely identifying transferred content independent of the used URL and independent of additional header fields in the context of content negotiation, the Cache-NT header field is used. The new header field carries an SHA-256 value.")
+
 
 
 <br/>

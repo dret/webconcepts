@@ -15,6 +15,10 @@ title:  "Link Relation Types for Web Services"
 
 ## Specified Web Concepts:
 
+### Link Relations
+
+[`service-desc`](/concepts/link-relation/service-desc "The &#34;service-desc&#34; link relation type is used to represent the fact that a resource is part of a bigger set of resources that are described at a specific URI. The target resource is expected to provide a service description that is intended for machine consumption. Very often, it is provided in a format that is consumed by tools, code libraries, or similar components."), [`service-doc`](/concepts/link-relation/service-doc "The &#34;service-doc&#34; link relation type is used to represent the fact that a resource is part of a bigger set of resources that are documented at a specific URI. The target resource is expected to provide documentation that is intended for human consumption.")
+
 
 
 <br/>

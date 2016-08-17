@@ -15,6 +15,10 @@ title:  "The Key HTTP Response Header Field"
 
 ## Specified Web Concepts:
 
+### HTTP Header Fields
+
+[`Key`](/concepts/http-header/Key "The &#34;Key&#34; response header field describes the request attributes that the server has used to select the current representation. As such, its semantics are similar to the &#34;Vary&#34; response header field, but it allows more fine-grained description, using &#34;key modifiers&#34;.")
+
 
 
 <br/>

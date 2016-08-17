@@ -15,6 +15,10 @@ title:  "The Tunnel-Protocol HTTP Header Field"
 
 ## Specified Web Concepts:
 
+### HTTP Header Fields
+
+[`Tunnel-Protocol`](/concepts/http-header/Tunnel-Protocol "Clients include the Tunnel-Protocol header field in an HTTP CONNECT request to indicate the application layer protocol that will be used within the tunnel, or the set of protocols that might be used within the tunnel.")
+
 
 
 <br/>

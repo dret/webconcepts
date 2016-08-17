@@ -15,6 +15,14 @@ title:  "Efficient XML Interchange (EXI) Format 1.0"
 
 ## Specified Web Concepts:
 
+### HTTP Content Codings
+
+[`exi`](/concepts/http-content-coding/exi "The content-coding value &#34;exi&#34; is registered with the Internet Assigned Numbers Authority (IANA) for use with EXI. Protocols that can identify and negotiate the content coding of XML information independent of its media type, SHOULD use the content coding &#34;exi&#34; (case-insensitive) to convey the acceptance or actual use of EXI encoding for XML information.")
+
+### Media Types
+
+[`application/exi`](/concepts/media-type/application/exi "A new media type registration &#34;application/exi&#34; described below is being proposed for community review, with the intent to eventually submit it to the IESG for review, approval, and registration with IANA.")
+
 
 
 <br/>

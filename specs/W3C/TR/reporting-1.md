@@ -15,6 +15,10 @@ title:  "Reporting API 1"
 
 ## Specified Web Concepts:
 
+### HTTP Header Fields
+
+[`Report-To`](/concepts/http-header/Report-To "The Report-To HTTP response header field instructs the user agent to store reporting endpoints for an origin.")
+
 
 
 <br/>

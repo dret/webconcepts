@@ -15,6 +15,10 @@ title:  "Accept-Push-Policy Header Field"
 
 ## Specified Web Concepts:
 
+### HTTP Header Fields
+
+[`Accept-Push-Policy`](/concepts/http-header/Accept-Push-Policy "A client can express the desired push policy for a request by sending an &#34;Accept-Push-Policy&#34; header field in the request. The header field value contains the push policy that the client expects the server to use when processing the request."), [`Push-Policy`](/concepts/http-header/Push-Policy "A server can indicate to a client the push policy it used when processing a request by sending a &#34;Push-Policy&#34; header field in the corresponding response.")
+
 
 
 <br/>

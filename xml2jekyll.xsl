@@ -323,16 +323,16 @@
                 <xsl:text>&#xa;&#xa;</xsl:text>
                 <xsl:text>&lt;br/>&#xa;&lt;hr/>&#xa;&#xa;</xsl:text>
                 <xsl:text>## Specified Web Concepts:&#xa;&#xa;</xsl:text>
-                <xsl:for-each-group select="sedola:*[local-name() = $concepts//element-name/text()]" group-by="local-name()">
+                <xsl:for-each-group select="sedola:*[local-name() = $concepts/concepts/concept/@id]" group-by="local-name()">
                     <xsl:text>### </xsl:text>
-                    <xsl:value-of select="$concepts//concept[element-name eq current()/local-name()]/title-plural"/>
+                    <xsl:value-of select="$concepts//concept[@id eq current()/local-name()]/title-plural"/>
                     <xsl:text>&#xa;&#xa;</xsl:text>
                     <xsl:for-each select="current-group()">
                         <xsl:sort select="@def"/>
                         <xsl:text>[`</xsl:text>
                         <xsl:value-of select="@def"/>
                         <xsl:text>`](/</xsl:text>
-                        <xsl:value-of select="concat($concepts-dir, '/', $concepts//concept[element-name eq current()/local-name()]/filename-singular, '/', @def)"/>
+                        <xsl:value-of select="concat($concepts-dir, '/', $concepts//concept[@id eq current()/local-name()]/filename-singular, '/', @def)"/>
                         <xsl:text> "</xsl:text>
                         <xsl:value-of select="replace(sedola:documentation/text(), '&quot;', '&amp;#34;')"/>
                         <xsl:text>")</xsl:text>

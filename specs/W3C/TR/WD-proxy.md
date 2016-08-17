@@ -15,6 +15,10 @@ title:  "Notification for Proxy Caches"
 
 ## Specified Web Concepts:
 
+### HTTP Header Fields
+
+[`Proxy-Features`](/concepts/http-header/Proxy-Features "The proxy features header is used by a proxy sending data to a server. It specifies the features supported by the specified proxy."), [`Proxy-Instruction`](/concepts/http-header/Proxy-Instruction "The proxy instruction header is used to reply to a proxy features header. It should only be present when a Proxy-Features header was present in the corresponding request.")
+
 
 
 <br/>

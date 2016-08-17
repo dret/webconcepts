@@ -15,6 +15,10 @@ title:  "HTTP Client Hints"
 
 ## Specified Web Concepts:
 
+### HTTP Header Fields
+
+[`CH`](/concepts/http-header/CH "The &#34;CH&#34; request header field describes an example list of client preferences that the server can use to adapt and optimize the resource to satisfy a given request. The CH field-value is a comma-delimited list of header fields, and the field-name values are case insensitive.")
+
 
 
 <br/>
