@@ -3,7 +3,7 @@ layout: page
 title:  "IETF Request for Comments Series"
 ---
 
-There are currently 95 listed specifications in the [Internet Engineering Task Force (IETF)](..)'s Request for Comments (RFC) series.
+There are currently 96 listed specifications in the [Internet Engineering Task Force (IETF)](..)'s Request for Comments (RFC) series.
 
   * [A Media Type for XML Patch Operations (RFC 7351)](7351)
   * [A Reputation Query Protocol (RFC 7072)](7072)
@@ -70,6 +70,7 @@ There are currently 95 listed specifications in the [Internet Engineering Task F
   * [The 'application/zlib' and 'application/gzip' Media Types (RFC 6713)](6713)
   * [The 'describes' Link Relation Type (RFC 6892)](6892)
   * [The 'disclosure' Link Relation Type (RFC 6579)](6579)
+  * [The 'mailto' URI Scheme (RFC 6068)](6068)
   * [The ALPN HTTP Header Field (RFC 7639)](7639)
   * [The Atom "deleted-entry" Element (RFC 6271)](6271)
   * [The Canonical Link Relation (RFC 6596)](6596)
