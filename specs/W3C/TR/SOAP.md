@@ -4,7 +4,7 @@ title:  "Simple Object Access Protocol (SOAP) 1.1"
 ---
 
 | *Document Name:* | W3C TR http://www.w3.org/TR/SOAP
-| *Document URI:* | `SOAP`
+| *Document URI:* | `http://www.w3.org/TR/SOAP`
 | *Online Version:* | [`http://www.w3.org/TR/SOAP`](http://www.w3.org/TR/SOAP)
 | *Organization:* | [World Wide Web Consortium (W3C)](..  "List of specification series by this organization")
 | *Series:* | [Technical Report (TR)](.  "List of specifications in this series")

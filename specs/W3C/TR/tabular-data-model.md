@@ -4,7 +4,7 @@ title:  "Model for Tabular Data and Metadata on the Web"
 ---
 
 | *Document Name:* | W3C TR http://www.w3.org/TR/tabular-data-model
-| *Document URI:* | `tabular-data-model`
+| *Document URI:* | `http://www.w3.org/TR/tabular-data-model`
 | *Online Version:* | [`http://www.w3.org/TR/tabular-data-model`](http://www.w3.org/TR/tabular-data-model)
 | *Organization:* | [World Wide Web Consortium (W3C)](..  "List of specification series by this organization")
 | *Series:* | [Technical Report (TR)](.  "List of specifications in this series")

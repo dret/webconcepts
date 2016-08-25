@@ -4,7 +4,7 @@ title:  "Hypertext Transfer Protocol: Improved HTTP Caching"
 ---
 
 | *Document Name:* | Internet Draft drechsler-httpbis-improved-caching
-| *Document URI:* | `drechsler-httpbis-improved-caching`
+| *Document URI:* | `urn:ietf:id:drechsler-httpbis-improved-caching`
 | *Online Version:* | [`http://tools.ietf.org/html/draft-drechsler-httpbis-improved-caching`](http://tools.ietf.org/html/draft-drechsler-httpbis-improved-caching)
 | *Organization:* | [Internet Engineering Task Force (IETF)](..  "List of specification series by this organization")
 | *Series:* | [Internet Draft (I-D)](.  "List of specifications in this series")

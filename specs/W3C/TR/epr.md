@@ -4,7 +4,7 @@ title:  "Entry Point Regulation (EPR)"
 ---
 
 | *Document Name:* | W3C TR http://www.w3.org/TR/epr
-| *Document URI:* | `epr`
+| *Document URI:* | `http://www.w3.org/TR/epr`
 | *Online Version:* | [`http://www.w3.org/TR/epr`](http://www.w3.org/TR/epr)
 | *Organization:* | [World Wide Web Consortium (W3C)](..  "List of specification series by this organization")
 | *Series:* | [Technical Report (TR)](.  "List of specifications in this series")

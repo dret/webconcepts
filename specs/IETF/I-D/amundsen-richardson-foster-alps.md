@@ -4,7 +4,7 @@ title:  "Application-Level Profile Semantics (ALPS)"
 ---
 
 | *Document Name:* | Internet Draft amundsen-richardson-foster-alps
-| *Document URI:* | `amundsen-richardson-foster-alps`
+| *Document URI:* | `urn:ietf:id:amundsen-richardson-foster-alps`
 | *Online Version:* | [`http://tools.ietf.org/html/draft-amundsen-richardson-foster-alps`](http://tools.ietf.org/html/draft-amundsen-richardson-foster-alps)
 | *Organization:* | [Internet Engineering Task Force (IETF)](..  "List of specification series by this organization")
 | *Series:* | [Internet Draft (I-D)](.  "List of specifications in this series")

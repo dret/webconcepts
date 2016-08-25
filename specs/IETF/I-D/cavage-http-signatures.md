@@ -4,7 +4,7 @@ title:  "Signing HTTP Messages"
 ---
 
 | *Document Name:* | Internet Draft cavage-http-signatures
-| *Document URI:* | `cavage-http-signatures`
+| *Document URI:* | `urn:ietf:id:cavage-http-signatures`
 | *Online Version:* | [`http://tools.ietf.org/html/draft-cavage-http-signatures`](http://tools.ietf.org/html/draft-cavage-http-signatures)
 | *Organization:* | [Internet Engineering Task Force (IETF)](..  "List of specification series by this organization")
 | *Series:* | [Internet Draft (I-D)](.  "List of specifications in this series")

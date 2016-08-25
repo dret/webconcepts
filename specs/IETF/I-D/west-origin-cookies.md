@@ -4,7 +4,7 @@ title:  "Origin Cookies"
 ---
 
 | *Document Name:* | Internet Draft west-origin-cookies
-| *Document URI:* | `west-origin-cookies`
+| *Document URI:* | `urn:ietf:id:west-origin-cookies`
 | *Online Version:* | [`http://tools.ietf.org/html/draft-west-origin-cookies`](http://tools.ietf.org/html/draft-west-origin-cookies)
 | *Organization:* | [Internet Engineering Task Force (IETF)](..  "List of specification series by this organization")
 | *Series:* | [Internet Draft (I-D)](.  "List of specifications in this series")

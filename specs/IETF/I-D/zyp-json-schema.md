@@ -4,7 +4,7 @@ title:  "A JSON Media Type for Describing the Structure and Meaning of JSON Docu
 ---
 
 | *Document Name:* | Internet Draft zyp-json-schema
-| *Document URI:* | `zyp-json-schema`
+| *Document URI:* | `urn:ietf:id:zyp-json-schema`
 | *Online Version:* | [`http://tools.ietf.org/html/draft-zyp-json-schema`](http://tools.ietf.org/html/draft-zyp-json-schema)
 | *Organization:* | [Internet Engineering Task Force (IETF)](..  "List of specification series by this organization")
 | *Series:* | [Internet Draft (I-D)](.  "List of specifications in this series")

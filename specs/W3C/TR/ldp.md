@@ -4,7 +4,7 @@ title:  "Linked Data Platform 1.0 (LDP)"
 ---
 
 | *Document Name:* | W3C TR http://www.w3.org/TR/ldp
-| *Document URI:* | `ldp`
+| *Document URI:* | `http://www.w3.org/TR/ldp`
 | *Online Version:* | [`http://www.w3.org/TR/ldp`](http://www.w3.org/TR/ldp)
 | *Organization:* | [World Wide Web Consortium (W3C)](..  "List of specification series by this organization")
 | *Series:* | [Technical Report (TR)](.  "List of specifications in this series")

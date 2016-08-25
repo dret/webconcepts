@@ -4,7 +4,7 @@ title:  "Efficient XML Interchange (EXI) Format 1.0"
 ---
 
 | *Document Name:* | W3C TR http://www.w3.org/TR/exi
-| *Document URI:* | `exi`
+| *Document URI:* | `http://www.w3.org/TR/exi`
 | *Online Version:* | [`http://www.w3.org/TR/exi`](http://www.w3.org/TR/exi)
 | *Organization:* | [World Wide Web Consortium (W3C)](..  "List of specification series by this organization")
 | *Series:* | [Technical Report (TR)](.  "List of specifications in this series")

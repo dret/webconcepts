@@ -4,7 +4,7 @@ title:  "Hypertext Markup Language (HTML)"
 ---
 
 | *Document Name:* | W3C TR http://www.w3.org/TR/html4
-| *Document URI:* | `html4`
+| *Document URI:* | `http://www.w3.org/TR/html4`
 | *Online Version:* | [`http://www.w3.org/TR/html4`](http://www.w3.org/TR/html4)
 | *Organization:* | [World Wide Web Consortium (W3C)](..  "List of specification series by this organization")
 | *Series:* | [Technical Report (TR)](.  "List of specifications in this series")

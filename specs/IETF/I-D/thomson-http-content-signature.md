@@ -4,7 +4,7 @@ title:  "Content-Signature Header Field for HTTP"
 ---
 
 | *Document Name:* | Internet Draft thomson-http-content-signature
-| *Document URI:* | `thomson-http-content-signature`
+| *Document URI:* | `urn:ietf:id:thomson-http-content-signature`
 | *Online Version:* | [`http://tools.ietf.org/html/draft-thomson-http-content-signature`](http://tools.ietf.org/html/draft-thomson-http-content-signature)
 | *Organization:* | [Internet Engineering Task Force (IETF)](..  "List of specification series by this organization")
 | *Series:* | [Internet Draft (I-D)](.  "List of specifications in this series")

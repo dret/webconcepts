@@ -294,9 +294,11 @@
                 <xsl:text>| *Document&#160;Name:* | </xsl:text>
                 <xsl:value-of select="replace($id, '^(..*)$', $secondary/name-pattern)"/>
                 <xsl:text>&#xa;</xsl:text>
-                <xsl:text>| *Document&#160;URI:* | `</xsl:text>
-                <xsl:value-of select="@id"/>
-                <xsl:text>`&#xa;</xsl:text>
+                <xsl:if test="exists($secondary/uri-pattern)">
+                    <xsl:text>| *Document&#160;URI:* | `</xsl:text>
+                    <xsl:value-of select="replace(@id, $secondary/id-pattern, $secondary/uri-pattern)"/>
+                    <xsl:text>`&#xa;</xsl:text>
+                </xsl:if>
                 <xsl:text>| *Online&#160;Version:* | [`</xsl:text>
                 <xsl:value-of select="replace(@id, $secondary/id-pattern, $secondary/url-pattern)"/>
                 <xsl:text>`](</xsl:text>

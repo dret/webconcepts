@@ -4,7 +4,7 @@ title:  "Content Security Policy Pinning"
 ---
 
 | *Document Name:* | W3C TR http://www.w3.org/TR/csp-pinning
-| *Document URI:* | `csp-pinning`
+| *Document URI:* | `http://www.w3.org/TR/csp-pinning`
 | *Online Version:* | [`http://www.w3.org/TR/csp-pinning`](http://www.w3.org/TR/csp-pinning)
 | *Organization:* | [World Wide Web Consortium (W3C)](..  "List of specification series by this organization")
 | *Series:* | [Technical Report (TR)](.  "List of specifications in this series")

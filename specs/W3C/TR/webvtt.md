@@ -4,7 +4,7 @@ title:  "Web Video Text Tracks (WebVTT)"
 ---
 
 | *Document Name:* | W3C TR http://www.w3.org/TR/webvtt
-| *Document URI:* | `webvtt`
+| *Document URI:* | `http://www.w3.org/TR/webvtt`
 | *Online Version:* | [`http://www.w3.org/TR/webvtt`](http://www.w3.org/TR/webvtt)
 | *Organization:* | [World Wide Web Consortium (W3C)](..  "List of specification series by this organization")
 | *Series:* | [Technical Report (TR)](.  "List of specifications in this series")

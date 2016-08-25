@@ -4,7 +4,7 @@ title:  "Confinement with Origin Web Labels"
 ---
 
 | *Document Name:* | W3C TR http://www.w3.org/TR/COWL
-| *Document URI:* | `COWL`
+| *Document URI:* | `http://www.w3.org/TR/COWL`
 | *Online Version:* | [`http://www.w3.org/TR/COWL`](http://www.w3.org/TR/COWL)
 | *Organization:* | [World Wide Web Consortium (W3C)](..  "List of specification series by this organization")
 | *Series:* | [Technical Report (TR)](.  "List of specifications in this series")

@@ -4,7 +4,7 @@ title:  "JSON-LD 1.0"
 ---
 
 | *Document Name:* | W3C TR http://www.w3.org/TR/json-ld
-| *Document URI:* | `json-ld`
+| *Document URI:* | `http://www.w3.org/TR/json-ld`
 | *Online Version:* | [`http://www.w3.org/TR/json-ld`](http://www.w3.org/TR/json-ld)
 | *Organization:* | [World Wide Web Consortium (W3C)](..  "List of specification series by this organization")
 | *Series:* | [Technical Report (TR)](.  "List of specifications in this series")

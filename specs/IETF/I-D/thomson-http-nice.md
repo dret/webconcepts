@@ -4,7 +4,7 @@ title:  "Marking HTTP Requests as Unimportant"
 ---
 
 | *Document Name:* | Internet Draft thomson-http-nice
-| *Document URI:* | `thomson-http-nice`
+| *Document URI:* | `urn:ietf:id:thomson-http-nice`
 | *Online Version:* | [`http://tools.ietf.org/html/draft-thomson-http-nice`](http://tools.ietf.org/html/draft-thomson-http-nice)
 | *Organization:* | [Internet Engineering Task Force (IETF)](..  "List of specification series by this organization")
 | *Series:* | [Internet Draft (I-D)](.  "List of specifications in this series")

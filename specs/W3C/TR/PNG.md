@@ -4,7 +4,7 @@ title:  "Portable Network Graphics"
 ---
 
 | *Document Name:* | W3C TR http://www.w3.org/TR/PNG
-| *Document URI:* | `PNG`
+| *Document URI:* | `http://www.w3.org/TR/PNG`
 | *Online Version:* | [`http://www.w3.org/TR/PNG`](http://www.w3.org/TR/PNG)
 | *Organization:* | [World Wide Web Consortium (W3C)](..  "List of specification series by this organization")
 | *Series:* | [Technical Report (TR)](.  "List of specifications in this series")

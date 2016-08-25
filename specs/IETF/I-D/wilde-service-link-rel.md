@@ -4,7 +4,7 @@ title:  "Link Relation Types for Web Services"
 ---
 
 | *Document Name:* | Internet Draft wilde-service-link-rel
-| *Document URI:* | `wilde-service-link-rel`
+| *Document URI:* | `urn:ietf:id:wilde-service-link-rel`
 | *Online Version:* | [`http://tools.ietf.org/html/draft-wilde-service-link-rel`](http://tools.ietf.org/html/draft-wilde-service-link-rel)
 | *Organization:* | [Internet Engineering Task Force (IETF)](..  "List of specification series by this organization")
 | *Series:* | [Internet Draft (I-D)](.  "List of specifications in this series")
