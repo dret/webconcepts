@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <service primary="W3C" secondary="TR" id="csp-pinning" xmlns="http://github.com/dret/sedola">
-    <title short="CSP Pinning">Content Security Policy Pinning</title>
+    <title>Content Security Policy Pinning</title>
     <documentation source="http://www.w3.org/TR/csp-pinning/">This document defines a new HTTP header that allows authors to instruct user agents to remember ("pin") and enforce a Content Security Policy for a set of hosts for a period of time.</documentation>
     <http-header def="Content-Security-Policy-Pin">
         <documentation source="http://www.w3.org/TR/csp-pinning/#content-security-policy-pin-header-field">The Content-Security-Policy-Pin header field is the mechanism for delivering a pinned policy that the user agent MUST enforce for any resource which is not delivered with a Content-Security-Policy header (as described in the "Pin a policy to response" algorithm).</documentation>

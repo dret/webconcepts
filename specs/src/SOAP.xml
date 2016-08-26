@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <service primary="W3C" secondary="TR" id="SOAP" xmlns="http://github.com/dret/sedola">
-    <title short="SOAP 1.1">Simple Object Access Protocol (SOAP) 1.1</title>
+    <title>Simple Object Access Protocol (SOAP) 1.1</title>
     <documentation source="http://www.w3.org/TR/2000/NOTE-SOAP-20000508/">SOAP is a lightweight protocol for exchange of information in a decentralized, distributed environment. It is an XML based protocol that consists of three parts: an envelope that defines a framework for describing what is in a message and how to process it, a set of encoding rules for expressing instances of application-defined datatypes, and a convention for representing remote procedure calls and responses. SOAP can potentially be used in combination with a variety of other protocols; however, the only bindings defined in this document describe how to use SOAP in combination with HTTP and HTTP Extension Framework.</documentation>
     <http-header def="SOAPAction">
         <documentation source="http://www.w3.org/TR/2000/NOTE-SOAP-20000508/#_Toc478383528">The SOAPAction HTTP request header field can be used to indicate the intent of the SOAP HTTP request. The value is a URI identifying the intent. SOAP places no restrictions on the format or specificity of the URI or that it is resolvable. An HTTP client MUST use this header field when issuing a SOAP HTTP Request.</documentation>

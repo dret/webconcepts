@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <service primary="IETF" secondary="RFC" id="4287" xmlns="http://github.com/dret/sedola">
-    <title short="Atom">Atom Syndication Format</title>
+    <title>Atom Syndication Format</title>
     <documentation source="http://tools.ietf.org/html/rfc4287">Atom is an XML-based document format that describes lists of related information known as "feeds". Feeds are composed of a number of items, known as "entries", each with an extensible set of attached metadata. For example, each entry has a title.</documentation>
     <media-type def="application/atom+xml">
         <documentation source="http://tools.ietf.org/html/rfc4287#section-2">This specification describes two kinds of Atom Documents: Atom Feed Documents and Atom Entry Documents. Both kinds of Atom Documents are specified in terms of the XML Information Set, serialized as XML 1.0 and identified with the "application/atom+xml" media type. Atom Documents MUST be well-formed XML.</documentation>

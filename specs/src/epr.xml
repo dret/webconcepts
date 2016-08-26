@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <service primary="W3C" secondary="TR" id="epr" xmlns="http://github.com/dret/sedola">
-    <title short="EPR">Entry Point Regulation (EPR)</title>
+    <title>Entry Point Regulation (EPR)</title>
     <documentation source="http://www.w3.org/TR/epr/">Entry Point Regulation aims to mitigate the risk of reflected cross-site scripting (XSS), cross-site script inclusion (XSSI), and cross-site request forgery (CSRF) attacks by demarcating the areas of an application which are intended to be externally referencable. A specified policy is applied on external requests for all non-demarcated resources.</documentation>
     <http-header def="EPR">
         <documentation source="http://www.w3.org/TR/epr/#epr-header">Servers may request the protections outlined by Entry Point Regulation (EPR) by sending an EPR HTTP response header field along with a response.</documentation>
