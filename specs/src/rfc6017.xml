@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<service primary="IETF" secondary="RFC" id="6017" xmlns="http://github.com/dret/sedola">
+    <title>Electronic Data Interchange - Internet Integration (EDIINT) Features Header Field</title>
+    <documentation source="http://tools.ietf.org/html/rfc6017">With the maturity of the Electronic Data Interchange - Internet Integration (EDIINT) standards of AS1, AS2, and AS3, applications and additional features are being built upon the basic secure transport functionality. These features are not necessarily supported by all EDIINT applications and could cause potential problems with implementations. The EDIINT-Features header field provides a means to resolve these problems and support new functionality.</documentation>
+    <http-header def="EDIINT-Features">
+        <documentation source="http://tools.ietf.org/html/rfc6017#section-3">The EDIINT-Features header field indicates the originating user agent is capable of supporting the features listed.</documentation>
+    </http-header>
+</service>
