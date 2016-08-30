@@ -53,7 +53,7 @@ There are currently 101 listed specifications in the [Internet Engineering Task 
   * [Hypertext Transfer Protocol -- HTTP/1.1 (RFC 2616)](2616)
   * [Hypertext Transfer Protocol Version 2 (RFC 7540)](7540)
   * [Instance Digests in HTTP (RFC 3230)](3230)
-  * [JSON Web Signature (JWS) (RFC 7519)](7519)
+  * [JSON Web Signature (JWS) (RFC 7515)](7515)
   * [JSON Web Token (JWT) (RFC 7519)](7519)
   * [JavaScript Object Notation (JSON) (RFC 7159)](7159)
   * [Link Relation Types for Simple Version Navigation between Web Resources (RFC 5829)](5829)
