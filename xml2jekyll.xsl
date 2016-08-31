@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- This XSLT transforms https://github.com/dret/webconcepts into a jekyll site. -->
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="3.0" xmlns:sedola="http://github.com/dret/sedola">
-    <xsl:output name="jekyll" method="text" encoding="UTF-8"/>
+    <xsl:output name="markdown" method="text" encoding="UTF-8"/>
     <!-- -->
     <xsl:variable name="specs-dir" select="'specs'"/>
     <xsl:variable name="specs" select="document(concat($specs-dir, '/specs.xml'))"/>
@@ -11,7 +11,7 @@
     <xsl:variable name="concepts" select="document(concat($concepts-dir, '/concepts.xml'))"/>
     <!-- -->
     <xsl:template match="/">
-        <xsl:result-document href="{$specs-dir}/index.md" format="jekyll">
+        <xsl:result-document href="{$specs-dir}/index.md" format="markdown">
             <xsl:text>---&#xa;</xsl:text>
             <xsl:text>layout: page&#xa;</xsl:text>
             <xsl:text>title:  "Web Concept Specifications: Organizations"&#xa;</xsl:text>
@@ -49,7 +49,7 @@
                     <xsl:value-of select="count($allspecs/sedola:service[@primary eq $primary/@id][@secondary eq $secondary/@id])"/>
                     <xsl:text> Specifications&#xa;</xsl:text>
                 </xsl:for-each>
-                <xsl:result-document href="{$specs-dir}/{$primary/@id}/index.md" format="jekyll">
+                <xsl:result-document href="{$specs-dir}/{$primary/@id}/index.md" format="markdown">
                     <xsl:text>---&#xa;</xsl:text>
                     <xsl:text>layout: page&#xa;</xsl:text>
                     <xsl:text>title:  "</xsl:text>
@@ -84,7 +84,7 @@
                         <xsl:text>) Series: </xsl:text>
                         <xsl:value-of select="count($services)"/>
                         <xsl:text> Specifications&#xa;</xsl:text>
-                        <xsl:result-document href="{$specs-dir}/{$primary/@id}/{$secondary/@id}/index.md" format="jekyll">
+                        <xsl:result-document href="{$specs-dir}/{$primary/@id}/{$secondary/@id}/index.md" format="markdown">
                             <xsl:text>---&#xa;</xsl:text>
                             <xsl:text>layout: page&#xa;</xsl:text>
                             <xsl:text>title:  "</xsl:text>
@@ -136,7 +136,7 @@
                 </xsl:result-document>
             </xsl:for-each>
         </xsl:result-document>
-        <xsl:result-document href="{$concepts-dir}/index.md" format="jekyll">
+        <xsl:result-document href="{$concepts-dir}/index.md" format="markdown">
             <xsl:text>---&#xa;</xsl:text>
             <xsl:text>layout: page&#xa;</xsl:text>
             <xsl:text>title:  "Web Concepts: Overview"&#xa;</xsl:text>
@@ -158,7 +158,7 @@
                 <xsl:text>) (</xsl:text>
                 <xsl:value-of select="count(distinct-values($allspecs//sedola:*[local-name() eq current()/@id]/@def))"/>
                 <xsl:text> entries)&#xa;</xsl:text>
-                <xsl:result-document href="{$concepts-dir}/{filename-plural}.md" format="jekyll">
+                <xsl:result-document href="{$concepts-dir}/{filename-plural}.md" format="markdown">
                     <xsl:text>---&#xa;</xsl:text>
                     <xsl:text>layout:    page&#xa;</xsl:text>
                     <xsl:text>title:     "</xsl:text>
@@ -225,7 +225,7 @@
                                 </xsl:otherwise>
                             </xsl:choose>
                         </xsl:for-each>
-                        <xsl:result-document href="{$concepts-dir}/{$concept/filename-singular}/{$concept-name}.md" format="jekyll">
+                        <xsl:result-document href="{$concepts-dir}/{$concept/filename-singular}/{$concept-name}.md" format="markdown">
                             <xsl:text>---&#xa;</xsl:text>
                             <xsl:text>layout: page&#xa;</xsl:text>
                             <xsl:text>title:  "</xsl:text>
@@ -284,7 +284,7 @@
                 <xsl:message terminate="yes" select="concat('Non-matching service/@id: ', $primary, '/', $secondary, '/', @id)"/>
             </xsl:if>
             <xsl:variable name="id" select="replace(@id, $secondary/id-pattern, $secondary/md-pattern)"/>
-            <xsl:result-document href="{$specs-dir}/{$primary/@id}/{$secondary/@id}/{$id}.md" format="jekyll">
+            <xsl:result-document href="{$specs-dir}/{$primary/@id}/{$secondary/@id}/{$id}.md" format="markdown">
                 <xsl:text>---&#xa;</xsl:text>
                 <xsl:text>layout: page&#xa;</xsl:text>
                 <xsl:text>title:  "</xsl:text>
