@@ -1,0 +1,88 @@
+---
+layout: page
+title:  "Transparent Content Negotiation in HTTP"
+---
+
+<table cellpadding="5">
+   <tr>
+      <th valign="top" align="right">
+         <em>Document Name:</em>
+      </th>
+      <td>RFC 2295</td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Document URI:</em>
+      </th>
+      <td>
+         <code>urn:ietf:rfc:2295</code>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Online Version:</em>
+      </th>
+      <td>
+         <code>
+            <a href="http://tools.ietf.org/html/rfc2295">http://tools.ietf.org/html/rfc2295</a>
+         </code>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Organization:</em>
+      </th>
+      <td>
+         <a href=".." title="List of specification series by this organization">Internet Engineering Task Force (IETF)</a>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Series:</em>
+      </th>
+      <td>
+         <a href="." title="List of specifications in this series">Request for Comments (RFC)</a>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Abstract:</em>
+      </th>
+      <td>HTTP allows web site authors to put multiple versions of the same information under
+         a single URL. Transparent content negotiation is an extensible negotiation mechanism,
+         layered on top of HTTP, for automatically selecting the best version when the URL
+         is accessed. This enables the smooth deployment of new web data formats and markup
+         tags.
+      </td>
+   </tr>
+</table>
+<br></br>
+<hr></hr>
+<h2>Specified Web Concepts:</h2>
+<h3>HTTP Header Fields</h3>
+<code>
+   <a href="/concepts/http-header/Accept-Features" title="The Accept-Features request header can be used by a user agent to give information about the presence or absence of certain features in the feature set of the current request. Servers can use this information when running a remote variant selection algorithm.">Accept-Features</a>
+</code>, 
+<code>
+   <a href="/concepts/http-header/Alternates" title="The Alternates response header is used to convey the list of variants bound to a negotiable resource. This list can also include directives for any content negotiation process. If a response from a transparently negotiable resource includes an Alternates header, this header MUST contain the complete variant list bound to the negotiable resource. Responses from resources which do not support transparent content negotiation MAY also use Alternates headers.">Alternates</a>
+</code>, 
+<code>
+   <a href="/concepts/http-header/Negotiate" title="The Negotiate request header can contain directives for any content negotiation process initiated by the request.">Negotiate</a>
+</code>, 
+<code>
+   <a href="/concepts/http-header/TCN" title="The TCN response header is used by a server to signal that the resource is transparently negotiated.">TCN</a>
+</code>, 
+<code>
+   <a href="/concepts/http-header/Variant-Vary" title="The Variant-Vary response header can be used in a choice response to record any vary information which applies to the variant data (the entity body combined with some of the entity headers) contained in the response, rather than to the response as a whole.">Variant-Vary</a>
+</code>
+<h3>HTTP Status Codes</h3>
+<code>
+   <a href="/concepts/http-status-code/506" title="The 506 status code indicates that the server has an internal configuration error: the chosen variant resource is configured to engage in transparent content negotiation itself, and is therefore not a proper end point in the negotiation process.">506</a>
+</code>
+<br></br>
+<hr></hr>
+<p style="text-align: right">Return to ( 
+   <a href="./">Series</a> | 
+   <a href="../">Organization</a> | 
+   <a href="../../">all Specifications</a> )
+</p>

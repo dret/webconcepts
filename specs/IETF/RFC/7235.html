@@ -1,0 +1,86 @@
+---
+layout: page
+title:  "Hypertext Transfer Protocol (HTTP/1.1): Authentication"
+---
+
+<table cellpadding="5">
+   <tr>
+      <th valign="top" align="right">
+         <em>Document Name:</em>
+      </th>
+      <td>RFC 7235</td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Document URI:</em>
+      </th>
+      <td>
+         <code>urn:ietf:rfc:7235</code>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Online Version:</em>
+      </th>
+      <td>
+         <code>
+            <a href="http://tools.ietf.org/html/rfc7235">http://tools.ietf.org/html/rfc7235</a>
+         </code>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Organization:</em>
+      </th>
+      <td>
+         <a href=".." title="List of specification series by this organization">Internet Engineering Task Force (IETF)</a>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Series:</em>
+      </th>
+      <td>
+         <a href="." title="List of specifications in this series">Request for Comments (RFC)</a>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Abstract:</em>
+      </th>
+      <td>The Hypertext Transfer Protocol (HTTP) is an application-level protocol for distributed,
+         collaborative, hypermedia information systems. This document defines the HTTP Authentication
+         framework.
+      </td>
+   </tr>
+</table>
+<br></br>
+<hr></hr>
+<h2>Specified Web Concepts:</h2>
+<h3>HTTP Header Fields</h3>
+<code>
+   <a href="/concepts/http-header/Authorization" title="The &amp;#34;Authorization&amp;#34; header field allows a user agent to authenticate itself with an origin server - usually, but not necessarily, after receiving a 401 (Unauthorized) response. Its value consists of credentials containing the authentication information of the user agent for the realm of the resource being requested.">Authorization</a>
+</code>, 
+<code>
+   <a href="/concepts/http-header/Proxy-Authenticate" title="The &amp;#34;Proxy-Authenticate&amp;#34; header field consists of at least one challenge that indicates the authentication scheme(s) and parameters applicable to the proxy for this effective request URI. It MUST be included as part of a 407 (Proxy Authentication Required) response.">Proxy-Authenticate</a>
+</code>, 
+<code>
+   <a href="/concepts/http-header/Proxy-Authorization" title="The &amp;#34;Proxy-Authorization&amp;#34; header field allows the client to identify itself (or its user) to a proxy that requires authentication. Its value consists of credentials containing the authentication information of the client for the proxy and/or realm of the resource being requested.">Proxy-Authorization</a>
+</code>, 
+<code>
+   <a href="/concepts/http-header/WWW-Authenticate" title="The &amp;#34;WWW-Authenticate&amp;#34; header field consists of at least one challenge that indicates the authentication scheme(s) and parameters applicable to the effective request URI. It MUST be included in 401 (Unauthorized) response messages and MAY be included in other response messages to indicate that supplying credentials (or different credentials) might affect the response.">WWW-Authenticate</a>
+</code>
+<h3>HTTP Status Codes</h3>
+<code>
+   <a href="/concepts/http-status-code/401" title="The 401 (Unauthorized) status code indicates that the request has not been applied because it lacks valid authentication credentials for the target resource. The server generating a 401 response MUST send a WWW-Authenticate header field (Section 4.1) containing at least one challenge applicable to the target resource.">401</a>
+</code>, 
+<code>
+   <a href="/concepts/http-status-code/407" title="The 407 (Proxy Authentication Required) status code is similar to 401 (Unauthorized), but it indicates that the client needs to authenticate itself in order to use a proxy. The proxy MUST send a Proxy-Authenticate header field containing a challenge applicable to that proxy for the target resource. The client MAY repeat the request with a new or replaced Proxy-Authorization header field.">407</a>
+</code>
+<br></br>
+<hr></hr>
+<p style="text-align: right">Return to ( 
+   <a href="./">Series</a> | 
+   <a href="../">Organization</a> | 
+   <a href="../../">all Specifications</a> )
+</p>

@@ -1,0 +1,87 @@
+---
+layout: page
+title:  "Forwarded HTTP Extension"
+---
+
+<table cellpadding="5">
+   <tr>
+      <th valign="top" align="right">
+         <em>Document Name:</em>
+      </th>
+      <td>RFC 7239</td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Document URI:</em>
+      </th>
+      <td>
+         <code>urn:ietf:rfc:7239</code>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Online Version:</em>
+      </th>
+      <td>
+         <code>
+            <a href="http://tools.ietf.org/html/rfc7239">http://tools.ietf.org/html/rfc7239</a>
+         </code>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Organization:</em>
+      </th>
+      <td>
+         <a href=".." title="List of specification series by this organization">Internet Engineering Task Force (IETF)</a>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Series:</em>
+      </th>
+      <td>
+         <a href="." title="List of specifications in this series">Request for Comments (RFC)</a>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Abstract:</em>
+      </th>
+      <td>This document defines an HTTP extension header field that allows proxy components
+         to disclose information lost in the proxying process, for example, the originating
+         IP address of a request or IP address of the proxy on the user-agent-facing interface.
+         In a path of proxying components, this makes it possible to arrange it so that each
+         subsequent component will have access to, for example, all IP addresses used in the
+         chain of proxied HTTP requests. This document also specifies guidelines for a proxy
+         administrator to anonymize the origin of a request.
+      </td>
+   </tr>
+</table>
+<br></br>
+<hr></hr>
+<h2>Specified Web Concepts:</h2>
+<h3>HTTP Forwarded Parameters</h3>
+<code>
+   <a href="/concepts/http-forwarded-parameter/by" title="The &amp;#34;by&amp;#34; parameter is used to disclose the interface where the request came in to the proxy server.">by</a>
+</code>, 
+<code>
+   <a href="/concepts/http-forwarded-parameter/for" title="The &amp;#34;for&amp;#34; parameter is used to disclose information about the client that initiated the request and subsequent proxies in a chain of proxies.">for</a>
+</code>, 
+<code>
+   <a href="/concepts/http-forwarded-parameter/host" title="The &amp;#34;host&amp;#34; parameter is used to forward the original value of the &amp;#34;Host&amp;#34; header field.">host</a>
+</code>, 
+<code>
+   <a href="/concepts/http-forwarded-parameter/proto" title="The &amp;#34;proto&amp;#34; parameter has the value of the used protocol type.">proto</a>
+</code>
+<h3>HTTP Header Fields</h3>
+<code>
+   <a href="/concepts/http-header/Forwarded" title="The &amp;#34;Forwarded&amp;#34; HTTP header field is an OPTIONAL header field that, when used, contains a list of parameter-identifier pairs that disclose information that is altered or lost when a proxy is involved in the path of the request.">Forwarded</a>
+</code>
+<br></br>
+<hr></hr>
+<p style="text-align: right">Return to ( 
+   <a href="./">Series</a> | 
+   <a href="../">Organization</a> | 
+   <a href="../../">all Specifications</a> )
+</p>

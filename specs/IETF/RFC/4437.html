@@ -1,0 +1,87 @@
+---
+layout: page
+title:  "Web Distributed Authoring and Versioning (WebDAV): Redirect Reference Resources"
+---
+
+<table cellpadding="5">
+   <tr>
+      <th valign="top" align="right">
+         <em>Document Name:</em>
+      </th>
+      <td>RFC 4437</td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Document URI:</em>
+      </th>
+      <td>
+         <code>urn:ietf:rfc:4437</code>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Online Version:</em>
+      </th>
+      <td>
+         <code>
+            <a href="http://tools.ietf.org/html/rfc4437">http://tools.ietf.org/html/rfc4437</a>
+         </code>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Organization:</em>
+      </th>
+      <td>
+         <a href=".." title="List of specification series by this organization">Internet Engineering Task Force (IETF)</a>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Series:</em>
+      </th>
+      <td>
+         <a href="." title="List of specifications in this series">Request for Comments (RFC)</a>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Abstract:</em>
+      </th>
+      <td>This specification defines an extension to Web Distributed Authoring and Versioning
+         (WebDAV) to allow clients to author HTTP redirect reference resources whose default
+         response is an HTTP/1.1 3xx (Redirection) status code. A redirect reference makes
+         it possible to access the target resourced indirectly through any URI mapped to the
+         redirect reference resource. This specification does not address remapping of trees
+         of resources or regular expression based redirections. There are no integrity guarantees
+         associated with redirect reference resources. Other mechanisms can also be used to
+         achieve the same functionality as this specification. This specification allows operators
+         to experiment with this mechanism and develop experience on what is the best approach
+         to the problem.
+      </td>
+   </tr>
+</table>
+<br></br>
+<hr></hr>
+<h2>Specified Web Concepts:</h2>
+<h3>HTTP Header Fields</h3>
+<code>
+   <a href="/concepts/http-header/Apply-To-Redirect-Ref" title="The optional Apply-To-Redirect-Ref header can be used on any request to a redirect reference resource. When it is present and set to &amp;#34;T&amp;#34;, the request MUST be applied to the reference resource itself, and a 3xx response MUST NOT be returned.">Apply-To-Redirect-Ref</a>
+</code>, 
+<code>
+   <a href="/concepts/http-header/Redirect-Ref" title="The Redirect-Ref header is used in all 3xx responses from redirect reference resources. The value is the link target as specified during redirect reference resource creation.">Redirect-Ref</a>
+</code>
+<h3>HTTP Request Methods</h3>
+<code>
+   <a href="/concepts/http-method/MKREDIRECTREF" title="The MKREDIRECTREF method requests the creation of a redirect reference resource.">MKREDIRECTREF</a>
+</code>, 
+<code>
+   <a href="/concepts/http-method/UPDATEREDIRECTREF" title="The UPDATEREDIRECTREF method requests the update of a redirect reference resource.">UPDATEREDIRECTREF</a>
+</code>
+<br></br>
+<hr></hr>
+<p style="text-align: right">Return to ( 
+   <a href="./">Series</a> | 
+   <a href="../">Organization</a> | 
+   <a href="../../">all Specifications</a> )
+</p>

@@ -1,0 +1,98 @@
+---
+layout: page
+title:  "Cross-Origin Resource Sharing (CORS)"
+---
+
+<table cellpadding="5">
+   <tr>
+      <th valign="top" align="right">
+         <em>Document Name:</em>
+      </th>
+      <td>W3C TR http://www.w3.org/TR/cors</td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Document URI:</em>
+      </th>
+      <td>
+         <code>http://www.w3.org/TR/cors</code>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Online Version:</em>
+      </th>
+      <td>
+         <code>
+            <a href="http://www.w3.org/TR/cors">http://www.w3.org/TR/cors</a>
+         </code>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Organization:</em>
+      </th>
+      <td>
+         <a href=".." title="List of specification series by this organization">World Wide Web Consortium (W3C)</a>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Series:</em>
+      </th>
+      <td>
+         <a href="." title="List of specifications in this series">Technical Report (TR)</a>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Abstract:</em>
+      </th>
+      <td>This document defines a mechanism to enable client-side cross-origin requests. Specifications
+         that enable an API to make cross-origin requests to resources can use the algorithms
+         defined by this specification. If such an API is used on http://example.org resources,
+         a resource on http://hello-world.example can opt in using the mechanism described
+         by this specification (e.g., specifying Access-Control-Allow-Origin: http://example.org
+         as response header), which would allow that resource to be fetched cross-origin from
+         http://example.org.
+      </td>
+   </tr>
+</table>
+<br></br>
+<hr></hr>
+<h2>Specified Web Concepts:</h2>
+<h3>HTTP Header Fields</h3>
+<code>
+   <a href="/concepts/http-header/Access-Control-Allow-Credentials" title="The Access-Control-Allow-Credentials header indicates whether the response to request can be exposed when the omit credentials flag is unset. When part of the response to a preflight request it indicates that the actual request can include user credentials.">Access-Control-Allow-Credentials</a>
+</code>, 
+<code>
+   <a href="/concepts/http-header/Access-Control-Allow-Headers" title="The Access-Control-Allow-Headers header indicates, as part of the response to a preflight request, which header field names can be used during the actual request.">Access-Control-Allow-Headers</a>
+</code>, 
+<code>
+   <a href="/concepts/http-header/Access-Control-Allow-Methods" title="The Access-Control-Allow-Methods header indicates, as part of the response to a preflight request, which methods can be used during the actual request.">Access-Control-Allow-Methods</a>
+</code>, 
+<code>
+   <a href="/concepts/http-header/Access-Control-Allow-Origin" title="The Access-Control-Allow-Origin header indicates whether a resource can be shared based by returning the value of the Origin request header, &amp;#34;*&amp;#34;, or &amp;#34;null&amp;#34; in the response.">Access-Control-Allow-Origin</a>
+</code>, 
+<code>
+   <a href="/concepts/http-header/Access-Control-Expose-Headers" title="The Access-Control-Expose-Headers header indicates which headers are safe to expose to the API of a CORS API specification.">Access-Control-Expose-Headers</a>
+</code>, 
+<code>
+   <a href="/concepts/http-header/Access-Control-Max-Age" title="The Access-Control-Max-Age header indicates how long the results of a preflight request can be cached in a preflight result cache.">Access-Control-Max-Age</a>
+</code>, 
+<code>
+   <a href="/concepts/http-header/Access-Control-Request-Headers" title="The Access-Control-Request-Headers header indicates which headers will be used in the actual request as part of the preflight request.">Access-Control-Request-Headers</a>
+</code>, 
+<code>
+   <a href="/concepts/http-header/Access-Control-Request-Method" title="The Access-Control-Request-Method header indicates which method will be used in the actual request as part of the preflight request.">Access-Control-Request-Method</a>
+</code>, 
+<code>
+   <a href="/concepts/http-header/Origin" title="The Origin header indicates where the cross-origin request or preflight request originates from.">Origin</a>
+</code>
+<br></br>
+<hr></hr>
+<p style="text-align: right">Return to ( 
+   <a href="./">Series</a> | 
+   <a href="../">Organization</a> | 
+   <a href="../../">all Specifications</a> )
+</p>

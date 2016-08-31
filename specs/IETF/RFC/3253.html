@@ -1,0 +1,109 @@
+---
+layout: page
+title:  "Versioning Extensions to WebDAV (Web Distributed Authoring and Versioning)"
+---
+
+<table cellpadding="5">
+   <tr>
+      <th valign="top" align="right">
+         <em>Document Name:</em>
+      </th>
+      <td>RFC 3253</td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Document URI:</em>
+      </th>
+      <td>
+         <code>urn:ietf:rfc:3253</code>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Online Version:</em>
+      </th>
+      <td>
+         <code>
+            <a href="http://tools.ietf.org/html/rfc3253">http://tools.ietf.org/html/rfc3253</a>
+         </code>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Organization:</em>
+      </th>
+      <td>
+         <a href=".." title="List of specification series by this organization">Internet Engineering Task Force (IETF)</a>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Series:</em>
+      </th>
+      <td>
+         <a href="." title="List of specifications in this series">Request for Comments (RFC)</a>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Abstract:</em>
+      </th>
+      <td>This document specifies a set of methods, headers, and resource types that define
+         the WebDAV (Web Distributed Authoring and Versioning) versioning extensions to the
+         HTTP/1.1 protocol. WebDAV versioning will minimize the complexity of clients that
+         are capable of interoperating with a variety of versioning repository managers, to
+         facilitate widespread deployment of applications capable of utilizing the WebDAV Versioning
+         services. WebDAV versioning includes automatic versioning for versioning-unaware clients,
+         version history management, workspace management, baseline management, activity management,
+         and URL namespace versioning.
+      </td>
+   </tr>
+</table>
+<br></br>
+<hr></hr>
+<h2>Specified Web Concepts:</h2>
+<h3>HTTP Header Fields</h3>
+<code>
+   <a href="/concepts/http-header/Label" title="For certain methods (e.g. GET, PROPFIND), if the request-URL identifies a version-controlled resource, a label can be specified in a Label request header to cause the method to be applied to the version selected by that label from the version history of that version-controlled resource.">Label</a>
+</code>
+<h3>HTTP Request Methods</h3>
+<code>
+   <a href="/concepts/http-method/BASELINE-CONTROL" title="A collection can be placed under baseline control with a BASELINE-CONTROL request. When a collection is placed under baseline control, the DAV:version-controlled-configuration property of the collection is set to identify a new version-controlled configuration. This version-controlled configuration can be checked out and then checked in to create a new baseline for that collection.">BASELINE-CONTROL</a>
+</code>, 
+<code>
+   <a href="/concepts/http-method/CHECKIN" title="A CHECKIN request can be applied to a checked-out version-controlled resource to produce a new version whose content and dead properties are copied from the checked-out resource.">CHECKIN</a>
+</code>, 
+<code>
+   <a href="/concepts/http-method/CHECKOUT" title="A CHECKOUT request can be applied to a checked-in version-controlled resource to allow modifications to the content and dead properties of that version-controlled resource.">CHECKOUT</a>
+</code>, 
+<code>
+   <a href="/concepts/http-method/LABEL" title="A LABEL request can be applied to a version to modify the labels that select that version. The case of a label name MUST be preserved when it is stored and retrieved. When comparing two label names to decide if they match or not, a server SHOULD use a case-sensitive URL-escaped UTF-8 encoded comparison of the two label names.">LABEL</a>
+</code>, 
+<code>
+   <a href="/concepts/http-method/MERGE" title="The MERGE method performs the logical merge of a specified version (the &amp;#34;merge source&amp;#34;) into a specified version-controlled resource (the &amp;#34;merge target&amp;#34;). If the merge source is neither an ancestor nor a descendant of the DAV:checked-in or DAV:checked-out version of the merge target, the MERGE checks out the merge target (if it is not already checked out) and adds the URL of the merge source to the DAV:merge-set of the merge target.">MERGE</a>
+</code>, 
+<code>
+   <a href="/concepts/http-method/MKACTIVITY" title="A MKACTIVITY request creates a new activity resource. A server MAY restrict activity creation to particular collections, but a client can determine the location of these collections from a DAV:activity-collection-set OPTIONS request.">MKACTIVITY</a>
+</code>, 
+<code>
+   <a href="/concepts/http-method/MKWORKSPACE" title="A MKWORKSPACE request creates a new workspace resource. A server MAY restrict workspace creation to particular collections, but a client can determine the location of these collections from a DAV:workspace-collection-set OPTIONS request.">MKWORKSPACE</a>
+</code>, 
+<code>
+   <a href="/concepts/http-method/REPORT" title="A REPORT request is an extensible mechanism for obtaining information about a resource. Unlike a resource property, which has a single value, the value of a report can depend on additional information specified in the REPORT request body and in the REPORT request headers.">REPORT</a>
+</code>, 
+<code>
+   <a href="/concepts/http-method/UNCHECKOUT" title="An UNCHECKOUT request can be applied to a checked-out version-controlled resource to cancel the CHECKOUT and restore the pre-CHECKOUT state of the version-controlled resource.">UNCHECKOUT</a>
+</code>, 
+<code>
+   <a href="/concepts/http-method/UPDATE" title="The UPDATE method modifies the content and dead properties of a checked-in version-controlled resource (the &amp;#34;update target&amp;#34;) to be those of a specified version (the &amp;#34;update source&amp;#34;) from the version history of that version-controlled resource.">UPDATE</a>
+</code>, 
+<code>
+   <a href="/concepts/http-method/VERSION-CONTROL" title="A VERSION-CONTROL request can be used to create a version-controlled resource at the request-URL. It can be applied to a versionable resource or to a version-controlled resource.">VERSION-CONTROL</a>
+</code>
+<br></br>
+<hr></hr>
+<p style="text-align: right">Return to ( 
+   <a href="./">Series</a> | 
+   <a href="../">Organization</a> | 
+   <a href="../../">all Specifications</a> )
+</p>

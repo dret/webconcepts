@@ -1,0 +1,74 @@
+---
+layout: page
+title:  "The Key HTTP Response Header Field"
+---
+
+<table cellpadding="5">
+   <tr>
+      <th valign="top" align="right">
+         <em>Document Name:</em>
+      </th>
+      <td>Internet Draft ietf-httpbis-key</td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Document URI:</em>
+      </th>
+      <td>
+         <code>urn:ietf:id:ietf-httpbis-key</code>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Online Version:</em>
+      </th>
+      <td>
+         <code>
+            <a href="http://tools.ietf.org/html/draft-ietf-httpbis-key">http://tools.ietf.org/html/draft-ietf-httpbis-key</a>
+         </code>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Organization:</em>
+      </th>
+      <td>
+         <a href=".." title="List of specification series by this organization">Internet Engineering Task Force (IETF)</a>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Series:</em>
+      </th>
+      <td>
+         <a href="." title="List of specifications in this series">Internet Draft (I-D)</a>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Abstract:</em>
+      </th>
+      <td>The 'Key' header field for HTTP responses allows an origin server to describe the
+         cache key for a negotiated response: a short algorithm that can be used upon later
+         requests to determine if the same response is reusable. Key has the advantage of avoiding
+         an additional round trip for validation whenever a new request differs slightly, but
+         not significantly, from prior requests. Key also informs user agents of the request
+         characteristics that might result in different content, which can be useful if the
+         user agent is not sending Accept* fields in order to reduce the risk of fingerprinting.
+      </td>
+   </tr>
+</table>
+<br></br>
+<hr></hr>
+<h2>Specified Web Concepts:</h2>
+<h3>HTTP Header Fields</h3>
+<code>
+   <a href="/concepts/http-header/Key" title="The &amp;#34;Key&amp;#34; response header field describes the request attributes that the server has used to select the current representation. As such, its semantics are similar to the &amp;#34;Vary&amp;#34; response header field, but it allows more fine-grained description, using &amp;#34;key modifiers&amp;#34;.">Key</a>
+</code>
+<br></br>
+<hr></hr>
+<p style="text-align: right">Return to ( 
+   <a href="./">Series</a> | 
+   <a href="../">Organization</a> | 
+   <a href="../../">all Specifications</a> )
+</p>

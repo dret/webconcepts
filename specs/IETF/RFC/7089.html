@@ -1,0 +1,90 @@
+---
+layout: page
+title:  "HTTP framework for time-based access to resource states - Memento"
+---
+
+<table cellpadding="5">
+   <tr>
+      <th valign="top" align="right">
+         <em>Document Name:</em>
+      </th>
+      <td>RFC 7089</td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Document URI:</em>
+      </th>
+      <td>
+         <code>urn:ietf:rfc:7089</code>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Online Version:</em>
+      </th>
+      <td>
+         <code>
+            <a href="http://tools.ietf.org/html/rfc7089">http://tools.ietf.org/html/rfc7089</a>
+         </code>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Organization:</em>
+      </th>
+      <td>
+         <a href=".." title="List of specification series by this organization">Internet Engineering Task Force (IETF)</a>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Series:</em>
+      </th>
+      <td>
+         <a href="." title="List of specifications in this series">Request for Comments (RFC)</a>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Abstract:</em>
+      </th>
+      <td>The HTTP-based Memento framework bridges the present and past Web. It facilitates
+         obtaining representations of prior states of a given resource by introducing datetime
+         negotiation and TimeMaps. Datetime negotiation is a variation on content negotiation
+         that leverages the given resource's URI and a user agent's preferred datetime. TimeMaps
+         are lists that enumerate URIs of resources that encapsulate prior states of the given
+         resource. The framework also facilitates recognizing a resource that encapsulates
+         a frozen prior state of another resource.
+      </td>
+   </tr>
+</table>
+<br></br>
+<hr></hr>
+<h2>Specified Web Concepts:</h2>
+<h3>HTTP Header Fields</h3>
+<code>
+   <a href="/concepts/http-header/Accept-Datetime" title="The &amp;#34;Accept-Datetime&amp;#34; request header is transmitted by a user agent to indicate it wants to access a past state of an Original Resource. To that end, the &amp;#34;Accept-Datetime&amp;#34; header is conveyed in an HTTP request issued against a TimeGate for an Original Resource, and its value indicates the datetime of the desired past state of the Original Resource.">Accept-Datetime</a>
+</code>, 
+<code>
+   <a href="/concepts/http-header/Memento-Datetime" title="The &amp;#34;Memento-Datetime&amp;#34; response header is used by a server to indicate that a response reflects a prior state of an Original Resource. Its value expresses the datetime of that state.">Memento-Datetime</a>
+</code>
+<h3>Link Relations</h3>
+<code>
+   <a href="/concepts/link-relation/memento" title="A link with a &amp;#34;memento&amp;#34; Relation Type is used to point from a TimeGate or a Memento for an Original Resource, as well as from the Original Resource itself, to a Memento for the Original Resource.">memento</a>
+</code>, 
+<code>
+   <a href="/concepts/link-relation/original" title="A link with an &amp;#34;original&amp;#34; Relation Type is used to point from a TimeGate or a Memento to its associated Original Resource.">original</a>
+</code>, 
+<code>
+   <a href="/concepts/link-relation/timegate" title="A link with a &amp;#34;timegate&amp;#34; Relation Type is used to point from the Original Resource, as well as from a Memento associated with the Original Resource, to a TimeGate for the Original Resource.">timegate</a>
+</code>, 
+<code>
+   <a href="/concepts/link-relation/timemap" title="A link with a &amp;#34;timemap&amp;#34; Relation Type is used to point from a TimeGate or a Memento associated with an Original Resource, as well as from the Original Resource itself, to a TimeMap for the Original Resource.">timemap</a>
+</code>
+<br></br>
+<hr></hr>
+<p style="text-align: right">Return to ( 
+   <a href="./">Series</a> | 
+   <a href="../">Organization</a> | 
+   <a href="../../">all Specifications</a> )
+</p>

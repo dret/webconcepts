@@ -1,0 +1,77 @@
+---
+layout: page
+title:  "Scheduling Extensions to CalDAV"
+---
+
+<table cellpadding="5">
+   <tr>
+      <th valign="top" align="right">
+         <em>Document Name:</em>
+      </th>
+      <td>RFC 6638</td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Document URI:</em>
+      </th>
+      <td>
+         <code>urn:ietf:rfc:6638</code>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Online Version:</em>
+      </th>
+      <td>
+         <code>
+            <a href="http://tools.ietf.org/html/rfc6638">http://tools.ietf.org/html/rfc6638</a>
+         </code>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Organization:</em>
+      </th>
+      <td>
+         <a href=".." title="List of specification series by this organization">Internet Engineering Task Force (IETF)</a>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Series:</em>
+      </th>
+      <td>
+         <a href="." title="List of specifications in this series">Request for Comments (RFC)</a>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Abstract:</em>
+      </th>
+      <td>This document defines extensions to the Calendaring Extensions to WebDAV (CalDAV)
+         "calendar-access" feature to specify a standard way of performing scheduling operations
+         with iCalendar-based calendar components. This document defines the "calendar-auto-schedule"
+         feature of CalDAV.
+      </td>
+   </tr>
+</table>
+<br></br>
+<hr></hr>
+<h2>Specified Web Concepts:</h2>
+<h3>HTTP Header Fields</h3>
+<code>
+   <a href="/concepts/http-header/If-Schedule-Tag-Match" title="The If-Schedule-Tag-Match request header field is used with a method to make it conditional. Clients can set this header to the value returned in the Schedule-Tag response header, or the CALDAV:schedule-tag property, of a scheduling object resource previously retrieved from the server to avoid overwriting &amp;#34;consequential&amp;#34; changes to the scheduling object resource.">If-Schedule-Tag-Match</a>
+</code>, 
+<code>
+   <a href="/concepts/http-header/Schedule-Reply" title="The Schedule-Reply request header is used by a client to indicate to a server whether or not a scheduling operation ought to occur when an &amp;#34;Attendee&amp;#34; deletes a scheduling object resource. In particular, it controls whether a reply scheduling message is sent to the &amp;#34;Organizer&amp;#34; as a result of the removal. There are situations in which unsolicited scheduling messages need to be silently removed (or ignored) for security or privacy reasons. This request header allows the scheduling object resource to be removed if such a need arises.">Schedule-Reply</a>
+</code>, 
+<code>
+   <a href="/concepts/http-header/Schedule-Tag" title="The Schedule-Tag response header provides the current value of the CALDAV:schedule-tag property value.">Schedule-Tag</a>
+</code>
+<br></br>
+<hr></hr>
+<p style="text-align: right">Return to ( 
+   <a href="./">Series</a> | 
+   <a href="../">Organization</a> | 
+   <a href="../../">all Specifications</a> )
+</p>

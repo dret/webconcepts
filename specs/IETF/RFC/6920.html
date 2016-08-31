@@ -1,0 +1,82 @@
+---
+layout: page
+title:  "Naming Things with Hashes"
+---
+
+<table cellpadding="5">
+   <tr>
+      <th valign="top" align="right">
+         <em>Document Name:</em>
+      </th>
+      <td>RFC 6920</td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Document URI:</em>
+      </th>
+      <td>
+         <code>urn:ietf:rfc:6920</code>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Online Version:</em>
+      </th>
+      <td>
+         <code>
+            <a href="http://tools.ietf.org/html/rfc6920">http://tools.ietf.org/html/rfc6920</a>
+         </code>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Organization:</em>
+      </th>
+      <td>
+         <a href=".." title="List of specification series by this organization">Internet Engineering Task Force (IETF)</a>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Series:</em>
+      </th>
+      <td>
+         <a href="." title="List of specifications in this series">Request for Comments (RFC)</a>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Abstract:</em>
+      </th>
+      <td>This document defines a set of ways to identify a thing (a digital object in this
+         case) using the output from a hash function. It specifies a new URI scheme for this
+         purpose, a way to map these to HTTP URLs, and binary and human-speakable formats for
+         these names. The various formats are designed to support, but not require, a strong
+         link to the referenced object, such that the referenced object may be authenticated
+         to the same degree as the reference to it. The reason for this work is to standardise
+         current uses of hash outputs in URLs and to support new information-centric applications
+         and other uses of hash outputs in protocols.
+      </td>
+   </tr>
+</table>
+<br></br>
+<hr></hr>
+<h2>Specified Web Concepts:</h2>
+<h3>URI Schemes</h3>
+<code>
+   <a href="/concepts/uri-scheme/ni" title="A Named Identifier can be represented using the ni URI scheme that we specifically define for the name. However it is represented, the Named Identifier *names* a resource, and the mechanism used to dereference the name and to *locate* the named resource needs to be known by the entity that dereferences it.">ni</a>
+</code>, 
+<code>
+   <a href="/concepts/uri-scheme/nih" title="Fields in nih URIs are separated by a semicolon (;) character. The first field is a hash algorithm string, as in the ni URI format.">nih</a>
+</code>
+<h3>Well-Known URIs</h3>
+<code>
+   <a href="/concepts/well-known-uri/ni" title="We define a mapping between URIs following the ni URI scheme and HTTP or HTTPS URLs that makes use of the .well-known URI by defining an &amp;#34;ni&amp;#34; suffix.">ni</a>
+</code>
+<br></br>
+<hr></hr>
+<p style="text-align: right">Return to ( 
+   <a href="./">Series</a> | 
+   <a href="../">Organization</a> | 
+   <a href="../../">all Specifications</a> )
+</p>

@@ -1,0 +1,120 @@
+---
+layout: page
+title:  "Hypertext Transfer Protocol (HTTP/1.1): Caching"
+---
+
+<table cellpadding="5">
+   <tr>
+      <th valign="top" align="right">
+         <em>Document Name:</em>
+      </th>
+      <td>RFC 7234</td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Document URI:</em>
+      </th>
+      <td>
+         <code>urn:ietf:rfc:7234</code>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Online Version:</em>
+      </th>
+      <td>
+         <code>
+            <a href="http://tools.ietf.org/html/rfc7234">http://tools.ietf.org/html/rfc7234</a>
+         </code>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Organization:</em>
+      </th>
+      <td>
+         <a href=".." title="List of specification series by this organization">Internet Engineering Task Force (IETF)</a>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Series:</em>
+      </th>
+      <td>
+         <a href="." title="List of specifications in this series">Request for Comments (RFC)</a>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Abstract:</em>
+      </th>
+      <td>The Hypertext Transfer Protocol (HTTP) is an application-level protocol for distributed,
+         collaborative, hypertext information systems. This document defines requirements on
+         HTTP caches and the associated header fields that control cache behavior or indicate
+         cacheable response messages.
+      </td>
+   </tr>
+</table>
+<br></br>
+<hr></hr>
+<h2>Specified Web Concepts:</h2>
+<h3>HTTP Cache Directives</h3>
+<code>
+   <a href="/concepts/http-cache-directive/max-age" title="The &amp;#34;max-age&amp;#34; request directive indicates that the client is unwilling to accept a response whose age is greater than the specified number of seconds. Unless the max-stale request directive is also present, the client is not willing to accept a stale response. The &amp;#34;max-age&amp;#34; response directive indicates that the response is to be considered stale after its age is greater than the specified number of seconds.">max-age</a>
+</code>, 
+<code>
+   <a href="/concepts/http-cache-directive/max-stale" title="The &amp;#34;max-stale&amp;#34; request directive indicates that the client is willing to accept a response that has exceeded its freshness lifetime. If max-stale is assigned a value, then the client is willing to accept a response that has exceeded its freshness lifetime by no more than the specified number of seconds. If no value is assigned to max-stale, then the client is willing to accept a stale response of any age.">max-stale</a>
+</code>, 
+<code>
+   <a href="/concepts/http-cache-directive/min-fresh" title="The &amp;#34;min-fresh&amp;#34; request directive indicates that the client is willing to accept a response whose freshness lifetime is no less than its current age plus the specified time in seconds. That is, the client wants a response that will still be fresh for at least the specified number of seconds.">min-fresh</a>
+</code>, 
+<code>
+   <a href="/concepts/http-cache-directive/must-revalidate" title="The &amp;#34;must-revalidate&amp;#34; response directive indicates that once it has become stale, a cache MUST NOT use the response to satisfy subsequent requests without successful validation on the origin server.">must-revalidate</a>
+</code>, 
+<code>
+   <a href="/concepts/http-cache-directive/no-cache" title="The &amp;#34;no-cache&amp;#34; request directive indicates that a cache MUST NOT use a stored response to satisfy the request without successful validation on the origin server. The &amp;#34;no-cache&amp;#34; response directive indicates that the response MUST NOT be used to satisfy a subsequent request without successful validation on the origin server. This allows an origin server to prevent a cache from using it to satisfy a request without contacting it, even by caches that have been configured to send stale responses.">no-cache</a>
+</code>, 
+<code>
+   <a href="/concepts/http-cache-directive/no-store" title="The &amp;#34;no-store&amp;#34; directive indicates that a cache MUST NOT store any part of either this request or any response to it. This directive applies to both private and shared caches. &amp;#34;MUST NOT store&amp;#34; in this context means that the cache MUST NOT intentionally store the information in non-volatile storage, and MUST make a best-effort attempt to remove the information from volatile storage as promptly as possible after forwarding it.">no-store</a>
+</code>, 
+<code>
+   <a href="/concepts/http-cache-directive/no-transform" title="The &amp;#34;no-transform&amp;#34; directive indicates that an intermediary (whether or not it implements a cache) MUST NOT transform the payload.">no-transform</a>
+</code>, 
+<code>
+   <a href="/concepts/http-cache-directive/only-if-cached" title="The &amp;#34;only-if-cached&amp;#34; request directive indicates that the client only wishes to obtain a stored response. If it receives this directive, a cache SHOULD either respond using a stored response that is consistent with the other constraints of the request, or respond with a 504 (Gateway Timeout) status code. If a group of caches is being operated as a unified system with good internal connectivity, a member cache MAY forward such a request within that group of caches.">only-if-cached</a>
+</code>, 
+<code>
+   <a href="/concepts/http-cache-directive/private" title="The &amp;#34;private&amp;#34; response directive indicates that the response message is intended for a single user and MUST NOT be stored by a shared cache. A private cache MAY store the response and reuse it for later requests, even if the response would normally be non-cacheable.">private</a>
+</code>, 
+<code>
+   <a href="/concepts/http-cache-directive/proxy-revalidate" title="The &amp;#34;proxy-revalidate&amp;#34; response directive has the same meaning as the must-revalidate response directive, except that it does not apply to private caches.">proxy-revalidate</a>
+</code>, 
+<code>
+   <a href="/concepts/http-cache-directive/public" title="The &amp;#34;public&amp;#34; response directive indicates that any cache MAY store the response, even if the response would normally be non-cacheable or cacheable only within a private cache.">public</a>
+</code>, 
+<code>
+   <a href="/concepts/http-cache-directive/s-maxage" title="The &amp;#34;s-maxage&amp;#34; response directive indicates that, in shared caches, the maximum age specified by this directive overrides the maximum age specified by either the max-age directive or the Expires header field. The s-maxage directive also implies the semantics of the proxy-revalidate response directive.">s-maxage</a>
+</code>
+<h3>HTTP Header Fields</h3>
+<code>
+   <a href="/concepts/http-header/Age" title="The &amp;#34;Age&amp;#34; header field conveys the sender's estimate of the amount of time since the response was generated or successfully validated at the origin server.">Age</a>
+</code>, 
+<code>
+   <a href="/concepts/http-header/Cache-Control" title="The &amp;#34;Cache-Control&amp;#34; header field is used to specify directives for caches along the request/response chain. Such cache directives are unidirectional in that the presence of a directive in a request does not imply that the same directive is to be given in the response.">Cache-Control</a>
+</code>, 
+<code>
+   <a href="/concepts/http-header/Expires" title="The &amp;#34;Expires&amp;#34; header field gives the date/time after which the response is considered stale. The presence of an Expires field does not imply that the original resource will change or cease to exist at, before, or after that time.">Expires</a>
+</code>, 
+<code>
+   <a href="/concepts/http-header/Pragma" title="The &amp;#34;Pragma&amp;#34; header field allows backwards compatibility with HTTP/1.0 caches, so that clients can specify a &amp;#34;no-cache&amp;#34; request that they will understand (as Cache-Control was not defined until HTTP/1.1). When the Cache-Control header field is also present and understood in a request, Pragma is ignored.">Pragma</a>
+</code>, 
+<code>
+   <a href="/concepts/http-header/Warning" title="The &amp;#34;Warning&amp;#34; header field is used to carry additional information about the status or transformation of a message that might not be reflected in the status code. This information is typically used to warn about possible incorrectness introduced by caching operations or transformations applied to the payload of the message.">Warning</a>
+</code>
+<br></br>
+<hr></hr>
+<p style="text-align: right">Return to ( 
+   <a href="./">Series</a> | 
+   <a href="../">Organization</a> | 
+   <a href="../../">all Specifications</a> )
+</p>

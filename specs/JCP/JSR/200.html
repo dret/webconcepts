@@ -1,0 +1,67 @@
+---
+layout: page
+title:  "Pack200: A Packed Class Deployment Format For Java Applications"
+---
+
+<table cellpadding="5">
+   <tr>
+      <th valign="top" align="right">
+         <em>Document Name:</em>
+      </th>
+      <td>JSR 200</td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Online Version:</em>
+      </th>
+      <td>
+         <code>
+            <a href="http://www.jcp.org/en/jsr/detail?id=200">http://www.jcp.org/en/jsr/detail?id=200</a>
+         </code>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Organization:</em>
+      </th>
+      <td>
+         <a href=".." title="List of specification series by this organization">Java Community Process (JCP)</a>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Series:</em>
+      </th>
+      <td>
+         <a href="." title="List of specifications in this series">Java Specification Request (JSR)</a>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Abstract:</em>
+      </th>
+      <td>This document specifies an archive format called "Pack200". It is optimized for applications
+         written in the Javatm programming language. Such applications are usually delivered
+         as collections of classes, sometimes with associated resource files. This format allows
+         any number (from one to hundreds of thousands) of Java classes to be encoded by a
+         compressor, transmitted compactly in a single block of bytes, and decoded by a decompressor
+         into equivalent Java class files. Because it can also represent class resources and
+         other "side files", it can serve as an alternative to the JAR archive for some deployment
+         tasks, notably downloading Java applications.
+      </td>
+   </tr>
+</table>
+<br></br>
+<hr></hr>
+<h2>Specified Web Concepts:</h2>
+<h3>HTTP Content Codings</h3>
+<code>
+   <a href="/concepts/http-content-coding/pack200-gzip" title="The Pack200 format can decrease the size of a Java application by a factor of seven to nine, compared with an equivalent JAR containing uncompressed (&amp;#34;stored&amp;#34;) class files. By contrast, using the zip DEFLATE algorithm integral to JAR and ZIP archives gains a factor of two.">pack200-gzip</a>
+</code>
+<br></br>
+<hr></hr>
+<p style="text-align: right">Return to ( 
+   <a href="./">Series</a> | 
+   <a href="../">Organization</a> | 
+   <a href="../../">all Specifications</a> )
+</p>

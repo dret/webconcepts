@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- This XSLT transforms https://github.com/dret/webconcepts into a jekyll site. -->
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="3.0" xmlns:sedola="http://github.com/dret/sedola">
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="3.0" xmlns:sedola="http://github.com/dret/sedola" exclude-result-prefixes="sedola">
     <xsl:output name="markdown" method="text" encoding="UTF-8"/>
+    <xsl:output name="markup" method="xhtml" encoding="UTF-8" omit-xml-declaration="yes"/>
     <!-- -->
     <xsl:variable name="specs-dir" select="'specs'"/>
     <xsl:variable name="specs" select="document(concat($specs-dir, '/specs.xml'))"/>
@@ -284,74 +285,94 @@
                 <xsl:message terminate="yes" select="concat('Non-matching service/@id: ', $primary, '/', $secondary, '/', @id)"/>
             </xsl:if>
             <xsl:variable name="id" select="replace(@id, $secondary/id-pattern, $secondary/md-pattern)"/>
-            <xsl:result-document href="{$specs-dir}/{$primary/@id}/{$secondary/@id}/{$id}.md" format="markdown">
+            <xsl:result-document href="{$specs-dir}/{$primary/@id}/{$secondary/@id}/{$id}.html" format="markup">
                 <xsl:text>---&#xa;</xsl:text>
                 <xsl:text>layout: page&#xa;</xsl:text>
                 <xsl:text>title:  "</xsl:text>
                 <xsl:value-of select="replace(sedola:title, '&quot;', '\\&quot;')"/>
                 <xsl:text>"&#xa;</xsl:text>
                 <xsl:text>---&#xa;&#xa;</xsl:text>
-                <xsl:text>| *Document&#160;Name:* | </xsl:text>
-                <xsl:value-of select="replace($id, '^(..*)$', $secondary/name-pattern)"/>
-                <xsl:text>&#xa;</xsl:text>
-                <xsl:if test="exists($secondary/uri-pattern)">
-                    <xsl:text>| *Document&#160;URI:* | `</xsl:text>
-                    <xsl:value-of select="replace(@id, $secondary/id-pattern, $secondary/uri-pattern)"/>
-                    <xsl:text>`&#xa;</xsl:text>
-                </xsl:if>
-                <xsl:text>| *Online&#160;Version:* | [`</xsl:text>
-                <xsl:value-of select="replace(@id, $secondary/id-pattern, $secondary/url-pattern)"/>
-                <xsl:text>`](</xsl:text>
-                <xsl:value-of select="replace(@id, $secondary/id-pattern, $secondary/url-pattern)"/>
-                <xsl:text>)&#xa;</xsl:text>
-                <xsl:text>| *Organization:* | [</xsl:text>
-                <xsl:value-of select="$primary/name"/>
-                <xsl:if test="exists($primary/name/@short)">
-                    <xsl:text> (</xsl:text>
-                    <xsl:value-of select="$primary/name/@short"/>
-                    <xsl:text>)</xsl:text>
-                </xsl:if>
-                <xsl:text>](..  "List of specification series by this organization")&#xa;</xsl:text>
-                <xsl:text>| *Series:* | [</xsl:text>
-                <xsl:value-of select="$secondary/name"/>
-                <xsl:if test="exists($secondary/name/@short)">
-                    <xsl:text> (</xsl:text>
-                    <xsl:value-of select="$secondary/name/@short"/>
-                    <xsl:text>)</xsl:text>
-                </xsl:if>
-                <xsl:text>](.  "List of specifications in this series")&#xa;</xsl:text>
-                <xsl:text>| *Abstract:* | </xsl:text>
-                <xsl:value-of select="sedola:documentation/text()"/>
-                <xsl:text>&#xa;&#xa;</xsl:text>
-                <xsl:text>&lt;br/>&#xa;&lt;hr/>&#xa;&#xa;</xsl:text>
-                <xsl:text>## Specified Web Concepts:&#xa;&#xa;</xsl:text>
+                <table cellpadding="5">
+                    <tr>
+                        <th valign="top" align="right"><em>Document&#160;Name:</em></th>
+                        <td>
+                            <xsl:value-of select="replace($id, '^(..*)$', $secondary/name-pattern)"/>
+                        </td>
+                    </tr>
+                    <xsl:if test="exists($secondary/uri-pattern)">
+                        <tr>
+                            <th valign="top" align="right"><em>Document&#160;URI:</em></th>
+                            <td>
+                                <code><xsl:value-of select="replace(@id, $secondary/id-pattern, $secondary/uri-pattern)"/></code>
+                            </td>
+                        </tr>
+                    </xsl:if>
+                    <tr>
+                        <th valign="top" align="right"><em>Online&#160;Version:</em></th>
+                        <td>
+                            <code><a href="{replace(@id, $secondary/id-pattern, $secondary/url-pattern)}"><xsl:value-of select="replace(@id, $secondary/id-pattern, $secondary/url-pattern)"/></a></code>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th valign="top" align="right"><em>Organization:</em></th>
+                        <td>
+                            <a href=".." title="List of specification series by this organization">
+                                <xsl:value-of select="$primary/name"/>
+                                <xsl:if test="exists($primary/name/@short)">
+                                    <xsl:text> (</xsl:text>
+                                    <xsl:value-of select="$primary/name/@short"/>
+                                    <xsl:text>)</xsl:text>
+                                </xsl:if>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th valign="top" align="right"><em>Series:</em></th>
+                        <td>
+                            <a href="." title="List of specifications in this series">
+                                <xsl:value-of select="$secondary/name"/>
+                                <xsl:if test="exists($secondary/name/@short)">
+                                    <xsl:text> (</xsl:text>
+                                    <xsl:value-of select="$secondary/name/@short"/>
+                                    <xsl:text>)</xsl:text>
+                                </xsl:if>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th valign="top" align="right"><em>Abstract:</em></th>
+                        <td>
+                            <xsl:value-of select="sedola:documentation/text()"/>
+                        </td>
+                    </tr>
+                </table>
+                <br/>
+                <hr/>
+                <h2>Specified Web Concepts:</h2>
                 <xsl:for-each-group select="sedola:*[local-name() = $concepts/concepts/concept/@id]" group-by="local-name()">
                     <xsl:sort select="$concepts//concept[@id eq current()/local-name()]/title-plural"/>
-                    <xsl:text>### </xsl:text>
-                    <xsl:value-of select="$concepts//concept[@id eq current()/local-name()]/title-plural"/>
-                    <xsl:text>&#xa;&#xa;</xsl:text>
+                    <h3>
+                        <xsl:value-of select="$concepts//concept[@id eq current()/local-name()]/title-plural"/>
+                    </h3>
                     <xsl:for-each select="current-group()">
                         <xsl:sort select="@def"/>
-                        <xsl:text>[`</xsl:text>
-                        <xsl:value-of select="@def"/>
-                        <xsl:text>`](/</xsl:text>
-                        <xsl:value-of select="concat($concepts-dir, '/', $concepts//concept[@id eq current()/local-name()]/filename-singular, '/', @def)"/>
-                        <xsl:text> "</xsl:text>
-                        <xsl:value-of select="replace(sedola:documentation/text(), '&quot;', '&amp;#34;')"/>
-                        <xsl:text>")</xsl:text>
-                        <xsl:choose>
-                            <xsl:when test="position() ne last()">
-                                <xsl:text>, </xsl:text>
-                            </xsl:when>
-                            <xsl:otherwise>
-                                <xsl:text>&#xa;&#xa;</xsl:text>
-                            </xsl:otherwise>
-                        </xsl:choose>
+                        <code><a href="/{concat($concepts-dir, '/', $concepts//concept[@id eq current()/local-name()]/filename-singular, '/', @def)}" title="{replace(sedola:documentation/text(), '&quot;', '&amp;#34;')}"><xsl:value-of select="@def"/></a></code>
+                        <xsl:if test="position() ne last()">
+                            <xsl:text>, </xsl:text>
+                        </xsl:if>
                     </xsl:for-each>
                 </xsl:for-each-group>
-                <xsl:text>&#xa;&#xa;</xsl:text>
-                <xsl:text>&lt;br/>&#xa;&lt;hr/>&#xa;&#xa;</xsl:text>
-                <xsl:text>&lt;p style="text-align: right">Return to ( &lt;a href="./">Series&lt;/a> | &lt;a href="../">Organization&lt;/a> | &lt;a href="../../">all Specifications&lt;/a> )&lt;/p></xsl:text>
+                <br/>
+                <hr/>
+                <p style="text-align: right">
+                    <xsl:text>Return to ( </xsl:text>
+                    <a href="./">Series</a>
+                    <xsl:text> | </xsl:text>
+                    <a href="../">Organization</a>
+                    <xsl:text> | </xsl:text>
+                    <a href="../../">all Specifications</a>
+                    <xsl:text> )</xsl:text>
+                </p>
             </xsl:result-document>
         </xsl:for-each>
     </xsl:template>

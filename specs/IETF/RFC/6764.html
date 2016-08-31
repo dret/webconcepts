@@ -1,0 +1,75 @@
+---
+layout: page
+title:  "Locating Services for Calendaring Extensions to WebDAV (CalDAV) and vCard Extensions
+to WebDAV (CardDAV)"
+---
+
+<table cellpadding="5">
+   <tr>
+      <th valign="top" align="right">
+         <em>Document Name:</em>
+      </th>
+      <td>RFC 6764</td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Document URI:</em>
+      </th>
+      <td>
+         <code>urn:ietf:rfc:6764</code>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Online Version:</em>
+      </th>
+      <td>
+         <code>
+            <a href="http://tools.ietf.org/html/rfc6764">http://tools.ietf.org/html/rfc6764</a>
+         </code>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Organization:</em>
+      </th>
+      <td>
+         <a href=".." title="List of specification series by this organization">Internet Engineering Task Force (IETF)</a>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Series:</em>
+      </th>
+      <td>
+         <a href="." title="List of specifications in this series">Request for Comments (RFC)</a>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Abstract:</em>
+      </th>
+      <td>This specification describes how DNS SRV records, DNS TXT records, and well-known
+         URIs can be used together or separately to locate CalDAV (Calendaring Extensions to
+         Web Distributed Authoring and Versioning (WebDAV)) or CardDAV (vCard Extensions to
+         WebDAV) services.
+      </td>
+   </tr>
+</table>
+<br></br>
+<hr></hr>
+<h2>Specified Web Concepts:</h2>
+<h3>Well-Known URIs</h3>
+<code>
+   <a href="/concepts/well-known-uri/caldav" title="&amp;#34;caldav&amp;#34; and &amp;#34;carddav&amp;#34; &amp;#34;.well-known&amp;#34; URIs point to a resource that the client can use as the initial &amp;#34;context path&amp;#34; for the service they are trying to connect to. The server MUST redirect HTTP requests for that resource to the actual &amp;#34;context path&amp;#34; using one of the available mechanisms provided by HTTP (e.g., using a 301, 303, or 307 response). Clients MUST handle HTTP redirects on the &amp;#34;.well-known&amp;#34; URI. Servers MUST NOT locate the actual CalDAV or CardDAV service endpoint at the &amp;#34;.well-known&amp;#34; URI.">caldav</a>
+</code>, 
+<code>
+   <a href="/concepts/well-known-uri/carddav" title="&amp;#34;caldav&amp;#34; and &amp;#34;carddav&amp;#34; &amp;#34;.well-known&amp;#34; URIs point to a resource that the client can use as the initial &amp;#34;context path&amp;#34; for the service they are trying to connect to. The server MUST redirect HTTP requests for that resource to the actual &amp;#34;context path&amp;#34; using one of the available mechanisms provided by HTTP (e.g., using a 301, 303, or 307 response). Clients MUST handle HTTP redirects on the &amp;#34;.well-known&amp;#34; URI. Servers MUST NOT locate the actual CalDAV or CardDAV service endpoint at the &amp;#34;.well-known&amp;#34; URI.">carddav</a>
+</code>
+<br></br>
+<hr></hr>
+<p style="text-align: right">Return to ( 
+   <a href="./">Series</a> | 
+   <a href="../">Organization</a> | 
+   <a href="../../">all Specifications</a> )
+</p>

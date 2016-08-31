@@ -1,0 +1,78 @@
+---
+layout: page
+title:  "Public Key Pinning Extension for HTTP"
+---
+
+<table cellpadding="5">
+   <tr>
+      <th valign="top" align="right">
+         <em>Document Name:</em>
+      </th>
+      <td>RFC 7469</td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Document URI:</em>
+      </th>
+      <td>
+         <code>urn:ietf:rfc:7469</code>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Online Version:</em>
+      </th>
+      <td>
+         <code>
+            <a href="http://tools.ietf.org/html/rfc7469">http://tools.ietf.org/html/rfc7469</a>
+         </code>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Organization:</em>
+      </th>
+      <td>
+         <a href=".." title="List of specification series by this organization">Internet Engineering Task Force (IETF)</a>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Series:</em>
+      </th>
+      <td>
+         <a href="." title="List of specifications in this series">Request for Comments (RFC)</a>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Abstract:</em>
+      </th>
+      <td>This document defines a new HTTP header that allows web host operators to instruct
+         user agents to remember ("pin") the hosts' cryptographic identities over a period
+         of time. During that time, user agents (UAs) will require that the host presents a
+         certificate chain including at least one Subject Public Key Info structure whose fingerprint
+         matches one of the pinned fingerprints for that host. By effectively reducing the
+         number of trusted authorities who can authenticate the domain during the lifetime
+         of the pin, pinning may reduce the incidence of man-in-the-middle attacks due to compromised
+         Certification Authorities.
+      </td>
+   </tr>
+</table>
+<br></br>
+<hr></hr>
+<h2>Specified Web Concepts:</h2>
+<h3>HTTP Header Fields</h3>
+<code>
+   <a href="/concepts/http-header/Public-Key-Pins" title="Whenever a UA receives a Valid Pinning Header, it MUST set its Pinning Metadata to the exact Pins, Effective Expiration Date (computed from max-age), and (if any) report-uri given in the most recently received Valid Pinning Header.">Public-Key-Pins</a>
+</code>, 
+<code>
+   <a href="/concepts/http-header/Public-Key-Pins-Report-Only" title="Upon receipt of a Public-Key-Pins-Report-Only response header field, the UA should evaluate the policy expressed in the field, and SHOULD generate and send a report. However, failure to validate the Pins in the field MUST have no effect on the validity or non-validity of the policy expressed in the PKP field or in previously noted Pins for the Known Pinned Host.">Public-Key-Pins-Report-Only</a>
+</code>
+<br></br>
+<hr></hr>
+<p style="text-align: right">Return to ( 
+   <a href="./">Series</a> | 
+   <a href="../">Organization</a> | 
+   <a href="../../">all Specifications</a> )
+</p>

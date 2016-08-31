@@ -1,0 +1,267 @@
+---
+layout: page
+title:  "Hypertext Transfer Protocol (HTTP/1.1): Semantics and Content"
+---
+
+<table cellpadding="5">
+   <tr>
+      <th valign="top" align="right">
+         <em>Document Name:</em>
+      </th>
+      <td>RFC 7231</td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Document URI:</em>
+      </th>
+      <td>
+         <code>urn:ietf:rfc:7231</code>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Online Version:</em>
+      </th>
+      <td>
+         <code>
+            <a href="http://tools.ietf.org/html/rfc7231">http://tools.ietf.org/html/rfc7231</a>
+         </code>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Organization:</em>
+      </th>
+      <td>
+         <a href=".." title="List of specification series by this organization">Internet Engineering Task Force (IETF)</a>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Series:</em>
+      </th>
+      <td>
+         <a href="." title="List of specifications in this series">Request for Comments (RFC)</a>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Abstract:</em>
+      </th>
+      <td>The Hypertext Transfer Protocol (HTTP) is an application-level protocol for distributed,
+         collaborative, hypertext information systems. This document defines the semantics
+         of HTTP/1.1 messages as expressed by request methods, request header fields, response
+         status codes, and response header fields, along with the payload of messages (metadata
+         and body content) and mechanisms for content negotiation.
+      </td>
+   </tr>
+</table>
+<br></br>
+<hr></hr>
+<h2>Specified Web Concepts:</h2>
+<h3>HTTP Content Codings</h3>
+<code>
+   <a href="/concepts/http-content-coding/identity" title="An &amp;#34;identity&amp;#34; token is used as a synonym for &amp;#34;no encoding&amp;#34; in order to communicate when no encoding is preferred.">identity</a>
+</code>
+<h3>HTTP Header Fields</h3>
+<code>
+   <a href="/concepts/http-header/Accept" title="The &amp;#34;Accept&amp;#34; header field can be used by user agents to specify response media types that are acceptable. Accept header fields can be used to indicate that the request is specifically limited to a small set of desired types, as in the case of a request for an in-line image.">Accept</a>
+</code>, 
+<code>
+   <a href="/concepts/http-header/Accept-Charset" title="The &amp;#34;Accept-Charset&amp;#34; header field can be sent by a user agent to indicate what charsets are acceptable in textual response content. This field allows user agents capable of understanding more comprehensive or special-purpose charsets to signal that capability to an origin server that is capable of representing information in those charsets.">Accept-Charset</a>
+</code>, 
+<code>
+   <a href="/concepts/http-header/Accept-Encoding" title="The &amp;#34;Accept-Encoding&amp;#34; header field can be used by user agents to indicate what response content-codings are acceptable in the response. An &amp;#34;identity&amp;#34; token is used as a synonym for &amp;#34;no encoding&amp;#34; in order to communicate when no encoding is preferred.">Accept-Encoding</a>
+</code>, 
+<code>
+   <a href="/concepts/http-header/Accept-Language" title="The &amp;#34;Accept-Language&amp;#34; header field can be used by user agents to indicate the set of natural languages that are preferred in the response.">Accept-Language</a>
+</code>, 
+<code>
+   <a href="/concepts/http-header/Allow" title="The &amp;#34;Allow&amp;#34; header field lists the set of methods advertised as supported by the target resource. The purpose of this field is strictly to inform the recipient of valid request methods associated with the resource.">Allow</a>
+</code>, 
+<code>
+   <a href="/concepts/http-header/Content-Encoding" title="The &amp;#34;Content-Encoding&amp;#34; header field indicates what content codings have been applied to the representation, beyond those inherent in the media type, and thus what decoding mechanisms have to be applied in order to obtain data in the media type referenced by the Content-Type header field. Content-Encoding is primarily used to allow a representation's data to be compressed without losing the identity of its underlying media type.">Content-Encoding</a>
+</code>, 
+<code>
+   <a href="/concepts/http-header/Content-Language" title="The &amp;#34;Content-Language&amp;#34; header field describes the natural language(s) of the intended audience for the representation. Note that this might not be equivalent to all the languages used within the representation.">Content-Language</a>
+</code>, 
+<code>
+   <a href="/concepts/http-header/Content-Location" title="The &amp;#34;Content-Location&amp;#34; header field references a URI that can be used as an identifier for a specific resource corresponding to the representation in this message's payload. In other words, if one were to perform a GET request on this URI at the time of this message's generation, then a 200 (OK) response would contain the same representation that is enclosed as payload in this message.">Content-Location</a>
+</code>, 
+<code>
+   <a href="/concepts/http-header/Content-Type" title="The &amp;#34;Content-Type&amp;#34; header field indicates the media type of the associated representation: either the representation enclosed in the message payload or the selected representation, as determined by the message semantics. The indicated media type defines both the data format and how that data is intended to be processed by a recipient, within the scope of the received message semantics, after any content codings indicated by Content-Encoding are decoded.">Content-Type</a>
+</code>, 
+<code>
+   <a href="/concepts/http-header/Date" title="The &amp;#34;Date&amp;#34; header field represents the date and time at which the message was originated, having the same semantics as the Origination Date Field (orig-date) defined in Section 3.6.1 of RFC 5322.">Date</a>
+</code>, 
+<code>
+   <a href="/concepts/http-header/Expect" title="The &amp;#34;Expect&amp;#34; header field in a request indicates a certain set of behaviors (expectations) that need to be supported by the server in order to properly handle this request.">Expect</a>
+</code>, 
+<code>
+   <a href="/concepts/http-header/From" title="The &amp;#34;From&amp;#34; header field contains an Internet email address for a human user who controls the requesting user agent.">From</a>
+</code>, 
+<code>
+   <a href="/concepts/http-header/Location" title="The &amp;#34;Location&amp;#34; header field is used in some responses to refer to a specific resource in relation to the response. The type of relationship is defined by the combination of request method and status code semantics.">Location</a>
+</code>, 
+<code>
+   <a href="/concepts/http-header/MIME-Version" title="HTTP is not a MIME-compliant protocol. However, messages can include a single MIME-Version header field to indicate what version of the MIME protocol was used to construct the message. Use of the MIME-Version header field indicates that the message is in full conformance with the MIME protocol (as defined in RFC 2045). Senders are responsible for ensuring full conformance (where possible) when exporting HTTP messages to strict MIME environments.">MIME-Version</a>
+</code>, 
+<code>
+   <a href="/concepts/http-header/Max-Forwards" title="The &amp;#34;Max-Forwards&amp;#34; header field provides a mechanism with the TRACE and OPTIONS request methods to limit the number of times that the request is forwarded by proxies.">Max-Forwards</a>
+</code>, 
+<code>
+   <a href="/concepts/http-header/Referer" title="The &amp;#34;Referer&amp;#34; header field allows the user agent to specify a URI reference for the resource from which the target URI was obtained (i.e., the &amp;#34;referrer&amp;#34;, though the field name is misspelled).">Referer</a>
+</code>, 
+<code>
+   <a href="/concepts/http-header/Retry-After" title="Servers send the &amp;#34;Retry-After&amp;#34; header field to indicate how long the user agent ought to wait before making a follow-up request. When sent with a 503 (Service Unavailable) response, Retry-After indicates how long the service is expected to be unavailable to the client. When sent with any 3xx (Redirection) response, Retry-After indicates the minimum time that the user agent is asked to wait before issuing the redirected request.">Retry-After</a>
+</code>, 
+<code>
+   <a href="/concepts/http-header/Server" title="The &amp;#34;Server&amp;#34; header field contains information about the software used by the origin server to handle the request, which is often used by clients to help identify the scope of reported interoperability problems, to work around or tailor requests to avoid particular server limitations, and for analytics regarding server or operating system use.">Server</a>
+</code>, 
+<code>
+   <a href="/concepts/http-header/User-Agent" title="The &amp;#34;User-Agent&amp;#34; header field contains information about the user agent originating the request, which is often used by servers to help identify the scope of reported interoperability problems, to work around or tailor responses to avoid particular user agent limitations, and for analytics regarding browser or operating system use.">User-Agent</a>
+</code>, 
+<code>
+   <a href="/concepts/http-header/Vary" title="The &amp;#34;Vary&amp;#34; header field in a response describes what parts of a request message, aside from the method, Host header field, and request target, might influence the origin server's process for selecting and representing this response. The value consists of either a single asterisk (&amp;#34;*&amp;#34;) or a list of header field names (case-insensitive).">Vary</a>
+</code>
+<h3>HTTP Request Methods</h3>
+<code>
+   <a href="/concepts/http-method/CONNECT" title="The CONNECT method requests that the recipient establish a tunnel to the destination origin server identified by the request-target and, if successful, thereafter restrict its behavior to blind forwarding of packets, in both directions, until the tunnel is closed. Tunnels are commonly used to create an end-to-end virtual connection, through one or more proxies, which can then be secured using TLS (Transport Layer Security).">CONNECT</a>
+</code>, 
+<code>
+   <a href="/concepts/http-method/DELETE" title="The DELETE method requests that the origin server remove the association between the target resource and its current functionality. In effect, this method is similar to the rm command in UNIX: it expresses a deletion operation on the URI mapping of the origin server rather than an expectation that the previously associated information be deleted.">DELETE</a>
+</code>, 
+<code>
+   <a href="/concepts/http-method/GET" title="The GET method requests transfer of a current selected representation for the target resource. GET is the primary mechanism of information retrieval and the focus of almost all performance optimizations. Hence, when people speak of retrieving some identifiable information via HTTP, they are generally referring to making a GET request.">GET</a>
+</code>, 
+<code>
+   <a href="/concepts/http-method/HEAD" title="The HEAD method is identical to GET except that the server MUST NOT send a message body in the response (i.e., the response terminates at the end of the header section). The server SHOULD send the same header fields in response to a HEAD request as it would have sent if the request had been a GET, except that the payload header fields MAY be omitted. This method can be used for obtaining metadata about the selected representation without transferring the representation data and is often used for testing hypertext links for validity, accessibility, and recent modification.">HEAD</a>
+</code>, 
+<code>
+   <a href="/concepts/http-method/OPTIONS" title="The OPTIONS method requests information about the communication options available for the target resource, at either the origin server or an intervening intermediary. This method allows a client to determine the options and/or requirements associated with a resource, or the capabilities of a server, without implying a resource action.">OPTIONS</a>
+</code>, 
+<code>
+   <a href="/concepts/http-method/POST" title="The POST method requests that the target resource process the representation enclosed in the request according to the resource's own specific semantics.">POST</a>
+</code>, 
+<code>
+   <a href="/concepts/http-method/PUT" title="The PUT method requests that the state of the target resource be created or replaced with the state defined by the representation enclosed in the request message payload. A successful PUT of a given representation would suggest that a subsequent GET on that same target resource will result in an equivalent representation being sent in a 200 (OK) response. However, there is no guarantee that such a state change will be observable, since the target resource might be acted upon by other user agents in parallel, or might be subject to dynamic processing by the origin server, before any subsequent GET is received. A successful response only implies that the user agent's intent was achieved at the time of its processing by the origin server.">PUT</a>
+</code>, 
+<code>
+   <a href="/concepts/http-method/TRACE" title="The TRACE method requests a remote, application-level loop-back of the request message. The final recipient of the request SHOULD reflect the message received, excluding some fields described below, back to the client as the message body of a 200 (OK) response with a Content-Type of &amp;#34;message/http&amp;#34;. The final recipient is either the origin server or the first server to receive a Max-Forwards value of zero (0) in the request.">TRACE</a>
+</code>
+<h3>HTTP Status Codes</h3>
+<code>
+   <a href="/concepts/http-status-code/100" title="The 100 (Continue) status code indicates that the initial part of a request has been received and has not yet been rejected by the server. The server intends to send a final response after the request has been fully received and acted upon.">100</a>
+</code>, 
+<code>
+   <a href="/concepts/http-status-code/101" title="The 101 (Switching Protocols) status code indicates that the server understands and is willing to comply with the client's request, via the Upgrade header field, for a change in the application protocol being used on this connection. The server MUST generate an Upgrade header field in the response that indicates which protocol(s) will be switched to immediately after the empty line that terminates the 101 response.">101</a>
+</code>, 
+<code>
+   <a href="/concepts/http-status-code/200" title="The 200 (OK) status code indicates that the request has succeeded. The payload sent in a 200 response depends on the request method.">200</a>
+</code>, 
+<code>
+   <a href="/concepts/http-status-code/201" title="The 201 (Created) status code indicates that the request has been fulfilled and has resulted in one or more new resources being created. The primary resource created by the request is identified by either a Location header field in the response or, if no Location field is received, by the effective request URI.">201</a>
+</code>, 
+<code>
+   <a href="/concepts/http-status-code/202" title="The 202 (Accepted) status code indicates that the request has been accepted for processing, but the processing has not been completed. The request might or might not eventually be acted upon, as it might be disallowed when processing actually takes place. There is no facility in HTTP for re-sending a status code from an asynchronous operation.">202</a>
+</code>, 
+<code>
+   <a href="/concepts/http-status-code/203" title="The 203 (Non-Authoritative Information) status code indicates that the request was successful but the enclosed payload has been modified from that of the origin server's 200 (OK) response by a transforming proxy.">203</a>
+</code>, 
+<code>
+   <a href="/concepts/http-status-code/204" title="The 204 (No Content) status code indicates that the server has successfully fulfilled the request and that there is no additional content to send in the response payload body. Metadata in the response header fields refer to the target resource and its selected representation after the requested action was applied.">204</a>
+</code>, 
+<code>
+   <a href="/concepts/http-status-code/205" title="The 205 (Reset Content) status code indicates that the server has fulfilled the request and desires that the user agent reset the &amp;#34;document view&amp;#34;, which caused the request to be sent, to its original state as received from the origin server.">205</a>
+</code>, 
+<code>
+   <a href="/concepts/http-status-code/300" title="The 300 (Multiple Choices) status code indicates that the target resource has more than one representation, each with its own more specific identifier, and information about the alternatives is being provided so that the user (or user agent) can select a preferred representation by redirecting its request to one or more of those identifiers. In other words, the server desires that the user agent engage in reactive negotiation to select the most appropriate representation(s) for its needs.">300</a>
+</code>, 
+<code>
+   <a href="/concepts/http-status-code/301" title="The 301 (Moved Permanently) status code indicates that the target resource has been assigned a new permanent URI and any future references to this resource ought to use one of the enclosed URIs. Clients with link-editing capabilities ought to automatically re-link references to the effective request URI to one or more of the new references sent by the server, where possible.">301</a>
+</code>, 
+<code>
+   <a href="/concepts/http-status-code/302" title="The 302 (Found) status code indicates that the target resource resides temporarily under a different URI. Since the redirection might be altered on occasion, the client ought to continue to use the effective request URI for future requests.">302</a>
+</code>, 
+<code>
+   <a href="/concepts/http-status-code/303" title="The 303 (See Other) status code indicates that the server is redirecting the user agent to a different resource, as indicated by a URI in the Location header field, which is intended to provide an indirect response to the original request. A user agent can perform a retrieval request targeting that URI (a GET or HEAD request if using HTTP), which might also be redirected, and present the eventual result as an answer to the original request. Note that the new URI in the Location header field is not considered equivalent to the effective request URI.">303</a>
+</code>, 
+<code>
+   <a href="/concepts/http-status-code/305" title="The 305 (Use Proxy) status code was defined in a previous version of HTTP/1.1 and is now deprecated.">305</a>
+</code>, 
+<code>
+   <a href="/concepts/http-status-code/306" title="The 306 status code was defined in a previous version of HTTP/1.1, is no longer used, and the code is reserved.&#xA;        ">306</a>
+</code>, 
+<code>
+   <a href="/concepts/http-status-code/307" title="The 307 (Temporary Redirect) status code indicates that the target resource resides temporarily under a different URI and the user agent MUST NOT change the request method if it performs an automatic redirection to that URI. Since the redirection can change over time, the client ought to continue using the original effective request URI for future requests.">307</a>
+</code>, 
+<code>
+   <a href="/concepts/http-status-code/400" title="The 400 (Bad Request) status code indicates that the server cannot or will not process the request due to something that is perceived to be a client error (e.g., malformed request syntax, invalid request message framing, or deceptive request routing).">400</a>
+</code>, 
+<code>
+   <a href="/concepts/http-status-code/402" title="The 402 (Payment Required) status code is reserved for future use.">402</a>
+</code>, 
+<code>
+   <a href="/concepts/http-status-code/403" title="The 403 (Forbidden) status code indicates that the server understood the request but refuses to authorize it. A server that wishes to make public why the request has been forbidden can describe that reason in the response payload (if any).">403</a>
+</code>, 
+<code>
+   <a href="/concepts/http-status-code/404" title="The 404 (Not Found) status code indicates that the origin server did not find a current representation for the target resource or is not willing to disclose that one exists. A 404 status code does not indicate whether this lack of representation is temporary or permanent; the 410 (Gone) status code is preferred over 404 if the origin server knows, presumably through some configurable means, that the condition is likely to be permanent.">404</a>
+</code>, 
+<code>
+   <a href="/concepts/http-status-code/405" title="The 405 (Method Not Allowed) status code indicates that the method received in the request-line is known by the origin server but not supported by the target resource. The origin server MUST generate an Allow header field in a 405 response containing a list of the target resource's currently supported methods.">405</a>
+</code>, 
+<code>
+   <a href="/concepts/http-status-code/406" title="The 406 (Not Acceptable) status code indicates that the target resource does not have a current representation that would be acceptable to the user agent, according to the proactive negotiation header fields received in the request, and the server is unwilling to supply a default representation.">406</a>
+</code>, 
+<code>
+   <a href="/concepts/http-status-code/408" title="The 408 (Request Timeout) status code indicates that the server did not receive a complete request message within the time that it was prepared to wait. A server SHOULD send the &amp;#34;close&amp;#34; connection option in the response, since 408 implies that the server has decided to close the connection rather than continue waiting. If the client has an outstanding request in transit, the client MAY repeat that request on a new connection.">408</a>
+</code>, 
+<code>
+   <a href="/concepts/http-status-code/409" title="The 409 (Conflict) status code indicates that the request could not be completed due to a conflict with the current state of the target resource. This code is used in situations where the user might be able to resolve the conflict and resubmit the request. The server SHOULD generate a payload that includes enough information for a user to recognize the source of the conflict.">409</a>
+</code>, 
+<code>
+   <a href="/concepts/http-status-code/410" title="The 410 (Gone) status code indicates that access to the target resource is no longer available at the origin server and that this condition is likely to be permanent. If the origin server does not know, or has no facility to determine, whether or not the condition is permanent, the status code 404 (Not Found) ought to be used instead.">410</a>
+</code>, 
+<code>
+   <a href="/concepts/http-status-code/411" title="The 411 (Length Required) status code indicates that the server refuses to accept the request without a defined Content-Length. The client MAY repeat the request if it adds a valid Content-Length header field containing the length of the message body in the request message.">411</a>
+</code>, 
+<code>
+   <a href="/concepts/http-status-code/413" title="The 413 (Payload Too Large) status code indicates that the server is refusing to process a request because the request payload is larger than the server is willing or able to process. The server MAY close the connection to prevent the client from continuing the request.">413</a>
+</code>, 
+<code>
+   <a href="/concepts/http-status-code/414" title="The 414 (URI Too Long) status code indicates that the server is refusing to service the request because the request-target is longer than the server is willing to interpret.">414</a>
+</code>, 
+<code>
+   <a href="/concepts/http-status-code/415" title="The 415 (Unsupported Media Type) status code indicates that the origin server is refusing to service the request because the payload is in a format not supported by this method on the target resource. The format problem might be due to the request's indicated Content-Type or Content-Encoding, or as a result of inspecting the data directly.">415</a>
+</code>, 
+<code>
+   <a href="/concepts/http-status-code/417" title="The 417 (Expectation Failed) status code indicates that the expectation given in the request's Expect header field could not be met by at least one of the inbound servers.">417</a>
+</code>, 
+<code>
+   <a href="/concepts/http-status-code/426" title="The 426 (Upgrade Required) status code indicates that the server refuses to perform the request using the current protocol but might be willing to do so after the client upgrades to a different protocol. The server MUST send an Upgrade header field in a 426 response to indicate the required protocol(s).&#xA;        ">426</a>
+</code>, 
+<code>
+   <a href="/concepts/http-status-code/500" title="The 500 (Internal Server Error) status code indicates that the server encountered an unexpected condition that prevented it from fulfilling the request.">500</a>
+</code>, 
+<code>
+   <a href="/concepts/http-status-code/501" title="The 501 (Not Implemented) status code indicates that the server does not support the functionality required to fulfill the request. This is the appropriate response when the server does not recognize the request method and is not capable of supporting it for any resource.">501</a>
+</code>, 
+<code>
+   <a href="/concepts/http-status-code/502" title="The 502 (Bad Gateway) status code indicates that the server, while acting as a gateway or proxy, received an invalid response from an inbound server it accessed while attempting to fulfill the request.">502</a>
+</code>, 
+<code>
+   <a href="/concepts/http-status-code/503" title="The 503 (Service Unavailable) status code indicates that the server is currently unable to handle the request due to a temporary overload or scheduled maintenance, which will likely be alleviated after some delay. The server MAY send a Retry-After header field to suggest an appropriate amount of time for the client to wait before retrying the request.">503</a>
+</code>, 
+<code>
+   <a href="/concepts/http-status-code/504" title="The 504 (Gateway Timeout) status code indicates that the server, while acting as a gateway or proxy, did not receive a timely response from an upstream server it needed to access in order to complete the request.">504</a>
+</code>, 
+<code>
+   <a href="/concepts/http-status-code/505" title="The 505 (HTTP Version Not Supported) status code indicates that the server does not support, or refuses to support, the major version of HTTP that was used in the request message. The server is indicating that it is unable or unwilling to complete the request using the same major version as the client, other than with this error message. The server SHOULD generate a representation for the 505 response that describes why that version is not supported and what other protocols are supported by that server.">505</a>
+</code>
+<br></br>
+<hr></hr>
+<p style="text-align: right">Return to ( 
+   <a href="./">Series</a> | 
+   <a href="../">Organization</a> | 
+   <a href="../../">all Specifications</a> )
+</p>

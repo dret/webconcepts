@@ -1,0 +1,146 @@
+---
+layout: page
+title:  "Hypertext Transfer Protocol (HTTP/1.1): Message Syntax and Routing"
+---
+
+<table cellpadding="5">
+   <tr>
+      <th valign="top" align="right">
+         <em>Document Name:</em>
+      </th>
+      <td>RFC 7230</td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Document URI:</em>
+      </th>
+      <td>
+         <code>urn:ietf:rfc:7230</code>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Online Version:</em>
+      </th>
+      <td>
+         <code>
+            <a href="http://tools.ietf.org/html/rfc7230">http://tools.ietf.org/html/rfc7230</a>
+         </code>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Organization:</em>
+      </th>
+      <td>
+         <a href=".." title="List of specification series by this organization">Internet Engineering Task Force (IETF)</a>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Series:</em>
+      </th>
+      <td>
+         <a href="." title="List of specifications in this series">Request for Comments (RFC)</a>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Abstract:</em>
+      </th>
+      <td>The Hypertext Transfer Protocol (HTTP) is an application-level protocol for distributed,
+         collaborative, hypertext information systems. HTTP has been in use by the World Wide
+         Web global information initiative since 1990. This document provides an overview of
+         HTTP architecture and its associated terminology, defines the "http" and "https" Uniform
+         Resource Identifier (URI) schemes, defines the HTTP/1.1 message syntax and parsing
+         requirements, and describes general security concerns for implementations.
+      </td>
+   </tr>
+</table>
+<br></br>
+<hr></hr>
+<h2>Specified Web Concepts:</h2>
+<h3>HTTP Content Codings</h3>
+<code>
+   <a href="/concepts/http-content-coding/compress" title="The &amp;#34;compress&amp;#34; coding is an adaptive Lempel-Ziv-Welch (LZW) coding that is commonly produced by the UNIX file compression program &amp;#34;compress&amp;#34;. A recipient SHOULD consider &amp;#34;x-compress&amp;#34; to be equivalent to &amp;#34;compress&amp;#34;.">compress</a>
+</code>, 
+<code>
+   <a href="/concepts/http-content-coding/deflate" title="The &amp;#34;deflate&amp;#34; coding is a &amp;#34;zlib&amp;#34; data format containing a &amp;#34;deflate&amp;#34; compressed data stream that uses a combination of the Lempel-Ziv (LZ77) compression algorithm and Huffman coding.">deflate</a>
+</code>, 
+<code>
+   <a href="/concepts/http-content-coding/gzip" title="The &amp;#34;gzip&amp;#34; coding is an LZ77 coding with a 32-bit Cyclic Redundancy Check (CRC) that is commonly produced by the gzip file compression program. A recipient SHOULD consider &amp;#34;x-gzip&amp;#34; to be equivalent to &amp;#34;gzip&amp;#34;.">gzip</a>
+</code>, 
+<code>
+   <a href="/concepts/http-content-coding/x-compress" title="The &amp;#34;compress&amp;#34; coding is an adaptive Lempel-Ziv-Welch (LZW) coding that is commonly produced by the UNIX file compression program &amp;#34;compress&amp;#34;. A recipient SHOULD consider &amp;#34;x-compress&amp;#34; to be equivalent to &amp;#34;compress&amp;#34;.">x-compress</a>
+</code>, 
+<code>
+   <a href="/concepts/http-content-coding/x-gzip" title="The &amp;#34;gzip&amp;#34; coding is an LZ77 coding with a 32-bit Cyclic Redundancy Check (CRC) that is commonly produced by the gzip file compression program. A recipient SHOULD consider &amp;#34;x-gzip&amp;#34; to be equivalent to &amp;#34;gzip&amp;#34;.">x-gzip</a>
+</code>
+<h3>HTTP Header Fields</h3>
+<code>
+   <a href="/concepts/http-header/Close" title="The header field-name &amp;#34;Close&amp;#34; has been registered as &amp;#34;reserved&amp;#34;, since using that name as an HTTP header field might conflict with the &amp;#34;close&amp;#34; connection option of the Connection header field.">Close</a>
+</code>, 
+<code>
+   <a href="/concepts/http-header/Connection" title="The &amp;#34;Connection&amp;#34; header field allows the sender to indicate desired control options for the current connection. In order to avoid confusing downstream recipients, a proxy or gateway MUST remove or replace any received connection options before forwarding the message.">Connection</a>
+</code>, 
+<code>
+   <a href="/concepts/http-header/Content-Length" title="When a message does not have a Transfer-Encoding header field, a Content-Length header field can provide the anticipated size, as a decimal number of octets, for a potential payload body. For messages that do include a payload body, the Content-Length field-value provides the framing information necessary for determining where the body (and message) ends. For messages that do not include a payload body, the Content-Length indicates the size of the selected representation (Section 3 of [Part2]).">Content-Length</a>
+</code>, 
+<code>
+   <a href="/concepts/http-header/Host" title="The &amp;#34;Host&amp;#34; header field in a request provides the host and port information from the target URI, enabling the origin server to distinguish among resources while servicing requests for multiple host names on a single IP address.">Host</a>
+</code>, 
+<code>
+   <a href="/concepts/http-header/TE" title="The &amp;#34;TE&amp;#34; header field in a request indicates what transfer codings, besides chunked, the client is willing to accept in response, and whether or not the client is willing to accept trailer fields in a chunked transfer coding.">TE</a>
+</code>, 
+<code>
+   <a href="/concepts/http-header/Trailer" title="When a message includes a message body encoded with the chunked transfer coding and the sender desires to send metadata in the form of trailer fields at the end of the message, the sender SHOULD generate a Trailer header field before the message body to indicate which fields will be present in the trailers.">Trailer</a>
+</code>, 
+<code>
+   <a href="/concepts/http-header/Transfer-Encoding" title="The Transfer-Encoding header field lists the transfer coding names corresponding to the sequence of transfer codings that have been (or will be) applied to the payload body in order to form the message body.">Transfer-Encoding</a>
+</code>, 
+<code>
+   <a href="/concepts/http-header/Upgrade" title="The &amp;#34;Upgrade&amp;#34; header field is intended to provide a simple mechanism for transitioning from HTTP/1.1 to some other protocol on the same connection. A client MAY send a list of protocols in the Upgrade header field of a request to invite the server to switch to one or more of those protocols, in order of descending preference, before sending the final response.">Upgrade</a>
+</code>, 
+<code>
+   <a href="/concepts/http-header/Via" title="The &amp;#34;Via&amp;#34; header field indicates the presence of intermediate protocols and recipients between the user agent and the server (on requests) or between the origin server and the client (on responses), similar to the &amp;#34;Received&amp;#34; header field in email (Section 3.6.7 of RFC 5322). Via can be used for tracking message forwards, avoiding request loops, and identifying the protocol capabilities of senders along the request/response chain.">Via</a>
+</code>
+<h3>HTTP Transfer Codings</h3>
+<code>
+   <a href="/concepts/http-transfer-coding/chunked" title="The chunked transfer coding wraps the payload body in order to transfer it as a series of chunks, each with its own size indicator, followed by an OPTIONAL trailer containing header fields.  Chunked enables content streams of unknown size to be transferred as a sequence of length-delimited buffers, which enables the sender to retain connection persistence and the recipient to know when it has received the entire message.">chunked</a>
+</code>, 
+<code>
+   <a href="/concepts/http-transfer-coding/compress" title="The &amp;#34;compress&amp;#34; coding is an adaptive Lempel-Ziv-Welch (LZW) coding that is commonly produced by the UNIX file compression program &amp;#34;compress&amp;#34;. A recipient SHOULD consider &amp;#34;x-compress&amp;#34; to be equivalent to &amp;#34;compress&amp;#34;.">compress</a>
+</code>, 
+<code>
+   <a href="/concepts/http-transfer-coding/deflate" title="The &amp;#34;deflate&amp;#34; coding is a &amp;#34;zlib&amp;#34; data format containing a &amp;#34;deflate&amp;#34; compressed data stream that uses a combination of the Lempel-Ziv (LZ77) compression algorithm and Huffman coding.">deflate</a>
+</code>, 
+<code>
+   <a href="/concepts/http-transfer-coding/gzip" title="The &amp;#34;gzip&amp;#34; coding is an LZ77 coding with a 32-bit Cyclic Redundancy Check (CRC) that is commonly produced by the gzip file compression program. A recipient SHOULD consider &amp;#34;x-gzip&amp;#34; to be equivalent to &amp;#34;gzip&amp;#34;.">gzip</a>
+</code>, 
+<code>
+   <a href="/concepts/http-transfer-coding/x-compress" title="The &amp;#34;compress&amp;#34; coding is an adaptive Lempel-Ziv-Welch (LZW) coding that is commonly produced by the UNIX file compression program &amp;#34;compress&amp;#34;. A recipient SHOULD consider &amp;#34;x-compress&amp;#34; to be equivalent to &amp;#34;compress&amp;#34;.">x-compress</a>
+</code>, 
+<code>
+   <a href="/concepts/http-transfer-coding/x-gzip" title="The &amp;#34;gzip&amp;#34; coding is an LZ77 coding with a 32-bit Cyclic Redundancy Check (CRC) that is commonly produced by the gzip file compression program. A recipient SHOULD consider &amp;#34;x-gzip&amp;#34; to be equivalent to &amp;#34;gzip&amp;#34;.">x-gzip</a>
+</code>
+<h3>Media Types</h3>
+<code>
+   <a href="/concepts/media-type/application/http" title="The application/http type can be used to enclose a pipeline of one or more HTTP request or response messages (not intermixed).">application/http</a>
+</code>, 
+<code>
+   <a href="/concepts/media-type/message/http" title="The message/http type can be used to enclose a single HTTP request or response message, provided that it obeys the MIME restrictions for all &amp;#34;message&amp;#34; types regarding line length and encodings.">message/http</a>
+</code>
+<h3>URI Schemes</h3>
+<code>
+   <a href="/concepts/uri-scheme/http" title="The &amp;#34;http&amp;#34; URI scheme is hereby defined for the purpose of minting identifiers according to their association with the hierarchical namespace governed by a potential HTTP origin server listening for TCP connections on a given port.">http</a>
+</code>, 
+<code>
+   <a href="/concepts/uri-scheme/https" title="The &amp;#34;https&amp;#34; URI scheme is hereby defined for the purpose of minting identifiers according to their association with the hierarchical namespace governed by a potential HTTP origin server listening to a given TCP port for TLS-secured connections.">https</a>
+</code>
+<br></br>
+<hr></hr>
+<p style="text-align: right">Return to ( 
+   <a href="./">Series</a> | 
+   <a href="../">Organization</a> | 
+   <a href="../../">all Specifications</a> )
+</p>

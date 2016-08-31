@@ -1,0 +1,85 @@
+---
+layout: page
+title:  "REsource LOcation And Discovery (RELOAD) Base Protocol"
+---
+
+<table cellpadding="5">
+   <tr>
+      <th valign="top" align="right">
+         <em>Document Name:</em>
+      </th>
+      <td>RFC 6940</td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Document URI:</em>
+      </th>
+      <td>
+         <code>urn:ietf:rfc:6940</code>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Online Version:</em>
+      </th>
+      <td>
+         <code>
+            <a href="http://tools.ietf.org/html/rfc6940">http://tools.ietf.org/html/rfc6940</a>
+         </code>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Organization:</em>
+      </th>
+      <td>
+         <a href=".." title="List of specification series by this organization">Internet Engineering Task Force (IETF)</a>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Series:</em>
+      </th>
+      <td>
+         <a href="." title="List of specifications in this series">Request for Comments (RFC)</a>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Abstract:</em>
+      </th>
+      <td>This specification defines REsource LOcation And Discovery (RELOAD), a peer-to-peer
+         (P2P) signaling protocol for use on the Internet.  A P2P signaling protocol provides
+         its clients with an abstract storage and messaging service between a set of cooperating
+         peers that form the overlay network.  RELOAD is designed to support a P2P Session
+         Initiation Protocol (P2PSIP) network, but can be utilized by other applications with
+         similar requirements by defining new usages that specify the Kinds of data that need
+         to be stored for a particular application.  RELOAD defines a security model based
+         on a certificate enrollment service that provides unique identities.  NAT traversal
+         is a fundamental service of the protocol.  RELOAD also allows access from "client"
+         nodes that do not need to route traffic or store data for others.
+      </td>
+   </tr>
+</table>
+<br></br>
+<hr></hr>
+<h2>Specified Web Concepts:</h2>
+<h3>Media Types</h3>
+<code>
+   <a href="/concepts/media-type/application/p2p-overlay+xml" title="This specification defines a new content type &amp;#34;application/p2p-overlay+xml&amp;#34; for a MIME entity that contains overlay information.">application/p2p-overlay+xml</a>
+</code>
+<h3>URI Schemes</h3>
+<code>
+   <a href="/concepts/uri-scheme/reload" title="This section describes the scheme for a reload URI, which can be used to refer to either a peer (e.g., as used in a certificate), or a resource inside a peer.">reload</a>
+</code>
+<h3>Well-Known URIs</h3>
+<code>
+   <a href="/concepts/well-known-uri/reload-config" title="If a URL for the configuration server is not provided, the node MUST do a DNS SRV query using a Service name of &amp;#34;reload-config&amp;#34; and a protocol of TCP to find a configuration server and form the URL by appending a path of &amp;#34;/.well-known/reload-config&amp;#34; to the overlay name.">reload-config</a>
+</code>
+<br></br>
+<hr></hr>
+<p style="text-align: right">Return to ( 
+   <a href="./">Series</a> | 
+   <a href="../">Organization</a> | 
+   <a href="../../">all Specifications</a> )
+</p>

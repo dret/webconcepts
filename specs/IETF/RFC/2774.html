@@ -1,0 +1,96 @@
+---
+layout: page
+title:  "An HTTP Extension Framework"
+---
+
+<table cellpadding="5">
+   <tr>
+      <th valign="top" align="right">
+         <em>Document Name:</em>
+      </th>
+      <td>RFC 2774</td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Document URI:</em>
+      </th>
+      <td>
+         <code>urn:ietf:rfc:2774</code>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Online Version:</em>
+      </th>
+      <td>
+         <code>
+            <a href="http://tools.ietf.org/html/rfc2774">http://tools.ietf.org/html/rfc2774</a>
+         </code>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Organization:</em>
+      </th>
+      <td>
+         <a href=".." title="List of specification series by this organization">Internet Engineering Task Force (IETF)</a>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Series:</em>
+      </th>
+      <td>
+         <a href="." title="List of specifications in this series">Request for Comments (RFC)</a>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Abstract:</em>
+      </th>
+      <td>A wide range of applications have proposed various extensions of the HTTP protocol.
+         Current efforts span an enormous range, including distributed authoring, collaboration,
+         printing, and remote procedure call mechanisms. These HTTP extensions are not coordinated,
+         since there has been no standard framework for defining extensions and thus, separation
+         of concerns. This document describes a generic extension mechanism for HTTP, which
+         is designed to address the tension between private agreement and public specification
+         and to accommodate extension of applications using HTTP clients, servers, and proxies.
+         The proposal associates each extension with a globally unique identifier, and uses
+         HTTP header fields to carry the extension identifier and related information between
+         the parties involved in the extended communication.
+      </td>
+   </tr>
+</table>
+<br></br>
+<hr></hr>
+<h2>Specified Web Concepts:</h2>
+<h3>HTTP Header Fields</h3>
+<code>
+   <a href="/concepts/http-header/C-Ext" title="The C-Ext response header field is used to indicate that all hop-by-hop mandatory extension declarations in the request were fulfilled.">C-Ext</a>
+</code>, 
+<code>
+   <a href="/concepts/http-header/C-Man" title="A mandatory extension declaration indicates that the ultimate recipient MUST consult and adhere to the rules given by the extension when processing the message or reporting an error. Hop-by-hop extension declarations are meaningful only for a single HTTP connection. In HTTP/1.1, C-Man, C-Opt, and all header fields with matching header-prefix values defined by C-Man and C-Opt MUST be protected by a Connection header field. That is, these header fields are to be included as Connection header field directives.">C-Man</a>
+</code>, 
+<code>
+   <a href="/concepts/http-header/C-Opt" title="An optional extension declaration indicates that the ultimate recipient of the extension MAY consult and adhere to the rules given by the extension when processing the message, or ignore the extension declaration completely. An agent may not be able to distinguish whether the ultimate recipient does not understand an extension referred to by an optional extension or simply ignores the extension declaration. Hop-by-hop extension declarations are meaningful only for a single HTTP connection. In HTTP/1.1, C-Man, C-Opt, and all header fields with matching header-prefix values defined by C-Man and C-Opt MUST be protected by a Connection header field. That is, these header fields are to be included as Connection header field directives.">C-Opt</a>
+</code>, 
+<code>
+   <a href="/concepts/http-header/Ext" title="The Ext header field is used to indicate that all end-to-end mandatory extension declarations in the request were fulfilled.">Ext</a>
+</code>, 
+<code>
+   <a href="/concepts/http-header/Man" title="A mandatory extension declaration indicates that the ultimate recipient MUST consult and adhere to the rules given by the extension when processing the message or reporting an error.">Man</a>
+</code>, 
+<code>
+   <a href="/concepts/http-header/Opt" title="An optional extension declaration indicates that the ultimate recipient of the extension MAY consult and adhere to the rules given by the extension when processing the message, or ignore the extension declaration completely. An agent may not be able to distinguish whether the ultimate recipient does not understand an extension referred to by an optional extension or simply ignores the extension declaration.">Opt</a>
+</code>
+<h3>HTTP Status Codes</h3>
+<code>
+   <a href="/concepts/http-status-code/510" title="The policy for accessing the resource has not been met in the request. The server should send back all the information necessary for the client to issue an extended request. It is outside the scope of this specification to specify how the extensions inform the client.">510</a>
+</code>
+<br></br>
+<hr></hr>
+<p style="text-align: right">Return to ( 
+   <a href="./">Series</a> | 
+   <a href="../">Organization</a> | 
+   <a href="../../">all Specifications</a> )
+</p>
