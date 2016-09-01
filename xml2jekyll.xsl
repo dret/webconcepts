@@ -361,8 +361,8 @@
                             <xsl:text>, </xsl:text>
                         </xsl:if>
                     </xsl:for-each>
+                    <br/>
                 </xsl:for-each-group>
-                <br/>
                 <hr/>
                 <p style="text-align: right">
                     <xsl:text>Return to ( </xsl:text>
