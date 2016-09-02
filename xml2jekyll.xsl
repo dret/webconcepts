@@ -4,14 +4,7 @@
     <xsl:output name="markdown" method="text" encoding="UTF-8"/>
     <xsl:output name="markup" method="xhtml" encoding="UTF-8" omit-xml-declaration="yes"/>
     <!-- -->
-    <xsl:variable name="specs-dir" select="'specs'"/>
-    <xsl:variable name="specs" select="document(concat($specs-dir, '/specs.xml'))"/>
-    <xsl:variable name="allspecs" select="collection(concat($specs-dir, '/src/?select=*.xml'))"/>
-    <!-- -->
-    <xsl:variable name="concepts-dir" select="'concepts'"/>
-    <xsl:variable name="concepts" select="document(concat($concepts-dir, '/concepts.xml'))"/>
-    <!-- -->
-    <xsl:template match="/">
+    <xsl:template name="xml2jekyll">
         <xsl:result-document href="{$specs-dir}/index.md" format="markdown">
             <xsl:text>---&#xa;</xsl:text>
             <xsl:text>layout: page&#xa;</xsl:text>
