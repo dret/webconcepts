@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- This XSLT transforms https://github.com/dret/webconcepts into a jekyll site. -->
+<!-- This XSLT transforms https://github.com/dret/webconcepts into a Jekyll site. -->
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="3.0" xmlns:sedola="http://github.com/dret/sedola" exclude-result-prefixes="sedola">
     <xsl:output name="markdown" method="text" encoding="UTF-8"/>
     <xsl:output name="markup" method="xhtml" encoding="UTF-8" omit-xml-declaration="yes"/>

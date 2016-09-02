@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- This XSLT transforms https://github.com/dret/webconcepts into a jekyll site. -->
+<!-- This XSLT is the starting point to transform https://github.com/dret/webconcepts -->
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="3.0">
     <!-- -->
     <xsl:variable name="specs-dir" select="'specs'"/>
