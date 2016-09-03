@@ -4,5 +4,18 @@
     <xsl:output name="json" method="text" encoding="UTF-8"/>
     <!-- -->
     <xsl:template name="xml2json">
+        <xsl:result-document href="{$concepts-dir}/concepts.json" format="json">
+            <xsl:text>{&#xa;</xsl:text>
+            <xsl:for-each select="$concepts/concepts/concept">
+                <xsl:sort select="title-singular"/>
+                <xsl:value-of select="concat('&quot;', title-singular, '&quot;: {&#xa;')"/>
+                <xsl:text>  }</xsl:text>
+                <xsl:if test="position() ne last()">
+                    <xsl:text>,</xsl:text>
+                </xsl:if>
+                <xsl:text>&#xa;</xsl:text>
+            </xsl:for-each>
+            <xsl:text>}</xsl:text>
+        </xsl:result-document>
     </xsl:template>
 </xsl:stylesheet>
