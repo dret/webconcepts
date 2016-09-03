@@ -150,8 +150,7 @@
         <documentation source="http://tools.ietf.org/html/rfc7231#section-6.5.14">The 417 (Expectation Failed) status code indicates that the expectation given in the request's Expect header field could not be met by at least one of the inbound servers.</documentation>
     </http-status>
     <http-status def="426" desc="Upgrade Required">
-        <documentation source="http://tools.ietf.org/html/rfc7231#section-6.5.15">The 426 (Upgrade Required) status code indicates that the server refuses to perform the request using the current protocol but might be willing to do so after the client upgrades to a different protocol. The server MUST send an Upgrade header field in a 426 response to indicate the required protocol(s).
-        </documentation>
+        <documentation source="http://tools.ietf.org/html/rfc7231#section-6.5.15">The 426 (Upgrade Required) status code indicates that the server refuses to perform the request using the current protocol but might be willing to do so after the client upgrades to a different protocol. The server MUST send an Upgrade header field in a 426 response to indicate the required protocol(s).</documentation>
     </http-status>
     <http-status def="500" desc="Internal Server Error">
         <documentation source="http://tools.ietf.org/html/rfc7231#section-6.6.1">The 500 (Internal Server Error) status code indicates that the server encountered an unexpected condition that prevented it from fulfilling the request.</documentation>
