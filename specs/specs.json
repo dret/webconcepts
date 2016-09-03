@@ -3,6 +3,8 @@
   "name": "Internet Engineering Task Force",
   "short": "IETF",
     "I-D": {
+    "name": "Internet Draft",
+    "short": "I-D",
       "amundsen-richardson-foster-alps": {
         "title": "Application-Level Profile Semantics (ALPS)"
       },
@@ -80,6 +82,8 @@
       }
     },
     "RFC": {
+    "name": "Request for Comments",
+    "short": "RFC",
       "1738": {
         "title": "Uniform Resource Locators (URL)"
       },
@@ -404,6 +408,8 @@
   "name": "International Organization for Standardization",
   "short": "ISO",
     "IEC": {
+    "name": "International Electrotechnical Commission",
+    "short": "IEC",
       "14496-22": {
         "title": "Information technology — Coding of audio-visual objects — Part 22: Open Font Format"
       },
@@ -416,6 +422,8 @@
   "name": "Java Community Process",
   "short": "JCP",
     "JSR": {
+    "name": "Java Specification Request",
+    "short": "JSR",
       "200": {
         "title": "Pack200: A Packed Class Deployment Format For Java Applications"
       }
@@ -425,6 +433,8 @@
   "name": "World Wide Web Consortium",
   "short": "W3C",
     "TR": {
+    "name": "Technical Report",
+    "short": "TR",
       "COWL": {
         "title": "Confinement with Origin Web Labels"
       },
