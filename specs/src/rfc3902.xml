@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<service primary="IETF" secondary="RFC" id="3902" xmlns="http://github.com/dret/sedola">
+    <title>The "application/soap+xml" Media Type</title>
+    <documentation source="http://tools.ietf.org/html/rfc3902">This document defines the "application/soap+xml" media type which can be used to describe SOAP 1.2 messages serialized as XML 1.0.</documentation>
+    <media-type def="application/soap+xml">
+        <documentation source="http://tools.ietf.org/html/rfc3902#section-1">This specification defines the media type "application/soap+xml" which can be used to identify SOAP 1.2 message envelopes that have been serialized with XML 1.0.</documentation>
+    </media-type>
+</service>
