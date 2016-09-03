@@ -60,8 +60,21 @@
                 <xsl:sort select="@primary"/>
                 <xsl:sort select="@secondary"/>
                 <xsl:sort select="@id"/>
-                <xsl:variable name="concept" select="."/>
+                <xsl:if test="count($specs/specs/primary[@id eq current()/@primary]) ne 1">
+                    <xsl:message terminate="yes" select="concat('Non-matching service/@primary: ', current()/@primary)"/>
+                </xsl:if>
+                <xsl:if test="count($specs/specs/primary[@id eq current()/@primary]/secondary[@id eq current()/@secondary]) ne 1">
+                    <xsl:message terminate="yes" select="concat('Non-matching service/@secondary: ', current()/@primary, '/', current()/@secondary)"/>
+                </xsl:if>
+                <xsl:variable name="primary" select="$specs/specs/primary[@id eq current()/@primary]"/>
+                <xsl:variable name="secondary" select="$primary/secondary[@id eq current()/@secondary]"/>
+                <xsl:if test="not(matches(@id, $secondary/id-pattern))">
+                    <xsl:message terminate="yes" select="concat('Non-matching service/@id: ', $primary, '/', $secondary, '/', @id)"/>
+                </xsl:if>
+                <xsl:variable name="id" select="replace(@id, $secondary/id-pattern, $secondary/md-pattern)"/>
                 <xsl:value-of select="concat('  &quot;', @primary, '/', @secondary, '/', @id, '&quot;: {&#xa;')"/>
+                <xsl:text>    "title": </xsl:text>
+                <xsl:value-of select="concat('&quot;', replace(sedola:title, '&quot;', '\\&quot;'), '&quot;&#xa;')"/>
                 <xsl:text>  }</xsl:text>
                 <xsl:if test="position() ne last()">
                     <xsl:text>,</xsl:text>
