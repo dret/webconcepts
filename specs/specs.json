@@ -1,8 +1,10 @@
 {
   "IETF": {
+  "URI": "http://webconcepts.info/specs/IETF/",
   "name": "Internet Engineering Task Force",
   "short": "IETF",
     "I-D": {
+    "URI": "http://webconcepts.info/specs/IETF/I-D/",
     "name": "Internet Draft",
     "short": "I-D",
       "amundsen-richardson-foster-alps": {
@@ -82,6 +84,7 @@
       }
     },
     "RFC": {
+    "URI": "http://webconcepts.info/specs/IETF/RFC/",
     "name": "Request for Comments",
     "short": "RFC",
       "1738": {
@@ -405,9 +408,11 @@
     }
   },
   "ISO": {
+  "URI": "http://webconcepts.info/specs/ISO/",
   "name": "International Organization for Standardization",
   "short": "ISO",
     "IEC": {
+    "URI": "http://webconcepts.info/specs/ISO/IEC/",
     "name": "International Electrotechnical Commission",
     "short": "IEC",
       "14496-22": {
@@ -419,9 +424,11 @@
     }
   },
   "JCP": {
+  "URI": "http://webconcepts.info/specs/JCP/",
   "name": "Java Community Process",
   "short": "JCP",
     "JSR": {
+    "URI": "http://webconcepts.info/specs/JCP/JSR/",
     "name": "Java Specification Request",
     "short": "JSR",
       "200": {
@@ -430,9 +437,11 @@
     }
   },
   "W3C": {
+  "URI": "http://webconcepts.info/specs/W3C/",
   "name": "World Wide Web Consortium",
   "short": "W3C",
     "TR": {
+    "URI": "http://webconcepts.info/specs/W3C/TR/",
     "name": "Technical Report",
     "short": "TR",
       "COWL": {

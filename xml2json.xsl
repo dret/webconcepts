@@ -11,7 +11,7 @@
                 <xsl:variable name="concept" select="."/>
                 <xsl:value-of select="concat('  &quot;', @id, '&quot;: {&#xa;')"/>
                 <xsl:text>    "URI": </xsl:text>
-                <xsl:value-of select="concat('&quot;http://webconcepts.info/concepts/', filename-plural, '&quot;,&#xa;')"/>
+                <xsl:value-of select="concat('&quot;http://webconcepts.info/', $concepts-dir, '/', filename-plural, '&quot;,&#xa;')"/>
                 <xsl:text>    "name-singular": </xsl:text>
                 <xsl:value-of select="concat('&quot;', title-singular, '&quot;,&#xa;')"/>
                 <xsl:text>    "name-plural": </xsl:text>
@@ -23,7 +23,7 @@
                     <xsl:variable name="concept-name" select="."/>
                     <xsl:value-of select="concat('&quot;', $concept-name, '&quot;: {&#xa;')"/>
                     <xsl:text>      "URI": </xsl:text>
-                    <xsl:value-of select="concat('&quot;http://webconcepts.info/concepts/', $concept/filename-singular, '/', $concept-name, '&quot;,&#xa;')"/>
+                    <xsl:value-of select="concat('&quot;http://webconcepts.info/', $concepts-dir, '/', $concept/filename-singular, '/', $concept-name, '&quot;,&#xa;')"/>
                     <xsl:text>      "details": [</xsl:text>
                     <xsl:for-each select="$allspecs/sedola:service/sedola:*[local-name() eq $concept/@id][@def eq $concept-name]">
                         <xsl:sort select="replace(replace(current()/../@id, $specs/specs/primary[@id eq current()/../@primary]/secondary[@id eq current()/../@secondary]/id-pattern, $specs/specs/primary[@id eq current()/../@primary]/secondary[@id eq current()/../@secondary]/md-pattern), '^(..*)$', $specs/specs/primary[@id eq current()/../@primary]/secondary[@id eq current()/../@secondary]/name-pattern)"/>
@@ -60,6 +60,8 @@
                 <xsl:sort select="@primary"/>
                 <xsl:variable name="primary" select="$specs/specs/primary[@id eq current()/@primary]"/>
                 <xsl:value-of select="concat('  &quot;', @primary, '&quot;: {&#xa;')"/>
+                <xsl:text>  "URI": </xsl:text>
+                <xsl:value-of select="concat('&quot;http://webconcepts.info/', $specs-dir, '/', $primary/@id, '/&quot;,&#xa;')"/>
                 <xsl:text>  "name": </xsl:text>
                 <xsl:value-of select="concat('&quot;', $primary/name, '&quot;,&#xa;')"/>
                 <xsl:if test="exists($primary/name/@short)">
@@ -70,6 +72,8 @@
                     <xsl:sort select="@secondary"/>
                     <xsl:variable name="secondary" select="$primary/secondary[@id eq current()/@secondary]"/>
                     <xsl:value-of select="concat('    &quot;', @secondary, '&quot;: {&#xa;')"/>
+                    <xsl:text>    "URI": </xsl:text>
+                    <xsl:value-of select="concat('&quot;http://webconcepts.info/', $specs-dir, '/', $primary/@id, '/', $secondary/@id, '/&quot;,&#xa;')"/>
                     <xsl:text>    "name": </xsl:text>
                     <xsl:value-of select="concat('&quot;', $secondary/name, '&quot;,&#xa;')"/>
                     <xsl:if test="exists($secondary/name/@short)">
