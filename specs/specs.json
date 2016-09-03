@@ -1,5 +1,7 @@
 {
   "IETF": {
+  "name": "Internet Engineering Task Force",
+  "short": "IETF",
     "I-D": {
       "amundsen-richardson-foster-alps": {
         "title": "Application-Level Profile Semantics (ALPS)"
@@ -399,6 +401,8 @@
     }
   },
   "ISO": {
+  "name": "International Organization for Standardization",
+  "short": "ISO",
     "IEC": {
       "14496-22": {
         "title": "Information technology — Coding of audio-visual objects — Part 22: Open Font Format"
@@ -409,6 +413,8 @@
     }
   },
   "JCP": {
+  "name": "Java Community Process",
+  "short": "JCP",
     "JSR": {
       "200": {
         "title": "Pack200: A Packed Class Deployment Format For Java Applications"
@@ -416,6 +422,8 @@
     }
   },
   "W3C": {
+  "name": "World Wide Web Consortium",
+  "short": "W3C",
     "TR": {
       "COWL": {
         "title": "Confinement with Origin Web Labels"

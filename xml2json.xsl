@@ -58,7 +58,14 @@
             <xsl:text>{&#xa;</xsl:text>
             <xsl:for-each-group select="$allspecs/sedola:service" group-by="@primary">
                 <xsl:sort select="@primary"/>
+                <xsl:variable name="primary" select="$specs/specs/primary[@id eq current()/@primary]"/>
                 <xsl:value-of select="concat('  &quot;', @primary, '&quot;: {&#xa;')"/>
+                <xsl:text>  "name": </xsl:text>
+                <xsl:value-of select="concat('&quot;', $primary/name, '&quot;,&#xa;')"/>
+                <xsl:if test="exists($primary/name/@short)">
+                    <xsl:text>  "short": </xsl:text>
+                    <xsl:value-of select="concat('&quot;', $primary/name/@short, '&quot;,&#xa;')"/>
+                </xsl:if>
                 <xsl:for-each-group select="current-group()" group-by="@secondary">
                     <xsl:sort select="@secondary"/>
                     <xsl:value-of select="concat('    &quot;', @secondary, '&quot;: {&#xa;')"/>
@@ -70,7 +77,6 @@
                         <xsl:if test="count($specs/specs/primary[@id eq current()/@primary]/secondary[@id eq current()/@secondary]) ne 1">
                             <xsl:message terminate="yes" select="concat('Non-matching service/@secondary: ', current()/@primary, '/', current()/@secondary)"/>
                         </xsl:if>
-                        <xsl:variable name="primary" select="$specs/specs/primary[@id eq current()/@primary]"/>
                         <xsl:variable name="secondary" select="$primary/secondary[@id eq current()/@secondary]"/>
                         <xsl:if test="not(matches(@id, $secondary/id-pattern))">
                             <xsl:message terminate="yes" select="concat('Non-matching service/@id: ', $primary, '/', $secondary, '/', @id)"/>
