@@ -10,7 +10,7 @@
                 <xsl:sort select="@id"/>
                 <xsl:variable name="concept" select="."/>
                 <xsl:value-of select="concat('  &quot;', @id, '&quot;: {&#xa;')"/>
-                <xsl:text>    "URI": </xsl:text>
+                <xsl:text>    "id": </xsl:text>
                 <xsl:value-of select="concat('&quot;http://webconcepts.info/', $concepts-dir, '/', filename-plural, '&quot;,&#xa;')"/>
                 <xsl:text>    "name-singular": </xsl:text>
                 <xsl:value-of select="concat('&quot;', title-singular, '&quot;,&#xa;')"/>
@@ -22,7 +22,7 @@
                     <xsl:text> {&#xa;      </xsl:text>
                     <xsl:variable name="concept-name" select="."/>
                     <xsl:value-of select="concat('&quot;', $concept-name, '&quot;: {&#xa;')"/>
-                    <xsl:text>        "URI": </xsl:text>
+                    <xsl:text>        "id": </xsl:text>
                     <xsl:value-of select="concat('&quot;http://webconcepts.info/', $concepts-dir, '/', $concept/filename-singular, '/', $concept-name, '&quot;,&#xa;')"/>
                     <xsl:text>        "details": [</xsl:text>
                     <xsl:for-each select="$allspecs/sedola:service/sedola:*[local-name() eq $concept/@id][@def eq $concept-name]">
@@ -59,7 +59,7 @@
                 <xsl:sort select="@primary"/>
                 <xsl:variable name="primary" select="$specs/specs/primary[@id eq current()/@primary]"/>
                 <xsl:value-of select="concat('  &quot;', @primary, '&quot;: {&#xa;')"/>
-                <xsl:text>    "URI": </xsl:text>
+                <xsl:text>    "id": </xsl:text>
                 <xsl:value-of select="concat('&quot;http://webconcepts.info/', $specs-dir, '/', $primary/@id, '/&quot;,&#xa;')"/>
                 <xsl:text>    "name": </xsl:text>
                 <xsl:value-of select="concat('&quot;', $primary/name, '&quot;,&#xa;')"/>
@@ -72,7 +72,7 @@
                     <xsl:sort select="@secondary"/>
                     <xsl:variable name="secondary" select="$primary/secondary[@id eq current()/@secondary]"/>
                     <xsl:value-of select="concat(' {&#xa;      &quot;', @secondary, '&quot;: {&#xa;')"/>
-                    <xsl:text>        "URI": </xsl:text>
+                    <xsl:text>        "id": </xsl:text>
                     <xsl:value-of select="concat('&quot;http://webconcepts.info/', $specs-dir, '/', $primary/@id, '/', $secondary/@id, '/&quot;,&#xa;')"/>
                     <xsl:text>        "name": </xsl:text>
                     <xsl:value-of select="concat('&quot;', $secondary/name, '&quot;,&#xa;')"/>
@@ -94,14 +94,14 @@
                         </xsl:if>
                         <xsl:variable name="id" select="replace(@id, $secondary/id-pattern, $secondary/md-pattern)"/>
                         <xsl:value-of select="concat(' {&#xa;          &quot;', @id, '&quot;: {&#xa;')"/>
-                        <xsl:text>            "URI": </xsl:text>
+                        <xsl:text>            "id": </xsl:text>
                         <xsl:value-of select="concat('&quot;http://webconcepts.info/', $specs-dir, '/', $primary/@id, '/', $secondary/@id, '/', $id, '&quot;,&#xa;')"/>
                         <xsl:text>            "title": </xsl:text>
                         <xsl:value-of select="concat('&quot;', replace(sedola:title, '&quot;', '\\&quot;'), '&quot;,&#xa;')"/>
                         <xsl:text>            "name": </xsl:text>
                         <xsl:value-of select="concat('&quot;', replace(replace($id, '^(..*)$', $secondary/name-pattern), '&quot;', '\\&quot;'), '&quot;,&#xa;')"/>
                         <xsl:if test="exists($secondary/uri-pattern)">
-                            <xsl:text>            "spec-URI": </xsl:text>
+                            <xsl:text>            "URI": </xsl:text>
                             <xsl:value-of select="concat('&quot;', replace(@id, $secondary/id-pattern, $secondary/uri-pattern), '&quot;,&#xa;')"/>
                         </xsl:if>
                         <xsl:text>            "URL": </xsl:text>
