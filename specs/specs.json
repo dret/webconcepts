@@ -13,127 +13,152 @@
             "URI": "http://webconcepts.info/specs/IETF/I-D/amundsen-richardson-foster-alps",
             "title": "Application-Level Profile Semantics (ALPS)",
             "name": "Internet Draft amundsen-richardson-foster-alps",
-            "spec-URI": "urn:ietf:id:amundsen-richardson-foster-alps" } }, {
+            "spec-URI": "urn:ietf:id:amundsen-richardson-foster-alps",
+            "URL": "http://tools.ietf.org/html/draft-amundsen-richardson-foster-alps" } }, {
           "cavage-http-signatures": {
             "URI": "http://webconcepts.info/specs/IETF/I-D/cavage-http-signatures",
             "title": "Signing HTTP Messages",
             "name": "Internet Draft cavage-http-signatures",
-            "spec-URI": "urn:ietf:id:cavage-http-signatures" } }, {
+            "spec-URI": "urn:ietf:id:cavage-http-signatures",
+            "URL": "http://tools.ietf.org/html/draft-cavage-http-signatures" } }, {
           "combs-http-indeterminate-range": {
             "URI": "http://webconcepts.info/specs/IETF/I-D/combs-http-indeterminate-range",
             "title": "HTTP/1.1: Range Responses of Indeterminate Length",
             "name": "Internet Draft combs-http-indeterminate-range",
-            "spec-URI": "urn:ietf:id:combs-http-indeterminate-range" } }, {
+            "spec-URI": "urn:ietf:id:combs-http-indeterminate-range",
+            "URL": "http://tools.ietf.org/html/draft-combs-http-indeterminate-range" } }, {
           "divilly-atom-hierarchy": {
             "URI": "http://webconcepts.info/specs/IETF/I-D/divilly-atom-hierarchy",
             "title": "Hierarchy Relations for Atom",
             "name": "Internet Draft divilly-atom-hierarchy",
-            "spec-URI": "urn:ietf:id:divilly-atom-hierarchy" } }, {
+            "spec-URI": "urn:ietf:id:divilly-atom-hierarchy",
+            "URL": "http://tools.ietf.org/html/draft-divilly-atom-hierarchy" } }, {
           "drechsler-httpbis-improved-caching": {
             "URI": "http://webconcepts.info/specs/IETF/I-D/drechsler-httpbis-improved-caching",
             "title": "Hypertext Transfer Protocol: Improved HTTP Caching",
             "name": "Internet Draft drechsler-httpbis-improved-caching",
-            "spec-URI": "urn:ietf:id:drechsler-httpbis-improved-caching" } }, {
+            "spec-URI": "urn:ietf:id:drechsler-httpbis-improved-caching",
+            "URL": "http://tools.ietf.org/html/draft-drechsler-httpbis-improved-caching" } }, {
           "grigorik-http-client-hints": {
             "URI": "http://webconcepts.info/specs/IETF/I-D/grigorik-http-client-hints",
             "title": "HTTP Client Hints",
             "name": "Internet Draft grigorik-http-client-hints",
-            "spec-URI": "urn:ietf:id:grigorik-http-client-hints" } }, {
+            "spec-URI": "urn:ietf:id:grigorik-http-client-hints",
+            "URL": "http://tools.ietf.org/html/draft-grigorik-http-client-hints" } }, {
           "hoffman-xml2rfc": {
             "URI": "http://webconcepts.info/specs/IETF/I-D/hoffman-xml2rfc",
             "title": "The 'XML2RFC' version 3 Vocabulary",
             "name": "Internet Draft hoffman-xml2rfc",
-            "spec-URI": "urn:ietf:id:hoffman-xml2rfc" } }, {
+            "spec-URI": "urn:ietf:id:hoffman-xml2rfc",
+            "URL": "http://tools.ietf.org/html/draft-hoffman-xml2rfc" } }, {
           "ietf-httpbis-client-hints": {
             "URI": "http://webconcepts.info/specs/IETF/I-D/ietf-httpbis-client-hints",
             "title": "HTTP Client Hints",
             "name": "Internet Draft ietf-httpbis-client-hints",
-            "spec-URI": "urn:ietf:id:ietf-httpbis-client-hints" } }, {
+            "spec-URI": "urn:ietf:id:ietf-httpbis-client-hints",
+            "URL": "http://tools.ietf.org/html/draft-ietf-httpbis-client-hints" } }, {
           "ietf-httpbis-encryption-encoding": {
             "URI": "http://webconcepts.info/specs/IETF/I-D/ietf-httpbis-encryption-encoding",
             "title": "Encrypted Content-Encoding for HTTP",
             "name": "Internet Draft ietf-httpbis-encryption-encoding",
-            "spec-URI": "urn:ietf:id:ietf-httpbis-encryption-encoding" } }, {
+            "spec-URI": "urn:ietf:id:ietf-httpbis-encryption-encoding",
+            "URL": "http://tools.ietf.org/html/draft-ietf-httpbis-encryption-encoding" } }, {
           "ietf-httpbis-key": {
             "URI": "http://webconcepts.info/specs/IETF/I-D/ietf-httpbis-key",
             "title": "The Key HTTP Response Header Field",
             "name": "Internet Draft ietf-httpbis-key",
-            "spec-URI": "urn:ietf:id:ietf-httpbis-key" } }, {
+            "spec-URI": "urn:ietf:id:ietf-httpbis-key",
+            "URL": "http://tools.ietf.org/html/draft-ietf-httpbis-key" } }, {
           "ietf-httpbis-tunnel-protocol": {
             "URI": "http://webconcepts.info/specs/IETF/I-D/ietf-httpbis-tunnel-protocol",
             "title": "The Tunnel-Protocol HTTP Header Field",
             "name": "Internet Draft ietf-httpbis-tunnel-protocol",
-            "spec-URI": "urn:ietf:id:ietf-httpbis-tunnel-protocol" } }, {
+            "spec-URI": "urn:ietf:id:ietf-httpbis-tunnel-protocol",
+            "URL": "http://tools.ietf.org/html/draft-ietf-httpbis-tunnel-protocol" } }, {
           "mogul-http-dupsup": {
             "URI": "http://webconcepts.info/specs/IETF/I-D/mogul-http-dupsup",
             "title": "Duplicate Suppression in HTTP",
             "name": "Internet Draft mogul-http-dupsup",
-            "spec-URI": "urn:ietf:id:mogul-http-dupsup" } }, {
+            "spec-URI": "urn:ietf:id:mogul-http-dupsup",
+            "URL": "http://tools.ietf.org/html/draft-mogul-http-dupsup" } }, {
           "nottingham-http-poe": {
             "URI": "http://webconcepts.info/specs/IETF/I-D/nottingham-http-poe",
             "title": "POST Once Exactly (POE)",
             "name": "Internet Draft nottingham-http-poe",
-            "spec-URI": "urn:ietf:id:nottingham-http-poe" } }, {
+            "spec-URI": "urn:ietf:id:nottingham-http-poe",
+            "URL": "http://tools.ietf.org/html/draft-nottingham-http-poe" } }, {
           "nottingham-json-home": {
             "URI": "http://webconcepts.info/specs/IETF/I-D/nottingham-json-home",
             "title": "Home Documents for HTTP APIs",
             "name": "Internet Draft nottingham-json-home",
-            "spec-URI": "urn:ietf:id:nottingham-json-home" } }, {
+            "spec-URI": "urn:ietf:id:nottingham-json-home",
+            "URL": "http://tools.ietf.org/html/draft-nottingham-json-home" } }, {
           "nottingham-link-template": {
             "URI": "http://webconcepts.info/specs/IETF/I-D/nottingham-link-template",
             "title": "The Link-Template HTTP Header Field",
             "name": "Internet Draft nottingham-link-template",
-            "spec-URI": "urn:ietf:id:nottingham-link-template" } }, {
+            "spec-URI": "urn:ietf:id:nottingham-link-template",
+            "URL": "http://tools.ietf.org/html/draft-nottingham-link-template" } }, {
           "pratt-httpbis-bytes-live-range-unit": {
             "URI": "http://webconcepts.info/specs/IETF/I-D/pratt-httpbis-bytes-live-range-unit",
             "title": "HTTP bytes-live Range Unit for Live Content",
             "name": "Internet Draft pratt-httpbis-bytes-live-range-unit",
-            "spec-URI": "urn:ietf:id:pratt-httpbis-bytes-live-range-unit" } }, {
+            "spec-URI": "urn:ietf:id:pratt-httpbis-bytes-live-range-unit",
+            "URL": "http://tools.ietf.org/html/draft-pratt-httpbis-bytes-live-range-unit" } }, {
           "ruellan-http-accept-push-policy": {
             "URI": "http://webconcepts.info/specs/IETF/I-D/ruellan-http-accept-push-policy",
             "title": "Accept-Push-Policy Header Field",
             "name": "Internet Draft ruellan-http-accept-push-policy",
-            "spec-URI": "urn:ietf:id:ruellan-http-accept-push-policy" } }, {
+            "spec-URI": "urn:ietf:id:ruellan-http-accept-push-policy",
+            "URL": "http://tools.ietf.org/html/draft-ruellan-http-accept-push-policy" } }, {
           "snell-more-link-relations": {
             "URI": "http://webconcepts.info/specs/IETF/I-D/snell-more-link-relations",
             "title": "Additional Link Relations and the urn:social Namespace",
             "name": "Internet Draft snell-more-link-relations",
-            "spec-URI": "urn:ietf:id:snell-more-link-relations" } }, {
+            "spec-URI": "urn:ietf:id:snell-more-link-relations",
+            "URL": "http://tools.ietf.org/html/draft-snell-more-link-relations" } }, {
           "thomson-http-content-signature": {
             "URI": "http://webconcepts.info/specs/IETF/I-D/thomson-http-content-signature",
             "title": "Content-Signature Header Field for HTTP",
             "name": "Internet Draft thomson-http-content-signature",
-            "spec-URI": "urn:ietf:id:thomson-http-content-signature" } }, {
+            "spec-URI": "urn:ietf:id:thomson-http-content-signature",
+            "URL": "http://tools.ietf.org/html/draft-thomson-http-content-signature" } }, {
           "thomson-http-nice": {
             "URI": "http://webconcepts.info/specs/IETF/I-D/thomson-http-nice",
             "title": "Marking HTTP Requests as Unimportant",
             "name": "Internet Draft thomson-http-nice",
-            "spec-URI": "urn:ietf:id:thomson-http-nice" } }, {
+            "spec-URI": "urn:ietf:id:thomson-http-nice",
+            "URL": "http://tools.ietf.org/html/draft-thomson-http-nice" } }, {
           "west-origin-cookies": {
             "URI": "http://webconcepts.info/specs/IETF/I-D/west-origin-cookies",
             "title": "Origin Cookies",
             "name": "Internet Draft west-origin-cookies",
-            "spec-URI": "urn:ietf:id:west-origin-cookies" } }, {
+            "spec-URI": "urn:ietf:id:west-origin-cookies",
+            "URL": "http://tools.ietf.org/html/draft-west-origin-cookies" } }, {
           "wilde-home-xml": {
             "URI": "http://webconcepts.info/specs/IETF/I-D/wilde-home-xml",
             "title": "Home Documents for HTTP Services: XML Syntax",
             "name": "Internet Draft wilde-home-xml",
-            "spec-URI": "urn:ietf:id:wilde-home-xml" } }, {
+            "spec-URI": "urn:ietf:id:wilde-home-xml",
+            "URL": "http://tools.ietf.org/html/draft-wilde-home-xml" } }, {
           "wilde-service-link-rel": {
             "URI": "http://webconcepts.info/specs/IETF/I-D/wilde-service-link-rel",
             "title": "Link Relation Types for Web Services",
             "name": "Internet Draft wilde-service-link-rel",
-            "spec-URI": "urn:ietf:id:wilde-service-link-rel" } }, {
+            "spec-URI": "urn:ietf:id:wilde-service-link-rel",
+            "URL": "http://tools.ietf.org/html/draft-wilde-service-link-rel" } }, {
           "wilde-sunset-header": {
             "URI": "http://webconcepts.info/specs/IETF/I-D/wilde-sunset-header",
             "title": "The Sunset HTTP Header",
             "name": "Internet Draft wilde-sunset-header",
-            "spec-URI": "urn:ietf:id:wilde-sunset-header" } }, {
+            "spec-URI": "urn:ietf:id:wilde-sunset-header",
+            "URL": "http://tools.ietf.org/html/draft-wilde-sunset-header" } }, {
           "zyp-json-schema": {
             "URI": "http://webconcepts.info/specs/IETF/I-D/zyp-json-schema",
             "title": "A JSON Media Type for Describing the Structure and Meaning of JSON Documents",
             "name": "Internet Draft zyp-json-schema",
-            "spec-URI": "urn:ietf:id:zyp-json-schema" } } ] } }, {
+            "spec-URI": "urn:ietf:id:zyp-json-schema",
+            "URL": "http://tools.ietf.org/html/draft-zyp-json-schema" } } ] } }, {
       "RFC": {
         "URI": "http://webconcepts.info/specs/IETF/RFC/",
         "name": "Request for Comments",
@@ -143,532 +168,638 @@
             "URI": "http://webconcepts.info/specs/IETF/RFC/1738",
             "title": "Uniform Resource Locators (URL)",
             "name": "RFC 1738",
-            "spec-URI": "urn:ietf:rfc:1738" } }, {
+            "spec-URI": "urn:ietf:rfc:1738",
+            "URL": "http://tools.ietf.org/html/rfc1738" } }, {
           "2068": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/2068",
             "title": "Hypertext Transfer Protocol - HTTP/1.1",
             "name": "RFC 2068",
-            "spec-URI": "urn:ietf:rfc:2068" } }, {
+            "spec-URI": "urn:ietf:rfc:2068",
+            "URL": "http://tools.ietf.org/html/rfc2068" } }, {
           "2220": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/2220",
             "title": "The Application/MARC Content-type",
             "name": "RFC 2220",
-            "spec-URI": "urn:ietf:rfc:2220" } }, {
+            "spec-URI": "urn:ietf:rfc:2220",
+            "URL": "http://tools.ietf.org/html/rfc2220" } }, {
           "2295": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/2295",
             "title": "Transparent Content Negotiation in HTTP",
             "name": "RFC 2295",
-            "spec-URI": "urn:ietf:rfc:2295" } }, {
+            "spec-URI": "urn:ietf:rfc:2295",
+            "URL": "http://tools.ietf.org/html/rfc2295" } }, {
           "2310": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/2310",
             "title": "The Safe Response Header Field",
             "name": "RFC 2310",
-            "spec-URI": "urn:ietf:rfc:2310" } }, {
+            "spec-URI": "urn:ietf:rfc:2310",
+            "URL": "http://tools.ietf.org/html/rfc2310" } }, {
           "2324": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/2324",
             "title": "Hyper Text Coffee Pot Control Protocol (HTCPCP/1.0)",
             "name": "RFC 2324",
-            "spec-URI": "urn:ietf:rfc:2324" } }, {
+            "spec-URI": "urn:ietf:rfc:2324",
+            "URL": "http://tools.ietf.org/html/rfc2324" } }, {
           "2388": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/2388",
             "title": "Returning Values from Forms: multipart/form-data",
             "name": "RFC 2388",
-            "spec-URI": "urn:ietf:rfc:2388" } }, {
+            "spec-URI": "urn:ietf:rfc:2388",
+            "URL": "http://tools.ietf.org/html/rfc2388" } }, {
           "2397": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/2397",
             "title": "The \"data\" URL scheme",
             "name": "RFC 2397",
-            "spec-URI": "urn:ietf:rfc:2397" } }, {
+            "spec-URI": "urn:ietf:rfc:2397",
+            "URL": "http://tools.ietf.org/html/rfc2397" } }, {
           "2518": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/2518",
             "title": "HTTP Extensions for Distributed Authoring - WEBDAV",
             "name": "RFC 2518",
-            "spec-URI": "urn:ietf:rfc:2518" } }, {
+            "spec-URI": "urn:ietf:rfc:2518",
+            "URL": "http://tools.ietf.org/html/rfc2518" } }, {
           "2616": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/2616",
             "title": "Hypertext Transfer Protocol -- HTTP/1.1",
             "name": "RFC 2616",
-            "spec-URI": "urn:ietf:rfc:2616" } }, {
+            "spec-URI": "urn:ietf:rfc:2616",
+            "URL": "http://tools.ietf.org/html/rfc2616" } }, {
           "2660": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/2660",
             "title": "The Secure HyperText Transfer Protocol (S-HTTP)",
             "name": "RFC 2660",
-            "spec-URI": "urn:ietf:rfc:2660" } }, {
+            "spec-URI": "urn:ietf:rfc:2660",
+            "URL": "http://tools.ietf.org/html/rfc2660" } }, {
           "2774": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/2774",
             "title": "An HTTP Extension Framework",
             "name": "RFC 2774",
-            "spec-URI": "urn:ietf:rfc:2774" } }, {
+            "spec-URI": "urn:ietf:rfc:2774",
+            "URL": "http://tools.ietf.org/html/rfc2774" } }, {
           "2965": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/2965",
             "title": "HTTP State Management Mechanism",
             "name": "RFC 2965",
-            "spec-URI": "urn:ietf:rfc:2965" } }, {
+            "spec-URI": "urn:ietf:rfc:2965",
+            "URL": "http://tools.ietf.org/html/rfc2965" } }, {
           "3023": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/3023",
             "title": "XML Media Types",
             "name": "RFC 3023",
-            "spec-URI": "urn:ietf:rfc:3023" } }, {
+            "spec-URI": "urn:ietf:rfc:3023",
+            "URL": "http://tools.ietf.org/html/rfc3023" } }, {
           "3229": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/3229",
             "title": "Delta encoding in HTTP",
             "name": "RFC 3229",
-            "spec-URI": "urn:ietf:rfc:3229" } }, {
+            "spec-URI": "urn:ietf:rfc:3229",
+            "URL": "http://tools.ietf.org/html/rfc3229" } }, {
           "3230": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/3230",
             "title": "Instance Digests in HTTP",
             "name": "RFC 3230",
-            "spec-URI": "urn:ietf:rfc:3230" } }, {
+            "spec-URI": "urn:ietf:rfc:3230",
+            "URL": "http://tools.ietf.org/html/rfc3230" } }, {
           "3253": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/3253",
             "title": "Versioning Extensions to WebDAV (Web Distributed Authoring and Versioning)",
             "name": "RFC 3253",
-            "spec-URI": "urn:ietf:rfc:3253" } }, {
+            "spec-URI": "urn:ietf:rfc:3253",
+            "URL": "http://tools.ietf.org/html/rfc3253" } }, {
           "3648": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/3648",
             "title": "Web Distributed Authoring and Versioning (WebDAV) Ordered Collections Protocol",
             "name": "RFC 3648",
-            "spec-URI": "urn:ietf:rfc:3648" } }, {
+            "spec-URI": "urn:ietf:rfc:3648",
+            "URL": "http://tools.ietf.org/html/rfc3648" } }, {
           "3744": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/3744",
             "title": "Web Distributed Authoring and Versioning (WebDAV) Access Control Protocol",
             "name": "RFC 3744",
-            "spec-URI": "urn:ietf:rfc:3744" } }, {
+            "spec-URI": "urn:ietf:rfc:3744",
+            "URL": "http://tools.ietf.org/html/rfc3744" } }, {
           "3778": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/3778",
             "title": "The application/pdf Media Type",
             "name": "RFC 3778",
-            "spec-URI": "urn:ietf:rfc:3778" } }, {
+            "spec-URI": "urn:ietf:rfc:3778",
+            "URL": "http://tools.ietf.org/html/rfc3778" } }, {
           "4248": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/4248",
             "title": "The telnet URI Scheme",
             "name": "RFC 4248",
-            "spec-URI": "urn:ietf:rfc:4248" } }, {
+            "spec-URI": "urn:ietf:rfc:4248",
+            "URL": "http://tools.ietf.org/html/rfc4248" } }, {
           "4287": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/4287",
             "title": "Atom Syndication Format",
             "name": "RFC 4287",
-            "spec-URI": "urn:ietf:rfc:4287" } }, {
+            "spec-URI": "urn:ietf:rfc:4287",
+            "URL": "http://tools.ietf.org/html/rfc4287" } }, {
           "4324": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/4324",
             "title": "Calendar Access Protocol (CAP)",
             "name": "RFC 4324",
-            "spec-URI": "urn:ietf:rfc:4324" } }, {
+            "spec-URI": "urn:ietf:rfc:4324",
+            "URL": "http://tools.ietf.org/html/rfc4324" } }, {
           "4437": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/4437",
             "title": "Web Distributed Authoring and Versioning (WebDAV): Redirect Reference Resources",
             "name": "RFC 4437",
-            "spec-URI": "urn:ietf:rfc:4437" } }, {
+            "spec-URI": "urn:ietf:rfc:4437",
+            "URL": "http://tools.ietf.org/html/rfc4437" } }, {
           "4791": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/4791",
             "title": "Calendaring Extensions to WebDAV (CalDAV)",
             "name": "RFC 4791",
-            "spec-URI": "urn:ietf:rfc:4791" } }, {
+            "spec-URI": "urn:ietf:rfc:4791",
+            "URL": "http://tools.ietf.org/html/rfc4791" } }, {
           "4918": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/4918",
             "title": "HTTP Extensions for Web Distributed Authoring and Versioning (WebDAV)",
             "name": "RFC 4918",
-            "spec-URI": "urn:ietf:rfc:4918" } }, {
+            "spec-URI": "urn:ietf:rfc:4918",
+            "URL": "http://tools.ietf.org/html/rfc4918" } }, {
           "4946": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/4946",
             "title": "Atom License Extension",
             "name": "RFC 4946",
-            "spec-URI": "urn:ietf:rfc:4946" } }, {
+            "spec-URI": "urn:ietf:rfc:4946",
+            "URL": "http://tools.ietf.org/html/rfc4946" } }, {
           "5005": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/5005",
             "title": "Feed Paging and Archiving",
             "name": "RFC 5005",
-            "spec-URI": "urn:ietf:rfc:5005" } }, {
+            "spec-URI": "urn:ietf:rfc:5005",
+            "URL": "http://tools.ietf.org/html/rfc5005" } }, {
           "5023": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/5023",
             "title": "Atom Publishing Protocol (AtomPub)",
             "name": "RFC 5023",
-            "spec-URI": "urn:ietf:rfc:5023" } }, {
+            "spec-URI": "urn:ietf:rfc:5023",
+            "URL": "http://tools.ietf.org/html/rfc5023" } }, {
           "5174": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/5174",
             "title": "URI Fragment Identifiers for the text/plain Media Type",
             "name": "RFC 5174",
-            "spec-URI": "urn:ietf:rfc:5174" } }, {
+            "spec-URI": "urn:ietf:rfc:5174",
+            "URL": "http://tools.ietf.org/html/rfc5174" } }, {
           "5261": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/5261",
             "title": "An Extensible Markup Language (XML) Patch Operations Framework Utilizing XML Path Language (XPath) Selectors",
             "name": "RFC 5261",
-            "spec-URI": "urn:ietf:rfc:5261" } }, {
+            "spec-URI": "urn:ietf:rfc:5261",
+            "URL": "http://tools.ietf.org/html/rfc5261" } }, {
           "5323": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/5323",
             "title": "Web Distributed Authoring and Versioning (WebDAV) SEARCH",
             "name": "RFC 5323",
-            "spec-URI": "urn:ietf:rfc:5323" } }, {
+            "spec-URI": "urn:ietf:rfc:5323",
+            "URL": "http://tools.ietf.org/html/rfc5323" } }, {
           "5724": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/5724",
             "title": "URI Scheme for Global System for Mobile Communications (GSM) Short Message Service (SMS)",
             "name": "RFC 5724",
-            "spec-URI": "urn:ietf:rfc:5724" } }, {
+            "spec-URI": "urn:ietf:rfc:5724",
+            "URL": "http://tools.ietf.org/html/rfc5724" } }, {
           "5789": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/5789",
             "title": "PATCH Method for HTTP",
             "name": "RFC 5789",
-            "spec-URI": "urn:ietf:rfc:5789" } }, {
+            "spec-URI": "urn:ietf:rfc:5789",
+            "URL": "http://tools.ietf.org/html/rfc5789" } }, {
           "5829": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/5829",
             "title": "Link Relation Types for Simple Version Navigation between Web Resources",
             "name": "RFC 5829",
-            "spec-URI": "urn:ietf:rfc:5829" } }, {
+            "spec-URI": "urn:ietf:rfc:5829",
+            "URL": "http://tools.ietf.org/html/rfc5829" } }, {
           "5842": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/5842",
             "title": "Binding Extensions to Web Distributed Authoring and Versioning (WebDAV)",
             "name": "RFC 5842",
-            "spec-URI": "urn:ietf:rfc:5842" } }, {
+            "spec-URI": "urn:ietf:rfc:5842",
+            "URL": "http://tools.ietf.org/html/rfc5842" } }, {
           "5849": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/5849",
             "title": "The OAuth 1.0 Protocol",
             "name": "RFC 5849",
-            "spec-URI": "urn:ietf:rfc:5849" } }, {
+            "spec-URI": "urn:ietf:rfc:5849",
+            "URL": "http://tools.ietf.org/html/rfc5849" } }, {
           "5861": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/5861",
             "title": "HTTP Cache-Control Extensions for Stale Content",
             "name": "RFC 5861",
-            "spec-URI": "urn:ietf:rfc:5861" } }, {
+            "spec-URI": "urn:ietf:rfc:5861",
+            "URL": "http://tools.ietf.org/html/rfc5861" } }, {
           "5870": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/5870",
             "title": "A Uniform Resource Identifier for Geographic Locations ('geo' URI)",
             "name": "RFC 5870",
-            "spec-URI": "urn:ietf:rfc:5870" } }, {
+            "spec-URI": "urn:ietf:rfc:5870",
+            "URL": "http://tools.ietf.org/html/rfc5870" } }, {
           "5985": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/5985",
             "title": "HTTP-Enabled Location Delivery (HELD)",
             "name": "RFC 5985",
-            "spec-URI": "urn:ietf:rfc:5985" } }, {
+            "spec-URI": "urn:ietf:rfc:5985",
+            "URL": "http://tools.ietf.org/html/rfc5985" } }, {
           "5988": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/5988",
             "title": "Web Linking",
             "name": "RFC 5988",
-            "spec-URI": "urn:ietf:rfc:5988" } }, {
+            "spec-URI": "urn:ietf:rfc:5988",
+            "URL": "http://tools.ietf.org/html/rfc5988" } }, {
           "6017": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/6017",
             "title": "Electronic Data Interchange - Internet Integration (EDIINT) Features Header Field",
             "name": "RFC 6017",
-            "spec-URI": "urn:ietf:rfc:6017" } }, {
+            "spec-URI": "urn:ietf:rfc:6017",
+            "URL": "http://tools.ietf.org/html/rfc6017" } }, {
           "6068": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/6068",
             "title": "The 'mailto' URI Scheme",
             "name": "RFC 6068",
-            "spec-URI": "urn:ietf:rfc:6068" } }, {
+            "spec-URI": "urn:ietf:rfc:6068",
+            "URL": "http://tools.ietf.org/html/rfc6068" } }, {
           "6207": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/6207",
             "title": "The Media Types application/mods+xml, application/mads+xml, application/mets+xml, application/marcxml+xml, and application/sru+xml",
             "name": "RFC 6207",
-            "spec-URI": "urn:ietf:rfc:6207" } }, {
+            "spec-URI": "urn:ietf:rfc:6207",
+            "URL": "http://tools.ietf.org/html/rfc6207" } }, {
           "6265": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/6265",
             "title": "HTTP State Management Mechanism",
             "name": "RFC 6265",
-            "spec-URI": "urn:ietf:rfc:6265" } }, {
+            "spec-URI": "urn:ietf:rfc:6265",
+            "URL": "http://tools.ietf.org/html/rfc6265" } }, {
           "6266": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/6266",
             "title": "Use of the Content-Disposition Header Field in the Hypertext Transfer Protocol (HTTP)",
             "name": "RFC 6266",
-            "spec-URI": "urn:ietf:rfc:6266" } }, {
+            "spec-URI": "urn:ietf:rfc:6266",
+            "URL": "http://tools.ietf.org/html/rfc6266" } }, {
           "6271": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/6271",
             "title": "The Atom \"deleted-entry\" Element",
             "name": "RFC 6271",
-            "spec-URI": "urn:ietf:rfc:6271" } }, {
+            "spec-URI": "urn:ietf:rfc:6271",
+            "URL": "http://tools.ietf.org/html/rfc6271" } }, {
           "6350": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/6350",
             "title": "vCard Format Specification",
             "name": "RFC 6350",
-            "spec-URI": "urn:ietf:rfc:6350" } }, {
+            "spec-URI": "urn:ietf:rfc:6350",
+            "URL": "http://tools.ietf.org/html/rfc6350" } }, {
           "6351": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/6351",
             "title": "xCard: vCard XML Representation",
             "name": "RFC 6351",
-            "spec-URI": "urn:ietf:rfc:6351" } }, {
+            "spec-URI": "urn:ietf:rfc:6351",
+            "URL": "http://tools.ietf.org/html/rfc6351" } }, {
           "6415": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/6415",
             "title": "Web Host Metadata",
             "name": "RFC 6415",
-            "spec-URI": "urn:ietf:rfc:6415" } }, {
+            "spec-URI": "urn:ietf:rfc:6415",
+            "URL": "http://tools.ietf.org/html/rfc6415" } }, {
           "6455": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/6455",
             "title": "The WebSocket Protocol",
             "name": "RFC 6455",
-            "spec-URI": "urn:ietf:rfc:6455" } }, {
+            "spec-URI": "urn:ietf:rfc:6455",
+            "URL": "http://tools.ietf.org/html/rfc6455" } }, {
           "6573": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/6573",
             "title": "The Item and Collection Link Relations",
             "name": "RFC 6573",
-            "spec-URI": "urn:ietf:rfc:6573" } }, {
+            "spec-URI": "urn:ietf:rfc:6573",
+            "URL": "http://tools.ietf.org/html/rfc6573" } }, {
           "6579": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/6579",
             "title": "The 'disclosure' Link Relation Type",
             "name": "RFC 6579",
-            "spec-URI": "urn:ietf:rfc:6579" } }, {
+            "spec-URI": "urn:ietf:rfc:6579",
+            "URL": "http://tools.ietf.org/html/rfc6579" } }, {
           "6585": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/6585",
             "title": "Additional HTTP Status Codes",
             "name": "RFC 6585",
-            "spec-URI": "urn:ietf:rfc:6585" } }, {
+            "spec-URI": "urn:ietf:rfc:6585",
+            "URL": "http://tools.ietf.org/html/rfc6585" } }, {
           "6596": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/6596",
             "title": "The Canonical Link Relation",
             "name": "RFC 6596",
-            "spec-URI": "urn:ietf:rfc:6596" } }, {
+            "spec-URI": "urn:ietf:rfc:6596",
+            "URL": "http://tools.ietf.org/html/rfc6596" } }, {
           "6638": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/6638",
             "title": "Scheduling Extensions to CalDAV",
             "name": "RFC 6638",
-            "spec-URI": "urn:ietf:rfc:6638" } }, {
+            "spec-URI": "urn:ietf:rfc:6638",
+            "URL": "http://tools.ietf.org/html/rfc6638" } }, {
           "6690": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/6690",
             "title": "Constrained RESTful Environments (CoRE) Link Format",
             "name": "RFC 6690",
-            "spec-URI": "urn:ietf:rfc:6690" } }, {
+            "spec-URI": "urn:ietf:rfc:6690",
+            "URL": "http://tools.ietf.org/html/rfc6690" } }, {
           "6713": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/6713",
             "title": "The 'application/zlib' and 'application/gzip' Media Types",
             "name": "RFC 6713",
-            "spec-URI": "urn:ietf:rfc:6713" } }, {
+            "spec-URI": "urn:ietf:rfc:6713",
+            "URL": "http://tools.ietf.org/html/rfc6713" } }, {
           "6764": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/6764",
             "title": "Locating Services for Calendaring Extensions to WebDAV (CalDAV) and vCard Extensions to WebDAV (CardDAV)",
             "name": "RFC 6764",
-            "spec-URI": "urn:ietf:rfc:6764" } }, {
+            "spec-URI": "urn:ietf:rfc:6764",
+            "URL": "http://tools.ietf.org/html/rfc6764" } }, {
           "6768": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/6768",
             "title": "Media Resource Control Protocol Version 2 (MRCPv2)",
             "name": "RFC 6768",
-            "spec-URI": "urn:ietf:rfc:6768" } }, {
+            "spec-URI": "urn:ietf:rfc:6768",
+            "URL": "http://tools.ietf.org/html/rfc6768" } }, {
           "6797": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/6797",
             "title": "HTTP Strict Transport Security (HSTS)",
             "name": "RFC 6797",
-            "spec-URI": "urn:ietf:rfc:6797" } }, {
+            "spec-URI": "urn:ietf:rfc:6797",
+            "URL": "http://tools.ietf.org/html/rfc6797" } }, {
           "6861": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/6861",
             "title": "The \"create-form\" and \"edit-form\" Link Relations",
             "name": "RFC 6861",
-            "spec-URI": "urn:ietf:rfc:6861" } }, {
+            "spec-URI": "urn:ietf:rfc:6861",
+            "URL": "http://tools.ietf.org/html/rfc6861" } }, {
           "6892": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/6892",
             "title": "The 'describes' Link Relation Type",
             "name": "RFC 6892",
-            "spec-URI": "urn:ietf:rfc:6892" } }, {
+            "spec-URI": "urn:ietf:rfc:6892",
+            "URL": "http://tools.ietf.org/html/rfc6892" } }, {
           "6903": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/6903",
             "title": "Additional Link Relation Types",
             "name": "RFC 6903",
-            "spec-URI": "urn:ietf:rfc:6903" } }, {
+            "spec-URI": "urn:ietf:rfc:6903",
+            "URL": "http://tools.ietf.org/html/rfc6903" } }, {
           "6920": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/6920",
             "title": "Naming Things with Hashes",
             "name": "RFC 6920",
-            "spec-URI": "urn:ietf:rfc:6920" } }, {
+            "spec-URI": "urn:ietf:rfc:6920",
+            "URL": "http://tools.ietf.org/html/rfc6920" } }, {
           "6940": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/6940",
             "title": "REsource LOcation And Discovery (RELOAD) Base Protocol",
             "name": "RFC 6940",
-            "spec-URI": "urn:ietf:rfc:6940" } }, {
+            "spec-URI": "urn:ietf:rfc:6940",
+            "URL": "http://tools.ietf.org/html/rfc6940" } }, {
           "7030": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/7030",
             "title": "Enrollment over Secure Transport",
             "name": "RFC 7030",
-            "spec-URI": "urn:ietf:rfc:7030" } }, {
+            "spec-URI": "urn:ietf:rfc:7030",
+            "URL": "http://tools.ietf.org/html/rfc7030" } }, {
           "7033": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/7033",
             "title": "WebFinger",
             "name": "RFC 7033",
-            "spec-URI": "urn:ietf:rfc:7033" } }, {
+            "spec-URI": "urn:ietf:rfc:7033",
+            "URL": "http://tools.ietf.org/html/rfc7033" } }, {
           "7034": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/7034",
             "title": "HTTP Header Field X-Frame-Options",
             "name": "RFC 7034",
-            "spec-URI": "urn:ietf:rfc:7034" } }, {
+            "spec-URI": "urn:ietf:rfc:7034",
+            "URL": "http://tools.ietf.org/html/rfc7034" } }, {
           "7049": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/7049",
             "title": "Concise Binary Object Representation (CBOR)",
             "name": "RFC 7049",
-            "spec-URI": "urn:ietf:rfc:7049" } }, {
+            "spec-URI": "urn:ietf:rfc:7049",
+            "URL": "http://tools.ietf.org/html/rfc7049" } }, {
           "7072": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/7072",
             "title": "A Reputation Query Protocol",
             "name": "RFC 7072",
-            "spec-URI": "urn:ietf:rfc:7072" } }, {
+            "spec-URI": "urn:ietf:rfc:7072",
+            "URL": "http://tools.ietf.org/html/rfc7072" } }, {
           "7089": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/7089",
             "title": "HTTP framework for time-based access to resource states - Memento",
             "name": "RFC 7089",
-            "spec-URI": "urn:ietf:rfc:7089" } }, {
+            "spec-URI": "urn:ietf:rfc:7089",
+            "URL": "http://tools.ietf.org/html/rfc7089" } }, {
           "7159": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/7159",
             "title": "JavaScript Object Notation (JSON)",
             "name": "RFC 7159",
-            "spec-URI": "urn:ietf:rfc:7159" } }, {
+            "spec-URI": "urn:ietf:rfc:7159",
+            "URL": "http://tools.ietf.org/html/rfc7159" } }, {
           "7168": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/7168",
             "title": "The Hyper Text Coffee Pot Control Protocol for Tea Efflux Appliances (HTCPCP-TEA)",
             "name": "RFC 7168",
-            "spec-URI": "urn:ietf:rfc:7168" } }, {
+            "spec-URI": "urn:ietf:rfc:7168",
+            "URL": "http://tools.ietf.org/html/rfc7168" } }, {
           "7230": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/7230",
             "title": "Hypertext Transfer Protocol (HTTP/1.1): Message Syntax and Routing",
             "name": "RFC 7230",
-            "spec-URI": "urn:ietf:rfc:7230" } }, {
+            "spec-URI": "urn:ietf:rfc:7230",
+            "URL": "http://tools.ietf.org/html/rfc7230" } }, {
           "7231": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/7231",
             "title": "Hypertext Transfer Protocol (HTTP/1.1): Semantics and Content",
             "name": "RFC 7231",
-            "spec-URI": "urn:ietf:rfc:7231" } }, {
+            "spec-URI": "urn:ietf:rfc:7231",
+            "URL": "http://tools.ietf.org/html/rfc7231" } }, {
           "7232": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/7232",
             "title": "Hypertext Transfer Protocol (HTTP/1.1): Conditional Requests",
             "name": "RFC 7232",
-            "spec-URI": "urn:ietf:rfc:7232" } }, {
+            "spec-URI": "urn:ietf:rfc:7232",
+            "URL": "http://tools.ietf.org/html/rfc7232" } }, {
           "7233": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/7233",
             "title": "Hypertext Transfer Protocol (HTTP/1.1): Range Requests",
             "name": "RFC 7233",
-            "spec-URI": "urn:ietf:rfc:7233" } }, {
+            "spec-URI": "urn:ietf:rfc:7233",
+            "URL": "http://tools.ietf.org/html/rfc7233" } }, {
           "7234": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/7234",
             "title": "Hypertext Transfer Protocol (HTTP/1.1): Caching",
             "name": "RFC 7234",
-            "spec-URI": "urn:ietf:rfc:7234" } }, {
+            "spec-URI": "urn:ietf:rfc:7234",
+            "URL": "http://tools.ietf.org/html/rfc7234" } }, {
           "7235": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/7235",
             "title": "Hypertext Transfer Protocol (HTTP/1.1): Authentication",
             "name": "RFC 7235",
-            "spec-URI": "urn:ietf:rfc:7235" } }, {
+            "spec-URI": "urn:ietf:rfc:7235",
+            "URL": "http://tools.ietf.org/html/rfc7235" } }, {
           "7239": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/7239",
             "title": "Forwarded HTTP Extension",
             "name": "RFC 7239",
-            "spec-URI": "urn:ietf:rfc:7239" } }, {
+            "spec-URI": "urn:ietf:rfc:7239",
+            "URL": "http://tools.ietf.org/html/rfc7239" } }, {
           "7240": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/7240",
             "title": "Prefer Header for HTTP",
             "name": "RFC 7240",
-            "spec-URI": "urn:ietf:rfc:7240" } }, {
+            "spec-URI": "urn:ietf:rfc:7240",
+            "URL": "http://tools.ietf.org/html/rfc7240" } }, {
           "7351": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/7351",
             "title": "A Media Type for XML Patch Operations",
             "name": "RFC 7351",
-            "spec-URI": "urn:ietf:rfc:7351" } }, {
+            "spec-URI": "urn:ietf:rfc:7351",
+            "URL": "http://tools.ietf.org/html/rfc7351" } }, {
           "7390": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/7390",
             "title": "Group Communication for the Constrained Application Protocol (CoAP)",
             "name": "RFC 7390",
-            "spec-URI": "urn:ietf:rfc:7390" } }, {
+            "spec-URI": "urn:ietf:rfc:7390",
+            "URL": "http://tools.ietf.org/html/rfc7390" } }, {
           "7464": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/7464",
             "title": "JavaScript Object Notation (JSON) Text Sequences",
             "name": "RFC 7464",
-            "spec-URI": "urn:ietf:rfc:7464" } }, {
+            "spec-URI": "urn:ietf:rfc:7464",
+            "URL": "http://tools.ietf.org/html/rfc7464" } }, {
           "7469": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/7469",
             "title": "Public Key Pinning Extension for HTTP",
             "name": "RFC 7469",
-            "spec-URI": "urn:ietf:rfc:7469" } }, {
+            "spec-URI": "urn:ietf:rfc:7469",
+            "URL": "http://tools.ietf.org/html/rfc7469" } }, {
           "7486": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/7486",
             "title": "HTTP Origin-Bound Authentication (HOBA)",
             "name": "RFC 7486",
-            "spec-URI": "urn:ietf:rfc:7486" } }, {
+            "spec-URI": "urn:ietf:rfc:7486",
+            "URL": "http://tools.ietf.org/html/rfc7486" } }, {
           "7515": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/7515",
             "title": "JSON Web Signature (JWS)",
             "name": "RFC 7515",
-            "spec-URI": "urn:ietf:rfc:7515" } }, {
+            "spec-URI": "urn:ietf:rfc:7515",
+            "URL": "http://tools.ietf.org/html/rfc7515" } }, {
           "7517": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/7517",
             "title": "JSON Web Key (JWK)",
             "name": "RFC 7517",
-            "spec-URI": "urn:ietf:rfc:7517" } }, {
+            "spec-URI": "urn:ietf:rfc:7517",
+            "URL": "http://tools.ietf.org/html/rfc7517" } }, {
           "7519": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/7519",
             "title": "JSON Web Token (JWT)",
             "name": "RFC 7519",
-            "spec-URI": "urn:ietf:rfc:7519" } }, {
+            "spec-URI": "urn:ietf:rfc:7519",
+            "URL": "http://tools.ietf.org/html/rfc7519" } }, {
           "7538": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/7538",
             "title": "The Hypertext Transfer Protocol Status Code 308 (Permanent Redirect)",
             "name": "RFC 7538",
-            "spec-URI": "urn:ietf:rfc:7538" } }, {
+            "spec-URI": "urn:ietf:rfc:7538",
+            "URL": "http://tools.ietf.org/html/rfc7538" } }, {
           "7540": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/7540",
             "title": "Hypertext Transfer Protocol Version 2",
             "name": "RFC 7540",
-            "spec-URI": "urn:ietf:rfc:7540" } }, {
+            "spec-URI": "urn:ietf:rfc:7540",
+            "URL": "http://tools.ietf.org/html/rfc7540" } }, {
           "7595": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/7595",
             "title": "Guidelines and Registration Procedures for URI Schemes",
             "name": "RFC 7595",
-            "spec-URI": "urn:ietf:rfc:7595" } }, {
+            "spec-URI": "urn:ietf:rfc:7595",
+            "URL": "http://tools.ietf.org/html/rfc7595" } }, {
           "7615": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/7615",
             "title": "The Hypertext Transfer Protocol (HTTP) Authentication-Info and Proxy-Authentication-Info Response Header Fields",
             "name": "RFC 7615",
-            "spec-URI": "urn:ietf:rfc:7615" } }, {
+            "spec-URI": "urn:ietf:rfc:7615",
+            "URL": "http://tools.ietf.org/html/rfc7615" } }, {
           "7616": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/7616",
             "title": "HTTP Digest Access Authentication",
             "name": "RFC 7616",
-            "spec-URI": "urn:ietf:rfc:7616" } }, {
+            "spec-URI": "urn:ietf:rfc:7616",
+            "URL": "http://tools.ietf.org/html/rfc7616" } }, {
           "7635": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/7635",
             "title": "Session Traversal Utilities for NAT (STUN) Extension",
             "name": "RFC 7635",
-            "spec-URI": "urn:ietf:rfc:7635" } }, {
+            "spec-URI": "urn:ietf:rfc:7635",
+            "URL": "http://tools.ietf.org/html/rfc7635" } }, {
           "7639": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/7639",
             "title": "The ALPN HTTP Header Field",
             "name": "RFC 7639",
-            "spec-URI": "urn:ietf:rfc:7639" } }, {
+            "spec-URI": "urn:ietf:rfc:7639",
+            "URL": "http://tools.ietf.org/html/rfc7639" } }, {
           "7694": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/7694",
             "title": "Hypertext Transfer Protocol (HTTP) Client-Initiated Content-Encoding",
             "name": "RFC 7694",
-            "spec-URI": "urn:ietf:rfc:7694" } }, {
+            "spec-URI": "urn:ietf:rfc:7694",
+            "URL": "http://tools.ietf.org/html/rfc7694" } }, {
           "7711": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/7711",
             "title": "PKIX over Secure HTTP (POSH)",
             "name": "RFC 7711",
-            "spec-URI": "urn:ietf:rfc:7711" } }, {
+            "spec-URI": "urn:ietf:rfc:7711",
+            "URL": "http://tools.ietf.org/html/rfc7711" } }, {
           "7725": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/7725",
             "title": "An HTTP Status Code to Report Legal Obstacles",
             "name": "RFC 7725",
-            "spec-URI": "urn:ietf:rfc:7725" } }, {
+            "spec-URI": "urn:ietf:rfc:7725",
+            "URL": "http://tools.ietf.org/html/rfc7725" } }, {
           "7763": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/7763",
             "title": "The text/markdown Media Type",
             "name": "RFC 7763",
-            "spec-URI": "urn:ietf:rfc:7763" } }, {
+            "spec-URI": "urn:ietf:rfc:7763",
+            "URL": "http://tools.ietf.org/html/rfc7763" } }, {
           "7807": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/7807",
             "title": "Problem Details for HTTP APIs",
             "name": "RFC 7807",
-            "spec-URI": "urn:ietf:rfc:7807" } }, {
+            "spec-URI": "urn:ietf:rfc:7807",
+            "URL": "http://tools.ietf.org/html/rfc7807" } }, {
           "7808": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/7808",
             "title": "Time Zone Data Distribution Service",
             "name": "RFC 7808",
-            "spec-URI": "urn:ietf:rfc:7808" } }, {
+            "spec-URI": "urn:ietf:rfc:7808",
+            "URL": "http://tools.ietf.org/html/rfc7808" } }, {
           "7838": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/7838",
             "title": "HTTP Alternate Services",
             "name": "RFC 7838",
-            "spec-URI": "urn:ietf:rfc:7838" } }, {
+            "spec-URI": "urn:ietf:rfc:7838",
+            "URL": "http://tools.ietf.org/html/rfc7838" } }, {
           "7932": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/7932",
             "title": "Brotli Compressed Data Format",
             "name": "RFC 7932",
-            "spec-URI": "urn:ietf:rfc:7932" } }, {
+            "spec-URI": "urn:ietf:rfc:7932",
+            "URL": "http://tools.ietf.org/html/rfc7932" } }, {
           "7946": {
             "URI": "http://webconcepts.info/specs/IETF/RFC/7946",
             "title": "The GeoJSON Format",
             "name": "RFC 7946",
-            "spec-URI": "urn:ietf:rfc:7946" } } ] } } ] },
+            "spec-URI": "urn:ietf:rfc:7946",
+            "URL": "http://tools.ietf.org/html/rfc7946" } } ] } } ] },
   "ISO": {
     "URI": "http://webconcepts.info/specs/ISO/",
     "name": "International Organization for Standardization",
@@ -683,12 +814,14 @@
             "URI": "http://webconcepts.info/specs/ISO/IEC/14496-22",
             "title": "Information technology — Coding of audio-visual objects — Part 22: Open Font Format",
             "name": "ISO/IEC 14496-22",
-            "spec-URI": "urn:iso:std:iso-iec:14496:-22" } }, {
+            "spec-URI": "urn:iso:std:iso-iec:14496:-22",
+            "URL": "http://www.iso.org/obp/ui/#iso:std:iso-iec:14496:-22" } }, {
           "23009-1": {
             "URI": "http://webconcepts.info/specs/ISO/IEC/23009-1",
             "title": "Information technology — Dynamic adaptive streaming over HTTP (DASH) — Part 1: Media presentation description and segment formats",
             "name": "ISO/IEC 23009-1",
-            "spec-URI": "urn:iso:std:iso-iec:23009:-1" } } ] } } ] },
+            "spec-URI": "urn:iso:std:iso-iec:23009:-1",
+            "URL": "http://www.iso.org/obp/ui/#iso:std:iso-iec:23009:-1" } } ] } } ] },
   "JCP": {
     "URI": "http://webconcepts.info/specs/JCP/",
     "name": "Java Community Process",
@@ -703,7 +836,7 @@
             "URI": "http://webconcepts.info/specs/JCP/JSR/200",
             "title": "Pack200: A Packed Class Deployment Format For Java Applications",
             "name": "JSR 200",
- } } ] } } ] },
+            "URL": "http://www.jcp.org/en/jsr/detail?id=200" } } ] } } ] },
   "W3C": {
     "URI": "http://webconcepts.info/specs/W3C/",
     "name": "World Wide Web Consortium",
@@ -718,165 +851,198 @@
             "URI": "http://webconcepts.info/specs/W3C/TR/COWL",
             "title": "Confinement with Origin Web Labels",
             "name": "W3C TR http://www.w3.org/TR/COWL",
-            "spec-URI": "http://www.w3.org/TR/COWL" } }, {
+            "spec-URI": "http://www.w3.org/TR/COWL",
+            "URL": "http://www.w3.org/TR/COWL" } }, {
           "CSP2": {
             "URI": "http://webconcepts.info/specs/W3C/TR/CSP2",
             "title": "Content Security Policy Level 2",
             "name": "W3C TR http://www.w3.org/TR/CSP2",
-            "spec-URI": "http://www.w3.org/TR/CSP2" } }, {
+            "spec-URI": "http://www.w3.org/TR/CSP2",
+            "URL": "http://www.w3.org/TR/CSP2" } }, {
           "CSP3": {
             "URI": "http://webconcepts.info/specs/W3C/TR/CSP3",
             "title": "Content Security Policy Level 3",
             "name": "W3C TR http://www.w3.org/TR/CSP3",
-            "spec-URI": "http://www.w3.org/TR/CSP3" } }, {
+            "spec-URI": "http://www.w3.org/TR/CSP3",
+            "URL": "http://www.w3.org/TR/CSP3" } }, {
           "P3P": {
             "URI": "http://webconcepts.info/specs/W3C/TR/P3P",
             "title": "The Platform for Privacy Preferences 1.0 (P3P1.0) Specification",
             "name": "W3C TR http://www.w3.org/TR/P3P",
-            "spec-URI": "http://www.w3.org/TR/P3P" } }, {
+            "spec-URI": "http://www.w3.org/TR/P3P",
+            "URL": "http://www.w3.org/TR/P3P" } }, {
           "PNG": {
             "URI": "http://webconcepts.info/specs/W3C/TR/PNG",
             "title": "Portable Network Graphics",
             "name": "W3C TR http://www.w3.org/TR/PNG",
-            "spec-URI": "http://www.w3.org/TR/PNG" } }, {
+            "spec-URI": "http://www.w3.org/TR/PNG",
+            "URL": "http://www.w3.org/TR/PNG" } }, {
           "SOAP": {
             "URI": "http://webconcepts.info/specs/W3C/TR/SOAP",
             "title": "Simple Object Access Protocol (SOAP) 1.1",
             "name": "W3C TR http://www.w3.org/TR/SOAP",
-            "spec-URI": "http://www.w3.org/TR/SOAP" } }, {
+            "spec-URI": "http://www.w3.org/TR/SOAP",
+            "URL": "http://www.w3.org/TR/SOAP" } }, {
           "WD-http-pep": {
             "URI": "http://webconcepts.info/specs/W3C/TR/WD-http-pep",
             "title": "PEP - An Extension Mechanism for HTTP",
             "name": "W3C TR http://www.w3.org/TR/WD-http-pep",
-            "spec-URI": "http://www.w3.org/TR/WD-http-pep" } }, {
+            "spec-URI": "http://www.w3.org/TR/WD-http-pep",
+            "URL": "http://www.w3.org/TR/WD-http-pep" } }, {
           "WD-proxy": {
             "URI": "http://webconcepts.info/specs/W3C/TR/WD-proxy",
             "title": "Notification for Proxy Caches",
             "name": "W3C TR http://www.w3.org/TR/WD-proxy",
-            "spec-URI": "http://www.w3.org/TR/WD-proxy" } }, {
+            "spec-URI": "http://www.w3.org/TR/WD-proxy",
+            "URL": "http://www.w3.org/TR/WD-proxy" } }, {
           "activitystreams-core": {
             "URI": "http://webconcepts.info/specs/W3C/TR/activitystreams-core",
             "title": "Activity Streams 2.0",
             "name": "W3C TR http://www.w3.org/TR/activitystreams-core",
-            "spec-URI": "http://www.w3.org/TR/activitystreams-core" } }, {
+            "spec-URI": "http://www.w3.org/TR/activitystreams-core",
+            "URL": "http://www.w3.org/TR/activitystreams-core" } }, {
           "appmanifest": {
             "URI": "http://webconcepts.info/specs/W3C/TR/appmanifest",
             "title": "Manifest for Web Application",
             "name": "W3C TR http://www.w3.org/TR/appmanifest",
-            "spec-URI": "http://www.w3.org/TR/appmanifest" } }, {
+            "spec-URI": "http://www.w3.org/TR/appmanifest",
+            "URL": "http://www.w3.org/TR/appmanifest" } }, {
           "clear-site-data": {
             "URI": "http://webconcepts.info/specs/W3C/TR/clear-site-data",
             "title": "Clear Site Data",
             "name": "W3C TR http://www.w3.org/TR/clear-site-data",
-            "spec-URI": "http://www.w3.org/TR/clear-site-data" } }, {
+            "spec-URI": "http://www.w3.org/TR/clear-site-data",
+            "URL": "http://www.w3.org/TR/clear-site-data" } }, {
           "cors": {
             "URI": "http://webconcepts.info/specs/W3C/TR/cors",
             "title": "Cross-Origin Resource Sharing (CORS)",
             "name": "W3C TR http://www.w3.org/TR/cors",
-            "spec-URI": "http://www.w3.org/TR/cors" } }, {
+            "spec-URI": "http://www.w3.org/TR/cors",
+            "URL": "http://www.w3.org/TR/cors" } }, {
           "csp-pinning": {
             "URI": "http://webconcepts.info/specs/W3C/TR/csp-pinning",
             "title": "Content Security Policy Pinning",
             "name": "W3C TR http://www.w3.org/TR/csp-pinning",
-            "spec-URI": "http://www.w3.org/TR/csp-pinning" } }, {
+            "spec-URI": "http://www.w3.org/TR/csp-pinning",
+            "URL": "http://www.w3.org/TR/csp-pinning" } }, {
           "edge-arch": {
             "URI": "http://webconcepts.info/specs/W3C/TR/edge-arch",
             "title": "Edge Architecture Specification",
             "name": "W3C TR http://www.w3.org/TR/edge-arch",
-            "spec-URI": "http://www.w3.org/TR/edge-arch" } }, {
+            "spec-URI": "http://www.w3.org/TR/edge-arch",
+            "URL": "http://www.w3.org/TR/edge-arch" } }, {
           "epr": {
             "URI": "http://webconcepts.info/specs/W3C/TR/epr",
             "title": "Entry Point Regulation (EPR)",
             "name": "W3C TR http://www.w3.org/TR/epr",
-            "spec-URI": "http://www.w3.org/TR/epr" } }, {
+            "spec-URI": "http://www.w3.org/TR/epr",
+            "URL": "http://www.w3.org/TR/epr" } }, {
           "eventsource": {
             "URI": "http://webconcepts.info/specs/W3C/TR/eventsource",
             "title": "Server-Sent Events",
             "name": "W3C TR http://www.w3.org/TR/eventsource",
-            "spec-URI": "http://www.w3.org/TR/eventsource" } }, {
+            "spec-URI": "http://www.w3.org/TR/eventsource",
+            "URL": "http://www.w3.org/TR/eventsource" } }, {
           "exi": {
             "URI": "http://webconcepts.info/specs/W3C/TR/exi",
             "title": "Efficient XML Interchange (EXI) Format 1.0",
             "name": "W3C TR http://www.w3.org/TR/exi",
-            "spec-URI": "http://www.w3.org/TR/exi" } }, {
+            "spec-URI": "http://www.w3.org/TR/exi",
+            "URL": "http://www.w3.org/TR/exi" } }, {
           "html4": {
             "URI": "http://webconcepts.info/specs/W3C/TR/html4",
             "title": "Hypertext Markup Language (HTML)",
             "name": "W3C TR http://www.w3.org/TR/html4",
-            "spec-URI": "http://www.w3.org/TR/html4" } }, {
+            "spec-URI": "http://www.w3.org/TR/html4",
+            "URL": "http://www.w3.org/TR/html4" } }, {
           "json-ld": {
             "URI": "http://webconcepts.info/specs/W3C/TR/json-ld",
             "title": "JSON-LD 1.0",
             "name": "W3C TR http://www.w3.org/TR/json-ld",
-            "spec-URI": "http://www.w3.org/TR/json-ld" } }, {
+            "spec-URI": "http://www.w3.org/TR/json-ld",
+            "URL": "http://www.w3.org/TR/json-ld" } }, {
           "ldp": {
             "URI": "http://webconcepts.info/specs/W3C/TR/ldp",
             "title": "Linked Data Platform 1.0 (LDP)",
             "name": "W3C TR http://www.w3.org/TR/ldp",
-            "spec-URI": "http://www.w3.org/TR/ldp" } }, {
+            "spec-URI": "http://www.w3.org/TR/ldp",
+            "URL": "http://www.w3.org/TR/ldp" } }, {
           "micropub": {
             "URI": "http://webconcepts.info/specs/W3C/TR/micropub",
             "title": "Micropub",
             "name": "W3C TR http://www.w3.org/TR/micropub",
-            "spec-URI": "http://www.w3.org/TR/micropub" } }, {
+            "spec-URI": "http://www.w3.org/TR/micropub",
+            "URL": "http://www.w3.org/TR/micropub" } }, {
           "powder-dr": {
             "URI": "http://webconcepts.info/specs/W3C/TR/powder-dr",
             "title": "Protocol for Web Description Resources (POWDER): Description Resources",
             "name": "W3C TR http://www.w3.org/TR/powder-dr",
-            "spec-URI": "http://www.w3.org/TR/powder-dr" } }, {
+            "spec-URI": "http://www.w3.org/TR/powder-dr",
+            "URL": "http://www.w3.org/TR/powder-dr" } }, {
           "preload": {
             "URI": "http://webconcepts.info/specs/W3C/TR/preload",
             "title": "Preload",
             "name": "W3C TR http://www.w3.org/TR/preload",
-            "spec-URI": "http://www.w3.org/TR/preload" } }, {
+            "spec-URI": "http://www.w3.org/TR/preload",
+            "URL": "http://www.w3.org/TR/preload" } }, {
           "rdf11-concepts": {
             "URI": "http://webconcepts.info/specs/W3C/TR/rdf11-concepts",
             "title": "RDF 1.1 Concepts and Abstract Syntax",
             "name": "W3C TR http://www.w3.org/TR/rdf11-concepts",
-            "spec-URI": "http://www.w3.org/TR/rdf11-concepts" } }, {
+            "spec-URI": "http://www.w3.org/TR/rdf11-concepts",
+            "URL": "http://www.w3.org/TR/rdf11-concepts" } }, {
           "reporting-1": {
             "URI": "http://webconcepts.info/specs/W3C/TR/reporting-1",
             "title": "Reporting API 1",
             "name": "W3C TR http://www.w3.org/TR/reporting-1",
-            "spec-URI": "http://www.w3.org/TR/reporting-1" } }, {
+            "spec-URI": "http://www.w3.org/TR/reporting-1",
+            "URL": "http://www.w3.org/TR/reporting-1" } }, {
           "resource-hints": {
             "URI": "http://webconcepts.info/specs/W3C/TR/resource-hints",
             "title": "Resource Hints",
             "name": "W3C TR http://www.w3.org/TR/resource-hints",
-            "spec-URI": "http://www.w3.org/TR/resource-hints" } }, {
+            "spec-URI": "http://www.w3.org/TR/resource-hints",
+            "URL": "http://www.w3.org/TR/resource-hints" } }, {
           "tabular-data-model": {
             "URI": "http://webconcepts.info/specs/W3C/TR/tabular-data-model",
             "title": "Model for Tabular Data and Metadata on the Web",
             "name": "W3C TR http://www.w3.org/TR/tabular-data-model",
-            "spec-URI": "http://www.w3.org/TR/tabular-data-model" } }, {
+            "spec-URI": "http://www.w3.org/TR/tabular-data-model",
+            "URL": "http://www.w3.org/TR/tabular-data-model" } }, {
           "tracking-dnt": {
             "URI": "http://webconcepts.info/specs/W3C/TR/tracking-dnt",
             "title": "Tracking Preference Expression (DNT)",
             "name": "W3C TR http://www.w3.org/TR/tracking-dnt",
-            "spec-URI": "http://www.w3.org/TR/tracking-dnt" } }, {
+            "spec-URI": "http://www.w3.org/TR/tracking-dnt",
+            "URL": "http://www.w3.org/TR/tracking-dnt" } }, {
           "trig": {
             "URI": "http://webconcepts.info/specs/W3C/TR/trig",
             "title": "TriG",
             "name": "W3C TR http://www.w3.org/TR/trig",
-            "spec-URI": "http://www.w3.org/TR/trig" } }, {
+            "spec-URI": "http://www.w3.org/TR/trig",
+            "URL": "http://www.w3.org/TR/trig" } }, {
           "upgrade-insecure-requests": {
             "URI": "http://webconcepts.info/specs/W3C/TR/upgrade-insecure-requests",
             "title": "Upgrade Insecure Requests",
             "name": "W3C TR http://www.w3.org/TR/upgrade-insecure-requests",
-            "spec-URI": "http://www.w3.org/TR/upgrade-insecure-requests" } }, {
+            "spec-URI": "http://www.w3.org/TR/upgrade-insecure-requests",
+            "URL": "http://www.w3.org/TR/upgrade-insecure-requests" } }, {
           "void": {
             "URI": "http://webconcepts.info/specs/W3C/TR/void",
             "title": "Describing Linked Datasets with the VoID Vocabulary",
             "name": "W3C TR http://www.w3.org/TR/void",
-            "spec-URI": "http://www.w3.org/TR/void" } }, {
+            "spec-URI": "http://www.w3.org/TR/void",
+            "URL": "http://www.w3.org/TR/void" } }, {
           "webmention": {
             "URI": "http://webconcepts.info/specs/W3C/TR/webmention",
             "title": "Webmention",
             "name": "W3C TR http://www.w3.org/TR/webmention",
-            "spec-URI": "http://www.w3.org/TR/webmention" } }, {
+            "spec-URI": "http://www.w3.org/TR/webmention",
+            "URL": "http://www.w3.org/TR/webmention" } }, {
           "webvtt": {
             "URI": "http://webconcepts.info/specs/W3C/TR/webvtt",
             "title": "Web Video Text Tracks (WebVTT)",
             "name": "W3C TR http://www.w3.org/TR/webvtt",
-            "spec-URI": "http://www.w3.org/TR/webvtt" } } ] } } ] }
+            "spec-URI": "http://www.w3.org/TR/webvtt",
+            "URL": "http://www.w3.org/TR/webvtt" } } ] } } ] }
 }

@@ -102,8 +102,10 @@
                         <xsl:value-of select="concat('&quot;', replace(replace($id, '^(..*)$', $secondary/name-pattern), '&quot;', '\\&quot;'), '&quot;,&#xa;')"/>
                         <xsl:if test="exists($secondary/uri-pattern)">
                             <xsl:text>            "spec-URI": </xsl:text>
-                            <xsl:value-of select="concat('&quot;', replace(@id, $secondary/id-pattern, $secondary/uri-pattern), '&quot;')"/>
+                            <xsl:value-of select="concat('&quot;', replace(@id, $secondary/id-pattern, $secondary/uri-pattern), '&quot;,&#xa;')"/>
                         </xsl:if>
+                        <xsl:text>            "URL": </xsl:text>
+                        <xsl:value-of select="concat('&quot;', replace(@id, $secondary/id-pattern, $secondary/url-pattern), '&quot;')"/>
                         <xsl:text> } }</xsl:text>
                         <xsl:if test="position() ne last()">
                             <xsl:text>,</xsl:text>
