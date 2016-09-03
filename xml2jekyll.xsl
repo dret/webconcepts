@@ -24,7 +24,7 @@
                 </xsl:if>
                 <xsl:text>](</xsl:text>
                 <xsl:value-of select="$primary/@id"/>
-                <xsl:text>): </xsl:text>
+                <xsl:text>/): </xsl:text>
                 <xsl:variable name="primary-specs-count" select="count($allspecs/sedola:service[@primary eq $primary/@id])"/>
                 <xsl:value-of select="$primary-specs-count"/>
                 <xsl:text> Specifications&#xa;</xsl:text>
@@ -40,7 +40,7 @@
                     </xsl:if>
                     <xsl:text> Series](</xsl:text>
                     <xsl:value-of select="concat($primary/@id, '/', $secondary/@id)"/>
-                    <xsl:text> "Series overview"): </xsl:text>
+                    <xsl:text>/ "Series overview"): </xsl:text>
                     <xsl:value-of select="count($allspecs/sedola:service[@primary eq $primary/@id][@secondary eq $secondary/@id])"/>
                     <xsl:text> Specifications&#xa;</xsl:text>
                 </xsl:for-each>
@@ -55,7 +55,7 @@
                     <xsl:if test="exists(name/@short)">
                         <xsl:text> (</xsl:text>
                         <xsl:value-of select="name/@short"/>
-                        <xsl:text>)</xsl:text>
+                        <xsl:text>/)</xsl:text>
                     </xsl:if>
                     <xsl:text>"&#xa;</xsl:text>
                     <xsl:text>---&#xa;&#xa;</xsl:text>
@@ -84,7 +84,7 @@
                         </xsl:if>
                         <xsl:text>](</xsl:text>
                         <xsl:value-of select="$secondary/@id"/>
-                        <xsl:text>) Series: </xsl:text>
+                        <xsl:text>/) Series: </xsl:text>
                         <xsl:value-of select="count($services)"/>
                         <xsl:text> Specifications&#xa;</xsl:text>
                         <xsl:result-document href="{$specs-dir}/{$primary/@id}/{$secondary/@id}/index.md" format="markdown">
@@ -333,7 +333,7 @@
                     <tr>
                         <th valign="top" align="right"><em>Organization:</em></th>
                         <td>
-                            <a href=".." title="List of specification series by this organization">
+                            <a href="../" title="List of specification series by this organization">
                                 <xsl:value-of select="$primary/name"/>
                                 <xsl:if test="exists($primary/name/@short)">
                                     <xsl:text> (</xsl:text>
@@ -346,7 +346,7 @@
                     <tr>
                         <th valign="top" align="right"><em>Series:</em></th>
                         <td>
-                            <a href="." title="List of specifications in this series">
+                            <a href="./" title="List of specifications in this series">
                                 <xsl:value-of select="$secondary/name"/>
                                 <xsl:if test="exists($secondary/name/@short)">
                                     <xsl:text> (</xsl:text>
