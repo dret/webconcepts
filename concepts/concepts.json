@@ -1,28 +1,1020 @@
 {
-"HTTP Cache Directive": {
+  "HTTP Cache Directive": {
+    "max-age": {
+    },
+    "max-stale": {
+    },
+    "min-fresh": {
+    },
+    "must-revalidate": {
+    },
+    "no-cache": {
+    },
+    "no-store": {
+    },
+    "no-transform": {
+    },
+    "only-if-cached": {
+    },
+    "private": {
+    },
+    "proxy-revalidate": {
+    },
+    "public": {
+    },
+    "s-maxage": {
+    },
+    "stale-if-error": {
+    },
+    "stale-while-revalidate": {
+    }
   },
-"HTTP Content Coding": {
+  "HTTP Content Coding": {
+    "aesgcm": {
+    },
+    "br": {
+    },
+    "compress": {
+    },
+    "deflate": {
+    },
+    "exi": {
+    },
+    "gzip": {
+    },
+    "identity": {
+    },
+    "pack200-gzip": {
+    },
+    "x-compress": {
+    },
+    "x-gzip": {
+    }
   },
-"HTTP Forwarded Parameter": {
+  "HTTP Forwarded Parameter": {
+    "by": {
+    },
+    "for": {
+    },
+    "host": {
+    },
+    "proto": {
+    }
   },
-"HTTP Header Field": {
+  "HTTP Header Field": {
+    "A-IM": {
+    },
+    "ALPN": {
+    },
+    "Accept": {
+    },
+    "Accept-Additions": {
+    },
+    "Accept-Charset": {
+    },
+    "Accept-Datetime": {
+    },
+    "Accept-Encoding": {
+    },
+    "Accept-Features": {
+    },
+    "Accept-Indefinite-Ranges": {
+    },
+    "Accept-Language": {
+    },
+    "Accept-Patch": {
+    },
+    "Accept-Post": {
+    },
+    "Accept-Push-Policy": {
+    },
+    "Accept-Ranges": {
+    },
+    "Access-Control-Allow-Credentials": {
+    },
+    "Access-Control-Allow-Headers": {
+    },
+    "Access-Control-Allow-Methods": {
+    },
+    "Access-Control-Allow-Origin": {
+    },
+    "Access-Control-Expose-Headers": {
+    },
+    "Access-Control-Max-Age": {
+    },
+    "Access-Control-Request-Headers": {
+    },
+    "Access-Control-Request-Method": {
+    },
+    "Age": {
+    },
+    "Allow": {
+    },
+    "Alt-Svc": {
+    },
+    "Alt-Used": {
+    },
+    "Alternates": {
+    },
+    "Apply-To-Redirect-Ref": {
+    },
+    "Authentication-Info": {
+    },
+    "Authorization": {
+    },
+    "C-Ext": {
+    },
+    "C-Man": {
+    },
+    "C-Opt": {
+    },
+    "C-PEP": {
+    },
+    "C-PEP-Info": {
+    },
+    "CH": {
+    },
+    "Cache-Control": {
+    },
+    "Cache-NT": {
+    },
+    "Clear-Site-Data": {
+    },
+    "Close": {
+    },
+    "Connection": {
+    },
+    "Content-Base": {
+    },
+    "Content-DPR": {
+    },
+    "Content-Disposition": {
+    },
+    "Content-Encoding": {
+    },
+    "Content-Language": {
+    },
+    "Content-Length": {
+    },
+    "Content-Location": {
+    },
+    "Content-Range": {
+    },
+    "Content-Security-Policy": {
+    },
+    "Content-Security-Policy-Pin": {
+    },
+    "Content-Security-Policy-Report-Only": {
+    },
+    "Content-Security-Policy-Report-Only-Pin": {
+    },
+    "Content-Signature": {
+    },
+    "Content-Type": {
+    },
+    "Content-Version": {
+    },
+    "Cookie": {
+    },
+    "Cookie2": {
+    },
+    "Crypto-Key": {
+    },
+    "DASL": {
+    },
+    "DAV": {
+    },
+    "DNT": {
+    },
+    "DPR": {
+    },
+    "Date": {
+    },
+    "Delta-Base": {
+    },
+    "Depth": {
+    },
+    "Destination": {
+    },
+    "Digest": {
+    },
+    "Downlink": {
+    },
+    "EDIINT-Features": {
+    },
+    "EPR": {
+    },
+    "ETag": {
+    },
+    "Encryption": {
+    },
+    "Expect": {
+    },
+    "Expires": {
+    },
+    "Ext": {
+    },
+    "Forwarded": {
+    },
+    "From": {
+    },
+    "HTTP2-Settings": {
+    },
+    "HTTPS": {
+    },
+    "Hobareg": {
+    },
+    "Host": {
+    },
+    "IM": {
+    },
+    "If": {
+    },
+    "If-Match": {
+    },
+    "If-Modified-Since": {
+    },
+    "If-None-Match": {
+    },
+    "If-Range": {
+    },
+    "If-Schedule-Tag-Match": {
+    },
+    "If-Unmodified-Since": {
+    },
+    "Key": {
+    },
+    "Label": {
+    },
+    "Last-Event-ID": {
+    },
+    "Last-Modified": {
+    },
+    "Link": {
+    },
+    "Link-Template": {
+    },
+    "Location": {
+    },
+    "Lock-Token": {
+    },
+    "MIME-Version": {
+    },
+    "Man": {
+    },
+    "Max-Forwards": {
+    },
+    "Memento-Datetime": {
+    },
+    "Negotiate": {
+    },
+    "Nice": {
+    },
+    "Opt": {
+    },
+    "Ordering-Type": {
+    },
+    "Origin": {
+    },
+    "Origin-Cookie": {
+    },
+    "Overwrite": {
+    },
+    "P3P": {
+    },
+    "PEP": {
+    },
+    "PEP-Info": {
+    },
+    "POE": {
+    },
+    "POE-Links": {
+    },
+    "Position": {
+    },
+    "Pragma": {
+    },
+    "Prefer": {
+    },
+    "Preference-Applied": {
+    },
+    "Proxy-Authenticate": {
+    },
+    "Proxy-Authentication-Info": {
+    },
+    "Proxy-Authorization": {
+    },
+    "Proxy-Features": {
+    },
+    "Proxy-Instruction": {
+    },
+    "Public": {
+    },
+    "Public-Key-Pins": {
+    },
+    "Public-Key-Pins-Report-Only": {
+    },
+    "Push-Policy": {
+    },
+    "Range": {
+    },
+    "Redirect-Ref": {
+    },
+    "Referer": {
+    },
+    "Report-To": {
+    },
+    "Retry-After": {
+    },
+    "SOAPAction": {
+    },
+    "Safe": {
+    },
+    "Save-Data": {
+    },
+    "Schedule-Reply": {
+    },
+    "Schedule-Tag": {
+    },
+    "Sec-COWL": {
+    },
+    "Sec-WebSocket-Accept": {
+    },
+    "Sec-WebSocket-Extensions": {
+    },
+    "Sec-WebSocket-Key": {
+    },
+    "Sec-WebSocket-Protocol": {
+    },
+    "Sec-WebSocket-Version": {
+    },
+    "Security-Scheme": {
+    },
+    "Server": {
+    },
+    "Set-Cookie": {
+    },
+    "Set-Cookie2": {
+    },
+    "Signature": {
+    },
+    "Slug": {
+    },
+    "Status-URI": {
+    },
+    "Strict-Transport-Security": {
+    },
+    "SubOK": {
+    },
+    "Subst": {
+    },
+    "Sunset": {
+    },
+    "Surrogate-Capability": {
+    },
+    "Surrogate-Control": {
+    },
+    "TCN": {
+    },
+    "TE": {
+    },
+    "Timeout": {
+    },
+    "Tk": {
+    },
+    "Trailer": {
+    },
+    "Transfer-Encoding": {
+    },
+    "Tunnel-Protocol": {
+    },
+    "URI": {
+    },
+    "Upgrade": {
+    },
+    "User-Agent": {
+    },
+    "Variant-Vary": {
+    },
+    "Vary": {
+    },
+    "Via": {
+    },
+    "Viewport-Width": {
+    },
+    "WWW-Authenticate": {
+    },
+    "Want-Digest": {
+    },
+    "Warning": {
+    },
+    "Width": {
+    },
+    "X-Frame-Options": {
+    }
   },
-"HTTP Preference": {
+  "HTTP Preference": {
+    "handling": {
+    },
+    "respond-async": {
+    },
+    "return": {
+    },
+    "wait": {
+    }
   },
-"HTTP Range Unit": {
+  "HTTP Range Unit": {
+    "bytes": {
+    },
+    "bytes-live": {
+    },
+    "none": {
+    }
   },
-"HTTP Request Method": {
+  "HTTP Request Method": {
+    "ACL": {
+    },
+    "BASELINE-CONTROL": {
+    },
+    "BIND": {
+    },
+    "CHECKIN": {
+    },
+    "CHECKOUT": {
+    },
+    "CONNECT": {
+    },
+    "COPY": {
+    },
+    "DELETE": {
+    },
+    "GET": {
+    },
+    "HEAD": {
+    },
+    "LABEL": {
+    },
+    "LOCK": {
+    },
+    "MERGE": {
+    },
+    "MKACTIVITY": {
+    },
+    "MKCALENDAR": {
+    },
+    "MKCOL": {
+    },
+    "MKREDIRECTREF": {
+    },
+    "MKWORKSPACE": {
+    },
+    "MOVE": {
+    },
+    "OPTIONS": {
+    },
+    "ORDERPATCH": {
+    },
+    "PATCH": {
+    },
+    "POST": {
+    },
+    "PRI": {
+    },
+    "PROPFIND": {
+    },
+    "PROPPATCH": {
+    },
+    "PUT": {
+    },
+    "REBIND": {
+    },
+    "REPORT": {
+    },
+    "SEARCH": {
+    },
+    "TRACE": {
+    },
+    "UNBIND": {
+    },
+    "UNCHECKOUT": {
+    },
+    "UNLOCK": {
+    },
+    "UPDATE": {
+    },
+    "UPDATEREDIRECTREF": {
+    },
+    "VERSION-CONTROL": {
+    }
   },
-"HTTP Status Code": {
+  "HTTP Status Code": {
+    "100": {
+    },
+    "101": {
+    },
+    "102": {
+    },
+    "200": {
+    },
+    "201": {
+    },
+    "202": {
+    },
+    "203": {
+    },
+    "204": {
+    },
+    "205": {
+    },
+    "206": {
+    },
+    "207": {
+    },
+    "208": {
+    },
+    "226": {
+    },
+    "300": {
+    },
+    "301": {
+    },
+    "302": {
+    },
+    "303": {
+    },
+    "304": {
+    },
+    "305": {
+    },
+    "306": {
+    },
+    "307": {
+    },
+    "308": {
+    },
+    "400": {
+    },
+    "401": {
+    },
+    "402": {
+    },
+    "403": {
+    },
+    "404": {
+    },
+    "405": {
+    },
+    "406": {
+    },
+    "407": {
+    },
+    "408": {
+    },
+    "409": {
+    },
+    "410": {
+    },
+    "411": {
+    },
+    "412": {
+    },
+    "413": {
+    },
+    "414": {
+    },
+    "415": {
+    },
+    "416": {
+    },
+    "417": {
+    },
+    "418": {
+    },
+    "421": {
+    },
+    "422": {
+    },
+    "423": {
+    },
+    "424": {
+    },
+    "426": {
+    },
+    "428": {
+    },
+    "429": {
+    },
+    "431": {
+    },
+    "451": {
+    },
+    "500": {
+    },
+    "501": {
+    },
+    "502": {
+    },
+    "503": {
+    },
+    "504": {
+    },
+    "505": {
+    },
+    "506": {
+    },
+    "507": {
+    },
+    "508": {
+    },
+    "510": {
+    },
+    "511": {
+    }
   },
-"HTTP Transfer Coding": {
+  "HTTP Transfer Coding": {
+    "chunked": {
+    },
+    "compress": {
+    },
+    "deflate": {
+    },
+    "gzip": {
+    },
+    "identity": {
+    },
+    "x-compress": {
+    },
+    "x-gzip": {
+    }
   },
-"Link Relation": {
+  "Link Relation": {
+    "about": {
+    },
+    "alternate": {
+    },
+    "appendix": {
+    },
+    "bcc": {
+    },
+    "bfrom": {
+    },
+    "bookmark": {
+    },
+    "bto": {
+    },
+    "canonical": {
+    },
+    "cc": {
+    },
+    "chapter": {
+    },
+    "collection": {
+    },
+    "contents": {
+    },
+    "copyright": {
+    },
+    "create": {
+    },
+    "create-form": {
+    },
+    "current": {
+    },
+    "derivedfrom": {
+    },
+    "describedby": {
+    },
+    "describes": {
+    },
+    "disclosure": {
+    },
+    "dns-prefetch": {
+    },
+    "down": {
+    },
+    "edit": {
+    },
+    "edit-form": {
+    },
+    "edit-media": {
+    },
+    "enclosure": {
+    },
+    "first": {
+    },
+    "from": {
+    },
+    "full": {
+    },
+    "generator": {
+    },
+    "glossary": {
+    },
+    "help": {
+    },
+    "home": {
+    },
+    "hosts": {
+    },
+    "index": {
+    },
+    "instances": {
+    },
+    "item": {
+    },
+    "last": {
+    },
+    "latest-version": {
+    },
+    "license": {
+    },
+    "link": {
+    },
+    "location": {
+    },
+    "lrdd": {
+    },
+    "manifest": {
+    },
+    "memento": {
+    },
+    "mentionedby": {
+    },
+    "micropub": {
+    },
+    "next": {
+    },
+    "next-archive": {
+    },
+    "original": {
+    },
+    "preconnect": {
+    },
+    "predecessor-version": {
+    },
+    "prefetch": {
+    },
+    "preload": {
+    },
+    "prerender": {
+    },
+    "prev": {
+    },
+    "prev-archive": {
+    },
+    "preview": {
+    },
+    "previous": {
+    },
+    "privacy-policy": {
+    },
+    "provider": {
+    },
+    "related": {
+    },
+    "root": {
+    },
+    "section": {
+    },
+    "self": {
+    },
+    "service-desc": {
+    },
+    "service-doc": {
+    },
+    "source": {
+    },
+    "start": {
+    },
+    "status": {
+    },
+    "stylesheet": {
+    },
+    "subsection": {
+    },
+    "successor-version": {
+    },
+    "terms-of-service": {
+    },
+    "timegate": {
+    },
+    "timemap": {
+    },
+    "to": {
+    },
+    "type": {
+    },
+    "up": {
+    },
+    "version-history": {
+    },
+    "via": {
+    },
+    "webmention": {
+    },
+    "working-copy": {
+    },
+    "working-copy-of": {
+    }
   },
-"Media Type": {
+  "Media Type": {
+    "application/activity+json": {
+    },
+    "application/alps+json": {
+    },
+    "application/alps+xml": {
+    },
+    "application/atom+xml": {
+    },
+    "application/atomcat+xml": {
+    },
+    "application/atomdeleted+xml": {
+    },
+    "application/atomsvc+xml": {
+    },
+    "application/cbor": {
+    },
+    "application/coap-group+json": {
+    },
+    "application/csrattrs": {
+    },
+    "application/dash+xml": {
+    },
+    "application/exi": {
+    },
+    "application/font-sfnt": {
+    },
+    "application/geo+json": {
+    },
+    "application/gzip": {
+    },
+    "application/held+xml": {
+    },
+    "application/home+json": {
+    },
+    "application/home+xml": {
+    },
+    "application/http": {
+    },
+    "application/jose": {
+    },
+    "application/jose+json": {
+    },
+    "application/jrd+json": {
+    },
+    "application/json": {
+    },
+    "application/json-seq": {
+    },
+    "application/jwk+json": {
+    },
+    "application/jwk-set+json": {
+    },
+    "application/jwt": {
+    },
+    "application/ld+json": {
+    },
+    "application/link-format": {
+    },
+    "application/mads+xml": {
+    },
+    "application/manifest+json": {
+    },
+    "application/marc": {
+    },
+    "application/marcxml+xml": {
+    },
+    "application/mets+xml": {
+    },
+    "application/mods+xml": {
+    },
+    "application/nlsml+xml": {
+    },
+    "application/p2p-overlay+xml": {
+    },
+    "application/patch-ops-error+xml": {
+    },
+    "application/powder+xml": {
+    },
+    "application/powder-s+xml": {
+    },
+    "application/problem+json": {
+    },
+    "application/problem+xml": {
+    },
+    "application/rfc+xml": {
+    },
+    "application/sru+xml": {
+    },
+    "application/trig": {
+    },
+    "application/vcard+xml": {
+    },
+    "application/xml": {
+    },
+    "application/xml-dtd": {
+    },
+    "application/xml-external-parsed-entity": {
+    },
+    "application/xml-patch+xml": {
+    },
+    "application/zlib": {
+    },
+    "image/png": {
+    },
+    "message/http": {
+    },
+    "multipart/form-data": {
+    },
+    "text/event-stream": {
+    },
+    "text/grammar-ref-list": {
+    },
+    "text/html": {
+    },
+    "text/markdown": {
+    },
+    "text/plain": {
+    },
+    "text/vcard": {
+    },
+    "text/vtt": {
+    },
+    "text/xml": {
+    },
+    "text/xml-external-parsed-entity": {
+    }
   },
-"URI Scheme": {
+  "URI Scheme": {
+    "cap": {
+    },
+    "data": {
+    },
+    "example": {
+    },
+    "ftp": {
+    },
+    "geo": {
+    },
+    "http": {
+    },
+    "https": {
+    },
+    "mailto": {
+    },
+    "ni": {
+    },
+    "nih": {
+    },
+    "reload": {
+    },
+    "session": {
+    },
+    "sms": {
+    },
+    "telnet": {
+    },
+    "ws": {
+    },
+    "wss": {
+    }
   },
-"Well-Known URI": {
+  "Well-Known URI": {
+    "caldav": {
+    },
+    "carddav": {
+    },
+    "core": {
+    },
+    "csvm": {
+    },
+    "dnt": {
+    },
+    "est": {
+    },
+    "genid": {
+    },
+    "hoba": {
+    },
+    "host-meta": {
+    },
+    "host-meta.json": {
+    },
+    "ni": {
+    },
+    "posh": {
+    },
+    "reload-config": {
+    },
+    "repute-template": {
+    },
+    "stun-key": {
+    },
+    "timezone": {
+    },
+    "void": {
+    },
+    "webfinger": {
+    }
   }
 }
