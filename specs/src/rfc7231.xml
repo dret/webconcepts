@@ -102,8 +102,7 @@
         <documentation source="http://tools.ietf.org/html/rfc7231#section-6.4.5">The 305 (Use Proxy) status code was defined in a previous version of HTTP/1.1 and is now deprecated.</documentation>
     </http-status>
     <http-status def="306" desc="Unused">
-        <documentation source="http://tools.ietf.org/html/rfc7231#section-6.4.6">The 306 status code was defined in a previous version of HTTP/1.1, is no longer used, and the code is reserved.
-        </documentation>
+        <documentation source="http://tools.ietf.org/html/rfc7231#section-6.4.6">The 306 status code was defined in a previous version of HTTP/1.1, is no longer used, and the code is reserved.</documentation>
     </http-status>
     <http-status def="307" desc="Temporary Redirect">
         <documentation source="http://tools.ietf.org/html/rfc7231#section-6.4.7">The 307 (Temporary Redirect) status code indicates that the target resource resides temporarily under a different URI and the user agent MUST NOT change the request method if it performs an automatic redirection to that URI. Since the redirection can change over time, the client ought to continue using the original effective request URI for future requests.</documentation>
