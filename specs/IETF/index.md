@@ -1,6 +1,7 @@
 ---
-layout: page
-title:  "Internet Engineering Task Force: Specification Series"
+layout:      page
+title:       "Internet Engineering Task Force: Specification Series"
+description: "List of specification series by the Internet Engineering Task Force (IETF)"
 ---
 
 Here is a list of all specification series by the [Internet Engineering Task Force (IETF)](http://www.ietf.org/) that are currently available, for a total of 131 specifications:

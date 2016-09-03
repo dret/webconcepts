@@ -1,6 +1,7 @@
 ---
-layout: page
-title:  "ISO International Electrotechnical Commission Series"
+layout:      page
+title:       "ISO International Electrotechnical Commission Series"
+description: "List of specifications in the International Electrotechnical Commission (IEC) series by the International Organization for Standardization (ISO)"
 ---
 
 There are currently 2 listed specifications in the [International Organization for Standardization (ISO)](..)'s International Electrotechnical Commission (IEC) series.

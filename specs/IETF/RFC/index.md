@@ -1,6 +1,7 @@
 ---
-layout: page
-title:  "IETF Request for Comments Series"
+layout:      page
+title:       "IETF Request for Comments Series"
+description: "List of specifications in the Request for Comments (RFC) series by the Internet Engineering Task Force (IETF)"
 ---
 
 There are currently 106 listed specifications in the [Internet Engineering Task Force (IETF)](..)'s Request for Comments (RFC) series.

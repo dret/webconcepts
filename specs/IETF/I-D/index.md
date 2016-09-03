@@ -1,6 +1,7 @@
 ---
-layout: page
-title:  "IETF Internet Draft Series"
+layout:      page
+title:       "IETF Internet Draft Series"
+description: "List of specifications in the Internet Draft (I-D) series by the Internet Engineering Task Force (IETF)"
 ---
 
 There are currently 25 listed specifications in the [Internet Engineering Task Force (IETF)](..)'s Internet Draft (I-D) series.

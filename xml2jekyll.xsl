@@ -7,10 +7,11 @@
     <xsl:template name="xml2jekyll">
         <xsl:result-document href="{$specs-dir}/index.md" format="markdown">
             <xsl:text>---&#xa;</xsl:text>
-            <xsl:text>layout: page&#xa;</xsl:text>
-            <xsl:text>title:  "Web Concept Specifications: Organizations"&#xa;</xsl:text>
+            <xsl:text>layout:      page&#xa;</xsl:text>
+            <xsl:text>title:       "Web Concept Specifications: Organizations"&#xa;</xsl:text>
+            <xsl:text>description: "List of all organizations and their specification series that are used to compile the list of Web Concepts"&#xa;</xsl:text>
             <xsl:text>---&#xa;&#xa;</xsl:text>
-            <xsl:text>This is a list of all organizations and their specification series that are currently used to compile the list of [Web Concepts](../concepts).&#xa;&#xa;</xsl:text>
+            <xsl:text>This is a list of all organizations and their specification series that are used to compile the list of [Web Concepts](../concepts).&#xa;&#xa;</xsl:text>
             <xsl:for-each select="$specs/specs/primary">
                 <xsl:sort select="name"/>
                 <xsl:variable name="primary" select="."/>
@@ -45,10 +46,18 @@
                 </xsl:for-each>
                 <xsl:result-document href="{$specs-dir}/{$primary/@id}/index.md" format="markdown">
                     <xsl:text>---&#xa;</xsl:text>
-                    <xsl:text>layout: page&#xa;</xsl:text>
-                    <xsl:text>title:  "</xsl:text>
+                    <xsl:text>layout:      page&#xa;</xsl:text>
+                    <xsl:text>title:       "</xsl:text>
                     <xsl:value-of select="name"/>
                     <xsl:text>: Specification Series"&#xa;</xsl:text>
+                    <xsl:text>description: "List of specification series by the </xsl:text>
+                    <xsl:value-of select="name"/>
+                    <xsl:if test="exists(name/@short)">
+                        <xsl:text> (</xsl:text>
+                        <xsl:value-of select="name/@short"/>
+                        <xsl:text>)</xsl:text>
+                    </xsl:if>
+                    <xsl:text>"&#xa;</xsl:text>
                     <xsl:text>---&#xa;&#xa;</xsl:text>
                     <xsl:text>Here is a list of all specification series by the [</xsl:text>
                     <xsl:value-of select="name"/>
@@ -80,8 +89,8 @@
                         <xsl:text> Specifications&#xa;</xsl:text>
                         <xsl:result-document href="{$specs-dir}/{$primary/@id}/{$secondary/@id}/index.md" format="markdown">
                             <xsl:text>---&#xa;</xsl:text>
-                            <xsl:text>layout: page&#xa;</xsl:text>
-                            <xsl:text>title:  "</xsl:text>
+                            <xsl:text>layout:      page&#xa;</xsl:text>
+                            <xsl:text>title:       "</xsl:text>
                             <xsl:choose>
                                 <xsl:when test="exists(../name/@short)">
                                     <xsl:value-of select="../name/@short"/>
@@ -93,6 +102,21 @@
                             <xsl:text> </xsl:text>
                             <xsl:value-of select="name"/>
                             <xsl:text> Series"&#xa;</xsl:text>
+                            <xsl:text>description: "List of specifications in the </xsl:text>
+                            <xsl:value-of select="name"/>
+                            <xsl:if test="exists(name/@short)">
+                                <xsl:text> (</xsl:text>
+                                <xsl:value-of select="name/@short"/>
+                                <xsl:text>)</xsl:text>
+                            </xsl:if>
+                            <xsl:text> series by the </xsl:text>
+                            <xsl:value-of select="../name"/>
+                            <xsl:if test="exists(../name/@short)">
+                                <xsl:text> (</xsl:text>
+                                <xsl:value-of select="../name/@short"/>
+                                <xsl:text>)</xsl:text>
+                            </xsl:if>
+                            <xsl:text>"&#xa;</xsl:text>
                             <xsl:text>---&#xa;&#xa;</xsl:text>
                             <xsl:text>There are currently </xsl:text>
                             <xsl:value-of select="count($services)"/>
