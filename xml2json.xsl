@@ -35,8 +35,7 @@
                         <xsl:text>        "specification": </xsl:text>
                         <xsl:variable name="secondary" select="$specs/specs/primary[@id eq current()/../@primary]/secondary[@id eq current()/../@secondary]"/>
                         <xsl:variable name="id" select="replace(current()/../@id, $secondary/id-pattern, $secondary/md-pattern)"/>
-                        <xsl:value-of select="concat('&quot;http://webconcepts.info/', $specs-dir, '/', $secondary/../@id, '/', $secondary/@id, '/', $id, '&quot;&#xa;')"/>
-                        <xsl:text>          }</xsl:text>
+                        <xsl:value-of select="concat('&quot;http://webconcepts.info/', $specs-dir, '/', $secondary/../@id, '/', $secondary/@id, '/', $id, '&quot; }')"/>
                         <xsl:if test="position() ne last()">
                             <xsl:text>,</xsl:text>
                         </xsl:if>
@@ -47,8 +46,7 @@
                     </xsl:if>
                     <xsl:text>&#xa;</xsl:text>
                 </xsl:for-each>
-                <xsl:text>    ]</xsl:text>
-                <xsl:text>  }</xsl:text>
+                <xsl:text>    ] }</xsl:text>
                 <xsl:if test="position() ne last()">
                     <xsl:text>,</xsl:text>
                 </xsl:if>
