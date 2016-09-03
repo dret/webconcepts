@@ -54,5 +54,9 @@
             </xsl:for-each>
             <xsl:text>}</xsl:text>
         </xsl:result-document>
+        <xsl:result-document href="{$specs-dir}/specs.json" format="json">
+            <xsl:text>{&#xa;</xsl:text>
+            <xsl:text>}</xsl:text>
+        </xsl:result-document>
     </xsl:template>
 </xsl:stylesheet>
