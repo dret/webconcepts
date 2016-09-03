@@ -1,2 +1,336 @@
 {
+  "IETF/I-D/amundsen-richardson-foster-alps": {
+  },
+  "IETF/I-D/cavage-http-signatures": {
+  },
+  "IETF/I-D/combs-http-indeterminate-range": {
+  },
+  "IETF/I-D/divilly-atom-hierarchy": {
+  },
+  "IETF/I-D/drechsler-httpbis-improved-caching": {
+  },
+  "IETF/I-D/grigorik-http-client-hints": {
+  },
+  "IETF/I-D/hoffman-xml2rfc": {
+  },
+  "IETF/I-D/ietf-httpbis-client-hints": {
+  },
+  "IETF/I-D/ietf-httpbis-encryption-encoding": {
+  },
+  "IETF/I-D/ietf-httpbis-key": {
+  },
+  "IETF/I-D/ietf-httpbis-tunnel-protocol": {
+  },
+  "IETF/I-D/mogul-http-dupsup": {
+  },
+  "IETF/I-D/nottingham-http-poe": {
+  },
+  "IETF/I-D/nottingham-json-home": {
+  },
+  "IETF/I-D/nottingham-link-template": {
+  },
+  "IETF/I-D/pratt-httpbis-bytes-live-range-unit": {
+  },
+  "IETF/I-D/ruellan-http-accept-push-policy": {
+  },
+  "IETF/I-D/snell-more-link-relations": {
+  },
+  "IETF/I-D/thomson-http-content-signature": {
+  },
+  "IETF/I-D/thomson-http-nice": {
+  },
+  "IETF/I-D/west-origin-cookies": {
+  },
+  "IETF/I-D/wilde-home-xml": {
+  },
+  "IETF/I-D/wilde-service-link-rel": {
+  },
+  "IETF/I-D/wilde-sunset-header": {
+  },
+  "IETF/I-D/zyp-json-schema": {
+  },
+  "IETF/RFC/1738": {
+  },
+  "IETF/RFC/2068": {
+  },
+  "IETF/RFC/2220": {
+  },
+  "IETF/RFC/2295": {
+  },
+  "IETF/RFC/2310": {
+  },
+  "IETF/RFC/2324": {
+  },
+  "IETF/RFC/2388": {
+  },
+  "IETF/RFC/2397": {
+  },
+  "IETF/RFC/2518": {
+  },
+  "IETF/RFC/2616": {
+  },
+  "IETF/RFC/2660": {
+  },
+  "IETF/RFC/2774": {
+  },
+  "IETF/RFC/2965": {
+  },
+  "IETF/RFC/3023": {
+  },
+  "IETF/RFC/3229": {
+  },
+  "IETF/RFC/3230": {
+  },
+  "IETF/RFC/3253": {
+  },
+  "IETF/RFC/3648": {
+  },
+  "IETF/RFC/3744": {
+  },
+  "IETF/RFC/3778": {
+  },
+  "IETF/RFC/4248": {
+  },
+  "IETF/RFC/4287": {
+  },
+  "IETF/RFC/4324": {
+  },
+  "IETF/RFC/4437": {
+  },
+  "IETF/RFC/4791": {
+  },
+  "IETF/RFC/4918": {
+  },
+  "IETF/RFC/4946": {
+  },
+  "IETF/RFC/5005": {
+  },
+  "IETF/RFC/5023": {
+  },
+  "IETF/RFC/5174": {
+  },
+  "IETF/RFC/5261": {
+  },
+  "IETF/RFC/5323": {
+  },
+  "IETF/RFC/5724": {
+  },
+  "IETF/RFC/5789": {
+  },
+  "IETF/RFC/5829": {
+  },
+  "IETF/RFC/5842": {
+  },
+  "IETF/RFC/5849": {
+  },
+  "IETF/RFC/5861": {
+  },
+  "IETF/RFC/5870": {
+  },
+  "IETF/RFC/5985": {
+  },
+  "IETF/RFC/5988": {
+  },
+  "IETF/RFC/6017": {
+  },
+  "IETF/RFC/6068": {
+  },
+  "IETF/RFC/6207": {
+  },
+  "IETF/RFC/6265": {
+  },
+  "IETF/RFC/6266": {
+  },
+  "IETF/RFC/6271": {
+  },
+  "IETF/RFC/6350": {
+  },
+  "IETF/RFC/6351": {
+  },
+  "IETF/RFC/6415": {
+  },
+  "IETF/RFC/6455": {
+  },
+  "IETF/RFC/6573": {
+  },
+  "IETF/RFC/6579": {
+  },
+  "IETF/RFC/6585": {
+  },
+  "IETF/RFC/6596": {
+  },
+  "IETF/RFC/6638": {
+  },
+  "IETF/RFC/6690": {
+  },
+  "IETF/RFC/6713": {
+  },
+  "IETF/RFC/6764": {
+  },
+  "IETF/RFC/6768": {
+  },
+  "IETF/RFC/6797": {
+  },
+  "IETF/RFC/6861": {
+  },
+  "IETF/RFC/6892": {
+  },
+  "IETF/RFC/6903": {
+  },
+  "IETF/RFC/6920": {
+  },
+  "IETF/RFC/6940": {
+  },
+  "IETF/RFC/7030": {
+  },
+  "IETF/RFC/7033": {
+  },
+  "IETF/RFC/7034": {
+  },
+  "IETF/RFC/7049": {
+  },
+  "IETF/RFC/7072": {
+  },
+  "IETF/RFC/7089": {
+  },
+  "IETF/RFC/7159": {
+  },
+  "IETF/RFC/7168": {
+  },
+  "IETF/RFC/7230": {
+  },
+  "IETF/RFC/7231": {
+  },
+  "IETF/RFC/7232": {
+  },
+  "IETF/RFC/7233": {
+  },
+  "IETF/RFC/7234": {
+  },
+  "IETF/RFC/7235": {
+  },
+  "IETF/RFC/7239": {
+  },
+  "IETF/RFC/7240": {
+  },
+  "IETF/RFC/7351": {
+  },
+  "IETF/RFC/7390": {
+  },
+  "IETF/RFC/7464": {
+  },
+  "IETF/RFC/7469": {
+  },
+  "IETF/RFC/7486": {
+  },
+  "IETF/RFC/7515": {
+  },
+  "IETF/RFC/7517": {
+  },
+  "IETF/RFC/7519": {
+  },
+  "IETF/RFC/7538": {
+  },
+  "IETF/RFC/7540": {
+  },
+  "IETF/RFC/7595": {
+  },
+  "IETF/RFC/7615": {
+  },
+  "IETF/RFC/7616": {
+  },
+  "IETF/RFC/7635": {
+  },
+  "IETF/RFC/7639": {
+  },
+  "IETF/RFC/7694": {
+  },
+  "IETF/RFC/7711": {
+  },
+  "IETF/RFC/7725": {
+  },
+  "IETF/RFC/7763": {
+  },
+  "IETF/RFC/7807": {
+  },
+  "IETF/RFC/7808": {
+  },
+  "IETF/RFC/7838": {
+  },
+  "IETF/RFC/7932": {
+  },
+  "IETF/RFC/7946": {
+  },
+  "ISO/IEC/14496-22": {
+  },
+  "ISO/IEC/23009-1": {
+  },
+  "JCP/JSR/200": {
+  },
+  "W3C/TR/COWL": {
+  },
+  "W3C/TR/CSP2": {
+  },
+  "W3C/TR/CSP3": {
+  },
+  "W3C/TR/P3P": {
+  },
+  "W3C/TR/PNG": {
+  },
+  "W3C/TR/SOAP": {
+  },
+  "W3C/TR/WD-http-pep": {
+  },
+  "W3C/TR/WD-proxy": {
+  },
+  "W3C/TR/activitystreams-core": {
+  },
+  "W3C/TR/appmanifest": {
+  },
+  "W3C/TR/clear-site-data": {
+  },
+  "W3C/TR/cors": {
+  },
+  "W3C/TR/csp-pinning": {
+  },
+  "W3C/TR/edge-arch": {
+  },
+  "W3C/TR/epr": {
+  },
+  "W3C/TR/eventsource": {
+  },
+  "W3C/TR/exi": {
+  },
+  "W3C/TR/html4": {
+  },
+  "W3C/TR/json-ld": {
+  },
+  "W3C/TR/ldp": {
+  },
+  "W3C/TR/micropub": {
+  },
+  "W3C/TR/powder-dr": {
+  },
+  "W3C/TR/preload": {
+  },
+  "W3C/TR/rdf11-concepts": {
+  },
+  "W3C/TR/reporting-1": {
+  },
+  "W3C/TR/resource-hints": {
+  },
+  "W3C/TR/tabular-data-model": {
+  },
+  "W3C/TR/tracking-dnt": {
+  },
+  "W3C/TR/trig": {
+  },
+  "W3C/TR/upgrade-insecure-requests": {
+  },
+  "W3C/TR/void": {
+  },
+  "W3C/TR/webmention": {
+  },
+  "W3C/TR/webvtt": {
+  }
 }

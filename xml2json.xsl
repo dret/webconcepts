@@ -56,6 +56,18 @@
         </xsl:result-document>
         <xsl:result-document href="{$specs-dir}/specs.json" format="json">
             <xsl:text>{&#xa;</xsl:text>
+            <xsl:for-each select="$allspecs/sedola:service">
+                <xsl:sort select="@primary"/>
+                <xsl:sort select="@secondary"/>
+                <xsl:sort select="@id"/>
+                <xsl:variable name="concept" select="."/>
+                <xsl:value-of select="concat('  &quot;', @primary, '/', @secondary, '/', @id, '&quot;: {&#xa;')"/>
+                <xsl:text>  }</xsl:text>
+                <xsl:if test="position() ne last()">
+                    <xsl:text>,</xsl:text>
+                </xsl:if>
+                <xsl:text>&#xa;</xsl:text>
+            </xsl:for-each>
             <xsl:text>}</xsl:text>
         </xsl:result-document>
     </xsl:template>
