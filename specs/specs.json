@@ -3,555 +3,546 @@
     "URI": "http://webconcepts.info/specs/IETF/",
     "name": "Internet Engineering Task Force",
     "short": "IETF",
-    "series": [
-    { "I-D": {
+    "series": [ {
+      "I-D": {
         "URI": "http://webconcepts.info/specs/IETF/I-D/",
         "name": "Internet Draft",
         "short": "I-D",
-        "specs": [
-        { "amundsen-richardson-foster-alps": {
+        "specs": [ {
+          "amundsen-richardson-foster-alps": {
             "title": "Application-Level Profile Semantics (ALPS)",
-            "name": "Internet Draft amundsen-richardson-foster-alps" } },
-        { "cavage-http-signatures": {
+            "name": "Internet Draft amundsen-richardson-foster-alps" } }, {
+          "cavage-http-signatures": {
             "title": "Signing HTTP Messages",
-            "name": "Internet Draft cavage-http-signatures" } },
-        { "combs-http-indeterminate-range": {
+            "name": "Internet Draft cavage-http-signatures" } }, {
+          "combs-http-indeterminate-range": {
             "title": "HTTP/1.1: Range Responses of Indeterminate Length",
-            "name": "Internet Draft combs-http-indeterminate-range" } },
-        { "divilly-atom-hierarchy": {
+            "name": "Internet Draft combs-http-indeterminate-range" } }, {
+          "divilly-atom-hierarchy": {
             "title": "Hierarchy Relations for Atom",
-            "name": "Internet Draft divilly-atom-hierarchy" } },
-        { "drechsler-httpbis-improved-caching": {
+            "name": "Internet Draft divilly-atom-hierarchy" } }, {
+          "drechsler-httpbis-improved-caching": {
             "title": "Hypertext Transfer Protocol: Improved HTTP Caching",
-            "name": "Internet Draft drechsler-httpbis-improved-caching" } },
-        { "grigorik-http-client-hints": {
+            "name": "Internet Draft drechsler-httpbis-improved-caching" } }, {
+          "grigorik-http-client-hints": {
             "title": "HTTP Client Hints",
-            "name": "Internet Draft grigorik-http-client-hints" } },
-        { "hoffman-xml2rfc": {
+            "name": "Internet Draft grigorik-http-client-hints" } }, {
+          "hoffman-xml2rfc": {
             "title": "The 'XML2RFC' version 3 Vocabulary",
-            "name": "Internet Draft hoffman-xml2rfc" } },
-        { "ietf-httpbis-client-hints": {
+            "name": "Internet Draft hoffman-xml2rfc" } }, {
+          "ietf-httpbis-client-hints": {
             "title": "HTTP Client Hints",
-            "name": "Internet Draft ietf-httpbis-client-hints" } },
-        { "ietf-httpbis-encryption-encoding": {
+            "name": "Internet Draft ietf-httpbis-client-hints" } }, {
+          "ietf-httpbis-encryption-encoding": {
             "title": "Encrypted Content-Encoding for HTTP",
-            "name": "Internet Draft ietf-httpbis-encryption-encoding" } },
-        { "ietf-httpbis-key": {
+            "name": "Internet Draft ietf-httpbis-encryption-encoding" } }, {
+          "ietf-httpbis-key": {
             "title": "The Key HTTP Response Header Field",
-            "name": "Internet Draft ietf-httpbis-key" } },
-        { "ietf-httpbis-tunnel-protocol": {
+            "name": "Internet Draft ietf-httpbis-key" } }, {
+          "ietf-httpbis-tunnel-protocol": {
             "title": "The Tunnel-Protocol HTTP Header Field",
-            "name": "Internet Draft ietf-httpbis-tunnel-protocol" } },
-        { "mogul-http-dupsup": {
+            "name": "Internet Draft ietf-httpbis-tunnel-protocol" } }, {
+          "mogul-http-dupsup": {
             "title": "Duplicate Suppression in HTTP",
-            "name": "Internet Draft mogul-http-dupsup" } },
-        { "nottingham-http-poe": {
+            "name": "Internet Draft mogul-http-dupsup" } }, {
+          "nottingham-http-poe": {
             "title": "POST Once Exactly (POE)",
-            "name": "Internet Draft nottingham-http-poe" } },
-        { "nottingham-json-home": {
+            "name": "Internet Draft nottingham-http-poe" } }, {
+          "nottingham-json-home": {
             "title": "Home Documents for HTTP APIs",
-            "name": "Internet Draft nottingham-json-home" } },
-        { "nottingham-link-template": {
+            "name": "Internet Draft nottingham-json-home" } }, {
+          "nottingham-link-template": {
             "title": "The Link-Template HTTP Header Field",
-            "name": "Internet Draft nottingham-link-template" } },
-        { "pratt-httpbis-bytes-live-range-unit": {
+            "name": "Internet Draft nottingham-link-template" } }, {
+          "pratt-httpbis-bytes-live-range-unit": {
             "title": "HTTP bytes-live Range Unit for Live Content",
-            "name": "Internet Draft pratt-httpbis-bytes-live-range-unit" } },
-        { "ruellan-http-accept-push-policy": {
+            "name": "Internet Draft pratt-httpbis-bytes-live-range-unit" } }, {
+          "ruellan-http-accept-push-policy": {
             "title": "Accept-Push-Policy Header Field",
-            "name": "Internet Draft ruellan-http-accept-push-policy" } },
-        { "snell-more-link-relations": {
+            "name": "Internet Draft ruellan-http-accept-push-policy" } }, {
+          "snell-more-link-relations": {
             "title": "Additional Link Relations and the urn:social Namespace",
-            "name": "Internet Draft snell-more-link-relations" } },
-        { "thomson-http-content-signature": {
+            "name": "Internet Draft snell-more-link-relations" } }, {
+          "thomson-http-content-signature": {
             "title": "Content-Signature Header Field for HTTP",
-            "name": "Internet Draft thomson-http-content-signature" } },
-        { "thomson-http-nice": {
+            "name": "Internet Draft thomson-http-content-signature" } }, {
+          "thomson-http-nice": {
             "title": "Marking HTTP Requests as Unimportant",
-            "name": "Internet Draft thomson-http-nice" } },
-        { "west-origin-cookies": {
+            "name": "Internet Draft thomson-http-nice" } }, {
+          "west-origin-cookies": {
             "title": "Origin Cookies",
-            "name": "Internet Draft west-origin-cookies" } },
-        { "wilde-home-xml": {
+            "name": "Internet Draft west-origin-cookies" } }, {
+          "wilde-home-xml": {
             "title": "Home Documents for HTTP Services: XML Syntax",
-            "name": "Internet Draft wilde-home-xml" } },
-        { "wilde-service-link-rel": {
+            "name": "Internet Draft wilde-home-xml" } }, {
+          "wilde-service-link-rel": {
             "title": "Link Relation Types for Web Services",
-            "name": "Internet Draft wilde-service-link-rel" } },
-        { "wilde-sunset-header": {
+            "name": "Internet Draft wilde-service-link-rel" } }, {
+          "wilde-sunset-header": {
             "title": "The Sunset HTTP Header",
-            "name": "Internet Draft wilde-sunset-header" } },
-        { "zyp-json-schema": {
+            "name": "Internet Draft wilde-sunset-header" } }, {
+          "zyp-json-schema": {
             "title": "A JSON Media Type for Describing the Structure and Meaning of JSON Documents",
-            "name": "Internet Draft zyp-json-schema" } }
-    ] } },
-    { "RFC": {
+            "name": "Internet Draft zyp-json-schema" } } ] } }, {
+      "RFC": {
         "URI": "http://webconcepts.info/specs/IETF/RFC/",
         "name": "Request for Comments",
         "short": "RFC",
-        "specs": [
-        { "1738": {
+        "specs": [ {
+          "1738": {
             "title": "Uniform Resource Locators (URL)",
-            "name": "RFC 1738" } },
-        { "2068": {
+            "name": "RFC 1738" } }, {
+          "2068": {
             "title": "Hypertext Transfer Protocol - HTTP/1.1",
-            "name": "RFC 2068" } },
-        { "2220": {
+            "name": "RFC 2068" } }, {
+          "2220": {
             "title": "The Application/MARC Content-type",
-            "name": "RFC 2220" } },
-        { "2295": {
+            "name": "RFC 2220" } }, {
+          "2295": {
             "title": "Transparent Content Negotiation in HTTP",
-            "name": "RFC 2295" } },
-        { "2310": {
+            "name": "RFC 2295" } }, {
+          "2310": {
             "title": "The Safe Response Header Field",
-            "name": "RFC 2310" } },
-        { "2324": {
+            "name": "RFC 2310" } }, {
+          "2324": {
             "title": "Hyper Text Coffee Pot Control Protocol (HTCPCP/1.0)",
-            "name": "RFC 2324" } },
-        { "2388": {
+            "name": "RFC 2324" } }, {
+          "2388": {
             "title": "Returning Values from Forms: multipart/form-data",
-            "name": "RFC 2388" } },
-        { "2397": {
+            "name": "RFC 2388" } }, {
+          "2397": {
             "title": "The \"data\" URL scheme",
-            "name": "RFC 2397" } },
-        { "2518": {
+            "name": "RFC 2397" } }, {
+          "2518": {
             "title": "HTTP Extensions for Distributed Authoring - WEBDAV",
-            "name": "RFC 2518" } },
-        { "2616": {
+            "name": "RFC 2518" } }, {
+          "2616": {
             "title": "Hypertext Transfer Protocol -- HTTP/1.1",
-            "name": "RFC 2616" } },
-        { "2660": {
+            "name": "RFC 2616" } }, {
+          "2660": {
             "title": "The Secure HyperText Transfer Protocol (S-HTTP)",
-            "name": "RFC 2660" } },
-        { "2774": {
+            "name": "RFC 2660" } }, {
+          "2774": {
             "title": "An HTTP Extension Framework",
-            "name": "RFC 2774" } },
-        { "2965": {
+            "name": "RFC 2774" } }, {
+          "2965": {
             "title": "HTTP State Management Mechanism",
-            "name": "RFC 2965" } },
-        { "3023": {
+            "name": "RFC 2965" } }, {
+          "3023": {
             "title": "XML Media Types",
-            "name": "RFC 3023" } },
-        { "3229": {
+            "name": "RFC 3023" } }, {
+          "3229": {
             "title": "Delta encoding in HTTP",
-            "name": "RFC 3229" } },
-        { "3230": {
+            "name": "RFC 3229" } }, {
+          "3230": {
             "title": "Instance Digests in HTTP",
-            "name": "RFC 3230" } },
-        { "3253": {
+            "name": "RFC 3230" } }, {
+          "3253": {
             "title": "Versioning Extensions to WebDAV (Web Distributed Authoring and Versioning)",
-            "name": "RFC 3253" } },
-        { "3648": {
+            "name": "RFC 3253" } }, {
+          "3648": {
             "title": "Web Distributed Authoring and Versioning (WebDAV) Ordered Collections Protocol",
-            "name": "RFC 3648" } },
-        { "3744": {
+            "name": "RFC 3648" } }, {
+          "3744": {
             "title": "Web Distributed Authoring and Versioning (WebDAV) Access Control Protocol",
-            "name": "RFC 3744" } },
-        { "3778": {
+            "name": "RFC 3744" } }, {
+          "3778": {
             "title": "The application/pdf Media Type",
-            "name": "RFC 3778" } },
-        { "4248": {
+            "name": "RFC 3778" } }, {
+          "4248": {
             "title": "The telnet URI Scheme",
-            "name": "RFC 4248" } },
-        { "4287": {
+            "name": "RFC 4248" } }, {
+          "4287": {
             "title": "Atom Syndication Format",
-            "name": "RFC 4287" } },
-        { "4324": {
+            "name": "RFC 4287" } }, {
+          "4324": {
             "title": "Calendar Access Protocol (CAP)",
-            "name": "RFC 4324" } },
-        { "4437": {
+            "name": "RFC 4324" } }, {
+          "4437": {
             "title": "Web Distributed Authoring and Versioning (WebDAV): Redirect Reference Resources",
-            "name": "RFC 4437" } },
-        { "4791": {
+            "name": "RFC 4437" } }, {
+          "4791": {
             "title": "Calendaring Extensions to WebDAV (CalDAV)",
-            "name": "RFC 4791" } },
-        { "4918": {
+            "name": "RFC 4791" } }, {
+          "4918": {
             "title": "HTTP Extensions for Web Distributed Authoring and Versioning (WebDAV)",
-            "name": "RFC 4918" } },
-        { "4946": {
+            "name": "RFC 4918" } }, {
+          "4946": {
             "title": "Atom License Extension",
-            "name": "RFC 4946" } },
-        { "5005": {
+            "name": "RFC 4946" } }, {
+          "5005": {
             "title": "Feed Paging and Archiving",
-            "name": "RFC 5005" } },
-        { "5023": {
+            "name": "RFC 5005" } }, {
+          "5023": {
             "title": "Atom Publishing Protocol (AtomPub)",
-            "name": "RFC 5023" } },
-        { "5174": {
+            "name": "RFC 5023" } }, {
+          "5174": {
             "title": "URI Fragment Identifiers for the text/plain Media Type",
-            "name": "RFC 5174" } },
-        { "5261": {
+            "name": "RFC 5174" } }, {
+          "5261": {
             "title": "An Extensible Markup Language (XML) Patch Operations Framework Utilizing XML Path Language (XPath) Selectors",
-            "name": "RFC 5261" } },
-        { "5323": {
+            "name": "RFC 5261" } }, {
+          "5323": {
             "title": "Web Distributed Authoring and Versioning (WebDAV) SEARCH",
-            "name": "RFC 5323" } },
-        { "5724": {
+            "name": "RFC 5323" } }, {
+          "5724": {
             "title": "URI Scheme for Global System for Mobile Communications (GSM) Short Message Service (SMS)",
-            "name": "RFC 5724" } },
-        { "5789": {
+            "name": "RFC 5724" } }, {
+          "5789": {
             "title": "PATCH Method for HTTP",
-            "name": "RFC 5789" } },
-        { "5829": {
+            "name": "RFC 5789" } }, {
+          "5829": {
             "title": "Link Relation Types for Simple Version Navigation between Web Resources",
-            "name": "RFC 5829" } },
-        { "5842": {
+            "name": "RFC 5829" } }, {
+          "5842": {
             "title": "Binding Extensions to Web Distributed Authoring and Versioning (WebDAV)",
-            "name": "RFC 5842" } },
-        { "5849": {
+            "name": "RFC 5842" } }, {
+          "5849": {
             "title": "The OAuth 1.0 Protocol",
-            "name": "RFC 5849" } },
-        { "5861": {
+            "name": "RFC 5849" } }, {
+          "5861": {
             "title": "HTTP Cache-Control Extensions for Stale Content",
-            "name": "RFC 5861" } },
-        { "5870": {
+            "name": "RFC 5861" } }, {
+          "5870": {
             "title": "A Uniform Resource Identifier for Geographic Locations ('geo' URI)",
-            "name": "RFC 5870" } },
-        { "5985": {
+            "name": "RFC 5870" } }, {
+          "5985": {
             "title": "HTTP-Enabled Location Delivery (HELD)",
-            "name": "RFC 5985" } },
-        { "5988": {
+            "name": "RFC 5985" } }, {
+          "5988": {
             "title": "Web Linking",
-            "name": "RFC 5988" } },
-        { "6017": {
+            "name": "RFC 5988" } }, {
+          "6017": {
             "title": "Electronic Data Interchange - Internet Integration (EDIINT) Features Header Field",
-            "name": "RFC 6017" } },
-        { "6068": {
+            "name": "RFC 6017" } }, {
+          "6068": {
             "title": "The 'mailto' URI Scheme",
-            "name": "RFC 6068" } },
-        { "6207": {
+            "name": "RFC 6068" } }, {
+          "6207": {
             "title": "The Media Types application/mods+xml, application/mads+xml, application/mets+xml, application/marcxml+xml, and application/sru+xml",
-            "name": "RFC 6207" } },
-        { "6265": {
+            "name": "RFC 6207" } }, {
+          "6265": {
             "title": "HTTP State Management Mechanism",
-            "name": "RFC 6265" } },
-        { "6266": {
+            "name": "RFC 6265" } }, {
+          "6266": {
             "title": "Use of the Content-Disposition Header Field in the Hypertext Transfer Protocol (HTTP)",
-            "name": "RFC 6266" } },
-        { "6271": {
+            "name": "RFC 6266" } }, {
+          "6271": {
             "title": "The Atom \"deleted-entry\" Element",
-            "name": "RFC 6271" } },
-        { "6350": {
+            "name": "RFC 6271" } }, {
+          "6350": {
             "title": "vCard Format Specification",
-            "name": "RFC 6350" } },
-        { "6351": {
+            "name": "RFC 6350" } }, {
+          "6351": {
             "title": "xCard: vCard XML Representation",
-            "name": "RFC 6351" } },
-        { "6415": {
+            "name": "RFC 6351" } }, {
+          "6415": {
             "title": "Web Host Metadata",
-            "name": "RFC 6415" } },
-        { "6455": {
+            "name": "RFC 6415" } }, {
+          "6455": {
             "title": "The WebSocket Protocol",
-            "name": "RFC 6455" } },
-        { "6573": {
+            "name": "RFC 6455" } }, {
+          "6573": {
             "title": "The Item and Collection Link Relations",
-            "name": "RFC 6573" } },
-        { "6579": {
+            "name": "RFC 6573" } }, {
+          "6579": {
             "title": "The 'disclosure' Link Relation Type",
-            "name": "RFC 6579" } },
-        { "6585": {
+            "name": "RFC 6579" } }, {
+          "6585": {
             "title": "Additional HTTP Status Codes",
-            "name": "RFC 6585" } },
-        { "6596": {
+            "name": "RFC 6585" } }, {
+          "6596": {
             "title": "The Canonical Link Relation",
-            "name": "RFC 6596" } },
-        { "6638": {
+            "name": "RFC 6596" } }, {
+          "6638": {
             "title": "Scheduling Extensions to CalDAV",
-            "name": "RFC 6638" } },
-        { "6690": {
+            "name": "RFC 6638" } }, {
+          "6690": {
             "title": "Constrained RESTful Environments (CoRE) Link Format",
-            "name": "RFC 6690" } },
-        { "6713": {
+            "name": "RFC 6690" } }, {
+          "6713": {
             "title": "The 'application/zlib' and 'application/gzip' Media Types",
-            "name": "RFC 6713" } },
-        { "6764": {
+            "name": "RFC 6713" } }, {
+          "6764": {
             "title": "Locating Services for Calendaring Extensions to WebDAV (CalDAV) and vCard Extensions to WebDAV (CardDAV)",
-            "name": "RFC 6764" } },
-        { "6768": {
+            "name": "RFC 6764" } }, {
+          "6768": {
             "title": "Media Resource Control Protocol Version 2 (MRCPv2)",
-            "name": "RFC 6768" } },
-        { "6797": {
+            "name": "RFC 6768" } }, {
+          "6797": {
             "title": "HTTP Strict Transport Security (HSTS)",
-            "name": "RFC 6797" } },
-        { "6861": {
+            "name": "RFC 6797" } }, {
+          "6861": {
             "title": "The \"create-form\" and \"edit-form\" Link Relations",
-            "name": "RFC 6861" } },
-        { "6892": {
+            "name": "RFC 6861" } }, {
+          "6892": {
             "title": "The 'describes' Link Relation Type",
-            "name": "RFC 6892" } },
-        { "6903": {
+            "name": "RFC 6892" } }, {
+          "6903": {
             "title": "Additional Link Relation Types",
-            "name": "RFC 6903" } },
-        { "6920": {
+            "name": "RFC 6903" } }, {
+          "6920": {
             "title": "Naming Things with Hashes",
-            "name": "RFC 6920" } },
-        { "6940": {
+            "name": "RFC 6920" } }, {
+          "6940": {
             "title": "REsource LOcation And Discovery (RELOAD) Base Protocol",
-            "name": "RFC 6940" } },
-        { "7030": {
+            "name": "RFC 6940" } }, {
+          "7030": {
             "title": "Enrollment over Secure Transport",
-            "name": "RFC 7030" } },
-        { "7033": {
+            "name": "RFC 7030" } }, {
+          "7033": {
             "title": "WebFinger",
-            "name": "RFC 7033" } },
-        { "7034": {
+            "name": "RFC 7033" } }, {
+          "7034": {
             "title": "HTTP Header Field X-Frame-Options",
-            "name": "RFC 7034" } },
-        { "7049": {
+            "name": "RFC 7034" } }, {
+          "7049": {
             "title": "Concise Binary Object Representation (CBOR)",
-            "name": "RFC 7049" } },
-        { "7072": {
+            "name": "RFC 7049" } }, {
+          "7072": {
             "title": "A Reputation Query Protocol",
-            "name": "RFC 7072" } },
-        { "7089": {
+            "name": "RFC 7072" } }, {
+          "7089": {
             "title": "HTTP framework for time-based access to resource states - Memento",
-            "name": "RFC 7089" } },
-        { "7159": {
+            "name": "RFC 7089" } }, {
+          "7159": {
             "title": "JavaScript Object Notation (JSON)",
-            "name": "RFC 7159" } },
-        { "7168": {
+            "name": "RFC 7159" } }, {
+          "7168": {
             "title": "The Hyper Text Coffee Pot Control Protocol for Tea Efflux Appliances (HTCPCP-TEA)",
-            "name": "RFC 7168" } },
-        { "7230": {
+            "name": "RFC 7168" } }, {
+          "7230": {
             "title": "Hypertext Transfer Protocol (HTTP/1.1): Message Syntax and Routing",
-            "name": "RFC 7230" } },
-        { "7231": {
+            "name": "RFC 7230" } }, {
+          "7231": {
             "title": "Hypertext Transfer Protocol (HTTP/1.1): Semantics and Content",
-            "name": "RFC 7231" } },
-        { "7232": {
+            "name": "RFC 7231" } }, {
+          "7232": {
             "title": "Hypertext Transfer Protocol (HTTP/1.1): Conditional Requests",
-            "name": "RFC 7232" } },
-        { "7233": {
+            "name": "RFC 7232" } }, {
+          "7233": {
             "title": "Hypertext Transfer Protocol (HTTP/1.1): Range Requests",
-            "name": "RFC 7233" } },
-        { "7234": {
+            "name": "RFC 7233" } }, {
+          "7234": {
             "title": "Hypertext Transfer Protocol (HTTP/1.1): Caching",
-            "name": "RFC 7234" } },
-        { "7235": {
+            "name": "RFC 7234" } }, {
+          "7235": {
             "title": "Hypertext Transfer Protocol (HTTP/1.1): Authentication",
-            "name": "RFC 7235" } },
-        { "7239": {
+            "name": "RFC 7235" } }, {
+          "7239": {
             "title": "Forwarded HTTP Extension",
-            "name": "RFC 7239" } },
-        { "7240": {
+            "name": "RFC 7239" } }, {
+          "7240": {
             "title": "Prefer Header for HTTP",
-            "name": "RFC 7240" } },
-        { "7351": {
+            "name": "RFC 7240" } }, {
+          "7351": {
             "title": "A Media Type for XML Patch Operations",
-            "name": "RFC 7351" } },
-        { "7390": {
+            "name": "RFC 7351" } }, {
+          "7390": {
             "title": "Group Communication for the Constrained Application Protocol (CoAP)",
-            "name": "RFC 7390" } },
-        { "7464": {
+            "name": "RFC 7390" } }, {
+          "7464": {
             "title": "JavaScript Object Notation (JSON) Text Sequences",
-            "name": "RFC 7464" } },
-        { "7469": {
+            "name": "RFC 7464" } }, {
+          "7469": {
             "title": "Public Key Pinning Extension for HTTP",
-            "name": "RFC 7469" } },
-        { "7486": {
+            "name": "RFC 7469" } }, {
+          "7486": {
             "title": "HTTP Origin-Bound Authentication (HOBA)",
-            "name": "RFC 7486" } },
-        { "7515": {
+            "name": "RFC 7486" } }, {
+          "7515": {
             "title": "JSON Web Signature (JWS)",
-            "name": "RFC 7515" } },
-        { "7517": {
+            "name": "RFC 7515" } }, {
+          "7517": {
             "title": "JSON Web Key (JWK)",
-            "name": "RFC 7517" } },
-        { "7519": {
+            "name": "RFC 7517" } }, {
+          "7519": {
             "title": "JSON Web Token (JWT)",
-            "name": "RFC 7519" } },
-        { "7538": {
+            "name": "RFC 7519" } }, {
+          "7538": {
             "title": "The Hypertext Transfer Protocol Status Code 308 (Permanent Redirect)",
-            "name": "RFC 7538" } },
-        { "7540": {
+            "name": "RFC 7538" } }, {
+          "7540": {
             "title": "Hypertext Transfer Protocol Version 2",
-            "name": "RFC 7540" } },
-        { "7595": {
+            "name": "RFC 7540" } }, {
+          "7595": {
             "title": "Guidelines and Registration Procedures for URI Schemes",
-            "name": "RFC 7595" } },
-        { "7615": {
+            "name": "RFC 7595" } }, {
+          "7615": {
             "title": "The Hypertext Transfer Protocol (HTTP) Authentication-Info and Proxy-Authentication-Info Response Header Fields",
-            "name": "RFC 7615" } },
-        { "7616": {
+            "name": "RFC 7615" } }, {
+          "7616": {
             "title": "HTTP Digest Access Authentication",
-            "name": "RFC 7616" } },
-        { "7635": {
+            "name": "RFC 7616" } }, {
+          "7635": {
             "title": "Session Traversal Utilities for NAT (STUN) Extension",
-            "name": "RFC 7635" } },
-        { "7639": {
+            "name": "RFC 7635" } }, {
+          "7639": {
             "title": "The ALPN HTTP Header Field",
-            "name": "RFC 7639" } },
-        { "7694": {
+            "name": "RFC 7639" } }, {
+          "7694": {
             "title": "Hypertext Transfer Protocol (HTTP) Client-Initiated Content-Encoding",
-            "name": "RFC 7694" } },
-        { "7711": {
+            "name": "RFC 7694" } }, {
+          "7711": {
             "title": "PKIX over Secure HTTP (POSH)",
-            "name": "RFC 7711" } },
-        { "7725": {
+            "name": "RFC 7711" } }, {
+          "7725": {
             "title": "An HTTP Status Code to Report Legal Obstacles",
-            "name": "RFC 7725" } },
-        { "7763": {
+            "name": "RFC 7725" } }, {
+          "7763": {
             "title": "The text/markdown Media Type",
-            "name": "RFC 7763" } },
-        { "7807": {
+            "name": "RFC 7763" } }, {
+          "7807": {
             "title": "Problem Details for HTTP APIs",
-            "name": "RFC 7807" } },
-        { "7808": {
+            "name": "RFC 7807" } }, {
+          "7808": {
             "title": "Time Zone Data Distribution Service",
-            "name": "RFC 7808" } },
-        { "7838": {
+            "name": "RFC 7808" } }, {
+          "7838": {
             "title": "HTTP Alternate Services",
-            "name": "RFC 7838" } },
-        { "7932": {
+            "name": "RFC 7838" } }, {
+          "7932": {
             "title": "Brotli Compressed Data Format",
-            "name": "RFC 7932" } },
-        { "7946": {
+            "name": "RFC 7932" } }, {
+          "7946": {
             "title": "The GeoJSON Format",
-            "name": "RFC 7946" } }
-    ] } }
-  ] },
+            "name": "RFC 7946" } } ] } } ] },
   "ISO": {
     "URI": "http://webconcepts.info/specs/ISO/",
     "name": "International Organization for Standardization",
     "short": "ISO",
-    "series": [
-    { "IEC": {
+    "series": [ {
+      "IEC": {
         "URI": "http://webconcepts.info/specs/ISO/IEC/",
         "name": "International Electrotechnical Commission",
         "short": "IEC",
-        "specs": [
-        { "14496-22": {
+        "specs": [ {
+          "14496-22": {
             "title": "Information technology — Coding of audio-visual objects — Part 22: Open Font Format",
-            "name": "ISO/IEC 14496-22" } },
-        { "23009-1": {
+            "name": "ISO/IEC 14496-22" } }, {
+          "23009-1": {
             "title": "Information technology — Dynamic adaptive streaming over HTTP (DASH) — Part 1: Media presentation description and segment formats",
-            "name": "ISO/IEC 23009-1" } }
-    ] } }
-  ] },
+            "name": "ISO/IEC 23009-1" } } ] } } ] },
   "JCP": {
     "URI": "http://webconcepts.info/specs/JCP/",
     "name": "Java Community Process",
     "short": "JCP",
-    "series": [
-    { "JSR": {
+    "series": [ {
+      "JSR": {
         "URI": "http://webconcepts.info/specs/JCP/JSR/",
         "name": "Java Specification Request",
         "short": "JSR",
-        "specs": [
-        { "200": {
+        "specs": [ {
+          "200": {
             "title": "Pack200: A Packed Class Deployment Format For Java Applications",
-            "name": "JSR 200" } }
-    ] } }
-  ] },
+            "name": "JSR 200" } } ] } } ] },
   "W3C": {
     "URI": "http://webconcepts.info/specs/W3C/",
     "name": "World Wide Web Consortium",
     "short": "W3C",
-    "series": [
-    { "TR": {
+    "series": [ {
+      "TR": {
         "URI": "http://webconcepts.info/specs/W3C/TR/",
         "name": "Technical Report",
         "short": "TR",
-        "specs": [
-        { "COWL": {
+        "specs": [ {
+          "COWL": {
             "title": "Confinement with Origin Web Labels",
-            "name": "W3C TR http://www.w3.org/TR/COWL" } },
-        { "CSP2": {
+            "name": "W3C TR http://www.w3.org/TR/COWL" } }, {
+          "CSP2": {
             "title": "Content Security Policy Level 2",
-            "name": "W3C TR http://www.w3.org/TR/CSP2" } },
-        { "CSP3": {
+            "name": "W3C TR http://www.w3.org/TR/CSP2" } }, {
+          "CSP3": {
             "title": "Content Security Policy Level 3",
-            "name": "W3C TR http://www.w3.org/TR/CSP3" } },
-        { "P3P": {
+            "name": "W3C TR http://www.w3.org/TR/CSP3" } }, {
+          "P3P": {
             "title": "The Platform for Privacy Preferences 1.0 (P3P1.0) Specification",
-            "name": "W3C TR http://www.w3.org/TR/P3P" } },
-        { "PNG": {
+            "name": "W3C TR http://www.w3.org/TR/P3P" } }, {
+          "PNG": {
             "title": "Portable Network Graphics",
-            "name": "W3C TR http://www.w3.org/TR/PNG" } },
-        { "SOAP": {
+            "name": "W3C TR http://www.w3.org/TR/PNG" } }, {
+          "SOAP": {
             "title": "Simple Object Access Protocol (SOAP) 1.1",
-            "name": "W3C TR http://www.w3.org/TR/SOAP" } },
-        { "WD-http-pep": {
+            "name": "W3C TR http://www.w3.org/TR/SOAP" } }, {
+          "WD-http-pep": {
             "title": "PEP - An Extension Mechanism for HTTP",
-            "name": "W3C TR http://www.w3.org/TR/WD-http-pep" } },
-        { "WD-proxy": {
+            "name": "W3C TR http://www.w3.org/TR/WD-http-pep" } }, {
+          "WD-proxy": {
             "title": "Notification for Proxy Caches",
-            "name": "W3C TR http://www.w3.org/TR/WD-proxy" } },
-        { "activitystreams-core": {
+            "name": "W3C TR http://www.w3.org/TR/WD-proxy" } }, {
+          "activitystreams-core": {
             "title": "Activity Streams 2.0",
-            "name": "W3C TR http://www.w3.org/TR/activitystreams-core" } },
-        { "appmanifest": {
+            "name": "W3C TR http://www.w3.org/TR/activitystreams-core" } }, {
+          "appmanifest": {
             "title": "Manifest for Web Application",
-            "name": "W3C TR http://www.w3.org/TR/appmanifest" } },
-        { "clear-site-data": {
+            "name": "W3C TR http://www.w3.org/TR/appmanifest" } }, {
+          "clear-site-data": {
             "title": "Clear Site Data",
-            "name": "W3C TR http://www.w3.org/TR/clear-site-data" } },
-        { "cors": {
+            "name": "W3C TR http://www.w3.org/TR/clear-site-data" } }, {
+          "cors": {
             "title": "Cross-Origin Resource Sharing (CORS)",
-            "name": "W3C TR http://www.w3.org/TR/cors" } },
-        { "csp-pinning": {
+            "name": "W3C TR http://www.w3.org/TR/cors" } }, {
+          "csp-pinning": {
             "title": "Content Security Policy Pinning",
-            "name": "W3C TR http://www.w3.org/TR/csp-pinning" } },
-        { "edge-arch": {
+            "name": "W3C TR http://www.w3.org/TR/csp-pinning" } }, {
+          "edge-arch": {
             "title": "Edge Architecture Specification",
-            "name": "W3C TR http://www.w3.org/TR/edge-arch" } },
-        { "epr": {
+            "name": "W3C TR http://www.w3.org/TR/edge-arch" } }, {
+          "epr": {
             "title": "Entry Point Regulation (EPR)",
-            "name": "W3C TR http://www.w3.org/TR/epr" } },
-        { "eventsource": {
+            "name": "W3C TR http://www.w3.org/TR/epr" } }, {
+          "eventsource": {
             "title": "Server-Sent Events",
-            "name": "W3C TR http://www.w3.org/TR/eventsource" } },
-        { "exi": {
+            "name": "W3C TR http://www.w3.org/TR/eventsource" } }, {
+          "exi": {
             "title": "Efficient XML Interchange (EXI) Format 1.0",
-            "name": "W3C TR http://www.w3.org/TR/exi" } },
-        { "html4": {
+            "name": "W3C TR http://www.w3.org/TR/exi" } }, {
+          "html4": {
             "title": "Hypertext Markup Language (HTML)",
-            "name": "W3C TR http://www.w3.org/TR/html4" } },
-        { "json-ld": {
+            "name": "W3C TR http://www.w3.org/TR/html4" } }, {
+          "json-ld": {
             "title": "JSON-LD 1.0",
-            "name": "W3C TR http://www.w3.org/TR/json-ld" } },
-        { "ldp": {
+            "name": "W3C TR http://www.w3.org/TR/json-ld" } }, {
+          "ldp": {
             "title": "Linked Data Platform 1.0 (LDP)",
-            "name": "W3C TR http://www.w3.org/TR/ldp" } },
-        { "micropub": {
+            "name": "W3C TR http://www.w3.org/TR/ldp" } }, {
+          "micropub": {
             "title": "Micropub",
-            "name": "W3C TR http://www.w3.org/TR/micropub" } },
-        { "powder-dr": {
+            "name": "W3C TR http://www.w3.org/TR/micropub" } }, {
+          "powder-dr": {
             "title": "Protocol for Web Description Resources (POWDER): Description Resources",
-            "name": "W3C TR http://www.w3.org/TR/powder-dr" } },
-        { "preload": {
+            "name": "W3C TR http://www.w3.org/TR/powder-dr" } }, {
+          "preload": {
             "title": "Preload",
-            "name": "W3C TR http://www.w3.org/TR/preload" } },
-        { "rdf11-concepts": {
+            "name": "W3C TR http://www.w3.org/TR/preload" } }, {
+          "rdf11-concepts": {
             "title": "RDF 1.1 Concepts and Abstract Syntax",
-            "name": "W3C TR http://www.w3.org/TR/rdf11-concepts" } },
-        { "reporting-1": {
+            "name": "W3C TR http://www.w3.org/TR/rdf11-concepts" } }, {
+          "reporting-1": {
             "title": "Reporting API 1",
-            "name": "W3C TR http://www.w3.org/TR/reporting-1" } },
-        { "resource-hints": {
+            "name": "W3C TR http://www.w3.org/TR/reporting-1" } }, {
+          "resource-hints": {
             "title": "Resource Hints",
-            "name": "W3C TR http://www.w3.org/TR/resource-hints" } },
-        { "tabular-data-model": {
+            "name": "W3C TR http://www.w3.org/TR/resource-hints" } }, {
+          "tabular-data-model": {
             "title": "Model for Tabular Data and Metadata on the Web",
-            "name": "W3C TR http://www.w3.org/TR/tabular-data-model" } },
-        { "tracking-dnt": {
+            "name": "W3C TR http://www.w3.org/TR/tabular-data-model" } }, {
+          "tracking-dnt": {
             "title": "Tracking Preference Expression (DNT)",
-            "name": "W3C TR http://www.w3.org/TR/tracking-dnt" } },
-        { "trig": {
+            "name": "W3C TR http://www.w3.org/TR/tracking-dnt" } }, {
+          "trig": {
             "title": "TriG",
-            "name": "W3C TR http://www.w3.org/TR/trig" } },
-        { "upgrade-insecure-requests": {
+            "name": "W3C TR http://www.w3.org/TR/trig" } }, {
+          "upgrade-insecure-requests": {
             "title": "Upgrade Insecure Requests",
-            "name": "W3C TR http://www.w3.org/TR/upgrade-insecure-requests" } },
-        { "void": {
+            "name": "W3C TR http://www.w3.org/TR/upgrade-insecure-requests" } }, {
+          "void": {
             "title": "Describing Linked Datasets with the VoID Vocabulary",
-            "name": "W3C TR http://www.w3.org/TR/void" } },
-        { "webmention": {
+            "name": "W3C TR http://www.w3.org/TR/void" } }, {
+          "webmention": {
             "title": "Webmention",
-            "name": "W3C TR http://www.w3.org/TR/webmention" } },
-        { "webvtt": {
+            "name": "W3C TR http://www.w3.org/TR/webmention" } }, {
+          "webvtt": {
             "title": "Web Video Text Tracks (WebVTT)",
-            "name": "W3C TR http://www.w3.org/TR/webvtt" } }
-    ] } }
-  ] }
+            "name": "W3C TR http://www.w3.org/TR/webvtt" } } ] } } ] }
 }

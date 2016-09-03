@@ -16,10 +16,10 @@
                 <xsl:value-of select="concat('&quot;', title-singular, '&quot;,&#xa;')"/>
                 <xsl:text>    "name-plural": </xsl:text>
                 <xsl:value-of select="concat('&quot;', title-plural, '&quot;,&#xa;')"/>
-                <xsl:text>    "concepts": [ &#xa;</xsl:text>
+                <xsl:text>    "concepts": [</xsl:text>
                 <xsl:for-each select="distinct-values($allspecs//sedola:*[local-name() eq $concept/@id]/@def)">
                     <xsl:sort select="."/>
-                    <xsl:text>    { </xsl:text>
+                    <xsl:text> {&#xa;      </xsl:text>
                     <xsl:variable name="concept-name" select="."/>
                     <xsl:value-of select="concat('&quot;', $concept-name, '&quot;: {&#xa;')"/>
                     <xsl:text>        "URI": </xsl:text>
@@ -44,9 +44,8 @@
                     <xsl:if test="position() ne last()">
                         <xsl:text>,</xsl:text>
                     </xsl:if>
-                    <xsl:text>&#xa;</xsl:text>
                 </xsl:for-each>
-                <xsl:text>    ] }</xsl:text>
+                <xsl:text> ] }</xsl:text>
                 <xsl:if test="position() ne last()">
                     <xsl:text>,</xsl:text>
                 </xsl:if>
@@ -68,11 +67,11 @@
                     <xsl:text>    "short": </xsl:text>
                     <xsl:value-of select="concat('&quot;', $primary/name/@short, '&quot;,&#xa;')"/>
                 </xsl:if>
-                <xsl:text>    "series": [&#xa;</xsl:text>
+                <xsl:text>    "series": [</xsl:text>
                 <xsl:for-each-group select="current-group()" group-by="@secondary">
                     <xsl:sort select="@secondary"/>
                     <xsl:variable name="secondary" select="$primary/secondary[@id eq current()/@secondary]"/>
-                    <xsl:value-of select="concat('    { &quot;', @secondary, '&quot;: {&#xa;')"/>
+                    <xsl:value-of select="concat(' {&#xa;      &quot;', @secondary, '&quot;: {&#xa;')"/>
                     <xsl:text>        "URI": </xsl:text>
                     <xsl:value-of select="concat('&quot;http://webconcepts.info/', $specs-dir, '/', $primary/@id, '/', $secondary/@id, '/&quot;,&#xa;')"/>
                     <xsl:text>        "name": </xsl:text>
@@ -81,7 +80,7 @@
                         <xsl:text>        "short": </xsl:text>
                         <xsl:value-of select="concat('&quot;', $secondary/name/@short, '&quot;,&#xa;')"/>
                     </xsl:if>
-                    <xsl:text>        "specs": [&#xa;</xsl:text>
+                    <xsl:text>        "specs": [</xsl:text>
                     <xsl:for-each select="current-group()">
                         <xsl:sort select="@id"/>
                         <xsl:if test="count($specs/specs/primary[@id eq current()/@primary]) ne 1">
@@ -94,7 +93,7 @@
                             <xsl:message terminate="yes" select="concat('Non-matching service/@id: ', $primary, '/', $secondary, '/', @id)"/>
                         </xsl:if>
                         <xsl:variable name="id" select="replace(@id, $secondary/id-pattern, $secondary/md-pattern)"/>
-                        <xsl:value-of select="concat('        { &quot;', @id, '&quot;: {&#xa;')"/>
+                        <xsl:value-of select="concat(' {&#xa;          &quot;', @id, '&quot;: {&#xa;')"/>
                         <xsl:text>            "title": </xsl:text>
                         <xsl:value-of select="concat('&quot;', replace(sedola:title, '&quot;', '\\&quot;'), '&quot;,&#xa;')"/>
                         <xsl:text>            "name": </xsl:text>
@@ -103,15 +102,13 @@
                         <xsl:if test="position() ne last()">
                             <xsl:text>,</xsl:text>
                         </xsl:if>
-                        <xsl:text>&#xa;</xsl:text>
                     </xsl:for-each>
-                    <xsl:text>    ] } }</xsl:text>
+                    <xsl:text> ] } }</xsl:text>
                     <xsl:if test="position() ne last()">
                         <xsl:text>,</xsl:text>
                     </xsl:if>
-                    <xsl:text>&#xa;</xsl:text>
                 </xsl:for-each-group>
-                <xsl:text>  ] }</xsl:text>
+                <xsl:text> ] }</xsl:text>
                 <xsl:if test="position() ne last()">
                     <xsl:text>,</xsl:text>
                 </xsl:if>
