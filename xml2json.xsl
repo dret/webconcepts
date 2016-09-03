@@ -94,6 +94,8 @@
                         </xsl:if>
                         <xsl:variable name="id" select="replace(@id, $secondary/id-pattern, $secondary/md-pattern)"/>
                         <xsl:value-of select="concat(' {&#xa;          &quot;', @id, '&quot;: {&#xa;')"/>
+                        <xsl:text>            "URI": </xsl:text>
+                        <xsl:value-of select="concat('&quot;http://webconcepts.info/', $specs-dir, '/', $primary/@id, '/', $secondary/@id, '/', $id, '&quot;,&#xa;')"/>
                         <xsl:text>            "title": </xsl:text>
                         <xsl:value-of select="concat('&quot;', replace(sedola:title, '&quot;', '\\&quot;'), '&quot;,&#xa;')"/>
                         <xsl:text>            "name": </xsl:text>
