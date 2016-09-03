@@ -99,7 +99,11 @@
                         <xsl:text>            "title": </xsl:text>
                         <xsl:value-of select="concat('&quot;', replace(sedola:title, '&quot;', '\\&quot;'), '&quot;,&#xa;')"/>
                         <xsl:text>            "name": </xsl:text>
-                        <xsl:value-of select="concat('&quot;', replace(replace($id, '^(..*)$', $secondary/name-pattern), '&quot;', '\\&quot;'), '&quot;')"/>
+                        <xsl:value-of select="concat('&quot;', replace(replace($id, '^(..*)$', $secondary/name-pattern), '&quot;', '\\&quot;'), '&quot;,&#xa;')"/>
+                        <xsl:if test="exists($secondary/uri-pattern)">
+                            <xsl:text>            "spec-URI": </xsl:text>
+                            <xsl:value-of select="concat('&quot;', replace(@id, $secondary/id-pattern, $secondary/uri-pattern), '&quot;')"/>
+                        </xsl:if>
                         <xsl:text> } }</xsl:text>
                         <xsl:if test="position() ne last()">
                             <xsl:text>,</xsl:text>
