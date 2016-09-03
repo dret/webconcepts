@@ -8,11 +8,14 @@
             <xsl:text>{&#xa;</xsl:text>
             <xsl:for-each select="$concepts/concepts/concept">
                 <xsl:sort select="title-singular"/>
+                <xsl:variable name="concept" select="."/>
                 <xsl:value-of select="concat('  &quot;', title-singular, '&quot;: {&#xa;')"/>
-                <xsl:for-each select="distinct-values($allspecs//sedola:*[local-name() eq current()/@id]/@def)">
+                <xsl:for-each select="distinct-values($allspecs//sedola:*[local-name() eq $concept/@id]/@def)">
                     <xsl:sort select="."/>
                     <xsl:variable name="concept-name" select="."/>
                     <xsl:value-of select="concat('    &quot;', $concept-name, '&quot;: {&#xa;')"/>
+                    <xsl:text>      "id": </xsl:text>
+                    <xsl:value-of select="concat('&quot;http://webconcepts.info/concepts/', $concept/filename-singular, '/', $concept-name, '&quot;,&#xa;')"/>
                     <xsl:text>    }</xsl:text>
                     <xsl:if test="position() ne last()">
                         <xsl:text>,</xsl:text>

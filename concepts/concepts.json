@@ -1,1020 +1,1516 @@
 {
   "HTTP Cache Directive": {
     "max-age": {
+      "id": "http://webconcepts.info/concepts/http-cache-directive/max-age",
     },
     "max-stale": {
+      "id": "http://webconcepts.info/concepts/http-cache-directive/max-stale",
     },
     "min-fresh": {
+      "id": "http://webconcepts.info/concepts/http-cache-directive/min-fresh",
     },
     "must-revalidate": {
+      "id": "http://webconcepts.info/concepts/http-cache-directive/must-revalidate",
     },
     "no-cache": {
+      "id": "http://webconcepts.info/concepts/http-cache-directive/no-cache",
     },
     "no-store": {
+      "id": "http://webconcepts.info/concepts/http-cache-directive/no-store",
     },
     "no-transform": {
+      "id": "http://webconcepts.info/concepts/http-cache-directive/no-transform",
     },
     "only-if-cached": {
+      "id": "http://webconcepts.info/concepts/http-cache-directive/only-if-cached",
     },
     "private": {
+      "id": "http://webconcepts.info/concepts/http-cache-directive/private",
     },
     "proxy-revalidate": {
+      "id": "http://webconcepts.info/concepts/http-cache-directive/proxy-revalidate",
     },
     "public": {
+      "id": "http://webconcepts.info/concepts/http-cache-directive/public",
     },
     "s-maxage": {
+      "id": "http://webconcepts.info/concepts/http-cache-directive/s-maxage",
     },
     "stale-if-error": {
+      "id": "http://webconcepts.info/concepts/http-cache-directive/stale-if-error",
     },
     "stale-while-revalidate": {
+      "id": "http://webconcepts.info/concepts/http-cache-directive/stale-while-revalidate",
     }
   },
   "HTTP Content Coding": {
     "aesgcm": {
+      "id": "http://webconcepts.info/concepts/http-content-coding/aesgcm",
     },
     "br": {
+      "id": "http://webconcepts.info/concepts/http-content-coding/br",
     },
     "compress": {
+      "id": "http://webconcepts.info/concepts/http-content-coding/compress",
     },
     "deflate": {
+      "id": "http://webconcepts.info/concepts/http-content-coding/deflate",
     },
     "exi": {
+      "id": "http://webconcepts.info/concepts/http-content-coding/exi",
     },
     "gzip": {
+      "id": "http://webconcepts.info/concepts/http-content-coding/gzip",
     },
     "identity": {
+      "id": "http://webconcepts.info/concepts/http-content-coding/identity",
     },
     "pack200-gzip": {
+      "id": "http://webconcepts.info/concepts/http-content-coding/pack200-gzip",
     },
     "x-compress": {
+      "id": "http://webconcepts.info/concepts/http-content-coding/x-compress",
     },
     "x-gzip": {
+      "id": "http://webconcepts.info/concepts/http-content-coding/x-gzip",
     }
   },
   "HTTP Forwarded Parameter": {
     "by": {
+      "id": "http://webconcepts.info/concepts/http-forwarded-parameter/by",
     },
     "for": {
+      "id": "http://webconcepts.info/concepts/http-forwarded-parameter/for",
     },
     "host": {
+      "id": "http://webconcepts.info/concepts/http-forwarded-parameter/host",
     },
     "proto": {
+      "id": "http://webconcepts.info/concepts/http-forwarded-parameter/proto",
     }
   },
   "HTTP Header Field": {
     "A-IM": {
+      "id": "http://webconcepts.info/concepts/http-header/A-IM",
     },
     "ALPN": {
+      "id": "http://webconcepts.info/concepts/http-header/ALPN",
     },
     "Accept": {
+      "id": "http://webconcepts.info/concepts/http-header/Accept",
     },
     "Accept-Additions": {
+      "id": "http://webconcepts.info/concepts/http-header/Accept-Additions",
     },
     "Accept-Charset": {
+      "id": "http://webconcepts.info/concepts/http-header/Accept-Charset",
     },
     "Accept-Datetime": {
+      "id": "http://webconcepts.info/concepts/http-header/Accept-Datetime",
     },
     "Accept-Encoding": {
+      "id": "http://webconcepts.info/concepts/http-header/Accept-Encoding",
     },
     "Accept-Features": {
+      "id": "http://webconcepts.info/concepts/http-header/Accept-Features",
     },
     "Accept-Indefinite-Ranges": {
+      "id": "http://webconcepts.info/concepts/http-header/Accept-Indefinite-Ranges",
     },
     "Accept-Language": {
+      "id": "http://webconcepts.info/concepts/http-header/Accept-Language",
     },
     "Accept-Patch": {
+      "id": "http://webconcepts.info/concepts/http-header/Accept-Patch",
     },
     "Accept-Post": {
+      "id": "http://webconcepts.info/concepts/http-header/Accept-Post",
     },
     "Accept-Push-Policy": {
+      "id": "http://webconcepts.info/concepts/http-header/Accept-Push-Policy",
     },
     "Accept-Ranges": {
+      "id": "http://webconcepts.info/concepts/http-header/Accept-Ranges",
     },
     "Access-Control-Allow-Credentials": {
+      "id": "http://webconcepts.info/concepts/http-header/Access-Control-Allow-Credentials",
     },
     "Access-Control-Allow-Headers": {
+      "id": "http://webconcepts.info/concepts/http-header/Access-Control-Allow-Headers",
     },
     "Access-Control-Allow-Methods": {
+      "id": "http://webconcepts.info/concepts/http-header/Access-Control-Allow-Methods",
     },
     "Access-Control-Allow-Origin": {
+      "id": "http://webconcepts.info/concepts/http-header/Access-Control-Allow-Origin",
     },
     "Access-Control-Expose-Headers": {
+      "id": "http://webconcepts.info/concepts/http-header/Access-Control-Expose-Headers",
     },
     "Access-Control-Max-Age": {
+      "id": "http://webconcepts.info/concepts/http-header/Access-Control-Max-Age",
     },
     "Access-Control-Request-Headers": {
+      "id": "http://webconcepts.info/concepts/http-header/Access-Control-Request-Headers",
     },
     "Access-Control-Request-Method": {
+      "id": "http://webconcepts.info/concepts/http-header/Access-Control-Request-Method",
     },
     "Age": {
+      "id": "http://webconcepts.info/concepts/http-header/Age",
     },
     "Allow": {
+      "id": "http://webconcepts.info/concepts/http-header/Allow",
     },
     "Alt-Svc": {
+      "id": "http://webconcepts.info/concepts/http-header/Alt-Svc",
     },
     "Alt-Used": {
+      "id": "http://webconcepts.info/concepts/http-header/Alt-Used",
     },
     "Alternates": {
+      "id": "http://webconcepts.info/concepts/http-header/Alternates",
     },
     "Apply-To-Redirect-Ref": {
+      "id": "http://webconcepts.info/concepts/http-header/Apply-To-Redirect-Ref",
     },
     "Authentication-Info": {
+      "id": "http://webconcepts.info/concepts/http-header/Authentication-Info",
     },
     "Authorization": {
+      "id": "http://webconcepts.info/concepts/http-header/Authorization",
     },
     "C-Ext": {
+      "id": "http://webconcepts.info/concepts/http-header/C-Ext",
     },
     "C-Man": {
+      "id": "http://webconcepts.info/concepts/http-header/C-Man",
     },
     "C-Opt": {
+      "id": "http://webconcepts.info/concepts/http-header/C-Opt",
     },
     "C-PEP": {
+      "id": "http://webconcepts.info/concepts/http-header/C-PEP",
     },
     "C-PEP-Info": {
+      "id": "http://webconcepts.info/concepts/http-header/C-PEP-Info",
     },
     "CH": {
+      "id": "http://webconcepts.info/concepts/http-header/CH",
     },
     "Cache-Control": {
+      "id": "http://webconcepts.info/concepts/http-header/Cache-Control",
     },
     "Cache-NT": {
+      "id": "http://webconcepts.info/concepts/http-header/Cache-NT",
     },
     "Clear-Site-Data": {
+      "id": "http://webconcepts.info/concepts/http-header/Clear-Site-Data",
     },
     "Close": {
+      "id": "http://webconcepts.info/concepts/http-header/Close",
     },
     "Connection": {
+      "id": "http://webconcepts.info/concepts/http-header/Connection",
     },
     "Content-Base": {
+      "id": "http://webconcepts.info/concepts/http-header/Content-Base",
     },
     "Content-DPR": {
+      "id": "http://webconcepts.info/concepts/http-header/Content-DPR",
     },
     "Content-Disposition": {
+      "id": "http://webconcepts.info/concepts/http-header/Content-Disposition",
     },
     "Content-Encoding": {
+      "id": "http://webconcepts.info/concepts/http-header/Content-Encoding",
     },
     "Content-Language": {
+      "id": "http://webconcepts.info/concepts/http-header/Content-Language",
     },
     "Content-Length": {
+      "id": "http://webconcepts.info/concepts/http-header/Content-Length",
     },
     "Content-Location": {
+      "id": "http://webconcepts.info/concepts/http-header/Content-Location",
     },
     "Content-Range": {
+      "id": "http://webconcepts.info/concepts/http-header/Content-Range",
     },
     "Content-Security-Policy": {
+      "id": "http://webconcepts.info/concepts/http-header/Content-Security-Policy",
     },
     "Content-Security-Policy-Pin": {
+      "id": "http://webconcepts.info/concepts/http-header/Content-Security-Policy-Pin",
     },
     "Content-Security-Policy-Report-Only": {
+      "id": "http://webconcepts.info/concepts/http-header/Content-Security-Policy-Report-Only",
     },
     "Content-Security-Policy-Report-Only-Pin": {
+      "id": "http://webconcepts.info/concepts/http-header/Content-Security-Policy-Report-Only-Pin",
     },
     "Content-Signature": {
+      "id": "http://webconcepts.info/concepts/http-header/Content-Signature",
     },
     "Content-Type": {
+      "id": "http://webconcepts.info/concepts/http-header/Content-Type",
     },
     "Content-Version": {
+      "id": "http://webconcepts.info/concepts/http-header/Content-Version",
     },
     "Cookie": {
+      "id": "http://webconcepts.info/concepts/http-header/Cookie",
     },
     "Cookie2": {
+      "id": "http://webconcepts.info/concepts/http-header/Cookie2",
     },
     "Crypto-Key": {
+      "id": "http://webconcepts.info/concepts/http-header/Crypto-Key",
     },
     "DASL": {
+      "id": "http://webconcepts.info/concepts/http-header/DASL",
     },
     "DAV": {
+      "id": "http://webconcepts.info/concepts/http-header/DAV",
     },
     "DNT": {
+      "id": "http://webconcepts.info/concepts/http-header/DNT",
     },
     "DPR": {
+      "id": "http://webconcepts.info/concepts/http-header/DPR",
     },
     "Date": {
+      "id": "http://webconcepts.info/concepts/http-header/Date",
     },
     "Delta-Base": {
+      "id": "http://webconcepts.info/concepts/http-header/Delta-Base",
     },
     "Depth": {
+      "id": "http://webconcepts.info/concepts/http-header/Depth",
     },
     "Destination": {
+      "id": "http://webconcepts.info/concepts/http-header/Destination",
     },
     "Digest": {
+      "id": "http://webconcepts.info/concepts/http-header/Digest",
     },
     "Downlink": {
+      "id": "http://webconcepts.info/concepts/http-header/Downlink",
     },
     "EDIINT-Features": {
+      "id": "http://webconcepts.info/concepts/http-header/EDIINT-Features",
     },
     "EPR": {
+      "id": "http://webconcepts.info/concepts/http-header/EPR",
     },
     "ETag": {
+      "id": "http://webconcepts.info/concepts/http-header/ETag",
     },
     "Encryption": {
+      "id": "http://webconcepts.info/concepts/http-header/Encryption",
     },
     "Expect": {
+      "id": "http://webconcepts.info/concepts/http-header/Expect",
     },
     "Expires": {
+      "id": "http://webconcepts.info/concepts/http-header/Expires",
     },
     "Ext": {
+      "id": "http://webconcepts.info/concepts/http-header/Ext",
     },
     "Forwarded": {
+      "id": "http://webconcepts.info/concepts/http-header/Forwarded",
     },
     "From": {
+      "id": "http://webconcepts.info/concepts/http-header/From",
     },
     "HTTP2-Settings": {
+      "id": "http://webconcepts.info/concepts/http-header/HTTP2-Settings",
     },
     "HTTPS": {
+      "id": "http://webconcepts.info/concepts/http-header/HTTPS",
     },
     "Hobareg": {
+      "id": "http://webconcepts.info/concepts/http-header/Hobareg",
     },
     "Host": {
+      "id": "http://webconcepts.info/concepts/http-header/Host",
     },
     "IM": {
+      "id": "http://webconcepts.info/concepts/http-header/IM",
     },
     "If": {
+      "id": "http://webconcepts.info/concepts/http-header/If",
     },
     "If-Match": {
+      "id": "http://webconcepts.info/concepts/http-header/If-Match",
     },
     "If-Modified-Since": {
+      "id": "http://webconcepts.info/concepts/http-header/If-Modified-Since",
     },
     "If-None-Match": {
+      "id": "http://webconcepts.info/concepts/http-header/If-None-Match",
     },
     "If-Range": {
+      "id": "http://webconcepts.info/concepts/http-header/If-Range",
     },
     "If-Schedule-Tag-Match": {
+      "id": "http://webconcepts.info/concepts/http-header/If-Schedule-Tag-Match",
     },
     "If-Unmodified-Since": {
+      "id": "http://webconcepts.info/concepts/http-header/If-Unmodified-Since",
     },
     "Key": {
+      "id": "http://webconcepts.info/concepts/http-header/Key",
     },
     "Label": {
+      "id": "http://webconcepts.info/concepts/http-header/Label",
     },
     "Last-Event-ID": {
+      "id": "http://webconcepts.info/concepts/http-header/Last-Event-ID",
     },
     "Last-Modified": {
+      "id": "http://webconcepts.info/concepts/http-header/Last-Modified",
     },
     "Link": {
+      "id": "http://webconcepts.info/concepts/http-header/Link",
     },
     "Link-Template": {
+      "id": "http://webconcepts.info/concepts/http-header/Link-Template",
     },
     "Location": {
+      "id": "http://webconcepts.info/concepts/http-header/Location",
     },
     "Lock-Token": {
+      "id": "http://webconcepts.info/concepts/http-header/Lock-Token",
     },
     "MIME-Version": {
+      "id": "http://webconcepts.info/concepts/http-header/MIME-Version",
     },
     "Man": {
+      "id": "http://webconcepts.info/concepts/http-header/Man",
     },
     "Max-Forwards": {
+      "id": "http://webconcepts.info/concepts/http-header/Max-Forwards",
     },
     "Memento-Datetime": {
+      "id": "http://webconcepts.info/concepts/http-header/Memento-Datetime",
     },
     "Negotiate": {
+      "id": "http://webconcepts.info/concepts/http-header/Negotiate",
     },
     "Nice": {
+      "id": "http://webconcepts.info/concepts/http-header/Nice",
     },
     "Opt": {
+      "id": "http://webconcepts.info/concepts/http-header/Opt",
     },
     "Ordering-Type": {
+      "id": "http://webconcepts.info/concepts/http-header/Ordering-Type",
     },
     "Origin": {
+      "id": "http://webconcepts.info/concepts/http-header/Origin",
     },
     "Origin-Cookie": {
+      "id": "http://webconcepts.info/concepts/http-header/Origin-Cookie",
     },
     "Overwrite": {
+      "id": "http://webconcepts.info/concepts/http-header/Overwrite",
     },
     "P3P": {
+      "id": "http://webconcepts.info/concepts/http-header/P3P",
     },
     "PEP": {
+      "id": "http://webconcepts.info/concepts/http-header/PEP",
     },
     "PEP-Info": {
+      "id": "http://webconcepts.info/concepts/http-header/PEP-Info",
     },
     "POE": {
+      "id": "http://webconcepts.info/concepts/http-header/POE",
     },
     "POE-Links": {
+      "id": "http://webconcepts.info/concepts/http-header/POE-Links",
     },
     "Position": {
+      "id": "http://webconcepts.info/concepts/http-header/Position",
     },
     "Pragma": {
+      "id": "http://webconcepts.info/concepts/http-header/Pragma",
     },
     "Prefer": {
+      "id": "http://webconcepts.info/concepts/http-header/Prefer",
     },
     "Preference-Applied": {
+      "id": "http://webconcepts.info/concepts/http-header/Preference-Applied",
     },
     "Proxy-Authenticate": {
+      "id": "http://webconcepts.info/concepts/http-header/Proxy-Authenticate",
     },
     "Proxy-Authentication-Info": {
+      "id": "http://webconcepts.info/concepts/http-header/Proxy-Authentication-Info",
     },
     "Proxy-Authorization": {
+      "id": "http://webconcepts.info/concepts/http-header/Proxy-Authorization",
     },
     "Proxy-Features": {
+      "id": "http://webconcepts.info/concepts/http-header/Proxy-Features",
     },
     "Proxy-Instruction": {
+      "id": "http://webconcepts.info/concepts/http-header/Proxy-Instruction",
     },
     "Public": {
+      "id": "http://webconcepts.info/concepts/http-header/Public",
     },
     "Public-Key-Pins": {
+      "id": "http://webconcepts.info/concepts/http-header/Public-Key-Pins",
     },
     "Public-Key-Pins-Report-Only": {
+      "id": "http://webconcepts.info/concepts/http-header/Public-Key-Pins-Report-Only",
     },
     "Push-Policy": {
+      "id": "http://webconcepts.info/concepts/http-header/Push-Policy",
     },
     "Range": {
+      "id": "http://webconcepts.info/concepts/http-header/Range",
     },
     "Redirect-Ref": {
+      "id": "http://webconcepts.info/concepts/http-header/Redirect-Ref",
     },
     "Referer": {
+      "id": "http://webconcepts.info/concepts/http-header/Referer",
     },
     "Report-To": {
+      "id": "http://webconcepts.info/concepts/http-header/Report-To",
     },
     "Retry-After": {
+      "id": "http://webconcepts.info/concepts/http-header/Retry-After",
     },
     "SOAPAction": {
+      "id": "http://webconcepts.info/concepts/http-header/SOAPAction",
     },
     "Safe": {
+      "id": "http://webconcepts.info/concepts/http-header/Safe",
     },
     "Save-Data": {
+      "id": "http://webconcepts.info/concepts/http-header/Save-Data",
     },
     "Schedule-Reply": {
+      "id": "http://webconcepts.info/concepts/http-header/Schedule-Reply",
     },
     "Schedule-Tag": {
+      "id": "http://webconcepts.info/concepts/http-header/Schedule-Tag",
     },
     "Sec-COWL": {
+      "id": "http://webconcepts.info/concepts/http-header/Sec-COWL",
     },
     "Sec-WebSocket-Accept": {
+      "id": "http://webconcepts.info/concepts/http-header/Sec-WebSocket-Accept",
     },
     "Sec-WebSocket-Extensions": {
+      "id": "http://webconcepts.info/concepts/http-header/Sec-WebSocket-Extensions",
     },
     "Sec-WebSocket-Key": {
+      "id": "http://webconcepts.info/concepts/http-header/Sec-WebSocket-Key",
     },
     "Sec-WebSocket-Protocol": {
+      "id": "http://webconcepts.info/concepts/http-header/Sec-WebSocket-Protocol",
     },
     "Sec-WebSocket-Version": {
+      "id": "http://webconcepts.info/concepts/http-header/Sec-WebSocket-Version",
     },
     "Security-Scheme": {
+      "id": "http://webconcepts.info/concepts/http-header/Security-Scheme",
     },
     "Server": {
+      "id": "http://webconcepts.info/concepts/http-header/Server",
     },
     "Set-Cookie": {
+      "id": "http://webconcepts.info/concepts/http-header/Set-Cookie",
     },
     "Set-Cookie2": {
+      "id": "http://webconcepts.info/concepts/http-header/Set-Cookie2",
     },
     "Signature": {
+      "id": "http://webconcepts.info/concepts/http-header/Signature",
     },
     "Slug": {
+      "id": "http://webconcepts.info/concepts/http-header/Slug",
     },
     "Status-URI": {
+      "id": "http://webconcepts.info/concepts/http-header/Status-URI",
     },
     "Strict-Transport-Security": {
+      "id": "http://webconcepts.info/concepts/http-header/Strict-Transport-Security",
     },
     "SubOK": {
+      "id": "http://webconcepts.info/concepts/http-header/SubOK",
     },
     "Subst": {
+      "id": "http://webconcepts.info/concepts/http-header/Subst",
     },
     "Sunset": {
+      "id": "http://webconcepts.info/concepts/http-header/Sunset",
     },
     "Surrogate-Capability": {
+      "id": "http://webconcepts.info/concepts/http-header/Surrogate-Capability",
     },
     "Surrogate-Control": {
+      "id": "http://webconcepts.info/concepts/http-header/Surrogate-Control",
     },
     "TCN": {
+      "id": "http://webconcepts.info/concepts/http-header/TCN",
     },
     "TE": {
+      "id": "http://webconcepts.info/concepts/http-header/TE",
     },
     "Timeout": {
+      "id": "http://webconcepts.info/concepts/http-header/Timeout",
     },
     "Tk": {
+      "id": "http://webconcepts.info/concepts/http-header/Tk",
     },
     "Trailer": {
+      "id": "http://webconcepts.info/concepts/http-header/Trailer",
     },
     "Transfer-Encoding": {
+      "id": "http://webconcepts.info/concepts/http-header/Transfer-Encoding",
     },
     "Tunnel-Protocol": {
+      "id": "http://webconcepts.info/concepts/http-header/Tunnel-Protocol",
     },
     "URI": {
+      "id": "http://webconcepts.info/concepts/http-header/URI",
     },
     "Upgrade": {
+      "id": "http://webconcepts.info/concepts/http-header/Upgrade",
     },
     "User-Agent": {
+      "id": "http://webconcepts.info/concepts/http-header/User-Agent",
     },
     "Variant-Vary": {
+      "id": "http://webconcepts.info/concepts/http-header/Variant-Vary",
     },
     "Vary": {
+      "id": "http://webconcepts.info/concepts/http-header/Vary",
     },
     "Via": {
+      "id": "http://webconcepts.info/concepts/http-header/Via",
     },
     "Viewport-Width": {
+      "id": "http://webconcepts.info/concepts/http-header/Viewport-Width",
     },
     "WWW-Authenticate": {
+      "id": "http://webconcepts.info/concepts/http-header/WWW-Authenticate",
     },
     "Want-Digest": {
+      "id": "http://webconcepts.info/concepts/http-header/Want-Digest",
     },
     "Warning": {
+      "id": "http://webconcepts.info/concepts/http-header/Warning",
     },
     "Width": {
+      "id": "http://webconcepts.info/concepts/http-header/Width",
     },
     "X-Frame-Options": {
+      "id": "http://webconcepts.info/concepts/http-header/X-Frame-Options",
     }
   },
   "HTTP Preference": {
     "handling": {
+      "id": "http://webconcepts.info/concepts/http-preference/handling",
     },
     "respond-async": {
+      "id": "http://webconcepts.info/concepts/http-preference/respond-async",
     },
     "return": {
+      "id": "http://webconcepts.info/concepts/http-preference/return",
     },
     "wait": {
+      "id": "http://webconcepts.info/concepts/http-preference/wait",
     }
   },
   "HTTP Range Unit": {
     "bytes": {
+      "id": "http://webconcepts.info/concepts/http-range-unit/bytes",
     },
     "bytes-live": {
+      "id": "http://webconcepts.info/concepts/http-range-unit/bytes-live",
     },
     "none": {
+      "id": "http://webconcepts.info/concepts/http-range-unit/none",
     }
   },
   "HTTP Request Method": {
     "ACL": {
+      "id": "http://webconcepts.info/concepts/http-method/ACL",
     },
     "BASELINE-CONTROL": {
+      "id": "http://webconcepts.info/concepts/http-method/BASELINE-CONTROL",
     },
     "BIND": {
+      "id": "http://webconcepts.info/concepts/http-method/BIND",
     },
     "CHECKIN": {
+      "id": "http://webconcepts.info/concepts/http-method/CHECKIN",
     },
     "CHECKOUT": {
+      "id": "http://webconcepts.info/concepts/http-method/CHECKOUT",
     },
     "CONNECT": {
+      "id": "http://webconcepts.info/concepts/http-method/CONNECT",
     },
     "COPY": {
+      "id": "http://webconcepts.info/concepts/http-method/COPY",
     },
     "DELETE": {
+      "id": "http://webconcepts.info/concepts/http-method/DELETE",
     },
     "GET": {
+      "id": "http://webconcepts.info/concepts/http-method/GET",
     },
     "HEAD": {
+      "id": "http://webconcepts.info/concepts/http-method/HEAD",
     },
     "LABEL": {
+      "id": "http://webconcepts.info/concepts/http-method/LABEL",
     },
     "LOCK": {
+      "id": "http://webconcepts.info/concepts/http-method/LOCK",
     },
     "MERGE": {
+      "id": "http://webconcepts.info/concepts/http-method/MERGE",
     },
     "MKACTIVITY": {
+      "id": "http://webconcepts.info/concepts/http-method/MKACTIVITY",
     },
     "MKCALENDAR": {
+      "id": "http://webconcepts.info/concepts/http-method/MKCALENDAR",
     },
     "MKCOL": {
+      "id": "http://webconcepts.info/concepts/http-method/MKCOL",
     },
     "MKREDIRECTREF": {
+      "id": "http://webconcepts.info/concepts/http-method/MKREDIRECTREF",
     },
     "MKWORKSPACE": {
+      "id": "http://webconcepts.info/concepts/http-method/MKWORKSPACE",
     },
     "MOVE": {
+      "id": "http://webconcepts.info/concepts/http-method/MOVE",
     },
     "OPTIONS": {
+      "id": "http://webconcepts.info/concepts/http-method/OPTIONS",
     },
     "ORDERPATCH": {
+      "id": "http://webconcepts.info/concepts/http-method/ORDERPATCH",
     },
     "PATCH": {
+      "id": "http://webconcepts.info/concepts/http-method/PATCH",
     },
     "POST": {
+      "id": "http://webconcepts.info/concepts/http-method/POST",
     },
     "PRI": {
+      "id": "http://webconcepts.info/concepts/http-method/PRI",
     },
     "PROPFIND": {
+      "id": "http://webconcepts.info/concepts/http-method/PROPFIND",
     },
     "PROPPATCH": {
+      "id": "http://webconcepts.info/concepts/http-method/PROPPATCH",
     },
     "PUT": {
+      "id": "http://webconcepts.info/concepts/http-method/PUT",
     },
     "REBIND": {
+      "id": "http://webconcepts.info/concepts/http-method/REBIND",
     },
     "REPORT": {
+      "id": "http://webconcepts.info/concepts/http-method/REPORT",
     },
     "SEARCH": {
+      "id": "http://webconcepts.info/concepts/http-method/SEARCH",
     },
     "TRACE": {
+      "id": "http://webconcepts.info/concepts/http-method/TRACE",
     },
     "UNBIND": {
+      "id": "http://webconcepts.info/concepts/http-method/UNBIND",
     },
     "UNCHECKOUT": {
+      "id": "http://webconcepts.info/concepts/http-method/UNCHECKOUT",
     },
     "UNLOCK": {
+      "id": "http://webconcepts.info/concepts/http-method/UNLOCK",
     },
     "UPDATE": {
+      "id": "http://webconcepts.info/concepts/http-method/UPDATE",
     },
     "UPDATEREDIRECTREF": {
+      "id": "http://webconcepts.info/concepts/http-method/UPDATEREDIRECTREF",
     },
     "VERSION-CONTROL": {
+      "id": "http://webconcepts.info/concepts/http-method/VERSION-CONTROL",
     }
   },
   "HTTP Status Code": {
     "100": {
+      "id": "http://webconcepts.info/concepts/http-status-code/100",
     },
     "101": {
+      "id": "http://webconcepts.info/concepts/http-status-code/101",
     },
     "102": {
+      "id": "http://webconcepts.info/concepts/http-status-code/102",
     },
     "200": {
+      "id": "http://webconcepts.info/concepts/http-status-code/200",
     },
     "201": {
+      "id": "http://webconcepts.info/concepts/http-status-code/201",
     },
     "202": {
+      "id": "http://webconcepts.info/concepts/http-status-code/202",
     },
     "203": {
+      "id": "http://webconcepts.info/concepts/http-status-code/203",
     },
     "204": {
+      "id": "http://webconcepts.info/concepts/http-status-code/204",
     },
     "205": {
+      "id": "http://webconcepts.info/concepts/http-status-code/205",
     },
     "206": {
+      "id": "http://webconcepts.info/concepts/http-status-code/206",
     },
     "207": {
+      "id": "http://webconcepts.info/concepts/http-status-code/207",
     },
     "208": {
+      "id": "http://webconcepts.info/concepts/http-status-code/208",
     },
     "226": {
+      "id": "http://webconcepts.info/concepts/http-status-code/226",
     },
     "300": {
+      "id": "http://webconcepts.info/concepts/http-status-code/300",
     },
     "301": {
+      "id": "http://webconcepts.info/concepts/http-status-code/301",
     },
     "302": {
+      "id": "http://webconcepts.info/concepts/http-status-code/302",
     },
     "303": {
+      "id": "http://webconcepts.info/concepts/http-status-code/303",
     },
     "304": {
+      "id": "http://webconcepts.info/concepts/http-status-code/304",
     },
     "305": {
+      "id": "http://webconcepts.info/concepts/http-status-code/305",
     },
     "306": {
+      "id": "http://webconcepts.info/concepts/http-status-code/306",
     },
     "307": {
+      "id": "http://webconcepts.info/concepts/http-status-code/307",
     },
     "308": {
+      "id": "http://webconcepts.info/concepts/http-status-code/308",
     },
     "400": {
+      "id": "http://webconcepts.info/concepts/http-status-code/400",
     },
     "401": {
+      "id": "http://webconcepts.info/concepts/http-status-code/401",
     },
     "402": {
+      "id": "http://webconcepts.info/concepts/http-status-code/402",
     },
     "403": {
+      "id": "http://webconcepts.info/concepts/http-status-code/403",
     },
     "404": {
+      "id": "http://webconcepts.info/concepts/http-status-code/404",
     },
     "405": {
+      "id": "http://webconcepts.info/concepts/http-status-code/405",
     },
     "406": {
+      "id": "http://webconcepts.info/concepts/http-status-code/406",
     },
     "407": {
+      "id": "http://webconcepts.info/concepts/http-status-code/407",
     },
     "408": {
+      "id": "http://webconcepts.info/concepts/http-status-code/408",
     },
     "409": {
+      "id": "http://webconcepts.info/concepts/http-status-code/409",
     },
     "410": {
+      "id": "http://webconcepts.info/concepts/http-status-code/410",
     },
     "411": {
+      "id": "http://webconcepts.info/concepts/http-status-code/411",
     },
     "412": {
+      "id": "http://webconcepts.info/concepts/http-status-code/412",
     },
     "413": {
+      "id": "http://webconcepts.info/concepts/http-status-code/413",
     },
     "414": {
+      "id": "http://webconcepts.info/concepts/http-status-code/414",
     },
     "415": {
+      "id": "http://webconcepts.info/concepts/http-status-code/415",
     },
     "416": {
+      "id": "http://webconcepts.info/concepts/http-status-code/416",
     },
     "417": {
+      "id": "http://webconcepts.info/concepts/http-status-code/417",
     },
     "418": {
+      "id": "http://webconcepts.info/concepts/http-status-code/418",
     },
     "421": {
+      "id": "http://webconcepts.info/concepts/http-status-code/421",
     },
     "422": {
+      "id": "http://webconcepts.info/concepts/http-status-code/422",
     },
     "423": {
+      "id": "http://webconcepts.info/concepts/http-status-code/423",
     },
     "424": {
+      "id": "http://webconcepts.info/concepts/http-status-code/424",
     },
     "426": {
+      "id": "http://webconcepts.info/concepts/http-status-code/426",
     },
     "428": {
+      "id": "http://webconcepts.info/concepts/http-status-code/428",
     },
     "429": {
+      "id": "http://webconcepts.info/concepts/http-status-code/429",
     },
     "431": {
+      "id": "http://webconcepts.info/concepts/http-status-code/431",
     },
     "451": {
+      "id": "http://webconcepts.info/concepts/http-status-code/451",
     },
     "500": {
+      "id": "http://webconcepts.info/concepts/http-status-code/500",
     },
     "501": {
+      "id": "http://webconcepts.info/concepts/http-status-code/501",
     },
     "502": {
+      "id": "http://webconcepts.info/concepts/http-status-code/502",
     },
     "503": {
+      "id": "http://webconcepts.info/concepts/http-status-code/503",
     },
     "504": {
+      "id": "http://webconcepts.info/concepts/http-status-code/504",
     },
     "505": {
+      "id": "http://webconcepts.info/concepts/http-status-code/505",
     },
     "506": {
+      "id": "http://webconcepts.info/concepts/http-status-code/506",
     },
     "507": {
+      "id": "http://webconcepts.info/concepts/http-status-code/507",
     },
     "508": {
+      "id": "http://webconcepts.info/concepts/http-status-code/508",
     },
     "510": {
+      "id": "http://webconcepts.info/concepts/http-status-code/510",
     },
     "511": {
+      "id": "http://webconcepts.info/concepts/http-status-code/511",
     }
   },
   "HTTP Transfer Coding": {
     "chunked": {
+      "id": "http://webconcepts.info/concepts/http-transfer-coding/chunked",
     },
     "compress": {
+      "id": "http://webconcepts.info/concepts/http-transfer-coding/compress",
     },
     "deflate": {
+      "id": "http://webconcepts.info/concepts/http-transfer-coding/deflate",
     },
     "gzip": {
+      "id": "http://webconcepts.info/concepts/http-transfer-coding/gzip",
     },
     "identity": {
+      "id": "http://webconcepts.info/concepts/http-transfer-coding/identity",
     },
     "x-compress": {
+      "id": "http://webconcepts.info/concepts/http-transfer-coding/x-compress",
     },
     "x-gzip": {
+      "id": "http://webconcepts.info/concepts/http-transfer-coding/x-gzip",
     }
   },
   "Link Relation": {
     "about": {
+      "id": "http://webconcepts.info/concepts/link-relation/about",
     },
     "alternate": {
+      "id": "http://webconcepts.info/concepts/link-relation/alternate",
     },
     "appendix": {
+      "id": "http://webconcepts.info/concepts/link-relation/appendix",
     },
     "bcc": {
+      "id": "http://webconcepts.info/concepts/link-relation/bcc",
     },
     "bfrom": {
+      "id": "http://webconcepts.info/concepts/link-relation/bfrom",
     },
     "bookmark": {
+      "id": "http://webconcepts.info/concepts/link-relation/bookmark",
     },
     "bto": {
+      "id": "http://webconcepts.info/concepts/link-relation/bto",
     },
     "canonical": {
+      "id": "http://webconcepts.info/concepts/link-relation/canonical",
     },
     "cc": {
+      "id": "http://webconcepts.info/concepts/link-relation/cc",
     },
     "chapter": {
+      "id": "http://webconcepts.info/concepts/link-relation/chapter",
     },
     "collection": {
+      "id": "http://webconcepts.info/concepts/link-relation/collection",
     },
     "contents": {
+      "id": "http://webconcepts.info/concepts/link-relation/contents",
     },
     "copyright": {
+      "id": "http://webconcepts.info/concepts/link-relation/copyright",
     },
     "create": {
+      "id": "http://webconcepts.info/concepts/link-relation/create",
     },
     "create-form": {
+      "id": "http://webconcepts.info/concepts/link-relation/create-form",
     },
     "current": {
+      "id": "http://webconcepts.info/concepts/link-relation/current",
     },
     "derivedfrom": {
+      "id": "http://webconcepts.info/concepts/link-relation/derivedfrom",
     },
     "describedby": {
+      "id": "http://webconcepts.info/concepts/link-relation/describedby",
     },
     "describes": {
+      "id": "http://webconcepts.info/concepts/link-relation/describes",
     },
     "disclosure": {
+      "id": "http://webconcepts.info/concepts/link-relation/disclosure",
     },
     "dns-prefetch": {
+      "id": "http://webconcepts.info/concepts/link-relation/dns-prefetch",
     },
     "down": {
+      "id": "http://webconcepts.info/concepts/link-relation/down",
     },
     "edit": {
+      "id": "http://webconcepts.info/concepts/link-relation/edit",
     },
     "edit-form": {
+      "id": "http://webconcepts.info/concepts/link-relation/edit-form",
     },
     "edit-media": {
+      "id": "http://webconcepts.info/concepts/link-relation/edit-media",
     },
     "enclosure": {
+      "id": "http://webconcepts.info/concepts/link-relation/enclosure",
     },
     "first": {
+      "id": "http://webconcepts.info/concepts/link-relation/first",
     },
     "from": {
+      "id": "http://webconcepts.info/concepts/link-relation/from",
     },
     "full": {
+      "id": "http://webconcepts.info/concepts/link-relation/full",
     },
     "generator": {
+      "id": "http://webconcepts.info/concepts/link-relation/generator",
     },
     "glossary": {
+      "id": "http://webconcepts.info/concepts/link-relation/glossary",
     },
     "help": {
+      "id": "http://webconcepts.info/concepts/link-relation/help",
     },
     "home": {
+      "id": "http://webconcepts.info/concepts/link-relation/home",
     },
     "hosts": {
+      "id": "http://webconcepts.info/concepts/link-relation/hosts",
     },
     "index": {
+      "id": "http://webconcepts.info/concepts/link-relation/index",
     },
     "instances": {
+      "id": "http://webconcepts.info/concepts/link-relation/instances",
     },
     "item": {
+      "id": "http://webconcepts.info/concepts/link-relation/item",
     },
     "last": {
+      "id": "http://webconcepts.info/concepts/link-relation/last",
     },
     "latest-version": {
+      "id": "http://webconcepts.info/concepts/link-relation/latest-version",
     },
     "license": {
+      "id": "http://webconcepts.info/concepts/link-relation/license",
     },
     "link": {
+      "id": "http://webconcepts.info/concepts/link-relation/link",
     },
     "location": {
+      "id": "http://webconcepts.info/concepts/link-relation/location",
     },
     "lrdd": {
+      "id": "http://webconcepts.info/concepts/link-relation/lrdd",
     },
     "manifest": {
+      "id": "http://webconcepts.info/concepts/link-relation/manifest",
     },
     "memento": {
+      "id": "http://webconcepts.info/concepts/link-relation/memento",
     },
     "mentionedby": {
+      "id": "http://webconcepts.info/concepts/link-relation/mentionedby",
     },
     "micropub": {
+      "id": "http://webconcepts.info/concepts/link-relation/micropub",
     },
     "next": {
+      "id": "http://webconcepts.info/concepts/link-relation/next",
     },
     "next-archive": {
+      "id": "http://webconcepts.info/concepts/link-relation/next-archive",
     },
     "original": {
+      "id": "http://webconcepts.info/concepts/link-relation/original",
     },
     "preconnect": {
+      "id": "http://webconcepts.info/concepts/link-relation/preconnect",
     },
     "predecessor-version": {
+      "id": "http://webconcepts.info/concepts/link-relation/predecessor-version",
     },
     "prefetch": {
+      "id": "http://webconcepts.info/concepts/link-relation/prefetch",
     },
     "preload": {
+      "id": "http://webconcepts.info/concepts/link-relation/preload",
     },
     "prerender": {
+      "id": "http://webconcepts.info/concepts/link-relation/prerender",
     },
     "prev": {
+      "id": "http://webconcepts.info/concepts/link-relation/prev",
     },
     "prev-archive": {
+      "id": "http://webconcepts.info/concepts/link-relation/prev-archive",
     },
     "preview": {
+      "id": "http://webconcepts.info/concepts/link-relation/preview",
     },
     "previous": {
+      "id": "http://webconcepts.info/concepts/link-relation/previous",
     },
     "privacy-policy": {
+      "id": "http://webconcepts.info/concepts/link-relation/privacy-policy",
     },
     "provider": {
+      "id": "http://webconcepts.info/concepts/link-relation/provider",
     },
     "related": {
+      "id": "http://webconcepts.info/concepts/link-relation/related",
     },
     "root": {
+      "id": "http://webconcepts.info/concepts/link-relation/root",
     },
     "section": {
+      "id": "http://webconcepts.info/concepts/link-relation/section",
     },
     "self": {
+      "id": "http://webconcepts.info/concepts/link-relation/self",
     },
     "service-desc": {
+      "id": "http://webconcepts.info/concepts/link-relation/service-desc",
     },
     "service-doc": {
+      "id": "http://webconcepts.info/concepts/link-relation/service-doc",
     },
     "source": {
+      "id": "http://webconcepts.info/concepts/link-relation/source",
     },
     "start": {
+      "id": "http://webconcepts.info/concepts/link-relation/start",
     },
     "status": {
+      "id": "http://webconcepts.info/concepts/link-relation/status",
     },
     "stylesheet": {
+      "id": "http://webconcepts.info/concepts/link-relation/stylesheet",
     },
     "subsection": {
+      "id": "http://webconcepts.info/concepts/link-relation/subsection",
     },
     "successor-version": {
+      "id": "http://webconcepts.info/concepts/link-relation/successor-version",
     },
     "terms-of-service": {
+      "id": "http://webconcepts.info/concepts/link-relation/terms-of-service",
     },
     "timegate": {
+      "id": "http://webconcepts.info/concepts/link-relation/timegate",
     },
     "timemap": {
+      "id": "http://webconcepts.info/concepts/link-relation/timemap",
     },
     "to": {
+      "id": "http://webconcepts.info/concepts/link-relation/to",
     },
     "type": {
+      "id": "http://webconcepts.info/concepts/link-relation/type",
     },
     "up": {
+      "id": "http://webconcepts.info/concepts/link-relation/up",
     },
     "version-history": {
+      "id": "http://webconcepts.info/concepts/link-relation/version-history",
     },
     "via": {
+      "id": "http://webconcepts.info/concepts/link-relation/via",
     },
     "webmention": {
+      "id": "http://webconcepts.info/concepts/link-relation/webmention",
     },
     "working-copy": {
+      "id": "http://webconcepts.info/concepts/link-relation/working-copy",
     },
     "working-copy-of": {
+      "id": "http://webconcepts.info/concepts/link-relation/working-copy-of",
     }
   },
   "Media Type": {
     "application/activity+json": {
+      "id": "http://webconcepts.info/concepts/media-type/application/activity+json",
     },
     "application/alps+json": {
+      "id": "http://webconcepts.info/concepts/media-type/application/alps+json",
     },
     "application/alps+xml": {
+      "id": "http://webconcepts.info/concepts/media-type/application/alps+xml",
     },
     "application/atom+xml": {
+      "id": "http://webconcepts.info/concepts/media-type/application/atom+xml",
     },
     "application/atomcat+xml": {
+      "id": "http://webconcepts.info/concepts/media-type/application/atomcat+xml",
     },
     "application/atomdeleted+xml": {
+      "id": "http://webconcepts.info/concepts/media-type/application/atomdeleted+xml",
     },
     "application/atomsvc+xml": {
+      "id": "http://webconcepts.info/concepts/media-type/application/atomsvc+xml",
     },
     "application/cbor": {
+      "id": "http://webconcepts.info/concepts/media-type/application/cbor",
     },
     "application/coap-group+json": {
+      "id": "http://webconcepts.info/concepts/media-type/application/coap-group+json",
     },
     "application/csrattrs": {
+      "id": "http://webconcepts.info/concepts/media-type/application/csrattrs",
     },
     "application/dash+xml": {
+      "id": "http://webconcepts.info/concepts/media-type/application/dash+xml",
     },
     "application/exi": {
+      "id": "http://webconcepts.info/concepts/media-type/application/exi",
     },
     "application/font-sfnt": {
+      "id": "http://webconcepts.info/concepts/media-type/application/font-sfnt",
     },
     "application/geo+json": {
+      "id": "http://webconcepts.info/concepts/media-type/application/geo+json",
     },
     "application/gzip": {
+      "id": "http://webconcepts.info/concepts/media-type/application/gzip",
     },
     "application/held+xml": {
+      "id": "http://webconcepts.info/concepts/media-type/application/held+xml",
     },
     "application/home+json": {
+      "id": "http://webconcepts.info/concepts/media-type/application/home+json",
     },
     "application/home+xml": {
+      "id": "http://webconcepts.info/concepts/media-type/application/home+xml",
     },
     "application/http": {
+      "id": "http://webconcepts.info/concepts/media-type/application/http",
     },
     "application/jose": {
+      "id": "http://webconcepts.info/concepts/media-type/application/jose",
     },
     "application/jose+json": {
+      "id": "http://webconcepts.info/concepts/media-type/application/jose+json",
     },
     "application/jrd+json": {
+      "id": "http://webconcepts.info/concepts/media-type/application/jrd+json",
     },
     "application/json": {
+      "id": "http://webconcepts.info/concepts/media-type/application/json",
     },
     "application/json-seq": {
+      "id": "http://webconcepts.info/concepts/media-type/application/json-seq",
     },
     "application/jwk+json": {
+      "id": "http://webconcepts.info/concepts/media-type/application/jwk+json",
     },
     "application/jwk-set+json": {
+      "id": "http://webconcepts.info/concepts/media-type/application/jwk-set+json",
     },
     "application/jwt": {
+      "id": "http://webconcepts.info/concepts/media-type/application/jwt",
     },
     "application/ld+json": {
+      "id": "http://webconcepts.info/concepts/media-type/application/ld+json",
     },
     "application/link-format": {
+      "id": "http://webconcepts.info/concepts/media-type/application/link-format",
     },
     "application/mads+xml": {
+      "id": "http://webconcepts.info/concepts/media-type/application/mads+xml",
     },
     "application/manifest+json": {
+      "id": "http://webconcepts.info/concepts/media-type/application/manifest+json",
     },
     "application/marc": {
+      "id": "http://webconcepts.info/concepts/media-type/application/marc",
     },
     "application/marcxml+xml": {
+      "id": "http://webconcepts.info/concepts/media-type/application/marcxml+xml",
     },
     "application/mets+xml": {
+      "id": "http://webconcepts.info/concepts/media-type/application/mets+xml",
     },
     "application/mods+xml": {
+      "id": "http://webconcepts.info/concepts/media-type/application/mods+xml",
     },
     "application/nlsml+xml": {
+      "id": "http://webconcepts.info/concepts/media-type/application/nlsml+xml",
     },
     "application/p2p-overlay+xml": {
+      "id": "http://webconcepts.info/concepts/media-type/application/p2p-overlay+xml",
     },
     "application/patch-ops-error+xml": {
+      "id": "http://webconcepts.info/concepts/media-type/application/patch-ops-error+xml",
     },
     "application/powder+xml": {
+      "id": "http://webconcepts.info/concepts/media-type/application/powder+xml",
     },
     "application/powder-s+xml": {
+      "id": "http://webconcepts.info/concepts/media-type/application/powder-s+xml",
     },
     "application/problem+json": {
+      "id": "http://webconcepts.info/concepts/media-type/application/problem+json",
     },
     "application/problem+xml": {
+      "id": "http://webconcepts.info/concepts/media-type/application/problem+xml",
     },
     "application/rfc+xml": {
+      "id": "http://webconcepts.info/concepts/media-type/application/rfc+xml",
     },
     "application/sru+xml": {
+      "id": "http://webconcepts.info/concepts/media-type/application/sru+xml",
     },
     "application/trig": {
+      "id": "http://webconcepts.info/concepts/media-type/application/trig",
     },
     "application/vcard+xml": {
+      "id": "http://webconcepts.info/concepts/media-type/application/vcard+xml",
     },
     "application/xml": {
+      "id": "http://webconcepts.info/concepts/media-type/application/xml",
     },
     "application/xml-dtd": {
+      "id": "http://webconcepts.info/concepts/media-type/application/xml-dtd",
     },
     "application/xml-external-parsed-entity": {
+      "id": "http://webconcepts.info/concepts/media-type/application/xml-external-parsed-entity",
     },
     "application/xml-patch+xml": {
+      "id": "http://webconcepts.info/concepts/media-type/application/xml-patch+xml",
     },
     "application/zlib": {
+      "id": "http://webconcepts.info/concepts/media-type/application/zlib",
     },
     "image/png": {
+      "id": "http://webconcepts.info/concepts/media-type/image/png",
     },
     "message/http": {
+      "id": "http://webconcepts.info/concepts/media-type/message/http",
     },
     "multipart/form-data": {
+      "id": "http://webconcepts.info/concepts/media-type/multipart/form-data",
     },
     "text/event-stream": {
+      "id": "http://webconcepts.info/concepts/media-type/text/event-stream",
     },
     "text/grammar-ref-list": {
+      "id": "http://webconcepts.info/concepts/media-type/text/grammar-ref-list",
     },
     "text/html": {
+      "id": "http://webconcepts.info/concepts/media-type/text/html",
     },
     "text/markdown": {
+      "id": "http://webconcepts.info/concepts/media-type/text/markdown",
     },
     "text/plain": {
+      "id": "http://webconcepts.info/concepts/media-type/text/plain",
     },
     "text/vcard": {
+      "id": "http://webconcepts.info/concepts/media-type/text/vcard",
     },
     "text/vtt": {
+      "id": "http://webconcepts.info/concepts/media-type/text/vtt",
     },
     "text/xml": {
+      "id": "http://webconcepts.info/concepts/media-type/text/xml",
     },
     "text/xml-external-parsed-entity": {
+      "id": "http://webconcepts.info/concepts/media-type/text/xml-external-parsed-entity",
     }
   },
   "URI Scheme": {
     "cap": {
+      "id": "http://webconcepts.info/concepts/uri-scheme/cap",
     },
     "data": {
+      "id": "http://webconcepts.info/concepts/uri-scheme/data",
     },
     "example": {
+      "id": "http://webconcepts.info/concepts/uri-scheme/example",
     },
     "ftp": {
+      "id": "http://webconcepts.info/concepts/uri-scheme/ftp",
     },
     "geo": {
+      "id": "http://webconcepts.info/concepts/uri-scheme/geo",
     },
     "http": {
+      "id": "http://webconcepts.info/concepts/uri-scheme/http",
     },
     "https": {
+      "id": "http://webconcepts.info/concepts/uri-scheme/https",
     },
     "mailto": {
+      "id": "http://webconcepts.info/concepts/uri-scheme/mailto",
     },
     "ni": {
+      "id": "http://webconcepts.info/concepts/uri-scheme/ni",
     },
     "nih": {
+      "id": "http://webconcepts.info/concepts/uri-scheme/nih",
     },
     "reload": {
+      "id": "http://webconcepts.info/concepts/uri-scheme/reload",
     },
     "session": {
+      "id": "http://webconcepts.info/concepts/uri-scheme/session",
     },
     "sms": {
+      "id": "http://webconcepts.info/concepts/uri-scheme/sms",
     },
     "telnet": {
+      "id": "http://webconcepts.info/concepts/uri-scheme/telnet",
     },
     "ws": {
+      "id": "http://webconcepts.info/concepts/uri-scheme/ws",
     },
     "wss": {
+      "id": "http://webconcepts.info/concepts/uri-scheme/wss",
     }
   },
   "Well-Known URI": {
     "caldav": {
+      "id": "http://webconcepts.info/concepts/well-known-uri/caldav",
     },
     "carddav": {
+      "id": "http://webconcepts.info/concepts/well-known-uri/carddav",
     },
     "core": {
+      "id": "http://webconcepts.info/concepts/well-known-uri/core",
     },
     "csvm": {
+      "id": "http://webconcepts.info/concepts/well-known-uri/csvm",
     },
     "dnt": {
+      "id": "http://webconcepts.info/concepts/well-known-uri/dnt",
     },
     "est": {
+      "id": "http://webconcepts.info/concepts/well-known-uri/est",
     },
     "genid": {
+      "id": "http://webconcepts.info/concepts/well-known-uri/genid",
     },
     "hoba": {
+      "id": "http://webconcepts.info/concepts/well-known-uri/hoba",
     },
     "host-meta": {
+      "id": "http://webconcepts.info/concepts/well-known-uri/host-meta",
     },
     "host-meta.json": {
+      "id": "http://webconcepts.info/concepts/well-known-uri/host-meta.json",
     },
     "ni": {
+      "id": "http://webconcepts.info/concepts/well-known-uri/ni",
     },
     "posh": {
+      "id": "http://webconcepts.info/concepts/well-known-uri/posh",
     },
     "reload-config": {
+      "id": "http://webconcepts.info/concepts/well-known-uri/reload-config",
     },
     "repute-template": {
+      "id": "http://webconcepts.info/concepts/well-known-uri/repute-template",
     },
     "stun-key": {
+      "id": "http://webconcepts.info/concepts/well-known-uri/stun-key",
     },
     "timezone": {
+      "id": "http://webconcepts.info/concepts/well-known-uri/timezone",
     },
     "void": {
+      "id": "http://webconcepts.info/concepts/well-known-uri/void",
     },
     "webfinger": {
+      "id": "http://webconcepts.info/concepts/well-known-uri/webfinger",
     }
   }
 }
