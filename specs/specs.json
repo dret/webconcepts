@@ -1,503 +1,521 @@
 {
-  "IETF/I-D/amundsen-richardson-foster-alps": {
-    "title": "Application-Level Profile Semantics (ALPS)"
-  },
-  "IETF/I-D/cavage-http-signatures": {
-    "title": "Signing HTTP Messages"
-  },
-  "IETF/I-D/combs-http-indeterminate-range": {
-    "title": "HTTP/1.1: Range Responses of Indeterminate Length"
-  },
-  "IETF/I-D/divilly-atom-hierarchy": {
-    "title": "Hierarchy Relations for Atom"
-  },
-  "IETF/I-D/drechsler-httpbis-improved-caching": {
-    "title": "Hypertext Transfer Protocol: Improved HTTP Caching"
-  },
-  "IETF/I-D/grigorik-http-client-hints": {
-    "title": "HTTP Client Hints"
-  },
-  "IETF/I-D/hoffman-xml2rfc": {
-    "title": "The 'XML2RFC' version 3 Vocabulary"
-  },
-  "IETF/I-D/ietf-httpbis-client-hints": {
-    "title": "HTTP Client Hints"
-  },
-  "IETF/I-D/ietf-httpbis-encryption-encoding": {
-    "title": "Encrypted Content-Encoding for HTTP"
-  },
-  "IETF/I-D/ietf-httpbis-key": {
-    "title": "The Key HTTP Response Header Field"
-  },
-  "IETF/I-D/ietf-httpbis-tunnel-protocol": {
-    "title": "The Tunnel-Protocol HTTP Header Field"
-  },
-  "IETF/I-D/mogul-http-dupsup": {
-    "title": "Duplicate Suppression in HTTP"
-  },
-  "IETF/I-D/nottingham-http-poe": {
-    "title": "POST Once Exactly (POE)"
-  },
-  "IETF/I-D/nottingham-json-home": {
-    "title": "Home Documents for HTTP APIs"
-  },
-  "IETF/I-D/nottingham-link-template": {
-    "title": "The Link-Template HTTP Header Field"
-  },
-  "IETF/I-D/pratt-httpbis-bytes-live-range-unit": {
-    "title": "HTTP bytes-live Range Unit for Live Content"
-  },
-  "IETF/I-D/ruellan-http-accept-push-policy": {
-    "title": "Accept-Push-Policy Header Field"
-  },
-  "IETF/I-D/snell-more-link-relations": {
-    "title": "Additional Link Relations and the urn:social Namespace"
-  },
-  "IETF/I-D/thomson-http-content-signature": {
-    "title": "Content-Signature Header Field for HTTP"
-  },
-  "IETF/I-D/thomson-http-nice": {
-    "title": "Marking HTTP Requests as Unimportant"
-  },
-  "IETF/I-D/west-origin-cookies": {
-    "title": "Origin Cookies"
-  },
-  "IETF/I-D/wilde-home-xml": {
-    "title": "Home Documents for HTTP Services: XML Syntax"
-  },
-  "IETF/I-D/wilde-service-link-rel": {
-    "title": "Link Relation Types for Web Services"
-  },
-  "IETF/I-D/wilde-sunset-header": {
-    "title": "The Sunset HTTP Header"
-  },
-  "IETF/I-D/zyp-json-schema": {
-    "title": "A JSON Media Type for Describing the Structure and Meaning of JSON Documents"
-  },
-  "IETF/RFC/1738": {
-    "title": "Uniform Resource Locators (URL)"
-  },
-  "IETF/RFC/2068": {
-    "title": "Hypertext Transfer Protocol - HTTP/1.1"
-  },
-  "IETF/RFC/2220": {
-    "title": "The Application/MARC Content-type"
-  },
-  "IETF/RFC/2295": {
-    "title": "Transparent Content Negotiation in HTTP"
-  },
-  "IETF/RFC/2310": {
-    "title": "The Safe Response Header Field"
-  },
-  "IETF/RFC/2324": {
-    "title": "Hyper Text Coffee Pot Control Protocol (HTCPCP/1.0)"
-  },
-  "IETF/RFC/2388": {
-    "title": "Returning Values from Forms: multipart/form-data"
-  },
-  "IETF/RFC/2397": {
-    "title": "The \"data\" URL scheme"
-  },
-  "IETF/RFC/2518": {
-    "title": "HTTP Extensions for Distributed Authoring - WEBDAV"
-  },
-  "IETF/RFC/2616": {
-    "title": "Hypertext Transfer Protocol -- HTTP/1.1"
-  },
-  "IETF/RFC/2660": {
-    "title": "The Secure HyperText Transfer Protocol (S-HTTP)"
-  },
-  "IETF/RFC/2774": {
-    "title": "An HTTP Extension Framework"
-  },
-  "IETF/RFC/2965": {
-    "title": "HTTP State Management Mechanism"
-  },
-  "IETF/RFC/3023": {
-    "title": "XML Media Types"
-  },
-  "IETF/RFC/3229": {
-    "title": "Delta encoding in HTTP"
-  },
-  "IETF/RFC/3230": {
-    "title": "Instance Digests in HTTP"
-  },
-  "IETF/RFC/3253": {
-    "title": "Versioning Extensions to WebDAV (Web Distributed Authoring and Versioning)"
-  },
-  "IETF/RFC/3648": {
-    "title": "Web Distributed Authoring and Versioning (WebDAV) Ordered Collections Protocol"
-  },
-  "IETF/RFC/3744": {
-    "title": "Web Distributed Authoring and Versioning (WebDAV) Access Control Protocol"
-  },
-  "IETF/RFC/3778": {
-    "title": "The application/pdf Media Type"
-  },
-  "IETF/RFC/4248": {
-    "title": "The telnet URI Scheme"
-  },
-  "IETF/RFC/4287": {
-    "title": "Atom Syndication Format"
-  },
-  "IETF/RFC/4324": {
-    "title": "Calendar Access Protocol (CAP)"
-  },
-  "IETF/RFC/4437": {
-    "title": "Web Distributed Authoring and Versioning (WebDAV): Redirect Reference Resources"
-  },
-  "IETF/RFC/4791": {
-    "title": "Calendaring Extensions to WebDAV (CalDAV)"
-  },
-  "IETF/RFC/4918": {
-    "title": "HTTP Extensions for Web Distributed Authoring and Versioning (WebDAV)"
-  },
-  "IETF/RFC/4946": {
-    "title": "Atom License Extension"
-  },
-  "IETF/RFC/5005": {
-    "title": "Feed Paging and Archiving"
-  },
-  "IETF/RFC/5023": {
-    "title": "Atom Publishing Protocol (AtomPub)"
-  },
-  "IETF/RFC/5174": {
-    "title": "URI Fragment Identifiers for the text/plain Media Type"
-  },
-  "IETF/RFC/5261": {
-    "title": "An Extensible Markup Language (XML) Patch Operations Framework Utilizing XML Path Language (XPath) Selectors"
-  },
-  "IETF/RFC/5323": {
-    "title": "Web Distributed Authoring and Versioning (WebDAV) SEARCH"
-  },
-  "IETF/RFC/5724": {
-    "title": "URI Scheme for Global System for Mobile Communications (GSM) Short Message Service (SMS)"
-  },
-  "IETF/RFC/5789": {
-    "title": "PATCH Method for HTTP"
-  },
-  "IETF/RFC/5829": {
-    "title": "Link Relation Types for Simple Version Navigation between Web Resources"
-  },
-  "IETF/RFC/5842": {
-    "title": "Binding Extensions to Web Distributed Authoring and Versioning (WebDAV)"
-  },
-  "IETF/RFC/5849": {
-    "title": "The OAuth 1.0 Protocol"
-  },
-  "IETF/RFC/5861": {
-    "title": "HTTP Cache-Control Extensions for Stale Content"
-  },
-  "IETF/RFC/5870": {
-    "title": "A Uniform Resource Identifier for Geographic Locations ('geo' URI)"
-  },
-  "IETF/RFC/5985": {
-    "title": "HTTP-Enabled Location Delivery (HELD)"
-  },
-  "IETF/RFC/5988": {
-    "title": "Web Linking"
-  },
-  "IETF/RFC/6017": {
-    "title": "Electronic Data Interchange - Internet Integration (EDIINT) Features Header Field"
-  },
-  "IETF/RFC/6068": {
-    "title": "The 'mailto' URI Scheme"
-  },
-  "IETF/RFC/6207": {
-    "title": "The Media Types application/mods+xml, application/mads+xml, application/mets+xml, application/marcxml+xml, and application/sru+xml"
-  },
-  "IETF/RFC/6265": {
-    "title": "HTTP State Management Mechanism"
-  },
-  "IETF/RFC/6266": {
-    "title": "Use of the Content-Disposition Header Field in the Hypertext Transfer Protocol (HTTP)"
-  },
-  "IETF/RFC/6271": {
-    "title": "The Atom \"deleted-entry\" Element"
-  },
-  "IETF/RFC/6350": {
-    "title": "vCard Format Specification"
-  },
-  "IETF/RFC/6351": {
-    "title": "xCard: vCard XML Representation"
-  },
-  "IETF/RFC/6415": {
-    "title": "Web Host Metadata"
-  },
-  "IETF/RFC/6455": {
-    "title": "The WebSocket Protocol"
-  },
-  "IETF/RFC/6573": {
-    "title": "The Item and Collection Link Relations"
-  },
-  "IETF/RFC/6579": {
-    "title": "The 'disclosure' Link Relation Type"
-  },
-  "IETF/RFC/6585": {
-    "title": "Additional HTTP Status Codes"
-  },
-  "IETF/RFC/6596": {
-    "title": "The Canonical Link Relation"
-  },
-  "IETF/RFC/6638": {
-    "title": "Scheduling Extensions to CalDAV"
-  },
-  "IETF/RFC/6690": {
-    "title": "Constrained RESTful Environments (CoRE) Link Format"
-  },
-  "IETF/RFC/6713": {
-    "title": "The 'application/zlib' and 'application/gzip' Media Types"
-  },
-  "IETF/RFC/6764": {
-    "title": "Locating Services for Calendaring Extensions to WebDAV (CalDAV) and vCard Extensions to WebDAV (CardDAV)"
-  },
-  "IETF/RFC/6768": {
-    "title": "Media Resource Control Protocol Version 2 (MRCPv2)"
-  },
-  "IETF/RFC/6797": {
-    "title": "HTTP Strict Transport Security (HSTS)"
-  },
-  "IETF/RFC/6861": {
-    "title": "The \"create-form\" and \"edit-form\" Link Relations"
-  },
-  "IETF/RFC/6892": {
-    "title": "The 'describes' Link Relation Type"
-  },
-  "IETF/RFC/6903": {
-    "title": "Additional Link Relation Types"
-  },
-  "IETF/RFC/6920": {
-    "title": "Naming Things with Hashes"
-  },
-  "IETF/RFC/6940": {
-    "title": "REsource LOcation And Discovery (RELOAD) Base Protocol"
-  },
-  "IETF/RFC/7030": {
-    "title": "Enrollment over Secure Transport"
-  },
-  "IETF/RFC/7033": {
-    "title": "WebFinger"
-  },
-  "IETF/RFC/7034": {
-    "title": "HTTP Header Field X-Frame-Options"
-  },
-  "IETF/RFC/7049": {
-    "title": "Concise Binary Object Representation (CBOR)"
-  },
-  "IETF/RFC/7072": {
-    "title": "A Reputation Query Protocol"
-  },
-  "IETF/RFC/7089": {
-    "title": "HTTP framework for time-based access to resource states - Memento"
-  },
-  "IETF/RFC/7159": {
-    "title": "JavaScript Object Notation (JSON)"
-  },
-  "IETF/RFC/7168": {
-    "title": "The Hyper Text Coffee Pot Control Protocol for Tea Efflux Appliances (HTCPCP-TEA)"
-  },
-  "IETF/RFC/7230": {
-    "title": "Hypertext Transfer Protocol (HTTP/1.1): Message Syntax and Routing"
-  },
-  "IETF/RFC/7231": {
-    "title": "Hypertext Transfer Protocol (HTTP/1.1): Semantics and Content"
-  },
-  "IETF/RFC/7232": {
-    "title": "Hypertext Transfer Protocol (HTTP/1.1): Conditional Requests"
-  },
-  "IETF/RFC/7233": {
-    "title": "Hypertext Transfer Protocol (HTTP/1.1): Range Requests"
-  },
-  "IETF/RFC/7234": {
-    "title": "Hypertext Transfer Protocol (HTTP/1.1): Caching"
-  },
-  "IETF/RFC/7235": {
-    "title": "Hypertext Transfer Protocol (HTTP/1.1): Authentication"
-  },
-  "IETF/RFC/7239": {
-    "title": "Forwarded HTTP Extension"
-  },
-  "IETF/RFC/7240": {
-    "title": "Prefer Header for HTTP"
-  },
-  "IETF/RFC/7351": {
-    "title": "A Media Type for XML Patch Operations"
-  },
-  "IETF/RFC/7390": {
-    "title": "Group Communication for the Constrained Application Protocol (CoAP)"
-  },
-  "IETF/RFC/7464": {
-    "title": "JavaScript Object Notation (JSON) Text Sequences"
-  },
-  "IETF/RFC/7469": {
-    "title": "Public Key Pinning Extension for HTTP"
-  },
-  "IETF/RFC/7486": {
-    "title": "HTTP Origin-Bound Authentication (HOBA)"
-  },
-  "IETF/RFC/7515": {
-    "title": "JSON Web Signature (JWS)"
-  },
-  "IETF/RFC/7517": {
-    "title": "JSON Web Key (JWK)"
-  },
-  "IETF/RFC/7519": {
-    "title": "JSON Web Token (JWT)"
-  },
-  "IETF/RFC/7538": {
-    "title": "The Hypertext Transfer Protocol Status Code 308 (Permanent Redirect)"
-  },
-  "IETF/RFC/7540": {
-    "title": "Hypertext Transfer Protocol Version 2"
-  },
-  "IETF/RFC/7595": {
-    "title": "Guidelines and Registration Procedures for URI Schemes"
-  },
-  "IETF/RFC/7615": {
-    "title": "The Hypertext Transfer Protocol (HTTP) Authentication-Info and Proxy-Authentication-Info Response Header Fields"
-  },
-  "IETF/RFC/7616": {
-    "title": "HTTP Digest Access Authentication"
-  },
-  "IETF/RFC/7635": {
-    "title": "Session Traversal Utilities for NAT (STUN) Extension"
-  },
-  "IETF/RFC/7639": {
-    "title": "The ALPN HTTP Header Field"
-  },
-  "IETF/RFC/7694": {
-    "title": "Hypertext Transfer Protocol (HTTP) Client-Initiated Content-Encoding"
-  },
-  "IETF/RFC/7711": {
-    "title": "PKIX over Secure HTTP (POSH)"
-  },
-  "IETF/RFC/7725": {
-    "title": "An HTTP Status Code to Report Legal Obstacles"
-  },
-  "IETF/RFC/7763": {
-    "title": "The text/markdown Media Type"
-  },
-  "IETF/RFC/7807": {
-    "title": "Problem Details for HTTP APIs"
-  },
-  "IETF/RFC/7808": {
-    "title": "Time Zone Data Distribution Service"
-  },
-  "IETF/RFC/7838": {
-    "title": "HTTP Alternate Services"
-  },
-  "IETF/RFC/7932": {
-    "title": "Brotli Compressed Data Format"
-  },
-  "IETF/RFC/7946": {
-    "title": "The GeoJSON Format"
-  },
-  "ISO/IEC/14496-22": {
-    "title": "Information technology — Coding of audio-visual objects — Part 22: Open Font Format"
-  },
-  "ISO/IEC/23009-1": {
-    "title": "Information technology — Dynamic adaptive streaming over HTTP (DASH) — Part 1: Media presentation description and segment formats"
-  },
-  "JCP/JSR/200": {
-    "title": "Pack200: A Packed Class Deployment Format For Java Applications"
-  },
-  "W3C/TR/COWL": {
-    "title": "Confinement with Origin Web Labels"
-  },
-  "W3C/TR/CSP2": {
-    "title": "Content Security Policy Level 2"
-  },
-  "W3C/TR/CSP3": {
-    "title": "Content Security Policy Level 3"
-  },
-  "W3C/TR/P3P": {
-    "title": "The Platform for Privacy Preferences 1.0 (P3P1.0) Specification"
-  },
-  "W3C/TR/PNG": {
-    "title": "Portable Network Graphics"
-  },
-  "W3C/TR/SOAP": {
-    "title": "Simple Object Access Protocol (SOAP) 1.1"
-  },
-  "W3C/TR/WD-http-pep": {
-    "title": "PEP - An Extension Mechanism for HTTP"
-  },
-  "W3C/TR/WD-proxy": {
-    "title": "Notification for Proxy Caches"
-  },
-  "W3C/TR/activitystreams-core": {
-    "title": "Activity Streams 2.0"
-  },
-  "W3C/TR/appmanifest": {
-    "title": "Manifest for Web Application"
-  },
-  "W3C/TR/clear-site-data": {
-    "title": "Clear Site Data"
-  },
-  "W3C/TR/cors": {
-    "title": "Cross-Origin Resource Sharing (CORS)"
-  },
-  "W3C/TR/csp-pinning": {
-    "title": "Content Security Policy Pinning"
-  },
-  "W3C/TR/edge-arch": {
-    "title": "Edge Architecture Specification"
-  },
-  "W3C/TR/epr": {
-    "title": "Entry Point Regulation (EPR)"
-  },
-  "W3C/TR/eventsource": {
-    "title": "Server-Sent Events"
-  },
-  "W3C/TR/exi": {
-    "title": "Efficient XML Interchange (EXI) Format 1.0"
-  },
-  "W3C/TR/html4": {
-    "title": "Hypertext Markup Language (HTML)"
-  },
-  "W3C/TR/json-ld": {
-    "title": "JSON-LD 1.0"
-  },
-  "W3C/TR/ldp": {
-    "title": "Linked Data Platform 1.0 (LDP)"
-  },
-  "W3C/TR/micropub": {
-    "title": "Micropub"
-  },
-  "W3C/TR/powder-dr": {
-    "title": "Protocol for Web Description Resources (POWDER): Description Resources"
-  },
-  "W3C/TR/preload": {
-    "title": "Preload"
-  },
-  "W3C/TR/rdf11-concepts": {
-    "title": "RDF 1.1 Concepts and Abstract Syntax"
-  },
-  "W3C/TR/reporting-1": {
-    "title": "Reporting API 1"
-  },
-  "W3C/TR/resource-hints": {
-    "title": "Resource Hints"
-  },
-  "W3C/TR/tabular-data-model": {
-    "title": "Model for Tabular Data and Metadata on the Web"
-  },
-  "W3C/TR/tracking-dnt": {
-    "title": "Tracking Preference Expression (DNT)"
-  },
-  "W3C/TR/trig": {
-    "title": "TriG"
-  },
-  "W3C/TR/upgrade-insecure-requests": {
-    "title": "Upgrade Insecure Requests"
-  },
-  "W3C/TR/void": {
-    "title": "Describing Linked Datasets with the VoID Vocabulary"
-  },
-  "W3C/TR/webmention": {
-    "title": "Webmention"
-  },
-  "W3C/TR/webvtt": {
-    "title": "Web Video Text Tracks (WebVTT)"
+  "IETF": {
+    "I-D": {
+      "amundsen-richardson-foster-alps": {
+        "title": "Application-Level Profile Semantics (ALPS)"
+      },
+      "cavage-http-signatures": {
+        "title": "Signing HTTP Messages"
+      },
+      "combs-http-indeterminate-range": {
+        "title": "HTTP/1.1: Range Responses of Indeterminate Length"
+      },
+      "divilly-atom-hierarchy": {
+        "title": "Hierarchy Relations for Atom"
+      },
+      "drechsler-httpbis-improved-caching": {
+        "title": "Hypertext Transfer Protocol: Improved HTTP Caching"
+      },
+      "grigorik-http-client-hints": {
+        "title": "HTTP Client Hints"
+      },
+      "hoffman-xml2rfc": {
+        "title": "The 'XML2RFC' version 3 Vocabulary"
+      },
+      "ietf-httpbis-client-hints": {
+        "title": "HTTP Client Hints"
+      },
+      "ietf-httpbis-encryption-encoding": {
+        "title": "Encrypted Content-Encoding for HTTP"
+      },
+      "ietf-httpbis-key": {
+        "title": "The Key HTTP Response Header Field"
+      },
+      "ietf-httpbis-tunnel-protocol": {
+        "title": "The Tunnel-Protocol HTTP Header Field"
+      },
+      "mogul-http-dupsup": {
+        "title": "Duplicate Suppression in HTTP"
+      },
+      "nottingham-http-poe": {
+        "title": "POST Once Exactly (POE)"
+      },
+      "nottingham-json-home": {
+        "title": "Home Documents for HTTP APIs"
+      },
+      "nottingham-link-template": {
+        "title": "The Link-Template HTTP Header Field"
+      },
+      "pratt-httpbis-bytes-live-range-unit": {
+        "title": "HTTP bytes-live Range Unit for Live Content"
+      },
+      "ruellan-http-accept-push-policy": {
+        "title": "Accept-Push-Policy Header Field"
+      },
+      "snell-more-link-relations": {
+        "title": "Additional Link Relations and the urn:social Namespace"
+      },
+      "thomson-http-content-signature": {
+        "title": "Content-Signature Header Field for HTTP"
+      },
+      "thomson-http-nice": {
+        "title": "Marking HTTP Requests as Unimportant"
+      },
+      "west-origin-cookies": {
+        "title": "Origin Cookies"
+      },
+      "wilde-home-xml": {
+        "title": "Home Documents for HTTP Services: XML Syntax"
+      },
+      "wilde-service-link-rel": {
+        "title": "Link Relation Types for Web Services"
+      },
+      "wilde-sunset-header": {
+        "title": "The Sunset HTTP Header"
+      },
+      "zyp-json-schema": {
+        "title": "A JSON Media Type for Describing the Structure and Meaning of JSON Documents"
+      }
+    },
+    "RFC": {
+      "1738": {
+        "title": "Uniform Resource Locators (URL)"
+      },
+      "2068": {
+        "title": "Hypertext Transfer Protocol - HTTP/1.1"
+      },
+      "2220": {
+        "title": "The Application/MARC Content-type"
+      },
+      "2295": {
+        "title": "Transparent Content Negotiation in HTTP"
+      },
+      "2310": {
+        "title": "The Safe Response Header Field"
+      },
+      "2324": {
+        "title": "Hyper Text Coffee Pot Control Protocol (HTCPCP/1.0)"
+      },
+      "2388": {
+        "title": "Returning Values from Forms: multipart/form-data"
+      },
+      "2397": {
+        "title": "The \"data\" URL scheme"
+      },
+      "2518": {
+        "title": "HTTP Extensions for Distributed Authoring - WEBDAV"
+      },
+      "2616": {
+        "title": "Hypertext Transfer Protocol -- HTTP/1.1"
+      },
+      "2660": {
+        "title": "The Secure HyperText Transfer Protocol (S-HTTP)"
+      },
+      "2774": {
+        "title": "An HTTP Extension Framework"
+      },
+      "2965": {
+        "title": "HTTP State Management Mechanism"
+      },
+      "3023": {
+        "title": "XML Media Types"
+      },
+      "3229": {
+        "title": "Delta encoding in HTTP"
+      },
+      "3230": {
+        "title": "Instance Digests in HTTP"
+      },
+      "3253": {
+        "title": "Versioning Extensions to WebDAV (Web Distributed Authoring and Versioning)"
+      },
+      "3648": {
+        "title": "Web Distributed Authoring and Versioning (WebDAV) Ordered Collections Protocol"
+      },
+      "3744": {
+        "title": "Web Distributed Authoring and Versioning (WebDAV) Access Control Protocol"
+      },
+      "3778": {
+        "title": "The application/pdf Media Type"
+      },
+      "4248": {
+        "title": "The telnet URI Scheme"
+      },
+      "4287": {
+        "title": "Atom Syndication Format"
+      },
+      "4324": {
+        "title": "Calendar Access Protocol (CAP)"
+      },
+      "4437": {
+        "title": "Web Distributed Authoring and Versioning (WebDAV): Redirect Reference Resources"
+      },
+      "4791": {
+        "title": "Calendaring Extensions to WebDAV (CalDAV)"
+      },
+      "4918": {
+        "title": "HTTP Extensions for Web Distributed Authoring and Versioning (WebDAV)"
+      },
+      "4946": {
+        "title": "Atom License Extension"
+      },
+      "5005": {
+        "title": "Feed Paging and Archiving"
+      },
+      "5023": {
+        "title": "Atom Publishing Protocol (AtomPub)"
+      },
+      "5174": {
+        "title": "URI Fragment Identifiers for the text/plain Media Type"
+      },
+      "5261": {
+        "title": "An Extensible Markup Language (XML) Patch Operations Framework Utilizing XML Path Language (XPath) Selectors"
+      },
+      "5323": {
+        "title": "Web Distributed Authoring and Versioning (WebDAV) SEARCH"
+      },
+      "5724": {
+        "title": "URI Scheme for Global System for Mobile Communications (GSM) Short Message Service (SMS)"
+      },
+      "5789": {
+        "title": "PATCH Method for HTTP"
+      },
+      "5829": {
+        "title": "Link Relation Types for Simple Version Navigation between Web Resources"
+      },
+      "5842": {
+        "title": "Binding Extensions to Web Distributed Authoring and Versioning (WebDAV)"
+      },
+      "5849": {
+        "title": "The OAuth 1.0 Protocol"
+      },
+      "5861": {
+        "title": "HTTP Cache-Control Extensions for Stale Content"
+      },
+      "5870": {
+        "title": "A Uniform Resource Identifier for Geographic Locations ('geo' URI)"
+      },
+      "5985": {
+        "title": "HTTP-Enabled Location Delivery (HELD)"
+      },
+      "5988": {
+        "title": "Web Linking"
+      },
+      "6017": {
+        "title": "Electronic Data Interchange - Internet Integration (EDIINT) Features Header Field"
+      },
+      "6068": {
+        "title": "The 'mailto' URI Scheme"
+      },
+      "6207": {
+        "title": "The Media Types application/mods+xml, application/mads+xml, application/mets+xml, application/marcxml+xml, and application/sru+xml"
+      },
+      "6265": {
+        "title": "HTTP State Management Mechanism"
+      },
+      "6266": {
+        "title": "Use of the Content-Disposition Header Field in the Hypertext Transfer Protocol (HTTP)"
+      },
+      "6271": {
+        "title": "The Atom \"deleted-entry\" Element"
+      },
+      "6350": {
+        "title": "vCard Format Specification"
+      },
+      "6351": {
+        "title": "xCard: vCard XML Representation"
+      },
+      "6415": {
+        "title": "Web Host Metadata"
+      },
+      "6455": {
+        "title": "The WebSocket Protocol"
+      },
+      "6573": {
+        "title": "The Item and Collection Link Relations"
+      },
+      "6579": {
+        "title": "The 'disclosure' Link Relation Type"
+      },
+      "6585": {
+        "title": "Additional HTTP Status Codes"
+      },
+      "6596": {
+        "title": "The Canonical Link Relation"
+      },
+      "6638": {
+        "title": "Scheduling Extensions to CalDAV"
+      },
+      "6690": {
+        "title": "Constrained RESTful Environments (CoRE) Link Format"
+      },
+      "6713": {
+        "title": "The 'application/zlib' and 'application/gzip' Media Types"
+      },
+      "6764": {
+        "title": "Locating Services for Calendaring Extensions to WebDAV (CalDAV) and vCard Extensions to WebDAV (CardDAV)"
+      },
+      "6768": {
+        "title": "Media Resource Control Protocol Version 2 (MRCPv2)"
+      },
+      "6797": {
+        "title": "HTTP Strict Transport Security (HSTS)"
+      },
+      "6861": {
+        "title": "The \"create-form\" and \"edit-form\" Link Relations"
+      },
+      "6892": {
+        "title": "The 'describes' Link Relation Type"
+      },
+      "6903": {
+        "title": "Additional Link Relation Types"
+      },
+      "6920": {
+        "title": "Naming Things with Hashes"
+      },
+      "6940": {
+        "title": "REsource LOcation And Discovery (RELOAD) Base Protocol"
+      },
+      "7030": {
+        "title": "Enrollment over Secure Transport"
+      },
+      "7033": {
+        "title": "WebFinger"
+      },
+      "7034": {
+        "title": "HTTP Header Field X-Frame-Options"
+      },
+      "7049": {
+        "title": "Concise Binary Object Representation (CBOR)"
+      },
+      "7072": {
+        "title": "A Reputation Query Protocol"
+      },
+      "7089": {
+        "title": "HTTP framework for time-based access to resource states - Memento"
+      },
+      "7159": {
+        "title": "JavaScript Object Notation (JSON)"
+      },
+      "7168": {
+        "title": "The Hyper Text Coffee Pot Control Protocol for Tea Efflux Appliances (HTCPCP-TEA)"
+      },
+      "7230": {
+        "title": "Hypertext Transfer Protocol (HTTP/1.1): Message Syntax and Routing"
+      },
+      "7231": {
+        "title": "Hypertext Transfer Protocol (HTTP/1.1): Semantics and Content"
+      },
+      "7232": {
+        "title": "Hypertext Transfer Protocol (HTTP/1.1): Conditional Requests"
+      },
+      "7233": {
+        "title": "Hypertext Transfer Protocol (HTTP/1.1): Range Requests"
+      },
+      "7234": {
+        "title": "Hypertext Transfer Protocol (HTTP/1.1): Caching"
+      },
+      "7235": {
+        "title": "Hypertext Transfer Protocol (HTTP/1.1): Authentication"
+      },
+      "7239": {
+        "title": "Forwarded HTTP Extension"
+      },
+      "7240": {
+        "title": "Prefer Header for HTTP"
+      },
+      "7351": {
+        "title": "A Media Type for XML Patch Operations"
+      },
+      "7390": {
+        "title": "Group Communication for the Constrained Application Protocol (CoAP)"
+      },
+      "7464": {
+        "title": "JavaScript Object Notation (JSON) Text Sequences"
+      },
+      "7469": {
+        "title": "Public Key Pinning Extension for HTTP"
+      },
+      "7486": {
+        "title": "HTTP Origin-Bound Authentication (HOBA)"
+      },
+      "7515": {
+        "title": "JSON Web Signature (JWS)"
+      },
+      "7517": {
+        "title": "JSON Web Key (JWK)"
+      },
+      "7519": {
+        "title": "JSON Web Token (JWT)"
+      },
+      "7538": {
+        "title": "The Hypertext Transfer Protocol Status Code 308 (Permanent Redirect)"
+      },
+      "7540": {
+        "title": "Hypertext Transfer Protocol Version 2"
+      },
+      "7595": {
+        "title": "Guidelines and Registration Procedures for URI Schemes"
+      },
+      "7615": {
+        "title": "The Hypertext Transfer Protocol (HTTP) Authentication-Info and Proxy-Authentication-Info Response Header Fields"
+      },
+      "7616": {
+        "title": "HTTP Digest Access Authentication"
+      },
+      "7635": {
+        "title": "Session Traversal Utilities for NAT (STUN) Extension"
+      },
+      "7639": {
+        "title": "The ALPN HTTP Header Field"
+      },
+      "7694": {
+        "title": "Hypertext Transfer Protocol (HTTP) Client-Initiated Content-Encoding"
+      },
+      "7711": {
+        "title": "PKIX over Secure HTTP (POSH)"
+      },
+      "7725": {
+        "title": "An HTTP Status Code to Report Legal Obstacles"
+      },
+      "7763": {
+        "title": "The text/markdown Media Type"
+      },
+      "7807": {
+        "title": "Problem Details for HTTP APIs"
+      },
+      "7808": {
+        "title": "Time Zone Data Distribution Service"
+      },
+      "7838": {
+        "title": "HTTP Alternate Services"
+      },
+      "7932": {
+        "title": "Brotli Compressed Data Format"
+      },
+      "7946": {
+        "title": "The GeoJSON Format"
+      }
+    }
+  },
+  "ISO": {
+    "IEC": {
+      "14496-22": {
+        "title": "Information technology — Coding of audio-visual objects — Part 22: Open Font Format"
+      },
+      "23009-1": {
+        "title": "Information technology — Dynamic adaptive streaming over HTTP (DASH) — Part 1: Media presentation description and segment formats"
+      }
+    }
+  },
+  "JCP": {
+    "JSR": {
+      "200": {
+        "title": "Pack200: A Packed Class Deployment Format For Java Applications"
+      }
+    }
+  },
+  "W3C": {
+    "TR": {
+      "COWL": {
+        "title": "Confinement with Origin Web Labels"
+      },
+      "CSP2": {
+        "title": "Content Security Policy Level 2"
+      },
+      "CSP3": {
+        "title": "Content Security Policy Level 3"
+      },
+      "P3P": {
+        "title": "The Platform for Privacy Preferences 1.0 (P3P1.0) Specification"
+      },
+      "PNG": {
+        "title": "Portable Network Graphics"
+      },
+      "SOAP": {
+        "title": "Simple Object Access Protocol (SOAP) 1.1"
+      },
+      "WD-http-pep": {
+        "title": "PEP - An Extension Mechanism for HTTP"
+      },
+      "WD-proxy": {
+        "title": "Notification for Proxy Caches"
+      },
+      "activitystreams-core": {
+        "title": "Activity Streams 2.0"
+      },
+      "appmanifest": {
+        "title": "Manifest for Web Application"
+      },
+      "clear-site-data": {
+        "title": "Clear Site Data"
+      },
+      "cors": {
+        "title": "Cross-Origin Resource Sharing (CORS)"
+      },
+      "csp-pinning": {
+        "title": "Content Security Policy Pinning"
+      },
+      "edge-arch": {
+        "title": "Edge Architecture Specification"
+      },
+      "epr": {
+        "title": "Entry Point Regulation (EPR)"
+      },
+      "eventsource": {
+        "title": "Server-Sent Events"
+      },
+      "exi": {
+        "title": "Efficient XML Interchange (EXI) Format 1.0"
+      },
+      "html4": {
+        "title": "Hypertext Markup Language (HTML)"
+      },
+      "json-ld": {
+        "title": "JSON-LD 1.0"
+      },
+      "ldp": {
+        "title": "Linked Data Platform 1.0 (LDP)"
+      },
+      "micropub": {
+        "title": "Micropub"
+      },
+      "powder-dr": {
+        "title": "Protocol for Web Description Resources (POWDER): Description Resources"
+      },
+      "preload": {
+        "title": "Preload"
+      },
+      "rdf11-concepts": {
+        "title": "RDF 1.1 Concepts and Abstract Syntax"
+      },
+      "reporting-1": {
+        "title": "Reporting API 1"
+      },
+      "resource-hints": {
+        "title": "Resource Hints"
+      },
+      "tabular-data-model": {
+        "title": "Model for Tabular Data and Metadata on the Web"
+      },
+      "tracking-dnt": {
+        "title": "Tracking Preference Expression (DNT)"
+      },
+      "trig": {
+        "title": "TriG"
+      },
+      "upgrade-insecure-requests": {
+        "title": "Upgrade Insecure Requests"
+      },
+      "void": {
+        "title": "Describing Linked Datasets with the VoID Vocabulary"
+      },
+      "webmention": {
+        "title": "Webmention"
+      },
+      "webvtt": {
+        "title": "Web Video Text Tracks (WebVTT)"
+      }
+    }
   }
 }
