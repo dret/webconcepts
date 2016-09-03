@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Nothing Changed"
+title:  "Nothing Has Changed"
 date:   2016-08-16
 categories: update
 ---
