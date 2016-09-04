@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<service primary="IETF" secondary="RFC" id="3860" xmlns="http://github.com/dret/sedola">
+    <title>Common Profile for Instant Messaging (CPIM)</title>
+    <documentation source="http://tools.ietf.org/html/rfc3860">At the time this document was written, numerous instant messaging protocols were in use, and little interoperability between services based on these protocols has been achieved. This specification defines common semantics and data formats for instant messaging to facilitate the creation of gateways between instant messaging services.</documentation>
+    <uri-scheme def="im">
+        <documentation source="http://tools.ietf.org/html/rfc3860#appendix-A.4">Use of the im: URI follows closely usage of the mailto: URI. That is, invocation of an IM URI will cause the user's instant messaging application to start, with destination address and message headers fill-in according to the information supplied in the URI.</documentation>
+    </uri-scheme>
+</service>

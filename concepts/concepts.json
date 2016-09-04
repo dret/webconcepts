@@ -3000,6 +3000,12 @@
      "description": "The \"https\" URI scheme is hereby defined for the purpose of minting identifiers according to their association with the hierarchical namespace governed by a potential HTTP origin server listening to a given TCP port for TLS-secured connections.",
      "documentation": "http://tools.ietf.org/html/rfc7230#section-2.7.2",
      "specification": "http://webconcepts.info/specs/IETF/RFC/7230" }]}},{
+   "im": {
+    "id": "http://webconcepts.info/concepts/uri-scheme/im",
+    "details": [{
+     "description": "Use of the im: URI follows closely usage of the mailto: URI. That is, invocation of an IM URI will cause the user's instant messaging application to start, with destination address and message headers fill-in according to the information supplied in the URI.",
+     "documentation": "http://tools.ietf.org/html/rfc3860#appendix-A.4",
+     "specification": "http://webconcepts.info/specs/IETF/RFC/3860" }]}},{
    "mailto": {
     "id": "http://webconcepts.info/concepts/uri-scheme/mailto",
     "details": [{
@@ -3018,6 +3024,12 @@
      "description": "Fields in nih URIs are separated by a semicolon (;) character. The first field is a hash algorithm string, as in the ni URI format.",
      "documentation": "http://tools.ietf.org/html/rfc6920#section-7",
      "specification": "http://webconcepts.info/specs/IETF/RFC/6920" }]}},{
+   "pres": {
+    "id": "http://webconcepts.info/concepts/uri-scheme/pres",
+    "details": [{
+     "description": "Use of the pres: URI follows closely usage of the mailto: URI. That is, invocation of an PRES URI will cause the user's instant messaging application to start, with destination address and message headers  fill-in according to the information supplied in the URI.",
+     "documentation": "http://tools.ietf.org/html/rfc3859#appendix-A.4",
+     "specification": "http://webconcepts.info/specs/IETF/RFC/3859" }]}},{
    "reload": {
     "id": "http://webconcepts.info/concepts/uri-scheme/reload",
     "details": [{

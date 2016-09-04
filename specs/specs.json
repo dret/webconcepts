@@ -329,6 +329,20 @@
       "URI": "urn:ietf:rfc:3778",
       "URL": "http://tools.ietf.org/html/rfc3778",
       "abstract": "PDF, the 'Portable Document Format', is a general document representation language that has been in use for document exchange on the Internet since 1993. This document provides an overview of the PDF format, explains the mechanisms for digital signatures and encryption within PDF files, and updates the media type registration of 'application/pdf'." }},{
+     "3859": {
+      "id": "http://webconcepts.info/specs/IETF/RFC/3859",
+      "title": "Common Profile for Presence (CPP)",
+      "name": "RFC 3859",
+      "URI": "urn:ietf:rfc:3859",
+      "URL": "http://tools.ietf.org/html/rfc3859",
+      "abstract": "At the time this document was written, numerous presence protocols were in use (largely as components of commercial instant messaging services), and little interoperability between services based on these protocols has been achieved.  This specification defines common semantics and data formats for presence to facilitate the creation of gateways between presence services." }},{
+     "3860": {
+      "id": "http://webconcepts.info/specs/IETF/RFC/3860",
+      "title": "Common Profile for Instant Messaging (CPIM)",
+      "name": "RFC 3860",
+      "URI": "urn:ietf:rfc:3860",
+      "URL": "http://tools.ietf.org/html/rfc3860",
+      "abstract": "At the time this document was written, numerous instant messaging protocols were in use, and little interoperability between services based on these protocols has been achieved. This specification defines common semantics and data formats for instant messaging to facilitate the creation of gateways between instant messaging services." }},{
      "3902": {
       "id": "http://webconcepts.info/specs/IETF/RFC/3902",
       "title": "The \"application/soap+xml\" Media Type",
