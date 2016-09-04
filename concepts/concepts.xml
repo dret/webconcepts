@@ -91,4 +91,18 @@
         <filename-plural>uri-schemes</filename-plural>
         <iana-registry>http://www.iana.org/assignments/uri-schemes/uri-schemes.xhtml</iana-registry>
     </concept>
+    <concept id="jwt-claim">
+        <title-singular>JSON Web Token Claim</title-singular>
+        <title-plural>JSON Web Token Claims</title-plural>
+        <filename-singular>jwt-claim</filename-singular>
+        <filename-plural>jwt-claims</filename-plural>
+        <iana-registry>http://www.iana.org/assignments/jwt/jwt.xhtml#claims</iana-registry>
+    </concept>
+    <concept id="jwt-confirmation-method">
+        <title-singular>JWT Confirmation Method</title-singular>
+        <title-plural>JWT Confirmation Methods</title-plural>
+        <filename-singular>jwt-confirmation-method</filename-singular>
+        <filename-plural>jwt-confirmation-methods</filename-plural>
+        <iana-registry>http://www.iana.org/assignments/jwt/jwt.xhtml#confirmation-methods</iana-registry>
+    </concept>
 </concepts>
