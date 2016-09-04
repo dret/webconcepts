@@ -3,7 +3,7 @@ layout: page
 title:  "Web Concepts: Overview"
 ---
 
-This is an overview of 15 Web Concepts (with a total of 498 distinct entries) that have been harvested from all [available specifications](/specs):
+This is an overview of 15 Web Concepts (with a total of 499 distinct entries) that have been harvested from all [available specifications](/specs):
 
 * [HTTP Cache Directives](http-cache-directives) (14 entries)
 * [HTTP Content Codings](http-content-codings) (10 entries)
@@ -14,7 +14,7 @@ This is an overview of 15 Web Concepts (with a total of 498 distinct entries) th
 * [HTTP Request Methods](http-methods) (37 entries)
 * [HTTP Status Codes](http-status-codes) (61 entries)
 * [HTTP Transfer Codings](http-transfer-codings) (7 entries)
-* [JSON Web Token Claims](jwt-claims) (7 entries)
+* [JSON Web Token Claims](jwt-claims) (8 entries)
 * [JWT Confirmation Methods](jwt-confirmation-methods) (0 entries)
 * [Link Relations](link-relations) (84 entries)
 * [Media Types](media-types) (65 entries)
