@@ -64,6 +64,20 @@ title:  "Proof-of-Possession Key Semantics for JSON Web Tokens (JWTs)"
    <a href="/concepts/jwt-claim/cnf" title="The &amp;#34;cnf&amp;#34; claim is used in the JWT to contain members used to identify the proof-of-possession key.">cnf</a>
 </code>
 <br></br>
+<h3>JWT Confirmation Methods</h3>
+<code>
+   <a href="/concepts/jwt-confirmation-method/jku" title="The proof-of-possession key can be passed by reference instead of being passed by value. This is done using the &amp;#34;jku&amp;#34; member. Its value is a URI that refers to a resource for a set of JSON-encoded public keys represented as a JWK Set, one of which is the proof-of-possession key.">jku</a>
+</code>, 
+<code>
+   <a href="/concepts/jwt-confirmation-method/jwe" title="When the key held by the presenter is a symmetric key, the &amp;#34;jwe&amp;#34; member is an encrypted JSON Web Key encrypted to a key known to the recipient using the JWE Compact Serialization containing the symmetric key.">jwe</a>
+</code>, 
+<code>
+   <a href="/concepts/jwt-confirmation-method/jwk" title="When the key held by the presenter is an asymmetric private key, the &amp;#34;jwk&amp;#34; member is a JSON Web Key representing the corresponding asymmetric public key.">jwk</a>
+</code>, 
+<code>
+   <a href="/concepts/jwt-confirmation-method/kid" title="The proof-of-possession key can also be identified by the use of a Key ID instead of communicating the actual key, provided the recipient is able to obtain the identified key using the Key ID.">kid</a>
+</code>
+<br></br>
 <hr></hr>
 <p style="text-align: right">Return to ( 
    <a href="./">Series</a> | 
