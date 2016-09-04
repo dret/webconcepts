@@ -49,7 +49,7 @@ title:  "JSON Web Token (JWT)"
          <em>Abstract:</em>
       </th>
       <td>JSON Web Token (JWT) is a compact, URL-safe means of representing claims to be transferred
-         between two parties.  The claims in a JWT are encoded as a JSON object that is used
+         between two parties. The claims in a JWT are encoded as a JSON object that is used
          as the payload of a JSON Web Signature (JWS) structure or as the plaintext of a JSON
          Web Encryption (JWE) structure, enabling the claims to be digitally signed or integrity
          protected with a Message Authentication Code (MAC) and/or encrypted.
@@ -59,6 +59,29 @@ title:  "JSON Web Token (JWT)"
 <br></br>
 <hr></hr>
 <h2>Specified Web Concepts:</h2>
+<h3>JSON Web Token Claims</h3>
+<code>
+   <a href="/concepts/jwt-claim/aud" title="The &amp;#34;aud&amp;#34; (audience) claim identifies the recipients that the JWT is intended for. Each principal intended to process the JWT MUST identify itself with a value in the audience claim.">aud</a>
+</code>, 
+<code>
+   <a href="/concepts/jwt-claim/exp" title="The &amp;#34;exp&amp;#34; (expiration time) claim identifies the expiration time on or after which the JWT MUST NOT be accepted for processing. The processing of the &amp;#34;exp&amp;#34; claim requires that the current date/time MUST be before the expiration date/time listed in the &amp;#34;exp&amp;#34; claim.">exp</a>
+</code>, 
+<code>
+   <a href="/concepts/jwt-claim/iat" title="The &amp;#34;iat&amp;#34; (issued at) claim identifies the time at which the JWT was issued. This claim can be used to determine the age of the JWT.">iat</a>
+</code>, 
+<code>
+   <a href="/concepts/jwt-claim/iss" title="The &amp;#34;iss&amp;#34; (issuer) claim identifies the principal that issued the JWT. The processing of this claim is generally application specific.">iss</a>
+</code>, 
+<code>
+   <a href="/concepts/jwt-claim/jti" title="The &amp;#34;jti&amp;#34; (JWT ID) claim provides a unique identifier for the JWT. The identifier value MUST be assigned in a manner that ensures that there is a negligible probability that the same value will be accidentally assigned to a different data object; if the application uses multiple issuers, collisions MUST be prevented among values produced by different issuers as well.">jti</a>
+</code>, 
+<code>
+   <a href="/concepts/jwt-claim/nbf" title="The &amp;#34;nbf&amp;#34; (not before) claim identifies the time before which the JWT MUST NOT be accepted for processing. The processing of the &amp;#34;nbf&amp;#34; claim requires that the current date/time MUST be after or equal to the not-before date/time listed in the &amp;#34;nbf&amp;#34; claim.">nbf</a>
+</code>, 
+<code>
+   <a href="/concepts/jwt-claim/sub" title="The &amp;#34;sub&amp;#34; (subject) claim identifies the principal that is the subject of the JWT. The claims in a JWT are normally statements about the subject. The subject value MUST either be scoped to be locally unique in the context of the issuer or be globally unique.">sub</a>
+</code>
+<br></br>
 <h3>Media Types</h3>
 <code>
    <a href="/concepts/media-type/application/jwt" title="The JWT Claims Set represents a JSON object whose members are the claims conveyed by the JWT.">application/jwt</a>

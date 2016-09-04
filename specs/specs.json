@@ -825,7 +825,7 @@
       "name": "RFC 7519",
       "URI": "urn:ietf:rfc:7519",
       "URL": "http://tools.ietf.org/html/rfc7519",
-      "abstract": "JSON Web Token (JWT) is a compact, URL-safe means of representing claims to be transferred between two parties.  The claims in a JWT are encoded as a JSON object that is used as the payload of a JSON Web Signature (JWS) structure or as the plaintext of a JSON Web Encryption (JWE) structure, enabling the claims to be digitally signed or integrity protected with a Message Authentication Code (MAC) and/or encrypted." }},{
+      "abstract": "JSON Web Token (JWT) is a compact, URL-safe means of representing claims to be transferred between two parties. The claims in a JWT are encoded as a JSON object that is used as the payload of a JSON Web Signature (JWS) structure or as the plaintext of a JSON Web Encryption (JWE) structure, enabling the claims to be digitally signed or integrity protected with a Message Authentication Code (MAC) and/or encrypted." }},{
      "7538": {
       "id": "http://webconcepts.info/specs/IETF/RFC/7538",
       "title": "The Hypertext Transfer Protocol Status Code 308 (Permanent Redirect)",
