@@ -263,7 +263,7 @@
        "link-relation": "create" }, {
        "link-relation": "full" }, {
        "link-relation": "instances" }, {
-       "link-relation": "root" }]}} ]}},{
+       "link-relation": "root" }]}}]}},{
    "RFC": {
     "id": "http://webconcepts.info/specs/IETF/RFC/",
     "name": "Request for Comments",
@@ -1548,7 +1548,7 @@
       "URL": "http://tools.ietf.org/html/rfc7946",
       "abstract": "GeoJSON is a geospatial data interchange format based on JavaScript Object Notation (JSON). It defines several types of JSON objects and the manner in which they are combined to represent data about geographic features, their properties, and their spatial extents. GeoJSON uses a geographic coordinate reference system, World Geodetic System 1984, and units of decimal degrees.",
       "concepts": [{
-       "media-type": "application/geo+json" }]}} ]}} ]},
+       "media-type": "application/geo+json" }]}}]}}]},
  "ISO": {
   "id": "http://webconcepts.info/specs/ISO/",
   "name": "International Organization for Standardization",
@@ -1576,7 +1576,7 @@
       "URL": "http://www.iso.org/obp/ui/#iso:std:iso-iec:23009:-1",
       "abstract": "ISO/IEC 23009-1:2014 primarily specifies formats for the Media Presentation Description and Segments for dynamic adaptive streaming delivery of MPEG media over HTTP. It is applicable to streaming services over the Internet.",
       "concepts": [{
-       "media-type": "application/dash+xml" }]}} ]}} ]},
+       "media-type": "application/dash+xml" }]}}]}}]},
  "JCP": {
   "id": "http://webconcepts.info/specs/JCP/",
   "name": "Java Community Process",
@@ -1594,7 +1594,7 @@
       "URL": "http://www.jcp.org/en/jsr/detail?id=200",
       "abstract": "This document specifies an archive format called \"Pack200\". It is optimized for applications written in the Javatm programming language. Such applications are usually delivered as collections of classes, sometimes with associated resource files. This format allows any number (from one to hundreds of thousands) of Java classes to be encoded by a compressor, transmitted compactly in a single block of bytes, and decoded by a decompressor into equivalent Java class files. Because it can also represent class resources and other \"side files\", it can serve as an alternative to the JAR archive for some deployment tasks, notably downloading Java applications.",
       "concepts": [{
-       "http-content-coding": "pack200-gzip" }]}} ]}} ]},
+       "http-content-coding": "pack200-gzip" }]}}]}}]},
  "W3C": {
   "id": "http://webconcepts.info/specs/W3C/",
   "name": "World Wide Web Consortium",
@@ -1943,5 +1943,5 @@
       "URL": "http://www.w3.org/TR/webvtt",
       "abstract": "This specification defines WebVTT, the Web Video Text Tracks format. Its main use is for marking up external text track resources in connection with the HTML <track> element. WebVTT files provide captions or subtitles for video content, and also text video descriptions, chapters for content navigation, and more generally any form of metadata that is time-aligned with audio or video content.",
       "concepts": [{
-       "media-type": "text/vtt" }]}} ]}} ]}
+       "media-type": "text/vtt" }]}}]}}]}
 }

@@ -127,12 +127,12 @@
                             <xsl:text>,</xsl:text>
                         </xsl:if>
                     </xsl:for-each>
-                    <xsl:text> ]}}</xsl:text>
+                    <xsl:text>]}}</xsl:text>
                     <xsl:if test="position() ne last()">
                         <xsl:text>,</xsl:text>
                     </xsl:if>
                 </xsl:for-each-group>
-                <xsl:text> ]}</xsl:text>
+                <xsl:text>]}</xsl:text>
                 <xsl:if test="position() ne last()">
                     <xsl:text>,</xsl:text>
                 </xsl:if>
