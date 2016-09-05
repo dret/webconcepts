@@ -107,8 +107,22 @@
                         <xsl:text>      "URL": </xsl:text>
                         <xsl:value-of select="concat('&quot;', replace(@id, $secondary/id-pattern, $secondary/url-pattern), '&quot;,&#xa;')"/>
                         <xsl:text>      "abstract": </xsl:text>
-                        <xsl:value-of select="concat('&quot;', replace(sedola:documentation/text(), '&quot;', '\\&quot;'), '&quot;')"/>
-                        <xsl:text> }}</xsl:text>
+                        <xsl:value-of select="concat('&quot;', replace(sedola:documentation/text(), '&quot;', '\\&quot;'), '&quot;,&#xa;')"/>
+                        <xsl:text>      "concepts": [</xsl:text>
+                        <xsl:for-each select="sedola:*[local-name() = $concepts/concepts/concept/@id]">
+                            <xsl:sort select="$concepts//concept[@id eq current()/local-name()]/@id"/>
+                            <xsl:sort select="@def"/>
+                            <xsl:variable name="concept-id" select="$concepts//concept[@id eq current()/local-name()]/@id"/>
+                            <xsl:text>{&#xa;       "</xsl:text>
+                            <xsl:value-of select="$concept-id"/>
+                            <xsl:text>": "</xsl:text>
+                            <xsl:value-of select="@def"/>
+                            <xsl:text>" }</xsl:text>
+                            <xsl:if test="position() ne last()">
+                                <xsl:text>, </xsl:text>
+                            </xsl:if>
+                        </xsl:for-each>
+                        <xsl:text>]}}</xsl:text>
                         <xsl:if test="position() ne last()">
                             <xsl:text>,</xsl:text>
                         </xsl:if>
