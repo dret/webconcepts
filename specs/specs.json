@@ -1010,6 +1010,15 @@
        "uri-scheme": "ni" }, {
        "uri-scheme": "nih" }, {
        "well-known-uri": "ni" }]}},{
+     "6922": {
+      "id": "http://webconcepts.info/specs/IETF/RFC/6922",
+      "title": "The application/sql Media Type",
+      "name": "RFC 6922",
+      "URI": "urn:ietf:rfc:6922",
+      "URL": "http://tools.ietf.org/html/rfc6922",
+      "abstract": "This document registers the application/sql media type to be used for the Structured Query Language (SQL).",
+      "concepts": [{
+       "media-type": "application/sql" }]}},{
      "6940": {
       "id": "http://webconcepts.info/specs/IETF/RFC/6940",
       "title": "REsource LOcation And Discovery (RELOAD) Base Protocol",

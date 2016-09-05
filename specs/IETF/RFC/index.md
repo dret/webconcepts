@@ -4,7 +4,7 @@ title:       "IETF Request for Comments Series"
 description: "List of specifications in the Request for Comments (RFC) series by the Internet Engineering Task Force (IETF)"
 ---
 
-There are currently 111 listed specifications in the [Internet Engineering Task Force (IETF)](..)'s Request for Comments (RFC) series.
+There are currently 112 listed specifications in the [Internet Engineering Task Force (IETF)](..)'s Request for Comments (RFC) series.
 
   * [A Media Type for XML Patch Operations (RFC 7351)](7351)
   * [A Reputation Query Protocol (RFC 7072)](7072)
@@ -98,6 +98,7 @@ There are currently 111 listed specifications in the [Internet Engineering Task 
   * [The Secure HyperText Transfer Protocol (S-HTTP) (RFC 2660)](2660)
   * [The WebSocket Protocol (RFC 6455)](6455)
   * [The application/pdf Media Type (RFC 3778)](3778)
+  * [The application/sql Media Type (RFC 6922)](6922)
   * [The telnet URI Scheme (RFC 4248)](4248)
   * [The text/markdown Media Type (RFC 7763)](7763)
   * [Time Zone Data Distribution Service (RFC 7808)](7808)
