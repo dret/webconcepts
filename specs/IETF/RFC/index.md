@@ -4,7 +4,7 @@ title:       "IETF Request for Comments Series"
 description: "List of specifications in the Request for Comments (RFC) series by the Internet Engineering Task Force (IETF)"
 ---
 
-There are currently 110 listed specifications in the [Internet Engineering Task Force (IETF)](..)'s Request for Comments (RFC) series.
+There are currently 111 listed specifications in the [Internet Engineering Task Force (IETF)](..)'s Request for Comments (RFC) series.
 
   * [A Media Type for XML Patch Operations (RFC 7351)](7351)
   * [A Reputation Query Protocol (RFC 7072)](7072)
@@ -73,6 +73,7 @@ There are currently 110 listed specifications in the [Internet Engineering Task 
   * [Public Key Pinning Extension for HTTP (RFC 7469)](7469)
   * [REsource LOcation And Discovery (RELOAD) Base Protocol (RFC 6940)](6940)
   * [Returning Values from Forms: multipart/form-data (RFC 2388)](2388)
+  * [SGML Media Types (RFC 1874)](1874)
   * [Scheduling Extensions to CalDAV (RFC 6638)](6638)
   * [Session Traversal Utilities for NAT (STUN) Extension (RFC 7635)](7635)
   * [The "application/soap+xml" Media Type (RFC 3902)](3902)

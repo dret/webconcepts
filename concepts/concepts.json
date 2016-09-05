@@ -2827,6 +2827,12 @@
      "description": "This document updates the specification for the Internet media type \"application/rfc+xml\" from the one in I-D draft-reschke-xml2rfc.  The following is to be registered with IANA.",
      "documentation": "http://tools.ietf.org/html/draft-hoffman-xml2rfc-15#section-6.1",
      "specification": "http://webconcepts.info/specs/IETF/I-D/hoffman-xml2rfc" }]}},{
+   "application/sgml": {
+    "id": "http://webconcepts.info/concepts/media-type/application/sgml",
+    "details": [{
+     "description": "Use the Application/SGML media-type for SGML text entities that are not appropriate for Text/SGML.",
+     "documentation": "http://tools.ietf.org/html/rfc1874#section-2.2",
+     "specification": "http://webconcepts.info/specs/IETF/RFC/1874" }]}},{
    "application/soap+xml": {
     "id": "http://webconcepts.info/concepts/media-type/application/soap+xml",
     "details": [{
@@ -2929,6 +2935,12 @@
      "description": "This memo updates the text/plain media type defined in RFC 2046  by defining URI fragment identifiers for text/plain MIME entities. This makes it possible to refer to parts of a text/plain MIME entity. Such parts can be identified by either character position or range, or by line position or range. Integrity checking information can be added to a fragment identifier to make it more robust, enabling applications to detect changes of the entity.",
      "documentation": "http://tools.ietf.org/html/rfc5147#section-1",
      "specification": "http://webconcepts.info/specs/IETF/RFC/5174" }]}},{
+   "text/sgml": {
+    "id": "http://webconcepts.info/concepts/media-type/text/sgml",
+    "details": [{
+     "description": "The Text/SGML media-type can be employed when the contents of the SGML entity is intended to be read by a human and is in a readily comprehensible form.",
+     "documentation": "http://tools.ietf.org/html/rfc1874#section-2.1",
+     "specification": "http://webconcepts.info/specs/IETF/RFC/1874" }]}},{
    "text/vcard": {
     "id": "http://webconcepts.info/concepts/media-type/text/vcard",
     "details": [{

@@ -196,6 +196,13 @@
       "URI": "urn:ietf:rfc:1738",
       "URL": "http://tools.ietf.org/html/rfc1738",
       "abstract": "This document specifies a Uniform Resource Locator (URL), the syntax and semantics of formalized information for location and access of resources via the Internet." }},{
+     "1874": {
+      "id": "http://webconcepts.info/specs/IETF/RFC/1874",
+      "title": "SGML Media Types",
+      "name": "RFC 1874",
+      "URI": "urn:ietf:rfc:1874",
+      "URL": "http://tools.ietf.org/html/rfc1874",
+      "abstract": "This document proposes new media sub-types of Text/SGML and Application/SGML. These media types can be used in the exchange of SGML documents and their entities. Specific details for the exchange or encapsulation of groups of related SGML entities using MIME are currently being considered by the mimesgml Working Group." }},{
      "2068": {
       "id": "http://webconcepts.info/specs/IETF/RFC/2068",
       "title": "Hypertext Transfer Protocol - HTTP/1.1",
