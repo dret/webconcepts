@@ -58,8 +58,8 @@ title:  "Hypertext Transfer Protocol (HTTP/1.1): Conditional Requests"
 </table>
 <br></br>
 <hr></hr>
-<h2>Specified Web Concepts:</h2>
-<h3>HTTP Header Fields</h3>
+<h2 id="concepts">Specified Web Concepts:</h2>
+<h3 id="http-header">HTTP Header Fields</h3>
 <code>
    <a href="/concepts/http-header/ETag" title="The &amp;#34;ETag&amp;#34; header field in a response provides the current entity-tag for the selected representation, as determined at the conclusion of handling the request. An entity-tag is an opaque validator for differentiating between multiple representations of the same resource, regardless of whether those multiple representations are due to resource state changes over time, content negotiation resulting in multiple representations being valid at the same time, or both.">ETag</a>
 </code>, 
@@ -79,7 +79,7 @@ title:  "Hypertext Transfer Protocol (HTTP/1.1): Conditional Requests"
    <a href="/concepts/http-header/Last-Modified" title="The &amp;#34;Last-Modified&amp;#34; header field in a response provides a timestamp indicating the date and time at which the origin server believes the selected representation was last modified, as determined at the conclusion of handling the request.">Last-Modified</a>
 </code>
 <br></br>
-<h3>HTTP Status Codes</h3>
+<h3 id="http-status">HTTP Status Codes</h3>
 <code>
    <a href="/concepts/http-status-code/304" title="The 304 (Not Modified) status code indicates that a conditional GET or HEAD request has been received and would have resulted in a 200 (OK) response if it were not for the fact that the condition evaluated to false. In other words, there is no need for the server to transfer a representation of the target resource because the request indicates that the client, which made the request conditional, already has a valid representation; the server is therefore redirecting the client to make use of that stored representation as if it were the payload of a 200 (OK) response.">304</a>
 </code>, 

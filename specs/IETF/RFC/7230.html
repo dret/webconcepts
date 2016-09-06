@@ -59,8 +59,8 @@ title:  "Hypertext Transfer Protocol (HTTP/1.1): Message Syntax and Routing"
 </table>
 <br></br>
 <hr></hr>
-<h2>Specified Web Concepts:</h2>
-<h3>HTTP Content Codings</h3>
+<h2 id="concepts">Specified Web Concepts:</h2>
+<h3 id="http-content-coding">HTTP Content Codings</h3>
 <code>
    <a href="/concepts/http-content-coding/compress" title="The &amp;#34;compress&amp;#34; coding is an adaptive Lempel-Ziv-Welch (LZW) coding that is commonly produced by the UNIX file compression program &amp;#34;compress&amp;#34;. A recipient SHOULD consider &amp;#34;x-compress&amp;#34; to be equivalent to &amp;#34;compress&amp;#34;.">compress</a>
 </code>, 
@@ -77,7 +77,7 @@ title:  "Hypertext Transfer Protocol (HTTP/1.1): Message Syntax and Routing"
    <a href="/concepts/http-content-coding/x-gzip" title="The &amp;#34;gzip&amp;#34; coding is an LZ77 coding with a 32-bit Cyclic Redundancy Check (CRC) that is commonly produced by the gzip file compression program. A recipient SHOULD consider &amp;#34;x-gzip&amp;#34; to be equivalent to &amp;#34;gzip&amp;#34;.">x-gzip</a>
 </code>
 <br></br>
-<h3>HTTP Header Fields</h3>
+<h3 id="http-header">HTTP Header Fields</h3>
 <code>
    <a href="/concepts/http-header/Close" title="The header field-name &amp;#34;Close&amp;#34; has been registered as &amp;#34;reserved&amp;#34;, since using that name as an HTTP header field might conflict with the &amp;#34;close&amp;#34; connection option of the Connection header field.">Close</a>
 </code>, 
@@ -106,7 +106,7 @@ title:  "Hypertext Transfer Protocol (HTTP/1.1): Message Syntax and Routing"
    <a href="/concepts/http-header/Via" title="The &amp;#34;Via&amp;#34; header field indicates the presence of intermediate protocols and recipients between the user agent and the server (on requests) or between the origin server and the client (on responses), similar to the &amp;#34;Received&amp;#34; header field in email (Section 3.6.7 of RFC 5322). Via can be used for tracking message forwards, avoiding request loops, and identifying the protocol capabilities of senders along the request/response chain.">Via</a>
 </code>
 <br></br>
-<h3>HTTP Transfer Codings</h3>
+<h3 id="http-transfer-coding">HTTP Transfer Codings</h3>
 <code>
    <a href="/concepts/http-transfer-coding/chunked" title="The chunked transfer coding wraps the payload body in order to transfer it as a series of chunks, each with its own size indicator, followed by an OPTIONAL trailer containing header fields.  Chunked enables content streams of unknown size to be transferred as a sequence of length-delimited buffers, which enables the sender to retain connection persistence and the recipient to know when it has received the entire message.">chunked</a>
 </code>, 
@@ -126,7 +126,7 @@ title:  "Hypertext Transfer Protocol (HTTP/1.1): Message Syntax and Routing"
    <a href="/concepts/http-transfer-coding/x-gzip" title="The &amp;#34;gzip&amp;#34; coding is an LZ77 coding with a 32-bit Cyclic Redundancy Check (CRC) that is commonly produced by the gzip file compression program. A recipient SHOULD consider &amp;#34;x-gzip&amp;#34; to be equivalent to &amp;#34;gzip&amp;#34;.">x-gzip</a>
 </code>
 <br></br>
-<h3>Media Types</h3>
+<h3 id="media-type">Media Types</h3>
 <code>
    <a href="/concepts/media-type/application/http" title="The application/http type can be used to enclose a pipeline of one or more HTTP request or response messages (not intermixed).">application/http</a>
 </code>, 
@@ -134,7 +134,7 @@ title:  "Hypertext Transfer Protocol (HTTP/1.1): Message Syntax and Routing"
    <a href="/concepts/media-type/message/http" title="The message/http type can be used to enclose a single HTTP request or response message, provided that it obeys the MIME restrictions for all &amp;#34;message&amp;#34; types regarding line length and encodings.">message/http</a>
 </code>
 <br></br>
-<h3>URI Schemes</h3>
+<h3 id="uri-scheme">URI Schemes</h3>
 <code>
    <a href="/concepts/uri-scheme/http" title="The &amp;#34;http&amp;#34; URI scheme is hereby defined for the purpose of minting identifiers according to their association with the hierarchical namespace governed by a potential HTTP origin server listening for TCP connections on a given port.">http</a>
 </code>, 

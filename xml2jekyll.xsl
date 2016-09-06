@@ -365,10 +365,10 @@
                 </table>
                 <br/>
                 <hr/>
-                <h2>Specified Web Concepts:</h2>
+                <h2 id="concepts">Specified Web Concepts:</h2>
                 <xsl:for-each-group select="sedola:*[local-name() = $concepts/concepts/concept/@id]" group-by="local-name()">
                     <xsl:sort select="$concepts//concept[@id eq current()/local-name()]/title-plural"/>
-                    <h3>
+                    <h3 id="{$concepts//concept[@id eq current()/local-name()]/@id}">
                         <xsl:value-of select="$concepts//concept[@id eq current()/local-name()]/title-plural"/>
                     </h3>
                     <xsl:for-each select="current-group()">
