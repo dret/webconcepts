@@ -1359,6 +1359,15 @@
       "concepts": [{
        "http-header": "Hobareg" }, {
        "well-known-uri": "hoba" }]}},{
+     "7512": {
+      "id": "http://webconcepts.info/specs/IETF/RFC/7512",
+      "title": "The PKCS #11 URI Scheme",
+      "name": "RFC 7512",
+      "URI": "urn:ietf:rfc:7512",
+      "URL": "http://tools.ietf.org/html/rfc7512",
+      "abstract": "This memo specifies a PKCS #11 Uniform Resource Identifier (URI) Scheme for identifying PKCS #11 objects stored in PKCS #11 tokens and also for identifying PKCS #11 tokens, slots, or libraries.  The URI scheme is based on how PKCS #11 objects, tokens, slots, and libraries are identified in \"PKCS #11 v2.20: Cryptographic Token Interface Standard\".",
+      "concepts": [{
+       "uri-scheme": "pkcs11" }]}},{
      "7515": {
       "id": "http://webconcepts.info/specs/IETF/RFC/7515",
       "title": "JSON Web Signature (JWS)",
