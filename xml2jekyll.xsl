@@ -207,6 +207,7 @@
                         <xsl:text>[`</xsl:text>
                         <xsl:value-of select="$concept-name"/>
                         <xsl:variable name="desc" select="$allspecs//sedola:*[local-name() eq $concept/@id][@def eq $concept-name][1]/@desc"/>
+                        <!-- this is cheating by (randomly) picking the first description should there be more than one in all specifications. -->
                         <xsl:if test="exists($desc)">
                             <xsl:text> </xsl:text>
                             <xsl:value-of select="$desc"/>

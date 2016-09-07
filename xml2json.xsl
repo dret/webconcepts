@@ -24,6 +24,12 @@
                     <xsl:value-of select="concat('&quot;', $concept-name, '&quot;: {&#xa;')"/>
                     <xsl:text>    "id": </xsl:text>
                     <xsl:value-of select="concat('&quot;http://webconcepts.info/', $concepts-dir, '/', $concept/filename-singular, '/', $concept-name, '&quot;,&#xa;')"/>
+                    <xsl:variable name="desc" select="$allspecs//sedola:*[local-name() eq $concept/@id][@def eq $concept-name][1]/@desc"/>
+                    <!-- this is cheating by (randomly) picking the first description should there be more than one in all specifications. -->
+                    <xsl:if test="exists($desc)">
+                        <xsl:text>    "description": </xsl:text>
+                        <xsl:value-of select="concat('&quot;', $desc, '&quot;,&#xa;')"/>
+                    </xsl:if>
                     <xsl:text>    "details": [</xsl:text>
                     <xsl:for-each select="$allspecs/sedola:service/sedola:*[local-name() eq $concept/@id][@def eq $concept-name]">
                         <xsl:sort select="replace(replace(current()/../@id, $specs/specs/primary[@id eq current()/../@primary]/secondary[@id eq current()/../@secondary]/id-pattern, $specs/specs/primary[@id eq current()/../@primary]/secondary[@id eq current()/../@secondary]/md-pattern), '^(..*)$', $specs/specs/primary[@id eq current()/../@primary]/secondary[@id eq current()/../@secondary]/name-pattern)"/>
