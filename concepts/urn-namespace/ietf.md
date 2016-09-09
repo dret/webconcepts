@@ -1,0 +1,11 @@
+---
+layout: page
+title:  "URN Namespace: ietf"
+---
+
+**[RFC 2648: A URN Namespace for IETF Documents](/specs/IETF/RFC/2648 "A system for Uniform Resource Names (URNs) must be capable of supporting new naming systems. As an example of proposing a new namespace, this document proposes the &#34;ietf&#34; namespace. This namespace consists of the RFC family of documents (RFCs, STDs, FYIs, and BCPs) developed by the IETF and published by the RFC Editor, the minutes of working groups (WG) and birds of a feather (BOF) meetings that occur during IETF conferences, and the Internet Drafts published by the Internet Drafts Editor. Both the current URN framework and URN syntax support this namespace."):** [This document proposes the "ietf" namespace, which consists of the RFC family of documents (RFCs, STDs, FYIs, and BCPs) developed by the IETF and published by the RFC editor and the minutes of working groups (WG) and birds of a feather (BOF) meetings that occur during IETF conferences.](http://tools.ietf.org/html/rfc2648#section-1 "Read documentation for URN Namespace &#34;ietf&#34;")
+
+<br/>
+<hr/>
+
+<p style="text-align: right">Return to list of all ( <a href="../urn-namespaces">URN Namespaces</a> | <a href="../">Web Concepts</a> )</p>
