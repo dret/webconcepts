@@ -435,6 +435,15 @@
        "media-type": "application/xml-external-parsed-entity" }, {
        "media-type": "text/xml" }, {
        "media-type": "text/xml-external-parsed-entity" }]}},{
+     "3187": {
+      "id": "http://webconcepts.info/specs/IETF/RFC/3187",
+      "title": "Using International Standard Book Numbers as Uniform Resource Names",
+      "name": "RFC 3187",
+      "URI": "urn:ietf:rfc:3187",
+      "URL": "http://tools.ietf.org/html/rfc3187",
+      "abstract": "This document discusses how International Standard Book Numbers (ISBN) can be supported within the URN (Uniform Resource Names) framework and the syntax for URNs defined in RFC 2141. Much of the discussion below is based on the ideas expressed in RFC 2288.",
+      "concepts": [{
+       "urn-namespace": "isbn" }]}},{
      "3229": {
       "id": "http://webconcepts.info/specs/IETF/RFC/3229",
       "title": "Delta encoding in HTTP",

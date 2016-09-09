@@ -3167,7 +3167,13 @@
     "details": [{
      "description": "This document proposes the \"ietf\" namespace, which consists of the RFC family of documents (RFCs, STDs, FYIs, and BCPs) developed by the IETF and published by the RFC editor and the minutes of working groups (WG) and birds of a feather (BOF) meetings that occur during IETF conferences.",
      "documentation": "http://tools.ietf.org/html/rfc2648#section-1",
-     "specification": "http://webconcepts.info/specs/IETF/RFC/2648" }]}}]},
+     "specification": "http://webconcepts.info/specs/IETF/RFC/2648" }]}},{
+   "isbn": {
+    "id": "http://webconcepts.info/concepts/urn-namespace/isbn",
+    "details": [{
+     "description": "An International Standard Book Number (ISBN) identifies an edition of a monographic work. The ISBN is defined by the standard NISO/ANSI/ISO 2108:1992.",
+     "documentation": "http://tools.ietf.org/html/rfc3187#section-3",
+     "specification": "http://webconcepts.info/specs/IETF/RFC/3187" }]}}]},
  "well-known-uri": {
   "id": "http://webconcepts.info/concepts/well-known-uris",
   "name-singular": "Well-Known URI",
