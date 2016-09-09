@@ -668,6 +668,15 @@
        "link-relation": "edit-media" }, {
        "media-type": "application/atomcat+xml" }, {
        "media-type": "application/atomsvc+xml" }]}},{
+     "5141": {
+      "id": "http://webconcepts.info/specs/IETF/RFC/5141",
+      "title": "A Uniform Resource Name (URN) Namespace for the International Organization for Standardization (ISO)",
+      "name": "RFC 5141",
+      "URI": "urn:ietf:rfc:5141",
+      "URL": "http://tools.ietf.org/html/rfc5141",
+      "abstract": "This document describes a Uniform Resource Name Namespace Identification (URN NID) for the International Organization for Standardization (ISO). This URN NID is intended for use for the identification of persistent resources published by the ISO standards body (including documents, document metadata, extracted resources such as standard schemata and standard value sets, and other resources).",
+      "concepts": [{
+       "urn-namespace": "iso" }]}},{
      "5174": {
       "id": "http://webconcepts.info/specs/IETF/RFC/5174",
       "title": "URI Fragment Identifiers for the text/plain Media Type",

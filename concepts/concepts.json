@@ -3173,7 +3173,13 @@
     "details": [{
      "description": "An International Standard Book Number (ISBN) identifies an edition of a monographic work. The ISBN is defined by the standard NISO/ANSI/ISO 2108:1992.",
      "documentation": "http://tools.ietf.org/html/rfc3187#section-3",
-     "specification": "http://webconcepts.info/specs/IETF/RFC/3187" }]}}]},
+     "specification": "http://webconcepts.info/specs/IETF/RFC/3187" }]}},{
+   "iso": {
+    "id": "http://webconcepts.info/concepts/urn-namespace/iso",
+    "details": [{
+     "description": "This specification defines the syntax for URNs that identify documents developed by the International Organization for Standardization (ISO) in accordance with the standards development procedures defined in the ISO/IEC Directives, Part 1 and the ISO supplement and processed by the ISO Central Secretariat.",
+     "documentation": "http://tools.ietf.org/html/rfc5141#section-1",
+     "specification": "http://webconcepts.info/specs/IETF/RFC/5141" }]}}]},
  "well-known-uri": {
   "id": "http://webconcepts.info/concepts/well-known-uris",
   "name-singular": "Well-Known URI",
