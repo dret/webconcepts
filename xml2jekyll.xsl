@@ -4,7 +4,23 @@
     <xsl:output name="markdown" method="text" encoding="UTF-8"/>
     <xsl:output name="markup" method="xhtml" encoding="UTF-8" omit-xml-declaration="yes"/>
     <!-- -->
+    <xsl:variable name="includes" select="'_includes'"/>
+    <!-- -->
     <xsl:template name="xml2jekyll">
+        <xsl:result-document href="{$includes}/concepts.md" format="markdown">
+            <xsl:text>(listing </xsl:text>
+            <xsl:value-of select="count(distinct-values($allspecs//sedola:*[local-name() = $concepts/concepts/concept/@id]/@def))"/>
+            <xsl:text> concepts in </xsl:text>
+            <xsl:value-of select="count($concepts/concepts/concept)"/>
+            <xsl:text> categories)</xsl:text>
+        </xsl:result-document>
+        <xsl:result-document href="{$includes}/specs.md" format="markdown">
+            <xsl:text>(listing </xsl:text>
+            <xsl:value-of select="count($allspecs/sedola:service)"/>
+            <xsl:text> specifications in </xsl:text>
+            <xsl:value-of select="count($specs/specs/primary/secondary)"/>
+            <xsl:text> specification series)</xsl:text>
+        </xsl:result-document>
         <xsl:result-document href="{$specs-dir}/index.md" format="markdown">
             <xsl:text>---&#xa;</xsl:text>
             <xsl:text>layout:      page&#xa;</xsl:text>
