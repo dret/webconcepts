@@ -3157,6 +3157,11 @@
      "description": "The only operation for this scheme is to open a connection using the WebSocket Protocol, encrypted using TLS.",
      "documentation": "http://tools.ietf.org/html/rfc6455#section-3",
      "specification": "http://webconcepts.info/specs/IETF/RFC/6455" }]}}]},
+ "urn-namespace": {
+  "id": "http://webconcepts.info/concepts/urn-namespaces",
+  "name-singular": "URN Namespace",
+  "name-plural": "URN Namespaces",
+  "concepts": []},
  "well-known-uri": {
   "id": "http://webconcepts.info/concepts/well-known-uris",
   "name-singular": "Well-Known URI",

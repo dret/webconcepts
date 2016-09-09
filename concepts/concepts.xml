@@ -105,4 +105,11 @@
         <filename-plural>jwt-confirmation-methods</filename-plural>
         <iana-registry>http://www.iana.org/assignments/jwt/jwt.xhtml#confirmation-methods</iana-registry>
     </concept>
+    <concept id="urn-namespace">
+        <title-singular>URN Namespace</title-singular>
+        <title-plural>URN Namespaces</title-plural>
+        <filename-singular>urn-namespace</filename-singular>
+        <filename-plural>urn-namespaces</filename-plural>
+        <iana-registry>http://www.iana.org/assignments/urn-namespaces/urn-namespaces.xhtml</iana-registry>
+    </concept>
 </concepts>

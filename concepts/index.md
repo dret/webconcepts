@@ -3,7 +3,7 @@ layout: page
 title:  "Web Concepts: Overview"
 ---
 
-This is an overview of 15 Web Concepts (with a total of 510 distinct entries) that have been harvested from all [available specifications](/specs):
+This is an overview of 16 Web Concepts (with a total of 510 distinct entries) that have been harvested from all [available specifications](/specs):
 
 * [HTTP Cache Directives](http-cache-directives) (14)
 * [HTTP Content Codings](http-content-codings) (10)
@@ -19,4 +19,5 @@ This is an overview of 15 Web Concepts (with a total of 510 distinct entries) th
 * [Link Relations](link-relations) (84)
 * [Media Types](media-types) (68)
 * [URI Schemes](uri-schemes) (20)
+* [URN Namespaces](urn-namespaces) (0)
 * [Well-Known URIs](well-known-uris) (18)
