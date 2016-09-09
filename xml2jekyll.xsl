@@ -191,7 +191,7 @@
                 <xsl:value-of select="filename-plural"/>
                 <xsl:text>) (</xsl:text>
                 <xsl:value-of select="count(distinct-values($allspecs//sedola:*[local-name() eq current()/@id]/@def))"/>
-                <xsl:text> entries)&#xa;</xsl:text>
+                <xsl:text>)&#xa;</xsl:text>
                 <xsl:result-document href="{$concepts-dir}/{filename-plural}.md" format="markdown">
                     <xsl:text>---&#xa;</xsl:text>
                     <xsl:text>layout:    page&#xa;</xsl:text>
