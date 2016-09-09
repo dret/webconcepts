@@ -3142,7 +3142,7 @@
    "telnet": {
     "id": "http://webconcepts.info/concepts/uri-scheme/telnet",
     "details": [{
-     "description": "The Telnet URL scheme is used to designate interactive services that may be accessed by the Telnet protocol [STD8].",
+     "description": "The Telnet URL scheme is used to designate interactive services that may be accessed by the Telnet protocol.",
      "documentation": "http://tools.ietf.org/html/rfc4248#section-2",
      "specification": "http://webconcepts.info/specs/IETF/RFC/4248" }]}},{
    "ws": {
@@ -3185,7 +3185,13 @@
     "details": [{
      "description": "In accordance with the ISO standard 3297 International Standard Serial Number (ISSN). The ISSN consists of eight digits in Arabic numerals 0 to 9, except the last digit which is a check digit and can sometimes be an X. The ISSN has no internal meaningful elements to identify language, country, publisher.",
      "documentation": "http://tools.ietf.org/html/rfc3044#section-5",
-     "specification": "http://webconcepts.info/specs/IETF/RFC/3044" }]}}]},
+     "specification": "http://webconcepts.info/specs/IETF/RFC/3044" }]}},{
+   "uuid": {
+    "id": "http://webconcepts.info/concepts/urn-namespace/uuid",
+    "details": [{
+     "description": "A UUID is an identifier that is unique across both space and time, with respect to the space of all UUIDs. Since a UUID is a fixed size and contains a time field, it is possible for values to rollover (around A.D. 3400, depending on the specific algorithm used).",
+     "documentation": "http://tools.ietf.org/html/rfc4122#section-3",
+     "specification": "http://webconcepts.info/specs/IETF/RFC/4122" }]}}]},
  "well-known-uri": {
   "id": "http://webconcepts.info/concepts/well-known-uris",
   "name-singular": "Well-Known URI",
