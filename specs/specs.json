@@ -1079,11 +1079,20 @@
       "name": "RFC 6940",
       "URI": "urn:ietf:rfc:6940",
       "URL": "http://tools.ietf.org/html/rfc6940",
-      "abstract": "This specification defines REsource LOcation And Discovery (RELOAD), a peer-to-peer (P2P) signaling protocol for use on the Internet.  A P2P signaling protocol provides its clients with an abstract storage and messaging service between a set of cooperating peers that form the overlay network.  RELOAD is designed to support a P2P Session Initiation Protocol (P2PSIP) network, but can be utilized by other applications with similar requirements by defining new usages that specify the Kinds of data that need to be stored for a particular application.  RELOAD defines a security model based on a certificate enrollment service that provides unique identities.  NAT traversal is a fundamental service of the protocol.  RELOAD also allows access from \"client\" nodes that do not need to route traffic or store data for others.",
+      "abstract": "This specification defines REsource LOcation And Discovery (RELOAD), a peer-to-peer (P2P) signaling protocol for use on the Internet. A P2P signaling protocol provides its clients with an abstract storage and messaging service between a set of cooperating peers that form the overlay network. RELOAD is designed to support a P2P Session Initiation Protocol (P2PSIP) network, but can be utilized by other applications with similar requirements by defining new usages that specify the Kinds of data that need to be stored for a particular application. RELOAD defines a security model based on a certificate enrollment service that provides unique identities. NAT traversal is a fundamental service of the protocol. RELOAD also allows access from \"client\" nodes that do not need to route traffic or store data for others.",
       "concepts": [{
        "media-type": "application/p2p-overlay+xml" }, {
        "uri-scheme": "reload" }, {
        "well-known-uri": "reload-config" }]}},{
+     "6963": {
+      "id": "http://webconcepts.info/specs/IETF/RFC/6963",
+      "title": "A Uniform Resource Name (URN) Namespace for Examples",
+      "name": "RFC 6963",
+      "URI": "urn:ietf:rfc:6963",
+      "URL": "http://tools.ietf.org/html/rfc6963",
+      "abstract": "This document defines a Uniform Resource Name (URN) namespace identifier enabling the generation of URNs that are appropriate for use in documentation and in URN-related testing and experimentation.",
+      "concepts": [{
+       "urn-namespace": "example" }]}},{
      "7030": {
       "id": "http://webconcepts.info/specs/IETF/RFC/7030",
       "title": "Enrollment over Secure Transport",

@@ -19,5 +19,5 @@ This is an overview of 16 Web Concepts (with a total of 515 distinct entries) th
 * [Link Relations](link-relations) (84)
 * [Media Types](media-types) (68)
 * [URI Schemes](uri-schemes) (20)
-* [URN Namespaces](urn-namespaces) (5)
+* [URN Namespaces](urn-namespaces) (6)
 * [Well-Known URIs](well-known-uris) (18)

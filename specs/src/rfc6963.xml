@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<service primary="IETF" secondary="RFC" id="6963" xmlns="http://github.com/dret/sedola">
+    <title>A Uniform Resource Name (URN) Namespace for Examples</title>
+    <documentation source="http://tools.ietf.org/html/rfc6963">This document defines a Uniform Resource Name (URN) namespace identifier enabling the generation of URNs that are appropriate for use in documentation and in URN-related testing and experimentation.</documentation>
+    <urn-namespace def="example">
+        <documentation source="http://tools.ietf.org/html/rfc6963#section-5">The "example" NID is intended to provide a clean, easily recognizable space for minting examples to be used in documentation and in URN-related testing and experimentation. </documentation>
+    </urn-namespace>
+</service>
