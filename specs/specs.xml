@@ -51,4 +51,14 @@
             <url-pattern>http://www.iso.org/obp/ui/#iso:std:iso-iec:$1:-$2</url-pattern>
         </secondary>
     </primary>
+    <primary id="OASIS" href="https://www.oasis-open.org/">
+        <name short="OASIS">Organization for the Advancement of Structured Information Standards</name>
+        <secondary id="standard">
+            <name>Standard</name>
+            <id-pattern>^(.+)$</id-pattern>
+            <md-pattern>$1</md-pattern>
+            <name-pattern>OASIS Standard $1</name-pattern>
+            <uri-pattern>urn:oasis:names:specification:$1</uri-pattern>
+        </secondary>
+    </primary>
 </specs>
