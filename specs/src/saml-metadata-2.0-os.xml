@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<service primary="OASIS" secondary="standard" id="saml-metadata-2.0-os" url="http://docs.oasis-open.org/security/saml/v2.0/saml-metadata-2.0-os.pdf" xmlns="http://github.com/dret/sedola">
+    <title>Metadata for the OASIS Security Assertion Markup Language (SAML) V2.0</title>
+    <documentation source="http://docs.oasis-open.org/security/saml/v2.0/saml-bindings-2.0-os.pdf">SAML profiles require agreements between system entities regarding identifiers, binding support and endpoints, certificates and keys, and so forth. A metadata specification is useful for describing this information in a standardized way. This document defines an extensible metadata format for SAML system entities, organized by roles that reflect SAML profiles. Such roles include that of Identity Provider, Service Provider, Affiliation, Attribute Authority, Attribute Consumer, and Policy Decision Point.</documentation>
+    <media-type def="application/samlmetadata+xml">
+        <documentation source="http://docs.oasis-open.org/security/saml/v2.0/saml-metadata-2.0-os.pdf#page=37">This document defines a MIME media type  for use with the XML serialization of Security Assertion Markup Language metadata.</documentation>
+    </media-type>
+</service>
