@@ -344,7 +344,17 @@
                     <tr>
                         <th valign="top" align="right"><em>Online&#160;Version:</em></th>
                         <td>
-                            <code><a href="{replace(@id, $secondary/id-pattern, $secondary/url-pattern)}"><xsl:value-of select="replace(@id, $secondary/id-pattern, $secondary/url-pattern)"/></a></code>
+                            <xsl:variable name="url">
+                                <xsl:choose>
+                                    <xsl:when test="exists(@url)">
+                                        <xsl:value-of select="@url"/>
+                                    </xsl:when>
+                                    <xsl:otherwise>
+                                        <xsl:value-of select="replace(@id, $secondary/id-pattern, $secondary/url-pattern)"/>                                    
+                                    </xsl:otherwise>
+                                </xsl:choose>
+                            </xsl:variable>
+                            <code><a href="{$url}"><xsl:value-of select="$url"/></a></code>
                         </td>
                     </tr>
                     <tr>

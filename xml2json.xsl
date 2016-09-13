@@ -111,7 +111,8 @@
                             <xsl:value-of select="concat('&quot;', replace(@id, $secondary/id-pattern, $secondary/uri-pattern), '&quot;,&#xa;')"/>
                         </xsl:if>
                         <xsl:text>      "URL": </xsl:text>
-                        <xsl:value-of select="concat('&quot;', replace(@id, $secondary/id-pattern, $secondary/url-pattern), '&quot;,&#xa;')"/>
+                        
+                        <xsl:value-of select="concat('&quot;', if (exists(@url)) then @url else replace(@id, $secondary/id-pattern, $secondary/url-pattern), '&quot;,&#xa;')"/>
                         <xsl:text>      "abstract": </xsl:text>
                         <xsl:value-of select="concat('&quot;', replace(sedola:documentation/text(), '&quot;', '\\&quot;'), '&quot;,&#xa;')"/>
                         <xsl:text>      "concepts": [</xsl:text>

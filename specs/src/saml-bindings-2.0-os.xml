@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<service primary="OASIS" secondary="standard" id="saml-bindings-2.0-os" url="http://docs.oasis-open.org/security/saml/v2.0/saml-bindings-2.0-os.pdf" xmlns="http://github.com/dret/sedola">
+    <title>Bindings for the OASIS Security Assertion Markup Language (SAML) V2.0</title>
+    <documentation source="http://docs.oasis-open.org/security/saml/v2.0/saml-bindings-2.0-os.pdf">This specification defines protocol bindings for the use of SAML assertions and request-response messages in communications protocols and frameworks.</documentation>
+    <media-type def="application/samlassertion+xml">
+        <documentation source="http://docs.oasis-open.org/security/saml/v2.0/saml-bindings-2.0-os.pdf#page=40">This document defines a MIME media type for use with the XML serialization of SAML (Security Assertion Markup Language) assertions.</documentation>
+    </media-type>
+</service>
