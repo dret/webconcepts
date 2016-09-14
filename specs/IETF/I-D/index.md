@@ -4,7 +4,7 @@ title:       "IETF Internet Draft Series"
 description: "List of specifications in the Internet Draft (I-D) series by the Internet Engineering Task Force (IETF)"
 ---
 
-There are currently 25 listed specifications in the [Internet Engineering Task Force (IETF)](..)'s Internet Draft (I-D) series.
+There are currently 26 listed specifications in the [Internet Engineering Task Force (IETF)](..)'s Internet Draft (I-D) series.
 
   * [A JSON Media Type for Describing the Structure and Meaning of JSON Documents (Internet Draft zyp-json-schema)](zyp-json-schema)
   * [Accept-Push-Policy Header Field (Internet Draft ruellan-http-accept-push-policy)](ruellan-http-accept-push-policy)
@@ -23,6 +23,7 @@ There are currently 25 listed specifications in the [Internet Engineering Task F
   * [Hypertext Transfer Protocol: Improved HTTP Caching (Internet Draft drechsler-httpbis-improved-caching)](drechsler-httpbis-improved-caching)
   * [Link Relation Types for Web Services (Internet Draft wilde-service-link-rel)](wilde-service-link-rel)
   * [Marking HTTP Requests as Unimportant (Internet Draft thomson-http-nice)](thomson-http-nice)
+  * [OpenPGP Web Key Service (Internet Draft koch-openpgp-webkey-service)](koch-openpgp-webkey-service)
   * [Origin Cookies (Internet Draft west-origin-cookies)](west-origin-cookies)
   * [POST Once Exactly (POE) (Internet Draft nottingham-http-poe)](nottingham-http-poe)
   * [Signing HTTP Messages (Internet Draft cavage-http-signatures)](cavage-http-signatures)

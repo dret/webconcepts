@@ -3287,6 +3287,12 @@
      "description": "We define a mapping between URIs following the ni URI scheme and HTTP or HTTPS URLs that makes use of the .well-known URI by defining an \"ni\" suffix.",
      "documentation": "http://tools.ietf.org/html/rfc6920#section-4",
      "specification": "http://webconcepts.info/specs/IETF/RFC/6920" }]}},{
+   "openpgpkey": {
+    "id": "http://webconcepts.info/concepts/well-known-uri/openpgpkey",
+    "details": [{
+     "description": "Used for the discovery of Web keys that are made available using the OpenPGP Web Key Service.",
+     "documentation": "http://tools.ietf.org/html/draft-koch-openpgp-webkey-service#section-3",
+     "specification": "http://webconcepts.info/specs/IETF/I-D/koch-openpgp-webkey-service" }]}},{
    "posh": {
     "id": "http://webconcepts.info/concepts/well-known-uri/posh",
     "details": [{
