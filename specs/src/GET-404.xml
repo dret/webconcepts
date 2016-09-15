@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<service name="ronnie" xmlns="http://github.com/dret/sedola">
+    <title>Useless GET Service</title>
+    <documentation source="http://404.org/">This service does nothing other than accepting GET requests and complaining.</documentation>
+    <import primary="IETF" secondary="RFC" id="7231">
+        <http-method ref="GET">
+            <documentation source="http://404.org/#GET">Accept GET requests but don't really do anything.</documentation>
+        </http-method>
+        <http-status ref="404">
+            <documentation source="http://404.org/#404">Whatever you GET, always say that you did not find the resource, and blame it on the user.</documentation>
+        </http-status>
+    </import>
+</service>

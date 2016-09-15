@@ -16,7 +16,7 @@
         </xsl:result-document>
         <xsl:result-document href="{$includes}/specs.md" format="markdown">
             <xsl:text>(listing </xsl:text>
-            <xsl:value-of select="count($allspecs/sedola:service)"/>
+            <xsl:value-of select="count($allspecs/sedola:service[exists(@id)])"/>
             <xsl:text> specifications in </xsl:text>
             <xsl:value-of select="count($specs/specs/primary/secondary)"/>
             <xsl:text> specification series)</xsl:text>
@@ -305,7 +305,7 @@
                 </xsl:result-document>
             </xsl:for-each>
         </xsl:result-document>
-        <xsl:for-each select="$allspecs/sedola:service">
+        <xsl:for-each select="$allspecs/sedola:service[exists(@id)]">
             <xsl:sort select="sedola:title"/>
             <xsl:if test="count($specs/specs/primary[@id eq current()/@primary]) ne 1">
                 <xsl:message terminate="yes" select="concat('Non-matching service/@primary: ', current()/@primary)"/>
@@ -407,6 +407,68 @@
                     </xsl:for-each>
                     <br/>
                 </xsl:for-each-group>
+                <hr/>
+                <p style="text-align: right">
+                    <xsl:text>Return to ( </xsl:text>
+                    <a href="./">Series</a>
+                    <xsl:text> | </xsl:text>
+                    <a href="../">Organization</a>
+                    <xsl:text> | </xsl:text>
+                    <a href="../../">all Specifications</a>
+                    <xsl:text> )</xsl:text>
+                </p>
+            </xsl:result-document>
+        </xsl:for-each>
+        <xsl:for-each select="$allspecs/sedola:service[empty(@id)]">
+            <xsl:sort select="sedola:title"/>
+            <xsl:result-document href="{$specs-dir}/users/{@name}.html" format="markup">
+                <xsl:text>---&#xa;</xsl:text>
+                <xsl:text>layout: page&#xa;</xsl:text>
+                <xsl:text>title:  "</xsl:text>
+                <xsl:value-of select="replace(sedola:title, '&quot;', '\\&quot;')"/>
+                <xsl:text>"&#xa;</xsl:text>
+                <xsl:text>---&#xa;&#xa;</xsl:text>
+                <table cellpadding="5">
+                    <tr>
+                        <th valign="top" align="right"><em>Online&#160;Version:</em></th>
+                        <td>
+                            <code><a href="{sedola:documentation/@source}"><xsl:value-of select="sedola:documentation/@source"/></a></code>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th valign="top" align="right"><em>Abstract:</em></th>
+                        <td>
+                            <xsl:value-of select="sedola:documentation/text()"/>
+                        </td>
+                    </tr>
+                </table>
+                <br/>
+                <hr/>
+                <h2 id="concepts">Imported Web Concepts:</h2>
+                <xsl:for-each select="sedola:import">
+                    <xsl:variable name="imported" select="$allspecs//sedola:service[@primary eq current()/@primary][@secondary eq current()/@secondary][@id eq current()/@id]"/>
+                    <h3>
+                        <xsl:text>From </xsl:text>
+                        <a href="../{@primary}/{@secondary}/{@id}">
+                            <xsl:value-of select="$imported/sedola:title/text()"/>
+                        </a>
+                    </h3>
+                    <xsl:for-each-group select="sedola:*[local-name() = $concepts/concepts/concept/@id]" group-by="local-name()">
+                        <xsl:sort select="$concepts//concept[@id eq current()/local-name()]/title-plural"/>
+                        <h4 id="{$concepts//concept[@id eq current()/local-name()]/@id}">
+                            <xsl:value-of select="$concepts//concept[@id eq current()/local-name()]/title-plural"/>
+                        </h4>
+                        <xsl:for-each select="current-group()">
+                            <xsl:sort select="@ref"/>
+                            <code><a href="/{concat($concepts-dir, '/', $concepts//concept[@id eq current()/local-name()]/filename-singular, '/', @ref)}" title="{replace(sedola:documentation/text(), '&quot;', '&amp;#34;')}"><xsl:value-of select="@ref"/></a></code>
+                            <xsl:if test="position() ne last()">
+                                <xsl:text>, </xsl:text>
+                            </xsl:if>
+                        </xsl:for-each>
+                        <br/>
+                    </xsl:for-each-group>
+                    <br/>
+                </xsl:for-each>
                 <hr/>
                 <p style="text-align: right">
                     <xsl:text>Return to ( </xsl:text>
