@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Login Service",
+    "category": "service",
+    "parent": "null",
+    "children": [
+      {
+        "name": "7231",
+        "category": "concept",
+        "parent": "Top Level",
+        "url": "http://webconcepts.info/specs/IETF/RFC/7231",
+        "children": [
+          {
+            "name": "GET",
+            "parent": "7231",
+            "url": "http://webconcepts.info/concepts/http-method/GET"
+          },
+          {
+            "name": "404",
+            "parent": "7231",
+            "url": "http://webconcepts.info/concepts/http-status-code/404"
+          }
+        ]
+      },
+      {
+        "name": "owasp",
+        "category": "concept",
+        "parent": "Top Level",
+        "url": "http://localhost:4000/specs/IETF/RFC/9999",
+        "children": [
+          {
+            "name": "1.5",
+            "parent": "owasp",
+            "url": "http://localhost:4000/concepts/owasp-asvs3/1.5"
+          },
+          {
+            "name": "2.7",
+            "parent": "owasp",
+            "url": "http://localhost:4000/concepts/owasp-asvs3/2.7"
+          },
+          {
+            "name": "2.25",
+            "parent": "owasp",
+            "url": "http://localhost:4000/concepts/owasp-asvs3/2.25"
+          }
+        ]
+      }
+    ]
+  }
+]
