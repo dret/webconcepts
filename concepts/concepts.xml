@@ -112,4 +112,11 @@
         <filename-plural>urn-namespaces</filename-plural>
         <iana-registry>http://www.iana.org/assignments/urn-namespaces/urn-namespaces.xhtml</iana-registry>
     </concept>
+    <concept id="owasp-asvs-3">
+        <title-singular>OWASP Application Security Verification Standard 3.0</title-singular>
+        <title-plural>OWASP Application Security Verification Standard 3.0</title-plural>
+        <filename-singular>owasp-asvs3</filename-singular>
+        <filename-plural>owasp-asvs3s</filename-plural>
+        <iana-registry>https://www.owasp.org/index.php/Category:OWASP_Application_Security_Verification_Standard_Project</iana-registry>
+    </concept>
 </concepts>
