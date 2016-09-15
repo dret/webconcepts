@@ -10,4 +10,9 @@
             <documentation source="http://404.org/#404">Whatever you GET, always say that you did not find the resource, and blame it on the user.</documentation>
         </http-status>
     </import>
+    <import primary="IETF" secondary="RFC" id="7725">
+        <http-status ref="451">
+            <documentation source="http://404.org/#451">Occasionally, instead of not finding something, it is being reported as blocked for legal reasons.</documentation>
+        </http-status>
+    </import>
 </service>
