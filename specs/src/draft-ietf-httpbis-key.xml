@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<service primary="IETF" secondary="I-D" id="ietf-httpbis-key" xmlns="http://github.com/dret/sedola">
+<service primary="IETF" secondary="I-D" id="ietf-httpbis-key">
     <title>The Key HTTP Response Header Field</title>
     <documentation source="http://tools.ietf.org/html/draft-ietf-httpbis-key">The 'Key' header field for HTTP responses allows an origin server to describe the cache key for a negotiated response: a short algorithm that can be used upon later requests to determine if the same response is reusable. Key has the advantage of avoiding an additional round trip for validation whenever a new request differs slightly, but not significantly, from prior requests. Key also informs user agents of the request characteristics that might result in different content, which can be useful if the user agent is not sending Accept* fields in order to reduce the risk of fingerprinting.</documentation>
     <http-header def="Key">

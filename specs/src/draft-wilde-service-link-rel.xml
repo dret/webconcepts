@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<service primary="IETF" secondary="I-D" id="wilde-service-link-rel" xmlns="http://github.com/dret/sedola">
+<service primary="IETF" secondary="I-D" id="wilde-service-link-rel">
     <title>Link Relation Types for Web Services</title>
     <documentation source="http://tools.ietf.org/html/draft-wilde-service-link-rel">Many resources provided on the Web are part of sets of resources that are provided in a context that is managed by one particular service provider. Often, these sets of resources are referred to as "Web Services" or "Web APIs". This specification defines link relations for representing relationships from those resources to ones that provide documentation or descriptions of the Web services. The difference between these concepts is that documentation is primarily intended for human consumers, whereas descriptions are primarily intended for automated consumers. It also defines a link relation to identify a status resource that is used to represent operational information about a service's status.</documentation>
     <link-relation def="service-doc">

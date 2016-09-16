@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<service primary="IETF" secondary="RFC" id="7800" xmlns="http://github.com/dret/sedola">
+<service primary="IETF" secondary="RFC" id="7800">
     <title>Proof-of-Possession Key Semantics for JSON Web Tokens (JWTs)</title>
     <documentation source="http://tools.ietf.org/html/rfc7800">This specification describes how to declare in a JSON Web Token (JWT) that the presenter of the JWT possesses a particular proof-of-possession key and how the recipient can cryptographically confirm proof of possession of the key by the presenter. Being able to prove possession of a key is also sometimes described as the presenter being a holder-of-key.</documentation>
     <jwt-claim def="cnf">

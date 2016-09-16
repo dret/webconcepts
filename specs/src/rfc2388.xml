@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<service primary="IETF" secondary="RFC" id="2388" xmlns="http://github.com/dret/sedola">
+<service primary="IETF" secondary="RFC" id="2388">
     <title>Returning Values from Forms: multipart/form-data</title>
     <documentation source="http://tools.ietf.org/html/rfc2388">This specification defines an Internet Media Type, multipart/form-data, which can be used by a wide variety of applications and transported by a wide variety of protocols as a way of returning a set of values as the result of a user filling out a form.</documentation>
     <media-type def="multipart/form-data">

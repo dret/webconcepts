@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<service primary="IETF" secondary="RFC" id="2397" xmlns="http://github.com/dret/sedola">
+<service primary="IETF" secondary="RFC" id="2397">
     <title>The "data" URL scheme</title>
     <documentation source="http://tools.ietf.org/html/rfc2397">A new URL scheme, "data", is defined. It allows inclusion of small data items as "immediate" data, as if it had been included externally.</documentation>
     <uri-scheme def="data">

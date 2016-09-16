@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<service primary="IETF" secondary="RFC" id="5174" xmlns="http://github.com/dret/sedola">
+<service primary="IETF" secondary="RFC" id="5174">
     <title>URI Fragment Identifiers for the text/plain Media Type</title>
     <documentation source="http://tools.ietf.org/html/rfc5174">This memo defines URI fragment identifiers for text/plain MIME entities. These fragment identifiers make it possible to refer to parts of a text/plain MIME entity, either identified by character position or range, or by line position or range. Fragment identifiers may also contain information for integrity checks to make them more robust.</documentation>
     <media-type def="text/plain">

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<service primary="IETF" secondary="RFC" id="6415" xmlns="http://github.com/dret/sedola">
+<service primary="IETF" secondary="RFC" id="6415">
     <title>Web Host Metadata</title>
     <documentation source="http://tools.ietf.org/html/rfc6415">This specification describes a method for locating host metadata as well as information about individual resources controlled by the host.</documentation>
     <well-known-uri def="host-meta">

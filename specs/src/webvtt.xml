@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<service primary="W3C" secondary="TR" id="webvtt" xmlns="http://github.com/dret/sedola">
+<service primary="W3C" secondary="TR" id="webvtt">
     <title>Web Video Text Tracks (WebVTT)</title>
     <documentation source="http://www.w3.org/TR/webvtt1/">This specification defines WebVTT, the Web Video Text Tracks format. Its main use is for marking up external text track resources in connection with the HTML &lt;track> element. WebVTT files provide captions or subtitles for video content, and also text video descriptions, chapters for content navigation, and more generally any form of metadata that is time-aligned with audio or video content.</documentation>
     <media-type def="text/vtt">

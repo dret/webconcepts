@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<service primary="IETF" secondary="RFC" id="7635" xmlns="http://github.com/dret/sedola">
+<service primary="IETF" secondary="RFC" id="7635">
     <title>Session Traversal Utilities for NAT (STUN) Extension</title>
     <documentation source="http://tools.ietf.org/html/rfc7635">This document proposes the use of OAuth 2.0 to obtain and validate ephemeral tokens that can be used for Session Traversal Utilities for NAT (STUN) authentication. The usage of ephemeral tokens ensures that access to a STUN server can be controlled even if the tokens are compromised.</documentation>
     <well-known-uri def="stun-key">

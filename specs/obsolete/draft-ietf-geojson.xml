@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<service primary="IETF" secondary="I-D" id="ietf-geojson" xmlns="http://github.com/dret/sedola">
+<service primary="IETF" secondary="I-D" id="ietf-geojson">
     <title>The GeoJSON Format</title>
     <documentation source="http://tools.ietf.org/html/draft-ietf-geojson">GeoJSON is a geospatial data interchange format based on JavaScript Object Notation (JSON). It defines several types of JSON objects and the manner in which they are combined to represent data about geographic features, their properties, and their spatial extents. GeoJSON uses a geographic coordinate reference system, World Geodetic System 1984, and units of decimal degrees.</documentation>
     <media-type def="application/geo+json">

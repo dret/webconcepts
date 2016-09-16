@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<service primary="IETF" secondary="RFC" id="3778" xmlns="http://github.com/dret/sedola">
+<service primary="IETF" secondary="RFC" id="3778">
     <title>The application/pdf Media Type</title>
     <documentation source="http://tools.ietf.org/html/rfc3778">PDF, the 'Portable Document Format', is a general document representation language that has been in use for document exchange on the Internet since 1993. This document provides an overview of the PDF format, explains the mechanisms for digital signatures and encryption within PDF files, and updates the media type registration of 'application/pdf'.</documentation>
     <media-type def="application/pdf">

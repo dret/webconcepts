@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<service primary="IETF" secondary="RFC" id="5261" xmlns="http://github.com/dret/sedola">
+<service primary="IETF" secondary="RFC" id="5261">
     <title>An Extensible Markup Language (XML) Patch Operations Framework Utilizing XML Path Language (XPath) Selectors</title>
     <documentation source="http://tools.ietf.org/html/rfc5261">Extensible Markup Language (XML) documents are widely used as containers for the exchange and storage of arbitrary data in today's systems. In order to send changes to an XML document, an entire copy of the new version must be sent, unless there is a means of indicating only the portions that have changed. This document describes an XML patch framework utilizing XML Path language (XPath) selectors. These selector values and updated new data content constitute the basis of patch operations described in this document. In addition to them, with basic &lt;add>, &lt;replace>, and &lt;remove> directives a set of patches can then be applied to update an existing XML document.</documentation>
     <media-type def="application/patch-ops-error+xml">

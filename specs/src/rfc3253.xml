@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<service primary="IETF" secondary="RFC" id="3253" xmlns="http://github.com/dret/sedola">
+<service primary="IETF" secondary="RFC" id="3253">
     <title>Versioning Extensions to WebDAV (Web Distributed Authoring and Versioning)</title>
     <documentation source="http://tools.ietf.org/html/rfc3253">This document specifies a set of methods, headers, and resource types that define the WebDAV (Web Distributed Authoring and Versioning) versioning extensions to the HTTP/1.1 protocol. WebDAV versioning will minimize the complexity of clients that are capable of interoperating with a variety of versioning repository managers, to facilitate widespread deployment of applications capable of utilizing the WebDAV Versioning services. WebDAV versioning includes automatic versioning for versioning-unaware clients, version history management, workspace management, baseline management, activity management, and URL namespace versioning.</documentation>
     <http-header def="Label">

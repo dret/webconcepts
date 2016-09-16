@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<service primary="IETF" secondary="RFC" id="4452" xmlns="http://github.com/dret/sedola">
+<service primary="IETF" secondary="RFC" id="4452">
     <title>The "info" URI Scheme for Information Assets with Identifiers in Public Namespaces</title>
     <documentation source="http://tools.ietf.org/html/rfc4452">This document defines the "info" Uniform Resource Identifier (URI) scheme for information assets with identifiers in public namespaces. Namespaces participating in the "info" URI scheme are regulated by an "info" Registry mechanism.</documentation>
     <uri-scheme def="info">

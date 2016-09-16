@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<service primary="IETF" secondary="RFC" id="7234" xmlns="http://github.com/dret/sedola">
+<service primary="IETF" secondary="RFC" id="7234">
     <title>Hypertext Transfer Protocol (HTTP/1.1): Caching</title>
     <documentation source="http://tools.ietf.org/html/rfc7234">The Hypertext Transfer Protocol (HTTP) is an application-level protocol for distributed, collaborative, hypertext information systems. This document defines requirements on HTTP caches and the associated header fields that control cache behavior or indicate cacheable response messages.</documentation>
     <http-header def="Age">

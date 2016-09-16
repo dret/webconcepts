@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<service primary="IETF" secondary="RFC" id="7515" xmlns="http://github.com/dret/sedola">
+<service primary="IETF" secondary="RFC" id="7515">
     <title>JSON Web Signature (JWS)</title>
     <documentation source="http://tools.ietf.org/html/rfc7515">JSON Web Signature (JWS) represents content secured with digital signatures or Message Authentication Codes (MACs) using JSON-based data structures. Cryptographic algorithms and identifiers for use with this specification are described in the separate JSON Web Algorithms (JWA) specification and an IANA registry defined by that specification. Related encryption capabilities are described in the separate JSON Web Encryption (JWE) specification.</documentation>
     <media-type def="application/jose">

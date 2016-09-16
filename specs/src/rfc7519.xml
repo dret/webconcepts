@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<service primary="IETF" secondary="RFC" id="7519" xmlns="http://github.com/dret/sedola">
+<service primary="IETF" secondary="RFC" id="7519">
     <title>JSON Web Token (JWT)</title>
     <documentation source="http://tools.ietf.org/html/rfc7519">JSON Web Token (JWT) is a compact, URL-safe means of representing claims to be transferred between two parties. The claims in a JWT are encoded as a JSON object that is used as the payload of a JSON Web Signature (JWS) structure or as the plaintext of a JSON Web Encryption (JWE) structure, enabling the claims to be digitally signed or integrity protected with a Message Authentication Code (MAC) and/or encrypted.</documentation>
     <media-type def="application/jwt">

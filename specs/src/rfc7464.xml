@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<service primary="IETF" secondary="RFC" id="7464" xmlns="http://github.com/dret/sedola">
+<service primary="IETF" secondary="RFC" id="7464">
     <title>JavaScript Object Notation (JSON) Text Sequences</title>
     <documentation source="http://tools.ietf.org/html/rfc7464">This document describes the JavaScript Object Notation (JSON) text sequence format and associated media type "application/json-seq". A JSON text sequence consists of any number of JSON texts, all encoded in UTF-8, each prefixed by an ASCII Record Separator (0x1E), and each ending with an ASCII Line Feed character (0x0A).</documentation>
     <media-type def="application/json-seq">

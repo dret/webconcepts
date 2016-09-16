@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<service primary="IETF" secondary="RFC" id="6713" xmlns="http://github.com/dret/sedola">
+<service primary="IETF" secondary="RFC" id="6713">
     <title>The 'application/zlib' and 'application/gzip' Media Types</title>
     <documentation source="http://tools.ietf.org/html/rfc6713">This document defines the 'application/gzip' and 'application/zlib' media types for compressed data using the gzip and zlib compression formats.</documentation>
     <media-type def="application/zlib">

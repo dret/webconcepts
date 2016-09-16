@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- This XSLT transforms https://github.com/dret/webconcepts into JSON. -->
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="3.0" xmlns:sedola="http://github.com/dret/sedola">
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="3.0">
     <xsl:output name="json" method="text" encoding="UTF-8"/>
     <!-- -->
     <xsl:template name="xml2json">
@@ -17,27 +17,27 @@
                 <xsl:text>  "name-plural": </xsl:text>
                 <xsl:value-of select="concat('&quot;', title-plural, '&quot;,&#xa;')"/>
                 <xsl:text>  "concepts": [</xsl:text>
-                <xsl:for-each select="distinct-values($allspecs//sedola:*[local-name() eq $concept/@id]/@def)">
+                <xsl:for-each select="distinct-values($allspecs//*[local-name() eq $concept/@id]/@def)">
                     <xsl:sort select="."/>
                     <xsl:text>{&#xa;   </xsl:text>
                     <xsl:variable name="concept-name" select="."/>
                     <xsl:value-of select="concat('&quot;', $concept-name, '&quot;: {&#xa;')"/>
                     <xsl:text>    "id": </xsl:text>
                     <xsl:value-of select="concat('&quot;http://webconcepts.info/', $concepts-dir, '/', $concept/filename-singular, '/', $concept-name, '&quot;,&#xa;')"/>
-                    <xsl:variable name="desc" select="$allspecs//sedola:*[local-name() eq $concept/@id][@def eq $concept-name][1]/@desc"/>
+                    <xsl:variable name="desc" select="$allspecs//*[local-name() eq $concept/@id][@def eq $concept-name][1]/@desc"/>
                     <!-- this is cheating by (randomly) picking the first description should there be more than one in all specifications. -->
                     <xsl:if test="exists($desc)">
                         <xsl:text>    "description": </xsl:text>
                         <xsl:value-of select="concat('&quot;', $desc, '&quot;,&#xa;')"/>
                     </xsl:if>
                     <xsl:text>    "details": [</xsl:text>
-                    <xsl:for-each select="$allspecs/sedola:service/sedola:*[local-name() eq $concept/@id][@def eq $concept-name]">
+                    <xsl:for-each select="$allspecs/service/*[local-name() eq $concept/@id][@def eq $concept-name]">
                         <xsl:sort select="replace(replace(current()/../@id, $specs/specs/primary[@id eq current()/../@primary]/secondary[@id eq current()/../@secondary]/id-pattern, $specs/specs/primary[@id eq current()/../@primary]/secondary[@id eq current()/../@secondary]/md-pattern), '^(..*)$', $specs/specs/primary[@id eq current()/../@primary]/secondary[@id eq current()/../@secondary]/name-pattern)"/>
                         <xsl:text>{&#xa;</xsl:text>
                         <xsl:text>     "description": </xsl:text>
-                        <xsl:value-of select="concat('&quot;', replace(sedola:documentation/text(), '&quot;', '\\&quot;'), '&quot;,&#xa;')"/>
+                        <xsl:value-of select="concat('&quot;', replace(documentation/text(), '&quot;', '\\&quot;'), '&quot;,&#xa;')"/>
                         <xsl:text>     "documentation": </xsl:text>
-                        <xsl:value-of select="concat('&quot;', sedola:documentation/@source, '&quot;,&#xa;')"/>
+                        <xsl:value-of select="concat('&quot;', documentation/@source, '&quot;,&#xa;')"/>
                         <xsl:text>     "specification": </xsl:text>
                         <xsl:variable name="secondary" select="$specs/specs/primary[@id eq current()/../@primary]/secondary[@id eq current()/../@secondary]"/>
                         <xsl:variable name="id" select="replace(current()/../@id, $secondary/id-pattern, $secondary/md-pattern)"/>
@@ -61,7 +61,7 @@
         </xsl:result-document>
         <xsl:result-document href="{$specs-dir}/specs.json" format="json">
             <xsl:text>{&#xa;</xsl:text>
-            <xsl:for-each-group select="$allspecs/sedola:service" group-by="@primary">
+            <xsl:for-each-group select="$allspecs/service" group-by="@primary">
                 <xsl:sort select="@primary"/>
                 <xsl:variable name="primary" select="$specs/specs/primary[@id eq current()/@primary]"/>
                 <xsl:value-of select="concat(' &quot;', @primary, '&quot;: {&#xa;')"/>
@@ -103,7 +103,7 @@
                         <xsl:text>      "id": </xsl:text>
                         <xsl:value-of select="concat('&quot;http://webconcepts.info/', $specs-dir, '/', $primary/@id, '/', $secondary/@id, '/', $id, '&quot;,&#xa;')"/>
                         <xsl:text>      "title": </xsl:text>
-                        <xsl:value-of select="concat('&quot;', replace(sedola:title, '&quot;', '\\&quot;'), '&quot;,&#xa;')"/>
+                        <xsl:value-of select="concat('&quot;', replace(title, '&quot;', '\\&quot;'), '&quot;,&#xa;')"/>
                         <xsl:text>      "name": </xsl:text>
                         <xsl:value-of select="concat('&quot;', replace(replace($id, '^(..*)$', $secondary/name-pattern), '&quot;', '\\&quot;'), '&quot;,&#xa;')"/>
                         <xsl:if test="exists($secondary/uri-pattern)">
@@ -114,9 +114,9 @@
                         
                         <xsl:value-of select="concat('&quot;', if (exists(@url)) then @url else replace(@id, $secondary/id-pattern, $secondary/url-pattern), '&quot;,&#xa;')"/>
                         <xsl:text>      "abstract": </xsl:text>
-                        <xsl:value-of select="concat('&quot;', replace(sedola:documentation/text(), '&quot;', '\\&quot;'), '&quot;,&#xa;')"/>
+                        <xsl:value-of select="concat('&quot;', replace(documentation/text(), '&quot;', '\\&quot;'), '&quot;,&#xa;')"/>
                         <xsl:text>      "concepts": [</xsl:text>
-                        <xsl:for-each select="sedola:*[local-name() = $concepts/concepts/concept/@id]">
+                        <xsl:for-each select="*[local-name() = $concepts/concepts/concept/@id]">
                             <xsl:sort select="$concepts//concept[@id eq current()/local-name()]/@id"/>
                             <xsl:sort select="@def"/>
                             <xsl:variable name="concept-id" select="$concepts//concept[@id eq current()/local-name()]/@id"/>

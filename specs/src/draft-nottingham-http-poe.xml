@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<service primary="IETF" secondary="I-D" id="nottingham-http-poe" xmlns="http://github.com/dret/sedola">
+<service primary="IETF" secondary="I-D" id="nottingham-http-poe">
     <title>POST Once Exactly (POE)</title>
     <documentation source="http://tools.ietf.org/html/draft-nottingham-http-poe">This specification describes a pattern of use that allows HTTP clients to automatically retry POST requests in a manner that assures no unintended side effects will take place, and defines mechanisms to allow implementations to automatically determine when such patterns are supported.</documentation>
     <http-header def="POE-Links">

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<service primary="IETF" secondary="RFC" id="6922" xmlns="http://github.com/dret/sedola">
+<service primary="IETF" secondary="RFC" id="6922">
     <title>The application/sql Media Type</title>
     <documentation source="http://tools.ietf.org/html/rfc6922">This document registers the application/sql media type to be used for the Structured Query Language (SQL).</documentation>
     <media-type def="application/sql">

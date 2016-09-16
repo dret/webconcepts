@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<service primary="W3C" secondary="TR" id="micropub" xmlns="http://github.com/dret/sedola">
+<service primary="W3C" secondary="TR" id="micropub">
     <title>Micropub</title>
     <documentation source="http://www.w3.org/TR/micropub/">Micropub is an open API standard that is used to create posts on one's own domain using third-party clients. Web apps and native apps (e.g. iPhone, Android) can use Micropub to post short notes, photos, events or other posts to your own site.</documentation>
     <link-relation def="micropub">
