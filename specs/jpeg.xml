@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<service primary="misc" id="JPEG" xmlns="http://github.com/dret/sedola">
+<service primary="misc" id="JPEG">
     <title short="JPEG/JFIF">JPEG File Interchange Format</title>
     <mediatype xml:id="jfif" type="image/jpeg">
         <document xml:id="jfif-image">
