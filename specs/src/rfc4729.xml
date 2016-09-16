@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<service primary="IETF" secondary="RFC" id="4729" xmlns="http://github.com/dret/sedola">
+    <title>A Uniform Resource Name (URN) Namespace for the Near Field Communication (NFC) Forum</title>
+    <documentation source="http://tools.ietf.org/html/rfc4729">This document describes the Namespace Identifier (NID) for Uniform Resource Name (URN) resources published by the Near Field Communication (NFC) Forum. The NFC Forum defines and manages resources that utilize this URN identification model. Management activities for these and other resource types are provided by the NFC Forum Technical Committee.</documentation>
+    <urn-namespace def="nfc">
+        <documentation source="http://tools.ietf.org/html/rfc4729#section-2">NFC Forum working groups will manage the assignment of NFC resources and the specific registration values assigned for each resource class. The Technical Committee will coordinate creation of new resource class assignments based on community need.</documentation>
+    </urn-namespace>
+</service>

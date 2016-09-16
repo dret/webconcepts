@@ -631,6 +631,15 @@
       "abstract": "This document defines the \"info\" Uniform Resource Identifier (URI) scheme for information assets with identifiers in public namespaces. Namespaces participating in the \"info\" URI scheme are regulated by an \"info\" Registry mechanism.",
       "concepts": [{
        "uri-scheme": "info" }]}},{
+     "4729": {
+      "id": "http://webconcepts.info/specs/IETF/RFC/4729",
+      "title": "A Uniform Resource Name (URN) Namespace for the Near Field Communication (NFC) Forum",
+      "name": "RFC 4729",
+      "URI": "urn:ietf:rfc:4729",
+      "URL": "http://tools.ietf.org/html/rfc4729",
+      "abstract": "This document describes the Namespace Identifier (NID) for Uniform Resource Name (URN) resources published by the Near Field Communication (NFC) Forum. The NFC Forum defines and manages resources that utilize this URN identification model. Management activities for these and other resource types are provided by the NFC Forum Technical Committee.",
+      "concepts": [{
+       "urn-namespace": "nfc" }]}},{
      "4791": {
       "id": "http://webconcepts.info/specs/IETF/RFC/4791",
       "title": "Calendaring Extensions to WebDAV (CalDAV)",
