@@ -1,6 +1,7 @@
 ---
-layout: page
-title:  "HTTP Header Field: Accept-Additions"
+layout:      page
+title:       "HTTP Header Field: Accept-Additions"
+description: "In HTTP, the \"Accept\" request-header field is used to specify media types which are acceptable for the response. However, in HTCPCP, the response may result in additional actions on the part of the automated pot. For this reason, HTCPCP adds a new header field, \"Accept-Additions\"."
 ---
 
 **[RFC 2324: Hyper Text Coffee Pot Control Protocol (HTCPCP/1.0)](/specs/IETF/RFC/2324 "This document describes HTCPCP, a protocol for controlling, monitoring, and diagnosing coffee pots."):** [In HTTP, the "Accept" request-header field is used to specify media types which are acceptable for the response. However, in HTCPCP, the response may result in additional actions on the part of the automated pot. For this reason, HTCPCP adds a new header field, "Accept-Additions".](http://tools.ietf.org/html/rfc2324#section-2.2.2.1 "Read documentation for HTTP Header Field &#34;Accept-Additions&#34;")

@@ -1,6 +1,7 @@
 ---
-layout: page
-title:  "Media Type: application/home+json"
+layout:      page
+title:       "Media Type: application/home+json"
+description: "This document proposes a \"home document\" format for non-browser HTTP clients."
 ---
 
 **[Internet Draft nottingham-json-home: Home Documents for HTTP APIs](/specs/IETF/I-D/nottingham-json-home "This document proposes a &#34;home document&#34; format for non-browser HTTP clients."):** [This document proposes a "home document" format for non-browser HTTP clients.](http://tools.ietf.org/html/draft-nottingham-json-home "Read documentation for Media Type &#34;application/home+json&#34;")

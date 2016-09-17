@@ -1,6 +1,7 @@
 ---
-layout: page
-title:  "Media Type: application/marcxml+xml"
+layout:      page
+title:       "Media Type: application/marcxml+xml"
+description: "An XML schema for the direct XML representation of the MARC format (for which there already exists a media type, application/marc)."
 ---
 
 **[RFC 6207: The Media Types application/mods+xml, application/mads+xml, application/mets+xml, application/marcxml+xml, and application/sru+xml](/specs/IETF/RFC/6207 "This document specifies media types for the following formats: MODS (Metadata Object Description Schema), MADS (Metadata Authority Description Schema), METS (Metadata Encoding and Transmission Standard), MARCXML (MARC21 XML Schema), and the SRU (Search/Retrieve via URL Response Format) protocol response XML schema. These are all XML schemas providing representations of various forms of information including metadata and search results."):** [An XML schema for the direct XML representation of the MARC format (for which there already exists a media type, application/marc).](http://tools.ietf.org/html/rfc6207#section-5 "Read documentation for Media Type &#34;application/marcxml+xml&#34;")

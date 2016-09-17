@@ -1,6 +1,7 @@
 ---
-layout: page
-title:  "Link Relation: describedby"
+layout:      page
+title:       "Link Relation: describedby"
+description: "The relationship A describedby B asserts that resource B provides a description of resource A. There are no constraints on the format or representation of either A or B, neither are there any further constraints on either resource."
 ---
 
 **[W3C TR http://www.w3.org/TR/ldp: Linked Data Platform 1.0 (LDP)](/specs/W3C/TR/ldp "Linked Data Platform (LDP) defines a set of rules for HTTP operations on web resources, some based on RDF, to provide an architecture for read-write Linked Data on the web."):** [The relationship A describedby B asserts that resource B provides a description of resource A. There are no constraints on the format or representation of either A or B, neither are there any further constraints on either resource.](http://www.w3.org/TR/ldp/#link-relation-describedby "Read documentation for Link Relation &#34;describedby&#34;")

@@ -1,6 +1,7 @@
 ---
-layout: page
-title:  "HTTP Header Field: Authorization"
+layout:      page
+title:       "HTTP Header Field: Authorization"
+description: "Protocol parameters can be transmitted using the HTTP \"Authorization\" header field as defined by RFC 2617 with the auth-scheme name set to \"OAuth\" (case insensitive)."
 ---
 
 **[RFC 5849: The OAuth 1.0 Protocol](/specs/IETF/RFC/5849 "OAuth provides a method for clients to access server resources on behalf of a resource owner (such as a different client or an end-user). It also provides a process for end-users to authorize third-party access to their server resources without sharing their credentials (typically, a username and password pair), using user-agent redirections."):** [Protocol parameters can be transmitted using the HTTP "Authorization" header field as defined by RFC 2617 with the auth-scheme name set to "OAuth" (case insensitive).](http://tools.ietf.org/html/rfc5849#section-3.5.1 "Read documentation for HTTP Header Field &#34;Authorization&#34;")

@@ -1,6 +1,7 @@
 ---
-layout: page
-title:  "HTTP Header Field: WWW-Authenticate"
+layout:      page
+title:       "HTTP Header Field: WWW-Authenticate"
+description: "The \"WWW-Authenticate\" header field consists of at least one challenge that indicates the authentication scheme(s) and parameters applicable to the effective request URI. It MUST be included in 401 (Unauthorized) response messages and MAY be included in other response messages to indicate that supplying credentials (or different credentials) might affect the response."
 ---
 
 **[RFC 7235: Hypertext Transfer Protocol (HTTP/1.1): Authentication](/specs/IETF/RFC/7235 "The Hypertext Transfer Protocol (HTTP) is an application-level protocol for distributed, collaborative, hypermedia information systems. This document defines the HTTP Authentication framework."):** [The "WWW-Authenticate" header field consists of at least one challenge that indicates the authentication scheme(s) and parameters applicable to the effective request URI. It MUST be included in 401 (Unauthorized) response messages and MAY be included in other response messages to indicate that supplying credentials (or different credentials) might affect the response.](http://tools.ietf.org/html/rfc7235#section-4.4 "Read documentation for HTTP Header Field &#34;WWW-Authenticate&#34;")

@@ -261,9 +261,10 @@
                             </xsl:choose>
                         </xsl:for-each>
                         <xsl:result-document href="{$concepts-dir}/{$concept/filename-singular}/{$concept-name}.md" format="markdown">
+                            <xsl:variable name="allspecsdef" select="$allspecs/service/*[local-name() eq $concept/@id][@def eq $concept-name]"/>
                             <xsl:text>---&#xa;</xsl:text>
-                            <xsl:text>layout: page&#xa;</xsl:text>
-                            <xsl:text>title:  "</xsl:text>
+                            <xsl:text>layout:      page&#xa;</xsl:text>
+                            <xsl:text>title:       "</xsl:text>
                             <xsl:value-of select="$concept/title-singular/text()"/>
                             <xsl:text>: </xsl:text>
                             <xsl:value-of select="$concept-name"/>
@@ -272,8 +273,12 @@
                                 <xsl:value-of select="$desc"/>
                             </xsl:if>
                             <xsl:text>"&#xa;</xsl:text>
+                            <xsl:text>description: "</xsl:text>
+                            <xsl:value-of select="replace($allspecsdef[1]/documentation, '&quot;', '\\&quot;')"/>
+                            <!-- this is cheating because it randomly takes the first definition of a concept, if there are more than one. -->
+                            <xsl:text>"&#xa;</xsl:text>
                             <xsl:text>---&#xa;&#xa;</xsl:text>
-                            <xsl:for-each select="$allspecs/service/*[local-name() eq $concept/@id][@def eq $concept-name]">
+                            <xsl:for-each select="$allspecsdef">
                                 <xsl:sort select="replace(replace(current()/../@id, $specs/specs/primary[@id eq current()/../@primary]/secondary[@id eq current()/../@secondary]/id-pattern, $specs/specs/primary[@id eq current()/../@primary]/secondary[@id eq current()/../@secondary]/md-pattern), '^(..*)$', $specs/specs/primary[@id eq current()/../@primary]/secondary[@id eq current()/../@secondary]/name-pattern)"/>
                                 <xsl:text>**[</xsl:text>
                                 <xsl:variable name="secondary" select="$specs/specs/primary[@id eq current()/../@primary]/secondary[@id eq current()/../@secondary]"/>
@@ -323,7 +328,7 @@
                 <xsl:text>---&#xa;</xsl:text>
                 <xsl:text>layout: page&#xa;</xsl:text>
                 <xsl:text>title:  "</xsl:text>
-                <xsl:value-of select="replace(title, '&quot;', '\\&quot;')"/>
+                <xsl:value-of select="replace(title/text(), '&quot;', '\\&quot;')"/>
                 <xsl:text>"&#xa;</xsl:text>
                 <xsl:text>---&#xa;&#xa;</xsl:text>
                 <table cellpadding="5">
