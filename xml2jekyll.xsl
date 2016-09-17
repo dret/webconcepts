@@ -326,9 +326,13 @@
             <xsl:variable name="id" select="replace(@id, $secondary/id-pattern, $secondary/md-pattern)"/>
             <xsl:result-document href="{$specs-dir}/{$primary/@id}/{$secondary/@id}/{$id}.html" format="markup">
                 <xsl:text>---&#xa;</xsl:text>
-                <xsl:text>layout: page&#xa;</xsl:text>
-                <xsl:text>title:  "</xsl:text>
+                <xsl:text>layout:      page&#xa;</xsl:text>
+                <xsl:text>title:       "</xsl:text>
                 <xsl:value-of select="replace(title/text(), '&quot;', '\\&quot;')"/>
+                <xsl:text>"&#xa;</xsl:text>
+                <xsl:text>description: "</xsl:text>
+                <xsl:value-of select="replace(documentation/text(), '&quot;', '\\&quot;')"/>
+                <!-- this is cheating because it randomly takes the first definition of a concept, if there are more than one. -->
                 <xsl:text>"&#xa;</xsl:text>
                 <xsl:text>---&#xa;&#xa;</xsl:text>
                 <table cellpadding="5">
