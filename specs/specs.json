@@ -119,6 +119,15 @@
       "abstract": "This specification allows HTTP CONNECT requests to indicate what protocol will be used within the tunnel once established, using the Tunnel-Protocol header field.",
       "concepts": [{
        "http-header": "Tunnel-Protocol" }]}},{
+     "kelly-json-hal": {
+      "id": "http://webconcepts.info/specs/IETF/I-D/kelly-json-hal",
+      "title": "JSON Hypertext Application Language",
+      "name": "Internet Draft kelly-json-hal",
+      "URI": "urn:ietf:id:kelly-json-hal",
+      "URL": "http://tools.ietf.org/html/draft-kelly-json-hal",
+      "abstract": "This document proposes a media type for representing resources and their relations with hyperlinks.",
+      "concepts": [{
+       "media-type": "application/hal+json" }]}},{
      "koch-openpgp-webkey-service": {
       "id": "http://webconcepts.info/specs/IETF/I-D/koch-openpgp-webkey-service",
       "title": "OpenPGP Web Key Service",

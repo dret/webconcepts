@@ -2714,6 +2714,12 @@
      "description": "The 'application/gzip' media type describes a block of data that is compressed using gzip compression. The data is a stream of bytes as described in RFC 1952.",
      "documentation": "http://tools.ietf.org/html/rfc6713#section-3",
      "specification": "http://webconcepts.info/specs/IETF/RFC/6713" }]}},{
+   "application/hal+json": {
+    "id": "http://webconcepts.info/concepts/media-type/application/hal+json",
+    "details": [{
+     "description": "HAL is a generic media type with which Web APIs can be developed and exposed as series of links. Clients of these APIs can select links by their link relation type and traverse them in order to progress through the application.",
+     "documentation": "http://tools.ietf.org/html/draft-kelly-json-hal#section-1",
+     "specification": "http://webconcepts.info/specs/IETF/I-D/kelly-json-hal" }]}},{
    "application/held+xml": {
     "id": "http://webconcepts.info/concepts/media-type/application/held+xml",
     "details": [{
