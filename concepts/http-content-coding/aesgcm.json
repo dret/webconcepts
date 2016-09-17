@@ -1,0 +1,7 @@
+{
+   "aesgcm": {
+    "id": "http://webconcepts.info/concepts/http-content-coding/aesgcm",
+    "details": [{
+     "description": "The \"aesgcm\" HTTP content coding indicates that a payload has been encrypted using Advanced Encryption Standard (AES) in Galois/Counter Mode (GCM) as identified as AEAD_AES_128_GCM in RFC 5116.",
+     "documentation": "http://tools.ietf.org/html/draft-ietf-httpbis-encryption-encoding#section-2",
+     "specification": "http://webconcepts.info/specs/IETF/I-D/ietf-httpbis-encryption-encoding" }]}}

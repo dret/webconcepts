@@ -1,0 +1,7 @@
+{
+   "only-if-cached": {
+    "id": "http://webconcepts.info/concepts/http-cache-directive/only-if-cached",
+    "details": [{
+     "description": "The \"only-if-cached\" request directive indicates that the client only wishes to obtain a stored response. If it receives this directive, a cache SHOULD either respond using a stored response that is consistent with the other constraints of the request, or respond with a 504 (Gateway Timeout) status code. If a group of caches is being operated as a unified system with good internal connectivity, a member cache MAY forward such a request within that group of caches.",
+     "documentation": "http://tools.ietf.org/html/rfc7234#section-5.2.1.7",
+     "specification": "http://webconcepts.info/specs/IETF/RFC/7234" }]}}

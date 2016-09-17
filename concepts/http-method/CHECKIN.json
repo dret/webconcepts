@@ -1,0 +1,7 @@
+{
+   "CHECKIN": {
+    "id": "http://webconcepts.info/concepts/http-method/CHECKIN",
+    "details": [{
+     "description": "A CHECKIN request can be applied to a checked-out version-controlled resource to produce a new version whose content and dead properties are copied from the checked-out resource.",
+     "documentation": "http://tools.ietf.org/html/rfc3253#section-4.4",
+     "specification": "http://webconcepts.info/specs/IETF/RFC/3253" }]}}

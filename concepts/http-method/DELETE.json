@@ -1,0 +1,7 @@
+{
+   "DELETE": {
+    "id": "http://webconcepts.info/concepts/http-method/DELETE",
+    "details": [{
+     "description": "The DELETE method requests that the origin server remove the association between the target resource and its current functionality. In effect, this method is similar to the rm command in UNIX: it expresses a deletion operation on the URI mapping of the origin server rather than an expectation that the previously associated information be deleted.",
+     "documentation": "http://tools.ietf.org/html/rfc7231#section-4.3.5",
+     "specification": "http://webconcepts.info/specs/IETF/RFC/7231" }]}}

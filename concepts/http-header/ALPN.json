@@ -1,0 +1,7 @@
+{
+   "ALPN": {
+    "id": "http://webconcepts.info/concepts/http-header/ALPN",
+    "details": [{
+     "description": "Clients include the ALPN header field in an HTTP CONNECT request to indicate the application-layer protocol that a client intends to use within the tunnel, or a set of protocols that might be used within the tunnel.",
+     "documentation": "http://tools.ietf.org/html/rfc7639#section-2",
+     "specification": "http://webconcepts.info/specs/IETF/RFC/7639" }]}}

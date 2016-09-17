@@ -1,0 +1,7 @@
+{
+   "successor-version": {
+    "id": "http://webconcepts.info/concepts/link-relation/successor-version",
+    "details": [{
+     "description": "When included on a versioned resource, this link points to a resource containing the successor version in the version history.",
+     "documentation": "http://tools.ietf.org/html/rfc5829#section-3.6",
+     "specification": "http://webconcepts.info/specs/IETF/RFC/5829" }]}}

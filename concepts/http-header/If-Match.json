@@ -1,0 +1,7 @@
+{
+   "If-Match": {
+    "id": "http://webconcepts.info/concepts/http-header/If-Match",
+    "details": [{
+     "description": "The \"If-Match\" header field makes the request method conditional on the recipient origin server either having at least one current representation of the target resource, when the field-value is \"*\", or having a current representation of the target resource that has an entity-tag matching a member of the list of entity-tags provided in the field-value.",
+     "documentation": "http://tools.ietf.org/html/rfc7232#section-3.1",
+     "specification": "http://webconcepts.info/specs/IETF/RFC/7232" }]}}

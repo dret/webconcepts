@@ -1,0 +1,7 @@
+{
+   "Clear-Site-Data": {
+    "id": "http://webconcepts.info/concepts/http-header/Clear-Site-Data",
+    "details": [{
+     "description": "The Clear-Site-Data HTTP response header field sends a signal to the user agent that it ought to remove all data of a certain set of types.",
+     "documentation": "http://www.w3.org/TR/clear-site-data/#header",
+     "specification": "http://webconcepts.info/specs/W3C/TR/clear-site-data" }]}}

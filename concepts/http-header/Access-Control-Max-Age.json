@@ -1,0 +1,7 @@
+{
+   "Access-Control-Max-Age": {
+    "id": "http://webconcepts.info/concepts/http-header/Access-Control-Max-Age",
+    "details": [{
+     "description": "The Access-Control-Max-Age header indicates how long the results of a preflight request can be cached in a preflight result cache.",
+     "documentation": "http://www.w3.org/TR/cors/#access-control-max-age-response-header",
+     "specification": "http://webconcepts.info/specs/W3C/TR/cors" }]}}

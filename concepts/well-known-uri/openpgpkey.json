@@ -1,0 +1,7 @@
+{
+   "openpgpkey": {
+    "id": "http://webconcepts.info/concepts/well-known-uri/openpgpkey",
+    "details": [{
+     "description": "Used for the discovery of Web keys that are made available using the OpenPGP Web Key Service.",
+     "documentation": "http://tools.ietf.org/html/draft-koch-openpgp-webkey-service#section-3",
+     "specification": "http://webconcepts.info/specs/IETF/I-D/koch-openpgp-webkey-service" }]}}

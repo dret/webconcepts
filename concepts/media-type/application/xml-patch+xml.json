@@ -1,0 +1,7 @@
+{
+   "application/xml-patch+xml": {
+    "id": "http://webconcepts.info/concepts/media-type/application/xml-patch+xml",
+    "details": [{
+     "description": "The Internet media type for an XML Patch Document is application/xml-patch+xml.",
+     "documentation": "http://tools.ietf.org/html/rfc7351#section-3",
+     "specification": "http://webconcepts.info/specs/IETF/RFC/7351" }]}}

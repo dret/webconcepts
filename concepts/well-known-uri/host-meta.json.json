@@ -1,0 +1,7 @@
+{
+   "host-meta.json": {
+    "id": "http://webconcepts.info/concepts/well-known-uri/host-meta.json",
+    "details": [{
+     "description": "Alternatively, the client MAY request a JRD representation by requesting the \"host-meta.json\" well-known document, by making a GET request for \"/.well-known/host-meta.json\", following the same process used for \"/.well-known/host-meta\".",
+     "documentation": "http://tools.ietf.org/html/rfc6415#section-2",
+     "specification": "http://webconcepts.info/specs/IETF/RFC/6415" }]}}

@@ -1,0 +1,7 @@
+{
+   "bto": {
+    "id": "http://webconcepts.info/concepts/link-relation/bto",
+    "details": [{
+     "description": "Refers to a resource that is considered to be part of the private primary audience of the link's context.",
+     "documentation": "http://tools.ietf.org/html/draft-snell-more-link-relations#section-3",
+     "specification": "http://webconcepts.info/specs/IETF/I-D/snell-more-link-relations" }]}}

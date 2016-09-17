@@ -1,0 +1,7 @@
+{
+   "void": {
+    "id": "http://webconcepts.info/concepts/well-known-uri/void",
+    "details": [{
+     "description": "The URI /.well-known/void on any Web server is registered by this specification for a VoID description of any datasets hosted on that server. This URI may be an HTTP redirect to the location of the actual VoID file.",
+     "documentation": "http://www.w3.org/TR/void/#well-known",
+     "specification": "http://webconcepts.info/specs/W3C/TR/void" }]}}

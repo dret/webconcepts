@@ -1,0 +1,7 @@
+{
+   "LABEL": {
+    "id": "http://webconcepts.info/concepts/http-method/LABEL",
+    "details": [{
+     "description": "A LABEL request can be applied to a version to modify the labels that select that version. The case of a label name MUST be preserved when it is stored and retrieved. When comparing two label names to decide if they match or not, a server SHOULD use a case-sensitive URL-escaped UTF-8 encoded comparison of the two label names.",
+     "documentation": "http://tools.ietf.org/html/rfc3253#section-8.2",
+     "specification": "http://webconcepts.info/specs/IETF/RFC/3253" }]}}

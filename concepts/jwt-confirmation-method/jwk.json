@@ -1,0 +1,7 @@
+{
+   "jwk": {
+    "id": "http://webconcepts.info/concepts/jwt-confirmation-method/jwk",
+    "details": [{
+     "description": "When the key held by the presenter is an asymmetric private key, the \"jwk\" member is a JSON Web Key representing the corresponding asymmetric public key.",
+     "documentation": "http://tools.ietf.org/html/rfc7800#section-3.2",
+     "specification": "http://webconcepts.info/specs/IETF/RFC/7800" }]}}

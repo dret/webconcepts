@@ -1,0 +1,7 @@
+{
+   "chapter": {
+    "id": "http://webconcepts.info/concepts/link-relation/chapter",
+    "details": [{
+     "description": "Refers to a document serving as a chapter in a collection of documents.",
+     "documentation": "http://www.w3.org/TR/html4/types.html#type-links",
+     "specification": "http://webconcepts.info/specs/W3C/TR/html4" }]}}

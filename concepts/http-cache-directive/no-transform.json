@@ -1,0 +1,7 @@
+{
+   "no-transform": {
+    "id": "http://webconcepts.info/concepts/http-cache-directive/no-transform",
+    "details": [{
+     "description": "The \"no-transform\" directive indicates that an intermediary (whether or not it implements a cache) MUST NOT transform the payload.",
+     "documentation": "http://tools.ietf.org/html/rfc7234#section-5.2.1.6",
+     "specification": "http://webconcepts.info/specs/IETF/RFC/7234" }]}}

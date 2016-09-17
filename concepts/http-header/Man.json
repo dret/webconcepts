@@ -1,0 +1,7 @@
+{
+   "Man": {
+    "id": "http://webconcepts.info/concepts/http-header/Man",
+    "details": [{
+     "description": "A mandatory extension declaration indicates that the ultimate recipient MUST consult and adhere to the rules given by the extension when processing the message or reporting an error.",
+     "documentation": "http://tools.ietf.org/html/rfc2774#section-4.1",
+     "specification": "http://webconcepts.info/specs/IETF/RFC/2774" }]}}

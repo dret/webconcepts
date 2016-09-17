@@ -1,0 +1,7 @@
+{
+   "Position": {
+    "id": "http://webconcepts.info/concepts/http-header/Position",
+    "details": [{
+     "description": "When a new member is added to a collection with a client-maintained ordering (for example, with PUT, COPY, or MKCOL), its position in the ordering can be set with the new Position header. The Position header allows the client to specify that an internal member URI should be first in the collection's ordering, last in the collection's ordering, immediately before some other internal member URI in the collection's ordering, or immediately after some other internal member URI in the collection's ordering.",
+     "documentation": "http://tools.ietf.org/html/rfc3648#section-6.1",
+     "specification": "http://webconcepts.info/specs/IETF/RFC/3648" }]}}

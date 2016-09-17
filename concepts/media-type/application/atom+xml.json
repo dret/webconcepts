@@ -1,0 +1,7 @@
+{
+   "application/atom+xml": {
+    "id": "http://webconcepts.info/concepts/media-type/application/atom+xml",
+    "details": [{
+     "description": "This specification describes two kinds of Atom Documents: Atom Feed Documents and Atom Entry Documents. Both kinds of Atom Documents are specified in terms of the XML Information Set, serialized as XML 1.0 and identified with the \"application/atom+xml\" media type. Atom Documents MUST be well-formed XML.",
+     "documentation": "http://tools.ietf.org/html/rfc4287#section-2",
+     "specification": "http://webconcepts.info/specs/IETF/RFC/4287" }]}}

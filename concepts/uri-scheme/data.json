@@ -1,0 +1,7 @@
+{
+   "data": {
+    "id": "http://webconcepts.info/concepts/uri-scheme/data",
+    "details": [{
+     "description": "Some applications that use URLs also have a need to embed (small) media type data directly inline. This document defines a new URL scheme that would work like 'immediate addressing'.",
+     "documentation": "http://tools.ietf.org/html/rfc2397#section-2",
+     "specification": "http://webconcepts.info/specs/IETF/RFC/2397" }]}}

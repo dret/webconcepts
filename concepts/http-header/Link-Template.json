@@ -1,0 +1,7 @@
+{
+   "Link-Template": {
+    "id": "http://webconcepts.info/concepts/http-header/Link-Template",
+    "details": [{
+     "description": "The Link-Template entity-header field provides a means for serialising one or more links into HTTP headers. It is semantically equivalent to the Link header field, except that it uses URI Templates to convey the structure of links.",
+     "documentation": "http://tools.ietf.org/html/draft-nottingham-link-template#section-4",
+     "specification": "http://webconcepts.info/specs/IETF/I-D/nottingham-link-template" }]}}

@@ -1,0 +1,7 @@
+{
+   "edit-media": {
+    "id": "http://webconcepts.info/concepts/link-relation/edit-media",
+    "details": [{
+     "description": "When appearing within an atom:entry, the value of the href attribute is an IRI that can be used to modify a Media Resource associated with that Entry.",
+     "documentation": "http://tools.ietf.org/html/rfc5023#section-11.2",
+     "specification": "http://webconcepts.info/specs/IETF/RFC/5023" }]}}

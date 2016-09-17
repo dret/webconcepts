@@ -1,0 +1,7 @@
+{
+   "oasis": {
+    "id": "http://webconcepts.info/concepts/urn-namespace/oasis",
+    "details": [{
+     "description": "The Organization for the Advancement of Structured Information Standards (OASIS) produces many kinds of documents: specifications, working drafts, technical resolutions, schemas, stylesheets, etc. OASIS wishes to provide global, distributed, persistent, location-independent names for these resources.",
+     "documentation": "http://tools.ietf.org/html/rfc3121#section-1",
+     "specification": "http://webconcepts.info/specs/IETF/RFC/3121" }]}}

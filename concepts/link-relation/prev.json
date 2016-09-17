@@ -1,0 +1,7 @@
+{
+   "prev": {
+    "id": "http://webconcepts.info/concepts/link-relation/prev",
+    "details": [{
+     "description": "Refers to the previous document in an ordered series of documents. Some user agents also support the synonym \"Previous\".",
+     "documentation": "http://www.w3.org/TR/html4/types.html#type-links",
+     "specification": "http://webconcepts.info/specs/W3C/TR/html4" }]}}

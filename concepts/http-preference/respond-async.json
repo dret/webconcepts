@@ -1,0 +1,7 @@
+{
+   "respond-async": {
+    "id": "http://webconcepts.info/concepts/http-preference/respond-async",
+    "details": [{
+     "description": "The \"respond-async\" preference indicates that the client prefers the server to respond asynchronously to a response.",
+     "documentation": "http://tools.ietf.org/html/rfc7240#section-4.1",
+     "specification": "http://webconcepts.info/specs/IETF/RFC/7240" }]}}

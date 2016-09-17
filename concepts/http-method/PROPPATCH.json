@@ -1,0 +1,7 @@
+{
+   "PROPPATCH": {
+    "id": "http://webconcepts.info/concepts/http-method/PROPPATCH",
+    "details": [{
+     "description": "The PROPPATCH method processes instructions specified in the request body to set and/or remove properties defined on the resource identified by the Request-URI.",
+     "documentation": "http://tools.ietf.org/html/rfc4918#section-9.2",
+     "specification": "http://webconcepts.info/specs/IETF/RFC/4918" }]}}

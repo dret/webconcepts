@@ -1,0 +1,7 @@
+{
+   "return": {
+    "id": "http://webconcepts.info/concepts/http-preference/return",
+    "details": [{
+     "description": "The \"return=representation\" preference indicates that the client prefers that the server include an entity representing the current state of the resource in the response to a successful request. The \"return=minimal\" preference, on the other hand, indicates that the client wishes the server to return only a minimal response to a successful request.",
+     "documentation": "http://tools.ietf.org/html/rfc7240#section-4.2",
+     "specification": "http://webconcepts.info/specs/IETF/RFC/7240" }]}}

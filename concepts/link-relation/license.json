@@ -1,0 +1,7 @@
+{
+   "license": {
+    "id": "http://webconcepts.info/concepts/link-relation/license",
+    "details": [{
+     "description": "The \"license\" link relation can be used to associate licenses with a feed or entry. Feeds and entries can be dual-licensed by including multiple \"license\" link relations specifying different href attribute values. If multiple \"license\" link relations are specified, each SHOULD contain a title attribute specifying a human-readable label for the license.",
+     "documentation": "http://tools.ietf.org/html/rfc4946#section-2",
+     "specification": "http://webconcepts.info/specs/IETF/RFC/4946" }]}}

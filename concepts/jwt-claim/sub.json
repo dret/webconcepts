@@ -1,0 +1,7 @@
+{
+   "sub": {
+    "id": "http://webconcepts.info/concepts/jwt-claim/sub",
+    "details": [{
+     "description": "The \"sub\" (subject) claim identifies the principal that is the subject of the JWT. The claims in a JWT are normally statements about the subject. The subject value MUST either be scoped to be locally unique in the context of the issuer or be globally unique.",
+     "documentation": "http://tools.ietf.org/html/rfc7519#section-4.1.2",
+     "specification": "http://webconcepts.info/specs/IETF/RFC/7519" }]}}

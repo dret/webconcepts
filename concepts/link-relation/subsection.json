@@ -1,0 +1,7 @@
+{
+   "subsection": {
+    "id": "http://webconcepts.info/concepts/link-relation/subsection",
+    "details": [{
+     "description": "Refers to a document serving as a subsection in a collection of documents.",
+     "documentation": "http://www.w3.org/TR/html4/types.html#type-links",
+     "specification": "http://webconcepts.info/specs/W3C/TR/html4" }]}}

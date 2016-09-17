@@ -1,0 +1,7 @@
+{
+   "dnt": {
+    "id": "http://webconcepts.info/concepts/well-known-uri/dnt",
+    "details": [{
+     "description": "A site-wide tracking status resource provides information about the potential tracking behavior of resources located at that origin server. A site-wide tracking status resource has the well-known identifier /.well-known/dnt/ relative to the origin server's URI.",
+     "documentation": "http://www.w3.org/TR/tracking-dnt/#status-resource",
+     "specification": "http://webconcepts.info/specs/W3C/TR/tracking-dnt" }]}}

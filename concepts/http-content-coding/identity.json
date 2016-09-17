@@ -1,0 +1,7 @@
+{
+   "identity": {
+    "id": "http://webconcepts.info/concepts/http-content-coding/identity",
+    "details": [{
+     "description": "An \"identity\" token is used as a synonym for \"no encoding\" in order to communicate when no encoding is preferred.",
+     "documentation": "http://tools.ietf.org/html/rfc7231#section-5.3.4",
+     "specification": "http://webconcepts.info/specs/IETF/RFC/7231" }]}}

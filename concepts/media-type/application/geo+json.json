@@ -1,0 +1,7 @@
+{
+   "application/geo+json": {
+    "id": "http://webconcepts.info/concepts/media-type/application/geo+json",
+    "details": [{
+     "description": "The media type for GeoJSON text is \"application/geo+json\". The entry for \"application/vnd.geo+json\" in the same registry should have its status changed to be Obsolete with a pointer to the media type \"application/geo+json\" and a reference added to this RFC.",
+     "documentation": "http://tools.ietf.org/html/rfc7946#section-12",
+     "specification": "http://webconcepts.info/specs/IETF/RFC/7946" }]}}

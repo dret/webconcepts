@@ -1,0 +1,7 @@
+{
+   "status": {
+    "id": "http://webconcepts.info/concepts/link-relation/status",
+    "details": [{
+     "description": "The \"status\" link relation type can be used to link to such a status resource, allowing service consumers to retrieve status information about a Web service's status. Such a link may not be available from all resources provided by a Web service, but from key resources such as a Web service's home resource.",
+     "documentation": "http://tools.ietf.org/html/draft-wilde-service-link-rel#section-5",
+     "specification": "http://webconcepts.info/specs/IETF/I-D/wilde-service-link-rel" }]}}

@@ -1,0 +1,8 @@
+{
+   "511": {
+    "id": "http://webconcepts.info/concepts/http-status-code/511",
+    "description": "Network Authentication Required",
+    "details": [{
+     "description": "The 511 status code indicates that the client needs to authenticate to gain network access.",
+     "documentation": "http://tools.ietf.org/html/rfc6585#section-6",
+     "specification": "http://webconcepts.info/specs/IETF/RFC/6585" }]}}

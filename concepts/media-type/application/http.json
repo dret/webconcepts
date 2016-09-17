@@ -1,0 +1,7 @@
+{
+   "application/http": {
+    "id": "http://webconcepts.info/concepts/media-type/application/http",
+    "details": [{
+     "description": "The application/http type can be used to enclose a pipeline of one or more HTTP request or response messages (not intermixed).",
+     "documentation": "http://tools.ietf.org/html/rfc7230#section-8.3.2",
+     "specification": "http://webconcepts.info/specs/IETF/RFC/7230" }]}}

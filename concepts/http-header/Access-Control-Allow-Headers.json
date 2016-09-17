@@ -1,0 +1,7 @@
+{
+   "Access-Control-Allow-Headers": {
+    "id": "http://webconcepts.info/concepts/http-header/Access-Control-Allow-Headers",
+    "details": [{
+     "description": "The Access-Control-Allow-Headers header indicates, as part of the response to a preflight request, which header field names can be used during the actual request.",
+     "documentation": "http://www.w3.org/TR/cors/#access-control-allow-headers-response-header",
+     "specification": "http://webconcepts.info/specs/W3C/TR/cors" }]}}

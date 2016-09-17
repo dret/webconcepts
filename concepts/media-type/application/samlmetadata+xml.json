@@ -1,0 +1,7 @@
+{
+   "application/samlmetadata+xml": {
+    "id": "http://webconcepts.info/concepts/media-type/application/samlmetadata+xml",
+    "details": [{
+     "description": "This document defines a MIME media type  for use with the XML serialization of Security Assertion Markup Language metadata.",
+     "documentation": "http://docs.oasis-open.org/security/saml/v2.0/saml-metadata-2.0-os.pdf#page=37",
+     "specification": "http://webconcepts.info/specs/OASIS/standard/saml-metadata-2.0-os" }]}}

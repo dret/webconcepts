@@ -1,0 +1,7 @@
+{
+   "min-fresh": {
+    "id": "http://webconcepts.info/concepts/http-cache-directive/min-fresh",
+    "details": [{
+     "description": "The \"min-fresh\" request directive indicates that the client is willing to accept a response whose freshness lifetime is no less than its current age plus the specified time in seconds. That is, the client wants a response that will still be fresh for at least the specified number of seconds.",
+     "documentation": "http://tools.ietf.org/html/rfc7234#section-5.2.1.3",
+     "specification": "http://webconcepts.info/specs/IETF/RFC/7234" }]}}

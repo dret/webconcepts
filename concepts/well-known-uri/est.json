@@ -1,0 +1,7 @@
+{
+   "est": {
+    "id": "http://webconcepts.info/concepts/well-known-uri/est",
+    "details": [{
+     "description": "The EST server MUST support the use of the path-prefix of \"/.well-known/\" and the registered name of \"est\". Thus, a valid EST server URI path begins with \"https://www.example.com/.well-known/est\". Each EST operation is indicated by a path-suffix that indicates the intended operation:",
+     "documentation": "http://tools.ietf.org/html/rfc7030#section-3.2.2",
+     "specification": "http://webconcepts.info/specs/IETF/RFC/7030" }]}}

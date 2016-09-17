@@ -1,0 +1,7 @@
+{
+   "SOAPAction": {
+    "id": "http://webconcepts.info/concepts/http-header/SOAPAction",
+    "details": [{
+     "description": "The SOAPAction HTTP request header field can be used to indicate the intent of the SOAP HTTP request. The value is a URI identifying the intent. SOAP places no restrictions on the format or specificity of the URI or that it is resolvable. An HTTP client MUST use this header field when issuing a SOAP HTTP Request.",
+     "documentation": "http://www.w3.org/TR/2000/NOTE-SOAP-20000508/#_Toc478383528",
+     "specification": "http://webconcepts.info/specs/W3C/TR/SOAP" }]}}

@@ -1,0 +1,7 @@
+{
+   "Cache-Control": {
+    "id": "http://webconcepts.info/concepts/http-header/Cache-Control",
+    "details": [{
+     "description": "The \"Cache-Control\" header field is used to specify directives for caches along the request/response chain. Such cache directives are unidirectional in that the presence of a directive in a request does not imply that the same directive is to be given in the response.",
+     "documentation": "http://tools.ietf.org/html/rfc7234#section-5.2",
+     "specification": "http://webconcepts.info/specs/IETF/RFC/7234" }]}}

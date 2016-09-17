@@ -1,0 +1,7 @@
+{
+   "aud": {
+    "id": "http://webconcepts.info/concepts/jwt-claim/aud",
+    "details": [{
+     "description": "The \"aud\" (audience) claim identifies the recipients that the JWT is intended for. Each principal intended to process the JWT MUST identify itself with a value in the audience claim.",
+     "documentation": "http://tools.ietf.org/html/rfc7519#section-4.1.3",
+     "specification": "http://webconcepts.info/specs/IETF/RFC/7519" }]}}

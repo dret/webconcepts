@@ -1,0 +1,7 @@
+{
+   "DAV": {
+    "id": "http://webconcepts.info/concepts/http-header/DAV",
+    "details": [{
+     "description": "This general-header appearing in the response indicates that the resource supports the DAV schema and protocol as specified. As a request header, this header allows the client to advertise compliance with named features when the server needs that information.",
+     "documentation": "http://tools.ietf.org/html/rfc4918#section-10.1",
+     "specification": "http://webconcepts.info/specs/IETF/RFC/4918" }]}}

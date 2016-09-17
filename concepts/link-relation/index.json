@@ -1,0 +1,7 @@
+{
+   "index": {
+    "id": "http://webconcepts.info/concepts/link-relation/index",
+    "details": [{
+     "description": "Refers to a document providing an index for the current document.",
+     "documentation": "http://www.w3.org/TR/html4/types.html#type-links",
+     "specification": "http://webconcepts.info/specs/W3C/TR/html4" }]}}

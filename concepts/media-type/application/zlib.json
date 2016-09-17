@@ -1,0 +1,7 @@
+{
+   "application/zlib": {
+    "id": "http://webconcepts.info/concepts/media-type/application/zlib",
+    "details": [{
+     "description": "The 'application/zlib' media type describes a block of data that is compressed using zlib compression. The data is a stream of bytes as described in RFC 1950.",
+     "documentation": "http://tools.ietf.org/html/rfc6713#section-2",
+     "specification": "http://webconcepts.info/specs/IETF/RFC/6713" }]}}

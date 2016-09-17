@@ -1,0 +1,7 @@
+{
+   "Proxy-Features": {
+    "id": "http://webconcepts.info/concepts/http-header/Proxy-Features",
+    "details": [{
+     "description": "The proxy features header is used by a proxy sending data to a server. It specifies the features supported by the specified proxy.",
+     "documentation": "http://www.w3.org/TR/WD-proxy",
+     "specification": "http://webconcepts.info/specs/W3C/TR/WD-proxy" }]}}
