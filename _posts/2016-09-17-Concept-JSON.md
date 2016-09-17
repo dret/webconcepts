@@ -13,4 +13,4 @@ This means that there now is JSON available for three different things:
 * [JSON for all concepts](/concepts/concepts.json)
 * JSON per Web Concept (such as [HTTP Status Code 404](/concepts/http-status-code/404.json))
 
-Enjoy, and as usual, feel free to [raise an issues](https://github.com/dret/webconcepts/issues) if there is something you would like to do that currently does not work or is not available.
+Enjoy, and as usual, feel free to [raise an issue](https://github.com/dret/webconcepts/issues) if there is something you would like to do that currently does not work or is not available.
