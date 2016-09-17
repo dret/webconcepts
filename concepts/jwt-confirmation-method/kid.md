@@ -9,4 +9,5 @@ description: "The proof-of-possession key can also be identified by the use of a
 <br/>
 <hr/>
 
+<p style="float : left"><a href="kid.json" title="Get JSON representing this particular Web Concept">Get JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../jwt-confirmation-methods">JWT Confirmation Methods</a> | <a href="../">Web Concepts</a> )</p>

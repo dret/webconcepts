@@ -9,4 +9,5 @@ description: "There is a need for a scheme name that can be used for examples in
 <br/>
 <hr/>
 
+<p style="float : left"><a href="example.json" title="Get JSON representing this particular Web Concept">Get JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../uri-schemes">URI Schemes</a> | <a href="../">Web Concepts</a> )</p>

@@ -9,4 +9,5 @@ description: "The proof-of-possession key can be passed by reference instead of 
 <br/>
 <hr/>
 
+<p style="float : left"><a href="jku.json" title="Get JSON representing this particular Web Concept">Get JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../jwt-confirmation-methods">JWT Confirmation Methods</a> | <a href="../">Web Concepts</a> )</p>

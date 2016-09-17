@@ -9,4 +9,5 @@ description: "The \"compress\" coding is an adaptive Lempel-Ziv-Welch (LZW) codi
 <br/>
 <hr/>
 
+<p style="float : left"><a href="compress.json" title="Get JSON representing this particular Web Concept">Get JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-content-codings">HTTP Content Codings</a> | <a href="../">Web Concepts</a> )</p>

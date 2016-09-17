@@ -9,4 +9,5 @@ description: "The \"respond-async\" preference indicates that the client prefers
 <br/>
 <hr/>
 
+<p style="float : left"><a href="respond-async.json" title="Get JSON representing this particular Web Concept">Get JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-preferences">HTTP Preferences</a> | <a href="../">Web Concepts</a> )</p>

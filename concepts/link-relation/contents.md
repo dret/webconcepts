@@ -9,4 +9,5 @@ description: "Refers to a document serving as a table of contents. Some user age
 <br/>
 <hr/>
 
+<p style="float : left"><a href="contents.json" title="Get JSON representing this particular Web Concept">Get JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../link-relations">Link Relations</a> | <a href="../">Web Concepts</a> )</p>

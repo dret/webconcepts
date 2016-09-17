@@ -9,4 +9,5 @@ description: "Refers to a bookmark. A bookmark is a link to a key entry point wi
 <br/>
 <hr/>
 
+<p style="float : left"><a href="bookmark.json" title="Get JSON representing this particular Web Concept">Get JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../link-relations">Link Relations</a> | <a href="../">Web Concepts</a> )</p>

@@ -9,4 +9,5 @@ description: "The client obtains the host-meta document for a given host by send
 <br/>
 <hr/>
 
+<p style="float : left"><a href="host-meta.json" title="Get JSON representing this particular Web Concept">Get JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../well-known-uris">Well-Known URIs</a> | <a href="../">Web Concepts</a> )</p>

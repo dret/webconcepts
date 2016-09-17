@@ -9,4 +9,5 @@ description: "The \"exp\" (expiration time) claim identifies the expiration time
 <br/>
 <hr/>
 
+<p style="float : left"><a href="exp.json" title="Get JSON representing this particular Web Concept">Get JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../jwt-claims">JSON Web Token Claims</a> | <a href="../">Web Concepts</a> )</p>

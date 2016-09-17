@@ -9,4 +9,5 @@ description: "A collection can be placed under baseline control with a BASELINE-
 <br/>
 <hr/>
 
+<p style="float : left"><a href="BASELINE-CONTROL.json" title="Get JSON representing this particular Web Concept">Get JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-methods">HTTP Request Methods</a> | <a href="../">Web Concepts</a> )</p>

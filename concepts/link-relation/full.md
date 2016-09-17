@@ -9,4 +9,5 @@ description: "This indicates that the target of the link is the full representat
 <br/>
 <hr/>
 
+<p style="float : left"><a href="full.json" title="Get JSON representing this particular Web Concept">Get JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../link-relations">Link Relations</a> | <a href="../">Web Concepts</a> )</p>

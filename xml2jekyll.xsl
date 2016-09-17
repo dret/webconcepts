@@ -300,11 +300,14 @@
                                 <xsl:text>&amp;#34;")&#xa;&#xa;</xsl:text>
                             </xsl:for-each>
                             <xsl:text>&lt;br/>&#xa;&lt;hr/>&#xa;&#xa;</xsl:text>
+                            <xsl:text>&lt;p style="float : left">&lt;a href="</xsl:text>
+                            <xsl:value-of select="$concept-name"/>
+                            <xsl:text>.json" title="Get JSON representing this particular Web Concept">Get JSON&lt;/a>&lt;/p>&#xa;</xsl:text>
                             <xsl:text>&lt;p style="text-align: right">Return to list of all ( &lt;a href="../</xsl:text>
                             <xsl:value-of select="$concept/filename-plural/text()"/>
                             <xsl:text>"></xsl:text>
                             <xsl:value-of select="$concept/title-plural/text()"/>
-                            <xsl:text>&lt;/a> | &lt;a href="../">Web Concepts&lt;/a> )&lt;/p></xsl:text>
+                            <xsl:text>&lt;/a> | &lt;a href="../">Web Concepts&lt;/a> )&lt;/p>&#xa;</xsl:text>
                         </xsl:result-document>
                     </xsl:for-each>
                 </xsl:result-document>

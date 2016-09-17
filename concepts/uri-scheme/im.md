@@ -9,4 +9,5 @@ description: "Use of the im: URI follows closely usage of the mailto: URI. That 
 <br/>
 <hr/>
 
+<p style="float : left"><a href="im.json" title="Get JSON representing this particular Web Concept">Get JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../uri-schemes">URI Schemes</a> | <a href="../">Web Concepts</a> )</p>

@@ -9,4 +9,5 @@ description: "The Link-Template entity-header field provides a means for seriali
 <br/>
 <hr/>
 
+<p style="float : left"><a href="Link-Template.json" title="Get JSON representing this particular Web Concept">Get JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

@@ -9,4 +9,5 @@ description: "The \"service-desc\" link relation type is used to represent the f
 <br/>
 <hr/>
 
+<p style="float : left"><a href="service-desc.json" title="Get JSON representing this particular Web Concept">Get JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../link-relations">Link Relations</a> | <a href="../">Web Concepts</a> )</p>

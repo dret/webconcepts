@@ -9,4 +9,5 @@ description: "CoAP endpoints implementing the membership configuration RESTful i
 <br/>
 <hr/>
 
+<p style="float : left"><a href="application/coap-group+json.json" title="Get JSON representing this particular Web Concept">Get JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../media-types">Media Types</a> | <a href="../">Web Concepts</a> )</p>

@@ -9,4 +9,5 @@ description: "In accordance with the ISO standard 3297 International Standard Se
 <br/>
 <hr/>
 
+<p style="float : left"><a href="issn.json" title="Get JSON representing this particular Web Concept">Get JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../urn-namespaces">URN Namespaces</a> | <a href="../">Web Concepts</a> )</p>

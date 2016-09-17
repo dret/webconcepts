@@ -9,4 +9,5 @@ description: "The \"preview\" link relation can be used to refer to a resource t
 <br/>
 <hr/>
 
+<p style="float : left"><a href="preview.json" title="Get JSON representing this particular Web Concept">Get JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../link-relations">Link Relations</a> | <a href="../">Web Concepts</a> )</p>

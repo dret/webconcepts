@@ -9,4 +9,5 @@ description: "Responses to attribute request messages MUST be encoded as the con
 <br/>
 <hr/>
 
+<p style="float : left"><a href="application/csrattrs.json" title="Get JSON representing this particular Web Concept">Get JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../media-types">Media Types</a> | <a href="../">Web Concepts</a> )</p>
