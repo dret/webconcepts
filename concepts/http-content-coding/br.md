@@ -9,5 +9,5 @@ description: "This specification defines a lossless compressed data format that 
 <br/>
 <hr/>
 
-<p style="float : left"><a href="br.json" title="Get JSON representing this particular Web Concept">Get JSON</a></p>
+<p style="float : left"><a href="br.json" title="JSON representing this particular Web Concept">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-content-codings">HTTP Content Codings</a> | <a href="../">Web Concepts</a> )</p>

@@ -9,5 +9,5 @@ description: "The \"by\" parameter is used to disclose the interface where the r
 <br/>
 <hr/>
 
-<p style="float : left"><a href="by.json" title="Get JSON representing this particular Web Concept">Get JSON</a></p>
+<p style="float : left"><a href="by.json" title="JSON representing this particular Web Concept">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-forwarded-parameters">HTTP Forwarded Parameters</a> | <a href="../">Web Concepts</a> )</p>

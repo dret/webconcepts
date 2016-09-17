@@ -9,5 +9,5 @@ description: "When included on a versioned resource, this link points to a resou
 <br/>
 <hr/>
 
-<p style="float : left"><a href="predecessor-version.json" title="Get JSON representing this particular Web Concept">Get JSON</a></p>
+<p style="float : left"><a href="predecessor-version.json" title="JSON representing this particular Web Concept">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../link-relations">Link Relations</a> | <a href="../">Web Concepts</a> )</p>

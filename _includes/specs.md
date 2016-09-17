@@ -1,1 +1,1 @@
-(listing 188 specifications in 6 specification series)
+188 specifications in 6 specification series

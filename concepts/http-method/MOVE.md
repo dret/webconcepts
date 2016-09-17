@@ -9,5 +9,5 @@ description: "The MOVE operation on a non-collection resource is the logical equ
 <br/>
 <hr/>
 
-<p style="float : left"><a href="MOVE.json" title="Get JSON representing this particular Web Concept">Get JSON</a></p>
+<p style="float : left"><a href="MOVE.json" title="JSON representing this particular Web Concept">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-methods">HTTP Request Methods</a> | <a href="../">Web Concepts</a> )</p>

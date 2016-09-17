@@ -9,5 +9,5 @@ description: "The Content-Base entity-header field may be used to specify the ba
 <br/>
 <hr/>
 
-<p style="float : left"><a href="Content-Base.json" title="Get JSON representing this particular Web Concept">Get JSON</a></p>
+<p style="float : left"><a href="Content-Base.json" title="JSON representing this particular Web Concept">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

@@ -9,5 +9,5 @@ description: "When included in a response, the \"create-form\" link relation ind
 <br/>
 <hr/>
 
-<p style="float : left"><a href="create-form.json" title="Get JSON representing this particular Web Concept">Get JSON</a></p>
+<p style="float : left"><a href="create-form.json" title="JSON representing this particular Web Concept">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../link-relations">Link Relations</a> | <a href="../">Web Concepts</a> )</p>

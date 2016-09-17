@@ -9,5 +9,5 @@ description: "The \"gzip\" coding is an LZ77 coding with a 32-bit Cyclic Redunda
 <br/>
 <hr/>
 
-<p style="float : left"><a href="gzip.json" title="Get JSON representing this particular Web Concept">Get JSON</a></p>
+<p style="float : left"><a href="gzip.json" title="JSON representing this particular Web Concept">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-transfer-codings">HTTP Transfer Codings</a> | <a href="../">Web Concepts</a> )</p>

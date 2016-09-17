@@ -9,5 +9,5 @@ description: "The media type for GeoJSON text is \"application/geo+json\". The e
 <br/>
 <hr/>
 
-<p style="float : left"><a href="application/geo+json.json" title="Get JSON representing this particular Web Concept">Get JSON</a></p>
+<p style="float : left"><a href="application/geo+json.json" title="JSON representing this particular Web Concept">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../media-types">Media Types</a> | <a href="../">Web Concepts</a> )</p>

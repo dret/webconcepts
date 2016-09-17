@@ -9,5 +9,5 @@ description: "Any document retrieved by HTTP may point to a policy reference fil
 <br/>
 <hr/>
 
-<p style="float : left"><a href="P3P.json" title="Get JSON representing this particular Web Concept">Get JSON</a></p>
+<p style="float : left"><a href="P3P.json" title="JSON representing this particular Web Concept">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

@@ -9,5 +9,5 @@ description: "A link with a \"timegate\" Relation Type is used to point from the
 <br/>
 <hr/>
 
-<p style="float : left"><a href="timegate.json" title="Get JSON representing this particular Web Concept">Get JSON</a></p>
+<p style="float : left"><a href="timegate.json" title="JSON representing this particular Web Concept">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../link-relations">Link Relations</a> | <a href="../">Web Concepts</a> )</p>

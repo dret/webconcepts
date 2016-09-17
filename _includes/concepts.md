@@ -1,1 +1,1 @@
-(listing 522 concepts in 16 categories)
+522 concepts in 16 categories

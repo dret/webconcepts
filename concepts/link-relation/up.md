@@ -9,5 +9,5 @@ description: "An Atom link element with a rel attribute value of \"up\" may be u
 <br/>
 <hr/>
 
-<p style="float : left"><a href="up.json" title="Get JSON representing this particular Web Concept">Get JSON</a></p>
+<p style="float : left"><a href="up.json" title="JSON representing this particular Web Concept">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../link-relations">Link Relations</a> | <a href="../">Web Concepts</a> )</p>

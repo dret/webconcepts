@@ -9,5 +9,5 @@ description: "The \"s-maxage\" response directive indicates that, in shared cach
 <br/>
 <hr/>
 
-<p style="float : left"><a href="s-maxage.json" title="Get JSON representing this particular Web Concept">Get JSON</a></p>
+<p style="float : left"><a href="s-maxage.json" title="JSON representing this particular Web Concept">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-cache-directives">HTTP Cache Directives</a> | <a href="../">Web Concepts</a> )</p>

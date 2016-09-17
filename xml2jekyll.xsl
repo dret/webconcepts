@@ -8,18 +8,16 @@
     <!-- -->
     <xsl:template name="xml2jekyll">
         <xsl:result-document href="{$includes}/concepts.md" format="markdown">
-            <xsl:text>(listing </xsl:text>
             <xsl:value-of select="count(distinct-values($allspecs//*[local-name() = $concepts/concepts/concept/@id]/@def))"/>
             <xsl:text> concepts in </xsl:text>
             <xsl:value-of select="count($concepts/concepts/concept)"/>
-            <xsl:text> categories)</xsl:text>
+            <xsl:text> categories</xsl:text>
         </xsl:result-document>
         <xsl:result-document href="{$includes}/specs.md" format="markdown">
-            <xsl:text>(listing </xsl:text>
             <xsl:value-of select="count($allspecs/service)"/>
             <xsl:text> specifications in </xsl:text>
             <xsl:value-of select="count($specs/specs/primary/secondary)"/>
-            <xsl:text> specification series)</xsl:text>
+            <xsl:text> specification series</xsl:text>
         </xsl:result-document>
         <xsl:result-document href="{$specs-dir}/index.md" format="markdown">
             <xsl:text>---&#xa;</xsl:text>
@@ -302,7 +300,7 @@
                             <xsl:text>&lt;br/>&#xa;&lt;hr/>&#xa;&#xa;</xsl:text>
                             <xsl:text>&lt;p style="float : left">&lt;a href="</xsl:text>
                             <xsl:value-of select="$concept-name"/>
-                            <xsl:text>.json" title="Get JSON representing this particular Web Concept">Get JSON&lt;/a>&lt;/p>&#xa;</xsl:text>
+                            <xsl:text>.json" title="JSON representing this particular Web Concept">JSON&lt;/a>&lt;/p>&#xa;</xsl:text>
                             <xsl:text>&lt;p style="text-align: right">Return to list of all ( &lt;a href="../</xsl:text>
                             <xsl:value-of select="$concept/filename-plural/text()"/>
                             <xsl:text>"></xsl:text>
