@@ -1,7 +1,1 @@
-{
-   "Accept-Charset": {
-    "id": "http://webconcepts.info/concepts/http-header/Accept-Charset",
-    "details": [{
-     "description": "The \"Accept-Charset\" header field can be sent by a user agent to indicate what charsets are acceptable in textual response content. This field allows user agents capable of understanding more comprehensive or special-purpose charsets to signal that capability to an origin server that is capable of representing information in those charsets.",
-     "documentation": "http://tools.ietf.org/html/rfc7231#section-5.3.3",
-     "specification": "http://webconcepts.info/specs/IETF/RFC/7231" }]}}
+{"Accept-Charset":{"id":"http://webconcepts.info/concepts/http-header/Accept-Charset","details":[{"description":"The \"Accept-Charset\" header field can be sent by a user agent to indicate what charsets are acceptable in textual response content. This field allows user agents capable of understanding more comprehensive or special-purpose charsets to signal that capability to an origin server that is capable of representing information in those charsets.","documentation":"http://tools.ietf.org/html/rfc7231#section-5.3.3","specification":"http://webconcepts.info/specs/IETF/RFC/7231"}]}}

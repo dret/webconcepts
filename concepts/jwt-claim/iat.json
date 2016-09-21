@@ -1,7 +1,1 @@
-{
-   "iat": {
-    "id": "http://webconcepts.info/concepts/jwt-claim/iat",
-    "details": [{
-     "description": "The \"iat\" (issued at) claim identifies the time at which the JWT was issued. This claim can be used to determine the age of the JWT.",
-     "documentation": "http://tools.ietf.org/html/rfc7519#section-4.1.6",
-     "specification": "http://webconcepts.info/specs/IETF/RFC/7519" }]}}
+{"iat":{"id":"http://webconcepts.info/concepts/jwt-claim/iat","details":[{"description":"The \"iat\" (issued at) claim identifies the time at which the JWT was issued. This claim can be used to determine the age of the JWT.","documentation":"http://tools.ietf.org/html/rfc7519#section-4.1.6","specification":"http://webconcepts.info/specs/IETF/RFC/7519"}]}}

@@ -1,7 +1,1 @@
-{
-   "Connection": {
-    "id": "http://webconcepts.info/concepts/http-header/Connection",
-    "details": [{
-     "description": "The \"Connection\" header field allows the sender to indicate desired control options for the current connection. In order to avoid confusing downstream recipients, a proxy or gateway MUST remove or replace any received connection options before forwarding the message.",
-     "documentation": "http://tools.ietf.org/html/rfc7230#section-6.1",
-     "specification": "http://webconcepts.info/specs/IETF/RFC/7230" }]}}
+{"Connection":{"id":"http://webconcepts.info/concepts/http-header/Connection","details":[{"description":"The \"Connection\" header field allows the sender to indicate desired control options for the current connection. In order to avoid confusing downstream recipients, a proxy or gateway MUST remove or replace any received connection options before forwarding the message.","documentation":"http://tools.ietf.org/html/rfc7230#section-6.1","specification":"http://webconcepts.info/specs/IETF/RFC/7230"}]}}

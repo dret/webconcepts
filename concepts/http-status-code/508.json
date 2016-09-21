@@ -1,8 +1,1 @@
-{
-   "508": {
-    "id": "http://webconcepts.info/concepts/http-status-code/508",
-    "description": "Loop Detected",
-    "details": [{
-     "description": "The 508 (Loop Detected) status code indicates that the server terminated an operation because it encountered an infinite loop while processing a request with \"Depth: infinity\". This status indicates that the entire operation failed.",
-     "documentation": "http://tools.ietf.org/html/rfc5842#section-7.1",
-     "specification": "http://webconcepts.info/specs/IETF/RFC/5842" }]}}
+{"508":{"id":"http://webconcepts.info/concepts/http-status-code/508","description":"Loop Detected","details":[{"description":"The 508 (Loop Detected) status code indicates that the server terminated an operation because it encountered an infinite loop while processing a request with \"Depth: infinity\". This status indicates that the entire operation failed.","documentation":"http://tools.ietf.org/html/rfc5842#section-7.1","specification":"http://webconcepts.info/specs/IETF/RFC/5842"}]}}

@@ -1,7 +1,1 @@
-{
-   "application/powder-s+xml": {
-    "id": "http://webconcepts.info/concepts/media-type/application/powder-s+xml",
-    "details": [{
-     "description": "???",
-     "documentation": "http://www.w3.org/TR/powder-dr/#appC",
-     "specification": "http://webconcepts.info/specs/W3C/TR/powder-dr" }]}}
+{"application/powder-s+xml":{"id":"http://webconcepts.info/concepts/media-type/application/powder-s+xml","details":[{"description":"???","documentation":"http://www.w3.org/TR/powder-dr/#appC","specification":"http://webconcepts.info/specs/W3C/TR/powder-dr"}]}}

@@ -1,7 +1,1 @@
-{
-   "UPDATE": {
-    "id": "http://webconcepts.info/concepts/http-method/UPDATE",
-    "details": [{
-     "description": "The UPDATE method modifies the content and dead properties of a checked-in version-controlled resource (the \"update target\") to be those of a specified version (the \"update source\") from the version history of that version-controlled resource.",
-     "documentation": "http://tools.ietf.org/html/rfc3253#section-7.1",
-     "specification": "http://webconcepts.info/specs/IETF/RFC/3253" }]}}
+{"UPDATE":{"id":"http://webconcepts.info/concepts/http-method/UPDATE","details":[{"description":"The UPDATE method modifies the content and dead properties of a checked-in version-controlled resource (the \"update target\") to be those of a specified version (the \"update source\") from the version history of that version-controlled resource.","documentation":"http://tools.ietf.org/html/rfc3253#section-7.1","specification":"http://webconcepts.info/specs/IETF/RFC/3253"}]}}

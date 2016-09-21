@@ -1,7 +1,1 @@
-{
-   "help": {
-    "id": "http://webconcepts.info/concepts/link-relation/help",
-    "details": [{
-     "description": "Refers to a document offering help (more information, links to other sources information, etc.)",
-     "documentation": "http://www.w3.org/TR/html4/types.html#type-links",
-     "specification": "http://webconcepts.info/specs/W3C/TR/html4" }]}}
+{"help":{"id":"http://webconcepts.info/concepts/link-relation/help","details":[{"description":"Refers to a document offering help (more information, links to other sources information, etc.)","documentation":"http://www.w3.org/TR/html4/types.html#type-links","specification":"http://webconcepts.info/specs/W3C/TR/html4"}]}}

@@ -1,7 +1,1 @@
-{
-   "session": {
-    "id": "http://webconcepts.info/concepts/uri-scheme/session",
-    "details": [{
-     "description": "The URI is intended to identify a data resource previously given to the network computing resource. The purpose of this scheme is to permit access to the specific resource for the lifetime of the session with the entity storing the resource.",
-     "documentation": "http://tools.ietf.org/html/rfc6787#section-13.6",
-     "specification": "http://webconcepts.info/specs/IETF/RFC/6768" }]}}
+{"session":{"id":"http://webconcepts.info/concepts/uri-scheme/session","details":[{"description":"The URI is intended to identify a data resource previously given to the network computing resource. The purpose of this scheme is to permit access to the specific resource for the lifetime of the session with the entity storing the resource.","documentation":"http://tools.ietf.org/html/rfc6787#section-13.6","specification":"http://webconcepts.info/specs/IETF/RFC/6768"}]}}

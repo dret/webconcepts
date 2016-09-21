@@ -1,8 +1,1 @@
-{
-   "414": {
-    "id": "http://webconcepts.info/concepts/http-status-code/414",
-    "description": "URI Too Long",
-    "details": [{
-     "description": "The 414 (URI Too Long) status code indicates that the server is refusing to service the request because the request-target is longer than the server is willing to interpret.",
-     "documentation": "http://tools.ietf.org/html/rfc7231#section-6.5.12",
-     "specification": "http://webconcepts.info/specs/IETF/RFC/7231" }]}}
+{"414":{"id":"http://webconcepts.info/concepts/http-status-code/414","description":"URI Too Long","details":[{"description":"The 414 (URI Too Long) status code indicates that the server is refusing to service the request because the request-target is longer than the server is willing to interpret.","documentation":"http://tools.ietf.org/html/rfc7231#section-6.5.12","specification":"http://webconcepts.info/specs/IETF/RFC/7231"}]}}

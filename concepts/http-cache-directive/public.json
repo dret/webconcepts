@@ -1,7 +1,1 @@
-{
-   "public": {
-    "id": "http://webconcepts.info/concepts/http-cache-directive/public",
-    "details": [{
-     "description": "The \"public\" response directive indicates that any cache MAY store the response, even if the response would normally be non-cacheable or cacheable only within a private cache.",
-     "documentation": "http://tools.ietf.org/html/rfc7234#section-5.2.2.5",
-     "specification": "http://webconcepts.info/specs/IETF/RFC/7234" }]}}
+{"public":{"id":"http://webconcepts.info/concepts/http-cache-directive/public","details":[{"description":"The \"public\" response directive indicates that any cache MAY store the response, even if the response would normally be non-cacheable or cacheable only within a private cache.","documentation":"http://tools.ietf.org/html/rfc7234#section-5.2.2.5","specification":"http://webconcepts.info/specs/IETF/RFC/7234"}]}}

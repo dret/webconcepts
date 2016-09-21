@@ -1,7 +1,1 @@
-{
-   "C-Ext": {
-    "id": "http://webconcepts.info/concepts/http-header/C-Ext",
-    "details": [{
-     "description": "The C-Ext response header field is used to indicate that all hop-by-hop mandatory extension declarations in the request were fulfilled.",
-     "documentation": "http://tools.ietf.org/html/rfc2774#section-4.3",
-     "specification": "http://webconcepts.info/specs/IETF/RFC/2774" }]}}
+{"C-Ext":{"id":"http://webconcepts.info/concepts/http-header/C-Ext","details":[{"description":"The C-Ext response header field is used to indicate that all hop-by-hop mandatory extension declarations in the request were fulfilled.","documentation":"http://tools.ietf.org/html/rfc2774#section-4.3","specification":"http://webconcepts.info/specs/IETF/RFC/2774"}]}}

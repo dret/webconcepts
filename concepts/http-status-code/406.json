@@ -1,8 +1,1 @@
-{
-   "406": {
-    "id": "http://webconcepts.info/concepts/http-status-code/406",
-    "description": "Not Acceptable",
-    "details": [{
-     "description": "The 406 (Not Acceptable) status code indicates that the target resource does not have a current representation that would be acceptable to the user agent, according to the proactive negotiation header fields received in the request, and the server is unwilling to supply a default representation.",
-     "documentation": "http://tools.ietf.org/html/rfc7231#section-6.5.6",
-     "specification": "http://webconcepts.info/specs/IETF/RFC/7231" }]}}
+{"406":{"id":"http://webconcepts.info/concepts/http-status-code/406","description":"Not Acceptable","details":[{"description":"The 406 (Not Acceptable) status code indicates that the target resource does not have a current representation that would be acceptable to the user agent, according to the proactive negotiation header fields received in the request, and the server is unwilling to supply a default representation.","documentation":"http://tools.ietf.org/html/rfc7231#section-6.5.6","specification":"http://webconcepts.info/specs/IETF/RFC/7231"}]}}

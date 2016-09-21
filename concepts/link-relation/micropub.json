@@ -1,7 +1,1 @@
-{
-   "micropub": {
-    "id": "http://webconcepts.info/concepts/link-relation/micropub",
-    "details": [{
-     "description": "Allows discovery of a Micropub endpoint which will be used to create posts.",
-     "documentation": "http://www.w3.org/TR/micropub/#endpoint-discovery",
-     "specification": "http://webconcepts.info/specs/W3C/TR/micropub" }]}}
+{"micropub":{"id":"http://webconcepts.info/concepts/link-relation/micropub","details":[{"description":"Allows discovery of a Micropub endpoint which will be used to create posts.","documentation":"http://www.w3.org/TR/micropub/#endpoint-discovery","specification":"http://webconcepts.info/specs/W3C/TR/micropub"}]}}

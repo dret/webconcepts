@@ -1,7 +1,1 @@
-{
-   "application/xml": {
-    "id": "http://webconcepts.info/concepts/media-type/application/xml",
-    "details": [{
-     "description": "Application/xml is preferable when an XML document is unreadable by casual users.",
-     "documentation": "http://tools.ietf.org/html/rfc3023#section-3.2",
-     "specification": "http://webconcepts.info/specs/IETF/RFC/3023" }]}}
+{"application/xml":{"id":"http://webconcepts.info/concepts/media-type/application/xml","details":[{"description":"Application/xml is preferable when an XML document is unreadable by casual users.","documentation":"http://tools.ietf.org/html/rfc3023#section-3.2","specification":"http://webconcepts.info/specs/IETF/RFC/3023"}]}}

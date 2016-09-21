@@ -1,7 +1,1 @@
-{
-   "P3P": {
-    "id": "http://webconcepts.info/concepts/http-header/P3P",
-    "details": [{
-     "description": "Any document retrieved by HTTP may point to a policy reference file through the use of a new response header, the P3P header. If a site is using P3P headers, it SHOULD include this on responses for all appropriate request methods, including HEAD and OPTIONS requests. The P3P header gives one or more comma-separated directives.",
-     "documentation": "http://www.w3.org/TR/P3P/#syntax_ext",
-     "specification": "http://webconcepts.info/specs/W3C/TR/P3P" }]}}
+{"P3P":{"id":"http://webconcepts.info/concepts/http-header/P3P","details":[{"description":"Any document retrieved by HTTP may point to a policy reference file through the use of a new response header, the P3P header. If a site is using P3P headers, it SHOULD include this on responses for all appropriate request methods, including HEAD and OPTIONS requests. The P3P header gives one or more comma-separated directives.","documentation":"http://www.w3.org/TR/P3P/#syntax_ext","specification":"http://webconcepts.info/specs/W3C/TR/P3P"}]}}

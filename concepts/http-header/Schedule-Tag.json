@@ -1,7 +1,1 @@
-{
-   "Schedule-Tag": {
-    "id": "http://webconcepts.info/concepts/http-header/Schedule-Tag",
-    "details": [{
-     "description": "The Schedule-Tag response header provides the current value of the CALDAV:schedule-tag property value.",
-     "documentation": "http://tools.ietf.org/html/rfc6638#section-8.2",
-     "specification": "http://webconcepts.info/specs/IETF/RFC/6638" }]}}
+{"Schedule-Tag":{"id":"http://webconcepts.info/concepts/http-header/Schedule-Tag","details":[{"description":"The Schedule-Tag response header provides the current value of the CALDAV:schedule-tag property value.","documentation":"http://tools.ietf.org/html/rfc6638#section-8.2","specification":"http://webconcepts.info/specs/IETF/RFC/6638"}]}}

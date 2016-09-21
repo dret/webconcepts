@@ -1,7 +1,1 @@
-{
-   "User-Agent": {
-    "id": "http://webconcepts.info/concepts/http-header/User-Agent",
-    "details": [{
-     "description": "The \"User-Agent\" header field contains information about the user agent originating the request, which is often used by servers to help identify the scope of reported interoperability problems, to work around or tailor responses to avoid particular user agent limitations, and for analytics regarding browser or operating system use.",
-     "documentation": "http://tools.ietf.org/html/rfc7231#section-5.5.3",
-     "specification": "http://webconcepts.info/specs/IETF/RFC/7231" }]}}
+{"User-Agent":{"id":"http://webconcepts.info/concepts/http-header/User-Agent","details":[{"description":"The \"User-Agent\" header field contains information about the user agent originating the request, which is often used by servers to help identify the scope of reported interoperability problems, to work around or tailor responses to avoid particular user agent limitations, and for analytics regarding browser or operating system use.","documentation":"http://tools.ietf.org/html/rfc7231#section-5.5.3","specification":"http://webconcepts.info/specs/IETF/RFC/7231"}]}}

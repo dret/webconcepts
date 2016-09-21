@@ -1,7 +1,1 @@
-{
-   "Expires": {
-    "id": "http://webconcepts.info/concepts/http-header/Expires",
-    "details": [{
-     "description": "The \"Expires\" header field gives the date/time after which the response is considered stale. The presence of an Expires field does not imply that the original resource will change or cease to exist at, before, or after that time.",
-     "documentation": "http://tools.ietf.org/html/rfc7234#section-5.3",
-     "specification": "http://webconcepts.info/specs/IETF/RFC/7234" }]}}
+{"Expires":{"id":"http://webconcepts.info/concepts/http-header/Expires","details":[{"description":"The \"Expires\" header field gives the date/time after which the response is considered stale. The presence of an Expires field does not imply that the original resource will change or cease to exist at, before, or after that time.","documentation":"http://tools.ietf.org/html/rfc7234#section-5.3","specification":"http://webconcepts.info/specs/IETF/RFC/7234"}]}}

@@ -1,7 +1,1 @@
-{
-   "last": {
-    "id": "http://webconcepts.info/concepts/link-relation/last",
-    "details": [{
-     "description": "A URI that refers to the furthest following document in a series of documents.",
-     "documentation": "http://tools.ietf.org/html/rfc5005#section-3",
-     "specification": "http://webconcepts.info/specs/IETF/RFC/5005" }]}}
+{"last":{"id":"http://webconcepts.info/concepts/link-relation/last","details":[{"description":"A URI that refers to the furthest following document in a series of documents.","documentation":"http://tools.ietf.org/html/rfc5005#section-3","specification":"http://webconcepts.info/specs/IETF/RFC/5005"}]}}

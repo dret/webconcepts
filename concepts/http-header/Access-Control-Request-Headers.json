@@ -1,7 +1,1 @@
-{
-   "Access-Control-Request-Headers": {
-    "id": "http://webconcepts.info/concepts/http-header/Access-Control-Request-Headers",
-    "details": [{
-     "description": "The Access-Control-Request-Headers header indicates which headers will be used in the actual request as part of the preflight request.",
-     "documentation": "http://www.w3.org/TR/cors/#access-control-request-headers-request-header",
-     "specification": "http://webconcepts.info/specs/W3C/TR/cors" }]}}
+{"Access-Control-Request-Headers":{"id":"http://webconcepts.info/concepts/http-header/Access-Control-Request-Headers","details":[{"description":"The Access-Control-Request-Headers header indicates which headers will be used in the actual request as part of the preflight request.","documentation":"http://www.w3.org/TR/cors/#access-control-request-headers-request-header","specification":"http://webconcepts.info/specs/W3C/TR/cors"}]}}

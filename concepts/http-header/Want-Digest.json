@@ -1,7 +1,1 @@
-{
-   "Want-Digest": {
-    "id": "http://webconcepts.info/concepts/http-header/Want-Digest",
-    "details": [{
-     "description": "The Want-Digest message header field indicates the sender's desire to receive an instance digest on messages associated with the Request-URI.",
-     "documentation": "http://tools.ietf.org/html/rfc3230#section-4.3.1",
-     "specification": "http://webconcepts.info/specs/IETF/RFC/3230" }]}}
+{"Want-Digest":{"id":"http://webconcepts.info/concepts/http-header/Want-Digest","details":[{"description":"The Want-Digest message header field indicates the sender's desire to receive an instance digest on messages associated with the Request-URI.","documentation":"http://tools.ietf.org/html/rfc3230#section-4.3.1","specification":"http://webconcepts.info/specs/IETF/RFC/3230"}]}}

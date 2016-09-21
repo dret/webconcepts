@@ -1,7 +1,1 @@
-{
-   "text/vtt": {
-    "id": "http://webconcepts.info/concepts/media-type/text/vtt",
-    "details": [{
-     "description": "The WebVTT (Web Video Text Tracks) format is intended for marking up external text track resources. The main use for WebVTT files is captioning or subtitling video content.",
-     "documentation": "http://www.w3.org/TR/webvtt1/#introduction",
-     "specification": "http://webconcepts.info/specs/W3C/TR/webvtt" }]}}
+{"text/vtt":{"id":"http://webconcepts.info/concepts/media-type/text/vtt","details":[{"description":"The WebVTT (Web Video Text Tracks) format is intended for marking up external text track resources. The main use for WebVTT files is captioning or subtitling video content.","documentation":"http://www.w3.org/TR/webvtt1/#introduction","specification":"http://webconcepts.info/specs/W3C/TR/webvtt"}]}}

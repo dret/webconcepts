@@ -1,7 +1,1 @@
-{
-   "Content-Disposition": {
-    "id": "http://webconcepts.info/concepts/http-header/Content-Disposition",
-    "details": [{
-     "description": "The Content-Disposition response header field is used to convey additional information about how to process the response payload, and also can be used to attach additional metadata, such as the filename to use when saving the response payload locally.",
-     "documentation": "http://tools.ietf.org/html/rfc6266#section-4",
-     "specification": "http://webconcepts.info/specs/IETF/RFC/6266" }]}}
+{"Content-Disposition":{"id":"http://webconcepts.info/concepts/http-header/Content-Disposition","details":[{"description":"The Content-Disposition response header field is used to convey additional information about how to process the response payload, and also can be used to attach additional metadata, such as the filename to use when saving the response payload locally.","documentation":"http://tools.ietf.org/html/rfc6266#section-4","specification":"http://webconcepts.info/specs/IETF/RFC/6266"}]}}

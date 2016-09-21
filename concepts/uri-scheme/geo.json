@@ -1,7 +1,1 @@
-{
-   "geo": {
-    "id": "http://webconcepts.info/concepts/uri-scheme/geo",
-    "details": [{
-     "description": "The 'geo' URI scheme provides the textual representation of the location's spatial coordinates in either two or three dimensions (latitude, longitude, and optionally altitude for the default CRS of WGS-84).",
-     "documentation": "http://tools.ietf.org/html/rfc5870#section-3",
-     "specification": "http://webconcepts.info/specs/IETF/RFC/5870" }]}}
+{"geo":{"id":"http://webconcepts.info/concepts/uri-scheme/geo","details":[{"description":"The 'geo' URI scheme provides the textual representation of the location's spatial coordinates in either two or three dimensions (latitude, longitude, and optionally altitude for the default CRS of WGS-84).","documentation":"http://tools.ietf.org/html/rfc5870#section-3","specification":"http://webconcepts.info/specs/IETF/RFC/5870"}]}}

@@ -1,7 +1,1 @@
-{
-   "Range": {
-    "id": "http://webconcepts.info/concepts/http-header/Range",
-    "details": [{
-     "description": "The \"Range\" header field on a GET request modifies the method semantics to request transfer of only one or more subranges of the selected representation data, rather than the entire selected representation data.",
-     "documentation": "http://tools.ietf.org/html/rfc7233#section-3.1",
-     "specification": "http://webconcepts.info/specs/IETF/RFC/7233" }]}}
+{"Range":{"id":"http://webconcepts.info/concepts/http-header/Range","details":[{"description":"The \"Range\" header field on a GET request modifies the method semantics to request transfer of only one or more subranges of the selected representation data, rather than the entire selected representation data.","documentation":"http://tools.ietf.org/html/rfc7233#section-3.1","specification":"http://webconcepts.info/specs/IETF/RFC/7233"}]}}

@@ -1,7 +1,1 @@
-{
-   "application/held+xml": {
-    "id": "http://webconcepts.info/concepts/media-type/application/held+xml",
-    "details": [{
-     "description": "This section gives the XML Schema Definition of the \"application/held+xml\" format. This is presented as a formal definition of the \"application/held+xml\" format. Note that the XML Schema Definition is not intended to be used with on-the-fly validation of the presence XML document.",
-     "documentation": "http://tools.ietf.org/html/rfc5985#section-7",
-     "specification": "http://webconcepts.info/specs/IETF/RFC/5985" }]}}
+{"application/held+xml":{"id":"http://webconcepts.info/concepts/media-type/application/held+xml","details":[{"description":"This section gives the XML Schema Definition of the \"application/held+xml\" format. This is presented as a formal definition of the \"application/held+xml\" format. Note that the XML Schema Definition is not intended to be used with on-the-fly validation of the presence XML document.","documentation":"http://tools.ietf.org/html/rfc5985#section-7","specification":"http://webconcepts.info/specs/IETF/RFC/5985"}]}}

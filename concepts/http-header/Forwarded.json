@@ -1,7 +1,1 @@
-{
-   "Forwarded": {
-    "id": "http://webconcepts.info/concepts/http-header/Forwarded",
-    "details": [{
-     "description": "The \"Forwarded\" HTTP header field is an OPTIONAL header field that, when used, contains a list of parameter-identifier pairs that disclose information that is altered or lost when a proxy is involved in the path of the request.",
-     "documentation": "http://tools.ietf.org/html/rfc7239#section-4",
-     "specification": "http://webconcepts.info/specs/IETF/RFC/7239" }]}}
+{"Forwarded":{"id":"http://webconcepts.info/concepts/http-header/Forwarded","details":[{"description":"The \"Forwarded\" HTTP header field is an OPTIONAL header field that, when used, contains a list of parameter-identifier pairs that disclose information that is altered or lost when a proxy is involved in the path of the request.","documentation":"http://tools.ietf.org/html/rfc7239#section-4","specification":"http://webconcepts.info/specs/IETF/RFC/7239"}]}}

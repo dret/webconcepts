@@ -1,7 +1,1 @@
-{
-   "EDIINT-Features": {
-    "id": "http://webconcepts.info/concepts/http-header/EDIINT-Features",
-    "details": [{
-     "description": "The EDIINT-Features header field indicates the originating user agent is capable of supporting the features listed.",
-     "documentation": "http://tools.ietf.org/html/rfc6017#section-3",
-     "specification": "http://webconcepts.info/specs/IETF/RFC/6017" }]}}
+{"EDIINT-Features":{"id":"http://webconcepts.info/concepts/http-header/EDIINT-Features","details":[{"description":"The EDIINT-Features header field indicates the originating user agent is capable of supporting the features listed.","documentation":"http://tools.ietf.org/html/rfc6017#section-3","specification":"http://webconcepts.info/specs/IETF/RFC/6017"}]}}

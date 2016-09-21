@@ -1,7 +1,1 @@
-{
-   "application/home+xml": {
-    "id": "http://webconcepts.info/concepts/media-type/application/home+xml",
-    "details": [{
-     "description": "The specification for HTTP Home Documents provides a JSON syntax only. This media type provides an XML syntax for the same underlying data model, so that the concept of HTTP Home Documents can be consistently exposed in both JSON- and XML-based HTTP services.",
-     "documentation": "http://tools.ietf.org/html/draft-wilde-home-xml-04#section-4.1",
-     "specification": "http://webconcepts.info/specs/IETF/I-D/wilde-home-xml" }]}}
+{"application/home+xml":{"id":"http://webconcepts.info/concepts/media-type/application/home+xml","details":[{"description":"The specification for HTTP Home Documents provides a JSON syntax only. This media type provides an XML syntax for the same underlying data model, so that the concept of HTTP Home Documents can be consistently exposed in both JSON- and XML-based HTTP services.","documentation":"http://tools.ietf.org/html/draft-wilde-home-xml-04#section-4.1","specification":"http://webconcepts.info/specs/IETF/I-D/wilde-home-xml"}]}}

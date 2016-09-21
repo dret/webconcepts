@@ -1,7 +1,1 @@
-{
-   "https": {
-    "id": "http://webconcepts.info/concepts/uri-scheme/https",
-    "details": [{
-     "description": "The \"https\" URI scheme is hereby defined for the purpose of minting identifiers according to their association with the hierarchical namespace governed by a potential HTTP origin server listening to a given TCP port for TLS-secured connections.",
-     "documentation": "http://tools.ietf.org/html/rfc7230#section-2.7.2",
-     "specification": "http://webconcepts.info/specs/IETF/RFC/7230" }]}}
+{"https":{"id":"http://webconcepts.info/concepts/uri-scheme/https","details":[{"description":"The \"https\" URI scheme is hereby defined for the purpose of minting identifiers according to their association with the hierarchical namespace governed by a potential HTTP origin server listening to a given TCP port for TLS-secured connections.","documentation":"http://tools.ietf.org/html/rfc7230#section-2.7.2","specification":"http://webconcepts.info/specs/IETF/RFC/7230"}]}}

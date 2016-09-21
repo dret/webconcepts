@@ -1,7 +1,1 @@
-{
-   "Host": {
-    "id": "http://webconcepts.info/concepts/http-header/Host",
-    "details": [{
-     "description": "The \"Host\" header field in a request provides the host and port information from the target URI, enabling the origin server to distinguish among resources while servicing requests for multiple host names on a single IP address.",
-     "documentation": "http://tools.ietf.org/html/rfc7230#section-5.4",
-     "specification": "http://webconcepts.info/specs/IETF/RFC/7230" }]}}
+{"Host":{"id":"http://webconcepts.info/concepts/http-header/Host","details":[{"description":"The \"Host\" header field in a request provides the host and port information from the target URI, enabling the origin server to distinguish among resources while servicing requests for multiple host names on a single IP address.","documentation":"http://tools.ietf.org/html/rfc7230#section-5.4","specification":"http://webconcepts.info/specs/IETF/RFC/7230"}]}}

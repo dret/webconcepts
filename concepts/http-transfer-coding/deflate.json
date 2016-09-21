@@ -1,7 +1,1 @@
-{
-   "deflate": {
-    "id": "http://webconcepts.info/concepts/http-transfer-coding/deflate",
-    "details": [{
-     "description": "The \"deflate\" coding is a \"zlib\" data format containing a \"deflate\" compressed data stream that uses a combination of the Lempel-Ziv (LZ77) compression algorithm and Huffman coding.",
-     "documentation": "http://tools.ietf.org/html/rfc7230#section-4.2.2",
-     "specification": "http://webconcepts.info/specs/IETF/RFC/7230" }]}}
+{"deflate":{"id":"http://webconcepts.info/concepts/http-transfer-coding/deflate","details":[{"description":"The \"deflate\" coding is a \"zlib\" data format containing a \"deflate\" compressed data stream that uses a combination of the Lempel-Ziv (LZ77) compression algorithm and Huffman coding.","documentation":"http://tools.ietf.org/html/rfc7230#section-4.2.2","specification":"http://webconcepts.info/specs/IETF/RFC/7230"}]}}

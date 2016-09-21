@@ -1,7 +1,1 @@
-{
-   "proto": {
-    "id": "http://webconcepts.info/concepts/http-forwarded-parameter/proto",
-    "details": [{
-     "description": "The \"proto\" parameter has the value of the used protocol type.",
-     "documentation": "http://tools.ietf.org/html/rfc7239#section-5.4",
-     "specification": "http://webconcepts.info/specs/IETF/RFC/7239" }]}}
+{"proto":{"id":"http://webconcepts.info/concepts/http-forwarded-parameter/proto","details":[{"description":"The \"proto\" parameter has the value of the used protocol type.","documentation":"http://tools.ietf.org/html/rfc7239#section-5.4","specification":"http://webconcepts.info/specs/IETF/RFC/7239"}]}}

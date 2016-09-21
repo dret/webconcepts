@@ -1,7 +1,1 @@
-{
-   "Timeout": {
-    "id": "http://webconcepts.info/concepts/http-header/Timeout",
-    "details": [{
-     "description": "Clients MAY include Timeout request headers in their LOCK requests. However, the server is not required to honor or even consider these requests.",
-     "documentation": "http://tools.ietf.org/html/rfc4918#section-10.7",
-     "specification": "http://webconcepts.info/specs/IETF/RFC/4918" }]}}
+{"Timeout":{"id":"http://webconcepts.info/concepts/http-header/Timeout","details":[{"description":"Clients MAY include Timeout request headers in their LOCK requests. However, the server is not required to honor or even consider these requests.","documentation":"http://tools.ietf.org/html/rfc4918#section-10.7","specification":"http://webconcepts.info/specs/IETF/RFC/4918"}]}}

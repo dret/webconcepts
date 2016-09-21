@@ -1,7 +1,1 @@
-{
-   "UNBIND": {
-    "id": "http://webconcepts.info/concepts/http-method/UNBIND",
-    "details": [{
-     "description": "The UNBIND method modifies the collection identified by the Request-URI by removing the binding identified by the segment specified in the UNBIND body.",
-     "documentation": "http://tools.ietf.org/html/rfc5842#section-5",
-     "specification": "http://webconcepts.info/specs/IETF/RFC/5842" }]}}
+{"UNBIND":{"id":"http://webconcepts.info/concepts/http-method/UNBIND","details":[{"description":"The UNBIND method modifies the collection identified by the Request-URI by removing the binding identified by the segment specified in the UNBIND body.","documentation":"http://tools.ietf.org/html/rfc5842#section-5","specification":"http://webconcepts.info/specs/IETF/RFC/5842"}]}}

@@ -1,7 +1,1 @@
-{
-   "Prefer": {
-    "id": "http://webconcepts.info/concepts/http-header/Prefer",
-    "details": [{
-     "description": "The Prefer request header field is used to indicate that particular server behaviors are preferred by the client, but not required for successful completion of the request. Prefer is similar in nature to the Expect header field with the exception that servers are allowed to ignore stated preferences.",
-     "documentation": "http://tools.ietf.org/html/rfc7240#section-2",
-     "specification": "http://webconcepts.info/specs/IETF/RFC/7240" }]}}
+{"Prefer":{"id":"http://webconcepts.info/concepts/http-header/Prefer","details":[{"description":"The Prefer request header field is used to indicate that particular server behaviors are preferred by the client, but not required for successful completion of the request. Prefer is similar in nature to the Expect header field with the exception that servers are allowed to ignore stated preferences.","documentation":"http://tools.ietf.org/html/rfc7240#section-2","specification":"http://webconcepts.info/specs/IETF/RFC/7240"}]}}

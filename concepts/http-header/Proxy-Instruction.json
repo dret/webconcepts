@@ -1,7 +1,1 @@
-{
-   "Proxy-Instruction": {
-    "id": "http://webconcepts.info/concepts/http-header/Proxy-Instruction",
-    "details": [{
-     "description": "The proxy instruction header is used to reply to a proxy features header. It should only be present when a Proxy-Features header was present in the corresponding request.",
-     "documentation": "http://www.w3.org/TR/WD-proxy",
-     "specification": "http://webconcepts.info/specs/W3C/TR/WD-proxy" }]}}
+{"Proxy-Instruction":{"id":"http://webconcepts.info/concepts/http-header/Proxy-Instruction","details":[{"description":"The proxy instruction header is used to reply to a proxy features header. It should only be present when a Proxy-Features header was present in the corresponding request.","documentation":"http://www.w3.org/TR/WD-proxy","specification":"http://webconcepts.info/specs/W3C/TR/WD-proxy"}]}}

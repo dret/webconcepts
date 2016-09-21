@@ -1,7 +1,1 @@
-{
-   "info": {
-    "id": "http://webconcepts.info/concepts/uri-scheme/info",
-    "details": [{
-     "description": "This document defines the \"info\" Uniform Resource Identifier (URI) scheme for information assets that have identifiers in public namespaces but are not part of the URI allocation. By \"information asset\" this document intends any information construct that has identity within a public namespace.",
-     "documentation": "http://tools.ietf.org/html/rfc4452#section-1",
-     "specification": "http://webconcepts.info/specs/IETF/RFC/4452" }]}}
+{"info":{"id":"http://webconcepts.info/concepts/uri-scheme/info","details":[{"description":"This document defines the \"info\" Uniform Resource Identifier (URI) scheme for information assets that have identifiers in public namespaces but are not part of the URI allocation. By \"information asset\" this document intends any information construct that has identity within a public namespace.","documentation":"http://tools.ietf.org/html/rfc4452#section-1","specification":"http://webconcepts.info/specs/IETF/RFC/4452"}]}}

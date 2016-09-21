@@ -1,7 +1,1 @@
-{
-   "application/nlsml+xml": {
-    "id": "http://webconcepts.info/concepts/media-type/application/nlsml+xml",
-    "details": [{
-     "description": "The Natural Language Semantics Markup Language (NLSML) is an XML data structure with elements and attributes designed to carry result information from recognizer (including enrollment) and verifier resources.",
-     "documentation": "http://tools.ietf.org/html/rfc6787#section-6.3.1",
-     "specification": "http://webconcepts.info/specs/IETF/RFC/6768" }]}}
+{"application/nlsml+xml":{"id":"http://webconcepts.info/concepts/media-type/application/nlsml+xml","details":[{"description":"The Natural Language Semantics Markup Language (NLSML) is an XML data structure with elements and attributes designed to carry result information from recognizer (including enrollment) and verifier resources.","documentation":"http://tools.ietf.org/html/rfc6787#section-6.3.1","specification":"http://webconcepts.info/specs/IETF/RFC/6768"}]}}

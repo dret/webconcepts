@@ -1,7 +1,1 @@
-{
-   "Expect": {
-    "id": "http://webconcepts.info/concepts/http-header/Expect",
-    "details": [{
-     "description": "The \"Expect\" header field in a request indicates a certain set of behaviors (expectations) that need to be supported by the server in order to properly handle this request.",
-     "documentation": "http://tools.ietf.org/html/rfc7231#section-5.1.1",
-     "specification": "http://webconcepts.info/specs/IETF/RFC/7231" }]}}
+{"Expect":{"id":"http://webconcepts.info/concepts/http-header/Expect","details":[{"description":"The \"Expect\" header field in a request indicates a certain set of behaviors (expectations) that need to be supported by the server in order to properly handle this request.","documentation":"http://tools.ietf.org/html/rfc7231#section-5.1.1","specification":"http://webconcepts.info/specs/IETF/RFC/7231"}]}}

@@ -1,7 +1,1 @@
-{
-   "application/mads+xml": {
-    "id": "http://webconcepts.info/concepts/media-type/application/mads+xml",
-    "details": [{
-     "description": "An XML schema for an authority element set used to provide metadata about agents (people, organizations), events, and terms (topics, geographics, genres, etc.). It is a companion to MODS.",
-     "documentation": "http://tools.ietf.org/html/rfc6207#section-3",
-     "specification": "http://webconcepts.info/specs/IETF/RFC/6207" }]}}
+{"application/mads+xml":{"id":"http://webconcepts.info/concepts/media-type/application/mads+xml","details":[{"description":"An XML schema for an authority element set used to provide metadata about agents (people, organizations), events, and terms (topics, geographics, genres, etc.). It is a companion to MODS.","documentation":"http://tools.ietf.org/html/rfc6207#section-3","specification":"http://webconcepts.info/specs/IETF/RFC/6207"}]}}

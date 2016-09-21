@@ -1,8 +1,1 @@
-{
-   "207": {
-    "id": "http://webconcepts.info/concepts/http-status-code/207",
-    "description": "Multi-Status",
-    "details": [{
-     "description": "The 207 (Multi-Status) status code provides status for multiple independent operations.",
-     "documentation": "http://tools.ietf.org/html/rfc4918#section-11.1",
-     "specification": "http://webconcepts.info/specs/IETF/RFC/4918" }]}}
+{"207":{"id":"http://webconcepts.info/concepts/http-status-code/207","description":"Multi-Status","details":[{"description":"The 207 (Multi-Status) status code provides status for multiple independent operations.","documentation":"http://tools.ietf.org/html/rfc4918#section-11.1","specification":"http://webconcepts.info/specs/IETF/RFC/4918"}]}}

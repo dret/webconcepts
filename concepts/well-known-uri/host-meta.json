@@ -1,7 +1,1 @@
-{
-   "host-meta": {
-    "id": "http://webconcepts.info/concepts/well-known-uri/host-meta",
-    "details": [{
-     "description": "The client obtains the host-meta document for a given host by sending an HTTP or an HTTPS GET request to the host for the \"/.well-known/host-meta\" path.",
-     "documentation": "http://tools.ietf.org/html/rfc6415#section-2",
-     "specification": "http://webconcepts.info/specs/IETF/RFC/6415" }]}}
+{"host-meta":{"id":"http://webconcepts.info/concepts/well-known-uri/host-meta","details":[{"description":"The client obtains the host-meta document for a given host by sending an HTTP or an HTTPS GET request to the host for the \"/.well-known/host-meta\" path.","documentation":"http://tools.ietf.org/html/rfc6415#section-2","specification":"http://webconcepts.info/specs/IETF/RFC/6415"}]}}

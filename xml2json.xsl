@@ -21,37 +21,43 @@
                     <xsl:sort select="."/>
                     <xsl:variable name="concept-name" select="."/>
                     <xsl:variable name="concept-json">
-                        <xsl:text>{&#xa;   </xsl:text>
-                        <xsl:value-of select="concat('&quot;', $concept-name, '&quot;: {&#xa;')"/>
-                        <xsl:text>    "id": </xsl:text>
-                        <xsl:value-of select="concat('&quot;http://webconcepts.info/', $concepts-dir, '/', $concept/filename-singular, '/', $concept-name, '&quot;,&#xa;')"/>
-                        <xsl:variable name="desc" select="$allspecs//*[local-name() eq $concept/@id][@def eq $concept-name][1]/@desc"/>
-                        <!-- this is cheating by (randomly) picking the first description should there be more than one in all specifications. -->
-                        <xsl:if test="exists($desc)">
-                            <xsl:text>    "description": </xsl:text>
-                            <xsl:value-of select="concat('&quot;', $desc, '&quot;,&#xa;')"/>
-                        </xsl:if>
-                        <xsl:text>    "details": [</xsl:text>
-                        <xsl:for-each select="$allspecs/service/*[local-name() eq $concept/@id][@def eq $concept-name]">
-                            <xsl:sort select="replace(replace(current()/../@id, $specs/specs/primary[@id eq current()/../@primary]/secondary[@id eq current()/../@secondary]/id-pattern, $specs/specs/primary[@id eq current()/../@primary]/secondary[@id eq current()/../@secondary]/md-pattern), '^(..*)$', $specs/specs/primary[@id eq current()/../@primary]/secondary[@id eq current()/../@secondary]/name-pattern)"/>
-                            <xsl:text>{&#xa;</xsl:text>
-                            <xsl:text>     "description": </xsl:text>
-                            <xsl:value-of select="concat('&quot;', replace(documentation/text(), '&quot;', '\\&quot;'), '&quot;,&#xa;')"/>
-                            <xsl:text>     "documentation": </xsl:text>
-                            <xsl:value-of select="concat('&quot;', documentation/@source, '&quot;,&#xa;')"/>
-                            <xsl:text>     "specification": </xsl:text>
-                            <xsl:variable name="secondary" select="$specs/specs/primary[@id eq current()/../@primary]/secondary[@id eq current()/../@secondary]"/>
-                            <xsl:variable name="id" select="replace(current()/../@id, $secondary/id-pattern, $secondary/md-pattern)"/>
-                            <xsl:value-of select="concat('&quot;http://webconcepts.info/', $specs-dir, '/', $secondary/../@id, '/', $secondary/@id, '/', $id, '&quot; }')"/>
-                        <xsl:if test="position() ne last()">
-                            <xsl:text>,</xsl:text>
-                        </xsl:if>
-                        </xsl:for-each>
-                        <xsl:text>]}}</xsl:text>
+                        <map>
+                            <map key="{$concept-name}">
+                                <string key="id">
+                                    <xsl:value-of select="concat('http://webconcepts.info/', $concepts-dir, '/', $concept/filename-singular, '/', $concept-name)"/>
+                                </string>
+                                <xsl:variable name="desc" select="$allspecs//*[local-name() eq $concept/@id][@def eq $concept-name][1]/@desc"/>
+                                <!-- this is cheating by (randomly) picking the first description should there be more than one in all specifications. -->
+                                <xsl:if test="exists($desc)">
+                                    <string key="description">
+                                        <xsl:value-of select="$desc"/>
+                                    </string>
+                                </xsl:if>
+                                <array key="details">
+                                    <xsl:for-each select="$allspecs/service/*[local-name() eq $concept/@id][@def eq $concept-name]">
+                                        <xsl:sort select="replace(replace(current()/../@id, $specs/specs/primary[@id eq current()/../@primary]/secondary[@id eq current()/../@secondary]/id-pattern, $specs/specs/primary[@id eq current()/../@primary]/secondary[@id eq current()/../@secondary]/md-pattern), '^(..*)$', $specs/specs/primary[@id eq current()/../@primary]/secondary[@id eq current()/../@secondary]/name-pattern)"/>
+                                        <map>
+                                            <string key="description">
+                                                <xsl:value-of select="documentation/text()"/>
+                                            </string>
+                                            <string key="documentation">
+                                                <xsl:value-of select="documentation/@source"/>
+                                            </string>
+                                            <string key="specification">
+                                                <xsl:variable name="secondary" select="$specs/specs/primary[@id eq current()/../@primary]/secondary[@id eq current()/../@secondary]"/>
+                                                <xsl:variable name="id" select="replace(current()/../@id, $secondary/id-pattern, $secondary/md-pattern)"/>
+                                                <xsl:value-of select="concat('http://webconcepts.info/', $specs-dir, '/', $secondary/../@id, '/', $secondary/@id, '/', $id)"/>
+                                            </string>
+                                        </map>
+                                    </xsl:for-each>
+                                </array>
+                            </map>
+                        </map>
                     </xsl:variable>
-                    <xsl:value-of select="$concept-json"/>
+                    <xsl:value-of select="xml-to-json($concept-json)"/>
+                    <xsl:text>&#xa;</xsl:text>
                     <xsl:result-document href="{$concepts-dir}/{$concept/filename-singular}/{$concept-name}.json" format="json">
-                        <xsl:value-of select="$concept-json"/>
+                        <xsl:value-of select="xml-to-json($concept-json)"/>
                     </xsl:result-document>
                     <xsl:if test="position() ne last()">
                         <xsl:text>,</xsl:text>

@@ -1,7 +1,1 @@
-{
-   "ETag": {
-    "id": "http://webconcepts.info/concepts/http-header/ETag",
-    "details": [{
-     "description": "The \"ETag\" header field in a response provides the current entity-tag for the selected representation, as determined at the conclusion of handling the request. An entity-tag is an opaque validator for differentiating between multiple representations of the same resource, regardless of whether those multiple representations are due to resource state changes over time, content negotiation resulting in multiple representations being valid at the same time, or both.",
-     "documentation": "http://tools.ietf.org/html/rfc7232#section-2.3",
-     "specification": "http://webconcepts.info/specs/IETF/RFC/7232" }]}}
+{"ETag":{"id":"http://webconcepts.info/concepts/http-header/ETag","details":[{"description":"The \"ETag\" header field in a response provides the current entity-tag for the selected representation, as determined at the conclusion of handling the request. An entity-tag is an opaque validator for differentiating between multiple representations of the same resource, regardless of whether those multiple representations are due to resource state changes over time, content negotiation resulting in multiple representations being valid at the same time, or both.","documentation":"http://tools.ietf.org/html/rfc7232#section-2.3","specification":"http://webconcepts.info/specs/IETF/RFC/7232"}]}}

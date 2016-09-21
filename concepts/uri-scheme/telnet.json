@@ -1,7 +1,1 @@
-{
-   "telnet": {
-    "id": "http://webconcepts.info/concepts/uri-scheme/telnet",
-    "details": [{
-     "description": "The Telnet URL scheme is used to designate interactive services that may be accessed by the Telnet protocol.",
-     "documentation": "http://tools.ietf.org/html/rfc4248#section-2",
-     "specification": "http://webconcepts.info/specs/IETF/RFC/4248" }]}}
+{"telnet":{"id":"http://webconcepts.info/concepts/uri-scheme/telnet","details":[{"description":"The Telnet URL scheme is used to designate interactive services that may be accessed by the Telnet protocol.","documentation":"http://tools.ietf.org/html/rfc4248#section-2","specification":"http://webconcepts.info/specs/IETF/RFC/4248"}]}}

@@ -1,7 +1,1 @@
-{
-   "Proxy-Authenticate": {
-    "id": "http://webconcepts.info/concepts/http-header/Proxy-Authenticate",
-    "details": [{
-     "description": "The \"Proxy-Authenticate\" header field consists of at least one challenge that indicates the authentication scheme(s) and parameters applicable to the proxy for this effective request URI. It MUST be included as part of a 407 (Proxy Authentication Required) response.",
-     "documentation": "http://tools.ietf.org/html/rfc7235#section-4.2",
-     "specification": "http://webconcepts.info/specs/IETF/RFC/7235" }]}}
+{"Proxy-Authenticate":{"id":"http://webconcepts.info/concepts/http-header/Proxy-Authenticate","details":[{"description":"The \"Proxy-Authenticate\" header field consists of at least one challenge that indicates the authentication scheme(s) and parameters applicable to the proxy for this effective request URI. It MUST be included as part of a 407 (Proxy Authentication Required) response.","documentation":"http://tools.ietf.org/html/rfc7235#section-4.2","specification":"http://webconcepts.info/specs/IETF/RFC/7235"}]}}

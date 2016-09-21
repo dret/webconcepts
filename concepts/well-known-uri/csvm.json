@@ -1,7 +1,1 @@
-{
-   "csvm": {
-    "id": "http://webconcepts.info/concepts/well-known-uri/csvm",
-    "details": [{
-     "description": "If the user has not supplied a metadata file as overriding metadata and no applicable metadata file has been discovered through a Link header, processors must attempt to locate a metadata documents through site-wide configuration. In this case, processors must retrieve the file from the well-known URI /.well-known/csvm.",
-     "documentation": "http://www.w3.org/TR/tabular-data-model/#site-wide-location-configuration",
-     "specification": "http://webconcepts.info/specs/W3C/TR/tabular-data-model" }]}}
+{"csvm":{"id":"http://webconcepts.info/concepts/well-known-uri/csvm","details":[{"description":"If the user has not supplied a metadata file as overriding metadata and no applicable metadata file has been discovered through a Link header, processors must attempt to locate a metadata documents through site-wide configuration. In this case, processors must retrieve the file from the well-known URI /.well-known/csvm.","documentation":"http://www.w3.org/TR/tabular-data-model/#site-wide-location-configuration","specification":"http://webconcepts.info/specs/W3C/TR/tabular-data-model"}]}}
