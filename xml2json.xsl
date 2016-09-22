@@ -144,35 +144,39 @@
         <xsl:param name="concept-value"/>
         <xsl:param name="concept"/>
         <map>
-            <map key="{$concept-value}">
-                <string key="id">
-                    <xsl:value-of select="concat('http://webconcepts.info/', $concepts-dir, '/', $concept/filename-singular, '/', $concept-value)"/>
+            <string key="value">
+                <xsl:value-of select="$concept-value"/>
+            </string>
+            <string key="concept">
+                <xsl:value-of select="$concept/@id"/>
+            </string>
+            <string key="id">
+                <xsl:value-of select="concat('http://webconcepts.info/', $concepts-dir, '/', $concept/filename-singular, '/', $concept-value)"/>
+            </string>
+            <xsl:variable name="desc" select="$allspecs//*[local-name() eq $concept/@id][@def eq $concept-value][1]/@desc"/>
+            <!-- this is cheating by (randomly) picking the first description should there be more than one in all specifications. -->
+            <xsl:if test="exists($desc)">
+                <string key="description">
+                    <xsl:value-of select="$desc"/>
                 </string>
-                <xsl:variable name="desc" select="$allspecs//*[local-name() eq $concept/@id][@def eq $concept-value][1]/@desc"/>
-                <!-- this is cheating by (randomly) picking the first description should there be more than one in all specifications. -->
-                <xsl:if test="exists($desc)">
-                    <string key="description">
-                        <xsl:value-of select="$desc"/>
-                    </string>
-                </xsl:if>
-                <array key="details">
-                    <xsl:for-each select="$allspecs/service/*[local-name() eq $concept/@id][@def eq $concept-value]">
-                        <map>
-                            <string key="description">
-                                <xsl:value-of select="documentation/text()"/>
-                            </string>
-                            <string key="documentation">
-                                <xsl:value-of select="documentation/@source"/>
-                            </string>
-                            <string key="specification">
-                                <xsl:variable name="secondary" select="$specs/specs/primary[@id eq current()/../@primary]/secondary[@id eq current()/../@secondary]"/>
-                                <xsl:variable name="id" select="replace(current()/../@id, $secondary/id-pattern, $secondary/md-pattern)"/>
-                                <xsl:value-of select="concat('http://webconcepts.info/', $specs-dir, '/', $secondary/../@id, '/', $secondary/@id, '/', $id)"/>
-                            </string>
-                        </map>
-                    </xsl:for-each>
-                </array>
-            </map>
+            </xsl:if>
+            <array key="details">
+                <xsl:for-each select="$allspecs/service/*[local-name() eq $concept/@id][@def eq $concept-value]">
+                    <map>
+                        <string key="description">
+                            <xsl:value-of select="documentation/text()"/>
+                        </string>
+                        <string key="documentation">
+                            <xsl:value-of select="documentation/@source"/>
+                        </string>
+                        <string key="specification">
+                            <xsl:variable name="secondary" select="$specs/specs/primary[@id eq current()/../@primary]/secondary[@id eq current()/../@secondary]"/>
+                            <xsl:variable name="id" select="replace(current()/../@id, $secondary/id-pattern, $secondary/md-pattern)"/>
+                            <xsl:value-of select="concat('http://webconcepts.info/', $specs-dir, '/', $secondary/../@id, '/', $secondary/@id, '/', $id)"/>
+                        </string>
+                    </map>
+                </xsl:for-each>
+            </array>
         </map>
     </xsl:template>
 </xsl:stylesheet>
