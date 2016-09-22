@@ -20,7 +20,7 @@
                             <string key="name-plural">
                                 <xsl:value-of select="title-plural"/>
                             </string>
-                            <array key="concepts">
+                            <array key="values">
                                 <xsl:for-each select="distinct-values($allspecs//*[local-name() eq $concept/@id]/@def)">
                                     <xsl:sort select="."/>
                                     <xsl:call-template name="concept-value-json">
