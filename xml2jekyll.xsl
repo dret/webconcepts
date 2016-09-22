@@ -208,11 +208,15 @@
                     <xsl:value-of select="count(distinct-values($allspecs//*[local-name() eq $concept/@id]/@def))"/>
                     <xsl:text> distinct values) were found in [all available `webconcepts.info` specifications](/</xsl:text>
                     <xsl:value-of select="$specs-dir"/>
-                    <xsl:text>). Please be advised that the table shown here is maintained and compiled from [Web Concepts](/) sources. The [official </xsl:text>
-                    <xsl:value-of select="$concept/title-singular/text()"/>
-                    <xsl:text> registry](</xsl:text>
-                    <xsl:value-of select="$concept/iana-registry/text()"/>
-                    <xsl:text>) is maintained by the [*Internet Assigned Numbers Authority (IANA)*](http://www.iana.org/).&#xa;&#xa;</xsl:text>
+                    <xsl:text>). Please be advised that the table shown here is maintained and compiled from [Web Concepts](/) sources.</xsl:text>
+                    <xsl:if test="exists($concept/iana-registry)">
+                        <xsl:text> The [official </xsl:text>
+                        <xsl:value-of select="$concept/title-singular/text()"/>
+                        <xsl:text> registry](</xsl:text>
+                        <xsl:value-of select="$concept/iana-registry/text()"/>
+                        <xsl:text>) is maintained by the [*Internet Assigned Numbers Authority (IANA)*](http://www.iana.org/).</xsl:text>
+                    </xsl:if>
+                    <xsl:text>&#xa;&#xa;</xsl:text>
                     <xsl:value-of select="$concept/title-singular/text()"/>
                     <xsl:text> | Specification&#xa;-------: | :-------&#xa;</xsl:text>
                     <xsl:for-each select="distinct-values($allspecs//*[local-name() eq $concept/@id]/@def)">
