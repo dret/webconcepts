@@ -6,7 +6,7 @@ permalink: /concepts/uri-schemes
 
 
 
-The following 20 URI Scheme values (20 distinct values) were found in [all available `webconcepts.info` specifications](/specs). Please be advised that the table shown here is maintained and compiled from [Web Concepts](/) sources. The [official URI Scheme registry](http://www.iana.org/assignments/uri-schemes/uri-schemes.xhtml) is maintained by the [*Internet Assigned Numbers Authority (IANA)*](http://www.iana.org/).
+The following 20 URI Scheme values were found in [all available `webconcepts.info` specifications](/specs). Please be advised that the table shown here is maintained and compiled from [Web Concepts](/) sources. The [official URI Scheme registry](http://www.iana.org/assignments/uri-schemes/uri-schemes.xhtml) is maintained by the [*Internet Assigned Numbers Authority (IANA)*](http://www.iana.org/).
 
 URI Scheme | Specification
 -------: | :-------

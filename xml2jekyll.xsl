@@ -200,13 +200,19 @@
                     <xsl:value-of select="concat('/', $concepts-dir, '/', filename-plural)"/>
                     <xsl:text>&#xa;</xsl:text>
                     <xsl:text>---&#xa;&#xa;</xsl:text>
+                    <xsl:variable name="values-count" select="count($allspecs//*[local-name() eq $concept/@id]/@def)"/>
+                    <xsl:variable name="distinct-values-count" select="count(distinct-values($allspecs//*[local-name() eq $concept/@id]/@def))"/>
                     <xsl:text>&#xa;&#xa;The following </xsl:text>
-                    <xsl:value-of select="count($allspecs//*[local-name() eq $concept/@id]/@def)"/>
+                    <xsl:value-of select="$values-count"/>
                     <xsl:text> </xsl:text>
                     <xsl:value-of select="$concept/title-singular/text()"/>
-                    <xsl:text> values (</xsl:text>
-                    <xsl:value-of select="count(distinct-values($allspecs//*[local-name() eq $concept/@id]/@def))"/>
-                    <xsl:text> distinct values) were found in [all available `webconcepts.info` specifications](/</xsl:text>
+                    <xsl:text> values </xsl:text>
+                    <xsl:if test="$values-count ne $distinct-values-count">
+                        <xsl:text>(</xsl:text>
+                        <xsl:value-of select="$distinct-values-count"/>
+                        <xsl:text> distinct values) </xsl:text>
+                    </xsl:if>
+                    <xsl:text>were found in [all available `webconcepts.info` specifications](/</xsl:text>
                     <xsl:value-of select="$specs-dir"/>
                     <xsl:text>). Please be advised that the table shown here is maintained and compiled from [Web Concepts](/) sources.</xsl:text>
                     <xsl:if test="exists($concept/iana-registry)">
