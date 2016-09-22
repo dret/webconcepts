@@ -3,7 +3,7 @@ layout: page
 title:  "Web Concepts: Overview"
 ---
 
-This is an overview of 16 Web Concepts (with a total of 522 distinct entries) that have been harvested from all [available specifications](/specs):
+This is an overview of 16 Web Concepts (with a total of 522 distinct values) that have been harvested from all [available specifications](/specs):
 
 * [HTTP Cache Directives](http-cache-directives) (14)
 * [HTTP Content Codings](http-content-codings) (10)

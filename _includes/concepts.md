@@ -1,1 +1,1 @@
-522 concepts in 16 categories
+522 values for 16 Web Concepts

@@ -9,9 +9,9 @@
     <xsl:template name="xml2jekyll">
         <xsl:result-document href="{$includes}/concepts.md" format="markdown">
             <xsl:value-of select="count(distinct-values($allspecs//*[local-name() = $concepts/concepts/concept/@id]/@def))"/>
-            <xsl:text> concepts in </xsl:text>
+            <xsl:text> values for </xsl:text>
             <xsl:value-of select="count($concepts/concepts/concept)"/>
-            <xsl:text> categories</xsl:text>
+            <xsl:text> Web Concepts</xsl:text>
         </xsl:result-document>
         <xsl:result-document href="{$includes}/specs.md" format="markdown">
             <xsl:value-of select="count($allspecs/service)"/>
@@ -177,7 +177,7 @@
             <xsl:value-of select="count($concepts/concepts/concept)"/>
             <xsl:text> Web Concepts (with a total of </xsl:text>
             <xsl:value-of select="count(distinct-values($allspecs//*[local-name() = $concepts/concepts/concept/@id]/@def))"/>
-            <xsl:text> distinct entries) that have been harvested from all [available specifications](/</xsl:text>
+            <xsl:text> distinct values) that have been harvested from all [available specifications](/</xsl:text>
             <xsl:value-of select="$specs-dir"/>
             <xsl:text>):&#xa;&#xa;</xsl:text>
             <xsl:for-each select="$concepts/concepts/concept">
@@ -204,7 +204,7 @@
                     <xsl:value-of select="count($allspecs//*[local-name() eq $concept/@id]/@def)"/>
                     <xsl:text> </xsl:text>
                     <xsl:value-of select="$concept/title-singular/text()"/>
-                    <xsl:text> definitions (</xsl:text>
+                    <xsl:text> values (</xsl:text>
                     <xsl:value-of select="count(distinct-values($allspecs//*[local-name() eq $concept/@id]/@def))"/>
                     <xsl:text> distinct values) were found in [all available `webconcepts.info` specifications](/</xsl:text>
                     <xsl:value-of select="$specs-dir"/>
