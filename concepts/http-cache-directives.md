@@ -24,3 +24,8 @@ HTTP Cache Directive | Specification
 [`s-maxage`](/concepts/http-cache-directive/s-maxage) | [**RFC 7234**: Hypertext Transfer Protocol (HTTP/1.1): Caching](/specs/IETF/RFC/7234 "The Hypertext Transfer Protocol (HTTP) is an application-level protocol for distributed, collaborative, hypertext information systems. This document defines requirements on HTTP caches and the associated header fields that control cache behavior or indicate cacheable response messages.")
 [`stale-if-error`](/concepts/http-cache-directive/stale-if-error) | [**RFC 5861**: HTTP Cache-Control Extensions for Stale Content](/specs/IETF/RFC/5861 "This document defines two independent HTTP Cache-Control extensions that allow control over the use of stale responses by caches.")
 [`stale-while-revalidate`](/concepts/http-cache-directive/stale-while-revalidate) | [**RFC 5861**: HTTP Cache-Control Extensions for Stale Content](/specs/IETF/RFC/5861 "This document defines two independent HTTP Cache-Control extensions that allow control over the use of stale responses by caches.")
+
+<br/>
+<hr/>
+
+<p style="float : left"><a href="http-cache-directives.json" title="JSON representing all values for this Web Concept">JSON</a></p>

@@ -185,3 +185,8 @@ HTTP Header Field | Specification
 [`Warning`](/concepts/http-header/Warning) | [**RFC 7234**: Hypertext Transfer Protocol (HTTP/1.1): Caching](/specs/IETF/RFC/7234 "The Hypertext Transfer Protocol (HTTP) is an application-level protocol for distributed, collaborative, hypertext information systems. This document defines requirements on HTTP caches and the associated header fields that control cache behavior or indicate cacheable response messages.")
 [`Width`](/concepts/http-header/Width) | [**Internet Draft ietf-httpbis-client-hints**: HTTP Client Hints](/specs/IETF/I-D/ietf-httpbis-client-hints "An increasing diversity of Web-connected devices and software capabilities has created a need to deliver optimized content for each device. This specification defines a set of HTTP request header fields, colloquially known as Client Hints, to address this. They are intended to be used as input to proactive content negotiation; just as the Accept header allows clients to indicate what formats they prefer, Client Hints allow clients to indicate a list of device and agent specific preferences.")
 [`X-Frame-Options`](/concepts/http-header/X-Frame-Options) | [**RFC 7034**: HTTP Header Field X-Frame-Options](/specs/IETF/RFC/7034 "To improve the protection of web applications against clickjacking, this document describes the X-Frame-Options HTTP header field, which declares a policy, communicated from the server to the client browser, regarding whether the browser may display the transmitted content in frames that are part of other web pages.")
+
+<br/>
+<hr/>
+
+<p style="float : left"><a href="http-headers.json" title="JSON representing all values for this Web Concept">JSON</a></p>

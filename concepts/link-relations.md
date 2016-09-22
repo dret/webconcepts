@@ -94,3 +94,8 @@ Link Relation | Specification
 [`webmention`](/concepts/link-relation/webmention) | [**W3C TR http://www.w3.org/TR/webmention**: Webmention](/specs/W3C/TR/webmention "Webmention is a simple way to notify any URL when you link to it on your site. From the receiver's perspective, it's a way to request notifications when other sites link to it.")
 [`working-copy`](/concepts/link-relation/working-copy) | [**RFC 5829**: Link Relation Types for Simple Version Navigation between Web Resources](/specs/IETF/RFC/5829 "This specification defines a set of link relation types that may be used on Web resources for navigation between a resource and other resources related to version control, such as past versions and working copies.")
 [`working-copy-of`](/concepts/link-relation/working-copy-of) | [**RFC 5829**: Link Relation Types for Simple Version Navigation between Web Resources](/specs/IETF/RFC/5829 "This specification defines a set of link relation types that may be used on Web resources for navigation between a resource and other resources related to version control, such as past versions and working copies.")
+
+<br/>
+<hr/>
+
+<p style="float : left"><a href="link-relations.json" title="JSON representing all values for this Web Concept">JSON</a></p>

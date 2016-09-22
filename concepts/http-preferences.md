@@ -14,3 +14,8 @@ HTTP Preference | Specification
 [`respond-async`](/concepts/http-preference/respond-async) | [**RFC 7240**: Prefer Header for HTTP](/specs/IETF/RFC/7240 "This specification defines an HTTP header field that can be used by a client to request that certain behaviors be employed by a server while processing a request.")
 [`return`](/concepts/http-preference/return) | [**RFC 7240**: Prefer Header for HTTP](/specs/IETF/RFC/7240 "This specification defines an HTTP header field that can be used by a client to request that certain behaviors be employed by a server while processing a request.")
 [`wait`](/concepts/http-preference/wait) | [**RFC 7240**: Prefer Header for HTTP](/specs/IETF/RFC/7240 "This specification defines an HTTP header field that can be used by a client to request that certain behaviors be employed by a server while processing a request.")
+
+<br/>
+<hr/>
+
+<p style="float : left"><a href="http-preferences.json" title="JSON representing all values for this Web Concept">JSON</a></p>

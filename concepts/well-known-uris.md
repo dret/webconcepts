@@ -29,3 +29,8 @@ Well-Known URI | Specification
 [`timezone`](/concepts/well-known-uri/timezone) | [**RFC 7808**: Time Zone Data Distribution Service](/specs/IETF/RFC/7808 "This document defines a time zone data distribution service that allows reliable, secure, and fast delivery of time zone data and leap-second rules to client systems such as calendaring and scheduling applications or operating systems.")
 [`void`](/concepts/well-known-uri/void) | [**W3C TR http://www.w3.org/TR/void**: Describing Linked Datasets with the VoID Vocabulary](/specs/W3C/TR/void "VoID is an RDF Schema vocabulary for expressing metadata about RDF datasets. It is intended as a bridge between the publishers and users of RDF data, with applications ranging from data discovery to cataloging and archiving of datasets. This document is a detailed guide to the VoID vocabulary. It describes how VoID can be used to express general metadata based on Dublin Core, access metadata, structural metadata, and links between datasets. It also provides deployment advice and discusses the discovery of VoID descriptions.")
 [`webfinger`](/concepts/well-known-uri/webfinger) | [**RFC 7033**: WebFinger](/specs/IETF/RFC/7033 "This specification defines the WebFinger protocol, which can be used to discover information about people or other entities on the Internet using standard HTTP methods. WebFinger discovers information for a URI that might not be usable as a locator otherwise, such as account or email URIs.")
+
+<br/>
+<hr/>
+
+<p style="float : left"><a href="well-known-uris.json" title="JSON representing all values for this Web Concept">JSON</a></p>

@@ -312,6 +312,10 @@
                             <xsl:text>&lt;/a> | &lt;a href="../">Web Concepts&lt;/a> )&lt;/p>&#xa;</xsl:text>
                         </xsl:result-document>
                     </xsl:for-each>
+                    <xsl:text>&#xa;&lt;br/>&#xa;&lt;hr/>&#xa;&#xa;</xsl:text>
+                    <xsl:text>&lt;p style="float : left">&lt;a href="</xsl:text>
+                    <xsl:value-of select="filename-plural"/>
+                    <xsl:text>.json" title="JSON representing all values for this Web Concept">JSON&lt;/a>&lt;/p>&#xa;</xsl:text>
                 </xsl:result-document>
             </xsl:for-each>
         </xsl:result-document>

@@ -18,3 +18,8 @@ JSON Web Token Claim | Specification
 [`jti`](/concepts/jwt-claim/jti) | [**RFC 7519**: JSON Web Token (JWT)](/specs/IETF/RFC/7519 "JSON Web Token (JWT) is a compact, URL-safe means of representing claims to be transferred between two parties. The claims in a JWT are encoded as a JSON object that is used as the payload of a JSON Web Signature (JWS) structure or as the plaintext of a JSON Web Encryption (JWE) structure, enabling the claims to be digitally signed or integrity protected with a Message Authentication Code (MAC) and/or encrypted.")
 [`nbf`](/concepts/jwt-claim/nbf) | [**RFC 7519**: JSON Web Token (JWT)](/specs/IETF/RFC/7519 "JSON Web Token (JWT) is a compact, URL-safe means of representing claims to be transferred between two parties. The claims in a JWT are encoded as a JSON object that is used as the payload of a JSON Web Signature (JWS) structure or as the plaintext of a JSON Web Encryption (JWE) structure, enabling the claims to be digitally signed or integrity protected with a Message Authentication Code (MAC) and/or encrypted.")
 [`sub`](/concepts/jwt-claim/sub) | [**RFC 7519**: JSON Web Token (JWT)](/specs/IETF/RFC/7519 "JSON Web Token (JWT) is a compact, URL-safe means of representing claims to be transferred between two parties. The claims in a JWT are encoded as a JSON object that is used as the payload of a JSON Web Signature (JWS) structure or as the plaintext of a JSON Web Encryption (JWE) structure, enabling the claims to be digitally signed or integrity protected with a Message Authentication Code (MAC) and/or encrypted.")
+
+<br/>
+<hr/>
+
+<p style="float : left"><a href="jwt-claims.json" title="JSON representing all values for this Web Concept">JSON</a></p>

@@ -14,3 +14,8 @@ JWT Confirmation Method | Specification
 [`jwe`](/concepts/jwt-confirmation-method/jwe) | [**RFC 7800**: Proof-of-Possession Key Semantics for JSON Web Tokens (JWTs)](/specs/IETF/RFC/7800 "This specification describes how to declare in a JSON Web Token (JWT) that the presenter of the JWT possesses a particular proof-of-possession key and how the recipient can cryptographically confirm proof of possession of the key by the presenter. Being able to prove possession of a key is also sometimes described as the presenter being a holder-of-key.")
 [`jwk`](/concepts/jwt-confirmation-method/jwk) | [**RFC 7800**: Proof-of-Possession Key Semantics for JSON Web Tokens (JWTs)](/specs/IETF/RFC/7800 "This specification describes how to declare in a JSON Web Token (JWT) that the presenter of the JWT possesses a particular proof-of-possession key and how the recipient can cryptographically confirm proof of possession of the key by the presenter. Being able to prove possession of a key is also sometimes described as the presenter being a holder-of-key.")
 [`kid`](/concepts/jwt-confirmation-method/kid) | [**RFC 7800**: Proof-of-Possession Key Semantics for JSON Web Tokens (JWTs)](/specs/IETF/RFC/7800 "This specification describes how to declare in a JSON Web Token (JWT) that the presenter of the JWT possesses a particular proof-of-possession key and how the recipient can cryptographically confirm proof of possession of the key by the presenter. Being able to prove possession of a key is also sometimes described as the presenter being a holder-of-key.")
+
+<br/>
+<hr/>
+
+<p style="float : left"><a href="jwt-confirmation-methods.json" title="JSON representing all values for this Web Concept">JSON</a></p>
