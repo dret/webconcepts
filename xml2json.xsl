@@ -6,11 +6,14 @@
     <xsl:template name="xml2json">
         <xsl:result-document href="{$concepts-dir}/concepts.json" format="json">
             <xsl:variable name="concepts-json">
-                <map>
+                <array>
                     <xsl:for-each select="$concepts/concepts/concept">
                         <xsl:sort select="@id"/>
                         <xsl:variable name="concept" select="."/>
-                        <map key="{@id}">
+                        <map>
+                            <string key="concept">
+                                <xsl:value-of select="@id"/>
+                            </string>
                             <string key="id">
                                 <xsl:value-of select="concat('http://webconcepts.info/', $concepts-dir, '/', filename-plural)"/>
                             </string>
@@ -31,7 +34,7 @@
                             </array>
                         </map>
                     </xsl:for-each>
-                </map>
+                </array>
             </xsl:variable>
             <xsl:value-of select="xml-to-json($concepts-json)"/>
         </xsl:result-document>
