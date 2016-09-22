@@ -9,30 +9,9 @@
                 <array>
                     <xsl:for-each select="$concepts/concepts/concept">
                         <xsl:sort select="@id"/>
-                        <xsl:variable name="concept" select="."/>
-                        <map>
-                            <string key="concept">
-                                <xsl:value-of select="@id"/>
-                            </string>
-                            <string key="id">
-                                <xsl:value-of select="concat('http://webconcepts.info/', $concepts-dir, '/', filename-plural)"/>
-                            </string>
-                            <string key="name-singular">
-                                <xsl:value-of select="title-singular"/>
-                            </string>
-                            <string key="name-plural">
-                                <xsl:value-of select="title-plural"/>
-                            </string>
-                            <array key="values">
-                                <xsl:for-each select="distinct-values($allspecs//*[local-name() eq $concept/@id]/@def)">
-                                    <xsl:sort select="."/>
-                                    <xsl:call-template name="concept-value-json">
-                                        <xsl:with-param name="concept-value" select="."/>
-                                        <xsl:with-param name="concept" select="$concept"/>
-                                    </xsl:call-template>
-                                </xsl:for-each>
-                            </array>
-                        </map>
+                        <xsl:call-template name="concept-values-json">
+                            <xsl:with-param name="concept" select="."/>
+                        </xsl:call-template>
                     </xsl:for-each>
                 </array>
             </xsl:variable>
@@ -178,6 +157,32 @@
                             <xsl:value-of select="concat('http://webconcepts.info/', $specs-dir, '/', $secondary/../@id, '/', $secondary/@id, '/', $id)"/>
                         </string>
                     </map>
+                </xsl:for-each>
+            </array>
+        </map>
+    </xsl:template>
+    <xsl:template name="concept-values-json">
+        <xsl:param name="concept"/>
+        <map>
+            <string key="concept">
+                <xsl:value-of select="@id"/>
+            </string>
+            <string key="id">
+                <xsl:value-of select="concat('http://webconcepts.info/', $concepts-dir, '/', filename-plural)"/>
+            </string>
+            <string key="name-singular">
+                <xsl:value-of select="title-singular"/>
+            </string>
+            <string key="name-plural">
+                <xsl:value-of select="title-plural"/>
+            </string>
+            <array key="values">
+                <xsl:for-each select="distinct-values($allspecs//*[local-name() eq $concept/@id]/@def)">
+                    <xsl:sort select="."/>
+                    <xsl:call-template name="concept-value-json">
+                        <xsl:with-param name="concept-value" select="."/>
+                        <xsl:with-param name="concept" select="$concept"/>
+                    </xsl:call-template>
                 </xsl:for-each>
             </array>
         </map>
