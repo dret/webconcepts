@@ -33,6 +33,16 @@
                 </xsl:result-document>
             </xsl:for-each>
         </xsl:for-each>
+        <xsl:for-each select="$concepts/concepts/concept">
+            <xsl:variable name="concept-values-json">
+                <xsl:call-template name="concept-values-json">
+                    <xsl:with-param name="concept" select="."/>
+                </xsl:call-template>
+            </xsl:variable>
+            <xsl:result-document href="{$concepts-dir}/{filename-plural}.json" format="json">
+                <xsl:value-of select="xml-to-json($concept-values-json)"/>
+            </xsl:result-document>
+        </xsl:for-each>
         <xsl:result-document href="{$specs-dir}/specs.json" format="json">
             <xsl:text>{&#xa;</xsl:text>
             <xsl:for-each-group select="$allspecs/service" group-by="@primary">
