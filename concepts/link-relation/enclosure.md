@@ -9,5 +9,5 @@ description: "The value \"enclosure\" signifies that the IRI in the value of the
 <br/>
 <hr/>
 
-<p style="float : left"><a href="enclosure.json" title="JSON representing this particular Web Concept">JSON</a></p>
+<p style="float : left"><a href="enclosure.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../link-relations">Link Relations</a> | <a href="../">Web Concepts</a> )</p>

@@ -9,5 +9,5 @@ description: "The ACL method modifies the access control list (which can be read
 <br/>
 <hr/>
 
-<p style="float : left"><a href="ACL.json" title="JSON representing this particular Web Concept">JSON</a></p>
+<p style="float : left"><a href="ACL.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-methods">HTTP Request Methods</a> | <a href="../">Web Concepts</a> )</p>

@@ -9,5 +9,5 @@ description: "A MKACTIVITY request creates a new activity resource. A server MAY
 <br/>
 <hr/>
 
-<p style="float : left"><a href="MKACTIVITY.json" title="JSON representing this particular Web Concept">JSON</a></p>
+<p style="float : left"><a href="MKACTIVITY.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-methods">HTTP Request Methods</a> | <a href="../">Web Concepts</a> )</p>

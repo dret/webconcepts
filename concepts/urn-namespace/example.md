@@ -9,5 +9,5 @@ description: "The \"example\" NID is intended to provide a clean, easily recogni
 <br/>
 <hr/>
 
-<p style="float : left"><a href="example.json" title="JSON representing this particular Web Concept">JSON</a></p>
+<p style="float : left"><a href="example.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../urn-namespaces">URN Namespaces</a> | <a href="../">Web Concepts</a> )</p>

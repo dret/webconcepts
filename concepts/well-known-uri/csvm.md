@@ -9,5 +9,5 @@ description: "If the user has not supplied a metadata file as overriding metadat
 <br/>
 <hr/>
 
-<p style="float : left"><a href="csvm.json" title="JSON representing this particular Web Concept">JSON</a></p>
+<p style="float : left"><a href="csvm.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../well-known-uris">Well-Known URIs</a> | <a href="../">Web Concepts</a> )</p>

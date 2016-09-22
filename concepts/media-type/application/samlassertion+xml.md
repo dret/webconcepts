@@ -9,5 +9,5 @@ description: "This document defines a MIME media type for use with the XML seria
 <br/>
 <hr/>
 
-<p style="float : left"><a href="application/samlassertion+xml.json" title="JSON representing this particular Web Concept">JSON</a></p>
+<p style="float : left"><a href="application/samlassertion+xml.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../media-types">Media Types</a> | <a href="../">Web Concepts</a> )</p>

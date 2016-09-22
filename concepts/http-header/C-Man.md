@@ -9,5 +9,5 @@ description: "A mandatory extension declaration indicates that the ultimate reci
 <br/>
 <hr/>
 
-<p style="float : left"><a href="C-Man.json" title="JSON representing this particular Web Concept">JSON</a></p>
+<p style="float : left"><a href="C-Man.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

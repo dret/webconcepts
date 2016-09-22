@@ -9,5 +9,5 @@ description: "The \"handling=strict\" and \"handling=lenient\" preferences indic
 <br/>
 <hr/>
 
-<p style="float : left"><a href="handling.json" title="JSON representing this particular Web Concept">JSON</a></p>
+<p style="float : left"><a href="handling.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-preferences">HTTP Preferences</a> | <a href="../">Web Concepts</a> )</p>

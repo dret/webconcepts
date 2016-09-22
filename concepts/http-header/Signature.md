@@ -9,5 +9,5 @@ description: "The \"signature\" HTTP Header is based on the model that the sende
 <br/>
 <hr/>
 
-<p style="float : left"><a href="Signature.json" title="JSON representing this particular Web Concept">JSON</a></p>
+<p style="float : left"><a href="Signature.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

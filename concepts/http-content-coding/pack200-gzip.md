@@ -9,5 +9,5 @@ description: "The Pack200 format can decrease the size of a Java application by 
 <br/>
 <hr/>
 
-<p style="float : left"><a href="pack200-gzip.json" title="JSON representing this particular Web Concept">JSON</a></p>
+<p style="float : left"><a href="pack200-gzip.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-content-codings">HTTP Content Codings</a> | <a href="../">Web Concepts</a> )</p>

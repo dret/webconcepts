@@ -9,5 +9,5 @@ description: "The \"iss\" (issuer) claim identifies the principal that issued th
 <br/>
 <hr/>
 
-<p style="float : left"><a href="iss.json" title="JSON representing this particular Web Concept">JSON</a></p>
+<p style="float : left"><a href="iss.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../jwt-claims">JSON Web Token Claims</a> | <a href="../">Web Concepts</a> )</p>
