@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Individual JSON for each Concept"
+title:  "Individual JSON for each Concept Value"
 date:   2016-09-17
 categories: update
 ---
