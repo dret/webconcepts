@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- The initial HTTP Header registry. -->
+<service primary="IETF" secondary="RFC" id="4229">
+    <title>HTTP Header Field Registrations</title>
+    <documentation source="https://tools.ietf.org/html/rfc4229">HTTP/1.0 and HTTP/1.1 define protocol constructs (respectively, the HTTP-header and message-header BNF rules) that are used as message headers.  These specifications also define a number of HTTP headers themselves, and they provide for extension through the use of new field-names. This document defines the initial contents of an IANA registry that catalogs permanent HTTP header field-names, and of an IANA repository that catalogs provisional HTTP header field-names.  Both are operated according to Registration Procedures for Message Header Fields.</documentation>
+    <http-header def="Title">
+        <documentation source="https://tools.ietf.org/html/rfc4229#section-2.2.11">The title of the document. Not part of the document. Isomorphic with the &lt;title&gt; element in HTML.</documentation>
+    </http-header>
+</service>
