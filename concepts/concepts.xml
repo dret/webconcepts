@@ -112,4 +112,11 @@
         <filename-plural>urn-namespaces</filename-plural>
         <iana-registry>http://www.iana.org/assignments/urn-namespaces/urn-namespaces.xhtml</iana-registry>
     </concept>
+    <concept id="oauth-token-type-hint">
+        <title-singular>OAuth Token Type Hint</title-singular>
+        <title-plural>OAuth Token Type Hints</title-plural>
+        <filename-singular>oauth-token-type-hint</filename-singular>
+        <filename-plural>oauth-token-type-hints</filename-plural>
+        <iana-registry>http://www.iana.org/assignments/oauth-parameters/oauth-parameters.xhtml#token-type-hint</iana-registry>
+    </concept>
 </concepts>
