@@ -1138,6 +1138,16 @@
       "abstract": "This document defines a Uniform Resource Name (URN) namespace identifier enabling the generation of URNs that are appropriate for use in documentation and in URN-related testing and experimentation.",
       "concepts": [{
        "urn-namespace": "example" }]}},{
+     "7009": {
+      "id": "http://webconcepts.info/specs/IETF/RFC/7009",
+      "title": "OAuth 2.0 Token Revocation",
+      "name": "RFC 7009",
+      "URI": "urn:ietf:rfc:7009",
+      "URL": "http://tools.ietf.org/html/rfc7009",
+      "abstract": "This document proposes an additional endpoint for OAuth authorization servers, which allows clients to notify the authorization server that a previously obtained refresh or access token is no longer needed. This allows the authorization server to clean up security credentials.  A revocation request will invalidate the actual token and, if applicable, other tokens based on the same authorization grant.",
+      "concepts": [{
+       "oauth-token-type-hint": "access_token" }, {
+       "oauth-token-type-hint": "refresh_token" }]}},{
      "7030": {
       "id": "http://webconcepts.info/specs/IETF/RFC/7030",
       "title": "Enrollment over Secure Transport",

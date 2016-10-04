@@ -1,0 +1,80 @@
+---
+layout:      page
+title:       "OAuth 2.0 Token Revocation"
+description: "This document proposes an additional endpoint for OAuth authorization servers, which
+allows clients to notify the authorization server that a previously obtained refresh
+or access token is no longer needed. This allows the authorization server to clean
+up security credentials.  A revocation request will invalidate the actual token and,
+if applicable, other tokens based on the same authorization grant."
+---
+
+<table cellpadding="5">
+   <tr>
+      <th valign="top" align="right">
+         <em>Document Name:</em>
+      </th>
+      <td>RFC 7009</td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Document URI:</em>
+      </th>
+      <td>
+         <code>urn:ietf:rfc:7009</code>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Online Version:</em>
+      </th>
+      <td>
+         <code>
+            <a href="http://tools.ietf.org/html/rfc7009">http://tools.ietf.org/html/rfc7009</a>
+         </code>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Organization:</em>
+      </th>
+      <td>
+         <a href="../" title="List of specification series by this organization">Internet Engineering Task Force (IETF)</a>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Series:</em>
+      </th>
+      <td>
+         <a href="./" title="List of specifications in this series">Request for Comments (RFC)</a>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Abstract:</em>
+      </th>
+      <td>This document proposes an additional endpoint for OAuth authorization servers, which
+         allows clients to notify the authorization server that a previously obtained refresh
+         or access token is no longer needed. This allows the authorization server to clean
+         up security credentials.  A revocation request will invalidate the actual token and,
+         if applicable, other tokens based on the same authorization grant.
+      </td>
+   </tr>
+</table>
+<br></br>
+<hr></hr>
+<h2 id="concepts">Specified Web Concepts:</h2>
+<h3 id="oauth-token-type-hint">OAuth Token Type Hints</h3>
+<code>
+   <a href="/concepts/oauth-token-type-hint/access_token" title="A hint about the type of the token submitted for revocation. access_token identifies an access token as defined in RFC 6749.">access_token</a>
+</code>, 
+<code>
+   <a href="/concepts/oauth-token-type-hint/refresh_token" title="A hint about the type of the token submitted for revocation. refresh_token identifies an refresh token as defined in RFC 6749.">refresh_token</a>
+</code>
+<br></br>
+<hr></hr>
+<p style="text-align: right">Return to ( 
+   <a href="./">Series</a> | 
+   <a href="../">Organization</a> | 
+   <a href="../../">all Specifications</a> )
+</p>
