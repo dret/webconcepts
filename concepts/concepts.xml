@@ -119,4 +119,11 @@
         <filename-plural>oauth-token-type-hints</filename-plural>
         <iana-registry>http://www.iana.org/assignments/oauth-parameters/oauth-parameters.xhtml#token-type-hint</iana-registry>
     </concept>
+    <concept id="pkce-code-challenge-method">
+        <title-singular>PKCE Code Challenge Method</title-singular>
+        <title-plural>PKCE Code Challenge Methods</title-plural>
+        <filename-singular>pkce-code-challenge-method</filename-singular>
+        <filename-plural>pkce-code-challenge-methods</filename-plural>
+        <iana-registry>http://www.iana.org/assignments/oauth-parameters/oauth-parameters.xhtml#pkce-code-challenge-method</iana-registry>
+    </concept>
 </concepts>

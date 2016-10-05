@@ -3,7 +3,7 @@ layout: page
 title:  "Web Concepts: Overview"
 ---
 
-This is an overview of 17 Web Concepts (with a total of 524 distinct values) that have been harvested from all [available specifications](/specs):
+This is an overview of 18 Web Concepts (with a total of 524 distinct values) that have been harvested from all [available specifications](/specs):
 
 * [HTTP Cache Directives](http-cache-directives) (14)
 * [HTTP Content Codings](http-content-codings) (10)
@@ -19,6 +19,7 @@ This is an overview of 17 Web Concepts (with a total of 524 distinct values) tha
 * [Link Relations](link-relations) (84)
 * [Media Types](media-types) (72)
 * [OAuth Token Type Hints](oauth-token-type-hints) (2)
+* [PKCE Code Challenge Methods](pkce-code-challenge-methods) (0)
 * [URI Schemes](uri-schemes) (20)
 * [URN Namespaces](urn-namespaces) (8)
 * [Well-Known URIs](well-known-uris) (19)

@@ -1580,6 +1580,15 @@
       "abstract": "This document proposes the use of OAuth 2.0 to obtain and validate ephemeral tokens that can be used for Session Traversal Utilities for NAT (STUN) authentication. The usage of ephemeral tokens ensures that access to a STUN server can be controlled even if the tokens are compromised.",
       "concepts": [{
        "well-known-uri": "stun-key" }]}},{
+     "7635": {
+      "id": "http://webconcepts.info/specs/IETF/RFC/7635",
+      "title": "Session Traversal Utilities for NAT (STUN) Extension",
+      "name": "RFC 7635",
+      "URI": "urn:ietf:rfc:7635",
+      "URL": "http://tools.ietf.org/html/rfc7635",
+      "abstract": "This document proposes the use of OAuth 2.0 to obtain and validate ephemeral tokens that can be used for Session Traversal Utilities for NAT (STUN) authentication. The usage of ephemeral tokens ensures that access to a STUN server can be controlled even if the tokens are compromised.",
+      "concepts": [{
+       "well-known-uri": "stun-key" }]}},{
      "7639": {
       "id": "http://webconcepts.info/specs/IETF/RFC/7639",
       "title": "The ALPN HTTP Header Field",
