@@ -1144,7 +1144,7 @@
       "name": "RFC 7009",
       "URI": "urn:ietf:rfc:7009",
       "URL": "http://tools.ietf.org/html/rfc7009",
-      "abstract": "This document proposes an additional endpoint for OAuth authorization servers, which allows clients to notify the authorization server that a previously obtained refresh or access token is no longer needed. This allows the authorization server to clean up security credentials.  A revocation request will invalidate the actual token and, if applicable, other tokens based on the same authorization grant.",
+      "abstract": "This document proposes an additional endpoint for OAuth authorization servers, which allows clients to notify the authorization server that a previously obtained refresh or access token is no longer needed. This allows the authorization server to clean up security credentials. A revocation request will invalidate the actual token and, if applicable, other tokens based on the same authorization grant.",
       "concepts": [{
        "oauth-token-type-hint": "access_token" }, {
        "oauth-token-type-hint": "refresh_token" }]}},{
@@ -1580,15 +1580,16 @@
       "abstract": "This document proposes the use of OAuth 2.0 to obtain and validate ephemeral tokens that can be used for Session Traversal Utilities for NAT (STUN) authentication. The usage of ephemeral tokens ensures that access to a STUN server can be controlled even if the tokens are compromised.",
       "concepts": [{
        "well-known-uri": "stun-key" }]}},{
-     "7635": {
-      "id": "http://webconcepts.info/specs/IETF/RFC/7635",
-      "title": "Session Traversal Utilities for NAT (STUN) Extension",
-      "name": "RFC 7635",
-      "URI": "urn:ietf:rfc:7635",
-      "URL": "http://tools.ietf.org/html/rfc7635",
-      "abstract": "This document proposes the use of OAuth 2.0 to obtain and validate ephemeral tokens that can be used for Session Traversal Utilities for NAT (STUN) authentication. The usage of ephemeral tokens ensures that access to a STUN server can be controlled even if the tokens are compromised.",
+     "7636": {
+      "id": "http://webconcepts.info/specs/IETF/RFC/7636",
+      "title": "Proof Key for Code Exchange by OAuth Public Clients",
+      "name": "RFC 7636",
+      "URI": "urn:ietf:rfc:7636",
+      "URL": "http://tools.ietf.org/html/rfc7636",
+      "abstract": "OAuth 2.0 public clients utilizing the Authorization Code Grant are susceptible to the authorization code interception attack.  This specification describes the attack as well as a technique to mitigate against the threat through the use of Proof Key for Code Exchange (PKCE, pronounced \"pixy\").",
       "concepts": [{
-       "well-known-uri": "stun-key" }]}},{
+       "pkce-code-challenge-method": "S256" }, {
+       "pkce-code-challenge-method": "plain" }]}},{
      "7639": {
       "id": "http://webconcepts.info/specs/IETF/RFC/7639",
       "title": "The ALPN HTTP Header Field",
