@@ -1036,6 +1036,16 @@
       "concepts": [{
        "media-type": "application/gzip" }, {
        "media-type": "application/zlib" }]}},{
+     "6749": {
+      "id": "http://webconcepts.info/specs/IETF/RFC/6749",
+      "title": "The OAuth 2.0 Authorization Framework",
+      "name": "RFC 6749",
+      "URI": "urn:ietf:rfc:6749",
+      "URL": "http://tools.ietf.org/html/rfc6749",
+      "abstract": "The OAuth 2.0 authorization framework enables a third-party application to obtain limited access to an HTTP service, either on behalf of a resource owner by orchestrating an approval interaction between the resource owner and the HTTP service, or by allowing the third-party application to obtain access on its own behalf. This specification replaces and obsoletes the OAuth 1.0 protocol described in RFC 5849.",
+      "concepts": [{
+       "oauth-authorization-endpoint-response-type": "code" }, {
+       "oauth-authorization-endpoint-response-type": "token" }]}},{
      "6764": {
       "id": "http://webconcepts.info/specs/IETF/RFC/6764",
       "title": "Locating Services for Calendaring Extensions to WebDAV (CalDAV) and vCard Extensions to WebDAV (CardDAV)",
