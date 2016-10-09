@@ -1531,7 +1531,8 @@
        "jwt-claim": "jti" }, {
        "jwt-claim": "nbf" }, {
        "jwt-claim": "sub" }, {
-       "media-type": "application/jwt" }]}},{
+       "media-type": "application/jwt" }, {
+       "oauth-uri": "urn:ietf:params:oauth:token-type:jwt" }]}},{
      "7522": {
       "id": "http://webconcepts.info/specs/IETF/RFC/7522",
       "title": "Security Assertion Markup Language (SAML) 2.0 Profile for OAuth 2.0 Client Authentication and Authorization Grants",

@@ -26,4 +26,7 @@
     <jwt-claim def="jti">
         <documentation source="http://tools.ietf.org/html/rfc7519#section-4.1.7">The "jti" (JWT ID) claim provides a unique identifier for the JWT. The identifier value MUST be assigned in a manner that ensures that there is a negligible probability that the same value will be accidentally assigned to a different data object; if the application uses multiple issuers, collisions MUST be prevented among values produced by different issuers as well.</documentation>
     </jwt-claim>
+    <oauth-uri def="urn:ietf:params:oauth:token-type:jwt">
+        <documentation source="http://tools.ietf.org/html/rfc7519#section-9">This specification registers the URN "urn:ietf:params:oauth:token-type:jwt" for use by applications that declare content types using URIs (rather than, for instance, media types) to indicate that the content referred to is a JWT.</documentation>
+    </oauth-uri>
 </service>
