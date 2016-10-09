@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<service primary="IETF" secondary="RFC" id="7522">
+    <title>Security Assertion Markup Language (SAML) 2.0 Profile for OAuth 2.0 Client Authentication and Authorization Grants</title>
+    <documentation source="http://tools.ietf.org/html/rfc7522">This specification defines the use of a Security Assertion Markup Language (SAML) 2.0 Bearer Assertion as a means for requesting an OAuth 2.0 access token as well as for client authentication.</documentation>
+    <oauth-uri def="urn:ietf:params:oauth:grant-type:saml2-bearer">
+        <documentation source="http://tools.ietf.org/html/rfc7522#section-2.1">To use a SAML Bearer Assertion as an authorization grant, the client uses an access token request as defined in Section 4 of the OAuth Assertion Framework (RFC 7521). The value of the "grant_type" parameter is "urn:ietf:params:oauth:grant-type:saml2-bearer".</documentation>
+    </oauth-uri>
+    <oauth-uri def="urn:ietf:params:oauth:client-assertion-type:saml2-bearer">
+        <documentation source="http://tools.ietf.org/html/rfc7522#section-2.2">To use a SAML Bearer Assertion for client authentication, the client uses the following parameter values and encodings. The value of the "client_assertion_type" parameter is "urn:ietf:params:oauth:client-assertion-type:saml2-bearer".</documentation>
+    </oauth-uri>
+</service>
