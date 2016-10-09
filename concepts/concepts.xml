@@ -112,6 +112,13 @@
         <filename-plural>urn-namespaces</filename-plural>
         <iana-registry>http://www.iana.org/assignments/urn-namespaces/urn-namespaces.xhtml</iana-registry>
     </concept>
+    <concept id="oauth-access-token-type">
+        <title-singular>OAuth Access Token Type</title-singular>
+        <title-plural>OAuth Access Token Types</title-plural>
+        <filename-singular>oauth-access-token-type</filename-singular>
+        <filename-plural>oauth-access-token-types</filename-plural>
+        <iana-registry>http://www.iana.org/assignments/oauth-parameters/oauth-parameters.xhtml#token-types</iana-registry>
+    </concept>
     <concept id="oauth-authorization-endpoint-response-type">
         <title-singular>OAuth Authorization Endpoint Response Type</title-singular>
         <title-plural>OAuth Authorization Endpoint Response Types</title-plural>
@@ -119,12 +126,54 @@
         <filename-plural>oauth-authorization-endpoint-response-types</filename-plural>
         <iana-registry>http://www.iana.org/assignments/oauth-parameters/oauth-parameters.xhtml#endpoint</iana-registry>
     </concept>
+    <concept id="oauth-client-metadatum">
+        <title-singular>OAuth Dynamic Client Registration Metadatum</title-singular>
+        <title-plural>OAuth Dynamic Client Registration Metadata</title-plural>
+        <filename-singular>oauth-client-metadatum</filename-singular>
+        <filename-plural>oauth-client-metadata</filename-plural>
+        <iana-registry>http://www.iana.org/assignments/oauth-parameters/oauth-parameters.xhtml#client-metadata</iana-registry>
+    </concept>
+    <concept id="oauth-extension-error">
+        <title-singular>OAuth Extensions Error</title-singular>
+        <title-plural>OAuth Extensions Errors</title-plural>
+        <filename-singular>oauth-extension-error</filename-singular>
+        <filename-plural>oauth-extension-errors</filename-plural>
+        <iana-registry>http://www.iana.org/assignments/oauth-parameters/oauth-parameters.xhtml#extensions-error</iana-registry>
+    </concept>
+    <concept id="oauth-parameter">
+        <title-singular>OAuth Parameter</title-singular>
+        <title-plural>OAuth Parameters</title-plural>
+        <filename-singular>oauth-parameter</filename-singular>
+        <filename-plural>oauth-parameters</filename-plural>
+        <iana-registry>http://www.iana.org/assignments/oauth-parameters/oauth-parameters.xhtml#parameters</iana-registry>
+    </concept>
+    <concept id="oauth-token-endpoint-auth-method">
+        <title-singular>OAuth Token Endpoint Authentication Method</title-singular>
+        <title-plural>OAuth Token Endpoint Authentication Methods</title-plural>
+        <filename-singular>oauth-token-endpoint-auth-method</filename-singular>
+        <filename-plural>oauth-token-endpoint-auth-methods</filename-plural>
+        <iana-registry>http://www.iana.org/assignments/oauth-parameters/oauth-parameters.xhtml#token-endpoint-auth-method</iana-registry>
+    </concept>
+    <concept id="oauth-token-introspection-response">
+        <title-singular>OAuth Token Introspection Response</title-singular>
+        <title-plural>OAuth Token Introspection Responses</title-plural>
+        <filename-singular>oauth-token-introspection-response</filename-singular>
+        <filename-plural>oauth-token-introspection-responses</filename-plural>
+        <iana-registry>http://www.iana.org/assignments/oauth-parameters/oauth-parameters.xhtml#token-introspection-response</iana-registry>
+    </concept>
     <concept id="oauth-token-type-hint">
         <title-singular>OAuth Token Type Hint</title-singular>
         <title-plural>OAuth Token Type Hints</title-plural>
         <filename-singular>oauth-token-type-hint</filename-singular>
         <filename-plural>oauth-token-type-hints</filename-plural>
         <iana-registry>http://www.iana.org/assignments/oauth-parameters/oauth-parameters.xhtml#token-type-hint</iana-registry>
+    </concept>
+    <concept id="oauth-uri">
+        <title-singular>OAuth URI</title-singular>
+        <title-plural>OAuth URIs</title-plural>
+        <filename-singular>oauth-uri</filename-singular>
+        <filename-plural>oauth-uris</filename-plural>
+        <iana-registry>http://www.iana.org/assignments/oauth-parameters/oauth-parameters.xhtml#uri</iana-registry>
     </concept>
     <concept id="pkce-code-challenge-method">
         <title-singular>PKCE Code Challenge Method</title-singular>
