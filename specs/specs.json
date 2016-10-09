@@ -1532,6 +1532,16 @@
        "jwt-claim": "nbf" }, {
        "jwt-claim": "sub" }, {
        "media-type": "application/jwt" }]}},{
+     "7523": {
+      "id": "http://webconcepts.info/specs/IETF/RFC/7523",
+      "title": "JSON Web Token (JWT) Profile for OAuth 2.0 Client Authentication and Authorization Grants",
+      "name": "RFC 7523",
+      "URI": "urn:ietf:rfc:7523",
+      "URL": "http://tools.ietf.org/html/rfc7523",
+      "abstract": "This specification defines the use of a JSON Web Token (JWT) Bearer Token as a means for requesting an OAuth 2.0 access token as well as for client authentication.",
+      "concepts": [{
+       "oauth-uri": "urn:ietf:params:oauth:client-assertion-type:jwt-bearer" }, {
+       "oauth-uri": "urn:ietf:params:oauth:grant-type:jwt-bearer" }]}},{
      "7538": {
       "id": "http://webconcepts.info/specs/IETF/RFC/7538",
       "title": "The Hypertext Transfer Protocol Status Code 308 (Permanent Redirect)",
