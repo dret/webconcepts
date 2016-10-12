@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/well-known-uri/hoba"
 title:       "Well-Known URI: hoba"
 description: "HOBA-http uses a well-known URI \"hoba\" as a base URI for performing many tasks: \"https://www.example.com/.well-known/hoba\". These URIs are based on the name of the host that the HTTP client is accessing."
 ---
@@ -9,5 +10,5 @@ description: "HOBA-http uses a well-known URI \"hoba\" as a base URI for perform
 <br/>
 <hr/>
 
-<p style="float : left"><a href="hoba.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./hoba.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../well-known-uris">Well-Known URIs</a> | <a href="../">Web Concepts</a> )</p>

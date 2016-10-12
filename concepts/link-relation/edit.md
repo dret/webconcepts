@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/link-relation/edit"
 title:       "Link Relation: edit"
 description: "The value of \"edit\" specifies that the value of the href attribute is the IRI of an editable Member Entry. When appearing within an atom:entry, the href IRI can be used to retrieve, update, and delete the Resource represented by that Entry. An atom:entry MUST NOT contain more than one \"edit\" link relation."
 ---
@@ -9,5 +10,5 @@ description: "The value of \"edit\" specifies that the value of the href attribu
 <br/>
 <hr/>
 
-<p style="float : left"><a href="edit.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./edit.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../link-relations">Link Relations</a> | <a href="../">Web Concepts</a> )</p>

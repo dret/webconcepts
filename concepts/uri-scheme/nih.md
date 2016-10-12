@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/uri-scheme/nih"
 title:       "URI Scheme: nih"
 description: "Fields in nih URIs are separated by a semicolon (;) character. The first field is a hash algorithm string, as in the ni URI format."
 ---
@@ -9,5 +10,5 @@ description: "Fields in nih URIs are separated by a semicolon (;) character. The
 <br/>
 <hr/>
 
-<p style="float : left"><a href="nih.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./nih.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../uri-schemes">URI Schemes</a> | <a href="../">Web Concepts</a> )</p>

@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/link-relation/index"
 title:       "Link Relation: index"
 description: "Refers to a document providing an index for the current document."
 ---
@@ -9,5 +10,5 @@ description: "Refers to a document providing an index for the current document."
 <br/>
 <hr/>
 
-<p style="float : left"><a href="index.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./index.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../link-relations">Link Relations</a> | <a href="../">Web Concepts</a> )</p>

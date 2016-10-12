@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/Retry-After"
 title:       "HTTP Header Field: Retry-After"
 description: "Servers send the \"Retry-After\" header field to indicate how long the user agent ought to wait before making a follow-up request. When sent with a 503 (Service Unavailable) response, Retry-After indicates how long the service is expected to be unavailable to the client. When sent with any 3xx (Redirection) response, Retry-After indicates the minimum time that the user agent is asked to wait before issuing the redirected request."
 ---
@@ -9,5 +10,5 @@ description: "Servers send the \"Retry-After\" header field to indicate how long
 <br/>
 <hr/>
 
-<p style="float : left"><a href="Retry-After.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./Retry-After.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

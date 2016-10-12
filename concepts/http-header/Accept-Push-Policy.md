@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/Accept-Push-Policy"
 title:       "HTTP Header Field: Accept-Push-Policy"
 description: "A client can express the desired push policy for a request by sending an \"Accept-Push-Policy\" header field in the request. The header field value contains the push policy that the client expects the server to use when processing the request."
 ---
@@ -9,5 +10,5 @@ description: "A client can express the desired push policy for a request by send
 <br/>
 <hr/>
 
-<p style="float : left"><a href="Accept-Push-Policy.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./Accept-Push-Policy.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

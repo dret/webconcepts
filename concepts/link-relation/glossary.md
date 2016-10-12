@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/link-relation/glossary"
 title:       "Link Relation: glossary"
 description: "Refers to a document providing a glossary of terms that pertain to the current document."
 ---
@@ -9,5 +10,5 @@ description: "Refers to a document providing a glossary of terms that pertain to
 <br/>
 <hr/>
 
-<p style="float : left"><a href="glossary.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./glossary.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../link-relations">Link Relations</a> | <a href="../">Web Concepts</a> )</p>

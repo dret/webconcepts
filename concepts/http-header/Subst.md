@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/Subst"
 title:       "HTTP Header Field: Subst"
 description: "The Subst response-header field MUST be used by a proxy to supply the URI of the original source of an entity-body, if the source is different from the client's Request-URI, and if the client's request included the \"inform\" directive in a SubOK request header field."
 ---
@@ -9,5 +10,5 @@ description: "The Subst response-header field MUST be used by a proxy to supply 
 <br/>
 <hr/>
 
-<p style="float : left"><a href="Subst.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./Subst.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

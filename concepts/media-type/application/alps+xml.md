@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/media-type/application/alps+xml"
 title:       "Media Type: application/alps+xml"
 description: "In the XML version of an ALPS document, the following ALPS properties always appear as XML elements: 'alps', 'doc', 'descriptor', and 'ext'. All other ALPS properties appear as XML attributes."
 ---
@@ -9,5 +10,5 @@ description: "In the XML version of an ALPS document, the following ALPS propert
 <br/>
 <hr/>
 
-<p style="float : left"><a href="application/alps+xml.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./application/alps+xml.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../media-types">Media Types</a> | <a href="../">Web Concepts</a> )</p>

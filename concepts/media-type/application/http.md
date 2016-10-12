@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/media-type/application/http"
 title:       "Media Type: application/http"
 description: "The application/http type can be used to enclose a pipeline of one or more HTTP request or response messages (not intermixed)."
 ---
@@ -9,5 +10,5 @@ description: "The application/http type can be used to enclose a pipeline of one
 <br/>
 <hr/>
 
-<p style="float : left"><a href="application/http.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./application/http.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../media-types">Media Types</a> | <a href="../">Web Concepts</a> )</p>

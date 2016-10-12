@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/Expires"
 title:       "HTTP Header Field: Expires"
 description: "The \"Expires\" header field gives the date/time after which the response is considered stale. The presence of an Expires field does not imply that the original resource will change or cease to exist at, before, or after that time."
 ---
@@ -9,5 +10,5 @@ description: "The \"Expires\" header field gives the date/time after which the r
 <br/>
 <hr/>
 
-<p style="float : left"><a href="Expires.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./Expires.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-cache-directive/private"
 title:       "HTTP Cache Directive: private"
 description: "The \"private\" response directive indicates that the response message is intended for a single user and MUST NOT be stored by a shared cache. A private cache MAY store the response and reuse it for later requests, even if the response would normally be non-cacheable."
 ---
@@ -9,5 +10,5 @@ description: "The \"private\" response directive indicates that the response mes
 <br/>
 <hr/>
 
-<p style="float : left"><a href="private.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./private.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-cache-directives">HTTP Cache Directives</a> | <a href="../">Web Concepts</a> )</p>

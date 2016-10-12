@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/link-relation/hosts"
 title:       "Link Relation: hosts"
 description: "The \"hosts\" relation type (from the verb \"to host\") indicates that the target URI is a resource hosted by the server (i.e., server hosts resource) indicated by the context URI. The target URI MUST be a relative URI of the context URI for this relation type."
 ---
@@ -9,5 +10,5 @@ description: "The \"hosts\" relation type (from the verb \"to host\") indicates 
 <br/>
 <hr/>
 
-<p style="float : left"><a href="hosts.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./hosts.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../link-relations">Link Relations</a> | <a href="../">Web Concepts</a> )</p>

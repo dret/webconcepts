@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/Set-Cookie2"
 title:       "HTTP Header Field: Set-Cookie2"
 description: "The origin server initiates a session, if it so desires. To do so, it returns an extra response header to the client, Set-Cookie2."
 ---
@@ -9,5 +10,5 @@ description: "The origin server initiates a session, if it so desires. To do so,
 <br/>
 <hr/>
 
-<p style="float : left"><a href="Set-Cookie2.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./Set-Cookie2.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

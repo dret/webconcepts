@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/If-Schedule-Tag-Match"
 title:       "HTTP Header Field: If-Schedule-Tag-Match"
 description: "The If-Schedule-Tag-Match request header field is used with a method to make it conditional. Clients can set this header to the value returned in the Schedule-Tag response header, or the CALDAV:schedule-tag property, of a scheduling object resource previously retrieved from the server to avoid overwriting \"consequential\" changes to the scheduling object resource."
 ---
@@ -9,5 +10,5 @@ description: "The If-Schedule-Tag-Match request header field is used with a meth
 <br/>
 <hr/>
 
-<p style="float : left"><a href="If-Schedule-Tag-Match.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./If-Schedule-Tag-Match.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

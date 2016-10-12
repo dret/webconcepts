@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/SubOK"
 title:       "HTTP Header Field: SubOK"
 description: "The SubOK request header field is used to provide directives from an end-client to a proxy cache regarding the possible substitution of an instance body from a cached response for one resource instance for the instance body of the resource instance specified by the client's request."
 ---
@@ -9,5 +10,5 @@ description: "The SubOK request header field is used to provide directives from 
 <br/>
 <hr/>
 
-<p style="float : left"><a href="SubOK.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./SubOK.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

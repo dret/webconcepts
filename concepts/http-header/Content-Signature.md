@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/Content-Signature"
 title:       "HTTP Header Field: Content-Signature"
 description: "The Content-Signature header field carries a signature of the payload body of an HTTP message. This allows for content to be protected from modification."
 ---
@@ -9,5 +10,5 @@ description: "The Content-Signature header field carries a signature of the payl
 <br/>
 <hr/>
 
-<p style="float : left"><a href="Content-Signature.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./Content-Signature.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

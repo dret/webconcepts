@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/Forwarded"
 title:       "HTTP Header Field: Forwarded"
 description: "The \"Forwarded\" HTTP header field is an OPTIONAL header field that, when used, contains a list of parameter-identifier pairs that disclose information that is altered or lost when a proxy is involved in the path of the request."
 ---
@@ -9,5 +10,5 @@ description: "The \"Forwarded\" HTTP header field is an OPTIONAL header field th
 <br/>
 <hr/>
 
-<p style="float : left"><a href="Forwarded.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./Forwarded.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

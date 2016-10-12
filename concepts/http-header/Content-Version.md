@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/Content-Version"
 title:       "HTTP Header Field: Content-Version"
 description: "The Content-Version entity-header field defines the version tag associated with a rendition of an evolving entity. Together with the Derived-From field, it allows a group of people to work simultaneously on the creation of a work as an iterative process. The field should be used to allow evolution of a particular work along a single path rather than derived works or renditions in different representations."
 ---
@@ -9,5 +10,5 @@ description: "The Content-Version entity-header field defines the version tag as
 <br/>
 <hr/>
 
-<p style="float : left"><a href="Content-Version.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./Content-Version.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

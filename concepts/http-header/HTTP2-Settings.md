@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/HTTP2-Settings"
 title:       "HTTP Header Field: HTTP2-Settings"
 description: "A request that upgrades from HTTP/1.1 to HTTP/2 MUST include exactly one \"HTTP2-Settings\" header field. The \"HTTP2-Settings\" header field is a connection-specific header field that includes parameters that govern the HTTP/2 connection, provided in anticipation of the server accepting the request to upgrade."
 ---
@@ -9,5 +10,5 @@ description: "A request that upgrades from HTTP/1.1 to HTTP/2 MUST include exact
 <br/>
 <hr/>
 
-<p style="float : left"><a href="HTTP2-Settings.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./HTTP2-Settings.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

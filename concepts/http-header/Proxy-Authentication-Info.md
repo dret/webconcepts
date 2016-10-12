@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/Proxy-Authentication-Info"
 title:       "HTTP Header Field: Proxy-Authentication-Info"
 description: "The Proxy-Authentication-Info response header field is equivalent to Authentication-Info, except that it applies to proxy authentication. However, unlike Authentication-Info, the Proxy-Authentication-Info header field applies only to the next outbound client on the response chain. This is because only the client that chose a given proxy is likely to have the credentials necessary for authentication."
 ---
@@ -9,5 +10,5 @@ description: "The Proxy-Authentication-Info response header field is equivalent 
 <br/>
 <hr/>
 
-<p style="float : left"><a href="Proxy-Authentication-Info.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./Proxy-Authentication-Info.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

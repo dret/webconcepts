@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/Access-Control-Allow-Headers"
 title:       "HTTP Header Field: Access-Control-Allow-Headers"
 description: "The Access-Control-Allow-Headers header indicates, as part of the response to a preflight request, which header field names can be used during the actual request."
 ---
@@ -9,5 +10,5 @@ description: "The Access-Control-Allow-Headers header indicates, as part of the 
 <br/>
 <hr/>
 
-<p style="float : left"><a href="Access-Control-Allow-Headers.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./Access-Control-Allow-Headers.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

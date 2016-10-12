@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/media-type/application/rfc+xml"
 title:       "Media Type: application/rfc+xml"
 description: "This document updates the specification for the Internet media type \"application/rfc+xml\" from the one in I-D draft-reschke-xml2rfc.  The following is to be registered with IANA."
 ---
@@ -9,5 +10,5 @@ description: "This document updates the specification for the Internet media typ
 <br/>
 <hr/>
 
-<p style="float : left"><a href="application/rfc+xml.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./application/rfc+xml.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../media-types">Media Types</a> | <a href="../">Web Concepts</a> )</p>

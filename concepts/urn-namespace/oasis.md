@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/urn-namespace/oasis"
 title:       "URN Namespace: oasis"
 description: "The Organization for the Advancement of Structured Information Standards (OASIS) produces many kinds of documents: specifications, working drafts, technical resolutions, schemas, stylesheets, etc. OASIS wishes to provide global, distributed, persistent, location-independent names for these resources."
 ---
@@ -9,5 +10,5 @@ description: "The Organization for the Advancement of Structured Information Sta
 <br/>
 <hr/>
 
-<p style="float : left"><a href="oasis.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./oasis.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../urn-namespaces">URN Namespaces</a> | <a href="../">Web Concepts</a> )</p>

@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/urn-namespace/ietf"
 title:       "URN Namespace: ietf"
 description: "This document proposes the \"ietf\" namespace, which consists of the RFC family of documents (RFCs, STDs, FYIs, and BCPs) developed by the IETF and published by the RFC editor and the minutes of working groups (WG) and birds of a feather (BOF) meetings that occur during IETF conferences."
 ---
@@ -9,5 +10,5 @@ description: "This document proposes the \"ietf\" namespace, which consists of t
 <br/>
 <hr/>
 
-<p style="float : left"><a href="ietf.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./ietf.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../urn-namespaces">URN Namespaces</a> | <a href="../">Web Concepts</a> )</p>

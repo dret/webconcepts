@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/Negotiate"
 title:       "HTTP Header Field: Negotiate"
 description: "The Negotiate request header can contain directives for any content negotiation process initiated by the request."
 ---
@@ -9,5 +10,5 @@ description: "The Negotiate request header can contain directives for any conten
 <br/>
 <hr/>
 
-<p style="float : left"><a href="Negotiate.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./Negotiate.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

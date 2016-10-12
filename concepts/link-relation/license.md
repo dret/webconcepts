@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/link-relation/license"
 title:       "Link Relation: license"
 description: "The \"license\" link relation can be used to associate licenses with a feed or entry. Feeds and entries can be dual-licensed by including multiple \"license\" link relations specifying different href attribute values. If multiple \"license\" link relations are specified, each SHOULD contain a title attribute specifying a human-readable label for the license."
 ---
@@ -9,5 +10,5 @@ description: "The \"license\" link relation can be used to associate licenses wi
 <br/>
 <hr/>
 
-<p style="float : left"><a href="license.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./license.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../link-relations">Link Relations</a> | <a href="../">Web Concepts</a> )</p>

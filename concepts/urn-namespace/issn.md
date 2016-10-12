@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/urn-namespace/issn"
 title:       "URN Namespace: issn"
 description: "In accordance with the ISO standard 3297 International Standard Serial Number (ISSN). The ISSN consists of eight digits in Arabic numerals 0 to 9, except the last digit which is a check digit and can sometimes be an X. The ISSN has no internal meaningful elements to identify language, country, publisher."
 ---
@@ -9,5 +10,5 @@ description: "In accordance with the ISO standard 3297 International Standard Se
 <br/>
 <hr/>
 
-<p style="float : left"><a href="issn.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./issn.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../urn-namespaces">URN Namespaces</a> | <a href="../">Web Concepts</a> )</p>

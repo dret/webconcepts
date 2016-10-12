@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/Access-Control-Expose-Headers"
 title:       "HTTP Header Field: Access-Control-Expose-Headers"
 description: "The Access-Control-Expose-Headers header indicates which headers are safe to expose to the API of a CORS API specification."
 ---
@@ -9,5 +10,5 @@ description: "The Access-Control-Expose-Headers header indicates which headers a
 <br/>
 <hr/>
 
-<p style="float : left"><a href="Access-Control-Expose-Headers.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./Access-Control-Expose-Headers.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

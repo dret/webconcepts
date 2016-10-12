@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/media-type/application/jwk+json"
 title:       "Media Type: application/jwk+json"
 description: "A JWK is a JSON object that represents a cryptographic key. The members of the object represent properties of the key, including its value."
 ---
@@ -9,5 +10,5 @@ description: "A JWK is a JSON object that represents a cryptographic key. The me
 <br/>
 <hr/>
 
-<p style="float : left"><a href="application/jwk+json.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./application/jwk+json.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../media-types">Media Types</a> | <a href="../">Web Concepts</a> )</p>

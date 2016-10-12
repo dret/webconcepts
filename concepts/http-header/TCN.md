@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/TCN"
 title:       "HTTP Header Field: TCN"
 description: "The TCN response header is used by a server to signal that the resource is transparently negotiated."
 ---
@@ -9,5 +10,5 @@ description: "The TCN response header is used by a server to signal that the res
 <br/>
 <hr/>
 
-<p style="float : left"><a href="TCN.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./TCN.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

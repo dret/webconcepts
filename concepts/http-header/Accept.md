@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/Accept"
 title:       "HTTP Header Field: Accept"
 description: "The \"Accept\" header field can be used by user agents to specify response media types that are acceptable. Accept header fields can be used to indicate that the request is specifically limited to a small set of desired types, as in the case of a request for an in-line image."
 ---
@@ -9,5 +10,5 @@ description: "The \"Accept\" header field can be used by user agents to specify 
 <br/>
 <hr/>
 
-<p style="float : left"><a href="Accept.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./Accept.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/Accept-Features"
 title:       "HTTP Header Field: Accept-Features"
 description: "The Accept-Features request header can be used by a user agent to give information about the presence or absence of certain features in the feature set of the current request. Servers can use this information when running a remote variant selection algorithm."
 ---
@@ -9,5 +10,5 @@ description: "The Accept-Features request header can be used by a user agent to 
 <br/>
 <hr/>
 
-<p style="float : left"><a href="Accept-Features.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./Accept-Features.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

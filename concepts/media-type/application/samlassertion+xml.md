@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/media-type/application/samlassertion+xml"
 title:       "Media Type: application/samlassertion+xml"
 description: "This document defines a MIME media type for use with the XML serialization of SAML (Security Assertion Markup Language) assertions."
 ---
@@ -9,5 +10,5 @@ description: "This document defines a MIME media type for use with the XML seria
 <br/>
 <hr/>
 
-<p style="float : left"><a href="application/samlassertion+xml.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./application/samlassertion+xml.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../media-types">Media Types</a> | <a href="../">Web Concepts</a> )</p>

@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/Public-Key-Pins-Report-Only"
 title:       "HTTP Header Field: Public-Key-Pins-Report-Only"
 description: "Upon receipt of a Public-Key-Pins-Report-Only response header field, the UA should evaluate the policy expressed in the field, and SHOULD generate and send a report. However, failure to validate the Pins in the field MUST have no effect on the validity or non-validity of the policy expressed in the PKP field or in previously noted Pins for the Known Pinned Host."
 ---
@@ -9,5 +10,5 @@ description: "Upon receipt of a Public-Key-Pins-Report-Only response header fiel
 <br/>
 <hr/>
 
-<p style="float : left"><a href="Public-Key-Pins-Report-Only.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./Public-Key-Pins-Report-Only.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

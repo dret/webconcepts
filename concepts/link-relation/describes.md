@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/link-relation/describes"
 title:       "Link Relation: describes"
 description: "The relationship A 'describes' B asserts that resource A provides a description of resource B. There are no constraints on the format or representation of either A or B, neither are there any further constraints on either resource."
 ---
@@ -9,5 +10,5 @@ description: "The relationship A 'describes' B asserts that resource A provides 
 <br/>
 <hr/>
 
-<p style="float : left"><a href="describes.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./describes.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../link-relations">Link Relations</a> | <a href="../">Web Concepts</a> )</p>

@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/WWW-Authenticate"
 title:       "HTTP Header Field: WWW-Authenticate"
 description: "The \"WWW-Authenticate\" header field consists of at least one challenge that indicates the authentication scheme(s) and parameters applicable to the effective request URI. It MUST be included in 401 (Unauthorized) response messages and MAY be included in other response messages to indicate that supplying credentials (or different credentials) might affect the response."
 ---
@@ -11,5 +12,5 @@ description: "The \"WWW-Authenticate\" header field consists of at least one cha
 <br/>
 <hr/>
 
-<p style="float : left"><a href="WWW-Authenticate.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./WWW-Authenticate.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

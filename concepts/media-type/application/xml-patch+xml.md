@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/media-type/application/xml-patch+xml"
 title:       "Media Type: application/xml-patch+xml"
 description: "The Internet media type for an XML Patch Document is application/xml-patch+xml."
 ---
@@ -9,5 +10,5 @@ description: "The Internet media type for an XML Patch Document is application/x
 <br/>
 <hr/>
 
-<p style="float : left"><a href="application/xml-patch+xml.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./application/xml-patch+xml.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../media-types">Media Types</a> | <a href="../">Web Concepts</a> )</p>

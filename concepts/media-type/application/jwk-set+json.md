@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/media-type/application/jwk-set+json"
 title:       "Media Type: application/jwk-set+json"
 description: "A JWK Set is a JSON object that represents a set of JWKs. The JSON object MUST have a \"keys\" member, with its value being an array of JWKs."
 ---
@@ -9,5 +10,5 @@ description: "A JWK Set is a JSON object that represents a set of JWKs. The JSON
 <br/>
 <hr/>
 
-<p style="float : left"><a href="application/jwk-set+json.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./application/jwk-set+json.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../media-types">Media Types</a> | <a href="../">Web Concepts</a> )</p>

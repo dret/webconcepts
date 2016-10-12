@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/link-relation/via"
 title:       "Link Relation: via"
 description: "The value \"via\" signifies that the IRI in the value of the href attribute identifies a resource that is the source of the information provided in the containing element."
 ---
@@ -9,5 +10,5 @@ description: "The value \"via\" signifies that the IRI in the value of the href 
 <br/>
 <hr/>
 
-<p style="float : left"><a href="via.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./via.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../link-relations">Link Relations</a> | <a href="../">Web Concepts</a> )</p>

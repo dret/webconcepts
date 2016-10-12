@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/Link-Template"
 title:       "HTTP Header Field: Link-Template"
 description: "The Link-Template entity-header field provides a means for serialising one or more links into HTTP headers. It is semantically equivalent to the Link header field, except that it uses URI Templates to convey the structure of links."
 ---
@@ -9,5 +10,5 @@ description: "The Link-Template entity-header field provides a means for seriali
 <br/>
 <hr/>
 
-<p style="float : left"><a href="Link-Template.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./Link-Template.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

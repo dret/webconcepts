@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/Slug"
 title:       "HTTP Header Field: Slug"
 description: "Slug is an HTTP entity-header whose presence in a POST to a Collection constitutes a request by the client to use the header's value as part of any URIs that would normally be used to retrieve the to-be-created Entry or Media Resources."
 ---
@@ -9,5 +10,5 @@ description: "Slug is an HTTP entity-header whose presence in a POST to a Collec
 <br/>
 <hr/>
 
-<p style="float : left"><a href="Slug.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./Slug.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

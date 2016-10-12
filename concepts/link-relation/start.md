@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/link-relation/start"
 title:       "Link Relation: start"
 description: "Refers to the first document in a collection of documents. This link type tells search engines which document is considered by the author to be the starting point of the collection."
 ---
@@ -9,5 +10,5 @@ description: "Refers to the first document in a collection of documents. This li
 <br/>
 <hr/>
 
-<p style="float : left"><a href="start.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./start.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../link-relations">Link Relations</a> | <a href="../">Web Concepts</a> )</p>

@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/Destination"
 title:       "HTTP Header Field: Destination"
 description: "The Destination request header specifies the URI that identifies a destination resource for methods such as COPY and MOVE, which take two URIs as parameters."
 ---
@@ -9,5 +10,5 @@ description: "The Destination request header specifies the URI that identifies a
 <br/>
 <hr/>
 
-<p style="float : left"><a href="Destination.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./Destination.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

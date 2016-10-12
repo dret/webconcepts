@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/well-known-uri/genid"
 title:       "Well-Known URI: genid"
 description: "Systems that want Skolem IRIs to be recognizable outside of the system boundaries should use a well-known IRI with the registered name genid. This is an IRI that uses the HTTP or HTTPS scheme, or another scheme that has been specified to use well-known IRIs; and whose path component starts with /.well-known/genid/."
 ---
@@ -9,5 +10,5 @@ description: "Systems that want Skolem IRIs to be recognizable outside of the sy
 <br/>
 <hr/>
 
-<p style="float : left"><a href="genid.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./genid.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../well-known-uris">Well-Known URIs</a> | <a href="../">Web Concepts</a> )</p>

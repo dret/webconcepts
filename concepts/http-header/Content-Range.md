@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/Content-Range"
 title:       "HTTP Header Field: Content-Range"
 description: "The Content-Range entity-header is sent with a partial entity-body to specify where in the full entity-body the partial body should be applied."
 ---
@@ -11,5 +12,5 @@ description: "The Content-Range entity-header is sent with a partial entity-body
 <br/>
 <hr/>
 
-<p style="float : left"><a href="Content-Range.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./Content-Range.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

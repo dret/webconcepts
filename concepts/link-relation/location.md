@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/link-relation/location"
 title:       "Link Relation: location"
 description: "References a URI/IRI that represents a physical or logical location with which the context resource is associated."
 ---
@@ -9,5 +10,5 @@ description: "References a URI/IRI that represents a physical or logical locatio
 <br/>
 <hr/>
 
-<p style="float : left"><a href="location.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./location.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../link-relations">Link Relations</a> | <a href="../">Web Concepts</a> )</p>

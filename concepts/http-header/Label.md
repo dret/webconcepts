@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/Label"
 title:       "HTTP Header Field: Label"
 description: "For certain methods (e.g. GET, PROPFIND), if the request-URL identifies a version-controlled resource, a label can be specified in a Label request header to cause the method to be applied to the version selected by that label from the version history of that version-controlled resource."
 ---
@@ -9,5 +10,5 @@ description: "For certain methods (e.g. GET, PROPFIND), if the request-URL ident
 <br/>
 <hr/>
 
-<p style="float : left"><a href="Label.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./Label.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

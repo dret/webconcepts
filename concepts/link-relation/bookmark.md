@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/link-relation/bookmark"
 title:       "Link Relation: bookmark"
 description: "Refers to a bookmark. A bookmark is a link to a key entry point within an extended document. The title attribute may be used, for example, to label the bookmark. Note that several bookmarks may be defined in each document."
 ---
@@ -9,5 +10,5 @@ description: "Refers to a bookmark. A bookmark is a link to a key entry point wi
 <br/>
 <hr/>
 
-<p style="float : left"><a href="bookmark.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./bookmark.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../link-relations">Link Relations</a> | <a href="../">Web Concepts</a> )</p>

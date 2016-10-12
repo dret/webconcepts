@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/link-relation/generator"
 title:       "Link Relation: generator"
 description: "Refers to the resource that generated the context  resource. Typically, this would be used to identify the software application that created the context resource."
 ---
@@ -9,5 +10,5 @@ description: "Refers to the resource that generated the context  resource. Typic
 <br/>
 <hr/>
 
-<p style="float : left"><a href="generator.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./generator.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../link-relations">Link Relations</a> | <a href="../">Web Concepts</a> )</p>

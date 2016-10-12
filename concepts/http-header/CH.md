@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/CH"
 title:       "HTTP Header Field: CH"
 description: "The \"CH\" request header field describes an example list of client preferences that the server can use to adapt and optimize the resource to satisfy a given request. The CH field-value is a comma-delimited list of header fields, and the field-name values are case insensitive."
 ---
@@ -9,5 +10,5 @@ description: "The \"CH\" request header field describes an example list of clien
 <br/>
 <hr/>
 
-<p style="float : left"><a href="CH.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./CH.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

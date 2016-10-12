@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/Content-Security-Policy-Report-Only-Pin"
 title:       "HTTP Header Field: Content-Security-Policy-Report-Only-Pin"
 description: "The Content-Security-Policy-Report-Only-Pin header field is the mechanism for delivering a pinned policy that the user agent MUST monitor for any resource which is not delivered with a Content-Security-Policy-Report-Only header (as described in the \"Pin a policy to response\" algorithm)."
 ---
@@ -9,5 +10,5 @@ description: "The Content-Security-Policy-Report-Only-Pin header field is the me
 <br/>
 <hr/>
 
-<p style="float : left"><a href="Content-Security-Policy-Report-Only-Pin.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./Content-Security-Policy-Report-Only-Pin.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

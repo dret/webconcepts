@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/media-type/text/plain"
 title:       "Media Type: text/plain"
 description: "This memo updates the text/plain media type defined in RFC 2046  by defining URI fragment identifiers for text/plain MIME entities. This makes it possible to refer to parts of a text/plain MIME entity. Such parts can be identified by either character position or range, or by line position or range. Integrity checking information can be added to a fragment identifier to make it more robust, enabling applications to detect changes of the entity."
 ---
@@ -9,5 +10,5 @@ description: "This memo updates the text/plain media type defined in RFC 2046  b
 <br/>
 <hr/>
 
-<p style="float : left"><a href="text/plain.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./text/plain.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../media-types">Media Types</a> | <a href="../">Web Concepts</a> )</p>

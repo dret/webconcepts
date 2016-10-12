@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-method/PRI"
 title:       "HTTP Request Method: PRI"
 description: "This method is never used by an actual client. This method will appear to be used when an HTTP/1.1 server or intermediary attempts to parse an HTTP/2 connection preface."
 ---
@@ -9,5 +10,5 @@ description: "This method is never used by an actual client. This method will ap
 <br/>
 <hr/>
 
-<p style="float : left"><a href="PRI.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./PRI.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-methods">HTTP Request Methods</a> | <a href="../">Web Concepts</a> )</p>

@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/uri-scheme/pkcs11"
 title:       "URI Scheme: pkcs11"
 description: "The URI scheme defined in this document is designed specifically with a mapping to the PKCS #11 API in mind."
 ---
@@ -9,5 +10,5 @@ description: "The URI scheme defined in this document is designed specifically w
 <br/>
 <hr/>
 
-<p style="float : left"><a href="pkcs11.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./pkcs11.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../uri-schemes">URI Schemes</a> | <a href="../">Web Concepts</a> )</p>

@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/Transfer-Encoding"
 title:       "HTTP Header Field: Transfer-Encoding"
 description: "The Transfer-Encoding header field lists the transfer coding names corresponding to the sequence of transfer codings that have been (or will be) applied to the payload body in order to form the message body."
 ---
@@ -9,5 +10,5 @@ description: "The Transfer-Encoding header field lists the transfer coding names
 <br/>
 <hr/>
 
-<p style="float : left"><a href="Transfer-Encoding.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./Transfer-Encoding.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

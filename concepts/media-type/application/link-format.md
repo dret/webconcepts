@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/media-type/application/link-format"
 title:       "Media Type: application/link-format"
 description: "The CoRE Link Format extends the HTTP Link Header field specified in RFC 5988."
 ---
@@ -9,5 +10,5 @@ description: "The CoRE Link Format extends the HTTP Link Header field specified 
 <br/>
 <hr/>
 
-<p style="float : left"><a href="application/link-format.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./application/link-format.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../media-types">Media Types</a> | <a href="../">Web Concepts</a> )</p>

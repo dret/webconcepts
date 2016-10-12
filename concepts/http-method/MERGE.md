@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-method/MERGE"
 title:       "HTTP Request Method: MERGE"
 description: "The MERGE method performs the logical merge of a specified version (the \"merge source\") into a specified version-controlled resource (the \"merge target\"). If the merge source is neither an ancestor nor a descendant of the DAV:checked-in or DAV:checked-out version of the merge target, the MERGE checks out the merge target (if it is not already checked out) and adds the URL of the merge source to the DAV:merge-set of the merge target."
 ---
@@ -9,5 +10,5 @@ description: "The MERGE method performs the logical merge of a specified version
 <br/>
 <hr/>
 
-<p style="float : left"><a href="MERGE.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./MERGE.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-methods">HTTP Request Methods</a> | <a href="../">Web Concepts</a> )</p>

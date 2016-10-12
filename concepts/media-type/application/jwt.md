@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/media-type/application/jwt"
 title:       "Media Type: application/jwt"
 description: "The JWT Claims Set represents a JSON object whose members are the claims conveyed by the JWT."
 ---
@@ -9,5 +10,5 @@ description: "The JWT Claims Set represents a JSON object whose members are the 
 <br/>
 <hr/>
 
-<p style="float : left"><a href="application/jwt.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./application/jwt.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../media-types">Media Types</a> | <a href="../">Web Concepts</a> )</p>

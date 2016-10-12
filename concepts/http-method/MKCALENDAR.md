@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-method/MKCALENDAR"
 title:       "HTTP Request Method: MKCALENDAR"
 description: "An HTTP request using the MKCALENDAR method creates a new calendar collection resource. A server MAY restrict calendar collection creation to particular collections."
 ---
@@ -9,5 +10,5 @@ description: "An HTTP request using the MKCALENDAR method creates a new calendar
 <br/>
 <hr/>
 
-<p style="float : left"><a href="MKCALENDAR.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./MKCALENDAR.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-methods">HTTP Request Methods</a> | <a href="../">Web Concepts</a> )</p>

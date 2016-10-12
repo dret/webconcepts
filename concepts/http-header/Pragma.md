@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/Pragma"
 title:       "HTTP Header Field: Pragma"
 description: "The \"Pragma\" header field allows backwards compatibility with HTTP/1.0 caches, so that clients can specify a \"no-cache\" request that they will understand (as Cache-Control was not defined until HTTP/1.1). When the Cache-Control header field is also present and understood in a request, Pragma is ignored."
 ---
@@ -9,5 +10,5 @@ description: "The \"Pragma\" header field allows backwards compatibility with HT
 <br/>
 <hr/>
 
-<p style="float : left"><a href="Pragma.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./Pragma.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

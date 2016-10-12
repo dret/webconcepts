@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/media-type/application/nlsml+xml"
 title:       "Media Type: application/nlsml+xml"
 description: "The Natural Language Semantics Markup Language (NLSML) is an XML data structure with elements and attributes designed to carry result information from recognizer (including enrollment) and verifier resources."
 ---
@@ -9,5 +10,5 @@ description: "The Natural Language Semantics Markup Language (NLSML) is an XML d
 <br/>
 <hr/>
 
-<p style="float : left"><a href="application/nlsml+xml.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./application/nlsml+xml.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../media-types">Media Types</a> | <a href="../">Web Concepts</a> )</p>

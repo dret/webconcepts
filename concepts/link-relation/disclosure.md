@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/link-relation/disclosure"
 title:       "Link Relation: disclosure"
 description: "Whenever the 'disclosure' relation type is used, the resource at the target Internationalized Resource Identifier (IRI) MUST represent a list of patent disclosures made with respect to the material referenced by context IRI."
 ---
@@ -9,5 +10,5 @@ description: "Whenever the 'disclosure' relation type is used, the resource at t
 <br/>
 <hr/>
 
-<p style="float : left"><a href="disclosure.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./disclosure.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../link-relations">Link Relations</a> | <a href="../">Web Concepts</a> )</p>

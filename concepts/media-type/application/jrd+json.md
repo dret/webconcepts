@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/media-type/application/jrd+json"
 title:       "Media Type: application/jrd+json"
 description: "The WebFinger resource returns a JSON Resource Descriptor (JRD) as the resource representation to convey information about an entity on the Internet."
 ---
@@ -9,5 +10,5 @@ description: "The WebFinger resource returns a JSON Resource Descriptor (JRD) as
 <br/>
 <hr/>
 
-<p style="float : left"><a href="application/jrd+json.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./application/jrd+json.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../media-types">Media Types</a> | <a href="../">Web Concepts</a> )</p>

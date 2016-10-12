@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/Access-Control-Request-Method"
 title:       "HTTP Header Field: Access-Control-Request-Method"
 description: "The Access-Control-Request-Method header indicates which method will be used in the actual request as part of the preflight request."
 ---
@@ -9,5 +10,5 @@ description: "The Access-Control-Request-Method header indicates which method wi
 <br/>
 <hr/>
 
-<p style="float : left"><a href="Access-Control-Request-Method.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./Access-Control-Request-Method.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

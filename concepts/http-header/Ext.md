@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/Ext"
 title:       "HTTP Header Field: Ext"
 description: "The Ext header field is used to indicate that all end-to-end mandatory extension declarations in the request were fulfilled."
 ---
@@ -9,5 +10,5 @@ description: "The Ext header field is used to indicate that all end-to-end manda
 <br/>
 <hr/>
 
-<p style="float : left"><a href="Ext.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./Ext.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/media-type/application/xml-dtd"
 title:       "Media Type: application/xml-dtd"
 description: "The media type application/xml-dtd SHOULD be used for \"external DTD subsets\" or \"external parameter entities\"."
 ---
@@ -9,5 +10,5 @@ description: "The media type application/xml-dtd SHOULD be used for \"external D
 <br/>
 <hr/>
 
-<p style="float : left"><a href="application/xml-dtd.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./application/xml-dtd.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../media-types">Media Types</a> | <a href="../">Web Concepts</a> )</p>

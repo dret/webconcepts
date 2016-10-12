@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/jwt-confirmation-method/jku"
 title:       "JWT Confirmation Method: jku"
 description: "The proof-of-possession key can be passed by reference instead of being passed by value. This is done using the \"jku\" member. Its value is a URI that refers to a resource for a set of JSON-encoded public keys represented as a JWK Set, one of which is the proof-of-possession key."
 ---
@@ -9,5 +10,5 @@ description: "The proof-of-possession key can be passed by reference instead of 
 <br/>
 <hr/>
 
-<p style="float : left"><a href="jku.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./jku.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../jwt-confirmation-methods">JWT Confirmation Methods</a> | <a href="../">Web Concepts</a> )</p>

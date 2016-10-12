@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/media-type/application/xml-external-parsed-entity"
 title:       "Media Type: application/xml-external-parsed-entity"
 description: "Application/xml is preferable when an XML external parsed entity is unreadable by casual users."
 ---
@@ -9,5 +10,5 @@ description: "Application/xml is preferable when an XML external parsed entity i
 <br/>
 <hr/>
 
-<p style="float : left"><a href="application/xml-external-parsed-entity.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./application/xml-external-parsed-entity.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../media-types">Media Types</a> | <a href="../">Web Concepts</a> )</p>

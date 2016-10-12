@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/link-relation/timegate"
 title:       "Link Relation: timegate"
 description: "A link with a \"timegate\" Relation Type is used to point from the Original Resource, as well as from a Memento associated with the Original Resource, to a TimeGate for the Original Resource."
 ---
@@ -9,5 +10,5 @@ description: "A link with a \"timegate\" Relation Type is used to point from the
 <br/>
 <hr/>
 
-<p style="float : left"><a href="timegate.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./timegate.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../link-relations">Link Relations</a> | <a href="../">Web Concepts</a> )</p>

@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/well-known-uri/host-meta.json"
 title:       "Well-Known URI: host-meta.json"
 description: "Alternatively, the client MAY request a JRD representation by requesting the \"host-meta.json\" well-known document, by making a GET request for \"/.well-known/host-meta.json\", following the same process used for \"/.well-known/host-meta\"."
 ---
@@ -9,5 +10,5 @@ description: "Alternatively, the client MAY request a JRD representation by requ
 <br/>
 <hr/>
 
-<p style="float : left"><a href="host-meta.json.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./host-meta.json.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../well-known-uris">Well-Known URIs</a> | <a href="../">Web Concepts</a> )</p>

@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/Redirect-Ref"
 title:       "HTTP Header Field: Redirect-Ref"
 description: "The Redirect-Ref header is used in all 3xx responses from redirect reference resources. The value is the link target as specified during redirect reference resource creation."
 ---
@@ -9,5 +10,5 @@ description: "The Redirect-Ref header is used in all 3xx responses from redirect
 <br/>
 <hr/>
 
-<p style="float : left"><a href="Redirect-Ref.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./Redirect-Ref.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

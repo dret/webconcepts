@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-cache-directive/max-stale"
 title:       "HTTP Cache Directive: max-stale"
 description: "The \"max-stale\" request directive indicates that the client is willing to accept a response that has exceeded its freshness lifetime. If max-stale is assigned a value, then the client is willing to accept a response that has exceeded its freshness lifetime by no more than the specified number of seconds. If no value is assigned to max-stale, then the client is willing to accept a stale response of any age."
 ---
@@ -9,5 +10,5 @@ description: "The \"max-stale\" request directive indicates that the client is w
 <br/>
 <hr/>
 
-<p style="float : left"><a href="max-stale.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./max-stale.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-cache-directives">HTTP Cache Directives</a> | <a href="../">Web Concepts</a> )</p>

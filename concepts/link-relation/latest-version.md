@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/link-relation/latest-version"
 title:       "Link Relation: latest-version"
 description: "When included on a versioned resource, this link points to a resource containing the latest (e.g., current) version."
 ---
@@ -9,5 +10,5 @@ description: "When included on a versioned resource, this link points to a resou
 <br/>
 <hr/>
 
-<p style="float : left"><a href="latest-version.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./latest-version.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../link-relations">Link Relations</a> | <a href="../">Web Concepts</a> )</p>

@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/media-type/application/sru+xml"
 title:       "Media Type: application/sru+xml"
 description: "An XML schema for the SRU response. SRU is a protocol, and the media type sru+xml pertains specifically to the default SRU response. The SRU response may be supplied in any of a number of suitable schemas, RSS, ATOM, for example, and the client identifies the desired format in the request, hence the need for a media type."
 ---
@@ -9,5 +10,5 @@ description: "An XML schema for the SRU response. SRU is a protocol, and the med
 <br/>
 <hr/>
 
-<p style="float : left"><a href="application/sru+xml.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./application/sru+xml.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../media-types">Media Types</a> | <a href="../">Web Concepts</a> )</p>

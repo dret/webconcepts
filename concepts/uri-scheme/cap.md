@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/uri-scheme/cap"
 title:       "URI Scheme: cap"
 description: "The CAP URL scheme is used to designate both calendar stores and calendars accessible using the CAP protocol."
 ---
@@ -9,5 +10,5 @@ description: "The CAP URL scheme is used to designate both calendar stores and c
 <br/>
 <hr/>
 
-<p style="float : left"><a href="cap.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./cap.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../uri-schemes">URI Schemes</a> | <a href="../">Web Concepts</a> )</p>

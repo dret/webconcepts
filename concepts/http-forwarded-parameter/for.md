@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-forwarded-parameter/for"
 title:       "HTTP Forwarded Parameter: for"
 description: "The \"for\" parameter is used to disclose information about the client that initiated the request and subsequent proxies in a chain of proxies."
 ---
@@ -9,5 +10,5 @@ description: "The \"for\" parameter is used to disclose information about the cl
 <br/>
 <hr/>
 
-<p style="float : left"><a href="for.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./for.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-forwarded-parameters">HTTP Forwarded Parameters</a> | <a href="../">Web Concepts</a> )</p>

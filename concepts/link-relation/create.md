@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/link-relation/create"
 title:       "Link Relation: create"
 description: "This indicates a target to use for creating new instances of a schema. This link definition SHOULD be a submission link with a non-safe method (like POST)."
 ---
@@ -9,5 +10,5 @@ description: "This indicates a target to use for creating new instances of a sch
 <br/>
 <hr/>
 
-<p style="float : left"><a href="create.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./create.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../link-relations">Link Relations</a> | <a href="../">Web Concepts</a> )</p>

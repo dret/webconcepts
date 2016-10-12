@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/Content-Disposition"
 title:       "HTTP Header Field: Content-Disposition"
 description: "The Content-Disposition response header field is used to convey additional information about how to process the response payload, and also can be used to attach additional metadata, such as the filename to use when saving the response payload locally."
 ---
@@ -9,5 +10,5 @@ description: "The Content-Disposition response header field is used to convey ad
 <br/>
 <hr/>
 
-<p style="float : left"><a href="Content-Disposition.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./Content-Disposition.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

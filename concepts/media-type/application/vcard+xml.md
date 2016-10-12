@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/media-type/application/vcard+xml"
 title:       "Media Type: application/vcard+xml"
 description: "The MIME media type for use with vCard-in-XML data."
 ---
@@ -9,5 +10,5 @@ description: "The MIME media type for use with vCard-in-XML data."
 <br/>
 <hr/>
 
-<p style="float : left"><a href="application/vcard+xml.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./application/vcard+xml.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../media-types">Media Types</a> | <a href="../">Web Concepts</a> )</p>

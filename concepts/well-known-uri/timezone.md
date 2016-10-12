@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/well-known-uri/timezone"
 title:       "Well-Known URI: timezone"
 description: "A \"well-known\" URI is registered by this specification for the Time Zone Data Distribution service, \"timezone\". This URI points to a resource that the client can use as the initial \"context path\" for the service they are trying to connect to. The server MUST redirect HTTP requests for that resource to the actual \"context path\" using one of the available mechanisms provided by HTTP."
 ---
@@ -9,5 +10,5 @@ description: "A \"well-known\" URI is registered by this specification for the T
 <br/>
 <hr/>
 
-<p style="float : left"><a href="timezone.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./timezone.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../well-known-uris">Well-Known URIs</a> | <a href="../">Web Concepts</a> )</p>

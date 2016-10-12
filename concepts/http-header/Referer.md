@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/Referer"
 title:       "HTTP Header Field: Referer"
 description: "The \"Referer\" header field allows the user agent to specify a URI reference for the resource from which the target URI was obtained (i.e., the \"referrer\", though the field name is misspelled)."
 ---
@@ -9,5 +10,5 @@ description: "The \"Referer\" header field allows the user agent to specify a UR
 <br/>
 <hr/>
 
-<p style="float : left"><a href="Referer.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./Referer.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

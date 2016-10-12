@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/link-relation/version-history"
 title:       "Link Relation: version-history"
 description: "When included on a versioned resource, this link points to a resource containing the version history for this resource."
 ---
@@ -9,5 +10,5 @@ description: "When included on a versioned resource, this link points to a resou
 <br/>
 <hr/>
 
-<p style="float : left"><a href="version-history.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./version-history.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../link-relations">Link Relations</a> | <a href="../">Web Concepts</a> )</p>

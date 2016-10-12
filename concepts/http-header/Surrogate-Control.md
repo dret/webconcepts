@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/Surrogate-Control"
 title:       "HTTP Header Field: Surrogate-Control"
 description: "The Surrogate-Control response header allows origin servers to dictate how surrogates should handle response entities, with control directives. Currently defined directives control processing and cache behavior."
 ---
@@ -9,5 +10,5 @@ description: "The Surrogate-Control response header allows origin servers to dic
 <br/>
 <hr/>
 
-<p style="float : left"><a href="Surrogate-Control.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./Surrogate-Control.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

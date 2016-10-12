@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/media-type/text/markdown"
 title:       "Media Type: text/markdown"
 description: "This document registers the text/markdown media type for use with Markdown, a family of plain-text formatting syntaxes that optionally can be converted to formal markup languages such as HTML."
 ---
@@ -9,5 +10,5 @@ description: "This document registers the text/markdown media type for use with 
 <br/>
 <hr/>
 
-<p style="float : left"><a href="text/markdown.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./text/markdown.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../media-types">Media Types</a> | <a href="../">Web Concepts</a> )</p>

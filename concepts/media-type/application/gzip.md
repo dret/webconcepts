@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/media-type/application/gzip"
 title:       "Media Type: application/gzip"
 description: "The 'application/gzip' media type describes a block of data that is compressed using gzip compression. The data is a stream of bytes as described in RFC 1952."
 ---
@@ -9,5 +10,5 @@ description: "The 'application/gzip' media type describes a block of data that i
 <br/>
 <hr/>
 
-<p style="float : left"><a href="application/gzip.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./application/gzip.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../media-types">Media Types</a> | <a href="../">Web Concepts</a> )</p>

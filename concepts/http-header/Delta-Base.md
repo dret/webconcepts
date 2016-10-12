@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/Delta-Base"
 title:       "HTTP Header Field: Delta-Base"
 description: "The Delta-Base entity-header field is used in a delta-encoded response to specify the entity tag of the base instance. A Delta-Base header field MUST be included in a response with an IM header that includes a delta-coding, if the request included more than one entity tag in its If-None-Match header field. Any response with an IM header that includes a delta-coding MAY include a Delta-Base header."
 ---
@@ -9,5 +10,5 @@ description: "The Delta-Base entity-header field is used in a delta-encoded resp
 <br/>
 <hr/>
 
-<p style="float : left"><a href="Delta-Base.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./Delta-Base.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

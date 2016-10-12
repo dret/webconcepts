@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/User-Agent"
 title:       "HTTP Header Field: User-Agent"
 description: "The \"User-Agent\" header field contains information about the user agent originating the request, which is often used by servers to help identify the scope of reported interoperability problems, to work around or tailor responses to avoid particular user agent limitations, and for analytics regarding browser or operating system use."
 ---
@@ -9,5 +10,5 @@ description: "The \"User-Agent\" header field contains information about the use
 <br/>
 <hr/>
 
-<p style="float : left"><a href="User-Agent.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./User-Agent.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

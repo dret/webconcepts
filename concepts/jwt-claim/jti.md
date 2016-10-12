@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/jwt-claim/jti"
 title:       "JSON Web Token Claim: jti"
 description: "The \"jti\" (JWT ID) claim provides a unique identifier for the JWT. The identifier value MUST be assigned in a manner that ensures that there is a negligible probability that the same value will be accidentally assigned to a different data object; if the application uses multiple issuers, collisions MUST be prevented among values produced by different issuers as well."
 ---
@@ -9,5 +10,5 @@ description: "The \"jti\" (JWT ID) claim provides a unique identifier for the JW
 <br/>
 <hr/>
 
-<p style="float : left"><a href="jti.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./jti.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../jwt-claims">JSON Web Token Claims</a> | <a href="../">Web Concepts</a> )</p>

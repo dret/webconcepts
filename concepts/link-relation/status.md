@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/link-relation/status"
 title:       "Link Relation: status"
 description: "The \"status\" link relation type can be used to link to such a status resource, allowing service consumers to retrieve status information about a Web service's status. Such a link may not be available from all resources provided by a Web service, but from key resources such as a Web service's home resource."
 ---
@@ -9,5 +10,5 @@ description: "The \"status\" link relation type can be used to link to such a st
 <br/>
 <hr/>
 
-<p style="float : left"><a href="status.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./status.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../link-relations">Link Relations</a> | <a href="../">Web Concepts</a> )</p>

@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-range-unit/bytes"
 title:       "HTTP Range Unit: bytes"
 description: "Since representation data is transferred in payloads as a sequence of octets, a byte range is a meaningful substructure for any representation transferable over HTTP. The \"bytes\" range unit is defined for expressing subranges of the data's octet sequence."
 ---
@@ -9,5 +10,5 @@ description: "Since representation data is transferred in payloads as a sequence
 <br/>
 <hr/>
 
-<p style="float : left"><a href="bytes.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./bytes.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-range-units">HTTP Range Units</a> | <a href="../">Web Concepts</a> )</p>

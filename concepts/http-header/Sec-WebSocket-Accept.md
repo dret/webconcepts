@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/Sec-WebSocket-Accept"
 title:       "HTTP Header Field: Sec-WebSocket-Accept"
 description: "The Sec-WebSocket-Accept header field is used in the WebSocket opening handshake. It is sent from the server to the client to confirm that the server is willing to initiate the WebSocket connection."
 ---
@@ -9,5 +10,5 @@ description: "The Sec-WebSocket-Accept header field is used in the WebSocket ope
 <br/>
 <hr/>
 
-<p style="float : left"><a href="Sec-WebSocket-Accept.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./Sec-WebSocket-Accept.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

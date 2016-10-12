@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/Authentication-Info"
 title:       "HTTP Header Field: Authentication-Info"
 description: "HTTP authentication schemes can use the Authentication-Info response header field to communicate information after the client's authentication credentials have been accepted. This information can include a finalization message from the server (e.g., it can contain the server authentication)."
 ---
@@ -9,5 +10,5 @@ description: "HTTP authentication schemes can use the Authentication-Info respon
 <br/>
 <hr/>
 
-<p style="float : left"><a href="Authentication-Info.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./Authentication-Info.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

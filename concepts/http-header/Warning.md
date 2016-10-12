@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/Warning"
 title:       "HTTP Header Field: Warning"
 description: "The \"Warning\" header field is used to carry additional information about the status or transformation of a message that might not be reflected in the status code. This information is typically used to warn about possible incorrectness introduced by caching operations or transformations applied to the payload of the message."
 ---
@@ -9,5 +10,5 @@ description: "The \"Warning\" header field is used to carry additional informati
 <br/>
 <hr/>
 
-<p style="float : left"><a href="Warning.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./Warning.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

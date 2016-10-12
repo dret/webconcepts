@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-range-unit/bytes-live"
 title:       "HTTP Range Unit: bytes-live"
 description: "As with the \"bytes\" range unit, a \"bytes-live\" Range request allows a client to designate a subset of bytes from the representation data to be transferred in payloads as a sequence of octets. But the form of a \"bytes-live\" request is focused on accessing data that may be appended to the representation over time."
 ---
@@ -9,5 +10,5 @@ description: "As with the \"bytes\" range unit, a \"bytes-live\" Range request a
 <br/>
 <hr/>
 
-<p style="float : left"><a href="bytes-live.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./bytes-live.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-range-units">HTTP Range Units</a> | <a href="../">Web Concepts</a> )</p>

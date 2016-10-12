@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/PEP"
 title:       "HTTP Header Field: PEP"
 description: "PEP end-to-end declarations must be transmitted to the ultimate recipient of the declaration. The PEP header field is an end-to-end header field."
 ---
@@ -9,5 +10,5 @@ description: "PEP end-to-end declarations must be transmitted to the ultimate re
 <br/>
 <hr/>
 
-<p style="float : left"><a href="PEP.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./PEP.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

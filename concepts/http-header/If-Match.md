@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/If-Match"
 title:       "HTTP Header Field: If-Match"
 description: "The \"If-Match\" header field makes the request method conditional on the recipient origin server either having at least one current representation of the target resource, when the field-value is \"*\", or having a current representation of the target resource that has an entity-tag matching a member of the list of entity-tags provided in the field-value."
 ---
@@ -9,5 +10,5 @@ description: "The \"If-Match\" header field makes the request method conditional
 <br/>
 <hr/>
 
-<p style="float : left"><a href="If-Match.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./If-Match.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

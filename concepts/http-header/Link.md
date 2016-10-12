@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/Link"
 title:       "HTTP Header Field: Link"
 description: "The Link entity-header field provides a means for serialising one or more links in HTTP headers. It is semantically equivalent to the <LINK> element in HTML, as well as the atom:link feed-level element in Atom."
 ---
@@ -9,5 +10,5 @@ description: "The Link entity-header field provides a means for serialising one 
 <br/>
 <hr/>
 
-<p style="float : left"><a href="Link.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./Link.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/Signature"
 title:       "HTTP Header Field: Signature"
 description: "The \"signature\" HTTP Header is based on the model that the sender must authenticate itself with a digital signature produced by either a private asymmetric key (e.g., RSA) or a shared symmetric key (e.g., HMAC). The scheme is parameterized enough such that it is not bound to any particular key type or signing algorithm. However, it does explicitly assume that senders can send an HTTP 'Date' header."
 ---
@@ -9,5 +10,5 @@ description: "The \"signature\" HTTP Header is based on the model that the sende
 <br/>
 <hr/>
 
-<p style="float : left"><a href="Signature.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./Signature.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

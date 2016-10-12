@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/Location"
 title:       "HTTP Header Field: Location"
 description: "The \"Location\" header field is used in some responses to refer to a specific resource in relation to the response. The type of relationship is defined by the combination of request method and status code semantics."
 ---
@@ -9,5 +10,5 @@ description: "The \"Location\" header field is used in some responses to refer t
 <br/>
 <hr/>
 
-<p style="float : left"><a href="Location.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./Location.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

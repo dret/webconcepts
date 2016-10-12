@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/urn-namespace/uuid"
 title:       "URN Namespace: uuid"
 description: "A UUID is an identifier that is unique across both space and time, with respect to the space of all UUIDs. Since a UUID is a fixed size and contains a time field, it is possible for values to rollover (around A.D. 3400, depending on the specific algorithm used)."
 ---
@@ -9,5 +10,5 @@ description: "A UUID is an identifier that is unique across both space and time,
 <br/>
 <hr/>
 
-<p style="float : left"><a href="uuid.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./uuid.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../urn-namespaces">URN Namespaces</a> | <a href="../">Web Concepts</a> )</p>

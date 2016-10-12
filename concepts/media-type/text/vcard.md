@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/media-type/text/vcard"
 title:       "Media Type: text/vcard"
 description: "The text/vcard MIME content type (hereafter known as \"vCard\") contains contact information, typically pertaining to a single contact or group of contacts. The content consists of one or more lines in the format given below."
 ---
@@ -9,5 +10,5 @@ description: "The text/vcard MIME content type (hereafter known as \"vCard\") co
 <br/>
 <hr/>
 
-<p style="float : left"><a href="text/vcard.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./text/vcard.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../media-types">Media Types</a> | <a href="../">Web Concepts</a> )</p>

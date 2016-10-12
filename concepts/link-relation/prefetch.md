@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/link-relation/prefetch"
 title:       "Link Relation: prefetch"
 description: "The prefetch link relation type is used to declare a resource that might be required by the next navigation, and that the user agent SHOULD fetch, such that the user agent can deliver a faster response once the resource is requested in the future."
 ---
@@ -9,5 +10,5 @@ description: "The prefetch link relation type is used to declare a resource that
 <br/>
 <hr/>
 
-<p style="float : left"><a href="prefetch.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./prefetch.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../link-relations">Link Relations</a> | <a href="../">Web Concepts</a> )</p>

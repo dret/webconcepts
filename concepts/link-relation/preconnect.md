@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/link-relation/preconnect"
 title:       "Link Relation: preconnect"
 description: "The preconnect link relation type is used to indicate an origin that will be used to fetch required resources. Initiating an early connection, which includes the DNS lookup, TCP handshake, and optional TLS negotiation, allows the user agent to mask the high latency costs of establishing a connection."
 ---
@@ -9,5 +10,5 @@ description: "The preconnect link relation type is used to indicate an origin th
 <br/>
 <hr/>
 
-<p style="float : left"><a href="preconnect.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./preconnect.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../link-relations">Link Relations</a> | <a href="../">Web Concepts</a> )</p>

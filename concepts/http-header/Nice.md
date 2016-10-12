@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/Nice"
 title:       "HTTP Header Field: Nice"
 description: "The \"Nice\" header field indicates that a request is less important than a request that doesn't bear this header."
 ---
@@ -9,5 +10,5 @@ description: "The \"Nice\" header field indicates that a request is less importa
 <br/>
 <hr/>
 
-<p style="float : left"><a href="Nice.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./Nice.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

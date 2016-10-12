@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/link-relation/previous"
 title:       "Link Relation: previous"
 description: "A URI that refers to the immediately preceding document in a series of documents."
 ---
@@ -9,5 +10,5 @@ description: "A URI that refers to the immediately preceding document in a serie
 <br/>
 <hr/>
 
-<p style="float : left"><a href="previous.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./previous.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../link-relations">Link Relations</a> | <a href="../">Web Concepts</a> )</p>

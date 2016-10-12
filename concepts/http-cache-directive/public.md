@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-cache-directive/public"
 title:       "HTTP Cache Directive: public"
 description: "The \"public\" response directive indicates that any cache MAY store the response, even if the response would normally be non-cacheable or cacheable only within a private cache."
 ---
@@ -9,5 +10,5 @@ description: "The \"public\" response directive indicates that any cache MAY sto
 <br/>
 <hr/>
 
-<p style="float : left"><a href="public.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./public.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-cache-directives">HTTP Cache Directives</a> | <a href="../">Web Concepts</a> )</p>

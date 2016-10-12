@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/link-relation/preview"
 title:       "Link Relation: preview"
 description: "The \"preview\" link relation can be used to refer to a resource that serves as a preview of the link's context, likely with reduced quality or limited content. For instance, the preview link might reference a screen capture of a video, a brief snippet of audio from a song, or a thumbnail representation of an image."
 ---
@@ -9,5 +10,5 @@ description: "The \"preview\" link relation can be used to refer to a resource t
 <br/>
 <hr/>
 
-<p style="float : left"><a href="preview.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./preview.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../link-relations">Link Relations</a> | <a href="../">Web Concepts</a> )</p>

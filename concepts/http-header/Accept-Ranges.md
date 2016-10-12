@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/Accept-Ranges"
 title:       "HTTP Header Field: Accept-Ranges"
 description: "The \"Accept-Ranges\" header field allows a server to indicate that it supports range requests for the target resource."
 ---
@@ -9,5 +10,5 @@ description: "The \"Accept-Ranges\" header field allows a server to indicate tha
 <br/>
 <hr/>
 
-<p style="float : left"><a href="Accept-Ranges.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./Accept-Ranges.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

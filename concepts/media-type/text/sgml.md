@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/media-type/text/sgml"
 title:       "Media Type: text/sgml"
 description: "The Text/SGML media-type can be employed when the contents of the SGML entity is intended to be read by a human and is in a readily comprehensible form."
 ---
@@ -9,5 +10,5 @@ description: "The Text/SGML media-type can be employed when the contents of the 
 <br/>
 <hr/>
 
-<p style="float : left"><a href="text/sgml.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./text/sgml.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../media-types">Media Types</a> | <a href="../">Web Concepts</a> )</p>

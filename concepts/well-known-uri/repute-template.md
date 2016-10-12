@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/well-known-uri/repute-template"
 title:       "Well-Known URI: repute-template"
 description: "A reputation query made via HTTP encodes the question being asked in an HTTP GET method.  The specific syntax of the query itself is specified by retrieving a URI template from the reputation service, completing the template, and then issuing the query. The template file is retrieved by requesting the well-known URI \"repute-template\" from the host providing reputation service, using HTTP."
 ---
@@ -9,5 +10,5 @@ description: "A reputation query made via HTTP encodes the question being asked 
 <br/>
 <hr/>
 
-<p style="float : left"><a href="repute-template.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./repute-template.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../well-known-uris">Well-Known URIs</a> | <a href="../">Web Concepts</a> )</p>

@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/media-type/application/cbor"
 title:       "Media Type: application/cbor"
 description: "CBOR follows some specific design goals that are not well met by current binary formats. The underlying data model is an extended version of the JSON data model."
 ---
@@ -9,5 +10,5 @@ description: "CBOR follows some specific design goals that are not well met by c
 <br/>
 <hr/>
 
-<p style="float : left"><a href="application/cbor.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./application/cbor.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../media-types">Media Types</a> | <a href="../">Web Concepts</a> )</p>

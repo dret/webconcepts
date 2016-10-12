@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/ETag"
 title:       "HTTP Header Field: ETag"
 description: "The \"ETag\" header field in a response provides the current entity-tag for the selected representation, as determined at the conclusion of handling the request. An entity-tag is an opaque validator for differentiating between multiple representations of the same resource, regardless of whether those multiple representations are due to resource state changes over time, content negotiation resulting in multiple representations being valid at the same time, or both."
 ---
@@ -9,5 +10,5 @@ description: "The \"ETag\" header field in a response provides the current entit
 <br/>
 <hr/>
 
-<p style="float : left"><a href="ETag.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./ETag.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

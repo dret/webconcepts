@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-cache-directive/proxy-revalidate"
 title:       "HTTP Cache Directive: proxy-revalidate"
 description: "The \"proxy-revalidate\" response directive has the same meaning as the must-revalidate response directive, except that it does not apply to private caches."
 ---
@@ -9,5 +10,5 @@ description: "The \"proxy-revalidate\" response directive has the same meaning a
 <br/>
 <hr/>
 
-<p style="float : left"><a href="proxy-revalidate.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./proxy-revalidate.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-cache-directives">HTTP Cache Directives</a> | <a href="../">Web Concepts</a> )</p>

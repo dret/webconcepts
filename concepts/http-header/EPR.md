@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/EPR"
 title:       "HTTP Header Field: EPR"
 description: "Servers may request the protections outlined by Entry Point Regulation (EPR) by sending an EPR HTTP response header field along with a response."
 ---
@@ -9,5 +10,5 @@ description: "Servers may request the protections outlined by Entry Point Regula
 <br/>
 <hr/>
 
-<p style="float : left"><a href="EPR.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./EPR.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

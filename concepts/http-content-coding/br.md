@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-content-coding/br"
 title:       "HTTP Content Coding: br"
 description: "This specification defines a lossless compressed data format that compresses data using a combination of the LZ77 algorithm and Huffman coding, with efficiency comparable to the best currently available general-purpose compression methods."
 ---
@@ -9,5 +10,5 @@ description: "This specification defines a lossless compressed data format that 
 <br/>
 <hr/>
 
-<p style="float : left"><a href="br.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./br.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-content-codings">HTTP Content Codings</a> | <a href="../">Web Concepts</a> )</p>

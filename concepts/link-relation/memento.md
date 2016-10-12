@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/link-relation/memento"
 title:       "Link Relation: memento"
 description: "A link with a \"memento\" Relation Type is used to point from a TimeGate or a Memento for an Original Resource, as well as from the Original Resource itself, to a Memento for the Original Resource."
 ---
@@ -9,5 +10,5 @@ description: "A link with a \"memento\" Relation Type is used to point from a Ti
 <br/>
 <hr/>
 
-<p style="float : left"><a href="memento.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./memento.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../link-relations">Link Relations</a> | <a href="../">Web Concepts</a> )</p>

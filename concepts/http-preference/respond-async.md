@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-preference/respond-async"
 title:       "HTTP Preference: respond-async"
 description: "The \"respond-async\" preference indicates that the client prefers the server to respond asynchronously to a response."
 ---
@@ -9,5 +10,5 @@ description: "The \"respond-async\" preference indicates that the client prefers
 <br/>
 <hr/>
 
-<p style="float : left"><a href="respond-async.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./respond-async.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-preferences">HTTP Preferences</a> | <a href="../">Web Concepts</a> )</p>

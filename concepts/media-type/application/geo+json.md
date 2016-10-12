@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/media-type/application/geo+json"
 title:       "Media Type: application/geo+json"
 description: "The media type for GeoJSON text is \"application/geo+json\". The entry for \"application/vnd.geo+json\" in the same registry should have its status changed to be Obsolete with a pointer to the media type \"application/geo+json\" and a reference added to this RFC."
 ---
@@ -9,5 +10,5 @@ description: "The media type for GeoJSON text is \"application/geo+json\". The e
 <br/>
 <hr/>
 
-<p style="float : left"><a href="application/geo+json.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./application/geo+json.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../media-types">Media Types</a> | <a href="../">Web Concepts</a> )</p>

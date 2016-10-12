@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/oauth-token-type-hint/access_token"
 title:       "OAuth Token Type Hint: access_token"
 description: "A hint about the type of the token submitted for revocation. access_token identifies an access token as defined in RFC 6749."
 ---
@@ -9,5 +10,5 @@ description: "A hint about the type of the token submitted for revocation. acces
 <br/>
 <hr/>
 
-<p style="float : left"><a href="access_token.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./access_token.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../oauth-token-type-hints">OAuth Token Type Hints</a> | <a href="../">Web Concepts</a> )</p>

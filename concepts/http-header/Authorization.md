@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/Authorization"
 title:       "HTTP Header Field: Authorization"
 description: "Protocol parameters can be transmitted using the HTTP \"Authorization\" header field as defined by RFC 2617 with the auth-scheme name set to \"OAuth\" (case insensitive)."
 ---
@@ -13,5 +14,5 @@ description: "Protocol parameters can be transmitted using the HTTP \"Authorizat
 <br/>
 <hr/>
 
-<p style="float : left"><a href="Authorization.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./Authorization.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/jwt-claim/sub"
 title:       "JSON Web Token Claim: sub"
 description: "The \"sub\" (subject) claim identifies the principal that is the subject of the JWT. The claims in a JWT are normally statements about the subject. The subject value MUST either be scoped to be locally unique in the context of the issuer or be globally unique."
 ---
@@ -9,5 +10,5 @@ description: "The \"sub\" (subject) claim identifies the principal that is the s
 <br/>
 <hr/>
 
-<p style="float : left"><a href="sub.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./sub.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../jwt-claims">JSON Web Token Claims</a> | <a href="../">Web Concepts</a> )</p>

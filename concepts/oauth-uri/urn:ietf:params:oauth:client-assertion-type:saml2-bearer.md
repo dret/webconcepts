@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/oauth-uri/urn%3Aietf%3Aparams%3Aoauth%3Aclient-assertion-type%3Asaml2-bearer"
 title:       "OAuth URI: urn:ietf:params:oauth:client-assertion-type:saml2-bearer"
 description: "To use a SAML Bearer Assertion for client authentication, the client uses the following parameter values and encodings. The value of the \"client_assertion_type\" parameter is \"urn:ietf:params:oauth:client-assertion-type:saml2-bearer\"."
 ---
@@ -9,5 +10,5 @@ description: "To use a SAML Bearer Assertion for client authentication, the clie
 <br/>
 <hr/>
 
-<p style="float : left"><a href="urn:ietf:params:oauth:client-assertion-type:saml2-bearer.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./urn:ietf:params:oauth:client-assertion-type:saml2-bearer.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../oauth-uris">OAuth URIs</a> | <a href="../">Web Concepts</a> )</p>

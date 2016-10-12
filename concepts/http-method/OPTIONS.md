@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-method/OPTIONS"
 title:       "HTTP Request Method: OPTIONS"
 description: "The OPTIONS method requests information about the communication options available for the target resource, at either the origin server or an intervening intermediary. This method allows a client to determine the options and/or requirements associated with a resource, or the capabilities of a server, without implying a resource action."
 ---
@@ -9,5 +10,5 @@ description: "The OPTIONS method requests information about the communication op
 <br/>
 <hr/>
 
-<p style="float : left"><a href="OPTIONS.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./OPTIONS.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-methods">HTTP Request Methods</a> | <a href="../">Web Concepts</a> )</p>

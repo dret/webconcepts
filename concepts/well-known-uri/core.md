@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/well-known-uri/core"
 title:       "Well-Known URI: core"
 description: "Resource discovery in CoRE is accomplished through the use of a well-known resource URI that returns a list of links about resources hosted by that server and other link relations. Well-known resources have a path component that begins with \"/.well-known/\" as specified in RFC 5785. This specification defines a new well-known resource for CoRE Resource Discovery: \"/.well-known/core\"."
 ---
@@ -9,5 +10,5 @@ description: "Resource discovery in CoRE is accomplished through the use of a we
 <br/>
 <hr/>
 
-<p style="float : left"><a href="core.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./core.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../well-known-uris">Well-Known URIs</a> | <a href="../">Web Concepts</a> )</p>

@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-preference/return"
 title:       "HTTP Preference: return"
 description: "The \"return=representation\" preference indicates that the client prefers that the server include an entity representing the current state of the resource in the response to a successful request. The \"return=minimal\" preference, on the other hand, indicates that the client wishes the server to return only a minimal response to a successful request."
 ---
@@ -9,5 +10,5 @@ description: "The \"return=representation\" preference indicates that the client
 <br/>
 <hr/>
 
-<p style="float : left"><a href="return.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./return.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-preferences">HTTP Preferences</a> | <a href="../">Web Concepts</a> )</p>

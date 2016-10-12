@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/Apply-To-Redirect-Ref"
 title:       "HTTP Header Field: Apply-To-Redirect-Ref"
 description: "The optional Apply-To-Redirect-Ref header can be used on any request to a redirect reference resource. When it is present and set to \"T\", the request MUST be applied to the reference resource itself, and a 3xx response MUST NOT be returned."
 ---
@@ -9,5 +10,5 @@ description: "The optional Apply-To-Redirect-Ref header can be used on any reque
 <br/>
 <hr/>
 
-<p style="float : left"><a href="Apply-To-Redirect-Ref.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./Apply-To-Redirect-Ref.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

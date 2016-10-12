@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/Opt"
 title:       "HTTP Header Field: Opt"
 description: "An optional extension declaration indicates that the ultimate recipient of the extension MAY consult and adhere to the rules given by the extension when processing the message, or ignore the extension declaration completely. An agent may not be able to distinguish whether the ultimate recipient does not understand an extension referred to by an optional extension or simply ignores the extension declaration."
 ---
@@ -9,5 +10,5 @@ description: "An optional extension declaration indicates that the ultimate reci
 <br/>
 <hr/>
 
-<p style="float : left"><a href="Opt.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./Opt.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

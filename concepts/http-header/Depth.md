@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/Depth"
 title:       "HTTP Header Field: Depth"
 description: "The Depth request header is used with methods executed on resources that could potentially have internal members to indicate whether the method is to be applied only to the resource (\"Depth: 0\"), to the resource and its internal members only (\"Depth: 1\"), or the resource and all its members (\"Depth: infinity\")."
 ---
@@ -9,5 +10,5 @@ description: "The Depth request header is used with methods executed on resource
 <br/>
 <hr/>
 
-<p style="float : left"><a href="Depth.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./Depth.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

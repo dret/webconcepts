@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/Key"
 title:       "HTTP Header Field: Key"
 description: "The \"Key\" response header field describes the request attributes that the server has used to select the current representation. As such, its semantics are similar to the \"Vary\" response header field, but it allows more fine-grained description, using \"key modifiers\"."
 ---
@@ -9,5 +10,5 @@ description: "The \"Key\" response header field describes the request attributes
 <br/>
 <hr/>
 
-<p style="float : left"><a href="Key.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./Key.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

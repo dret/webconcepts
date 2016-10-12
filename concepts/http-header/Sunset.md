@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/Sunset"
 title:       "HTTP Header Field: Sunset"
 description: "The Sunset HTTP response header field allows a server to communicate the fact that a resource is expected to become unresponsive at a specific point in time. It provides information for clients which they can use to control their usage of the resource. The Sunset header contains a single timestamp which advertises the point in time when the resource is expected to become unresponsive."
 ---
@@ -9,5 +10,5 @@ description: "The Sunset HTTP response header field allows a server to communica
 <br/>
 <hr/>
 
-<p style="float : left"><a href="Sunset.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./Sunset.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

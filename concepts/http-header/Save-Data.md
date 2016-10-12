@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/Save-Data"
 title:       "HTTP Header Field: Save-Data"
 description: "The \"Save-Data\" header field is a token that, in requests, indicates client's preference for reduced data usage, due to high transfer costs, slow connection speeds, or other reasons."
 ---
@@ -9,5 +10,5 @@ description: "The \"Save-Data\" header field is a token that, in requests, indic
 <br/>
 <hr/>
 
-<p style="float : left"><a href="Save-Data.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./Save-Data.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

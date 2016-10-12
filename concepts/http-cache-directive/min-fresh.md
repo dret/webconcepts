@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-cache-directive/min-fresh"
 title:       "HTTP Cache Directive: min-fresh"
 description: "The \"min-fresh\" request directive indicates that the client is willing to accept a response whose freshness lifetime is no less than its current age plus the specified time in seconds. That is, the client wants a response that will still be fresh for at least the specified number of seconds."
 ---
@@ -9,5 +10,5 @@ description: "The \"min-fresh\" request directive indicates that the client is w
 <br/>
 <hr/>
 
-<p style="float : left"><a href="min-fresh.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./min-fresh.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-cache-directives">HTTP Cache Directives</a> | <a href="../">Web Concepts</a> )</p>

@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/well-known-uri/void"
 title:       "Well-Known URI: void"
 description: "The URI /.well-known/void on any Web server is registered by this specification for a VoID description of any datasets hosted on that server. This URI may be an HTTP redirect to the location of the actual VoID file."
 ---
@@ -9,5 +10,5 @@ description: "The URI /.well-known/void on any Web server is registered by this 
 <br/>
 <hr/>
 
-<p style="float : left"><a href="void.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./void.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../well-known-uris">Well-Known URIs</a> | <a href="../">Web Concepts</a> )</p>

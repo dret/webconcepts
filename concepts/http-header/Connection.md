@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/Connection"
 title:       "HTTP Header Field: Connection"
 description: "The \"Connection\" header field allows the sender to indicate desired control options for the current connection. In order to avoid confusing downstream recipients, a proxy or gateway MUST remove or replace any received connection options before forwarding the message."
 ---
@@ -9,5 +10,5 @@ description: "The \"Connection\" header field allows the sender to indicate desi
 <br/>
 <hr/>
 
-<p style="float : left"><a href="Connection.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./Connection.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

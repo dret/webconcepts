@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-forwarded-parameter/proto"
 title:       "HTTP Forwarded Parameter: proto"
 description: "The \"proto\" parameter has the value of the used protocol type."
 ---
@@ -9,5 +10,5 @@ description: "The \"proto\" parameter has the value of the used protocol type."
 <br/>
 <hr/>
 
-<p style="float : left"><a href="proto.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./proto.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-forwarded-parameters">HTTP Forwarded Parameters</a> | <a href="../">Web Concepts</a> )</p>

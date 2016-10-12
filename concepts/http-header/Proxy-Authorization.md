@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/Proxy-Authorization"
 title:       "HTTP Header Field: Proxy-Authorization"
 description: "The \"Proxy-Authorization\" header field allows the client to identify itself (or its user) to a proxy that requires authentication. Its value consists of credentials containing the authentication information of the client for the proxy and/or realm of the resource being requested."
 ---
@@ -9,5 +10,5 @@ description: "The \"Proxy-Authorization\" header field allows the client to iden
 <br/>
 <hr/>
 
-<p style="float : left"><a href="Proxy-Authorization.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./Proxy-Authorization.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

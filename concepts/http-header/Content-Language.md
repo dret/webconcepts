@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/Content-Language"
 title:       "HTTP Header Field: Content-Language"
 description: "The \"Content-Language\" header field describes the natural language(s) of the intended audience for the representation. Note that this might not be equivalent to all the languages used within the representation."
 ---
@@ -9,5 +10,5 @@ description: "The \"Content-Language\" header field describes the natural langua
 <br/>
 <hr/>
 
-<p style="float : left"><a href="Content-Language.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./Content-Language.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

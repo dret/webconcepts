@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-method/UNCHECKOUT"
 title:       "HTTP Request Method: UNCHECKOUT"
 description: "An UNCHECKOUT request can be applied to a checked-out version-controlled resource to cancel the CHECKOUT and restore the pre-CHECKOUT state of the version-controlled resource."
 ---
@@ -9,5 +10,5 @@ description: "An UNCHECKOUT request can be applied to a checked-out version-cont
 <br/>
 <hr/>
 
-<p style="float : left"><a href="UNCHECKOUT.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./UNCHECKOUT.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-methods">HTTP Request Methods</a> | <a href="../">Web Concepts</a> )</p>

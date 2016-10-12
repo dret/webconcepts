@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-method/PROPPATCH"
 title:       "HTTP Request Method: PROPPATCH"
 description: "The PROPPATCH method processes instructions specified in the request body to set and/or remove properties defined on the resource identified by the Request-URI."
 ---
@@ -9,5 +10,5 @@ description: "The PROPPATCH method processes instructions specified in the reque
 <br/>
 <hr/>
 
-<p style="float : left"><a href="PROPPATCH.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./PROPPATCH.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-methods">HTTP Request Methods</a> | <a href="../">Web Concepts</a> )</p>

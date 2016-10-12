@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/Position"
 title:       "HTTP Header Field: Position"
 description: "When a new member is added to a collection with a client-maintained ordering (for example, with PUT, COPY, or MKCOL), its position in the ordering can be set with the new Position header. The Position header allows the client to specify that an internal member URI should be first in the collection's ordering, last in the collection's ordering, immediately before some other internal member URI in the collection's ordering, or immediately after some other internal member URI in the collection's ordering."
 ---
@@ -9,5 +10,5 @@ description: "When a new member is added to a collection with a client-maintaine
 <br/>
 <hr/>
 
-<p style="float : left"><a href="Position.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./Position.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/media-type/message/http"
 title:       "Media Type: message/http"
 description: "The message/http type can be used to enclose a single HTTP request or response message, provided that it obeys the MIME restrictions for all \"message\" types regarding line length and encodings."
 ---
@@ -9,5 +10,5 @@ description: "The message/http type can be used to enclose a single HTTP request
 <br/>
 <hr/>
 
-<p style="float : left"><a href="message/http.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./message/http.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../media-types">Media Types</a> | <a href="../">Web Concepts</a> )</p>

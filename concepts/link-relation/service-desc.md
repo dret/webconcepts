@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/link-relation/service-desc"
 title:       "Link Relation: service-desc"
 description: "The \"service-desc\" link relation type is used to represent the fact that a resource is part of a bigger set of resources that are described at a specific URI. The target resource is expected to provide a service description that is intended for machine consumption. Very often, it is provided in a format that is consumed by tools, code libraries, or similar components."
 ---
@@ -9,5 +10,5 @@ description: "The \"service-desc\" link relation type is used to represent the f
 <br/>
 <hr/>
 
-<p style="float : left"><a href="service-desc.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./service-desc.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../link-relations">Link Relations</a> | <a href="../">Web Concepts</a> )</p>

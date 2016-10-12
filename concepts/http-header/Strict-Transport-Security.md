@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/Strict-Transport-Security"
 title:       "HTTP Header Field: Strict-Transport-Security"
 description: "The Strict-Transport-Security HTTP response header field (STS header field) indicates to a UA that it MUST enforce the HSTS Policy in regards to the host emitting the response message containing this header field."
 ---
@@ -9,5 +10,5 @@ description: "The Strict-Transport-Security HTTP response header field (STS head
 <br/>
 <hr/>
 
-<p style="float : left"><a href="Strict-Transport-Security.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./Strict-Transport-Security.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

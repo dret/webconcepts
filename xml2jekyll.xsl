@@ -272,6 +272,9 @@
                             <xsl:variable name="allspecsdef" select="$allspecs/service/*[local-name() eq $concept/@id][@def eq $concept-name]"/>
                             <xsl:text>---&#xa;</xsl:text>
                             <xsl:text>layout:      page&#xa;</xsl:text>
+                            <xsl:text>permalink:   "/</xsl:text>
+                            <xsl:value-of select="concat($concepts-dir, '/', $concept/filename-singular, '/', replace($concept-name, ':', '%3A'))"/>
+                            <xsl:text>"&#xa;</xsl:text>
                             <xsl:text>title:       "</xsl:text>
                             <xsl:value-of select="$concept/title-singular/text()"/>
                             <xsl:text>: </xsl:text>
@@ -308,7 +311,7 @@
                                 <xsl:text>&amp;#34;")&#xa;&#xa;</xsl:text>
                             </xsl:for-each>
                             <xsl:text>&lt;br/>&#xa;&lt;hr/>&#xa;&#xa;</xsl:text>
-                            <xsl:text>&lt;p style="float : left">&lt;a href="</xsl:text>
+                            <xsl:text>&lt;p style="float : left">&lt;a href="./</xsl:text>
                             <xsl:value-of select="$concept-name"/>
                             <xsl:text>.json" title="JSON representing this particular Web Concept value">JSON&lt;/a>&lt;/p>&#xa;</xsl:text>
                             <xsl:text>&lt;p style="text-align: right">Return to list of all ( &lt;a href="../</xsl:text>

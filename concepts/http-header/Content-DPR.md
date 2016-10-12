@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/Content-DPR"
 title:       "HTTP Header Field: Content-DPR"
 description: "The \"Content-DPR\" header field is a number that indicates the ratio between physical pixels over CSS px of the selected image response."
 ---
@@ -9,5 +10,5 @@ description: "The \"Content-DPR\" header field is a number that indicates the ra
 <br/>
 <hr/>
 
-<p style="float : left"><a href="Content-DPR.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./Content-DPR.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

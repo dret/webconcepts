@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/well-known-uri/openpgpkey"
 title:       "Well-Known URI: openpgpkey"
 description: "Used for the discovery of Web keys that are made available using the OpenPGP Web Key Service."
 ---
@@ -9,5 +10,5 @@ description: "Used for the discovery of Web keys that are made available using t
 <br/>
 <hr/>
 
-<p style="float : left"><a href="openpgpkey.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./openpgpkey.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../well-known-uris">Well-Known URIs</a> | <a href="../">Web Concepts</a> )</p>

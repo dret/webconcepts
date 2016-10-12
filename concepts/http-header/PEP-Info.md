@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/PEP-Info"
 title:       "HTTP Header Field: PEP-Info"
 description: "PEP end-to-end policies MUST be transmitted to the ultimate recipient of a message."
 ---
@@ -9,5 +10,5 @@ description: "PEP end-to-end policies MUST be transmitted to the ultimate recipi
 <br/>
 <hr/>
 
-<p style="float : left"><a href="PEP-Info.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./PEP-Info.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

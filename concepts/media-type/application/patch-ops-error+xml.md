@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/media-type/application/patch-ops-error+xml"
 title:       "Media Type: application/patch-ops-error+xml"
 description: "A new MIME error format is defined for applications that require deterministic error handling when patching cannot be applied. It is anticipated that these error elements can be used within other MIME types that allow extension elements."
 ---
@@ -9,5 +10,5 @@ description: "A new MIME error format is defined for applications that require d
 <br/>
 <hr/>
 
-<p style="float : left"><a href="application/patch-ops-error+xml.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./application/patch-ops-error+xml.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../media-types">Media Types</a> | <a href="../">Web Concepts</a> )</p>

@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/Hobareg"
 title:       "HTTP Header Field: Hobareg"
 description: "The server MUST add a header field to the response message when the registration has succeeded in order to indicate the new state. The header to be used is \"Hobareg\", and the value when registration has succeeded is to be \"regok\". When registration is in an intermediate state (e.g., on an HTTP response for an interstitial page), the server MAY add this header with a value of \"reginwork\"."
 ---
@@ -9,5 +10,5 @@ description: "The server MUST add a header field to the response message when th
 <br/>
 <hr/>
 
-<p style="float : left"><a href="Hobareg.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./Hobareg.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

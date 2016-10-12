@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/Close"
 title:       "HTTP Header Field: Close"
 description: "The header field-name \"Close\" has been registered as \"reserved\", since using that name as an HTTP header field might conflict with the \"close\" connection option of the Connection header field."
 ---
@@ -9,5 +10,5 @@ description: "The header field-name \"Close\" has been registered as \"reserved\
 <br/>
 <hr/>
 
-<p style="float : left"><a href="Close.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./Close.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

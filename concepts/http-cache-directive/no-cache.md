@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-cache-directive/no-cache"
 title:       "HTTP Cache Directive: no-cache"
 description: "The \"no-cache\" request directive indicates that a cache MUST NOT use a stored response to satisfy the request without successful validation on the origin server. The \"no-cache\" response directive indicates that the response MUST NOT be used to satisfy a subsequent request without successful validation on the origin server. This allows an origin server to prevent a cache from using it to satisfy a request without contacting it, even by caches that have been configured to send stale responses."
 ---
@@ -9,5 +10,5 @@ description: "The \"no-cache\" request directive indicates that a cache MUST NOT
 <br/>
 <hr/>
 
-<p style="float : left"><a href="no-cache.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./no-cache.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-cache-directives">HTTP Cache Directives</a> | <a href="../">Web Concepts</a> )</p>

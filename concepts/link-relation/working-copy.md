@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/link-relation/working-copy"
 title:       "Link Relation: working-copy"
 description: "When included on a versioned resource, this link points to a working copy for this resource."
 ---
@@ -9,5 +10,5 @@ description: "When included on a versioned resource, this link points to a worki
 <br/>
 <hr/>
 
-<p style="float : left"><a href="working-copy.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./working-copy.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../link-relations">Link Relations</a> | <a href="../">Web Concepts</a> )</p>

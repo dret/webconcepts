@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/media-type/application/mets+xml"
 title:       "Media Type: application/mets+xml"
 description: "An XML schema for encoding descriptive, administrative, and structural metadata regarding objects within a digital library."
 ---
@@ -9,5 +10,5 @@ description: "An XML schema for encoding descriptive, administrative, and struct
 <br/>
 <hr/>
 
-<p style="float : left"><a href="application/mets+xml.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./application/mets+xml.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../media-types">Media Types</a> | <a href="../">Web Concepts</a> )</p>

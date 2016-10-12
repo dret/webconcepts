@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/media-type/application/rdf+xml"
 title:       "Media Type: application/rdf+xml"
 description: "RDF is a language designed to support the Semantic Web, by facilitating resource description and data exchange on the Web. RDF provides common structures that can be used for interoperable data exchange and follows the W3C design principles of interoperability, evolution, and decentralization. While the RDF data model can be serialized in many ways, the W3C has defined the RDF/XML syntax to allow RDF to be serialized in an XML format. The application/rdf+xml media type allows RDF consumers to identify RDF/XML documents so that they can be processed properly."
 ---
@@ -9,5 +10,5 @@ description: "RDF is a language designed to support the Semantic Web, by facilit
 <br/>
 <hr/>
 
-<p style="float : left"><a href="application/rdf+xml.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./application/rdf+xml.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../media-types">Media Types</a> | <a href="../">Web Concepts</a> )</p>

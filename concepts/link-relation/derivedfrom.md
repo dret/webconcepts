@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/link-relation/derivedfrom"
 title:       "Link Relation: derivedfrom"
 description: "The document linked to was later converted to the document that contains this link relation. For example, an RFC can have a link to the Internet Draft that became the RFC; in that case, the link relation would be \"derivedfrom\"."
 ---
@@ -9,5 +10,5 @@ description: "The document linked to was later converted to the document that co
 <br/>
 <hr/>
 
-<p style="float : left"><a href="derivedfrom.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./derivedfrom.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../link-relations">Link Relations</a> | <a href="../">Web Concepts</a> )</p>

@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/Report-To"
 title:       "HTTP Header Field: Report-To"
 description: "The Report-To HTTP response header field instructs the user agent to store reporting endpoints for an origin."
 ---
@@ -9,5 +10,5 @@ description: "The Report-To HTTP response header field instructs the user agent 
 <br/>
 <hr/>
 
-<p style="float : left"><a href="Report-To.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./Report-To.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

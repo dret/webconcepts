@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/Safe"
 title:       "HTTP Header Field: Safe"
 description: "The Safe response header field is used by origin servers to indicate whether repeating the received HTTP request is safe in the sense of Section 9.1.1 (Safe Methods) of the HTTP/1.1 specification. For the purpose of this specification, a HTTP request is considered to be a repetition of a previous request if both requests are issued by the same user agent, and apply to the same resource, and have the same request method, and both have no request body, or both have request bodies which are byte-wise identical after decoding of any content and transfer codings."
 ---
@@ -9,5 +10,5 @@ description: "The Safe response header field is used by origin servers to indica
 <br/>
 <hr/>
 
-<p style="float : left"><a href="Safe.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./Safe.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

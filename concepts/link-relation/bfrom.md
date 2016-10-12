@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/link-relation/bfrom"
 title:       "Link Relation: bfrom"
 description: "Refers to a resource that is privately considered to be the originator of the link's context."
 ---
@@ -9,5 +10,5 @@ description: "Refers to a resource that is privately considered to be the origin
 <br/>
 <hr/>
 
-<p style="float : left"><a href="bfrom.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./bfrom.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../link-relations">Link Relations</a> | <a href="../">Web Concepts</a> )</p>

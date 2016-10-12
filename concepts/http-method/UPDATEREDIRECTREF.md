@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-method/UPDATEREDIRECTREF"
 title:       "HTTP Request Method: UPDATEREDIRECTREF"
 description: "The UPDATEREDIRECTREF method requests the update of a redirect reference resource."
 ---
@@ -9,5 +10,5 @@ description: "The UPDATEREDIRECTREF method requests the update of a redirect ref
 <br/>
 <hr/>
 
-<p style="float : left"><a href="UPDATEREDIRECTREF.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./UPDATEREDIRECTREF.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-methods">HTTP Request Methods</a> | <a href="../">Web Concepts</a> )</p>

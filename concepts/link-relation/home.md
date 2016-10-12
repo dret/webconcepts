@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/link-relation/home"
 title:       "Link Relation: home"
 description: "Identifies a resource that provides a \"home\" document for the context resource. Home documents often serve as starting points for a certain resource context, such as for Web APIs where the home resource provides access to a number of \"entry points\" to the Web API."
 ---
@@ -9,5 +10,5 @@ description: "Identifies a resource that provides a \"home\" document for the co
 <br/>
 <hr/>
 
-<p style="float : left"><a href="home.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./home.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../link-relations">Link Relations</a> | <a href="../">Web Concepts</a> )</p>

@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/POE"
 title:       "HTTP Header Field: POE"
 description: "The POE HTTP header is a request-header field whose field-value indicates the version of POE that a client supports."
 ---
@@ -9,5 +10,5 @@ description: "The POE HTTP header is a request-header field whose field-value in
 <br/>
 <hr/>
 
-<p style="float : left"><a href="POE.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./POE.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

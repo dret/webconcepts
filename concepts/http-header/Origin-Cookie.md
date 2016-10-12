@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/Origin-Cookie"
 title:       "HTTP Header Field: Origin-Cookie"
 description: "The user agent includes stored cookies whose \"origin-flag\" is set in the \"Origin-Cookie\" request header. When the user agent generates an HTTP request, it MUST NOT attach more than one \"Origin-Cookie\" header field."
 ---
@@ -9,5 +10,5 @@ description: "The user agent includes stored cookies whose \"origin-flag\" is se
 <br/>
 <hr/>
 
-<p style="float : left"><a href="Origin-Cookie.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./Origin-Cookie.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/Last-Event-ID"
 title:       "HTTP Header Field: Last-Event-ID"
 description: "The Last-Event-ID HTTP header specifies the value of the event source's last event ID string, encoded as UTF-8."
 ---
@@ -9,5 +10,5 @@ description: "The Last-Event-ID HTTP header specifies the value of the event sou
 <br/>
 <hr/>
 
-<p style="float : left"><a href="Last-Event-ID.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./Last-Event-ID.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

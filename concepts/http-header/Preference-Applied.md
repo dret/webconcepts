@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/Preference-Applied"
 title:       "HTTP Header Field: Preference-Applied"
 description: "The Preference-Applied response header MAY be included within a response message as an indication as to which Prefer tokens were honored by the server and applied to the processing of a request."
 ---
@@ -9,5 +10,5 @@ description: "The Preference-Applied response header MAY be included within a re
 <br/>
 <hr/>
 
-<p style="float : left"><a href="Preference-Applied.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./Preference-Applied.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

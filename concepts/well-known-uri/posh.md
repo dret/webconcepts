@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/well-known-uri/posh"
 title:       "Well-Known URI: posh"
 description: "The suffix \"posh\" is expected to be followed by an additional path component consisting of a service name (say, \"spice\") and a file extension of \".json\", resulting in a full path of, for instance, \"/.well-known/posh/spice.json\". Registration of service names shall be requested by developers of the relevant application protocols."
 ---
@@ -9,5 +10,5 @@ description: "The suffix \"posh\" is expected to be followed by an additional pa
 <br/>
 <hr/>
 
-<p style="float : left"><a href="posh.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./posh.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../well-known-uris">Well-Known URIs</a> | <a href="../">Web Concepts</a> )</p>

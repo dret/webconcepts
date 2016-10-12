@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/uri-scheme/https"
 title:       "URI Scheme: https"
 description: "The \"https\" URI scheme is hereby defined for the purpose of minting identifiers according to their association with the hierarchical namespace governed by a potential HTTP origin server listening to a given TCP port for TLS-secured connections."
 ---
@@ -9,5 +10,5 @@ description: "The \"https\" URI scheme is hereby defined for the purpose of mint
 <br/>
 <hr/>
 
-<p style="float : left"><a href="https.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./https.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../uri-schemes">URI Schemes</a> | <a href="../">Web Concepts</a> )</p>

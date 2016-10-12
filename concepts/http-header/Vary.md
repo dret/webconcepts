@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/Vary"
 title:       "HTTP Header Field: Vary"
 description: "The \"Vary\" header field in a response describes what parts of a request message, aside from the method, Host header field, and request target, might influence the origin server's process for selecting and representing this response. The value consists of either a single asterisk (\"*\") or a list of header field names (case-insensitive)."
 ---
@@ -9,5 +10,5 @@ description: "The \"Vary\" header field in a response describes what parts of a 
 <br/>
 <hr/>
 
-<p style="float : left"><a href="Vary.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./Vary.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

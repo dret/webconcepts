@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/link-relation/bcc"
 title:       "Link Relation: bcc"
 description: "Refers to a resource that is considered to be part of the private secondary audience of the link's context."
 ---
@@ -9,5 +10,5 @@ description: "Refers to a resource that is considered to be part of the private 
 <br/>
 <hr/>
 
-<p style="float : left"><a href="bcc.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./bcc.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../link-relations">Link Relations</a> | <a href="../">Web Concepts</a> )</p>

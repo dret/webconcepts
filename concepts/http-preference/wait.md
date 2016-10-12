@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-preference/wait"
 title:       "HTTP Preference: wait"
 description: "The \"wait\" preference can be used to establish an upper bound on the length of time, in seconds, the client expects it will take the server to process the request once it has been received."
 ---
@@ -9,5 +10,5 @@ description: "The \"wait\" preference can be used to establish an upper bound on
 <br/>
 <hr/>
 
-<p style="float : left"><a href="wait.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./wait.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-preferences">HTTP Preferences</a> | <a href="../">Web Concepts</a> )</p>

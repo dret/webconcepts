@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-method/DELETE"
 title:       "HTTP Request Method: DELETE"
 description: "The DELETE method requests that the origin server remove the association between the target resource and its current functionality. In effect, this method is similar to the rm command in UNIX: it expresses a deletion operation on the URI mapping of the origin server rather than an expectation that the previously associated information be deleted."
 ---
@@ -9,5 +10,5 @@ description: "The DELETE method requests that the origin server remove the assoc
 <br/>
 <hr/>
 
-<p style="float : left"><a href="DELETE.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./DELETE.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-methods">HTTP Request Methods</a> | <a href="../">Web Concepts</a> )</p>

@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-method/PATCH"
 title:       "HTTP Request Method: PATCH"
 description: "The PATCH method requests that a set of changes described in the request entity be applied to the resource identified by the Request-URI. The set of changes is represented in a format called a \"patch document\" identified by a media type. If the Request-URI does not point to an existing resource, the server MAY create a new resource, depending on the patch document type (whether it can logically modify a null resource) and permissions, etc."
 ---
@@ -9,5 +10,5 @@ description: "The PATCH method requests that a set of changes described in the r
 <br/>
 <hr/>
 
-<p style="float : left"><a href="PATCH.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./PATCH.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-methods">HTTP Request Methods</a> | <a href="../">Web Concepts</a> )</p>

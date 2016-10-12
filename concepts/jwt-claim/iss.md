@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/jwt-claim/iss"
 title:       "JSON Web Token Claim: iss"
 description: "The \"iss\" (issuer) claim identifies the principal that issued the JWT. The processing of this claim is generally application specific."
 ---
@@ -9,5 +10,5 @@ description: "The \"iss\" (issuer) claim identifies the principal that issued th
 <br/>
 <hr/>
 
-<p style="float : left"><a href="iss.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./iss.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../jwt-claims">JSON Web Token Claims</a> | <a href="../">Web Concepts</a> )</p>

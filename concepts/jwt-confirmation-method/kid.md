@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/jwt-confirmation-method/kid"
 title:       "JWT Confirmation Method: kid"
 description: "The proof-of-possession key can also be identified by the use of a Key ID instead of communicating the actual key, provided the recipient is able to obtain the identified key using the Key ID."
 ---
@@ -9,5 +10,5 @@ description: "The proof-of-possession key can also be identified by the use of a
 <br/>
 <hr/>
 
-<p style="float : left"><a href="kid.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./kid.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../jwt-confirmation-methods">JWT Confirmation Methods</a> | <a href="../">Web Concepts</a> )</p>

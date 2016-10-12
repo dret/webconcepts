@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/link-relation/privacy-policy"
 title:       "Link Relation: privacy-policy"
 description: "The \"privacy-policy\" link relation can be used to refer to a resource describing the privacy policy associated with the link's context. The privacy policy can be any resource that discloses what personal information about the user is collected and how that personal information is stored, used, managed, and disclosed to other parties."
 ---
@@ -9,5 +10,5 @@ description: "The \"privacy-policy\" link relation can be used to refer to a res
 <br/>
 <hr/>
 
-<p style="float : left"><a href="privacy-policy.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./privacy-policy.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../link-relations">Link Relations</a> | <a href="../">Web Concepts</a> )</p>

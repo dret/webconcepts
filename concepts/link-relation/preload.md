@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/link-relation/preload"
 title:       "Link Relation: preload"
 description: "The preload keyword may be used with link elements. This keyword creates an external resource link (preload link) that is used to declare a resource and its fetch properties."
 ---
@@ -9,5 +10,5 @@ description: "The preload keyword may be used with link elements. This keyword c
 <br/>
 <hr/>
 
-<p style="float : left"><a href="preload.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./preload.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../link-relations">Link Relations</a> | <a href="../">Web Concepts</a> )</p>

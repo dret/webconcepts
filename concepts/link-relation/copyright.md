@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/link-relation/copyright"
 title:       "Link Relation: copyright"
 description: "Refers to a copyright statement for the current document."
 ---
@@ -9,5 +10,5 @@ description: "Refers to a copyright statement for the current document."
 <br/>
 <hr/>
 
-<p style="float : left"><a href="copyright.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./copyright.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../link-relations">Link Relations</a> | <a href="../">Web Concepts</a> )</p>

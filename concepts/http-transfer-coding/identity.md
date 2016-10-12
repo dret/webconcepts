@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-transfer-coding/identity"
 title:       "HTTP Transfer Coding: identity"
 description: "The default (identity) encoding; the use of no transformation whatsoever. This content-coding is used only in the Accept-Encoding header, and SHOULD NOT be used in the Content-Encoding header."
 ---
@@ -9,5 +10,5 @@ description: "The default (identity) encoding; the use of no transformation what
 <br/>
 <hr/>
 
-<p style="float : left"><a href="identity.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./identity.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-transfer-codings">HTTP Transfer Codings</a> | <a href="../">Web Concepts</a> )</p>

@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/link-relation/type"
 title:       "Link Relation: type"
 description: "The \"type\" link relation can be used to indicate that the context resource is an instance of the resource identified by the target Internationalized Resource Identifier (IRI)."
 ---
@@ -9,5 +10,5 @@ description: "The \"type\" link relation can be used to indicate that the contex
 <br/>
 <hr/>
 
-<p style="float : left"><a href="type.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./type.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../link-relations">Link Relations</a> | <a href="../">Web Concepts</a> )</p>

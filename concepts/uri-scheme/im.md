@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/uri-scheme/im"
 title:       "URI Scheme: im"
 description: "Use of the im: URI follows closely usage of the mailto: URI. That is, invocation of an IM URI will cause the user's instant messaging application to start, with destination address and message headers fill-in according to the information supplied in the URI."
 ---
@@ -9,5 +10,5 @@ description: "Use of the im: URI follows closely usage of the mailto: URI. That 
 <br/>
 <hr/>
 
-<p style="float : left"><a href="im.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./im.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../uri-schemes">URI Schemes</a> | <a href="../">Web Concepts</a> )</p>

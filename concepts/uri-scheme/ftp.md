@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/uri-scheme/ftp"
 title:       "URI Scheme: ftp"
 description: "The FTP URL scheme is used to designate files and directories on Internet hosts accessible using the FTP protocol."
 ---
@@ -9,5 +10,5 @@ description: "The FTP URL scheme is used to designate files and directories on I
 <br/>
 <hr/>
 
-<p style="float : left"><a href="ftp.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./ftp.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../uri-schemes">URI Schemes</a> | <a href="../">Web Concepts</a> )</p>

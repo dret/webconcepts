@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/Proxy-Authenticate"
 title:       "HTTP Header Field: Proxy-Authenticate"
 description: "The \"Proxy-Authenticate\" header field consists of at least one challenge that indicates the authentication scheme(s) and parameters applicable to the proxy for this effective request URI. It MUST be included as part of a 407 (Proxy Authentication Required) response."
 ---
@@ -9,5 +10,5 @@ description: "The \"Proxy-Authenticate\" header field consists of at least one c
 <br/>
 <hr/>
 
-<p style="float : left"><a href="Proxy-Authenticate.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./Proxy-Authenticate.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

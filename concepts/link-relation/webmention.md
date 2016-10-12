@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/link-relation/webmention"
 title:       "Link Relation: webmention"
 description: "Identifies a target URI that supports the Webmention protocol. This allows clients that mention a resource in some form of publishing process to contact that endpoint and inform it that this resource has been mentioned."
 ---
@@ -9,5 +10,5 @@ description: "Identifies a target URI that supports the Webmention protocol. Thi
 <br/>
 <hr/>
 
-<p style="float : left"><a href="webmention.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./webmention.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../link-relations">Link Relations</a> | <a href="../">Web Concepts</a> )</p>

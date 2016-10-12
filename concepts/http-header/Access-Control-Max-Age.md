@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/Access-Control-Max-Age"
 title:       "HTTP Header Field: Access-Control-Max-Age"
 description: "The Access-Control-Max-Age header indicates how long the results of a preflight request can be cached in a preflight result cache."
 ---
@@ -9,5 +10,5 @@ description: "The Access-Control-Max-Age header indicates how long the results o
 <br/>
 <hr/>
 
-<p style="float : left"><a href="Access-Control-Max-Age.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./Access-Control-Max-Age.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

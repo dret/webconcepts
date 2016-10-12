@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-method/SEARCH"
 title:       "HTTP Request Method: SEARCH"
 description: "The client invokes the SEARCH method to initiate a server-side search. The body of the request defines the query. The server MUST emit an entity matching the WebDAV multistatus format."
 ---
@@ -9,5 +10,5 @@ description: "The client invokes the SEARCH method to initiate a server-side sea
 <br/>
 <hr/>
 
-<p style="float : left"><a href="SEARCH.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./SEARCH.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-methods">HTTP Request Methods</a> | <a href="../">Web Concepts</a> )</p>

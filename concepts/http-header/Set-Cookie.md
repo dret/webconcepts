@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/Set-Cookie"
 title:       "HTTP Header Field: Set-Cookie"
 description: "The Set-Cookie HTTP response header is used to send cookies from the server to the user agent."
 ---
@@ -9,5 +10,5 @@ description: "The Set-Cookie HTTP response header is used to send cookies from t
 <br/>
 <hr/>
 
-<p style="float : left"><a href="Set-Cookie.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./Set-Cookie.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

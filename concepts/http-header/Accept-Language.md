@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/Accept-Language"
 title:       "HTTP Header Field: Accept-Language"
 description: "The \"Accept-Language\" header field can be used by user agents to indicate the set of natural languages that are preferred in the response."
 ---
@@ -9,5 +10,5 @@ description: "The \"Accept-Language\" header field can be used by user agents to
 <br/>
 <hr/>
 
-<p style="float : left"><a href="Accept-Language.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./Accept-Language.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

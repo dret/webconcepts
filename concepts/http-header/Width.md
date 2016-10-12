@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/Width"
 title:       "HTTP Header Field: Width"
 description: "The \"Width\" header field is a number that, in requests, indicates the resource width in physical px (i.e. intrinsic size of an image)."
 ---
@@ -9,5 +10,5 @@ description: "The \"Width\" header field is a number that, in requests, indicate
 <br/>
 <hr/>
 
-<p style="float : left"><a href="Width.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./Width.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-method/POST"
 title:       "HTTP Request Method: POST"
 description: "The POST method requests that the target resource process the representation enclosed in the request according to the resource's own specific semantics."
 ---
@@ -9,5 +10,5 @@ description: "The POST method requests that the target resource process the repr
 <br/>
 <hr/>
 
-<p style="float : left"><a href="POST.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./POST.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-methods">HTTP Request Methods</a> | <a href="../">Web Concepts</a> )</p>

@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/uri-scheme/example"
 title:       "URI Scheme: example"
 description: "There is a need for a scheme name that can be used for examples in documentation without fear of conflicts with current or future actual schemes. The scheme \"example\" is hereby registered as a 'permanent' scheme for that purpose."
 ---
@@ -9,5 +10,5 @@ description: "There is a need for a scheme name that can be used for examples in
 <br/>
 <hr/>
 
-<p style="float : left"><a href="example.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./example.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../uri-schemes">URI Schemes</a> | <a href="../">Web Concepts</a> )</p>

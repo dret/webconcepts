@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/Allow"
 title:       "HTTP Header Field: Allow"
 description: "The \"Allow\" header field lists the set of methods advertised as supported by the target resource. The purpose of this field is strictly to inform the recipient of valid request methods associated with the resource."
 ---
@@ -9,5 +10,5 @@ description: "The \"Allow\" header field lists the set of methods advertised as 
 <br/>
 <hr/>
 
-<p style="float : left"><a href="Allow.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./Allow.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

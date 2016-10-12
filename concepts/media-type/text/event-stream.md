@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/media-type/text/event-stream"
 title:       "Media Type: text/event-stream"
 description: "Defines a media type for representing an event stream for Server-Sent Events."
 ---
@@ -9,5 +10,5 @@ description: "Defines a media type for representing an event stream for Server-S
 <br/>
 <hr/>
 
-<p style="float : left"><a href="text/event-stream.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./text/event-stream.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../media-types">Media Types</a> | <a href="../">Web Concepts</a> )</p>

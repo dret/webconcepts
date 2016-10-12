@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/media-type/application/mods+xml"
 title:       "Media Type: application/mods+xml"
 description: "An XML schema for a bibliographic element set that may be used for a variety of purposes, and particularly for library applications."
 ---
@@ -9,5 +10,5 @@ description: "An XML schema for a bibliographic element set that may be used for
 <br/>
 <hr/>
 
-<p style="float : left"><a href="application/mods+xml.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./application/mods+xml.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../media-types">Media Types</a> | <a href="../">Web Concepts</a> )</p>

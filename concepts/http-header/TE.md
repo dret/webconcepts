@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/TE"
 title:       "HTTP Header Field: TE"
 description: "The \"TE\" header field in a request indicates what transfer codings, besides chunked, the client is willing to accept in response, and whether or not the client is willing to accept trailer fields in a chunked transfer coding."
 ---
@@ -9,5 +10,5 @@ description: "The \"TE\" header field in a request indicates what transfer codin
 <br/>
 <hr/>
 
-<p style="float : left"><a href="TE.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./TE.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

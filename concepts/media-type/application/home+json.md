@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/media-type/application/home+json"
 title:       "Media Type: application/home+json"
 description: "This document proposes a \"home document\" format for non-browser HTTP clients."
 ---
@@ -9,5 +10,5 @@ description: "This document proposes a \"home document\" format for non-browser 
 <br/>
 <hr/>
 
-<p style="float : left"><a href="application/home+json.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./application/home+json.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../media-types">Media Types</a> | <a href="../">Web Concepts</a> )</p>

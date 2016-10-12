@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/Accept-Indefinite-Ranges"
 title:       "HTTP Header Field: Accept-Indefinite-Ranges"
 description: "The Accept-Indefinite-Ranges request-header field allows the client to indicate its acceptance of indefinite-sized range requests for a resource."
 ---
@@ -9,5 +10,5 @@ description: "The Accept-Indefinite-Ranges request-header field allows the clien
 <br/>
 <hr/>
 
-<p style="float : left"><a href="Accept-Indefinite-Ranges.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./Accept-Indefinite-Ranges.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

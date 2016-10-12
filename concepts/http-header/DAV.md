@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/DAV"
 title:       "HTTP Header Field: DAV"
 description: "This general-header appearing in the response indicates that the resource supports the DAV schema and protocol as specified. As a request header, this header allows the client to advertise compliance with named features when the server needs that information."
 ---
@@ -9,5 +10,5 @@ description: "This general-header appearing in the response indicates that the r
 <br/>
 <hr/>
 
-<p style="float : left"><a href="DAV.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./DAV.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

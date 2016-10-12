@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/uri-scheme/sms"
 title:       "URI Scheme: sms"
 description: "This URI scheme provides information that can be used for sending SMS message(s) to specified recipient(s). The functionality is comparable to that of the \"mailto\" URI, which can also be used with a comma-separated list of email addresses."
 ---
@@ -9,5 +10,5 @@ description: "This URI scheme provides information that can be used for sending 
 <br/>
 <hr/>
 
-<p style="float : left"><a href="sms.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./sms.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../uri-schemes">URI Schemes</a> | <a href="../">Web Concepts</a> )</p>

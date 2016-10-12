@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/media-type/application/atom+xml"
 title:       "Media Type: application/atom+xml"
 description: "This specification describes two kinds of Atom Documents: Atom Feed Documents and Atom Entry Documents. Both kinds of Atom Documents are specified in terms of the XML Information Set, serialized as XML 1.0 and identified with the \"application/atom+xml\" media type. Atom Documents MUST be well-formed XML."
 ---
@@ -9,5 +10,5 @@ description: "This specification describes two kinds of Atom Documents: Atom Fee
 <br/>
 <hr/>
 
-<p style="float : left"><a href="application/atom+xml.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./application/atom+xml.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../media-types">Media Types</a> | <a href="../">Web Concepts</a> )</p>

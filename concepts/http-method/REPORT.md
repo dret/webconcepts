@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-method/REPORT"
 title:       "HTTP Request Method: REPORT"
 description: "A REPORT request is an extensible mechanism for obtaining information about a resource. Unlike a resource property, which has a single value, the value of a report can depend on additional information specified in the REPORT request body and in the REPORT request headers."
 ---
@@ -9,5 +10,5 @@ description: "A REPORT request is an extensible mechanism for obtaining informat
 <br/>
 <hr/>
 
-<p style="float : left"><a href="REPORT.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./REPORT.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-methods">HTTP Request Methods</a> | <a href="../">Web Concepts</a> )</p>

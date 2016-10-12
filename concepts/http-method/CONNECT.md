@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-method/CONNECT"
 title:       "HTTP Request Method: CONNECT"
 description: "The CONNECT method requests that the recipient establish a tunnel to the destination origin server identified by the request-target and, if successful, thereafter restrict its behavior to blind forwarding of packets, in both directions, until the tunnel is closed. Tunnels are commonly used to create an end-to-end virtual connection, through one or more proxies, which can then be secured using TLS (Transport Layer Security)."
 ---
@@ -9,5 +10,5 @@ description: "The CONNECT method requests that the recipient establish a tunnel 
 <br/>
 <hr/>
 
-<p style="float : left"><a href="CONNECT.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./CONNECT.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-methods">HTTP Request Methods</a> | <a href="../">Web Concepts</a> )</p>

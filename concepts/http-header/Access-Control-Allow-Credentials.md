@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/Access-Control-Allow-Credentials"
 title:       "HTTP Header Field: Access-Control-Allow-Credentials"
 description: "The Access-Control-Allow-Credentials header indicates whether the response to request can be exposed when the omit credentials flag is unset. When part of the response to a preflight request it indicates that the actual request can include user credentials."
 ---
@@ -9,5 +10,5 @@ description: "The Access-Control-Allow-Credentials header indicates whether the 
 <br/>
 <hr/>
 
-<p style="float : left"><a href="Access-Control-Allow-Credentials.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./Access-Control-Allow-Credentials.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

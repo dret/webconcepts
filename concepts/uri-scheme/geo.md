@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/uri-scheme/geo"
 title:       "URI Scheme: geo"
 description: "The 'geo' URI scheme provides the textual representation of the location's spatial coordinates in either two or three dimensions (latitude, longitude, and optionally altitude for the default CRS of WGS-84)."
 ---
@@ -9,5 +10,5 @@ description: "The 'geo' URI scheme provides the textual representation of the lo
 <br/>
 <hr/>
 
-<p style="float : left"><a href="geo.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./geo.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../uri-schemes">URI Schemes</a> | <a href="../">Web Concepts</a> )</p>

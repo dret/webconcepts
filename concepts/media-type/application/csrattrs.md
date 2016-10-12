@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/media-type/application/csrattrs"
 title:       "Media Type: application/csrattrs"
 description: "Responses to attribute request messages MUST be encoded as the content-type of \"application/csrattrs\" with a Content-Transfer-Encoding of \"base64\"."
 ---
@@ -9,5 +10,5 @@ description: "Responses to attribute request messages MUST be encoded as the con
 <br/>
 <hr/>
 
-<p style="float : left"><a href="application/csrattrs.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./application/csrattrs.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../media-types">Media Types</a> | <a href="../">Web Concepts</a> )</p>

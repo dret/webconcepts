@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-method/GET"
 title:       "HTTP Request Method: GET"
 description: "The GET method requests transfer of a current selected representation for the target resource. GET is the primary mechanism of information retrieval and the focus of almost all performance optimizations. Hence, when people speak of retrieving some identifiable information via HTTP, they are generally referring to making a GET request."
 ---
@@ -9,5 +10,5 @@ description: "The GET method requests transfer of a current selected representat
 <br/>
 <hr/>
 
-<p style="float : left"><a href="GET.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./GET.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-methods">HTTP Request Methods</a> | <a href="../">Web Concepts</a> )</p>

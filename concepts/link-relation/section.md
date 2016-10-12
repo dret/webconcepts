@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/link-relation/section"
 title:       "Link Relation: section"
 description: "Refers to a document serving as a section in a collection of documents."
 ---
@@ -9,5 +10,5 @@ description: "Refers to a document serving as a section in a collection of docum
 <br/>
 <hr/>
 
-<p style="float : left"><a href="section.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./section.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../link-relations">Link Relations</a> | <a href="../">Web Concepts</a> )</p>

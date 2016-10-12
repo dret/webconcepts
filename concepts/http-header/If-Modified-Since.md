@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/If-Modified-Since"
 title:       "HTTP Header Field: If-Modified-Since"
 description: "The \"If-Modified-Since\" header field makes a GET or HEAD request method conditional on the selected representation's modification date being more recent than the date provided in the field-value. Transfer of the selected representation's data is avoided if that data has not changed."
 ---
@@ -9,5 +10,5 @@ description: "The \"If-Modified-Since\" header field makes a GET or HEAD request
 <br/>
 <hr/>
 
-<p style="float : left"><a href="If-Modified-Since.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./If-Modified-Since.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

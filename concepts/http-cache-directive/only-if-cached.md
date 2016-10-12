@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-cache-directive/only-if-cached"
 title:       "HTTP Cache Directive: only-if-cached"
 description: "The \"only-if-cached\" request directive indicates that the client only wishes to obtain a stored response. If it receives this directive, a cache SHOULD either respond using a stored response that is consistent with the other constraints of the request, or respond with a 504 (Gateway Timeout) status code. If a group of caches is being operated as a unified system with good internal connectivity, a member cache MAY forward such a request within that group of caches."
 ---
@@ -9,5 +10,5 @@ description: "The \"only-if-cached\" request directive indicates that the client
 <br/>
 <hr/>
 
-<p style="float : left"><a href="only-if-cached.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./only-if-cached.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-cache-directives">HTTP Cache Directives</a> | <a href="../">Web Concepts</a> )</p>

@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/Downlink"
 title:       "HTTP Header Field: Downlink"
 description: "The \"Downlink\" header field is a number that, in requests, indicates the client's maximum downlink speed in megabits per second (Mbps), as defined by the \"downlinkMax\" attribute in the W3C Network Information API."
 ---
@@ -9,5 +10,5 @@ description: "The \"Downlink\" header field is a number that, in requests, indic
 <br/>
 <hr/>
 
-<p style="float : left"><a href="Downlink.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./Downlink.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

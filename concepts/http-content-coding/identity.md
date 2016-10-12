@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-content-coding/identity"
 title:       "HTTP Content Coding: identity"
 description: "An \"identity\" token is used as a synonym for \"no encoding\" in order to communicate when no encoding is preferred."
 ---
@@ -9,5 +10,5 @@ description: "An \"identity\" token is used as a synonym for \"no encoding\" in 
 <br/>
 <hr/>
 
-<p style="float : left"><a href="identity.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./identity.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-content-codings">HTTP Content Codings</a> | <a href="../">Web Concepts</a> )</p>

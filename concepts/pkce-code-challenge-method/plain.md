@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/pkce-code-challenge-method/plain"
 title:       "PKCE Code Challenge Method: plain"
 description: "The plain transformation is for compatibility with existing deployments and for constrained environments that can't use the S256 transformation."
 ---
@@ -9,5 +10,5 @@ description: "The plain transformation is for compatibility with existing deploy
 <br/>
 <hr/>
 
-<p style="float : left"><a href="plain.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./plain.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../pkce-code-challenge-methods">PKCE Code Challenge Methods</a> | <a href="../">Web Concepts</a> )</p>

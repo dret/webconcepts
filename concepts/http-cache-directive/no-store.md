@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-cache-directive/no-store"
 title:       "HTTP Cache Directive: no-store"
 description: "The \"no-store\" directive indicates that a cache MUST NOT store any part of either this request or any response to it. This directive applies to both private and shared caches. \"MUST NOT store\" in this context means that the cache MUST NOT intentionally store the information in non-volatile storage, and MUST make a best-effort attempt to remove the information from volatile storage as promptly as possible after forwarding it."
 ---
@@ -9,5 +10,5 @@ description: "The \"no-store\" directive indicates that a cache MUST NOT store a
 <br/>
 <hr/>
 
-<p style="float : left"><a href="no-store.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./no-store.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-cache-directives">HTTP Cache Directives</a> | <a href="../">Web Concepts</a> )</p>

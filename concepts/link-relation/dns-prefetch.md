@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/link-relation/dns-prefetch"
 title:       "Link Relation: dns-prefetch"
 description: "The dns-prefetch link relation type is used to indicate an origin that will be used to fetch required resources, and that the user agent SHOULD resolve as early as possible."
 ---
@@ -9,5 +10,5 @@ description: "The dns-prefetch link relation type is used to indicate an origin 
 <br/>
 <hr/>
 
-<p style="float : left"><a href="dns-prefetch.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./dns-prefetch.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../link-relations">Link Relations</a> | <a href="../">Web Concepts</a> )</p>

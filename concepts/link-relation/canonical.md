@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/link-relation/canonical"
 title:       "Link Relation: canonical"
 description: "The target (canonical) IRI MUST identify content that is either duplicative or a superset of the content at the context (referring) IRI."
 ---
@@ -9,5 +10,5 @@ description: "The target (canonical) IRI MUST identify content that is either du
 <br/>
 <hr/>
 
-<p style="float : left"><a href="canonical.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./canonical.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../link-relations">Link Relations</a> | <a href="../">Web Concepts</a> )</p>

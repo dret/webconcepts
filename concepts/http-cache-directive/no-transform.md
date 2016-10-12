@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-cache-directive/no-transform"
 title:       "HTTP Cache Directive: no-transform"
 description: "The \"no-transform\" directive indicates that an intermediary (whether or not it implements a cache) MUST NOT transform the payload."
 ---
@@ -9,5 +10,5 @@ description: "The \"no-transform\" directive indicates that an intermediary (whe
 <br/>
 <hr/>
 
-<p style="float : left"><a href="no-transform.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./no-transform.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-cache-directives">HTTP Cache Directives</a> | <a href="../">Web Concepts</a> )</p>

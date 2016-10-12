@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/Content-Base"
 title:       "HTTP Header Field: Content-Base"
 description: "The Content-Base entity-header field may be used to specify the base URI for resolving relative URLs within the entity. This header field is described as Base in RFC 1808, which is expected to be revised."
 ---
@@ -9,5 +10,5 @@ description: "The Content-Base entity-header field may be used to specify the ba
 <br/>
 <hr/>
 
-<p style="float : left"><a href="Content-Base.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./Content-Base.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

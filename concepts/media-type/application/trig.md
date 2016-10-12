@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/media-type/application/trig"
 title:       "Media Type: application/trig"
 description: "A TriG document allows writing down an RDF Dataset in a compact textual form. It consists of a sequence of directives, triple statements, graph statements which contain triple-generating statements and optional blank lines. Comments may be given after a # that is not part of another lexical token and continue to the end of the line."
 ---
@@ -9,5 +10,5 @@ description: "A TriG document allows writing down an RDF Dataset in a compact te
 <br/>
 <hr/>
 
-<p style="float : left"><a href="application/trig.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./application/trig.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../media-types">Media Types</a> | <a href="../">Web Concepts</a> )</p>

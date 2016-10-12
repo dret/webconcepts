@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-method/UPDATE"
 title:       "HTTP Request Method: UPDATE"
 description: "The UPDATE method modifies the content and dead properties of a checked-in version-controlled resource (the \"update target\") to be those of a specified version (the \"update source\") from the version history of that version-controlled resource."
 ---
@@ -9,5 +10,5 @@ description: "The UPDATE method modifies the content and dead properties of a ch
 <br/>
 <hr/>
 
-<p style="float : left"><a href="UPDATE.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./UPDATE.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-methods">HTTP Request Methods</a> | <a href="../">Web Concepts</a> )</p>

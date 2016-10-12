@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/Cookie2"
 title:       "HTTP Header Field: Cookie2"
 description: "The Cookie2 request header facilitates interoperation between clients and servers that understand different versions of the cookie specification."
 ---
@@ -9,5 +10,5 @@ description: "The Cookie2 request header facilitates interoperation between clie
 <br/>
 <hr/>
 
-<p style="float : left"><a href="Cookie2.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./Cookie2.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

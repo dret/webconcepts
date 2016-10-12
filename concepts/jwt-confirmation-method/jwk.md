@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/jwt-confirmation-method/jwk"
 title:       "JWT Confirmation Method: jwk"
 description: "When the key held by the presenter is an asymmetric private key, the \"jwk\" member is a JSON Web Key representing the corresponding asymmetric public key."
 ---
@@ -9,5 +10,5 @@ description: "When the key held by the presenter is an asymmetric private key, t
 <br/>
 <hr/>
 
-<p style="float : left"><a href="jwk.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./jwk.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../jwt-confirmation-methods">JWT Confirmation Methods</a> | <a href="../">Web Concepts</a> )</p>

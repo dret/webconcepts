@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-method/LOCK"
 title:       "HTTP Request Method: LOCK"
 description: "The LOCK method is used to take out a lock of any access type and to refresh an existing lock."
 ---
@@ -9,5 +10,5 @@ description: "The LOCK method is used to take out a lock of any access type and 
 <br/>
 <hr/>
 
-<p style="float : left"><a href="LOCK.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./LOCK.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-methods">HTTP Request Methods</a> | <a href="../">Web Concepts</a> )</p>

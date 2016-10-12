@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/Max-Forwards"
 title:       "HTTP Header Field: Max-Forwards"
 description: "The \"Max-Forwards\" header field provides a mechanism with the TRACE and OPTIONS request methods to limit the number of times that the request is forwarded by proxies."
 ---
@@ -9,5 +10,5 @@ description: "The \"Max-Forwards\" header field provides a mechanism with the TR
 <br/>
 <hr/>
 
-<p style="float : left"><a href="Max-Forwards.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./Max-Forwards.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

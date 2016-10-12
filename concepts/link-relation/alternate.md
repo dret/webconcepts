@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/link-relation/alternate"
 title:       "Link Relation: alternate"
 description: "Designates substitute versions for the document in which the link occurs. When used together with the lang attribute, it implies a translated version of the document. When used together with the media attribute, it implies a version designed for a different medium (or media)."
 ---
@@ -11,5 +12,5 @@ description: "Designates substitute versions for the document in which the link 
 <br/>
 <hr/>
 
-<p style="float : left"><a href="alternate.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./alternate.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../link-relations">Link Relations</a> | <a href="../">Web Concepts</a> )</p>

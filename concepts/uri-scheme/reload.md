@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/uri-scheme/reload"
 title:       "URI Scheme: reload"
 description: "This section describes the scheme for a reload URI, which can be used to refer to either a peer (e.g., as used in a certificate), or a resource inside a peer."
 ---
@@ -9,5 +10,5 @@ description: "This section describes the scheme for a reload URI, which can be u
 <br/>
 <hr/>
 
-<p style="float : left"><a href="reload.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./reload.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../uri-schemes">URI Schemes</a> | <a href="../">Web Concepts</a> )</p>

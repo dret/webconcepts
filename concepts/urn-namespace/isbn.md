@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/urn-namespace/isbn"
 title:       "URN Namespace: isbn"
 description: "An International Standard Book Number (ISBN) identifies an edition of a monographic work. The ISBN is defined by the standard NISO/ANSI/ISO 2108:1992."
 ---
@@ -9,5 +10,5 @@ description: "An International Standard Book Number (ISBN) identifies an edition
 <br/>
 <hr/>
 
-<p style="float : left"><a href="isbn.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./isbn.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../urn-namespaces">URN Namespaces</a> | <a href="../">Web Concepts</a> )</p>

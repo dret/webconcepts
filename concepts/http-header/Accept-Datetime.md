@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/Accept-Datetime"
 title:       "HTTP Header Field: Accept-Datetime"
 description: "The \"Accept-Datetime\" request header is transmitted by a user agent to indicate it wants to access a past state of an Original Resource. To that end, the \"Accept-Datetime\" header is conveyed in an HTTP request issued against a TimeGate for an Original Resource, and its value indicates the datetime of the desired past state of the Original Resource."
 ---
@@ -9,5 +10,5 @@ description: "The \"Accept-Datetime\" request header is transmitted by a user ag
 <br/>
 <hr/>
 
-<p style="float : left"><a href="Accept-Datetime.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./Accept-Datetime.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

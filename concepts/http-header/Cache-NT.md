@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/Cache-NT"
 title:       "HTTP Header Field: Cache-NT"
 description: "For precisely identifying transferred content independent of the used URL and independent of additional header fields in the context of content negotiation, the Cache-NT header field is used. The new header field carries an SHA-256 value."
 ---
@@ -9,5 +10,5 @@ description: "For precisely identifying transferred content independent of the u
 <br/>
 <hr/>
 
-<p style="float : left"><a href="Cache-NT.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./Cache-NT.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

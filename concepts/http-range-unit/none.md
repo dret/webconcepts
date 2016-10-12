@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-range-unit/none"
 title:       "HTTP Range Unit: none"
 description: "A server that does not support any kind of range request for the target resource MAY send \"Accept-Ranges: none\" to advise the client not to attempt a range request."
 ---
@@ -9,5 +10,5 @@ description: "A server that does not support any kind of range request for the t
 <br/>
 <hr/>
 
-<p style="float : left"><a href="none.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./none.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-range-units">HTTP Range Units</a> | <a href="../">Web Concepts</a> )</p>

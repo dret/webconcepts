@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/Server"
 title:       "HTTP Header Field: Server"
 description: "The \"Server\" header field contains information about the software used by the origin server to handle the request, which is often used by clients to help identify the scope of reported interoperability problems, to work around or tailor requests to avoid particular server limitations, and for analytics regarding server or operating system use."
 ---
@@ -9,5 +10,5 @@ description: "The \"Server\" header field contains information about the softwar
 <br/>
 <hr/>
 
-<p style="float : left"><a href="Server.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./Server.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

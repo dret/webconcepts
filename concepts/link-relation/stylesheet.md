@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/link-relation/stylesheet"
 title:       "Link Relation: stylesheet"
 description: "Refers to an external style sheet. See the section on external style sheets for details. This is used together with the link type \"Alternate\" for user-selectable alternate style sheets."
 ---
@@ -9,5 +10,5 @@ description: "Refers to an external style sheet. See the section on external sty
 <br/>
 <hr/>
 
-<p style="float : left"><a href="stylesheet.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./stylesheet.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../link-relations">Link Relations</a> | <a href="../">Web Concepts</a> )</p>

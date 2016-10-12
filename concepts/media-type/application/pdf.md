@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/media-type/application/pdf"
 title:       "Media Type: application/pdf"
 description: "PDF represents formatted documents. These documents may be structured or simple. They may contain text, images, graphics, and other multimedia content, such as video and audio. There is support for annotations, metadata, hypertext links, and bookmarks."
 ---
@@ -9,5 +10,5 @@ description: "PDF represents formatted documents. These documents may be structu
 <br/>
 <hr/>
 
-<p style="float : left"><a href="application/pdf.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./application/pdf.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../media-types">Media Types</a> | <a href="../">Web Concepts</a> )</p>

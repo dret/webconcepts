@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-method/MKCOL"
 title:       "HTTP Request Method: MKCOL"
 description: "MKCOL creates a new collection resource at the location specified by the Request-URI. If the Request-URI is already mapped to a resource, then the MKCOL MUST fail. During MKCOL processing, a server MUST make the Request-URI an internal member of its parent collection, unless the Request-URI is \"/\". If no such ancestor exists, the method MUST fail. When the MKCOL operation creates a new collection resource, all ancestors MUST already exist, or the method MUST fail with a 409 (Conflict) status code."
 ---
@@ -9,5 +10,5 @@ description: "MKCOL creates a new collection resource at the location specified 
 <br/>
 <hr/>
 
-<p style="float : left"><a href="MKCOL.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./MKCOL.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-methods">HTTP Request Methods</a> | <a href="../">Web Concepts</a> )</p>

@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-cache-directive/must-revalidate"
 title:       "HTTP Cache Directive: must-revalidate"
 description: "The \"must-revalidate\" response directive indicates that once it has become stale, a cache MUST NOT use the response to satisfy subsequent requests without successful validation on the origin server."
 ---
@@ -9,5 +10,5 @@ description: "The \"must-revalidate\" response directive indicates that once it 
 <br/>
 <hr/>
 
-<p style="float : left"><a href="must-revalidate.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./must-revalidate.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-cache-directives">HTTP Cache Directives</a> | <a href="../">Web Concepts</a> )</p>

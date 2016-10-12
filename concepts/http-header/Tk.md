@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/Tk"
 title:       "HTTP Header Field: Tk"
 description: "The Tk response header field is defined as an OPTIONAL means for indicating the tracking status that applied to the corresponding request, and as a REQUIRED means for indicating that a state-changing request has resulted in an interactive change to the tracking status."
 ---
@@ -9,5 +10,5 @@ description: "The Tk response header field is defined as an OPTIONAL means for i
 <br/>
 <hr/>
 
-<p style="float : left"><a href="Tk.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./Tk.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

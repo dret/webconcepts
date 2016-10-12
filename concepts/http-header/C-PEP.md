@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/C-PEP"
 title:       "HTTP Header Field: C-PEP"
 description: "PEP hop-by-hop extension declarations are meaningful only for a single transport-level connection. The C-PEP header field is a hop-by-hop header field and must not be communicated by proxies over further connections."
 ---
@@ -9,5 +10,5 @@ description: "PEP hop-by-hop extension declarations are meaningful only for a si
 <br/>
 <hr/>
 
-<p style="float : left"><a href="C-PEP.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./C-PEP.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

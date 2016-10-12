@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/Tunnel-Protocol"
 title:       "HTTP Header Field: Tunnel-Protocol"
 description: "Clients include the Tunnel-Protocol header field in an HTTP CONNECT request to indicate the application layer protocol that will be used within the tunnel, or the set of protocols that might be used within the tunnel."
 ---
@@ -9,5 +10,5 @@ description: "Clients include the Tunnel-Protocol header field in an HTTP CONNEC
 <br/>
 <hr/>
 
-<p style="float : left"><a href="Tunnel-Protocol.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./Tunnel-Protocol.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

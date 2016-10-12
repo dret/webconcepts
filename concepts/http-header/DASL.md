@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/DASL"
 title:       "HTTP Header Field: DASL"
 description: "The DASL response header indicates server support for query grammars in the OPTIONS method. The value is a list of URIs that indicate the types of supported grammars. Note that although the URIs can be used to identify each supported search grammar, there is not necessarily a direct relationship between the URI and the XML element name that can be used in XML based SEARCH requests (the element name itself is identified by its namespace name (a URI reference) and the element's local name)."
 ---
@@ -9,5 +10,5 @@ description: "The DASL response header indicates server support for query gramma
 <br/>
 <hr/>
 
-<p style="float : left"><a href="DASL.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./DASL.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

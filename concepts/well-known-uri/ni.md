@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/well-known-uri/ni"
 title:       "Well-Known URI: ni"
 description: "We define a mapping between URIs following the ni URI scheme and HTTP or HTTPS URLs that makes use of the .well-known URI by defining an \"ni\" suffix."
 ---
@@ -9,5 +10,5 @@ description: "We define a mapping between URIs following the ni URI scheme and H
 <br/>
 <hr/>
 
-<p style="float : left"><a href="ni.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./ni.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../well-known-uris">Well-Known URIs</a> | <a href="../">Web Concepts</a> )</p>

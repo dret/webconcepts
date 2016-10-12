@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/media-type/application/soap+xml"
 title:       "Media Type: application/soap+xml"
 description: "This specification defines the media type \"application/soap+xml\" which can be used to identify SOAP 1.2 message envelopes that have been serialized with XML 1.0."
 ---
@@ -9,5 +10,5 @@ description: "This specification defines the media type \"application/soap+xml\"
 <br/>
 <hr/>
 
-<p style="float : left"><a href="application/soap+xml.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./application/soap+xml.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../media-types">Media Types</a> | <a href="../">Web Concepts</a> )</p>

@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/media-type/multipart/form-data"
 title:       "Media Type: multipart/form-data"
 description: "The media-type multipart/form-data follows the rules of all multipart MIME data streams as outlined in RFC 2046. In forms, there are a series of fields to be supplied by the user who fills out the form. Each field has a name. Within a given form, the names are unique."
 ---
@@ -9,5 +10,5 @@ description: "The media-type multipart/form-data follows the rules of all multip
 <br/>
 <hr/>
 
-<p style="float : left"><a href="multipart/form-data.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./multipart/form-data.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../media-types">Media Types</a> | <a href="../">Web Concepts</a> )</p>

@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/link-relation/item"
 title:       "Link Relation: item"
 description: "When included in a resource that represents a collection, the 'item' link relation identifies a target resource that represents a member of that collection."
 ---
@@ -9,5 +10,5 @@ description: "When included in a resource that represents a collection, the 'ite
 <br/>
 <hr/>
 
-<p style="float : left"><a href="item.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./item.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../link-relations">Link Relations</a> | <a href="../">Web Concepts</a> )</p>

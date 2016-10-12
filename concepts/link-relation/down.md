@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/link-relation/down"
 title:       "Link Relation: down"
 description: "An Atom link element with a rel attribute value of \"down\" may be used to reference a resource where child entries of an entry may be found."
 ---
@@ -9,5 +10,5 @@ description: "An Atom link element with a rel attribute value of \"down\" may be
 <br/>
 <hr/>
 
-<p style="float : left"><a href="down.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./down.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../link-relations">Link Relations</a> | <a href="../">Web Concepts</a> )</p>

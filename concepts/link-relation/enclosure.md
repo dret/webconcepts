@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/link-relation/enclosure"
 title:       "Link Relation: enclosure"
 description: "The value \"enclosure\" signifies that the IRI in the value of the href attribute identifies a related resource that is potentially large in size and might require special handling. For atom:link elements with rel=\"enclosure\", the length attribute SHOULD be provided."
 ---
@@ -9,5 +10,5 @@ description: "The value \"enclosure\" signifies that the IRI in the value of the
 <br/>
 <hr/>
 
-<p style="float : left"><a href="enclosure.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./enclosure.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../link-relations">Link Relations</a> | <a href="../">Web Concepts</a> )</p>

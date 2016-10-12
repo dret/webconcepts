@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/link-relation/mentionedby"
 title:       "Link Relation: mentionedby"
 description: "Refers to a resource that mentions the context resource in some fashion. This, for example, would be used when an article mentions another article, or a social status update mentions a particular user, etc."
 ---
@@ -9,5 +10,5 @@ description: "Refers to a resource that mentions the context resource in some fa
 <br/>
 <hr/>
 
-<p style="float : left"><a href="mentionedby.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./mentionedby.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../link-relations">Link Relations</a> | <a href="../">Web Concepts</a> )</p>

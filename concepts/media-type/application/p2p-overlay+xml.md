@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/media-type/application/p2p-overlay+xml"
 title:       "Media Type: application/p2p-overlay+xml"
 description: "This specification defines a new content type \"application/p2p-overlay+xml\" for a MIME entity that contains overlay information."
 ---
@@ -9,5 +10,5 @@ description: "This specification defines a new content type \"application/p2p-ov
 <br/>
 <hr/>
 
-<p style="float : left"><a href="application/p2p-overlay+xml.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./application/p2p-overlay+xml.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../media-types">Media Types</a> | <a href="../">Web Concepts</a> )</p>

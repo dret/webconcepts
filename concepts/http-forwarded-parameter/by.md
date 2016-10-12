@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-forwarded-parameter/by"
 title:       "HTTP Forwarded Parameter: by"
 description: "The \"by\" parameter is used to disclose the interface where the request came in to the proxy server."
 ---
@@ -9,5 +10,5 @@ description: "The \"by\" parameter is used to disclose the interface where the r
 <br/>
 <hr/>
 
-<p style="float : left"><a href="by.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./by.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-forwarded-parameters">HTTP Forwarded Parameters</a> | <a href="../">Web Concepts</a> )</p>

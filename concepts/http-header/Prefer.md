@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/Prefer"
 title:       "HTTP Header Field: Prefer"
 description: "The Prefer request header field is used to indicate that particular server behaviors are preferred by the client, but not required for successful completion of the request. Prefer is similar in nature to the Expect header field with the exception that servers are allowed to ignore stated preferences."
 ---
@@ -9,5 +10,5 @@ description: "The Prefer request header field is used to indicate that particula
 <br/>
 <hr/>
 
-<p style="float : left"><a href="Prefer.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./Prefer.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

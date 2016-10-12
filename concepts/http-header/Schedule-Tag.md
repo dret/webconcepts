@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/Schedule-Tag"
 title:       "HTTP Header Field: Schedule-Tag"
 description: "The Schedule-Tag response header provides the current value of the CALDAV:schedule-tag property value."
 ---
@@ -9,5 +10,5 @@ description: "The Schedule-Tag response header provides the current value of the
 <br/>
 <hr/>
 
-<p style="float : left"><a href="Schedule-Tag.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./Schedule-Tag.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

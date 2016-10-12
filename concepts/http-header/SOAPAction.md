@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/SOAPAction"
 title:       "HTTP Header Field: SOAPAction"
 description: "The SOAPAction HTTP request header field can be used to indicate the intent of the SOAP HTTP request. The value is a URI identifying the intent. SOAP places no restrictions on the format or specificity of the URI or that it is resolvable. An HTTP client MUST use this header field when issuing a SOAP HTTP Request."
 ---
@@ -9,5 +10,5 @@ description: "The SOAPAction HTTP request header field can be used to indicate t
 <br/>
 <hr/>
 
-<p style="float : left"><a href="SOAPAction.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./SOAPAction.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

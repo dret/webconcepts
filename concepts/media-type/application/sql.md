@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/media-type/application/sql"
 title:       "Media Type: application/sql"
 description: "The Structured Query Language (SQL) has been in use for over 30 years with various types of database technologies."
 ---
@@ -9,5 +10,5 @@ description: "The Structured Query Language (SQL) has been in use for over 30 ye
 <br/>
 <hr/>
 
-<p style="float : left"><a href="application/sql.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./application/sql.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../media-types">Media Types</a> | <a href="../">Web Concepts</a> )</p>

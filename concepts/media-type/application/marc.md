@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/media-type/application/marc"
 title:       "Media Type: application/marc"
 description: "Since there are different flavors of MARC which would be processed by different applications, this content-type/subtype refers to the harmonized USMARC/CANMARC specification. Additional content-types/subtypes may be defined in the future (e.g. application/unimarc)."
 ---
@@ -9,5 +10,5 @@ description: "Since there are different flavors of MARC which would be processed
 <br/>
 <hr/>
 
-<p style="float : left"><a href="application/marc.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./application/marc.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../media-types">Media Types</a> | <a href="../">Web Concepts</a> )</p>

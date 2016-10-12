@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/A-IM"
 title:       "HTTP Header Field: A-IM"
 description: "The A-IM request-header field is similar to Accept, but restricts the instance-manipulations that are acceptable in the response. A response may be the result of applying multiple instance-manipulations. When an A-IM request-header field includes one or more delta-coding values, the request MUST contain an If-None-Match header field, listing one or more entity tags from prior responses for the request-URI."
 ---
@@ -9,5 +10,5 @@ description: "The A-IM request-header field is similar to Accept, but restricts 
 <br/>
 <hr/>
 
-<p style="float : left"><a href="A-IM.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./A-IM.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

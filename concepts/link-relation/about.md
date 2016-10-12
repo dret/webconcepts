@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/link-relation/about"
 title:       "Link Relation: about"
 description: "The \"about\" link relation can be used to refer to a resource that is the subject or topic of the link's context. Multiple subjects can be indicated through the use of multiple \"about\" link relations."
 ---
@@ -9,5 +10,5 @@ description: "The \"about\" link relation can be used to refer to a resource tha
 <br/>
 <hr/>
 
-<p style="float : left"><a href="about.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./about.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../link-relations">Link Relations</a> | <a href="../">Web Concepts</a> )</p>

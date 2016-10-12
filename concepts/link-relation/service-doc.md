@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/link-relation/service-doc"
 title:       "Link Relation: service-doc"
 description: "The \"service-doc\" link relation type is used to represent the fact that a resource is part of a bigger set of resources that are documented at a specific URI. The target resource is expected to provide documentation that is intended for human consumption."
 ---
@@ -9,5 +10,5 @@ description: "The \"service-doc\" link relation type is used to represent the fa
 <br/>
 <hr/>
 
-<p style="float : left"><a href="service-doc.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./service-doc.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../link-relations">Link Relations</a> | <a href="../">Web Concepts</a> )</p>

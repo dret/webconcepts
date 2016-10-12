@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/Cache-Control"
 title:       "HTTP Header Field: Cache-Control"
 description: "The \"Cache-Control\" header field is used to specify directives for caches along the request/response chain. Such cache directives are unidirectional in that the presence of a directive in a request does not imply that the same directive is to be given in the response."
 ---
@@ -9,5 +10,5 @@ description: "The \"Cache-Control\" header field is used to specify directives f
 <br/>
 <hr/>
 
-<p style="float : left"><a href="Cache-Control.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./Cache-Control.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

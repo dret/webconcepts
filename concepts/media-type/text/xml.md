@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/media-type/text/xml"
 title:       "Media Type: text/xml"
 description: "If an XML document - that is, the unprocessed, source XML document - is readable by casual users, text/xml is preferable to application/xml. MIME user agents (and web user agents) that do not have explicit support for text/xml will treat it as text/plain, for example, by displaying the XML MIME entity as plain text."
 ---
@@ -9,5 +10,5 @@ description: "If an XML document - that is, the unprocessed, source XML document
 <br/>
 <hr/>
 
-<p style="float : left"><a href="text/xml.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./text/xml.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../media-types">Media Types</a> | <a href="../">Web Concepts</a> )</p>

@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/link-relation/current"
 title:       "Link Relation: current"
 description: "A URI that, when dereferenced, returns a feed document containing the most recent entries in the feed."
 ---
@@ -9,5 +10,5 @@ description: "A URI that, when dereferenced, returns a feed document containing 
 <br/>
 <hr/>
 
-<p style="float : left"><a href="current.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./current.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../link-relations">Link Relations</a> | <a href="../">Web Concepts</a> )</p>

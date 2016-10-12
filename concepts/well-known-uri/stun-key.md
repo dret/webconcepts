@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/well-known-uri/stun-key"
 title:       "Well-Known URI: stun-key"
 description: "The STUN and AS servers could choose to use Representational State Transfer (REST) API over HTTPS to establish a long-term symmetric key. HTTPS MUST be used for data confidentiality, and TLS based on a client certificate MUST be used for mutual authentication. To retrieve a new long-term symmetric key, the STUN server makes an HTTP GET request to the authorization server, specifying STUN as the service to allocate the long-term symmetric keys for and specifying the name of the STUN server."
 ---
@@ -9,5 +10,5 @@ description: "The STUN and AS servers could choose to use Representational State
 <br/>
 <hr/>
 
-<p style="float : left"><a href="stun-key.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./stun-key.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../well-known-uris">Well-Known URIs</a> | <a href="../">Web Concepts</a> )</p>

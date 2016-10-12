@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/Public"
 title:       "HTTP Header Field: Public"
 description: "The Public response-header field lists the set of methods supported by the server. The purpose of this field is strictly to inform the recipient of the capabilities of the server regarding unusual methods. The methods listed may or may not be applicable to the Request-URI; the Allow header field MAY be used to indicate methods allowed for a particular URI."
 ---
@@ -9,5 +10,5 @@ description: "The Public response-header field lists the set of methods supporte
 <br/>
 <hr/>
 
-<p style="float : left"><a href="Public.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./Public.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

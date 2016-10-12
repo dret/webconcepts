@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/Accept-Encoding"
 title:       "HTTP Header Field: Accept-Encoding"
 description: "The \"Accept-Encoding\" header field can be used by user agents to indicate what response content-codings are acceptable in the response. An \"identity\" token is used as a synonym for \"no encoding\" in order to communicate when no encoding is preferred."
 ---
@@ -11,5 +12,5 @@ description: "The \"Accept-Encoding\" header field can be used by user agents to
 <br/>
 <hr/>
 
-<p style="float : left"><a href="Accept-Encoding.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./Accept-Encoding.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

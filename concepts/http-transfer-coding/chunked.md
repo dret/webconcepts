@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-transfer-coding/chunked"
 title:       "HTTP Transfer Coding: chunked"
 description: "The chunked transfer coding wraps the payload body in order to transfer it as a series of chunks, each with its own size indicator, followed by an OPTIONAL trailer containing header fields.  Chunked enables content streams of unknown size to be transferred as a sequence of length-delimited buffers, which enables the sender to retain connection persistence and the recipient to know when it has received the entire message."
 ---
@@ -9,5 +10,5 @@ description: "The chunked transfer coding wraps the payload body in order to tra
 <br/>
 <hr/>
 
-<p style="float : left"><a href="chunked.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./chunked.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-transfer-codings">HTTP Transfer Codings</a> | <a href="../">Web Concepts</a> )</p>

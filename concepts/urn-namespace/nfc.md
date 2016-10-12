@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/urn-namespace/nfc"
 title:       "URN Namespace: nfc"
 description: "NFC Forum working groups will manage the assignment of NFC resources and the specific registration values assigned for each resource class. The Technical Committee will coordinate creation of new resource class assignments based on community need."
 ---
@@ -9,5 +10,5 @@ description: "NFC Forum working groups will manage the assignment of NFC resourc
 <br/>
 <hr/>
 
-<p style="float : left"><a href="nfc.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./nfc.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../urn-namespaces">URN Namespaces</a> | <a href="../">Web Concepts</a> )</p>

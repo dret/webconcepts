@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/media-type/application/exi"
 title:       "Media Type: application/exi"
 description: "A new media type registration \"application/exi\" described below is being proposed for community review, with the intent to eventually submit it to the IESG for review, approval, and registration with IANA."
 ---
@@ -9,5 +10,5 @@ description: "A new media type registration \"application/exi\" described below 
 <br/>
 <hr/>
 
-<p style="float : left"><a href="application/exi.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./application/exi.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../media-types">Media Types</a> | <a href="../">Web Concepts</a> )</p>

@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/Upgrade"
 title:       "HTTP Header Field: Upgrade"
 description: "The \"Upgrade\" header field is intended to provide a simple mechanism for transitioning from HTTP/1.1 to some other protocol on the same connection. A client MAY send a list of protocols in the Upgrade header field of a request to invite the server to switch to one or more of those protocols, in order of descending preference, before sending the final response."
 ---
@@ -9,5 +10,5 @@ description: "The \"Upgrade\" header field is intended to provide a simple mecha
 <br/>
 <hr/>
 
-<p style="float : left"><a href="Upgrade.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./Upgrade.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

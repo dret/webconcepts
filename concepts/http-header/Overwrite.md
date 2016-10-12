@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/Overwrite"
 title:       "HTTP Header Field: Overwrite"
 description: "The Overwrite request header specifies whether the server should overwrite a resource mapped to the destination URL during a COPY or MOVE."
 ---
@@ -9,5 +10,5 @@ description: "The Overwrite request header specifies whether the server should o
 <br/>
 <hr/>
 
-<p style="float : left"><a href="Overwrite.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./Overwrite.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

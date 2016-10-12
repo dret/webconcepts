@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/link-relation/instances"
 title:       "Link Relation: instances"
 description: "This indicates the target resource that represents collection of instances of a schema."
 ---
@@ -9,5 +10,5 @@ description: "This indicates the target resource that represents collection of i
 <br/>
 <hr/>
 
-<p style="float : left"><a href="instances.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./instances.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../link-relations">Link Relations</a> | <a href="../">Web Concepts</a> )</p>

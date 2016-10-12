@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/well-known-uri/dnt"
 title:       "Well-Known URI: dnt"
 description: "A site-wide tracking status resource provides information about the potential tracking behavior of resources located at that origin server. A site-wide tracking status resource has the well-known identifier /.well-known/dnt/ relative to the origin server's URI."
 ---
@@ -9,5 +10,5 @@ description: "A site-wide tracking status resource provides information about th
 <br/>
 <hr/>
 
-<p style="float : left"><a href="dnt.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./dnt.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../well-known-uris">Well-Known URIs</a> | <a href="../">Web Concepts</a> )</p>

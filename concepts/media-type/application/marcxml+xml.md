@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/media-type/application/marcxml+xml"
 title:       "Media Type: application/marcxml+xml"
 description: "An XML schema for the direct XML representation of the MARC format (for which there already exists a media type, application/marc)."
 ---
@@ -9,5 +10,5 @@ description: "An XML schema for the direct XML representation of the MARC format
 <br/>
 <hr/>
 
-<p style="float : left"><a href="application/marcxml+xml.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./application/marcxml+xml.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../media-types">Media Types</a> | <a href="../">Web Concepts</a> )</p>

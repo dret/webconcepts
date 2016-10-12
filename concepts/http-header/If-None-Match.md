@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/If-None-Match"
 title:       "HTTP Header Field: If-None-Match"
 description: "The \"If-None-Match\" header field makes the request method conditional on a recipient cache or origin server either not having any current representation of the target resource, when the field-value is \"*\", or having a selected representation with an entity-tag that does not match any of those listed in the field-value."
 ---
@@ -9,5 +10,5 @@ description: "The \"If-None-Match\" header field makes the request method condit
 <br/>
 <hr/>
 
-<p style="float : left"><a href="If-None-Match.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./If-None-Match.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

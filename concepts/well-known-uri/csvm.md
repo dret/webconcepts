@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/well-known-uri/csvm"
 title:       "Well-Known URI: csvm"
 description: "If the user has not supplied a metadata file as overriding metadata and no applicable metadata file has been discovered through a Link header, processors must attempt to locate a metadata documents through site-wide configuration. In this case, processors must retrieve the file from the well-known URI /.well-known/csvm."
 ---
@@ -9,5 +10,5 @@ description: "If the user has not supplied a metadata file as overriding metadat
 <br/>
 <hr/>
 
-<p style="float : left"><a href="csvm.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./csvm.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../well-known-uris">Well-Known URIs</a> | <a href="../">Web Concepts</a> )</p>

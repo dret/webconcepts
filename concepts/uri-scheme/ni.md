@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/uri-scheme/ni"
 title:       "URI Scheme: ni"
 description: "A Named Identifier can be represented using the ni URI scheme that we specifically define for the name. However it is represented, the Named Identifier *names* a resource, and the mechanism used to dereference the name and to *locate* the named resource needs to be known by the entity that dereferences it."
 ---
@@ -9,5 +10,5 @@ description: "A Named Identifier can be represented using the ni URI scheme that
 <br/>
 <hr/>
 
-<p style="float : left"><a href="ni.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./ni.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../uri-schemes">URI Schemes</a> | <a href="../">Web Concepts</a> )</p>

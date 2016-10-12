@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/uri-scheme/data"
 title:       "URI Scheme: data"
 description: "Some applications that use URLs also have a need to embed (small) media type data directly inline. This document defines a new URL scheme that would work like 'immediate addressing'."
 ---
@@ -9,5 +10,5 @@ description: "Some applications that use URLs also have a need to embed (small) 
 <br/>
 <hr/>
 
-<p style="float : left"><a href="data.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./data.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../uri-schemes">URI Schemes</a> | <a href="../">Web Concepts</a> )</p>

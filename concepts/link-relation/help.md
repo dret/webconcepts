@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/link-relation/help"
 title:       "Link Relation: help"
 description: "Refers to a document offering help (more information, links to other sources information, etc.)"
 ---
@@ -9,5 +10,5 @@ description: "Refers to a document offering help (more information, links to oth
 <br/>
 <hr/>
 
-<p style="float : left"><a href="help.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./help.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../link-relations">Link Relations</a> | <a href="../">Web Concepts</a> )</p>

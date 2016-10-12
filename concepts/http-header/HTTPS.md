@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/HTTPS"
 title:       "HTTP Header Field: HTTPS"
 description: "The HTTPS HTTP request header field sends a signal to the server expressing the client’s preference for an encrypted and authenticated response, and that it can successfully handle the upgrade-insecure-requests directive in order to make that preference as seamless as possible to provide."
 ---
@@ -9,5 +10,5 @@ description: "The HTTPS HTTP request header field sends a signal to the server e
 <br/>
 <hr/>
 
-<p style="float : left"><a href="HTTPS.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./HTTPS.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

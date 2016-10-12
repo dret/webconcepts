@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-method/CHECKOUT"
 title:       "HTTP Request Method: CHECKOUT"
 description: "A CHECKOUT request can be applied to a checked-in version-controlled resource to allow modifications to the content and dead properties of that version-controlled resource."
 ---
@@ -9,5 +10,5 @@ description: "A CHECKOUT request can be applied to a checked-in version-controll
 <br/>
 <hr/>
 
-<p style="float : left"><a href="CHECKOUT.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./CHECKOUT.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-methods">HTTP Request Methods</a> | <a href="../">Web Concepts</a> )</p>

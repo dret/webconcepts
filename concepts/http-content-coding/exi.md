@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-content-coding/exi"
 title:       "HTTP Content Coding: exi"
 description: "The content-coding value \"exi\" is registered with the Internet Assigned Numbers Authority (IANA) for use with EXI. Protocols that can identify and negotiate the content coding of XML information independent of its media type, SHOULD use the content coding \"exi\" (case-insensitive) to convey the acceptance or actual use of EXI encoding for XML information."
 ---
@@ -9,5 +10,5 @@ description: "The content-coding value \"exi\" is registered with the Internet A
 <br/>
 <hr/>
 
-<p style="float : left"><a href="exi.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./exi.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-content-codings">HTTP Content Codings</a> | <a href="../">Web Concepts</a> )</p>

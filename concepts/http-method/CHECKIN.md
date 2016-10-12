@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-method/CHECKIN"
 title:       "HTTP Request Method: CHECKIN"
 description: "A CHECKIN request can be applied to a checked-out version-controlled resource to produce a new version whose content and dead properties are copied from the checked-out resource."
 ---
@@ -9,5 +10,5 @@ description: "A CHECKIN request can be applied to a checked-out version-controll
 <br/>
 <hr/>
 
-<p style="float : left"><a href="CHECKIN.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./CHECKIN.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-methods">HTTP Request Methods</a> | <a href="../">Web Concepts</a> )</p>

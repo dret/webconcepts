@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/media-type/application/held+xml"
 title:       "Media Type: application/held+xml"
 description: "This section gives the XML Schema Definition of the \"application/held+xml\" format. This is presented as a formal definition of the \"application/held+xml\" format. Note that the XML Schema Definition is not intended to be used with on-the-fly validation of the presence XML document."
 ---
@@ -9,5 +10,5 @@ description: "This section gives the XML Schema Definition of the \"application/
 <br/>
 <hr/>
 
-<p style="float : left"><a href="application/held+xml.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./application/held+xml.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../media-types">Media Types</a> | <a href="../">Web Concepts</a> )</p>

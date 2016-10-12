@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/Man"
 title:       "HTTP Header Field: Man"
 description: "A mandatory extension declaration indicates that the ultimate recipient MUST consult and adhere to the rules given by the extension when processing the message or reporting an error."
 ---
@@ -9,5 +10,5 @@ description: "A mandatory extension declaration indicates that the ultimate reci
 <br/>
 <hr/>
 
-<p style="float : left"><a href="Man.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./Man.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

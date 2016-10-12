@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-header/X-Frame-Options"
 title:       "HTTP Header Field: X-Frame-Options"
 description: "The X-Frame-Options HTTP header field indicates a policy that specifies whether the browser should render the transmitted resource within a <frame> or an <iframe>. Servers can declare this policy in the header of their HTTP responses to prevent clickjacking attacks, which ensures that their content is not embedded into other pages or frames."
 ---
@@ -9,5 +10,5 @@ description: "The X-Frame-Options HTTP header field indicates a policy that spec
 <br/>
 <hr/>
 
-<p style="float : left"><a href="X-Frame-Options.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./X-Frame-Options.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

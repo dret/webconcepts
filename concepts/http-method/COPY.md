@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/http-method/COPY"
 title:       "HTTP Request Method: COPY"
 description: "The COPY method creates a duplicate of the source resource identified by the Request-URI, in the destination resource identified by the URI in the Destination header. The Destination header MUST be present. The exact behavior of the COPY method depends on the type of the source resource."
 ---
@@ -9,5 +10,5 @@ description: "The COPY method creates a duplicate of the source resource identif
 <br/>
 <hr/>
 
-<p style="float : left"><a href="COPY.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./COPY.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-methods">HTTP Request Methods</a> | <a href="../">Web Concepts</a> )</p>

@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/media-type/application/jose+json"
 title:       "Media Type: application/jose+json"
 description: "The \"application/jose+json\" media type can be used to indicate that the content is a JWS or JWE using the JWS JSON Serialization or the JWE JSON Serialization."
 ---
@@ -9,5 +10,5 @@ description: "The \"application/jose+json\" media type can be used to indicate t
 <br/>
 <hr/>
 
-<p style="float : left"><a href="application/jose+json.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./application/jose+json.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../media-types">Media Types</a> | <a href="../">Web Concepts</a> )</p>

@@ -1,5 +1,6 @@
 ---
 layout:      page
+permalink:   "/concepts/link-relation/cc"
 title:       "Link Relation: cc"
 description: "Refers to a resource that is considered to be  part of the public secondary audience of the link's context."
 ---
@@ -9,5 +10,5 @@ description: "Refers to a resource that is considered to be  part of the public 
 <br/>
 <hr/>
 
-<p style="float : left"><a href="cc.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="float : left"><a href="./cc.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../link-relations">Link Relations</a> | <a href="../">Web Concepts</a> )</p>
