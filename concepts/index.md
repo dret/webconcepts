@@ -3,7 +3,7 @@ layout: page
 title:  "Web Concepts: Overview"
 ---
 
-This is an overview of 26 Web Concepts (with a total of 537 distinct values) that have been harvested from all [available specifications](/specs):
+This is an overview of 26 Web Concepts (with a total of 538 distinct values) that have been harvested from all [available specifications](/specs):
 
 * [HTTP Cache Directives](http-cache-directives) (14)
 * [HTTP Content Codings](http-content-codings) (10)
@@ -21,7 +21,7 @@ This is an overview of 26 Web Concepts (with a total of 537 distinct values) tha
 * [OAuth Access Token Types](oauth-access-token-types) (1)
 * [OAuth Authorization Endpoint Response Types](oauth-authorization-endpoint-response-types) (2)
 * [OAuth Dynamic Client Registration Metadata](oauth-client-metadata) (0)
-* [OAuth Extensions Errors](oauth-extension-errors) (3)
+* [OAuth Extensions Errors](oauth-extension-errors) (4)
 * [OAuth Parameters](oauth-parameters) (0)
 * [OAuth Token Endpoint Authentication Methods](oauth-token-endpoint-auth-methods) (0)
 * [OAuth Token Introspection Responses](oauth-token-introspection-responses) (0)

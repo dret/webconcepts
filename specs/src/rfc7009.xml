@@ -8,4 +8,7 @@
     <oauth-token-type-hint def="refresh_token">
         <documentation source="http://tools.ietf.org/html/rfc7009#section-2.1">A hint about the type of the token submitted for revocation. refresh_token identifies an refresh token as defined in RFC 6749.</documentation>
     </oauth-token-type-hint>
+    <oauth-extension-error def="unsupported_token_type">
+        <documentation source="http://tools.ietf.org/html/rfc7009#section-2.2.1">The authorization server does not support the revocation of the presented token type. That is, the client tried to revoke an access token on a server not supporting this feature.</documentation>
+    </oauth-extension-error>
 </service>
