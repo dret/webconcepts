@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<service primary="IETF" secondary="RFC" id="7592">
+    <title>OAuth 2.0 Dynamic Client Registration Management Protocol</title>
+    <documentation source="http://tools.ietf.org/html/rfc7592">This specification defines methods for management of OAuth 2.0 dynamic client registrations for use cases in which the properties of a registered client may need to be changed during the lifetime of the client. Not all authorization servers supporting dynamic client registration will support these management methods.</documentation>
+    <oauth-client-metadatum def="registration_client_uri">
+        <documentation source="http://tools.ietf.org/html/rfc7592#section-3">String containing the fully qualified URL of the client configuration endpoint for this client.</documentation>
+    </oauth-client-metadatum>
+    <oauth-client-metadatum def="registration_access_token">
+        <documentation source="http://tools.ietf.org/html/rfc7592#section-3">String containing the access token to be used at the client configuration endpoint to perform subsequent operations upon the client registration.</documentation>
+    </oauth-client-metadatum>
+</service>

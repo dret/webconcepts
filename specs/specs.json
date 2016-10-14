@@ -1613,6 +1613,16 @@
        "oauth-client-metadatum": "software_version" }, {
        "oauth-client-metadatum": "token_endpoint_auth_method" }, {
        "oauth-client-metadatum": "tos_uri" }]}},{
+     "7592": {
+      "id": "http://webconcepts.info/specs/IETF/RFC/7592",
+      "title": "OAuth 2.0 Dynamic Client Registration Management Protocol",
+      "name": "RFC 7592",
+      "URI": "urn:ietf:rfc:7592",
+      "URL": "http://tools.ietf.org/html/rfc7592",
+      "abstract": "This specification defines methods for management of OAuth 2.0 dynamic client registrations for use cases in which the properties of a registered client may need to be changed during the lifetime of the client. Not all authorization servers supporting dynamic client registration will support these management methods.",
+      "concepts": [{
+       "oauth-client-metadatum": "registration_access_token" }, {
+       "oauth-client-metadatum": "registration_client_uri" }]}},{
      "7595": {
       "id": "http://webconcepts.info/specs/IETF/RFC/7595",
       "title": "Guidelines and Registration Procedures for URI Schemes",
