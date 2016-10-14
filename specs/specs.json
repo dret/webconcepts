@@ -1586,6 +1586,33 @@
        "http-header": "HTTP2-Settings" }, {
        "http-method": "PRI" }, {
        "http-status": "421" }]}},{
+     "7591": {
+      "id": "http://webconcepts.info/specs/IETF/RFC/7591",
+      "title": "OAuth 2.0 Dynamic Client Registration Protocol",
+      "name": "RFC 7591",
+      "URI": "urn:ietf:rfc:7591",
+      "URL": "http://tools.ietf.org/html/rfc7591",
+      "abstract": "This specification defines mechanisms for dynamically registering OAuth 2.0 clients with authorization servers. Registration requests send a set of desired client metadata values to the authorization server. The resulting registration responses return a client identifier to use at the authorization server and the client metadata values registered for the client. The client can then use this registration information to communicate with the authorization server using the OAuth 2.0 protocol. This specification also defines a set of common client metadata fields and values for clients to use during registration.",
+      "concepts": [{
+       "oauth-client-metadatum": "client_id" }, {
+       "oauth-client-metadatum": "client_id_issued_at" }, {
+       "oauth-client-metadatum": "client_name" }, {
+       "oauth-client-metadatum": "client_secret" }, {
+       "oauth-client-metadatum": "client_secret_expires_at" }, {
+       "oauth-client-metadatum": "client_uri" }, {
+       "oauth-client-metadatum": "contacts" }, {
+       "oauth-client-metadatum": "grant_types" }, {
+       "oauth-client-metadatum": "jwks_uri" }, {
+       "oauth-client-metadatum": "logo_uri" }, {
+       "oauth-client-metadatum": "policy_uri" }, {
+       "oauth-client-metadatum": "redirect_uris" }, {
+       "oauth-client-metadatum": "redirect_uris" }, {
+       "oauth-client-metadatum": "response_types" }, {
+       "oauth-client-metadatum": "scope" }, {
+       "oauth-client-metadatum": "software_id" }, {
+       "oauth-client-metadatum": "software_version" }, {
+       "oauth-client-metadatum": "token_endpoint_auth_method" }, {
+       "oauth-client-metadatum": "tos_uri" }]}},{
      "7595": {
       "id": "http://webconcepts.info/specs/IETF/RFC/7595",
       "title": "Guidelines and Registration Procedures for URI Schemes",

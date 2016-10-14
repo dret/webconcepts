@@ -1,0 +1,137 @@
+---
+layout:      page
+title:       "OAuth 2.0 Dynamic Client Registration Protocol"
+description: "This specification defines mechanisms for dynamically registering OAuth 2.0 clients
+with authorization servers. Registration requests send a set of desired client metadata
+values to the authorization server. The resulting registration responses return a
+client identifier to use at the authorization server and the client metadata values
+registered for the client. The client can then use this registration information to
+communicate with the authorization server using the OAuth 2.0 protocol. This specification
+also defines a set of common client metadata fields and values for clients to use
+during registration."
+---
+
+<table cellpadding="5">
+   <tr>
+      <th valign="top" align="right">
+         <em>Document Name:</em>
+      </th>
+      <td>RFC 7591</td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Document URI:</em>
+      </th>
+      <td>
+         <code>urn:ietf:rfc:7591</code>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Online Version:</em>
+      </th>
+      <td>
+         <code>
+            <a href="http://tools.ietf.org/html/rfc7591">http://tools.ietf.org/html/rfc7591</a>
+         </code>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Organization:</em>
+      </th>
+      <td>
+         <a href="../" title="List of specification series by this organization">Internet Engineering Task Force (IETF)</a>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Series:</em>
+      </th>
+      <td>
+         <a href="./" title="List of specifications in this series">Request for Comments (RFC)</a>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Abstract:</em>
+      </th>
+      <td>This specification defines mechanisms for dynamically registering OAuth 2.0 clients
+         with authorization servers. Registration requests send a set of desired client metadata
+         values to the authorization server. The resulting registration responses return a
+         client identifier to use at the authorization server and the client metadata values
+         registered for the client. The client can then use this registration information to
+         communicate with the authorization server using the OAuth 2.0 protocol. This specification
+         also defines a set of common client metadata fields and values for clients to use
+         during registration.
+      </td>
+   </tr>
+</table>
+<br></br>
+<hr></hr>
+<h2 id="concepts">Specified Web Concepts:</h2>
+<h3 id="oauth-client-metadatum">OAuth Dynamic Client Registration Metadata</h3>
+<code>
+   <a href="/concepts/oauth-client-metadatum/client_id" title="OAuth 2.0 client identifier string. It SHOULD NOT be currently valid for any other registered client, though an authorization server MAY issue the same client identifier to multiple instances of a registered client at its discretion.">client_id</a>
+</code>, 
+<code>
+   <a href="/concepts/oauth-client-metadatum/client_id_issued_at" title="Time at which the client identifier was issued.">client_id_issued_at</a>
+</code>, 
+<code>
+   <a href="/concepts/oauth-client-metadatum/client_name" title="URL string of a web page providing information about the client. If present, the server SHOULD display this URL to the end-user in a clickable fashion.">client_name</a>
+</code>, 
+<code>
+   <a href="/concepts/oauth-client-metadatum/client_secret" title="OAuth 2.0 client secret string. If issued, this MUST be unique for each &amp;#34;client_id&amp;#34; and SHOULD be unique for multiple instances of a client using the same &amp;#34;client_id&amp;#34;.">client_secret</a>
+</code>, 
+<code>
+   <a href="/concepts/oauth-client-metadatum/client_secret_expires_at" title="Time at which the client secret will expire or 0 if it will not expire.">client_secret_expires_at</a>
+</code>, 
+<code>
+   <a href="/concepts/oauth-client-metadatum/client_uri" title="URL string of a web page providing information about the client.">client_uri</a>
+</code>, 
+<code>
+   <a href="/concepts/oauth-client-metadatum/contacts" title="Array of strings representing ways to contact people responsible for this client, typically email addresses.">contacts</a>
+</code>, 
+<code>
+   <a href="/concepts/oauth-client-metadatum/grant_types" title="Array of OAuth 2.0 grant type strings that the client can use at the token endpoint.">grant_types</a>
+</code>, 
+<code>
+   <a href="/concepts/oauth-client-metadatum/jwks_uri" title="Client's JSON Web Key Set document value, which contains the client's public keys. The value of this field MUST be a JSON object containing a valid JWK Set. These keys can be used by higher-level protocols that use signing or encryption. This parameter is intended to be used by clients that cannot use the &amp;#34;jwks_uri&amp;#34; parameter, such as native clients that cannot host public URLs.">jwks_uri</a>
+</code>, 
+<code>
+   <a href="/concepts/oauth-client-metadatum/logo_uri" title="URL string that references a logo for the client. If present, the server SHOULD display this image to the end-user during approval.">logo_uri</a>
+</code>, 
+<code>
+   <a href="/concepts/oauth-client-metadatum/policy_uri" title="URL string that points to a human-readable privacy policy document that describes how the deployment organization collects, uses, retains, and discloses personal data.">policy_uri</a>
+</code>, 
+<code>
+   <a href="/concepts/oauth-client-metadatum/redirect_uris" title="Array of redirection URI strings for use in redirect-based flows such as the authorization code and implicit flows.">redirect_uris</a>
+</code>, 
+<code>
+   <a href="/concepts/oauth-client-metadatum/redirect_uris" title="Array of redirection URI strings for use in redirect-based flows such as the authorization code and implicit flows.">redirect_uris</a>
+</code>, 
+<code>
+   <a href="/concepts/oauth-client-metadatum/response_types" title="Array of the OAuth 2.0 response type strings that the client can use at the authorization endpoint.">response_types</a>
+</code>, 
+<code>
+   <a href="/concepts/oauth-client-metadatum/scope" title="String containing a space-separated list of scope values (as described in OAuth 2.0) that the client can use when requesting access tokens.">scope</a>
+</code>, 
+<code>
+   <a href="/concepts/oauth-client-metadatum/software_id" title="A unique identifier string (e.g., a Universally Unique Identifier (UUID)) assigned by the client developer or software publisher used by registration endpoints to identify the client software to be dynamically registered.">software_id</a>
+</code>, 
+<code>
+   <a href="/concepts/oauth-client-metadatum/software_version" title="A version identifier string for the client software identified by &amp;#34;software_id&amp;#34;. The value of the &amp;#34;software_version&amp;#34; SHOULD change on any update to the client software identified by the same &amp;#34;software_id&amp;#34;.">software_version</a>
+</code>, 
+<code>
+   <a href="/concepts/oauth-client-metadatum/token_endpoint_auth_method" title="String indicator of the requested authentication method for the token endpoint. Values defined by this specification are: &amp;#34;none&amp;#34;: The client is a public client as defined in OAuth 2.0 and does not have a client secret; &amp;#34;client_secret_post&amp;#34;: The client uses the HTTP POST parameters as defined in OAuth 2.0; &amp;#34;client_secret_basic&amp;#34;: The client uses HTTP Basic as defined in OAuth 2.0. Additional values can be defined via the IANA &amp;#34;OAuth Token Endpoint Authentication Methods&amp;#34;">token_endpoint_auth_method</a>
+</code>, 
+<code>
+   <a href="/concepts/oauth-client-metadatum/tos_uri" title="URL string that points to a human-readable terms of service document for the client that describes a contractual relationship between the end-user and the client that the end-user accepts when authorizing the client.">tos_uri</a>
+</code>
+<br></br>
+<hr></hr>
+<p style="text-align: right">Return to ( 
+   <a href="./">Series</a> | 
+   <a href="../">Organization</a> | 
+   <a href="../../">all Specifications</a> )
+</p>

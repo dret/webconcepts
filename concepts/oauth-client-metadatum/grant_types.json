@@ -1,0 +1,1 @@
+{"value":"grant_types","concept":"oauth-client-metadatum","id":"http://webconcepts.info/concepts/oauth-client-metadatum/grant_types","details":[{"description":"Array of OAuth 2.0 grant type strings that the client can use at the token endpoint.","documentation":"http://tools.ietf.org/html/rfc7591#section-2","specification":"http://webconcepts.info/specs/IETF/RFC/7591"}]}
