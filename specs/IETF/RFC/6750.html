@@ -1,0 +1,88 @@
+---
+layout:      page
+title:       "The OAuth 2.0 Authorization Framework: Bearer Token Usage"
+description: "This specification describes how to use bearer tokens in HTTP requests to access OAuth
+2.0 protected resources. Any party in possession of a bearer token (a \"bearer\")
+can use it to get access to the associated resources (without demonstrating possession
+of a cryptographic key). To prevent misuse, bearer tokens need to be protected from
+disclosure in storage and in transport."
+---
+
+<table cellpadding="5">
+   <tr>
+      <th valign="top" align="right">
+         <em>Document Name:</em>
+      </th>
+      <td>RFC 6750</td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Document URI:</em>
+      </th>
+      <td>
+         <code>urn:ietf:rfc:6750</code>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Online Version:</em>
+      </th>
+      <td>
+         <code>
+            <a href="http://tools.ietf.org/html/rfc6750">http://tools.ietf.org/html/rfc6750</a>
+         </code>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Organization:</em>
+      </th>
+      <td>
+         <a href="../" title="List of specification series by this organization">Internet Engineering Task Force (IETF)</a>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Series:</em>
+      </th>
+      <td>
+         <a href="./" title="List of specifications in this series">Request for Comments (RFC)</a>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Abstract:</em>
+      </th>
+      <td>This specification describes how to use bearer tokens in HTTP requests to access OAuth
+         2.0 protected resources. Any party in possession of a bearer token (a "bearer") can
+         use it to get access to the associated resources (without demonstrating possession
+         of a cryptographic key). To prevent misuse, bearer tokens need to be protected from
+         disclosure in storage and in transport.
+      </td>
+   </tr>
+</table>
+<br></br>
+<hr></hr>
+<h2 id="concepts">Specified Web Concepts:</h2>
+<h3 id="oauth-access-token-type">OAuth Access Token Types</h3>
+<code>
+   <a href="/concepts/oauth-access-token-type/Bearer" title="A security token with the property that any party in possession of the token (a &amp;#34;bearer&amp;#34;) can use the token in any way that any other party in possession of it can. Using a bearer token does not require a bearer to prove possession of cryptographic key material (proof-of-possession).">Bearer</a>
+</code>
+<br></br>
+<h3 id="oauth-extension-error">OAuth Extensions Errors</h3>
+<code>
+   <a href="/concepts/oauth-extension-error/insufficient_scope" title="The request requires higher privileges than provided by the access token.">insufficient_scope</a>
+</code>, 
+<code>
+   <a href="/concepts/oauth-extension-error/invalid_request" title="The request is missing a required parameter, includes an unsupported parameter or parameter value, repeats the same parameter, uses more than one method for including an access token, or is otherwise malformed.">invalid_request</a>
+</code>, 
+<code>
+   <a href="/concepts/oauth-extension-error/invalid_token" title="The access token provided is expired, revoked, malformed, or invalid for other reasons.">invalid_token</a>
+</code>
+<br></br>
+<hr></hr>
+<p style="text-align: right">Return to ( 
+   <a href="./">Series</a> | 
+   <a href="../">Organization</a> | 
+   <a href="../../">all Specifications</a> )
+</p>
