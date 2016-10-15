@@ -8,4 +8,13 @@
     <pkce-code-challenge-method def="S256">
         <documentation source="http://tools.ietf.org/html/rfc7636#section-4.2">Clients are permitted to use "plain" only if they cannot support "S256" for some technical reason and know via out-of-band configuration that the server supports "plain".</documentation>
     </pkce-code-challenge-method>
+    <oauth-parameter def="code_verifier">
+        <documentation source="http://tools.ietf.org/html/rfc7636#section-4.5">Code verifier.</documentation>
+    </oauth-parameter>
+    <oauth-parameter def="code_challenge">
+        <documentation source="http://tools.ietf.org/html/rfc7636#section-4.3">Code challenge.</documentation>
+    </oauth-parameter>
+    <oauth-parameter def="code_challenge_method">
+        <documentation source="http://tools.ietf.org/html/rfc7636#section-4.3">Code verifier transformation method is "S256" or "plain". Defaults to "plain" if not present in the request.</documentation>
+    </oauth-parameter>
 </service>
