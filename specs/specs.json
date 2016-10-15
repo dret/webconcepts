@@ -1640,7 +1640,10 @@
        "oauth-client-metadatum": "software_id" }, {
        "oauth-client-metadatum": "software_version" }, {
        "oauth-client-metadatum": "token_endpoint_auth_method" }, {
-       "oauth-client-metadatum": "tos_uri" }]}},{
+       "oauth-client-metadatum": "tos_uri" }, {
+       "oauth-token-endpoint-auth-method": "client_secret_basic" }, {
+       "oauth-token-endpoint-auth-method": "client_secret_post" }, {
+       "oauth-token-endpoint-auth-method": "none" }]}},{
      "7592": {
       "id": "http://webconcepts.info/specs/IETF/RFC/7592",
       "title": "OAuth 2.0 Dynamic Client Registration Management Protocol",

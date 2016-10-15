@@ -59,4 +59,13 @@
     <oauth-client-metadatum def="client_secret_expires_at">
         <documentation source="http://tools.ietf.org/html/rfc7591#section-3.2.1">Time at which the client secret will expire or 0 if it will not expire.</documentation>
     </oauth-client-metadatum>
+    <oauth-token-endpoint-auth-method def="none">
+        <documentation source="http://tools.ietf.org/html/rfc7591#section-2">The client is a public client as defined in OAuth 2.0 and does not have a client secret.</documentation>
+    </oauth-token-endpoint-auth-method>
+    <oauth-token-endpoint-auth-method def="client_secret_post">
+        <documentation source="http://tools.ietf.org/html/rfc7591#section-2">The client uses the HTTP POST parameters as defined in OAuth 2.0.</documentation>
+    </oauth-token-endpoint-auth-method>
+    <oauth-token-endpoint-auth-method def="client_secret_basic">
+        <documentation source="http://tools.ietf.org/html/rfc7591#section-2">The client uses HTTP Basic as defined in OAuth 2.0.</documentation>
+    </oauth-token-endpoint-auth-method>
 </service>
