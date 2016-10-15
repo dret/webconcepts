@@ -1,0 +1,1 @@
+{"value":"token_type","concept":"oauth-token-introspection-response","id":"http://webconcepts.info/concepts/oauth-token-introspection-response/token_type","details":[{"description":"Type of the token as defined in OAuth 2.0.","documentation":"http://tools.ietf.org/html/rfc7662#section-2.2","specification":"http://webconcepts.info/specs/IETF/RFC/7662"}]}

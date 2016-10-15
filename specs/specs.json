@@ -1714,6 +1714,26 @@
       "abstract": "This specification allows HTTP CONNECT requests to indicate what protocol is intended to be used within the tunnel once established, using the ALPN header field.",
       "concepts": [{
        "http-header": "ALPN" }]}},{
+     "7662": {
+      "id": "http://webconcepts.info/specs/IETF/RFC/7662",
+      "title": "OAuth 2.0 Token Introspection",
+      "name": "RFC 7662",
+      "URI": "urn:ietf:rfc:7662",
+      "URL": "http://tools.ietf.org/html/rfc7662",
+      "abstract": "This specification defines a method for a protected resource to query an OAuth 2.0 authorization server to determine the active state of an OAuth 2.0 token and to determine meta-information about this token. OAuth 2.0 deployments can use this method to convey information about the authorization context of the token from the authorization server to the protected resource.",
+      "concepts": [{
+       "oauth-token-introspection-response": "active" }, {
+       "oauth-token-introspection-response": "aud" }, {
+       "oauth-token-introspection-response": "client_id" }, {
+       "oauth-token-introspection-response": "exp" }, {
+       "oauth-token-introspection-response": "iat" }, {
+       "oauth-token-introspection-response": "iss" }, {
+       "oauth-token-introspection-response": "jti" }, {
+       "oauth-token-introspection-response": "nbf" }, {
+       "oauth-token-introspection-response": "scope" }, {
+       "oauth-token-introspection-response": "sub" }, {
+       "oauth-token-introspection-response": "token_type" }, {
+       "oauth-token-introspection-response": "username" }]}},{
      "7694": {
       "id": "http://webconcepts.info/specs/IETF/RFC/7694",
       "title": "Hypertext Transfer Protocol (HTTP) Client-Initiated Content-Encoding",

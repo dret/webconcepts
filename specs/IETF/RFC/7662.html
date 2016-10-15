@@ -1,0 +1,110 @@
+---
+layout:      page
+title:       "OAuth 2.0 Token Introspection"
+description: "This specification defines a method for a protected resource to query an OAuth 2.0
+authorization server to determine the active state of an OAuth 2.0 token and to determine
+meta-information about this token. OAuth 2.0 deployments can use this method to convey
+information about the authorization context of the token from the authorization server
+to the protected resource."
+---
+
+<table cellpadding="5">
+   <tr>
+      <th valign="top" align="right">
+         <em>Document Name:</em>
+      </th>
+      <td>RFC 7662</td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Document URI:</em>
+      </th>
+      <td>
+         <code>urn:ietf:rfc:7662</code>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Online Version:</em>
+      </th>
+      <td>
+         <code>
+            <a href="http://tools.ietf.org/html/rfc7662">http://tools.ietf.org/html/rfc7662</a>
+         </code>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Organization:</em>
+      </th>
+      <td>
+         <a href="../" title="List of specification series by this organization">Internet Engineering Task Force (IETF)</a>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Series:</em>
+      </th>
+      <td>
+         <a href="./" title="List of specifications in this series">Request for Comments (RFC)</a>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Abstract:</em>
+      </th>
+      <td>This specification defines a method for a protected resource to query an OAuth 2.0
+         authorization server to determine the active state of an OAuth 2.0 token and to determine
+         meta-information about this token. OAuth 2.0 deployments can use this method to convey
+         information about the authorization context of the token from the authorization server
+         to the protected resource.
+      </td>
+   </tr>
+</table>
+<br></br>
+<hr></hr>
+<h2 id="concepts">Specified Web Concepts:</h2>
+<h3 id="oauth-token-introspection-response">OAuth Token Introspection Responses</h3>
+<code>
+   <a href="/concepts/oauth-token-introspection-response/active" title="Boolean indicator of whether or not the presented token is currently active.">active</a>
+</code>, 
+<code>
+   <a href="/concepts/oauth-token-introspection-response/aud" title="Service-specific string identifier or list of string identifiers representing the intended audience for this token, as defined in JWT.">aud</a>
+</code>, 
+<code>
+   <a href="/concepts/oauth-token-introspection-response/client_id" title="Client identifier for the OAuth 2.0 client that requested this token.">client_id</a>
+</code>, 
+<code>
+   <a href="/concepts/oauth-token-introspection-response/exp" title="Integer timestamp, measured in the number of seconds since January 1 1970 UTC, indicating when this token will expire, as defined in JWT">exp</a>
+</code>, 
+<code>
+   <a href="/concepts/oauth-token-introspection-response/iat" title="Integer timestamp, measured in the number of seconds since January 1 1970 UTC, indicating when this token was originally issued, as defined in JWT.">iat</a>
+</code>, 
+<code>
+   <a href="/concepts/oauth-token-introspection-response/iss" title="String representing the issuer of this token, as defined in JWT.">iss</a>
+</code>, 
+<code>
+   <a href="/concepts/oauth-token-introspection-response/jti" title="String identifier for the token, as defined in JWT.">jti</a>
+</code>, 
+<code>
+   <a href="/concepts/oauth-token-introspection-response/nbf" title="Integer timestamp, measured in the number of seconds since January 1 1970 UTC, indicating when this token is not to be used before, as defined in JWT.">nbf</a>
+</code>, 
+<code>
+   <a href="/concepts/oauth-token-introspection-response/scope" title="A JSON string containing a space-separated list of scopes associated with this token, in the format described in OAuth 2.0.">scope</a>
+</code>, 
+<code>
+   <a href="/concepts/oauth-token-introspection-response/sub" title="Subject of the token, as defined in JWT. Usually a machine-readable identifier of the resource owner who authorized this token.">sub</a>
+</code>, 
+<code>
+   <a href="/concepts/oauth-token-introspection-response/token_type" title="Type of the token as defined in OAuth 2.0.">token_type</a>
+</code>, 
+<code>
+   <a href="/concepts/oauth-token-introspection-response/username" title="Human-readable identifier for the resource owner who authorized this token.">username</a>
+</code>
+<br></br>
+<hr></hr>
+<p style="text-align: right">Return to ( 
+   <a href="./">Series</a> | 
+   <a href="../">Organization</a> | 
+   <a href="../../">all Specifications</a> )
+</p>
