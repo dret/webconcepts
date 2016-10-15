@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<service primary="IETF" secondary="RFC" id="7521">
+    <title>Assertion Framework for OAuth 2.0 Client Authentication and Authorization Grants</title>
+    <documentation source="http://tools.ietf.org/html/rfc7521">This specification provides a framework for the use of assertions with OAuth 2.0 in the form of a new client authentication mechanism and a new authorization grant type. Mechanisms are specified for transporting assertions during interactions with a token endpoint; general processing rules are also specified. The intent of this specification is to provide a common framework for OAuth 2.0 to interwork with other identity systems using assertions and to provide alternative client authentication mechanisms. Note that this specification only defines abstract message flows and processing rules. In order to be implementable, companion specifications are necessary to provide the corresponding concrete instantiations.</documentation>
+    <oauth-parameter def="assertion">
+        <documentation source="http://tools.ietf.org/html/rfc7521#section-4.1">The assertion being used as an authorization grant. Specific serialization of the assertion is defined by profile documents.</documentation>
+    </oauth-parameter>
+    <oauth-parameter def="client_assertion">
+        <documentation source="http://tools.ietf.org/html/rfc7521#section-4.2">The assertion being used to authenticate the client. Specific serialization of the assertion is defined by profile documents.</documentation>
+    </oauth-parameter>
+    <oauth-parameter def="client_assertion_type">
+        <documentation source="http://tools.ietf.org/html/rfc7521#section-4.2">The format of the assertion as defined by the authorization server. The value will be an absolute URI.</documentation>
+    </oauth-parameter>
+</service>

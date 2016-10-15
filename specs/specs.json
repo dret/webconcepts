@@ -1546,6 +1546,17 @@
        "jwt-claim": "sub" }, {
        "media-type": "application/jwt" }, {
        "oauth-uri": "urn:ietf:params:oauth:token-type:jwt" }]}},{
+     "7521": {
+      "id": "http://webconcepts.info/specs/IETF/RFC/7521",
+      "title": "Assertion Framework for OAuth 2.0 Client Authentication and Authorization Grants",
+      "name": "RFC 7521",
+      "URI": "urn:ietf:rfc:7521",
+      "URL": "http://tools.ietf.org/html/rfc7521",
+      "abstract": "This specification provides a framework for the use of assertions with OAuth 2.0 in the form of a new client authentication mechanism and a new authorization grant type. Mechanisms are specified for transporting assertions during interactions with a token endpoint; general processing rules are also specified. The intent of this specification is to provide a common framework for OAuth 2.0 to interwork with other identity systems using assertions and to provide alternative client authentication mechanisms. Note that this specification only defines abstract message flows and processing rules. In order to be implementable, companion specifications are necessary to provide the corresponding concrete instantiations.",
+      "concepts": [{
+       "oauth-parameter": "assertion" }, {
+       "oauth-parameter": "client_assertion" }, {
+       "oauth-parameter": "client_assertion_type" }]}},{
      "7522": {
       "id": "http://webconcepts.info/specs/IETF/RFC/7522",
       "title": "Security Assertion Markup Language (SAML) 2.0 Profile for OAuth 2.0 Client Authentication and Authorization Grants",
