@@ -8,4 +8,56 @@
     <oauth-authorization-endpoint-response-type def="token">
         <documentation source="http://tools.ietf.org/html/rfc6749#section-5">The authorization endpoint is used by the authorization code grant type and implicit grant type flows. The client informs the authorization server of the desired grant type by using "token" for requesting an access token (implicit grant).</documentation>
     </oauth-authorization-endpoint-response-type>
+    <oauth-parameter def="client_id">
+        <documentation source="http://tools.ietf.org/html/rfc6749#section-2.3.1">The client identifier issued to the client during the registration process.</documentation>
+    </oauth-parameter>
+    <oauth-parameter def="client_secret">
+        <documentation source="http://tools.ietf.org/html/rfc6749#section-2.3.1">The client secret. The client MAY omit the parameter if the client secret is an empty string.</documentation>
+    </oauth-parameter>
+    <oauth-parameter def="response_type">
+        <documentation source="http://tools.ietf.org/html/rfc6749#section-3.1.1">The value MUST be one of "code" for requesting an authorization code, "token" for requesting an access token (implicit grant), or a registered extension value.</documentation>
+    </oauth-parameter>
+    <oauth-parameter def="scope">
+        <documentation source="http://tools.ietf.org/html/rfc6749#section-3.3">The authorization and token endpoints allow the client to specify the scope of the access request using the "scope" request parameter. In turn, the authorization server uses the "scope" response parameter to inform the client of the scope of the access token issued.</documentation>
+    </oauth-parameter>
+    <oauth-parameter def="state">
+        <documentation source="http://tools.ietf.org/html/rfc6749#section-4.2">An opaque value used by the client to maintain state between the request and callback. The authorization server includes this value when redirecting the user-agent back to the client.</documentation>
+    </oauth-parameter>
+    <oauth-parameter def="redirect_uri">
+        <documentation source="http://tools.ietf.org/html/rfc6749#section-3.1.2">After completing its interaction with the resource owner, the authorization server directs the resource owner's user-agent back to the client. The authorization server redirects the user-agent to the client's redirection endpoint previously established with the authorization server during the client registration process or when making the authorization request.</documentation>
+    </oauth-parameter>
+    <oauth-parameter def="error">
+        <documentation source="http://tools.ietf.org/html/rfc6749#appendix-A.7">A single ASCII error code.</documentation>
+    </oauth-parameter>
+    <oauth-parameter def="error_description">
+        <documentation source="http://tools.ietf.org/html/rfc6749#section-4.1.2.1">Human-readable ASCII text providing additional information, used to assist the client developer in understanding the error that occurred.</documentation>
+    </oauth-parameter>
+    <oauth-parameter def="error_uri">
+        <documentation source="http://tools.ietf.org/html/rfc6749#section-4.1.2.1">A URI identifying a human-readable web page with information about the error, used to provide the client developer with additional information about the error.</documentation>
+    </oauth-parameter>
+    <oauth-parameter def="grant_type">
+        <documentation source="http://tools.ietf.org/html/rfc6749#appendix-A.10">Value MUST be set to "authorization_code".</documentation>
+    </oauth-parameter>
+    <oauth-parameter def="code">
+        <documentation source="http://tools.ietf.org/html/rfc6749#section-4.1.3">The authorization code received from the authorization server.</documentation>
+    </oauth-parameter>
+    <oauth-parameter def="access_token">
+        <documentation source="http://tools.ietf.org/html/rfc6749#section-4.2.2">The access token issued by the authorization server.</documentation>
+    </oauth-parameter>
+    <oauth-parameter def="token_type">
+        <documentation source="http://tools.ietf.org/html/rfc6749#section-4.2.2">The type of the token issued.</documentation>
+    </oauth-parameter>
+    <oauth-parameter def="expires_in">
+        <documentation source="http://tools.ietf.org/html/rfc6749#section-4.2.2">The lifetime in seconds of the access token. For example, the value "3600" denotes that the access token will
+            expire in one hour from the time the response was generated.</documentation>
+    </oauth-parameter>
+    <oauth-parameter def="username">
+        <documentation source="http://tools.ietf.org/html/rfc6749#section-4.3.2">The resource owner username.</documentation>
+    </oauth-parameter>
+    <oauth-parameter def="password">
+        <documentation source="http://tools.ietf.org/html/rfc6749#section-4.3.2">The resource owner password.</documentation>
+    </oauth-parameter>
+    <oauth-parameter def="refresh_token">
+        <documentation source="http://tools.ietf.org/html/rfc6749#section-5.1">The refresh token, which can be used to obtain new access tokens using the same authorization grant.</documentation>
+    </oauth-parameter>
 </service>

@@ -1045,7 +1045,24 @@
       "abstract": "The OAuth 2.0 authorization framework enables a third-party application to obtain limited access to an HTTP service, either on behalf of a resource owner by orchestrating an approval interaction between the resource owner and the HTTP service, or by allowing the third-party application to obtain access on its own behalf. This specification replaces and obsoletes the OAuth 1.0 protocol described in RFC 5849.",
       "concepts": [{
        "oauth-authorization-endpoint-response-type": "code" }, {
-       "oauth-authorization-endpoint-response-type": "token" }]}},{
+       "oauth-authorization-endpoint-response-type": "token" }, {
+       "oauth-parameter": "access_token" }, {
+       "oauth-parameter": "client_id" }, {
+       "oauth-parameter": "client_secret" }, {
+       "oauth-parameter": "code" }, {
+       "oauth-parameter": "error" }, {
+       "oauth-parameter": "error_description" }, {
+       "oauth-parameter": "error_uri" }, {
+       "oauth-parameter": "expires_in" }, {
+       "oauth-parameter": "grant_type" }, {
+       "oauth-parameter": "password" }, {
+       "oauth-parameter": "redirect_uri" }, {
+       "oauth-parameter": "refresh_token" }, {
+       "oauth-parameter": "response_type" }, {
+       "oauth-parameter": "scope" }, {
+       "oauth-parameter": "state" }, {
+       "oauth-parameter": "token_type" }, {
+       "oauth-parameter": "username" }]}},{
      "6750": {
       "id": "http://webconcepts.info/specs/IETF/RFC/6750",
       "title": "The OAuth 2.0 Authorization Framework: Bearer Token Usage",

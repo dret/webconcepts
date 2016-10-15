@@ -1,0 +1,1 @@
+{"value":"error","concept":"oauth-parameter","id":"http://webconcepts.info/concepts/oauth-parameter/error","details":[{"description":"A single ASCII error code.","documentation":"http://tools.ietf.org/html/rfc6749#appendix-A.7","specification":"http://webconcepts.info/specs/IETF/RFC/6749"}]}
