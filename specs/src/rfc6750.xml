@@ -14,4 +14,7 @@
     <oauth-extension-error def="insufficient_scope">
         <documentation source="http://tools.ietf.org/html/rfc6750#section-3.1">The request requires higher privileges than provided by the access token.</documentation>
     </oauth-extension-error>
+    <http-auth-scheme def="Bearer">
+        <documentation source="http://tools.ietf.org/html/rfc6750#section-3">All challenges defined by this specification MUST use the auth-scheme value "Bearer". This scheme MUST be followed by one or more auth-param values.</documentation>
+    </http-auth-scheme>
 </service>
