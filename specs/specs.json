@@ -831,6 +831,7 @@
       "URL": "http://tools.ietf.org/html/rfc5849",
       "abstract": "OAuth provides a method for clients to access server resources on behalf of a resource owner (such as a different client or an end-user). It also provides a process for end-users to authorize third-party access to their server resources without sharing their credentials (typically, a username and password pair), using user-agent redirections.",
       "concepts": [{
+       "http-auth-scheme": "OAuth" }, {
        "http-header": "Authorization" }]}},{
      "5861": {
       "id": "http://webconcepts.info/specs/IETF/RFC/5861",

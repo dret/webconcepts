@@ -5,4 +5,7 @@
     <http-header def="Authorization">
         <documentation source="http://tools.ietf.org/html/rfc5849#section-3.5.1">Protocol parameters can be transmitted using the HTTP "Authorization" header field as defined by RFC 2617 with the auth-scheme name set to "OAuth" (case insensitive).</documentation>
     </http-header>
+    <http-auth-scheme def="OAuth">
+        <documentation source="http://tools.ietf.org/html/rfc5849#section-3.5.1">Protocol parameters can be transmitted using the HTTP "Authorization" header field as defined by RFC 2617 with the auth-scheme name set to "OAuth" (case insensitive). Servers MAY indicate their support for the "OAuth" auth-scheme by returning the HTTP "WWW-Authenticate" response header field upon client requests for protected resources.</documentation>
+    </http-auth-scheme>
 </service>
