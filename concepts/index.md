@@ -3,9 +3,9 @@ layout: page
 title:  "Web Concepts: Overview"
 ---
 
-This is an overview of 27 Web Concepts (with a total of 610 distinct values) that have been harvested from all [available specifications](/specs):
+This is an overview of 27 Web Concepts (with a total of 612 distinct values) that have been harvested from all [available specifications](/specs):
 
-* [HTTP Authentication Schemes](http-authentication-schemes) (6)
+* [HTTP Authentication Schemes](http-authentication-schemes) (8)
 * [HTTP Cache Directives](http-cache-directives) (14)
 * [HTTP Content Codings](http-content-codings) (10)
 * [HTTP Forwarded Parameters](http-forwarded-parameters) (4)
