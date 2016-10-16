@@ -1684,6 +1684,15 @@
        "http-auth-scheme": "Digest" }, {
        "http-header": "Authorization" }, {
        "http-header": "WWW-Authenticate" }]}},{
+     "7617": {
+      "id": "http://webconcepts.info/specs/IETF/RFC/7617",
+      "title": "The 'Basic' HTTP Authentication Scheme",
+      "name": "RFC 7617",
+      "URI": "urn:ietf:rfc:7617",
+      "URL": "http://tools.ietf.org/html/rfc7617",
+      "abstract": "This document defines the \"Basic\" Hypertext Transfer Protocol (HTTP) authentication scheme, which transmits credentials as user-id/password pairs, encoded using Base64.",
+      "concepts": [{
+       "http-auth-scheme": "Basic" }]}},{
      "7635": {
       "id": "http://webconcepts.info/specs/IETF/RFC/7635",
       "title": "Session Traversal Utilities for NAT (STUN) Extension",
