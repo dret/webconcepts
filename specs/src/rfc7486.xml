@@ -8,4 +8,7 @@
     <well-known-uri def="hoba">
         <documentation source="http://tools.ietf.org/html/rfc7486#section-6">HOBA-http uses a well-known URI "hoba" as a base URI for performing many tasks: "https://www.example.com/.well-known/hoba". These URIs are based on the name of the host that the HTTP client is accessing.</documentation>
     </well-known-uri>
+    <http-auth-scheme def="HOBA">
+        <documentation source="http://tools.ietf.org/html/rfc7486#section-3">An HTTP server that supports HOBA authentication includes the "HOBA" auth-scheme value in a WWW-Authenticate header field when it wants the client to authenticate with HOBA.</documentation>
+    </http-auth-scheme>
 </service>

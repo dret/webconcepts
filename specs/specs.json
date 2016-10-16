@@ -1516,6 +1516,7 @@
       "URL": "http://tools.ietf.org/html/rfc7486",
       "abstract": "HTTP Origin-Bound Authentication (HOBA) is a digital-signature-based design for an HTTP authentication method. The design can also be used in JavaScript-based authentication embedded in HTML. HOBA is an alternative to HTTP authentication schemes that require passwords and therefore avoids all problems related to passwords, such as leakage of server-side password databases.",
       "concepts": [{
+       "http-auth-scheme": "HOBA" }, {
        "http-header": "Hobareg" }, {
        "well-known-uri": "hoba" }]}},{
      "7512": {
