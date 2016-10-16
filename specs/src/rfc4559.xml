@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<service primary="IETF" secondary="RFC" id="4559">
+    <title>SPNEGO-based Kerberos and NTLM HTTP Authentication in Microsoft Windows</title>
+    <documentation source="http://tools.ietf.org/html/rfc4559">This document describes how the Microsoft Internet Explorer (MSIE) and Internet Information Services (IIS) incorporated in Microsoft Windows 2000 use Kerberos for security enhancements of web transactions. The Hypertext Transport Protocol (HTTP) auth-scheme of "negotiate" is defined here; when the negotiation results in the selection of Kerberos, the security services of authentication and, optionally, impersonation (the IIS server assumes the windows identity of the principal that has been authenticated) are performed. This document explains how HTTP authentication utilizes the Simple and Protected GSS-API Negotiation mechanism. Details of Simple And Protected Negotiate (SPNEGO) implementation are not provided in this document.</documentation>
+    <http-auth-scheme def="Negotiate">
+        <documentation source="http://tools.ietf.org/html/rfc7486#section-4">Use of Kerberos is wrapped in an HTTP auth-scheme of "Negotiate".</documentation>
+    </http-auth-scheme>
+</service>

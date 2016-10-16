@@ -649,6 +649,15 @@
       "abstract": "This document defines the \"info\" Uniform Resource Identifier (URI) scheme for information assets with identifiers in public namespaces. Namespaces participating in the \"info\" URI scheme are regulated by an \"info\" Registry mechanism.",
       "concepts": [{
        "uri-scheme": "info" }]}},{
+     "4559": {
+      "id": "http://webconcepts.info/specs/IETF/RFC/4559",
+      "title": "SPNEGO-based Kerberos and NTLM HTTP Authentication in Microsoft Windows",
+      "name": "RFC 4559",
+      "URI": "urn:ietf:rfc:4559",
+      "URL": "http://tools.ietf.org/html/rfc4559",
+      "abstract": "This document describes how the Microsoft Internet Explorer (MSIE) and Internet Information Services (IIS) incorporated in Microsoft Windows 2000 use Kerberos for security enhancements of web transactions. The Hypertext Transport Protocol (HTTP) auth-scheme of \"negotiate\" is defined here; when the negotiation results in the selection of Kerberos, the security services of authentication and, optionally, impersonation (the IIS server assumes the windows identity of the principal that has been authenticated) are performed. This document explains how HTTP authentication utilizes the Simple and Protected GSS-API Negotiation mechanism. Details of Simple And Protected Negotiate (SPNEGO) implementation are not provided in this document.",
+      "concepts": [{
+       "http-auth-scheme": "Negotiate" }]}},{
      "4729": {
       "id": "http://webconcepts.info/specs/IETF/RFC/4729",
       "title": "A Uniform Resource Name (URN) Namespace for the Near Field Communication (NFC) Forum",
