@@ -2189,6 +2189,15 @@
       "abstract": "This specification defines the preload keyword that may be used with link elements. This keyword provides a declarative fetch primitive that initiates an early fetch and separates fetching from resource execution.",
       "concepts": [{
        "link-relation": "preload" }]}},{
+     "pubsub": {
+      "id": "http://webconcepts.info/specs/W3C/TR/pubsub",
+      "title": "PubSub",
+      "name": "W3C TR http://www.w3.org/TR/pubsub",
+      "URI": "http://www.w3.org/TR/pubsub",
+      "URL": "http://www.w3.org/TR/pubsub",
+      "abstract": "An open, simple, web-scale and decentralized pubsub protocol. Anybody can play. As opposed to more developed (and more complex) pubsub specs like Jabber Publish-Subscribe this spec's base profile (the barrier-to-entry to speak it) is dead simple. The fancy bits required for high-volume publishers and subscribers are optional. The base profile is HTTP-based, as opposed to XMPP (see more on this below). To dramatically simplify this spec in several places where we had to choose between supporting A or B, we took it upon ourselves to say \"only A\", rather than making it an implementation decision. We offer this spec in hopes that it fills a need or at least advances the state of the discussion in the pubsub space. Polling is extremely wasteful and high latency. We think a decentralized pubsub layer is a fundamental, missing layer in the Internet architecture today and its existence, more than just enabling the obvious lower latency feed readers, would enable many cool applications, most of which we can't even imagine. But we're looking forward to decentralized social networking.",
+      "concepts": [{
+       "link-relation": "hub" }]}},{
      "rdf11-concepts": {
       "id": "http://webconcepts.info/specs/W3C/TR/rdf11-concepts",
       "title": "RDF 1.1 Concepts and Abstract Syntax",
