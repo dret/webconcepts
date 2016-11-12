@@ -119,6 +119,15 @@
       "abstract": "This specification allows HTTP CONNECT requests to indicate what protocol will be used within the tunnel once established, using the Tunnel-Protocol header field.",
       "concepts": [{
        "http-header": "Tunnel-Protocol" }]}},{
+     "ietf-oauth-v2-http-mac": {
+      "id": "http://webconcepts.info/specs/IETF/I-D/ietf-oauth-v2-http-mac",
+      "title": "OAuth 2.0 Message Authentication Code (MAC) Tokens",
+      "name": "Internet Draft ietf-oauth-v2-http-mac",
+      "URI": "urn:ietf:id:ietf-oauth-v2-http-mac",
+      "URL": "http://tools.ietf.org/html/draft-ietf-oauth-v2-http-mac",
+      "abstract": "This specification describes how to use MAC Tokens in HTTP requests to access OAuth 2.0 protected resources.  An OAuth client willing to access a protected resource needs to demonstrate possession of a cryptographic key by using it with a keyed message digest function to the request. The document also defines a key distribution protocol for obtaining a fresh session key.",
+      "concepts": [{
+       "oauth-access-token-type": "mac" }]}},{
      "kelly-json-hal": {
       "id": "http://webconcepts.info/specs/IETF/I-D/kelly-json-hal",
       "title": "JSON Hypertext Application Language",
