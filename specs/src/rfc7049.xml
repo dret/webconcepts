@@ -5,4 +5,7 @@
     <media-type def="application/cbor">
         <documentation source="http://tools.ietf.org/html/rfc7049#section-1">CBOR follows some specific design goals that are not well met by current binary formats. The underlying data model is an extended version of the JSON data model.</documentation>
     </media-type>
+    <structured-syntax-suffix def="+cbor">
+        <documentation source="http://tools.ietf.org/html/rfc7049#section-7.5">The suffix "+cbor" MAY be used with any media type whose representation follows the CBOR transfer syntax.</documentation>
+    </structured-syntax-suffix>
 </service>
