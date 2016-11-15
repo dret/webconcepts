@@ -42,6 +42,13 @@
         <filename-plural>media-types</filename-plural>
         <iana-registry>http://www.iana.org/assignments/media-types/media-types.xhtml</iana-registry>
     </concept>
+    <concept id="structured-syntax-suffix">
+        <title-singular>Structured Syntax Suffix</title-singular>
+        <title-plural>Structured Syntax Suffixes</title-plural>
+        <filename-singular>structured-syntax-suffix</filename-singular>
+        <filename-plural>structured-syntax-suffixes</filename-plural>
+        <iana-registry>http://www.iana.org/assignments/media-type-structured-suffix/media-type-structured-suffix.xhtml</iana-registry>
+    </concept>
     <concept id="http-content-coding">
         <title-singular>HTTP Content Coding</title-singular>
         <title-plural>HTTP Content Codings</title-plural>
