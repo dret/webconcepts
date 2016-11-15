@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<service primary="IETF" secondary="RFC" id="6839">
+    <title>Additional Media Type Structured Syntax Suffixes</title>
+    <documentation source="http://tools.ietf.org/html/rfc6839">A content media type name sometimes includes partitioned meta-information distinguished by a structured syntax to permit noting an attribute of the media as a suffix to the name. This document defines several structured syntax suffixes for use with media type registrations. In particular, it defines and registers the "+json", "+ber", "+der", "+fastinfoset", "+wbxml" and "+zip" structured syntax suffixes, and provides a media type structured syntax suffix registration form for the "+xml" structured syntax suffix.</documentation>
+    <structured-syntax-suffix def="+json">
+        <documentation source="http://tools.ietf.org/html/rfc6839#section-3.1">The suffix "+json" MAY be used with any media type whose representation follows that established for "application/json".</documentation>
+    </structured-syntax-suffix>
+    <structured-syntax-suffix def="+ber">
+        <documentation source="http://tools.ietf.org/html/rfc6839#section-3.2">The suffix "+ber" MAY be used with any media type whose representation follows the BER transfer syntax.</documentation>
+    </structured-syntax-suffix>
+    <structured-syntax-suffix def="+der">
+        <documentation source="http://tools.ietf.org/html/rfc6839#section-3.3">The suffix "+der" MAY be used with any media type whose representation follows the DER transfer syntax.</documentation>
+    </structured-syntax-suffix>
+    <structured-syntax-suffix def="+fastinfoset">
+        <documentation source="http://tools.ietf.org/html/rfc6839#section-3.4">The suffix "+fastinfoset" MAY be used with any media type whose representation follows that established for "application/fastinfoset".</documentation>
+    </structured-syntax-suffix>
+    <structured-syntax-suffix def="+wbxml">
+        <documentation source="http://tools.ietf.org/html/rfc6839#section-3.5">The suffix "+wbxml" MAY be used with any media type whose representation follows that established for "application/vnd.wap.wbxml".</documentation>
+    </structured-syntax-suffix>
+    <structured-syntax-suffix def="+zip">
+        <documentation source="http://tools.ietf.org/html/rfc6839#section-3.6">The suffix "+zip" MAY be used with any media type whose representation follows that established for "application/zip".</documentation>
+    </structured-syntax-suffix>
+</service>

@@ -1128,6 +1128,20 @@
       "abstract": "This specification defines a mechanism enabling web sites to declare themselves accessible only via secure connections and/or for users to be able to direct their user agent(s) to interact with given sites only over secure connections. This overall policy is referred to as HTTP Strict Transport Security (HSTS). The policy is declared by web sites via the Strict-Transport-Security HTTP response header field and/or by other means, such as user agent configuration, for example.",
       "concepts": [{
        "http-header": "Strict-Transport-Security" }]}},{
+     "6839": {
+      "id": "http://webconcepts.info/specs/IETF/RFC/6839",
+      "title": "Additional Media Type Structured Syntax Suffixes",
+      "name": "RFC 6839",
+      "URI": "urn:ietf:rfc:6839",
+      "URL": "http://tools.ietf.org/html/rfc6839",
+      "abstract": "A content media type name sometimes includes partitioned meta-information distinguished by a structured syntax to permit noting an attribute of the media as a suffix to the name. This document defines several structured syntax suffixes for use with media type registrations. In particular, it defines and registers the \"+json\", \"+ber\", \"+der\", \"+fastinfoset\", \"+wbxml\" and \"+zip\" structured syntax suffixes, and provides a media type structured syntax suffix registration form for the \"+xml\" structured syntax suffix.",
+      "concepts": [{
+       "structured-syntax-suffix": "+ber" }, {
+       "structured-syntax-suffix": "+der" }, {
+       "structured-syntax-suffix": "+fastinfoset" }, {
+       "structured-syntax-suffix": "+json" }, {
+       "structured-syntax-suffix": "+wbxml" }, {
+       "structured-syntax-suffix": "+zip" }]}},{
      "6861": {
       "id": "http://webconcepts.info/specs/IETF/RFC/6861",
       "title": "The \"create-form\" and \"edit-form\" Link Relations",

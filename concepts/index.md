@@ -3,7 +3,7 @@ layout: page
 title:  "Web Concepts: Overview"
 ---
 
-This is an overview of 28 Web Concepts (with a total of 617 distinct values) that have been harvested from all [available specifications](/specs):
+This is an overview of 28 Web Concepts (with a total of 623 distinct values) that have been harvested from all [available specifications](/specs):
 
 * [HTTP Authentication Schemes](http-authentication-schemes) (8)
 * [HTTP Cache Directives](http-cache-directives) (14)
@@ -29,7 +29,7 @@ This is an overview of 28 Web Concepts (with a total of 617 distinct values) tha
 * [OAuth Token Type Hints](oauth-token-type-hints) (2)
 * [OAuth URIs](oauth-uris) (5)
 * [PKCE Code Challenge Methods](pkce-code-challenge-methods) (2)
-* [Structured Syntax Suffixes](structured-syntax-suffixes) (0)
+* [Structured Syntax Suffixes](structured-syntax-suffixes) (6)
 * [URI Schemes](uri-schemes) (20)
 * [URN Namespaces](urn-namespaces) (8)
 * [Well-Known URIs](well-known-uris) (19)
