@@ -4,7 +4,7 @@ title:       "IETF Request for Comments Series"
 description: "List of specifications in the Request for Comments (RFC) series by the Internet Engineering Task Force (IETF)"
 ---
 
-There are currently 138 listed specifications in the [Internet Engineering Task Force (IETF)](..)'s Request for Comments (RFC) series.
+There are currently 139 listed specifications in the [Internet Engineering Task Force (IETF)](..)'s Request for Comments (RFC) series.
 
   * [A Media Type for XML Patch Operations (RFC 7351)](7351)
   * [A Reputation Query Protocol (RFC 7072)](7072)
@@ -45,6 +45,7 @@ There are currently 138 listed specifications in the [Internet Engineering Task 
   * [HTTP Digest Access Authentication (RFC 7616)](7616)
   * [HTTP Extensions for Distributed Authoring - WEBDAV (RFC 2518)](2518)
   * [HTTP Extensions for Web Distributed Authoring and Versioning (WebDAV) (RFC 4918)](4918)
+  * [HTTP Header Field Registrations (RFC 4229)](4229)
   * [HTTP Header Field X-Frame-Options (RFC 7034)](7034)
   * [HTTP Origin-Bound Authentication (HOBA) (RFC 7486)](7486)
   * [HTTP State Management Mechanism (RFC 2965)](2965)
