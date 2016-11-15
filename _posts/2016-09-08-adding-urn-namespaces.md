@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Adding URN Namespaces"
-date:   2016-09-08
 categories: update
 ---
 

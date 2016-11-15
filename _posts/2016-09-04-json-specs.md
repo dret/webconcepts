@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "JSON Version of Web Concept Specifications"
-date:   2016-09-04
 categories: update
 ---
 

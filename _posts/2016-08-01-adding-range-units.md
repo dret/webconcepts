@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Adding HTTP Range Units"
-date:   2016-08-01
 categories: update
 ---
 

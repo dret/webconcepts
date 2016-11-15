@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Adding Well-Known URIs"
-date:   2016-08-03
 categories: update
 ---
 

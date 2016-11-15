@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Starting Web Concepts"
-date:   2016-07-18
 categories: update
 ---
 

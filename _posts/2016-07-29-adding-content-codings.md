@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Adding HTTP Content Codings"
-date:   2016-07-29
 categories: update
 ---
 

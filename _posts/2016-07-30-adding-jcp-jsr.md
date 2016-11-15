@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Adding JCP and JSR"
-date:   2016-07-30
 categories: update
 ---
 

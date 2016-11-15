@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Identifiers for Web Concepts"
-date:   2016-09-26
 categories: update
 ---
 

@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Adding OAuth Web Concepts"
-date:   2016-10-15
 categories: update
 ---
 

@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Adding HTTP Preferences and HTTP Forwarded Parameters"
-date:   2016-08-04
 categories: update
 ---
 

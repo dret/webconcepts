@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "RESTfest launch of Web Concepts"
-date:   2016-09-16
 categories: update
 ---
 

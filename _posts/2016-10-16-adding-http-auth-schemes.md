@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Adding HTTP Authentication Schemes"
-date:   2016-10-16
 categories: update
 ---
 

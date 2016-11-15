@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Adding JWT Concepts"
-date:   2016-09-03
 categories: update
 ---
 

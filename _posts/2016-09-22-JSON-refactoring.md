@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "JSON Refactoring and Additions"
-date:   2016-09-22
 categories: update
 ---
 
