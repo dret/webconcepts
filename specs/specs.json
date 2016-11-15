@@ -262,6 +262,15 @@
       "concepts": [{
        "link-relation": "home" }, {
        "media-type": "application/home+xml" }]}},{
+     "wilde-json-seq-suffix": {
+      "id": "http://webconcepts.info/specs/IETF/I-D/wilde-json-seq-suffix",
+      "title": "A Media Type Structured Syntax Suffix for JSON Text Sequences",
+      "name": "Internet Draft wilde-json-seq-suffix",
+      "URI": "urn:ietf:id:wilde-json-seq-suffix",
+      "URL": "http://tools.ietf.org/html/draft-wilde-json-seq-suffix",
+      "abstract": "Structured Syntax Suffixes for media types allow other media types to build on them and make it explicit that they are built on an existing media type as their foundation.  This specification defines and registers \"json-seq\" as a structured syntax suffix for JSON Text Sequences.",
+      "concepts": [{
+       "structured-syntax-suffix": "+json-seq" }]}},{
      "wilde-service-link-rel": {
       "id": "http://webconcepts.info/specs/IETF/I-D/wilde-service-link-rel",
       "title": "Link Relation Types for Web Services",
