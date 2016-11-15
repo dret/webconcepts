@@ -469,9 +469,6 @@
       "URL": "http://tools.ietf.org/html/rfc3023",
       "abstract": "This document standardizes five new media types - text/xml, application/xml, text/xml-external-parsed-entity, application/xml-external-parsed-entity, and application/xml-dtd - for use in exchanging network entities that are related to the Extensible Markup Language (XML). This document also standardizes a convention (using the suffix '+xml') for naming media types outside of these five types when those media types represent XML MIME (Multipurpose Internet Mail Extensions) entities. XML MIME entities are currently exchanged via the HyperText Transfer Protocol on the World Wide Web, are an integral part of the WebDAV protocol for remote web authoring, and are expected to have utility in many domains.",
       "concepts": [{
-       "media-type": "application/xml" }, {
-       "media-type": "application/xml-dtd" }, {
-       "media-type": "application/xml-external-parsed-entity" }, {
        "media-type": "text/xml" }, {
        "media-type": "text/xml-external-parsed-entity" }]}},{
      "3044": {
@@ -1517,6 +1514,18 @@
        "http-preference": "respond-async" }, {
        "http-preference": "return" }, {
        "http-preference": "wait" }]}},{
+     "7303": {
+      "id": "http://webconcepts.info/specs/IETF/RFC/7303",
+      "title": "XML Media Types",
+      "name": "RFC 7303",
+      "URI": "urn:ietf:rfc:7303",
+      "URL": "http://tools.ietf.org/html/rfc7303",
+      "abstract": "This specification standardizes three media types - application/xml, application/xml-external-parsed-entity, and application/xml-dtd - for use in exchanging network entities that are related to the Extensible Markup Language (XML) while defining text/xml and text/xml-external-parsed-entity as aliases for the respective application/ types. This specification also standardizes the '+xml' suffix for naming media types outside of these five types when those media types represent XML MIME entities.",
+      "concepts": [{
+       "media-type": "application/xml" }, {
+       "media-type": "application/xml-dtd" }, {
+       "media-type": "application/xml-external-parsed-entity" }, {
+       "structured-syntax-suffix": "+xml" }]}},{
      "7351": {
       "id": "http://webconcepts.info/specs/IETF/RFC/7351",
       "title": "A Media Type for XML Patch Operations",

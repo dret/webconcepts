@@ -5,16 +5,20 @@
     <media-type def="text/xml">
         <documentation source="http://tools.ietf.org/html/rfc3023#section-3.1">If an XML document - that is, the unprocessed, source XML document - is readable by casual users, text/xml is preferable to application/xml. MIME user agents (and web user agents) that do not have explicit support for text/xml will treat it as text/plain, for example, by displaying the XML MIME entity as plain text.</documentation>
     </media-type>
+<!--
     <media-type def="application/xml">
         <documentation source="http://tools.ietf.org/html/rfc3023#section-3.2">Application/xml is preferable when an XML document is unreadable by casual users.</documentation>
     </media-type>
-    <media-type def="text/xml-external-parsed-entity">
+-->
+<media-type def="text/xml-external-parsed-entity">
         <documentation source="http://tools.ietf.org/html/rfc3023#section-3.3">If an XML external parsed entity - that is, the unprocessed, source XML entity - is readable by casual users, text/xml-external-parsed-entity is preferable to application/xml-external-parsed-entity. MIME user agents (and web user agents) that do not have explicit support for text/xml-external-parsed-entity will treat it as text/plain, for example, by displaying the XML MIME entity as plain text.</documentation>
     </media-type>
+<!-- 
     <media-type def="application/xml-external-parsed-entity">
         <documentation source="http://tools.ietf.org/html/rfc3023#section-3.4">Application/xml is preferable when an XML external parsed entity is unreadable by casual users.</documentation>
     </media-type>
     <media-type def="application/xml-dtd">
         <documentation source="http://tools.ietf.org/html/rfc3023#section-3.5">The media type application/xml-dtd SHOULD be used for "external DTD subsets" or "external parameter entities".</documentation>
     </media-type>
+-->
 </service>

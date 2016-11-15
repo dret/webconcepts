@@ -2,10 +2,10 @@
 layout:      page
 permalink:   "/concepts/media-type/application/xml-external-parsed-entity"
 title:       "Media Type: application/xml-external-parsed-entity"
-description: "Application/xml is preferable when an XML external parsed entity is unreadable by casual users."
+description: "The media type application/xml-dtd SHOULD be used for XML external DTD subsets."
 ---
 
-**[RFC 3023: XML Media Types](/specs/IETF/RFC/3023 "This document standardizes five new media types - text/xml, application/xml, text/xml-external-parsed-entity, application/xml-external-parsed-entity, and application/xml-dtd - for use in exchanging network entities that are related to the Extensible Markup Language (XML). This document also standardizes a convention (using the suffix '+xml') for naming media types outside of these five types when those media types represent XML MIME (Multipurpose Internet Mail Extensions) entities. XML MIME entities are currently exchanged via the HyperText Transfer Protocol on the World Wide Web, are an integral part of the WebDAV protocol for remote web authoring, and are expected to have utility in many domains."):** [Application/xml is preferable when an XML external parsed entity is unreadable by casual users.](http://tools.ietf.org/html/rfc3023#section-3.4 "Read documentation for Media Type &#34;application/xml-external-parsed-entity&#34;")
+**[RFC 7303: XML Media Types](/specs/IETF/RFC/7303 "This specification standardizes three media types - application/xml, application/xml-external-parsed-entity, and application/xml-dtd - for use in exchanging network entities that are related to the Extensible Markup Language (XML) while defining text/xml and text/xml-external-parsed-entity as aliases for the respective application/ types. This specification also standardizes the '+xml' suffix for naming media types outside of these five types when those media types represent XML MIME entities."):** [The media type application/xml-dtd SHOULD be used for XML external DTD subsets.](http://tools.ietf.org/html/rfc7303#section-4.1 "Read documentation for Media Type &#34;application/xml-external-parsed-entity&#34;")
 
 <br/>
 <hr/>
