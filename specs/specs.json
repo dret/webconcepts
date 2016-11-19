@@ -2245,7 +2245,7 @@
        "link-relation": "preload" }]}},{
      "pubsub": {
       "id": "http://webconcepts.info/specs/W3C/TR/pubsub",
-      "title": "PubSub",
+      "title": "WebSub",
       "name": "W3C TR http://www.w3.org/TR/pubsub",
       "URI": "http://www.w3.org/TR/pubsub",
       "URL": "http://www.w3.org/TR/pubsub",

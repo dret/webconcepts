@@ -28,7 +28,6 @@ There are currently 34 listed specifications in the [World Wide Web Consortium (
   * [Portable Network Graphics (W3C TR http://www.w3.org/TR/PNG)](PNG)
   * [Preload (W3C TR http://www.w3.org/TR/preload)](preload)
   * [Protocol for Web Description Resources (POWDER): Description Resources (W3C TR http://www.w3.org/TR/powder-dr)](powder-dr)
-  * [PubSub (W3C TR http://www.w3.org/TR/pubsub)](pubsub)
   * [RDF 1.1 Concepts and Abstract Syntax (W3C TR http://www.w3.org/TR/rdf11-concepts)](rdf11-concepts)
   * [Reporting API 1 (W3C TR http://www.w3.org/TR/reporting-1)](reporting-1)
   * [Resource Hints (W3C TR http://www.w3.org/TR/resource-hints)](resource-hints)
@@ -39,4 +38,5 @@ There are currently 34 listed specifications in the [World Wide Web Consortium (
   * [TriG (W3C TR http://www.w3.org/TR/trig)](trig)
   * [Upgrade Insecure Requests (W3C TR http://www.w3.org/TR/upgrade-insecure-requests)](upgrade-insecure-requests)
   * [Web Video Text Tracks (WebVTT) (W3C TR http://www.w3.org/TR/webvtt)](webvtt)
+  * [WebSub (W3C TR http://www.w3.org/TR/pubsub)](pubsub)
   * [Webmention (W3C TR http://www.w3.org/TR/webmention)](webmention)
