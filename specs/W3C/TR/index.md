@@ -38,5 +38,5 @@ There are currently 34 listed specifications in the [World Wide Web Consortium (
   * [TriG (W3C TR http://www.w3.org/TR/trig)](trig)
   * [Upgrade Insecure Requests (W3C TR http://www.w3.org/TR/upgrade-insecure-requests)](upgrade-insecure-requests)
   * [Web Video Text Tracks (WebVTT) (W3C TR http://www.w3.org/TR/webvtt)](webvtt)
-  * [WebSub (W3C TR http://www.w3.org/TR/pubsub)](pubsub)
+  * [WebSub (W3C TR http://www.w3.org/TR/websub)](websub)
   * [Webmention (W3C TR http://www.w3.org/TR/webmention)](webmention)
