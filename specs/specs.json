@@ -676,6 +676,15 @@
       "abstract": "This document defines the \"info\" Uniform Resource Identifier (URI) scheme for information assets with identifiers in public namespaces. Namespaces participating in the \"info\" URI scheme are regulated by an \"info\" Registry mechanism.",
       "concepts": [{
        "uri-scheme": "info" }]}},{
+     "4501": {
+      "id": "http://webconcepts.info/specs/IETF/RFC/4501",
+      "title": "Domain Name System Uniform Resource Identifiers",
+      "name": "RFC 4501",
+      "URI": "urn:ietf:rfc:4501",
+      "URL": "http://tools.ietf.org/html/rfc4501",
+      "abstract": "This document defines Uniform Resource Identifiers for Domain Name System resources.",
+      "concepts": [{
+       "uri-scheme": "dns" }]}},{
      "4559": {
       "id": "http://webconcepts.info/specs/IETF/RFC/4559",
       "title": "SPNEGO-based Kerberos and NTLM HTTP Authentication in Microsoft Windows",
