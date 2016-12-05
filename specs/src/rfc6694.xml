@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<service primary="IETF" secondary="RFC" id="6694">
+    <title>The "about" URI Scheme</title>
+    <documentation source="http://tools.ietf.org/html/rfc6694">This document describes the "about" URI scheme, which is widely used by Web browsers and some other applications to designate access to their internal resources, such as settings, application information, hidden built-in functionality, and so on.</documentation>
+    <uri-scheme def="about">
+        <documentation source="http://tools.ietf.org/html/rfc6694#section-2">The resource that is referenced by a particular "about" URI is denoted by the &lt;about-token> part of the URI.</documentation>
+    </uri-scheme>
+</service>

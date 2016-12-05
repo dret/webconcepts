@@ -6,10 +6,11 @@ permalink: /concepts/uri-schemes
 
 
 
-The following 20 URI Scheme values were found in [all available `webconcepts.info` specifications](/specs). Please be advised that the table shown here is maintained and compiled from [Web Concepts](/) sources. The [official URI Scheme registry](http://www.iana.org/assignments/uri-schemes/uri-schemes.xhtml) is maintained by the [*Internet Assigned Numbers Authority (IANA)*](http://www.iana.org/).
+The following 21 URI Scheme values were found in [all available `webconcepts.info` specifications](/specs). Please be advised that the table shown here is maintained and compiled from [Web Concepts](/) sources. The [official URI Scheme registry](http://www.iana.org/assignments/uri-schemes/uri-schemes.xhtml) is maintained by the [*Internet Assigned Numbers Authority (IANA)*](http://www.iana.org/).
 
 URI Scheme | Specification
 -------: | :-------
+[`about`](/concepts/uri-scheme/about) | [**RFC 6694**: The "about" URI Scheme](/specs/IETF/RFC/6694 "This document describes the &#34;about&#34; URI scheme, which is widely used by Web browsers and some other applications to designate access to their internal resources, such as settings, application information, hidden built-in functionality, and so on.")
 [`cap`](/concepts/uri-scheme/cap) | [**RFC 4324**: Calendar Access Protocol (CAP)](/specs/IETF/RFC/4324 "The Calendar Access Protocol (CAP) described in this memo permits a Calendar User (CU) to utilize a Calendar User Agent (CUA) to access an iCAL-based Calendar Store (CS). At the time of this writing, three vendors are implementing CAP, but it has already been determined that some changes are needed. In order to get implementation experience, the participants felt that a CAP specification is needed to preserve many years of work. Many properties in CAP which have had many years of debate, can be used by other iCalendar protocols.")
 [`data`](/concepts/uri-scheme/data) | [**RFC 2397**: The "data" URL scheme](/specs/IETF/RFC/2397 "A new URL scheme, &#34;data&#34;, is defined. It allows inclusion of small data items as &#34;immediate&#34; data, as if it had been included externally.")
 [`example`](/concepts/uri-scheme/example) | [**RFC 7595**: Guidelines and Registration Procedures for URI Schemes](/specs/IETF/RFC/7595 "This document updates the guidelines and recommendations, as well as the IANA registration processes, for the definition of Uniform Resource Identifier (URI) schemes.")

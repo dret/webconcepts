@@ -1063,6 +1063,15 @@
        "link-relation": "hosts" }, {
        "media-type": "application/link-format" }, {
        "well-known-uri": "core" }]}},{
+     "6694": {
+      "id": "http://webconcepts.info/specs/IETF/RFC/6694",
+      "title": "The \"about\" URI Scheme",
+      "name": "RFC 6694",
+      "URI": "urn:ietf:rfc:6694",
+      "URL": "http://tools.ietf.org/html/rfc6694",
+      "abstract": "This document describes the \"about\" URI scheme, which is widely used by Web browsers and some other applications to designate access to their internal resources, such as settings, application information, hidden built-in functionality, and so on.",
+      "concepts": [{
+       "uri-scheme": "about" }]}},{
      "6713": {
       "id": "http://webconcepts.info/specs/IETF/RFC/6713",
       "title": "The 'application/zlib' and 'application/gzip' Media Types",
