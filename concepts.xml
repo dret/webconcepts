@@ -14,7 +14,7 @@
         <filename-plural>http-headers</filename-plural>
         <iana-registry>http://www.iana.org/assignments/message-headers/message-headers.xhtml</iana-registry>
     </concept>
-    <concept id="http-status">
+    <concept id="http-status-code">
         <title-singular>HTTP Status Code</title-singular>
         <title-plural>HTTP Status Codes</title-plural>
         <filename-singular>http-status-code</filename-singular>
