@@ -189,7 +189,7 @@
         <filename-plural>pkce-code-challenge-methods</filename-plural>
         <iana-registry>http://www.iana.org/assignments/oauth-parameters/oauth-parameters.xhtml#pkce-code-challenge-method</iana-registry>
     </concept>
-    <concept id="http-auth-scheme">
+    <concept id="http-authentication-scheme">
         <title-singular>HTTP Authentication Scheme</title-singular>
         <title-plural>HTTP Authentication Schemes</title-plural>
         <filename-singular>http-authentication-scheme</filename-singular>
