@@ -693,7 +693,7 @@
       "URL": "http://tools.ietf.org/html/rfc4559",
       "abstract": "This document describes how the Microsoft Internet Explorer (MSIE) and Internet Information Services (IIS) incorporated in Microsoft Windows 2000 use Kerberos for security enhancements of web transactions. The Hypertext Transport Protocol (HTTP) auth-scheme of \"negotiate\" is defined here; when the negotiation results in the selection of Kerberos, the security services of authentication and, optionally, impersonation (the IIS server assumes the windows identity of the principal that has been authenticated) are performed. This document explains how HTTP authentication utilizes the Simple and Protected GSS-API Negotiation mechanism. Details of Simple And Protected Negotiate (SPNEGO) implementation are not provided in this document.",
       "concepts": [{
-       "http-auth-scheme": "Negotiate" }]}},{
+       "http-authentication-scheme": "Negotiate" }]}},{
      "4729": {
       "id": "http://webconcepts.info/specs/IETF/RFC/4729",
       "title": "A Uniform Resource Name (URN) Namespace for the Near Field Communication (NFC) Forum",
@@ -867,7 +867,7 @@
       "URL": "http://tools.ietf.org/html/rfc5849",
       "abstract": "OAuth provides a method for clients to access server resources on behalf of a resource owner (such as a different client or an end-user). It also provides a process for end-users to authorize third-party access to their server resources without sharing their credentials (typically, a username and password pair), using user-agent redirections.",
       "concepts": [{
-       "http-auth-scheme": "OAuth" }, {
+       "http-authentication-scheme": "OAuth" }, {
        "http-header": "Authorization" }]}},{
      "5861": {
       "id": "http://webconcepts.info/specs/IETF/RFC/5861",
@@ -1126,7 +1126,7 @@
       "URL": "http://tools.ietf.org/html/rfc6750",
       "abstract": "This specification describes how to use bearer tokens in HTTP requests to access OAuth 2.0 protected resources. Any party in possession of a bearer token (a \"bearer\") can use it to get access to the associated resources (without demonstrating possession of a cryptographic key). To prevent misuse, bearer tokens need to be protected from disclosure in storage and in transport.",
       "concepts": [{
-       "http-auth-scheme": "Bearer" }, {
+       "http-authentication-scheme": "Bearer" }, {
        "oauth-access-token-type": "Bearer" }, {
        "oauth-extension-error": "insufficient_scope" }, {
        "oauth-extension-error": "invalid_request" }, {
@@ -1598,7 +1598,7 @@
       "URL": "http://tools.ietf.org/html/rfc7486",
       "abstract": "HTTP Origin-Bound Authentication (HOBA) is a digital-signature-based design for an HTTP authentication method. The design can also be used in JavaScript-based authentication embedded in HTML. HOBA is an alternative to HTTP authentication schemes that require passwords and therefore avoids all problems related to passwords, such as leakage of server-side password databases.",
       "concepts": [{
-       "http-auth-scheme": "HOBA" }, {
+       "http-authentication-scheme": "HOBA" }, {
        "http-header": "Hobareg" }, {
        "well-known-uri": "hoba" }]}},{
      "7512": {
@@ -1765,7 +1765,7 @@
       "URL": "http://tools.ietf.org/html/rfc7616",
       "abstract": "The Hypertext Transfer Protocol (HTTP) provides a simple challenge-response authentication mechanism that may be used by a server to challenge a client request and by a client to provide authentication information. This document defines the HTTP Digest Authentication scheme that can be used with the HTTP authentication mechanism.",
       "concepts": [{
-       "http-auth-scheme": "Digest" }, {
+       "http-authentication-scheme": "Digest" }, {
        "http-header": "Authorization" }, {
        "http-header": "WWW-Authenticate" }]}},{
      "7617": {
@@ -1776,7 +1776,7 @@
       "URL": "http://tools.ietf.org/html/rfc7617",
       "abstract": "This document defines the \"Basic\" Hypertext Transfer Protocol (HTTP) authentication scheme, which transmits credentials as user-id/password pairs, encoded using Base64.",
       "concepts": [{
-       "http-auth-scheme": "Basic" }]}},{
+       "http-authentication-scheme": "Basic" }]}},{
      "7635": {
       "id": "http://webconcepts.info/specs/IETF/RFC/7635",
       "title": "Session Traversal Utilities for NAT (STUN) Extension",
@@ -1885,8 +1885,8 @@
       "URL": "http://tools.ietf.org/html/rfc7804",
       "abstract": "This specification describes a family of HTTP authentication mechanisms called the Salted Challenge Response Authentication Mechanism (SCRAM), which provides a more robust authentication mechanism than a plaintext password protected by Transport Layer Security (TLS) and avoids the deployment obstacles presented by earlier TLS-protected challenge response authentication mechanisms.",
       "concepts": [{
-       "http-auth-scheme": "SCRAM-SHA-1" }, {
-       "http-auth-scheme": "SCRAM-SHA-256" }]}},{
+       "http-authentication-scheme": "SCRAM-SHA-1" }, {
+       "http-authentication-scheme": "SCRAM-SHA-256" }]}},{
      "7807": {
       "id": "http://webconcepts.info/specs/IETF/RFC/7807",
       "title": "Problem Details for HTTP APIs",
