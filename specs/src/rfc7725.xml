@@ -2,7 +2,7 @@
 <service primary="IETF" secondary="RFC" id="7725">
     <title>An HTTP Status Code to Report Legal Obstacles</title>
     <documentation source="http://tools.ietf.org/html/rfc7725">This document specifies a Hypertext Transfer Protocol (HTTP) status code for use when resource access is denied as a consequence of legal demands.</documentation>
-    <http-status def="451" desc="Unavailable For Legal Reasons">
+    <http-status-code def="451" desc="Unavailable For Legal Reasons">
         <documentation source="http://tools.ietf.org/html/rfc7725#section-3">This status code indicates that the server is denying access to the resource as a consequence of a legal demand. The server in question might not be an origin server. This type of legal demand typically most directly affects the operations of ISPs and search engines.</documentation>
-    </http-status>
+    </http-status-code>
 </service>

@@ -14,10 +14,10 @@
     <http-header def="WWW-Authenticate">
         <documentation source="http://tools.ietf.org/html/rfc7235#section-4.4">The "WWW-Authenticate" header field consists of at least one challenge that indicates the authentication scheme(s) and parameters applicable to the effective request URI. It MUST be included in 401 (Unauthorized) response messages and MAY be included in other response messages to indicate that supplying credentials (or different credentials) might affect the response.</documentation>
     </http-header>
-    <http-status def="401" desc="Unauthorized">
+    <http-status-code def="401" desc="Unauthorized">
         <documentation source="http://tools.ietf.org/html/rfc7235#section-3.1">The 401 (Unauthorized) status code indicates that the request has not been applied because it lacks valid authentication credentials for the target resource. The server generating a 401 response MUST send a WWW-Authenticate header field (Section 4.1) containing at least one challenge applicable to the target resource.</documentation>
-    </http-status>
-    <http-status def="407" desc="Proxy Authentication Required">
+    </http-status-code>
+    <http-status-code def="407" desc="Proxy Authentication Required">
         <documentation source="http://tools.ietf.org/html/rfc7235#section-3.2">The 407 (Proxy Authentication Required) status code is similar to 401 (Unauthorized), but it indicates that the client needs to authenticate itself in order to use a proxy. The proxy MUST send a Proxy-Authenticate header field containing a challenge applicable to that proxy for the target resource. The client MAY repeat the request with a new or replaced Proxy-Authorization header field.</documentation>
-    </http-status>
+    </http-status-code>
 </service>

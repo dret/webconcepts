@@ -2,16 +2,16 @@
 <service primary="IETF" secondary="RFC" id="6585">
     <title>Additional HTTP Status Codes</title>
     <documentation source="http://tools.ietf.org/html/rfc6585">This document specifies additional HyperText Transfer Protocol (HTTP) status codes for a variety of common situations.</documentation>
-    <http-status def="428" desc="Precondition Required">
+    <http-status-code def="428" desc="Precondition Required">
         <documentation source="http://tools.ietf.org/html/rfc6585#section-3">The 428 status code indicates that the origin server requires the request to be conditional.</documentation>
-    </http-status>
-    <http-status def="429" desc="Too Many Requests">
+    </http-status-code>
+    <http-status-code def="429" desc="Too Many Requests">
         <documentation source="http://tools.ietf.org/html/rfc6585#section-4">The 429 status code indicates that the user has sent too many requests in a given amount of time ("rate limiting").</documentation>
-    </http-status>
-    <http-status def="431" desc="Request Header Fields Too Large">
+    </http-status-code>
+    <http-status-code def="431" desc="Request Header Fields Too Large">
         <documentation source="http://tools.ietf.org/html/rfc6585#section-5">The 431 status code indicates that the server is unwilling to process the request because its header fields are too large. The request MAY be resubmitted after reducing the size of the request header fields.</documentation>
-    </http-status>
-    <http-status def="511" desc="Network Authentication Required">
+    </http-status-code>
+    <http-status-code def="511" desc="Network Authentication Required">
         <documentation source="http://tools.ietf.org/html/rfc6585#section-6">The 511 status code indicates that the client needs to authenticate to gain network access.</documentation>
-    </http-status>
+    </http-status-code>
 </service>

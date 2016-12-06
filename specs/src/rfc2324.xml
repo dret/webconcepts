@@ -5,7 +5,7 @@
     <http-header def="Accept-Additions">
         <documentation source="http://tools.ietf.org/html/rfc2324#section-2.2.2.1">In HTTP, the "Accept" request-header field is used to specify media types which are acceptable for the response. However, in HTCPCP, the response may result in additional actions on the part of the automated pot. For this reason, HTCPCP adds a new header field, "Accept-Additions".</documentation>
     </http-header>
-    <http-status def="418" desc="I'm a teapot">
+    <http-status-code def="418" desc="I'm a teapot">
         <documentation source="http://tools.ietf.org/html/rfc2324#section-2.3.2">Any attempt to brew coffee with a teapot should result in the error code "418 I'm a teapot". The resulting entity body MAY be short and stout.</documentation>
-    </http-status>
+    </http-status-code>
 </service>

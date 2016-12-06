@@ -11,7 +11,7 @@
     <http-header def="A-IM">
         <documentation source="http://tools.ietf.org/html/rfc3229#section-10.5.3">The A-IM request-header field is similar to Accept, but restricts the instance-manipulations that are acceptable in the response. A response may be the result of applying multiple instance-manipulations. When an A-IM request-header field includes one or more delta-coding values, the request MUST contain an If-None-Match header field, listing one or more entity tags from prior responses for the request-URI.</documentation>
     </http-header>
-    <http-status def="226" desc="IM Used">
+    <http-status-code def="226" desc="IM Used">
         <documentation source="http://tools.ietf.org/html/rfc3229#section-10.4.1">The server has fulfilled a GET request for the resource, and the response is a representation of the result of one or more instance-manipulations applied to the current instance. The actual current instance might not be available except by combining this response with other previous or future responses, as appropriate for the specific instance-manipulation(s).</documentation>
-    </http-status>
+    </http-status-code>
 </service>

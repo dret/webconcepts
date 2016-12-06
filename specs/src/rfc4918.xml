@@ -23,21 +23,21 @@
     <http-header def="Timeout">
         <documentation source="http://tools.ietf.org/html/rfc4918#section-10.7">Clients MAY include Timeout request headers in their LOCK requests. However, the server is not required to honor or even consider these requests.</documentation>
     </http-header>
-    <http-status def="207" desc="Multi-Status">
+    <http-status-code def="207" desc="Multi-Status">
         <documentation source="http://tools.ietf.org/html/rfc4918#section-11.1">The 207 (Multi-Status) status code provides status for multiple independent operations.</documentation>
-    </http-status>
-    <http-status def="422" desc="Unprocessable Entity">
+    </http-status-code>
+    <http-status-code def="422" desc="Unprocessable Entity">
         <documentation source="http://tools.ietf.org/html/rfc4918#section-11.2">The 422 (Unprocessable Entity) status code means the server understands the content type of the request entity (hence a 415 (Unsupported Media Type) status code is inappropriate), and the syntax of the request entity is correct (thus a 400 (Bad Request) status code is inappropriate) but was unable to process the contained instructions. For example, this error condition may occur if an XML request body contains well-formed (i.e., syntactically correct), but semantically erroneous, XML instructions.</documentation>
-    </http-status>
-    <http-status def="423" desc="Locked">
+    </http-status-code>
+    <http-status-code def="423" desc="Locked">
         <documentation source="http://tools.ietf.org/html/rfc4918#section-11.3">The 423 (Locked) status code means the source or destination resource of a method is locked. This response SHOULD contain an appropriate precondition or postcondition code, such as 'lock-token-submitted' or 'no-conflicting-lock'.</documentation>
-    </http-status>
-    <http-status def="424" desc="Failed Dependency">
+    </http-status-code>
+    <http-status-code def="424" desc="Failed Dependency">
         <documentation source="http://tools.ietf.org/html/rfc4918#section-11.4">The 424 (Failed Dependency) status code means that the method could not be performed on the resource because the requested action depended on another action and that action failed. For example, if a command in a PROPPATCH method fails, then, at minimum, the rest of the commands will also fail with 424 (Failed Dependency).</documentation>
-    </http-status>
-    <http-status def="507" desc="Insufficient Storage">
+    </http-status-code>
+    <http-status-code def="507" desc="Insufficient Storage">
         <documentation source="http://tools.ietf.org/html/rfc4918#section-11.5">The 507 (Insufficient Storage) status code means the method could not be performed on the resource because the server is unable to store the representation needed to successfully complete the request. This condition is considered to be temporary. If the request that received this status code was the result of a user action, the request MUST NOT be repeated until it is requested by a separate user action.</documentation>
-    </http-status>
+    </http-status-code>
     <http-method def="PROPFIND">
         <documentation source="http://tools.ietf.org/html/rfc4918#section-9.1">The PROPFIND method retrieves properties defined on the resource identified by the Request-URI, if the resource does not have any internal members, or on the resource identified by the Request-URI and potentially its member resources, if the resource is a collection that has internal member URLs.</documentation>
     </http-method>
