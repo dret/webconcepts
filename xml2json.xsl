@@ -4,7 +4,7 @@
     <xsl:output name="json" method="text" encoding="UTF-8"/>
     <!-- -->
     <xsl:template name="xml2json">
-        <xsl:result-document href="{$concepts-dir}/concepts.json" format="json">
+        <xsl:result-document href="concepts.json" format="json">
             <xsl:variable name="concepts-json">
                 <array>
                     <xsl:for-each select="$concepts/concepts/concept">

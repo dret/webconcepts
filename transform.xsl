@@ -7,7 +7,7 @@
     <xsl:variable name="allspecs" select="collection(concat($specs-dir, '/src/?select=*.xml'))"/>
     <!-- -->
     <xsl:variable name="concepts-dir" select="'concepts'"/>
-    <xsl:variable name="concepts" select="document(concat($concepts-dir, '/concepts.xml'))"/>
+    <xsl:variable name="concepts" select="document('concepts.xml')"/>
     <!-- -->
     <xsl:include href="xml2jekyll.xsl"/>
     <xsl:include href="xml2json.xsl"/>
