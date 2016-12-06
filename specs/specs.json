@@ -361,7 +361,7 @@
        "http-header": "Negotiate" }, {
        "http-header": "TCN" }, {
        "http-header": "Variant-Vary" }, {
-       "http-status": "506" }]}},{
+       "http-status-code": "506" }]}},{
      "2310": {
       "id": "http://webconcepts.info/specs/IETF/RFC/2310",
       "title": "The Safe Response Header Field",
@@ -380,7 +380,7 @@
       "abstract": "This document describes HTCPCP, a protocol for controlling, monitoring, and diagnosing coffee pots.",
       "concepts": [{
        "http-header": "Accept-Additions" }, {
-       "http-status": "418" }]}},{
+       "http-status-code": "418" }]}},{
      "2388": {
       "id": "http://webconcepts.info/specs/IETF/RFC/2388",
       "title": "Returning Values from Forms: multipart/form-data",
@@ -408,7 +408,7 @@
       "abstract": "This document specifies a set of methods, headers, and content-types ancillary to HTTP/1.1 for the management of resource properties, creation and management of resource collections, namespace manipulation, and resource locking (collision avoidance).",
       "concepts": [{
        "http-header": "Status-URI" }, {
-       "http-status": "102" }]}},{
+       "http-status-code": "102" }]}},{
      "2616": {
       "id": "http://webconcepts.info/specs/IETF/RFC/2616",
       "title": "Hypertext Transfer Protocol -- HTTP/1.1",
@@ -450,7 +450,7 @@
        "http-header": "Ext" }, {
        "http-header": "Man" }, {
        "http-header": "Opt" }, {
-       "http-status": "510" }]}},{
+       "http-status-code": "510" }]}},{
      "2965": {
       "id": "http://webconcepts.info/specs/IETF/RFC/2965",
       "title": "HTTP State Management Mechanism",
@@ -509,7 +509,7 @@
        "http-header": "A-IM" }, {
        "http-header": "Delta-Base" }, {
        "http-header": "IM" }, {
-       "http-status": "226" }]}},{
+       "http-status-code": "226" }]}},{
      "3230": {
       "id": "http://webconcepts.info/specs/IETF/RFC/3230",
       "title": "Instance Digests in HTTP",
@@ -734,11 +734,11 @@
        "http-method": "PROPFIND" }, {
        "http-method": "PROPPATCH" }, {
        "http-method": "UNLOCK" }, {
-       "http-status": "207" }, {
-       "http-status": "422" }, {
-       "http-status": "423" }, {
-       "http-status": "424" }, {
-       "http-status": "507" }]}},{
+       "http-status-code": "207" }, {
+       "http-status-code": "422" }, {
+       "http-status-code": "423" }, {
+       "http-status-code": "424" }, {
+       "http-status-code": "507" }]}},{
      "4946": {
       "id": "http://webconcepts.info/specs/IETF/RFC/4946",
       "title": "Atom License Extension",
@@ -857,8 +857,8 @@
        "http-method": "BIND" }, {
        "http-method": "REBIND" }, {
        "http-method": "UNBIND" }, {
-       "http-status": "208" }, {
-       "http-status": "508" }]}},{
+       "http-status-code": "208" }, {
+       "http-status-code": "508" }]}},{
      "5849": {
       "id": "http://webconcepts.info/specs/IETF/RFC/5849",
       "title": "The OAuth 1.0 Protocol",
@@ -1037,10 +1037,10 @@
       "URL": "http://tools.ietf.org/html/rfc6585",
       "abstract": "This document specifies additional HyperText Transfer Protocol (HTTP) status codes for a variety of common situations.",
       "concepts": [{
-       "http-status": "428" }, {
-       "http-status": "429" }, {
-       "http-status": "431" }, {
-       "http-status": "511" }]}},{
+       "http-status-code": "428" }, {
+       "http-status-code": "429" }, {
+       "http-status-code": "431" }, {
+       "http-status-code": "511" }]}},{
      "6596": {
       "id": "http://webconcepts.info/specs/IETF/RFC/6596",
       "title": "The Canonical Link Relation",
@@ -1407,42 +1407,42 @@
        "http-method": "POST" }, {
        "http-method": "PUT" }, {
        "http-method": "TRACE" }, {
-       "http-status": "100" }, {
-       "http-status": "101" }, {
-       "http-status": "200" }, {
-       "http-status": "201" }, {
-       "http-status": "202" }, {
-       "http-status": "203" }, {
-       "http-status": "204" }, {
-       "http-status": "205" }, {
-       "http-status": "300" }, {
-       "http-status": "301" }, {
-       "http-status": "302" }, {
-       "http-status": "303" }, {
-       "http-status": "305" }, {
-       "http-status": "306" }, {
-       "http-status": "307" }, {
-       "http-status": "400" }, {
-       "http-status": "402" }, {
-       "http-status": "403" }, {
-       "http-status": "404" }, {
-       "http-status": "405" }, {
-       "http-status": "406" }, {
-       "http-status": "408" }, {
-       "http-status": "409" }, {
-       "http-status": "410" }, {
-       "http-status": "411" }, {
-       "http-status": "413" }, {
-       "http-status": "414" }, {
-       "http-status": "415" }, {
-       "http-status": "417" }, {
-       "http-status": "426" }, {
-       "http-status": "500" }, {
-       "http-status": "501" }, {
-       "http-status": "502" }, {
-       "http-status": "503" }, {
-       "http-status": "504" }, {
-       "http-status": "505" }]}},{
+       "http-status-code": "100" }, {
+       "http-status-code": "101" }, {
+       "http-status-code": "200" }, {
+       "http-status-code": "201" }, {
+       "http-status-code": "202" }, {
+       "http-status-code": "203" }, {
+       "http-status-code": "204" }, {
+       "http-status-code": "205" }, {
+       "http-status-code": "300" }, {
+       "http-status-code": "301" }, {
+       "http-status-code": "302" }, {
+       "http-status-code": "303" }, {
+       "http-status-code": "305" }, {
+       "http-status-code": "306" }, {
+       "http-status-code": "307" }, {
+       "http-status-code": "400" }, {
+       "http-status-code": "402" }, {
+       "http-status-code": "403" }, {
+       "http-status-code": "404" }, {
+       "http-status-code": "405" }, {
+       "http-status-code": "406" }, {
+       "http-status-code": "408" }, {
+       "http-status-code": "409" }, {
+       "http-status-code": "410" }, {
+       "http-status-code": "411" }, {
+       "http-status-code": "413" }, {
+       "http-status-code": "414" }, {
+       "http-status-code": "415" }, {
+       "http-status-code": "417" }, {
+       "http-status-code": "426" }, {
+       "http-status-code": "500" }, {
+       "http-status-code": "501" }, {
+       "http-status-code": "502" }, {
+       "http-status-code": "503" }, {
+       "http-status-code": "504" }, {
+       "http-status-code": "505" }]}},{
      "7232": {
       "id": "http://webconcepts.info/specs/IETF/RFC/7232",
       "title": "Hypertext Transfer Protocol (HTTP/1.1): Conditional Requests",
@@ -1457,8 +1457,8 @@
        "http-header": "If-None-Match" }, {
        "http-header": "If-Unmodified-Since" }, {
        "http-header": "Last-Modified" }, {
-       "http-status": "304" }, {
-       "http-status": "412" }]}},{
+       "http-status-code": "304" }, {
+       "http-status-code": "412" }]}},{
      "7233": {
       "id": "http://webconcepts.info/specs/IETF/RFC/7233",
       "title": "Hypertext Transfer Protocol (HTTP/1.1): Range Requests",
@@ -1473,8 +1473,8 @@
        "http-header": "Range" }, {
        "http-range-unit": "bytes" }, {
        "http-range-unit": "none" }, {
-       "http-status": "206" }, {
-       "http-status": "416" }]}},{
+       "http-status-code": "206" }, {
+       "http-status-code": "416" }]}},{
      "7234": {
       "id": "http://webconcepts.info/specs/IETF/RFC/7234",
       "title": "Hypertext Transfer Protocol (HTTP/1.1): Caching",
@@ -1512,8 +1512,8 @@
        "http-header": "Proxy-Authenticate" }, {
        "http-header": "Proxy-Authorization" }, {
        "http-header": "WWW-Authenticate" }, {
-       "http-status": "401" }, {
-       "http-status": "407" }]}},{
+       "http-status-code": "401" }, {
+       "http-status-code": "407" }]}},{
      "7239": {
       "id": "http://webconcepts.info/specs/IETF/RFC/7239",
       "title": "Forwarded HTTP Extension",
@@ -1686,7 +1686,7 @@
       "URL": "http://tools.ietf.org/html/rfc7538",
       "abstract": "This document specifies the additional Hypertext Transfer Protocol (HTTP) status code 308 (Permanent Redirect).",
       "concepts": [{
-       "http-status": "308" }]}},{
+       "http-status-code": "308" }]}},{
      "7540": {
       "id": "http://webconcepts.info/specs/IETF/RFC/7540",
       "title": "Hypertext Transfer Protocol Version 2",
@@ -1697,7 +1697,7 @@
       "concepts": [{
        "http-header": "HTTP2-Settings" }, {
        "http-method": "PRI" }, {
-       "http-status": "421" }]}},{
+       "http-status-code": "421" }]}},{
      "7591": {
       "id": "http://webconcepts.info/specs/IETF/RFC/7591",
       "title": "OAuth 2.0 Dynamic Client Registration Protocol",
@@ -1854,7 +1854,7 @@
       "URL": "http://tools.ietf.org/html/rfc7725",
       "abstract": "This document specifies a Hypertext Transfer Protocol (HTTP) status code for use when resource access is denied as a consequence of legal demands.",
       "concepts": [{
-       "http-status": "451" }]}},{
+       "http-status-code": "451" }]}},{
      "7763": {
       "id": "http://webconcepts.info/specs/IETF/RFC/7763",
       "title": "The text/markdown Media Type",
