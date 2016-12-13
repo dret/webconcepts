@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/PEP"
-title:       "HTTP Header Field: PEP"
+layout:        concept
+permalink:     "/concepts/http-header/PEP"
+title:         "HTTP Header Field: PEP"
+concept-name:  HTTP Header Field
+concept-value: PEP
 description: "PEP end-to-end declarations must be transmitted to the ultimate recipient of the declaration. The PEP header field is an end-to-end header field."
 ---
 

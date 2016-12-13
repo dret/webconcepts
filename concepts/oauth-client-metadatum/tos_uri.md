@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/oauth-client-metadatum/tos_uri"
-title:       "OAuth Dynamic Client Registration Metadatum: tos_uri"
+layout:        concept
+permalink:     "/concepts/oauth-client-metadatum/tos_uri"
+title:         "OAuth Dynamic Client Registration Metadatum: tos_uri"
+concept-name:  OAuth Dynamic Client Registration Metadatum
+concept-value: tos_uri
 description: "URL string that points to a human-readable terms of service document for the client that describes a contractual relationship between the end-user and the client that the end-user accepts when authorizing the client."
 ---
 

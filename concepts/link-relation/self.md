@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/link-relation/self"
-title:       "Link Relation: self"
+layout:        concept
+permalink:     "/concepts/link-relation/self"
+title:         "Link Relation: self"
+concept-name:  Link Relation
+concept-value: self
 description: "The value \"self\" signifies that the IRI in the value of the href attribute identifies a resource equivalent to the containing element."
 ---
 

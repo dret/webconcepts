@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/oauth-token-introspection-response/active"
-title:       "OAuth Token Introspection Response: active"
+layout:        concept
+permalink:     "/concepts/oauth-token-introspection-response/active"
+title:         "OAuth Token Introspection Response: active"
+concept-name:  OAuth Token Introspection Response
+concept-value: active
 description: "Boolean indicator of whether or not the presented token is currently active."
 ---
 

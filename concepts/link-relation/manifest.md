@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/link-relation/manifest"
-title:       "Link Relation: manifest"
+layout:        concept
+permalink:     "/concepts/link-relation/manifest"
+title:         "Link Relation: manifest"
+concept-name:  Link Relation
+concept-value: manifest
 description: "Imports or links to a manifest."
 ---
 

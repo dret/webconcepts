@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/urn-namespace/iso"
-title:       "URN Namespace: iso"
+layout:        concept
+permalink:     "/concepts/urn-namespace/iso"
+title:         "URN Namespace: iso"
+concept-name:  URN Namespace
+concept-value: iso
 description: "This specification defines the syntax for URNs that identify documents developed by the International Organization for Standardization (ISO) in accordance with the standards development procedures defined in the ISO/IEC Directives, Part 1 and the ISO supplement and processed by the ISO Central Secretariat."
 ---
 

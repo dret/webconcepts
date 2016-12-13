@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/oauth-parameter/access_token"
-title:       "OAuth Parameter: access_token"
+layout:        concept
+permalink:     "/concepts/oauth-parameter/access_token"
+title:         "OAuth Parameter: access_token"
+concept-name:  OAuth Parameter
+concept-value: access_token
 description: "The access token issued by the authorization server."
 ---
 

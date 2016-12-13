@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/link-relation/bcc"
-title:       "Link Relation: bcc"
+layout:        concept
+permalink:     "/concepts/link-relation/bcc"
+title:         "Link Relation: bcc"
+concept-name:  Link Relation
+concept-value: bcc
 description: "Refers to a resource that is considered to be part of the private secondary audience of the link's context."
 ---
 

@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/uri-scheme/info"
-title:       "URI Scheme: info"
+layout:        concept
+permalink:     "/concepts/uri-scheme/info"
+title:         "URI Scheme: info"
+concept-name:  URI Scheme
+concept-value: info
 description: "This document defines the \"info\" Uniform Resource Identifier (URI) scheme for information assets that have identifiers in public namespaces but are not part of the URI allocation. By \"information asset\" this document intends any information construct that has identity within a public namespace."
 ---
 

@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/media-type/application/manifest+json"
-title:       "Media Type: application/manifest+json"
+layout:        concept
+permalink:     "/concepts/media-type/application/manifest+json"
+title:         "Media Type: application/manifest+json"
+concept-name:  Media Type
+concept-value: application/manifest+json
 description: "A manifest is a JSON document that contains startup parameters and application defaults for when a web application is launched. A manifest consists of a top-level object that contains zero or more members."
 ---
 

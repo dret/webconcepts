@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Accept-Push-Policy"
-title:       "HTTP Header Field: Accept-Push-Policy"
+layout:        concept
+permalink:     "/concepts/http-header/Accept-Push-Policy"
+title:         "HTTP Header Field: Accept-Push-Policy"
+concept-name:  HTTP Header Field
+concept-value: Accept-Push-Policy
 description: "A client can express the desired push policy for a request by sending an \"Accept-Push-Policy\" header field in the request. The header field value contains the push policy that the client expects the server to use when processing the request."
 ---
 

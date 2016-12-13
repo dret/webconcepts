@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/media-type/application/sgml"
-title:       "Media Type: application/sgml"
+layout:        concept
+permalink:     "/concepts/media-type/application/sgml"
+title:         "Media Type: application/sgml"
+concept-name:  Media Type
+concept-value: application/sgml
 description: "Use the Application/SGML media-type for SGML text entities that are not appropriate for Text/SGML."
 ---
 

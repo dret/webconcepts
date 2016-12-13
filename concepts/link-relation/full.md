@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/link-relation/full"
-title:       "Link Relation: full"
+layout:        concept
+permalink:     "/concepts/link-relation/full"
+title:         "Link Relation: full"
+concept-name:  Link Relation
+concept-value: full
 description: "This indicates that the target of the link is the full representation for the instance object. The object that contains this link possibly may not be the full representation."
 ---
 

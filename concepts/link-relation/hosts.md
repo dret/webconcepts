@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/link-relation/hosts"
-title:       "Link Relation: hosts"
+layout:        concept
+permalink:     "/concepts/link-relation/hosts"
+title:         "Link Relation: hosts"
+concept-name:  Link Relation
+concept-value: hosts
 description: "The \"hosts\" relation type (from the verb \"to host\") indicates that the target URI is a resource hosted by the server (i.e., server hosts resource) indicated by the context URI. The target URI MUST be a relative URI of the context URI for this relation type."
 ---
 

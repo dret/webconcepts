@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/oauth-token-introspection-response/iss"
-title:       "OAuth Token Introspection Response: iss"
+layout:        concept
+permalink:     "/concepts/oauth-token-introspection-response/iss"
+title:         "OAuth Token Introspection Response: iss"
+concept-name:  OAuth Token Introspection Response
+concept-value: iss
 description: "String representing the issuer of this token, as defined in JWT."
 ---
 

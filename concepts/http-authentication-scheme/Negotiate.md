@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-authentication-scheme/Negotiate"
-title:       "HTTP Authentication Scheme: Negotiate"
+layout:        concept
+permalink:     "/concepts/http-authentication-scheme/Negotiate"
+title:         "HTTP Authentication Scheme: Negotiate"
+concept-name:  HTTP Authentication Scheme
+concept-value: Negotiate
 description: "Use of Kerberos is wrapped in an HTTP auth-scheme of \"Negotiate\"."
 ---
 

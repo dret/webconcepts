@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/media-type/application/xml-patch+xml"
-title:       "Media Type: application/xml-patch+xml"
+layout:        concept
+permalink:     "/concepts/media-type/application/xml-patch+xml"
+title:         "Media Type: application/xml-patch+xml"
+concept-name:  Media Type
+concept-value: application/xml-patch+xml
 description: "The Internet media type for an XML Patch Document is application/xml-patch+xml."
 ---
 

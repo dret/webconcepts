@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/If-Schedule-Tag-Match"
-title:       "HTTP Header Field: If-Schedule-Tag-Match"
+layout:        concept
+permalink:     "/concepts/http-header/If-Schedule-Tag-Match"
+title:         "HTTP Header Field: If-Schedule-Tag-Match"
+concept-name:  HTTP Header Field
+concept-value: If-Schedule-Tag-Match
 description: "The If-Schedule-Tag-Match request header field is used with a method to make it conditional. Clients can set this header to the value returned in the Schedule-Tag response header, or the CALDAV:schedule-tag property, of a scheduling object resource previously retrieved from the server to avoid overwriting \"consequential\" changes to the scheduling object resource."
 ---
 

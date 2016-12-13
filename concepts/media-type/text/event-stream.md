@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/media-type/text/event-stream"
-title:       "Media Type: text/event-stream"
+layout:        concept
+permalink:     "/concepts/media-type/text/event-stream"
+title:         "Media Type: text/event-stream"
+concept-name:  Media Type
+concept-value: text/event-stream
 description: "Defines a media type for representing an event stream for Server-Sent Events."
 ---
 

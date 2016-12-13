@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Encryption"
-title:       "HTTP Header Field: Encryption"
+layout:        concept
+permalink:     "/concepts/http-header/Encryption"
+title:         "HTTP Header Field: Encryption"
+concept-name:  HTTP Header Field
+concept-value: Encryption
 description: "The \"Encryption\" HTTP header field describes the encrypted content encoding(s) that have been applied to a message payload, and therefore how those content encoding(s) can be removed."
 ---
 

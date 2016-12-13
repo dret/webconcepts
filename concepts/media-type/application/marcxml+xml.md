@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/media-type/application/marcxml+xml"
-title:       "Media Type: application/marcxml+xml"
+layout:        concept
+permalink:     "/concepts/media-type/application/marcxml+xml"
+title:         "Media Type: application/marcxml+xml"
+concept-name:  Media Type
+concept-value: application/marcxml+xml
 description: "An XML schema for the direct XML representation of the MARC format (for which there already exists a media type, application/marc)."
 ---
 

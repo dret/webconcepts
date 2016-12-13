@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/oauth-uri/urn%3Aietf%3Aparams%3Aoauth%3Agrant-type%3Asaml2-bearer"
-title:       "OAuth URI: urn:ietf:params:oauth:grant-type:saml2-bearer"
+layout:        concept
+permalink:     "/concepts/oauth-uri/urn%3Aietf%3Aparams%3Aoauth%3Agrant-type%3Asaml2-bearer"
+title:         "OAuth URI: urn:ietf:params:oauth:grant-type:saml2-bearer"
+concept-name:  OAuth URI
+concept-value: urn:ietf:params:oauth:grant-type:saml2-bearer
 description: "To use a SAML Bearer Assertion as an authorization grant, the client uses an access token request as defined in Section 4 of the OAuth Assertion Framework (RFC 7521). The value of the \"grant_type\" parameter is \"urn:ietf:params:oauth:grant-type:saml2-bearer\"."
 ---
 

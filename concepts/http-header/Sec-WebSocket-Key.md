@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Sec-WebSocket-Key"
-title:       "HTTP Header Field: Sec-WebSocket-Key"
+layout:        concept
+permalink:     "/concepts/http-header/Sec-WebSocket-Key"
+title:         "HTTP Header Field: Sec-WebSocket-Key"
+concept-name:  HTTP Header Field
+concept-value: Sec-WebSocket-Key
 description: "The Sec-WebSocket-Key header field is used in the WebSocket opening handshake. It is sent from the client to the server to provide part of the information used by the server to prove that it received a valid WebSocket opening handshake."
 ---
 

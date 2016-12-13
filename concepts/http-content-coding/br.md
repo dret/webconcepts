@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-content-coding/br"
-title:       "HTTP Content Coding: br"
+layout:        concept
+permalink:     "/concepts/http-content-coding/br"
+title:         "HTTP Content Coding: br"
+concept-name:  HTTP Content Coding
+concept-value: br
 description: "This specification defines a lossless compressed data format that compresses data using a combination of the LZ77 algorithm and Huffman coding, with efficiency comparable to the best currently available general-purpose compression methods."
 ---
 

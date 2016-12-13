@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Memento-Datetime"
-title:       "HTTP Header Field: Memento-Datetime"
+layout:        concept
+permalink:     "/concepts/http-header/Memento-Datetime"
+title:         "HTTP Header Field: Memento-Datetime"
+concept-name:  HTTP Header Field
+concept-value: Memento-Datetime
 description: "The \"Memento-Datetime\" response header is used by a server to indicate that a response reflects a prior state of an Original Resource. Its value expresses the datetime of that state."
 ---
 

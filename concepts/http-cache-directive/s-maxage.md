@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-cache-directive/s-maxage"
-title:       "HTTP Cache Directive: s-maxage"
+layout:        concept
+permalink:     "/concepts/http-cache-directive/s-maxage"
+title:         "HTTP Cache Directive: s-maxage"
+concept-name:  HTTP Cache Directive
+concept-value: s-maxage
 description: "The \"s-maxage\" response directive indicates that, in shared caches, the maximum age specified by this directive overrides the maximum age specified by either the max-age directive or the Expires header field. The s-maxage directive also implies the semantics of the proxy-revalidate response directive."
 ---
 

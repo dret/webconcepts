@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/well-known-uri/host-meta.json"
-title:       "Well-Known URI: host-meta.json"
+layout:        concept
+permalink:     "/concepts/well-known-uri/host-meta.json"
+title:         "Well-Known URI: host-meta.json"
+concept-name:  Well-Known URI
+concept-value: host-meta.json
 description: "Alternatively, the client MAY request a JRD representation by requesting the \"host-meta.json\" well-known document, by making a GET request for \"/.well-known/host-meta.json\", following the same process used for \"/.well-known/host-meta\"."
 ---
 

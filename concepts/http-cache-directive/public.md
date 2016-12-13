@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-cache-directive/public"
-title:       "HTTP Cache Directive: public"
+layout:        concept
+permalink:     "/concepts/http-cache-directive/public"
+title:         "HTTP Cache Directive: public"
+concept-name:  HTTP Cache Directive
+concept-value: public
 description: "The \"public\" response directive indicates that any cache MAY store the response, even if the response would normally be non-cacheable or cacheable only within a private cache."
 ---
 

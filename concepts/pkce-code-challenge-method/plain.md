@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/pkce-code-challenge-method/plain"
-title:       "PKCE Code Challenge Method: plain"
+layout:        concept
+permalink:     "/concepts/pkce-code-challenge-method/plain"
+title:         "PKCE Code Challenge Method: plain"
+concept-name:  PKCE Code Challenge Method
+concept-value: plain
 description: "The plain transformation is for compatibility with existing deployments and for constrained environments that can't use the S256 transformation."
 ---
 

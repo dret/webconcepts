@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Content-Security-Policy-Report-Only"
-title:       "HTTP Header Field: Content-Security-Policy-Report-Only"
+layout:        concept
+permalink:     "/concepts/http-header/Content-Security-Policy-Report-Only"
+title:         "HTTP Header Field: Content-Security-Policy-Report-Only"
+concept-name:  HTTP Header Field
+concept-value: Content-Security-Policy-Report-Only
 description: "The Content-Security-Policy-Report-Only header field lets servers experiment with policies by monitoring (rather than enforcing) a policy."
 ---
 

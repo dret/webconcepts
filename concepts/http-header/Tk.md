@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Tk"
-title:       "HTTP Header Field: Tk"
+layout:        concept
+permalink:     "/concepts/http-header/Tk"
+title:         "HTTP Header Field: Tk"
+concept-name:  HTTP Header Field
+concept-value: Tk
 description: "The Tk response header field is defined as an OPTIONAL means for indicating the tracking status that applied to the corresponding request, and as a REQUIRED means for indicating that a state-changing request has resulted in an interactive change to the tracking status."
 ---
 

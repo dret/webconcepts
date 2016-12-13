@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/If"
-title:       "HTTP Header Field: If"
+layout:        concept
+permalink:     "/concepts/http-header/If"
+title:         "HTTP Header Field: If"
+concept-name:  HTTP Header Field
+concept-value: If
 description: "The If request header is intended to have similar functionality to the If-Match header defined in Section 14.24 of RFC 2616. However, the If header handles any state token as well as ETags. A typical example of a state token is a lock token, and lock tokens are the only state tokens defined in this specification."
 ---
 

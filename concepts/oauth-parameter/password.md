@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/oauth-parameter/password"
-title:       "OAuth Parameter: password"
+layout:        concept
+permalink:     "/concepts/oauth-parameter/password"
+title:         "OAuth Parameter: password"
+concept-name:  OAuth Parameter
+concept-value: password
 description: "The resource owner password."
 ---
 

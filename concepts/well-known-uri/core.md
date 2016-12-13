@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/well-known-uri/core"
-title:       "Well-Known URI: core"
+layout:        concept
+permalink:     "/concepts/well-known-uri/core"
+title:         "Well-Known URI: core"
+concept-name:  Well-Known URI
+concept-value: core
 description: "Resource discovery in CoRE is accomplished through the use of a well-known resource URI that returns a list of links about resources hosted by that server and other link relations. Well-known resources have a path component that begins with \"/.well-known/\" as specified in RFC 5785. This specification defines a new well-known resource for CoRE Resource Discovery: \"/.well-known/core\"."
 ---
 

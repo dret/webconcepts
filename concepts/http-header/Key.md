@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Key"
-title:       "HTTP Header Field: Key"
+layout:        concept
+permalink:     "/concepts/http-header/Key"
+title:         "HTTP Header Field: Key"
+concept-name:  HTTP Header Field
+concept-value: Key
 description: "The \"Key\" response header field describes the request attributes that the server has used to select the current representation. As such, its semantics are similar to the \"Vary\" response header field, but it allows more fine-grained description, using \"key modifiers\"."
 ---
 

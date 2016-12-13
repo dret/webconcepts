@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-method/VERSION-CONTROL"
-title:       "HTTP Request Method: VERSION-CONTROL"
+layout:        concept
+permalink:     "/concepts/http-method/VERSION-CONTROL"
+title:         "HTTP Request Method: VERSION-CONTROL"
+concept-name:  HTTP Request Method
+concept-value: VERSION-CONTROL
 description: "A VERSION-CONTROL request can be used to create a version-controlled resource at the request-URL. It can be applied to a versionable resource or to a version-controlled resource."
 ---
 

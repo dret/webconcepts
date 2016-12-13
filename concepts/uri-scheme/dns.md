@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/uri-scheme/dns"
-title:       "URI Scheme: dns"
+layout:        concept
+permalink:     "/concepts/uri-scheme/dns"
+title:         "URI Scheme: dns"
+concept-name:  URI Scheme
+concept-value: dns
 description: "A DNS URI designates a DNS resource record set, referenced by domain name, class, type, and, optionally, the authority."
 ---
 

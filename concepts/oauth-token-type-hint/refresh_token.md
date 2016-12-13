@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/oauth-token-type-hint/refresh_token"
-title:       "OAuth Token Type Hint: refresh_token"
+layout:        concept
+permalink:     "/concepts/oauth-token-type-hint/refresh_token"
+title:         "OAuth Token Type Hint: refresh_token"
+concept-name:  OAuth Token Type Hint
+concept-value: refresh_token
 description: "A hint about the type of the token submitted for revocation. refresh_token identifies an refresh token as defined in RFC 6749."
 ---
 

@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Nice"
-title:       "HTTP Header Field: Nice"
+layout:        concept
+permalink:     "/concepts/http-header/Nice"
+title:         "HTTP Header Field: Nice"
+concept-name:  HTTP Header Field
+concept-value: Nice
 description: "The \"Nice\" header field indicates that a request is less important than a request that doesn't bear this header."
 ---
 

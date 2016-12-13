@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Digest"
-title:       "HTTP Header Field: Digest"
+layout:        concept
+permalink:     "/concepts/http-header/Digest"
+title:         "HTTP Header Field: Digest"
+concept-name:  HTTP Header Field
+concept-value: Digest
 description: "The Digest message header field provides a message digest of the instance described by the message."
 ---
 

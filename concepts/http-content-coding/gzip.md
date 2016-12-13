@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-content-coding/gzip"
-title:       "HTTP Content Coding: gzip"
+layout:        concept
+permalink:     "/concepts/http-content-coding/gzip"
+title:         "HTTP Content Coding: gzip"
+concept-name:  HTTP Content Coding
+concept-value: gzip
 description: "The \"gzip\" coding is an LZ77 coding with a 32-bit Cyclic Redundancy Check (CRC) that is commonly produced by the gzip file compression program. A recipient SHOULD consider \"x-gzip\" to be equivalent to \"gzip\"."
 ---
 

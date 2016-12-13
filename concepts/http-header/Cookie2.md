@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Cookie2"
-title:       "HTTP Header Field: Cookie2"
+layout:        concept
+permalink:     "/concepts/http-header/Cookie2"
+title:         "HTTP Header Field: Cookie2"
+concept-name:  HTTP Header Field
+concept-value: Cookie2
 description: "The Cookie2 request header facilitates interoperation between clients and servers that understand different versions of the cookie specification."
 ---
 

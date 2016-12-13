@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/link-relation/predecessor-version"
-title:       "Link Relation: predecessor-version"
+layout:        concept
+permalink:     "/concepts/link-relation/predecessor-version"
+title:         "Link Relation: predecessor-version"
+concept-name:  Link Relation
+concept-value: predecessor-version
 description: "When included on a versioned resource, this link points to a resource containing the predecessor version in the version history."
 ---
 

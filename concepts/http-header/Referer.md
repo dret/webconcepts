@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Referer"
-title:       "HTTP Header Field: Referer"
+layout:        concept
+permalink:     "/concepts/http-header/Referer"
+title:         "HTTP Header Field: Referer"
+concept-name:  HTTP Header Field
+concept-value: Referer
 description: "The \"Referer\" header field allows the user agent to specify a URI reference for the resource from which the target URI was obtained (i.e., the \"referrer\", though the field name is misspelled)."
 ---
 

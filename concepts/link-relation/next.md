@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/link-relation/next"
-title:       "Link Relation: next"
+layout:        concept
+permalink:     "/concepts/link-relation/next"
+title:         "Link Relation: next"
+concept-name:  Link Relation
+concept-value: next
 description: "Refers to the next document in a linear sequence of documents. User agents may choose to preload the \"next\" document, to reduce the perceived load time."
 ---
 

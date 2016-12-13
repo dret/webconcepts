@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Cookie"
-title:       "HTTP Header Field: Cookie"
+layout:        concept
+permalink:     "/concepts/http-header/Cookie"
+title:         "HTTP Header Field: Cookie"
+concept-name:  HTTP Header Field
+concept-value: Cookie
 description: "The user agent sends stored cookies to the origin server in the Cookie header."
 ---
 

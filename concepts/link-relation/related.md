@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/link-relation/related"
-title:       "Link Relation: related"
+layout:        concept
+permalink:     "/concepts/link-relation/related"
+title:         "Link Relation: related"
+concept-name:  Link Relation
+concept-value: related
 description: "The value \"related\" signifies that the IRI in the value of the href attribute identifies a resource related to the resource described by the containing element. For example, the feed for a site that discusses the performance of the search engine at \"http://search.example.com\" might contain, as a child of atom:feed: <link rel=\"related\" href=\"http://search.example.com/\"/> An identical link might appear as a child of any atom:entry whose content contains a discussion of that same search engine."
 ---
 

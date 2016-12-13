@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/link-relation/location"
-title:       "Link Relation: location"
+layout:        concept
+permalink:     "/concepts/link-relation/location"
+title:         "Link Relation: location"
+concept-name:  Link Relation
+concept-value: location
 description: "References a URI/IRI that represents a physical or logical location with which the context resource is associated."
 ---
 

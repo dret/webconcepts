@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/link-relation/index"
-title:       "Link Relation: index"
+layout:        concept
+permalink:     "/concepts/link-relation/index"
+title:         "Link Relation: index"
+concept-name:  Link Relation
+concept-value: index
 description: "Refers to a document providing an index for the current document."
 ---
 

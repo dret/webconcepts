@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/structured-syntax-suffix/+xml"
-title:       "Structured Syntax Suffix: +xml"
+layout:        concept
+permalink:     "/concepts/structured-syntax-suffix/+xml"
+title:         "Structured Syntax Suffix: +xml"
+concept-name:  Structured Syntax Suffix
+concept-value: +xml
 description: "When a new media type is introduced for an XML-based format, the name of the media type SHOULD end with '+xml' unless generic XML processing is in some way inappropriate for documents of the new type."
 ---
 

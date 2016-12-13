@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-transfer-coding/gzip"
-title:       "HTTP Transfer Coding: gzip"
+layout:        concept
+permalink:     "/concepts/http-transfer-coding/gzip"
+title:         "HTTP Transfer Coding: gzip"
+concept-name:  HTTP Transfer Coding
+concept-value: gzip
 description: "The \"gzip\" coding is an LZ77 coding with a 32-bit Cyclic Redundancy Check (CRC) that is commonly produced by the gzip file compression program. A recipient SHOULD consider \"x-gzip\" to be equivalent to \"gzip\"."
 ---
 

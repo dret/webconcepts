@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Accept-Ranges"
-title:       "HTTP Header Field: Accept-Ranges"
+layout:        concept
+permalink:     "/concepts/http-header/Accept-Ranges"
+title:         "HTTP Header Field: Accept-Ranges"
+concept-name:  HTTP Header Field
+concept-value: Accept-Ranges
 description: "The \"Accept-Ranges\" header field allows a server to indicate that it supports range requests for the target resource."
 ---
 

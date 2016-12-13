@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Date"
-title:       "HTTP Header Field: Date"
+layout:        concept
+permalink:     "/concepts/http-header/Date"
+title:         "HTTP Header Field: Date"
+concept-name:  HTTP Header Field
+concept-value: Date
 description: "The \"Date\" header field represents the date and time at which the message was originated, having the same semantics as the Origination Date Field (orig-date) defined in Section 3.6.1 of RFC 5322."
 ---
 

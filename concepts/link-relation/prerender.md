@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/link-relation/prerender"
-title:       "Link Relation: prerender"
+layout:        concept
+permalink:     "/concepts/link-relation/prerender"
+title:         "Link Relation: prerender"
+concept-name:  Link Relation
+concept-value: prerender
 description: "The prerender link relation type is used to declare an HTML resource that might be required by the next navigation, and that the user agent SHOULD fetch and execute, such that the user agent can deliver faster response and processing once the resource is requested in the future."
 ---
 

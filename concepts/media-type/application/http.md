@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/media-type/application/http"
-title:       "Media Type: application/http"
+layout:        concept
+permalink:     "/concepts/media-type/application/http"
+title:         "Media Type: application/http"
+concept-name:  Media Type
+concept-value: application/http
 description: "The application/http type can be used to enclose a pipeline of one or more HTTP request or response messages (not intermixed)."
 ---
 

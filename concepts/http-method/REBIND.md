@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-method/REBIND"
-title:       "HTTP Request Method: REBIND"
+layout:        concept
+permalink:     "/concepts/http-method/REBIND"
+title:         "HTTP Request Method: REBIND"
+concept-name:  HTTP Request Method
+concept-value: REBIND
 description: "The REBIND method removes a binding to a resource from a collection, and adds a binding to that resource into the collection identified by the Request-URI. The request body specifies the binding to be added (segment) and the old binding to be removed (href). It is effectively an atomic form of a MOVE request, and MUST be treated the same way as MOVE for the purpose of determining access permissions."
 ---
 

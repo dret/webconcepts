@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/media-type/text/vtt"
-title:       "Media Type: text/vtt"
+layout:        concept
+permalink:     "/concepts/media-type/text/vtt"
+title:         "Media Type: text/vtt"
+concept-name:  Media Type
+concept-value: text/vtt
 description: "The WebVTT (Web Video Text Tracks) format is intended for marking up external text track resources. The main use for WebVTT files is captioning or subtitling video content."
 ---
 

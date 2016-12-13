@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/CH"
-title:       "HTTP Header Field: CH"
+layout:        concept
+permalink:     "/concepts/http-header/CH"
+title:         "HTTP Header Field: CH"
+concept-name:  HTTP Header Field
+concept-value: CH
 description: "The \"CH\" request header field describes an example list of client preferences that the server can use to adapt and optimize the resource to satisfy a given request. The CH field-value is a comma-delimited list of header fields, and the field-name values are case insensitive."
 ---
 

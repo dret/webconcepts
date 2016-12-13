@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-method/MKCALENDAR"
-title:       "HTTP Request Method: MKCALENDAR"
+layout:        concept
+permalink:     "/concepts/http-method/MKCALENDAR"
+title:         "HTTP Request Method: MKCALENDAR"
+concept-name:  HTTP Request Method
+concept-value: MKCALENDAR
 description: "An HTTP request using the MKCALENDAR method creates a new calendar collection resource. A server MAY restrict calendar collection creation to particular collections."
 ---
 

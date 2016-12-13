@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-method/PRI"
-title:       "HTTP Request Method: PRI"
+layout:        concept
+permalink:     "/concepts/http-method/PRI"
+title:         "HTTP Request Method: PRI"
+concept-name:  HTTP Request Method
+concept-value: PRI
 description: "This method is never used by an actual client. This method will appear to be used when an HTTP/1.1 server or intermediary attempts to parse an HTTP/2 connection preface."
 ---
 

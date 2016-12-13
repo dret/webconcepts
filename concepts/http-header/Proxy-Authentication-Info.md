@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Proxy-Authentication-Info"
-title:       "HTTP Header Field: Proxy-Authentication-Info"
+layout:        concept
+permalink:     "/concepts/http-header/Proxy-Authentication-Info"
+title:         "HTTP Header Field: Proxy-Authentication-Info"
+concept-name:  HTTP Header Field
+concept-value: Proxy-Authentication-Info
 description: "The Proxy-Authentication-Info response header field is equivalent to Authentication-Info, except that it applies to proxy authentication. However, unlike Authentication-Info, the Proxy-Authentication-Info header field applies only to the next outbound client on the response chain. This is because only the client that chose a given proxy is likely to have the credentials necessary for authentication."
 ---
 

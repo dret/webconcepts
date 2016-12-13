@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/oauth-parameter/refresh_token"
-title:       "OAuth Parameter: refresh_token"
+layout:        concept
+permalink:     "/concepts/oauth-parameter/refresh_token"
+title:         "OAuth Parameter: refresh_token"
+concept-name:  OAuth Parameter
+concept-value: refresh_token
 description: "The refresh token, which can be used to obtain new access tokens using the same authorization grant."
 ---
 

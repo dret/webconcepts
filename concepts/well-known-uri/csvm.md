@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/well-known-uri/csvm"
-title:       "Well-Known URI: csvm"
+layout:        concept
+permalink:     "/concepts/well-known-uri/csvm"
+title:         "Well-Known URI: csvm"
+concept-name:  Well-Known URI
+concept-value: csvm
 description: "If the user has not supplied a metadata file as overriding metadata and no applicable metadata file has been discovered through a Link header, processors must attempt to locate a metadata documents through site-wide configuration. In this case, processors must retrieve the file from the well-known URI /.well-known/csvm."
 ---
 

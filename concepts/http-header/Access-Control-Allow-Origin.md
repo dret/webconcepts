@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Access-Control-Allow-Origin"
-title:       "HTTP Header Field: Access-Control-Allow-Origin"
+layout:        concept
+permalink:     "/concepts/http-header/Access-Control-Allow-Origin"
+title:         "HTTP Header Field: Access-Control-Allow-Origin"
+concept-name:  HTTP Header Field
+concept-value: Access-Control-Allow-Origin
 description: "The Access-Control-Allow-Origin header indicates whether a resource can be shared based by returning the value of the Origin request header, \"*\", or \"null\" in the response."
 ---
 

@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/PEP-Info"
-title:       "HTTP Header Field: PEP-Info"
+layout:        concept
+permalink:     "/concepts/http-header/PEP-Info"
+title:         "HTTP Header Field: PEP-Info"
+concept-name:  HTTP Header Field
+concept-value: PEP-Info
 description: "PEP end-to-end policies MUST be transmitted to the ultimate recipient of a message."
 ---
 

@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Label"
-title:       "HTTP Header Field: Label"
+layout:        concept
+permalink:     "/concepts/http-header/Label"
+title:         "HTTP Header Field: Label"
+concept-name:  HTTP Header Field
+concept-value: Label
 description: "For certain methods (e.g. GET, PROPFIND), if the request-URL identifies a version-controlled resource, a label can be specified in a Label request header to cause the method to be applied to the version selected by that label from the version history of that version-controlled resource."
 ---
 

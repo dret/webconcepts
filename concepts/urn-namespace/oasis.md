@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/urn-namespace/oasis"
-title:       "URN Namespace: oasis"
+layout:        concept
+permalink:     "/concepts/urn-namespace/oasis"
+title:         "URN Namespace: oasis"
+concept-name:  URN Namespace
+concept-value: oasis
 description: "The Organization for the Advancement of Structured Information Standards (OASIS) produces many kinds of documents: specifications, working drafts, technical resolutions, schemas, stylesheets, etc. OASIS wishes to provide global, distributed, persistent, location-independent names for these resources."
 ---
 

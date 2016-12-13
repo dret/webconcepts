@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/oauth-parameter/expires_in"
-title:       "OAuth Parameter: expires_in"
+layout:        concept
+permalink:     "/concepts/oauth-parameter/expires_in"
+title:         "OAuth Parameter: expires_in"
+concept-name:  OAuth Parameter
+concept-value: expires_in
 description: "The lifetime in seconds of the access token. For example, the value \"3600\" denotes that the access token will
             expire in one hour from the time the response was generated."
 ---

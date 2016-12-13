@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-method/UNLOCK"
-title:       "HTTP Request Method: UNLOCK"
+layout:        concept
+permalink:     "/concepts/http-method/UNLOCK"
+title:         "HTTP Request Method: UNLOCK"
+concept-name:  HTTP Request Method
+concept-value: UNLOCK
 description: "The UNLOCK method removes the lock identified by the lock token in the Lock-Token request header. The Request-URI MUST identify a resource within the scope of the lock."
 ---
 

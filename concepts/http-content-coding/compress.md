@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-content-coding/compress"
-title:       "HTTP Content Coding: compress"
+layout:        concept
+permalink:     "/concepts/http-content-coding/compress"
+title:         "HTTP Content Coding: compress"
+concept-name:  HTTP Content Coding
+concept-value: compress
 description: "The \"compress\" coding is an adaptive Lempel-Ziv-Welch (LZW) coding that is commonly produced by the UNIX file compression program \"compress\". A recipient SHOULD consider \"x-compress\" to be equivalent to \"compress\"."
 ---
 

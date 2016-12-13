@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-method/MERGE"
-title:       "HTTP Request Method: MERGE"
+layout:        concept
+permalink:     "/concepts/http-method/MERGE"
+title:         "HTTP Request Method: MERGE"
+concept-name:  HTTP Request Method
+concept-value: MERGE
 description: "The MERGE method performs the logical merge of a specified version (the \"merge source\") into a specified version-controlled resource (the \"merge target\"). If the merge source is neither an ancestor nor a descendant of the DAV:checked-in or DAV:checked-out version of the merge target, the MERGE checks out the merge target (if it is not already checked out) and adds the URL of the merge source to the DAV:merge-set of the merge target."
 ---
 

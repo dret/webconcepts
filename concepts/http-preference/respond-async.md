@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-preference/respond-async"
-title:       "HTTP Preference: respond-async"
+layout:        concept
+permalink:     "/concepts/http-preference/respond-async"
+title:         "HTTP Preference: respond-async"
+concept-name:  HTTP Preference
+concept-value: respond-async
 description: "The \"respond-async\" preference indicates that the client prefers the server to respond asynchronously to a response."
 ---
 

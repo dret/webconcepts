@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/media-type/text/html"
-title:       "Media Type: text/html"
+layout:        concept
+permalink:     "/concepts/media-type/text/html"
+title:         "Media Type: text/html"
+concept-name:  Media Type
+concept-value: text/html
 description: "To publish information for global distribution, one needs a universally understood language, a kind of publishing mother tongue that all computers may potentially understand. The publishing language used by the World Wide Web is HTML (from HyperText Markup Language). HTML gives authors the means to publish online documents with headings, text, tables, lists, photos, etc.; retrieve online information via hypertext links, at the click of a button; design forms for conducting transactions with remote services, for use in searching for information, making reservations, ordering products, etc.; and include spread-sheets, video clips, sound clips, and other applications directly in their documents."
 ---
 

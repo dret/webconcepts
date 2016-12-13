@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/uri-scheme/http"
-title:       "URI Scheme: http"
+layout:        concept
+permalink:     "/concepts/uri-scheme/http"
+title:         "URI Scheme: http"
+concept-name:  URI Scheme
+concept-value: http
 description: "The \"http\" URI scheme is hereby defined for the purpose of minting identifiers according to their association with the hierarchical namespace governed by a potential HTTP origin server listening for TCP connections on a given port."
 ---
 

@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/urn-namespace/isbn"
-title:       "URN Namespace: isbn"
+layout:        concept
+permalink:     "/concepts/urn-namespace/isbn"
+title:         "URN Namespace: isbn"
+concept-name:  URN Namespace
+concept-value: isbn
 description: "An International Standard Book Number (ISBN) identifies an edition of a monographic work. The ISBN is defined by the standard NISO/ANSI/ISO 2108:1992."
 ---
 

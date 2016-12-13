@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-method/MKWORKSPACE"
-title:       "HTTP Request Method: MKWORKSPACE"
+layout:        concept
+permalink:     "/concepts/http-method/MKWORKSPACE"
+title:         "HTTP Request Method: MKWORKSPACE"
+concept-name:  HTTP Request Method
+concept-value: MKWORKSPACE
 description: "A MKWORKSPACE request creates a new workspace resource. A server MAY restrict workspace creation to particular collections, but a client can determine the location of these collections from a DAV:workspace-collection-set OPTIONS request."
 ---
 

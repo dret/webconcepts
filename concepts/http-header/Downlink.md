@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Downlink"
-title:       "HTTP Header Field: Downlink"
+layout:        concept
+permalink:     "/concepts/http-header/Downlink"
+title:         "HTTP Header Field: Downlink"
+concept-name:  HTTP Header Field
+concept-value: Downlink
 description: "The \"Downlink\" header field is a number that, in requests, indicates the client's maximum downlink speed in megabits per second (Mbps), as defined by the \"downlinkMax\" attribute in the W3C Network Information API."
 ---
 

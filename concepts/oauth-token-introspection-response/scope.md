@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/oauth-token-introspection-response/scope"
-title:       "OAuth Token Introspection Response: scope"
+layout:        concept
+permalink:     "/concepts/oauth-token-introspection-response/scope"
+title:         "OAuth Token Introspection Response: scope"
+concept-name:  OAuth Token Introspection Response
+concept-value: scope
 description: "A JSON string containing a space-separated list of scopes associated with this token, in the format described in OAuth 2.0."
 ---
 

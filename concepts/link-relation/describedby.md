@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/link-relation/describedby"
-title:       "Link Relation: describedby"
+layout:        concept
+permalink:     "/concepts/link-relation/describedby"
+title:         "Link Relation: describedby"
+concept-name:  Link Relation
+concept-value: describedby
 description: "The relationship A describedby B asserts that resource B provides a description of resource A. There are no constraints on the format or representation of either A or B, neither are there any further constraints on either resource."
 ---
 

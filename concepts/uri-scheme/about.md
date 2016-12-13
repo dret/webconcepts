@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/uri-scheme/about"
-title:       "URI Scheme: about"
+layout:        concept
+permalink:     "/concepts/uri-scheme/about"
+title:         "URI Scheme: about"
+concept-name:  URI Scheme
+concept-value: about
 description: "The resource that is referenced by a particular \"about\" URI is denoted by the <about-token> part of the URI."
 ---
 

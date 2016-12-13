@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/From"
-title:       "HTTP Header Field: From"
+layout:        concept
+permalink:     "/concepts/http-header/From"
+title:         "HTTP Header Field: From"
+concept-name:  HTTP Header Field
+concept-value: From
 description: "The \"From\" header field contains an Internet email address for a human user who controls the requesting user agent."
 ---
 

@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Sec-WebSocket-Extensions"
-title:       "HTTP Header Field: Sec-WebSocket-Extensions"
+layout:        concept
+permalink:     "/concepts/http-header/Sec-WebSocket-Extensions"
+title:         "HTTP Header Field: Sec-WebSocket-Extensions"
+concept-name:  HTTP Header Field
+concept-value: Sec-WebSocket-Extensions
 description: "The Sec-WebSocket-Extensions header field is used in the WebSocket opening handshake. It is initially sent from the client to the server, and then subsequently sent from the server to the client, to agree on a set of protocol-level extensions to use for the duration of the connection."
 ---
 

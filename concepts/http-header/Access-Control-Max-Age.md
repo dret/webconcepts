@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Access-Control-Max-Age"
-title:       "HTTP Header Field: Access-Control-Max-Age"
+layout:        concept
+permalink:     "/concepts/http-header/Access-Control-Max-Age"
+title:         "HTTP Header Field: Access-Control-Max-Age"
+concept-name:  HTTP Header Field
+concept-value: Access-Control-Max-Age
 description: "The Access-Control-Max-Age header indicates how long the results of a preflight request can be cached in a preflight result cache."
 ---
 

@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/media-type/application/problem+xml"
-title:       "Media Type: application/problem+xml"
+layout:        concept
+permalink:     "/concepts/media-type/application/problem+xml"
+title:         "Media Type: application/problem+xml"
+concept-name:  Media Type
+concept-value: application/problem+xml
 description: "Some HTTP-based APIs use XML as their primary format convention. Such APIs MAY express problem details using the format defined in this appendix."
 ---
 

@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Ext"
-title:       "HTTP Header Field: Ext"
+layout:        concept
+permalink:     "/concepts/http-header/Ext"
+title:         "HTTP Header Field: Ext"
+concept-name:  HTTP Header Field
+concept-value: Ext
 description: "The Ext header field is used to indicate that all end-to-end mandatory extension declarations in the request were fulfilled."
 ---
 

@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/oauth-client-metadatum/client_id"
-title:       "OAuth Dynamic Client Registration Metadatum: client_id"
+layout:        concept
+permalink:     "/concepts/oauth-client-metadatum/client_id"
+title:         "OAuth Dynamic Client Registration Metadatum: client_id"
+concept-name:  OAuth Dynamic Client Registration Metadatum
+concept-value: client_id
 description: "OAuth 2.0 client identifier string. It SHOULD NOT be currently valid for any other registered client, though an authorization server MAY issue the same client identifier to multiple instances of a registered client at its discretion."
 ---
 

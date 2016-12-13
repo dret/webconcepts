@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-method/UNBIND"
-title:       "HTTP Request Method: UNBIND"
+layout:        concept
+permalink:     "/concepts/http-method/UNBIND"
+title:         "HTTP Request Method: UNBIND"
+concept-name:  HTTP Request Method
+concept-value: UNBIND
 description: "The UNBIND method modifies the collection identified by the Request-URI by removing the binding identified by the segment specified in the UNBIND body."
 ---
 

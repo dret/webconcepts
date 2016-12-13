@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/well-known-uri/host-meta"
-title:       "Well-Known URI: host-meta"
+layout:        concept
+permalink:     "/concepts/well-known-uri/host-meta"
+title:         "Well-Known URI: host-meta"
+concept-name:  Well-Known URI
+concept-value: host-meta
 description: "The client obtains the host-meta document for a given host by sending an HTTP or an HTTPS GET request to the host for the \"/.well-known/host-meta\" path."
 ---
 

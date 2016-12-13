@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/oauth-authorization-endpoint-response-type/code"
-title:       "OAuth Authorization Endpoint Response Type: code"
+layout:        concept
+permalink:     "/concepts/oauth-authorization-endpoint-response-type/code"
+title:         "OAuth Authorization Endpoint Response Type: code"
+concept-name:  OAuth Authorization Endpoint Response Type
+concept-value: code
 description: "The authorization endpoint is used by the authorization code grant type and implicit grant type flows. The client informs the authorization server of the desired grant type by using \"code\" for requesting an authorization code."
 ---
 

@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Public"
-title:       "HTTP Header Field: Public"
+layout:        concept
+permalink:     "/concepts/http-header/Public"
+title:         "HTTP Header Field: Public"
+concept-name:  HTTP Header Field
+concept-value: Public
 description: "The Public response-header field lists the set of methods supported by the server. The purpose of this field is strictly to inform the recipient of the capabilities of the server regarding unusual methods. The methods listed may or may not be applicable to the Request-URI; the Allow header field MAY be used to indicate methods allowed for a particular URI."
 ---
 

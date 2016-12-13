@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/well-known-uri/ni"
-title:       "Well-Known URI: ni"
+layout:        concept
+permalink:     "/concepts/well-known-uri/ni"
+title:         "Well-Known URI: ni"
+concept-name:  Well-Known URI
+concept-value: ni
 description: "We define a mapping between URIs following the ni URI scheme and HTTP or HTTPS URLs that makes use of the .well-known URI by defining an \"ni\" suffix."
 ---
 

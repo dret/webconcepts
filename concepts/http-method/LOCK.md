@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-method/LOCK"
-title:       "HTTP Request Method: LOCK"
+layout:        concept
+permalink:     "/concepts/http-method/LOCK"
+title:         "HTTP Request Method: LOCK"
+concept-name:  HTTP Request Method
+concept-value: LOCK
 description: "The LOCK method is used to take out a lock of any access type and to refresh an existing lock."
 ---
 

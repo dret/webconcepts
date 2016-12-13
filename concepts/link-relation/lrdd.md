@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/link-relation/lrdd"
-title:       "Link Relation: lrdd"
+layout:        concept
+permalink:     "/concepts/link-relation/lrdd"
+title:         "Link Relation: lrdd"
+concept-name:  Link Relation
+concept-value: lrdd
 description: "LRDD documents are linked to resources or host-meta documents using link templates with the \"lrdd\" relation type."
 ---
 

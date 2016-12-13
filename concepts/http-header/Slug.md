@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Slug"
-title:       "HTTP Header Field: Slug"
+layout:        concept
+permalink:     "/concepts/http-header/Slug"
+title:         "HTTP Header Field: Slug"
+concept-name:  HTTP Header Field
+concept-value: Slug
 description: "Slug is an HTTP entity-header whose presence in a POST to a Collection constitutes a request by the client to use the header's value as part of any URIs that would normally be used to retrieve the to-be-created Entry or Media Resources."
 ---
 

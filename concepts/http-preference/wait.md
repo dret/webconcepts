@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-preference/wait"
-title:       "HTTP Preference: wait"
+layout:        concept
+permalink:     "/concepts/http-preference/wait"
+title:         "HTTP Preference: wait"
+concept-name:  HTTP Preference
+concept-value: wait
 description: "The \"wait\" preference can be used to establish an upper bound on the length of time, in seconds, the client expects it will take the server to process the request once it has been received."
 ---
 

@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/media-type/application/xml-external-parsed-entity"
-title:       "Media Type: application/xml-external-parsed-entity"
+layout:        concept
+permalink:     "/concepts/media-type/application/xml-external-parsed-entity"
+title:         "Media Type: application/xml-external-parsed-entity"
+concept-name:  Media Type
+concept-value: application/xml-external-parsed-entity
 description: "The media type application/xml-dtd SHOULD be used for XML external DTD subsets."
 ---
 

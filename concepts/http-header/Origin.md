@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Origin"
-title:       "HTTP Header Field: Origin"
+layout:        concept
+permalink:     "/concepts/http-header/Origin"
+title:         "HTTP Header Field: Origin"
+concept-name:  HTTP Header Field
+concept-value: Origin
 description: "The Origin header indicates where the cross-origin request or preflight request originates from."
 ---
 

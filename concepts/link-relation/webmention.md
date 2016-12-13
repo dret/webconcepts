@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/link-relation/webmention"
-title:       "Link Relation: webmention"
+layout:        concept
+permalink:     "/concepts/link-relation/webmention"
+title:         "Link Relation: webmention"
+concept-name:  Link Relation
+concept-value: webmention
 description: "Identifies a target URI that supports the Webmention protocol. This allows clients that mention a resource in some form of publishing process to contact that endpoint and inform it that this resource has been mentioned."
 ---
 

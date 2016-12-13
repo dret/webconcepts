@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/C-Ext"
-title:       "HTTP Header Field: C-Ext"
+layout:        concept
+permalink:     "/concepts/http-header/C-Ext"
+title:         "HTTP Header Field: C-Ext"
+concept-name:  HTTP Header Field
+concept-value: C-Ext
 description: "The C-Ext response header field is used to indicate that all hop-by-hop mandatory extension declarations in the request were fulfilled."
 ---
 

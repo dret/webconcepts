@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/link-relation/service-doc"
-title:       "Link Relation: service-doc"
+layout:        concept
+permalink:     "/concepts/link-relation/service-doc"
+title:         "Link Relation: service-doc"
+concept-name:  Link Relation
+concept-value: service-doc
 description: "The \"service-doc\" link relation type is used to represent the fact that a resource is part of a bigger set of resources that are documented at a specific URI. The target resource is expected to provide documentation that is intended for human consumption."
 ---
 

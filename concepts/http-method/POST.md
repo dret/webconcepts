@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-method/POST"
-title:       "HTTP Request Method: POST"
+layout:        concept
+permalink:     "/concepts/http-method/POST"
+title:         "HTTP Request Method: POST"
+concept-name:  HTTP Request Method
+concept-value: POST
 description: "The POST method requests that the target resource process the representation enclosed in the request according to the resource's own specific semantics."
 ---
 

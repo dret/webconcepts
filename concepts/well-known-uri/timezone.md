@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/well-known-uri/timezone"
-title:       "Well-Known URI: timezone"
+layout:        concept
+permalink:     "/concepts/well-known-uri/timezone"
+title:         "Well-Known URI: timezone"
+concept-name:  Well-Known URI
+concept-value: timezone
 description: "A \"well-known\" URI is registered by this specification for the Time Zone Data Distribution service, \"timezone\". This URI points to a resource that the client can use as the initial \"context path\" for the service they are trying to connect to. The server MUST redirect HTTP requests for that resource to the actual \"context path\" using one of the available mechanisms provided by HTTP."
 ---
 

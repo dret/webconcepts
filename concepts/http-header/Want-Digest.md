@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Want-Digest"
-title:       "HTTP Header Field: Want-Digest"
+layout:        concept
+permalink:     "/concepts/http-header/Want-Digest"
+title:         "HTTP Header Field: Want-Digest"
+concept-name:  HTTP Header Field
+concept-value: Want-Digest
 description: "The Want-Digest message header field indicates the sender's desire to receive an instance digest on messages associated with the Request-URI."
 ---
 

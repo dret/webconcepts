@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/link-relation/start"
-title:       "Link Relation: start"
+layout:        concept
+permalink:     "/concepts/link-relation/start"
+title:         "Link Relation: start"
+concept-name:  Link Relation
+concept-value: start
 description: "Refers to the first document in a collection of documents. This link type tells search engines which document is considered by the author to be the starting point of the collection."
 ---
 

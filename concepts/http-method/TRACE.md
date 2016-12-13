@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-method/TRACE"
-title:       "HTTP Request Method: TRACE"
+layout:        concept
+permalink:     "/concepts/http-method/TRACE"
+title:         "HTTP Request Method: TRACE"
+concept-name:  HTTP Request Method
+concept-value: TRACE
 description: "The TRACE method requests a remote, application-level loop-back of the request message. The final recipient of the request SHOULD reflect the message received, excluding some fields described below, back to the client as the message body of a 200 (OK) response with a Content-Type of \"message/http\". The final recipient is either the origin server or the first server to receive a Max-Forwards value of zero (0) in the request."
 ---
 

@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/oauth-parameter/client_assertion"
-title:       "OAuth Parameter: client_assertion"
+layout:        concept
+permalink:     "/concepts/oauth-parameter/client_assertion"
+title:         "OAuth Parameter: client_assertion"
+concept-name:  OAuth Parameter
+concept-value: client_assertion
 description: "The assertion being used to authenticate the client. Specific serialization of the assertion is defined by profile documents."
 ---
 

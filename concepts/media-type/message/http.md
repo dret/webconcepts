@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/media-type/message/http"
-title:       "Media Type: message/http"
+layout:        concept
+permalink:     "/concepts/media-type/message/http"
+title:         "Media Type: message/http"
+concept-name:  Media Type
+concept-value: message/http
 description: "The message/http type can be used to enclose a single HTTP request or response message, provided that it obeys the MIME restrictions for all \"message\" types regarding line length and encodings."
 ---
 

@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/link-relation/help"
-title:       "Link Relation: help"
+layout:        concept
+permalink:     "/concepts/link-relation/help"
+title:         "Link Relation: help"
+concept-name:  Link Relation
+concept-value: help
 description: "Refers to a document offering help (more information, links to other sources information, etc.)"
 ---
 

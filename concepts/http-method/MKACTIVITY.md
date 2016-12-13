@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-method/MKACTIVITY"
-title:       "HTTP Request Method: MKACTIVITY"
+layout:        concept
+permalink:     "/concepts/http-method/MKACTIVITY"
+title:         "HTTP Request Method: MKACTIVITY"
+concept-name:  HTTP Request Method
+concept-value: MKACTIVITY
 description: "A MKACTIVITY request creates a new activity resource. A server MAY restrict activity creation to particular collections, but a client can determine the location of these collections from a DAV:activity-collection-set OPTIONS request."
 ---
 

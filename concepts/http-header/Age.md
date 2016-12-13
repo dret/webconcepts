@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Age"
-title:       "HTTP Header Field: Age"
+layout:        concept
+permalink:     "/concepts/http-header/Age"
+title:         "HTTP Header Field: Age"
+concept-name:  HTTP Header Field
+concept-value: Age
 description: "The \"Age\" header field conveys the sender's estimate of the amount of time since the response was generated or successfully validated at the origin server."
 ---
 

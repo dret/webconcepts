@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/oauth-parameter/client_id"
-title:       "OAuth Parameter: client_id"
+layout:        concept
+permalink:     "/concepts/oauth-parameter/client_id"
+title:         "OAuth Parameter: client_id"
+concept-name:  OAuth Parameter
+concept-value: client_id
 description: "The client identifier issued to the client during the registration process."
 ---
 

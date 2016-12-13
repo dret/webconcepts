@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/oauth-client-metadatum/logo_uri"
-title:       "OAuth Dynamic Client Registration Metadatum: logo_uri"
+layout:        concept
+permalink:     "/concepts/oauth-client-metadatum/logo_uri"
+title:         "OAuth Dynamic Client Registration Metadatum: logo_uri"
+concept-name:  OAuth Dynamic Client Registration Metadatum
+concept-value: logo_uri
 description: "URL string that references a logo for the client. If present, the server SHOULD display this image to the end-user during approval."
 ---
 

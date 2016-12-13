@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Opt"
-title:       "HTTP Header Field: Opt"
+layout:        concept
+permalink:     "/concepts/http-header/Opt"
+title:         "HTTP Header Field: Opt"
+concept-name:  HTTP Header Field
+concept-value: Opt
 description: "An optional extension declaration indicates that the ultimate recipient of the extension MAY consult and adhere to the rules given by the extension when processing the message, or ignore the extension declaration completely. An agent may not be able to distinguish whether the ultimate recipient does not understand an extension referred to by an optional extension or simply ignores the extension declaration."
 ---
 

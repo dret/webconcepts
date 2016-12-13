@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Close"
-title:       "HTTP Header Field: Close"
+layout:        concept
+permalink:     "/concepts/http-header/Close"
+title:         "HTTP Header Field: Close"
+concept-name:  HTTP Header Field
+concept-value: Close
 description: "The header field-name \"Close\" has been registered as \"reserved\", since using that name as an HTTP header field might conflict with the \"close\" connection option of the Connection header field."
 ---
 

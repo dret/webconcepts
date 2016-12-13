@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/structured-syntax-suffix/+wbxml"
-title:       "Structured Syntax Suffix: +wbxml"
+layout:        concept
+permalink:     "/concepts/structured-syntax-suffix/+wbxml"
+title:         "Structured Syntax Suffix: +wbxml"
+concept-name:  Structured Syntax Suffix
+concept-value: +wbxml
 description: "The suffix \"+wbxml\" MAY be used with any media type whose representation follows that established for \"application/vnd.wap.wbxml\"."
 ---
 

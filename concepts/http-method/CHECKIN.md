@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-method/CHECKIN"
-title:       "HTTP Request Method: CHECKIN"
+layout:        concept
+permalink:     "/concepts/http-method/CHECKIN"
+title:         "HTTP Request Method: CHECKIN"
+concept-name:  HTTP Request Method
+concept-value: CHECKIN
 description: "A CHECKIN request can be applied to a checked-out version-controlled resource to produce a new version whose content and dead properties are copied from the checked-out resource."
 ---
 

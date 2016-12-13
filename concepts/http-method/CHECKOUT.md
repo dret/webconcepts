@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-method/CHECKOUT"
-title:       "HTTP Request Method: CHECKOUT"
+layout:        concept
+permalink:     "/concepts/http-method/CHECKOUT"
+title:         "HTTP Request Method: CHECKOUT"
+concept-name:  HTTP Request Method
+concept-value: CHECKOUT
 description: "A CHECKOUT request can be applied to a checked-in version-controlled resource to allow modifications to the content and dead properties of that version-controlled resource."
 ---
 

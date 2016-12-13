@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/link-relation/working-copy"
-title:       "Link Relation: working-copy"
+layout:        concept
+permalink:     "/concepts/link-relation/working-copy"
+title:         "Link Relation: working-copy"
+concept-name:  Link Relation
+concept-value: working-copy
 description: "When included on a versioned resource, this link points to a working copy for this resource."
 ---
 

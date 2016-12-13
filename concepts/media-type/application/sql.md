@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/media-type/application/sql"
-title:       "Media Type: application/sql"
+layout:        concept
+permalink:     "/concepts/media-type/application/sql"
+title:         "Media Type: application/sql"
+concept-name:  Media Type
+concept-value: application/sql
 description: "The Structured Query Language (SQL) has been in use for over 30 years with various types of database technologies."
 ---
 

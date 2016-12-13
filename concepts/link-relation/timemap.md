@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/link-relation/timemap"
-title:       "Link Relation: timemap"
+layout:        concept
+permalink:     "/concepts/link-relation/timemap"
+title:         "Link Relation: timemap"
+concept-name:  Link Relation
+concept-value: timemap
 description: "A link with a \"timemap\" Relation Type is used to point from a TimeGate or a Memento associated with an Original Resource, as well as from the Original Resource itself, to a TimeMap for the Original Resource."
 ---
 

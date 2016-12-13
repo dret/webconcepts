@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Preference-Applied"
-title:       "HTTP Header Field: Preference-Applied"
+layout:        concept
+permalink:     "/concepts/http-header/Preference-Applied"
+title:         "HTTP Header Field: Preference-Applied"
+concept-name:  HTTP Header Field
+concept-value: Preference-Applied
 description: "The Preference-Applied response header MAY be included within a response message as an indication as to which Prefer tokens were honored by the server and applied to the processing of a request."
 ---
 

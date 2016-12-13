@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/well-known-uri/posh"
-title:       "Well-Known URI: posh"
+layout:        concept
+permalink:     "/concepts/well-known-uri/posh"
+title:         "Well-Known URI: posh"
+concept-name:  Well-Known URI
+concept-value: posh
 description: "The suffix \"posh\" is expected to be followed by an additional path component consisting of a service name (say, \"spice\") and a file extension of \".json\", resulting in a full path of, for instance, \"/.well-known/posh/spice.json\". Registration of service names shall be requested by developers of the relevant application protocols."
 ---
 

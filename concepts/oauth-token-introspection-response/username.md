@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/oauth-token-introspection-response/username"
-title:       "OAuth Token Introspection Response: username"
+layout:        concept
+permalink:     "/concepts/oauth-token-introspection-response/username"
+title:         "OAuth Token Introspection Response: username"
+concept-name:  OAuth Token Introspection Response
+concept-value: username
 description: "Human-readable identifier for the resource owner who authorized this token."
 ---
 

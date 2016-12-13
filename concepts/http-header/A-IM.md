@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/A-IM"
-title:       "HTTP Header Field: A-IM"
+layout:        concept
+permalink:     "/concepts/http-header/A-IM"
+title:         "HTTP Header Field: A-IM"
+concept-name:  HTTP Header Field
+concept-value: A-IM
 description: "The A-IM request-header field is similar to Accept, but restricts the instance-manipulations that are acceptable in the response. A response may be the result of applying multiple instance-manipulations. When an A-IM request-header field includes one or more delta-coding values, the request MUST contain an If-None-Match header field, listing one or more entity tags from prior responses for the request-URI."
 ---
 

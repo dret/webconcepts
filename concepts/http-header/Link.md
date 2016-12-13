@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Link"
-title:       "HTTP Header Field: Link"
+layout:        concept
+permalink:     "/concepts/http-header/Link"
+title:         "HTTP Header Field: Link"
+concept-name:  HTTP Header Field
+concept-value: Link
 description: "The Link entity-header field provides a means for serialising one or more links in HTTP headers. It is semantically equivalent to the <LINK> element in HTML, as well as the atom:link feed-level element in Atom."
 ---
 

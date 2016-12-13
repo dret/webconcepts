@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/media-type/application/jwk-set+json"
-title:       "Media Type: application/jwk-set+json"
+layout:        concept
+permalink:     "/concepts/media-type/application/jwk-set+json"
+title:         "Media Type: application/jwk-set+json"
+concept-name:  Media Type
+concept-value: application/jwk-set+json
 description: "A JWK Set is a JSON object that represents a set of JWKs. The JSON object MUST have a \"keys\" member, with its value being an array of JWKs."
 ---
 

@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/urn-namespace/uuid"
-title:       "URN Namespace: uuid"
+layout:        concept
+permalink:     "/concepts/urn-namespace/uuid"
+title:         "URN Namespace: uuid"
+concept-name:  URN Namespace
+concept-value: uuid
 description: "A UUID is an identifier that is unique across both space and time, with respect to the space of all UUIDs. Since a UUID is a fixed size and contains a time field, it is possible for values to rollover (around A.D. 3400, depending on the specific algorithm used)."
 ---
 

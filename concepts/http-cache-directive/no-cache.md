@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-cache-directive/no-cache"
-title:       "HTTP Cache Directive: no-cache"
+layout:        concept
+permalink:     "/concepts/http-cache-directive/no-cache"
+title:         "HTTP Cache Directive: no-cache"
+concept-name:  HTTP Cache Directive
+concept-value: no-cache
 description: "The \"no-cache\" request directive indicates that a cache MUST NOT use a stored response to satisfy the request without successful validation on the origin server. The \"no-cache\" response directive indicates that the response MUST NOT be used to satisfy a subsequent request without successful validation on the origin server. This allows an origin server to prevent a cache from using it to satisfy a request without contacting it, even by caches that have been configured to send stale responses."
 ---
 

@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/oauth-parameter/error"
-title:       "OAuth Parameter: error"
+layout:        concept
+permalink:     "/concepts/oauth-parameter/error"
+title:         "OAuth Parameter: error"
+concept-name:  OAuth Parameter
+concept-value: error
 description: "A single ASCII error code."
 ---
 

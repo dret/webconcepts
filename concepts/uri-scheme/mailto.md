@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/uri-scheme/mailto"
-title:       "URI Scheme: mailto"
+layout:        concept
+permalink:     "/concepts/uri-scheme/mailto"
+title:         "URI Scheme: mailto"
+concept-name:  URI Scheme
+concept-value: mailto
 description: "A 'mailto' URI designates an \"Internet resource\", which is the mailbox specified in the address."
 ---
 

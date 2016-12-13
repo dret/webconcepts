@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-method/OPTIONS"
-title:       "HTTP Request Method: OPTIONS"
+layout:        concept
+permalink:     "/concepts/http-method/OPTIONS"
+title:         "HTTP Request Method: OPTIONS"
+concept-name:  HTTP Request Method
+concept-value: OPTIONS
 description: "The OPTIONS method requests information about the communication options available for the target resource, at either the origin server or an intervening intermediary. This method allows a client to determine the options and/or requirements associated with a resource, or the capabilities of a server, without implying a resource action."
 ---
 

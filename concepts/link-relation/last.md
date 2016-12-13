@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/link-relation/last"
-title:       "Link Relation: last"
+layout:        concept
+permalink:     "/concepts/link-relation/last"
+title:         "Link Relation: last"
+concept-name:  Link Relation
+concept-value: last
 description: "A URI that refers to the furthest following document in a series of documents."
 ---
 

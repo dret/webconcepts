@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/uri-scheme/example"
-title:       "URI Scheme: example"
+layout:        concept
+permalink:     "/concepts/uri-scheme/example"
+title:         "URI Scheme: example"
+concept-name:  URI Scheme
+concept-value: example
 description: "There is a need for a scheme name that can be used for examples in documentation without fear of conflicts with current or future actual schemes. The scheme \"example\" is hereby registered as a 'permanent' scheme for that purpose."
 ---
 

@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/structured-syntax-suffix/+der"
-title:       "Structured Syntax Suffix: +der"
+layout:        concept
+permalink:     "/concepts/structured-syntax-suffix/+der"
+title:         "Structured Syntax Suffix: +der"
+concept-name:  Structured Syntax Suffix
+concept-value: +der
 description: "The suffix \"+der\" MAY be used with any media type whose representation follows the DER transfer syntax."
 ---
 

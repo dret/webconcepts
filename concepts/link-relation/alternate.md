@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/link-relation/alternate"
-title:       "Link Relation: alternate"
+layout:        concept
+permalink:     "/concepts/link-relation/alternate"
+title:         "Link Relation: alternate"
+concept-name:  Link Relation
+concept-value: alternate
 description: "Designates substitute versions for the document in which the link occurs. When used together with the lang attribute, it implies a translated version of the document. When used together with the media attribute, it implies a version designed for a different medium (or media)."
 ---
 

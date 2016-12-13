@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Access-Control-Expose-Headers"
-title:       "HTTP Header Field: Access-Control-Expose-Headers"
+layout:        concept
+permalink:     "/concepts/http-header/Access-Control-Expose-Headers"
+title:         "HTTP Header Field: Access-Control-Expose-Headers"
+concept-name:  HTTP Header Field
+concept-value: Access-Control-Expose-Headers
 description: "The Access-Control-Expose-Headers header indicates which headers are safe to expose to the API of a CORS API specification."
 ---
 

@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-method/REPORT"
-title:       "HTTP Request Method: REPORT"
+layout:        concept
+permalink:     "/concepts/http-method/REPORT"
+title:         "HTTP Request Method: REPORT"
+concept-name:  HTTP Request Method
+concept-value: REPORT
 description: "A REPORT request is an extensible mechanism for obtaining information about a resource. Unlike a resource property, which has a single value, the value of a report can depend on additional information specified in the REPORT request body and in the REPORT request headers."
 ---
 

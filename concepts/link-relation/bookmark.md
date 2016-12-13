@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/link-relation/bookmark"
-title:       "Link Relation: bookmark"
+layout:        concept
+permalink:     "/concepts/link-relation/bookmark"
+title:         "Link Relation: bookmark"
+concept-name:  Link Relation
+concept-value: bookmark
 description: "Refers to a bookmark. A bookmark is a link to a key entry point within an extended document. The title attribute may be used, for example, to label the bookmark. Note that several bookmarks may be defined in each document."
 ---
 

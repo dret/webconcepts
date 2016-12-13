@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Access-Control-Request-Headers"
-title:       "HTTP Header Field: Access-Control-Request-Headers"
+layout:        concept
+permalink:     "/concepts/http-header/Access-Control-Request-Headers"
+title:         "HTTP Header Field: Access-Control-Request-Headers"
+concept-name:  HTTP Header Field
+concept-value: Access-Control-Request-Headers
 description: "The Access-Control-Request-Headers header indicates which headers will be used in the actual request as part of the preflight request."
 ---
 

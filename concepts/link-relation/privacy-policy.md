@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/link-relation/privacy-policy"
-title:       "Link Relation: privacy-policy"
+layout:        concept
+permalink:     "/concepts/link-relation/privacy-policy"
+title:         "Link Relation: privacy-policy"
+concept-name:  Link Relation
+concept-value: privacy-policy
 description: "The \"privacy-policy\" link relation can be used to refer to a resource describing the privacy policy associated with the link's context. The privacy policy can be any resource that discloses what personal information about the user is collected and how that personal information is stored, used, managed, and disclosed to other parties."
 ---
 

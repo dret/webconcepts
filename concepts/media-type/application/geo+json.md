@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/media-type/application/geo+json"
-title:       "Media Type: application/geo+json"
+layout:        concept
+permalink:     "/concepts/media-type/application/geo+json"
+title:         "Media Type: application/geo+json"
+concept-name:  Media Type
+concept-value: application/geo+json
 description: "The media type for GeoJSON text is \"application/geo+json\". The entry for \"application/vnd.geo+json\" in the same registry should have its status changed to be Obsolete with a pointer to the media type \"application/geo+json\" and a reference added to this RFC."
 ---
 

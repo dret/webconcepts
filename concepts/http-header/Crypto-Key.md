@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Crypto-Key"
-title:       "HTTP Header Field: Crypto-Key"
+layout:        concept
+permalink:     "/concepts/http-header/Crypto-Key"
+title:         "HTTP Header Field: Crypto-Key"
+concept-name:  HTTP Header Field
+concept-value: Crypto-Key
 description: "A Crypto-Key header field can be used to describe the input keying material used in the Encryption header field."
 ---
 

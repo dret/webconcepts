@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/oauth-token-endpoint-auth-method/client_secret_basic"
-title:       "OAuth Token Endpoint Authentication Method: client_secret_basic"
+layout:        concept
+permalink:     "/concepts/oauth-token-endpoint-auth-method/client_secret_basic"
+title:         "OAuth Token Endpoint Authentication Method: client_secret_basic"
+concept-name:  OAuth Token Endpoint Authentication Method
+concept-value: client_secret_basic
 description: "The client uses HTTP Basic as defined in OAuth 2.0."
 ---
 

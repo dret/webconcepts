@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-transfer-coding/identity"
-title:       "HTTP Transfer Coding: identity"
+layout:        concept
+permalink:     "/concepts/http-transfer-coding/identity"
+title:         "HTTP Transfer Coding: identity"
+concept-name:  HTTP Transfer Coding
+concept-value: identity
 description: "The default (identity) encoding; the use of no transformation whatsoever. This content-coding is used only in the Accept-Encoding header, and SHOULD NOT be used in the Content-Encoding header."
 ---
 

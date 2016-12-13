@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/link-relation/appendix"
-title:       "Link Relation: appendix"
+layout:        concept
+permalink:     "/concepts/link-relation/appendix"
+title:         "Link Relation: appendix"
+concept-name:  Link Relation
+concept-value: appendix
 description: "Refers to a document serving as an appendix in a collection of documents."
 ---
 

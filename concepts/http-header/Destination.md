@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Destination"
-title:       "HTTP Header Field: Destination"
+layout:        concept
+permalink:     "/concepts/http-header/Destination"
+title:         "HTTP Header Field: Destination"
+concept-name:  HTTP Header Field
+concept-value: Destination
 description: "The Destination request header specifies the URI that identifies a destination resource for methods such as COPY and MOVE, which take two URIs as parameters."
 ---
 

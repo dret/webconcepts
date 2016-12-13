@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/link-relation/edit-media"
-title:       "Link Relation: edit-media"
+layout:        concept
+permalink:     "/concepts/link-relation/edit-media"
+title:         "Link Relation: edit-media"
+concept-name:  Link Relation
+concept-value: edit-media
 description: "When appearing within an atom:entry, the value of the href attribute is an IRI that can be used to modify a Media Resource associated with that Entry."
 ---
 

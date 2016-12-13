@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Depth"
-title:       "HTTP Header Field: Depth"
+layout:        concept
+permalink:     "/concepts/http-header/Depth"
+title:         "HTTP Header Field: Depth"
+concept-name:  HTTP Header Field
+concept-value: Depth
 description: "The Depth request header is used with methods executed on resources that could potentially have internal members to indicate whether the method is to be applied only to the resource (\"Depth: 0\"), to the resource and its internal members only (\"Depth: 1\"), or the resource and all its members (\"Depth: infinity\")."
 ---
 

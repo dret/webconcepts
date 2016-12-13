@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Warning"
-title:       "HTTP Header Field: Warning"
+layout:        concept
+permalink:     "/concepts/http-header/Warning"
+title:         "HTTP Header Field: Warning"
+concept-name:  HTTP Header Field
+concept-value: Warning
 description: "The \"Warning\" header field is used to carry additional information about the status or transformation of a message that might not be reflected in the status code. This information is typically used to warn about possible incorrectness introduced by caching operations or transformations applied to the payload of the message."
 ---
 

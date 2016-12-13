@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/uri-scheme/https"
-title:       "URI Scheme: https"
+layout:        concept
+permalink:     "/concepts/uri-scheme/https"
+title:         "URI Scheme: https"
+concept-name:  URI Scheme
+concept-value: https
 description: "The \"https\" URI scheme is hereby defined for the purpose of minting identifiers according to their association with the hierarchical namespace governed by a potential HTTP origin server listening to a given TCP port for TLS-secured connections."
 ---
 

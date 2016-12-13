@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/oauth-parameter/mac_algorithm"
-title:       "OAuth Parameter: mac_algorithm"
+layout:        concept
+permalink:     "/concepts/oauth-parameter/mac_algorithm"
+title:         "OAuth Parameter: mac_algorithm"
+concept-name:  OAuth Parameter
+concept-value: mac_algorithm
 description: "The MAC algorithm used to calculate the request MAC. The value MUST be one of \"hmac-sha-1\", \"hmac-sha-256\", or a registered extension algorithm name. The authorization server is assumed to know the set of algorithms supported by the client and the resource server. It selects an algorithm that meets the security policies and is supported by both nodes."
 ---
 

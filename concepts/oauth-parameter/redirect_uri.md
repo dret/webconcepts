@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/oauth-parameter/redirect_uri"
-title:       "OAuth Parameter: redirect_uri"
+layout:        concept
+permalink:     "/concepts/oauth-parameter/redirect_uri"
+title:         "OAuth Parameter: redirect_uri"
+concept-name:  OAuth Parameter
+concept-value: redirect_uri
 description: "After completing its interaction with the resource owner, the authorization server directs the resource owner's user-agent back to the client. The authorization server redirects the user-agent to the client's redirection endpoint previously established with the authorization server during the client registration process or when making the authorization request."
 ---
 

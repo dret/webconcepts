@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/link-relation/preload"
-title:       "Link Relation: preload"
+layout:        concept
+permalink:     "/concepts/link-relation/preload"
+title:         "Link Relation: preload"
+concept-name:  Link Relation
+concept-value: preload
 description: "The preload keyword may be used with link elements. This keyword creates an external resource link (preload link) that is used to declare a resource and its fetch properties."
 ---
 

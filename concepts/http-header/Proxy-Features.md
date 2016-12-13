@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Proxy-Features"
-title:       "HTTP Header Field: Proxy-Features"
+layout:        concept
+permalink:     "/concepts/http-header/Proxy-Features"
+title:         "HTTP Header Field: Proxy-Features"
+concept-name:  HTTP Header Field
+concept-value: Proxy-Features
 description: "The proxy features header is used by a proxy sending data to a server. It specifies the features supported by the specified proxy."
 ---
 

@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/oauth-client-metadatum/scope"
-title:       "OAuth Dynamic Client Registration Metadatum: scope"
+layout:        concept
+permalink:     "/concepts/oauth-client-metadatum/scope"
+title:         "OAuth Dynamic Client Registration Metadatum: scope"
+concept-name:  OAuth Dynamic Client Registration Metadatum
+concept-value: scope
 description: "String containing a space-separated list of scope values (as described in OAuth 2.0) that the client can use when requesting access tokens."
 ---
 

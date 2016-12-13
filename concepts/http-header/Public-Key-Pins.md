@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Public-Key-Pins"
-title:       "HTTP Header Field: Public-Key-Pins"
+layout:        concept
+permalink:     "/concepts/http-header/Public-Key-Pins"
+title:         "HTTP Header Field: Public-Key-Pins"
+concept-name:  HTTP Header Field
+concept-value: Public-Key-Pins
 description: "Whenever a UA receives a Valid Pinning Header, it MUST set its Pinning Metadata to the exact Pins, Effective Expiration Date (computed from max-age), and (if any) report-uri given in the most recently received Valid Pinning Header."
 ---
 

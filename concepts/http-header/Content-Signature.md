@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Content-Signature"
-title:       "HTTP Header Field: Content-Signature"
+layout:        concept
+permalink:     "/concepts/http-header/Content-Signature"
+title:         "HTTP Header Field: Content-Signature"
+concept-name:  HTTP Header Field
+concept-value: Content-Signature
 description: "The Content-Signature header field carries a signature of the payload body of an HTTP message. This allows for content to be protected from modification."
 ---
 

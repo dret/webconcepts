@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-authentication-scheme/HOBA"
-title:       "HTTP Authentication Scheme: HOBA"
+layout:        concept
+permalink:     "/concepts/http-authentication-scheme/HOBA"
+title:         "HTTP Authentication Scheme: HOBA"
+concept-name:  HTTP Authentication Scheme
+concept-value: HOBA
 description: "An HTTP server that supports HOBA authentication includes the \"HOBA\" auth-scheme value in a WWW-Authenticate header field when it wants the client to authenticate with HOBA."
 ---
 

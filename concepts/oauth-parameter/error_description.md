@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/oauth-parameter/error_description"
-title:       "OAuth Parameter: error_description"
+layout:        concept
+permalink:     "/concepts/oauth-parameter/error_description"
+title:         "OAuth Parameter: error_description"
+concept-name:  OAuth Parameter
+concept-value: error_description
 description: "Human-readable ASCII text providing additional information, used to assist the client developer in understanding the error that occurred."
 ---
 

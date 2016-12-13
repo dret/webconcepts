@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/urn-namespace/nfc"
-title:       "URN Namespace: nfc"
+layout:        concept
+permalink:     "/concepts/urn-namespace/nfc"
+title:         "URN Namespace: nfc"
+concept-name:  URN Namespace
+concept-value: nfc
 description: "NFC Forum working groups will manage the assignment of NFC resources and the specific registration values assigned for each resource class. The Technical Committee will coordinate creation of new resource class assignments based on community need."
 ---
 

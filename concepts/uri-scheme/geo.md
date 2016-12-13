@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/uri-scheme/geo"
-title:       "URI Scheme: geo"
+layout:        concept
+permalink:     "/concepts/uri-scheme/geo"
+title:         "URI Scheme: geo"
+concept-name:  URI Scheme
+concept-value: geo
 description: "The 'geo' URI scheme provides the textual representation of the location's spatial coordinates in either two or three dimensions (latitude, longitude, and optionally altitude for the default CRS of WGS-84)."
 ---
 

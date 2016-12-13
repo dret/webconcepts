@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Accept-Language"
-title:       "HTTP Header Field: Accept-Language"
+layout:        concept
+permalink:     "/concepts/http-header/Accept-Language"
+title:         "HTTP Header Field: Accept-Language"
+concept-name:  HTTP Header Field
+concept-value: Accept-Language
 description: "The \"Accept-Language\" header field can be used by user agents to indicate the set of natural languages that are preferred in the response."
 ---
 

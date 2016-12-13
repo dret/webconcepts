@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/oauth-uri/urn%3Aietf%3Aparams%3Aoauth%3Aclient-assertion-type%3Ajwt-bearer"
-title:       "OAuth URI: urn:ietf:params:oauth:client-assertion-type:jwt-bearer"
+layout:        concept
+permalink:     "/concepts/oauth-uri/urn%3Aietf%3Aparams%3Aoauth%3Aclient-assertion-type%3Ajwt-bearer"
+title:         "OAuth URI: urn:ietf:params:oauth:client-assertion-type:jwt-bearer"
+concept-name:  OAuth URI
+concept-value: urn:ietf:params:oauth:client-assertion-type:jwt-bearer
 description: "To use a JWT Bearer Token for client authentication, the client uses the following parameter values and encodings. The value of the \"client_assertion_type\" is \"urn:ietf:params:oauth:client-assertion-type:jwt-bearer\"."
 ---
 

@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-authentication-scheme/Basic"
-title:       "HTTP Authentication Scheme: Basic"
+layout:        concept
+permalink:     "/concepts/http-authentication-scheme/Basic"
+title:         "HTTP Authentication Scheme: Basic"
+concept-name:  HTTP Authentication Scheme
+concept-value: Basic
 description: "The Basic authentication scheme is based on the model that the client needs to authenticate itself with a user-id and a password for each protection space (\"realm\"). The realm value is a free-form string that can only be compared for equality with other realms on that server."
 ---
 

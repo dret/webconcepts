@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/link-relation/version-history"
-title:       "Link Relation: version-history"
+layout:        concept
+permalink:     "/concepts/link-relation/version-history"
+title:         "Link Relation: version-history"
+concept-name:  Link Relation
+concept-value: version-history
 description: "When included on a versioned resource, this link points to a resource containing the version history for this resource."
 ---
 

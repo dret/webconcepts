@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/link-relation/home"
-title:       "Link Relation: home"
+layout:        concept
+permalink:     "/concepts/link-relation/home"
+title:         "Link Relation: home"
+concept-name:  Link Relation
+concept-value: home
 description: "Identifies a resource that provides a \"home\" document for the context resource. Home documents often serve as starting points for a certain resource context, such as for Web APIs where the home resource provides access to a number of \"entry points\" to the Web API."
 ---
 

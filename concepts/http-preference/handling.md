@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-preference/handling"
-title:       "HTTP Preference: handling"
+layout:        concept
+permalink:     "/concepts/http-preference/handling"
+title:         "HTTP Preference: handling"
+concept-name:  HTTP Preference
+concept-value: handling
 description: "The \"handling=strict\" and \"handling=lenient\" preferences indicate, at the server's discretion, how the client wishes the server to handle potential error conditions that can arise in the processing of a request."
 ---
 

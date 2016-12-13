@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/If-Unmodified-Since"
-title:       "HTTP Header Field: If-Unmodified-Since"
+layout:        concept
+permalink:     "/concepts/http-header/If-Unmodified-Since"
+title:         "HTTP Header Field: If-Unmodified-Since"
+concept-name:  HTTP Header Field
+concept-value: If-Unmodified-Since
 description: "The \"If-Unmodified-Since\" header field makes the request method conditional on the selected representation's last modification date being earlier than or equal to the date provided in the field-value. This field accomplishes the same purpose as If-Match for cases where the user agent does not have an entity-tag for the representation."
 ---
 

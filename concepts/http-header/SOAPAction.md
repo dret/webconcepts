@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/SOAPAction"
-title:       "HTTP Header Field: SOAPAction"
+layout:        concept
+permalink:     "/concepts/http-header/SOAPAction"
+title:         "HTTP Header Field: SOAPAction"
+concept-name:  HTTP Header Field
+concept-value: SOAPAction
 description: "The SOAPAction HTTP request header field can be used to indicate the intent of the SOAP HTTP request. The value is a URI identifying the intent. SOAP places no restrictions on the format or specificity of the URI or that it is resolvable. An HTTP client MUST use this header field when issuing a SOAP HTTP Request."
 ---
 

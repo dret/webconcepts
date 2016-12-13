@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-preference/return"
-title:       "HTTP Preference: return"
+layout:        concept
+permalink:     "/concepts/http-preference/return"
+title:         "HTTP Preference: return"
+concept-name:  HTTP Preference
+concept-value: return
 description: "The \"return=representation\" preference indicates that the client prefers that the server include an entity representing the current state of the resource in the response to a successful request. The \"return=minimal\" preference, on the other hand, indicates that the client wishes the server to return only a minimal response to a successful request."
 ---
 

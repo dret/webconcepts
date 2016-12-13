@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/link-relation/via"
-title:       "Link Relation: via"
+layout:        concept
+permalink:     "/concepts/link-relation/via"
+title:         "Link Relation: via"
+concept-name:  Link Relation
+concept-value: via
 description: "The value \"via\" signifies that the IRI in the value of the href attribute identifies a resource that is the source of the information provided in the containing element."
 ---
 

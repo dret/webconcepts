@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/SubOK"
-title:       "HTTP Header Field: SubOK"
+layout:        concept
+permalink:     "/concepts/http-header/SubOK"
+title:         "HTTP Header Field: SubOK"
+concept-name:  HTTP Header Field
+concept-value: SubOK
 description: "The SubOK request header field is used to provide directives from an end-client to a proxy cache regarding the possible substitution of an instance body from a cached response for one resource instance for the instance body of the resource instance specified by the client's request."
 ---
 

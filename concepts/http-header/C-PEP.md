@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/C-PEP"
-title:       "HTTP Header Field: C-PEP"
+layout:        concept
+permalink:     "/concepts/http-header/C-PEP"
+title:         "HTTP Header Field: C-PEP"
+concept-name:  HTTP Header Field
+concept-value: C-PEP
 description: "PEP hop-by-hop extension declarations are meaningful only for a single transport-level connection. The C-PEP header field is a hop-by-hop header field and must not be communicated by proxies over further connections."
 ---
 

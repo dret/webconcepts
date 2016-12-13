@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/media-type/text/sgml"
-title:       "Media Type: text/sgml"
+layout:        concept
+permalink:     "/concepts/media-type/text/sgml"
+title:         "Media Type: text/sgml"
+concept-name:  Media Type
+concept-value: text/sgml
 description: "The Text/SGML media-type can be employed when the contents of the SGML entity is intended to be read by a human and is in a readily comprehensible form."
 ---
 

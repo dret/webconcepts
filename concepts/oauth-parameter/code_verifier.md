@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/oauth-parameter/code_verifier"
-title:       "OAuth Parameter: code_verifier"
+layout:        concept
+permalink:     "/concepts/oauth-parameter/code_verifier"
+title:         "OAuth Parameter: code_verifier"
+concept-name:  OAuth Parameter
+concept-value: code_verifier
 description: "Code verifier."
 ---
 

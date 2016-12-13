@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/media-type/application/pdf"
-title:       "Media Type: application/pdf"
+layout:        concept
+permalink:     "/concepts/media-type/application/pdf"
+title:         "Media Type: application/pdf"
+concept-name:  Media Type
+concept-value: application/pdf
 description: "PDF represents formatted documents. These documents may be structured or simple. They may contain text, images, graphics, and other multimedia content, such as video and audio. There is support for annotations, metadata, hypertext links, and bookmarks."
 ---
 

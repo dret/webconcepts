@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-cache-directive/must-revalidate"
-title:       "HTTP Cache Directive: must-revalidate"
+layout:        concept
+permalink:     "/concepts/http-cache-directive/must-revalidate"
+title:         "HTTP Cache Directive: must-revalidate"
+concept-name:  HTTP Cache Directive
+concept-value: must-revalidate
 description: "The \"must-revalidate\" response directive indicates that once it has become stale, a cache MUST NOT use the response to satisfy subsequent requests without successful validation on the origin server."
 ---
 

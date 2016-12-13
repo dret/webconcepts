@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/link-relation/prev"
-title:       "Link Relation: prev"
+layout:        concept
+permalink:     "/concepts/link-relation/prev"
+title:         "Link Relation: prev"
+concept-name:  Link Relation
+concept-value: prev
 description: "Refers to the previous document in an ordered series of documents. Some user agents also support the synonym \"Previous\"."
 ---
 

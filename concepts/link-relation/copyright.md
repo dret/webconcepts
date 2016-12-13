@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/link-relation/copyright"
-title:       "Link Relation: copyright"
+layout:        concept
+permalink:     "/concepts/link-relation/copyright"
+title:         "Link Relation: copyright"
+concept-name:  Link Relation
+concept-value: copyright
 description: "Refers to a copyright statement for the current document."
 ---
 

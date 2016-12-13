@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/uri-scheme/ws"
-title:       "URI Scheme: ws"
+layout:        concept
+permalink:     "/concepts/uri-scheme/ws"
+title:         "URI Scheme: ws"
+concept-name:  URI Scheme
+concept-value: ws
 description: "The only operation for this scheme is to open a connection using the WebSocket Protocol."
 ---
 

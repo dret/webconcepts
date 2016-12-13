@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/HTTPS"
-title:       "HTTP Header Field: HTTPS"
+layout:        concept
+permalink:     "/concepts/http-header/HTTPS"
+title:         "HTTP Header Field: HTTPS"
+concept-name:  HTTP Header Field
+concept-value: HTTPS
 description: "The HTTPS HTTP request header field sends a signal to the server expressing the client’s preference for an encrypted and authenticated response, and that it can successfully handle the upgrade-insecure-requests directive in order to make that preference as seamless as possible to provide."
 ---
 

@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Ordering-Type"
-title:       "HTTP Header Field: Ordering-Type"
+layout:        concept
+permalink:     "/concepts/http-header/Ordering-Type"
+title:         "HTTP Header Field: Ordering-Type"
+concept-name:  HTTP Header Field
+concept-value: Ordering-Type
 description: "When a collection is created, the client MAY request that it be ordered and specify the semantics of the ordering by using the new Ordering-Type header with a MKCOL request. For collections that are ordered, the client SHOULD identify the semantics of the ordering with a URI in the Ordering-Type header, although the client MAY simply set the header value to DAV:custom to indicate that the collection is ordered but the semantics of the ordering are not being advertised."
 ---
 

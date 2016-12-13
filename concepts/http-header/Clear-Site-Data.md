@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Clear-Site-Data"
-title:       "HTTP Header Field: Clear-Site-Data"
+layout:        concept
+permalink:     "/concepts/http-header/Clear-Site-Data"
+title:         "HTTP Header Field: Clear-Site-Data"
+concept-name:  HTTP Header Field
+concept-value: Clear-Site-Data
 description: "The Clear-Site-Data HTTP response header field sends a signal to the user agent that it ought to remove all data of a certain set of types."
 ---
 

@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-method/BIND"
-title:       "HTTP Request Method: BIND"
+layout:        concept
+permalink:     "/concepts/http-method/BIND"
+title:         "HTTP Request Method: BIND"
+concept-name:  HTTP Request Method
+concept-value: BIND
 description: "The BIND method modifies the collection identified by the Request-URI, by adding a new binding from the segment specified in the BIND body to the resource identified in the BIND body."
 ---
 

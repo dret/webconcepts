@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/TE"
-title:       "HTTP Header Field: TE"
+layout:        concept
+permalink:     "/concepts/http-header/TE"
+title:         "HTTP Header Field: TE"
+concept-name:  HTTP Header Field
+concept-value: TE
 description: "The \"TE\" header field in a request indicates what transfer codings, besides chunked, the client is willing to accept in response, and whether or not the client is willing to accept trailer fields in a chunked transfer coding."
 ---
 

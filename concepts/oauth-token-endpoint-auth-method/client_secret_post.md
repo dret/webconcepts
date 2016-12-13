@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/oauth-token-endpoint-auth-method/client_secret_post"
-title:       "OAuth Token Endpoint Authentication Method: client_secret_post"
+layout:        concept
+permalink:     "/concepts/oauth-token-endpoint-auth-method/client_secret_post"
+title:         "OAuth Token Endpoint Authentication Method: client_secret_post"
+concept-name:  OAuth Token Endpoint Authentication Method
+concept-value: client_secret_post
 description: "The client uses the HTTP POST parameters as defined in OAuth 2.0."
 ---
 

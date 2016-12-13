@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/media-type/application/alps+json"
-title:       "Media Type: application/alps+json"
+layout:        concept
+permalink:     "/concepts/media-type/application/alps+json"
+title:         "Media Type: application/alps+json"
+concept-name:  Media Type
+concept-value: application/alps+json
 description: "When representing ALPS documents in JSON format, the 'descriptor' and 'ext' properties are always expressed as arrays of anonymous objects - even when there is only one member in the array."
 ---
 

@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/oauth-authorization-endpoint-response-type/token"
-title:       "OAuth Authorization Endpoint Response Type: token"
+layout:        concept
+permalink:     "/concepts/oauth-authorization-endpoint-response-type/token"
+title:         "OAuth Authorization Endpoint Response Type: token"
+concept-name:  OAuth Authorization Endpoint Response Type
+concept-value: token
 description: "The authorization endpoint is used by the authorization code grant type and implicit grant type flows. The client informs the authorization server of the desired grant type by using \"token\" for requesting an access token (implicit grant)."
 ---
 

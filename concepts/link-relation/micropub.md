@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/link-relation/micropub"
-title:       "Link Relation: micropub"
+layout:        concept
+permalink:     "/concepts/link-relation/micropub"
+title:         "Link Relation: micropub"
+concept-name:  Link Relation
+concept-value: micropub
 description: "Allows discovery of a Micropub endpoint which will be used to create posts."
 ---
 

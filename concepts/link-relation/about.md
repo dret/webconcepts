@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/link-relation/about"
-title:       "Link Relation: about"
+layout:        concept
+permalink:     "/concepts/link-relation/about"
+title:         "Link Relation: about"
+concept-name:  Link Relation
+concept-value: about
 description: "The \"about\" link relation can be used to refer to a resource that is the subject or topic of the link's context. Multiple subjects can be indicated through the use of multiple \"about\" link relations."
 ---
 

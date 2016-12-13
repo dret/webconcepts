@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Content-Range"
-title:       "HTTP Header Field: Content-Range"
+layout:        concept
+permalink:     "/concepts/http-header/Content-Range"
+title:         "HTTP Header Field: Content-Range"
+concept-name:  HTTP Header Field
+concept-value: Content-Range
 description: "The Content-Range entity-header is sent with a partial entity-body to specify where in the full entity-body the partial body should be applied."
 ---
 

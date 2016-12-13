@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/oauth-parameter/username"
-title:       "OAuth Parameter: username"
+layout:        concept
+permalink:     "/concepts/oauth-parameter/username"
+title:         "OAuth Parameter: username"
+concept-name:  OAuth Parameter
+concept-value: username
 description: "The resource owner username."
 ---
 

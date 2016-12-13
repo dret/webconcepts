@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/well-known-uri/void"
-title:       "Well-Known URI: void"
+layout:        concept
+permalink:     "/concepts/well-known-uri/void"
+title:         "Well-Known URI: void"
+concept-name:  Well-Known URI
+concept-value: void
 description: "The URI /.well-known/void on any Web server is registered by this specification for a VoID description of any datasets hosted on that server. This URI may be an HTTP redirect to the location of the actual VoID file."
 ---
 

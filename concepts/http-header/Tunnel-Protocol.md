@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Tunnel-Protocol"
-title:       "HTTP Header Field: Tunnel-Protocol"
+layout:        concept
+permalink:     "/concepts/http-header/Tunnel-Protocol"
+title:         "HTTP Header Field: Tunnel-Protocol"
+concept-name:  HTTP Header Field
+concept-value: Tunnel-Protocol
 description: "Clients include the Tunnel-Protocol header field in an HTTP CONNECT request to indicate the application layer protocol that will be used within the tunnel, or the set of protocols that might be used within the tunnel."
 ---
 

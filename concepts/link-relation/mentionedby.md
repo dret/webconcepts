@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/link-relation/mentionedby"
-title:       "Link Relation: mentionedby"
+layout:        concept
+permalink:     "/concepts/link-relation/mentionedby"
+title:         "Link Relation: mentionedby"
+concept-name:  Link Relation
+concept-value: mentionedby
 description: "Refers to a resource that mentions the context resource in some fashion. This, for example, would be used when an article mentions another article, or a social status update mentions a particular user, etc."
 ---
 

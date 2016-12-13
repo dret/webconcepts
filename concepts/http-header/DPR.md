@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/DPR"
-title:       "HTTP Header Field: DPR"
+layout:        concept
+permalink:     "/concepts/http-header/DPR"
+title:         "HTTP Header Field: DPR"
+concept-name:  HTTP Header Field
+concept-value: DPR
 description: "The \"DPR\" header field is a number that, in requests, indicates the client's current Device Pixel Ratio (DPR), which is the ratio of physical pixels over CSS px of the layout viewport on the device."
 ---
 

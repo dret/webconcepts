@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/media-type/application/home+json"
-title:       "Media Type: application/home+json"
+layout:        concept
+permalink:     "/concepts/media-type/application/home+json"
+title:         "Media Type: application/home+json"
+concept-name:  Media Type
+concept-value: application/home+json
 description: "This document proposes a \"home document\" format for non-browser HTTP clients."
 ---
 

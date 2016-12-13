@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Accept-Encoding"
-title:       "HTTP Header Field: Accept-Encoding"
+layout:        concept
+permalink:     "/concepts/http-header/Accept-Encoding"
+title:         "HTTP Header Field: Accept-Encoding"
+concept-name:  HTTP Header Field
+concept-value: Accept-Encoding
 description: "The \"Accept-Encoding\" header field can be used by user agents to indicate what response content-codings are acceptable in the response. An \"identity\" token is used as a synonym for \"no encoding\" in order to communicate when no encoding is preferred."
 ---
 

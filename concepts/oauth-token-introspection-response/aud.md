@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/oauth-token-introspection-response/aud"
-title:       "OAuth Token Introspection Response: aud"
+layout:        concept
+permalink:     "/concepts/oauth-token-introspection-response/aud"
+title:         "OAuth Token Introspection Response: aud"
+concept-name:  OAuth Token Introspection Response
+concept-value: aud
 description: "Service-specific string identifier or list of string identifiers representing the intended audience for this token, as defined in JWT."
 ---
 

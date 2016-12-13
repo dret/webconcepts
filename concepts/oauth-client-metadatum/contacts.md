@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/oauth-client-metadatum/contacts"
-title:       "OAuth Dynamic Client Registration Metadatum: contacts"
+layout:        concept
+permalink:     "/concepts/oauth-client-metadatum/contacts"
+title:         "OAuth Dynamic Client Registration Metadatum: contacts"
+concept-name:  OAuth Dynamic Client Registration Metadatum
+concept-value: contacts
 description: "Array of strings representing ways to contact people responsible for this client, typically email addresses."
 ---
 

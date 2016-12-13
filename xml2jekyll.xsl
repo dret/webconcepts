@@ -271,11 +271,11 @@
                         <xsl:result-document href="{$concepts-dir}/{$concept/filename-singular}/{$concept-name}.md" format="markdown">
                             <xsl:variable name="allspecsdef" select="$allspecs/service/*[local-name() eq $concept/@id][@def eq $concept-name]"/>
                             <xsl:text>---&#xa;</xsl:text>
-                            <xsl:text>layout:      page&#xa;</xsl:text>
-                            <xsl:text>permalink:   "/</xsl:text>
+                            <xsl:text>layout:        concept&#xa;</xsl:text>
+                            <xsl:text>permalink:     "/</xsl:text>
                             <xsl:value-of select="concat($concepts-dir, '/', $concept/filename-singular, '/', replace($concept-name, ':', '%3A'))"/>
                             <xsl:text>"&#xa;</xsl:text>
-                            <xsl:text>title:       "</xsl:text>
+                            <xsl:text>title:         "</xsl:text>
                             <xsl:value-of select="$concept/title-singular/text()"/>
                             <xsl:text>: </xsl:text>
                             <xsl:value-of select="$concept-name"/>
@@ -284,6 +284,16 @@
                                 <xsl:value-of select="$desc"/>
                             </xsl:if>
                             <xsl:text>"&#xa;</xsl:text>
+                            <xsl:text>concept-name:  </xsl:text>
+                            <xsl:value-of select="$concept/title-singular/text()"/>
+                            <xsl:text>&#xa;</xsl:text>
+                            <xsl:text>concept-value: </xsl:text>
+                            <xsl:value-of select="$concept-name"/>
+                            <xsl:if test="exists($desc)">
+                                <xsl:text> </xsl:text>
+                                <xsl:value-of select="$desc"/>
+                            </xsl:if>
+                            <xsl:text>&#xa;</xsl:text>
                             <xsl:text>description: "</xsl:text>
                             <xsl:value-of select="replace($allspecsdef[1]/documentation, '&quot;', '\\&quot;')"/>
                             <!-- this is cheating because it randomly takes the first definition of a concept, if there are more than one. -->

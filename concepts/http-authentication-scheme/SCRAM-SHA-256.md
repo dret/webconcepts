@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-authentication-scheme/SCRAM-SHA-256"
-title:       "HTTP Authentication Scheme: SCRAM-SHA-256"
+layout:        concept
+permalink:     "/concepts/http-authentication-scheme/SCRAM-SHA-256"
+title:         "HTTP Authentication Scheme: SCRAM-SHA-256"
+concept-name:  HTTP Authentication Scheme
+concept-value: SCRAM-SHA-256
 description: "HTTP SCRAM is an HTTP Authentication mechanism whose client response and server challenge messages are text-based messages containing one or more attribute-value pairs separated by commas. For interoperability, all HTTP clients and servers supporting SCRAM MUST implement the SCRAM-SHA-256 authentication mechanism."
 ---
 

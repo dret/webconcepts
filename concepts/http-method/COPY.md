@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-method/COPY"
-title:       "HTTP Request Method: COPY"
+layout:        concept
+permalink:     "/concepts/http-method/COPY"
+title:         "HTTP Request Method: COPY"
+concept-name:  HTTP Request Method
+concept-value: COPY
 description: "The COPY method creates a duplicate of the source resource identified by the Request-URI, in the destination resource identified by the URI in the Destination header. The Destination header MUST be present. The exact behavior of the COPY method depends on the type of the source resource."
 ---
 

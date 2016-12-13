@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Content-Security-Policy"
-title:       "HTTP Header Field: Content-Security-Policy"
+layout:        concept
+permalink:     "/concepts/http-header/Content-Security-Policy"
+title:         "HTTP Header Field: Content-Security-Policy"
+concept-name:  HTTP Header Field
+concept-value: Content-Security-Policy
 description: "The Content-Security-Policy header field is the preferred mechanism for delivering a policy."
 ---
 

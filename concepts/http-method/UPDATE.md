@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-method/UPDATE"
-title:       "HTTP Request Method: UPDATE"
+layout:        concept
+permalink:     "/concepts/http-method/UPDATE"
+title:         "HTTP Request Method: UPDATE"
+concept-name:  HTTP Request Method
+concept-value: UPDATE
 description: "The UPDATE method modifies the content and dead properties of a checked-in version-controlled resource (the \"update target\") to be those of a specified version (the \"update source\") from the version history of that version-controlled resource."
 ---
 

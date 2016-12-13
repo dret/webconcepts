@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-method/LABEL"
-title:       "HTTP Request Method: LABEL"
+layout:        concept
+permalink:     "/concepts/http-method/LABEL"
+title:         "HTTP Request Method: LABEL"
+concept-name:  HTTP Request Method
+concept-value: LABEL
 description: "A LABEL request can be applied to a version to modify the labels that select that version. The case of a label name MUST be preserved when it is stored and retrieved. When comparing two label names to decide if they match or not, a server SHOULD use a case-sensitive URL-escaped UTF-8 encoded comparison of the two label names."
 ---
 

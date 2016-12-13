@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/oauth-client-metadatum/grant_types"
-title:       "OAuth Dynamic Client Registration Metadatum: grant_types"
+layout:        concept
+permalink:     "/concepts/oauth-client-metadatum/grant_types"
+title:         "OAuth Dynamic Client Registration Metadatum: grant_types"
+concept-name:  OAuth Dynamic Client Registration Metadatum
+concept-value: grant_types
 description: "Array of OAuth 2.0 grant type strings that the client can use at the token endpoint."
 ---
 

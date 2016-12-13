@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Title"
-title:       "HTTP Header Field: Title"
+layout:        concept
+permalink:     "/concepts/http-header/Title"
+title:         "HTTP Header Field: Title"
+concept-name:  HTTP Header Field
+concept-value: Title
 description: "The title of the document. Not part of the document. Isomorphic with the <title> element in HTML."
 ---
 

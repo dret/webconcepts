@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Location"
-title:       "HTTP Header Field: Location"
+layout:        concept
+permalink:     "/concepts/http-header/Location"
+title:         "HTTP Header Field: Location"
+concept-name:  HTTP Header Field
+concept-value: Location
 description: "The \"Location\" header field is used in some responses to refer to a specific resource in relation to the response. The type of relationship is defined by the combination of request method and status code semantics."
 ---
 

@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Access-Control-Request-Method"
-title:       "HTTP Header Field: Access-Control-Request-Method"
+layout:        concept
+permalink:     "/concepts/http-header/Access-Control-Request-Method"
+title:         "HTTP Header Field: Access-Control-Request-Method"
+concept-name:  HTTP Header Field
+concept-value: Access-Control-Request-Method
 description: "The Access-Control-Request-Method header indicates which method will be used in the actual request as part of the preflight request."
 ---
 

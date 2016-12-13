@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/link-relation/section"
-title:       "Link Relation: section"
+layout:        concept
+permalink:     "/concepts/link-relation/section"
+title:         "Link Relation: section"
+concept-name:  Link Relation
+concept-value: section
 description: "Refers to a document serving as a section in a collection of documents."
 ---
 

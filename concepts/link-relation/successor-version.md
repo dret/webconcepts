@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/link-relation/successor-version"
-title:       "Link Relation: successor-version"
+layout:        concept
+permalink:     "/concepts/link-relation/successor-version"
+title:         "Link Relation: successor-version"
+concept-name:  Link Relation
+concept-value: successor-version
 description: "When included on a versioned resource, this link points to a resource containing the successor version in the version history."
 ---
 

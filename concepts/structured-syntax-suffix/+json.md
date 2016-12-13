@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/structured-syntax-suffix/+json"
-title:       "Structured Syntax Suffix: +json"
+layout:        concept
+permalink:     "/concepts/structured-syntax-suffix/+json"
+title:         "Structured Syntax Suffix: +json"
+concept-name:  Structured Syntax Suffix
+concept-value: +json
 description: "The suffix \"+json\" MAY be used with any media type whose representation follows that established for \"application/json\"."
 ---
 

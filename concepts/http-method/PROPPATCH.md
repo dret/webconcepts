@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-method/PROPPATCH"
-title:       "HTTP Request Method: PROPPATCH"
+layout:        concept
+permalink:     "/concepts/http-method/PROPPATCH"
+title:         "HTTP Request Method: PROPPATCH"
+concept-name:  HTTP Request Method
+concept-value: PROPPATCH
 description: "The PROPPATCH method processes instructions specified in the request body to set and/or remove properties defined on the resource identified by the Request-URI."
 ---
 

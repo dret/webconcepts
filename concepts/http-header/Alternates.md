@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Alternates"
-title:       "HTTP Header Field: Alternates"
+layout:        concept
+permalink:     "/concepts/http-header/Alternates"
+title:         "HTTP Header Field: Alternates"
+concept-name:  HTTP Header Field
+concept-value: Alternates
 description: "The Alternates response header is used to convey the list of variants bound to a negotiable resource. This list can also include directives for any content negotiation process. If a response from a transparently negotiable resource includes an Alternates header, this header MUST contain the complete variant list bound to the negotiable resource. Responses from resources which do not support transparent content negotiation MAY also use Alternates headers."
 ---
 

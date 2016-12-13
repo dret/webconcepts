@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Viewport-Width"
-title:       "HTTP Header Field: Viewport-Width"
+layout:        concept
+permalink:     "/concepts/http-header/Viewport-Width"
+title:         "HTTP Header Field: Viewport-Width"
+concept-name:  HTTP Header Field
+concept-value: Viewport-Width
 description: "The \"Viewport-Width\" header field is a number that, in requests, indicates the layout viewport width in CSS px."
 ---
 

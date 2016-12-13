@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/oauth-extension-error/unsupported_token_type"
-title:       "OAuth Extensions Error: unsupported_token_type"
+layout:        concept
+permalink:     "/concepts/oauth-extension-error/unsupported_token_type"
+title:         "OAuth Extensions Error: unsupported_token_type"
+concept-name:  OAuth Extensions Error
+concept-value: unsupported_token_type
 description: "The authorization server does not support the revocation of the presented token type. That is, the client tried to revoke an access token on a server not supporting this feature."
 ---
 

@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/well-known-uri/est"
-title:       "Well-Known URI: est"
+layout:        concept
+permalink:     "/concepts/well-known-uri/est"
+title:         "Well-Known URI: est"
+concept-name:  Well-Known URI
+concept-value: est
 description: "The EST server MUST support the use of the path-prefix of \"/.well-known/\" and the registered name of \"est\". Thus, a valid EST server URI path begins with \"https://www.example.com/.well-known/est\". Each EST operation is indicated by a path-suffix that indicates the intended operation."
 ---
 

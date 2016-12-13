@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/uri-scheme/pres"
-title:       "URI Scheme: pres"
+layout:        concept
+permalink:     "/concepts/uri-scheme/pres"
+title:         "URI Scheme: pres"
+concept-name:  URI Scheme
+concept-value: pres
 description: "Use of the pres: URI follows closely usage of the mailto: URI. That is, invocation of an PRES URI will cause the user's instant messaging application to start, with destination address and message headers  fill-in according to the information supplied in the URI."
 ---
 

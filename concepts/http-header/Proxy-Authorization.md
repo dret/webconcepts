@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Proxy-Authorization"
-title:       "HTTP Header Field: Proxy-Authorization"
+layout:        concept
+permalink:     "/concepts/http-header/Proxy-Authorization"
+title:         "HTTP Header Field: Proxy-Authorization"
+concept-name:  HTTP Header Field
+concept-value: Proxy-Authorization
 description: "The \"Proxy-Authorization\" header field allows the client to identify itself (or its user) to a proxy that requires authentication. Its value consists of credentials containing the authentication information of the client for the proxy and/or realm of the resource being requested."
 ---
 

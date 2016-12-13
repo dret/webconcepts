@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/link-relation/edit"
-title:       "Link Relation: edit"
+layout:        concept
+permalink:     "/concepts/link-relation/edit"
+title:         "Link Relation: edit"
+concept-name:  Link Relation
+concept-value: edit
 description: "The value of \"edit\" specifies that the value of the href attribute is the IRI of an editable Member Entry. When appearing within an atom:entry, the href IRI can be used to retrieve, update, and delete the Resource represented by that Entry. An atom:entry MUST NOT contain more than one \"edit\" link relation."
 ---
 

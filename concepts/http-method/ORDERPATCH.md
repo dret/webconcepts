@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-method/ORDERPATCH"
-title:       "HTTP Request Method: ORDERPATCH"
+layout:        concept
+permalink:     "/concepts/http-method/ORDERPATCH"
+title:         "HTTP Request Method: ORDERPATCH"
+concept-name:  HTTP Request Method
+concept-value: ORDERPATCH
 description: "The ORDERPATCH method is used to change the ordering semantics of a collection, to change the order of the collection's members in the ordering, or both."
 ---
 

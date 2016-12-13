@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/media-type/application/atomcat+xml"
-title:       "Media Type: application/atomcat+xml"
+layout:        concept
+permalink:     "/concepts/media-type/application/atomcat+xml"
+title:         "Media Type: application/atomcat+xml"
+concept-name:  Media Type
+concept-value: application/atomcat+xml
 description: "An Atom Publishing Protocol Category Document, when serialized as XML 1.0, can be identified with the following media type."
 ---
 

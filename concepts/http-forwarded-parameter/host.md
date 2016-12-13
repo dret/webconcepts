@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-forwarded-parameter/host"
-title:       "HTTP Forwarded Parameter: host"
+layout:        concept
+permalink:     "/concepts/http-forwarded-parameter/host"
+title:         "HTTP Forwarded Parameter: host"
+concept-name:  HTTP Forwarded Parameter
+concept-value: host
 description: "The \"host\" parameter is used to forward the original value of the \"Host\" header field."
 ---
 

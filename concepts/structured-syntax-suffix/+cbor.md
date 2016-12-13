@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/structured-syntax-suffix/+cbor"
-title:       "Structured Syntax Suffix: +cbor"
+layout:        concept
+permalink:     "/concepts/structured-syntax-suffix/+cbor"
+title:         "Structured Syntax Suffix: +cbor"
+concept-name:  Structured Syntax Suffix
+concept-value: +cbor
 description: "The suffix \"+cbor\" MAY be used with any media type whose representation follows the CBOR transfer syntax."
 ---
 

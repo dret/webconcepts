@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-cache-directive/max-age"
-title:       "HTTP Cache Directive: max-age"
+layout:        concept
+permalink:     "/concepts/http-cache-directive/max-age"
+title:         "HTTP Cache Directive: max-age"
+concept-name:  HTTP Cache Directive
+concept-value: max-age
 description: "The \"max-age\" request directive indicates that the client is unwilling to accept a response whose age is greater than the specified number of seconds. Unless the max-stale request directive is also present, the client is not willing to accept a stale response. The \"max-age\" response directive indicates that the response is to be considered stale after its age is greater than the specified number of seconds."
 ---
 

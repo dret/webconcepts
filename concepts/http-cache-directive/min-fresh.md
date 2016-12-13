@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-cache-directive/min-fresh"
-title:       "HTTP Cache Directive: min-fresh"
+layout:        concept
+permalink:     "/concepts/http-cache-directive/min-fresh"
+title:         "HTTP Cache Directive: min-fresh"
+concept-name:  HTTP Cache Directive
+concept-value: min-fresh
 description: "The \"min-fresh\" request directive indicates that the client is willing to accept a response whose freshness lifetime is no less than its current age plus the specified time in seconds. That is, the client wants a response that will still be fresh for at least the specified number of seconds."
 ---
 

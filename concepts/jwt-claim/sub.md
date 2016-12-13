@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/jwt-claim/sub"
-title:       "JSON Web Token Claim: sub"
+layout:        concept
+permalink:     "/concepts/jwt-claim/sub"
+title:         "JSON Web Token Claim: sub"
+concept-name:  JSON Web Token Claim
+concept-value: sub
 description: "The \"sub\" (subject) claim identifies the principal that is the subject of the JWT. The claims in a JWT are normally statements about the subject. The subject value MUST either be scoped to be locally unique in the context of the issuer or be globally unique."
 ---
 

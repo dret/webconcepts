@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Via"
-title:       "HTTP Header Field: Via"
+layout:        concept
+permalink:     "/concepts/http-header/Via"
+title:         "HTTP Header Field: Via"
+concept-name:  HTTP Header Field
+concept-value: Via
 description: "The \"Via\" header field indicates the presence of intermediate protocols and recipients between the user agent and the server (on requests) or between the origin server and the client (on responses), similar to the \"Received\" header field in email (Section 3.6.7 of RFC 5322). Via can be used for tracking message forwards, avoiding request loops, and identifying the protocol capabilities of senders along the request/response chain."
 ---
 

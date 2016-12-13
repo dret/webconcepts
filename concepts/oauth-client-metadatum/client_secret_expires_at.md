@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/oauth-client-metadatum/client_secret_expires_at"
-title:       "OAuth Dynamic Client Registration Metadatum: client_secret_expires_at"
+layout:        concept
+permalink:     "/concepts/oauth-client-metadatum/client_secret_expires_at"
+title:         "OAuth Dynamic Client Registration Metadatum: client_secret_expires_at"
+concept-name:  OAuth Dynamic Client Registration Metadatum
+concept-value: client_secret_expires_at
 description: "Time at which the client secret will expire or 0 if it will not expire."
 ---
 

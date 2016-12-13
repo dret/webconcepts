@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/link-relation/service-desc"
-title:       "Link Relation: service-desc"
+layout:        concept
+permalink:     "/concepts/link-relation/service-desc"
+title:         "Link Relation: service-desc"
+concept-name:  Link Relation
+concept-value: service-desc
 description: "The \"service-desc\" link relation type is used to represent the fact that a resource is part of a bigger set of resources that are described at a specific URI. The target resource is expected to provide a service description that is intended for machine consumption. Very often, it is provided in a format that is consumed by tools, code libraries, or similar components."
 ---
 

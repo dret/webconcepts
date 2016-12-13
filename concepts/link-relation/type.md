@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/link-relation/type"
-title:       "Link Relation: type"
+layout:        concept
+permalink:     "/concepts/link-relation/type"
+title:         "Link Relation: type"
+concept-name:  Link Relation
+concept-value: type
 description: "The \"type\" link relation can be used to indicate that the context resource is an instance of the resource identified by the target Internationalized Resource Identifier (IRI)."
 ---
 

@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-content-coding/deflate"
-title:       "HTTP Content Coding: deflate"
+layout:        concept
+permalink:     "/concepts/http-content-coding/deflate"
+title:         "HTTP Content Coding: deflate"
+concept-name:  HTTP Content Coding
+concept-value: deflate
 description: "The \"deflate\" coding is a \"zlib\" data format containing a \"deflate\" compressed data stream that uses a combination of the Lempel-Ziv (LZ77) compression algorithm and Huffman coding."
 ---
 

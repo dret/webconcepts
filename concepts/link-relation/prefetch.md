@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/link-relation/prefetch"
-title:       "Link Relation: prefetch"
+layout:        concept
+permalink:     "/concepts/link-relation/prefetch"
+title:         "Link Relation: prefetch"
+concept-name:  Link Relation
+concept-value: prefetch
 description: "The prefetch link relation type is used to declare a resource that might be required by the next navigation, and that the user agent SHOULD fetch, such that the user agent can deliver a faster response once the resource is requested in the future."
 ---
 

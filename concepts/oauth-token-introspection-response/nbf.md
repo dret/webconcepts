@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/oauth-token-introspection-response/nbf"
-title:       "OAuth Token Introspection Response: nbf"
+layout:        concept
+permalink:     "/concepts/oauth-token-introspection-response/nbf"
+title:         "OAuth Token Introspection Response: nbf"
+concept-name:  OAuth Token Introspection Response
+concept-value: nbf
 description: "Integer timestamp, measured in the number of seconds since January 1 1970 UTC, indicating when this token is not to be used before, as defined in JWT."
 ---
 

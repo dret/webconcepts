@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/link-relation/latest-version"
-title:       "Link Relation: latest-version"
+layout:        concept
+permalink:     "/concepts/link-relation/latest-version"
+title:         "Link Relation: latest-version"
+concept-name:  Link Relation
+concept-value: latest-version
 description: "When included on a versioned resource, this link points to a resource containing the latest (e.g., current) version."
 ---
 

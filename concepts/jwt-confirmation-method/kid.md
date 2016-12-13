@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/jwt-confirmation-method/kid"
-title:       "JWT Confirmation Method: kid"
+layout:        concept
+permalink:     "/concepts/jwt-confirmation-method/kid"
+title:         "JWT Confirmation Method: kid"
+concept-name:  JWT Confirmation Method
+concept-value: kid
 description: "The proof-of-possession key can also be identified by the use of a Key ID instead of communicating the actual key, provided the recipient is able to obtain the identified key using the Key ID."
 ---
 

@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/media-type/application/json-seq"
-title:       "Media Type: application/json-seq"
+layout:        concept
+permalink:     "/concepts/media-type/application/json-seq"
+title:         "Media Type: application/json-seq"
+concept-name:  Media Type
+concept-value: application/json-seq
 description: "\"JSON text sequences\" are specifically not JSON texts themselves but are composed of (possible) JSON texts. JSON text sequences can be parsed (and produced) incrementally without having to have a streaming parser (nor streaming encoder)."
 ---
 

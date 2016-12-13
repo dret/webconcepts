@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/oauth-access-token-type/mac"
-title:       "OAuth Access Token Type: mac"
+layout:        concept
+permalink:     "/concepts/oauth-access-token-type/mac"
+title:         "OAuth Access Token Type: mac"
+concept-name:  OAuth Access Token Type
+concept-value: mac
 description: "Authorization servers issue MAC Tokens based on requests from clients."
 ---
 

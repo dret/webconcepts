@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Forwarded"
-title:       "HTTP Header Field: Forwarded"
+layout:        concept
+permalink:     "/concepts/http-header/Forwarded"
+title:         "HTTP Header Field: Forwarded"
+concept-name:  HTTP Header Field
+concept-value: Forwarded
 description: "The \"Forwarded\" HTTP header field is an OPTIONAL header field that, when used, contains a list of parameter-identifier pairs that disclose information that is altered or lost when a proxy is involved in the path of the request."
 ---
 

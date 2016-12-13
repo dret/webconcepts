@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Accept-Indefinite-Ranges"
-title:       "HTTP Header Field: Accept-Indefinite-Ranges"
+layout:        concept
+permalink:     "/concepts/http-header/Accept-Indefinite-Ranges"
+title:         "HTTP Header Field: Accept-Indefinite-Ranges"
+concept-name:  HTTP Header Field
+concept-value: Accept-Indefinite-Ranges
 description: "The Accept-Indefinite-Ranges request-header field allows the client to indicate its acceptance of indefinite-sized range requests for a resource."
 ---
 

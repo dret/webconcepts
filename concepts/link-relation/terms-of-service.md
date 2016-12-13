@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/link-relation/terms-of-service"
-title:       "Link Relation: terms-of-service"
+layout:        concept
+permalink:     "/concepts/link-relation/terms-of-service"
+title:         "Link Relation: terms-of-service"
+concept-name:  Link Relation
+concept-value: terms-of-service
 description: "The \"terms-of-service\" link relation can be used to refer to a resource describing the terms of service associated with the link's context. The terms of service can be any resource that describes the rules to which a consumer of the service must agree to follow when using the service provided by the link's context."
 ---
 

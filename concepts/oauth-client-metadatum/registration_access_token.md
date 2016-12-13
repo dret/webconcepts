@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/oauth-client-metadatum/registration_access_token"
-title:       "OAuth Dynamic Client Registration Metadatum: registration_access_token"
+layout:        concept
+permalink:     "/concepts/oauth-client-metadatum/registration_access_token"
+title:         "OAuth Dynamic Client Registration Metadatum: registration_access_token"
+concept-name:  OAuth Dynamic Client Registration Metadatum
+concept-value: registration_access_token
 description: "String containing the access token to be used at the client configuration endpoint to perform subsequent operations upon the client registration."
 ---
 

@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/oauth-token-introspection-response/client_id"
-title:       "OAuth Token Introspection Response: client_id"
+layout:        concept
+permalink:     "/concepts/oauth-token-introspection-response/client_id"
+title:         "OAuth Token Introspection Response: client_id"
+concept-name:  OAuth Token Introspection Response
+concept-value: client_id
 description: "Client identifier for the OAuth 2.0 client that requested this token."
 ---
 

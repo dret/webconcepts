@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/oauth-client-metadatum/software_version"
-title:       "OAuth Dynamic Client Registration Metadatum: software_version"
+layout:        concept
+permalink:     "/concepts/oauth-client-metadatum/software_version"
+title:         "OAuth Dynamic Client Registration Metadatum: software_version"
+concept-name:  OAuth Dynamic Client Registration Metadatum
+concept-value: software_version
 description: "A version identifier string for the client software identified by \"software_id\". The value of the \"software_version\" SHOULD change on any update to the client software identified by the same \"software_id\"."
 ---
 

@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/IM"
-title:       "HTTP Header Field: IM"
+layout:        concept
+permalink:     "/concepts/http-header/IM"
+title:         "HTTP Header Field: IM"
+concept-name:  HTTP Header Field
+concept-value: IM
 description: "The IM response-header field is used to indicate the instance-manipulations, if any, that have been applied to the instance represented by the response. Typical instance manipulations include delta encoding and compression."
 ---
 

@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/media-type/application/link-format"
-title:       "Media Type: application/link-format"
+layout:        concept
+permalink:     "/concepts/media-type/application/link-format"
+title:         "Media Type: application/link-format"
+concept-name:  Media Type
+concept-value: application/link-format
 description: "The CoRE Link Format extends the HTTP Link Header field specified in RFC 5988."
 ---
 

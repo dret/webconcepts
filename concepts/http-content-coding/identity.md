@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-content-coding/identity"
-title:       "HTTP Content Coding: identity"
+layout:        concept
+permalink:     "/concepts/http-content-coding/identity"
+title:         "HTTP Content Coding: identity"
+concept-name:  HTTP Content Coding
+concept-value: identity
 description: "An \"identity\" token is used as a synonym for \"no encoding\" in order to communicate when no encoding is preferred."
 ---
 

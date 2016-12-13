@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/If-Modified-Since"
-title:       "HTTP Header Field: If-Modified-Since"
+layout:        concept
+permalink:     "/concepts/http-header/If-Modified-Since"
+title:         "HTTP Header Field: If-Modified-Since"
+concept-name:  HTTP Header Field
+concept-value: If-Modified-Since
 description: "The \"If-Modified-Since\" header field makes a GET or HEAD request method conditional on the selected representation's modification date being more recent than the date provided in the field-value. Transfer of the selected representation's data is avoided if that data has not changed."
 ---
 

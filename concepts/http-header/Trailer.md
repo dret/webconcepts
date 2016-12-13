@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Trailer"
-title:       "HTTP Header Field: Trailer"
+layout:        concept
+permalink:     "/concepts/http-header/Trailer"
+title:         "HTTP Header Field: Trailer"
+concept-name:  HTTP Header Field
+concept-value: Trailer
 description: "When a message includes a message body encoded with the chunked transfer coding and the sender desires to send metadata in the form of trailer fields at the end of the message, the sender SHOULD generate a Trailer header field before the message body to indicate which fields will be present in the trailers."
 ---
 

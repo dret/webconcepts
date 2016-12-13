@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/structured-syntax-suffix/+json-seq"
-title:       "Structured Syntax Suffix: +json-seq"
+layout:        concept
+permalink:     "/concepts/structured-syntax-suffix/+json-seq"
+title:         "Structured Syntax Suffix: +json-seq"
+concept-name:  Structured Syntax Suffix
+concept-value: +json-seq
 description: "The use case for the \"+json-seq\" structured syntax suffix is the same as for \"+json\": It SHOULD be used by media types when parsing the JSON Text Sequence of a media type leads to a meaningful result, by simply using the generic JSON Text Sequence processing."
 ---
 

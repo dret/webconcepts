@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Subst"
-title:       "HTTP Header Field: Subst"
+layout:        concept
+permalink:     "/concepts/http-header/Subst"
+title:         "HTTP Header Field: Subst"
+concept-name:  HTTP Header Field
+concept-value: Subst
 description: "The Subst response-header field MUST be used by a proxy to supply the URI of the original source of an entity-body, if the source is different from the client's Request-URI, and if the client's request included the \"inform\" directive in a SubOK request header field."
 ---
 

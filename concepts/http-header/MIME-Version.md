@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/MIME-Version"
-title:       "HTTP Header Field: MIME-Version"
+layout:        concept
+permalink:     "/concepts/http-header/MIME-Version"
+title:         "HTTP Header Field: MIME-Version"
+concept-name:  HTTP Header Field
+concept-value: MIME-Version
 description: "HTTP is not a MIME-compliant protocol. However, messages can include a single MIME-Version header field to indicate what version of the MIME protocol was used to construct the message. Use of the MIME-Version header field indicates that the message is in full conformance with the MIME protocol (as defined in RFC 2045). Senders are responsible for ensuring full conformance (where possible) when exporting HTTP messages to strict MIME environments."
 ---
 

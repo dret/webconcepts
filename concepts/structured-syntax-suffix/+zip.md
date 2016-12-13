@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/structured-syntax-suffix/+zip"
-title:       "Structured Syntax Suffix: +zip"
+layout:        concept
+permalink:     "/concepts/structured-syntax-suffix/+zip"
+title:         "Structured Syntax Suffix: +zip"
+concept-name:  Structured Syntax Suffix
+concept-value: +zip
 description: "The suffix \"+zip\" MAY be used with any media type whose representation follows that established for \"application/zip\"."
 ---
 

@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/link-relation/preview"
-title:       "Link Relation: preview"
+layout:        concept
+permalink:     "/concepts/link-relation/preview"
+title:         "Link Relation: preview"
+concept-name:  Link Relation
+concept-value: preview
 description: "The \"preview\" link relation can be used to refer to a resource that serves as a preview of the link's context, likely with reduced quality or limited content. For instance, the preview link might reference a screen capture of a video, a brief snippet of audio from a song, or a thumbnail representation of an image."
 ---
 

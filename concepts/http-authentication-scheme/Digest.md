@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-authentication-scheme/Digest"
-title:       "HTTP Authentication Scheme: Digest"
+layout:        concept
+permalink:     "/concepts/http-authentication-scheme/Digest"
+title:         "HTTP Authentication Scheme: Digest"
+concept-name:  HTTP Authentication Scheme
+concept-value: Digest
 description: "The Digest scheme is based on a simple challenge-response paradigm. The Digest scheme challenges using a nonce value and might indicate that username hashing is supported. A valid response contains an unkeyed digest of the username, the password, the given nonce value, the HTTP method, and the requested URI."
 ---
 

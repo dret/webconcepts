@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/link-relation/create-form"
-title:       "Link Relation: create-form"
+layout:        concept
+permalink:     "/concepts/link-relation/create-form"
+title:         "Link Relation: create-form"
+concept-name:  Link Relation
+concept-value: create-form
 description: "When included in a response, the \"create-form\" link relation indicates a target resource that represents a form that can be used to append a new member to the link context."
 ---
 

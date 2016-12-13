@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Security-Scheme"
-title:       "HTTP Header Field: Security-Scheme"
+layout:        concept
+permalink:     "/concepts/http-header/Security-Scheme"
+title:         "HTTP Header Field: Security-Scheme"
+concept-name:  HTTP Header Field
+concept-value: Security-Scheme
 description: "All S-HTTP compliant agents must generate the Security-Scheme header in the headers of all HTTP messages they generate. This header permits other agents to detect that they are communicating with an S-HTTP compliant agent and generate the appropriate cryptographic options headers."
 ---
 

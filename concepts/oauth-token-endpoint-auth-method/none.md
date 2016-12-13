@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/oauth-token-endpoint-auth-method/none"
-title:       "OAuth Token Endpoint Authentication Method: none"
+layout:        concept
+permalink:     "/concepts/oauth-token-endpoint-auth-method/none"
+title:         "OAuth Token Endpoint Authentication Method: none"
+concept-name:  OAuth Token Endpoint Authentication Method
+concept-value: none
 description: "The client is a public client as defined in OAuth 2.0 and does not have a client secret."
 ---
 

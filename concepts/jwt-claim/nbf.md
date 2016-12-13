@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/jwt-claim/nbf"
-title:       "JSON Web Token Claim: nbf"
+layout:        concept
+permalink:     "/concepts/jwt-claim/nbf"
+title:         "JSON Web Token Claim: nbf"
+concept-name:  JSON Web Token Claim
+concept-value: nbf
 description: "The \"nbf\" (not before) claim identifies the time before which the JWT MUST NOT be accepted for processing. The processing of the \"nbf\" claim requires that the current date/time MUST be after or equal to the not-before date/time listed in the \"nbf\" claim."
 ---
 

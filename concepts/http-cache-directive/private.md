@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-cache-directive/private"
-title:       "HTTP Cache Directive: private"
+layout:        concept
+permalink:     "/concepts/http-cache-directive/private"
+title:         "HTTP Cache Directive: private"
+concept-name:  HTTP Cache Directive
+concept-value: private
 description: "The \"private\" response directive indicates that the response message is intended for a single user and MUST NOT be stored by a shared cache. A private cache MAY store the response and reuse it for later requests, even if the response would normally be non-cacheable."
 ---
 

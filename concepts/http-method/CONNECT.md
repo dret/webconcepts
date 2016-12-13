@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-method/CONNECT"
-title:       "HTTP Request Method: CONNECT"
+layout:        concept
+permalink:     "/concepts/http-method/CONNECT"
+title:         "HTTP Request Method: CONNECT"
+concept-name:  HTTP Request Method
+concept-value: CONNECT
 description: "The CONNECT method requests that the recipient establish a tunnel to the destination origin server identified by the request-target and, if successful, thereafter restrict its behavior to blind forwarding of packets, in both directions, until the tunnel is closed. Tunnels are commonly used to create an end-to-end virtual connection, through one or more proxies, which can then be secured using TLS (Transport Layer Security)."
 ---
 

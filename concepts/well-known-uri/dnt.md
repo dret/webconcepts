@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/well-known-uri/dnt"
-title:       "Well-Known URI: dnt"
+layout:        concept
+permalink:     "/concepts/well-known-uri/dnt"
+title:         "Well-Known URI: dnt"
+concept-name:  Well-Known URI
+concept-value: dnt
 description: "A site-wide tracking status resource provides information about the potential tracking behavior of resources located at that origin server. A site-wide tracking status resource has the well-known identifier /.well-known/dnt/ relative to the origin server's URI."
 ---
 

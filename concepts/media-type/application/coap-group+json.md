@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/media-type/application/coap-group+json"
-title:       "Media Type: application/coap-group+json"
+layout:        concept
+permalink:     "/concepts/media-type/application/coap-group+json"
+title:         "Media Type: application/coap-group+json"
+concept-name:  Media Type
+concept-value: application/coap-group+json
 description: "CoAP endpoints implementing the membership configuration RESTful interface MUST support the CoAP group configuration Internet Media Type \"application/coap-group+json\"."
 ---
 

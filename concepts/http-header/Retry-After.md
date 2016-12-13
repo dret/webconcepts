@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Retry-After"
-title:       "HTTP Header Field: Retry-After"
+layout:        concept
+permalink:     "/concepts/http-header/Retry-After"
+title:         "HTTP Header Field: Retry-After"
+concept-name:  HTTP Header Field
+concept-value: Retry-After
 description: "Servers send the \"Retry-After\" header field to indicate how long the user agent ought to wait before making a follow-up request. When sent with a 503 (Service Unavailable) response, Retry-After indicates how long the service is expected to be unavailable to the client. When sent with any 3xx (Redirection) response, Retry-After indicates the minimum time that the user agent is asked to wait before issuing the redirected request."
 ---
 

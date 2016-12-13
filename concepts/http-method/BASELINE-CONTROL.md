@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-method/BASELINE-CONTROL"
-title:       "HTTP Request Method: BASELINE-CONTROL"
+layout:        concept
+permalink:     "/concepts/http-method/BASELINE-CONTROL"
+title:         "HTTP Request Method: BASELINE-CONTROL"
+concept-name:  HTTP Request Method
+concept-value: BASELINE-CONTROL
 description: "A collection can be placed under baseline control with a BASELINE-CONTROL request. When a collection is placed under baseline control, the DAV:version-controlled-configuration property of the collection is set to identify a new version-controlled configuration. This version-controlled configuration can be checked out and then checked in to create a new baseline for that collection."
 ---
 

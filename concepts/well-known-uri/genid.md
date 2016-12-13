@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/well-known-uri/genid"
-title:       "Well-Known URI: genid"
+layout:        concept
+permalink:     "/concepts/well-known-uri/genid"
+title:         "Well-Known URI: genid"
+concept-name:  Well-Known URI
+concept-value: genid
 description: "Systems that want Skolem IRIs to be recognizable outside of the system boundaries should use a well-known IRI with the registered name genid. This is an IRI that uses the HTTP or HTTPS scheme, or another scheme that has been specified to use well-known IRIs; and whose path component starts with /.well-known/genid/."
 ---
 

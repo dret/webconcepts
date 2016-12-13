@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-authentication-scheme/Bearer"
-title:       "HTTP Authentication Scheme: Bearer"
+layout:        concept
+permalink:     "/concepts/http-authentication-scheme/Bearer"
+title:         "HTTP Authentication Scheme: Bearer"
+concept-name:  HTTP Authentication Scheme
+concept-value: Bearer
 description: "All challenges defined by this specification MUST use the auth-scheme value \"Bearer\". This scheme MUST be followed by one or more auth-param values."
 ---
 

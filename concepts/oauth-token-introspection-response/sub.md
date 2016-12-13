@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/oauth-token-introspection-response/sub"
-title:       "OAuth Token Introspection Response: sub"
+layout:        concept
+permalink:     "/concepts/oauth-token-introspection-response/sub"
+title:         "OAuth Token Introspection Response: sub"
+concept-name:  OAuth Token Introspection Response
+concept-value: sub
 description: "Subject of the token, as defined in JWT. Usually a machine-readable identifier of the resource owner who authorized this token."
 ---
 

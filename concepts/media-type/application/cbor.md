@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/media-type/application/cbor"
-title:       "Media Type: application/cbor"
+layout:        concept
+permalink:     "/concepts/media-type/application/cbor"
+title:         "Media Type: application/cbor"
+concept-name:  Media Type
+concept-value: application/cbor
 description: "CBOR follows some specific design goals that are not well met by current binary formats. The underlying data model is an extended version of the JSON data model."
 ---
 

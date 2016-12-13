@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/oauth-extension-error/insufficient_scope"
-title:       "OAuth Extensions Error: insufficient_scope"
+layout:        concept
+permalink:     "/concepts/oauth-extension-error/insufficient_scope"
+title:         "OAuth Extensions Error: insufficient_scope"
+concept-name:  OAuth Extensions Error
+concept-value: insufficient_scope
 description: "The request requires higher privileges than provided by the access token."
 ---
 

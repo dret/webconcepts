@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Host"
-title:       "HTTP Header Field: Host"
+layout:        concept
+permalink:     "/concepts/http-header/Host"
+title:         "HTTP Header Field: Host"
+concept-name:  HTTP Header Field
+concept-value: Host
 description: "The \"Host\" header field in a request provides the host and port information from the target URI, enabling the origin server to distinguish among resources while servicing requests for multiple host names on a single IP address."
 ---
 

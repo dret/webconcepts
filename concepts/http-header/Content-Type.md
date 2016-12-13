@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Content-Type"
-title:       "HTTP Header Field: Content-Type"
+layout:        concept
+permalink:     "/concepts/http-header/Content-Type"
+title:         "HTTP Header Field: Content-Type"
+concept-name:  HTTP Header Field
+concept-value: Content-Type
 description: "The \"Content-Type\" header field indicates the media type of the associated representation: either the representation enclosed in the message payload or the selected representation, as determined by the message semantics. The indicated media type defines both the data format and how that data is intended to be processed by a recipient, within the scope of the received message semantics, after any content codings indicated by Content-Encoding are decoded."
 ---
 

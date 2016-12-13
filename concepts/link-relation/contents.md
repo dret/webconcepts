@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/link-relation/contents"
-title:       "Link Relation: contents"
+layout:        concept
+permalink:     "/concepts/link-relation/contents"
+title:         "Link Relation: contents"
+concept-name:  Link Relation
+concept-value: contents
 description: "Refers to a document serving as a table of contents. Some user agents also support the synonym ToC (from \"Table of Contents\")."
 ---
 

@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Accept-Charset"
-title:       "HTTP Header Field: Accept-Charset"
+layout:        concept
+permalink:     "/concepts/http-header/Accept-Charset"
+title:         "HTTP Header Field: Accept-Charset"
+concept-name:  HTTP Header Field
+concept-value: Accept-Charset
 description: "The \"Accept-Charset\" header field can be sent by a user agent to indicate what charsets are acceptable in textual response content. This field allows user agents capable of understanding more comprehensive or special-purpose charsets to signal that capability to an origin server that is capable of representing information in those charsets."
 ---
 

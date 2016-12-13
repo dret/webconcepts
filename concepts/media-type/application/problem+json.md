@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/media-type/application/problem+json"
-title:       "Media Type: application/problem+json"
+layout:        concept
+permalink:     "/concepts/media-type/application/problem+json"
+title:         "Media Type: application/problem+json"
+concept-name:  Media Type
+concept-value: application/problem+json
 description: "The canonical model for problem details is a JSON object. When serialised as a JSON document, that format is identified with the \"application/problem+json\" media type."
 ---
 

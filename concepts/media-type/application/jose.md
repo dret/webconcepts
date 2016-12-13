@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/media-type/application/jose"
-title:       "Media Type: application/jose"
+layout:        concept
+permalink:     "/concepts/media-type/application/jose"
+title:         "Media Type: application/jose"
+concept-name:  Media Type
+concept-value: application/jose
 description: "The \"application/jose\" media type can be used to indicate that the content is a JWS or JWE using the JWS Compact Serialization or the JWE Compact Serialization."
 ---
 

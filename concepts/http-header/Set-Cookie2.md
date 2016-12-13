@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Set-Cookie2"
-title:       "HTTP Header Field: Set-Cookie2"
+layout:        concept
+permalink:     "/concepts/http-header/Set-Cookie2"
+title:         "HTTP Header Field: Set-Cookie2"
+concept-name:  HTTP Header Field
+concept-value: Set-Cookie2
 description: "The origin server initiates a session, if it so desires. To do so, it returns an extra response header to the client, Set-Cookie2."
 ---
 

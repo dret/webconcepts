@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Authentication-Info"
-title:       "HTTP Header Field: Authentication-Info"
+layout:        concept
+permalink:     "/concepts/http-header/Authentication-Info"
+title:         "HTTP Header Field: Authentication-Info"
+concept-name:  HTTP Header Field
+concept-value: Authentication-Info
 description: "HTTP authentication schemes can use the Authentication-Info response header field to communicate information after the client's authentication credentials have been accepted. This information can include a finalization message from the server (e.g., it can contain the server authentication)."
 ---
 

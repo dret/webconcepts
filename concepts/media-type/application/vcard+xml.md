@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/media-type/application/vcard+xml"
-title:       "Media Type: application/vcard+xml"
+layout:        concept
+permalink:     "/concepts/media-type/application/vcard+xml"
+title:         "Media Type: application/vcard+xml"
+concept-name:  Media Type
+concept-value: application/vcard+xml
 description: "The MIME media type for use with vCard-in-XML data."
 ---
 

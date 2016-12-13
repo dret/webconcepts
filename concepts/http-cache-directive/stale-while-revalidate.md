@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-cache-directive/stale-while-revalidate"
-title:       "HTTP Cache Directive: stale-while-revalidate"
+layout:        concept
+permalink:     "/concepts/http-cache-directive/stale-while-revalidate"
+title:         "HTTP Cache Directive: stale-while-revalidate"
+concept-name:  HTTP Cache Directive
+concept-value: stale-while-revalidate
 description: "When present in an HTTP response, the stale-while-revalidate Cache-Control extension indicates that caches MAY serve the response in which it appears after it becomes stale, up to the indicated number of seconds."
 ---
 

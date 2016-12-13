@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-cache-directive/stale-if-error"
-title:       "HTTP Cache Directive: stale-if-error"
+layout:        concept
+permalink:     "/concepts/http-cache-directive/stale-if-error"
+title:         "HTTP Cache Directive: stale-if-error"
+concept-name:  HTTP Cache Directive
+concept-value: stale-if-error
 description: "The stale-if-error Cache-Control extension indicates that when an error is encountered, a cached stale response MAY be used to satisfy the request, regardless of other freshness information."
 ---
 

@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/link-relation/current"
-title:       "Link Relation: current"
+layout:        concept
+permalink:     "/concepts/link-relation/current"
+title:         "Link Relation: current"
+concept-name:  Link Relation
+concept-value: current
 description: "A URI that, when dereferenced, returns a feed document containing the most recent entries in the feed."
 ---
 

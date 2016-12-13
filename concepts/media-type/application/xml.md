@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/media-type/application/xml"
-title:       "Media Type: application/xml"
+layout:        concept
+permalink:     "/concepts/media-type/application/xml"
+title:         "Media Type: application/xml"
+concept-name:  Media Type
+concept-value: application/xml
 description: "The media types application/xml or text/xml, or a more specific media type, SHOULD be used for XML document entities."
 ---
 

@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/link-relation/stylesheet"
-title:       "Link Relation: stylesheet"
+layout:        concept
+permalink:     "/concepts/link-relation/stylesheet"
+title:         "Link Relation: stylesheet"
+concept-name:  Link Relation
+concept-value: stylesheet
 description: "Refers to an external style sheet. See the section on external style sheets for details. This is used together with the link type \"Alternate\" for user-selectable alternate style sheets."
 ---
 

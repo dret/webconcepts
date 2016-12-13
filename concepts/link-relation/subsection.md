@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/link-relation/subsection"
-title:       "Link Relation: subsection"
+layout:        concept
+permalink:     "/concepts/link-relation/subsection"
+title:         "Link Relation: subsection"
+concept-name:  Link Relation
+concept-value: subsection
 description: "Refers to a document serving as a subsection in a collection of documents."
 ---
 

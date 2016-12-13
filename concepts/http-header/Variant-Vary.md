@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Variant-Vary"
-title:       "HTTP Header Field: Variant-Vary"
+layout:        concept
+permalink:     "/concepts/http-header/Variant-Vary"
+title:         "HTTP Header Field: Variant-Vary"
+concept-name:  HTTP Header Field
+concept-value: Variant-Vary
 description: "The Variant-Vary response header can be used in a choice response to record any vary information which applies to the variant data (the entity body combined with some of the entity headers) contained in the response, rather than to the response as a whole."
 ---
 

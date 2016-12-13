@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Cache-NT"
-title:       "HTTP Header Field: Cache-NT"
+layout:        concept
+permalink:     "/concepts/http-header/Cache-NT"
+title:         "HTTP Header Field: Cache-NT"
+concept-name:  HTTP Header Field
+concept-value: Cache-NT
 description: "For precisely identifying transferred content independent of the used URL and independent of additional header fields in the context of content negotiation, the Cache-NT header field is used. The new header field carries an SHA-256 value."
 ---
 

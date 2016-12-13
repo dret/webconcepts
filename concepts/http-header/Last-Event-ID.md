@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Last-Event-ID"
-title:       "HTTP Header Field: Last-Event-ID"
+layout:        concept
+permalink:     "/concepts/http-header/Last-Event-ID"
+title:         "HTTP Header Field: Last-Event-ID"
+concept-name:  HTTP Header Field
+concept-value: Last-Event-ID
 description: "The Last-Event-ID HTTP header specifies the value of the event source's last event ID string, encoded as UTF-8."
 ---
 

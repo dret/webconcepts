@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Expires"
-title:       "HTTP Header Field: Expires"
+layout:        concept
+permalink:     "/concepts/http-header/Expires"
+title:         "HTTP Header Field: Expires"
+concept-name:  HTTP Header Field
+concept-value: Expires
 description: "The \"Expires\" header field gives the date/time after which the response is considered stale. The presence of an Expires field does not imply that the original resource will change or cease to exist at, before, or after that time."
 ---
 

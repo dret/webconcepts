@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Content-Language"
-title:       "HTTP Header Field: Content-Language"
+layout:        concept
+permalink:     "/concepts/http-header/Content-Language"
+title:         "HTTP Header Field: Content-Language"
+concept-name:  HTTP Header Field
+concept-value: Content-Language
 description: "The \"Content-Language\" header field describes the natural language(s) of the intended audience for the representation. Note that this might not be equivalent to all the languages used within the representation."
 ---
 

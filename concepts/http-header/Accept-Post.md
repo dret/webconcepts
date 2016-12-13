@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Accept-Post"
-title:       "HTTP Header Field: Accept-Post"
+layout:        concept
+permalink:     "/concepts/http-header/Accept-Post"
+title:         "HTTP Header Field: Accept-Post"
+concept-name:  HTTP Header Field
+concept-value: Accept-Post
 description: "The Accept-Post HTTP header SHOULD appear in the OPTIONS response for any resource that supports the use of the POST method. The presence of the Accept-Post header in response to any method is an implicit indication that POST is allowed on the resource identified by the Request-URI. The presence of a specific document format in this header indicates that that specific format is allowed on POST requests to the resource identified by the Request-URI."
 ---
 

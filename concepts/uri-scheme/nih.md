@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/uri-scheme/nih"
-title:       "URI Scheme: nih"
+layout:        concept
+permalink:     "/concepts/uri-scheme/nih"
+title:         "URI Scheme: nih"
+concept-name:  URI Scheme
+concept-value: nih
 description: "Fields in nih URIs are separated by a semicolon (;) character. The first field is a hash algorithm string, as in the ni URI format."
 ---
 

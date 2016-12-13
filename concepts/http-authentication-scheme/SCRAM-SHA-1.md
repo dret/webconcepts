@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-authentication-scheme/SCRAM-SHA-1"
-title:       "HTTP Authentication Scheme: SCRAM-SHA-1"
+layout:        concept
+permalink:     "/concepts/http-authentication-scheme/SCRAM-SHA-1"
+title:         "HTTP Authentication Scheme: SCRAM-SHA-1"
+concept-name:  HTTP Authentication Scheme
+concept-value: SCRAM-SHA-1
 description: "HTTP SCRAM is an HTTP Authentication mechanism whose client response and server challenge messages are text-based messages containing one or more attribute-value pairs separated by commas. SCRAM-SHA-1 is registered for database compatibility with implementations of RFC 5802 that want to also expose HTTP access to a related service, but it is not recommended for new deployments."
 ---
 

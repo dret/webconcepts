@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/jwt-claim/aud"
-title:       "JSON Web Token Claim: aud"
+layout:        concept
+permalink:     "/concepts/jwt-claim/aud"
+title:         "JSON Web Token Claim: aud"
+concept-name:  JSON Web Token Claim
+concept-value: aud
 description: "The \"aud\" (audience) claim identifies the recipients that the JWT is intended for. Each principal intended to process the JWT MUST identify itself with a value in the audience claim."
 ---
 

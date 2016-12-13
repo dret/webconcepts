@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-method/UPDATEREDIRECTREF"
-title:       "HTTP Request Method: UPDATEREDIRECTREF"
+layout:        concept
+permalink:     "/concepts/http-method/UPDATEREDIRECTREF"
+title:         "HTTP Request Method: UPDATEREDIRECTREF"
+concept-name:  HTTP Request Method
+concept-value: UPDATEREDIRECTREF
 description: "The UPDATEREDIRECTREF method requests the update of a redirect reference resource."
 ---
 

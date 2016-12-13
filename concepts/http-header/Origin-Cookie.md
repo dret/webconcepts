@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Origin-Cookie"
-title:       "HTTP Header Field: Origin-Cookie"
+layout:        concept
+permalink:     "/concepts/http-header/Origin-Cookie"
+title:         "HTTP Header Field: Origin-Cookie"
+concept-name:  HTTP Header Field
+concept-value: Origin-Cookie
 description: "The user agent includes stored cookies whose \"origin-flag\" is set in the \"Origin-Cookie\" request header. When the user agent generates an HTTP request, it MUST NOT attach more than one \"Origin-Cookie\" header field."
 ---
 

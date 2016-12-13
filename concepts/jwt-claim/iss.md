@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/jwt-claim/iss"
-title:       "JSON Web Token Claim: iss"
+layout:        concept
+permalink:     "/concepts/jwt-claim/iss"
+title:         "JSON Web Token Claim: iss"
+concept-name:  JSON Web Token Claim
+concept-value: iss
 description: "The \"iss\" (issuer) claim identifies the principal that issued the JWT. The processing of this claim is generally application specific."
 ---
 

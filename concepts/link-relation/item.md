@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/link-relation/item"
-title:       "Link Relation: item"
+layout:        concept
+permalink:     "/concepts/link-relation/item"
+title:         "Link Relation: item"
+concept-name:  Link Relation
+concept-value: item
 description: "When included in a resource that represents a collection, the 'item' link relation identifies a target resource that represents a member of that collection."
 ---
 

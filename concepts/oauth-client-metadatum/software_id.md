@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/oauth-client-metadatum/software_id"
-title:       "OAuth Dynamic Client Registration Metadatum: software_id"
+layout:        concept
+permalink:     "/concepts/oauth-client-metadatum/software_id"
+title:         "OAuth Dynamic Client Registration Metadatum: software_id"
+concept-name:  OAuth Dynamic Client Registration Metadatum
+concept-value: software_id
 description: "A unique identifier string (e.g., a Universally Unique Identifier (UUID)) assigned by the client developer or software publisher used by registration endpoints to identify the client software to be dynamically registered."
 ---
 

@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/WWW-Authenticate"
-title:       "HTTP Header Field: WWW-Authenticate"
+layout:        concept
+permalink:     "/concepts/http-header/WWW-Authenticate"
+title:         "HTTP Header Field: WWW-Authenticate"
+concept-name:  HTTP Header Field
+concept-value: WWW-Authenticate
 description: "The \"WWW-Authenticate\" header field consists of at least one challenge that indicates the authentication scheme(s) and parameters applicable to the effective request URI. It MUST be included in 401 (Unauthorized) response messages and MAY be included in other response messages to indicate that supplying credentials (or different credentials) might affect the response."
 ---
 

@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/uri-scheme/data"
-title:       "URI Scheme: data"
+layout:        concept
+permalink:     "/concepts/uri-scheme/data"
+title:         "URI Scheme: data"
+concept-name:  URI Scheme
+concept-value: data
 description: "Some applications that use URLs also have a need to embed (small) media type data directly inline. This document defines a new URL scheme that would work like 'immediate addressing'."
 ---
 

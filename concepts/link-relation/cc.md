@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/link-relation/cc"
-title:       "Link Relation: cc"
+layout:        concept
+permalink:     "/concepts/link-relation/cc"
+title:         "Link Relation: cc"
+concept-name:  Link Relation
+concept-value: cc
 description: "Refers to a resource that is considered to be  part of the public secondary audience of the link's context."
 ---
 

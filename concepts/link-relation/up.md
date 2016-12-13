@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/link-relation/up"
-title:       "Link Relation: up"
+layout:        concept
+permalink:     "/concepts/link-relation/up"
+title:         "Link Relation: up"
+concept-name:  Link Relation
+concept-value: up
 description: "An Atom link element with a rel attribute value of \"up\" may be used to reference a resource where parent entries of an entry or a feed may be found."
 ---
 

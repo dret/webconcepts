@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/media-type/multipart/form-data"
-title:       "Media Type: multipart/form-data"
+layout:        concept
+permalink:     "/concepts/media-type/multipart/form-data"
+title:         "Media Type: multipart/form-data"
+concept-name:  Media Type
+concept-value: multipart/form-data
 description: "The media-type multipart/form-data follows the rules of all multipart MIME data streams as outlined in RFC 2046. In forms, there are a series of fields to be supplied by the user who fills out the form. Each field has a name. Within a given form, the names are unique."
 ---
 

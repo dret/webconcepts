@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/oauth-parameter/client_secret"
-title:       "OAuth Parameter: client_secret"
+layout:        concept
+permalink:     "/concepts/oauth-parameter/client_secret"
+title:         "OAuth Parameter: client_secret"
+concept-name:  OAuth Parameter
+concept-value: client_secret
 description: "The client secret. The client MAY omit the parameter if the client secret is an empty string."
 ---
 

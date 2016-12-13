@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/media-type/application/atomdeleted+xml"
-title:       "Media Type: application/atomdeleted+xml"
+layout:        concept
+permalink:     "/concepts/media-type/application/atomdeleted+xml"
+title:         "Media Type: application/atomdeleted+xml"
+concept-name:  Media Type
+concept-value: application/atomdeleted+xml
 description: "A \"Deleted Entry Document\" represents exactly one at:deleted-entry element outside the context of an Atom feed. Its root is the at:deleted-entry element."
 ---
 

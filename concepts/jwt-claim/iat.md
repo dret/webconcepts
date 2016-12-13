@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/jwt-claim/iat"
-title:       "JSON Web Token Claim: iat"
+layout:        concept
+permalink:     "/concepts/jwt-claim/iat"
+title:         "JSON Web Token Claim: iat"
+concept-name:  JSON Web Token Claim
+concept-value: iat
 description: "The \"iat\" (issued at) claim identifies the time at which the JWT was issued. This claim can be used to determine the age of the JWT."
 ---
 

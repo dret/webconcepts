@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/oauth-client-metadatum/jwks_uri"
-title:       "OAuth Dynamic Client Registration Metadatum: jwks_uri"
+layout:        concept
+permalink:     "/concepts/oauth-client-metadatum/jwks_uri"
+title:         "OAuth Dynamic Client Registration Metadatum: jwks_uri"
+concept-name:  OAuth Dynamic Client Registration Metadatum
+concept-value: jwks_uri
 description: "Client's JSON Web Key Set document value, which contains the client's public keys. The value of this field MUST be a JSON object containing a valid JWK Set. These keys can be used by higher-level protocols that use signing or encryption. This parameter is intended to be used by clients that cannot use the \"jwks_uri\" parameter, such as native clients that cannot host public URLs."
 ---
 

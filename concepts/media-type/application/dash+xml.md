@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/media-type/application/dash+xml"
-title:       "Media Type: application/dash+xml"
+layout:        concept
+permalink:     "/concepts/media-type/application/dash+xml"
+title:         "Media Type: application/dash+xml"
+concept-name:  Media Type
+concept-value: application/dash+xml
 description: "\"application/dash+xml\" is the formal MIME type registration for the MPD. The Media Presentation Description (MPD) is a document that contains metadata required by a DASH Client to construct appropriate HTTP-URLs to access Segments and to provide the streaming service to the user."
 ---
 

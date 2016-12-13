@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Push-Policy"
-title:       "HTTP Header Field: Push-Policy"
+layout:        concept
+permalink:     "/concepts/http-header/Push-Policy"
+title:         "HTTP Header Field: Push-Policy"
+concept-name:  HTTP Header Field
+concept-value: Push-Policy
 description: "A server can indicate to a client the push policy it used when processing a request by sending a \"Push-Policy\" header field in the corresponding response."
 ---
 

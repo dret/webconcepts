@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/oauth-parameter/code"
-title:       "OAuth Parameter: code"
+layout:        concept
+permalink:     "/concepts/oauth-parameter/code"
+title:         "OAuth Parameter: code"
+concept-name:  OAuth Parameter
+concept-value: code
 description: "The authorization code received from the authorization server."
 ---
 

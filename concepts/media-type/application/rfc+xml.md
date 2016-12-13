@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/media-type/application/rfc+xml"
-title:       "Media Type: application/rfc+xml"
+layout:        concept
+permalink:     "/concepts/media-type/application/rfc+xml"
+title:         "Media Type: application/rfc+xml"
+concept-name:  Media Type
+concept-value: application/rfc+xml
 description: "This document updates the specification for the Internet media type \"application/rfc+xml\" from the one in I-D draft-reschke-xml2rfc.  The following is to be registered with IANA."
 ---
 

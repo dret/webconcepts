@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Content-Security-Policy-Report-Only-Pin"
-title:       "HTTP Header Field: Content-Security-Policy-Report-Only-Pin"
+layout:        concept
+permalink:     "/concepts/http-header/Content-Security-Policy-Report-Only-Pin"
+title:         "HTTP Header Field: Content-Security-Policy-Report-Only-Pin"
+concept-name:  HTTP Header Field
+concept-value: Content-Security-Policy-Report-Only-Pin
 description: "The Content-Security-Policy-Report-Only-Pin header field is the mechanism for delivering a pinned policy that the user agent MUST monitor for any resource which is not delivered with a Content-Security-Policy-Report-Only header (as described in the \"Pin a policy to response\" algorithm)."
 ---
 

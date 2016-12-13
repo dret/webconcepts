@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/link-relation/to"
-title:       "Link Relation: to"
+layout:        concept
+permalink:     "/concepts/link-relation/to"
+title:         "Link Relation: to"
+concept-name:  Link Relation
+concept-value: to
 description: "Refers to a resource that is considered to be part of the public primary audience of the link's context."
 ---
 

@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Schedule-Tag"
-title:       "HTTP Header Field: Schedule-Tag"
+layout:        concept
+permalink:     "/concepts/http-header/Schedule-Tag"
+title:         "HTTP Header Field: Schedule-Tag"
+concept-name:  HTTP Header Field
+concept-value: Schedule-Tag
 description: "The Schedule-Tag response header provides the current value of the CALDAV:schedule-tag property value."
 ---
 

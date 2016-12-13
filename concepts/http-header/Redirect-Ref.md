@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Redirect-Ref"
-title:       "HTTP Header Field: Redirect-Ref"
+layout:        concept
+permalink:     "/concepts/http-header/Redirect-Ref"
+title:         "HTTP Header Field: Redirect-Ref"
+concept-name:  HTTP Header Field
+concept-value: Redirect-Ref
 description: "The Redirect-Ref header is used in all 3xx responses from redirect reference resources. The value is the link target as specified during redirect reference resource creation."
 ---
 

@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Access-Control-Allow-Credentials"
-title:       "HTTP Header Field: Access-Control-Allow-Credentials"
+layout:        concept
+permalink:     "/concepts/http-header/Access-Control-Allow-Credentials"
+title:         "HTTP Header Field: Access-Control-Allow-Credentials"
+concept-name:  HTTP Header Field
+concept-value: Access-Control-Allow-Credentials
 description: "The Access-Control-Allow-Credentials header indicates whether the response to request can be exposed when the omit credentials flag is unset. When part of the response to a preflight request it indicates that the actual request can include user credentials."
 ---
 

@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/oauth-client-metadatum/redirect_uris"
-title:       "OAuth Dynamic Client Registration Metadatum: redirect_uris"
+layout:        concept
+permalink:     "/concepts/oauth-client-metadatum/redirect_uris"
+title:         "OAuth Dynamic Client Registration Metadatum: redirect_uris"
+concept-name:  OAuth Dynamic Client Registration Metadatum
+concept-value: redirect_uris
 description: "Array of redirection URI strings for use in redirect-based flows such as the authorization code and implicit flows."
 ---
 

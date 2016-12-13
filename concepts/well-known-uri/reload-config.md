@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/well-known-uri/reload-config"
-title:       "Well-Known URI: reload-config"
+layout:        concept
+permalink:     "/concepts/well-known-uri/reload-config"
+title:         "Well-Known URI: reload-config"
+concept-name:  Well-Known URI
+concept-value: reload-config
 description: "If a URL for the configuration server is not provided, the node MUST do a DNS SRV query using a Service name of \"reload-config\" and a protocol of TCP to find a configuration server and form the URL by appending a path of \"/.well-known/reload-config\" to the overlay name."
 ---
 

@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/oauth-parameter/code_challenge_method"
-title:       "OAuth Parameter: code_challenge_method"
+layout:        concept
+permalink:     "/concepts/oauth-parameter/code_challenge_method"
+title:         "OAuth Parameter: code_challenge_method"
+concept-name:  OAuth Parameter
+concept-value: code_challenge_method
 description: "Code verifier transformation method is \"S256\" or \"plain\". Defaults to \"plain\" if not present in the request."
 ---
 

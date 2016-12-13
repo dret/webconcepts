@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/media-type/application/held+xml"
-title:       "Media Type: application/held+xml"
+layout:        concept
+permalink:     "/concepts/media-type/application/held+xml"
+title:         "Media Type: application/held+xml"
+concept-name:  Media Type
+concept-value: application/held+xml
 description: "This section gives the XML Schema Definition of the \"application/held+xml\" format. This is presented as a formal definition of the \"application/held+xml\" format. Note that the XML Schema Definition is not intended to be used with on-the-fly validation of the presence XML document."
 ---
 

@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-method/MKREDIRECTREF"
-title:       "HTTP Request Method: MKREDIRECTREF"
+layout:        concept
+permalink:     "/concepts/http-method/MKREDIRECTREF"
+title:         "HTTP Request Method: MKREDIRECTREF"
+concept-name:  HTTP Request Method
+concept-value: MKREDIRECTREF
 description: "The MKREDIRECTREF method requests the creation of a redirect reference resource."
 ---
 

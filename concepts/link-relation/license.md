@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/link-relation/license"
-title:       "Link Relation: license"
+layout:        concept
+permalink:     "/concepts/link-relation/license"
+title:         "Link Relation: license"
+concept-name:  Link Relation
+concept-value: license
 description: "The \"license\" link relation can be used to associate licenses with a feed or entry. Feeds and entries can be dual-licensed by including multiple \"license\" link relations specifying different href attribute values. If multiple \"license\" link relations are specified, each SHOULD contain a title attribute specifying a human-readable label for the license."
 ---
 

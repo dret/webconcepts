@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/link-relation/derivedfrom"
-title:       "Link Relation: derivedfrom"
+layout:        concept
+permalink:     "/concepts/link-relation/derivedfrom"
+title:         "Link Relation: derivedfrom"
+concept-name:  Link Relation
+concept-value: derivedfrom
 description: "The document linked to was later converted to the document that contains this link relation. For example, an RFC can have a link to the Internet Draft that became the RFC; in that case, the link relation would be \"derivedfrom\"."
 ---
 

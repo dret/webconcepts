@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/jwt-confirmation-method/jwe"
-title:       "JWT Confirmation Method: jwe"
+layout:        concept
+permalink:     "/concepts/jwt-confirmation-method/jwe"
+title:         "JWT Confirmation Method: jwe"
+concept-name:  JWT Confirmation Method
+concept-value: jwe
 description: "When the key held by the presenter is a symmetric key, the \"jwe\" member is an encrypted JSON Web Key encrypted to a key known to the recipient using the JWE Compact Serialization containing the symmetric key."
 ---
 

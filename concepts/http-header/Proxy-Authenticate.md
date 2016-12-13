@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Proxy-Authenticate"
-title:       "HTTP Header Field: Proxy-Authenticate"
+layout:        concept
+permalink:     "/concepts/http-header/Proxy-Authenticate"
+title:         "HTTP Header Field: Proxy-Authenticate"
+concept-name:  HTTP Header Field
+concept-value: Proxy-Authenticate
 description: "The \"Proxy-Authenticate\" header field consists of at least one challenge that indicates the authentication scheme(s) and parameters applicable to the proxy for this effective request URI. It MUST be included as part of a 407 (Proxy Authentication Required) response."
 ---
 

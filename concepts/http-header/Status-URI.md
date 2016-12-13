@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Status-URI"
-title:       "HTTP Header Field: Status-URI"
+layout:        concept
+permalink:     "/concepts/http-header/Status-URI"
+title:         "HTTP Header Field: Status-URI"
+concept-name:  HTTP Header Field
+concept-value: Status-URI
 description: "The Status-URI response header may be used with the 102 (Processing) status code to inform the client as to the status of a method."
 ---
 

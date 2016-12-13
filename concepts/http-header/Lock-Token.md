@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Lock-Token"
-title:       "HTTP Header Field: Lock-Token"
+layout:        concept
+permalink:     "/concepts/http-header/Lock-Token"
+title:         "HTTP Header Field: Lock-Token"
+concept-name:  HTTP Header Field
+concept-value: Lock-Token
 description: "The Lock-Token request header is used with the UNLOCK method to identify the lock to be removed."
 ---
 

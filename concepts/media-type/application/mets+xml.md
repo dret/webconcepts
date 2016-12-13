@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/media-type/application/mets+xml"
-title:       "Media Type: application/mets+xml"
+layout:        concept
+permalink:     "/concepts/media-type/application/mets+xml"
+title:         "Media Type: application/mets+xml"
+concept-name:  Media Type
+concept-value: application/mets+xml
 description: "An XML schema for encoding descriptive, administrative, and structural metadata regarding objects within a digital library."
 ---
 

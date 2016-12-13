@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/oauth-client-metadatum/token_endpoint_auth_method"
-title:       "OAuth Dynamic Client Registration Metadatum: token_endpoint_auth_method"
+layout:        concept
+permalink:     "/concepts/oauth-client-metadatum/token_endpoint_auth_method"
+title:         "OAuth Dynamic Client Registration Metadatum: token_endpoint_auth_method"
+concept-name:  OAuth Dynamic Client Registration Metadatum
+concept-value: token_endpoint_auth_method
 description: "String indicator of the requested authentication method for the token endpoint. Values defined by this specification are: \"none\": The client is a public client as defined in OAuth 2.0 and does not have a client secret; \"client_secret_post\": The client uses the HTTP POST parameters as defined in OAuth 2.0; \"client_secret_basic\": The client uses HTTP Basic as defined in OAuth 2.0. Additional values can be defined via the IANA \"OAuth Token Endpoint Authentication Methods\""
 ---
 

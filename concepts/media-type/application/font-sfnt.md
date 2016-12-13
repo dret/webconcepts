@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/media-type/application/font-sfnt"
-title:       "Media Type: application/font-sfnt"
+layout:        concept
+permalink:     "/concepts/media-type/application/font-sfnt"
+title:         "Media Type: application/font-sfnt"
+concept-name:  Media Type
+concept-value: application/font-sfnt
 description: "An Open font file contains data, in table format, that comprises either a TrueType or a PostScript outline font. Rasterizers use combinations of data from the tables contained in the font to render the TrueType or PostScript glyph outlines. Some of this supporting data is used no matter which outline format is used; some of the supporting data is specific to either TrueType or PostScript."
 ---
 

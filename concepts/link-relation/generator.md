@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/link-relation/generator"
-title:       "Link Relation: generator"
+layout:        concept
+permalink:     "/concepts/link-relation/generator"
+title:         "Link Relation: generator"
+concept-name:  Link Relation
+concept-value: generator
 description: "Refers to the resource that generated the context  resource. Typically, this would be used to identify the software application that created the context resource."
 ---
 

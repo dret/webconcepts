@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/link-relation/disclosure"
-title:       "Link Relation: disclosure"
+layout:        concept
+permalink:     "/concepts/link-relation/disclosure"
+title:         "Link Relation: disclosure"
+concept-name:  Link Relation
+concept-value: disclosure
 description: "Whenever the 'disclosure' relation type is used, the resource at the target Internationalized Resource Identifier (IRI) MUST represent a list of patent disclosures made with respect to the material referenced by context IRI."
 ---
 

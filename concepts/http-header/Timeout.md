@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Timeout"
-title:       "HTTP Header Field: Timeout"
+layout:        concept
+permalink:     "/concepts/http-header/Timeout"
+title:         "HTTP Header Field: Timeout"
+concept-name:  HTTP Header Field
+concept-value: Timeout
 description: "Clients MAY include Timeout request headers in their LOCK requests. However, the server is not required to honor or even consider these requests."
 ---
 

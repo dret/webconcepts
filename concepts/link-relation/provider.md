@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/link-relation/provider"
-title:       "Link Relation: provider"
+layout:        concept
+permalink:     "/concepts/link-relation/provider"
+title:         "Link Relation: provider"
+concept-name:  Link Relation
+concept-value: provider
 description: "Refers to the resource that provided the context resource. Typically, this would be used to identify the entity publishing the resource."
 ---
 

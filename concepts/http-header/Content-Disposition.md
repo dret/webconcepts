@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Content-Disposition"
-title:       "HTTP Header Field: Content-Disposition"
+layout:        concept
+permalink:     "/concepts/http-header/Content-Disposition"
+title:         "HTTP Header Field: Content-Disposition"
+concept-name:  HTTP Header Field
+concept-value: Content-Disposition
 description: "The Content-Disposition response header field is used to convey additional information about how to process the response payload, and also can be used to attach additional metadata, such as the filename to use when saving the response payload locally."
 ---
 

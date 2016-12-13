@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/media-type/application/p2p-overlay+xml"
-title:       "Media Type: application/p2p-overlay+xml"
+layout:        concept
+permalink:     "/concepts/media-type/application/p2p-overlay+xml"
+title:         "Media Type: application/p2p-overlay+xml"
+concept-name:  Media Type
+concept-value: application/p2p-overlay+xml
 description: "This specification defines a new content type \"application/p2p-overlay+xml\" for a MIME entity that contains overlay information."
 ---
 

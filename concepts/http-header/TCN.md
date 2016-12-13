@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/TCN"
-title:       "HTTP Header Field: TCN"
+layout:        concept
+permalink:     "/concepts/http-header/TCN"
+title:         "HTTP Header Field: TCN"
+concept-name:  HTTP Header Field
+concept-value: TCN
 description: "The TCN response header is used by a server to signal that the resource is transparently negotiated."
 ---
 

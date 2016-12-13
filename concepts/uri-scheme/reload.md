@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/uri-scheme/reload"
-title:       "URI Scheme: reload"
+layout:        concept
+permalink:     "/concepts/uri-scheme/reload"
+title:         "URI Scheme: reload"
+concept-name:  URI Scheme
+concept-value: reload
 description: "This section describes the scheme for a reload URI, which can be used to refer to either a peer (e.g., as used in a certificate), or a resource inside a peer."
 ---
 

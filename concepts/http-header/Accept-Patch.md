@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Accept-Patch"
-title:       "HTTP Header Field: Accept-Patch"
+layout:        concept
+permalink:     "/concepts/http-header/Accept-Patch"
+title:         "HTTP Header Field: Accept-Patch"
+concept-name:  HTTP Header Field
+concept-value: Accept-Patch
 description: "This specification introduces a new response header Accept-Patch used to specify the patch document formats accepted by the server. Accept-Patch SHOULD appear in the OPTIONS response for any resource that supports the use of the PATCH method. The presence of the Accept-Patch header in response to any method is an implicit indication that PATCH is allowed on the resource identified by the Request-URI."
 ---
 

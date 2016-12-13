@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Content-DPR"
-title:       "HTTP Header Field: Content-DPR"
+layout:        concept
+permalink:     "/concepts/http-header/Content-DPR"
+title:         "HTTP Header Field: Content-DPR"
+concept-name:  HTTP Header Field
+concept-value: Content-DPR
 description: "The \"Content-DPR\" header field is a number that indicates the ratio between physical pixels over CSS px of the selected image response."
 ---
 

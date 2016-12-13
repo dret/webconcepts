@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/urn-namespace/example"
-title:       "URN Namespace: example"
+layout:        concept
+permalink:     "/concepts/urn-namespace/example"
+title:         "URN Namespace: example"
+concept-name:  URN Namespace
+concept-value: example
 description: "The \"example\" NID is intended to provide a clean, easily recognizable space for minting examples to be used in documentation and in URN-related testing and experimentation. "
 ---
 

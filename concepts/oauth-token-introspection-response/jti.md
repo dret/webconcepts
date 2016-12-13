@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/oauth-token-introspection-response/jti"
-title:       "OAuth Token Introspection Response: jti"
+layout:        concept
+permalink:     "/concepts/oauth-token-introspection-response/jti"
+title:         "OAuth Token Introspection Response: jti"
+concept-name:  OAuth Token Introspection Response
+concept-value: jti
 description: "String identifier for the token, as defined in JWT."
 ---
 

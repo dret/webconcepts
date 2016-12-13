@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/media-type/application/hal+json"
-title:       "Media Type: application/hal+json"
+layout:        concept
+permalink:     "/concepts/media-type/application/hal+json"
+title:         "Media Type: application/hal+json"
+concept-name:  Media Type
+concept-value: application/hal+json
 description: "HAL is a generic media type with which Web APIs can be developed and exposed as series of links. Clients of these APIs can select links by their link relation type and traverse them in order to progress through the application."
 ---
 

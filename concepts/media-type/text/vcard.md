@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/media-type/text/vcard"
-title:       "Media Type: text/vcard"
+layout:        concept
+permalink:     "/concepts/media-type/text/vcard"
+title:         "Media Type: text/vcard"
+concept-name:  Media Type
+concept-value: text/vcard
 description: "The text/vcard MIME content type (hereafter known as \"vCard\") contains contact information, typically pertaining to a single contact or group of contacts. The content consists of one or more lines in the format given below."
 ---
 

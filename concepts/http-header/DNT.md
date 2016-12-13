@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/DNT"
-title:       "HTTP Header Field: DNT"
+layout:        concept
+permalink:     "/concepts/http-header/DNT"
+title:         "HTTP Header Field: DNT"
+concept-name:  HTTP Header Field
+concept-value: DNT
 description: "The DNT header field is defined as the means for expressing a user's tracking preference via HTTP."
 ---
 

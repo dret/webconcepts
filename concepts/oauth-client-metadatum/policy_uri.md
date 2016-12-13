@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/oauth-client-metadatum/policy_uri"
-title:       "OAuth Dynamic Client Registration Metadatum: policy_uri"
+layout:        concept
+permalink:     "/concepts/oauth-client-metadatum/policy_uri"
+title:         "OAuth Dynamic Client Registration Metadatum: policy_uri"
+concept-name:  OAuth Dynamic Client Registration Metadatum
+concept-value: policy_uri
 description: "URL string that points to a human-readable privacy policy document that describes how the deployment organization collects, uses, retains, and discloses personal data."
 ---
 

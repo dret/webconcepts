@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Public-Key-Pins-Report-Only"
-title:       "HTTP Header Field: Public-Key-Pins-Report-Only"
+layout:        concept
+permalink:     "/concepts/http-header/Public-Key-Pins-Report-Only"
+title:         "HTTP Header Field: Public-Key-Pins-Report-Only"
+concept-name:  HTTP Header Field
+concept-value: Public-Key-Pins-Report-Only
 description: "Upon receipt of a Public-Key-Pins-Report-Only response header field, the UA should evaluate the policy expressed in the field, and SHOULD generate and send a report. However, failure to validate the Pins in the field MUST have no effect on the validity or non-validity of the policy expressed in the PKP field or in previously noted Pins for the Known Pinned Host."
 ---
 

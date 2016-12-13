@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/well-known-uri/stun-key"
-title:       "Well-Known URI: stun-key"
+layout:        concept
+permalink:     "/concepts/well-known-uri/stun-key"
+title:         "Well-Known URI: stun-key"
+concept-name:  Well-Known URI
+concept-value: stun-key
 description: "The STUN and AS servers could choose to use Representational State Transfer (REST) API over HTTPS to establish a long-term symmetric key. HTTPS MUST be used for data confidentiality, and TLS based on a client certificate MUST be used for mutual authentication. To retrieve a new long-term symmetric key, the STUN server makes an HTTP GET request to the authorization server, specifying STUN as the service to allocate the long-term symmetric keys for and specifying the name of the STUN server."
 ---
 

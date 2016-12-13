@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/link-relation/create"
-title:       "Link Relation: create"
+layout:        concept
+permalink:     "/concepts/link-relation/create"
+title:         "Link Relation: create"
+concept-name:  Link Relation
+concept-value: create
 description: "This indicates a target to use for creating new instances of a schema. This link definition SHOULD be a submission link with a non-safe method (like POST)."
 ---
 

@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-method/SEARCH"
-title:       "HTTP Request Method: SEARCH"
+layout:        concept
+permalink:     "/concepts/http-method/SEARCH"
+title:         "HTTP Request Method: SEARCH"
+concept-name:  HTTP Request Method
+concept-value: SEARCH
 description: "The client invokes the SEARCH method to initiate a server-side search. The body of the request defines the query. The server MUST emit an entity matching the WebDAV multistatus format."
 ---
 

@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/uri-scheme/sms"
-title:       "URI Scheme: sms"
+layout:        concept
+permalink:     "/concepts/uri-scheme/sms"
+title:         "URI Scheme: sms"
+concept-name:  URI Scheme
+concept-value: sms
 description: "This URI scheme provides information that can be used for sending SMS message(s) to specified recipient(s). The functionality is comparable to that of the \"mailto\" URI, which can also be used with a comma-separated list of email addresses."
 ---
 

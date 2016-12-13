@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/link-relation/edit-form"
-title:       "Link Relation: edit-form"
+layout:        concept
+permalink:     "/concepts/link-relation/edit-form"
+title:         "Link Relation: edit-form"
+concept-name:  Link Relation
+concept-value: edit-form
 description: "When included in a response, the \"edit-form\" link relation indicates a target resource that represents a form that can be used for updating the context resource."
 ---
 

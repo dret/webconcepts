@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Content-Security-Policy-Pin"
-title:       "HTTP Header Field: Content-Security-Policy-Pin"
+layout:        concept
+permalink:     "/concepts/http-header/Content-Security-Policy-Pin"
+title:         "HTTP Header Field: Content-Security-Policy-Pin"
+concept-name:  HTTP Header Field
+concept-value: Content-Security-Policy-Pin
 description: "The Content-Security-Policy-Pin header field is the mechanism for delivering a pinned policy that the user agent MUST enforce for any resource which is not delivered with a Content-Security-Policy header (as described in the \"Pin a policy to response\" algorithm)."
 ---
 

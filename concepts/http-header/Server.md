@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Server"
-title:       "HTTP Header Field: Server"
+layout:        concept
+permalink:     "/concepts/http-header/Server"
+title:         "HTTP Header Field: Server"
+concept-name:  HTTP Header Field
+concept-value: Server
 description: "The \"Server\" header field contains information about the software used by the origin server to handle the request, which is often used by clients to help identify the scope of reported interoperability problems, to work around or tailor requests to avoid particular server limitations, and for analytics regarding server or operating system use."
 ---
 

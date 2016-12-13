@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Sec-COWL"
-title:       "HTTP Header Field: Sec-COWL"
+layout:        concept
+permalink:     "/concepts/http-header/Sec-COWL"
+title:         "HTTP Header Field: Sec-COWL"
+concept-name:  HTTP Header Field
+concept-value: Sec-COWL
 description: "The Sec-COWL HTTP request and response headers are used by user agents and servers to convey label metadata to servers and user agents, respectively."
 ---
 

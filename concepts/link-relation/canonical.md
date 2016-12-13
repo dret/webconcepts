@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/link-relation/canonical"
-title:       "Link Relation: canonical"
+layout:        concept
+permalink:     "/concepts/link-relation/canonical"
+title:         "Link Relation: canonical"
+concept-name:  Link Relation
+concept-value: canonical
 description: "The target (canonical) IRI MUST identify content that is either duplicative or a superset of the content at the context (referring) IRI."
 ---
 

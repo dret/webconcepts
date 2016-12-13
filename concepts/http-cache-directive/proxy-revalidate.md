@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-cache-directive/proxy-revalidate"
-title:       "HTTP Cache Directive: proxy-revalidate"
+layout:        concept
+permalink:     "/concepts/http-cache-directive/proxy-revalidate"
+title:         "HTTP Cache Directive: proxy-revalidate"
+concept-name:  HTTP Cache Directive
+concept-value: proxy-revalidate
 description: "The \"proxy-revalidate\" response directive has the same meaning as the must-revalidate response directive, except that it does not apply to private caches."
 ---
 

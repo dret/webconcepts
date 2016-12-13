@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Negotiate"
-title:       "HTTP Header Field: Negotiate"
+layout:        concept
+permalink:     "/concepts/http-header/Negotiate"
+title:         "HTTP Header Field: Negotiate"
+concept-name:  HTTP Header Field
+concept-value: Negotiate
 description: "The Negotiate request header can contain directives for any content negotiation process initiated by the request."
 ---
 

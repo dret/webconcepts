@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/oauth-extension-error/invalid_request"
-title:       "OAuth Extensions Error: invalid_request"
+layout:        concept
+permalink:     "/concepts/oauth-extension-error/invalid_request"
+title:         "OAuth Extensions Error: invalid_request"
+concept-name:  OAuth Extensions Error
+concept-value: invalid_request
 description: "The request is missing a required parameter, includes an unsupported parameter or parameter value, repeats the same parameter, uses more than one method for including an access token, or is otherwise malformed."
 ---
 

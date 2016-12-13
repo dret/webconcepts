@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/urn-namespace/issn"
-title:       "URN Namespace: issn"
+layout:        concept
+permalink:     "/concepts/urn-namespace/issn"
+title:         "URN Namespace: issn"
+concept-name:  URN Namespace
+concept-value: issn
 description: "In accordance with the ISO standard 3297 International Standard Serial Number (ISSN). The ISSN consists of eight digits in Arabic numerals 0 to 9, except the last digit which is a check digit and can sometimes be an X. The ISSN has no internal meaningful elements to identify language, country, publisher."
 ---
 

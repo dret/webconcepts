@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-range-unit/bytes-live"
-title:       "HTTP Range Unit: bytes-live"
+layout:        concept
+permalink:     "/concepts/http-range-unit/bytes-live"
+title:         "HTTP Range Unit: bytes-live"
+concept-name:  HTTP Range Unit
+concept-value: bytes-live
 description: "As with the \"bytes\" range unit, a \"bytes-live\" Range request allows a client to designate a subset of bytes from the representation data to be transferred in payloads as a sequence of octets. But the form of a \"bytes-live\" request is focused on accessing data that may be appended to the representation over time."
 ---
 

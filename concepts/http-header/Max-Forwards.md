@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Max-Forwards"
-title:       "HTTP Header Field: Max-Forwards"
+layout:        concept
+permalink:     "/concepts/http-header/Max-Forwards"
+title:         "HTTP Header Field: Max-Forwards"
+concept-name:  HTTP Header Field
+concept-value: Max-Forwards
 description: "The \"Max-Forwards\" header field provides a mechanism with the TRACE and OPTIONS request methods to limit the number of times that the request is forwarded by proxies."
 ---
 

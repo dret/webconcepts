@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Alt-Used"
-title:       "HTTP Header Field: Alt-Used"
+layout:        concept
+permalink:     "/concepts/http-header/Alt-Used"
+title:         "HTTP Header Field: Alt-Used"
+concept-name:  HTTP Header Field
+concept-value: Alt-Used
 description: "The Alt-Used header field is used in requests to indicate the identity of the alternative service in use, just as the Host header field identifies the host and port of the origin. Alt-Used is intended to allow alternative services to detect loops, differentiate traffic for purposes of load balancing, and generally to ensure that it is possible to identify the intended destination of traffic, since introducing this information after a protocol is in use has proven to be problematic."
 ---
 

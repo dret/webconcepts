@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/oauth-client-metadatum/client_secret"
-title:       "OAuth Dynamic Client Registration Metadatum: client_secret"
+layout:        concept
+permalink:     "/concepts/oauth-client-metadatum/client_secret"
+title:         "OAuth Dynamic Client Registration Metadatum: client_secret"
+concept-name:  OAuth Dynamic Client Registration Metadatum
+concept-value: client_secret
 description: "OAuth 2.0 client secret string. If issued, this MUST be unique for each \"client_id\" and SHOULD be unique for multiple instances of a client using the same \"client_id\"."
 ---
 

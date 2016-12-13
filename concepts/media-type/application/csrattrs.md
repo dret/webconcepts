@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/media-type/application/csrattrs"
-title:       "Media Type: application/csrattrs"
+layout:        concept
+permalink:     "/concepts/media-type/application/csrattrs"
+title:         "Media Type: application/csrattrs"
+concept-name:  Media Type
+concept-value: application/csrattrs
 description: "Responses to attribute request messages MUST be encoded as the content-type of \"application/csrattrs\" with a Content-Transfer-Encoding of \"base64\"."
 ---
 

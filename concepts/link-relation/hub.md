@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/link-relation/hub"
-title:       "Link Relation: hub"
+layout:        concept
+permalink:     "/concepts/link-relation/hub"
+title:         "Link Relation: hub"
+concept-name:  Link Relation
+concept-value: hub
 description: "A potential subscriber initiates discovery by retrieving (GET or HEAD request) the topic to which it wants to subscribe. The HTTP response from the publisher MUST include at least one Link Header with rel=hub (a hub link header) as well as exactly one Link Header with rel=self (the self link header). The former MUST indicate the exact URL of a WebSub hub designated by the publisher."
 ---
 

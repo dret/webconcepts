@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/link-relation/source"
-title:       "Link Relation: source"
+layout:        concept
+permalink:     "/concepts/link-relation/source"
+title:         "Link Relation: source"
+concept-name:  Link Relation
+concept-value: source
 description: "Refers to the original source of information contained by the context resource."
 ---
 

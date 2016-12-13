@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/media-type/application/powder+xml"
-title:       "Media Type: application/powder+xml"
+layout:        concept
+permalink:     "/concepts/media-type/application/powder+xml"
+title:         "Media Type: application/powder+xml"
+concept-name:  Media Type
+concept-value: application/powder+xml
 description: "???"
 ---
 

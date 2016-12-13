@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/link-relation/bto"
-title:       "Link Relation: bto"
+layout:        concept
+permalink:     "/concepts/link-relation/bto"
+title:         "Link Relation: bto"
+concept-name:  Link Relation
+concept-value: bto
 description: "Refers to a resource that is considered to be part of the private primary audience of the link's context."
 ---
 

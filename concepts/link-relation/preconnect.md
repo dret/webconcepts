@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/link-relation/preconnect"
-title:       "Link Relation: preconnect"
+layout:        concept
+permalink:     "/concepts/link-relation/preconnect"
+title:         "Link Relation: preconnect"
+concept-name:  Link Relation
+concept-value: preconnect
 description: "The preconnect link relation type is used to indicate an origin that will be used to fetch required resources. Initiating an early connection, which includes the DNS lookup, TCP handshake, and optional TLS negotiation, allows the user agent to mask the high latency costs of establishing a connection."
 ---
 

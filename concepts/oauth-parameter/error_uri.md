@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/oauth-parameter/error_uri"
-title:       "OAuth Parameter: error_uri"
+layout:        concept
+permalink:     "/concepts/oauth-parameter/error_uri"
+title:         "OAuth Parameter: error_uri"
+concept-name:  OAuth Parameter
+concept-value: error_uri
 description: "A URI identifying a human-readable web page with information about the error, used to provide the client developer with additional information about the error."
 ---
 

@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/oauth-parameter/token_type"
-title:       "OAuth Parameter: token_type"
+layout:        concept
+permalink:     "/concepts/oauth-parameter/token_type"
+title:         "OAuth Parameter: token_type"
+concept-name:  OAuth Parameter
+concept-value: token_type
 description: "The type of the token issued."
 ---
 

@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-forwarded-parameter/for"
-title:       "HTTP Forwarded Parameter: for"
+layout:        concept
+permalink:     "/concepts/http-forwarded-parameter/for"
+title:         "HTTP Forwarded Parameter: for"
+concept-name:  HTTP Forwarded Parameter
+concept-value: for
 description: "The \"for\" parameter is used to disclose information about the client that initiated the request and subsequent proxies in a chain of proxies."
 ---
 

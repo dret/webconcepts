@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/media-type/application/ld+json"
-title:       "Media Type: application/ld+json"
+layout:        concept
+permalink:     "/concepts/media-type/application/ld+json"
+title:         "Media Type: application/ld+json"
+concept-name:  Media Type
+concept-value: application/ld+json
 description: "Generally speaking, the data model used for JSON-LD is a labeled, directed graph. The graph contains nodes, which are connected by edges. A node is typically data such as a string, number, typed values (like dates and times) or an IRI. There is also a special class of node called a blank node, which is typically used to express data that does not have a global identifier like an IRI. Blank nodes are identified using a blank node identifier."
 ---
 

@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/uri-scheme/ni"
-title:       "URI Scheme: ni"
+layout:        concept
+permalink:     "/concepts/uri-scheme/ni"
+title:         "URI Scheme: ni"
+concept-name:  URI Scheme
+concept-value: ni
 description: "A Named Identifier can be represented using the ni URI scheme that we specifically define for the name. However it is represented, the Named Identifier *names* a resource, and the mechanism used to dereference the name and to *locate* the named resource needs to be known by the entity that dereferences it."
 ---
 

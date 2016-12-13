@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/media-type/application/mods+xml"
-title:       "Media Type: application/mods+xml"
+layout:        concept
+permalink:     "/concepts/media-type/application/mods+xml"
+title:         "Media Type: application/mods+xml"
+concept-name:  Media Type
+concept-value: application/mods+xml
 description: "An XML schema for a bibliographic element set that may be used for a variety of purposes, and particularly for library applications."
 ---
 

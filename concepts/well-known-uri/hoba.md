@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/well-known-uri/hoba"
-title:       "Well-Known URI: hoba"
+layout:        concept
+permalink:     "/concepts/well-known-uri/hoba"
+title:         "Well-Known URI: hoba"
+concept-name:  Well-Known URI
+concept-value: hoba
 description: "HOBA-http uses a well-known URI \"hoba\" as a base URI for performing many tasks: \"https://www.example.com/.well-known/hoba\". These URIs are based on the name of the host that the HTTP client is accessing."
 ---
 

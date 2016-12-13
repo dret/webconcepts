@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/media-type/application/jwt"
-title:       "Media Type: application/jwt"
+layout:        concept
+permalink:     "/concepts/media-type/application/jwt"
+title:         "Media Type: application/jwt"
+concept-name:  Media Type
+concept-value: application/jwt
 description: "The JWT Claims Set represents a JSON object whose members are the claims conveyed by the JWT."
 ---
 

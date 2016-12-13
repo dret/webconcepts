@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Prefer"
-title:       "HTTP Header Field: Prefer"
+layout:        concept
+permalink:     "/concepts/http-header/Prefer"
+title:         "HTTP Header Field: Prefer"
+concept-name:  HTTP Header Field
+concept-value: Prefer
 description: "The Prefer request header field is used to indicate that particular server behaviors are preferred by the client, but not required for successful completion of the request. Prefer is similar in nature to the Expect header field with the exception that servers are allowed to ignore stated preferences."
 ---
 

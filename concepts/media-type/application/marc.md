@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/media-type/application/marc"
-title:       "Media Type: application/marc"
+layout:        concept
+permalink:     "/concepts/media-type/application/marc"
+title:         "Media Type: application/marc"
+concept-name:  Media Type
+concept-value: application/marc
 description: "Since there are different flavors of MARC which would be processed by different applications, this content-type/subtype refers to the harmonized USMARC/CANMARC specification. Additional content-types/subtypes may be defined in the future (e.g. application/unimarc)."
 ---
 

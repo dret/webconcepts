@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/link-relation/collection"
-title:       "Link Relation: collection"
+layout:        concept
+permalink:     "/concepts/link-relation/collection"
+title:         "Link Relation: collection"
+concept-name:  Link Relation
+concept-value: collection
 description: "When included in a resource that represents a member of a collection, the 'collection' link relation identifies a target resource that represents a collection of which the context resource is a member."
 ---
 

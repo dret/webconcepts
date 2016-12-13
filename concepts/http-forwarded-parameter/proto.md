@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-forwarded-parameter/proto"
-title:       "HTTP Forwarded Parameter: proto"
+layout:        concept
+permalink:     "/concepts/http-forwarded-parameter/proto"
+title:         "HTTP Forwarded Parameter: proto"
+concept-name:  HTTP Forwarded Parameter
+concept-value: proto
 description: "The \"proto\" parameter has the value of the used protocol type."
 ---
 

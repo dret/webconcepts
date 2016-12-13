@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/oauth-parameter/assertion"
-title:       "OAuth Parameter: assertion"
+layout:        concept
+permalink:     "/concepts/oauth-parameter/assertion"
+title:         "OAuth Parameter: assertion"
+concept-name:  OAuth Parameter
+concept-value: assertion
 description: "The assertion being used as an authorization grant. Specific serialization of the assertion is defined by profile documents."
 ---
 

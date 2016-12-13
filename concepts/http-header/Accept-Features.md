@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Accept-Features"
-title:       "HTTP Header Field: Accept-Features"
+layout:        concept
+permalink:     "/concepts/http-header/Accept-Features"
+title:         "HTTP Header Field: Accept-Features"
+concept-name:  HTTP Header Field
+concept-value: Accept-Features
 description: "The Accept-Features request header can be used by a user agent to give information about the presence or absence of certain features in the feature set of the current request. Servers can use this information when running a remote variant selection algorithm."
 ---
 

@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Save-Data"
-title:       "HTTP Header Field: Save-Data"
+layout:        concept
+permalink:     "/concepts/http-header/Save-Data"
+title:         "HTTP Header Field: Save-Data"
+concept-name:  HTTP Header Field
+concept-value: Save-Data
 description: "The \"Save-Data\" header field is a token that, in requests, indicates client's preference for reduced data usage, due to high transfer costs, slow connection speeds, or other reasons."
 ---
 

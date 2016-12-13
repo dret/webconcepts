@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/DAV"
-title:       "HTTP Header Field: DAV"
+layout:        concept
+permalink:     "/concepts/http-header/DAV"
+title:         "HTTP Header Field: DAV"
+concept-name:  HTTP Header Field
+concept-value: DAV
 description: "This general-header appearing in the response indicates that the resource supports the DAV schema and protocol as specified. As a request header, this header allows the client to advertise compliance with named features when the server needs that information."
 ---
 

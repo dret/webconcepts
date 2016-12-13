@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/link-relation/prev-archive"
-title:       "Link Relation: prev-archive"
+layout:        concept
+permalink:     "/concepts/link-relation/prev-archive"
+title:         "Link Relation: prev-archive"
+concept-name:  Link Relation
+concept-value: prev-archive
 description: "A URI that refers to the immediately preceding archive document."
 ---
 

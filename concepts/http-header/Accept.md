@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Accept"
-title:       "HTTP Header Field: Accept"
+layout:        concept
+permalink:     "/concepts/http-header/Accept"
+title:         "HTTP Header Field: Accept"
+concept-name:  HTTP Header Field
+concept-value: Accept
 description: "The \"Accept\" header field can be used by user agents to specify response media types that are acceptable. Accept header fields can be used to indicate that the request is specifically limited to a small set of desired types, as in the case of a request for an in-line image."
 ---
 

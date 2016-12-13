@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/media-type/application/atom+xml"
-title:       "Media Type: application/atom+xml"
+layout:        concept
+permalink:     "/concepts/media-type/application/atom+xml"
+title:         "Media Type: application/atom+xml"
+concept-name:  Media Type
+concept-value: application/atom+xml
 description: "This specification describes two kinds of Atom Documents: Atom Feed Documents and Atom Entry Documents. Both kinds of Atom Documents are specified in terms of the XML Information Set, serialized as XML 1.0 and identified with the \"application/atom+xml\" media type. Atom Documents MUST be well-formed XML."
 ---
 

@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/User-Agent"
-title:       "HTTP Header Field: User-Agent"
+layout:        concept
+permalink:     "/concepts/http-header/User-Agent"
+title:         "HTTP Header Field: User-Agent"
+concept-name:  HTTP Header Field
+concept-value: User-Agent
 description: "The \"User-Agent\" header field contains information about the user agent originating the request, which is often used by servers to help identify the scope of reported interoperability problems, to work around or tailor responses to avoid particular user agent limitations, and for analytics regarding browser or operating system use."
 ---
 

@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Proxy-Instruction"
-title:       "HTTP Header Field: Proxy-Instruction"
+layout:        concept
+permalink:     "/concepts/http-header/Proxy-Instruction"
+title:         "HTTP Header Field: Proxy-Instruction"
+concept-name:  HTTP Header Field
+concept-value: Proxy-Instruction
 description: "The proxy instruction header is used to reply to a proxy features header. It should only be present when a Proxy-Features header was present in the corresponding request."
 ---
 

@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/media-type/application/alps+xml"
-title:       "Media Type: application/alps+xml"
+layout:        concept
+permalink:     "/concepts/media-type/application/alps+xml"
+title:         "Media Type: application/alps+xml"
+concept-name:  Media Type
+concept-value: application/alps+xml
 description: "In the XML version of an ALPS document, the following ALPS properties always appear as XML elements: 'alps', 'doc', 'descriptor', and 'ext'. All other ALPS properties appear as XML attributes."
 ---
 

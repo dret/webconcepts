@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Set-Cookie"
-title:       "HTTP Header Field: Set-Cookie"
+layout:        concept
+permalink:     "/concepts/http-header/Set-Cookie"
+title:         "HTTP Header Field: Set-Cookie"
+concept-name:  HTTP Header Field
+concept-value: Set-Cookie
 description: "The Set-Cookie HTTP response header is used to send cookies from the server to the user agent."
 ---
 

@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-cache-directive/max-stale"
-title:       "HTTP Cache Directive: max-stale"
+layout:        concept
+permalink:     "/concepts/http-cache-directive/max-stale"
+title:         "HTTP Cache Directive: max-stale"
+concept-name:  HTTP Cache Directive
+concept-value: max-stale
 description: "The \"max-stale\" request directive indicates that the client is willing to accept a response that has exceeded its freshness lifetime. If max-stale is assigned a value, then the client is willing to accept a response that has exceeded its freshness lifetime by no more than the specified number of seconds. If no value is assigned to max-stale, then the client is willing to accept a stale response of any age."
 ---
 

@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/oauth-parameter/code_challenge"
-title:       "OAuth Parameter: code_challenge"
+layout:        concept
+permalink:     "/concepts/oauth-parameter/code_challenge"
+title:         "OAuth Parameter: code_challenge"
+concept-name:  OAuth Parameter
+concept-value: code_challenge
 description: "Code challenge."
 ---
 

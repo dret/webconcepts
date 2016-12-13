@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/POE-Links"
-title:       "HTTP Header Field: POE-Links"
+layout:        concept
+permalink:     "/concepts/http-header/POE-Links"
+title:         "HTTP Header Field: POE-Links"
+concept-name:  HTTP Header Field
+concept-value: POE-Links
 description: "The POE-Links HTTP header is an entity-header field whose field-value is a comma-separated list of quoted URI-references (without fragment identifiers) that the origin server asserts to be POE resources. The contents of the POE-Links response header SHOULD correspond to links found in the content of the response body."
 ---
 

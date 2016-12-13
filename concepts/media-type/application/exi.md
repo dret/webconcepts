@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/media-type/application/exi"
-title:       "Media Type: application/exi"
+layout:        concept
+permalink:     "/concepts/media-type/application/exi"
+title:         "Media Type: application/exi"
+concept-name:  Media Type
+concept-value: application/exi
 description: "A new media type registration \"application/exi\" described below is being proposed for community review, with the intent to eventually submit it to the IESG for review, approval, and registration with IANA."
 ---
 

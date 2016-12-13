@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/structured-syntax-suffix/+ber"
-title:       "Structured Syntax Suffix: +ber"
+layout:        concept
+permalink:     "/concepts/structured-syntax-suffix/+ber"
+title:         "Structured Syntax Suffix: +ber"
+concept-name:  Structured Syntax Suffix
+concept-value: +ber
 description: "The suffix \"+ber\" MAY be used with any media type whose representation follows the BER transfer syntax."
 ---
 

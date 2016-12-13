@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/well-known-uri/repute-template"
-title:       "Well-Known URI: repute-template"
+layout:        concept
+permalink:     "/concepts/well-known-uri/repute-template"
+title:         "Well-Known URI: repute-template"
+concept-name:  Well-Known URI
+concept-value: repute-template
 description: "A reputation query made via HTTP encodes the question being asked in an HTTP GET method.  The specific syntax of the query itself is specified by retrieving a URI template from the reputation service, completing the template, and then issuing the query. The template file is retrieved by requesting the well-known URI \"repute-template\" from the host providing reputation service, using HTTP."
 ---
 

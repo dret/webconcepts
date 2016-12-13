@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Hobareg"
-title:       "HTTP Header Field: Hobareg"
+layout:        concept
+permalink:     "/concepts/http-header/Hobareg"
+title:         "HTTP Header Field: Hobareg"
+concept-name:  HTTP Header Field
+concept-value: Hobareg
 description: "The server MUST add a header field to the response message when the registration has succeeded in order to indicate the new state. The header to be used is \"Hobareg\", and the value when registration has succeeded is to be \"regok\". When registration is in an intermediate state (e.g., on an HTTP response for an interstitial page), the server MAY add this header with a value of \"reginwork\"."
 ---
 

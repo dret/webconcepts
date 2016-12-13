@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/media-type/application/zlib"
-title:       "Media Type: application/zlib"
+layout:        concept
+permalink:     "/concepts/media-type/application/zlib"
+title:         "Media Type: application/zlib"
+concept-name:  Media Type
+concept-value: application/zlib
 description: "The 'application/zlib' media type describes a block of data that is compressed using zlib compression. The data is a stream of bytes as described in RFC 1950."
 ---
 

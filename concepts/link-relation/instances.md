@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/link-relation/instances"
-title:       "Link Relation: instances"
+layout:        concept
+permalink:     "/concepts/link-relation/instances"
+title:         "Link Relation: instances"
+concept-name:  Link Relation
+concept-value: instances
 description: "This indicates the target resource that represents collection of instances of a schema."
 ---
 

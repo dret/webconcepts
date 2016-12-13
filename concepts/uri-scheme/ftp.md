@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/uri-scheme/ftp"
-title:       "URI Scheme: ftp"
+layout:        concept
+permalink:     "/concepts/uri-scheme/ftp"
+title:         "URI Scheme: ftp"
+concept-name:  URI Scheme
+concept-value: ftp
 description: "The FTP URL scheme is used to designate files and directories on Internet hosts accessible using the FTP protocol."
 ---
 

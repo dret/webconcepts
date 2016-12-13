@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/oauth-parameter/scope"
-title:       "OAuth Parameter: scope"
+layout:        concept
+permalink:     "/concepts/oauth-parameter/scope"
+title:         "OAuth Parameter: scope"
+concept-name:  OAuth Parameter
+concept-value: scope
 description: "The authorization and token endpoints allow the client to specify the scope of the access request using the \"scope\" request parameter. In turn, the authorization server uses the \"scope\" response parameter to inform the client of the scope of the access token issued."
 ---
 

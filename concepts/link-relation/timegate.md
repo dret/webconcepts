@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/link-relation/timegate"
-title:       "Link Relation: timegate"
+layout:        concept
+permalink:     "/concepts/link-relation/timegate"
+title:         "Link Relation: timegate"
+concept-name:  Link Relation
+concept-value: timegate
 description: "A link with a \"timegate\" Relation Type is used to point from the Original Resource, as well as from a Memento associated with the Original Resource, to a TimeGate for the Original Resource."
 ---
 

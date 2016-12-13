@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Access-Control-Allow-Methods"
-title:       "HTTP Header Field: Access-Control-Allow-Methods"
+layout:        concept
+permalink:     "/concepts/http-header/Access-Control-Allow-Methods"
+title:         "HTTP Header Field: Access-Control-Allow-Methods"
+concept-name:  HTTP Header Field
+concept-value: Access-Control-Allow-Methods
 description: "The Access-Control-Allow-Methods header indicates, as part of the response to a preflight request, which methods can be used during the actual request."
 ---
 

@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/jwt-confirmation-method/jwk"
-title:       "JWT Confirmation Method: jwk"
+layout:        concept
+permalink:     "/concepts/jwt-confirmation-method/jwk"
+title:         "JWT Confirmation Method: jwk"
+concept-name:  JWT Confirmation Method
+concept-value: jwk
 description: "When the key held by the presenter is an asymmetric private key, the \"jwk\" member is a JSON Web Key representing the corresponding asymmetric public key."
 ---
 

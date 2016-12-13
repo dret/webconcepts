@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/media-type/application/home+xml"
-title:       "Media Type: application/home+xml"
+layout:        concept
+permalink:     "/concepts/media-type/application/home+xml"
+title:         "Media Type: application/home+xml"
+concept-name:  Media Type
+concept-value: application/home+xml
 description: "The specification for HTTP Home Documents provides a JSON syntax only. This media type provides an XML syntax for the same underlying data model, so that the concept of HTTP Home Documents can be consistently exposed in both JSON- and XML-based HTTP services."
 ---
 

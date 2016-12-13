@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/uri-scheme/session"
-title:       "URI Scheme: session"
+layout:        concept
+permalink:     "/concepts/uri-scheme/session"
+title:         "URI Scheme: session"
+concept-name:  URI Scheme
+concept-value: session
 description: "The URI is intended to identify a data resource previously given to the network computing resource. The purpose of this scheme is to permit access to the specific resource for the lifetime of the session with the entity storing the resource."
 ---
 

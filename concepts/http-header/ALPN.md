@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/ALPN"
-title:       "HTTP Header Field: ALPN"
+layout:        concept
+permalink:     "/concepts/http-header/ALPN"
+title:         "HTTP Header Field: ALPN"
+concept-name:  HTTP Header Field
+concept-value: ALPN
 description: "Clients include the ALPN header field in an HTTP CONNECT request to indicate the application-layer protocol that a client intends to use within the tunnel, or a set of protocols that might be used within the tunnel."
 ---
 

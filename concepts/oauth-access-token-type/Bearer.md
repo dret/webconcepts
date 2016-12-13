@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/oauth-access-token-type/Bearer"
-title:       "OAuth Access Token Type: Bearer"
+layout:        concept
+permalink:     "/concepts/oauth-access-token-type/Bearer"
+title:         "OAuth Access Token Type: Bearer"
+concept-name:  OAuth Access Token Type
+concept-value: Bearer
 description: "A security token with the property that any party in possession of the token (a \"bearer\") can use the token in any way that any other party in possession of it can. Using a bearer token does not require a bearer to prove possession of cryptographic key material (proof-of-possession)."
 ---
 

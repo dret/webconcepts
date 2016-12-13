@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/well-known-uri/openpgpkey"
-title:       "Well-Known URI: openpgpkey"
+layout:        concept
+permalink:     "/concepts/well-known-uri/openpgpkey"
+title:         "Well-Known URI: openpgpkey"
+concept-name:  Well-Known URI
+concept-value: openpgpkey
 description: "Used for the discovery of Web keys that are made available using the OpenPGP Web Key Service."
 ---
 

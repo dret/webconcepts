@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/media-type/application/samlassertion+xml"
-title:       "Media Type: application/samlassertion+xml"
+layout:        concept
+permalink:     "/concepts/media-type/application/samlassertion+xml"
+title:         "Media Type: application/samlassertion+xml"
+concept-name:  Media Type
+concept-value: application/samlassertion+xml
 description: "This document defines a MIME media type for use with the XML serialization of SAML (Security Assertion Markup Language) assertions."
 ---
 

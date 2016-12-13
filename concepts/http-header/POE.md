@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/POE"
-title:       "HTTP Header Field: POE"
+layout:        concept
+permalink:     "/concepts/http-header/POE"
+title:         "HTTP Header Field: POE"
+concept-name:  HTTP Header Field
+concept-value: POE
 description: "The POE HTTP header is a request-header field whose field-value indicates the version of POE that a client supports."
 ---
 

@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-range-unit/none"
-title:       "HTTP Range Unit: none"
+layout:        concept
+permalink:     "/concepts/http-range-unit/none"
+title:         "HTTP Range Unit: none"
+concept-name:  HTTP Range Unit
+concept-value: none
 description: "A server that does not support any kind of range request for the target resource MAY send \"Accept-Ranges: none\" to advise the client not to attempt a range request."
 ---
 

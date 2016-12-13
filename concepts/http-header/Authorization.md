@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Authorization"
-title:       "HTTP Header Field: Authorization"
+layout:        concept
+permalink:     "/concepts/http-header/Authorization"
+title:         "HTTP Header Field: Authorization"
+concept-name:  HTTP Header Field
+concept-value: Authorization
 description: "Protocol parameters can be transmitted using the HTTP \"Authorization\" header field as defined by RFC 2617 with the auth-scheme name set to \"OAuth\" (case insensitive)."
 ---
 

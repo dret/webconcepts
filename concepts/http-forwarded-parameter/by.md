@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-forwarded-parameter/by"
-title:       "HTTP Forwarded Parameter: by"
+layout:        concept
+permalink:     "/concepts/http-forwarded-parameter/by"
+title:         "HTTP Forwarded Parameter: by"
+concept-name:  HTTP Forwarded Parameter
+concept-value: by
 description: "The \"by\" parameter is used to disclose the interface where the request came in to the proxy server."
 ---
 

@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/HTTP2-Settings"
-title:       "HTTP Header Field: HTTP2-Settings"
+layout:        concept
+permalink:     "/concepts/http-header/HTTP2-Settings"
+title:         "HTTP Header Field: HTTP2-Settings"
+concept-name:  HTTP Header Field
+concept-value: HTTP2-Settings
 description: "A request that upgrades from HTTP/1.1 to HTTP/2 MUST include exactly one \"HTTP2-Settings\" header field. The \"HTTP2-Settings\" header field is a connection-specific header field that includes parameters that govern the HTTP/2 connection, provided in anticipation of the server accepting the request to upgrade."
 ---
 

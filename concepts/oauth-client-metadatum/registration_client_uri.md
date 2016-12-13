@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/oauth-client-metadatum/registration_client_uri"
-title:       "OAuth Dynamic Client Registration Metadatum: registration_client_uri"
+layout:        concept
+permalink:     "/concepts/oauth-client-metadatum/registration_client_uri"
+title:         "OAuth Dynamic Client Registration Metadatum: registration_client_uri"
+concept-name:  OAuth Dynamic Client Registration Metadatum
+concept-value: registration_client_uri
 description: "String containing the fully qualified URL of the client configuration endpoint for this client."
 ---
 

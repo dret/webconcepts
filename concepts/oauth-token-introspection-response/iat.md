@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/oauth-token-introspection-response/iat"
-title:       "OAuth Token Introspection Response: iat"
+layout:        concept
+permalink:     "/concepts/oauth-token-introspection-response/iat"
+title:         "OAuth Token Introspection Response: iat"
+concept-name:  OAuth Token Introspection Response
+concept-value: iat
 description: "Integer timestamp, measured in the number of seconds since January 1 1970 UTC, indicating when this token was originally issued, as defined in JWT."
 ---
 

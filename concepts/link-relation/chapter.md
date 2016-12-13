@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/link-relation/chapter"
-title:       "Link Relation: chapter"
+layout:        concept
+permalink:     "/concepts/link-relation/chapter"
+title:         "Link Relation: chapter"
+concept-name:  Link Relation
+concept-value: chapter
 description: "Refers to a document serving as a chapter in a collection of documents."
 ---
 

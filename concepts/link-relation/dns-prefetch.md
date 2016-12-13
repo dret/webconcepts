@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/link-relation/dns-prefetch"
-title:       "Link Relation: dns-prefetch"
+layout:        concept
+permalink:     "/concepts/link-relation/dns-prefetch"
+title:         "Link Relation: dns-prefetch"
+concept-name:  Link Relation
+concept-value: dns-prefetch
 description: "The dns-prefetch link relation type is used to indicate an origin that will be used to fetch required resources, and that the user agent SHOULD resolve as early as possible."
 ---
 

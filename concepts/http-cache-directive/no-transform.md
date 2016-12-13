@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-cache-directive/no-transform"
-title:       "HTTP Cache Directive: no-transform"
+layout:        concept
+permalink:     "/concepts/http-cache-directive/no-transform"
+title:         "HTTP Cache Directive: no-transform"
+concept-name:  HTTP Cache Directive
+concept-value: no-transform
 description: "The \"no-transform\" directive indicates that an intermediary (whether or not it implements a cache) MUST NOT transform the payload."
 ---
 

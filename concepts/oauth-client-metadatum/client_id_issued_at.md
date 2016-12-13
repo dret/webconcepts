@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/oauth-client-metadatum/client_id_issued_at"
-title:       "OAuth Dynamic Client Registration Metadatum: client_id_issued_at"
+layout:        concept
+permalink:     "/concepts/oauth-client-metadatum/client_id_issued_at"
+title:         "OAuth Dynamic Client Registration Metadatum: client_id_issued_at"
+concept-name:  OAuth Dynamic Client Registration Metadatum
+concept-value: client_id_issued_at
 description: "Time at which the client identifier was issued."
 ---
 

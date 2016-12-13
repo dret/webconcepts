@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/link-relation/status"
-title:       "Link Relation: status"
+layout:        concept
+permalink:     "/concepts/link-relation/status"
+title:         "Link Relation: status"
+concept-name:  Link Relation
+concept-value: status
 description: "The \"status\" link relation type can be used to link to such a status resource, allowing service consumers to retrieve status information about a Web service's status. Such a link may not be available from all resources provided by a Web service, but from key resources such as a Web service's home resource."
 ---
 

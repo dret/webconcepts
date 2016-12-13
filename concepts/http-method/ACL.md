@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-method/ACL"
-title:       "HTTP Request Method: ACL"
+layout:        concept
+permalink:     "/concepts/http-method/ACL"
+title:         "HTTP Request Method: ACL"
+concept-name:  HTTP Request Method
+concept-value: ACL
 description: "The ACL method modifies the access control list (which can be read via the DAV:acl property) of a resource. Specifically, the ACL method only permits modification to ACEs that are not inherited, and are not protected."
 ---
 

@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-method/PROPFIND"
-title:       "HTTP Request Method: PROPFIND"
+layout:        concept
+permalink:     "/concepts/http-method/PROPFIND"
+title:         "HTTP Request Method: PROPFIND"
+concept-name:  HTTP Request Method
+concept-value: PROPFIND
 description: "The PROPFIND method retrieves properties defined on the resource identified by the Request-URI, if the resource does not have any internal members, or on the resource identified by the Request-URI and potentially its member resources, if the resource is a collection that has internal member URLs."
 ---
 

@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Overwrite"
-title:       "HTTP Header Field: Overwrite"
+layout:        concept
+permalink:     "/concepts/http-header/Overwrite"
+title:         "HTTP Header Field: Overwrite"
+concept-name:  HTTP Header Field
+concept-value: Overwrite
 description: "The Overwrite request header specifies whether the server should overwrite a resource mapped to the destination URL during a COPY or MOVE."
 ---
 

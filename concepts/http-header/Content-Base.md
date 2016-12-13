@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Content-Base"
-title:       "HTTP Header Field: Content-Base"
+layout:        concept
+permalink:     "/concepts/http-header/Content-Base"
+title:         "HTTP Header Field: Content-Base"
+concept-name:  HTTP Header Field
+concept-value: Content-Base
 description: "The Content-Base entity-header field may be used to specify the base URI for resolving relative URLs within the entity. This header field is described as Base in RFC 1808, which is expected to be revised."
 ---
 

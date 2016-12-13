@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/oauth-parameter/grant_type"
-title:       "OAuth Parameter: grant_type"
+layout:        concept
+permalink:     "/concepts/oauth-parameter/grant_type"
+title:         "OAuth Parameter: grant_type"
+concept-name:  OAuth Parameter
+concept-value: grant_type
 description: "Value MUST be set to \"authorization_code\"."
 ---
 

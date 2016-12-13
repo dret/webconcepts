@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/oauth-parameter/client_assertion_type"
-title:       "OAuth Parameter: client_assertion_type"
+layout:        concept
+permalink:     "/concepts/oauth-parameter/client_assertion_type"
+title:         "OAuth Parameter: client_assertion_type"
+concept-name:  OAuth Parameter
+concept-value: client_assertion_type
 description: "The format of the assertion as defined by the authorization server. The value will be an absolute URI."
 ---
 

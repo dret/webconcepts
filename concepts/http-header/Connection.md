@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Connection"
-title:       "HTTP Header Field: Connection"
+layout:        concept
+permalink:     "/concepts/http-header/Connection"
+title:         "HTTP Header Field: Connection"
+concept-name:  HTTP Header Field
+concept-value: Connection
 description: "The \"Connection\" header field allows the sender to indicate desired control options for the current connection. In order to avoid confusing downstream recipients, a proxy or gateway MUST remove or replace any received connection options before forwarding the message."
 ---
 

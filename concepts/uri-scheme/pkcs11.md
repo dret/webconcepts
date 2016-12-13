@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/uri-scheme/pkcs11"
-title:       "URI Scheme: pkcs11"
+layout:        concept
+permalink:     "/concepts/uri-scheme/pkcs11"
+title:         "URI Scheme: pkcs11"
+concept-name:  URI Scheme
+concept-value: pkcs11
 description: "The URI scheme defined in this document is designed specifically with a mapping to the PKCS #11 API in mind."
 ---
 

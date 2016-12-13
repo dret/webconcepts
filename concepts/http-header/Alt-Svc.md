@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Alt-Svc"
-title:       "HTTP Header Field: Alt-Svc"
+layout:        concept
+permalink:     "/concepts/http-header/Alt-Svc"
+title:         "HTTP Header Field: Alt-Svc"
+concept-name:  HTTP Header Field
+concept-value: Alt-Svc
 description: "An HTTP(S) origin server can advertise the availability of alternative services to clients by adding an Alt-Svc header field to responses."
 ---
 

@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/link-relation/enclosure"
-title:       "Link Relation: enclosure"
+layout:        concept
+permalink:     "/concepts/link-relation/enclosure"
+title:         "Link Relation: enclosure"
+concept-name:  Link Relation
+concept-value: enclosure
 description: "The value \"enclosure\" signifies that the IRI in the value of the href attribute identifies a related resource that is potentially large in size and might require special handling. For atom:link elements with rel=\"enclosure\", the length attribute SHOULD be provided."
 ---
 

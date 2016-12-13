@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/oauth-token-introspection-response/token_type"
-title:       "OAuth Token Introspection Response: token_type"
+layout:        concept
+permalink:     "/concepts/oauth-token-introspection-response/token_type"
+title:         "OAuth Token Introspection Response: token_type"
+concept-name:  OAuth Token Introspection Response
+concept-value: token_type
 description: "Type of the token as defined in OAuth 2.0."
 ---
 

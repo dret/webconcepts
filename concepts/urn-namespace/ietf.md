@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/urn-namespace/ietf"
-title:       "URN Namespace: ietf"
+layout:        concept
+permalink:     "/concepts/urn-namespace/ietf"
+title:         "URN Namespace: ietf"
+concept-name:  URN Namespace
+concept-value: ietf
 description: "This document proposes the \"ietf\" namespace, which consists of the RFC family of documents (RFCs, STDs, FYIs, and BCPs) developed by the IETF and published by the RFC editor and the minutes of working groups (WG) and birds of a feather (BOF) meetings that occur during IETF conferences."
 ---
 

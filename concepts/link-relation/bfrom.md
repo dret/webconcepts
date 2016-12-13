@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/link-relation/bfrom"
-title:       "Link Relation: bfrom"
+layout:        concept
+permalink:     "/concepts/link-relation/bfrom"
+title:         "Link Relation: bfrom"
+concept-name:  Link Relation
+concept-value: bfrom
 description: "Refers to a resource that is privately considered to be the originator of the link's context."
 ---
 

@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-authentication-scheme/OAuth"
-title:       "HTTP Authentication Scheme: OAuth"
+layout:        concept
+permalink:     "/concepts/http-authentication-scheme/OAuth"
+title:         "HTTP Authentication Scheme: OAuth"
+concept-name:  HTTP Authentication Scheme
+concept-value: OAuth
 description: "Protocol parameters can be transmitted using the HTTP \"Authorization\" header field as defined by RFC 2617 with the auth-scheme name set to \"OAuth\" (case insensitive). Servers MAY indicate their support for the \"OAuth\" auth-scheme by returning the HTTP \"WWW-Authenticate\" response header field upon client requests for protected resources."
 ---
 

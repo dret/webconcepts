@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/EDIINT-Features"
-title:       "HTTP Header Field: EDIINT-Features"
+layout:        concept
+permalink:     "/concepts/http-header/EDIINT-Features"
+title:         "HTTP Header Field: EDIINT-Features"
+concept-name:  HTTP Header Field
+concept-value: EDIINT-Features
 description: "The EDIINT-Features header field indicates the originating user agent is capable of supporting the features listed."
 ---
 

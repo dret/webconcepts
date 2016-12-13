@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/link-relation/down"
-title:       "Link Relation: down"
+layout:        concept
+permalink:     "/concepts/link-relation/down"
+title:         "Link Relation: down"
+concept-name:  Link Relation
+concept-value: down
 description: "An Atom link element with a rel attribute value of \"down\" may be used to reference a resource where child entries of an entry may be found."
 ---
 

@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/oauth-parameter/state"
-title:       "OAuth Parameter: state"
+layout:        concept
+permalink:     "/concepts/oauth-parameter/state"
+title:         "OAuth Parameter: state"
+concept-name:  OAuth Parameter
+concept-value: state
 description: "An opaque value used by the client to maintain state between the request and callback. The authorization server includes this value when redirecting the user-agent back to the client."
 ---
 

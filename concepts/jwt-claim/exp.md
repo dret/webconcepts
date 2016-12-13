@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/jwt-claim/exp"
-title:       "JSON Web Token Claim: exp"
+layout:        concept
+permalink:     "/concepts/jwt-claim/exp"
+title:         "JSON Web Token Claim: exp"
+concept-name:  JSON Web Token Claim
+concept-value: exp
 description: "The \"exp\" (expiration time) claim identifies the expiration time on or after which the JWT MUST NOT be accepted for processing. The processing of the \"exp\" claim requires that the current date/time MUST be before the expiration date/time listed in the \"exp\" claim."
 ---
 

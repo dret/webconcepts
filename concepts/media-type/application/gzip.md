@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/media-type/application/gzip"
-title:       "Media Type: application/gzip"
+layout:        concept
+permalink:     "/concepts/media-type/application/gzip"
+title:         "Media Type: application/gzip"
+concept-name:  Media Type
+concept-value: application/gzip
 description: "The 'application/gzip' media type describes a block of data that is compressed using gzip compression. The data is a stream of bytes as described in RFC 1952."
 ---
 

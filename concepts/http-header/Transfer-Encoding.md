@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Transfer-Encoding"
-title:       "HTTP Header Field: Transfer-Encoding"
+layout:        concept
+permalink:     "/concepts/http-header/Transfer-Encoding"
+title:         "HTTP Header Field: Transfer-Encoding"
+concept-name:  HTTP Header Field
+concept-value: Transfer-Encoding
 description: "The Transfer-Encoding header field lists the transfer coding names corresponding to the sequence of transfer codings that have been (or will be) applied to the payload body in order to form the message body."
 ---
 

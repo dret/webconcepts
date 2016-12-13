@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Surrogate-Capability"
-title:       "HTTP Header Field: Surrogate-Capability"
+layout:        concept
+permalink:     "/concepts/http-header/Surrogate-Capability"
+title:         "HTTP Header Field: Surrogate-Capability"
+concept-name:  HTTP Header Field
+concept-value: Surrogate-Capability
 description: "The Surrogate-Capabilities request header allows surrogates to advertise their capabilities with capability tokens. Capability tokens indicate sets of operations (e.g., caching, processing) that a surrogate is willing to perform. They follow the form of product tokens in HTTP."
 ---
 

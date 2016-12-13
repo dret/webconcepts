@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/media-type/text/markdown"
-title:       "Media Type: text/markdown"
+layout:        concept
+permalink:     "/concepts/media-type/text/markdown"
+title:         "Media Type: text/markdown"
+concept-name:  Media Type
+concept-value: text/markdown
 description: "This document registers the text/markdown media type for use with Markdown, a family of plain-text formatting syntaxes that optionally can be converted to formal markup languages such as HTML."
 ---
 

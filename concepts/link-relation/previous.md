@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/link-relation/previous"
-title:       "Link Relation: previous"
+layout:        concept
+permalink:     "/concepts/link-relation/previous"
+title:         "Link Relation: previous"
+concept-name:  Link Relation
+concept-value: previous
 description: "A URI that refers to the immediately preceding document in a series of documents."
 ---
 

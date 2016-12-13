@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/jwt-claim/cnf"
-title:       "JSON Web Token Claim: cnf"
+layout:        concept
+permalink:     "/concepts/jwt-claim/cnf"
+title:         "JSON Web Token Claim: cnf"
+concept-name:  JSON Web Token Claim
+concept-value: cnf
 description: "The \"cnf\" claim is used in the JWT to contain members used to identify the proof-of-possession key."
 ---
 

@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/oauth-token-introspection-response/exp"
-title:       "OAuth Token Introspection Response: exp"
+layout:        concept
+permalink:     "/concepts/oauth-token-introspection-response/exp"
+title:         "OAuth Token Introspection Response: exp"
+concept-name:  OAuth Token Introspection Response
+concept-value: exp
 description: "Integer timestamp, measured in the number of seconds since January 1 1970 UTC, indicating when this token will expire, as defined in JWT"
 ---
 

@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/oauth-parameter/response_type"
-title:       "OAuth Parameter: response_type"
+layout:        concept
+permalink:     "/concepts/oauth-parameter/response_type"
+title:         "OAuth Parameter: response_type"
+concept-name:  OAuth Parameter
+concept-value: response_type
 description: "The value MUST be one of \"code\" for requesting an authorization code, \"token\" for requesting an access token (implicit grant), or a registered extension value."
 ---
 

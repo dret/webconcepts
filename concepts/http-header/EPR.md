@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/EPR"
-title:       "HTTP Header Field: EPR"
+layout:        concept
+permalink:     "/concepts/http-header/EPR"
+title:         "HTTP Header Field: EPR"
+concept-name:  HTTP Header Field
+concept-value: EPR
 description: "Servers may request the protections outlined by Entry Point Regulation (EPR) by sending an EPR HTTP response header field along with a response."
 ---
 

@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/well-known-uri/caldav"
-title:       "Well-Known URI: caldav"
+layout:        concept
+permalink:     "/concepts/well-known-uri/caldav"
+title:         "Well-Known URI: caldav"
+concept-name:  Well-Known URI
+concept-value: caldav
 description: "\"caldav\" and \"carddav\" \".well-known\" URIs point to a resource that the client can use as the initial \"context path\" for the service they are trying to connect to. The server MUST redirect HTTP requests for that resource to the actual \"context path\" using one of the available mechanisms provided by HTTP (e.g., using a 301, 303, or 307 response). Clients MUST handle HTTP redirects on the \".well-known\" URI. Servers MUST NOT locate the actual CalDAV or CardDAV service endpoint at the \".well-known\" URI."
 ---
 

@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/oauth-extension-error/invalid_token"
-title:       "OAuth Extensions Error: invalid_token"
+layout:        concept
+permalink:     "/concepts/oauth-extension-error/invalid_token"
+title:         "OAuth Extensions Error: invalid_token"
+concept-name:  OAuth Extensions Error
+concept-value: invalid_token
 description: "The access token provided is expired, revoked, malformed, or invalid for other reasons."
 ---
 

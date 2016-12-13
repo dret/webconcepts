@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/link-relation/glossary"
-title:       "Link Relation: glossary"
+layout:        concept
+permalink:     "/concepts/link-relation/glossary"
+title:         "Link Relation: glossary"
+concept-name:  Link Relation
+concept-value: glossary
 description: "Refers to a document providing a glossary of terms that pertain to the current document."
 ---
 

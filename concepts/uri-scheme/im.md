@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/uri-scheme/im"
-title:       "URI Scheme: im"
+layout:        concept
+permalink:     "/concepts/uri-scheme/im"
+title:         "URI Scheme: im"
+concept-name:  URI Scheme
+concept-value: im
 description: "Use of the im: URI follows closely usage of the mailto: URI. That is, invocation of an IM URI will cause the user's instant messaging application to start, with destination address and message headers fill-in according to the information supplied in the URI."
 ---
 

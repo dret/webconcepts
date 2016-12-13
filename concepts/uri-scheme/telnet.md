@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/uri-scheme/telnet"
-title:       "URI Scheme: telnet"
+layout:        concept
+permalink:     "/concepts/uri-scheme/telnet"
+title:         "URI Scheme: telnet"
+concept-name:  URI Scheme
+concept-value: telnet
 description: "The Telnet URL scheme is used to designate interactive services that may be accessed by the Telnet protocol."
 ---
 

@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/link-relation/root"
-title:       "Link Relation: root"
+layout:        concept
+permalink:     "/concepts/link-relation/root"
+title:         "Link Relation: root"
+concept-name:  Link Relation
+concept-value: root
 description: "This relation indicates that the target of the link SHOULD be treated as the root or the body of the representation for the purposes of user agent interaction or fragment resolution. All other properties of the instance objects can be regarded as meta-data descriptions for the data."
 ---
 

@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/uri-scheme/cap"
-title:       "URI Scheme: cap"
+layout:        concept
+permalink:     "/concepts/uri-scheme/cap"
+title:         "URI Scheme: cap"
+concept-name:  URI Scheme
+concept-value: cap
 description: "The CAP URL scheme is used to designate both calendar stores and calendars accessible using the CAP protocol."
 ---
 

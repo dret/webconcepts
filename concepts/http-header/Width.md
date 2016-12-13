@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Width"
-title:       "HTTP Header Field: Width"
+layout:        concept
+permalink:     "/concepts/http-header/Width"
+title:         "HTTP Header Field: Width"
+concept-name:  HTTP Header Field
+concept-value: Width
 description: "The \"Width\" header field is a number that, in requests, indicates the resource width in physical px (i.e. intrinsic size of an image)."
 ---
 

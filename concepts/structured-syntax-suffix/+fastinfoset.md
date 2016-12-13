@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/structured-syntax-suffix/+fastinfoset"
-title:       "Structured Syntax Suffix: +fastinfoset"
+layout:        concept
+permalink:     "/concepts/structured-syntax-suffix/+fastinfoset"
+title:         "Structured Syntax Suffix: +fastinfoset"
+concept-name:  Structured Syntax Suffix
+concept-value: +fastinfoset
 description: "The suffix \"+fastinfoset\" MAY be used with any media type whose representation follows that established for \"application/fastinfoset\"."
 ---
 

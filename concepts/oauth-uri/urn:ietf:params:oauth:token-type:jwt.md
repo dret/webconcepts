@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/oauth-uri/urn%3Aietf%3Aparams%3Aoauth%3Atoken-type%3Ajwt"
-title:       "OAuth URI: urn:ietf:params:oauth:token-type:jwt"
+layout:        concept
+permalink:     "/concepts/oauth-uri/urn%3Aietf%3Aparams%3Aoauth%3Atoken-type%3Ajwt"
+title:         "OAuth URI: urn:ietf:params:oauth:token-type:jwt"
+concept-name:  OAuth URI
+concept-value: urn:ietf:params:oauth:token-type:jwt
 description: "This specification registers the URN \"urn:ietf:params:oauth:token-type:jwt\" for use by applications that declare content types using URIs (rather than, for instance, media types) to indicate that the content referred to is a JWT."
 ---
 

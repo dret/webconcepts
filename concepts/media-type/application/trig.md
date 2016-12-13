@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/media-type/application/trig"
-title:       "Media Type: application/trig"
+layout:        concept
+permalink:     "/concepts/media-type/application/trig"
+title:         "Media Type: application/trig"
+concept-name:  Media Type
+concept-value: application/trig
 description: "A TriG document allows writing down an RDF Dataset in a compact textual form. It consists of a sequence of directives, triple statements, graph statements which contain triple-generating statements and optional blank lines. Comments may be given after a # that is not part of another lexical token and continue to the end of the line."
 ---
 

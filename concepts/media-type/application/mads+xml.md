@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/media-type/application/mads+xml"
-title:       "Media Type: application/mads+xml"
+layout:        concept
+permalink:     "/concepts/media-type/application/mads+xml"
+title:         "Media Type: application/mads+xml"
+concept-name:  Media Type
+concept-value: application/mads+xml
 description: "An XML schema for an authority element set used to provide metadata about agents (people, organizations), events, and terms (topics, geographics, genres, etc.). It is a companion to MODS."
 ---
 

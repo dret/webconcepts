@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/link-relation/original"
-title:       "Link Relation: original"
+layout:        concept
+permalink:     "/concepts/link-relation/original"
+title:         "Link Relation: original"
+concept-name:  Link Relation
+concept-value: original
 description: "A link with an \"original\" Relation Type is used to point from a TimeGate or a Memento to its associated Original Resource."
 ---
 

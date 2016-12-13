@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-content-coding/aesgcm"
-title:       "HTTP Content Coding: aesgcm"
+layout:        concept
+permalink:     "/concepts/http-content-coding/aesgcm"
+title:         "HTTP Content Coding: aesgcm"
+concept-name:  HTTP Content Coding
+concept-value: aesgcm
 description: "The \"aesgcm\" HTTP content coding indicates that a payload has been encrypted using Advanced Encryption Standard (AES) in Galois/Counter Mode (GCM) as identified as AEAD_AES_128_GCM in RFC 5116."
 ---
 

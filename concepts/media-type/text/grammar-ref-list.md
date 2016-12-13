@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/media-type/text/grammar-ref-list"
-title:       "Media Type: text/grammar-ref-list"
+layout:        concept
+permalink:     "/concepts/media-type/text/grammar-ref-list"
+title:         "Media Type: text/grammar-ref-list"
+concept-name:  Media Type
+concept-value: text/grammar-ref-list
 description: "The body of the RECOGNIZE method of the MRCP protocol may contain a list of grammar URIs specified in content of media type 'text/grammar-ref-list'. This type defines a list of grammar URIs and allows each grammar URI to be assigned a weight in the list."
 ---
 

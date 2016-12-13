@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/link-relation/memento"
-title:       "Link Relation: memento"
+layout:        concept
+permalink:     "/concepts/link-relation/memento"
+title:         "Link Relation: memento"
+concept-name:  Link Relation
+concept-value: memento
 description: "A link with a \"memento\" Relation Type is used to point from a TimeGate or a Memento for an Original Resource, as well as from the Original Resource itself, to a Memento for the Original Resource."
 ---
 

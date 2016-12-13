@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Accept-Additions"
-title:       "HTTP Header Field: Accept-Additions"
+layout:        concept
+permalink:     "/concepts/http-header/Accept-Additions"
+title:         "HTTP Header Field: Accept-Additions"
+concept-name:  HTTP Header Field
+concept-value: Accept-Additions
 description: "In HTTP, the \"Accept\" request-header field is used to specify media types which are acceptable for the response. However, in HTCPCP, the response may result in additional actions on the part of the automated pot. For this reason, HTCPCP adds a new header field, \"Accept-Additions\"."
 ---
 

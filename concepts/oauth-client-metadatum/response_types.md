@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/oauth-client-metadatum/response_types"
-title:       "OAuth Dynamic Client Registration Metadatum: response_types"
+layout:        concept
+permalink:     "/concepts/oauth-client-metadatum/response_types"
+title:         "OAuth Dynamic Client Registration Metadatum: response_types"
+concept-name:  OAuth Dynamic Client Registration Metadatum
+concept-value: response_types
 description: "Array of the OAuth 2.0 response type strings that the client can use at the authorization endpoint."
 ---
 

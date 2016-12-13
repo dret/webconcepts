@@ -1,7 +1,9 @@
 ---
-layout:      page
-permalink:   "/concepts/http-header/Report-To"
-title:       "HTTP Header Field: Report-To"
+layout:        concept
+permalink:     "/concepts/http-header/Report-To"
+title:         "HTTP Header Field: Report-To"
+concept-name:  HTTP Header Field
+concept-value: Report-To
 description: "The Report-To HTTP response header field instructs the user agent to store reporting endpoints for an origin."
 ---
 
