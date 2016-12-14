@@ -186,18 +186,18 @@
                 <xsl:text>* [</xsl:text>
                 <xsl:value-of select="title-plural"/>
                 <xsl:text>](</xsl:text>
-                <xsl:value-of select="filename-plural"/>
+                <xsl:value-of select="pathname"/>
                 <xsl:text>) (</xsl:text>
                 <xsl:value-of select="count(distinct-values($allspecs//*[local-name() eq current()/@id]/@def))"/>
                 <xsl:text>)&#xa;</xsl:text>
-                <xsl:result-document href="{$concepts-dir}/{filename-plural}.md" format="markdown">
+                <xsl:result-document href="{$concepts-dir}/{pathname}.md" format="markdown">
                     <xsl:text>---&#xa;</xsl:text>
                     <xsl:text>layout:    page&#xa;</xsl:text>
                     <xsl:text>title:     "</xsl:text>
                     <xsl:value-of select="title-plural"/>
                     <xsl:text>"&#xa;</xsl:text>
                     <xsl:text>permalink: </xsl:text>
-                    <xsl:value-of select="concat('/', $concepts-dir, '/', filename-plural)"/>
+                    <xsl:value-of select="concat('/', $concepts-dir, '/', pathname)"/>
                     <xsl:text>&#xa;</xsl:text>
                     <xsl:text>---&#xa;&#xa;</xsl:text>
                     <xsl:variable name="values-count" select="count($allspecs//*[local-name() eq $concept/@id]/@def)"/>
@@ -237,7 +237,7 @@
                             <xsl:value-of select="$desc"/>
                         </xsl:if>
                         <xsl:text>`](</xsl:text>
-                        <xsl:value-of select="concat('/', $concepts-dir, '/', $concept/filename-singular, '/', $concept-name)"/>
+                        <xsl:value-of select="concat('/', $concepts-dir, '/', $concept/@id, '/', $concept-name)"/>
                         <xsl:variable name="number-of-defs" select="count($allspecs//*[local-name() eq $concept/@id][@def eq $concept-name])"/>
                         <xsl:if test="$number-of-defs gt 1">
                             <xsl:text> "</xsl:text>
@@ -268,12 +268,12 @@
                                 </xsl:otherwise>
                             </xsl:choose>
                         </xsl:for-each>
-                        <xsl:result-document href="{$concepts-dir}/{$concept/filename-singular}/{$concept-name}.md" format="markdown">
+                        <xsl:result-document href="{$concepts-dir}/{$concept/@id}/{$concept-name}.md" format="markdown">
                             <xsl:variable name="allspecsdef" select="$allspecs/service/*[local-name() eq $concept/@id][@def eq $concept-name]"/>
                             <xsl:text>---&#xa;</xsl:text>
                             <xsl:text>layout:        concept&#xa;</xsl:text>
                             <xsl:text>permalink:     "/</xsl:text>
-                            <xsl:value-of select="concat($concepts-dir, '/', $concept/filename-singular, '/', replace($concept-name, ':', '%3A'))"/>
+                            <xsl:value-of select="concat($concepts-dir, '/', $concept/@id, '/', replace($concept-name, ':', '%3A'))"/>
                             <xsl:text>"&#xa;</xsl:text>
                             <xsl:text>title:         "</xsl:text>
                             <xsl:value-of select="$concept/title-singular/text()"/>
@@ -325,7 +325,7 @@
                             <xsl:value-of select="$concept-name"/>
                             <xsl:text>.json" title="JSON representing this particular Web Concept value">JSON&lt;/a>&lt;/p>&#xa;</xsl:text>
                             <xsl:text>&lt;p style="text-align: right">Return to list of all ( &lt;a href="../</xsl:text>
-                            <xsl:value-of select="$concept/filename-plural/text()"/>
+                            <xsl:value-of select="$concept/pathname/text()"/>
                             <xsl:text>"></xsl:text>
                             <xsl:value-of select="$concept/title-plural/text()"/>
                             <xsl:text>&lt;/a> | &lt;a href="../">Web Concepts&lt;/a> )&lt;/p>&#xa;</xsl:text>
@@ -333,7 +333,7 @@
                     </xsl:for-each>
                     <xsl:text>&#xa;&lt;br/>&#xa;&lt;hr/>&#xa;&#xa;</xsl:text>
                     <xsl:text>&lt;p style="float : left">&lt;a href="</xsl:text>
-                    <xsl:value-of select="filename-plural"/>
+                    <xsl:value-of select="pathname"/>
                     <xsl:text>.json" title="JSON representing all values for this Web Concept">JSON&lt;/a>&lt;/p>&#xa;</xsl:text>
                 </xsl:result-document>
             </xsl:for-each>
@@ -433,13 +433,13 @@
                 <xsl:for-each-group select="*[local-name() = $concepts/concepts/concept/@id]" group-by="local-name()">
                     <xsl:sort select="$concepts//concept[@id eq current()/local-name()]/title-plural"/>
                     <h3 id="{$concepts//concept[@id eq current()/local-name()]/@id}">
-                        <a href="/{concat($concepts-dir, '/', $concepts//concept[@id eq current()/local-name()]/filename-plural)}">
+                        <a href="/{concat($concepts-dir, '/', $concepts//concept[@id eq current()/local-name()]/pathname)}">
                             <xsl:value-of select="$concepts//concept[@id eq current()/local-name()]/title-plural"/>
                         </a>
                     </h3>
                     <xsl:for-each select="current-group()">
                         <xsl:sort select="@def"/>
-                        <code><a href="/{concat($concepts-dir, '/', $concepts//concept[@id eq current()/local-name()]/filename-singular, '/', @def)}" title="{replace(documentation/text(), '&quot;', '&amp;#34;')}"><xsl:value-of select="@def"/></a></code>
+                        <code><a href="/{concat($concepts-dir, '/', $concepts//concept[@id eq current()/local-name()]/@id, '/', @def)}" title="{replace(documentation/text(), '&quot;', '&amp;#34;')}"><xsl:value-of select="@def"/></a></code>
                         <xsl:if test="position() ne last()">
                             <xsl:text>, </xsl:text>
                         </xsl:if>

@@ -28,7 +28,7 @@
                         <xsl:with-param name="concept" select="$concept"/>
                     </xsl:call-template>
                 </xsl:variable>
-                <xsl:result-document href="{$concepts-dir}/{$concept/filename-singular}/{$concept-name}.json" format="json">
+                <xsl:result-document href="{$concepts-dir}/{$concept/@id}/{$concept-name}.json" format="json">
                     <xsl:value-of select="xml-to-json($concept-value-json)"/>
                 </xsl:result-document>
             </xsl:for-each>
@@ -39,7 +39,7 @@
                     <xsl:with-param name="concept" select="."/>
                 </xsl:call-template>
             </xsl:variable>
-            <xsl:result-document href="{$concepts-dir}/{filename-plural}.json" format="json">
+            <xsl:result-document href="{$concepts-dir}/{pathname}.json" format="json">
                 <xsl:value-of select="xml-to-json($concept-values-json)"/>
             </xsl:result-document>
         </xsl:for-each>
@@ -143,7 +143,7 @@
                 <xsl:value-of select="$concept/@id"/>
             </string>
             <string key="id">
-                <xsl:value-of select="concat('http://webconcepts.info/', $concepts-dir, '/', $concept/filename-singular, '/', $concept-value)"/>
+                <xsl:value-of select="concat('http://webconcepts.info/', $concepts-dir, '/', $concept/@id, '/', $concept-value)"/>
             </string>
             <xsl:variable name="desc" select="$allspecs//*[local-name() eq $concept/@id][@def eq $concept-value][1]/@desc"/>
             <!-- this is cheating by (randomly) picking the first description should there be more than one in all specifications. -->
@@ -178,7 +178,7 @@
                 <xsl:value-of select="@id"/>
             </string>
             <string key="id">
-                <xsl:value-of select="concat('http://webconcepts.info/', $concepts-dir, '/', filename-plural)"/>
+                <xsl:value-of select="concat('http://webconcepts.info/', $concepts-dir, '/', pathname)"/>
             </string>
             <string key="name-singular">
                 <xsl:value-of select="title-singular"/>
