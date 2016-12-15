@@ -24,7 +24,7 @@ For each concept, there also is JSON data just for that concept, and there also 
 
 ## JSON Document Structure
 
-```javascript
+```json
 { "concept": "http-method",
   "id": "http://webconcepts.info/concepts/http-method/",
   "name-singular": "HTTP Request Method",
