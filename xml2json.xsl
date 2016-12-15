@@ -178,7 +178,7 @@
                 <xsl:value-of select="@id"/>
             </string>
             <string key="id">
-                <xsl:value-of select="concat('http://webconcepts.info/', $concepts-dir, '/', @id)"/>
+                <xsl:value-of select="concat('http://webconcepts.info/', $concepts-dir, '/', @id, '/')"/>
             </string>
             <string key="name-singular">
                 <xsl:value-of select="title-singular"/>
