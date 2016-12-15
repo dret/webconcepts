@@ -36,8 +36,8 @@ The following JSON snippet shows one part of [the *HTTP Method* concept](/concep
     { "value": "GET",
       "concept": "http://webconcepts.info/concepts/http-method/",
       "id": "http://webconcepts.info/concepts/http-method/GET",
-      "details": [{
-        "description": "The GET method ...",
+      "details": [
+      { "description": "The GET method ...",
         "documentation": "http://tools.ietf.org/html/rfc7231#section-4.3.1",
         "specification": "http://webconcepts.info/specs/IETF/RFC/7231" }]}]}
 ```
