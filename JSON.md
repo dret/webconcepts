@@ -31,6 +31,7 @@ The following JSON snippet shows one part of [the *HTTP Method* concept](/concep
   "id": "http://webconcepts.info/concepts/http-method/",
   "name-singular": "HTTP Request Method",
   "name-plural": "HTTP Request Methods",
+  "registry": "http://www.iana.org/assignments/http-methods/http-methods.xhtml#methods",
   "values": [
     {
       "value": "GET",
@@ -48,4 +49,5 @@ For the top-level object describing the concept, the structure is rather simple:
 * `id` is the concept's identifier (a URI) which is can be used as a URI in a browser, and is also used to identify the concept in JSON data.
 * `name-singular` is the singular version of the concept's human-readable name.
 * `name-plural` is the plural version of the concept's human-readable name.
+* `registry` (optional) identifies a registry of all well-known values, if such a registry exists.
 * `values` is an array of all known values for the concept.

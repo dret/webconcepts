@@ -186,6 +186,11 @@
             <string key="name-plural">
                 <xsl:value-of select="title-plural"/>
             </string>
+            <xsl:if test="exists(iana-registry)">
+                <string key="registry">
+                    <xsl:value-of select="iana-registry"/>
+                </string>
+            </xsl:if>
             <array key="values">
                 <xsl:for-each select="distinct-values($allspecs//*[local-name() eq $concept/@id]/@def)">
                     <xsl:sort select="."/>
