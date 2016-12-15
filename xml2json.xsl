@@ -140,7 +140,7 @@
                 <xsl:value-of select="$concept-value"/>
             </string>
             <string key="concept">
-                <xsl:value-of select="$concept/@id"/>
+                <xsl:value-of select="concat('http://webconcepts.info/', $concepts-dir, '/', $concept/@id, '/')"/>
             </string>
             <string key="id">
                 <xsl:value-of select="concat('http://webconcepts.info/', $concepts-dir, '/', $concept/@id, '/', $concept-value)"/>
