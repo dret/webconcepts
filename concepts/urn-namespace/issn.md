@@ -13,4 +13,4 @@ description: "In accordance with the ISO standard 3297 International Standard Se
 <hr/>
 
 <p style="float : left"><a href="./issn.json" title="JSON representing this particular Web Concept value">JSON</a></p>
-<p style="text-align: right">Return to list of all ( <a href="../urn-namespaces">URN Namespaces</a> | <a href="../">Web Concepts</a> )</p>
+<p style="text-align: right">Return to list of all ( <a href="../urn-namespace/">URN Namespaces</a> | <a href="../">Web Concepts</a> )</p>

@@ -39,7 +39,7 @@
                     <xsl:with-param name="concept" select="."/>
                 </xsl:call-template>
             </xsl:variable>
-            <xsl:result-document href="{$concepts-dir}/{pathname}.json" format="json">
+            <xsl:result-document href="{$concepts-dir}/{@id}.json" format="json">
                 <xsl:value-of select="xml-to-json($concept-values-json)"/>
             </xsl:result-document>
         </xsl:for-each>
@@ -178,7 +178,7 @@
                 <xsl:value-of select="@id"/>
             </string>
             <string key="id">
-                <xsl:value-of select="concat('http://webconcepts.info/', $concepts-dir, '/', pathname)"/>
+                <xsl:value-of select="concat('http://webconcepts.info/', $concepts-dir, '/', @id)"/>
             </string>
             <string key="name-singular">
                 <xsl:value-of select="title-singular"/>

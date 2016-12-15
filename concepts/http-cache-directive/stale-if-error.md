@@ -13,4 +13,4 @@ description: "The stale-if-error Cache-Control extension indicates that when an 
 <hr/>
 
 <p style="float : left"><a href="./stale-if-error.json" title="JSON representing this particular Web Concept value">JSON</a></p>
-<p style="text-align: right">Return to list of all ( <a href="../http-cache-directives">HTTP Cache Directives</a> | <a href="../">Web Concepts</a> )</p>
+<p style="text-align: right">Return to list of all ( <a href="../http-cache-directive/">HTTP Cache Directives</a> | <a href="../">Web Concepts</a> )</p>

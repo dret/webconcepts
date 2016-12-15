@@ -13,4 +13,4 @@ description: "The chunked transfer coding wraps the payload body in order to tra
 <hr/>
 
 <p style="float : left"><a href="./chunked.json" title="JSON representing this particular Web Concept value">JSON</a></p>
-<p style="text-align: right">Return to list of all ( <a href="../http-transfer-codings">HTTP Transfer Codings</a> | <a href="../">Web Concepts</a> )</p>
+<p style="text-align: right">Return to list of all ( <a href="../http-transfer-coding/">HTTP Transfer Codings</a> | <a href="../">Web Concepts</a> )</p>

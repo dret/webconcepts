@@ -13,4 +13,4 @@ description: "The \"private\" response directive indicates that the response mes
 <hr/>
 
 <p style="float : left"><a href="./private.json" title="JSON representing this particular Web Concept value">JSON</a></p>
-<p style="text-align: right">Return to list of all ( <a href="../http-cache-directives">HTTP Cache Directives</a> | <a href="../">Web Concepts</a> )</p>
+<p style="text-align: right">Return to list of all ( <a href="../http-cache-directive/">HTTP Cache Directives</a> | <a href="../">Web Concepts</a> )</p>

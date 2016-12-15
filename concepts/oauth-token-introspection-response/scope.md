@@ -13,4 +13,4 @@ description: "A JSON string containing a space-separated list of scopes associat
 <hr/>
 
 <p style="float : left"><a href="./scope.json" title="JSON representing this particular Web Concept value">JSON</a></p>
-<p style="text-align: right">Return to list of all ( <a href="../oauth-token-introspection-responses">OAuth Token Introspection Responses</a> | <a href="../">Web Concepts</a> )</p>
+<p style="text-align: right">Return to list of all ( <a href="../oauth-token-introspection-response/">OAuth Token Introspection Responses</a> | <a href="../">Web Concepts</a> )</p>

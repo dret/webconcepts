@@ -13,4 +13,4 @@ description: "The \"respond-async\" preference indicates that the client prefers
 <hr/>
 
 <p style="float : left"><a href="./respond-async.json" title="JSON representing this particular Web Concept value">JSON</a></p>
-<p style="text-align: right">Return to list of all ( <a href="../http-preferences">HTTP Preferences</a> | <a href="../">Web Concepts</a> )</p>
+<p style="text-align: right">Return to list of all ( <a href="../http-preference/">HTTP Preferences</a> | <a href="../">Web Concepts</a> )</p>

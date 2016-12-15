@@ -13,4 +13,4 @@ description: "A WebFinger request is an HTTPS request to a WebFinger resource. A
 <hr/>
 
 <p style="float : left"><a href="./webfinger.json" title="JSON representing this particular Web Concept value">JSON</a></p>
-<p style="text-align: right">Return to list of all ( <a href="../well-known-uris">Well-Known URIs</a> | <a href="../">Web Concepts</a> )</p>
+<p style="text-align: right">Return to list of all ( <a href="../well-known-uri/">Well-Known URIs</a> | <a href="../">Web Concepts</a> )</p>

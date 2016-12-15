@@ -13,4 +13,4 @@ description: "All challenges defined by this specification MUST use the auth-sch
 <hr/>
 
 <p style="float : left"><a href="./Bearer.json" title="JSON representing this particular Web Concept value">JSON</a></p>
-<p style="text-align: right">Return to list of all ( <a href="../http-authentication-schemes">HTTP Authentication Schemes</a> | <a href="../">Web Concepts</a> )</p>
+<p style="text-align: right">Return to list of all ( <a href="../http-authentication-scheme/">HTTP Authentication Schemes</a> | <a href="../">Web Concepts</a> )</p>

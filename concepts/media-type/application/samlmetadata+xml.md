@@ -13,4 +13,4 @@ description: "This document defines a MIME media type  for use with the XML seri
 <hr/>
 
 <p style="float : left"><a href="./application/samlmetadata+xml.json" title="JSON representing this particular Web Concept value">JSON</a></p>
-<p style="text-align: right">Return to list of all ( <a href="../media-types">Media Types</a> | <a href="../">Web Concepts</a> )</p>
+<p style="text-align: right">Return to list of all ( <a href="../media-type/">Media Types</a> | <a href="../">Web Concepts</a> )</p>

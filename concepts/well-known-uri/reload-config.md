@@ -13,4 +13,4 @@ description: "If a URL for the configuration server is not provided, the node MU
 <hr/>
 
 <p style="float : left"><a href="./reload-config.json" title="JSON representing this particular Web Concept value">JSON</a></p>
-<p style="text-align: right">Return to list of all ( <a href="../well-known-uris">Well-Known URIs</a> | <a href="../">Web Concepts</a> )</p>
+<p style="text-align: right">Return to list of all ( <a href="../well-known-uri/">Well-Known URIs</a> | <a href="../">Web Concepts</a> )</p>

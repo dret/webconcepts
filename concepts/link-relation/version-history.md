@@ -13,4 +13,4 @@ description: "When included on a versioned resource, this link points to a resou
 <hr/>
 
 <p style="float : left"><a href="./version-history.json" title="JSON representing this particular Web Concept value">JSON</a></p>
-<p style="text-align: right">Return to list of all ( <a href="../link-relations">Link Relations</a> | <a href="../">Web Concepts</a> )</p>
+<p style="text-align: right">Return to list of all ( <a href="../link-relation/">Link Relations</a> | <a href="../">Web Concepts</a> )</p>

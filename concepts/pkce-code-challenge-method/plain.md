@@ -13,4 +13,4 @@ description: "The plain transformation is for compatibility with existing deploy
 <hr/>
 
 <p style="float : left"><a href="./plain.json" title="JSON representing this particular Web Concept value">JSON</a></p>
-<p style="text-align: right">Return to list of all ( <a href="../pkce-code-challenge-methods">PKCE Code Challenge Methods</a> | <a href="../">Web Concepts</a> )</p>
+<p style="text-align: right">Return to list of all ( <a href="../pkce-code-challenge-method/">PKCE Code Challenge Methods</a> | <a href="../">Web Concepts</a> )</p>

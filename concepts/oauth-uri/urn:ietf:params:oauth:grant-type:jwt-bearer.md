@@ -13,4 +13,4 @@ description: "To use a Bearer JWT as an authorization grant, the client uses an 
 <hr/>
 
 <p style="float : left"><a href="./urn:ietf:params:oauth:grant-type:jwt-bearer.json" title="JSON representing this particular Web Concept value">JSON</a></p>
-<p style="text-align: right">Return to list of all ( <a href="../oauth-uris">OAuth URIs</a> | <a href="../">Web Concepts</a> )</p>
+<p style="text-align: right">Return to list of all ( <a href="../oauth-uri/">OAuth URIs</a> | <a href="../">Web Concepts</a> )</p>

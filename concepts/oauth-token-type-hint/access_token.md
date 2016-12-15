@@ -13,4 +13,4 @@ description: "A hint about the type of the token submitted for revocation. acces
 <hr/>
 
 <p style="float : left"><a href="./access_token.json" title="JSON representing this particular Web Concept value">JSON</a></p>
-<p style="text-align: right">Return to list of all ( <a href="../oauth-token-type-hints">OAuth Token Type Hints</a> | <a href="../">Web Concepts</a> )</p>
+<p style="text-align: right">Return to list of all ( <a href="../oauth-token-type-hint/">OAuth Token Type Hints</a> | <a href="../">Web Concepts</a> )</p>

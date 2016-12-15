@@ -13,4 +13,4 @@ description: "The \"iat\" (issued at) claim identifies the time at which the JWT
 <hr/>
 
 <p style="float : left"><a href="./iat.json" title="JSON representing this particular Web Concept value">JSON</a></p>
-<p style="text-align: right">Return to list of all ( <a href="../jwt-claims">JSON Web Token Claims</a> | <a href="../">Web Concepts</a> )</p>
+<p style="text-align: right">Return to list of all ( <a href="../jwt-claim/">JSON Web Token Claims</a> | <a href="../">Web Concepts</a> )</p>

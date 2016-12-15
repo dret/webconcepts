@@ -13,4 +13,4 @@ description: "The Access-Control-Allow-Credentials header indicates whether the 
 <hr/>
 
 <p style="float : left"><a href="./Access-Control-Allow-Credentials.json" title="JSON representing this particular Web Concept value">JSON</a></p>
-<p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>
+<p style="text-align: right">Return to list of all ( <a href="../http-header/">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

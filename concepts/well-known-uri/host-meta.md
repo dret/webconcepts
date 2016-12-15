@@ -13,4 +13,4 @@ description: "The client obtains the host-meta document for a given host by send
 <hr/>
 
 <p style="float : left"><a href="./host-meta.json" title="JSON representing this particular Web Concept value">JSON</a></p>
-<p style="text-align: right">Return to list of all ( <a href="../well-known-uris">Well-Known URIs</a> | <a href="../">Web Concepts</a> )</p>
+<p style="text-align: right">Return to list of all ( <a href="../well-known-uri/">Well-Known URIs</a> | <a href="../">Web Concepts</a> )</p>

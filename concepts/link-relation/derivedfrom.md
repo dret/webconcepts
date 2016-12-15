@@ -13,4 +13,4 @@ description: "The document linked to was later converted to the document that co
 <hr/>
 
 <p style="float : left"><a href="./derivedfrom.json" title="JSON representing this particular Web Concept value">JSON</a></p>
-<p style="text-align: right">Return to list of all ( <a href="../link-relations">Link Relations</a> | <a href="../">Web Concepts</a> )</p>
+<p style="text-align: right">Return to list of all ( <a href="../link-relation/">Link Relations</a> | <a href="../">Web Concepts</a> )</p>

@@ -13,4 +13,4 @@ description: "The \"by\" parameter is used to disclose the interface where the r
 <hr/>
 
 <p style="float : left"><a href="./by.json" title="JSON representing this particular Web Concept value">JSON</a></p>
-<p style="text-align: right">Return to list of all ( <a href="../http-forwarded-parameters">HTTP Forwarded Parameters</a> | <a href="../">Web Concepts</a> )</p>
+<p style="text-align: right">Return to list of all ( <a href="../http-forwarded-parameter/">HTTP Forwarded Parameters</a> | <a href="../">Web Concepts</a> )</p>

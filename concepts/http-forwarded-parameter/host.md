@@ -13,4 +13,4 @@ description: "The \"host\" parameter is used to forward the original value of th
 <hr/>
 
 <p style="float : left"><a href="./host.json" title="JSON representing this particular Web Concept value">JSON</a></p>
-<p style="text-align: right">Return to list of all ( <a href="../http-forwarded-parameters">HTTP Forwarded Parameters</a> | <a href="../">Web Concepts</a> )</p>
+<p style="text-align: right">Return to list of all ( <a href="../http-forwarded-parameter/">HTTP Forwarded Parameters</a> | <a href="../">Web Concepts</a> )</p>

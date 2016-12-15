@@ -13,4 +13,4 @@ description: "The authorization endpoint is used by the authorization code grant
 <hr/>
 
 <p style="float : left"><a href="./token.json" title="JSON representing this particular Web Concept value">JSON</a></p>
-<p style="text-align: right">Return to list of all ( <a href="../oauth-authorization-endpoint-response-types">OAuth Authorization Endpoint Response Types</a> | <a href="../">Web Concepts</a> )</p>
+<p style="text-align: right">Return to list of all ( <a href="../oauth-authorization-endpoint-response-type/">OAuth Authorization Endpoint Response Types</a> | <a href="../">Web Concepts</a> )</p>

@@ -13,4 +13,4 @@ description: "The \"only-if-cached\" request directive indicates that the client
 <hr/>
 
 <p style="float : left"><a href="./only-if-cached.json" title="JSON representing this particular Web Concept value">JSON</a></p>
-<p style="text-align: right">Return to list of all ( <a href="../http-cache-directives">HTTP Cache Directives</a> | <a href="../">Web Concepts</a> )</p>
+<p style="text-align: right">Return to list of all ( <a href="../http-cache-directive/">HTTP Cache Directives</a> | <a href="../">Web Concepts</a> )</p>

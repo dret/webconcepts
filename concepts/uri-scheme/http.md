@@ -13,4 +13,4 @@ description: "The \"http\" URI scheme is hereby defined for the purpose of minti
 <hr/>
 
 <p style="float : left"><a href="./http.json" title="JSON representing this particular Web Concept value">JSON</a></p>
-<p style="text-align: right">Return to list of all ( <a href="../uri-schemes">URI Schemes</a> | <a href="../">Web Concepts</a> )</p>
+<p style="text-align: right">Return to list of all ( <a href="../uri-scheme/">URI Schemes</a> | <a href="../">Web Concepts</a> )</p>

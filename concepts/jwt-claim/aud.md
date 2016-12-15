@@ -13,4 +13,4 @@ description: "The \"aud\" (audience) claim identifies the recipients that the JW
 <hr/>
 
 <p style="float : left"><a href="./aud.json" title="JSON representing this particular Web Concept value">JSON</a></p>
-<p style="text-align: right">Return to list of all ( <a href="../jwt-claims">JSON Web Token Claims</a> | <a href="../">Web Concepts</a> )</p>
+<p style="text-align: right">Return to list of all ( <a href="../jwt-claim/">JSON Web Token Claims</a> | <a href="../">Web Concepts</a> )</p>

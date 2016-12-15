@@ -13,4 +13,4 @@ description: "The \"for\" parameter is used to disclose information about the cl
 <hr/>
 
 <p style="float : left"><a href="./for.json" title="JSON representing this particular Web Concept value">JSON</a></p>
-<p style="text-align: right">Return to list of all ( <a href="../http-forwarded-parameters">HTTP Forwarded Parameters</a> | <a href="../">Web Concepts</a> )</p>
+<p style="text-align: right">Return to list of all ( <a href="../http-forwarded-parameter/">HTTP Forwarded Parameters</a> | <a href="../">Web Concepts</a> )</p>

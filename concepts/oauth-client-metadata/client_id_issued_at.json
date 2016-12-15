@@ -1,0 +1,1 @@
+{"value":"client_id_issued_at","concept":"oauth-client-metadata","id":"http:\/\/webconcepts.info\/concepts\/oauth-client-metadata\/client_id_issued_at","details":[{"description":"Time at which the client identifier was issued.","documentation":"http:\/\/tools.ietf.org\/html\/rfc7591#section-3.2.1","specification":"http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7591"}]}

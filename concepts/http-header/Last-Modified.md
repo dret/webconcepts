@@ -13,4 +13,4 @@ description: "The \"Last-Modified\" header field in a response provides a timest
 <hr/>
 
 <p style="float : left"><a href="./Last-Modified.json" title="JSON representing this particular Web Concept value">JSON</a></p>
-<p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>
+<p style="text-align: right">Return to list of all ( <a href="../http-header/">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

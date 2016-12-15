@@ -13,4 +13,4 @@ description: "The suffix \"+cbor\" MAY be used with any media type whose represe
 <hr/>
 
 <p style="float : left"><a href="./+cbor.json" title="JSON representing this particular Web Concept value">JSON</a></p>
-<p style="text-align: right">Return to list of all ( <a href="../structured-syntax-suffixes">Structured Syntax Suffixes</a> | <a href="../">Web Concepts</a> )</p>
+<p style="text-align: right">Return to list of all ( <a href="../structured-syntax-suffix/">Structured Syntax Suffixes</a> | <a href="../">Web Concepts</a> )</p>

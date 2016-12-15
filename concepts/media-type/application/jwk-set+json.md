@@ -13,4 +13,4 @@ description: "A JWK Set is a JSON object that represents a set of JWKs. The JSON
 <hr/>
 
 <p style="float : left"><a href="./application/jwk-set+json.json" title="JSON representing this particular Web Concept value">JSON</a></p>
-<p style="text-align: right">Return to list of all ( <a href="../media-types">Media Types</a> | <a href="../">Web Concepts</a> )</p>
+<p style="text-align: right">Return to list of all ( <a href="../media-type/">Media Types</a> | <a href="../">Web Concepts</a> )</p>

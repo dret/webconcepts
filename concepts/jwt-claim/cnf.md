@@ -13,4 +13,4 @@ description: "The \"cnf\" claim is used in the JWT to contain members used to id
 <hr/>
 
 <p style="float : left"><a href="./cnf.json" title="JSON representing this particular Web Concept value">JSON</a></p>
-<p style="text-align: right">Return to list of all ( <a href="../jwt-claims">JSON Web Token Claims</a> | <a href="../">Web Concepts</a> )</p>
+<p style="text-align: right">Return to list of all ( <a href="../jwt-claim/">JSON Web Token Claims</a> | <a href="../">Web Concepts</a> )</p>

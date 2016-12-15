@@ -13,4 +13,4 @@ description: "The access token provided is expired, revoked, malformed, or inval
 <hr/>
 
 <p style="float : left"><a href="./invalid_token.json" title="JSON representing this particular Web Concept value">JSON</a></p>
-<p style="text-align: right">Return to list of all ( <a href="../oauth-extension-errors">OAuth Extensions Errors</a> | <a href="../">Web Concepts</a> )</p>
+<p style="text-align: right">Return to list of all ( <a href="../oauth-extension-error/">OAuth Extensions Errors</a> | <a href="../">Web Concepts</a> )</p>

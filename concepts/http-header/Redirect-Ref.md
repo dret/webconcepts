@@ -13,4 +13,4 @@ description: "The Redirect-Ref header is used in all 3xx responses from redirect
 <hr/>
 
 <p style="float : left"><a href="./Redirect-Ref.json" title="JSON representing this particular Web Concept value">JSON</a></p>
-<p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>
+<p style="text-align: right">Return to list of all ( <a href="../http-header/">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

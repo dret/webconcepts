@@ -13,4 +13,4 @@ description: "A security token with the property that any party in possession of
 <hr/>
 
 <p style="float : left"><a href="./Bearer.json" title="JSON representing this particular Web Concept value">JSON</a></p>
-<p style="text-align: right">Return to list of all ( <a href="../oauth-access-token-types">OAuth Access Token Types</a> | <a href="../">Web Concepts</a> )</p>
+<p style="text-align: right">Return to list of all ( <a href="../oauth-access-token-type/">OAuth Access Token Types</a> | <a href="../">Web Concepts</a> )</p>

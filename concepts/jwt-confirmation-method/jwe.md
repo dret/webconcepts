@@ -13,4 +13,4 @@ description: "When the key held by the presenter is a symmetric key, the \"jwe\"
 <hr/>
 
 <p style="float : left"><a href="./jwe.json" title="JSON representing this particular Web Concept value">JSON</a></p>
-<p style="text-align: right">Return to list of all ( <a href="../jwt-confirmation-methods">JWT Confirmation Methods</a> | <a href="../">Web Concepts</a> )</p>
+<p style="text-align: right">Return to list of all ( <a href="../jwt-confirmation-method/">JWT Confirmation Methods</a> | <a href="../">Web Concepts</a> )</p>

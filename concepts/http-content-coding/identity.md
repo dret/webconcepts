@@ -13,4 +13,4 @@ description: "An \"identity\" token is used as a synonym for \"no encoding\" in 
 <hr/>
 
 <p style="float : left"><a href="./identity.json" title="JSON representing this particular Web Concept value">JSON</a></p>
-<p style="text-align: right">Return to list of all ( <a href="../http-content-codings">HTTP Content Codings</a> | <a href="../">Web Concepts</a> )</p>
+<p style="text-align: right">Return to list of all ( <a href="../http-content-coding/">HTTP Content Codings</a> | <a href="../">Web Concepts</a> )</p>

@@ -13,4 +13,4 @@ description: "The Content-Base entity-header field may be used to specify the ba
 <hr/>
 
 <p style="float : left"><a href="./Content-Base.json" title="JSON representing this particular Web Concept value">JSON</a></p>
-<p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>
+<p style="text-align: right">Return to list of all ( <a href="../http-header/">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

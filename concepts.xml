@@ -3,169 +3,141 @@
     <concept id="http-method">
         <title-singular>HTTP Request Method</title-singular>
         <title-plural>HTTP Request Methods</title-plural>
-        <pathname>http-methods</pathname>
         <iana-registry>http://www.iana.org/assignments/http-methods/http-methods.xhtml#methods</iana-registry>
     </concept>
     <concept id="http-header">
         <title-singular>HTTP Header Field</title-singular>
         <title-plural>HTTP Header Fields</title-plural>
-        <pathname>http-headers</pathname>
         <iana-registry>http://www.iana.org/assignments/message-headers/message-headers.xhtml</iana-registry>
     </concept>
     <concept id="http-status-code">
         <title-singular>HTTP Status Code</title-singular>
         <title-plural>HTTP Status Codes</title-plural>
-        <pathname>http-status-codes</pathname>
         <iana-registry>http://www.iana.org/assignments/http-status-codes/http-status-codes.xhtml</iana-registry>
     </concept>
     <concept id="http-cache-directive">
         <title-singular>HTTP Cache Directive</title-singular>
         <title-plural>HTTP Cache Directives</title-plural>
-        <pathname>http-cache-directives</pathname>
         <iana-registry>http://www.iana.org/assignments/http-cache-directives/http-cache-directives.xhtml</iana-registry>
     </concept>
     <concept id="link-relation">
         <title-singular>Link Relation</title-singular>
         <title-plural>Link Relations</title-plural>
-        <pathname>link-relations</pathname>
         <iana-registry>http://www.iana.org/assignments/link-relations/link-relations.xhtml</iana-registry>
     </concept>
     <concept id="media-type">
         <title-singular>Media Type</title-singular>
         <title-plural>Media Types</title-plural>
-        <pathname>media-types</pathname>
         <iana-registry>http://www.iana.org/assignments/media-types/media-types.xhtml</iana-registry>
     </concept>
     <concept id="structured-syntax-suffix">
         <title-singular>Structured Syntax Suffix</title-singular>
         <title-plural>Structured Syntax Suffixes</title-plural>
-        <pathname>structured-syntax-suffixes</pathname>
         <iana-registry>http://www.iana.org/assignments/media-type-structured-suffix/media-type-structured-suffix.xhtml</iana-registry>
     </concept>
     <concept id="http-content-coding">
         <title-singular>HTTP Content Coding</title-singular>
         <title-plural>HTTP Content Codings</title-plural>
-        <pathname>http-content-codings</pathname>
         <iana-registry>http://www.iana.org/assignments/http-parameters/http-parameters.xhtml#content-coding</iana-registry>
     </concept>
     <concept id="http-range-unit">
         <title-singular>HTTP Range Unit</title-singular>
         <title-plural>HTTP Range Units</title-plural>
-        <pathname>http-range-units</pathname>
         <iana-registry>http://www.iana.org/assignments/http-parameters/http-parameters.xhtml#range-units</iana-registry>
     </concept>
     <concept id="well-known-uri">
         <title-singular>Well-Known URI</title-singular>
         <title-plural>Well-Known URIs</title-plural>
-        <pathname>well-known-uris</pathname>
         <iana-registry>http://www.iana.org/assignments/well-known-uris/well-known-uris.xhtml</iana-registry>
     </concept>
     <concept id="http-preference">
         <title-singular>HTTP Preference</title-singular>
         <title-plural>HTTP Preferences</title-plural>
-        <pathname>http-preferences</pathname>
         <iana-registry>http://www.iana.org/assignments/http-parameters/http-parameters.xhtml#preferences</iana-registry>
     </concept>
     <concept id="http-forwarded-parameter">
         <title-singular>HTTP Forwarded Parameter</title-singular>
         <title-plural>HTTP Forwarded Parameters</title-plural>
-        <pathname>http-forwarded-parameters</pathname>
         <iana-registry>http://www.iana.org/assignments/http-parameters/http-parameters.xhtml#forwarded</iana-registry>
     </concept>
     <concept id="http-transfer-coding">
         <title-singular>HTTP Transfer Coding</title-singular>
         <title-plural>HTTP Transfer Codings</title-plural>
-        <pathname>http-transfer-codings</pathname>
         <iana-registry>http://www.iana.org/assignments/http-parameters/http-parameters.xhtml#transfer-coding</iana-registry>
     </concept>
     <concept id="uri-scheme">
         <title-singular>URI Scheme</title-singular>
         <title-plural>URI Schemes</title-plural>
-        <pathname>uri-schemes</pathname>
         <iana-registry>http://www.iana.org/assignments/uri-schemes/uri-schemes.xhtml</iana-registry>
     </concept>
     <concept id="jwt-claim">
         <title-singular>JSON Web Token Claim</title-singular>
         <title-plural>JSON Web Token Claims</title-plural>
-        <pathname>jwt-claims</pathname>
         <iana-registry>http://www.iana.org/assignments/jwt/jwt.xhtml#claims</iana-registry>
     </concept>
     <concept id="jwt-confirmation-method">
         <title-singular>JWT Confirmation Method</title-singular>
         <title-plural>JWT Confirmation Methods</title-plural>
-        <pathname>jwt-confirmation-methods</pathname>
         <iana-registry>http://www.iana.org/assignments/jwt/jwt.xhtml#confirmation-methods</iana-registry>
     </concept>
     <concept id="urn-namespace">
         <title-singular>URN Namespace</title-singular>
         <title-plural>URN Namespaces</title-plural>
-        <pathname>urn-namespaces</pathname>
         <iana-registry>http://www.iana.org/assignments/urn-namespaces/urn-namespaces.xhtml</iana-registry>
     </concept>
     <concept id="oauth-access-token-type">
         <title-singular>OAuth Access Token Type</title-singular>
         <title-plural>OAuth Access Token Types</title-plural>
-        <pathname>oauth-access-token-types</pathname>
         <iana-registry>http://www.iana.org/assignments/oauth-parameters/oauth-parameters.xhtml#token-types</iana-registry>
     </concept>
     <concept id="oauth-authorization-endpoint-response-type">
         <title-singular>OAuth Authorization Endpoint Response Type</title-singular>
         <title-plural>OAuth Authorization Endpoint Response Types</title-plural>
-        <pathname>oauth-authorization-endpoint-response-types</pathname>
         <iana-registry>http://www.iana.org/assignments/oauth-parameters/oauth-parameters.xhtml#endpoint</iana-registry>
     </concept>
-    <concept id="oauth-client-metadatum">
-        <title-singular>OAuth Dynamic Client Registration Metadatum</title-singular>
+    <concept id="oauth-client-metadata">
+        <title-singular>OAuth Dynamic Client Registration Metadata</title-singular>
         <title-plural>OAuth Dynamic Client Registration Metadata</title-plural>
-        <pathname>oauth-client-metadata</pathname>
         <iana-registry>http://www.iana.org/assignments/oauth-parameters/oauth-parameters.xhtml#client-metadata</iana-registry>
     </concept>
     <concept id="oauth-extension-error">
         <title-singular>OAuth Extensions Error</title-singular>
         <title-plural>OAuth Extensions Errors</title-plural>
-        <pathname>oauth-extension-errors</pathname>
         <iana-registry>http://www.iana.org/assignments/oauth-parameters/oauth-parameters.xhtml#extensions-error</iana-registry>
     </concept>
     <concept id="oauth-parameter">
         <title-singular>OAuth Parameter</title-singular>
         <title-plural>OAuth Parameters</title-plural>
-        <pathname>oauth-parameters</pathname>
         <iana-registry>http://www.iana.org/assignments/oauth-parameters/oauth-parameters.xhtml#parameters</iana-registry>
     </concept>
     <concept id="oauth-token-endpoint-auth-method">
         <title-singular>OAuth Token Endpoint Authentication Method</title-singular>
         <title-plural>OAuth Token Endpoint Authentication Methods</title-plural>
-        <pathname>oauth-token-endpoint-auth-methods</pathname>
         <iana-registry>http://www.iana.org/assignments/oauth-parameters/oauth-parameters.xhtml#token-endpoint-auth-method</iana-registry>
     </concept>
     <concept id="oauth-token-introspection-response">
         <title-singular>OAuth Token Introspection Response</title-singular>
         <title-plural>OAuth Token Introspection Responses</title-plural>
-        <pathname>oauth-token-introspection-responses</pathname>
         <iana-registry>http://www.iana.org/assignments/oauth-parameters/oauth-parameters.xhtml#token-introspection-response</iana-registry>
     </concept>
     <concept id="oauth-token-type-hint">
         <title-singular>OAuth Token Type Hint</title-singular>
         <title-plural>OAuth Token Type Hints</title-plural>
-        <pathname>oauth-token-type-hints</pathname>
         <iana-registry>http://www.iana.org/assignments/oauth-parameters/oauth-parameters.xhtml#token-type-hint</iana-registry>
     </concept>
     <concept id="oauth-uri">
         <title-singular>OAuth URI</title-singular>
         <title-plural>OAuth URIs</title-plural>
-        <pathname>oauth-uris</pathname>
         <iana-registry>http://www.iana.org/assignments/oauth-parameters/oauth-parameters.xhtml#uri</iana-registry>
     </concept>
     <concept id="pkce-code-challenge-method">
         <title-singular>PKCE Code Challenge Method</title-singular>
         <title-plural>PKCE Code Challenge Methods</title-plural>
-        <pathname>pkce-code-challenge-methods</pathname>
         <iana-registry>http://www.iana.org/assignments/oauth-parameters/oauth-parameters.xhtml#pkce-code-challenge-method</iana-registry>
     </concept>
     <concept id="http-authentication-scheme">
         <title-singular>HTTP Authentication Scheme</title-singular>
         <title-plural>HTTP Authentication Schemes</title-plural>
-        <pathname>http-authentication-schemes</pathname>
         <iana-registry>http://www.iana.org/assignments/http-authschemes/http-authschemes.xhtml#authschemes</iana-registry>
     </concept>
 </concepts>

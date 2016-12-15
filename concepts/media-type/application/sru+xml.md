@@ -13,4 +13,4 @@ description: "An XML schema for the SRU response. SRU is a protocol, and the med
 <hr/>
 
 <p style="float : left"><a href="./application/sru+xml.json" title="JSON representing this particular Web Concept value">JSON</a></p>
-<p style="text-align: right">Return to list of all ( <a href="../media-types">Media Types</a> | <a href="../">Web Concepts</a> )</p>
+<p style="text-align: right">Return to list of all ( <a href="../media-type/">Media Types</a> | <a href="../">Web Concepts</a> )</p>

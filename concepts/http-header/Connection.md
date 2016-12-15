@@ -13,4 +13,4 @@ description: "The \"Connection\" header field allows the sender to indicate desi
 <hr/>
 
 <p style="float : left"><a href="./Connection.json" title="JSON representing this particular Web Concept value">JSON</a></p>
-<p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>
+<p style="text-align: right">Return to list of all ( <a href="../http-header/">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

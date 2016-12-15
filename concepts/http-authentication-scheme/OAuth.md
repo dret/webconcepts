@@ -13,4 +13,4 @@ description: "Protocol parameters can be transmitted using the HTTP \"Authorizat
 <hr/>
 
 <p style="float : left"><a href="./OAuth.json" title="JSON representing this particular Web Concept value">JSON</a></p>
-<p style="text-align: right">Return to list of all ( <a href="../http-authentication-schemes">HTTP Authentication Schemes</a> | <a href="../">Web Concepts</a> )</p>
+<p style="text-align: right">Return to list of all ( <a href="../http-authentication-scheme/">HTTP Authentication Schemes</a> | <a href="../">Web Concepts</a> )</p>

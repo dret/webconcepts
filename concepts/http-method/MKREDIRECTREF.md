@@ -13,4 +13,4 @@ description: "The MKREDIRECTREF method requests the creation of a redirect refer
 <hr/>
 
 <p style="float : left"><a href="./MKREDIRECTREF.json" title="JSON representing this particular Web Concept value">JSON</a></p>
-<p style="text-align: right">Return to list of all ( <a href="../http-methods">HTTP Request Methods</a> | <a href="../">Web Concepts</a> )</p>
+<p style="text-align: right">Return to list of all ( <a href="../http-method/">HTTP Request Methods</a> | <a href="../">Web Concepts</a> )</p>

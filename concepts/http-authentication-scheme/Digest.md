@@ -13,4 +13,4 @@ description: "The Digest scheme is based on a simple challenge-response paradigm
 <hr/>
 
 <p style="float : left"><a href="./Digest.json" title="JSON representing this particular Web Concept value">JSON</a></p>
-<p style="text-align: right">Return to list of all ( <a href="../http-authentication-schemes">HTTP Authentication Schemes</a> | <a href="../">Web Concepts</a> )</p>
+<p style="text-align: right">Return to list of all ( <a href="../http-authentication-scheme/">HTTP Authentication Schemes</a> | <a href="../">Web Concepts</a> )</p>

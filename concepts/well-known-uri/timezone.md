@@ -13,4 +13,4 @@ description: "A \"well-known\" URI is registered by this specification for the T
 <hr/>
 
 <p style="float : left"><a href="./timezone.json" title="JSON representing this particular Web Concept value">JSON</a></p>
-<p style="text-align: right">Return to list of all ( <a href="../well-known-uris">Well-Known URIs</a> | <a href="../">Web Concepts</a> )</p>
+<p style="text-align: right">Return to list of all ( <a href="../well-known-uri/">Well-Known URIs</a> | <a href="../">Web Concepts</a> )</p>

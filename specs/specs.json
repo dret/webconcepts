@@ -1706,25 +1706,25 @@
       "URL": "http://tools.ietf.org/html/rfc7591",
       "abstract": "This specification defines mechanisms for dynamically registering OAuth 2.0 clients with authorization servers. Registration requests send a set of desired client metadata values to the authorization server. The resulting registration responses return a client identifier to use at the authorization server and the client metadata values registered for the client. The client can then use this registration information to communicate with the authorization server using the OAuth 2.0 protocol. This specification also defines a set of common client metadata fields and values for clients to use during registration.",
       "concepts": [{
-       "oauth-client-metadatum": "client_id" }, {
-       "oauth-client-metadatum": "client_id_issued_at" }, {
-       "oauth-client-metadatum": "client_name" }, {
-       "oauth-client-metadatum": "client_secret" }, {
-       "oauth-client-metadatum": "client_secret_expires_at" }, {
-       "oauth-client-metadatum": "client_uri" }, {
-       "oauth-client-metadatum": "contacts" }, {
-       "oauth-client-metadatum": "grant_types" }, {
-       "oauth-client-metadatum": "jwks_uri" }, {
-       "oauth-client-metadatum": "logo_uri" }, {
-       "oauth-client-metadatum": "policy_uri" }, {
-       "oauth-client-metadatum": "redirect_uris" }, {
-       "oauth-client-metadatum": "redirect_uris" }, {
-       "oauth-client-metadatum": "response_types" }, {
-       "oauth-client-metadatum": "scope" }, {
-       "oauth-client-metadatum": "software_id" }, {
-       "oauth-client-metadatum": "software_version" }, {
-       "oauth-client-metadatum": "token_endpoint_auth_method" }, {
-       "oauth-client-metadatum": "tos_uri" }, {
+       "oauth-client-metadata": "client_id" }, {
+       "oauth-client-metadata": "client_id_issued_at" }, {
+       "oauth-client-metadata": "client_name" }, {
+       "oauth-client-metadata": "client_secret" }, {
+       "oauth-client-metadata": "client_secret_expires_at" }, {
+       "oauth-client-metadata": "client_uri" }, {
+       "oauth-client-metadata": "contacts" }, {
+       "oauth-client-metadata": "grant_types" }, {
+       "oauth-client-metadata": "jwks_uri" }, {
+       "oauth-client-metadata": "logo_uri" }, {
+       "oauth-client-metadata": "policy_uri" }, {
+       "oauth-client-metadata": "redirect_uris" }, {
+       "oauth-client-metadata": "redirect_uris" }, {
+       "oauth-client-metadata": "response_types" }, {
+       "oauth-client-metadata": "scope" }, {
+       "oauth-client-metadata": "software_id" }, {
+       "oauth-client-metadata": "software_version" }, {
+       "oauth-client-metadata": "token_endpoint_auth_method" }, {
+       "oauth-client-metadata": "tos_uri" }, {
        "oauth-token-endpoint-auth-method": "client_secret_basic" }, {
        "oauth-token-endpoint-auth-method": "client_secret_post" }, {
        "oauth-token-endpoint-auth-method": "none" }]}},{
@@ -1736,8 +1736,8 @@
       "URL": "http://tools.ietf.org/html/rfc7592",
       "abstract": "This specification defines methods for management of OAuth 2.0 dynamic client registrations for use cases in which the properties of a registered client may need to be changed during the lifetime of the client. Not all authorization servers supporting dynamic client registration will support these management methods.",
       "concepts": [{
-       "oauth-client-metadatum": "registration_access_token" }, {
-       "oauth-client-metadatum": "registration_client_uri" }]}},{
+       "oauth-client-metadata": "registration_access_token" }, {
+       "oauth-client-metadata": "registration_client_uri" }]}},{
      "7595": {
       "id": "http://webconcepts.info/specs/IETF/RFC/7595",
       "title": "Guidelines and Registration Procedures for URI Schemes",

@@ -13,4 +13,4 @@ description: "The request is missing a required parameter, includes an unsupport
 <hr/>
 
 <p style="float : left"><a href="./invalid_request.json" title="JSON representing this particular Web Concept value">JSON</a></p>
-<p style="text-align: right">Return to list of all ( <a href="../oauth-extension-errors">OAuth Extensions Errors</a> | <a href="../">Web Concepts</a> )</p>
+<p style="text-align: right">Return to list of all ( <a href="../oauth-extension-error/">OAuth Extensions Errors</a> | <a href="../">Web Concepts</a> )</p>

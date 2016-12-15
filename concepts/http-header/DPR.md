@@ -13,4 +13,4 @@ description: "The \"DPR\" header field is a number that, in requests, indicates 
 <hr/>
 
 <p style="float : left"><a href="./DPR.json" title="JSON representing this particular Web Concept value">JSON</a></p>
-<p style="text-align: right">Return to list of all ( <a href="../http-headers">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>
+<p style="text-align: right">Return to list of all ( <a href="../http-header/">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>

@@ -13,4 +13,4 @@ description: "The \"return=representation\" preference indicates that the client
 <hr/>
 
 <p style="float : left"><a href="./return.json" title="JSON representing this particular Web Concept value">JSON</a></p>
-<p style="text-align: right">Return to list of all ( <a href="../http-preferences">HTTP Preferences</a> | <a href="../">Web Concepts</a> )</p>
+<p style="text-align: right">Return to list of all ( <a href="../http-preference/">HTTP Preferences</a> | <a href="../">Web Concepts</a> )</p>

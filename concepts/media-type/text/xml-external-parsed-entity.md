@@ -13,4 +13,4 @@ description: "If an XML external parsed entity - that is, the unprocessed, sourc
 <hr/>
 
 <p style="float : left"><a href="./text/xml-external-parsed-entity.json" title="JSON representing this particular Web Concept value">JSON</a></p>
-<p style="text-align: right">Return to list of all ( <a href="../media-types">Media Types</a> | <a href="../">Web Concepts</a> )</p>
+<p style="text-align: right">Return to list of all ( <a href="../media-type/">Media Types</a> | <a href="../">Web Concepts</a> )</p>

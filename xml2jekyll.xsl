@@ -186,18 +186,18 @@
                 <xsl:text>* [</xsl:text>
                 <xsl:value-of select="title-plural"/>
                 <xsl:text>](</xsl:text>
-                <xsl:value-of select="pathname"/>
-                <xsl:text>) (</xsl:text>
+                <xsl:value-of select="@id"/>
+                <xsl:text>/) (</xsl:text>
                 <xsl:value-of select="count(distinct-values($allspecs//*[local-name() eq current()/@id]/@def))"/>
                 <xsl:text>)&#xa;</xsl:text>
-                <xsl:result-document href="{$concepts-dir}/{pathname}.md" format="markdown">
+                <xsl:result-document href="{$concepts-dir}/{@id}.md" format="markdown">
                     <xsl:text>---&#xa;</xsl:text>
                     <xsl:text>layout:    page&#xa;</xsl:text>
                     <xsl:text>title:     "</xsl:text>
                     <xsl:value-of select="title-plural"/>
                     <xsl:text>"&#xa;</xsl:text>
                     <xsl:text>permalink: </xsl:text>
-                    <xsl:value-of select="concat('/', $concepts-dir, '/', pathname)"/>
+                    <xsl:value-of select="concat('/', $concepts-dir, '/', @id, '/')"/>
                     <xsl:text>&#xa;</xsl:text>
                     <xsl:text>---&#xa;&#xa;</xsl:text>
                     <xsl:variable name="values-count" select="count($allspecs//*[local-name() eq $concept/@id]/@def)"/>
@@ -325,15 +325,15 @@
                             <xsl:value-of select="$concept-name"/>
                             <xsl:text>.json" title="JSON representing this particular Web Concept value">JSON&lt;/a>&lt;/p>&#xa;</xsl:text>
                             <xsl:text>&lt;p style="text-align: right">Return to list of all ( &lt;a href="../</xsl:text>
-                            <xsl:value-of select="$concept/pathname/text()"/>
-                            <xsl:text>"></xsl:text>
+                            <xsl:value-of select="$concept/@id"/>
+                            <xsl:text>/"></xsl:text>
                             <xsl:value-of select="$concept/title-plural/text()"/>
                             <xsl:text>&lt;/a> | &lt;a href="../">Web Concepts&lt;/a> )&lt;/p>&#xa;</xsl:text>
                         </xsl:result-document>
                     </xsl:for-each>
                     <xsl:text>&#xa;&lt;br/>&#xa;&lt;hr/>&#xa;&#xa;</xsl:text>
                     <xsl:text>&lt;p style="float : left">&lt;a href="</xsl:text>
-                    <xsl:value-of select="pathname"/>
+                    <xsl:value-of select="@id"/>
                     <xsl:text>.json" title="JSON representing all values for this Web Concept">JSON&lt;/a>&lt;/p>&#xa;</xsl:text>
                 </xsl:result-document>
             </xsl:for-each>
@@ -433,7 +433,7 @@
                 <xsl:for-each-group select="*[local-name() = $concepts/concepts/concept/@id]" group-by="local-name()">
                     <xsl:sort select="$concepts//concept[@id eq current()/local-name()]/title-plural"/>
                     <h3 id="{$concepts//concept[@id eq current()/local-name()]/@id}">
-                        <a href="/{concat($concepts-dir, '/', $concepts//concept[@id eq current()/local-name()]/pathname)}">
+                        <a href="/{concat($concepts-dir, '/', $concepts//concept[@id eq current()/local-name()]/@id)}/">
                             <xsl:value-of select="$concepts//concept[@id eq current()/local-name()]/title-plural"/>
                         </a>
                     </h3>

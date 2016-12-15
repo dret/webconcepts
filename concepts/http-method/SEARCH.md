@@ -13,4 +13,4 @@ description: "The client invokes the SEARCH method to initiate a server-side sea
 <hr/>
 
 <p style="float : left"><a href="./SEARCH.json" title="JSON representing this particular Web Concept value">JSON</a></p>
-<p style="text-align: right">Return to list of all ( <a href="../http-methods">HTTP Request Methods</a> | <a href="../">Web Concepts</a> )</p>
+<p style="text-align: right">Return to list of all ( <a href="../http-method/">HTTP Request Methods</a> | <a href="../">Web Concepts</a> )</p>

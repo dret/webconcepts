@@ -13,4 +13,4 @@ description: "The client uses HTTP Basic as defined in OAuth 2.0."
 <hr/>
 
 <p style="float : left"><a href="./client_secret_basic.json" title="JSON representing this particular Web Concept value">JSON</a></p>
-<p style="text-align: right">Return to list of all ( <a href="../oauth-token-endpoint-auth-methods">OAuth Token Endpoint Authentication Methods</a> | <a href="../">Web Concepts</a> )</p>
+<p style="text-align: right">Return to list of all ( <a href="../oauth-token-endpoint-auth-method/">OAuth Token Endpoint Authentication Methods</a> | <a href="../">Web Concepts</a> )</p>

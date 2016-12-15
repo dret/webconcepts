@@ -13,4 +13,4 @@ description: "An International Standard Book Number (ISBN) identifies an edition
 <hr/>
 
 <p style="float : left"><a href="./isbn.json" title="JSON representing this particular Web Concept value">JSON</a></p>
-<p style="text-align: right">Return to list of all ( <a href="../urn-namespaces">URN Namespaces</a> | <a href="../">Web Concepts</a> )</p>
+<p style="text-align: right">Return to list of all ( <a href="../urn-namespace/">URN Namespaces</a> | <a href="../">Web Concepts</a> )</p>

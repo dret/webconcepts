@@ -13,4 +13,4 @@ description: "Client identifier for the OAuth 2.0 client that requested this tok
 <hr/>
 
 <p style="float : left"><a href="./client_id.json" title="JSON representing this particular Web Concept value">JSON</a></p>
-<p style="text-align: right">Return to list of all ( <a href="../oauth-token-introspection-responses">OAuth Token Introspection Responses</a> | <a href="../">Web Concepts</a> )</p>
+<p style="text-align: right">Return to list of all ( <a href="../oauth-token-introspection-response/">OAuth Token Introspection Responses</a> | <a href="../">Web Concepts</a> )</p>

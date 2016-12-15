@@ -13,4 +13,4 @@ description: "The Organization for the Advancement of Structured Information Sta
 <hr/>
 
 <p style="float : left"><a href="./oasis.json" title="JSON representing this particular Web Concept value">JSON</a></p>
-<p style="text-align: right">Return to list of all ( <a href="../urn-namespaces">URN Namespaces</a> | <a href="../">Web Concepts</a> )</p>
+<p style="text-align: right">Return to list of all ( <a href="../urn-namespace/">URN Namespaces</a> | <a href="../">Web Concepts</a> )</p>

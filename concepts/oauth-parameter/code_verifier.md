@@ -13,4 +13,4 @@ description: "Code verifier."
 <hr/>
 
 <p style="float : left"><a href="./code_verifier.json" title="JSON representing this particular Web Concept value">JSON</a></p>
-<p style="text-align: right">Return to list of all ( <a href="../oauth-parameters">OAuth Parameters</a> | <a href="../">Web Concepts</a> )</p>
+<p style="text-align: right">Return to list of all ( <a href="../oauth-parameter/">OAuth Parameters</a> | <a href="../">Web Concepts</a> )</p>

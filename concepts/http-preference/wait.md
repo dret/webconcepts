@@ -13,4 +13,4 @@ description: "The \"wait\" preference can be used to establish an upper bound on
 <hr/>
 
 <p style="float : left"><a href="./wait.json" title="JSON representing this particular Web Concept value">JSON</a></p>
-<p style="text-align: right">Return to list of all ( <a href="../http-preferences">HTTP Preferences</a> | <a href="../">Web Concepts</a> )</p>
+<p style="text-align: right">Return to list of all ( <a href="../http-preference/">HTTP Preferences</a> | <a href="../">Web Concepts</a> )</p>

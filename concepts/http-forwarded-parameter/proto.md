@@ -13,4 +13,4 @@ description: "The \"proto\" parameter has the value of the used protocol type."
 <hr/>
 
 <p style="float : left"><a href="./proto.json" title="JSON representing this particular Web Concept value">JSON</a></p>
-<p style="text-align: right">Return to list of all ( <a href="../http-forwarded-parameters">HTTP Forwarded Parameters</a> | <a href="../">Web Concepts</a> )</p>
+<p style="text-align: right">Return to list of all ( <a href="../http-forwarded-parameter/">HTTP Forwarded Parameters</a> | <a href="../">Web Concepts</a> )</p>

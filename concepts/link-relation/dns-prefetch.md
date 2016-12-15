@@ -13,4 +13,4 @@ description: "The dns-prefetch link relation type is used to indicate an origin 
 <hr/>
 
 <p style="float : left"><a href="./dns-prefetch.json" title="JSON representing this particular Web Concept value">JSON</a></p>
-<p style="text-align: right">Return to list of all ( <a href="../link-relations">Link Relations</a> | <a href="../">Web Concepts</a> )</p>
+<p style="text-align: right">Return to list of all ( <a href="../link-relation/">Link Relations</a> | <a href="../">Web Concepts</a> )</p>
