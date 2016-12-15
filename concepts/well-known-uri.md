@@ -33,4 +33,4 @@ Well-Known URI | Specification
 <br/>
 <hr/>
 
-<p style="float : left"><a href="well-known-uri.json" title="JSON representing all values for this Web Concept">JSON</a></p>
+<p style="float : left"><a href="../well-known-uri.json" title="JSON representing all values for this Web Concept">JSON</a></p>

@@ -16,4 +16,4 @@ OAuth Authorization Endpoint Response Type | Specification
 <br/>
 <hr/>
 
-<p style="float : left"><a href="oauth-authorization-endpoint-response-type.json" title="JSON representing all values for this Web Concept">JSON</a></p>
+<p style="float : left"><a href="../oauth-authorization-endpoint-response-type.json" title="JSON representing all values for this Web Concept">JSON</a></p>

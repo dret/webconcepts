@@ -19,4 +19,4 @@ OAuth URI | Specification
 <br/>
 <hr/>
 
-<p style="float : left"><a href="oauth-uri.json" title="JSON representing all values for this Web Concept">JSON</a></p>
+<p style="float : left"><a href="../oauth-uri.json" title="JSON representing all values for this Web Concept">JSON</a></p>

@@ -22,4 +22,4 @@ HTTP Authentication Scheme | Specification
 <br/>
 <hr/>
 
-<p style="float : left"><a href="http-authentication-scheme.json" title="JSON representing all values for this Web Concept">JSON</a></p>
+<p style="float : left"><a href="../http-authentication-scheme.json" title="JSON representing all values for this Web Concept">JSON</a></p>

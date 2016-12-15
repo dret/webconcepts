@@ -18,4 +18,4 @@ OAuth Extensions Error | Specification
 <br/>
 <hr/>
 
-<p style="float : left"><a href="oauth-extension-error.json" title="JSON representing all values for this Web Concept">JSON</a></p>
+<p style="float : left"><a href="../oauth-extension-error.json" title="JSON representing all values for this Web Concept">JSON</a></p>

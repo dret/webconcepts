@@ -16,4 +16,4 @@ OAuth Access Token Type | Specification
 <br/>
 <hr/>
 
-<p style="float : left"><a href="oauth-access-token-type.json" title="JSON representing all values for this Web Concept">JSON</a></p>
+<p style="float : left"><a href="../oauth-access-token-type.json" title="JSON representing all values for this Web Concept">JSON</a></p>

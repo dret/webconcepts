@@ -17,4 +17,4 @@ OAuth Token Endpoint Authentication Method | Specification
 <br/>
 <hr/>
 
-<p style="float : left"><a href="oauth-token-endpoint-auth-method.json" title="JSON representing all values for this Web Concept">JSON</a></p>
+<p style="float : left"><a href="../oauth-token-endpoint-auth-method.json" title="JSON representing all values for this Web Concept">JSON</a></p>
