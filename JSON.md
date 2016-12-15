@@ -33,8 +33,7 @@ The following JSON snippet shows one part of [the *HTTP Method* concept](/concep
   "name-plural": "HTTP Request Methods",
   "registry": "http://www.iana.org/assignments/http-methods/http-methods.xhtml#methods",
   "values": [
-    {
-      "value": "GET",
+    { "value": "GET",
       "concept": "http://webconcepts.info/concepts/http-method/",
       "id": "http://webconcepts.info/concepts/http-method/GET",
       "details": [{
@@ -46,8 +45,23 @@ The following JSON snippet shows one part of [the *HTTP Method* concept](/concep
 For the top-level object describing the concept, the structure is rather simple:
 
 * `concept` is the concept's name as it is referred to in the sourec data.
-* `id` is the concept's identifier (a URI) which is can be used as a URI in a browser, and is also used to identify the concept in JSON data.
+* `id` is the concept identifier (a URI) which is can be used as a URI in a browser, and is also used to identify the concept in JSON data.
 * `name-singular` is the singular version of the concept's human-readable name.
 * `name-plural` is the plural version of the concept's human-readable name.
 * `registry` (optional) identifies a registry of all well-known values, if such a registry exists.
 * `values` is an array of all known values for the concept.
+
+For each value, the concept JSON contains a JSON object that is either embedded (as shown here), or is also available [as a standalone JSON document](/concepts/http-method/GET.json) as described above. The concept value object uses the following structure:
+
+* `value` is the concept value itself.
+* `concept` is the identifier of the concept that the value is defined for.
+* `id` is the value identifier (a URI) which is can be used as a URI in a browser, and is also used to identify the value in JSON data.
+* `details` is an array of all known descriptions of the value.
+
+Within the `details` array, the following structure is used:
+
+* `description` is a human-readable text snippet describing the concept value.
+* `documentation` is a URI identifying the documentation where the concept value is defined.
+* `specification` is the identifier of the specification from which the definition and documentation have been harvested.
+
+There can be more than one value in the `details` array, [see here for a discussion of why there can be more than one description/definition](https://github.com/dret/webconcepts/issues/28). There currently is no way to determine the "best" or "most authoritative" one, so applications ideally should render all of them.
