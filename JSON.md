@@ -24,6 +24,8 @@ For each concept, there also is JSON data just for that concept, and there also 
 
 ## JSON Document Structure
 
+The following JSON snippet shows one part of [the *HTTP Method* concept](/concepts/http-method.json). All but the HTTP `GET` method have been removed in this example.
+
 ```json
 { "concept": "http-method",
   "id": "http://webconcepts.info/concepts/http-method/",
@@ -39,3 +41,11 @@ For each concept, there also is JSON data just for that concept, and there also 
         "documentation": "http://tools.ietf.org/html/rfc7231#section-4.3.1",
         "specification": "http://webconcepts.info/specs/IETF/RFC/7231" }]}]}
 ```
+
+For the top-level object describing the concept, the structure is rather simple:
+
+* `concept` is the concept's name as it is referred to in the sourec data.
+* `id` is the concept's identifier (a URI) which is can be used as a URI in a browser, and is also used to identify the concept in JSON data.
+* `name-singular` is the singular version of the concept's human-readable name.
+* `name-plural` is the plural version of the concept's human-readable name.
+* `values` is an array of all known values for the concept.
