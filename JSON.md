@@ -35,7 +35,7 @@ For each concept, there also is JSON data just for that concept, and there also 
       "concept": "http://webconcepts.info/concepts/http-method/",
       "id": "http://webconcepts.info/concepts/http-method/GET",
       "details": [{
-        "description": "The GET method requests transfer of a current selected representation for the target resource. GET is the primary mechanism of information retrieval and the focus of almost all performance optimizations. Hence, when people speak of retrieving some identifiable information via HTTP, they are generally referring to making a GET request.",
+        "description": "The GET method ...",
         "documentation": "http://tools.ietf.org/html/rfc7231#section-4.3.1",
         "specification": "http://webconcepts.info/specs/IETF/RFC/7231" }]}]}
 ```
