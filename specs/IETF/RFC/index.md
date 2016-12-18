@@ -4,7 +4,7 @@ title:       "IETF Request for Comments Series"
 description: "List of specifications in the Request for Comments (RFC) series by the Internet Engineering Task Force (IETF)"
 ---
 
-There are currently 142 listed specifications in the [Internet Engineering Task Force (IETF)](..)'s Request for Comments (RFC) series.
+There are currently 143 listed specifications in the [Internet Engineering Task Force (IETF)](..)'s Request for Comments (RFC) series.
 
   * [A Media Type for XML Patch Operations (RFC 7351)](7351)
   * [A Reputation Query Protocol (RFC 7072)](7072)
@@ -33,6 +33,7 @@ There are currently 142 listed specifications in the [Internet Engineering Task 
   * [Common Profile for Presence (CPP) (RFC 3859)](3859)
   * [Concise Binary Object Representation (CBOR) (RFC 7049)](7049)
   * [Constrained RESTful Environments (CoRE) Link Format (RFC 6690)](6690)
+  * [Content-ID and Message-ID Uniform Resource Locators (RFC 2392)](2392)
   * [Delta encoding in HTTP (RFC 3229)](3229)
   * [Domain Name System Uniform Resource Identifiers (RFC 4501)](4501)
   * [Electronic Data Interchange - Internet Integration (EDIINT) Features Header Field (RFC 6017)](6017)

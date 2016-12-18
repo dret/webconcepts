@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<service primary="IETF" secondary="RFC" id="2392">
+    <title>Content-ID and Message-ID Uniform Resource Locators</title>
+    <documentation source="http://tools.ietf.org/html/rfc2392">The Uniform Resource Locator (URL) schemes, "cid:" and "mid:" allow references to messages and the body parts of messages. For example, within a single multipart message, one HTML body part might include embedded references to other parts of the same message.</documentation>
+    <uri-scheme def="cid">
+        <documentation source="http://tools.ietf.org/html/rfc2392#section-2">The "mid" (Message-ID) and "cid" (Content-ID) URL schemes provide identifiers for messages and their body parts. The "cid" scheme refers to a specific body part of a message; its use is generally limited to references to other body parts in the same message as the referring body part.</documentation>
+    </uri-scheme>
+    <uri-scheme def="mid">
+        <documentation source="http://tools.ietf.org/html/rfc2392#section-2">The "mid" (Message-ID) and "cid" (Content-ID) URL schemes provide identifiers for messages and their body parts. The "mid" scheme uses (a part of) the message-id of an email message to refer to a specific message.</documentation>
+    </uri-scheme>
+</service>

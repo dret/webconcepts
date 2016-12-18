@@ -390,6 +390,16 @@
       "abstract": "This specification defines an Internet Media Type, multipart/form-data, which can be used by a wide variety of applications and transported by a wide variety of protocols as a way of returning a set of values as the result of a user filling out a form.",
       "concepts": [{
        "media-type": "multipart/form-data" }]}},{
+     "2392": {
+      "id": "http://webconcepts.info/specs/IETF/RFC/2392",
+      "title": "Content-ID and Message-ID Uniform Resource Locators",
+      "name": "RFC 2392",
+      "URI": "urn:ietf:rfc:2392",
+      "URL": "http://tools.ietf.org/html/rfc2392",
+      "abstract": "The Uniform Resource Locator (URL) schemes, \"cid:\" and \"mid:\" allow references to messages and the body parts of messages. For example, within a single multipart message, one HTML body part might include embedded references to other parts of the same message.",
+      "concepts": [{
+       "uri-scheme": "cid" }, {
+       "uri-scheme": "mid" }]}},{
      "2397": {
       "id": "http://webconcepts.info/specs/IETF/RFC/2397",
       "title": "The \"data\" URL scheme",
