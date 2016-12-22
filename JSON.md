@@ -39,7 +39,8 @@ The following JSON snippet shows one part of [the *HTTP Method* concept](/concep
       "details": [
       { "description": "The GET method ...",
         "documentation": "http://tools.ietf.org/html/rfc7231#section-4.3.1",
-        "specification": "http://webconcepts.info/specs/IETF/RFC/7231" }]}]}
+        "specification": "http://webconcepts.info/specs/IETF/RFC/7231",
+        "spec-name": "RFC 7231" }]}]}
 ```
 
 For the top-level object describing the concept, the structure is rather simple:
@@ -63,5 +64,6 @@ Within the `details` array, the following structure is used:
 * `description` is a human-readable text snippet describing the concept value.
 * `documentation` is a URI identifying the documentation where the concept value is defined.
 * `specification` is the identifier of the specification from which the definition and documentation have been harvested.
+* `spec-name` is a short human-readable name for the specification that can be used when linking to the documentation.
 
 There can be more than one value in the `details` array, [see here for a discussion of why there can be more than one description/definition](https://github.com/dret/webconcepts/issues/28). There currently is no way to determine the "best" or "most authoritative" one, so applications ideally should render all of them.
