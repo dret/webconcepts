@@ -88,11 +88,12 @@
                         <xsl:value-of select="concat('&quot;http://webconcepts.info/', $specs-dir, '/', $primary/@id, '/', $secondary/@id, '/', $id, '&quot;,&#xa;')"/>
                         <xsl:text>      "title": </xsl:text>
                         <xsl:value-of select="concat('&quot;', replace(title, '&quot;', '\\&quot;'), '&quot;,&#xa;')"/>
-                        <xsl:text>      "name": </xsl:text>
+                        <xsl:text>      "name": "</xsl:text>
                         <xsl:call-template name="spec-name">
                             <xsl:with-param name="id" select="$id"/>
                             <xsl:with-param name="secondary" select="$secondary"/>
                         </xsl:call-template>
+                        <xsl:text>",&#xa;</xsl:text>
                         <xsl:if test="exists($secondary/uri-pattern)">
                             <xsl:text>      "URI": </xsl:text>
                             <xsl:value-of select="concat('&quot;', replace(@id, $secondary/id-pattern, $secondary/uri-pattern), '&quot;,&#xa;')"/>
@@ -138,7 +139,7 @@
     <xsl:template name="spec-name">
         <xsl:param name="id"/>
         <xsl:param name="secondary"/>
-        <xsl:value-of select="concat('&quot;', replace(replace($id, '^(..*)$', $secondary/name-pattern), '&quot;', '\\&quot;'), '&quot;,&#xa;')"/>
+        <xsl:value-of select="replace(replace($id, '^(..*)$', $secondary/name-pattern), '&quot;', '\\&quot;')"/>
     </xsl:template>
     <xsl:template name="concept-value-json">
         <xsl:param name="concept-value"/>
@@ -174,7 +175,7 @@
                         <string key="specification">
                             <xsl:value-of select="concat('http://webconcepts.info/', $specs-dir, '/', $secondary/../@id, '/', $secondary/@id, '/', $id)"/>
                         </string>
-                        <string key="spec-name">
+                        <string key="spec-name" >
                             <xsl:call-template name="spec-name">
                                 <xsl:with-param name="id" select="$id"/>
                                 <xsl:with-param name="secondary" select="$secondary"/>
