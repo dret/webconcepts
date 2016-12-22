@@ -89,7 +89,10 @@
                         <xsl:text>      "title": </xsl:text>
                         <xsl:value-of select="concat('&quot;', replace(title, '&quot;', '\\&quot;'), '&quot;,&#xa;')"/>
                         <xsl:text>      "name": </xsl:text>
-                        <xsl:value-of select="concat('&quot;', replace(replace($id, '^(..*)$', $secondary/name-pattern), '&quot;', '\\&quot;'), '&quot;,&#xa;')"/>
+                        <xsl:call-template name="spec-name">
+                            <xsl:with-param name="id" select="$id"/>
+                            <xsl:with-param name="secondary" select="$secondary"/>
+                        </xsl:call-template>
                         <xsl:if test="exists($secondary/uri-pattern)">
                             <xsl:text>      "URI": </xsl:text>
                             <xsl:value-of select="concat('&quot;', replace(@id, $secondary/id-pattern, $secondary/uri-pattern), '&quot;,&#xa;')"/>
@@ -132,6 +135,11 @@
             <xsl:text>}</xsl:text>
         </xsl:result-document>
     </xsl:template>
+    <xsl:template name="spec-name">
+        <xsl:param name="id"/>
+        <xsl:param name="secondary"/>
+        <xsl:value-of select="concat('&quot;', replace(replace($id, '^(..*)$', $secondary/name-pattern), '&quot;', '\\&quot;'), '&quot;,&#xa;')"/>
+    </xsl:template>
     <xsl:template name="concept-value-json">
         <xsl:param name="concept-value"/>
         <xsl:param name="concept"/>
@@ -154,6 +162,8 @@
             </xsl:if>
             <array key="details">
                 <xsl:for-each select="$allspecs/service/*[local-name() eq $concept/@id][@def eq $concept-value]">
+                    <xsl:variable name="secondary" select="$specs/specs/primary[@id eq current()/../@primary]/secondary[@id eq current()/../@secondary]"/>
+                    <xsl:variable name="id" select="replace(current()/../@id, $secondary/id-pattern, $secondary/md-pattern)"/>
                     <map>
                         <string key="description">
                             <xsl:value-of select="documentation/text()"/>
@@ -162,9 +172,13 @@
                             <xsl:value-of select="documentation/@source"/>
                         </string>
                         <string key="specification">
-                            <xsl:variable name="secondary" select="$specs/specs/primary[@id eq current()/../@primary]/secondary[@id eq current()/../@secondary]"/>
-                            <xsl:variable name="id" select="replace(current()/../@id, $secondary/id-pattern, $secondary/md-pattern)"/>
                             <xsl:value-of select="concat('http://webconcepts.info/', $specs-dir, '/', $secondary/../@id, '/', $secondary/@id, '/', $id)"/>
+                        </string>
+                        <string key="spec-name">
+                            <xsl:call-template name="spec-name">
+                                <xsl:with-param name="id" select="$id"/>
+                                <xsl:with-param name="secondary" select="$secondary"/>
+                            </xsl:call-template>
                         </string>
                     </map>
                 </xsl:for-each>
