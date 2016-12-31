@@ -17,18 +17,18 @@ The following JSON snippet shows one part of [the complete JSON representation f
     "name":  "Internet Engineering Task Force",
     "short": "IETF",
     "series": [
-      { "RFC": {
-        "id":    "http://webconcepts.info/specs/IETF/RFC/",
-        "name":  "Request for Comments",
-        "short": "RFC",
-        "specs": [
-          { "2648": {
-            "id":       "http://webconcepts.info/specs/IETF/RFC/2648",
-            "title":    "A URN Namespace for IETF Documents",
-            "name":     "RFC 2648",
-            "URI":      "urn:ietf:rfc:2648",
-            "URL":      "http://tools.ietf.org/html/rfc2648",
-            "abstract": "A system for Uniform Resource Names (URNs) ...",
-            "concepts": [
-              { "http://webconcepts.info/concepts/urn-namespace": "http://webconcepts.info/concepts/urn-namespace/ietf" }]}}]}}]}}
+      { "RFC":
+        { "id":    "http://webconcepts.info/specs/IETF/RFC/",
+          "name":  "Request for Comments",
+          "short": "RFC",
+          "specs": [
+            { "2648":
+              { "id":       "http://webconcepts.info/specs/IETF/RFC/2648",
+                "title":    "A URN Namespace for IETF Documents",
+                "name":     "RFC 2648",
+                "URI":      "urn:ietf:rfc:2648",
+                "URL":      "http://tools.ietf.org/html/rfc2648",
+                "abstract": "A system for Uniform Resource Names (URNs) ...",
+                "concepts": [
+                { "http://webconcepts.info/concepts/urn-namespace": "http://webconcepts.info/concepts/urn-namespace/ietf" }]}}]}}]}}
 ```
