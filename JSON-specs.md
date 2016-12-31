@@ -29,5 +29,6 @@ The following JSON snippet shows one part of [the *HTTP Method* concept](/concep
             "URI": "urn:ietf:rfc:2648",
             "URL": "http://tools.ietf.org/html/rfc2648",
             "abstract": "A system for Uniform Resource Names (URNs) ...",
-            "concepts": [{"urn-namespace": "ietf"}] }}]}}]}}
+            "concepts": [
+              { "urn-namespace": "ietf"}]}}]}}]}}
 ```
