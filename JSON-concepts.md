@@ -37,7 +37,7 @@ The following JSON snippet shows one part of [the *HTTP Method* concept](/concep
 
 For the top-level object describing the concept, the structure is rather simple:
 
-* `concept` is the concept's name as it is referred to in the sourec data.
+* `concept` is the concept's name as it is referred to in the source data.
 * `id` is the concept identifier (a URI) which is can be used as a URI in a browser, and is also used to identify the concept in JSON data.
 * `name-singular` is the singular version of the concept's human-readable name.
 * `name-plural` is the plural version of the concept's human-readable name.
