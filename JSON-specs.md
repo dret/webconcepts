@@ -9,7 +9,7 @@ permalink: /JSON-specs
 
 ## JSON Document Structure
 
-The following JSON snippet shows one part of [the *HTTP Method* concept](/concepts/http-method.json). All but the HTTP `GET` method have been removed in this example.
+The following JSON snippet shows one part of [the complete JSON representation for specifications](/specs/specs.json). Everything but the [IETF RFC 2648 specification](/specs/IETF/RFC/2648) has been removed in this example.
 
 ```json
 { "IETF":
