@@ -51,7 +51,7 @@ For each value, the concept JSON contains a JSON object that is either embedded 
 * `id` is the value identifier (a URI) which is can be used as a URI in a browser, and is also used to identify the value in JSON data.
 * `details` is an array of all known descriptions of the value.
 
-Within the `details` array, the following structure is used:
+Within the `details` array, the following structure is used (this data is also available in the [JSON representation of specifications](JSON-specs)):
 
 * `description` is a human-readable text snippet describing the concept value.
 * `documentation` is a URI identifying the documentation where the concept value is defined.
