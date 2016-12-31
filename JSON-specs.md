@@ -30,5 +30,5 @@ The following JSON snippet shows one part of [the complete JSON representation f
             "URL":      "http://tools.ietf.org/html/rfc2648",
             "abstract": "A system for Uniform Resource Names (URNs) ...",
             "concepts": [
-              { "urn-namespace": "ietf" }]}}]}}]}}
+              { "http://webconcepts.info/concepts/urn-namespace": "http://webconcepts.info/concepts/urn-namespace/ietf" }]}}]}}]}}
 ```

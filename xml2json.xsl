@@ -109,9 +109,9 @@
                             <xsl:sort select="@def"/>
                             <xsl:variable name="concept-id" select="$concepts//concept[@id eq current()/local-name()]/@id"/>
                             <xsl:text>{&#xa;       "</xsl:text>
-                            <xsl:value-of select="$concept-id"/>
+                            <xsl:value-of select="concat('http://webconcepts.info/', $concepts-dir, '/', $concept-id, '/')"/>
                             <xsl:text>": "</xsl:text>
-                            <xsl:value-of select="@def"/>
+                            <xsl:value-of select="concat('http://webconcepts.info/', $concepts-dir, '/', $concept-id, '/', @def)"/>
                             <xsl:text>" }</xsl:text>
                             <xsl:if test="position() ne last()">
                                 <xsl:text>, </xsl:text>
