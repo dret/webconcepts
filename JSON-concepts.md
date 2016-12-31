@@ -19,20 +19,20 @@ For each concept, there also is JSON data just for that concept, and there also 
 The following JSON snippet shows one part of [the *HTTP Method* concept](/concepts/http-method.json). All but the HTTP `GET` method have been removed in this example.
 
 ```json
-{ "concept": "http-method",
-  "id": "http://webconcepts.info/concepts/http-method/",
+{ "concept":       "http-method",
+  "id":            "http://webconcepts.info/concepts/http-method/",
   "name-singular": "HTTP Request Method",
-  "name-plural": "HTTP Request Methods",
-  "registry": "http://www.iana.org/assignments/http-methods/http-methods.xhtml#methods",
+  "name-plural":   "HTTP Request Methods",
+  "registry":      "http://www.iana.org/assignments/http-methods/http-methods.xhtml#methods",
   "values": [
-    { "value": "GET",
+    { "value":   "GET",
       "concept": "http://webconcepts.info/concepts/http-method/",
-      "id": "http://webconcepts.info/concepts/http-method/GET",
+      "id":      "http://webconcepts.info/concepts/http-method/GET",
       "details": [
-      { "description": "The GET method ...",
+      { "description":   "The GET method ...",
         "documentation": "http://tools.ietf.org/html/rfc7231#section-4.3.1",
         "specification": "http://webconcepts.info/specs/IETF/RFC/7231",
-        "spec-name": "RFC 7231" }]}]}
+        "spec-name":     "RFC 7231" }]}]}
 ```
 
 For the top-level object describing the concept, the structure is rather simple:
