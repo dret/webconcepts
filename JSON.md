@@ -17,4 +17,7 @@ There are two major JSON files that represent two "perspectives" of the same dat
 
 * [`concepts.json`](/concepts.json) is a structured representation of all concepts that were found in the source data. They are grouped by concepts, as [defined in the concept configuration file](/concepts.xml) and [shown on the concepts page](/concepts)
 
-Both JSON representations are interlinked through URI identifiers. Depending on your needs, you can start from either one and then traverse to the other one. In order to make data available in more manageable slices, if required, the concept JSON representation is not only available as one big JSON document, but also in smaller slices. Find out more about both JSON representations in the [documentation of specification data in JSON](JSON-specs) and the [documentation of concept data in JSON](JSON-concepts).
+Both JSON representations are interlinked through URI identifiers. Depending on your needs, you can start from either one and then traverse to the other one. In order to make data available in more manageable slices, if required, the concept JSON representation is not only available as one big JSON document, but also in smaller slices. Find out more about both JSON representations in the
+
+* [documentation of specification data in JSON](JSON-specs) and the
+* [documentation of concept data in JSON](JSON-concepts).
