@@ -42,13 +42,13 @@ This JSON structure groups specification by organization first, and by specifica
 * `id` is the organization identifier (a URI) which can be used as a URI in a browser, and is also used to identify the value in JSON data.
 * `name` is the human-readable name of the organization.
 * `short` is a short/abbreviated human-readable name of the organization.
-* `series` is an array of specification series published by the organization.
+* `series` is the set of specification series published by the organization.
 
 Each organization can have any number of specification series. Each specification series has an identifier, which is part of the Web Concepts URI of the organization, such as [<code>http://webconcepts.info/specs/IETF/<b>RFC</b>/</code>](http://webconcepts.info/specs/IETF/RFC). The structure describing a specification series has few members:
 
 * `id` is the specification series identifier (a URI) which can be used as a URI in a browser, and is also used to identify the value in JSON data.
-* `name`
-* `short`
-* `specs`
+* `name` is the human-readable name of the specification series.
+* `short`is a short/abbreviated human-readable name of the specification series.
+* `specs` is the set of specifications in that specification series.
 
 * `id` is the specification identifier (a URI) which can be used as a URI in a browser, and is also used to identify the value in JSON data.
