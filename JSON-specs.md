@@ -60,3 +60,5 @@ Each specification series can have any number of specifications. Each specificat
 * `URL` is the optional online version of the specification.
 * `abstract` is the abstract of the specification.
 * `concepts` is the set of concept values defined by that specification.
+
+Each specification can define any number of concept values. Each defined concept value is defined as a name/value pair with the name being the concept identifier, and the value being the identifier for the defined concept value. (Please [consider this issue](https://github.com/dret/webconcepts/issues/38) for understanding how the `concepts` structure might change in the near future.)
