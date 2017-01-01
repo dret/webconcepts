@@ -38,7 +38,7 @@ The following JSON snippet shows one part of [the *HTTP Method* concept](/concep
 For the top-level object describing the concept, the structure is rather simple:
 
 * `concept` is the concept's name as it is referred to in the source data.
-* `id` is the concept identifier (a URI) which is can be used as a URI in a browser, and is also used to identify the concept in JSON data.
+* `id` is the concept identifier (a URI) which can be used as a URI in a browser, and is also used to identify the concept in JSON data.
 * `name-singular` is the singular version of the concept's human-readable name.
 * `name-plural` is the plural version of the concept's human-readable name.
 * `registry` (optional) identifies a registry of all well-known values, if such a registry exists.
@@ -48,7 +48,7 @@ For each value, the concept JSON contains a JSON object that is either embedded 
 
 * `value` is the concept value itself.
 * `concept` is the identifier of the concept that the value is defined for.
-* `id` is the value identifier (a URI) which is can be used as a URI in a browser, and is also used to identify the value in JSON data.
+* `id` is the value identifier (a URI) which can be used as a URI in a browser, and is also used to identify the value in JSON data.
 * `details` is an array of all known descriptions of the value, each represented by one object.
 
 Within the `details` array, the following object structure is used (this data is also available in the [JSON representation of specifications](JSON-specs)):
