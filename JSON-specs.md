@@ -39,12 +39,14 @@ The following JSON snippet shows one part of [the complete JSON representation f
 
 This JSON structure groups specification by organization first, and by specification series second. At the top level, there is the organization identifier, which is part of the Web Concepts URI of the organization, such as [<code>http://webconcepts.info/specs/<b>IETF</b>/</code>](http://webconcepts.info/specs/IETF/). The structure describing an organization has few members:
 
-* `id`
+* `id` is the organization identifier (a URI) which can be used as a URI in a browser, and is also used to identify the value in JSON data.
 * `name`
 * `short`
 * `series`
 
-* `id`
+* `id` is the specification series identifier (a URI) which can be used as a URI in a browser, and is also used to identify the value in JSON data.
 * `name`
 * `short`
 * `specs`
+
+* `id` is the specification identifier (a URI) which can be used as a URI in a browser, and is also used to identify the value in JSON data.
