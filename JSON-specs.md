@@ -51,4 +51,12 @@ Each organization can have any number of specification series. Each specificatio
 * `short`is an optional short/abbreviated human-readable name of the specification series.
 * `specs` is the set of specifications in that specification series.
 
+Each specification series can have any number of specifications. Each specification has an identifier, which is part of the Web Concepts URI of the specification, such as [<code>http://webconcepts.info/specs/IETF/RFC/<b>2648</b>/</code>](http://webconcepts.info/specs/IETF/RFC/2648). The structure describing a specification has few members:
+
 * `id` is the specification identifier (a URI) which can be used as a URI in a browser, and is also used to identify the value in JSON data.
+* `title` is the human-readable title of the specification.
+* `name` is the human-readable name of the specification.
+* `URI` is the optional specification URI as assigned by the organization.
+* `URL` is the optional online version of the specification.
+* `abstract` is the abstract of the specification.
+* `concepts` is the set of concept values defined by that specification.
