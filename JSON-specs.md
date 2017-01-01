@@ -6,6 +6,8 @@ permalink: /JSON-specs
 
 # Web Concepts in JSON: Specification Data
 
+The current specification model of Web Concepts is based on the assumption that specifications have an *organization* behind them, and that organizations publish *specification series*. This model is defined in the [XML configuration file for specifications](/specs/specs.xml), which defines the supported organizations (in the `<primary>` elements) and their series (in the embedded `<secondary>` elements).
+
 
 ## JSON Document Structure
 
