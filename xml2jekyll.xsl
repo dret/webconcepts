@@ -433,7 +433,7 @@
                 <xsl:for-each-group select="*[local-name() = $concepts/concepts/concept/@id]" group-by="local-name()">
                     <xsl:sort select="$concepts//concept[@id eq current()/local-name()]/title-plural"/>
                     <h3 id="{$concepts//concept[@id eq current()/local-name()]/@id}">
-                        <a href="/{concat($concepts-dir, '/', $concepts//concept[@id eq current()/local-name()]/@id)}/">
+                        <a href="/{concat($concepts-dir, '/', $concepts//concept[@id eq current()/local-name()]/@id)}/" title="List of all {$concepts//concept[@id eq current()/local-name()]/title-plural}">
                             <xsl:value-of select="$concepts//concept[@id eq current()/local-name()]/title-plural"/>
                         </a>
                     </h3>
