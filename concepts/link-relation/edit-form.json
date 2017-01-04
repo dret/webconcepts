@@ -1,1 +1,10 @@
-{"value":"edit-form","concept":"http:\/\/webconcepts.info\/concepts\/link-relation\/","id":"http:\/\/webconcepts.info\/concepts\/link-relation\/edit-form","details":[{"description":"When included in a response, the \"edit-form\" link relation indicates a target resource that represents a form that can be used for updating the context resource.","documentation":"http:\/\/tools.ietf.org\/html\/rfc6861#section-3.2","specification":"http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6861","spec-name":"RFC 6861"}]}
+
+  { "value" : "edit-form",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/edit-form",
+    "details" : 
+    [ 
+      { "description" : "When included in a response, the \"edit-form\" link relation indicates a target resource that represents a form that can be used for updating the context resource.",
+        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6861#section-3.2",
+        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6861",
+        "spec-name" : "RFC 6861" } ] }

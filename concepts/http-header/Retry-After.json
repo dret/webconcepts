@@ -1,1 +1,10 @@
-{"value":"Retry-After","concept":"http:\/\/webconcepts.info\/concepts\/http-header\/","id":"http:\/\/webconcepts.info\/concepts\/http-header\/Retry-After","details":[{"description":"Servers send the \"Retry-After\" header field to indicate how long the user agent ought to wait before making a follow-up request. When sent with a 503 (Service Unavailable) response, Retry-After indicates how long the service is expected to be unavailable to the client. When sent with any 3xx (Redirection) response, Retry-After indicates the minimum time that the user agent is asked to wait before issuing the redirected request.","documentation":"http:\/\/tools.ietf.org\/html\/rfc7231#section-7.1.3","specification":"http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7231","spec-name":"RFC 7231"}]}
+
+  { "value" : "Retry-After",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Retry-After",
+    "details" : 
+    [ 
+      { "description" : "Servers send the \"Retry-After\" header field to indicate how long the user agent ought to wait before making a follow-up request. When sent with a 503 (Service Unavailable) response, Retry-After indicates how long the service is expected to be unavailable to the client. When sent with any 3xx (Redirection) response, Retry-After indicates the minimum time that the user agent is asked to wait before issuing the redirected request.",
+        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7231#section-7.1.3",
+        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7231",
+        "spec-name" : "RFC 7231" } ] }

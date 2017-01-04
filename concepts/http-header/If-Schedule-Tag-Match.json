@@ -1,1 +1,10 @@
-{"value":"If-Schedule-Tag-Match","concept":"http:\/\/webconcepts.info\/concepts\/http-header\/","id":"http:\/\/webconcepts.info\/concepts\/http-header\/If-Schedule-Tag-Match","details":[{"description":"The If-Schedule-Tag-Match request header field is used with a method to make it conditional. Clients can set this header to the value returned in the Schedule-Tag response header, or the CALDAV:schedule-tag property, of a scheduling object resource previously retrieved from the server to avoid overwriting \"consequential\" changes to the scheduling object resource.","documentation":"http:\/\/tools.ietf.org\/html\/rfc6638#section-8.3","specification":"http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6638","spec-name":"RFC 6638"}]}
+
+  { "value" : "If-Schedule-Tag-Match",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/If-Schedule-Tag-Match",
+    "details" : 
+    [ 
+      { "description" : "The If-Schedule-Tag-Match request header field is used with a method to make it conditional. Clients can set this header to the value returned in the Schedule-Tag response header, or the CALDAV:schedule-tag property, of a scheduling object resource previously retrieved from the server to avoid overwriting \"consequential\" changes to the scheduling object resource.",
+        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6638#section-8.3",
+        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6638",
+        "spec-name" : "RFC 6638" } ] }

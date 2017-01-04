@@ -1,1 +1,10 @@
-{"value":"collection","concept":"http:\/\/webconcepts.info\/concepts\/link-relation\/","id":"http:\/\/webconcepts.info\/concepts\/link-relation\/collection","details":[{"description":"When included in a resource that represents a member of a collection, the 'collection' link relation identifies a target resource that represents a collection of which the context resource is a member.","documentation":"http:\/\/tools.ietf.org\/html\/rfc6573#section-2.2","specification":"http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6573","spec-name":"RFC 6573"}]}
+
+  { "value" : "collection",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/collection",
+    "details" : 
+    [ 
+      { "description" : "When included in a resource that represents a member of a collection, the 'collection' link relation identifies a target resource that represents a collection of which the context resource is a member.",
+        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6573#section-2.2",
+        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6573",
+        "spec-name" : "RFC 6573" } ] }

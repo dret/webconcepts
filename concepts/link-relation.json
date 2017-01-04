@@ -1,1 +1,872 @@
-{"concept":"link-relation","id":"http:\/\/webconcepts.info\/concepts\/link-relation\/","name-singular":"Link Relation","name-plural":"Link Relations","registry":"http:\/\/www.iana.org\/assignments\/link-relations\/link-relations.xhtml","values":[{"value":"about","concept":"http:\/\/webconcepts.info\/concepts\/link-relation\/","id":"http:\/\/webconcepts.info\/concepts\/link-relation\/about","details":[{"description":"The \"about\" link relation can be used to refer to a resource that is the subject or topic of the link's context. Multiple subjects can be indicated through the use of multiple \"about\" link relations.","documentation":"http:\/\/tools.ietf.org\/html\/rfc6903#section-2","specification":"http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6903","spec-name":"RFC 6903"}]},{"value":"alternate","concept":"http:\/\/webconcepts.info\/concepts\/link-relation\/","id":"http:\/\/webconcepts.info\/concepts\/link-relation\/alternate","details":[{"description":"Designates substitute versions for the document in which the link occurs. When used together with the lang attribute, it implies a translated version of the document. When used together with the media attribute, it implies a version designed for a different medium (or media).","documentation":"http:\/\/www.w3.org\/TR\/html4\/types.html#type-links","specification":"http:\/\/webconcepts.info\/specs\/W3C\/TR\/html4","spec-name":"W3C TR http:\/\/www.w3.org\/TR\/html4"},{"description":"The value \"alternate\" signifies that the IRI in the value of the href attribute identifies an alternate version of the resource described by the containing element.","documentation":"http:\/\/tools.ietf.org\/html\/rfc4287#section-4.2.7.2","specification":"http:\/\/webconcepts.info\/specs\/IETF\/RFC\/4287","spec-name":"RFC 4287"}]},{"value":"appendix","concept":"http:\/\/webconcepts.info\/concepts\/link-relation\/","id":"http:\/\/webconcepts.info\/concepts\/link-relation\/appendix","details":[{"description":"Refers to a document serving as an appendix in a collection of documents.","documentation":"http:\/\/www.w3.org\/TR\/html4\/types.html#type-links","specification":"http:\/\/webconcepts.info\/specs\/W3C\/TR\/html4","spec-name":"W3C TR http:\/\/www.w3.org\/TR\/html4"}]},{"value":"bcc","concept":"http:\/\/webconcepts.info\/concepts\/link-relation\/","id":"http:\/\/webconcepts.info\/concepts\/link-relation\/bcc","details":[{"description":"Refers to a resource that is considered to be part of the private secondary audience of the link's context.","documentation":"http:\/\/tools.ietf.org\/html\/draft-snell-more-link-relations#section-3","specification":"http:\/\/webconcepts.info\/specs\/IETF\/I-D\/snell-more-link-relations","spec-name":"Internet Draft snell-more-link-relations"}]},{"value":"bfrom","concept":"http:\/\/webconcepts.info\/concepts\/link-relation\/","id":"http:\/\/webconcepts.info\/concepts\/link-relation\/bfrom","details":[{"description":"Refers to a resource that is privately considered to be the originator of the link's context.","documentation":"http:\/\/tools.ietf.org\/html\/draft-snell-more-link-relations#section-3","specification":"http:\/\/webconcepts.info\/specs\/IETF\/I-D\/snell-more-link-relations","spec-name":"Internet Draft snell-more-link-relations"}]},{"value":"bookmark","concept":"http:\/\/webconcepts.info\/concepts\/link-relation\/","id":"http:\/\/webconcepts.info\/concepts\/link-relation\/bookmark","details":[{"description":"Refers to a bookmark. A bookmark is a link to a key entry point within an extended document. The title attribute may be used, for example, to label the bookmark. Note that several bookmarks may be defined in each document.","documentation":"http:\/\/www.w3.org\/TR\/html4\/types.html#type-links","specification":"http:\/\/webconcepts.info\/specs\/W3C\/TR\/html4","spec-name":"W3C TR http:\/\/www.w3.org\/TR\/html4"}]},{"value":"bto","concept":"http:\/\/webconcepts.info\/concepts\/link-relation\/","id":"http:\/\/webconcepts.info\/concepts\/link-relation\/bto","details":[{"description":"Refers to a resource that is considered to be part of the private primary audience of the link's context.","documentation":"http:\/\/tools.ietf.org\/html\/draft-snell-more-link-relations#section-3","specification":"http:\/\/webconcepts.info\/specs\/IETF\/I-D\/snell-more-link-relations","spec-name":"Internet Draft snell-more-link-relations"}]},{"value":"canonical","concept":"http:\/\/webconcepts.info\/concepts\/link-relation\/","id":"http:\/\/webconcepts.info\/concepts\/link-relation\/canonical","details":[{"description":"The target (canonical) IRI MUST identify content that is either duplicative or a superset of the content at the context (referring) IRI.","documentation":"http:\/\/tools.ietf.org\/html\/rfc6596#section-3","specification":"http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6596","spec-name":"RFC 6596"}]},{"value":"cc","concept":"http:\/\/webconcepts.info\/concepts\/link-relation\/","id":"http:\/\/webconcepts.info\/concepts\/link-relation\/cc","details":[{"description":"Refers to a resource that is considered to be  part of the public secondary audience of the link's context.","documentation":"http:\/\/tools.ietf.org\/html\/draft-snell-more-link-relations#section-3","specification":"http:\/\/webconcepts.info\/specs\/IETF\/I-D\/snell-more-link-relations","spec-name":"Internet Draft snell-more-link-relations"}]},{"value":"chapter","concept":"http:\/\/webconcepts.info\/concepts\/link-relation\/","id":"http:\/\/webconcepts.info\/concepts\/link-relation\/chapter","details":[{"description":"Refers to a document serving as a chapter in a collection of documents.","documentation":"http:\/\/www.w3.org\/TR\/html4\/types.html#type-links","specification":"http:\/\/webconcepts.info\/specs\/W3C\/TR\/html4","spec-name":"W3C TR http:\/\/www.w3.org\/TR\/html4"}]},{"value":"collection","concept":"http:\/\/webconcepts.info\/concepts\/link-relation\/","id":"http:\/\/webconcepts.info\/concepts\/link-relation\/collection","details":[{"description":"When included in a resource that represents a member of a collection, the 'collection' link relation identifies a target resource that represents a collection of which the context resource is a member.","documentation":"http:\/\/tools.ietf.org\/html\/rfc6573#section-2.2","specification":"http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6573","spec-name":"RFC 6573"}]},{"value":"contents","concept":"http:\/\/webconcepts.info\/concepts\/link-relation\/","id":"http:\/\/webconcepts.info\/concepts\/link-relation\/contents","details":[{"description":"Refers to a document serving as a table of contents. Some user agents also support the synonym ToC (from \"Table of Contents\").","documentation":"http:\/\/www.w3.org\/TR\/html4\/types.html#type-links","specification":"http:\/\/webconcepts.info\/specs\/W3C\/TR\/html4","spec-name":"W3C TR http:\/\/www.w3.org\/TR\/html4"}]},{"value":"copyright","concept":"http:\/\/webconcepts.info\/concepts\/link-relation\/","id":"http:\/\/webconcepts.info\/concepts\/link-relation\/copyright","details":[{"description":"Refers to a copyright statement for the current document.","documentation":"http:\/\/www.w3.org\/TR\/html4\/types.html#type-links","specification":"http:\/\/webconcepts.info\/specs\/W3C\/TR\/html4","spec-name":"W3C TR http:\/\/www.w3.org\/TR\/html4"}]},{"value":"create","concept":"http:\/\/webconcepts.info\/concepts\/link-relation\/","id":"http:\/\/webconcepts.info\/concepts\/link-relation\/create","details":[{"description":"This indicates a target to use for creating new instances of a schema. This link definition SHOULD be a submission link with a non-safe method (like POST).","documentation":"http:\/\/tools.ietf.org\/html\/draft-zyp-json-schema#section-6.1.1.2","specification":"http:\/\/webconcepts.info\/specs\/IETF\/I-D\/zyp-json-schema","spec-name":"Internet Draft zyp-json-schema"}]},{"value":"create-form","concept":"http:\/\/webconcepts.info\/concepts\/link-relation\/","id":"http:\/\/webconcepts.info\/concepts\/link-relation\/create-form","details":[{"description":"When included in a response, the \"create-form\" link relation indicates a target resource that represents a form that can be used to append a new member to the link context.","documentation":"http:\/\/tools.ietf.org\/html\/rfc6861#section-3.1","specification":"http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6861","spec-name":"RFC 6861"}]},{"value":"current","concept":"http:\/\/webconcepts.info\/concepts\/link-relation\/","id":"http:\/\/webconcepts.info\/concepts\/link-relation\/current","details":[{"description":"A URI that, when dereferenced, returns a feed document containing the most recent entries in the feed.","documentation":"http:\/\/tools.ietf.org\/html\/rfc5005#section-4","specification":"http:\/\/webconcepts.info\/specs\/IETF\/RFC\/5005","spec-name":"RFC 5005"}]},{"value":"derivedfrom","concept":"http:\/\/webconcepts.info\/concepts\/link-relation\/","id":"http:\/\/webconcepts.info\/concepts\/link-relation\/derivedfrom","details":[{"description":"The document linked to was later converted to the document that contains this link relation. For example, an RFC can have a link to the Internet Draft that became the RFC; in that case, the link relation would be \"derivedfrom\".","documentation":"http:\/\/tools.ietf.org\/html\/draft-hoffman-xml2rfc-15#section-6.2","specification":"http:\/\/webconcepts.info\/specs\/IETF\/I-D\/hoffman-xml2rfc","spec-name":"Internet Draft hoffman-xml2rfc"}]},{"value":"describedby","concept":"http:\/\/webconcepts.info\/concepts\/link-relation\/","id":"http:\/\/webconcepts.info\/concepts\/link-relation\/describedby","details":[{"description":"The relationship A describedby B asserts that resource B provides a description of resource A. There are no constraints on the format or representation of either A or B, neither are there any further constraints on either resource.","documentation":"http:\/\/www.w3.org\/TR\/ldp\/#link-relation-describedby","specification":"http:\/\/webconcepts.info\/specs\/W3C\/TR\/ldp","spec-name":"W3C TR http:\/\/www.w3.org\/TR\/ldp"},{"description":"The relationship A 'describedby' B asserts that resource B provides a description of resource A. There are no constraints on the format or representation of either A or B, neither are there any further constraints on either resource.","documentation":"http:\/\/www.w3.org\/TR\/powder-dr\/#appD","specification":"http:\/\/webconcepts.info\/specs\/W3C\/TR\/powder-dr","spec-name":"W3C TR http:\/\/www.w3.org\/TR\/powder-dr"}]},{"value":"describes","concept":"http:\/\/webconcepts.info\/concepts\/link-relation\/","id":"http:\/\/webconcepts.info\/concepts\/link-relation\/describes","details":[{"description":"The relationship A 'describes' B asserts that resource A provides a description of resource B. There are no constraints on the format or representation of either A or B, neither are there any further constraints on either resource.","documentation":"http:\/\/tools.ietf.org\/html\/rfc6892#section-2","specification":"http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6892","spec-name":"RFC 6892"}]},{"value":"disclosure","concept":"http:\/\/webconcepts.info\/concepts\/link-relation\/","id":"http:\/\/webconcepts.info\/concepts\/link-relation\/disclosure","details":[{"description":"Whenever the 'disclosure' relation type is used, the resource at the target Internationalized Resource Identifier (IRI) MUST represent a list of patent disclosures made with respect to the material referenced by context IRI.","documentation":"http:\/\/tools.ietf.org\/html\/rfc6579#section-2","specification":"http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6579","spec-name":"RFC 6579"}]},{"value":"dns-prefetch","concept":"http:\/\/webconcepts.info\/concepts\/link-relation\/","id":"http:\/\/webconcepts.info\/concepts\/link-relation\/dns-prefetch","details":[{"description":"The dns-prefetch link relation type is used to indicate an origin that will be used to fetch required resources, and that the user agent SHOULD resolve as early as possible.","documentation":"www.w3.org\/TR\/resource-hints\/#dns-prefetch","specification":"http:\/\/webconcepts.info\/specs\/W3C\/TR\/resource-hints","spec-name":"W3C TR http:\/\/www.w3.org\/TR\/resource-hints"}]},{"value":"down","concept":"http:\/\/webconcepts.info\/concepts\/link-relation\/","id":"http:\/\/webconcepts.info\/concepts\/link-relation\/down","details":[{"description":"An Atom link element with a rel attribute value of \"down\" may be used to reference a resource where child entries of an entry may be found.","documentation":"http:\/\/tools.ietf.org\/html\/draft-divilly-atom-hierarchy#section-2.2","specification":"http:\/\/webconcepts.info\/specs\/IETF\/I-D\/divilly-atom-hierarchy","spec-name":"Internet Draft divilly-atom-hierarchy"}]},{"value":"edit","concept":"http:\/\/webconcepts.info\/concepts\/link-relation\/","id":"http:\/\/webconcepts.info\/concepts\/link-relation\/edit","details":[{"description":"The value of \"edit\" specifies that the value of the href attribute is the IRI of an editable Member Entry. When appearing within an atom:entry, the href IRI can be used to retrieve, update, and delete the Resource represented by that Entry. An atom:entry MUST NOT contain more than one \"edit\" link relation.","documentation":"http:\/\/tools.ietf.org\/html\/rfc5023#section-11.1","specification":"http:\/\/webconcepts.info\/specs\/IETF\/RFC\/5023","spec-name":"RFC 5023"}]},{"value":"edit-form","concept":"http:\/\/webconcepts.info\/concepts\/link-relation\/","id":"http:\/\/webconcepts.info\/concepts\/link-relation\/edit-form","details":[{"description":"When included in a response, the \"edit-form\" link relation indicates a target resource that represents a form that can be used for updating the context resource.","documentation":"http:\/\/tools.ietf.org\/html\/rfc6861#section-3.2","specification":"http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6861","spec-name":"RFC 6861"}]},{"value":"edit-media","concept":"http:\/\/webconcepts.info\/concepts\/link-relation\/","id":"http:\/\/webconcepts.info\/concepts\/link-relation\/edit-media","details":[{"description":"When appearing within an atom:entry, the value of the href attribute is an IRI that can be used to modify a Media Resource associated with that Entry.","documentation":"http:\/\/tools.ietf.org\/html\/rfc5023#section-11.2","specification":"http:\/\/webconcepts.info\/specs\/IETF\/RFC\/5023","spec-name":"RFC 5023"}]},{"value":"enclosure","concept":"http:\/\/webconcepts.info\/concepts\/link-relation\/","id":"http:\/\/webconcepts.info\/concepts\/link-relation\/enclosure","details":[{"description":"The value \"enclosure\" signifies that the IRI in the value of the href attribute identifies a related resource that is potentially large in size and might require special handling. For atom:link elements with rel=\"enclosure\", the length attribute SHOULD be provided.","documentation":"http:\/\/tools.ietf.org\/html\/rfc4287#section-4.2.7.2","specification":"http:\/\/webconcepts.info\/specs\/IETF\/RFC\/4287","spec-name":"RFC 4287"}]},{"value":"first","concept":"http:\/\/webconcepts.info\/concepts\/link-relation\/","id":"http:\/\/webconcepts.info\/concepts\/link-relation\/first","details":[{"description":"A URI that refers to the furthest preceding document in a series of documents.","documentation":"http:\/\/tools.ietf.org\/html\/rfc5005#section-3","specification":"http:\/\/webconcepts.info\/specs\/IETF\/RFC\/5005","spec-name":"RFC 5005"}]},{"value":"from","concept":"http:\/\/webconcepts.info\/concepts\/link-relation\/","id":"http:\/\/webconcepts.info\/concepts\/link-relation\/from","details":[{"description":"Refers to a resource that is publicly considered to be the originator of the link's context.","documentation":"http:\/\/tools.ietf.org\/html\/draft-snell-more-link-relations#section-3","specification":"http:\/\/webconcepts.info\/specs\/IETF\/I-D\/snell-more-link-relations","spec-name":"Internet Draft snell-more-link-relations"}]},{"value":"full","concept":"http:\/\/webconcepts.info\/concepts\/link-relation\/","id":"http:\/\/webconcepts.info\/concepts\/link-relation\/full","details":[{"description":"This indicates that the target of the link is the full representation for the instance object. The object that contains this link possibly may not be the full representation.","documentation":"http:\/\/tools.ietf.org\/html\/draft-zyp-json-schema#section-6.1.1.2","specification":"http:\/\/webconcepts.info\/specs\/IETF\/I-D\/zyp-json-schema","spec-name":"Internet Draft zyp-json-schema"}]},{"value":"generator","concept":"http:\/\/webconcepts.info\/concepts\/link-relation\/","id":"http:\/\/webconcepts.info\/concepts\/link-relation\/generator","details":[{"description":"Refers to the resource that generated the context  resource. Typically, this would be used to identify the software application that created the context resource.","documentation":"http:\/\/tools.ietf.org\/html\/draft-snell-more-link-relations#section-3","specification":"http:\/\/webconcepts.info\/specs\/IETF\/I-D\/snell-more-link-relations","spec-name":"Internet Draft snell-more-link-relations"}]},{"value":"glossary","concept":"http:\/\/webconcepts.info\/concepts\/link-relation\/","id":"http:\/\/webconcepts.info\/concepts\/link-relation\/glossary","details":[{"description":"Refers to a document providing a glossary of terms that pertain to the current document.","documentation":"http:\/\/www.w3.org\/TR\/html4\/types.html#type-links","specification":"http:\/\/webconcepts.info\/specs\/W3C\/TR\/html4","spec-name":"W3C TR http:\/\/www.w3.org\/TR\/html4"}]},{"value":"help","concept":"http:\/\/webconcepts.info\/concepts\/link-relation\/","id":"http:\/\/webconcepts.info\/concepts\/link-relation\/help","details":[{"description":"Refers to a document offering help (more information, links to other sources information, etc.)","documentation":"http:\/\/www.w3.org\/TR\/html4\/types.html#type-links","specification":"http:\/\/webconcepts.info\/specs\/W3C\/TR\/html4","spec-name":"W3C TR http:\/\/www.w3.org\/TR\/html4"}]},{"value":"home","concept":"http:\/\/webconcepts.info\/concepts\/link-relation\/","id":"http:\/\/webconcepts.info\/concepts\/link-relation\/home","details":[{"description":"Identifies a resource that provides a \"home\" document for the context resource. Home documents often serve as starting points for a certain resource context, such as for Web APIs where the home resource provides access to a number of \"entry points\" to the Web API.","documentation":"http:\/\/tools.ietf.org\/html\/draft-wilde-home-xml-04#section-4.3.1","specification":"http:\/\/webconcepts.info\/specs\/IETF\/I-D\/wilde-home-xml","spec-name":"Internet Draft wilde-home-xml"}]},{"value":"hosts","concept":"http:\/\/webconcepts.info\/concepts\/link-relation\/","id":"http:\/\/webconcepts.info\/concepts\/link-relation\/hosts","details":[{"description":"The \"hosts\" relation type (from the verb \"to host\") indicates that the target URI is a resource hosted by the server (i.e., server hosts resource) indicated by the context URI. The target URI MUST be a relative URI of the context URI for this relation type.","documentation":"http:\/\/tools.ietf.org\/html\/rfc6690#section-2.2","specification":"http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6690","spec-name":"RFC 6690"}]},{"value":"hub","concept":"http:\/\/webconcepts.info\/concepts\/link-relation\/","id":"http:\/\/webconcepts.info\/concepts\/link-relation\/hub","details":[{"description":"A potential subscriber initiates discovery by retrieving (GET or HEAD request) the topic to which it wants to subscribe. The HTTP response from the publisher MUST include at least one Link Header with rel=hub (a hub link header) as well as exactly one Link Header with rel=self (the self link header). The former MUST indicate the exact URL of a WebSub hub designated by the publisher.","documentation":"http:\/\/www.w3.org\/TR\/websub\/#discovery","specification":"http:\/\/webconcepts.info\/specs\/W3C\/TR\/websub","spec-name":"W3C TR http:\/\/www.w3.org\/TR\/websub"}]},{"value":"index","concept":"http:\/\/webconcepts.info\/concepts\/link-relation\/","id":"http:\/\/webconcepts.info\/concepts\/link-relation\/index","details":[{"description":"Refers to a document providing an index for the current document.","documentation":"http:\/\/www.w3.org\/TR\/html4\/types.html#type-links","specification":"http:\/\/webconcepts.info\/specs\/W3C\/TR\/html4","spec-name":"W3C TR http:\/\/www.w3.org\/TR\/html4"}]},{"value":"instances","concept":"http:\/\/webconcepts.info\/concepts\/link-relation\/","id":"http:\/\/webconcepts.info\/concepts\/link-relation\/instances","details":[{"description":"This indicates the target resource that represents collection of instances of a schema.","documentation":"http:\/\/tools.ietf.org\/html\/draft-zyp-json-schema#section-6.1.1.2","specification":"http:\/\/webconcepts.info\/specs\/IETF\/I-D\/zyp-json-schema","spec-name":"Internet Draft zyp-json-schema"}]},{"value":"item","concept":"http:\/\/webconcepts.info\/concepts\/link-relation\/","id":"http:\/\/webconcepts.info\/concepts\/link-relation\/item","details":[{"description":"When included in a resource that represents a collection, the 'item' link relation identifies a target resource that represents a member of that collection.","documentation":"http:\/\/tools.ietf.org\/html\/rfc6573#section-2.1","specification":"http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6573","spec-name":"RFC 6573"}]},{"value":"last","concept":"http:\/\/webconcepts.info\/concepts\/link-relation\/","id":"http:\/\/webconcepts.info\/concepts\/link-relation\/last","details":[{"description":"A URI that refers to the furthest following document in a series of documents.","documentation":"http:\/\/tools.ietf.org\/html\/rfc5005#section-3","specification":"http:\/\/webconcepts.info\/specs\/IETF\/RFC\/5005","spec-name":"RFC 5005"}]},{"value":"latest-version","concept":"http:\/\/webconcepts.info\/concepts\/link-relation\/","id":"http:\/\/webconcepts.info\/concepts\/link-relation\/latest-version","details":[{"description":"When included on a versioned resource, this link points to a resource containing the latest (e.g., current) version.","documentation":"http:\/\/tools.ietf.org\/html\/rfc5829#section-3.2","specification":"http:\/\/webconcepts.info\/specs\/IETF\/RFC\/5829","spec-name":"RFC 5829"}]},{"value":"license","concept":"http:\/\/webconcepts.info\/concepts\/link-relation\/","id":"http:\/\/webconcepts.info\/concepts\/link-relation\/license","details":[{"description":"The \"license\" link relation can be used to associate licenses with a feed or entry. Feeds and entries can be dual-licensed by including multiple \"license\" link relations specifying different href attribute values. If multiple \"license\" link relations are specified, each SHOULD contain a title attribute specifying a human-readable label for the license.","documentation":"http:\/\/tools.ietf.org\/html\/rfc4946#section-2","specification":"http:\/\/webconcepts.info\/specs\/IETF\/RFC\/4946","spec-name":"RFC 4946"}]},{"value":"link","concept":"http:\/\/webconcepts.info\/concepts\/link-relation\/","id":"http:\/\/webconcepts.info\/concepts\/link-relation\/link","details":[{"description":"In the simplest case, a link relation type identifies the semantics of a link. For example, a link with the relation type \"copyright\" indicates that the resource identified by the target IRI is a statement of the copyright terms applying to the current context IRI. Link relation types can also be used to indicate that the target resource has particular attributes, or exhibits particular behaviours; for example, a \"service\" link implies that the identified resource is part of a defined protocol (in this case, a service description).","documentation":"http:\/\/tools.ietf.org\/html\/rfc5988#section-4","specification":"http:\/\/webconcepts.info\/specs\/IETF\/RFC\/5988","spec-name":"RFC 5988"}]},{"value":"location","concept":"http:\/\/webconcepts.info\/concepts\/link-relation\/","id":"http:\/\/webconcepts.info\/concepts\/link-relation\/location","details":[{"description":"References a URI\/IRI that represents a physical or logical location with which the context resource is associated.","documentation":"http:\/\/tools.ietf.org\/html\/draft-snell-more-link-relations#section-3","specification":"http:\/\/webconcepts.info\/specs\/IETF\/I-D\/snell-more-link-relations","spec-name":"Internet Draft snell-more-link-relations"}]},{"value":"lrdd","concept":"http:\/\/webconcepts.info\/concepts\/link-relation\/","id":"http:\/\/webconcepts.info\/concepts\/link-relation\/lrdd","details":[{"description":"LRDD documents are linked to resources or host-meta documents using link templates with the \"lrdd\" relation type.","documentation":"http:\/\/tools.ietf.org\/html\/rfc6415#section-1.1.1","specification":"http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6415","spec-name":"RFC 6415"}]},{"value":"manifest","concept":"http:\/\/webconcepts.info\/concepts\/link-relation\/","id":"http:\/\/webconcepts.info\/concepts\/link-relation\/manifest","details":[{"description":"Imports or links to a manifest.","documentation":"http:\/\/www.w3.org\/TR\/appmanifest\/#linking","specification":"http:\/\/webconcepts.info\/specs\/W3C\/TR\/appmanifest","spec-name":"W3C TR http:\/\/www.w3.org\/TR\/appmanifest"}]},{"value":"memento","concept":"http:\/\/webconcepts.info\/concepts\/link-relation\/","id":"http:\/\/webconcepts.info\/concepts\/link-relation\/memento","details":[{"description":"A link with a \"memento\" Relation Type is used to point from a TimeGate or a Memento for an Original Resource, as well as from the Original Resource itself, to a Memento for the Original Resource.","documentation":"http:\/\/tools.ietf.org\/html\/rfc7089#section-2.2.4","specification":"http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7089","spec-name":"RFC 7089"}]},{"value":"mentionedby","concept":"http:\/\/webconcepts.info\/concepts\/link-relation\/","id":"http:\/\/webconcepts.info\/concepts\/link-relation\/mentionedby","details":[{"description":"Refers to a resource that mentions the context resource in some fashion. This, for example, would be used when an article mentions another article, or a social status update mentions a particular user, etc.","documentation":"http:\/\/tools.ietf.org\/html\/draft-snell-more-link-relations#section-3","specification":"http:\/\/webconcepts.info\/specs\/IETF\/I-D\/snell-more-link-relations","spec-name":"Internet Draft snell-more-link-relations"}]},{"value":"micropub","concept":"http:\/\/webconcepts.info\/concepts\/link-relation\/","id":"http:\/\/webconcepts.info\/concepts\/link-relation\/micropub","details":[{"description":"Allows discovery of a Micropub endpoint which will be used to create posts.","documentation":"http:\/\/www.w3.org\/TR\/micropub\/#endpoint-discovery","specification":"http:\/\/webconcepts.info\/specs\/W3C\/TR\/micropub","spec-name":"W3C TR http:\/\/www.w3.org\/TR\/micropub"}]},{"value":"next","concept":"http:\/\/webconcepts.info\/concepts\/link-relation\/","id":"http:\/\/webconcepts.info\/concepts\/link-relation\/next","details":[{"description":"Refers to the next document in a linear sequence of documents. User agents may choose to preload the \"next\" document, to reduce the perceived load time.","documentation":"http:\/\/www.w3.org\/TR\/html4\/types.html#type-links","specification":"http:\/\/webconcepts.info\/specs\/W3C\/TR\/html4","spec-name":"W3C TR http:\/\/www.w3.org\/TR\/html4"},{"description":"A URI that refers to the immediately following document in a series of documents.","documentation":"http:\/\/tools.ietf.org\/html\/rfc5005#section-3","specification":"http:\/\/webconcepts.info\/specs\/IETF\/RFC\/5005","spec-name":"RFC 5005"}]},{"value":"next-archive","concept":"http:\/\/webconcepts.info\/concepts\/link-relation\/","id":"http:\/\/webconcepts.info\/concepts\/link-relation\/next-archive","details":[{"description":"A URI that refers to the immediately following archive document.","documentation":"http:\/\/tools.ietf.org\/html\/rfc5005#section-4","specification":"http:\/\/webconcepts.info\/specs\/IETF\/RFC\/5005","spec-name":"RFC 5005"}]},{"value":"original","concept":"http:\/\/webconcepts.info\/concepts\/link-relation\/","id":"http:\/\/webconcepts.info\/concepts\/link-relation\/original","details":[{"description":"A link with an \"original\" Relation Type is used to point from a TimeGate or a Memento to its associated Original Resource.","documentation":"http:\/\/tools.ietf.org\/html\/rfc7089#section-2.2.1","specification":"http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7089","spec-name":"RFC 7089"}]},{"value":"preconnect","concept":"http:\/\/webconcepts.info\/concepts\/link-relation\/","id":"http:\/\/webconcepts.info\/concepts\/link-relation\/preconnect","details":[{"description":"The preconnect link relation type is used to indicate an origin that will be used to fetch required resources. Initiating an early connection, which includes the DNS lookup, TCP handshake, and optional TLS negotiation, allows the user agent to mask the high latency costs of establishing a connection.","documentation":"http:\/\/www.w3.org\/TR\/resource-hints\/#preconnect","specification":"http:\/\/webconcepts.info\/specs\/W3C\/TR\/resource-hints","spec-name":"W3C TR http:\/\/www.w3.org\/TR\/resource-hints"}]},{"value":"predecessor-version","concept":"http:\/\/webconcepts.info\/concepts\/link-relation\/","id":"http:\/\/webconcepts.info\/concepts\/link-relation\/predecessor-version","details":[{"description":"When included on a versioned resource, this link points to a resource containing the predecessor version in the version history.","documentation":"http:\/\/tools.ietf.org\/html\/rfc5829#section-3.5","specification":"http:\/\/webconcepts.info\/specs\/IETF\/RFC\/5829","spec-name":"RFC 5829"}]},{"value":"prefetch","concept":"http:\/\/webconcepts.info\/concepts\/link-relation\/","id":"http:\/\/webconcepts.info\/concepts\/link-relation\/prefetch","details":[{"description":"The prefetch link relation type is used to declare a resource that might be required by the next navigation, and that the user agent SHOULD fetch, such that the user agent can deliver a faster response once the resource is requested in the future.","documentation":"http:\/\/www.w3.org\/TR\/resource-hints\/#prefetch","specification":"http:\/\/webconcepts.info\/specs\/W3C\/TR\/resource-hints","spec-name":"W3C TR http:\/\/www.w3.org\/TR\/resource-hints"}]},{"value":"preload","concept":"http:\/\/webconcepts.info\/concepts\/link-relation\/","id":"http:\/\/webconcepts.info\/concepts\/link-relation\/preload","details":[{"description":"The preload keyword may be used with link elements. This keyword creates an external resource link (preload link) that is used to declare a resource and its fetch properties.","documentation":"http:\/\/www.w3.org\/TR\/preload\/#link-type-preload","specification":"http:\/\/webconcepts.info\/specs\/W3C\/TR\/preload","spec-name":"W3C TR http:\/\/www.w3.org\/TR\/preload"}]},{"value":"prerender","concept":"http:\/\/webconcepts.info\/concepts\/link-relation\/","id":"http:\/\/webconcepts.info\/concepts\/link-relation\/prerender","details":[{"description":"The prerender link relation type is used to declare an HTML resource that might be required by the next navigation, and that the user agent SHOULD fetch and execute, such that the user agent can deliver faster response and processing once the resource is requested in the future.","documentation":"http:\/\/www.w3.org\/TR\/resource-hints\/#prerender","specification":"http:\/\/webconcepts.info\/specs\/W3C\/TR\/resource-hints","spec-name":"W3C TR http:\/\/www.w3.org\/TR\/resource-hints"}]},{"value":"prev","concept":"http:\/\/webconcepts.info\/concepts\/link-relation\/","id":"http:\/\/webconcepts.info\/concepts\/link-relation\/prev","details":[{"description":"Refers to the previous document in an ordered series of documents. Some user agents also support the synonym \"Previous\".","documentation":"http:\/\/www.w3.org\/TR\/html4\/types.html#type-links","specification":"http:\/\/webconcepts.info\/specs\/W3C\/TR\/html4","spec-name":"W3C TR http:\/\/www.w3.org\/TR\/html4"}]},{"value":"prev-archive","concept":"http:\/\/webconcepts.info\/concepts\/link-relation\/","id":"http:\/\/webconcepts.info\/concepts\/link-relation\/prev-archive","details":[{"description":"A URI that refers to the immediately preceding archive document.","documentation":"http:\/\/tools.ietf.org\/html\/rfc5005#section-4","specification":"http:\/\/webconcepts.info\/specs\/IETF\/RFC\/5005","spec-name":"RFC 5005"}]},{"value":"preview","concept":"http:\/\/webconcepts.info\/concepts\/link-relation\/","id":"http:\/\/webconcepts.info\/concepts\/link-relation\/preview","details":[{"description":"The \"preview\" link relation can be used to refer to a resource that serves as a preview of the link's context, likely with reduced quality or limited content. For instance, the preview link might reference a screen capture of a video, a brief snippet of audio from a song, or a thumbnail representation of an image.","documentation":"http:\/\/tools.ietf.org\/html\/rfc6903#section-3","specification":"http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6903","spec-name":"RFC 6903"}]},{"value":"previous","concept":"http:\/\/webconcepts.info\/concepts\/link-relation\/","id":"http:\/\/webconcepts.info\/concepts\/link-relation\/previous","details":[{"description":"A URI that refers to the immediately preceding document in a series of documents.","documentation":"http:\/\/tools.ietf.org\/html\/rfc5005#section-3","specification":"http:\/\/webconcepts.info\/specs\/IETF\/RFC\/5005","spec-name":"RFC 5005"}]},{"value":"privacy-policy","concept":"http:\/\/webconcepts.info\/concepts\/link-relation\/","id":"http:\/\/webconcepts.info\/concepts\/link-relation\/privacy-policy","details":[{"description":"The \"privacy-policy\" link relation can be used to refer to a resource describing the privacy policy associated with the link's context. The privacy policy can be any resource that discloses what personal information about the user is collected and how that personal information is stored, used, managed, and disclosed to other parties.","documentation":"http:\/\/tools.ietf.org\/html\/rfc6903#section-4","specification":"http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6903","spec-name":"RFC 6903"}]},{"value":"provider","concept":"http:\/\/webconcepts.info\/concepts\/link-relation\/","id":"http:\/\/webconcepts.info\/concepts\/link-relation\/provider","details":[{"description":"Refers to the resource that provided the context resource. Typically, this would be used to identify the entity publishing the resource.","documentation":"http:\/\/tools.ietf.org\/html\/draft-snell-more-link-relations#section-3","specification":"http:\/\/webconcepts.info\/specs\/IETF\/I-D\/snell-more-link-relations","spec-name":"Internet Draft snell-more-link-relations"}]},{"value":"related","concept":"http:\/\/webconcepts.info\/concepts\/link-relation\/","id":"http:\/\/webconcepts.info\/concepts\/link-relation\/related","details":[{"description":"The value \"related\" signifies that the IRI in the value of the href attribute identifies a resource related to the resource described by the containing element. For example, the feed for a site that discusses the performance of the search engine at \"http:\/\/search.example.com\" might contain, as a child of atom:feed: <link rel=\"related\" href=\"http:\/\/search.example.com\/\"\/> An identical link might appear as a child of any atom:entry whose content contains a discussion of that same search engine.","documentation":"http:\/\/tools.ietf.org\/html\/rfc4287#section-4.2.7.2","specification":"http:\/\/webconcepts.info\/specs\/IETF\/RFC\/4287","spec-name":"RFC 4287"}]},{"value":"root","concept":"http:\/\/webconcepts.info\/concepts\/link-relation\/","id":"http:\/\/webconcepts.info\/concepts\/link-relation\/root","details":[{"description":"This relation indicates that the target of the link SHOULD be treated as the root or the body of the representation for the purposes of user agent interaction or fragment resolution. All other properties of the instance objects can be regarded as meta-data descriptions for the data.","documentation":"http:\/\/tools.ietf.org\/html\/draft-zyp-json-schema#section-6.1.1.2","specification":"http:\/\/webconcepts.info\/specs\/IETF\/I-D\/zyp-json-schema","spec-name":"Internet Draft zyp-json-schema"}]},{"value":"section","concept":"http:\/\/webconcepts.info\/concepts\/link-relation\/","id":"http:\/\/webconcepts.info\/concepts\/link-relation\/section","details":[{"description":"Refers to a document serving as a section in a collection of documents.","documentation":"http:\/\/www.w3.org\/TR\/html4\/types.html#type-links","specification":"http:\/\/webconcepts.info\/specs\/W3C\/TR\/html4","spec-name":"W3C TR http:\/\/www.w3.org\/TR\/html4"}]},{"value":"self","concept":"http:\/\/webconcepts.info\/concepts\/link-relation\/","id":"http:\/\/webconcepts.info\/concepts\/link-relation\/self","details":[{"description":"The value \"self\" signifies that the IRI in the value of the href attribute identifies a resource equivalent to the containing element.","documentation":"http:\/\/tools.ietf.org\/html\/rfc4287#section-4.2.7.2","specification":"http:\/\/webconcepts.info\/specs\/IETF\/RFC\/4287","spec-name":"RFC 4287"}]},{"value":"service-desc","concept":"http:\/\/webconcepts.info\/concepts\/link-relation\/","id":"http:\/\/webconcepts.info\/concepts\/link-relation\/service-desc","details":[{"description":"The \"service-desc\" link relation type is used to represent the fact that a resource is part of a bigger set of resources that are described at a specific URI. The target resource is expected to provide a service description that is intended for machine consumption. Very often, it is provided in a format that is consumed by tools, code libraries, or similar components.","documentation":"http:\/\/tools.ietf.org\/html\/draft-wilde-service-link-rel#section-4.2","specification":"http:\/\/webconcepts.info\/specs\/IETF\/I-D\/wilde-service-link-rel","spec-name":"Internet Draft wilde-service-link-rel"}]},{"value":"service-doc","concept":"http:\/\/webconcepts.info\/concepts\/link-relation\/","id":"http:\/\/webconcepts.info\/concepts\/link-relation\/service-doc","details":[{"description":"The \"service-doc\" link relation type is used to represent the fact that a resource is part of a bigger set of resources that are documented at a specific URI. The target resource is expected to provide documentation that is intended for human consumption.","documentation":"http:\/\/tools.ietf.org\/html\/draft-wilde-service-link-rel#section-4.1","specification":"http:\/\/webconcepts.info\/specs\/IETF\/I-D\/wilde-service-link-rel","spec-name":"Internet Draft wilde-service-link-rel"}]},{"value":"source","concept":"http:\/\/webconcepts.info\/concepts\/link-relation\/","id":"http:\/\/webconcepts.info\/concepts\/link-relation\/source","details":[{"description":"Refers to the original source of information contained by the context resource.","documentation":"http:\/\/tools.ietf.org\/html\/draft-snell-more-link-relations#section-3","specification":"http:\/\/webconcepts.info\/specs\/IETF\/I-D\/snell-more-link-relations","spec-name":"Internet Draft snell-more-link-relations"}]},{"value":"start","concept":"http:\/\/webconcepts.info\/concepts\/link-relation\/","id":"http:\/\/webconcepts.info\/concepts\/link-relation\/start","details":[{"description":"Refers to the first document in a collection of documents. This link type tells search engines which document is considered by the author to be the starting point of the collection.","documentation":"http:\/\/www.w3.org\/TR\/html4\/types.html#type-links","specification":"http:\/\/webconcepts.info\/specs\/W3C\/TR\/html4","spec-name":"W3C TR http:\/\/www.w3.org\/TR\/html4"}]},{"value":"status","concept":"http:\/\/webconcepts.info\/concepts\/link-relation\/","id":"http:\/\/webconcepts.info\/concepts\/link-relation\/status","details":[{"description":"The \"status\" link relation type can be used to link to such a status resource, allowing service consumers to retrieve status information about a Web service's status. Such a link may not be available from all resources provided by a Web service, but from key resources such as a Web service's home resource.","documentation":"http:\/\/tools.ietf.org\/html\/draft-wilde-service-link-rel#section-5","specification":"http:\/\/webconcepts.info\/specs\/IETF\/I-D\/wilde-service-link-rel","spec-name":"Internet Draft wilde-service-link-rel"}]},{"value":"stylesheet","concept":"http:\/\/webconcepts.info\/concepts\/link-relation\/","id":"http:\/\/webconcepts.info\/concepts\/link-relation\/stylesheet","details":[{"description":"Refers to an external style sheet. See the section on external style sheets for details. This is used together with the link type \"Alternate\" for user-selectable alternate style sheets.","documentation":"http:\/\/www.w3.org\/TR\/html4\/types.html#type-links","specification":"http:\/\/webconcepts.info\/specs\/W3C\/TR\/html4","spec-name":"W3C TR http:\/\/www.w3.org\/TR\/html4"}]},{"value":"subsection","concept":"http:\/\/webconcepts.info\/concepts\/link-relation\/","id":"http:\/\/webconcepts.info\/concepts\/link-relation\/subsection","details":[{"description":"Refers to a document serving as a subsection in a collection of documents.","documentation":"http:\/\/www.w3.org\/TR\/html4\/types.html#type-links","specification":"http:\/\/webconcepts.info\/specs\/W3C\/TR\/html4","spec-name":"W3C TR http:\/\/www.w3.org\/TR\/html4"}]},{"value":"successor-version","concept":"http:\/\/webconcepts.info\/concepts\/link-relation\/","id":"http:\/\/webconcepts.info\/concepts\/link-relation\/successor-version","details":[{"description":"When included on a versioned resource, this link points to a resource containing the successor version in the version history.","documentation":"http:\/\/tools.ietf.org\/html\/rfc5829#section-3.6","specification":"http:\/\/webconcepts.info\/specs\/IETF\/RFC\/5829","spec-name":"RFC 5829"}]},{"value":"terms-of-service","concept":"http:\/\/webconcepts.info\/concepts\/link-relation\/","id":"http:\/\/webconcepts.info\/concepts\/link-relation\/terms-of-service","details":[{"description":"The \"terms-of-service\" link relation can be used to refer to a resource describing the terms of service associated with the link's context. The terms of service can be any resource that describes the rules to which a consumer of the service must agree to follow when using the service provided by the link's context.","documentation":"http:\/\/tools.ietf.org\/html\/rfc6903#section-5","specification":"http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6903","spec-name":"RFC 6903"}]},{"value":"timegate","concept":"http:\/\/webconcepts.info\/concepts\/link-relation\/","id":"http:\/\/webconcepts.info\/concepts\/link-relation\/timegate","details":[{"description":"A link with a \"timegate\" Relation Type is used to point from the Original Resource, as well as from a Memento associated with the Original Resource, to a TimeGate for the Original Resource.","documentation":"http:\/\/tools.ietf.org\/html\/rfc7089#section-2.2.2","specification":"http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7089","spec-name":"RFC 7089"}]},{"value":"timemap","concept":"http:\/\/webconcepts.info\/concepts\/link-relation\/","id":"http:\/\/webconcepts.info\/concepts\/link-relation\/timemap","details":[{"description":"A link with a \"timemap\" Relation Type is used to point from a TimeGate or a Memento associated with an Original Resource, as well as from the Original Resource itself, to a TimeMap for the Original Resource.","documentation":"http:\/\/tools.ietf.org\/html\/rfc7089#section-2.2.3","specification":"http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7089","spec-name":"RFC 7089"}]},{"value":"to","concept":"http:\/\/webconcepts.info\/concepts\/link-relation\/","id":"http:\/\/webconcepts.info\/concepts\/link-relation\/to","details":[{"description":"Refers to a resource that is considered to be part of the public primary audience of the link's context.","documentation":"http:\/\/tools.ietf.org\/html\/draft-snell-more-link-relations#section-3","specification":"http:\/\/webconcepts.info\/specs\/IETF\/I-D\/snell-more-link-relations","spec-name":"Internet Draft snell-more-link-relations"}]},{"value":"type","concept":"http:\/\/webconcepts.info\/concepts\/link-relation\/","id":"http:\/\/webconcepts.info\/concepts\/link-relation\/type","details":[{"description":"The \"type\" link relation can be used to indicate that the context resource is an instance of the resource identified by the target Internationalized Resource Identifier (IRI).","documentation":"http:\/\/tools.ietf.org\/html\/rfc6903#section-6","specification":"http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6903","spec-name":"RFC 6903"}]},{"value":"up","concept":"http:\/\/webconcepts.info\/concepts\/link-relation\/","id":"http:\/\/webconcepts.info\/concepts\/link-relation\/up","details":[{"description":"An Atom link element with a rel attribute value of \"up\" may be used to reference a resource where parent entries of an entry or a feed may be found.","documentation":"http:\/\/tools.ietf.org\/html\/draft-divilly-atom-hierarchy#section-2.3","specification":"http:\/\/webconcepts.info\/specs\/IETF\/I-D\/divilly-atom-hierarchy","spec-name":"Internet Draft divilly-atom-hierarchy"}]},{"value":"version-history","concept":"http:\/\/webconcepts.info\/concepts\/link-relation\/","id":"http:\/\/webconcepts.info\/concepts\/link-relation\/version-history","details":[{"description":"When included on a versioned resource, this link points to a resource containing the version history for this resource.","documentation":"http:\/\/tools.ietf.org\/html\/rfc5829#section-3.1","specification":"http:\/\/webconcepts.info\/specs\/IETF\/RFC\/5829","spec-name":"RFC 5829"}]},{"value":"via","concept":"http:\/\/webconcepts.info\/concepts\/link-relation\/","id":"http:\/\/webconcepts.info\/concepts\/link-relation\/via","details":[{"description":"The value \"via\" signifies that the IRI in the value of the href attribute identifies a resource that is the source of the information provided in the containing element.","documentation":"http:\/\/tools.ietf.org\/html\/rfc4287#section-4.2.7.2","specification":"http:\/\/webconcepts.info\/specs\/IETF\/RFC\/4287","spec-name":"RFC 4287"}]},{"value":"webmention","concept":"http:\/\/webconcepts.info\/concepts\/link-relation\/","id":"http:\/\/webconcepts.info\/concepts\/link-relation\/webmention","details":[{"description":"Identifies a target URI that supports the Webmention protocol. This allows clients that mention a resource in some form of publishing process to contact that endpoint and inform it that this resource has been mentioned.","documentation":"http:\/\/www.w3.org\/TR\/webmention\/#sender-discovers-receiver-webmention-endpoint","specification":"http:\/\/webconcepts.info\/specs\/W3C\/TR\/webmention","spec-name":"W3C TR http:\/\/www.w3.org\/TR\/webmention"}]},{"value":"working-copy","concept":"http:\/\/webconcepts.info\/concepts\/link-relation\/","id":"http:\/\/webconcepts.info\/concepts\/link-relation\/working-copy","details":[{"description":"When included on a versioned resource, this link points to a working copy for this resource.","documentation":"http:\/\/tools.ietf.org\/html\/rfc5829#section-3.3","specification":"http:\/\/webconcepts.info\/specs\/IETF\/RFC\/5829","spec-name":"RFC 5829"}]},{"value":"working-copy-of","concept":"http:\/\/webconcepts.info\/concepts\/link-relation\/","id":"http:\/\/webconcepts.info\/concepts\/link-relation\/working-copy-of","details":[{"description":"When included on a working copy, this link points to the versioned resource from which this working copy was obtained.","documentation":"http:\/\/tools.ietf.org\/html\/rfc5829#section-3.4","specification":"http:\/\/webconcepts.info\/specs\/IETF\/RFC\/5829","spec-name":"RFC 5829"}]}]}
+
+  { "concept" : "link-relation",
+    "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+    "name-singular" : "Link Relation",
+    "name-plural" : "Link Relations",
+    "registry" : "http:\/\/www.iana.org\/assignments\/link-relations\/link-relations.xhtml",
+    "values" : 
+    [ 
+      { "value" : "about",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/about",
+        "details" : 
+        [ 
+          { "description" : "The \"about\" link relation can be used to refer to a resource that is the subject or topic of the link's context. Multiple subjects can be indicated through the use of multiple \"about\" link relations.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6903#section-2",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6903",
+            "spec-name" : "RFC 6903" } ] },
+      
+      { "value" : "alternate",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/alternate",
+        "details" : 
+        [ 
+          { "description" : "Designates substitute versions for the document in which the link occurs. When used together with the lang attribute, it implies a translated version of the document. When used together with the media attribute, it implies a version designed for a different medium (or media).",
+            "documentation" : "http:\/\/www.w3.org\/TR\/html4\/types.html#type-links",
+            "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/html4",
+            "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/html4" },
+          
+          { "description" : "The value \"alternate\" signifies that the IRI in the value of the href attribute identifies an alternate version of the resource described by the containing element.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc4287#section-4.2.7.2",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/4287",
+            "spec-name" : "RFC 4287" } ] },
+      
+      { "value" : "appendix",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/appendix",
+        "details" : 
+        [ 
+          { "description" : "Refers to a document serving as an appendix in a collection of documents.",
+            "documentation" : "http:\/\/www.w3.org\/TR\/html4\/types.html#type-links",
+            "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/html4",
+            "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/html4" } ] },
+      
+      { "value" : "bcc",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/bcc",
+        "details" : 
+        [ 
+          { "description" : "Refers to a resource that is considered to be part of the private secondary audience of the link's context.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-snell-more-link-relations#section-3",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/snell-more-link-relations",
+            "spec-name" : "Internet Draft snell-more-link-relations" } ] },
+      
+      { "value" : "bfrom",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/bfrom",
+        "details" : 
+        [ 
+          { "description" : "Refers to a resource that is privately considered to be the originator of the link's context.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-snell-more-link-relations#section-3",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/snell-more-link-relations",
+            "spec-name" : "Internet Draft snell-more-link-relations" } ] },
+      
+      { "value" : "bookmark",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/bookmark",
+        "details" : 
+        [ 
+          { "description" : "Refers to a bookmark. A bookmark is a link to a key entry point within an extended document. The title attribute may be used, for example, to label the bookmark. Note that several bookmarks may be defined in each document.",
+            "documentation" : "http:\/\/www.w3.org\/TR\/html4\/types.html#type-links",
+            "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/html4",
+            "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/html4" } ] },
+      
+      { "value" : "bto",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/bto",
+        "details" : 
+        [ 
+          { "description" : "Refers to a resource that is considered to be part of the private primary audience of the link's context.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-snell-more-link-relations#section-3",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/snell-more-link-relations",
+            "spec-name" : "Internet Draft snell-more-link-relations" } ] },
+      
+      { "value" : "canonical",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/canonical",
+        "details" : 
+        [ 
+          { "description" : "The target (canonical) IRI MUST identify content that is either duplicative or a superset of the content at the context (referring) IRI.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6596#section-3",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6596",
+            "spec-name" : "RFC 6596" } ] },
+      
+      { "value" : "cc",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/cc",
+        "details" : 
+        [ 
+          { "description" : "Refers to a resource that is considered to be  part of the public secondary audience of the link's context.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-snell-more-link-relations#section-3",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/snell-more-link-relations",
+            "spec-name" : "Internet Draft snell-more-link-relations" } ] },
+      
+      { "value" : "chapter",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/chapter",
+        "details" : 
+        [ 
+          { "description" : "Refers to a document serving as a chapter in a collection of documents.",
+            "documentation" : "http:\/\/www.w3.org\/TR\/html4\/types.html#type-links",
+            "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/html4",
+            "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/html4" } ] },
+      
+      { "value" : "collection",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/collection",
+        "details" : 
+        [ 
+          { "description" : "When included in a resource that represents a member of a collection, the 'collection' link relation identifies a target resource that represents a collection of which the context resource is a member.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6573#section-2.2",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6573",
+            "spec-name" : "RFC 6573" } ] },
+      
+      { "value" : "contents",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/contents",
+        "details" : 
+        [ 
+          { "description" : "Refers to a document serving as a table of contents. Some user agents also support the synonym ToC (from \"Table of Contents\").",
+            "documentation" : "http:\/\/www.w3.org\/TR\/html4\/types.html#type-links",
+            "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/html4",
+            "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/html4" } ] },
+      
+      { "value" : "copyright",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/copyright",
+        "details" : 
+        [ 
+          { "description" : "Refers to a copyright statement for the current document.",
+            "documentation" : "http:\/\/www.w3.org\/TR\/html4\/types.html#type-links",
+            "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/html4",
+            "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/html4" } ] },
+      
+      { "value" : "create",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/create",
+        "details" : 
+        [ 
+          { "description" : "This indicates a target to use for creating new instances of a schema. This link definition SHOULD be a submission link with a non-safe method (like POST).",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-zyp-json-schema#section-6.1.1.2",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/zyp-json-schema",
+            "spec-name" : "Internet Draft zyp-json-schema" } ] },
+      
+      { "value" : "create-form",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/create-form",
+        "details" : 
+        [ 
+          { "description" : "When included in a response, the \"create-form\" link relation indicates a target resource that represents a form that can be used to append a new member to the link context.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6861#section-3.1",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6861",
+            "spec-name" : "RFC 6861" } ] },
+      
+      { "value" : "current",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/current",
+        "details" : 
+        [ 
+          { "description" : "A URI that, when dereferenced, returns a feed document containing the most recent entries in the feed.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc5005#section-4",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/5005",
+            "spec-name" : "RFC 5005" } ] },
+      
+      { "value" : "derivedfrom",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/derivedfrom",
+        "details" : 
+        [ 
+          { "description" : "The document linked to was later converted to the document that contains this link relation. For example, an RFC can have a link to the Internet Draft that became the RFC; in that case, the link relation would be \"derivedfrom\".",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-hoffman-xml2rfc-15#section-6.2",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/hoffman-xml2rfc",
+            "spec-name" : "Internet Draft hoffman-xml2rfc" } ] },
+      
+      { "value" : "describedby",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/describedby",
+        "details" : 
+        [ 
+          { "description" : "The relationship A describedby B asserts that resource B provides a description of resource A. There are no constraints on the format or representation of either A or B, neither are there any further constraints on either resource.",
+            "documentation" : "http:\/\/www.w3.org\/TR\/ldp\/#link-relation-describedby",
+            "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/ldp",
+            "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/ldp" },
+          
+          { "description" : "The relationship A 'describedby' B asserts that resource B provides a description of resource A. There are no constraints on the format or representation of either A or B, neither are there any further constraints on either resource.",
+            "documentation" : "http:\/\/www.w3.org\/TR\/powder-dr\/#appD",
+            "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/powder-dr",
+            "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/powder-dr" } ] },
+      
+      { "value" : "describes",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/describes",
+        "details" : 
+        [ 
+          { "description" : "The relationship A 'describes' B asserts that resource A provides a description of resource B. There are no constraints on the format or representation of either A or B, neither are there any further constraints on either resource.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6892#section-2",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6892",
+            "spec-name" : "RFC 6892" } ] },
+      
+      { "value" : "disclosure",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/disclosure",
+        "details" : 
+        [ 
+          { "description" : "Whenever the 'disclosure' relation type is used, the resource at the target Internationalized Resource Identifier (IRI) MUST represent a list of patent disclosures made with respect to the material referenced by context IRI.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6579#section-2",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6579",
+            "spec-name" : "RFC 6579" } ] },
+      
+      { "value" : "dns-prefetch",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/dns-prefetch",
+        "details" : 
+        [ 
+          { "description" : "The dns-prefetch link relation type is used to indicate an origin that will be used to fetch required resources, and that the user agent SHOULD resolve as early as possible.",
+            "documentation" : "www.w3.org\/TR\/resource-hints\/#dns-prefetch",
+            "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/resource-hints",
+            "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/resource-hints" } ] },
+      
+      { "value" : "down",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/down",
+        "details" : 
+        [ 
+          { "description" : "An Atom link element with a rel attribute value of \"down\" may be used to reference a resource where child entries of an entry may be found.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-divilly-atom-hierarchy#section-2.2",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/divilly-atom-hierarchy",
+            "spec-name" : "Internet Draft divilly-atom-hierarchy" } ] },
+      
+      { "value" : "edit",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/edit",
+        "details" : 
+        [ 
+          { "description" : "The value of \"edit\" specifies that the value of the href attribute is the IRI of an editable Member Entry. When appearing within an atom:entry, the href IRI can be used to retrieve, update, and delete the Resource represented by that Entry. An atom:entry MUST NOT contain more than one \"edit\" link relation.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc5023#section-11.1",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/5023",
+            "spec-name" : "RFC 5023" } ] },
+      
+      { "value" : "edit-form",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/edit-form",
+        "details" : 
+        [ 
+          { "description" : "When included in a response, the \"edit-form\" link relation indicates a target resource that represents a form that can be used for updating the context resource.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6861#section-3.2",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6861",
+            "spec-name" : "RFC 6861" } ] },
+      
+      { "value" : "edit-media",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/edit-media",
+        "details" : 
+        [ 
+          { "description" : "When appearing within an atom:entry, the value of the href attribute is an IRI that can be used to modify a Media Resource associated with that Entry.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc5023#section-11.2",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/5023",
+            "spec-name" : "RFC 5023" } ] },
+      
+      { "value" : "enclosure",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/enclosure",
+        "details" : 
+        [ 
+          { "description" : "The value \"enclosure\" signifies that the IRI in the value of the href attribute identifies a related resource that is potentially large in size and might require special handling. For atom:link elements with rel=\"enclosure\", the length attribute SHOULD be provided.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc4287#section-4.2.7.2",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/4287",
+            "spec-name" : "RFC 4287" } ] },
+      
+      { "value" : "first",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/first",
+        "details" : 
+        [ 
+          { "description" : "A URI that refers to the furthest preceding document in a series of documents.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc5005#section-3",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/5005",
+            "spec-name" : "RFC 5005" } ] },
+      
+      { "value" : "from",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/from",
+        "details" : 
+        [ 
+          { "description" : "Refers to a resource that is publicly considered to be the originator of the link's context.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-snell-more-link-relations#section-3",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/snell-more-link-relations",
+            "spec-name" : "Internet Draft snell-more-link-relations" } ] },
+      
+      { "value" : "full",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/full",
+        "details" : 
+        [ 
+          { "description" : "This indicates that the target of the link is the full representation for the instance object. The object that contains this link possibly may not be the full representation.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-zyp-json-schema#section-6.1.1.2",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/zyp-json-schema",
+            "spec-name" : "Internet Draft zyp-json-schema" } ] },
+      
+      { "value" : "generator",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/generator",
+        "details" : 
+        [ 
+          { "description" : "Refers to the resource that generated the context  resource. Typically, this would be used to identify the software application that created the context resource.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-snell-more-link-relations#section-3",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/snell-more-link-relations",
+            "spec-name" : "Internet Draft snell-more-link-relations" } ] },
+      
+      { "value" : "glossary",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/glossary",
+        "details" : 
+        [ 
+          { "description" : "Refers to a document providing a glossary of terms that pertain to the current document.",
+            "documentation" : "http:\/\/www.w3.org\/TR\/html4\/types.html#type-links",
+            "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/html4",
+            "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/html4" } ] },
+      
+      { "value" : "help",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/help",
+        "details" : 
+        [ 
+          { "description" : "Refers to a document offering help (more information, links to other sources information, etc.)",
+            "documentation" : "http:\/\/www.w3.org\/TR\/html4\/types.html#type-links",
+            "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/html4",
+            "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/html4" } ] },
+      
+      { "value" : "home",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/home",
+        "details" : 
+        [ 
+          { "description" : "Identifies a resource that provides a \"home\" document for the context resource. Home documents often serve as starting points for a certain resource context, such as for Web APIs where the home resource provides access to a number of \"entry points\" to the Web API.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-wilde-home-xml-04#section-4.3.1",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/wilde-home-xml",
+            "spec-name" : "Internet Draft wilde-home-xml" } ] },
+      
+      { "value" : "hosts",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/hosts",
+        "details" : 
+        [ 
+          { "description" : "The \"hosts\" relation type (from the verb \"to host\") indicates that the target URI is a resource hosted by the server (i.e., server hosts resource) indicated by the context URI. The target URI MUST be a relative URI of the context URI for this relation type.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6690#section-2.2",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6690",
+            "spec-name" : "RFC 6690" } ] },
+      
+      { "value" : "hub",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/hub",
+        "details" : 
+        [ 
+          { "description" : "A potential subscriber initiates discovery by retrieving (GET or HEAD request) the topic to which it wants to subscribe. The HTTP response from the publisher MUST include at least one Link Header with rel=hub (a hub link header) as well as exactly one Link Header with rel=self (the self link header). The former MUST indicate the exact URL of a WebSub hub designated by the publisher.",
+            "documentation" : "http:\/\/www.w3.org\/TR\/websub\/#discovery",
+            "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/websub",
+            "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/websub" } ] },
+      
+      { "value" : "index",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/index",
+        "details" : 
+        [ 
+          { "description" : "Refers to a document providing an index for the current document.",
+            "documentation" : "http:\/\/www.w3.org\/TR\/html4\/types.html#type-links",
+            "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/html4",
+            "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/html4" } ] },
+      
+      { "value" : "instances",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/instances",
+        "details" : 
+        [ 
+          { "description" : "This indicates the target resource that represents collection of instances of a schema.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-zyp-json-schema#section-6.1.1.2",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/zyp-json-schema",
+            "spec-name" : "Internet Draft zyp-json-schema" } ] },
+      
+      { "value" : "item",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/item",
+        "details" : 
+        [ 
+          { "description" : "When included in a resource that represents a collection, the 'item' link relation identifies a target resource that represents a member of that collection.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6573#section-2.1",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6573",
+            "spec-name" : "RFC 6573" } ] },
+      
+      { "value" : "last",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/last",
+        "details" : 
+        [ 
+          { "description" : "A URI that refers to the furthest following document in a series of documents.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc5005#section-3",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/5005",
+            "spec-name" : "RFC 5005" } ] },
+      
+      { "value" : "latest-version",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/latest-version",
+        "details" : 
+        [ 
+          { "description" : "When included on a versioned resource, this link points to a resource containing the latest (e.g., current) version.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc5829#section-3.2",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/5829",
+            "spec-name" : "RFC 5829" } ] },
+      
+      { "value" : "license",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/license",
+        "details" : 
+        [ 
+          { "description" : "The \"license\" link relation can be used to associate licenses with a feed or entry. Feeds and entries can be dual-licensed by including multiple \"license\" link relations specifying different href attribute values. If multiple \"license\" link relations are specified, each SHOULD contain a title attribute specifying a human-readable label for the license.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc4946#section-2",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/4946",
+            "spec-name" : "RFC 4946" } ] },
+      
+      { "value" : "link",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/link",
+        "details" : 
+        [ 
+          { "description" : "In the simplest case, a link relation type identifies the semantics of a link. For example, a link with the relation type \"copyright\" indicates that the resource identified by the target IRI is a statement of the copyright terms applying to the current context IRI. Link relation types can also be used to indicate that the target resource has particular attributes, or exhibits particular behaviours; for example, a \"service\" link implies that the identified resource is part of a defined protocol (in this case, a service description).",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc5988#section-4",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/5988",
+            "spec-name" : "RFC 5988" } ] },
+      
+      { "value" : "location",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/location",
+        "details" : 
+        [ 
+          { "description" : "References a URI\/IRI that represents a physical or logical location with which the context resource is associated.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-snell-more-link-relations#section-3",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/snell-more-link-relations",
+            "spec-name" : "Internet Draft snell-more-link-relations" } ] },
+      
+      { "value" : "lrdd",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/lrdd",
+        "details" : 
+        [ 
+          { "description" : "LRDD documents are linked to resources or host-meta documents using link templates with the \"lrdd\" relation type.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6415#section-1.1.1",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6415",
+            "spec-name" : "RFC 6415" } ] },
+      
+      { "value" : "manifest",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/manifest",
+        "details" : 
+        [ 
+          { "description" : "Imports or links to a manifest.",
+            "documentation" : "http:\/\/www.w3.org\/TR\/appmanifest\/#linking",
+            "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/appmanifest",
+            "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/appmanifest" } ] },
+      
+      { "value" : "memento",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/memento",
+        "details" : 
+        [ 
+          { "description" : "A link with a \"memento\" Relation Type is used to point from a TimeGate or a Memento for an Original Resource, as well as from the Original Resource itself, to a Memento for the Original Resource.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7089#section-2.2.4",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7089",
+            "spec-name" : "RFC 7089" } ] },
+      
+      { "value" : "mentionedby",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/mentionedby",
+        "details" : 
+        [ 
+          { "description" : "Refers to a resource that mentions the context resource in some fashion. This, for example, would be used when an article mentions another article, or a social status update mentions a particular user, etc.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-snell-more-link-relations#section-3",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/snell-more-link-relations",
+            "spec-name" : "Internet Draft snell-more-link-relations" } ] },
+      
+      { "value" : "micropub",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/micropub",
+        "details" : 
+        [ 
+          { "description" : "Allows discovery of a Micropub endpoint which will be used to create posts.",
+            "documentation" : "http:\/\/www.w3.org\/TR\/micropub\/#endpoint-discovery",
+            "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/micropub",
+            "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/micropub" } ] },
+      
+      { "value" : "next",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/next",
+        "details" : 
+        [ 
+          { "description" : "Refers to the next document in a linear sequence of documents. User agents may choose to preload the \"next\" document, to reduce the perceived load time.",
+            "documentation" : "http:\/\/www.w3.org\/TR\/html4\/types.html#type-links",
+            "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/html4",
+            "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/html4" },
+          
+          { "description" : "A URI that refers to the immediately following document in a series of documents.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc5005#section-3",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/5005",
+            "spec-name" : "RFC 5005" } ] },
+      
+      { "value" : "next-archive",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/next-archive",
+        "details" : 
+        [ 
+          { "description" : "A URI that refers to the immediately following archive document.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc5005#section-4",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/5005",
+            "spec-name" : "RFC 5005" } ] },
+      
+      { "value" : "original",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/original",
+        "details" : 
+        [ 
+          { "description" : "A link with an \"original\" Relation Type is used to point from a TimeGate or a Memento to its associated Original Resource.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7089#section-2.2.1",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7089",
+            "spec-name" : "RFC 7089" } ] },
+      
+      { "value" : "preconnect",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/preconnect",
+        "details" : 
+        [ 
+          { "description" : "The preconnect link relation type is used to indicate an origin that will be used to fetch required resources. Initiating an early connection, which includes the DNS lookup, TCP handshake, and optional TLS negotiation, allows the user agent to mask the high latency costs of establishing a connection.",
+            "documentation" : "http:\/\/www.w3.org\/TR\/resource-hints\/#preconnect",
+            "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/resource-hints",
+            "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/resource-hints" } ] },
+      
+      { "value" : "predecessor-version",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/predecessor-version",
+        "details" : 
+        [ 
+          { "description" : "When included on a versioned resource, this link points to a resource containing the predecessor version in the version history.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc5829#section-3.5",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/5829",
+            "spec-name" : "RFC 5829" } ] },
+      
+      { "value" : "prefetch",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/prefetch",
+        "details" : 
+        [ 
+          { "description" : "The prefetch link relation type is used to declare a resource that might be required by the next navigation, and that the user agent SHOULD fetch, such that the user agent can deliver a faster response once the resource is requested in the future.",
+            "documentation" : "http:\/\/www.w3.org\/TR\/resource-hints\/#prefetch",
+            "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/resource-hints",
+            "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/resource-hints" } ] },
+      
+      { "value" : "preload",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/preload",
+        "details" : 
+        [ 
+          { "description" : "The preload keyword may be used with link elements. This keyword creates an external resource link (preload link) that is used to declare a resource and its fetch properties.",
+            "documentation" : "http:\/\/www.w3.org\/TR\/preload\/#link-type-preload",
+            "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/preload",
+            "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/preload" } ] },
+      
+      { "value" : "prerender",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/prerender",
+        "details" : 
+        [ 
+          { "description" : "The prerender link relation type is used to declare an HTML resource that might be required by the next navigation, and that the user agent SHOULD fetch and execute, such that the user agent can deliver faster response and processing once the resource is requested in the future.",
+            "documentation" : "http:\/\/www.w3.org\/TR\/resource-hints\/#prerender",
+            "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/resource-hints",
+            "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/resource-hints" } ] },
+      
+      { "value" : "prev",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/prev",
+        "details" : 
+        [ 
+          { "description" : "Refers to the previous document in an ordered series of documents. Some user agents also support the synonym \"Previous\".",
+            "documentation" : "http:\/\/www.w3.org\/TR\/html4\/types.html#type-links",
+            "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/html4",
+            "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/html4" } ] },
+      
+      { "value" : "prev-archive",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/prev-archive",
+        "details" : 
+        [ 
+          { "description" : "A URI that refers to the immediately preceding archive document.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc5005#section-4",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/5005",
+            "spec-name" : "RFC 5005" } ] },
+      
+      { "value" : "preview",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/preview",
+        "details" : 
+        [ 
+          { "description" : "The \"preview\" link relation can be used to refer to a resource that serves as a preview of the link's context, likely with reduced quality or limited content. For instance, the preview link might reference a screen capture of a video, a brief snippet of audio from a song, or a thumbnail representation of an image.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6903#section-3",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6903",
+            "spec-name" : "RFC 6903" } ] },
+      
+      { "value" : "previous",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/previous",
+        "details" : 
+        [ 
+          { "description" : "A URI that refers to the immediately preceding document in a series of documents.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc5005#section-3",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/5005",
+            "spec-name" : "RFC 5005" } ] },
+      
+      { "value" : "privacy-policy",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/privacy-policy",
+        "details" : 
+        [ 
+          { "description" : "The \"privacy-policy\" link relation can be used to refer to a resource describing the privacy policy associated with the link's context. The privacy policy can be any resource that discloses what personal information about the user is collected and how that personal information is stored, used, managed, and disclosed to other parties.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6903#section-4",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6903",
+            "spec-name" : "RFC 6903" } ] },
+      
+      { "value" : "provider",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/provider",
+        "details" : 
+        [ 
+          { "description" : "Refers to the resource that provided the context resource. Typically, this would be used to identify the entity publishing the resource.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-snell-more-link-relations#section-3",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/snell-more-link-relations",
+            "spec-name" : "Internet Draft snell-more-link-relations" } ] },
+      
+      { "value" : "related",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/related",
+        "details" : 
+        [ 
+          { "description" : "The value \"related\" signifies that the IRI in the value of the href attribute identifies a resource related to the resource described by the containing element. For example, the feed for a site that discusses the performance of the search engine at \"http:\/\/search.example.com\" might contain, as a child of atom:feed: <link rel=\"related\" href=\"http:\/\/search.example.com\/\"\/> An identical link might appear as a child of any atom:entry whose content contains a discussion of that same search engine.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc4287#section-4.2.7.2",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/4287",
+            "spec-name" : "RFC 4287" } ] },
+      
+      { "value" : "root",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/root",
+        "details" : 
+        [ 
+          { "description" : "This relation indicates that the target of the link SHOULD be treated as the root or the body of the representation for the purposes of user agent interaction or fragment resolution. All other properties of the instance objects can be regarded as meta-data descriptions for the data.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-zyp-json-schema#section-6.1.1.2",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/zyp-json-schema",
+            "spec-name" : "Internet Draft zyp-json-schema" } ] },
+      
+      { "value" : "section",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/section",
+        "details" : 
+        [ 
+          { "description" : "Refers to a document serving as a section in a collection of documents.",
+            "documentation" : "http:\/\/www.w3.org\/TR\/html4\/types.html#type-links",
+            "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/html4",
+            "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/html4" } ] },
+      
+      { "value" : "self",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/self",
+        "details" : 
+        [ 
+          { "description" : "The value \"self\" signifies that the IRI in the value of the href attribute identifies a resource equivalent to the containing element.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc4287#section-4.2.7.2",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/4287",
+            "spec-name" : "RFC 4287" } ] },
+      
+      { "value" : "service-desc",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/service-desc",
+        "details" : 
+        [ 
+          { "description" : "The \"service-desc\" link relation type is used to represent the fact that a resource is part of a bigger set of resources that are described at a specific URI. The target resource is expected to provide a service description that is intended for machine consumption. Very often, it is provided in a format that is consumed by tools, code libraries, or similar components.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-wilde-service-link-rel#section-4.2",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/wilde-service-link-rel",
+            "spec-name" : "Internet Draft wilde-service-link-rel" } ] },
+      
+      { "value" : "service-doc",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/service-doc",
+        "details" : 
+        [ 
+          { "description" : "The \"service-doc\" link relation type is used to represent the fact that a resource is part of a bigger set of resources that are documented at a specific URI. The target resource is expected to provide documentation that is intended for human consumption.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-wilde-service-link-rel#section-4.1",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/wilde-service-link-rel",
+            "spec-name" : "Internet Draft wilde-service-link-rel" } ] },
+      
+      { "value" : "source",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/source",
+        "details" : 
+        [ 
+          { "description" : "Refers to the original source of information contained by the context resource.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-snell-more-link-relations#section-3",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/snell-more-link-relations",
+            "spec-name" : "Internet Draft snell-more-link-relations" } ] },
+      
+      { "value" : "start",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/start",
+        "details" : 
+        [ 
+          { "description" : "Refers to the first document in a collection of documents. This link type tells search engines which document is considered by the author to be the starting point of the collection.",
+            "documentation" : "http:\/\/www.w3.org\/TR\/html4\/types.html#type-links",
+            "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/html4",
+            "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/html4" } ] },
+      
+      { "value" : "status",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/status",
+        "details" : 
+        [ 
+          { "description" : "The \"status\" link relation type can be used to link to such a status resource, allowing service consumers to retrieve status information about a Web service's status. Such a link may not be available from all resources provided by a Web service, but from key resources such as a Web service's home resource.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-wilde-service-link-rel#section-5",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/wilde-service-link-rel",
+            "spec-name" : "Internet Draft wilde-service-link-rel" } ] },
+      
+      { "value" : "stylesheet",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/stylesheet",
+        "details" : 
+        [ 
+          { "description" : "Refers to an external style sheet. See the section on external style sheets for details. This is used together with the link type \"Alternate\" for user-selectable alternate style sheets.",
+            "documentation" : "http:\/\/www.w3.org\/TR\/html4\/types.html#type-links",
+            "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/html4",
+            "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/html4" } ] },
+      
+      { "value" : "subsection",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/subsection",
+        "details" : 
+        [ 
+          { "description" : "Refers to a document serving as a subsection in a collection of documents.",
+            "documentation" : "http:\/\/www.w3.org\/TR\/html4\/types.html#type-links",
+            "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/html4",
+            "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/html4" } ] },
+      
+      { "value" : "successor-version",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/successor-version",
+        "details" : 
+        [ 
+          { "description" : "When included on a versioned resource, this link points to a resource containing the successor version in the version history.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc5829#section-3.6",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/5829",
+            "spec-name" : "RFC 5829" } ] },
+      
+      { "value" : "terms-of-service",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/terms-of-service",
+        "details" : 
+        [ 
+          { "description" : "The \"terms-of-service\" link relation can be used to refer to a resource describing the terms of service associated with the link's context. The terms of service can be any resource that describes the rules to which a consumer of the service must agree to follow when using the service provided by the link's context.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6903#section-5",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6903",
+            "spec-name" : "RFC 6903" } ] },
+      
+      { "value" : "timegate",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/timegate",
+        "details" : 
+        [ 
+          { "description" : "A link with a \"timegate\" Relation Type is used to point from the Original Resource, as well as from a Memento associated with the Original Resource, to a TimeGate for the Original Resource.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7089#section-2.2.2",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7089",
+            "spec-name" : "RFC 7089" } ] },
+      
+      { "value" : "timemap",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/timemap",
+        "details" : 
+        [ 
+          { "description" : "A link with a \"timemap\" Relation Type is used to point from a TimeGate or a Memento associated with an Original Resource, as well as from the Original Resource itself, to a TimeMap for the Original Resource.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7089#section-2.2.3",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7089",
+            "spec-name" : "RFC 7089" } ] },
+      
+      { "value" : "to",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/to",
+        "details" : 
+        [ 
+          { "description" : "Refers to a resource that is considered to be part of the public primary audience of the link's context.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-snell-more-link-relations#section-3",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/snell-more-link-relations",
+            "spec-name" : "Internet Draft snell-more-link-relations" } ] },
+      
+      { "value" : "type",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/type",
+        "details" : 
+        [ 
+          { "description" : "The \"type\" link relation can be used to indicate that the context resource is an instance of the resource identified by the target Internationalized Resource Identifier (IRI).",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6903#section-6",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6903",
+            "spec-name" : "RFC 6903" } ] },
+      
+      { "value" : "up",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/up",
+        "details" : 
+        [ 
+          { "description" : "An Atom link element with a rel attribute value of \"up\" may be used to reference a resource where parent entries of an entry or a feed may be found.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-divilly-atom-hierarchy#section-2.3",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/divilly-atom-hierarchy",
+            "spec-name" : "Internet Draft divilly-atom-hierarchy" } ] },
+      
+      { "value" : "version-history",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/version-history",
+        "details" : 
+        [ 
+          { "description" : "When included on a versioned resource, this link points to a resource containing the version history for this resource.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc5829#section-3.1",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/5829",
+            "spec-name" : "RFC 5829" } ] },
+      
+      { "value" : "via",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/via",
+        "details" : 
+        [ 
+          { "description" : "The value \"via\" signifies that the IRI in the value of the href attribute identifies a resource that is the source of the information provided in the containing element.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc4287#section-4.2.7.2",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/4287",
+            "spec-name" : "RFC 4287" } ] },
+      
+      { "value" : "webmention",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/webmention",
+        "details" : 
+        [ 
+          { "description" : "Identifies a target URI that supports the Webmention protocol. This allows clients that mention a resource in some form of publishing process to contact that endpoint and inform it that this resource has been mentioned.",
+            "documentation" : "http:\/\/www.w3.org\/TR\/webmention\/#sender-discovers-receiver-webmention-endpoint",
+            "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/webmention",
+            "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/webmention" } ] },
+      
+      { "value" : "working-copy",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/working-copy",
+        "details" : 
+        [ 
+          { "description" : "When included on a versioned resource, this link points to a working copy for this resource.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc5829#section-3.3",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/5829",
+            "spec-name" : "RFC 5829" } ] },
+      
+      { "value" : "working-copy-of",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/working-copy-of",
+        "details" : 
+        [ 
+          { "description" : "When included on a working copy, this link points to the versioned resource from which this working copy was obtained.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc5829#section-3.4",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/5829",
+            "spec-name" : "RFC 5829" } ] } ] }

@@ -1,1 +1,10 @@
-{"value":"Nice","concept":"http:\/\/webconcepts.info\/concepts\/http-header\/","id":"http:\/\/webconcepts.info\/concepts\/http-header\/Nice","details":[{"description":"The \"Nice\" header field indicates that a request is less important than a request that doesn't bear this header.","documentation":"http:\/\/tools.ietf.org\/html\/draft-thomson-http-nice#section-2","specification":"http:\/\/webconcepts.info\/specs\/IETF\/I-D\/thomson-http-nice","spec-name":"Internet Draft thomson-http-nice"}]}
+
+  { "value" : "Nice",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Nice",
+    "details" : 
+    [ 
+      { "description" : "The \"Nice\" header field indicates that a request is less important than a request that doesn't bear this header.",
+        "documentation" : "http:\/\/tools.ietf.org\/html\/draft-thomson-http-nice#section-2",
+        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/thomson-http-nice",
+        "spec-name" : "Internet Draft thomson-http-nice" } ] }

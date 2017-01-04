@@ -1,1 +1,10 @@
-{"value":"carddav","concept":"http:\/\/webconcepts.info\/concepts\/well-known-uri\/","id":"http:\/\/webconcepts.info\/concepts\/well-known-uri\/carddav","details":[{"description":"\"caldav\" and \"carddav\" \".well-known\" URIs point to a resource that the client can use as the initial \"context path\" for the service they are trying to connect to. The server MUST redirect HTTP requests for that resource to the actual \"context path\" using one of the available mechanisms provided by HTTP (e.g., using a 301, 303, or 307 response). Clients MUST handle HTTP redirects on the \".well-known\" URI. Servers MUST NOT locate the actual CalDAV or CardDAV service endpoint at the \".well-known\" URI.","documentation":"http:\/\/tools.ietf.org\/html\/rfc6764#section-5","specification":"http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6764","spec-name":"RFC 6764"}]}
+
+  { "value" : "carddav",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/well-known-uri\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/well-known-uri\/carddav",
+    "details" : 
+    [ 
+      { "description" : "\"caldav\" and \"carddav\" \".well-known\" URIs point to a resource that the client can use as the initial \"context path\" for the service they are trying to connect to. The server MUST redirect HTTP requests for that resource to the actual \"context path\" using one of the available mechanisms provided by HTTP (e.g., using a 301, 303, or 307 response). Clients MUST handle HTTP redirects on the \".well-known\" URI. Servers MUST NOT locate the actual CalDAV or CardDAV service endpoint at the \".well-known\" URI.",
+        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6764#section-5",
+        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6764",
+        "spec-name" : "RFC 6764" } ] }

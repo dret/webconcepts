@@ -1,1 +1,10 @@
-{"value":"urn:ietf:params:oauth:grant-type:saml2-bearer","concept":"http:\/\/webconcepts.info\/concepts\/oauth-uri\/","id":"http:\/\/webconcepts.info\/concepts\/oauth-uri\/urn:ietf:params:oauth:grant-type:saml2-bearer","details":[{"description":"To use a SAML Bearer Assertion as an authorization grant, the client uses an access token request as defined in Section 4 of the OAuth Assertion Framework (RFC 7521). The value of the \"grant_type\" parameter is \"urn:ietf:params:oauth:grant-type:saml2-bearer\".","documentation":"http:\/\/tools.ietf.org\/html\/rfc7522#section-2.1","specification":"http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7522","spec-name":"RFC 7522"}]}
+
+  { "value" : "urn:ietf:params:oauth:grant-type:saml2-bearer",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/oauth-uri\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/oauth-uri\/urn:ietf:params:oauth:grant-type:saml2-bearer",
+    "details" : 
+    [ 
+      { "description" : "To use a SAML Bearer Assertion as an authorization grant, the client uses an access token request as defined in Section 4 of the OAuth Assertion Framework (RFC 7521). The value of the \"grant_type\" parameter is \"urn:ietf:params:oauth:grant-type:saml2-bearer\".",
+        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7522#section-2.1",
+        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7522",
+        "spec-name" : "RFC 7522" } ] }

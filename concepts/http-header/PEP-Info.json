@@ -1,1 +1,10 @@
-{"value":"PEP-Info","concept":"http:\/\/webconcepts.info\/concepts\/http-header\/","id":"http:\/\/webconcepts.info\/concepts\/http-header\/PEP-Info","details":[{"description":"PEP end-to-end policies MUST be transmitted to the ultimate recipient of a message.","documentation":"http:\/\/www.w3.org\/TR\/WD-http-pep-971121.html#_Toc404743953","specification":"http:\/\/webconcepts.info\/specs\/W3C\/TR\/WD-http-pep","spec-name":"W3C TR http:\/\/www.w3.org\/TR\/WD-http-pep"}]}
+
+  { "value" : "PEP-Info",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/PEP-Info",
+    "details" : 
+    [ 
+      { "description" : "PEP end-to-end policies MUST be transmitted to the ultimate recipient of a message.",
+        "documentation" : "http:\/\/www.w3.org\/TR\/WD-http-pep-971121.html#_Toc404743953",
+        "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/WD-http-pep",
+        "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/WD-http-pep" } ] }

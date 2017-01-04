@@ -1,1 +1,10 @@
-{"value":"redirect_uri","concept":"http:\/\/webconcepts.info\/concepts\/oauth-parameter\/","id":"http:\/\/webconcepts.info\/concepts\/oauth-parameter\/redirect_uri","details":[{"description":"After completing its interaction with the resource owner, the authorization server directs the resource owner's user-agent back to the client. The authorization server redirects the user-agent to the client's redirection endpoint previously established with the authorization server during the client registration process or when making the authorization request.","documentation":"http:\/\/tools.ietf.org\/html\/rfc6749#section-3.1.2","specification":"http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6749","spec-name":"RFC 6749"}]}
+
+  { "value" : "redirect_uri",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/oauth-parameter\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/oauth-parameter\/redirect_uri",
+    "details" : 
+    [ 
+      { "description" : "After completing its interaction with the resource owner, the authorization server directs the resource owner's user-agent back to the client. The authorization server redirects the user-agent to the client's redirection endpoint previously established with the authorization server during the client registration process or when making the authorization request.",
+        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6749#section-3.1.2",
+        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6749",
+        "spec-name" : "RFC 6749" } ] }

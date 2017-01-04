@@ -1,1 +1,10 @@
-{"value":"Viewport-Width","concept":"http:\/\/webconcepts.info\/concepts\/http-header\/","id":"http:\/\/webconcepts.info\/concepts\/http-header\/Viewport-Width","details":[{"description":"The \"Viewport-Width\" header field is a number that, in requests, indicates the layout viewport width in CSS px.","documentation":"http:\/\/tools.ietf.org\/html\/draft-ietf-httpbis-client-hints#section-5","specification":"http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpbis-client-hints","spec-name":"Internet Draft ietf-httpbis-client-hints"}]}
+
+  { "value" : "Viewport-Width",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Viewport-Width",
+    "details" : 
+    [ 
+      { "description" : "The \"Viewport-Width\" header field is a number that, in requests, indicates the layout viewport width in CSS px.",
+        "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-httpbis-client-hints#section-5",
+        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpbis-client-hints",
+        "spec-name" : "Internet Draft ietf-httpbis-client-hints" } ] }

@@ -1,1 +1,10 @@
-{"value":"MOVE","concept":"http:\/\/webconcepts.info\/concepts\/http-method\/","id":"http:\/\/webconcepts.info\/concepts\/http-method\/MOVE","details":[{"description":"The MOVE operation on a non-collection resource is the logical equivalent of a copy (COPY), followed by consistency maintenance processing, followed by a delete of the source, where all three actions are performed in a single operation. The consistency maintenance step allows the server to perform updates caused by the move, such as updating all URLs, other than the Request-URI that identifies the source resource, to point to the new destination resource.","documentation":"http:\/\/tools.ietf.org\/html\/rfc4918#section-9.9","specification":"http:\/\/webconcepts.info\/specs\/IETF\/RFC\/4918","spec-name":"RFC 4918"}]}
+
+  { "value" : "MOVE",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/http-method\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/http-method\/MOVE",
+    "details" : 
+    [ 
+      { "description" : "The MOVE operation on a non-collection resource is the logical equivalent of a copy (COPY), followed by consistency maintenance processing, followed by a delete of the source, where all three actions are performed in a single operation. The consistency maintenance step allows the server to perform updates caused by the move, such as updating all URLs, other than the Request-URI that identifies the source resource, to point to the new destination resource.",
+        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc4918#section-9.9",
+        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/4918",
+        "spec-name" : "RFC 4918" } ] }

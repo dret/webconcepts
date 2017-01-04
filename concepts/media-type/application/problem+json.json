@@ -1,1 +1,10 @@
-{"value":"application\/problem+json","concept":"http:\/\/webconcepts.info\/concepts\/media-type\/","id":"http:\/\/webconcepts.info\/concepts\/media-type\/application\/problem+json","details":[{"description":"The canonical model for problem details is a JSON object. When serialised as a JSON document, that format is identified with the \"application\/problem+json\" media type.","documentation":"http:\/\/tools.ietf.org\/html\/rfc7807#section-3","specification":"http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7807","spec-name":"RFC 7807"}]}
+
+  { "value" : "application\/problem+json",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/media-type\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/media-type\/application\/problem+json",
+    "details" : 
+    [ 
+      { "description" : "The canonical model for problem details is a JSON object. When serialised as a JSON document, that format is identified with the \"application\/problem+json\" media type.",
+        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7807#section-3",
+        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7807",
+        "spec-name" : "RFC 7807" } ] }

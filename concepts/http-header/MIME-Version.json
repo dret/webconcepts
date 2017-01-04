@@ -1,1 +1,10 @@
-{"value":"MIME-Version","concept":"http:\/\/webconcepts.info\/concepts\/http-header\/","id":"http:\/\/webconcepts.info\/concepts\/http-header\/MIME-Version","details":[{"description":"HTTP is not a MIME-compliant protocol. However, messages can include a single MIME-Version header field to indicate what version of the MIME protocol was used to construct the message. Use of the MIME-Version header field indicates that the message is in full conformance with the MIME protocol (as defined in RFC 2045). Senders are responsible for ensuring full conformance (where possible) when exporting HTTP messages to strict MIME environments.","documentation":"http:\/\/tools.ietf.org\/html\/rfc7231#appendix-A.1","specification":"http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7231","spec-name":"RFC 7231"}]}
+
+  { "value" : "MIME-Version",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/MIME-Version",
+    "details" : 
+    [ 
+      { "description" : "HTTP is not a MIME-compliant protocol. However, messages can include a single MIME-Version header field to indicate what version of the MIME protocol was used to construct the message. Use of the MIME-Version header field indicates that the message is in full conformance with the MIME protocol (as defined in RFC 2045). Senders are responsible for ensuring full conformance (where possible) when exporting HTTP messages to strict MIME environments.",
+        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7231#appendix-A.1",
+        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7231",
+        "spec-name" : "RFC 7231" } ] }

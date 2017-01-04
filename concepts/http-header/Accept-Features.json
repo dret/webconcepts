@@ -1,1 +1,10 @@
-{"value":"Accept-Features","concept":"http:\/\/webconcepts.info\/concepts\/http-header\/","id":"http:\/\/webconcepts.info\/concepts\/http-header\/Accept-Features","details":[{"description":"The Accept-Features request header can be used by a user agent to give information about the presence or absence of certain features in the feature set of the current request. Servers can use this information when running a remote variant selection algorithm.","documentation":"http:\/\/tools.ietf.org\/html\/rfc2295#section-8.2","specification":"http:\/\/webconcepts.info\/specs\/IETF\/RFC\/2295","spec-name":"RFC 2295"}]}
+
+  { "value" : "Accept-Features",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Accept-Features",
+    "details" : 
+    [ 
+      { "description" : "The Accept-Features request header can be used by a user agent to give information about the presence or absence of certain features in the feature set of the current request. Servers can use this information when running a remote variant selection algorithm.",
+        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc2295#section-8.2",
+        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/2295",
+        "spec-name" : "RFC 2295" } ] }

@@ -1,1 +1,10 @@
-{"value":"text\/vcard","concept":"http:\/\/webconcepts.info\/concepts\/media-type\/","id":"http:\/\/webconcepts.info\/concepts\/media-type\/text\/vcard","details":[{"description":"The text\/vcard MIME content type (hereafter known as \"vCard\") contains contact information, typically pertaining to a single contact or group of contacts. The content consists of one or more lines in the format given below.","documentation":"http:\/\/tools.ietf.org\/html\/rfc6350#section-3","specification":"http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6350","spec-name":"RFC 6350"}]}
+
+  { "value" : "text\/vcard",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/media-type\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/media-type\/text\/vcard",
+    "details" : 
+    [ 
+      { "description" : "The text\/vcard MIME content type (hereafter known as \"vCard\") contains contact information, typically pertaining to a single contact or group of contacts. The content consists of one or more lines in the format given below.",
+        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6350#section-3",
+        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6350",
+        "spec-name" : "RFC 6350" } ] }

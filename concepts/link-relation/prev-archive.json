@@ -1,1 +1,10 @@
-{"value":"prev-archive","concept":"http:\/\/webconcepts.info\/concepts\/link-relation\/","id":"http:\/\/webconcepts.info\/concepts\/link-relation\/prev-archive","details":[{"description":"A URI that refers to the immediately preceding archive document.","documentation":"http:\/\/tools.ietf.org\/html\/rfc5005#section-4","specification":"http:\/\/webconcepts.info\/specs\/IETF\/RFC\/5005","spec-name":"RFC 5005"}]}
+
+  { "value" : "prev-archive",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/prev-archive",
+    "details" : 
+    [ 
+      { "description" : "A URI that refers to the immediately preceding archive document.",
+        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc5005#section-4",
+        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/5005",
+        "spec-name" : "RFC 5005" } ] }

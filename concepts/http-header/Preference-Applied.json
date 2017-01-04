@@ -1,1 +1,10 @@
-{"value":"Preference-Applied","concept":"http:\/\/webconcepts.info\/concepts\/http-header\/","id":"http:\/\/webconcepts.info\/concepts\/http-header\/Preference-Applied","details":[{"description":"The Preference-Applied response header MAY be included within a response message as an indication as to which Prefer tokens were honored by the server and applied to the processing of a request.","documentation":"http:\/\/tools.ietf.org\/html\/rfc7240#section-3","specification":"http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7240","spec-name":"RFC 7240"}]}
+
+  { "value" : "Preference-Applied",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Preference-Applied",
+    "details" : 
+    [ 
+      { "description" : "The Preference-Applied response header MAY be included within a response message as an indication as to which Prefer tokens were honored by the server and applied to the processing of a request.",
+        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7240#section-3",
+        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7240",
+        "spec-name" : "RFC 7240" } ] }

@@ -1,1 +1,10 @@
-{"value":"PEP","concept":"http:\/\/webconcepts.info\/concepts\/http-header\/","id":"http:\/\/webconcepts.info\/concepts\/http-header\/PEP","details":[{"description":"PEP end-to-end declarations must be transmitted to the ultimate recipient of the declaration. The PEP header field is an end-to-end header field.","documentation":"http:\/\/www.w3.org\/TR\/WD-http-pep-971121.html#_Toc404743947","specification":"http:\/\/webconcepts.info\/specs\/W3C\/TR\/WD-http-pep","spec-name":"W3C TR http:\/\/www.w3.org\/TR\/WD-http-pep"}]}
+
+  { "value" : "PEP",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/PEP",
+    "details" : 
+    [ 
+      { "description" : "PEP end-to-end declarations must be transmitted to the ultimate recipient of the declaration. The PEP header field is an end-to-end header field.",
+        "documentation" : "http:\/\/www.w3.org\/TR\/WD-http-pep-971121.html#_Toc404743947",
+        "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/WD-http-pep",
+        "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/WD-http-pep" } ] }

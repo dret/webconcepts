@@ -1,1 +1,10 @@
-{"value":"application\/pdf","concept":"http:\/\/webconcepts.info\/concepts\/media-type\/","id":"http:\/\/webconcepts.info\/concepts\/media-type\/application\/pdf","details":[{"description":"PDF represents formatted documents. These documents may be structured or simple. They may contain text, images, graphics, and other multimedia content, such as video and audio. There is support for annotations, metadata, hypertext links, and bookmarks.","documentation":"http:\/\/tools.ietf.org\/html\/rfc3778#section-1","specification":"http:\/\/webconcepts.info\/specs\/IETF\/RFC\/3778","spec-name":"RFC 3778"}]}
+
+  { "value" : "application\/pdf",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/media-type\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/media-type\/application\/pdf",
+    "details" : 
+    [ 
+      { "description" : "PDF represents formatted documents. These documents may be structured or simple. They may contain text, images, graphics, and other multimedia content, such as video and audio. There is support for annotations, metadata, hypertext links, and bookmarks.",
+        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc3778#section-1",
+        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/3778",
+        "spec-name" : "RFC 3778" } ] }

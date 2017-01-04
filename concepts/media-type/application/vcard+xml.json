@@ -1,1 +1,10 @@
-{"value":"application\/vcard+xml","concept":"http:\/\/webconcepts.info\/concepts\/media-type\/","id":"http:\/\/webconcepts.info\/concepts\/media-type\/application\/vcard+xml","details":[{"description":"The MIME media type for use with vCard-in-XML data.","documentation":"http:\/\/tools.ietf.org\/html\/rfc6351#section-8.2","specification":"http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6351","spec-name":"RFC 6351"}]}
+
+  { "value" : "application\/vcard+xml",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/media-type\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/media-type\/application\/vcard+xml",
+    "details" : 
+    [ 
+      { "description" : "The MIME media type for use with vCard-in-XML data.",
+        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6351#section-8.2",
+        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6351",
+        "spec-name" : "RFC 6351" } ] }

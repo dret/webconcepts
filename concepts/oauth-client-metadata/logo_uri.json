@@ -1,1 +1,10 @@
-{"value":"logo_uri","concept":"http:\/\/webconcepts.info\/concepts\/oauth-client-metadata\/","id":"http:\/\/webconcepts.info\/concepts\/oauth-client-metadata\/logo_uri","details":[{"description":"URL string that references a logo for the client. If present, the server SHOULD display this image to the end-user during approval.","documentation":"http:\/\/tools.ietf.org\/html\/rfc7591#section-2","specification":"http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7591","spec-name":"RFC 7591"}]}
+
+  { "value" : "logo_uri",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/oauth-client-metadata\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/oauth-client-metadata\/logo_uri",
+    "details" : 
+    [ 
+      { "description" : "URL string that references a logo for the client. If present, the server SHOULD display this image to the end-user during approval.",
+        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7591#section-2",
+        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7591",
+        "spec-name" : "RFC 7591" } ] }

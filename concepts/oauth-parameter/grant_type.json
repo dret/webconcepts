@@ -1,1 +1,10 @@
-{"value":"grant_type","concept":"http:\/\/webconcepts.info\/concepts\/oauth-parameter\/","id":"http:\/\/webconcepts.info\/concepts\/oauth-parameter\/grant_type","details":[{"description":"Value MUST be set to \"authorization_code\".","documentation":"http:\/\/tools.ietf.org\/html\/rfc6749#appendix-A.10","specification":"http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6749","spec-name":"RFC 6749"}]}
+
+  { "value" : "grant_type",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/oauth-parameter\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/oauth-parameter\/grant_type",
+    "details" : 
+    [ 
+      { "description" : "Value MUST be set to \"authorization_code\".",
+        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6749#appendix-A.10",
+        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6749",
+        "spec-name" : "RFC 6749" } ] }

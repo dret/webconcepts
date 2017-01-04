@@ -1,1 +1,10 @@
-{"value":"no-store","concept":"http:\/\/webconcepts.info\/concepts\/http-cache-directive\/","id":"http:\/\/webconcepts.info\/concepts\/http-cache-directive\/no-store","details":[{"description":"The \"no-store\" directive indicates that a cache MUST NOT store any part of either this request or any response to it. This directive applies to both private and shared caches. \"MUST NOT store\" in this context means that the cache MUST NOT intentionally store the information in non-volatile storage, and MUST make a best-effort attempt to remove the information from volatile storage as promptly as possible after forwarding it.","documentation":"http:\/\/tools.ietf.org\/html\/rfc7234#section-5.2.1.5","specification":"http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7234","spec-name":"RFC 7234"}]}
+
+  { "value" : "no-store",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/http-cache-directive\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/http-cache-directive\/no-store",
+    "details" : 
+    [ 
+      { "description" : "The \"no-store\" directive indicates that a cache MUST NOT store any part of either this request or any response to it. This directive applies to both private and shared caches. \"MUST NOT store\" in this context means that the cache MUST NOT intentionally store the information in non-volatile storage, and MUST make a best-effort attempt to remove the information from volatile storage as promptly as possible after forwarding it.",
+        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7234#section-5.2.1.5",
+        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7234",
+        "spec-name" : "RFC 7234" } ] }

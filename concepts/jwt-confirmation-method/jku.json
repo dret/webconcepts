@@ -1,1 +1,10 @@
-{"value":"jku","concept":"http:\/\/webconcepts.info\/concepts\/jwt-confirmation-method\/","id":"http:\/\/webconcepts.info\/concepts\/jwt-confirmation-method\/jku","details":[{"description":"The proof-of-possession key can be passed by reference instead of being passed by value. This is done using the \"jku\" member. Its value is a URI that refers to a resource for a set of JSON-encoded public keys represented as a JWK Set, one of which is the proof-of-possession key.","documentation":"http:\/\/tools.ietf.org\/html\/rfc7800#section-3.5","specification":"http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7800","spec-name":"RFC 7800"}]}
+
+  { "value" : "jku",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/jwt-confirmation-method\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/jwt-confirmation-method\/jku",
+    "details" : 
+    [ 
+      { "description" : "The proof-of-possession key can be passed by reference instead of being passed by value. This is done using the \"jku\" member. Its value is a URI that refers to a resource for a set of JSON-encoded public keys represented as a JWK Set, one of which is the proof-of-possession key.",
+        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7800#section-3.5",
+        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7800",
+        "spec-name" : "RFC 7800" } ] }

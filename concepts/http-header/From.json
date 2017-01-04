@@ -1,1 +1,10 @@
-{"value":"From","concept":"http:\/\/webconcepts.info\/concepts\/http-header\/","id":"http:\/\/webconcepts.info\/concepts\/http-header\/From","details":[{"description":"The \"From\" header field contains an Internet email address for a human user who controls the requesting user agent.","documentation":"http:\/\/tools.ietf.org\/html\/rfc7231#section-5.5.1","specification":"http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7231","spec-name":"RFC 7231"}]}
+
+  { "value" : "From",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/From",
+    "details" : 
+    [ 
+      { "description" : "The \"From\" header field contains an Internet email address for a human user who controls the requesting user agent.",
+        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7231#section-5.5.1",
+        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7231",
+        "spec-name" : "RFC 7231" } ] }

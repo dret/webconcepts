@@ -1,1 +1,10 @@
-{"value":"bfrom","concept":"http:\/\/webconcepts.info\/concepts\/link-relation\/","id":"http:\/\/webconcepts.info\/concepts\/link-relation\/bfrom","details":[{"description":"Refers to a resource that is privately considered to be the originator of the link's context.","documentation":"http:\/\/tools.ietf.org\/html\/draft-snell-more-link-relations#section-3","specification":"http:\/\/webconcepts.info\/specs\/IETF\/I-D\/snell-more-link-relations","spec-name":"Internet Draft snell-more-link-relations"}]}
+
+  { "value" : "bfrom",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/bfrom",
+    "details" : 
+    [ 
+      { "description" : "Refers to a resource that is privately considered to be the originator of the link's context.",
+        "documentation" : "http:\/\/tools.ietf.org\/html\/draft-snell-more-link-relations#section-3",
+        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/snell-more-link-relations",
+        "spec-name" : "Internet Draft snell-more-link-relations" } ] }

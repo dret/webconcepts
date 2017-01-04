@@ -1,1 +1,37 @@
-{"concept":"oauth-token-endpoint-auth-method","id":"http:\/\/webconcepts.info\/concepts\/oauth-token-endpoint-auth-method\/","name-singular":"OAuth Token Endpoint Authentication Method","name-plural":"OAuth Token Endpoint Authentication Methods","registry":"http:\/\/www.iana.org\/assignments\/oauth-parameters\/oauth-parameters.xhtml#token-endpoint-auth-method","values":[{"value":"client_secret_basic","concept":"http:\/\/webconcepts.info\/concepts\/oauth-token-endpoint-auth-method\/","id":"http:\/\/webconcepts.info\/concepts\/oauth-token-endpoint-auth-method\/client_secret_basic","details":[{"description":"The client uses HTTP Basic as defined in OAuth 2.0.","documentation":"http:\/\/tools.ietf.org\/html\/rfc7591#section-2","specification":"http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7591","spec-name":"RFC 7591"}]},{"value":"client_secret_post","concept":"http:\/\/webconcepts.info\/concepts\/oauth-token-endpoint-auth-method\/","id":"http:\/\/webconcepts.info\/concepts\/oauth-token-endpoint-auth-method\/client_secret_post","details":[{"description":"The client uses the HTTP POST parameters as defined in OAuth 2.0.","documentation":"http:\/\/tools.ietf.org\/html\/rfc7591#section-2","specification":"http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7591","spec-name":"RFC 7591"}]},{"value":"none","concept":"http:\/\/webconcepts.info\/concepts\/oauth-token-endpoint-auth-method\/","id":"http:\/\/webconcepts.info\/concepts\/oauth-token-endpoint-auth-method\/none","details":[{"description":"The client is a public client as defined in OAuth 2.0 and does not have a client secret.","documentation":"http:\/\/tools.ietf.org\/html\/rfc7591#section-2","specification":"http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7591","spec-name":"RFC 7591"}]}]}
+
+  { "concept" : "oauth-token-endpoint-auth-method",
+    "id" : "http:\/\/webconcepts.info\/concepts\/oauth-token-endpoint-auth-method\/",
+    "name-singular" : "OAuth Token Endpoint Authentication Method",
+    "name-plural" : "OAuth Token Endpoint Authentication Methods",
+    "registry" : "http:\/\/www.iana.org\/assignments\/oauth-parameters\/oauth-parameters.xhtml#token-endpoint-auth-method",
+    "values" : 
+    [ 
+      { "value" : "client_secret_basic",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/oauth-token-endpoint-auth-method\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/oauth-token-endpoint-auth-method\/client_secret_basic",
+        "details" : 
+        [ 
+          { "description" : "The client uses HTTP Basic as defined in OAuth 2.0.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7591#section-2",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7591",
+            "spec-name" : "RFC 7591" } ] },
+      
+      { "value" : "client_secret_post",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/oauth-token-endpoint-auth-method\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/oauth-token-endpoint-auth-method\/client_secret_post",
+        "details" : 
+        [ 
+          { "description" : "The client uses the HTTP POST parameters as defined in OAuth 2.0.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7591#section-2",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7591",
+            "spec-name" : "RFC 7591" } ] },
+      
+      { "value" : "none",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/oauth-token-endpoint-auth-method\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/oauth-token-endpoint-auth-method\/none",
+        "details" : 
+        [ 
+          { "description" : "The client is a public client as defined in OAuth 2.0 and does not have a client secret.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7591#section-2",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7591",
+            "spec-name" : "RFC 7591" } ] } ] }

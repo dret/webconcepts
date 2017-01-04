@@ -1,1 +1,10 @@
-{"value":"Lock-Token","concept":"http:\/\/webconcepts.info\/concepts\/http-header\/","id":"http:\/\/webconcepts.info\/concepts\/http-header\/Lock-Token","details":[{"description":"The Lock-Token request header is used with the UNLOCK method to identify the lock to be removed.","documentation":"http:\/\/tools.ietf.org\/html\/rfc4918#section-10.5","specification":"http:\/\/webconcepts.info\/specs\/IETF\/RFC\/4918","spec-name":"RFC 4918"}]}
+
+  { "value" : "Lock-Token",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Lock-Token",
+    "details" : 
+    [ 
+      { "description" : "The Lock-Token request header is used with the UNLOCK method to identify the lock to be removed.",
+        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc4918#section-10.5",
+        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/4918",
+        "spec-name" : "RFC 4918" } ] }

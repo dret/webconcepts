@@ -1,1 +1,11 @@
-{"value":"402","concept":"http:\/\/webconcepts.info\/concepts\/http-status-code\/","id":"http:\/\/webconcepts.info\/concepts\/http-status-code\/402","description":"Payment Required","details":[{"description":"The 402 (Payment Required) status code is reserved for future use.","documentation":"http:\/\/tools.ietf.org\/html\/rfc7231#section-6.5.2","specification":"http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7231","spec-name":"RFC 7231"}]}
+
+  { "value" : "402",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/http-status-code\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/http-status-code\/402",
+    "description" : "Payment Required",
+    "details" : 
+    [ 
+      { "description" : "The 402 (Payment Required) status code is reserved for future use.",
+        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7231#section-6.5.2",
+        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7231",
+        "spec-name" : "RFC 7231" } ] }

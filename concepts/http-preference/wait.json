@@ -1,1 +1,10 @@
-{"value":"wait","concept":"http:\/\/webconcepts.info\/concepts\/http-preference\/","id":"http:\/\/webconcepts.info\/concepts\/http-preference\/wait","details":[{"description":"The \"wait\" preference can be used to establish an upper bound on the length of time, in seconds, the client expects it will take the server to process the request once it has been received.","documentation":"http:\/\/tools.ietf.org\/html\/rfc7240#section-4.3","specification":"http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7240","spec-name":"RFC 7240"}]}
+
+  { "value" : "wait",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/http-preference\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/http-preference\/wait",
+    "details" : 
+    [ 
+      { "description" : "The \"wait\" preference can be used to establish an upper bound on the length of time, in seconds, the client expects it will take the server to process the request once it has been received.",
+        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7240#section-4.3",
+        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7240",
+        "spec-name" : "RFC 7240" } ] }

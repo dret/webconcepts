@@ -1,1 +1,47 @@
-{"concept":"jwt-confirmation-method","id":"http:\/\/webconcepts.info\/concepts\/jwt-confirmation-method\/","name-singular":"JWT Confirmation Method","name-plural":"JWT Confirmation Methods","registry":"http:\/\/www.iana.org\/assignments\/jwt\/jwt.xhtml#confirmation-methods","values":[{"value":"jku","concept":"http:\/\/webconcepts.info\/concepts\/jwt-confirmation-method\/","id":"http:\/\/webconcepts.info\/concepts\/jwt-confirmation-method\/jku","details":[{"description":"The proof-of-possession key can be passed by reference instead of being passed by value. This is done using the \"jku\" member. Its value is a URI that refers to a resource for a set of JSON-encoded public keys represented as a JWK Set, one of which is the proof-of-possession key.","documentation":"http:\/\/tools.ietf.org\/html\/rfc7800#section-3.5","specification":"http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7800","spec-name":"RFC 7800"}]},{"value":"jwe","concept":"http:\/\/webconcepts.info\/concepts\/jwt-confirmation-method\/","id":"http:\/\/webconcepts.info\/concepts\/jwt-confirmation-method\/jwe","details":[{"description":"When the key held by the presenter is a symmetric key, the \"jwe\" member is an encrypted JSON Web Key encrypted to a key known to the recipient using the JWE Compact Serialization containing the symmetric key.","documentation":"http:\/\/tools.ietf.org\/html\/rfc7800#section-3.3","specification":"http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7800","spec-name":"RFC 7800"}]},{"value":"jwk","concept":"http:\/\/webconcepts.info\/concepts\/jwt-confirmation-method\/","id":"http:\/\/webconcepts.info\/concepts\/jwt-confirmation-method\/jwk","details":[{"description":"When the key held by the presenter is an asymmetric private key, the \"jwk\" member is a JSON Web Key representing the corresponding asymmetric public key.","documentation":"http:\/\/tools.ietf.org\/html\/rfc7800#section-3.2","specification":"http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7800","spec-name":"RFC 7800"}]},{"value":"kid","concept":"http:\/\/webconcepts.info\/concepts\/jwt-confirmation-method\/","id":"http:\/\/webconcepts.info\/concepts\/jwt-confirmation-method\/kid","details":[{"description":"The proof-of-possession key can also be identified by the use of a Key ID instead of communicating the actual key, provided the recipient is able to obtain the identified key using the Key ID.","documentation":"http:\/\/tools.ietf.org\/html\/rfc7800#section-3.4","specification":"http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7800","spec-name":"RFC 7800"}]}]}
+
+  { "concept" : "jwt-confirmation-method",
+    "id" : "http:\/\/webconcepts.info\/concepts\/jwt-confirmation-method\/",
+    "name-singular" : "JWT Confirmation Method",
+    "name-plural" : "JWT Confirmation Methods",
+    "registry" : "http:\/\/www.iana.org\/assignments\/jwt\/jwt.xhtml#confirmation-methods",
+    "values" : 
+    [ 
+      { "value" : "jku",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/jwt-confirmation-method\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/jwt-confirmation-method\/jku",
+        "details" : 
+        [ 
+          { "description" : "The proof-of-possession key can be passed by reference instead of being passed by value. This is done using the \"jku\" member. Its value is a URI that refers to a resource for a set of JSON-encoded public keys represented as a JWK Set, one of which is the proof-of-possession key.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7800#section-3.5",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7800",
+            "spec-name" : "RFC 7800" } ] },
+      
+      { "value" : "jwe",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/jwt-confirmation-method\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/jwt-confirmation-method\/jwe",
+        "details" : 
+        [ 
+          { "description" : "When the key held by the presenter is a symmetric key, the \"jwe\" member is an encrypted JSON Web Key encrypted to a key known to the recipient using the JWE Compact Serialization containing the symmetric key.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7800#section-3.3",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7800",
+            "spec-name" : "RFC 7800" } ] },
+      
+      { "value" : "jwk",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/jwt-confirmation-method\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/jwt-confirmation-method\/jwk",
+        "details" : 
+        [ 
+          { "description" : "When the key held by the presenter is an asymmetric private key, the \"jwk\" member is a JSON Web Key representing the corresponding asymmetric public key.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7800#section-3.2",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7800",
+            "spec-name" : "RFC 7800" } ] },
+      
+      { "value" : "kid",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/jwt-confirmation-method\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/jwt-confirmation-method\/kid",
+        "details" : 
+        [ 
+          { "description" : "The proof-of-possession key can also be identified by the use of a Key ID instead of communicating the actual key, provided the recipient is able to obtain the identified key using the Key ID.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7800#section-3.4",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7800",
+            "spec-name" : "RFC 7800" } ] } ] }

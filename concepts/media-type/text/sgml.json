@@ -1,1 +1,10 @@
-{"value":"text\/sgml","concept":"http:\/\/webconcepts.info\/concepts\/media-type\/","id":"http:\/\/webconcepts.info\/concepts\/media-type\/text\/sgml","details":[{"description":"The Text\/SGML media-type can be employed when the contents of the SGML entity is intended to be read by a human and is in a readily comprehensible form.","documentation":"http:\/\/tools.ietf.org\/html\/rfc1874#section-2.1","specification":"http:\/\/webconcepts.info\/specs\/IETF\/RFC\/1874","spec-name":"RFC 1874"}]}
+
+  { "value" : "text\/sgml",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/media-type\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/media-type\/text\/sgml",
+    "details" : 
+    [ 
+      { "description" : "The Text\/SGML media-type can be employed when the contents of the SGML entity is intended to be read by a human and is in a readily comprehensible form.",
+        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc1874#section-2.1",
+        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/1874",
+        "spec-name" : "RFC 1874" } ] }

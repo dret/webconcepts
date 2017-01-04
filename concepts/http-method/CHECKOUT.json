@@ -1,1 +1,10 @@
-{"value":"CHECKOUT","concept":"http:\/\/webconcepts.info\/concepts\/http-method\/","id":"http:\/\/webconcepts.info\/concepts\/http-method\/CHECKOUT","details":[{"description":"A CHECKOUT request can be applied to a checked-in version-controlled resource to allow modifications to the content and dead properties of that version-controlled resource.","documentation":"http:\/\/tools.ietf.org\/html\/rfc3253#section-4.3","specification":"http:\/\/webconcepts.info\/specs\/IETF\/RFC\/3253","spec-name":"RFC 3253"}]}
+
+  { "value" : "CHECKOUT",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/http-method\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/http-method\/CHECKOUT",
+    "details" : 
+    [ 
+      { "description" : "A CHECKOUT request can be applied to a checked-in version-controlled resource to allow modifications to the content and dead properties of that version-controlled resource.",
+        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc3253#section-4.3",
+        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/3253",
+        "spec-name" : "RFC 3253" } ] }

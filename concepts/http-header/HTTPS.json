@@ -1,1 +1,10 @@
-{"value":"HTTPS","concept":"http:\/\/webconcepts.info\/concepts\/http-header\/","id":"http:\/\/webconcepts.info\/concepts\/http-header\/HTTPS","details":[{"description":"The HTTPS HTTP request header field sends a signal to the server expressing the client’s preference for an encrypted and authenticated response, and that it can successfully handle the upgrade-insecure-requests directive in order to make that preference as seamless as possible to provide.","documentation":"http:\/\/www.w3.org\/TR\/upgrade-insecure-requests\/#preference","specification":"http:\/\/webconcepts.info\/specs\/W3C\/TR\/upgrade-insecure-requests","spec-name":"W3C TR http:\/\/www.w3.org\/TR\/upgrade-insecure-requests"}]}
+
+  { "value" : "HTTPS",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/HTTPS",
+    "details" : 
+    [ 
+      { "description" : "The HTTPS HTTP request header field sends a signal to the server expressing the client’s preference for an encrypted and authenticated response, and that it can successfully handle the upgrade-insecure-requests directive in order to make that preference as seamless as possible to provide.",
+        "documentation" : "http:\/\/www.w3.org\/TR\/upgrade-insecure-requests\/#preference",
+        "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/upgrade-insecure-requests",
+        "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/upgrade-insecure-requests" } ] }

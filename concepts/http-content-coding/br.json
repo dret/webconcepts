@@ -1,1 +1,10 @@
-{"value":"br","concept":"http:\/\/webconcepts.info\/concepts\/http-content-coding\/","id":"http:\/\/webconcepts.info\/concepts\/http-content-coding\/br","details":[{"description":"This specification defines a lossless compressed data format that compresses data using a combination of the LZ77 algorithm and Huffman coding, with efficiency comparable to the best currently available general-purpose compression methods.","documentation":"http:\/\/tools.ietf.org\/html\/rfc7932","specification":"http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7932","spec-name":"RFC 7932"}]}
+
+  { "value" : "br",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/http-content-coding\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/http-content-coding\/br",
+    "details" : 
+    [ 
+      { "description" : "This specification defines a lossless compressed data format that compresses data using a combination of the LZ77 algorithm and Huffman coding, with efficiency comparable to the best currently available general-purpose compression methods.",
+        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7932",
+        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7932",
+        "spec-name" : "RFC 7932" } ] }

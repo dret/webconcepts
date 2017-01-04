@@ -1,1 +1,10 @@
-{"value":"application\/xml","concept":"http:\/\/webconcepts.info\/concepts\/media-type\/","id":"http:\/\/webconcepts.info\/concepts\/media-type\/application\/xml","details":[{"description":"The media types application\/xml or text\/xml, or a more specific media type, SHOULD be used for XML document entities.","documentation":"http:\/\/tools.ietf.org\/html\/rfc7303#section-4.1","specification":"http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7303","spec-name":"RFC 7303"}]}
+
+  { "value" : "application\/xml",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/media-type\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/media-type\/application\/xml",
+    "details" : 
+    [ 
+      { "description" : "The media types application\/xml or text\/xml, or a more specific media type, SHOULD be used for XML document entities.",
+        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7303#section-4.1",
+        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7303",
+        "spec-name" : "RFC 7303" } ] }

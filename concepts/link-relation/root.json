@@ -1,1 +1,10 @@
-{"value":"root","concept":"http:\/\/webconcepts.info\/concepts\/link-relation\/","id":"http:\/\/webconcepts.info\/concepts\/link-relation\/root","details":[{"description":"This relation indicates that the target of the link SHOULD be treated as the root or the body of the representation for the purposes of user agent interaction or fragment resolution. All other properties of the instance objects can be regarded as meta-data descriptions for the data.","documentation":"http:\/\/tools.ietf.org\/html\/draft-zyp-json-schema#section-6.1.1.2","specification":"http:\/\/webconcepts.info\/specs\/IETF\/I-D\/zyp-json-schema","spec-name":"Internet Draft zyp-json-schema"}]}
+
+  { "value" : "root",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/root",
+    "details" : 
+    [ 
+      { "description" : "This relation indicates that the target of the link SHOULD be treated as the root or the body of the representation for the purposes of user agent interaction or fragment resolution. All other properties of the instance objects can be regarded as meta-data descriptions for the data.",
+        "documentation" : "http:\/\/tools.ietf.org\/html\/draft-zyp-json-schema#section-6.1.1.2",
+        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/zyp-json-schema",
+        "spec-name" : "Internet Draft zyp-json-schema" } ] }

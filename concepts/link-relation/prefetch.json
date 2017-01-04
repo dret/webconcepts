@@ -1,1 +1,10 @@
-{"value":"prefetch","concept":"http:\/\/webconcepts.info\/concepts\/link-relation\/","id":"http:\/\/webconcepts.info\/concepts\/link-relation\/prefetch","details":[{"description":"The prefetch link relation type is used to declare a resource that might be required by the next navigation, and that the user agent SHOULD fetch, such that the user agent can deliver a faster response once the resource is requested in the future.","documentation":"http:\/\/www.w3.org\/TR\/resource-hints\/#prefetch","specification":"http:\/\/webconcepts.info\/specs\/W3C\/TR\/resource-hints","spec-name":"W3C TR http:\/\/www.w3.org\/TR\/resource-hints"}]}
+
+  { "value" : "prefetch",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/prefetch",
+    "details" : 
+    [ 
+      { "description" : "The prefetch link relation type is used to declare a resource that might be required by the next navigation, and that the user agent SHOULD fetch, such that the user agent can deliver a faster response once the resource is requested in the future.",
+        "documentation" : "http:\/\/www.w3.org\/TR\/resource-hints\/#prefetch",
+        "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/resource-hints",
+        "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/resource-hints" } ] }

@@ -1,1 +1,10 @@
-{"value":"Hobareg","concept":"http:\/\/webconcepts.info\/concepts\/http-header\/","id":"http:\/\/webconcepts.info\/concepts\/http-header\/Hobareg","details":[{"description":"The server MUST add a header field to the response message when the registration has succeeded in order to indicate the new state. The header to be used is \"Hobareg\", and the value when registration has succeeded is to be \"regok\". When registration is in an intermediate state (e.g., on an HTTP response for an interstitial page), the server MAY add this header with a value of \"reginwork\".","documentation":"http:\/\/tools.ietf.org\/html\/rfc7486#section-6.1.1","specification":"http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7486","spec-name":"RFC 7486"}]}
+
+  { "value" : "Hobareg",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Hobareg",
+    "details" : 
+    [ 
+      { "description" : "The server MUST add a header field to the response message when the registration has succeeded in order to indicate the new state. The header to be used is \"Hobareg\", and the value when registration has succeeded is to be \"regok\". When registration is in an intermediate state (e.g., on an HTTP response for an interstitial page), the server MAY add this header with a value of \"reginwork\".",
+        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7486#section-6.1.1",
+        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7486",
+        "spec-name" : "RFC 7486" } ] }

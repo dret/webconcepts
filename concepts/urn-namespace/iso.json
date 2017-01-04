@@ -1,1 +1,10 @@
-{"value":"iso","concept":"http:\/\/webconcepts.info\/concepts\/urn-namespace\/","id":"http:\/\/webconcepts.info\/concepts\/urn-namespace\/iso","details":[{"description":"This specification defines the syntax for URNs that identify documents developed by the International Organization for Standardization (ISO) in accordance with the standards development procedures defined in the ISO\/IEC Directives, Part 1 and the ISO supplement and processed by the ISO Central Secretariat.","documentation":"http:\/\/tools.ietf.org\/html\/rfc5141#section-1","specification":"http:\/\/webconcepts.info\/specs\/IETF\/RFC\/5141","spec-name":"RFC 5141"}]}
+
+  { "value" : "iso",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/urn-namespace\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/urn-namespace\/iso",
+    "details" : 
+    [ 
+      { "description" : "This specification defines the syntax for URNs that identify documents developed by the International Organization for Standardization (ISO) in accordance with the standards development procedures defined in the ISO\/IEC Directives, Part 1 and the ISO supplement and processed by the ISO Central Secretariat.",
+        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc5141#section-1",
+        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/5141",
+        "spec-name" : "RFC 5141" } ] }

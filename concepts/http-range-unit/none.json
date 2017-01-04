@@ -1,1 +1,10 @@
-{"value":"none","concept":"http:\/\/webconcepts.info\/concepts\/http-range-unit\/","id":"http:\/\/webconcepts.info\/concepts\/http-range-unit\/none","details":[{"description":"A server that does not support any kind of range request for the target resource MAY send \"Accept-Ranges: none\" to advise the client not to attempt a range request.","documentation":"http:\/\/tools.ietf.org\/html\/rfc7233#section-2.3","specification":"http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7233","spec-name":"RFC 7233"}]}
+
+  { "value" : "none",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/http-range-unit\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/http-range-unit\/none",
+    "details" : 
+    [ 
+      { "description" : "A server that does not support any kind of range request for the target resource MAY send \"Accept-Ranges: none\" to advise the client not to attempt a range request.",
+        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7233#section-2.3",
+        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7233",
+        "spec-name" : "RFC 7233" } ] }

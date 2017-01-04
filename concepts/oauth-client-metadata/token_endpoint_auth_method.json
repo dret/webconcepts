@@ -1,1 +1,10 @@
-{"value":"token_endpoint_auth_method","concept":"http:\/\/webconcepts.info\/concepts\/oauth-client-metadata\/","id":"http:\/\/webconcepts.info\/concepts\/oauth-client-metadata\/token_endpoint_auth_method","details":[{"description":"String indicator of the requested authentication method for the token endpoint. Values defined by this specification are: \"none\": The client is a public client as defined in OAuth 2.0 and does not have a client secret; \"client_secret_post\": The client uses the HTTP POST parameters as defined in OAuth 2.0; \"client_secret_basic\": The client uses HTTP Basic as defined in OAuth 2.0. Additional values can be defined via the IANA \"OAuth Token Endpoint Authentication Methods\"","documentation":"http:\/\/tools.ietf.org\/html\/rfc7591#section-2","specification":"http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7591","spec-name":"RFC 7591"}]}
+
+  { "value" : "token_endpoint_auth_method",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/oauth-client-metadata\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/oauth-client-metadata\/token_endpoint_auth_method",
+    "details" : 
+    [ 
+      { "description" : "String indicator of the requested authentication method for the token endpoint. Values defined by this specification are: \"none\": The client is a public client as defined in OAuth 2.0 and does not have a client secret; \"client_secret_post\": The client uses the HTTP POST parameters as defined in OAuth 2.0; \"client_secret_basic\": The client uses HTTP Basic as defined in OAuth 2.0. Additional values can be defined via the IANA \"OAuth Token Endpoint Authentication Methods\"",
+        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7591#section-2",
+        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7591",
+        "spec-name" : "RFC 7591" } ] }

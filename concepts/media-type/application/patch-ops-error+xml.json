@@ -1,1 +1,10 @@
-{"value":"application\/patch-ops-error+xml","concept":"http:\/\/webconcepts.info\/concepts\/media-type\/","id":"http:\/\/webconcepts.info\/concepts\/media-type\/application\/patch-ops-error+xml","details":[{"description":"A new MIME error format is defined for applications that require deterministic error handling when patching cannot be applied. It is anticipated that these error elements can be used within other MIME types that allow extension elements.","documentation":"http:\/\/tools.ietf.org\/html\/rfc5261#section-5","specification":"http:\/\/webconcepts.info\/specs\/IETF\/RFC\/5261","spec-name":"RFC 5261"}]}
+
+  { "value" : "application\/patch-ops-error+xml",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/media-type\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/media-type\/application\/patch-ops-error+xml",
+    "details" : 
+    [ 
+      { "description" : "A new MIME error format is defined for applications that require deterministic error handling when patching cannot be applied. It is anticipated that these error elements can be used within other MIME types that allow extension elements.",
+        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc5261#section-5",
+        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/5261",
+        "spec-name" : "RFC 5261" } ] }

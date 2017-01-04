@@ -1,1 +1,10 @@
-{"value":"text\/markdown","concept":"http:\/\/webconcepts.info\/concepts\/media-type\/","id":"http:\/\/webconcepts.info\/concepts\/media-type\/text\/markdown","details":[{"description":"This document registers the text\/markdown media type for use with Markdown, a family of plain-text formatting syntaxes that optionally can be converted to formal markup languages such as HTML.","documentation":"http:\/\/tools.ietf.org\/html\/rfc7763","specification":"http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7763","spec-name":"RFC 7763"}]}
+
+  { "value" : "text\/markdown",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/media-type\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/media-type\/text\/markdown",
+    "details" : 
+    [ 
+      { "description" : "This document registers the text\/markdown media type for use with Markdown, a family of plain-text formatting syntaxes that optionally can be converted to formal markup languages such as HTML.",
+        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7763",
+        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7763",
+        "spec-name" : "RFC 7763" } ] }

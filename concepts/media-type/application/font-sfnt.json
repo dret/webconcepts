@@ -1,1 +1,10 @@
-{"value":"application\/font-sfnt","concept":"http:\/\/webconcepts.info\/concepts\/media-type\/","id":"http:\/\/webconcepts.info\/concepts\/media-type\/application\/font-sfnt","details":[{"description":"An Open font file contains data, in table format, that comprises either a TrueType or a PostScript outline font. Rasterizers use combinations of data from the tables contained in the font to render the TrueType or PostScript glyph outlines. Some of this supporting data is used no matter which outline format is used; some of the supporting data is specific to either TrueType or PostScript.","documentation":"http:\/\/www.iso.org\/obp\/ui\/#iso:std:iso-iec:14496:-22","specification":"http:\/\/webconcepts.info\/specs\/ISO\/IEC\/14496-22","spec-name":"ISO\/IEC 14496-22"}]}
+
+  { "value" : "application\/font-sfnt",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/media-type\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/media-type\/application\/font-sfnt",
+    "details" : 
+    [ 
+      { "description" : "An Open font file contains data, in table format, that comprises either a TrueType or a PostScript outline font. Rasterizers use combinations of data from the tables contained in the font to render the TrueType or PostScript glyph outlines. Some of this supporting data is used no matter which outline format is used; some of the supporting data is specific to either TrueType or PostScript.",
+        "documentation" : "http:\/\/www.iso.org\/obp\/ui\/#iso:std:iso-iec:14496:-22",
+        "specification" : "http:\/\/webconcepts.info\/specs\/ISO\/IEC\/14496-22",
+        "spec-name" : "ISO\/IEC 14496-22" } ] }

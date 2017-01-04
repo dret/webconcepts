@@ -1,1 +1,10 @@
-{"value":"If-Modified-Since","concept":"http:\/\/webconcepts.info\/concepts\/http-header\/","id":"http:\/\/webconcepts.info\/concepts\/http-header\/If-Modified-Since","details":[{"description":"The \"If-Modified-Since\" header field makes a GET or HEAD request method conditional on the selected representation's modification date being more recent than the date provided in the field-value. Transfer of the selected representation's data is avoided if that data has not changed.","documentation":"http:\/\/tools.ietf.org\/html\/rfc7232#section-3.3","specification":"http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7232","spec-name":"RFC 7232"}]}
+
+  { "value" : "If-Modified-Since",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/If-Modified-Since",
+    "details" : 
+    [ 
+      { "description" : "The \"If-Modified-Since\" header field makes a GET or HEAD request method conditional on the selected representation's modification date being more recent than the date provided in the field-value. Transfer of the selected representation's data is avoided if that data has not changed.",
+        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7232#section-3.3",
+        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7232",
+        "spec-name" : "RFC 7232" } ] }

@@ -1,1 +1,10 @@
-{"value":"+ber","concept":"http:\/\/webconcepts.info\/concepts\/structured-syntax-suffix\/","id":"http:\/\/webconcepts.info\/concepts\/structured-syntax-suffix\/+ber","details":[{"description":"The suffix \"+ber\" MAY be used with any media type whose representation follows the BER transfer syntax.","documentation":"http:\/\/tools.ietf.org\/html\/rfc6839#section-3.2","specification":"http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6839","spec-name":"RFC 6839"}]}
+
+  { "value" : "+ber",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/structured-syntax-suffix\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/structured-syntax-suffix\/+ber",
+    "details" : 
+    [ 
+      { "description" : "The suffix \"+ber\" MAY be used with any media type whose representation follows the BER transfer syntax.",
+        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6839#section-3.2",
+        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6839",
+        "spec-name" : "RFC 6839" } ] }

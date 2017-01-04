@@ -1,1 +1,11 @@
-{"value":"201","concept":"http:\/\/webconcepts.info\/concepts\/http-status-code\/","id":"http:\/\/webconcepts.info\/concepts\/http-status-code\/201","description":"Created","details":[{"description":"The 201 (Created) status code indicates that the request has been fulfilled and has resulted in one or more new resources being created. The primary resource created by the request is identified by either a Location header field in the response or, if no Location field is received, by the effective request URI.","documentation":"http:\/\/tools.ietf.org\/html\/rfc7231#section-6.3.2","specification":"http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7231","spec-name":"RFC 7231"}]}
+
+  { "value" : "201",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/http-status-code\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/http-status-code\/201",
+    "description" : "Created",
+    "details" : 
+    [ 
+      { "description" : "The 201 (Created) status code indicates that the request has been fulfilled and has resulted in one or more new resources being created. The primary resource created by the request is identified by either a Location header field in the response or, if no Location field is received, by the effective request URI.",
+        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7231#section-6.3.2",
+        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7231",
+        "spec-name" : "RFC 7231" } ] }

@@ -1,1 +1,10 @@
-{"value":"Set-Cookie2","concept":"http:\/\/webconcepts.info\/concepts\/http-header\/","id":"http:\/\/webconcepts.info\/concepts\/http-header\/Set-Cookie2","details":[{"description":"The origin server initiates a session, if it so desires. To do so, it returns an extra response header to the client, Set-Cookie2.","documentation":"http:\/\/tools.ietf.org\/html\/rfc2965#section-3.2","specification":"http:\/\/webconcepts.info\/specs\/IETF\/RFC\/2965","spec-name":"RFC 2965"}]}
+
+  { "value" : "Set-Cookie2",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Set-Cookie2",
+    "details" : 
+    [ 
+      { "description" : "The origin server initiates a session, if it so desires. To do so, it returns an extra response header to the client, Set-Cookie2.",
+        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc2965#section-3.2",
+        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/2965",
+        "spec-name" : "RFC 2965" } ] }

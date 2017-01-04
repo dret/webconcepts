@@ -1,1 +1,10 @@
-{"value":"urn:ietf:params:oauth:client-assertion-type:saml2-bearer","concept":"http:\/\/webconcepts.info\/concepts\/oauth-uri\/","id":"http:\/\/webconcepts.info\/concepts\/oauth-uri\/urn:ietf:params:oauth:client-assertion-type:saml2-bearer","details":[{"description":"To use a SAML Bearer Assertion for client authentication, the client uses the following parameter values and encodings. The value of the \"client_assertion_type\" parameter is \"urn:ietf:params:oauth:client-assertion-type:saml2-bearer\".","documentation":"http:\/\/tools.ietf.org\/html\/rfc7522#section-2.2","specification":"http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7522","spec-name":"RFC 7522"}]}
+
+  { "value" : "urn:ietf:params:oauth:client-assertion-type:saml2-bearer",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/oauth-uri\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/oauth-uri\/urn:ietf:params:oauth:client-assertion-type:saml2-bearer",
+    "details" : 
+    [ 
+      { "description" : "To use a SAML Bearer Assertion for client authentication, the client uses the following parameter values and encodings. The value of the \"client_assertion_type\" parameter is \"urn:ietf:params:oauth:client-assertion-type:saml2-bearer\".",
+        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7522#section-2.2",
+        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7522",
+        "spec-name" : "RFC 7522" } ] }

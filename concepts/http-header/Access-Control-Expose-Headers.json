@@ -1,1 +1,10 @@
-{"value":"Access-Control-Expose-Headers","concept":"http:\/\/webconcepts.info\/concepts\/http-header\/","id":"http:\/\/webconcepts.info\/concepts\/http-header\/Access-Control-Expose-Headers","details":[{"description":"The Access-Control-Expose-Headers header indicates which headers are safe to expose to the API of a CORS API specification.","documentation":"http:\/\/www.w3.org\/TR\/cors\/#access-control-expose-headers-response-header","specification":"http:\/\/webconcepts.info\/specs\/W3C\/TR\/cors","spec-name":"W3C TR http:\/\/www.w3.org\/TR\/cors"}]}
+
+  { "value" : "Access-Control-Expose-Headers",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Access-Control-Expose-Headers",
+    "details" : 
+    [ 
+      { "description" : "The Access-Control-Expose-Headers header indicates which headers are safe to expose to the API of a CORS API specification.",
+        "documentation" : "http:\/\/www.w3.org\/TR\/cors\/#access-control-expose-headers-response-header",
+        "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/cors",
+        "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/cors" } ] }

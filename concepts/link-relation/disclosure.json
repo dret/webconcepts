@@ -1,1 +1,10 @@
-{"value":"disclosure","concept":"http:\/\/webconcepts.info\/concepts\/link-relation\/","id":"http:\/\/webconcepts.info\/concepts\/link-relation\/disclosure","details":[{"description":"Whenever the 'disclosure' relation type is used, the resource at the target Internationalized Resource Identifier (IRI) MUST represent a list of patent disclosures made with respect to the material referenced by context IRI.","documentation":"http:\/\/tools.ietf.org\/html\/rfc6579#section-2","specification":"http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6579","spec-name":"RFC 6579"}]}
+
+  { "value" : "disclosure",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/disclosure",
+    "details" : 
+    [ 
+      { "description" : "Whenever the 'disclosure' relation type is used, the resource at the target Internationalized Resource Identifier (IRI) MUST represent a list of patent disclosures made with respect to the material referenced by context IRI.",
+        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6579#section-2",
+        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6579",
+        "spec-name" : "RFC 6579" } ] }

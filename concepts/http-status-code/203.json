@@ -1,1 +1,11 @@
-{"value":"203","concept":"http:\/\/webconcepts.info\/concepts\/http-status-code\/","id":"http:\/\/webconcepts.info\/concepts\/http-status-code\/203","description":"Non-Authoritative Information","details":[{"description":"The 203 (Non-Authoritative Information) status code indicates that the request was successful but the enclosed payload has been modified from that of the origin server's 200 (OK) response by a transforming proxy.","documentation":"http:\/\/tools.ietf.org\/html\/rfc7231#section-6.3.4","specification":"http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7231","spec-name":"RFC 7231"}]}
+
+  { "value" : "203",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/http-status-code\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/http-status-code\/203",
+    "description" : "Non-Authoritative Information",
+    "details" : 
+    [ 
+      { "description" : "The 203 (Non-Authoritative Information) status code indicates that the request was successful but the enclosed payload has been modified from that of the origin server's 200 (OK) response by a transforming proxy.",
+        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7231#section-6.3.4",
+        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7231",
+        "spec-name" : "RFC 7231" } ] }

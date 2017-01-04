@@ -1,1 +1,11 @@
-{"value":"305","concept":"http:\/\/webconcepts.info\/concepts\/http-status-code\/","id":"http:\/\/webconcepts.info\/concepts\/http-status-code\/305","description":"Use Proxy","details":[{"description":"The 305 (Use Proxy) status code was defined in a previous version of HTTP\/1.1 and is now deprecated.","documentation":"http:\/\/tools.ietf.org\/html\/rfc7231#section-6.4.5","specification":"http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7231","spec-name":"RFC 7231"}]}
+
+  { "value" : "305",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/http-status-code\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/http-status-code\/305",
+    "description" : "Use Proxy",
+    "details" : 
+    [ 
+      { "description" : "The 305 (Use Proxy) status code was defined in a previous version of HTTP\/1.1 and is now deprecated.",
+        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7231#section-6.4.5",
+        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7231",
+        "spec-name" : "RFC 7231" } ] }

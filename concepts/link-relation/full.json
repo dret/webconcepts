@@ -1,1 +1,10 @@
-{"value":"full","concept":"http:\/\/webconcepts.info\/concepts\/link-relation\/","id":"http:\/\/webconcepts.info\/concepts\/link-relation\/full","details":[{"description":"This indicates that the target of the link is the full representation for the instance object. The object that contains this link possibly may not be the full representation.","documentation":"http:\/\/tools.ietf.org\/html\/draft-zyp-json-schema#section-6.1.1.2","specification":"http:\/\/webconcepts.info\/specs\/IETF\/I-D\/zyp-json-schema","spec-name":"Internet Draft zyp-json-schema"}]}
+
+  { "value" : "full",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/full",
+    "details" : 
+    [ 
+      { "description" : "This indicates that the target of the link is the full representation for the instance object. The object that contains this link possibly may not be the full representation.",
+        "documentation" : "http:\/\/tools.ietf.org\/html\/draft-zyp-json-schema#section-6.1.1.2",
+        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/zyp-json-schema",
+        "spec-name" : "Internet Draft zyp-json-schema" } ] }

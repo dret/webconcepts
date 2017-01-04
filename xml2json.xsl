@@ -15,7 +15,7 @@
                     </xsl:for-each>
                 </array>
             </xsl:variable>
-            <xsl:value-of select="xml-to-json($concepts-json)"/>
+            <xsl:value-of select="xml-to-json($concepts-json, map{'indent':true()})"/>
         </xsl:result-document>
         <xsl:for-each select="$concepts/concepts/concept">
             <xsl:variable name="concept" select="."/>
@@ -29,7 +29,7 @@
                     </xsl:call-template>
                 </xsl:variable>
                 <xsl:result-document href="{$concepts-dir}/{$concept/@id}/{$concept-name}.json" format="json">
-                    <xsl:value-of select="xml-to-json($concept-value-json)"/>
+                    <xsl:value-of select="xml-to-json($concept-value-json, map{'indent':true()})"/>
                 </xsl:result-document>
             </xsl:for-each>
         </xsl:for-each>
@@ -40,7 +40,7 @@
                 </xsl:call-template>
             </xsl:variable>
             <xsl:result-document href="{$concepts-dir}/{@id}.json" format="json">
-                <xsl:value-of select="xml-to-json($concept-values-json)"/>
+                <xsl:value-of select="xml-to-json($concept-values-json, map{'indent':true()})"/>
             </xsl:result-document>
         </xsl:for-each>
         <xsl:result-document href="{$specs-dir}/specs.json" format="json">

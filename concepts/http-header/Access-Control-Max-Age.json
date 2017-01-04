@@ -1,1 +1,10 @@
-{"value":"Access-Control-Max-Age","concept":"http:\/\/webconcepts.info\/concepts\/http-header\/","id":"http:\/\/webconcepts.info\/concepts\/http-header\/Access-Control-Max-Age","details":[{"description":"The Access-Control-Max-Age header indicates how long the results of a preflight request can be cached in a preflight result cache.","documentation":"http:\/\/www.w3.org\/TR\/cors\/#access-control-max-age-response-header","specification":"http:\/\/webconcepts.info\/specs\/W3C\/TR\/cors","spec-name":"W3C TR http:\/\/www.w3.org\/TR\/cors"}]}
+
+  { "value" : "Access-Control-Max-Age",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Access-Control-Max-Age",
+    "details" : 
+    [ 
+      { "description" : "The Access-Control-Max-Age header indicates how long the results of a preflight request can be cached in a preflight result cache.",
+        "documentation" : "http:\/\/www.w3.org\/TR\/cors\/#access-control-max-age-response-header",
+        "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/cors",
+        "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/cors" } ] }
