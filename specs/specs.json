@@ -76,6 +76,15 @@
       "concepts": [{
        "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/derivedfrom" }, {
        "http://webconcepts.info/concepts/media-type/": "http://webconcepts.info/concepts/media-type/application/rfc+xml" }]}},{
+     "ietf-httpauth-mutual": {
+      "id": "http://webconcepts.info/specs/IETF/I-D/ietf-httpauth-mutual",
+      "title": "Mutual Authentication Protocol for HTTP",
+      "name": "Internet Draft ietf-httpauth-mutual",
+      "URI": "urn:ietf:id:ietf-httpauth-mutual",
+      "URL": "http://tools.ietf.org/html/draft-ietf-httpauth-mutual",
+      "abstract": "This document specifies a mutual authentication scheme for the Hypertext Transfer Protocol (HTTP). This scheme provides true mutual authentication between an HTTP client and an HTTP server using password-based authentication. Unlike the Basic and Digest authentication schemes, the Mutual authentication scheme specified in this document assures the user that the server truly knows the user's encrypted password.",
+      "concepts": [{
+       "http://webconcepts.info/concepts/http-authentication-scheme/": "http://webconcepts.info/concepts/http-authentication-scheme/Mutual" }]}},{
      "ietf-httpbis-client-hints": {
       "id": "http://webconcepts.info/specs/IETF/I-D/ietf-httpbis-client-hints",
       "title": "HTTP Client Hints",
