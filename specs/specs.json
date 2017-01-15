@@ -280,6 +280,15 @@
       "abstract": "Structured Syntax Suffixes for media types allow other media types to build on them and make it explicit that they are built on an existing media type as their foundation.  This specification defines and registers \"json-seq\" as a structured syntax suffix for JSON Text Sequences.",
       "concepts": [{
        "http://webconcepts.info/concepts/structured-syntax-suffix/": "http://webconcepts.info/concepts/structured-syntax-suffix/+json-seq" }]}},{
+     "wilde-linkset-link-rel": {
+      "id": "http://webconcepts.info/specs/IETF/I-D/wilde-linkset-link-rel",
+      "title": "Link Relation Types for Web Services",
+      "name": "Internet Draft wilde-linkset-link-rel",
+      "URI": "urn:ietf:id:wilde-linkset-link-rel",
+      "URL": "http://tools.ietf.org/html/draft-wilde-linkset-link-rel",
+      "abstract": "This specification defines the \"linkset\" link relation type that can be used to link to a resource that provides a set of links.",
+      "concepts": [{
+       "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/linkset" }]}},{
      "wilde-service-link-rel": {
       "id": "http://webconcepts.info/specs/IETF/I-D/wilde-service-link-rel",
       "title": "Link Relation Types for Web Services",
