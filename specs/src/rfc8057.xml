@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <service primary="IETF" secondary="RFC" id="8057">
     <title>Uniform Resource Name (URN) Namespaces for Broadband Forum</title>
-    <documentation source="http://tools.ietf.org/html/rfc8057">GeoJSON is a geospatial data interchange format based on JavaScript Object Notation (JSON). It defines several types of JSON objects and the manner in which they are combined to represent data about geographic features, their properties, and their spatial extents. GeoJSON uses a geographic coordinate reference system, World Geodetic System 1984, and units of decimal degrees.</documentation>
+    <documentation source="http://tools.ietf.org/html/rfc8057">This document describes the Namespace Identifiers (NIDs) "bbf", "broadband-forum-org", and "dslforum-org" for Uniform Resource Names (URNs) used to identify resources published by Broadband Forum (BBF). BBF specifies and manages resources that utilize these three URN identification models. Management activities for these and other resource types are handled by BBF.</documentation>
     <urn-namespace def="bbf">
         <documentation source="http://tools.ietf.org/html/rfc8057#section-2">The "bbf" NID is for new work efforts related to data models for protocols other than the Customer Premises Equipment (CPE) WAN Management Protocol (CWMP).</documentation>
     </urn-namespace>
