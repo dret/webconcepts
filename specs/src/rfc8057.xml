@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<service primary="IETF" secondary="RFC" id="8057">
+    <title>Uniform Resource Name (URN) Namespaces for Broadband Forum</title>
+    <documentation source="http://tools.ietf.org/html/rfc8057">GeoJSON is a geospatial data interchange format based on JavaScript Object Notation (JSON). It defines several types of JSON objects and the manner in which they are combined to represent data about geographic features, their properties, and their spatial extents. GeoJSON uses a geographic coordinate reference system, World Geodetic System 1984, and units of decimal degrees.</documentation>
+    <urn-namespace def="bbf">
+        <documentation source="http://tools.ietf.org/html/rfc8057#section-2">The "bbf" NID is for new work efforts related to data models for protocols other than the Customer Premises Equipment (CPE) WAN Management Protocol (CWMP).</documentation>
+    </urn-namespace>
+    <urn-namespace def="broadband-forum-org">
+        <documentation source="http://tools.ietf.org/html/rfc8057#section-3">The "broadband-forum-org" and "dslforum-org" NIDs are used for all data models related to CWMP.</documentation>
+    </urn-namespace>
+    <urn-namespace def="dslforum-org">
+        <documentation source="http://tools.ietf.org/html/rfc8057#section-4">The "broadband-forum-org" and "dslforum-org" NIDs are used for all data models related to CWMP. Use of the "dslforum-org" NID started prior the organization's 2008 name change from DSL Forum to Broadband Forum.</documentation>
+    </urn-namespace>
+</service>

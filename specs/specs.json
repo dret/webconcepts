@@ -1979,7 +1979,18 @@
       "URL": "http://tools.ietf.org/html/rfc7946",
       "abstract": "GeoJSON is a geospatial data interchange format based on JavaScript Object Notation (JSON). It defines several types of JSON objects and the manner in which they are combined to represent data about geographic features, their properties, and their spatial extents. GeoJSON uses a geographic coordinate reference system, World Geodetic System 1984, and units of decimal degrees.",
       "concepts": [{
-       "http://webconcepts.info/concepts/media-type/": "http://webconcepts.info/concepts/media-type/application/geo+json" }]}}]}}]},
+       "http://webconcepts.info/concepts/media-type/": "http://webconcepts.info/concepts/media-type/application/geo+json" }]}},{
+     "8057": {
+      "id": "http://webconcepts.info/specs/IETF/RFC/8057",
+      "title": "Uniform Resource Name (URN) Namespaces for Broadband Forum",
+      "name": "RFC 8057",
+      "URI": "urn:ietf:rfc:8057",
+      "URL": "http://tools.ietf.org/html/rfc8057",
+      "abstract": "GeoJSON is a geospatial data interchange format based on JavaScript Object Notation (JSON). It defines several types of JSON objects and the manner in which they are combined to represent data about geographic features, their properties, and their spatial extents. GeoJSON uses a geographic coordinate reference system, World Geodetic System 1984, and units of decimal degrees.",
+      "concepts": [{
+       "http://webconcepts.info/concepts/urn-namespace/": "http://webconcepts.info/concepts/urn-namespace/bbf" }, {
+       "http://webconcepts.info/concepts/urn-namespace/": "http://webconcepts.info/concepts/urn-namespace/broadband-forum-org" }, {
+       "http://webconcepts.info/concepts/urn-namespace/": "http://webconcepts.info/concepts/urn-namespace/dslforum-org" }]}}]}}]},
  "ISO": {
   "id": "http://webconcepts.info/specs/ISO/",
   "name": "International Organization for Standardization",
