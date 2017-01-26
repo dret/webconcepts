@@ -16,7 +16,7 @@ There are currently 32 listed specifications in the [Internet Engineering Task F
   * [Encrypted Content-Encoding for HTTP (Internet Draft ietf-httpbis-encryption-encoding)](ietf-httpbis-encryption-encoding)
   * [HTTP Client Hints (Internet Draft grigorik-http-client-hints)](grigorik-http-client-hints)
   * [HTTP Client Hints (Internet Draft ietf-httpbis-client-hints)](ietf-httpbis-client-hints)
-  * [HTTP Immutable Responses (Internet Draft mcmanus-immutable)](mcmanus-immutable)
+  * [HTTP Immutable Responses (Internet Draft ietf-httpbis-immutable)](ietf-httpbis-immutable)
   * [HTTP bytes-live Range Unit for Live Content (Internet Draft pratt-httpbis-bytes-live-range-unit)](pratt-httpbis-bytes-live-range-unit)
   * [HTTP/1.1: Range Responses of Indeterminate Length (Internet Draft combs-http-indeterminate-range)](combs-http-indeterminate-range)
   * [Hierarchy Relations for Atom (Internet Draft divilly-atom-hierarchy)](divilly-atom-hierarchy)
