@@ -158,6 +158,15 @@
       "abstract": "This specification describes a service to locate OpenPGP keys by mail address using a Web service and the HTTPS protocol.  It also provides a method for secure communication between the key owner and the mail provider to publish and revoke the public key.",
       "concepts": [{
        "http://webconcepts.info/concepts/well-known-uri/": "http://webconcepts.info/concepts/well-known-uri/openpgpkey" }]}},{
+     "mcmanus-immutable": {
+      "id": "http://webconcepts.info/specs/IETF/I-D/mcmanus-immutable",
+      "title": "HTTP Immutable Responses",
+      "name": "Internet Draft mcmanus-immutable",
+      "URI": "urn:ietf:id:mcmanus-immutable",
+      "URL": "http://tools.ietf.org/html/draft-mcmanus-immutable",
+      "abstract": "The immutable HTTP response Cache-Control extension allows servers to identify resources that will not be updated during their freshness lifetime. This assures that a client never needs to revalidate a cached fresh resource to be certain it has not been modified.",
+      "concepts": [{
+       "http://webconcepts.info/concepts/http-cache-directive/": "http://webconcepts.info/concepts/http-cache-directive/immutable" }]}},{
      "mogul-http-dupsup": {
       "id": "http://webconcepts.info/specs/IETF/I-D/mogul-http-dupsup",
       "title": "Duplicate Suppression in HTTP",
