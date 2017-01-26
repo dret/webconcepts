@@ -1,0 +1,10 @@
+
+  { "value" : "Authentication-Control",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Authentication-Control",
+    "details" : 
+    [ 
+      { "description" : "The Authentication-Control header provides more precise control of the client behavior for Web applications using an HTTP authentication protocol.",
+        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8053#section-4",
+        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8053",
+        "spec-name" : "RFC 8053" } ] }

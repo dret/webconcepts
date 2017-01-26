@@ -296,6 +296,16 @@
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/4437",
             "spec-name" : "RFC 4437" } ] },
       
+      { "value" : "Authentication-Control",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Authentication-Control",
+        "details" : 
+        [ 
+          { "description" : "The Authentication-Control header provides more precise control of the client behavior for Web applications using an HTTP authentication protocol.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8053#section-4",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8053",
+            "spec-name" : "RFC 8053" } ] },
+      
       { "value" : "Authentication-Info",
         "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
         "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Authentication-Info",
@@ -1090,6 +1100,16 @@
             "documentation" : "http:\/\/tools.ietf.org\/html\/rfc2774#section-4.1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/2774",
             "spec-name" : "RFC 2774" } ] },
+      
+      { "value" : "Optional-WWW-Authenticate",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Optional-WWW-Authenticate",
+        "details" : 
+        [ 
+          { "description" : "The Optional-WWW-Authenticate header enables a non-mandatory authentication, which is not possible under the current HTTP authentication mechanism.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8053#section-2",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8053",
+            "spec-name" : "RFC 8053" } ] },
       
       { "value" : "Ordering-Type",
         "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",

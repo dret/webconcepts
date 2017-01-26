@@ -1989,6 +1989,16 @@
       "abstract": "GeoJSON is a geospatial data interchange format based on JavaScript Object Notation (JSON). It defines several types of JSON objects and the manner in which they are combined to represent data about geographic features, their properties, and their spatial extents. GeoJSON uses a geographic coordinate reference system, World Geodetic System 1984, and units of decimal degrees.",
       "concepts": [{
        "http://webconcepts.info/concepts/media-type/": "http://webconcepts.info/concepts/media-type/application/geo+json" }]}},{
+     "8053": {
+      "id": "http://webconcepts.info/specs/IETF/RFC/8053",
+      "title": "HTTP Authentication Extensions for Interactive Clients",
+      "name": "RFC 8053",
+      "URI": "urn:ietf:rfc:8053",
+      "URL": "http://tools.ietf.org/html/rfc8053",
+      "abstract": "This document specifies extensions for the HTTP authentication framework for interactive clients.  Currently, fundamental features of HTTP-level authentication are insufficient for complex requirements of various Web-based applications.  This forces these applications to implement their own authentication frameworks by means such as HTML forms, which becomes one of the hurdles against introducing secure authentication mechanisms handled jointly by servers and user agents.  The extended framework fills gaps between Web application requirements and HTTP authentication provisions to solve the above problems, while maintaining compatibility with existing Web and non-Web uses of HTTP authentication.",
+      "concepts": [{
+       "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Authentication-Control" }, {
+       "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Optional-WWW-Authenticate" }]}},{
      "8057": {
       "id": "http://webconcepts.info/specs/IETF/RFC/8057",
       "title": "Uniform Resource Name (URN) Namespaces for Broadband Forum",
