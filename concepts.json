@@ -1516,7 +1516,7 @@
           "details" : 
           [ 
             { "description" : "The Optional-WWW-Authenticate header enables a non-mandatory authentication, which is not possible under the current HTTP authentication mechanism.",
-              "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8053#section-2",
+              "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8053#section-3",
               "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8053",
               "spec-name" : "RFC 8053" } ] },
         

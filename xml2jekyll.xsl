@@ -301,7 +301,13 @@
                             <xsl:text>---&#xa;&#xa;</xsl:text>
                             <xsl:for-each select="$allspecsdef">
                                 <xsl:sort select="replace(replace(current()/../@id, $specs/specs/primary[@id eq current()/../@primary]/secondary[@id eq current()/../@secondary]/id-pattern, $specs/specs/primary[@id eq current()/../@primary]/secondary[@id eq current()/../@secondary]/md-pattern), '^(..*)$', $specs/specs/primary[@id eq current()/../@primary]/secondary[@id eq current()/../@secondary]/name-pattern)"/>
-                                <xsl:text>**[</xsl:text>
+                                <xsl:text>[</xsl:text>
+                                <xsl:value-of select="documentation"/>
+                                <xsl:text>](</xsl:text>
+                                <xsl:value-of select="documentation/@source"/>
+                                <xsl:text> "Read documentation for </xsl:text>
+                                <xsl:value-of select="concat($concept/title-singular/text(), ' &amp;#34;', $concept-name)"/>
+                                <xsl:text>&amp;#34;") (**[</xsl:text>
                                 <xsl:variable name="secondary" select="$specs/specs/primary[@id eq current()/../@primary]/secondary[@id eq current()/../@secondary]"/>
                                 <xsl:variable name="id" select="replace(current()/../@id, $secondary/id-pattern, $secondary/md-pattern)"/>
                                 <xsl:value-of select="replace($id, '^(..*)$', $secondary/name-pattern)"/>
@@ -311,14 +317,7 @@
                                 <xsl:value-of select="concat('/', $specs-dir, '/', $secondary/../@id, '/', $secondary/@id, '/', $id)"/>
                                 <xsl:text> "</xsl:text>
                                 <xsl:value-of select="replace(../documentation/text(), '&quot;', '&amp;#34;')"/>
-                                <xsl:text>"):** </xsl:text>
-                                <xsl:text>[</xsl:text>
-                                <xsl:value-of select="documentation"/>
-                                <xsl:text>](</xsl:text>
-                                <xsl:value-of select="documentation/@source"/>
-                                <xsl:text> "Read documentation for </xsl:text>
-                                <xsl:value-of select="concat($concept/title-singular/text(), ' &amp;#34;', $concept-name)"/>
-                                <xsl:text>&amp;#34;")&#xa;&#xa;</xsl:text>
+                                <xsl:text>")**)&#xa;&#xa;</xsl:text>
                             </xsl:for-each>
                             <xsl:text>&lt;br/>&#xa;&lt;hr/>&#xa;&#xa;</xsl:text>
                             <xsl:text>&lt;p style="float : left">&lt;a href="./</xsl:text>

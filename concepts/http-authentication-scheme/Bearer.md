@@ -7,7 +7,7 @@ concept-value: Bearer
 description: "All challenges defined by this specification MUST use the auth-scheme value \"Bearer\". This scheme MUST be followed by one or more auth-param values."
 ---
 
-**[RFC 6750: The OAuth 2.0 Authorization Framework: Bearer Token Usage](/specs/IETF/RFC/6750 "This specification describes how to use bearer tokens in HTTP requests to access OAuth 2.0 protected resources. Any party in possession of a bearer token (a &#34;bearer&#34;) can use it to get access to the associated resources (without demonstrating possession of a cryptographic key). To prevent misuse, bearer tokens need to be protected from disclosure in storage and in transport."):** [All challenges defined by this specification MUST use the auth-scheme value "Bearer". This scheme MUST be followed by one or more auth-param values.](http://tools.ietf.org/html/rfc6750#section-3 "Read documentation for HTTP Authentication Scheme &#34;Bearer&#34;")
+[All challenges defined by this specification MUST use the auth-scheme value "Bearer". This scheme MUST be followed by one or more auth-param values.](http://tools.ietf.org/html/rfc6750#section-3 "Read documentation for HTTP Authentication Scheme &#34;Bearer&#34;") (**[RFC 6750: The OAuth 2.0 Authorization Framework: Bearer Token Usage](/specs/IETF/RFC/6750 "This specification describes how to use bearer tokens in HTTP requests to access OAuth 2.0 protected resources. Any party in possession of a bearer token (a &#34;bearer&#34;) can use it to get access to the associated resources (without demonstrating possession of a cryptographic key). To prevent misuse, bearer tokens need to be protected from disclosure in storage and in transport.")**)
 
 <br/>
 <hr/>

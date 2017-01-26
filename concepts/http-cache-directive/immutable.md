@@ -7,7 +7,7 @@ concept-value: immutable
 description: "When present in an HTTP response, the immutable Cache-Control extension indicates that the origin server MUST NOT update the representation of that resource during the freshness lifetime of the response."
 ---
 
-**[Internet Draft ietf-httpbis-immutable: HTTP Immutable Responses](/specs/IETF/I-D/ietf-httpbis-immutable "The immutable HTTP response Cache-Control extension allows servers to identify resources that will not be updated during their freshness lifetime. This assures that a client never needs to revalidate a cached fresh resource to be certain it has not been modified."):** [When present in an HTTP response, the immutable Cache-Control extension indicates that the origin server MUST NOT update the representation of that resource during the freshness lifetime of the response.](http://tools.ietf.org/html/draft-ietf-httpbis-immutable#section-2 "Read documentation for HTTP Cache Directive &#34;immutable&#34;")
+[When present in an HTTP response, the immutable Cache-Control extension indicates that the origin server MUST NOT update the representation of that resource during the freshness lifetime of the response.](http://tools.ietf.org/html/draft-ietf-httpbis-immutable#section-2 "Read documentation for HTTP Cache Directive &#34;immutable&#34;") (**[Internet Draft ietf-httpbis-immutable: HTTP Immutable Responses](/specs/IETF/I-D/ietf-httpbis-immutable "The immutable HTTP response Cache-Control extension allows servers to identify resources that will not be updated during their freshness lifetime. This assures that a client never needs to revalidate a cached fresh resource to be certain it has not been modified.")**)
 
 <br/>
 <hr/>

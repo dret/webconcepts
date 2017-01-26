@@ -7,7 +7,7 @@ concept-value: Proxy-Instruction
 description: "The proxy instruction header is used to reply to a proxy features header. It should only be present when a Proxy-Features header was present in the corresponding request."
 ---
 
-**[W3C TR http://www.w3.org/TR/WD-proxy: Notification for Proxy Caches](/specs/W3C/TR/WD-proxy "A mechanism to enable better functioning of proxies is proposed. This mechanism allows proxies to inform a remote server about transactions performed using the cache and for servers to inform proxies when data becomes stale."):** [The proxy instruction header is used to reply to a proxy features header. It should only be present when a Proxy-Features header was present in the corresponding request.](http://www.w3.org/TR/WD-proxy "Read documentation for HTTP Header Field &#34;Proxy-Instruction&#34;")
+[The proxy instruction header is used to reply to a proxy features header. It should only be present when a Proxy-Features header was present in the corresponding request.](http://www.w3.org/TR/WD-proxy "Read documentation for HTTP Header Field &#34;Proxy-Instruction&#34;") (**[W3C TR http://www.w3.org/TR/WD-proxy: Notification for Proxy Caches](/specs/W3C/TR/WD-proxy "A mechanism to enable better functioning of proxies is proposed. This mechanism allows proxies to inform a remote server about transactions performed using the cache and for servers to inform proxies when data becomes stale.")**)
 
 <br/>
 <hr/>
