@@ -4,7 +4,7 @@ title:       "IETF Internet Draft Series"
 description: "List of specifications in the Internet Draft (I-D) series by the Internet Engineering Task Force (IETF)"
 ---
 
-There are currently 32 listed specifications in the [Internet Engineering Task Force (IETF)](..)'s Internet Draft (I-D) series.
+There are currently 33 listed specifications in the [Internet Engineering Task Force (IETF)](..)'s Internet Draft (I-D) series.
 
   * [A JSON Media Type for Describing the Structure and Meaning of JSON Documents (Internet Draft zyp-json-schema)](zyp-json-schema)
   * [A Media Type Structured Syntax Suffix for JSON Text Sequences (Internet Draft wilde-json-seq-suffix)](wilde-json-seq-suffix)
@@ -17,6 +17,7 @@ There are currently 32 listed specifications in the [Internet Engineering Task F
   * [HTTP Client Hints (Internet Draft grigorik-http-client-hints)](grigorik-http-client-hints)
   * [HTTP Client Hints (Internet Draft ietf-httpbis-client-hints)](ietf-httpbis-client-hints)
   * [HTTP Immutable Responses (Internet Draft ietf-httpbis-immutable)](ietf-httpbis-immutable)
+  * [HTTP Link and Unlink Methods (Internet Draft snell-link-method)](snell-link-method)
   * [HTTP bytes-live Range Unit for Live Content (Internet Draft pratt-httpbis-bytes-live-range-unit)](pratt-httpbis-bytes-live-range-unit)
   * [HTTP/1.1: Range Responses of Indeterminate Length (Internet Draft combs-http-indeterminate-range)](combs-http-indeterminate-range)
   * [Hierarchy Relations for Atom (Internet Draft divilly-atom-hierarchy)](divilly-atom-hierarchy)

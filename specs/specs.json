@@ -224,6 +224,16 @@
       "concepts": [{
        "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Accept-Push-Policy" }, {
        "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Push-Policy" }]}},{
+     "snell-link-method": {
+      "id": "http://webconcepts.info/specs/IETF/I-D/snell-link-method",
+      "title": "HTTP Link and Unlink Methods",
+      "name": "Internet Draft snell-link-method",
+      "URI": "urn:ietf:id:snell-link-method",
+      "URL": "http://tools.ietf.org/html/draft-snell-link-method",
+      "abstract": "This specification defines the semantics of the LINK and UNLINK HTTP methods.",
+      "concepts": [{
+       "http://webconcepts.info/concepts/http-method/": "http://webconcepts.info/concepts/http-method/LINK" }, {
+       "http://webconcepts.info/concepts/media-type/": "http://webconcepts.info/concepts/media-type/UNLINK" }]}},{
      "snell-more-link-relations": {
       "id": "http://webconcepts.info/specs/IETF/I-D/snell-more-link-relations",
       "title": "Additional Link Relations and the urn:social Namespace",

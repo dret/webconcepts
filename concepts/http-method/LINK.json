@@ -1,0 +1,10 @@
+
+  { "value" : "LINK",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/http-method\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/http-method\/LINK",
+    "details" : 
+    [ 
+      { "description" : "The LINK method is used to establish one or more relationships between the resource identified by the effective request URI and one or more other resources.",
+        "documentation" : "http:\/\/tools.ietf.org\/html\/draft-snell-link-method#section-3",
+        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/snell-link-method",
+        "spec-name" : "Internet Draft snell-link-method" } ] }

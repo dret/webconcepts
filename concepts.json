@@ -2352,6 +2352,16 @@
               "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/3253",
               "spec-name" : "RFC 3253" } ] },
         
+        { "value" : "LINK",
+          "concept" : "http:\/\/webconcepts.info\/concepts\/http-method\/",
+          "id" : "http:\/\/webconcepts.info\/concepts\/http-method\/LINK",
+          "details" : 
+          [ 
+            { "description" : "The LINK method is used to establish one or more relationships between the resource identified by the effective request URI and one or more other resources.",
+              "documentation" : "http:\/\/tools.ietf.org\/html\/draft-snell-link-method#section-3",
+              "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/snell-link-method",
+              "spec-name" : "Internet Draft snell-link-method" } ] },
+        
         { "value" : "LOCK",
           "concept" : "http:\/\/webconcepts.info\/concepts\/http-method\/",
           "id" : "http:\/\/webconcepts.info\/concepts\/http-method\/LOCK",
@@ -4474,6 +4484,16 @@
       "registry" : "http:\/\/www.iana.org\/assignments\/media-types\/media-types.xhtml",
       "values" : 
       [ 
+        { "value" : "UNLINK",
+          "concept" : "http:\/\/webconcepts.info\/concepts\/media-type\/",
+          "id" : "http:\/\/webconcepts.info\/concepts\/media-type\/UNLINK",
+          "details" : 
+          [ 
+            { "description" : "The UNLINK method is used to remove one or more relationships between the resource identified by the effective request URI and other resources.",
+              "documentation" : "http:\/\/tools.ietf.org\/html\/draft-snell-link-method#section-4",
+              "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/snell-link-method",
+              "spec-name" : "Internet Draft snell-link-method" } ] },
+        
         { "value" : "application\/activity+json",
           "concept" : "http:\/\/webconcepts.info\/concepts\/media-type\/",
           "id" : "http:\/\/webconcepts.info\/concepts\/media-type\/application\/activity+json",
