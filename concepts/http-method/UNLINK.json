@@ -1,7 +1,7 @@
 
   { "value" : "UNLINK",
-    "concept" : "http:\/\/webconcepts.info\/concepts\/media-type\/",
-    "id" : "http:\/\/webconcepts.info\/concepts\/media-type\/UNLINK",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/http-method\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/http-method\/UNLINK",
     "details" : 
     [ 
       { "description" : "The UNLINK method is used to remove one or more relationships between the resource identified by the effective request URI and other resources.",

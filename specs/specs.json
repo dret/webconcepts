@@ -233,7 +233,7 @@
       "abstract": "This specification defines the semantics of the LINK and UNLINK HTTP methods.",
       "concepts": [{
        "http://webconcepts.info/concepts/http-method/": "http://webconcepts.info/concepts/http-method/LINK" }, {
-       "http://webconcepts.info/concepts/media-type/": "http://webconcepts.info/concepts/media-type/UNLINK" }]}},{
+       "http://webconcepts.info/concepts/http-method/": "http://webconcepts.info/concepts/http-method/UNLINK" }]}},{
      "snell-more-link-relations": {
       "id": "http://webconcepts.info/specs/IETF/I-D/snell-more-link-relations",
       "title": "Additional Link Relations and the urn:social Namespace",
