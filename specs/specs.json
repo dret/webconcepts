@@ -2092,7 +2092,16 @@
       "URL": "http://docs.oasis-open.org/security/saml/v2.0/saml-metadata-2.0-os.pdf",
       "abstract": "SAML profiles require agreements between system entities regarding identifiers, binding support and endpoints, certificates and keys, and so forth. A metadata specification is useful for describing this information in a standardized way. This document defines an extensible metadata format for SAML system entities, organized by roles that reflect SAML profiles. Such roles include that of Identity Provider, Service Provider, Affiliation, Attribute Authority, Attribute Consumer, and Policy Decision Point.",
       "concepts": [{
-       "http://webconcepts.info/concepts/media-type/": "http://webconcepts.info/concepts/media-type/application/samlmetadata+xml" }]}}]}}]},
+       "http://webconcepts.info/concepts/media-type/": "http://webconcepts.info/concepts/media-type/application/samlmetadata+xml" }]}},{
+     "xliff-core-v2.1": {
+      "id": "http://webconcepts.info/specs/OASIS/standard/xliff-core-v2.1",
+      "title": "XLIFF Version 2.1",
+      "name": "OASIS Standard xliff-core-v2.1",
+      "URI": "urn:oasis:names:specification:xliff-core-v2.1",
+      "URL": "http://docs.oasis-open.org/xliff/xliff-core/v2.1/xliff-core-v2.1.html",
+      "abstract": "This document defines version 2.1 of the XML Localization Interchange File Format (XLIFF). The purpose of this vocabulary is to store localizable data and carry it from one step of the localization process to the other, while allowing interoperability between and among tools.",
+      "concepts": [{
+       "http://webconcepts.info/concepts/media-type/": "http://webconcepts.info/concepts/media-type/application/xliff+xml" }]}}]}}]},
  "W3C": {
   "id": "http://webconcepts.info/specs/W3C/",
   "name": "World Wide Web Consortium",

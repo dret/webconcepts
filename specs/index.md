@@ -13,7 +13,7 @@ This is a list of all organizations and their specification series that are used
   * [Request for Comments (RFC) Series](IETF/RFC/ "Series overview"): 146 Specifications
 * [Java Community Process (JCP)](JCP/): 1 Specifications
   * [Java Specification Request (JSR) Series](JCP/JSR/ "Series overview"): 1 Specifications
-* [Organization for the Advancement of Structured Information Standards (OASIS)](OASIS/): 2 Specifications
-  * [Standard Series](OASIS/standard/ "Series overview"): 2 Specifications
+* [Organization for the Advancement of Structured Information Standards (OASIS)](OASIS/): 3 Specifications
+  * [Standard Series](OASIS/standard/ "Series overview"): 3 Specifications
 * [World Wide Web Consortium (W3C)](W3C/): 34 Specifications
   * [Technical Report (TR) Series](W3C/TR/ "Series overview"): 34 Specifications

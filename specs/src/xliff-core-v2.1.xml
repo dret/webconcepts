@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<service primary="OASIS" secondary="standard" id="xliff-core-v2.1" url="http://docs.oasis-open.org/xliff/xliff-core/v2.1/xliff-core-v2.1.html">
+    <title>XLIFF Version 2.1</title>
+    <documentation source="http://docs.oasis-open.org/xliff/xliff-core/v2.1/xliff-core-v2.1.html">This document defines version 2.1 of the XML Localization Interchange File Format (XLIFF). The purpose of this vocabulary is to store localizable data and carry it from one step of the localization process to the other, while allowing interoperability between and among tools.</documentation>
+    <media-type def="application/xliff+xml">
+        <documentation source="http://docs.oasis-open.org/xliff/xliff-core/v2.1/xliff-core-v2.1.html#mediaType">XLIFF is the XML Localization Interchange File Format designed by a group of multilingual content publishers, software providers, localization service providers, localization tools providers and researchers. It is intended to give any multilingual content owner a single interchange file format that can be understood by any localization provider, using any conformant localization tool.</documentation>
+    </media-type>
+</service>

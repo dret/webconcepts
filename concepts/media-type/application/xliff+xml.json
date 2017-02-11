@@ -1,0 +1,10 @@
+
+  { "value" : "application\/xliff+xml",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/media-type\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/media-type\/application\/xliff+xml",
+    "details" : 
+    [ 
+      { "description" : "XLIFF is the XML Localization Interchange File Format designed by a group of multilingual content publishers, software providers, localization service providers, localization tools providers and researchers. It is intended to give any multilingual content owner a single interchange file format that can be understood by any localization provider, using any conformant localization tool.",
+        "documentation" : "http:\/\/docs.oasis-open.org\/xliff\/xliff-core\/v2.1\/xliff-core-v2.1.html#mediaType",
+        "specification" : "http:\/\/webconcepts.info\/specs\/OASIS\/standard\/xliff-core-v2.1",
+        "spec-name" : "OASIS Standard xliff-core-v2.1" } ] }
