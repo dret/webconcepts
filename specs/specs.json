@@ -2017,7 +2017,7 @@
       "name": "RFC 8091",
       "URI": "urn:ietf:rfc:8091",
       "URL": "http://tools.ietf.org/html/rfc8091",
-      "abstract": "Structured Syntax Suffixes for media types allow other media types to build on them and make it explicit that they are built on an existing media type as their foundation.  This specification defines and registers \"json-seq\" as a structured syntax suffix for JSON Text Sequences.",
+      "abstract": "Structured Syntax Suffixes for media types allow other media types to build on them and make it explicit that they are built on an existing media type as their foundation. This specification defines and registers \"json-seq\" as a structured syntax suffix for JSON text sequences.",
       "concepts": [{
        "http://webconcepts.info/concepts/structured-syntax-suffix/": "http://webconcepts.info/concepts/structured-syntax-suffix/+json-seq" }]}}]}}]},
  "ISO": {
