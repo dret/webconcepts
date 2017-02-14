@@ -290,15 +290,6 @@
       "concepts": [{
        "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/home" }, {
        "http://webconcepts.info/concepts/media-type/": "http://webconcepts.info/concepts/media-type/application/home+xml" }]}},{
-     "wilde-json-seq-suffix": {
-      "id": "http://webconcepts.info/specs/IETF/I-D/wilde-json-seq-suffix",
-      "title": "A Media Type Structured Syntax Suffix for JSON Text Sequences",
-      "name": "Internet Draft wilde-json-seq-suffix",
-      "URI": "urn:ietf:id:wilde-json-seq-suffix",
-      "URL": "http://tools.ietf.org/html/draft-wilde-json-seq-suffix",
-      "abstract": "Structured Syntax Suffixes for media types allow other media types to build on them and make it explicit that they are built on an existing media type as their foundation.  This specification defines and registers \"json-seq\" as a structured syntax suffix for JSON Text Sequences.",
-      "concepts": [{
-       "http://webconcepts.info/concepts/structured-syntax-suffix/": "http://webconcepts.info/concepts/structured-syntax-suffix/+json-seq" }]}},{
      "wilde-linkset-link-rel": {
       "id": "http://webconcepts.info/specs/IETF/I-D/wilde-linkset-link-rel",
       "title": "Link Relation Types for Web Services",
@@ -2019,7 +2010,16 @@
       "concepts": [{
        "http://webconcepts.info/concepts/urn-namespace/": "http://webconcepts.info/concepts/urn-namespace/bbf" }, {
        "http://webconcepts.info/concepts/urn-namespace/": "http://webconcepts.info/concepts/urn-namespace/broadband-forum-org" }, {
-       "http://webconcepts.info/concepts/urn-namespace/": "http://webconcepts.info/concepts/urn-namespace/dslforum-org" }]}}]}}]},
+       "http://webconcepts.info/concepts/urn-namespace/": "http://webconcepts.info/concepts/urn-namespace/dslforum-org" }]}},{
+     "8091": {
+      "id": "http://webconcepts.info/specs/IETF/RFC/8091",
+      "title": "A Media Type Structured Syntax Suffix for JSON Text Sequences",
+      "name": "RFC 8091",
+      "URI": "urn:ietf:rfc:8091",
+      "URL": "http://tools.ietf.org/html/rfc8091",
+      "abstract": "Structured Syntax Suffixes for media types allow other media types to build on them and make it explicit that they are built on an existing media type as their foundation.  This specification defines and registers \"json-seq\" as a structured syntax suffix for JSON Text Sequences.",
+      "concepts": [{
+       "http://webconcepts.info/concepts/structured-syntax-suffix/": "http://webconcepts.info/concepts/structured-syntax-suffix/+json-seq" }]}}]}}]},
  "ISO": {
   "id": "http://webconcepts.info/specs/ISO/",
   "name": "International Organization for Standardization",

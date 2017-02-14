@@ -62,9 +62,9 @@
         "details" : 
         [ 
           { "description" : "The use case for the \"+json-seq\" structured syntax suffix is the same as for \"+json\": It SHOULD be used by media types when parsing the JSON Text Sequence of a media type leads to a meaningful result, by simply using the generic JSON Text Sequence processing.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-wilde-json-seq-suffix#section-3",
-            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/wilde-json-seq-suffix",
-            "spec-name" : "Internet Draft wilde-json-seq-suffix" } ] },
+            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8091#section-3",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8091",
+            "spec-name" : "RFC 8091" } ] },
       
       { "value" : "+wbxml",
         "concept" : "http:\/\/webconcepts.info\/concepts\/structured-syntax-suffix\/",

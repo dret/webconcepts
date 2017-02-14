@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<service primary="IETF" secondary="RFC" id="8091">
+    <title>A Media Type Structured Syntax Suffix for JSON Text Sequences</title>
+    <documentation source="http://tools.ietf.org/html/rfc8091">Structured Syntax Suffixes for media types allow other media types to build on them and make it explicit that they are built on an existing media type as their foundation.  This specification defines and registers "json-seq" as a structured syntax suffix for JSON Text Sequences.</documentation>
+    <structured-syntax-suffix def="+json-seq">
+        <documentation source="http://tools.ietf.org/html/rfc8091#section-3">The use case for the "+json-seq" structured syntax suffix is the same as for "+json": It SHOULD be used by media types when parsing the JSON Text Sequence of a media type leads to a meaningful result, by simply using the generic JSON Text Sequence processing.</documentation>
+    </structured-syntax-suffix>
+</service>
