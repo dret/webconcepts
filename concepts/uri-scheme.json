@@ -76,6 +76,16 @@
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7595",
             "spec-name" : "RFC 7595" } ] },
       
+      { "value" : "file",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/uri-scheme\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/uri-scheme\/file",
+        "details" : 
+        [ 
+          { "description" : "A file URI identifies an object (a \"file\") stored in a structured object naming and accessing environment on a host (a \"file system\"). The URI can be used in discussions about the file, and if other conditions are met it can be dereferenced to directly access the file.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8089#section-1",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8089",
+            "spec-name" : "RFC 8089" } ] },
+      
       { "value" : "ftp",
         "concept" : "http:\/\/webconcepts.info\/concepts\/uri-scheme\/",
         "id" : "http:\/\/webconcepts.info\/concepts\/uri-scheme\/ftp",

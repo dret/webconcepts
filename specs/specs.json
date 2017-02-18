@@ -2011,6 +2011,15 @@
        "http://webconcepts.info/concepts/urn-namespace/": "http://webconcepts.info/concepts/urn-namespace/bbf" }, {
        "http://webconcepts.info/concepts/urn-namespace/": "http://webconcepts.info/concepts/urn-namespace/broadband-forum-org" }, {
        "http://webconcepts.info/concepts/urn-namespace/": "http://webconcepts.info/concepts/urn-namespace/dslforum-org" }]}},{
+     "8089": {
+      "id": "http://webconcepts.info/specs/IETF/RFC/8089",
+      "title": "The \"file\" URI Scheme",
+      "name": "RFC 8089",
+      "URI": "urn:ietf:rfc:8089",
+      "URL": "http://tools.ietf.org/html/rfc8089",
+      "abstract": "This document provides a more complete specification of the \"file\" Uniform Resource Identifier (URI) scheme and replaces the very brief definition in Section 3.10 of RFC 1738. It defines a common syntax that is intended to interoperate across the broad spectrum of existing usages. At the same time, it notes some other current practices around the use of file URIs.",
+      "concepts": [{
+       "http://webconcepts.info/concepts/uri-scheme/": "http://webconcepts.info/concepts/uri-scheme/file" }]}},{
      "8091": {
       "id": "http://webconcepts.info/specs/IETF/RFC/8091",
       "title": "A Media Type Structured Syntax Suffix for JSON Text Sequences",
