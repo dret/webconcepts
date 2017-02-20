@@ -137,6 +137,15 @@
       "abstract": "This specification allows HTTP CONNECT requests to indicate what protocol will be used within the tunnel once established, using the Tunnel-Protocol header field.",
       "concepts": [{
        "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Tunnel-Protocol" }]}},{
+     "ietf-jsonbis-rfc7159bis": {
+      "id": "http://webconcepts.info/specs/IETF/I-D/ietf-jsonbis-rfc7159bis",
+      "title": "The JavaScript Object Notation (JSON) Data Interchange Format",
+      "name": "Internet Draft ietf-jsonbis-rfc7159bis",
+      "URI": "urn:ietf:id:ietf-jsonbis-rfc7159bis",
+      "URL": "http://tools.ietf.org/html/draft-ietf-jsonbis-rfc7159bis",
+      "abstract": "JavaScript Object Notation (JSON) is a lightweight, text-based, language-independent data interchange format. It was derived from the ECMAScript Programming Language Standard. JSON defines a small set of formatting rules for the portable representation of structured data. This document removes inconsistencies with other specifications of JSON, repairs specification errors, and offers experience-based interoperability guidance.",
+      "concepts": [{
+       "http://webconcepts.info/concepts/media-type/": "http://webconcepts.info/concepts/media-type/application/json" }]}},{
      "ietf-oauth-v2-http-mac": {
       "id": "http://webconcepts.info/specs/IETF/I-D/ietf-oauth-v2-http-mac",
       "title": "OAuth 2.0 Message Authentication Code (MAC) Tokens",
