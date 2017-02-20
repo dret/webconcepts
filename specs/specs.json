@@ -76,6 +76,15 @@
       "concepts": [{
        "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/derivedfrom" }, {
        "http://webconcepts.info/concepts/media-type/": "http://webconcepts.info/concepts/media-type/application/rfc+xml" }]}},{
+     "ietf-geojson-text-sequence": {
+      "id": "http://webconcepts.info/specs/IETF/I-D/ietf-geojson-text-sequence",
+      "title": "GeoJSON Text Sequences",
+      "name": "Internet Draft ietf-geojson-text-sequence",
+      "URI": "urn:ietf:id:ietf-geojson-text-sequence",
+      "URL": "http://tools.ietf.org/html/draft-ietf-geojson-text-sequence",
+      "abstract": "This document describes the GeoJSON text sequence format and \"application/geo+json-seq\" media type. This format is based on JavaScript Object Notation (JSON) Text Sequences and GeoJSON, and makes arbitrarily large geographic datasets incrementally parseable without restricting the form of GeoJSON texts within a sequence.",
+      "concepts": [{
+       "http://webconcepts.info/concepts/media-type/": "http://webconcepts.info/concepts/media-type/application/geo+json-seq" }]}},{
      "ietf-httpauth-mutual": {
       "id": "http://webconcepts.info/specs/IETF/I-D/ietf-httpauth-mutual",
       "title": "Mutual Authentication Protocol for HTTP",

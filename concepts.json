@@ -4634,6 +4634,16 @@
               "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7946",
               "spec-name" : "RFC 7946" } ] },
         
+        { "value" : "application\/geo+json-seq",
+          "concept" : "http:\/\/webconcepts.info\/concepts\/media-type\/",
+          "id" : "http:\/\/webconcepts.info\/concepts\/media-type\/application\/geo+json-seq",
+          "details" : 
+          [ 
+            { "description" : "A GeoJSON text sequence is any number of GeoJSON texts, each encoded in UTF-8 [RFC3629], each preceded by one ASCII [RFC20] RS character, and each followed by a line feed (LF).",
+              "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-geojson-text-sequence#section-2",
+              "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-geojson-text-sequence",
+              "spec-name" : "Internet Draft ietf-geojson-text-sequence" } ] },
+        
         { "value" : "application\/gzip",
           "concept" : "http:\/\/webconcepts.info\/concepts\/media-type\/",
           "id" : "http:\/\/webconcepts.info\/concepts\/media-type\/application\/gzip",
