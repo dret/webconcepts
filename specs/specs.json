@@ -116,9 +116,7 @@
       "URL": "http://tools.ietf.org/html/draft-ietf-httpbis-encryption-encoding",
       "abstract": "This memo introduces a content coding for HTTP that allows message payloads to be encrypted.",
       "concepts": [{
-       "http://webconcepts.info/concepts/http-content-coding/": "http://webconcepts.info/concepts/http-content-coding/aesgcm" }, {
-       "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Crypto-Key" }, {
-       "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Encryption" }]}},{
+       "http://webconcepts.info/concepts/http-content-coding/": "http://webconcepts.info/concepts/http-content-coding/aes128gcm" }]}},{
      "ietf-httpbis-immutable": {
       "id": "http://webconcepts.info/specs/IETF/I-D/ietf-httpbis-immutable",
       "title": "HTTP Immutable Responses",

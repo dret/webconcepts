@@ -261,12 +261,12 @@
       "registry" : "http:\/\/www.iana.org\/assignments\/http-parameters\/http-parameters.xhtml#content-coding",
       "values" : 
       [ 
-        { "value" : "aesgcm",
+        { "value" : "aes128gcm",
           "concept" : "http:\/\/webconcepts.info\/concepts\/http-content-coding\/",
-          "id" : "http:\/\/webconcepts.info\/concepts\/http-content-coding\/aesgcm",
+          "id" : "http:\/\/webconcepts.info\/concepts\/http-content-coding\/aes128gcm",
           "details" : 
           [ 
-            { "description" : "The \"aesgcm\" HTTP content coding indicates that a payload has been encrypted using Advanced Encryption Standard (AES) in Galois\/Counter Mode (GCM) as identified as AEAD_AES_128_GCM in RFC 5116.",
+            { "description" : "The \"aes128gcm\" HTTP content coding indicates that a payload has been encrypted using Advanced Encryption Standard (AES) in Galois\/Counter Mode (GCM) as identified as AEAD_AES_128_GCM in RFC 5116. The AEAD_AES_128_GCM algorithm uses a 128 bit content encryption key.",
               "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-httpbis-encryption-encoding#section-2",
               "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpbis-encryption-encoding",
               "spec-name" : "Internet Draft ietf-httpbis-encryption-encoding" } ] },
@@ -1040,16 +1040,6 @@
               "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/2965",
               "spec-name" : "RFC 2965" } ] },
         
-        { "value" : "Crypto-Key",
-          "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
-          "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Crypto-Key",
-          "details" : 
-          [ 
-            { "description" : "A Crypto-Key header field can be used to describe the input keying material used in the Encryption header field.",
-              "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-httpbis-encryption-encoding#section-4",
-              "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpbis-encryption-encoding",
-              "spec-name" : "Internet Draft ietf-httpbis-encryption-encoding" } ] },
-        
         { "value" : "DASL",
           "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
           "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/DASL",
@@ -1179,16 +1169,6 @@
               "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7232#section-2.3",
               "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7232",
               "spec-name" : "RFC 7232" } ] },
-        
-        { "value" : "Encryption",
-          "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
-          "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Encryption",
-          "details" : 
-          [ 
-            { "description" : "The \"Encryption\" HTTP header field describes the encrypted content encoding(s) that have been applied to a message payload, and therefore how those content encoding(s) can be removed.",
-              "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-httpbis-encryption-encoding#section-3",
-              "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpbis-encryption-encoding",
-              "spec-name" : "Internet Draft ietf-httpbis-encryption-encoding" } ] },
         
         { "value" : "Expect",
           "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
