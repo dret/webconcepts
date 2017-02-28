@@ -1,0 +1,10 @@
+
+  { "value" : "+exi",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/structured-syntax-suffix\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/structured-syntax-suffix\/+exi",
+    "details" : 
+    [ 
+      { "description" : "This document defines a new Structured Syntax Suffix \"+exi\" for use in media types for a specific class of protocols, where the \"exi\" content-type encoding or the generic \"application\/exi\" media type are not viable.",
+        "documentation" : "http:\/\/tools.ietf.org\/html\/draft-shelby-exi-registration#section-2",
+        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/shelby-exi-registration",
+        "spec-name" : "Internet Draft shelby-exi-registration" } ] }

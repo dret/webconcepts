@@ -240,6 +240,15 @@
       "concepts": [{
        "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Accept-Push-Policy" }, {
        "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Push-Policy" }]}},{
+     "shelby-exi-registration": {
+      "id": "http://webconcepts.info/specs/IETF/I-D/shelby-exi-registration",
+      "title": "The +exi Media Type Suffix",
+      "name": "Internet Draft shelby-exi-registration",
+      "URI": "urn:ietf:id:shelby-exi-registration",
+      "URL": "http://tools.ietf.org/html/draft-shelby-exi-registration",
+      "abstract": "Efficient XML Interchange (EXI) is an XML representation technique specified by the W3C to provide a time and space efficient encoding for XML documents. This document defines a new Structured Syntax Suffix \"+exi\" for use in a specific class of protocols, where \"exi\" content-type encoding or the generic \"application/exi\" media type are not applicable.",
+      "concepts": [{
+       "http://webconcepts.info/concepts/structured-syntax-suffix/": "http://webconcepts.info/concepts/structured-syntax-suffix/+exi" }]}},{
      "snell-link-method": {
       "id": "http://webconcepts.info/specs/IETF/I-D/snell-link-method",
       "title": "HTTP Link and Unlink Methods",
