@@ -341,10 +341,10 @@
         "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/home",
         "details" : 
         [ 
-          { "description" : "Identifies a resource that provides a \"home\" document for the context resource. Home documents often serve as starting points for a certain resource context, such as for Web APIs where the home resource provides access to a number of \"entry points\" to the Web API.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-wilde-home-xml-04#section-4.3.1",
-            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/wilde-home-xml",
-            "spec-name" : "Internet Draft wilde-home-xml" } ] },
+          { "description" : "The \"home\" link relation type is used to establish a link to a \"home document\" resource that provides context and\/or starting points for the context resource.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-nottingham-json-home#section-6",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/nottingham-json-home",
+            "spec-name" : "Internet Draft nottingham-json-home" } ] },
       
       { "value" : "hosts",
         "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",

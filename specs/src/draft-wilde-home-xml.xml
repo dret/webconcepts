@@ -5,7 +5,4 @@
     <media-type def="application/home+xml">
         <documentation source="http://tools.ietf.org/html/draft-wilde-home-xml-04#section-4.1">The specification for HTTP Home Documents provides a JSON syntax only. This media type provides an XML syntax for the same underlying data model, so that the concept of HTTP Home Documents can be consistently exposed in both JSON- and XML-based HTTP services.</documentation>
     </media-type>
-    <link-relation def="home">
-        <documentation source="http://tools.ietf.org/html/draft-wilde-home-xml-04#section-4.3.1">Identifies a resource that provides a "home" document for the context resource. Home documents often serve as starting points for a certain resource context, such as for Web APIs where the home resource provides access to a number of "entry points" to the Web API.</documentation>
-    </link-relation>
 </service>
