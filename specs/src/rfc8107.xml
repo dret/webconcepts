@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<service primary="IETF" secondary="RFC" id="8107">
+    <title>Advertising Digital Identifier (Ad-ID) URN Namespace Definition</title>
+    <documentation source="http://tools.ietf.org/html/rfc8107">Advertising Digital Identifiers (Ad-IDs) are used to identify advertising assets across all media platforms. This document defines the formal Uniform Resource Name (URN) Namespace Identifier (NID) "adid" for Ad-IDs.</documentation>
+    <urn-namespace def="adid">
+        <documentation source="http://tools.ietf.org/html/rfc8107#section-1">Ad-ID is the industry standard for identifying advertising assets across all media platforms (e.g., over the air, online, over the top, mobile, and place based). Ad-IDs are unique codes for each creative advertising asset. Those unique codes are applied to all media.</documentation>
+    </urn-namespace>
+</service>

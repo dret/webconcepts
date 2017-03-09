@@ -6,6 +6,16 @@
     "registry" : "http:\/\/www.iana.org\/assignments\/urn-namespaces\/urn-namespaces.xhtml",
     "values" : 
     [ 
+      { "value" : "adid",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/urn-namespace\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/urn-namespace\/adid",
+        "details" : 
+        [ 
+          { "description" : "Ad-ID is the industry standard for identifying advertising assets across all media platforms (e.g., over the air, online, over the top, mobile, and place based). Ad-IDs are unique codes for each creative advertising asset. Those unique codes are applied to all media.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8107#section-1",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8107",
+            "spec-name" : "RFC 8107" } ] },
+      
       { "value" : "bbf",
         "concept" : "http:\/\/webconcepts.info\/concepts\/urn-namespace\/",
         "id" : "http:\/\/webconcepts.info\/concepts\/urn-namespace\/bbf",

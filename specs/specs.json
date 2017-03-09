@@ -2053,7 +2053,16 @@
       "URL": "http://tools.ietf.org/html/rfc8091",
       "abstract": "Structured Syntax Suffixes for media types allow other media types to build on them and make it explicit that they are built on an existing media type as their foundation. This specification defines and registers \"json-seq\" as a structured syntax suffix for JSON text sequences.",
       "concepts": [{
-       "http://webconcepts.info/concepts/structured-syntax-suffix/": "http://webconcepts.info/concepts/structured-syntax-suffix/+json-seq" }]}}]}}]},
+       "http://webconcepts.info/concepts/structured-syntax-suffix/": "http://webconcepts.info/concepts/structured-syntax-suffix/+json-seq" }]}},{
+     "8107": {
+      "id": "http://webconcepts.info/specs/IETF/RFC/8107",
+      "title": "Advertising Digital Identifier (Ad-ID) URN Namespace Definition",
+      "name": "RFC 8107",
+      "URI": "urn:ietf:rfc:8107",
+      "URL": "http://tools.ietf.org/html/rfc8107",
+      "abstract": "Advertising Digital Identifiers (Ad-IDs) are used to identify advertising assets across all media platforms. This document defines the formal Uniform Resource Name (URN) Namespace Identifier (NID) \"adid\" for Ad-IDs.",
+      "concepts": [{
+       "http://webconcepts.info/concepts/urn-namespace/": "http://webconcepts.info/concepts/urn-namespace/adid" }]}}]}}]},
  "ISO": {
   "id": "http://webconcepts.info/specs/ISO/",
   "name": "International Organization for Standardization",
