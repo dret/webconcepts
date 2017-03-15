@@ -78,7 +78,7 @@
        "http://webconcepts.info/concepts/media-type/": "http://webconcepts.info/concepts/media-type/application/rfc+xml" }]}},{
      "ietf-core-http-mapping": {
       "id": "http://webconcepts.info/specs/IETF/I-D/ietf-core-http-mapping",
-      "title": "Home Documents for HTTP APIs",
+      "title": "Guidelines for HTTP-to-CoAP Mapping Implementations",
       "name": "Internet Draft ietf-core-http-mapping",
       "URI": "urn:ietf:id:ietf-core-http-mapping",
       "URL": "http://tools.ietf.org/html/draft-ietf-core-http-mapping",
