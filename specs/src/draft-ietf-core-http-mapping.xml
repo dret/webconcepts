@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<service primary="IETF" secondary="I-D" id="ietf-core-http-mapping">
+    <title>Home Documents for HTTP APIs</title>
+    <documentation source="http://tools.ietf.org/html/draft-ietf-core-http-mapping">This document provides reference information for implementing a cross-protocol network proxy that performs translation from the HTTP protocol to the CoAP protocol. This will enable a HTTP client to access resources on a CoAP server through the proxy. This document describes how a HTTP request is mapped to a CoAP request, and then how a CoAP response is mapped back to a HTTP response. This includes guidelines for URI mapping, media type mapping and additional proxy implementation issues. This document covers the Reverse, Forward and Interception cross-protocol proxy cases.</documentation>
+    <media-type def="application/coap-payload">
+        <documentation source="http://tools.ietf.org/html/draft-ietf-core-http-mapping#section-6.2">This media type represents any payload that a CoAP message can carry, having a content format that can be identified by a CoAP Content-Format parameter (an integer in range 0-65535). The parameter "cf" is the integer defining the CoAP content format.</documentation>
+    </media-type>
+</service>

@@ -76,6 +76,15 @@
       "concepts": [{
        "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/derivedfrom" }, {
        "http://webconcepts.info/concepts/media-type/": "http://webconcepts.info/concepts/media-type/application/rfc+xml" }]}},{
+     "ietf-core-http-mapping": {
+      "id": "http://webconcepts.info/specs/IETF/I-D/ietf-core-http-mapping",
+      "title": "Home Documents for HTTP APIs",
+      "name": "Internet Draft ietf-core-http-mapping",
+      "URI": "urn:ietf:id:ietf-core-http-mapping",
+      "URL": "http://tools.ietf.org/html/draft-ietf-core-http-mapping",
+      "abstract": "This document provides reference information for implementing a cross-protocol network proxy that performs translation from the HTTP protocol to the CoAP protocol. This will enable a HTTP client to access resources on a CoAP server through the proxy. This document describes how a HTTP request is mapped to a CoAP request, and then how a CoAP response is mapped back to a HTTP response. This includes guidelines for URI mapping, media type mapping and additional proxy implementation issues. This document covers the Reverse, Forward and Interception cross-protocol proxy cases.",
+      "concepts": [{
+       "http://webconcepts.info/concepts/media-type/": "http://webconcepts.info/concepts/media-type/application/coap-payload" }]}},{
      "ietf-geojson-text-sequence": {
       "id": "http://webconcepts.info/specs/IETF/I-D/ietf-geojson-text-sequence",
       "title": "GeoJSON Text Sequences",

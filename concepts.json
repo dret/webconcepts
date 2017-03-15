@@ -4564,6 +4564,16 @@
               "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7390",
               "spec-name" : "RFC 7390" } ] },
         
+        { "value" : "application\/coap-payload",
+          "concept" : "http:\/\/webconcepts.info\/concepts\/media-type\/",
+          "id" : "http:\/\/webconcepts.info\/concepts\/media-type\/application\/coap-payload",
+          "details" : 
+          [ 
+            { "description" : "This media type represents any payload that a CoAP message can carry, having a content format that can be identified by a CoAP Content-Format parameter (an integer in range 0-65535). The parameter \"cf\" is the integer defining the CoAP content format.",
+              "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-core-http-mapping#section-6.2",
+              "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-core-http-mapping",
+              "spec-name" : "Internet Draft ietf-core-http-mapping" } ] },
+        
         { "value" : "application\/csrattrs",
           "concept" : "http:\/\/webconcepts.info\/concepts\/media-type\/",
           "id" : "http:\/\/webconcepts.info\/concepts\/media-type\/application\/csrattrs",

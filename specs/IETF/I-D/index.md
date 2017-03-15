@@ -4,7 +4,7 @@ title:       "IETF Internet Draft Series"
 description: "List of specifications in the Internet Draft (I-D) series by the Internet Engineering Task Force (IETF)"
 ---
 
-There are currently 35 listed specifications in the [Internet Engineering Task Force (IETF)](..)'s Internet Draft (I-D) series.
+There are currently 36 listed specifications in the [Internet Engineering Task Force (IETF)](..)'s Internet Draft (I-D) series.
 
   * [A JSON Media Type for Describing the Structure and Meaning of JSON Documents (Internet Draft zyp-json-schema)](zyp-json-schema)
   * [Accept-Push-Policy Header Field (Internet Draft ruellan-http-accept-push-policy)](ruellan-http-accept-push-policy)
@@ -21,12 +21,13 @@ There are currently 35 listed specifications in the [Internet Engineering Task F
   * [HTTP bytes-live Range Unit for Live Content (Internet Draft pratt-httpbis-bytes-live-range-unit)](pratt-httpbis-bytes-live-range-unit)
   * [HTTP/1.1: Range Responses of Indeterminate Length (Internet Draft combs-http-indeterminate-range)](combs-http-indeterminate-range)
   * [Hierarchy Relations for Atom (Internet Draft divilly-atom-hierarchy)](divilly-atom-hierarchy)
+  * [Home Documents for HTTP APIs (Internet Draft ietf-core-http-mapping)](ietf-core-http-mapping)
   * [Home Documents for HTTP APIs (Internet Draft nottingham-json-home)](nottingham-json-home)
   * [Home Documents for HTTP Services: XML Syntax (Internet Draft wilde-home-xml)](wilde-home-xml)
   * [Hypertext Transfer Protocol: Improved HTTP Caching (Internet Draft drechsler-httpbis-improved-caching)](drechsler-httpbis-improved-caching)
   * [JSON Hypertext Application Language (Internet Draft kelly-json-hal)](kelly-json-hal)
-  * [Link Relation Types for Web Services (Internet Draft wilde-linkset-link-rel)](wilde-linkset-link-rel)
   * [Link Relation Types for Web Services (Internet Draft wilde-service-link-rel)](wilde-service-link-rel)
+  * [Link Relation Types for Web Services (Internet Draft wilde-linkset-link-rel)](wilde-linkset-link-rel)
   * [Marking HTTP Requests as Unimportant (Internet Draft thomson-http-nice)](thomson-http-nice)
   * [Mutual Authentication Protocol for HTTP (Internet Draft ietf-httpauth-mutual)](ietf-httpauth-mutual)
   * [OAuth 2.0 Message Authentication Code (MAC) Tokens (Internet Draft ietf-oauth-v2-http-mac)](ietf-oauth-v2-http-mac)
