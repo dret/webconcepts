@@ -621,6 +621,66 @@
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6713",
             "spec-name" : "RFC 6713" } ] },
       
+      { "value" : "font\/collection",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/media-type\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/media-type\/font\/collection",
+        "details" : 
+        [ 
+          { "description" : "ISO\/IEC 14496-22 \"Open Font Format\" (OFF) specification being developed by ISO\/IEC SC29\/WG11.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8081#section-4.4.4",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8081",
+            "spec-name" : "RFC 8081" } ] },
+      
+      { "value" : "font\/otf",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/media-type\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/media-type\/font\/otf",
+        "details" : 
+        [ 
+          { "description" : "ISO\/IEC 14496-22 \"Open Font Format\" (OFF) specification being developed by ISO\/IEC SC29\/WG11.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8081#section-4.4.3",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8081",
+            "spec-name" : "RFC 8081" } ] },
+      
+      { "value" : "font\/sfnt",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/media-type\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/media-type\/font\/sfnt",
+        "details" : 
+        [ 
+          { "description" : "Note that \"font\/sfnt\" is an abstract type from which the (widely used in practice) \"font\/ttf\" and \"font\/otf\" types are conceptually derived. Use of \"font\/sfnt\" is likely to be rare in practice.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8081#section-4.4.1",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8081",
+            "spec-name" : "RFC 8081" } ] },
+      
+      { "value" : "font\/ttf",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/media-type\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/media-type\/font\/ttf",
+        "details" : 
+        [ 
+          { "description" : "ISO\/IEC 14496-22 \"Open Font Format\" (OFF) specification being developed by ISO\/IEC SC29\/WG11.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8081#section-4.4.2",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8081",
+            "spec-name" : "RFC 8081" } ] },
+      
+      { "value" : "font\/woff",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/media-type\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/media-type\/font\/woff",
+        "details" : 
+        [ 
+          { "description" : "WOFF is used by web browsers, often in conjunction with HTML and CSS.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8081#section-4.4.5",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8081",
+            "spec-name" : "RFC 8081" } ] },
+      
+      { "value" : "font\/woff2",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/media-type\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/media-type\/font\/woff2",
+        "details" : 
+        [ 
+          { "description" : "WOFF 2.0 is used by web browsers, often in conjunction with HTML and CSS. WOFF 2.0 is an improvement on WOFF 1.0.  The two formats have different Internet Media Types and different @font-face formats, and they may be used in parallel.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8081#section-4.4.6",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8081",
+            "spec-name" : "RFC 8081" } ] },
+      
       { "value" : "image\/png",
         "concept" : "http:\/\/webconcepts.info\/concepts\/media-type\/",
         "id" : "http:\/\/webconcepts.info\/concepts\/media-type\/image\/png",
