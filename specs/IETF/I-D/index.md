@@ -4,7 +4,7 @@ title:       "IETF Internet Draft Series"
 description: "List of specifications in the Internet Draft (I-D) series by the Internet Engineering Task Force (IETF)"
 ---
 
-There are currently 36 listed specifications in the [Internet Engineering Task Force (IETF)](..)'s Internet Draft (I-D) series.
+There are currently 35 listed specifications in the [Internet Engineering Task Force (IETF)](..)'s Internet Draft (I-D) series.
 
   * [A JSON Media Type for Describing the Structure and Meaning of JSON Documents (Internet Draft zyp-json-schema)](zyp-json-schema)
   * [Accept-Push-Policy Header Field (Internet Draft ruellan-http-accept-push-policy)](ruellan-http-accept-push-policy)
@@ -15,7 +15,6 @@ There are currently 36 listed specifications in the [Internet Engineering Task F
   * [Encrypted Content-Encoding for HTTP (Internet Draft ietf-httpbis-encryption-encoding)](ietf-httpbis-encryption-encoding)
   * [GeoJSON Text Sequences (Internet Draft ietf-geojson-text-sequence)](ietf-geojson-text-sequence)
   * [Guidelines for HTTP-to-CoAP Mapping Implementations (Internet Draft ietf-core-http-mapping)](ietf-core-http-mapping)
-  * [HTTP Client Hints (Internet Draft grigorik-http-client-hints)](grigorik-http-client-hints)
   * [HTTP Client Hints (Internet Draft ietf-httpbis-client-hints)](ietf-httpbis-client-hints)
   * [HTTP Immutable Responses (Internet Draft ietf-httpbis-immutable)](ietf-httpbis-immutable)
   * [HTTP Link and Unlink Methods (Internet Draft snell-link-method)](snell-link-method)

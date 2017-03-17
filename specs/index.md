@@ -8,8 +8,8 @@ This is a list of all organizations and their specification series that are used
 
 * [International Organization for Standardization (ISO)](ISO/): 2 Specifications
   * [International Electrotechnical Commission (IEC) Series](ISO/IEC/ "Series overview"): 2 Specifications
-* [Internet Engineering Task Force (IETF)](IETF/): 186 Specifications
-  * [Internet Draft (I-D) Series](IETF/I-D/ "Series overview"): 36 Specifications
+* [Internet Engineering Task Force (IETF)](IETF/): 185 Specifications
+  * [Internet Draft (I-D) Series](IETF/I-D/ "Series overview"): 35 Specifications
   * [Request for Comments (RFC) Series](IETF/RFC/ "Series overview"): 150 Specifications
 * [Java Community Process (JCP)](JCP/): 1 Specifications
   * [Java Specification Request (JSR) Series](JCP/JSR/ "Series overview"): 1 Specifications

@@ -57,15 +57,6 @@
       "abstract": "This document describes an improved HTTP caching method which can be applied in addition to the standard caching behavior for HTTP. It defines the associated header field that controls this improved caching mechanism and a modified caching operation which is slightly different to standard caching operation for HTTP.",
       "concepts": [{
        "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Cache-NT" }]}},{
-     "grigorik-http-client-hints": {
-      "id": "http://webconcepts.info/specs/IETF/I-D/grigorik-http-client-hints",
-      "title": "HTTP Client Hints",
-      "name": "Internet Draft grigorik-http-client-hints",
-      "URI": "urn:ietf:id:grigorik-http-client-hints",
-      "URL": "http://tools.ietf.org/html/draft-grigorik-http-client-hints",
-      "abstract": "An increasing diversity of connected device form factors and software capabilities has created a need to deliver varying, or optimized content for each device. Client Hints can be used as input to proactive content negotiation; just as the Accept header allowed clients to indicate what formats they prefer, Client Hints allow clients to indicate a list of device and agent specific preferences.",
-      "concepts": [{
-       "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/CH" }]}},{
      "hoffman-xml2rfc": {
       "id": "http://webconcepts.info/specs/IETF/I-D/hoffman-xml2rfc",
       "title": "The 'XML2RFC' version 3 Vocabulary",
