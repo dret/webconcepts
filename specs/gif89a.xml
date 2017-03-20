@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <service primary="misc" id="GIF89a">
     <title short="GIF">Graphics Interchange Format</title>
-    <mediatype xml:id="gif" type="image/gif">
-        <document xml:id="gif-image">
+    <mediatype type="image/gif">
+        <document>
             <title short="GIF Image">Graphics Interchange Format (GIF) Image</title>
             <documentation source="http://www.w3.org/Graphics/GIF/spec-gif89a.txt">The Graphics Interchange Format defines a protocol intended for the on-line transmission and interchange of raster graphic data in a way that is independent of the hardware used in their creation or display.</documentation>
         </document>
