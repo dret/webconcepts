@@ -691,6 +691,16 @@
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8081",
             "spec-name" : "RFC 8081" } ] },
       
+      { "value" : "image\/jpeg",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/media-type\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/media-type\/image\/jpeg",
+        "details" : 
+        [ 
+          { "description" : "JPEG File Interchange Format is a minimal file format which enables JPEG bitstreams to be exchanged between a wide variety of platforms and applications. This minimal format does not include any of the advanced features found in the TIFF JPEG specification or any application specific file format. Nor should it, for the only purpose of this simplified format is to allow the exchange of JPEG compressed images.",
+            "documentation" : "http:\/\/www.iso.org\/obp\/ui\/#iso:std:iso-iec:10918:-5",
+            "specification" : "http:\/\/webconcepts.info\/specs\/ISO\/IEC\/10918-5",
+            "spec-name" : "ISO\/IEC 10918-5" } ] },
+      
       { "value" : "image\/png",
         "concept" : "http:\/\/webconcepts.info\/concepts\/media-type\/",
         "id" : "http:\/\/webconcepts.info\/concepts\/media-type\/image\/png",

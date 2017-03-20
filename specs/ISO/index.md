@@ -4,6 +4,6 @@ title:       "International Organization for Standardization: Specification Seri
 description: "List of specification series by the International Organization for Standardization (ISO/)"
 ---
 
-Here is a list of all specification series by the [International Organization for Standardization (ISO)](http://www.iso.org/) that are currently available, for a total of 2 specifications:
+Here is a list of all specification series by the [International Organization for Standardization (ISO)](http://www.iso.org/) that are currently available, for a total of 3 specifications:
 
-  * [International Electrotechnical Commission (IEC)](IEC/) Series: 2 Specifications
+  * [International Electrotechnical Commission (IEC)](IEC/) Series: 3 Specifications
