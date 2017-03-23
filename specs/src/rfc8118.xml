@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<service primary="IETF" secondary="RFC" id="8118">
+    <title>The application/pdf Media Type</title>
+    <documentation source="http://tools.ietf.org/html/rfc8118">The Portable Document Format (PDF) is an ISO standard (ISO 32000-1:2008) defining a final-form document representation language in use for document exchange, including on the Internet, since 1993. This document provides an overview of the PDF format and updates the media type registration of "application/pdf".</documentation>
+    <media-type def="application/pdf">
+        <documentation source="http://tools.ietf.org/html/rfc8118#section-1">PDF is used to represent "final form" formatted documents. PDF pages may include text, images, graphics, and multimedia content such as video and audio. PDF is also capable of containing auxiliary structures, including annotations, bookmarks, file attachments, hyperlinks, logical structures, and metadata. These features are useful for navigation and building collections of related documents, as well as for reviewing and commenting on documents.</documentation>
+    </media-type>
+</service>

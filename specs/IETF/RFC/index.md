@@ -130,7 +130,7 @@ There are currently 150 listed specifications in the [Internet Engineering Task 
   * [The Safe Response Header Field (RFC 2310)](2310)
   * [The Secure HyperText Transfer Protocol (S-HTTP) (RFC 2660)](2660)
   * [The WebSocket Protocol (RFC 6455)](6455)
-  * [The application/pdf Media Type (RFC 3778)](3778)
+  * [The application/pdf Media Type (RFC 8118)](8118)
   * [The application/sql Media Type (RFC 6922)](6922)
   * [The telnet URI Scheme (RFC 4248)](4248)
   * [The text/markdown Media Type (RFC 7763)](7763)

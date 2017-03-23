@@ -633,15 +633,6 @@
       "abstract": "This document specifies a set of methods, headers, message bodies, properties, and reports that define Access Control extensions to the WebDAV Distributed Authoring Protocol. This protocol permits a client to read and modify access control lists that instruct a server whether to allow or deny operations upon a resource (such as HyperText Transfer Protocol (HTTP) method invocations) by a given principal. A lightweight representation of principals as Web resources supports integration of a wide range of user management repositories. Search operations allow discovery and manipulation of principals using human names.",
       "concepts": [{
        "http://webconcepts.info/concepts/http-method/": "http://webconcepts.info/concepts/http-method/ACL" }]}},{
-     "3778": {
-      "id": "http://webconcepts.info/specs/IETF/RFC/3778",
-      "title": "The application/pdf Media Type",
-      "name": "RFC 3778",
-      "URI": "urn:ietf:rfc:3778",
-      "URL": "http://tools.ietf.org/html/rfc3778",
-      "abstract": "PDF, the 'Portable Document Format', is a general document representation language that has been in use for document exchange on the Internet since 1993. This document provides an overview of the PDF format, explains the mechanisms for digital signatures and encryption within PDF files, and updates the media type registration of 'application/pdf'.",
-      "concepts": [{
-       "http://webconcepts.info/concepts/media-type/": "http://webconcepts.info/concepts/media-type/application/pdf" }]}},{
      "3859": {
       "id": "http://webconcepts.info/specs/IETF/RFC/3859",
       "title": "Common Profile for Presence (CPP)",
@@ -2077,7 +2068,16 @@
       "URL": "http://tools.ietf.org/html/rfc8107",
       "abstract": "Advertising Digital Identifiers (Ad-IDs) are used to identify advertising assets across all media platforms. This document defines the formal Uniform Resource Name (URN) Namespace Identifier (NID) \"adid\" for Ad-IDs.",
       "concepts": [{
-       "http://webconcepts.info/concepts/urn-namespace/": "http://webconcepts.info/concepts/urn-namespace/adid" }]}}]}}]},
+       "http://webconcepts.info/concepts/urn-namespace/": "http://webconcepts.info/concepts/urn-namespace/adid" }]}},{
+     "8118": {
+      "id": "http://webconcepts.info/specs/IETF/RFC/8118",
+      "title": "The application/pdf Media Type",
+      "name": "RFC 8118",
+      "URI": "urn:ietf:rfc:8118",
+      "URL": "http://tools.ietf.org/html/rfc8118",
+      "abstract": "The Portable Document Format (PDF) is an ISO standard (ISO 32000-1:2008) defining a final-form document representation language in use for document exchange, including on the Internet, since 1993. This document provides an overview of the PDF format and updates the media type registration of \"application/pdf\".",
+      "concepts": [{
+       "http://webconcepts.info/concepts/media-type/": "http://webconcepts.info/concepts/media-type/application/pdf" }]}}]}}]},
  "ISO": {
   "id": "http://webconcepts.info/specs/ISO/",
   "name": "International Organization for Standardization",
