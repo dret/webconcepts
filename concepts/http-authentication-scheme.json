@@ -52,9 +52,9 @@
         "details" : 
         [ 
           { "description" : "The scheme provides true mutual authentication between an HTTP client and an HTTP server, using just a simple password as a credential.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-httpauth-mutual#section-2",
-            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpauth-mutual",
-            "spec-name" : "Internet Draft ietf-httpauth-mutual" } ] },
+            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8120#section-2",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8120",
+            "spec-name" : "RFC 8120" } ] },
       
       { "value" : "Negotiate",
         "concept" : "http:\/\/webconcepts.info\/concepts\/http-authentication-scheme\/",

@@ -85,15 +85,6 @@
       "abstract": "This document describes the GeoJSON text sequence format and \"application/geo+json-seq\" media type. This format is based on JavaScript Object Notation (JSON) Text Sequences and GeoJSON, and makes arbitrarily large geographic datasets incrementally parseable without restricting the form of GeoJSON texts within a sequence.",
       "concepts": [{
        "http://webconcepts.info/concepts/media-type/": "http://webconcepts.info/concepts/media-type/application/geo+json-seq" }]}},{
-     "ietf-httpauth-mutual": {
-      "id": "http://webconcepts.info/specs/IETF/I-D/ietf-httpauth-mutual",
-      "title": "Mutual Authentication Protocol for HTTP",
-      "name": "Internet Draft ietf-httpauth-mutual",
-      "URI": "urn:ietf:id:ietf-httpauth-mutual",
-      "URL": "http://tools.ietf.org/html/draft-ietf-httpauth-mutual",
-      "abstract": "This document specifies a mutual authentication scheme for the Hypertext Transfer Protocol (HTTP). This scheme provides true mutual authentication between an HTTP client and an HTTP server using password-based authentication. Unlike the Basic and Digest authentication schemes, the Mutual authentication scheme specified in this document assures the user that the server truly knows the user's encrypted password.",
-      "concepts": [{
-       "http://webconcepts.info/concepts/http-authentication-scheme/": "http://webconcepts.info/concepts/http-authentication-scheme/Mutual" }]}},{
      "ietf-httpbis-client-hints": {
       "id": "http://webconcepts.info/specs/IETF/I-D/ietf-httpbis-client-hints",
       "title": "HTTP Client Hints",
@@ -2077,7 +2068,16 @@
       "URL": "http://tools.ietf.org/html/rfc8118",
       "abstract": "The Portable Document Format (PDF) is an ISO standard (ISO 32000-1:2008) defining a final-form document representation language in use for document exchange, including on the Internet, since 1993. This document provides an overview of the PDF format and updates the media type registration of \"application/pdf\".",
       "concepts": [{
-       "http://webconcepts.info/concepts/media-type/": "http://webconcepts.info/concepts/media-type/application/pdf" }]}}]}}]},
+       "http://webconcepts.info/concepts/media-type/": "http://webconcepts.info/concepts/media-type/application/pdf" }]}},{
+     "8120": {
+      "id": "http://webconcepts.info/specs/IETF/RFC/8120",
+      "title": "Mutual Authentication Protocol for HTTP",
+      "name": "RFC 8120",
+      "URI": "urn:ietf:rfc:8120",
+      "URL": "http://tools.ietf.org/html/rfc8120",
+      "abstract": "This document specifies an authentication scheme for the Hypertext Transfer Protocol (HTTP) that is referred to as either the Mutual authentication scheme or the Mutual authentication protocol. This scheme provides true mutual authentication between an HTTP client and an HTTP server using password-based authentication. Unlike the Basic and Digest authentication schemes, the Mutual authentication scheme specified in this document assures the user that the server truly knows the user's encrypted password.",
+      "concepts": [{
+       "http://webconcepts.info/concepts/http-authentication-scheme/": "http://webconcepts.info/concepts/http-authentication-scheme/Mutual" }]}}]}}]},
  "ISO": {
   "id": "http://webconcepts.info/specs/ISO/",
   "name": "International Organization for Standardization",
