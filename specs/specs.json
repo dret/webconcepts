@@ -1262,6 +1262,15 @@
        "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/privacy-policy" }, {
        "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/terms-of-service" }, {
        "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/type" }]}},{
+     "6906": {
+      "id": "http://webconcepts.info/specs/IETF/RFC/6906",
+      "title": "The 'profile' Link Relation Type",
+      "name": "RFC 6906",
+      "URI": "urn:ietf:rfc:6906",
+      "URL": "http://tools.ietf.org/html/rfc6906",
+      "abstract": "This specification defines the 'profile' link relation type that allows resource representations to indicate that they are following one or more profiles. A profile is defined not to alter the semantics of the resource representation itself, but to allow clients to learn about additional semantics (constraints, conventions, extensions) that are associated with the resource representation, in addition to those defined by the media type and possibly other mechanisms.",
+      "concepts": [{
+       "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/profile" }]}},{
      "6920": {
       "id": "http://webconcepts.info/specs/IETF/RFC/6920",
       "title": "Naming Things with Hashes",

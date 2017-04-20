@@ -1,0 +1,10 @@
+
+  { "value" : "profile",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/profile",
+    "details" : 
+    [ 
+      { "description" : "A profile can be described as additional semantics that can be used to process a resource representation, such as constraints, conventions, extensions, or any other aspects that do not alter the basic media type semantics. A profile MUST NOT change the semantics of the resource representation when processed without profile knowledge, so that clients both with and without knowledge of a profiled resource can safely use the same representation.",
+        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6906#section-3",
+        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6906",
+        "spec-name" : "RFC 6906" } ] }
