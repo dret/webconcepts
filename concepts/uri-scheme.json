@@ -46,6 +46,46 @@
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/2392",
             "spec-name" : "RFC 2392" } ] },
       
+      { "value" : "coap+tcp",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/uri-scheme\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/uri-scheme\/coap+tcp",
+        "details" : 
+        [ 
+          { "description" : "The \"coap+tcp\" URI scheme identifies CoAP resources that are intended to be accessible using CoAP over TCP.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-core-coap-tcp-tls#section-7.1",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-core-coap-tcp-tls",
+            "spec-name" : "Internet Draft ietf-core-coap-tcp-tls" } ] },
+      
+      { "value" : "coap+ws",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/uri-scheme\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/uri-scheme\/coap+ws",
+        "details" : 
+        [ 
+          { "description" : "The \"coap+ws\" URI scheme identifies CoAP resources that are intended to be accessible using CoAP over WebSockets.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-core-coap-tcp-tls#section-7.3",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-core-coap-tcp-tls",
+            "spec-name" : "Internet Draft ietf-core-coap-tcp-tls" } ] },
+      
+      { "value" : "coaps+tcp",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/uri-scheme\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/uri-scheme\/coaps+tcp",
+        "details" : 
+        [ 
+          { "description" : "The \"coaps+tcp\" URI scheme identifies CoAP resources that are intended to be accessible using CoAP over TCP secured with TLS.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-core-coap-tcp-tls#section-7.2",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-core-coap-tcp-tls",
+            "spec-name" : "Internet Draft ietf-core-coap-tcp-tls" } ] },
+      
+      { "value" : "coaps+ws",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/uri-scheme\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/uri-scheme\/coaps+ws",
+        "details" : 
+        [ 
+          { "description" : "The \"coaps+ws\" URI scheme identifies CoAP resources that are intended to be accessible using CoAP over WebSockets secured by TLS.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-core-coap-tcp-tls#section-7.4",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-core-coap-tcp-tls",
+            "spec-name" : "Internet Draft ietf-core-coap-tcp-tls" } ] },
+      
       { "value" : "data",
         "concept" : "http:\/\/webconcepts.info\/concepts\/uri-scheme\/",
         "id" : "http:\/\/webconcepts.info\/concepts\/uri-scheme\/data",

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<service primary="IETF" secondary="I-D" id="ietf-core-coap-tcp-tls">
+    <title>CoAP (Constrained Application Protocol) over TCP, TLS, and WebSockets</title>
+    <documentation source="http://tools.ietf.org/html/draft-ietf-core-coap-tcp-tls">The Constrained Application Protocol (CoAP), although inspired by HTTP, was designed to use UDP instead of TCP. The message layer of the CoAP over UDP protocol includes support for reliable delivery, simple congestion control, and flow control. Some environments benefit from the availability of CoAP carried over reliable transports such as TCP or TLS. This document outlines the changes required to use CoAP over TCP, TLS, and WebSockets transports. It also formally updates RFC 7641 for use with these transports.</documentation>
+    <uri-scheme def="coap+tcp">
+        <documentation source="http://tools.ietf.org/html/draft-ietf-core-coap-tcp-tls#section-7.1">The "coap+tcp" URI scheme identifies CoAP resources that are intended to be accessible using CoAP over TCP.</documentation>
+    </uri-scheme>
+    <uri-scheme def="coaps+tcp">
+        <documentation source="http://tools.ietf.org/html/draft-ietf-core-coap-tcp-tls#section-7.2">The "coaps+tcp" URI scheme identifies CoAP resources that are intended to be accessible using CoAP over TCP secured with TLS.</documentation>
+    </uri-scheme>
+    <uri-scheme def="coap+ws">
+        <documentation source="http://tools.ietf.org/html/draft-ietf-core-coap-tcp-tls#section-7.3">The "coap+ws" URI scheme identifies CoAP resources that are intended to be accessible using CoAP over WebSockets.</documentation>
+    </uri-scheme>
+    <uri-scheme def="coaps+ws">
+        <documentation source="http://tools.ietf.org/html/draft-ietf-core-coap-tcp-tls#section-7.4">The "coaps+ws" URI scheme identifies CoAP resources that are intended to be accessible using CoAP over WebSockets secured by TLS.</documentation>
+    </uri-scheme>
+    <well-known-uri def="coap">
+        <documentation source="http://tools.ietf.org/html/draft-ietf-core-coap-tcp-tls#section-10.6">For "coap+ws" respectively "coaps+ws" URIs, the WebSocket endpoint is identified by a "ws" respectively "wss" URI that is composed of the authority part of the URI and the well-known path "/.well-known/coap".</documentation>
+    </well-known-uri>
+</service>

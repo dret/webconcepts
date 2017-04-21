@@ -1,0 +1,10 @@
+
+  { "value" : "coaps+ws",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/uri-scheme\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/uri-scheme\/coaps+ws",
+    "details" : 
+    [ 
+      { "description" : "The \"coaps+ws\" URI scheme identifies CoAP resources that are intended to be accessible using CoAP over WebSockets secured by TLS.",
+        "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-core-coap-tcp-tls#section-7.4",
+        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-core-coap-tcp-tls",
+        "spec-name" : "Internet Draft ietf-core-coap-tcp-tls" } ] }

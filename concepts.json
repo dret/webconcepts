@@ -6318,6 +6318,46 @@
               "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/2392",
               "spec-name" : "RFC 2392" } ] },
         
+        { "value" : "coap+tcp",
+          "concept" : "http:\/\/webconcepts.info\/concepts\/uri-scheme\/",
+          "id" : "http:\/\/webconcepts.info\/concepts\/uri-scheme\/coap+tcp",
+          "details" : 
+          [ 
+            { "description" : "The \"coap+tcp\" URI scheme identifies CoAP resources that are intended to be accessible using CoAP over TCP.",
+              "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-core-coap-tcp-tls#section-7.1",
+              "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-core-coap-tcp-tls",
+              "spec-name" : "Internet Draft ietf-core-coap-tcp-tls" } ] },
+        
+        { "value" : "coap+ws",
+          "concept" : "http:\/\/webconcepts.info\/concepts\/uri-scheme\/",
+          "id" : "http:\/\/webconcepts.info\/concepts\/uri-scheme\/coap+ws",
+          "details" : 
+          [ 
+            { "description" : "The \"coap+ws\" URI scheme identifies CoAP resources that are intended to be accessible using CoAP over WebSockets.",
+              "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-core-coap-tcp-tls#section-7.3",
+              "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-core-coap-tcp-tls",
+              "spec-name" : "Internet Draft ietf-core-coap-tcp-tls" } ] },
+        
+        { "value" : "coaps+tcp",
+          "concept" : "http:\/\/webconcepts.info\/concepts\/uri-scheme\/",
+          "id" : "http:\/\/webconcepts.info\/concepts\/uri-scheme\/coaps+tcp",
+          "details" : 
+          [ 
+            { "description" : "The \"coaps+tcp\" URI scheme identifies CoAP resources that are intended to be accessible using CoAP over TCP secured with TLS.",
+              "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-core-coap-tcp-tls#section-7.2",
+              "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-core-coap-tcp-tls",
+              "spec-name" : "Internet Draft ietf-core-coap-tcp-tls" } ] },
+        
+        { "value" : "coaps+ws",
+          "concept" : "http:\/\/webconcepts.info\/concepts\/uri-scheme\/",
+          "id" : "http:\/\/webconcepts.info\/concepts\/uri-scheme\/coaps+ws",
+          "details" : 
+          [ 
+            { "description" : "The \"coaps+ws\" URI scheme identifies CoAP resources that are intended to be accessible using CoAP over WebSockets secured by TLS.",
+              "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-core-coap-tcp-tls#section-7.4",
+              "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-core-coap-tcp-tls",
+              "spec-name" : "Internet Draft ietf-core-coap-tcp-tls" } ] },
+        
         { "value" : "data",
           "concept" : "http:\/\/webconcepts.info\/concepts\/uri-scheme\/",
           "id" : "http:\/\/webconcepts.info\/concepts\/uri-scheme\/data",
@@ -6701,6 +6741,16 @@
               "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6764#section-5",
               "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6764",
               "spec-name" : "RFC 6764" } ] },
+        
+        { "value" : "coap",
+          "concept" : "http:\/\/webconcepts.info\/concepts\/well-known-uri\/",
+          "id" : "http:\/\/webconcepts.info\/concepts\/well-known-uri\/coap",
+          "details" : 
+          [ 
+            { "description" : "For \"coap+ws\" respectively \"coaps+ws\" URIs, the WebSocket endpoint is identified by a \"ws\" respectively \"wss\" URI that is composed of the authority part of the URI and the well-known path \"\/.well-known\/coap\".",
+              "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-core-coap-tcp-tls#section-10.6",
+              "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-core-coap-tcp-tls",
+              "spec-name" : "Internet Draft ietf-core-coap-tcp-tls" } ] },
         
         { "value" : "core",
           "concept" : "http:\/\/webconcepts.info\/concepts\/well-known-uri\/",

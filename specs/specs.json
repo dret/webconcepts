@@ -67,6 +67,19 @@
       "concepts": [{
        "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/derivedfrom" }, {
        "http://webconcepts.info/concepts/media-type/": "http://webconcepts.info/concepts/media-type/application/rfc+xml" }]}},{
+     "ietf-core-coap-tcp-tls": {
+      "id": "http://webconcepts.info/specs/IETF/I-D/ietf-core-coap-tcp-tls",
+      "title": "CoAP (Constrained Application Protocol) over TCP, TLS, and WebSockets",
+      "name": "Internet Draft ietf-core-coap-tcp-tls",
+      "URI": "urn:ietf:id:ietf-core-coap-tcp-tls",
+      "URL": "http://tools.ietf.org/html/draft-ietf-core-coap-tcp-tls",
+      "abstract": "The Constrained Application Protocol (CoAP), although inspired by HTTP, was designed to use UDP instead of TCP. The message layer of the CoAP over UDP protocol includes support for reliable delivery, simple congestion control, and flow control. Some environments benefit from the availability of CoAP carried over reliable transports such as TCP or TLS. This document outlines the changes required to use CoAP over TCP, TLS, and WebSockets transports. It also formally updates RFC 7641 for use with these transports.",
+      "concepts": [{
+       "http://webconcepts.info/concepts/uri-scheme/": "http://webconcepts.info/concepts/uri-scheme/coap+tcp" }, {
+       "http://webconcepts.info/concepts/uri-scheme/": "http://webconcepts.info/concepts/uri-scheme/coap+ws" }, {
+       "http://webconcepts.info/concepts/uri-scheme/": "http://webconcepts.info/concepts/uri-scheme/coaps+tcp" }, {
+       "http://webconcepts.info/concepts/uri-scheme/": "http://webconcepts.info/concepts/uri-scheme/coaps+ws" }, {
+       "http://webconcepts.info/concepts/well-known-uri/": "http://webconcepts.info/concepts/well-known-uri/coap" }]}},{
      "ietf-core-http-mapping": {
       "id": "http://webconcepts.info/specs/IETF/I-D/ietf-core-http-mapping",
       "title": "Guidelines for HTTP-to-CoAP Mapping Implementations",

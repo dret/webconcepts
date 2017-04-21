@@ -1,0 +1,97 @@
+---
+layout:      page
+title:       "CoAP (Constrained Application Protocol) over TCP, TLS, and WebSockets"
+description: "The Constrained Application Protocol (CoAP), although inspired by HTTP, was designed
+to use UDP instead of TCP. The message layer of the CoAP over UDP protocol includes
+support for reliable delivery, simple congestion control, and flow control. Some environments
+benefit from the availability of CoAP carried over reliable transports such as TCP
+or TLS. This document outlines the changes required to use CoAP over TCP, TLS, and
+WebSockets transports. It also formally updates RFC 7641 for use with these transports."
+---
+
+<table cellpadding="5">
+   <tr>
+      <th valign="top" align="right">
+         <em>Document Name:</em>
+      </th>
+      <td>Internet Draft ietf-core-coap-tcp-tls</td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Document URI:</em>
+      </th>
+      <td>
+         <code>urn:ietf:id:ietf-core-coap-tcp-tls</code>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Online Version:</em>
+      </th>
+      <td>
+         <code>
+            <a href="http://tools.ietf.org/html/draft-ietf-core-coap-tcp-tls">http://tools.ietf.org/html/draft-ietf-core-coap-tcp-tls</a>
+         </code>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Organization:</em>
+      </th>
+      <td>
+         <a href="../" title="List of specification series by this organization">Internet Engineering Task Force (IETF)</a>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Series:</em>
+      </th>
+      <td>
+         <a href="./" title="List of specifications in this series">Internet Draft (I-D)</a>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Abstract:</em>
+      </th>
+      <td>The Constrained Application Protocol (CoAP), although inspired by HTTP, was designed
+         to use UDP instead of TCP. The message layer of the CoAP over UDP protocol includes
+         support for reliable delivery, simple congestion control, and flow control. Some environments
+         benefit from the availability of CoAP carried over reliable transports such as TCP
+         or TLS. This document outlines the changes required to use CoAP over TCP, TLS, and
+         WebSockets transports. It also formally updates RFC 7641 for use with these transports.
+      </td>
+   </tr>
+</table>
+<br></br>
+<hr></hr>
+<h2 id="concepts">Specified Web Concepts:</h2>
+<h3 id="uri-scheme">
+   <a href="/concepts/uri-scheme/" title="List of all URI Schemes">URI Schemes</a>
+</h3>
+<code>
+   <a href="/concepts/uri-scheme/coap+tcp" title="The &amp;#34;coap+tcp&amp;#34; URI scheme identifies CoAP resources that are intended to be accessible using CoAP over TCP.">coap+tcp</a>
+</code>, 
+<code>
+   <a href="/concepts/uri-scheme/coap+ws" title="The &amp;#34;coap+ws&amp;#34; URI scheme identifies CoAP resources that are intended to be accessible using CoAP over WebSockets.">coap+ws</a>
+</code>, 
+<code>
+   <a href="/concepts/uri-scheme/coaps+tcp" title="The &amp;#34;coaps+tcp&amp;#34; URI scheme identifies CoAP resources that are intended to be accessible using CoAP over TCP secured with TLS.">coaps+tcp</a>
+</code>, 
+<code>
+   <a href="/concepts/uri-scheme/coaps+ws" title="The &amp;#34;coaps+ws&amp;#34; URI scheme identifies CoAP resources that are intended to be accessible using CoAP over WebSockets secured by TLS.">coaps+ws</a>
+</code>
+<br></br>
+<h3 id="well-known-uri">
+   <a href="/concepts/well-known-uri/" title="List of all Well-Known URIs">Well-Known URIs</a>
+</h3>
+<code>
+   <a href="/concepts/well-known-uri/coap" title="For &amp;#34;coap+ws&amp;#34; respectively &amp;#34;coaps+ws&amp;#34; URIs, the WebSocket endpoint is identified by a &amp;#34;ws&amp;#34; respectively &amp;#34;wss&amp;#34; URI that is composed of the authority part of the URI and the well-known path &amp;#34;/.well-known/coap&amp;#34;.">coap</a>
+</code>
+<br></br>
+<hr></hr>
+<p style="text-align: right">Return to ( 
+   <a href="./">Series</a> | 
+   <a href="../">Organization</a> | 
+   <a href="../../">all Specifications</a> )
+</p>
