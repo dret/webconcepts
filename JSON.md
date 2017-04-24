@@ -6,7 +6,7 @@ permalink: /JSON
 
 # Web Concepts in JSON
 
-*Web Concepts* data is available as JSON. All JSON data is generated from the source data, which is managed [as a set of XML descriptions of specifications](https://github.com/dret/webconcepts/tree/gh-pages/specs/src). This page documents where to find JSON documents, and how they are structured.
+*Web Concepts* data is available as JSON. All JSON data is generated from the source data, which is managed [as a set of XML descriptions of specifications](https://github.com/dret/webconcepts/tree/gh-pages/src/specs/). This page documents where to find JSON documents, and how they are structured.
 
 
 ## JSON Document Locations

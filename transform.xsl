@@ -3,8 +3,9 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="3.0">
     <!-- -->
     <xsl:variable name="specs-dir" select="'specs'"/>
-    <xsl:variable name="specs" select="document(concat($specs-dir, '/specs.xml'))"/>
-    <xsl:variable name="allspecs" select="collection(concat($specs-dir, '/src/?select=*.xml'))"/>
+    <xsl:variable name="specs-src" select="'src'"/>
+    <xsl:variable name="specs" select="document(concat($specs-src, '/specs.xml'))"/>
+    <xsl:variable name="allspecs" select="collection(concat($specs-src, '/specs/?select=*.xml'))"/>
     <!-- -->
     <xsl:variable name="concepts-dir" select="'concepts'"/>
     <xsl:variable name="concepts" select="document('concepts.xml')"/>
