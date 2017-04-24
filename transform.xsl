@@ -4,7 +4,7 @@
     <!-- -->
     <xsl:variable name="specs-dir" select="'specs'"/>
     <xsl:variable name="specs-src" select="'src'"/>
-    <xsl:variable name="specs" select="document(concat($specs-src, '/specs.xml'))"/>
+    <xsl:variable name="specs" select="document('specs.xml')"/>
     <xsl:variable name="allspecs" select="collection(concat($specs-src, '/specs/?select=*.xml'))"/>
     <!-- -->
     <xsl:variable name="concepts-dir" select="'concepts'"/>

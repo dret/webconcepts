@@ -43,7 +43,7 @@
                 <xsl:value-of select="xml-to-json($concept-values-json, map{'indent':true()})"/>
             </xsl:result-document>
         </xsl:for-each>
-        <xsl:result-document href="{$specs-dir}/specs.json" format="json">
+        <xsl:result-document href="specs.json" format="json">
             <xsl:text>{&#xa;</xsl:text>
             <xsl:for-each-group select="$allspecs/service" group-by="@primary">
                 <xsl:sort select="@primary"/>

@@ -13,7 +13,7 @@ permalink: /JSON
 
 There are two major JSON files that represent two "perspectives" of the same data, one from the specification angle, and the other from the concept angle:
 
-* [`specs.json`](/specs/specs.json) is a structured representation of all specifications that were found in the source data. They are grouped by organization first and specification series second, as [defined in the specification configuration file](/src/specs.xml) and [shown on the specifications page](specs/).
+* [`specs.json`](/specs.json) is a structured representation of all specifications that were found in the source data. They are grouped by organization first and specification series second, as [defined in the specification configuration file](/specs.xml) and [shown on the specifications page](specs/).
 
 * [`concepts.json`](/concepts.json) is a structured representation of all concepts that were found in the source data. They are grouped by concepts, as [defined in the concept configuration file](/concepts.xml) and [shown on the concepts page](/concepts)
 

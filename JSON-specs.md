@@ -6,14 +6,14 @@ permalink: /JSON-specs
 
 # Web Concepts in JSON: Specification Data
 
-The current specification model of Web Concepts is based on the assumption that specifications have an *organization* behind them, and that organizations publish *specification series*. This model is defined in the [XML configuration file for specifications](/src/specs.xml), which defines the supported organizations (in the `<primary>` elements) and their series (in the embedded `<secondary>` elements).
+The current specification model of Web Concepts is based on the assumption that specifications have an *organization* behind them, and that organizations publish *specification series*. This model is defined in the [XML configuration file for specifications](/specs.xml), which defines the supported organizations (in the `<primary>` elements) and their series (in the embedded `<secondary>` elements).
 
 In the JSON document structure, specifications are grouped by *organization* on the top level, and by *specification series* on the second level. Underneath that second level, individual specifications are listed.
 
 
 ## JSON Document Structure
 
-The following JSON snippet shows one part of [the complete JSON representation for specifications](/specs/specs.json). Everything but the [IETF RFC 2648 specification](/specs/IETF/RFC/2648) has been removed in this example.
+The following JSON snippet shows one part of [the complete JSON representation for specifications](/specs.json). Everything but the [IETF RFC 2648 specification](/specs/IETF/RFC/2648) has been removed in this example.
 
 ```json
 { "IETF":
