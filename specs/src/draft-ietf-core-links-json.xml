@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<service primary="IETF" secondary="I-D" id="ietf-core-links-json">
+    <title>Representing CoRE Formats in JSON and CBOR</title>
+    <documentation source="http://tools.ietf.org/html/draft-ietf-core-links-json">JavaScript Object Notation (JSON) is a text-based data format which is popular for Web based data exchange. Concise Binary Object Representation (CBOR) is a binary data format which has been optimized for data exchange for the Internet of Things (IoT). For many IoT scenarios, CBOR formats will be preferred since it can help decrease transmission payload sizes as well as implementation code sizes compared to other data formats. Web Linking (RFC 5988) provides a way to represent links between Web resources as well as the relations expressed by them and attributes of such a link. In constrained networks, a collection of Web links can be exchanged in the CoRE link format (RFC 6690). Outside of constrained environments, it may be useful to represent these collections of Web links in JSON, and similarly, inside constrained environments, in CBOR. This specification defines a common format for this.</documentation>
+    <media-type def="application/link-format+json">
+        <documentation source="http://tools.ietf.org/html/draft-ietf-core-links-json#section-2">An application/link-format document is a collection of web links, each of which is a collection of attributes applied to a "URI-Reference". The application/link-format+json media type is a JSON-based serialization of such a document.</documentation>
+    </media-type>
+    <media-type def="application/link-format+cbor">
+        <documentation source="http://tools.ietf.org/html/draft-ietf-core-links-json#section-2">An application/link-format document is a collection of web links, each of which is a collection of attributes applied to a "URI-Reference". The application/link-format+cbor media type is a CBOR-based serialization of such a document.</documentation>
+    </media-type>
+</service>

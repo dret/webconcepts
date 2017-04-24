@@ -89,6 +89,16 @@
       "abstract": "This document provides reference information for implementing a cross-protocol network proxy that performs translation from the HTTP protocol to the CoAP protocol. This will enable a HTTP client to access resources on a CoAP server through the proxy. This document describes how a HTTP request is mapped to a CoAP request, and then how a CoAP response is mapped back to a HTTP response. This includes guidelines for URI mapping, media type mapping and additional proxy implementation issues. This document covers the Reverse, Forward and Interception cross-protocol proxy cases.",
       "concepts": [{
        "http://webconcepts.info/concepts/media-type/": "http://webconcepts.info/concepts/media-type/application/coap-payload" }]}},{
+     "ietf-core-links-json": {
+      "id": "http://webconcepts.info/specs/IETF/I-D/ietf-core-links-json",
+      "title": "Representing CoRE Formats in JSON and CBOR",
+      "name": "Internet Draft ietf-core-links-json",
+      "URI": "urn:ietf:id:ietf-core-links-json",
+      "URL": "http://tools.ietf.org/html/draft-ietf-core-links-json",
+      "abstract": "JavaScript Object Notation (JSON) is a text-based data format which is popular for Web based data exchange. Concise Binary Object Representation (CBOR) is a binary data format which has been optimized for data exchange for the Internet of Things (IoT). For many IoT scenarios, CBOR formats will be preferred since it can help decrease transmission payload sizes as well as implementation code sizes compared to other data formats. Web Linking (RFC 5988) provides a way to represent links between Web resources as well as the relations expressed by them and attributes of such a link. In constrained networks, a collection of Web links can be exchanged in the CoRE link format (RFC 6690). Outside of constrained environments, it may be useful to represent these collections of Web links in JSON, and similarly, inside constrained environments, in CBOR. This specification defines a common format for this.",
+      "concepts": [{
+       "http://webconcepts.info/concepts/media-type/": "http://webconcepts.info/concepts/media-type/application/link-format+cbor" }, {
+       "http://webconcepts.info/concepts/media-type/": "http://webconcepts.info/concepts/media-type/application/link-format+json" }]}},{
      "ietf-geojson-text-sequence": {
       "id": "http://webconcepts.info/specs/IETF/I-D/ietf-geojson-text-sequence",
       "title": "GeoJSON Text Sequences",

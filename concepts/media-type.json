@@ -331,6 +331,26 @@
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6690",
             "spec-name" : "RFC 6690" } ] },
       
+      { "value" : "application\/link-format+cbor",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/media-type\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/media-type\/application\/link-format+cbor",
+        "details" : 
+        [ 
+          { "description" : "An application\/link-format document is a collection of web links, each of which is a collection of attributes applied to a \"URI-Reference\". The application\/link-format+cbor media type is a CBOR-based serialization of such a document.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-core-links-json#section-2",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-core-links-json",
+            "spec-name" : "Internet Draft ietf-core-links-json" } ] },
+      
+      { "value" : "application\/link-format+json",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/media-type\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/media-type\/application\/link-format+json",
+        "details" : 
+        [ 
+          { "description" : "An application\/link-format document is a collection of web links, each of which is a collection of attributes applied to a \"URI-Reference\". The application\/link-format+json media type is a JSON-based serialization of such a document.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-core-links-json#section-2",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-core-links-json",
+            "spec-name" : "Internet Draft ietf-core-links-json" } ] },
+      
       { "value" : "application\/mads+xml",
         "concept" : "http:\/\/webconcepts.info\/concepts\/media-type\/",
         "id" : "http:\/\/webconcepts.info\/concepts\/media-type\/application\/mads+xml",
