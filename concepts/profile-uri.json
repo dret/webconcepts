@@ -5,4 +5,13 @@
     "name-plural" : "Profile URIs",
     "registry" : "https:\/\/www.iana.org\/assignments\/profile-uris\/profile-uris.xhtml#profile",
     "values" : 
-    [  ] }
+    [ 
+      { "value" : "urn:example:profile-uri",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/profile-uri\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/profile-uri\/urn:example:profile-uri",
+        "details" : 
+        [ 
+          { "description" : "A profile to be used in examples, in accordance with RFC 6963.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7284#section-3",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7284",
+            "spec-name" : "RFC 7284" } ] } ] }

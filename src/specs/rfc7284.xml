@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<service primary="IETF" secondary="RFC" id="7284">
+    <title>The Profile URI Registry</title>
+    <documentation source="http://tools.ietf.org/html/rfc7284">This document defines a registry for profile URIs to be used in specifications standardizing profiles.</documentation>
+    <profile-uri def="urn:example:profile-uri">
+        <documentation source="http://tools.ietf.org/html/rfc7284#section-3">A profile to be used in examples, in accordance with RFC 6963.</documentation>
+    </profile-uri>
+</service>

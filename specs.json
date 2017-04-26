@@ -1628,6 +1628,15 @@
        "http://webconcepts.info/concepts/http-preference/": "http://webconcepts.info/concepts/http-preference/respond-async" }, {
        "http://webconcepts.info/concepts/http-preference/": "http://webconcepts.info/concepts/http-preference/return" }, {
        "http://webconcepts.info/concepts/http-preference/": "http://webconcepts.info/concepts/http-preference/wait" }]}},{
+     "7284": {
+      "id": "http://webconcepts.info/specs/IETF/RFC/7284",
+      "title": "The Profile URI Registry",
+      "name": "RFC 7284",
+      "URI": "urn:ietf:rfc:7284",
+      "URL": "http://tools.ietf.org/html/rfc7284",
+      "abstract": "This document defines a registry for profile URIs to be used in specifications standardizing profiles.",
+      "concepts": [{
+       "http://webconcepts.info/concepts/profile-uri/": "http://webconcepts.info/concepts/profile-uri/urn:example:profile-uri" }]}},{
      "7303": {
       "id": "http://webconcepts.info/specs/IETF/RFC/7303",
       "title": "XML Media Types",
