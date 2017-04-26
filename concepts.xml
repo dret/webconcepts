@@ -140,4 +140,9 @@
         <title-plural>HTTP Authentication Schemes</title-plural>
         <iana-registry>http://www.iana.org/assignments/http-authschemes/http-authschemes.xhtml#authschemes</iana-registry>
     </concept>
+    <concept id="profile-uri">
+        <title-singular>Profile URI</title-singular>
+        <title-plural>Profile URIs</title-plural>
+        <iana-registry>https://www.iana.org/assignments/profile-uris/profile-uris.xhtml#profile</iana-registry>
+    </concept>
 </concepts>

@@ -6184,6 +6184,14 @@
               "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7636",
               "spec-name" : "RFC 7636" } ] } ] },
     
+    { "concept" : "profile-uri",
+      "id" : "http:\/\/webconcepts.info\/concepts\/profile-uri\/",
+      "name-singular" : "Profile URI",
+      "name-plural" : "Profile URIs",
+      "registry" : "https:\/\/www.iana.org\/assignments\/profile-uris\/profile-uris.xhtml#profile",
+      "values" : 
+      [  ] },
+    
     { "concept" : "structured-syntax-suffix",
       "id" : "http:\/\/webconcepts.info\/concepts\/structured-syntax-suffix\/",
       "name-singular" : "Structured Syntax Suffix",

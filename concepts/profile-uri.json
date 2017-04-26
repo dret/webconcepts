@@ -1,0 +1,8 @@
+
+  { "concept" : "profile-uri",
+    "id" : "http:\/\/webconcepts.info\/concepts\/profile-uri\/",
+    "name-singular" : "Profile URI",
+    "name-plural" : "Profile URIs",
+    "registry" : "https:\/\/www.iana.org\/assignments\/profile-uris\/profile-uris.xhtml#profile",
+    "values" : 
+    [  ] }
