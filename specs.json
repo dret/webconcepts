@@ -2135,7 +2135,7 @@
       "name": "ISO/IEC 10918-5",
       "URI": "urn:iso:std:iso-iec:10918:-5",
       "URL": "http://www.iso.org/obp/ui/#iso:std:iso-iec:10918:-5",
-      "abstract": "The JPEG File Interchange Format (JFIF) is a minimal file format which enables the exchange of JPEG encoded images (according to Rec. ITU-T T.81 | ISO/IEC 10918-1) having 1 or 3 colour channels and 8 bits per colour channel between a wide variety of platforms and applications. This minimal format does not include some advanced features found in various other specified file formats. The purpose of this format is to provide for a basic form of exchange of JPEG images. The optional inclusion of thumbnail images for rapid browsing is also supported.",
+      "abstract": "The JPEG File Interchange Format (JFIF) is a minimal file format which enables the exchange of JPEG encoded images (according to Rec. ITU-T T.81 / ISO/IEC 10918-1) having 1 or 3 colour channels and 8 bits per colour channel between a wide variety of platforms and applications. This minimal format does not include some advanced features found in various other specified file formats. The purpose of this format is to provide for a basic form of exchange of JPEG images. The optional inclusion of thumbnail images for rapid browsing is also supported.",
       "concepts": [{
        "http://webconcepts.info/concepts/media-type/": "http://webconcepts.info/concepts/media-type/image/jpeg" }]}},{
      "14496-22": {
