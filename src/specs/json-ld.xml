@@ -5,4 +5,15 @@
     <media-type def="application/ld+json">
         <documentation source="http://www.w3.org/TR/json-ld/#data-model-overview">Generally speaking, the data model used for JSON-LD is a labeled, directed graph. The graph contains nodes, which are connected by edges. A node is typically data such as a string, number, typed values (like dates and times) or an IRI. There is also a special class of node called a blank node, which is typically used to express data that does not have a global identifier like an IRI. Blank nodes are identified using a blank node identifier.</documentation>
     </media-type>
+<!--
+    <profile-uri def="http://www.w3.org/ns/json-ld#expanded">
+        <documentation source="http://www.w3.org/TR/json-ld/#application-ld-json">The JSON-LD specification defines three values for the profile parameter. To request or specify expanded JSON-LD document form, the URI http://www.w3.org/ns/json-ld#expanded SHOULD be used.</documentation>
+    </profile-uri>
+    <profile-uri def="http://www.w3.org/ns/json-ld#compacted">
+        <documentation source="http://www.w3.org/TR/json-ld/#application-ld-json">The JSON-LD specification defines three values for the profile parameter. To request or specify compacted JSON-LD document form, the URI http://www.w3.org/ns/json-ld#compacted SHOULD be used. </documentation>
+    </profile-uri>
+    <profile-uri def="http://www.w3.org/ns/json-ld#expanded">
+        <documentation source="http://www.w3.org/TR/json-ld/#application-ld-json">The JSON-LD specification defines three values for the profile parameter. To request or specify flattened JSON-LD document form, the URI http://www.w3.org/ns/json-ld#flattened SHOULD be used.</documentation>
+    </profile-uri>
+-->
 </service>
