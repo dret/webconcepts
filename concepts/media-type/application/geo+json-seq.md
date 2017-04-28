@@ -7,7 +7,7 @@ concept-value: application/geo+json-seq
 description: "A GeoJSON text sequence is any number of GeoJSON texts, each encoded in UTF-8, each preceded by one ASCII RS character, and each followed by a line feed (LF)."
 ---
 
-[A GeoJSON text sequence is any number of GeoJSON texts, each encoded in UTF-8, each preceded by one ASCII RS character, and each followed by a line feed (LF).](http://tools.ietf.org/html/draft-ietf-geojson-text-sequence#section-2 "Read documentation for Media Type &#34;application/geo+json-seq&#34;") (**[Internet Draft ietf-geojson-text-sequence: GeoJSON Text Sequences](/specs/IETF/I-D/ietf-geojson-text-sequence "This document describes the GeoJSON text sequence format and &#34;application/geo+json-seq&#34; media type. This format is based on JavaScript Object Notation (JSON) Text Sequences and GeoJSON, and makes arbitrarily large geographic datasets incrementally parseable without restricting the form of GeoJSON texts within a sequence.")**)
+[A GeoJSON text sequence is any number of GeoJSON texts, each encoded in UTF-8, each preceded by one ASCII RS character, and each followed by a line feed (LF).](http://tools.ietf.org/html/rfc8142#section-2 "Read documentation for Media Type &#34;application/geo+json-seq&#34;") (**[RFC 8142: GeoJSON Text Sequences](/specs/IETF/RFC/8142 "This document describes the GeoJSON text sequence format and &#34;application/geo+json-seq&#34; media type. This format is based on JavaScript Object Notation (JSON) Text Sequences and GeoJSON, and makes arbitrarily large geographic datasets incrementally parseable without restricting the form of GeoJSON texts within a sequence.")**)
 
 <br/>
 <hr/>

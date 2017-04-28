@@ -99,15 +99,6 @@
       "concepts": [{
        "http://webconcepts.info/concepts/media-type/": "http://webconcepts.info/concepts/media-type/application/link-format+cbor" }, {
        "http://webconcepts.info/concepts/media-type/": "http://webconcepts.info/concepts/media-type/application/link-format+json" }]}},{
-     "ietf-geojson-text-sequence": {
-      "id": "http://webconcepts.info/specs/IETF/I-D/ietf-geojson-text-sequence",
-      "title": "GeoJSON Text Sequences",
-      "name": "Internet Draft ietf-geojson-text-sequence",
-      "URI": "urn:ietf:id:ietf-geojson-text-sequence",
-      "URL": "http://tools.ietf.org/html/draft-ietf-geojson-text-sequence",
-      "abstract": "This document describes the GeoJSON text sequence format and \"application/geo+json-seq\" media type. This format is based on JavaScript Object Notation (JSON) Text Sequences and GeoJSON, and makes arbitrarily large geographic datasets incrementally parseable without restricting the form of GeoJSON texts within a sequence.",
-      "concepts": [{
-       "http://webconcepts.info/concepts/media-type/": "http://webconcepts.info/concepts/media-type/application/geo+json-seq" }]}},{
      "ietf-httpbis-client-hints": {
       "id": "http://webconcepts.info/specs/IETF/I-D/ietf-httpbis-client-hints",
       "title": "HTTP Client Hints",
@@ -2118,7 +2109,16 @@
       "URL": "http://tools.ietf.org/html/rfc8120",
       "abstract": "This document specifies an authentication scheme for the Hypertext Transfer Protocol (HTTP) that is referred to as either the Mutual authentication scheme or the Mutual authentication protocol. This scheme provides true mutual authentication between an HTTP client and an HTTP server using password-based authentication. Unlike the Basic and Digest authentication schemes, the Mutual authentication scheme specified in this document assures the user that the server truly knows the user's encrypted password.",
       "concepts": [{
-       "http://webconcepts.info/concepts/http-authentication-scheme/": "http://webconcepts.info/concepts/http-authentication-scheme/Mutual" }]}}]}}]},
+       "http://webconcepts.info/concepts/http-authentication-scheme/": "http://webconcepts.info/concepts/http-authentication-scheme/Mutual" }]}},{
+     "8142": {
+      "id": "http://webconcepts.info/specs/IETF/RFC/8142",
+      "title": "GeoJSON Text Sequences",
+      "name": "RFC 8142",
+      "URI": "urn:ietf:rfc:8142",
+      "URL": "http://tools.ietf.org/html/rfc8142",
+      "abstract": "This document describes the GeoJSON text sequence format and \"application/geo+json-seq\" media type. This format is based on JavaScript Object Notation (JSON) Text Sequences and GeoJSON, and makes arbitrarily large geographic datasets incrementally parseable without restricting the form of GeoJSON texts within a sequence.",
+      "concepts": [{
+       "http://webconcepts.info/concepts/media-type/": "http://webconcepts.info/concepts/media-type/application/geo+json-seq" }]}}]}}]},
  "ISO": {
   "id": "http://webconcepts.info/specs/ISO/",
   "name": "International Organization for Standardization",

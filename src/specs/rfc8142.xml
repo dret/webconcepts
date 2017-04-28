@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<service primary="IETF" secondary="RFC" id="8142">
+    <title>GeoJSON Text Sequences</title>
+    <documentation source="http://tools.ietf.org/html/rfc8142">This document describes the GeoJSON text sequence format and "application/geo+json-seq" media type. This format is based on JavaScript Object Notation (JSON) Text Sequences and GeoJSON, and makes arbitrarily large geographic datasets incrementally parseable without restricting the form of GeoJSON texts within a sequence.</documentation>
+    <media-type def="application/geo+json-seq">
+        <documentation source="http://tools.ietf.org/html/rfc8142#section-2">A GeoJSON text sequence is any number of GeoJSON texts, each encoded in UTF-8, each preceded by one ASCII RS character, and each followed by a line feed (LF).</documentation>
+    </media-type>
+</service>
