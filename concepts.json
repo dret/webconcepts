@@ -1900,6 +1900,26 @@
               "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7231",
               "spec-name" : "RFC 7231" } ] },
         
+        { "value" : "Service-Worker",
+          "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
+          "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Service-Worker",
+          "details" : 
+          [ 
+            { "description" : "An HTTP request to fetch a service worker's script resource will include the Service-Worker header. It indicates that this request is a service worker's script resource request.",
+              "documentation" : "http:\/\/www.w3.org\/TR\/service-workers-1\/#service-worker-script-request",
+              "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/service-workers-1",
+              "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/service-workers-1" } ] },
+        
+        { "value" : "Service-Worker-Allowed",
+          "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
+          "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Service-Worker-Allowed",
+          "details" : 
+          [ 
+            { "description" : "An HTTP response to a service worker's script resource request can include the Service-Worker-Allowed header. It indicates that the user agent will override the path restriction, which limits the maximum allowed scope url that the script can control, to the given value.",
+              "documentation" : "http:\/\/www.w3.org\/TR\/service-workers-1\/#service-worker-script-response",
+              "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/service-workers-1",
+              "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/service-workers-1" } ] },
+        
         { "value" : "Set-Cookie",
           "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
           "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Set-Cookie",

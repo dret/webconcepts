@@ -4,7 +4,7 @@ title:       "W3C Technical Report Series"
 description: "List of specifications in the Technical Report (TR) series by the World Wide Web Consortium (W3C)"
 ---
 
-There are currently 34 listed specifications in the [World Wide Web Consortium (W3C)](..)'s Technical Report (TR) series.
+There are currently 35 listed specifications in the [World Wide Web Consortium (W3C)](..)'s Technical Report (TR) series.
 
   * [Activity Streams 2.0 (W3C TR http://www.w3.org/TR/activitystreams-core)](activitystreams-core)
   * [Clear Site Data (W3C TR http://www.w3.org/TR/clear-site-data)](clear-site-data)
@@ -32,6 +32,7 @@ There are currently 34 listed specifications in the [World Wide Web Consortium (
   * [Reporting API 1 (W3C TR http://www.w3.org/TR/reporting-1)](reporting-1)
   * [Resource Hints (W3C TR http://www.w3.org/TR/resource-hints)](resource-hints)
   * [Server-Sent Events (W3C TR http://www.w3.org/TR/eventsource)](eventsource)
+  * [Service Workers 1 (W3C TR http://www.w3.org/TR/service-workers-1)](service-workers-1)
   * [Simple Object Access Protocol (SOAP) 1.1 (W3C TR http://www.w3.org/TR/SOAP)](SOAP)
   * [The Platform for Privacy Preferences 1.0 (P3P1.0) Specification (W3C TR http://www.w3.org/TR/P3P)](P3P)
   * [Tracking Preference Expression (DNT) (W3C TR http://www.w3.org/TR/tracking-dnt)](tracking-dnt)

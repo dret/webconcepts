@@ -2494,6 +2494,16 @@
        "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/preconnect" }, {
        "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/prefetch" }, {
        "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/prerender" }]}},{
+     "service-workers-1": {
+      "id": "http://webconcepts.info/specs/W3C/TR/service-workers-1",
+      "title": "Service Workers 1",
+      "name": "W3C TR http://www.w3.org/TR/service-workers-1",
+      "URI": "http://www.w3.org/TR/service-workers-1",
+      "URL": "http://www.w3.org/TR/service-workers-1",
+      "abstract": "This specification describes a method that enables applications to take advantage of persistent background processing, including hooks to enable bootstrapping of web applications while offline. The core of this system is an event-driven Web Worker, which responds to events dispatched from documents and other sources. A system for managing installation, versions, and upgrades is provided. The service worker is a generic entry point for event-driven background processing in the Web Platform that is extensible by other specifications.",
+      "concepts": [{
+       "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Service-Worker" }, {
+       "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Service-Worker-Allowed" }]}},{
      "tabular-data-model": {
       "id": "http://webconcepts.info/specs/W3C/TR/tabular-data-model",
       "title": "Model for Tabular Data and Metadata on the Web",
