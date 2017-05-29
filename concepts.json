@@ -3687,6 +3687,16 @@
               "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/html4",
               "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/html4" } ] },
         
+        { "value" : "boundto",
+          "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+          "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/boundto",
+          "details" : 
+          [ 
+            { "description" : "The purpose of a boundto relation type is to indicate that there is a binding between a source resource and a destination resource for the purposes of synchronizing their content.",
+              "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-core-dynlink#section-6.2",
+              "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-core-dynlink",
+              "spec-name" : "Internet Draft ietf-core-dynlink" } ] },
+        
         { "value" : "bto",
           "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
           "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/bto",

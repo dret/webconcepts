@@ -4,7 +4,7 @@ title:       "IETF Internet Draft Series"
 description: "List of specifications in the Internet Draft (I-D) series by the Internet Engineering Task Force (IETF)"
 ---
 
-There are currently 36 listed specifications in the [Internet Engineering Task Force (IETF)](..)'s Internet Draft (I-D) series.
+There are currently 37 listed specifications in the [Internet Engineering Task Force (IETF)](..)'s Internet Draft (I-D) series.
 
   * [A JSON Media Type for Describing the Structure and Meaning of JSON Documents (Internet Draft zyp-json-schema)](zyp-json-schema)
   * [Accept-Push-Policy Header Field (Internet Draft ruellan-http-accept-push-policy)](ruellan-http-accept-push-policy)
@@ -14,6 +14,7 @@ There are currently 36 listed specifications in the [Internet Engineering Task F
   * [CoAP (Constrained Application Protocol) over TCP, TLS, and WebSockets (Internet Draft ietf-core-coap-tcp-tls)](ietf-core-coap-tcp-tls)
   * [Content-Signature Header Field for HTTP (Internet Draft thomson-http-content-signature)](thomson-http-content-signature)
   * [Duplicate Suppression in HTTP (Internet Draft mogul-http-dupsup)](mogul-http-dupsup)
+  * [Dynamic Resource Linking for Constrained RESTful Environments (Internet Draft ietf-core-dynlink)](ietf-core-dynlink)
   * [Encrypted Content-Encoding for HTTP (Internet Draft ietf-httpbis-encryption-encoding)](ietf-httpbis-encryption-encoding)
   * [Guidelines for HTTP-to-CoAP Mapping Implementations (Internet Draft ietf-core-http-mapping)](ietf-core-http-mapping)
   * [HTTP Client Hints (Internet Draft ietf-httpbis-client-hints)](ietf-httpbis-client-hints)

@@ -89,6 +89,15 @@
        "http://webconcepts.info/concepts/uri-scheme/": "http://webconcepts.info/concepts/uri-scheme/coaps+tcp" }, {
        "http://webconcepts.info/concepts/uri-scheme/": "http://webconcepts.info/concepts/uri-scheme/coaps+ws" }, {
        "http://webconcepts.info/concepts/well-known-uri/": "http://webconcepts.info/concepts/well-known-uri/coap" }]}},{
+     "ietf-core-dynlink": {
+      "id": "http://webconcepts.info/specs/IETF/I-D/ietf-core-dynlink",
+      "title": "Dynamic Resource Linking for Constrained RESTful Environments",
+      "name": "Internet Draft ietf-core-dynlink",
+      "URI": "urn:ietf:id:ietf-core-dynlink",
+      "URL": "http://tools.ietf.org/html/draft-ietf-core-dynlink",
+      "abstract": "For CoAP Dynamic linking of state updates between resources, either on an endpoint or between endpoints, is defined with the concept of Link Bindings. This specification defines conditional observation attributes that work with Link Bindings or with CoAP Observe.",
+      "concepts": [{
+       "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/boundto" }]}},{
      "ietf-core-http-mapping": {
       "id": "http://webconcepts.info/specs/IETF/I-D/ietf-core-http-mapping",
       "title": "Guidelines for HTTP-to-CoAP Mapping Implementations",

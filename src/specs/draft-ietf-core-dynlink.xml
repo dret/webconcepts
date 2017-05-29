@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<service primary="IETF" secondary="I-D" id="ietf-core-dynlink">
+    <title>Dynamic Resource Linking for Constrained RESTful Environments</title>
+    <documentation source="http://tools.ietf.org/html/draft-ietf-core-dynlink">For CoAP Dynamic linking of state updates between resources, either on an endpoint or between endpoints, is defined with the concept of Link Bindings. This specification defines conditional observation attributes that work with Link Bindings or with CoAP Observe.</documentation>
+    <link-relation def="boundto">
+        <documentation source="http://tools.ietf.org/html/draft-ietf-core-dynlink#section-6.2">The purpose of a boundto relation type is to indicate that there is a binding between a source resource and a destination resource for the purposes of synchronizing their content.</documentation>
+    </link-relation>
+</service>
