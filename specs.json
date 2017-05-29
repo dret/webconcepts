@@ -117,6 +117,18 @@
       "concepts": [{
        "http://webconcepts.info/concepts/media-type/": "http://webconcepts.info/concepts/media-type/application/link-format+cbor" }, {
        "http://webconcepts.info/concepts/media-type/": "http://webconcepts.info/concepts/media-type/application/link-format+json" }]}},{
+     "ietf-core-senml": {
+      "id": "http://webconcepts.info/specs/IETF/I-D/ietf-core-senml",
+      "title": "Media Types for Sensor Measurement Lists (SenML)",
+      "name": "Internet Draft ietf-core-senml",
+      "URI": "urn:ietf:id:ietf-core-senml",
+      "URL": "http://tools.ietf.org/html/draft-ietf-core-senml",
+      "abstract": "This specification defines media types for representing simple sensor measurements and device parameters in the Sensor Measurement Lists (SenML). Representations are defined in JavaScript Object Notation (JSON), Concise Binary Object Representation (CBOR), eXtensible Markup Language (XML), and Efficient XML Interchange (EXI), which share the common SenML data model. A simple sensor, such as a temperature sensor, could use this media type in protocols such as HTTP or CoAP to transport the measurements of the sensor or to be configured.",
+      "concepts": [{
+       "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/application/senml+cbor" }, {
+       "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/application/senml+exi" }, {
+       "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/application/senml+json" }, {
+       "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/application/senml+xml" }]}},{
      "ietf-httpbis-client-hints": {
       "id": "http://webconcepts.info/specs/IETF/I-D/ietf-httpbis-client-hints",
       "title": "HTTP Client Hints",

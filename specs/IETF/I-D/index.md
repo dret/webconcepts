@@ -4,7 +4,7 @@ title:       "IETF Internet Draft Series"
 description: "List of specifications in the Internet Draft (I-D) series by the Internet Engineering Task Force (IETF)"
 ---
 
-There are currently 37 listed specifications in the [Internet Engineering Task Force (IETF)](..)'s Internet Draft (I-D) series.
+There are currently 38 listed specifications in the [Internet Engineering Task Force (IETF)](..)'s Internet Draft (I-D) series.
 
   * [A JSON Media Type for Describing the Structure and Meaning of JSON Documents (Internet Draft zyp-json-schema)](zyp-json-schema)
   * [Accept-Push-Policy Header Field (Internet Draft ruellan-http-accept-push-policy)](ruellan-http-accept-push-policy)
@@ -30,6 +30,7 @@ There are currently 37 listed specifications in the [Internet Engineering Task F
   * [Link Relation Types for Web Services (Internet Draft wilde-linkset-link-rel)](wilde-linkset-link-rel)
   * [Link Relation Types for Web Services (Internet Draft wilde-service-link-rel)](wilde-service-link-rel)
   * [Marking HTTP Requests as Unimportant (Internet Draft thomson-http-nice)](thomson-http-nice)
+  * [Media Types for Sensor Measurement Lists (SenML) (Internet Draft ietf-core-senml)](ietf-core-senml)
   * [OAuth 2.0 Message Authentication Code (MAC) Tokens (Internet Draft ietf-oauth-v2-http-mac)](ietf-oauth-v2-http-mac)
   * [OpenPGP Web Key Service (Internet Draft koch-openpgp-webkey-service)](koch-openpgp-webkey-service)
   * [Origin Cookies (Internet Draft west-origin-cookies)](west-origin-cookies)

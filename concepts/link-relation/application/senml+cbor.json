@@ -1,0 +1,10 @@
+
+  { "value" : "application\/senml+cbor",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/application\/senml+cbor",
+    "details" : 
+    [ 
+      { "description" : "",
+        "documentation" : "",
+        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-core-senml",
+        "spec-name" : "Internet Draft ietf-core-senml" } ] }
