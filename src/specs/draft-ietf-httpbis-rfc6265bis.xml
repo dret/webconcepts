@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<service primary="IETF" secondary="I-D" id="ietf-httpbis-rfc6265bis">
+    <title>HTTP State Management Mechanism</title>
+    <documentation source="http://tools.ietf.org/html/draft-ietf-httpbis-rfc6265bis">This document defines the HTTP Cookie and Set-Cookie header fields. These header fields can be used by HTTP servers to store state (called cookies) at HTTP user agents, letting the servers maintain a stateful session over the mostly stateless HTTP protocol. Although cookies have many historical infelicities that degrade their security and privacy, the Cookie and Set-Cookie header fields are widely used on the Internet. This document obsoletes RFC 2965.</documentation>
+    <http-header def="Set-Cookie">
+        <documentation source="http://tools.ietf.org/html/draft-ietf-httpbis-rfc6265bis#section-4.1">The Set-Cookie HTTP response header is used to send cookies from the server to the user agent.</documentation>
+    </http-header>
+    <http-header def="Cookie">
+        <documentation source="http://tools.ietf.org/html/draft-ietf-httpbis-rfc6265bis#section-4.2">The user agent sends stored cookies to the origin server in the Cookie header.</documentation>
+    </http-header>
+</service>

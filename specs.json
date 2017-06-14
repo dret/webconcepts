@@ -189,6 +189,16 @@
       "abstract": "The 'Key' header field for HTTP responses allows an origin server to describe the cache key for a negotiated response: a short algorithm that can be used upon later requests to determine if the same response is reusable. Key has the advantage of avoiding an additional round trip for validation whenever a new request differs slightly, but not significantly, from prior requests. Key also informs user agents of the request characteristics that might result in different content, which can be useful if the user agent is not sending Accept* fields in order to reduce the risk of fingerprinting.",
       "concepts": [{
        "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Key" }]}},{
+     "ietf-httpbis-rfc6265bis": {
+      "id": "http://webconcepts.info/specs/IETF/I-D/ietf-httpbis-rfc6265bis",
+      "title": "HTTP State Management Mechanism",
+      "name": "Internet Draft ietf-httpbis-rfc6265bis",
+      "URI": "urn:ietf:id:ietf-httpbis-rfc6265bis",
+      "URL": "http://tools.ietf.org/html/draft-ietf-httpbis-rfc6265bis",
+      "abstract": "This document defines the HTTP Cookie and Set-Cookie header fields. These header fields can be used by HTTP servers to store state (called cookies) at HTTP user agents, letting the servers maintain a stateful session over the mostly stateless HTTP protocol. Although cookies have many historical infelicities that degrade their security and privacy, the Cookie and Set-Cookie header fields are widely used on the Internet. This document obsoletes RFC 2965.",
+      "concepts": [{
+       "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Cookie" }, {
+       "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Set-Cookie" }]}},{
      "ietf-httpbis-tunnel-protocol": {
       "id": "http://webconcepts.info/specs/IETF/I-D/ietf-httpbis-tunnel-protocol",
       "title": "The Tunnel-Protocol HTTP Header Field",
