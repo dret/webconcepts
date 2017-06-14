@@ -1,0 +1,87 @@
+---
+layout:      page
+title:       "Expect-CT Extension for HTTP"
+description: "This document defines a new HTTP header, named Expect-CT, that allows web host operators
+to instruct user agents to expect valid Signed Certificate Timestamps (SCTs) to be
+served on connections to these hosts. When configured in enforcement mode, user agents
+(UAs) will remember that hosts expect SCTs and will refuse connections that do not
+conform to the UA's Certificate Transparency policy. When configured in report-only
+mode, UAs will report the lack of valid SCTs to a URI configured by the host, but
+will allow the connection. By turning on Expect-CT, web host operators can discover
+misconfigurations in their Certificate Transparency deployments and ensure that misissued
+certificates accepted by UAs are discoverable in Certificate Transparency logs."
+---
+
+<table cellpadding="5">
+   <tr>
+      <th valign="top" align="right">
+         <em>Document Name:</em>
+      </th>
+      <td>Internet Draft ietf-httpbis-expect-ct</td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Document URI:</em>
+      </th>
+      <td>
+         <code>urn:ietf:id:ietf-httpbis-expect-ct</code>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Online Version:</em>
+      </th>
+      <td>
+         <code>
+            <a href="http://tools.ietf.org/html/draft-ietf-httpbis-expect-ct">http://tools.ietf.org/html/draft-ietf-httpbis-expect-ct</a>
+         </code>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Organization:</em>
+      </th>
+      <td>
+         <a href="../" title="List of specification series by this organization">Internet Engineering Task Force (IETF)</a>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Series:</em>
+      </th>
+      <td>
+         <a href="./" title="List of specifications in this series">Internet Draft (I-D)</a>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Abstract:</em>
+      </th>
+      <td>This document defines a new HTTP header, named Expect-CT, that allows web host operators
+         to instruct user agents to expect valid Signed Certificate Timestamps (SCTs) to be
+         served on connections to these hosts. When configured in enforcement mode, user agents
+         (UAs) will remember that hosts expect SCTs and will refuse connections that do not
+         conform to the UA's Certificate Transparency policy. When configured in report-only
+         mode, UAs will report the lack of valid SCTs to a URI configured by the host, but
+         will allow the connection. By turning on Expect-CT, web host operators can discover
+         misconfigurations in their Certificate Transparency deployments and ensure that misissued
+         certificates accepted by UAs are discoverable in Certificate Transparency logs.
+      </td>
+   </tr>
+</table>
+<br></br>
+<hr></hr>
+<h2 id="concepts">Specified Web Concepts:</h2>
+<h3 id="http-header">
+   <a href="/concepts/http-header/" title="List of all HTTP Header Fields">HTTP Header Fields</a>
+</h3>
+<code>
+   <a href="/concepts/http-header/Expect-CT" title="The &amp;#34;Expect-CT&amp;#34; header field is a new response header defined in this specification. It is used by a server to indicate that UAs should evaluate connections to the host emitting the header for CT compliance.">Expect-CT</a>
+</code>
+<br></br>
+<hr></hr>
+<p style="text-align: right">Return to ( 
+   <a href="./">Series</a> | 
+   <a href="../">Organization</a> | 
+   <a href="../../">all Specifications</a> )
+</p>

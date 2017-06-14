@@ -781,6 +781,16 @@
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7231",
             "spec-name" : "RFC 7231" } ] },
       
+      { "value" : "Expect-CT",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Expect-CT",
+        "details" : 
+        [ 
+          { "description" : "The \"Expect-CT\" header field is a new response header defined in this specification. It is used by a server to indicate that UAs should evaluate connections to the host emitting the header for CT compliance.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-httpbis-expect-ct#section-2.1",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpbis-expect-ct",
+            "spec-name" : "Internet Draft ietf-httpbis-expect-ct" } ] },
+      
       { "value" : "Expires",
         "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
         "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Expires",
