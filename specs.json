@@ -144,6 +144,15 @@
        "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Save-Data" }, {
        "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Viewport-Width" }, {
        "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Width" }]}},{
+     "ietf-httpbis-early-hints": {
+      "id": "http://webconcepts.info/specs/IETF/I-D/ietf-httpbis-early-hints",
+      "title": "An HTTP Status Code for Indicating Hints",
+      "name": "Internet Draft ietf-httpbis-early-hints",
+      "URI": "urn:ietf:id:ietf-httpbis-early-hints",
+      "URL": "http://tools.ietf.org/html/draft-ietf-httpbis-early-hints",
+      "abstract": "This memo introduces an informational status code for HTTP that can be used for indicating hints to help a client start making preparations for processing the final response.",
+      "concepts": [{
+       "http://webconcepts.info/concepts/http-status-code/": "http://webconcepts.info/concepts/http-status-code/103" }]}},{
      "ietf-httpbis-encryption-encoding": {
       "id": "http://webconcepts.info/specs/IETF/I-D/ietf-httpbis-encryption-encoding",
       "title": "Encrypted Content-Encoding for HTTP",
@@ -201,15 +210,6 @@
        "http://webconcepts.info/concepts/oauth-parameter/": "http://webconcepts.info/concepts/oauth-parameter/kid" }, {
        "http://webconcepts.info/concepts/oauth-parameter/": "http://webconcepts.info/concepts/oauth-parameter/mac_algorithm" }, {
        "http://webconcepts.info/concepts/oauth-parameter/": "http://webconcepts.info/concepts/oauth-parameter/mac_key" }]}},{
-     "kazuho-early-hints-status-code": {
-      "id": "http://webconcepts.info/specs/IETF/I-D/kazuho-early-hints-status-code",
-      "title": "An HTTP Status Code for Indicating Hints",
-      "name": "Internet Draft kazuho-early-hints-status-code",
-      "URI": "urn:ietf:id:kazuho-early-hints-status-code",
-      "URL": "http://tools.ietf.org/html/draft-kazuho-early-hints-status-code",
-      "abstract": "This memo introduces an informational status code for HTTP that can be used for indicating hints to help a client start making preparations for processing the final response.",
-      "concepts": [{
-       "http://webconcepts.info/concepts/http-status-code/": "http://webconcepts.info/concepts/http-status-code/103" }]}},{
      "kelly-json-hal": {
       "id": "http://webconcepts.info/specs/IETF/I-D/kelly-json-hal",
       "title": "JSON Hypertext Application Language",

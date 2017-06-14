@@ -6,6 +6,6 @@
     "details" : 
     [ 
       { "description" : "This informational status code indicates the client that the server is likely to send a final request with the headers included in the informational response.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/draft-kazuho-early-hints-status-code#section-2",
-        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/kazuho-early-hints-status-code",
-        "spec-name" : "Internet Draft kazuho-early-hints-status-code" } ] }
+        "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-httpbis-early-hints#section-2",
+        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpbis-early-hints",
+        "spec-name" : "Internet Draft ietf-httpbis-early-hints" } ] }

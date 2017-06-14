@@ -9,7 +9,7 @@ There are currently 39 listed specifications in the [Internet Engineering Task F
   * [A JSON Media Type for Describing the Structure and Meaning of JSON Documents (Internet Draft zyp-json-schema)](zyp-json-schema)
   * [Accept-Push-Policy Header Field (Internet Draft ruellan-http-accept-push-policy)](ruellan-http-accept-push-policy)
   * [Additional Link Relations and the urn:social Namespace (Internet Draft snell-more-link-relations)](snell-more-link-relations)
-  * [An HTTP Status Code for Indicating Hints (Internet Draft kazuho-early-hints-status-code)](kazuho-early-hints-status-code)
+  * [An HTTP Status Code for Indicating Hints (Internet Draft ietf-httpbis-early-hints)](ietf-httpbis-early-hints)
   * [Application-Level Profile Semantics (ALPS) (Internet Draft amundsen-richardson-foster-alps)](amundsen-richardson-foster-alps)
   * [CalDAV Managed Attachments (Internet Draft ietf-calext-caldav-attachments)](ietf-calext-caldav-attachments)
   * [CoAP (Constrained Application Protocol) over TCP, TLS, and WebSockets (Internet Draft ietf-core-coap-tcp-tls)](ietf-core-coap-tcp-tls)
