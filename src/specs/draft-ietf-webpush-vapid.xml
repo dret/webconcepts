@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<service primary="IETF" secondary="I-D" id="ietf-webpush-vapid">
+    <title>Voluntary Application Server Identification (VAPID) for Web Push</title>
+    <documentation source="http://tools.ietf.org/html/draft-ietf-webpush-vapid">An application server can use the method described to voluntarily identify itself to a push service. This identification information can be used by the push service to attribute requests that are made by the same application server to a single entity. An application server can include additional information that the operator of a push service can use to contact the operator of the application server. This identification information can be used to restrict the use of a push subscription a single application server.</documentation>
+    <http-authentication-scheme def="vapid">
+        <documentation source="http://tools.ietf.org/html/draft-ietf-webpush-vapid#section-3">This authentication scheme carries a signed JWT, plus the key that signed that JWT. This authentication scheme is for origin-server authentication only. Therefore, this authentication scheme MUST NOT be used with the Proxy-Authenticate or Proxy-Authorization header fields. </documentation>
+    </http-authentication-scheme>
+    <media-type def="application/webpush-options+json">
+        <documentation source="http://tools.ietf.org/html/draft-ietf-webpush-vapid#section-4">The user agent includes the public key of the application server when requesting the creation of a push subscription. The public key is then added to the request to create a push subscription. The push subscription request is extended to include a body. The body of the request is a JSON object. A "vapid" member is added to this JSON object, containing the public key on the P-256 curve, encoded in the uncompressed form and base64url encoded.</documentation>
+    </media-type>
+</service>

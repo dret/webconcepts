@@ -3,9 +3,9 @@ layout: page
 title:  "Web Concepts: Overview"
 ---
 
-This is an overview of 29 Web Concepts (with a total of 673 distinct values) that have been harvested from all [available specifications](/specs):
+This is an overview of 29 Web Concepts (with a total of 675 distinct values) that have been harvested from all [available specifications](/specs):
 
-* [HTTP Authentication Schemes](http-authentication-scheme/) (9)
+* [HTTP Authentication Schemes](http-authentication-scheme/) (10)
 * [HTTP Cache Directives](http-cache-directive/) (15)
 * [HTTP Content Codings](http-content-coding/) (10)
 * [HTTP Forwarded Parameters](http-forwarded-parameter/) (4)
@@ -18,7 +18,7 @@ This is an overview of 29 Web Concepts (with a total of 673 distinct values) tha
 * [JSON Web Token Claims](jwt-claim/) (8)
 * [JWT Confirmation Methods](jwt-confirmation-method/) (4)
 * [Link Relations](link-relation/) (92)
-* [Media Types](media-type/) (84)
+* [Media Types](media-type/) (85)
 * [OAuth Access Token Types](oauth-access-token-type/) (2)
 * [OAuth Authorization Endpoint Response Types](oauth-authorization-endpoint-response-type/) (2)
 * [OAuth Dynamic Client Registration Metadata](oauth-client-metadata/) (20)

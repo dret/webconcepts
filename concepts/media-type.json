@@ -591,6 +591,16 @@
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6351",
             "spec-name" : "RFC 6351" } ] },
       
+      { "value" : "application\/webpush-options+json",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/media-type\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/media-type\/application\/webpush-options+json",
+        "details" : 
+        [ 
+          { "description" : "The user agent includes the public key of the application server when requesting the creation of a push subscription. The public key is then added to the request to create a push subscription. The push subscription request is extended to include a body. The body of the request is a JSON object. A \"vapid\" member is added to this JSON object, containing the public key on the P-256 curve, encoded in the uncompressed form and base64url encoded.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-webpush-vapid#section-4",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-webpush-vapid",
+            "spec-name" : "Internet Draft ietf-webpush-vapid" } ] },
+      
       { "value" : "application\/xliff+xml",
         "concept" : "http:\/\/webconcepts.info\/concepts\/media-type\/",
         "id" : "http:\/\/webconcepts.info\/concepts\/media-type\/application\/xliff+xml",

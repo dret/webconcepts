@@ -1,0 +1,90 @@
+---
+layout:      page
+title:       "Voluntary Application Server Identification (VAPID) for Web Push"
+description: "An application server can use the method described to voluntarily identify itself
+to a push service. This identification information can be used by the push service
+to attribute requests that are made by the same application server to a single entity.
+An application server can include additional information that the operator of a push
+service can use to contact the operator of the application server. This identification
+information can be used to restrict the use of a push subscription a single application
+server."
+---
+
+<table cellpadding="5">
+   <tr>
+      <th valign="top" align="right">
+         <em>Document Name:</em>
+      </th>
+      <td>Internet Draft ietf-webpush-vapid</td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Document URI:</em>
+      </th>
+      <td>
+         <code>urn:ietf:id:ietf-webpush-vapid</code>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Online Version:</em>
+      </th>
+      <td>
+         <code>
+            <a href="http://tools.ietf.org/html/draft-ietf-webpush-vapid">http://tools.ietf.org/html/draft-ietf-webpush-vapid</a>
+         </code>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Organization:</em>
+      </th>
+      <td>
+         <a href="../" title="List of specification series by this organization">Internet Engineering Task Force (IETF)</a>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Series:</em>
+      </th>
+      <td>
+         <a href="./" title="List of specifications in this series">Internet Draft (I-D)</a>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Abstract:</em>
+      </th>
+      <td>An application server can use the method described to voluntarily identify itself
+         to a push service. This identification information can be used by the push service
+         to attribute requests that are made by the same application server to a single entity.
+         An application server can include additional information that the operator of a push
+         service can use to contact the operator of the application server. This identification
+         information can be used to restrict the use of a push subscription a single application
+         server.
+      </td>
+   </tr>
+</table>
+<br></br>
+<hr></hr>
+<h2 id="concepts">Specified Web Concepts:</h2>
+<h3 id="http-authentication-scheme">
+   <a href="/concepts/http-authentication-scheme/" title="List of all HTTP Authentication Schemes">HTTP Authentication Schemes</a>
+</h3>
+<code>
+   <a href="/concepts/http-authentication-scheme/vapid" title="This authentication scheme carries a signed JWT, plus the key that signed that JWT. This authentication scheme is for origin-server authentication only. Therefore, this authentication scheme MUST NOT be used with the Proxy-Authenticate or Proxy-Authorization header fields. ">vapid</a>
+</code>
+<br></br>
+<h3 id="media-type">
+   <a href="/concepts/media-type/" title="List of all Media Types">Media Types</a>
+</h3>
+<code>
+   <a href="/concepts/media-type/application/webpush-options+json" title="The user agent includes the public key of the application server when requesting the creation of a push subscription. The public key is then added to the request to create a push subscription. The push subscription request is extended to include a body. The body of the request is a JSON object. A &amp;#34;vapid&amp;#34; member is added to this JSON object, containing the public key on the P-256 curve, encoded in the uncompressed form and base64url encoded.">application/webpush-options+json</a>
+</code>
+<br></br>
+<hr></hr>
+<p style="text-align: right">Return to ( 
+   <a href="./">Series</a> | 
+   <a href="../">Organization</a> | 
+   <a href="../../">all Specifications</a> )
+</p>

@@ -229,6 +229,16 @@
        "http://webconcepts.info/concepts/oauth-parameter/": "http://webconcepts.info/concepts/oauth-parameter/kid" }, {
        "http://webconcepts.info/concepts/oauth-parameter/": "http://webconcepts.info/concepts/oauth-parameter/mac_algorithm" }, {
        "http://webconcepts.info/concepts/oauth-parameter/": "http://webconcepts.info/concepts/oauth-parameter/mac_key" }]}},{
+     "ietf-webpush-vapid": {
+      "id": "http://webconcepts.info/specs/IETF/I-D/ietf-webpush-vapid",
+      "title": "Voluntary Application Server Identification (VAPID) for Web Push",
+      "name": "Internet Draft ietf-webpush-vapid",
+      "URI": "urn:ietf:id:ietf-webpush-vapid",
+      "URL": "http://tools.ietf.org/html/draft-ietf-webpush-vapid",
+      "abstract": "An application server can use the method described to voluntarily identify itself to a push service. This identification information can be used by the push service to attribute requests that are made by the same application server to a single entity. An application server can include additional information that the operator of a push service can use to contact the operator of the application server. This identification information can be used to restrict the use of a push subscription a single application server.",
+      "concepts": [{
+       "http://webconcepts.info/concepts/http-authentication-scheme/": "http://webconcepts.info/concepts/http-authentication-scheme/vapid" }, {
+       "http://webconcepts.info/concepts/media-type/": "http://webconcepts.info/concepts/media-type/application/webpush-options+json" }]}},{
      "kelly-json-hal": {
       "id": "http://webconcepts.info/specs/IETF/I-D/kelly-json-hal",
       "title": "JSON Hypertext Application Language",
