@@ -153,15 +153,6 @@
       "abstract": "This memo introduces an informational status code for HTTP that can be used for indicating hints to help a client start making preparations for processing the final response.",
       "concepts": [{
        "http://webconcepts.info/concepts/http-status-code/": "http://webconcepts.info/concepts/http-status-code/103" }]}},{
-     "ietf-httpbis-encryption-encoding": {
-      "id": "http://webconcepts.info/specs/IETF/I-D/ietf-httpbis-encryption-encoding",
-      "title": "Encrypted Content-Encoding for HTTP",
-      "name": "Internet Draft ietf-httpbis-encryption-encoding",
-      "URI": "urn:ietf:id:ietf-httpbis-encryption-encoding",
-      "URL": "http://tools.ietf.org/html/draft-ietf-httpbis-encryption-encoding",
-      "abstract": "This memo introduces a content coding for HTTP that allows message payloads to be encrypted.",
-      "concepts": [{
-       "http://webconcepts.info/concepts/http-content-coding/": "http://webconcepts.info/concepts/http-content-coding/aes128gcm" }]}},{
      "ietf-httpbis-expect-ct": {
       "id": "http://webconcepts.info/specs/IETF/I-D/ietf-httpbis-expect-ct",
       "title": "Expect-CT Extension for HTTP",
@@ -2186,7 +2177,16 @@
       "URL": "http://tools.ietf.org/html/rfc8142",
       "abstract": "This document describes the GeoJSON text sequence format and \"application/geo+json-seq\" media type. This format is based on JavaScript Object Notation (JSON) Text Sequences and GeoJSON, and makes arbitrarily large geographic datasets incrementally parseable without restricting the form of GeoJSON texts within a sequence.",
       "concepts": [{
-       "http://webconcepts.info/concepts/media-type/": "http://webconcepts.info/concepts/media-type/application/geo+json-seq" }]}}]}}]},
+       "http://webconcepts.info/concepts/media-type/": "http://webconcepts.info/concepts/media-type/application/geo+json-seq" }]}},{
+     "8188": {
+      "id": "http://webconcepts.info/specs/IETF/RFC/8188",
+      "title": "Encrypted Content-Encoding for HTTP",
+      "name": "RFC 8188",
+      "URI": "urn:ietf:rfc:8188",
+      "URL": "http://tools.ietf.org/html/rfc8188",
+      "abstract": "This memo introduces a content coding for HTTP that allows message payloads to be encrypted.",
+      "concepts": [{
+       "http://webconcepts.info/concepts/http-content-coding/": "http://webconcepts.info/concepts/http-content-coding/aes128gcm" }]}}]}}]},
  "ISO": {
   "id": "http://webconcepts.info/specs/ISO/",
   "name": "International Organization for Standardization",

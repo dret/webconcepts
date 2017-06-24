@@ -277,9 +277,9 @@
           "details" : 
           [ 
             { "description" : "The \"aes128gcm\" HTTP content coding indicates that a payload has been encrypted using Advanced Encryption Standard (AES) in Galois\/Counter Mode (GCM) as identified as AEAD_AES_128_GCM in RFC 5116. The AEAD_AES_128_GCM algorithm uses a 128 bit content encryption key.",
-              "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-httpbis-encryption-encoding#section-2",
-              "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpbis-encryption-encoding",
-              "spec-name" : "Internet Draft ietf-httpbis-encryption-encoding" } ] },
+              "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8188#section-2",
+              "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8188",
+              "spec-name" : "RFC 8188" } ] },
         
         { "value" : "br",
           "concept" : "http:\/\/webconcepts.info\/concepts\/http-content-coding\/",
