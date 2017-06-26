@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<service primary="IETF" secondary="RFC" id="8164">
+    <title>Opportunistic Security for HTTP/2</title>
+    <documentation source="http://tools.ietf.org/html/rfc8164">This document describes how "http" URIs can be accessed using Transport Layer Security (TLS) and HTTP/2 to mitigate pervasive monitoring attacks. This mechanism not a replacement for "https" URIs; it is vulnerable to active attacks.</documentation>
+    <well-known-uri def="http-opportunistic">
+        <documentation source="http://tools.ietf.org/html/rfc8164#section-2.3">This specification requires that a server send both an alternative service advertisement and host content in a well-known location to send HTTP requests over TLS.</documentation>
+    </well-known-uri>
+</service>
