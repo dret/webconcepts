@@ -1033,8 +1033,7 @@
       "URL": "http://tools.ietf.org/html/rfc5988",
       "abstract": "This document specifies relation types for Web links, and defines a registry for them. It also defines the use of such links in HTTP headers with the Link header field.",
       "concepts": [{
-       "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Link" }, {
-       "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/link" }]}},{
+       "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Link" }]}},{
      "6017": {
       "id": "http://webconcepts.info/specs/IETF/RFC/6017",
       "title": "Electronic Data Interchange - Internet Integration (EDIINT) Features Header Field",
