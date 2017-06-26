@@ -4,6 +4,11 @@
     "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Link",
     "details" : 
     [ 
+      { "description" : "The Link header field provides a means for serialising one or more links into HTTP headers.",
+        "documentation" : "http:\/\/tools.ietf.org\/html\/draft-nottingham-rfc5988bis#section-3",
+        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/nottingham-rfc5988bis",
+        "spec-name" : "Internet Draft nottingham-rfc5988bis" },
+      
       { "description" : "The Link entity-header field provides a means for serialising one or more links in HTTP headers. It is semantically equivalent to the <LINK> element in HTML, as well as the atom:link feed-level element in Atom.",
         "documentation" : "http:\/\/tools.ietf.org\/html\/rfc5988#section-5",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/5988",

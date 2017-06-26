@@ -287,6 +287,15 @@
       "abstract": "This specification defines the Link-Template HTTP header field, providing a means for describing the structure of a link between two resources, so that new links can be generated.",
       "concepts": [{
        "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Link-Template" }]}},{
+     "nottingham-rfc5988bis": {
+      "id": "http://webconcepts.info/specs/IETF/I-D/nottingham-rfc5988bis",
+      "title": "Web Linking",
+      "name": "Internet Draft nottingham-rfc5988bis",
+      "URI": "urn:ietf:id:nottingham-rfc5988bis",
+      "URL": "http://tools.ietf.org/html/draft-nottingham-rfc5988bis",
+      "abstract": "This specification defines a way to indicate the relationships between resources on the Web (\"links\") and the type of those relationships (\"link relation types\"). It also defines the use of such links in HTTP headers with the Link header field.",
+      "concepts": [{
+       "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Link" }]}},{
      "pratt-httpbis-bytes-live-range-unit": {
       "id": "http://webconcepts.info/specs/IETF/I-D/pratt-httpbis-bytes-live-range-unit",
       "title": "HTTP bytes-live Range Unit for Live Content",

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<service primary="IETF" secondary="I-D" id="nottingham-rfc5988bis">
+    <title>Web Linking</title>
+    <documentation source="http://tools.ietf.org/html/draft-nottingham-rfc5988bis">This specification defines a way to indicate the relationships between resources on the Web ("links") and the type of those relationships ("link relation types"). It also defines the use of such links in HTTP headers with the Link header field.</documentation>
+    <http-header def="Link">
+        <documentation source="http://tools.ietf.org/html/draft-nottingham-rfc5988bis#section-3">The Link header field provides a means for serialising one or more links into HTTP headers.</documentation>
+    </http-header>
+</service>
