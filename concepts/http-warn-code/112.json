@@ -1,0 +1,11 @@
+
+  { "value" : "112",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/http-warn-code\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/http-warn-code\/112",
+    "description" : "Disconnected Operation",
+    "details" : 
+    [ 
+      { "description" : "A cache SHOULD generate this if it is intentionally disconnected from the rest of the network for a period of time.",
+        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7234#section-5.5.3",
+        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7234",
+        "spec-name" : "RFC 7234" } ] }

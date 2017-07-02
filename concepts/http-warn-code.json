@@ -5,4 +5,80 @@
     "name-plural" : "HTTP Warn Codes",
     "registry" : "https:\/\/www.iana.org\/assignments\/http-warn-codes\/http-warn-codes.xhtml",
     "values" : 
-    [  ] }
+    [ 
+      { "value" : "110",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/http-warn-code\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/http-warn-code\/110",
+        "description" : "Response is Stale",
+        "details" : 
+        [ 
+          { "description" : "A cache SHOULD generate this whenever the sent response is stale.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7234#section-5.5.1",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7234",
+            "spec-name" : "RFC 7234" } ] },
+      
+      { "value" : "111",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/http-warn-code\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/http-warn-code\/111",
+        "description" : "Revalidation Failed",
+        "details" : 
+        [ 
+          { "description" : "A cache SHOULD generate this when sending a stale response because an attempt to validate the response failed, due to an inability to reach the server.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7234#section-5.5.2",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7234",
+            "spec-name" : "RFC 7234" } ] },
+      
+      { "value" : "112",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/http-warn-code\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/http-warn-code\/112",
+        "description" : "Disconnected Operation",
+        "details" : 
+        [ 
+          { "description" : "A cache SHOULD generate this if it is intentionally disconnected from the rest of the network for a period of time.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7234#section-5.5.3",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7234",
+            "spec-name" : "RFC 7234" } ] },
+      
+      { "value" : "113",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/http-warn-code\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/http-warn-code\/113",
+        "description" : "Heuristic Expiration",
+        "details" : 
+        [ 
+          { "description" : "A cache SHOULD generate this if it heuristically chose a freshness lifetime greater than 24 hours and the response's age is greater than 24 hours.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7234#section-5.5.4",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7234",
+            "spec-name" : "RFC 7234" } ] },
+      
+      { "value" : "199",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/http-warn-code\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/http-warn-code\/199",
+        "description" : "Miscellaneous Warning",
+        "details" : 
+        [ 
+          { "description" : "The warning text can include arbitrary information to be presented to a human user or logged. A system receiving this warning MUST NOT take any automated action, besides presenting the warning to the user.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7234#section-5.5.5",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7234",
+            "spec-name" : "RFC 7234" } ] },
+      
+      { "value" : "214",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/http-warn-code\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/http-warn-code\/214",
+        "description" : "Transformation Applied",
+        "details" : 
+        [ 
+          { "description" : "This Warning code MUST be added by a proxy if it applies any transformation to the representation, such as changing the content-coding, media-type, or modifying the representation data, unless this Warning code already appears in the response.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7234#section-5.5.6",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7234",
+            "spec-name" : "RFC 7234" } ] },
+      
+      { "value" : "299",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/http-warn-code\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/http-warn-code\/299",
+        "description" : "Miscellaneous Persistent Warning",
+        "details" : 
+        [ 
+          { "description" : "The warning text can include arbitrary information to be presented to a human user or logged. A system receiving this warning MUST NOT take any automated action.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7234#section-5.5.7",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7234",
+            "spec-name" : "RFC 7234" } ] } ] }

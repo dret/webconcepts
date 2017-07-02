@@ -121,6 +121,31 @@ cacheable response messages."
    <a href="/concepts/http-header/Warning" title="The &amp;#34;Warning&amp;#34; header field is used to carry additional information about the status or transformation of a message that might not be reflected in the status code. This information is typically used to warn about possible incorrectness introduced by caching operations or transformations applied to the payload of the message.">Warning</a>
 </code>
 <br></br>
+<h3 id="http-warn-code">
+   <a href="/concepts/http-warn-code/" title="List of all HTTP Warn Codes">HTTP Warn Codes</a>
+</h3>
+<code>
+   <a href="/concepts/http-warn-code/110" title="A cache SHOULD generate this whenever the sent response is stale.">110</a>
+</code>, 
+<code>
+   <a href="/concepts/http-warn-code/111" title="A cache SHOULD generate this when sending a stale response because an attempt to validate the response failed, due to an inability to reach the server.">111</a>
+</code>, 
+<code>
+   <a href="/concepts/http-warn-code/112" title="A cache SHOULD generate this if it is intentionally disconnected from the rest of the network for a period of time.">112</a>
+</code>, 
+<code>
+   <a href="/concepts/http-warn-code/113" title="A cache SHOULD generate this if it heuristically chose a freshness lifetime greater than 24 hours and the response's age is greater than 24 hours.">113</a>
+</code>, 
+<code>
+   <a href="/concepts/http-warn-code/199" title="The warning text can include arbitrary information to be presented to a human user or logged. A system receiving this warning MUST NOT take any automated action, besides presenting the warning to the user.">199</a>
+</code>, 
+<code>
+   <a href="/concepts/http-warn-code/214" title="This Warning code MUST be added by a proxy if it applies any transformation to the representation, such as changing the content-coding, media-type, or modifying the representation data, unless this Warning code already appears in the response.">214</a>
+</code>, 
+<code>
+   <a href="/concepts/http-warn-code/299" title="The warning text can include arbitrary information to be presented to a human user or logged. A system receiving this warning MUST NOT take any automated action.">299</a>
+</code>
+<br></br>
 <hr></hr>
 <p style="text-align: right">Return to ( 
    <a href="./">Series</a> | 

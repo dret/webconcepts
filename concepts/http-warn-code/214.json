@@ -1,0 +1,11 @@
+
+  { "value" : "214",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/http-warn-code\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/http-warn-code\/214",
+    "description" : "Transformation Applied",
+    "details" : 
+    [ 
+      { "description" : "This Warning code MUST be added by a proxy if it applies any transformation to the representation, such as changing the content-coding, media-type, or modifying the representation data, unless this Warning code already appears in the response.",
+        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7234#section-5.5.6",
+        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7234",
+        "spec-name" : "RFC 7234" } ] }

@@ -1,0 +1,11 @@
+
+  { "value" : "113",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/http-warn-code\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/http-warn-code\/113",
+    "description" : "Heuristic Expiration",
+    "details" : 
+    [ 
+      { "description" : "A cache SHOULD generate this if it heuristically chose a freshness lifetime greater than 24 hours and the response's age is greater than 24 hours.",
+        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7234#section-5.5.4",
+        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7234",
+        "spec-name" : "RFC 7234" } ] }
