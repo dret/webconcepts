@@ -15,6 +15,11 @@
         <title-plural>HTTP Status Codes</title-plural>
         <iana-registry>http://www.iana.org/assignments/http-status-codes/http-status-codes.xhtml</iana-registry>
     </concept>
+    <concept id="http-warn-code">
+        <title-singular>HTTP Warn Code</title-singular>
+        <title-plural>HTTP Warn Codes</title-plural>
+        <iana-registry>https://www.iana.org/assignments/http-warn-codes/http-warn-codes.xhtml</iana-registry>
+    </concept>
     <concept id="http-cache-directive">
         <title-singular>HTTP Cache Directive</title-singular>
         <title-plural>HTTP Cache Directives</title-plural>
