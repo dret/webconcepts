@@ -3527,6 +3527,14 @@
               "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7230",
               "spec-name" : "RFC 7230" } ] } ] },
     
+    { "concept" : "http-warn-code",
+      "id" : "http:\/\/webconcepts.info\/concepts\/http-warn-code\/",
+      "name-singular" : "HTTP Warn Code",
+      "name-plural" : "HTTP Warn Codes",
+      "registry" : "https:\/\/www.iana.org\/assignments\/http-warn-codes\/http-warn-codes.xhtml",
+      "values" : 
+      [  ] },
+    
     { "concept" : "jwt-claim",
       "id" : "http:\/\/webconcepts.info\/concepts\/jwt-claim\/",
       "name-singular" : "JSON Web Token Claim",
