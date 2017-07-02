@@ -53,4 +53,25 @@
     <http-cache-directive def="s-maxage">
         <documentation source="http://tools.ietf.org/html/rfc7234#section-5.2.2.9">The "s-maxage" response directive indicates that, in shared caches, the maximum age specified by this directive overrides the maximum age specified by either the max-age directive or the Expires header field. The s-maxage directive also implies the semantics of the proxy-revalidate response directive.</documentation>
     </http-cache-directive>
+    <http-warn-code def="110" desc="Response is Stale">
+        <documentation source="http://tools.ietf.org/html/rfc7234#section-5.5.1">A cache SHOULD generate this whenever the sent response is stale.</documentation>
+    </http-warn-code>
+    <http-warn-code def="111" desc="Revalidation Failed">
+        <documentation source="http://tools.ietf.org/html/rfc7234#section-5.5.2">A cache SHOULD generate this when sending a stale response because an attempt to validate the response failed, due to an inability to reach the server.</documentation>
+    </http-warn-code>
+    <http-warn-code def="112" desc="Disconnected Operation">
+        <documentation source="http://tools.ietf.org/html/rfc7234#section-5.5.3">A cache SHOULD generate this if it is intentionally disconnected from the rest of the network for a period of time.</documentation>
+    </http-warn-code>
+    <http-warn-code def="113" desc="Heuristic Expiration">
+        <documentation source="http://tools.ietf.org/html/rfc7234#section-5.5.4">A cache SHOULD generate this if it heuristically chose a freshness lifetime greater than 24 hours and the response's age is greater than 24 hours.</documentation>
+    </http-warn-code>
+    <http-warn-code def="199" desc="Miscellaneous Warning">
+        <documentation source="http://tools.ietf.org/html/rfc7234#section-5.5.5">The warning text can include arbitrary information to be presented to a human user or logged. A system receiving this warning MUST NOT take any automated action, besides presenting the warning to the user.</documentation>
+    </http-warn-code>
+    <http-warn-code def="214" desc="Transformation Applied">
+        <documentation source="http://tools.ietf.org/html/rfc7234#section-5.5.6">This Warning code MUST be added by a proxy if it applies any transformation to the representation, such as changing the content-coding, media-type, or modifying the representation data, unless this Warning code already appears in the response.</documentation>
+    </http-warn-code>
+    <http-warn-code def="299" desc="Miscellaneous Persistent Warning">
+        <documentation source="http://tools.ietf.org/html/rfc7234#section-5.5.7">The warning text can include arbitrary information to be presented to a human user or logged. A system receiving this warning MUST NOT take any automated action.</documentation>
+    </http-warn-code>
 </service>
