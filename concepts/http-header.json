@@ -1101,6 +1101,36 @@
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/thomson-http-nice",
             "spec-name" : "Internet Draft thomson-http-nice" } ] },
       
+      { "value" : "OData-EntityId",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/OData-EntityId",
+        "details" : 
+        [ 
+          { "description" : "A response to a create or upsert operation that returns 204 No Content MUST include an OData-EntityId response header. The value of the header is the entity-id of the entity that was acted on by the request.",
+            "documentation" : "http:\/\/docs.oasis-open.org\/odata\/odata\/v4.0\/errata03\/os\/complete\/part1-protocol\/odata-v4.0-errata03-os-part1-protocol-complete.html#_Toc453752238",
+            "specification" : "http:\/\/webconcepts.info\/specs\/OASIS\/standard\/odata-v4.0-part1-protocol",
+            "spec-name" : "OASIS Standard odata-v4.0-part1-protocol" } ] },
+      
+      { "value" : "OData-Isolation",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/OData-Isolation",
+        "details" : 
+        [ 
+          { "description" : "The OData-Isolation header specifies the isolation of the current request from external changes. The only supported value for this header is snapshot.",
+            "documentation" : "http:\/\/docs.oasis-open.org\/odata\/odata\/v4.0\/errata03\/os\/complete\/part1-protocol\/odata-v4.0-errata03-os-part1-protocol-complete.html#_Toc453752232",
+            "specification" : "http:\/\/webconcepts.info\/specs\/OASIS\/standard\/odata-v4.0-part1-protocol",
+            "spec-name" : "OASIS Standard odata-v4.0-part1-protocol" } ] },
+      
+      { "value" : "OData-MaxVersion",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/OData-MaxVersion",
+        "details" : 
+        [ 
+          { "description" : "Clients SHOULD specify an OData-MaxVersion request header. If specified the service MUST generate a response with an OData-Version less than or equal to the specified OData-MaxVersion.",
+            "documentation" : "http:\/\/docs.oasis-open.org\/odata\/odata\/v4.0\/errata03\/os\/complete\/part1-protocol\/odata-v4.0-errata03-os-part1-protocol-complete.html#_Toc453752233",
+            "specification" : "http:\/\/webconcepts.info\/specs\/OASIS\/standard\/odata-v4.0-part1-protocol",
+            "spec-name" : "OASIS Standard odata-v4.0-part1-protocol" } ] },
+      
       { "value" : "Opt",
         "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
         "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Opt",

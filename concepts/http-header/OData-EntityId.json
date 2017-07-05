@@ -1,0 +1,10 @@
+
+  { "value" : "OData-EntityId",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/OData-EntityId",
+    "details" : 
+    [ 
+      { "description" : "A response to a create or upsert operation that returns 204 No Content MUST include an OData-EntityId response header. The value of the header is the entity-id of the entity that was acted on by the request.",
+        "documentation" : "http:\/\/docs.oasis-open.org\/odata\/odata\/v4.0\/errata03\/os\/complete\/part1-protocol\/odata-v4.0-errata03-os-part1-protocol-complete.html#_Toc453752238",
+        "specification" : "http:\/\/webconcepts.info\/specs\/OASIS\/standard\/odata-v4.0-part1-protocol",
+        "spec-name" : "OASIS Standard odata-v4.0-part1-protocol" } ] }

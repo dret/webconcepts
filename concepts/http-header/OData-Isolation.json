@@ -1,0 +1,10 @@
+
+  { "value" : "OData-Isolation",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/OData-Isolation",
+    "details" : 
+    [ 
+      { "description" : "The OData-Isolation header specifies the isolation of the current request from external changes. The only supported value for this header is snapshot.",
+        "documentation" : "http:\/\/docs.oasis-open.org\/odata\/odata\/v4.0\/errata03\/os\/complete\/part1-protocol\/odata-v4.0-errata03-os-part1-protocol-complete.html#_Toc453752232",
+        "specification" : "http:\/\/webconcepts.info\/specs\/OASIS\/standard\/odata-v4.0-part1-protocol",
+        "spec-name" : "OASIS Standard odata-v4.0-part1-protocol" } ] }

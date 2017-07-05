@@ -2275,6 +2275,17 @@
     "id": "http://webconcepts.info/specs/OASIS/standard/",
     "name": "Standard",
     "specs": [{
+     "odata-v4.0-part1-protocol": {
+      "id": "http://webconcepts.info/specs/OASIS/standard/odata-v4.0-part1-protocol",
+      "title": "XLIFF Version 2.1",
+      "name": "OASIS Standard odata-v4.0-part1-protocol",
+      "URI": "urn:oasis:names:specification:odata-v4.0-part1-protocol",
+      "URL": "http://docs.oasis-open.org/odata/odata/v4.0/odata-v4.0-part1-protocol.html",
+      "abstract": "The Open Data Protocol (OData) enables the creation of REST-based data services, which allow resources, identified using Uniform Resource Locators (URLs) and defined in a data model, to be published and edited by Web clients using simple HTTP messages. This specification defines the core semantics and the behavioral aspects of the protocol.",
+      "concepts": [{
+       "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/OData-EntityId" }, {
+       "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/OData-Isolation" }, {
+       "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/OData-MaxVersion" }]}},{
      "saml-bindings-2.0-os": {
       "id": "http://webconcepts.info/specs/OASIS/standard/saml-bindings-2.0-os",
       "title": "Bindings for the OASIS Security Assertion Markup Language (SAML) V2.0",
