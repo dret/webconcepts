@@ -1,0 +1,10 @@
+
+  { "value" : "TTL",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/TTL",
+    "details" : 
+    [ 
+      { "description" : "An application server MUST include the TTL (Time-To-Live) header field in its request for push message delivery. The TTL header field contains a value in seconds that suggests how long a push message is retained by the push service.",
+        "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-webpush-protocol#section-5.2",
+        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-webpush-protocol",
+        "spec-name" : "Internet Draft ietf-webpush-protocol" } ] }

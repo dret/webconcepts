@@ -220,6 +220,17 @@
        "http://webconcepts.info/concepts/oauth-parameter/": "http://webconcepts.info/concepts/oauth-parameter/kid" }, {
        "http://webconcepts.info/concepts/oauth-parameter/": "http://webconcepts.info/concepts/oauth-parameter/mac_algorithm" }, {
        "http://webconcepts.info/concepts/oauth-parameter/": "http://webconcepts.info/concepts/oauth-parameter/mac_key" }]}},{
+     "ietf-webpush-protocol": {
+      "id": "http://webconcepts.info/specs/IETF/I-D/ietf-webpush-protocol",
+      "title": "Generic Event Delivery Using HTTP Push",
+      "name": "Internet Draft ietf-webpush-protocol",
+      "URI": "urn:ietf:id:ietf-webpush-protocol",
+      "URL": "http://tools.ietf.org/html/draft-ietf-webpush-protocol",
+      "abstract": "A simple protocol for the delivery of real-time events to user agents is described. This scheme uses HTTP/2 server push.",
+      "concepts": [{
+       "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/TTL" }, {
+       "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Topic" }, {
+       "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Urgency" }]}},{
      "ietf-webpush-vapid": {
       "id": "http://webconcepts.info/specs/IETF/I-D/ietf-webpush-vapid",
       "title": "Voluntary Application Server Identification (VAPID) for Web Push",

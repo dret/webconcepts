@@ -1706,6 +1706,16 @@
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7230",
             "spec-name" : "RFC 7230" } ] },
       
+      { "value" : "TTL",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/TTL",
+        "details" : 
+        [ 
+          { "description" : "An application server MUST include the TTL (Time-To-Live) header field in its request for push message delivery. The TTL header field contains a value in seconds that suggests how long a push message is retained by the push service.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-webpush-protocol#section-5.2",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-webpush-protocol",
+            "spec-name" : "Internet Draft ietf-webpush-protocol" } ] },
+      
       { "value" : "Timeout",
         "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
         "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Timeout",
@@ -1735,6 +1745,16 @@
             "documentation" : "http:\/\/www.w3.org\/TR\/tracking-dnt\/#response-header-field",
             "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/tracking-dnt",
             "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/tracking-dnt" } ] },
+      
+      { "value" : "Topic",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Topic",
+        "details" : 
+        [ 
+          { "description" : "A push message topic is a string carried in a Topic header field. A topic is used to correlate push messages sent to the same subscription and does not convey any other semantics.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-webpush-protocol#section-5.4",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-webpush-protocol",
+            "spec-name" : "Internet Draft ietf-webpush-protocol" } ] },
       
       { "value" : "Trailer",
         "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
@@ -1785,6 +1805,16 @@
             "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7230#section-6.7",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7230",
             "spec-name" : "RFC 7230" } ] },
+      
+      { "value" : "Urgency",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Urgency",
+        "details" : 
+        [ 
+          { "description" : "An application server MAY include an Urgency header field in its request for push message delivery. This header field indicates the message urgency.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-webpush-protocol#section-5.3",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-webpush-protocol",
+            "spec-name" : "Internet Draft ietf-webpush-protocol" } ] },
       
       { "value" : "User-Agent",
         "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",

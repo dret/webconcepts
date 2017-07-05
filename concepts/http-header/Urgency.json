@@ -1,0 +1,10 @@
+
+  { "value" : "Urgency",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Urgency",
+    "details" : 
+    [ 
+      { "description" : "An application server MAY include an Urgency header field in its request for push message delivery. This header field indicates the message urgency.",
+        "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-webpush-protocol#section-5.3",
+        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-webpush-protocol",
+        "spec-name" : "Internet Draft ietf-webpush-protocol" } ] }
