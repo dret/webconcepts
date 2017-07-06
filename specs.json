@@ -2204,6 +2204,17 @@
       "abstract": "This document describes the GeoJSON text sequence format and \"application/geo+json-seq\" media type. This format is based on JavaScript Object Notation (JSON) Text Sequences and GeoJSON, and makes arbitrarily large geographic datasets incrementally parseable without restricting the form of GeoJSON texts within a sequence.",
       "concepts": [{
        "http://webconcepts.info/concepts/media-type/": "http://webconcepts.info/concepts/media-type/application/geo+json-seq" }]}},{
+     "8152": {
+      "id": "http://webconcepts.info/specs/IETF/RFC/8152",
+      "title": "CBOR Object Signing and Encryption (COSE)",
+      "name": "RFC 8152",
+      "URI": "urn:ietf:rfc:8152",
+      "URL": "http://tools.ietf.org/html/rfc8152",
+      "abstract": "Concise Binary Object Representation (CBOR) is a data format designed for small code size and small message size. There is a need for the ability to have basic security services defined for this data format. This document defines the CBOR Object Signing and Encryption (COSE) protocol. This specification describes how to create and process signatures, message authentication codes, and encryption using CBOR for serialization. This specification additionally describes how to represent cryptographic keys using CBOR.",
+      "concepts": [{
+       "http://webconcepts.info/concepts/media-type/": "http://webconcepts.info/concepts/media-type/application/cose" }, {
+       "http://webconcepts.info/concepts/media-type/": "http://webconcepts.info/concepts/media-type/application/cose-key" }, {
+       "http://webconcepts.info/concepts/media-type/": "http://webconcepts.info/concepts/media-type/application/cose-key-set" }]}},{
      "8164": {
       "id": "http://webconcepts.info/specs/IETF/RFC/8164",
       "title": "Opportunistic Security for HTTP/2",

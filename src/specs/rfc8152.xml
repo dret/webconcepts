@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<service primary="IETF" secondary="RFC" id="8152">
+    <title>CBOR Object Signing and Encryption (COSE)</title>
+    <documentation source="http://tools.ietf.org/html/rfc8152">Concise Binary Object Representation (CBOR) is a data format designed for small code size and small message size. There is a need for the ability to have basic security services defined for this data format. This document defines the CBOR Object Signing and Encryption (COSE) protocol. This specification describes how to create and process signatures, message authentication codes, and encryption using CBOR for serialization. This specification additionally describes how to represent cryptographic keys using CBOR.</documentation>
+    <media-type def="application/cose">
+        <documentation source="http://tools.ietf.org/html/rfc8152#section-16.9.1">The "application/cose" media type is used to indicate that the content is a COSE message.</documentation>
+    </media-type>
+    <media-type def="application/cose-key">
+        <documentation source="http://tools.ietf.org/html/rfc8152#section-16.9.2">The "application/cose-key" media type is used to indicate that content is a COSE_Key object.</documentation>
+    </media-type>
+    <media-type def="application/cose-key-set">
+        <documentation source="http://tools.ietf.org/html/rfc8152#section-16.9.2">The "application/cose-key" media type is used to indicate that content is a COSE_KeySet object.</documentation>
+    </media-type>
+</service>
