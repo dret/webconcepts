@@ -2299,7 +2299,7 @@
     "specs": [{
      "odata-v4.0-part1-protocol": {
       "id": "http://webconcepts.info/specs/OASIS/standard/odata-v4.0-part1-protocol",
-      "title": "XLIFF Version 2.1",
+      "title": "OData Version 4.0 Part 1: Protocol",
       "name": "OASIS Standard odata-v4.0-part1-protocol",
       "URI": "urn:oasis:names:specification:odata-v4.0-part1-protocol",
       "URL": "http://docs.oasis-open.org/odata/odata/v4.0/odata-v4.0-part1-protocol.html",

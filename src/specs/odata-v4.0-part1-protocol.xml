@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <service primary="OASIS" secondary="standard" id="odata-v4.0-part1-protocol" url="http://docs.oasis-open.org/odata/odata/v4.0/odata-v4.0-part1-protocol.html">
-    <title>XLIFF Version 2.1</title>
+    <title>OData Version 4.0 Part 1: Protocol</title>
     <documentation source="http://docs.oasis-open.org/odata/odata/v4.0/odata-v4.0-part1-protocol.html">The Open Data Protocol (OData) enables the creation of REST-based data services, which allow resources, identified using Uniform Resource Locators (URLs) and defined in a data model, to be published and edited by Web clients using simple HTTP messages. This specification defines the core semantics and the behavioral aspects of the protocol.</documentation>
     <http-header def="OData-Isolation">
         <documentation source="http://docs.oasis-open.org/odata/odata/v4.0/errata03/os/complete/part1-protocol/odata-v4.0-errata03-os-part1-protocol-complete.html#_Toc453752232">The OData-Isolation header specifies the isolation of the current request from external changes. The only supported value for this header is snapshot.</documentation>
