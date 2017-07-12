@@ -761,6 +761,16 @@
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/wilde-service-link-rel",
             "spec-name" : "Internet Draft wilde-service-link-rel" } ] },
       
+      { "value" : "service-meta",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/service-meta",
+        "details" : 
+        [ 
+          { "description" : "The \"service-meta\" link relation type is used to link to available metadata for the service context of a resource. The target resource is expected to provide a service description that is primarily intended for machine consumption. In many cases, it is provided in a representation that is consumed by tools, code libraries, or similar components.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-wilde-service-link-rel#section-4.3",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/wilde-service-link-rel",
+            "spec-name" : "Internet Draft wilde-service-link-rel" } ] },
+      
       { "value" : "source",
         "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
         "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/source",

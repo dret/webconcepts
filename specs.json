@@ -419,6 +419,7 @@
       "concepts": [{
        "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/service-desc" }, {
        "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/service-doc" }, {
+       "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/service-meta" }, {
        "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/status" }]}},{
      "wilde-sunset-header": {
       "id": "http://webconcepts.info/specs/IETF/I-D/wilde-sunset-header",
