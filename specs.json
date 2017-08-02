@@ -400,15 +400,17 @@
       "abstract": "The specification for HTTP API Home Documents provides a JSON syntax only. This specification provides an XML syntax for the same data model, so that the concept of Home Documents can be consistently exposed in both JSON- and XML-based HTTP APIs. It also defines the link relation type \"home\" so that applications can identify links to home documents.",
       "concepts": [{
        "http://webconcepts.info/concepts/media-type/": "http://webconcepts.info/concepts/media-type/application/home+xml" }]}},{
-     "wilde-linkset-link-rel": {
-      "id": "http://webconcepts.info/specs/IETF/I-D/wilde-linkset-link-rel",
+     "wilde-linkset": {
+      "id": "http://webconcepts.info/specs/IETF/I-D/wilde-linkset",
       "title": "Link Relation Types for Web Services",
-      "name": "Internet Draft wilde-linkset-link-rel",
-      "URI": "urn:ietf:id:wilde-linkset-link-rel",
-      "URL": "http://tools.ietf.org/html/draft-wilde-linkset-link-rel",
-      "abstract": "This specification defines the \"linkset\" link relation type that can be used to link to a resource that provides a set of links.",
+      "name": "Internet Draft wilde-linkset",
+      "URI": "urn:ietf:id:wilde-linkset",
+      "URL": "http://tools.ietf.org/html/draft-wilde-linkset",
+      "abstract": "This specification defines a link relation type and media types for working with sets of links. Using this link relation type and/or the media types is useful when it becomes necessary to represent links outside the context of a resource they are linking. One typical example are scenarios in which the number of links to put in an HTTP Link header field is too big, and thus these links should become a resource of their own.",
       "concepts": [{
-       "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/linkset" }]}},{
+       "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/linkset" }, {
+       "http://webconcepts.info/concepts/media-type/": "http://webconcepts.info/concepts/media-type/application/linkset" }, {
+       "http://webconcepts.info/concepts/media-type/": "http://webconcepts.info/concepts/media-type/application/linkset+json" }]}},{
      "wilde-service-link-rel": {
       "id": "http://webconcepts.info/specs/IETF/I-D/wilde-service-link-rel",
       "title": "Link Relation Types for Web Services",

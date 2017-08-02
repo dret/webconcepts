@@ -381,6 +381,26 @@
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-core-links-json",
             "spec-name" : "Internet Draft ietf-core-links-json" } ] },
       
+      { "value" : "application\/linkset",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/media-type\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/media-type\/application\/linkset",
+        "details" : 
+        [ 
+          { "description" : "This document format is identical to the payload of the HTTP Link header. It is defined in Section 3 of RFC 5988bis, more specifically by its ABNF production rule for \"Link\" and subsequent ones.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-wilde-linkset#section-5.1",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/wilde-linkset",
+            "spec-name" : "Internet Draft wilde-linkset" } ] },
+      
+      { "value" : "application\/linkset+json",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/media-type\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/media-type\/application\/linkset+json",
+        "details" : 
+        [ 
+          { "description" : "For applications that prefer a JSON serialization of link set resources, the following definition provides a JSON serialization which is intended to faithfully reproduce the abstract model of RFC 5988bis.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-wilde-linkset#section-5.2",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/wilde-linkset",
+            "spec-name" : "Internet Draft wilde-linkset" } ] },
+      
       { "value" : "application\/mads+xml",
         "concept" : "http:\/\/webconcepts.info\/concepts\/media-type\/",
         "id" : "http:\/\/webconcepts.info\/concepts\/media-type\/application\/mads+xml",

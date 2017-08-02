@@ -1,0 +1,10 @@
+
+  { "value" : "application\/linkset+json",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/media-type\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/media-type\/application\/linkset+json",
+    "details" : 
+    [ 
+      { "description" : "For applications that prefer a JSON serialization of link set resources, the following definition provides a JSON serialization which is intended to faithfully reproduce the abstract model of RFC 5988bis.",
+        "documentation" : "http:\/\/tools.ietf.org\/html\/draft-wilde-linkset#section-5.2",
+        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/wilde-linkset",
+        "spec-name" : "Internet Draft wilde-linkset" } ] }

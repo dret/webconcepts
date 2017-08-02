@@ -30,7 +30,7 @@ There are currently 43 listed specifications in the [Internet Engineering Task F
   * [Home Documents for HTTP Services: XML Syntax (Internet Draft wilde-home-xml)](wilde-home-xml)
   * [Hypertext Transfer Protocol: Improved HTTP Caching (Internet Draft drechsler-httpbis-improved-caching)](drechsler-httpbis-improved-caching)
   * [JSON Hypertext Application Language (Internet Draft kelly-json-hal)](kelly-json-hal)
-  * [Link Relation Types for Web Services (Internet Draft wilde-linkset-link-rel)](wilde-linkset-link-rel)
+  * [Link Relation Types for Web Services (Internet Draft wilde-linkset)](wilde-linkset)
   * [Link Relation Types for Web Services (Internet Draft wilde-service-link-rel)](wilde-service-link-rel)
   * [Marking HTTP Requests as Unimportant (Internet Draft thomson-http-nice)](thomson-http-nice)
   * [Media Types for Sensor Measurement Lists (SenML) (Internet Draft ietf-core-senml)](ietf-core-senml)
