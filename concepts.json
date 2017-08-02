@@ -4288,9 +4288,9 @@
           "details" : 
           [ 
             { "description" : "The \"linkset\" link relation type is used by a resource to link to a resource that provides a set of links. Typically the Context IRI of these links  is the URI of the responding resource but links with other Context IRIs MAY be provided.",
-              "documentation" : "http:\/\/tools.ietf.org\/html\/draft-wilde-linkset-link-rel#section-5",
-              "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/wilde-linkset-link-rel",
-              "spec-name" : "Internet Draft wilde-linkset-link-rel" } ] },
+              "documentation" : "http:\/\/tools.ietf.org\/html\/draft-wilde-linkset#section-4",
+              "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/wilde-linkset",
+              "spec-name" : "Internet Draft wilde-linkset" } ] },
         
         { "value" : "location",
           "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
@@ -5128,6 +5128,26 @@
               "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-core-links-json#section-2",
               "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-core-links-json",
               "spec-name" : "Internet Draft ietf-core-links-json" } ] },
+        
+        { "value" : "application\/linkset",
+          "concept" : "http:\/\/webconcepts.info\/concepts\/media-type\/",
+          "id" : "http:\/\/webconcepts.info\/concepts\/media-type\/application\/linkset",
+          "details" : 
+          [ 
+            { "description" : "This document format is identical to the payload of the HTTP Link header. It is defined in Section 3 of RFC 5988bis, more specifically by its ABNF production rule for \"Link\" and subsequent ones.",
+              "documentation" : "http:\/\/tools.ietf.org\/html\/draft-wilde-linkset#section-5.1",
+              "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/wilde-linkset",
+              "spec-name" : "Internet Draft wilde-linkset" } ] },
+        
+        { "value" : "application\/linkset+json",
+          "concept" : "http:\/\/webconcepts.info\/concepts\/media-type\/",
+          "id" : "http:\/\/webconcepts.info\/concepts\/media-type\/application\/linkset+json",
+          "details" : 
+          [ 
+            { "description" : "For applications that prefer a JSON serialization of link set resources, the following definition provides a JSON serialization which is intended to faithfully reproduce the abstract model of RFC 5988bis.",
+              "documentation" : "http:\/\/tools.ietf.org\/html\/draft-wilde-linkset#section-5.2",
+              "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/wilde-linkset",
+              "spec-name" : "Internet Draft wilde-linkset" } ] },
         
         { "value" : "application\/mads+xml",
           "concept" : "http:\/\/webconcepts.info\/concepts\/media-type\/",

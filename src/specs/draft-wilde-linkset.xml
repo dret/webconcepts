@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<service primary="IETF" secondary="I-D" id="wilde-linkset">
+    <title>Link Relation Types for Web Services</title>
+    <documentation source="http://tools.ietf.org/html/draft-wilde-linkset">This specification defines a link relation type and media types for working with sets of links. Using this link relation type and/or the media types is useful when it becomes necessary to represent links outside the context of a resource they are linking. One typical example are scenarios in which the number of links to put in an HTTP Link header field is too big, and thus these links should become a resource of their own.</documentation>
+    <link-relation def="linkset">
+        <documentation source="http://tools.ietf.org/html/draft-wilde-linkset#section-4">The "linkset" link relation type is used by a resource to link to a resource that provides a set of links. Typically the Context IRI of these links  is the URI of the responding resource but links with other Context IRIs MAY be provided.</documentation>
+    </link-relation>
+    <media-type def="application/linkset">
+        <documentation source="http://tools.ietf.org/html/draft-wilde-linkset#section-5.1">This document format is identical to the payload of the HTTP Link header. It is defined in Section 3 of RFC 5988bis, more specifically by its ABNF production rule for "Link" and subsequent ones.</documentation>
+    </media-type>
+    <media-type def="application/linkset+json">
+        <documentation source="http://tools.ietf.org/html/draft-wilde-linkset#section-5.2">For applications that prefer a JSON serialization of link set resources, the following definition provides a JSON serialization which is intended to faithfully reproduce the abstract model of RFC 5988bis.</documentation>
+    </media-type>
+</service>
