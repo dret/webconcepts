@@ -1,0 +1,10 @@
+
+  { "value" : "identifier",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/identifier",
+    "details" : 
+    [ 
+      { "description" : "A link with the \"identifier\" relation type indicates that the link target - the identifying URI - is preferred over the link context for the purpose of referencing.",
+        "documentation" : "http:\/\/tools.ietf.org\/html\/draft-vandesompel-identifier#section-4",
+        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/vandesompel-identifier",
+        "spec-name" : "Internet Draft vandesompel-identifier" } ] }

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<service primary="IETF" secondary="I-D" id="vandesompel-identifier">
+    <title>Link Relation Types for Web Services</title>
+    <documentation source="http://tools.ietf.org/html/draft-vandesompel-identifier">This specification defines a link relation type that is intended to convey that a URI, other than the URI that provides a link with the relation type, is preferred for the purpose of referencing.</documentation>
+    <link-relation def="identifier">
+        <documentation source="http://tools.ietf.org/html/draft-vandesompel-identifier#section-4">A link with the "identifier" relation type indicates that the link target - the identifying URI - is preferred over the link context for the purpose of referencing.</documentation>
+    </link-relation>
+</service>

@@ -382,6 +382,15 @@
       "abstract": "An HTTP \"Nice\" header field is defined that marks a request as low priority. Intermediaries can choose to discard the request or serve it from cache rather than forwarding it to an origin server. This enables constrained origin servers, such as those that rely on battery power, to avoid expending limited resources on serving requests.",
       "concepts": [{
        "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Nice" }]}},{
+     "vandesompel-identifier": {
+      "id": "http://webconcepts.info/specs/IETF/I-D/vandesompel-identifier",
+      "title": "Link Relation Types for Web Services",
+      "name": "Internet Draft vandesompel-identifier",
+      "URI": "urn:ietf:id:vandesompel-identifier",
+      "URL": "http://tools.ietf.org/html/draft-vandesompel-identifier",
+      "abstract": "This specification defines a link relation type that is intended to convey that a URI, other than the URI that provides a link with the relation type, is preferred for the purpose of referencing.",
+      "concepts": [{
+       "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/identifier" }]}},{
      "west-origin-cookies": {
       "id": "http://webconcepts.info/specs/IETF/I-D/west-origin-cookies",
       "title": "Origin Cookies",
