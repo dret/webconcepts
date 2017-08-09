@@ -1,0 +1,10 @@
+
+  { "value" : "GET-Location",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/GET-Location",
+    "details" : 
+    [ 
+      { "description" : "The GET-Location entity header identifies a substitute resource that can be used in subsequent requests for the same information, but using the GET method.",
+        "documentation" : "http:\/\/tools.ietf.org\/html\/draft-reschke-http-get-location#section-3",
+        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/reschke-http-get-location",
+        "spec-name" : "Internet Draft reschke-http-get-location" } ] }

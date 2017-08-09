@@ -316,6 +316,15 @@
       "abstract": "To accommodate byte range requests for content that has data appended over time, this document defines a new HTTP range unit named \"bytes-live\". The \"bytes-live\" range unit provides the ability for a client to specify a byte range in a GET or HEAD request which starts at an arbitrary byte offset within the representation and ends at an indeterminate offset, represented by \"*\".",
       "concepts": [{
        "http://webconcepts.info/concepts/http-range-unit/": "http://webconcepts.info/concepts/http-range-unit/bytes-live" }]}},{
+     "reschke-http-get-location": {
+      "id": "http://webconcepts.info/specs/IETF/I-D/reschke-http-get-location",
+      "title": "The Sunset HTTP Header",
+      "name": "Internet Draft reschke-http-get-location",
+      "URI": "urn:ietf:id:reschke-http-get-location",
+      "URL": "http://tools.ietf.org/html/draft-reschke-http-get-location",
+      "abstract": "Several hypertext transfer protocol (HTTP) extensions use methods other than GET to expose information.  This has the drawback that this kind of information is harder to identify (missing a URL to which a GET request could be applied) and to cache. This document specifies a simple extension header through which a server can advertise a substitute URL that an HTTP client subsequently can use with the GET method.",
+      "concepts": [{
+       "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/GET-Location" }]}},{
      "ruellan-http-accept-push-policy": {
       "id": "http://webconcepts.info/specs/IETF/I-D/ruellan-http-accept-push-policy",
       "title": "Accept-Push-Policy Header Field",
