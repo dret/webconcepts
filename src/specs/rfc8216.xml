@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<service primary="IETF" secondary="RFC" id="8216">
+    <title>HTTP Live Streaming</title>
+    <documentation source="http://tools.ietf.org/html/rfc8216">This document describes a protocol for transferring unbounded streams of multimedia data. It specifies the data format of the files and the actions to be taken by the server (sender) and the clients (receivers) of the streams. It describes version 7 of this protocol.</documentation>
+    <media-type def="application/vnd.apple.mpegurl">
+        <documentation source="http://tools.ietf.org/html/rfc8216#section-4">The "application/vnd.apple.mpegurl" media type identifies Playlist files used by HTTP Live Streaming. The format of the Playlist files is derived from the M3U playlist file format and inherits two tags from that earlier file format: EXTM3U and EXTINF.</documentation>
+    </media-type>
+</service>

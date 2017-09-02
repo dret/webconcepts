@@ -420,11 +420,11 @@
        "http://webconcepts.info/concepts/media-type/": "http://webconcepts.info/concepts/media-type/application/home+xml" }]}},{
      "wilde-linkset": {
       "id": "http://webconcepts.info/specs/IETF/I-D/wilde-linkset",
-      "title": "Link Relation Types for Web Services",
+      "title": "Linkset: Media Types and a Link Relation Type for Link Sets",
       "name": "Internet Draft wilde-linkset",
       "URI": "urn:ietf:id:wilde-linkset",
       "URL": "http://tools.ietf.org/html/draft-wilde-linkset",
-      "abstract": "This specification defines a link relation type and media types for working with sets of links. Using this link relation type and/or the media types is useful when it becomes necessary to represent links outside the context of a resource they are linking. One typical example are scenarios in which the number of links to put in an HTTP Link header field is too big, and thus these links should become a resource of their own.",
+      "abstract": "This specification defines two media types and a link relation type for sets of links. The media types can be used to represents links in a standalone fashion, in one case in the native format used in the HTTP Link header, and in the other case in a JSON-based format. The link relation can be used to reference these kind of standalone link sets, so that a resource can indicate that additional links putting it into context are available someplace else. One typical scenario is when the number of links to put in  an HTTP Link header field becomes too big, and thus these links should be provided by a distinct resource.",
       "concepts": [{
        "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/linkset" }, {
        "http://webconcepts.info/concepts/media-type/": "http://webconcepts.info/concepts/media-type/application/linkset" }, {
@@ -2253,7 +2253,16 @@
       "URL": "http://tools.ietf.org/html/rfc8188",
       "abstract": "This memo introduces a content coding for HTTP that allows message payloads to be encrypted.",
       "concepts": [{
-       "http://webconcepts.info/concepts/http-content-coding/": "http://webconcepts.info/concepts/http-content-coding/aes128gcm" }]}}]}}]},
+       "http://webconcepts.info/concepts/http-content-coding/": "http://webconcepts.info/concepts/http-content-coding/aes128gcm" }]}},{
+     "8216": {
+      "id": "http://webconcepts.info/specs/IETF/RFC/8216",
+      "title": "HTTP Live Streaming",
+      "name": "RFC 8216",
+      "URI": "urn:ietf:rfc:8216",
+      "URL": "http://tools.ietf.org/html/rfc8216",
+      "abstract": "This document describes a protocol for transferring unbounded streams of multimedia data. It specifies the data format of the files and the actions to be taken by the server (sender) and the clients (receivers) of the streams. It describes version 7 of this protocol.",
+      "concepts": [{
+       "http://webconcepts.info/concepts/media-type/": "http://webconcepts.info/concepts/media-type/application/vnd.apple.mpegurl" }]}}]}}]},
  "ISO": {
   "id": "http://webconcepts.info/specs/ISO/",
   "name": "International Organization for Standardization",
