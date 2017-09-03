@@ -4687,6 +4687,16 @@
               "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7089",
               "spec-name" : "RFC 7089" } ] },
         
+        { "value" : "timesheet",
+          "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+          "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/timesheet",
+          "details" : 
+          [ 
+            { "description" : "In non-XML markup languages, the link element can be used to reference an external timesheet document.",
+              "documentation" : "http:\/\/www.w3.org\/TR\/timesheet#smilTimesheetsNS-Elements-Timesheet",
+              "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/timesheet",
+              "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/timesheet" } ] },
+        
         { "value" : "to",
           "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
           "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/to",

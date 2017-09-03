@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<service primary="W3C" secondary="TR" id="timesheet">
+    <title>SMIL Timesheets 1.0</title>
+    <documentation source="http://www.w3.org/TR/timesheet">This document defines an XML timing language that makes SMIL 3.0 element and attribute timing control available to a wide range of other XML languages. This language allows SMIL timing to be integrated into a wide variety of a-temporal languages, even when several such languages are combined in a compound document. Because of its similarity with external style and positioning descriptions in the Cascading Style Sheet (CSS) language, this functionality has been termed SMIL Timesheets.</documentation>
+    <link-relation def="timesheet">
+        <documentation source="http://www.w3.org/TR/timesheet#smilTimesheetsNS-Elements-Timesheet">In non-XML markup languages, the link element can be used to reference an external timesheet document.</documentation>
+    </link-relation>
+</service>
