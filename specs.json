@@ -780,8 +780,7 @@
       "name": "RFC 4180",
       "URI": "urn:ietf:rfc:4180",
       "URL": "http://tools.ietf.org/html/rfc4180",
-      "abstract": "This RFC documents the format used for Comma-Separated Values (CSV) files and registers the associated MIME type \"text/csv\".
-    ",
+      "abstract": "This RFC documents the format used for Comma-Separated Values (CSV) files and registers the associated MIME type \"text/csv\".",
       "concepts": [{
        "http://webconcepts.info/concepts/media-type/": "http://webconcepts.info/concepts/media-type/text/csv" }]}},{
      "4229": {
@@ -1498,6 +1497,15 @@
        "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/original" }, {
        "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/timegate" }, {
        "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/timemap" }]}},{
+     "7111": {
+      "id": "http://webconcepts.info/specs/IETF/RFC/7111",
+      "title": "URI Fragment Identifiers for the text/csv Media Type",
+      "name": "RFC 7111",
+      "URI": "urn:ietf:rfc:7111",
+      "URL": "http://tools.ietf.org/html/rfc7111",
+      "abstract": "This memo defines URI fragment identifiers for text/csv MIME entities. These fragment identifiers make it possible to refer to parts of a text/csv MIME entity identified by row, column, or cell. Fragment identification can use single items or ranges.",
+      "concepts": [{
+       "http://webconcepts.info/concepts/media-type/": "http://webconcepts.info/concepts/media-type/text/csv" }]}},{
      "7159": {
       "id": "http://webconcepts.info/specs/IETF/RFC/7159",
       "title": "JavaScript Object Notation (JSON)",
