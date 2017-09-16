@@ -821,6 +821,16 @@
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/2388",
             "spec-name" : "RFC 2388" } ] },
       
+      { "value" : "text\/csv",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/media-type\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/media-type\/text\/csv",
+        "details" : 
+        [ 
+          { "description" : "The comma separated values format (CSV) has been used for exchanging and converting data between various spreadsheet programs for quite some time.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc4180#section-1",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/4180",
+            "spec-name" : "RFC 4180" } ] },
+      
       { "value" : "text\/event-stream",
         "concept" : "http:\/\/webconcepts.info\/concepts\/media-type\/",
         "id" : "http:\/\/webconcepts.info\/concepts\/media-type\/text\/event-stream",
