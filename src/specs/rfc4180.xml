@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <service primary="IETF" secondary="RFC" id="4180">
     <title>Common Format and MIME Type for Comma-Separated Values (CSV) Files</title>
-    <documentation source="http://tools.ietf.org/html/rfc4180">This RFC documents the format used for Comma-Separated Values (CSV) files and registers the associated MIME type "text/csv".
-    </documentation>
+    <documentation source="http://tools.ietf.org/html/rfc4180">This RFC documents the format used for Comma-Separated Values (CSV) files and registers the associated MIME type "text/csv".</documentation>
     <media-type def="text/csv">
         <documentation source="http://tools.ietf.org/html/rfc4180#section-1">The comma separated values format (CSV) has been used for exchanging and converting data between various spreadsheet programs for quite some time.</documentation>
     </media-type>
