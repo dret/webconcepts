@@ -120,9 +120,9 @@
           "details" : 
           [ 
             { "description" : "When present in an HTTP response, the immutable Cache-Control extension indicates that the origin server MUST NOT update the representation of that resource during the freshness lifetime of the response.",
-              "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-httpbis-immutable#section-2",
-              "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpbis-immutable",
-              "spec-name" : "Internet Draft ietf-httpbis-immutable" } ] },
+              "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8246#section-2",
+              "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8246",
+              "spec-name" : "RFC 8246" } ] },
         
         { "value" : "max-age",
           "concept" : "http:\/\/webconcepts.info\/concepts\/http-cache-directive\/",

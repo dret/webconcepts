@@ -162,15 +162,6 @@
       "abstract": "This document defines a new HTTP header, named Expect-CT, that allows web host operators to instruct user agents to expect valid Signed Certificate Timestamps (SCTs) to be served on connections to these hosts. When configured in enforcement mode, user agents (UAs) will remember that hosts expect SCTs and will refuse connections that do not conform to the UA's Certificate Transparency policy. When configured in report-only mode, UAs will report the lack of valid SCTs to a URI configured by the host, but will allow the connection. By turning on Expect-CT, web host operators can discover misconfigurations in their Certificate Transparency deployments and ensure that misissued certificates accepted by UAs are discoverable in Certificate Transparency logs.",
       "concepts": [{
        "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Expect-CT" }]}},{
-     "ietf-httpbis-immutable": {
-      "id": "http://webconcepts.info/specs/IETF/I-D/ietf-httpbis-immutable",
-      "title": "HTTP Immutable Responses",
-      "name": "Internet Draft ietf-httpbis-immutable",
-      "URI": "urn:ietf:id:ietf-httpbis-immutable",
-      "URL": "http://tools.ietf.org/html/draft-ietf-httpbis-immutable",
-      "abstract": "The immutable HTTP response Cache-Control extension allows servers to identify resources that will not be updated during their freshness lifetime. This assures that a client never needs to revalidate a cached fresh resource to be certain it has not been modified.",
-      "concepts": [{
-       "http://webconcepts.info/concepts/http-cache-directive/": "http://webconcepts.info/concepts/http-cache-directive/immutable" }]}},{
      "ietf-httpbis-key": {
       "id": "http://webconcepts.info/specs/IETF/I-D/ietf-httpbis-key",
       "title": "The Key HTTP Response Header Field",
@@ -2262,7 +2253,16 @@
       "URL": "http://tools.ietf.org/html/rfc8216",
       "abstract": "This document describes a protocol for transferring unbounded streams of multimedia data. It specifies the data format of the files and the actions to be taken by the server (sender) and the clients (receivers) of the streams. It describes version 7 of this protocol.",
       "concepts": [{
-       "http://webconcepts.info/concepts/media-type/": "http://webconcepts.info/concepts/media-type/application/vnd.apple.mpegurl" }]}}]}}]},
+       "http://webconcepts.info/concepts/media-type/": "http://webconcepts.info/concepts/media-type/application/vnd.apple.mpegurl" }]}},{
+     "8246": {
+      "id": "http://webconcepts.info/specs/IETF/RFC/8246",
+      "title": "HTTP Immutable Responses",
+      "name": "RFC 8246",
+      "URI": "urn:ietf:rfc:8246",
+      "URL": "http://tools.ietf.org/html/rfc8246",
+      "abstract": "The immutable HTTP response Cache-Control extension allows servers to identify resources that will not be updated during their freshness lifetime. This ensures that a client never needs to revalidate a cached fresh resource to be certain it has not been modified.",
+      "concepts": [{
+       "http://webconcepts.info/concepts/http-cache-directive/": "http://webconcepts.info/concepts/http-cache-directive/immutable" }]}}]}}]},
  "ISO": {
   "id": "http://webconcepts.info/specs/ISO/",
   "name": "International Organization for Standardization",
