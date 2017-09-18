@@ -8,6 +8,9 @@
     <media-type def=" application/xhtml+xml">
         <documentation source="https://www.w3.org/TR/html/introduction.html#html-vs-xhtml">This specification defines an abstract language for describing documents and applications, and some APIs for interacting with in-memory representations of resources that use this language. The second concrete syntax is the XHTML syntax, which is an application of XML. This specification defines the latest version of the XHTML syntax, known as "XHTML 5.1".</documentation>
     </media-type>
+    <media-type def=" multipart/x-mixed-replace">
+        <documentation source="https://www.w3.org/TR/html/browsers.html#page-load-processing-model-for-multipartx-mixed-replace-resources">When a resource with the type multipart/x-mixed-replace is to be loaded in a browsing context, the user agent must parse the resource using the rules for multipart types.</documentation>
+    </media-type>
     <link-relation def="alternate">
         <documentation source="https://www.w3.org/TR/html/links.html#link-type-alternate">Designates substitute versions for the document in which the link occurs. When used together with the lang attribute, it implies a translated version of the document. When used together with the media attribute, it implies a version designed for a different medium (or media).</documentation>
     </link-relation>
