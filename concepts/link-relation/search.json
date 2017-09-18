@@ -1,0 +1,10 @@
+
+  { "value" : "search",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/search",
+    "details" : 
+    [ 
+      { "description" : "The search keyword indicates that the referenced document provides an interface specifically for searching the document and its related resources.",
+        "documentation" : "https:\/\/www.w3.org\/TR\/html\/links.html#link-type-search",
+        "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/html",
+        "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/html" } ] }

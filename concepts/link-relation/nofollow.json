@@ -1,0 +1,10 @@
+
+  { "value" : "nofollow",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/nofollow",
+    "details" : 
+    [ 
+      { "description" : "The nofollow keyword indicates that the link is not endorsed by the original author or publisher of the page, or that the link to the referenced document was included primarily because of a commercial relationship between people affiliated with the two pages.",
+        "documentation" : "https:\/\/www.w3.org\/TR\/html\/links.html#link-type-nofollow",
+        "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/html",
+        "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/html" } ] }

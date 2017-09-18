@@ -1,0 +1,10 @@
+
+  { "value" : "noreferrer",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/noreferrer",
+    "details" : 
+    [ 
+      { "description" : "This keyword indicates that no referrer information is to be leaked when following the link.",
+        "documentation" : "https:\/\/www.w3.org\/TR\/html\/links.html#link-type-noreferrer",
+        "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/html",
+        "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/html" } ] }

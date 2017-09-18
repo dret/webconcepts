@@ -4,10 +4,10 @@ permalink:     "/concepts/link-relation/stylesheet"
 title:         "Link Relation: stylesheet"
 concept-name:  Link Relation
 concept-value: stylesheet
-description: "Refers to an external style sheet. See the section on external style sheets for details. This is used together with the link type \"Alternate\" for user-selectable alternate style sheets."
+description: "The specified resource is a resource that describes how to present the document. Exactly how the resource is to be processed depends on the actual type of the resource."
 ---
 
-[Refers to an external style sheet. See the section on external style sheets for details. This is used together with the link type "Alternate" for user-selectable alternate style sheets.](http://www.w3.org/TR/html4/types.html#type-links "Read documentation for Link Relation &#34;stylesheet&#34;") (**[W3C TR http://www.w3.org/TR/html4: Hypertext Markup Language (HTML)](/specs/W3C/TR/html4 "This specification defines the HyperText Markup Language (HTML), the publishing language of the World Wide Web. This specification defines HTML 4.01, which is a subversion of HTML 4. In addition to the text, multimedia, and hyperlink features of the previous versions of HTML (HTML 3.2 and HTML 2.0), HTML 4 supports more multimedia options, scripting languages, style sheets, better printing facilities, and documents that are more accessible to users with disabilities. HTML 4 also takes great strides towards the internationalization of documents, with the goal of making the Web truly World Wide.")**)
+[The specified resource is a resource that describes how to present the document. Exactly how the resource is to be processed depends on the actual type of the resource.](https://www.w3.org/TR/html/links.html#link-type-stylesheet "Read documentation for Link Relation &#34;stylesheet&#34;") (**[W3C TR http://www.w3.org/TR/html: Hypertext Markup Language (HTML)](/specs/W3C/TR/html "This specification defines the 5th major version, first minor revision of the core language of the World Wide Web: the Hypertext Markup Language (HTML). In this version, new features continue to be introduced to help Web application authors, new elements continue to be introduced based on research into prevailing authoring practices, and special attention continues to be given to defining clear conformance criteria for user agents in an effort to improve interoperability.")**)
 
 <br/>
 <hr/>

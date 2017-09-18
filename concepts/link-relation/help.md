@@ -4,10 +4,10 @@ permalink:     "/concepts/link-relation/help"
 title:         "Link Relation: help"
 concept-name:  Link Relation
 concept-value: help
-description: "Refers to a document offering help (more information, links to other sources information, etc.)"
+description: "The help keyword indicates that the referenced document provides help for the page as a whole."
 ---
 
-[Refers to a document offering help (more information, links to other sources information, etc.)](http://www.w3.org/TR/html4/types.html#type-links "Read documentation for Link Relation &#34;help&#34;") (**[W3C TR http://www.w3.org/TR/html4: Hypertext Markup Language (HTML)](/specs/W3C/TR/html4 "This specification defines the HyperText Markup Language (HTML), the publishing language of the World Wide Web. This specification defines HTML 4.01, which is a subversion of HTML 4. In addition to the text, multimedia, and hyperlink features of the previous versions of HTML (HTML 3.2 and HTML 2.0), HTML 4 supports more multimedia options, scripting languages, style sheets, better printing facilities, and documents that are more accessible to users with disabilities. HTML 4 also takes great strides towards the internationalization of documents, with the goal of making the Web truly World Wide.")**)
+[The help keyword indicates that the referenced document provides help for the page as a whole.](https://www.w3.org/TR/html/links.html#link-type-help "Read documentation for Link Relation &#34;help&#34;") (**[W3C TR http://www.w3.org/TR/html: Hypertext Markup Language (HTML)](/specs/W3C/TR/html "This specification defines the 5th major version, first minor revision of the core language of the World Wide Web: the Hypertext Markup Language (HTML). In this version, new features continue to be introduced to help Web application authors, new elements continue to be introduced based on research into prevailing authoring practices, and special attention continues to be given to defining clear conformance criteria for user agents in an effort to improve interoperability.")**)
 
 <br/>
 <hr/>

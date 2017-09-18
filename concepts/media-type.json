@@ -6,6 +6,16 @@
     "registry" : "http:\/\/www.iana.org\/assignments\/media-types\/media-types.xhtml",
     "values" : 
     [ 
+      { "value" : " application\/xhtml+xml",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/media-type\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/media-type\/ application\/xhtml+xml",
+        "details" : 
+        [ 
+          { "description" : "This specification defines an abstract language for describing documents and applications, and some APIs for interacting with in-memory representations of resources that use this language. The second concrete syntax is the XHTML syntax, which is an application of XML. This specification defines the latest version of the XHTML syntax, known as \"XHTML 5.1\".",
+            "documentation" : "https:\/\/www.w3.org\/TR\/html\/introduction.html#html-vs-xhtml",
+            "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/html",
+            "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/html" } ] },
+      
       { "value" : "application\/activity+json",
         "concept" : "http:\/\/webconcepts.info\/concepts\/media-type\/",
         "id" : "http:\/\/webconcepts.info\/concepts\/media-type\/application\/activity+json",
@@ -861,10 +871,10 @@
         "id" : "http:\/\/webconcepts.info\/concepts\/media-type\/text\/html",
         "details" : 
         [ 
-          { "description" : "To publish information for global distribution, one needs a universally understood language, a kind of publishing mother tongue that all computers may potentially understand. The publishing language used by the World Wide Web is HTML (from HyperText Markup Language). HTML gives authors the means to publish online documents with headings, text, tables, lists, photos, etc.; retrieve online information via hypertext links, at the click of a button; design forms for conducting transactions with remote services, for use in searching for information, making reservations, ordering products, etc.; and include spread-sheets, video clips, sound clips, and other applications directly in their documents.",
-            "documentation" : "http:\/\/www.w3.org\/TR\/html4\/intro\/intro.html",
-            "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/html4",
-            "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/html4" } ] },
+          { "description" : "This specification defines an abstract language for describing documents and applications, and some APIs for interacting with in-memory representations of resources that use this language. The first such concrete syntax is the HTML syntax. This is the format suggested for most authors. It is compatible with most legacy Web browsers. This specification defines the latest version of the HTML syntax, known as \"HTML 5.1\".",
+            "documentation" : "https:\/\/www.w3.org\/TR\/html\/introduction.html#html-vs-xhtml",
+            "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/html",
+            "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/html" } ] },
       
       { "value" : "text\/markdown",
         "concept" : "http:\/\/webconcepts.info\/concepts\/media-type\/",

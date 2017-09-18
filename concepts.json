@@ -3838,9 +3838,9 @@
           "details" : 
           [ 
             { "description" : "Designates substitute versions for the document in which the link occurs. When used together with the lang attribute, it implies a translated version of the document. When used together with the media attribute, it implies a version designed for a different medium (or media).",
-              "documentation" : "http:\/\/www.w3.org\/TR\/html4\/types.html#type-links",
-              "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/html4",
-              "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/html4" },
+              "documentation" : "https:\/\/www.w3.org\/TR\/html\/links.html#link-type-alternate",
+              "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/html",
+              "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/html" },
             
             { "description" : "The value \"alternate\" signifies that the IRI in the value of the href attribute identifies an alternate version of the resource described by the containing element.",
               "documentation" : "http:\/\/tools.ietf.org\/html\/rfc4287#section-4.2.7.2",
@@ -3897,6 +3897,16 @@
               "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-core-senml",
               "spec-name" : "Internet Draft ietf-core-senml" } ] },
         
+        { "value" : "author",
+          "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+          "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/author",
+          "details" : 
+          [ 
+            { "description" : "The author keyword indicates that the referenced document provides further information about the author for the page as a whole.",
+              "documentation" : "https:\/\/www.w3.org\/TR\/html\/links.html#link-type-author",
+              "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/html",
+              "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/html" } ] },
+        
         { "value" : "bcc",
           "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
           "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/bcc",
@@ -3922,10 +3932,10 @@
           "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/bookmark",
           "details" : 
           [ 
-            { "description" : "Refers to a bookmark. A bookmark is a link to a key entry point within an extended document. The title attribute may be used, for example, to label the bookmark. Note that several bookmarks may be defined in each document.",
-              "documentation" : "http:\/\/www.w3.org\/TR\/html4\/types.html#type-links",
-              "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/html4",
-              "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/html4" } ] },
+            { "description" : "The bookmark keyword gives a permalink for the nearest ancestor article element of the linking element in question, or of the section the linking element is most closely associated with, if there are no ancestor article elements.",
+              "documentation" : "https:\/\/www.w3.org\/TR\/html\/links.html#link-type-bookmark",
+              "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/html",
+              "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/html" } ] },
         
         { "value" : "boundto",
           "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
@@ -4197,10 +4207,10 @@
           "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/help",
           "details" : 
           [ 
-            { "description" : "Refers to a document offering help (more information, links to other sources information, etc.)",
-              "documentation" : "http:\/\/www.w3.org\/TR\/html4\/types.html#type-links",
-              "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/html4",
-              "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/html4" } ] },
+            { "description" : "The help keyword indicates that the referenced document provides help for the page as a whole.",
+              "documentation" : "https:\/\/www.w3.org\/TR\/html\/links.html#link-type-help",
+              "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/html",
+              "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/html" } ] },
         
         { "value" : "home",
           "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
@@ -4231,6 +4241,16 @@
               "documentation" : "http:\/\/www.w3.org\/TR\/websub\/#discovery",
               "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/websub",
               "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/websub" } ] },
+        
+        { "value" : "icon",
+          "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+          "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/icon",
+          "details" : 
+          [ 
+            { "description" : "The specified resource is an icon representing the page or site, and should be used by the user agent when representing the page in the user interface.",
+              "documentation" : "https:\/\/www.w3.org\/TR\/html\/links.html#link-type-icon",
+              "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/html",
+              "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/html" } ] },
         
         { "value" : "identifier",
           "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
@@ -4297,6 +4317,11 @@
           "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/license",
           "details" : 
           [ 
+            { "description" : "The license keyword indicates that the referenced document provides the copyright license terms under which the main content of the current document is provided.",
+              "documentation" : "https:\/\/www.w3.org\/TR\/html\/links.html#link-type-license",
+              "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/html",
+              "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/html" },
+            
             { "description" : "The \"license\" link relation can be used to associate licenses with a feed or entry. Feeds and entries can be dual-licensed by including multiple \"license\" link relations specifying different href attribute values. If multiple \"license\" link relations are specified, each SHOULD contain a title attribute specifying a human-readable label for the license.",
               "documentation" : "http:\/\/tools.ietf.org\/html\/rfc4946#section-2",
               "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/4946",
@@ -4378,9 +4403,9 @@
           "details" : 
           [ 
             { "description" : "Refers to the next document in a linear sequence of documents. User agents may choose to preload the \"next\" document, to reduce the perceived load time.",
-              "documentation" : "http:\/\/www.w3.org\/TR\/html4\/types.html#type-links",
-              "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/html4",
-              "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/html4" },
+              "documentation" : "https:\/\/www.w3.org\/TR\/html\/links.html#link-type-next",
+              "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/html",
+              "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/html" },
             
             { "description" : "A URI that refers to the immediately following document in a series of documents.",
               "documentation" : "http:\/\/tools.ietf.org\/html\/rfc5005#section-3",
@@ -4396,6 +4421,26 @@
               "documentation" : "http:\/\/tools.ietf.org\/html\/rfc5005#section-4",
               "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/5005",
               "spec-name" : "RFC 5005" } ] },
+        
+        { "value" : "nofollow",
+          "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+          "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/nofollow",
+          "details" : 
+          [ 
+            { "description" : "The nofollow keyword indicates that the link is not endorsed by the original author or publisher of the page, or that the link to the referenced document was included primarily because of a commercial relationship between people affiliated with the two pages.",
+              "documentation" : "https:\/\/www.w3.org\/TR\/html\/links.html#link-type-nofollow",
+              "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/html",
+              "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/html" } ] },
+        
+        { "value" : "noreferrer",
+          "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+          "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/noreferrer",
+          "details" : 
+          [ 
+            { "description" : "This keyword indicates that no referrer information is to be leaked when following the link.",
+              "documentation" : "https:\/\/www.w3.org\/TR\/html\/links.html#link-type-noreferrer",
+              "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/html",
+              "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/html" } ] },
         
         { "value" : "original",
           "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
@@ -4463,9 +4508,9 @@
           "details" : 
           [ 
             { "description" : "Refers to the previous document in an ordered series of documents. Some user agents also support the synonym \"Previous\".",
-              "documentation" : "http:\/\/www.w3.org\/TR\/html4\/types.html#type-links",
-              "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/html4",
-              "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/html4" } ] },
+              "documentation" : "https:\/\/www.w3.org\/TR\/html\/links.html#link-type-prev",
+              "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/html",
+              "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/html" } ] },
         
         { "value" : "prev-archive",
           "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
@@ -4546,6 +4591,16 @@
               "documentation" : "http:\/\/tools.ietf.org\/html\/draft-zyp-json-schema#section-6.1.1.2",
               "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/zyp-json-schema",
               "spec-name" : "Internet Draft zyp-json-schema" } ] },
+        
+        { "value" : "search",
+          "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+          "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/search",
+          "details" : 
+          [ 
+            { "description" : "The search keyword indicates that the referenced document provides an interface specifically for searching the document and its related resources.",
+              "documentation" : "https:\/\/www.w3.org\/TR\/html\/links.html#link-type-search",
+              "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/html",
+              "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/html" } ] },
         
         { "value" : "section",
           "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
@@ -4632,10 +4687,10 @@
           "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/stylesheet",
           "details" : 
           [ 
-            { "description" : "Refers to an external style sheet. See the section on external style sheets for details. This is used together with the link type \"Alternate\" for user-selectable alternate style sheets.",
-              "documentation" : "http:\/\/www.w3.org\/TR\/html4\/types.html#type-links",
-              "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/html4",
-              "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/html4" } ] },
+            { "description" : "The specified resource is a resource that describes how to present the document. Exactly how the resource is to be processed depends on the actual type of the resource.",
+              "documentation" : "https:\/\/www.w3.org\/TR\/html\/links.html#link-type-stylesheet",
+              "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/html",
+              "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/html" } ] },
         
         { "value" : "subsection",
           "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
@@ -4656,6 +4711,16 @@
               "documentation" : "http:\/\/tools.ietf.org\/html\/rfc5829#section-3.6",
               "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/5829",
               "spec-name" : "RFC 5829" } ] },
+        
+        { "value" : "tag",
+          "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+          "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/tag",
+          "details" : 
+          [ 
+            { "description" : "The tag keyword indicates that the tag that the referenced document represents applies to the current document.",
+              "documentation" : "https:\/\/www.w3.org\/TR\/html\/links.html#link-type-tag",
+              "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/html",
+              "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/html" } ] },
         
         { "value" : "terms-of-service",
           "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
@@ -4784,6 +4849,16 @@
       "registry" : "http:\/\/www.iana.org\/assignments\/media-types\/media-types.xhtml",
       "values" : 
       [ 
+        { "value" : " application\/xhtml+xml",
+          "concept" : "http:\/\/webconcepts.info\/concepts\/media-type\/",
+          "id" : "http:\/\/webconcepts.info\/concepts\/media-type\/ application\/xhtml+xml",
+          "details" : 
+          [ 
+            { "description" : "This specification defines an abstract language for describing documents and applications, and some APIs for interacting with in-memory representations of resources that use this language. The second concrete syntax is the XHTML syntax, which is an application of XML. This specification defines the latest version of the XHTML syntax, known as \"XHTML 5.1\".",
+              "documentation" : "https:\/\/www.w3.org\/TR\/html\/introduction.html#html-vs-xhtml",
+              "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/html",
+              "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/html" } ] },
+        
         { "value" : "application\/activity+json",
           "concept" : "http:\/\/webconcepts.info\/concepts\/media-type\/",
           "id" : "http:\/\/webconcepts.info\/concepts\/media-type\/application\/activity+json",
@@ -5639,10 +5714,10 @@
           "id" : "http:\/\/webconcepts.info\/concepts\/media-type\/text\/html",
           "details" : 
           [ 
-            { "description" : "To publish information for global distribution, one needs a universally understood language, a kind of publishing mother tongue that all computers may potentially understand. The publishing language used by the World Wide Web is HTML (from HyperText Markup Language). HTML gives authors the means to publish online documents with headings, text, tables, lists, photos, etc.; retrieve online information via hypertext links, at the click of a button; design forms for conducting transactions with remote services, for use in searching for information, making reservations, ordering products, etc.; and include spread-sheets, video clips, sound clips, and other applications directly in their documents.",
-              "documentation" : "http:\/\/www.w3.org\/TR\/html4\/intro\/intro.html",
-              "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/html4",
-              "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/html4" } ] },
+            { "description" : "This specification defines an abstract language for describing documents and applications, and some APIs for interacting with in-memory representations of resources that use this language. The first such concrete syntax is the HTML syntax. This is the format suggested for most authors. It is compatible with most legacy Web browsers. This specification defines the latest version of the HTML syntax, known as \"HTML 5.1\".",
+              "documentation" : "https:\/\/www.w3.org\/TR\/html\/introduction.html#html-vs-xhtml",
+              "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/html",
+              "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/html" } ] },
         
         { "value" : "text\/markdown",
           "concept" : "http:\/\/webconcepts.info\/concepts\/media-type\/",

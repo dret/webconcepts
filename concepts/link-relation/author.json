@@ -1,0 +1,10 @@
+
+  { "value" : "author",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/author",
+    "details" : 
+    [ 
+      { "description" : "The author keyword indicates that the referenced document provides further information about the author for the page as a whole.",
+        "documentation" : "https:\/\/www.w3.org\/TR\/html\/links.html#link-type-author",
+        "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/html",
+        "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/html" } ] }

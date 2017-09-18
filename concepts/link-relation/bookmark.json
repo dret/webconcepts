@@ -4,7 +4,7 @@
     "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/bookmark",
     "details" : 
     [ 
-      { "description" : "Refers to a bookmark. A bookmark is a link to a key entry point within an extended document. The title attribute may be used, for example, to label the bookmark. Note that several bookmarks may be defined in each document.",
-        "documentation" : "http:\/\/www.w3.org\/TR\/html4\/types.html#type-links",
-        "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/html4",
-        "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/html4" } ] }
+      { "description" : "The bookmark keyword gives a permalink for the nearest ancestor article element of the linking element in question, or of the section the linking element is most closely associated with, if there are no ancestor article elements.",
+        "documentation" : "https:\/\/www.w3.org\/TR\/html\/links.html#link-type-bookmark",
+        "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/html",
+        "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/html" } ] }

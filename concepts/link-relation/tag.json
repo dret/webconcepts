@@ -1,0 +1,10 @@
+
+  { "value" : "tag",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/tag",
+    "details" : 
+    [ 
+      { "description" : "The tag keyword indicates that the tag that the referenced document represents applies to the current document.",
+        "documentation" : "https:\/\/www.w3.org\/TR\/html\/links.html#link-type-tag",
+        "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/html",
+        "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/html" } ] }

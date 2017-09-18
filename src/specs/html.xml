@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<service primary="W3C" secondary="TR" id="html">
+    <title>Hypertext Markup Language (HTML)</title>
+    <documentation source="http://www.w3.org/TR/html">This specification defines the 5th major version, first minor revision of the core language of the World Wide Web: the Hypertext Markup Language (HTML). In this version, new features continue to be introduced to help Web application authors, new elements continue to be introduced based on research into prevailing authoring practices, and special attention continues to be given to defining clear conformance criteria for user agents in an effort to improve interoperability.</documentation>
+    <media-type def="text/html">
+        <documentation source="https://www.w3.org/TR/html/introduction.html#html-vs-xhtml">This specification defines an abstract language for describing documents and applications, and some APIs for interacting with in-memory representations of resources that use this language. The first such concrete syntax is the HTML syntax. This is the format suggested for most authors. It is compatible with most legacy Web browsers. This specification defines the latest version of the HTML syntax, known as "HTML 5.1".</documentation>
+    </media-type>
+    <media-type def=" application/xhtml+xml">
+        <documentation source="https://www.w3.org/TR/html/introduction.html#html-vs-xhtml">This specification defines an abstract language for describing documents and applications, and some APIs for interacting with in-memory representations of resources that use this language. The second concrete syntax is the XHTML syntax, which is an application of XML. This specification defines the latest version of the XHTML syntax, known as "XHTML 5.1".</documentation>
+    </media-type>
+    <link-relation def="alternate">
+        <documentation source="https://www.w3.org/TR/html/links.html#link-type-alternate">Designates substitute versions for the document in which the link occurs. When used together with the lang attribute, it implies a translated version of the document. When used together with the media attribute, it implies a version designed for a different medium (or media).</documentation>
+    </link-relation>
+    <link-relation def="author">
+        <documentation source="https://www.w3.org/TR/html/links.html#link-type-author">The author keyword indicates that the referenced document provides further information about the author for the page as a whole.</documentation>
+    </link-relation>
+    <link-relation def="bookmark">
+        <documentation source="https://www.w3.org/TR/html/links.html#link-type-bookmark">The bookmark keyword gives a permalink for the nearest ancestor article element of the linking element in question, or of the section the linking element is most closely associated with, if there are no ancestor article elements.</documentation>
+    </link-relation>
+    <link-relation def="help">
+        <documentation source="https://www.w3.org/TR/html/links.html#link-type-help">The help keyword indicates that the referenced document provides help for the page as a whole.</documentation>
+    </link-relation>
+    <link-relation def="icon">
+        <documentation source="https://www.w3.org/TR/html/links.html#link-type-icon">The specified resource is an icon representing the page or site, and should be used by the user agent when representing the page in the user interface.</documentation>
+    </link-relation>
+    <link-relation def="license">
+        <documentation source="https://www.w3.org/TR/html/links.html#link-type-license">The license keyword indicates that the referenced document provides the copyright license terms under which the main content of the current document is provided.</documentation>
+    </link-relation>
+    <link-relation def="nofollow">
+        <documentation source="https://www.w3.org/TR/html/links.html#link-type-nofollow">The nofollow keyword indicates that the link is not endorsed by the original author or publisher of the page, or that the link to the referenced document was included primarily because of a commercial relationship between people affiliated with the two pages.</documentation>
+    </link-relation>
+    <link-relation def="noreferrer">
+        <documentation source="https://www.w3.org/TR/html/links.html#link-type-noreferrer">This keyword indicates that no referrer information is to be leaked when following the link.</documentation>
+    </link-relation>
+    <link-relation def="search">
+        <documentation source="https://www.w3.org/TR/html/links.html#link-type-search">The search keyword indicates that the referenced document provides an interface specifically for searching the document and its related resources.</documentation>
+    </link-relation>
+    <link-relation def="stylesheet">
+        <documentation source="https://www.w3.org/TR/html/links.html#link-type-stylesheet">The specified resource is a resource that describes how to present the document. Exactly how the resource is to be processed depends on the actual type of the resource.</documentation>
+    </link-relation>
+    <link-relation def="tag">
+        <documentation source="https://www.w3.org/TR/html/links.html#link-type-tag">The tag keyword indicates that the tag that the referenced document represents applies to the current document.</documentation>
+    </link-relation>
+    <link-relation def="next">
+        <documentation source="https://www.w3.org/TR/html/links.html#link-type-next">Refers to the next document in a linear sequence of documents. User agents may choose to preload the "next" document, to reduce the perceived load time.</documentation>
+    </link-relation>
+    <link-relation def="prev">
+        <documentation source="https://www.w3.org/TR/html/links.html#link-type-prev">Refers to the previous document in an ordered series of documents. Some user agents also support the synonym "Previous".</documentation>
+    </link-relation>
+</service>
