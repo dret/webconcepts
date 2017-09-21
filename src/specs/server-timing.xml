@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<service primary="W3C" secondary="TR" id="server-timing">
+    <title>Server Timing</title>
+    <documentation source="http://www.w3.org/TR/server-timing/">This specification enables a server to communicate performance metrics about the request-response cycle to the user agent. It also standardizes a JavaScript interface to enable applications to collect, process, and act on these metrics to optimize application delivery.</documentation>
+    <http-header def="Server-Timing">
+        <documentation source="http://www.w3.org/TR/server-timing/#the-server-timing-header-field">The Server-Timing header field is used to communicate one or more metrics and descriptions for the given request-response cycle.</documentation>
+    </http-header>
+</service>

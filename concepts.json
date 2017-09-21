@@ -1980,6 +1980,16 @@
               "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7231",
               "spec-name" : "RFC 7231" } ] },
         
+        { "value" : "Server-Timing",
+          "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
+          "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Server-Timing",
+          "details" : 
+          [ 
+            { "description" : "The Server-Timing header field is used to communicate one or more metrics and descriptions for the given request-response cycle.",
+              "documentation" : "http:\/\/www.w3.org\/TR\/server-timing\/#the-server-timing-header-field",
+              "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/server-timing",
+              "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/server-timing" } ] },
+        
         { "value" : "Service-Worker",
           "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
           "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Service-Worker",

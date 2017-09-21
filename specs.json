@@ -2684,6 +2684,15 @@
        "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/preconnect" }, {
        "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/prefetch" }, {
        "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/prerender" }]}},{
+     "server-timing": {
+      "id": "http://webconcepts.info/specs/W3C/TR/server-timing",
+      "title": "Server Timing",
+      "name": "W3C TR http://www.w3.org/TR/server-timing",
+      "URI": "http://www.w3.org/TR/server-timing",
+      "URL": "http://www.w3.org/TR/server-timing",
+      "abstract": "This specification enables a server to communicate performance metrics about the request-response cycle to the user agent. It also standardizes a JavaScript interface to enable applications to collect, process, and act on these metrics to optimize application delivery.",
+      "concepts": [{
+       "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Server-Timing" }]}},{
      "service-workers-1": {
       "id": "http://webconcepts.info/specs/W3C/TR/service-workers-1",
       "title": "Service Workers 1",
