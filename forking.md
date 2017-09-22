@@ -12,6 +12,8 @@ All *Web Concepts* data is openly and freely [available on GitHub](https://githu
 
 For forking Web Concepts, all you need to do is [fork the Github repository]() [`dret/webconcepts`](https://github.com/dret/webconcepts), which will create a new repository. Then you need to set up Jekyll, which can be either [simply via GitHub pages](), or you can setup Jekyll elsewhere. If you make any changes to the repository, the build process is to use an XSLT 3.1 processor on [`transform.xsl`](/transform.xsl). This will generate both the Jekyll site, and the [JSON representation](/JSON).
 
+Keep in mind that Web Concepts is entirely driven via *concept documentation*, meaning that concepts and their values are never directly added, but instead are listed in [specifications (from which the information is extracted when the site is built)](/src/specs). This means that making *any* changes always requires changes to the specifications, which then get reflected when the site is rebuilt.
+
 
 ## Removing Web Concepts
 
