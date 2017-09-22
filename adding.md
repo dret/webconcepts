@@ -7,3 +7,9 @@ permalink: /adding
 # Adding Web Concepts
 
 [forking Web Concepts](/forking)
+
+
+## Adding Concept Values
+
+
+## Adding Concepts
