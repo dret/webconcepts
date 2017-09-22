@@ -1,4 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concepts [
+    <!ELEMENT concepts       (concept+) >
+    <!ATTLIST concepts
+        file-extension       CDATA #REQUIRED >
+    <!ELEMENT concept        (title-singular, title-plural, iana-registry) >
+    <!ATTLIST concept
+        id                   ID #REQUIRED >
+    <!ELEMENT title-singular (#PCDATA) >
+    <!ELEMENT title-plural   (#PCDATA) >
+    <!ELEMENT iana-registry  (#PCDATA) >
+]>
 <concepts file-extension="md">
     <concept id="http-method">
         <title-singular>HTTP Request Method</title-singular>
