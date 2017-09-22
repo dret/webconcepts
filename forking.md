@@ -10,6 +10,8 @@ All *Web Concepts* data is openly and freely [available on GitHub](https://githu
 
 [Web Concepts](http://webconcepts.info/) is meant as a starting point and covers many standards. Naturally, it may not cover *all* standards that you care about, and/or it may not cover standards that you *do not care about*. You should be able to just see *the Web Concepts that you care about*, and you can do this by forking the repository, and then removing and/or adding Web Concepts.
 
+For forking Web Concepts, all you need to do is [fork the Github repository]() [`dret/webconcepts`](https://github.com/dret/webconcepts), which will create a new repository. Then you need to set up Jekyll, which can be either [simply via GitHub pages](), or you can setup Jekyll elsewhere. If you make any changes to the repository, the build process is to use an XSLT 3.1 processor on [`transform.xsl`](/transform.xsl). This will generate both the Jekyll site, and the [JSON representation](/JSON).
+
 
 ## Removing Web Concepts
 
