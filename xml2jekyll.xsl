@@ -25,7 +25,7 @@
             <xsl:text>title:       "Web Concept Specifications: Organizations"&#xa;</xsl:text>
             <xsl:text>description: "List of all organizations and their specification series that are used to compile the list of Web Concepts"&#xa;</xsl:text>
             <xsl:text>---&#xa;&#xa;</xsl:text>
-            <xsl:text>This is a list of all organizations and their specification series that are used to compile the list of [Web Concepts](../concepts).&#xa;&#xa;</xsl:text>
+            <xsl:text>This is a list of all organizations and their specification series (listing {% include specs.md %}) that are used to compile the list of [Web Concepts](../concepts).&#xa;&#xa;</xsl:text>
             <xsl:for-each select="$specs/specs/primary">
                 <xsl:sort select="name"/>
                 <xsl:variable name="primary" select="."/>

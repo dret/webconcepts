@@ -4,7 +4,7 @@ title:       "Web Concept Specifications: Organizations"
 description: "List of all organizations and their specification series that are used to compile the list of Web Concepts"
 ---
 
-This is a list of all organizations and their specification series that are used to compile the list of [Web Concepts](../concepts).
+This is a list of all organizations and their specification series (listing {% include specs.md %}) that are used to compile the list of [Web Concepts](../concepts).
 
 * [International Organization for Standardization (ISO)](ISO/): 3 Specifications
   * [International Electrotechnical Commission (IEC) Series](ISO/IEC/ "Series overview"): 3 Specifications
