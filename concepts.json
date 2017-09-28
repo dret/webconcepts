@@ -480,6 +480,16 @@
               "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpbis-client-hints",
               "spec-name" : "Internet Draft ietf-httpbis-client-hints" } ] },
         
+        { "value" : "Accept-CH-Lifetime",
+          "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
+          "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Accept-CH-Lifetime",
+          "details" : 
+          [ 
+            { "description" : "Servers can ask the client to remember an origin-wide Accept-CH preference for a specified period of time to enable delivery of Client Hints on all subsequent requests to the origin, and on subresource requests initiated as a result of processing a response from the origin.",
+              "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-httpbis-client-hints#section-2.2.2",
+              "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpbis-client-hints",
+              "spec-name" : "Internet Draft ietf-httpbis-client-hints" } ] },
+        
         { "value" : "Accept-Charset",
           "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
           "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Accept-Charset",
@@ -891,7 +901,7 @@
           "details" : 
           [ 
             { "description" : "The \"Content-DPR\" header field is a number that indicates the ratio between physical pixels over CSS px of the selected image response.",
-              "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-httpbis-client-hints#section-3.1",
+              "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-httpbis-client-hints#section-3.1.1",
               "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpbis-client-hints",
               "spec-name" : "Internet Draft ietf-httpbis-client-hints" } ] },
         
@@ -1101,7 +1111,7 @@
           "details" : 
           [ 
             { "description" : "The \"DPR\" header field is a number that, in requests, indicates the client's current Device Pixel Ratio (DPR), which is the ratio of physical pixels over CSS px of the layout viewport on the device.",
-              "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-httpbis-client-hints#section-3",
+              "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-httpbis-client-hints#section-3.1",
               "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpbis-client-hints",
               "spec-name" : "Internet Draft ietf-httpbis-client-hints" } ] },
         
@@ -1161,7 +1171,7 @@
           "details" : 
           [ 
             { "description" : "The \"Downlink\" header field is a number that, in requests, indicates the client's maximum downlink speed in megabits per second (Mbps), as defined by the \"downlinkMax\" attribute in the W3C Network Information API.",
-              "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-httpbis-client-hints#section-6",
+              "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-httpbis-client-hints#section-3.4",
               "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpbis-client-hints",
               "spec-name" : "Internet Draft ietf-httpbis-client-hints" } ] },
         
@@ -1876,7 +1886,7 @@
           "details" : 
           [ 
             { "description" : "The \"Save-Data\" header field is a token that, in requests, indicates client's preference for reduced data usage, due to high transfer costs, slow connection speeds, or other reasons.",
-              "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-httpbis-client-hints#section-7",
+              "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-httpbis-client-hints#section-3.5",
               "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpbis-client-hints",
               "spec-name" : "Internet Draft ietf-httpbis-client-hints" } ] },
         
@@ -2311,7 +2321,7 @@
           "details" : 
           [ 
             { "description" : "The \"Viewport-Width\" header field is a number that, in requests, indicates the layout viewport width in CSS px.",
-              "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-httpbis-client-hints#section-5",
+              "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-httpbis-client-hints#section-3.3",
               "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpbis-client-hints",
               "spec-name" : "Internet Draft ietf-httpbis-client-hints" } ] },
         
@@ -2356,7 +2366,7 @@
           "details" : 
           [ 
             { "description" : "The \"Width\" header field is a number that, in requests, indicates the resource width in physical px (i.e. intrinsic size of an image).",
-              "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-httpbis-client-hints#section-4",
+              "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-httpbis-client-hints#section-3.2",
               "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpbis-client-hints",
               "spec-name" : "Internet Draft ietf-httpbis-client-hints" } ] },
         
