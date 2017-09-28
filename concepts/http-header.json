@@ -1856,6 +1856,16 @@
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/2295",
             "spec-name" : "RFC 2295" } ] },
       
+      { "value" : "Variants",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Variants",
+        "details" : 
+        [ 
+          { "description" : "The Variants HTTP response header field is used to indicate what other representations are available for a given resource at the time that the response is produced.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-nottingham-variants#section-2",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/draft-nottingham-variants",
+            "spec-name" : "Internet Draft draft-nottingham-variants" } ] },
+      
       { "value" : "Vary",
         "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
         "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Vary",

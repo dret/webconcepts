@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<service primary="IETF" secondary="I-D" id="draft-nottingham-variants">
+    <title>HTTP Variants</title>
+    <documentation source="http://tools.ietf.org/html/draft-nottingham-variants">This specification introduces the HTTP Variants response header field to communicate what representations are available for a given resource.</documentation>
+    <http-header def="Variants">
+        <documentation source="http://tools.ietf.org/html/draft-nottingham-variants#section-2">The Variants HTTP response header field is used to indicate what other representations are available for a given resource at the time that the response is produced.</documentation>
+    </http-header>
+</service>

@@ -48,6 +48,15 @@
       "concepts": [{
        "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/down" }, {
        "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/up" }]}},{
+     "draft-nottingham-variants": {
+      "id": "http://webconcepts.info/specs/IETF/I-D/draft-nottingham-variants",
+      "title": "HTTP Variants",
+      "name": "Internet Draft draft-nottingham-variants",
+      "URI": "urn:ietf:id:draft-nottingham-variants",
+      "URL": "http://tools.ietf.org/html/draft-draft-nottingham-variants",
+      "abstract": "This specification introduces the HTTP Variants response header field to communicate what representations are available for a given resource.",
+      "concepts": [{
+       "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Variants" }]}},{
      "drechsler-httpbis-improved-caching": {
       "id": "http://webconcepts.info/specs/IETF/I-D/drechsler-httpbis-improved-caching",
       "title": "Hypertext Transfer Protocol: Improved HTTP Caching",
