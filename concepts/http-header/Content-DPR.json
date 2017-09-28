@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "The \"Content-DPR\" header field is a number that indicates the ratio between physical pixels over CSS px of the selected image response.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-httpbis-client-hints#section-3.1",
+        "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-httpbis-client-hints#section-3.1.1",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpbis-client-hints",
         "spec-name" : "Internet Draft ietf-httpbis-client-hints" } ] }

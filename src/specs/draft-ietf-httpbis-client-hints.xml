@@ -5,22 +5,25 @@
     <http-header def="Accept-CH">
         <documentation source="http://tools.ietf.org/html/draft-ietf-httpbis-client-hints#section-2.2.1">Servers can advertise support for Client Hints using the Accept-CH header field or an equivalent HTML meta element with http-equiv attribute.</documentation>
     </http-header>
+    <http-header def="Accept-CH-Lifetime">
+        <documentation source="http://tools.ietf.org/html/draft-ietf-httpbis-client-hints#section-2.2.2">Servers can ask the client to remember an origin-wide Accept-CH preference for a specified period of time to enable delivery of Client Hints on all subsequent requests to the origin, and on subresource requests initiated as a result of processing a response from the origin.</documentation>
+    </http-header>
     <http-header def="DPR">
-        <documentation source="http://tools.ietf.org/html/draft-ietf-httpbis-client-hints#section-3">The "DPR" header field is a number that, in requests, indicates the client's current Device Pixel Ratio (DPR), which is the ratio of physical pixels over CSS px of the layout viewport on the device.</documentation>
+        <documentation source="http://tools.ietf.org/html/draft-ietf-httpbis-client-hints#section-3.1">The "DPR" header field is a number that, in requests, indicates the client's current Device Pixel Ratio (DPR), which is the ratio of physical pixels over CSS px of the layout viewport on the device.</documentation>
     </http-header>
     <http-header def="Content-DPR">
-        <documentation source="http://tools.ietf.org/html/draft-ietf-httpbis-client-hints#section-3.1">The "Content-DPR" header field is a number that indicates the ratio between physical pixels over CSS px of the selected image response.</documentation>
+        <documentation source="http://tools.ietf.org/html/draft-ietf-httpbis-client-hints#section-3.1.1">The "Content-DPR" header field is a number that indicates the ratio between physical pixels over CSS px of the selected image response.</documentation>
     </http-header>
     <http-header def="Width">
-        <documentation source="http://tools.ietf.org/html/draft-ietf-httpbis-client-hints#section-4">The "Width" header field is a number that, in requests, indicates the resource width in physical px (i.e. intrinsic size of an image).</documentation>
+        <documentation source="http://tools.ietf.org/html/draft-ietf-httpbis-client-hints#section-3.2">The "Width" header field is a number that, in requests, indicates the resource width in physical px (i.e. intrinsic size of an image).</documentation>
     </http-header>
     <http-header def="Viewport-Width">
-        <documentation source="http://tools.ietf.org/html/draft-ietf-httpbis-client-hints#section-5">The "Viewport-Width" header field is a number that, in requests, indicates the layout viewport width in CSS px.</documentation>
+        <documentation source="http://tools.ietf.org/html/draft-ietf-httpbis-client-hints#section-3.3">The "Viewport-Width" header field is a number that, in requests, indicates the layout viewport width in CSS px.</documentation>
     </http-header>
     <http-header def="Downlink">
-        <documentation source="http://tools.ietf.org/html/draft-ietf-httpbis-client-hints#section-6">The "Downlink" header field is a number that, in requests, indicates the client's maximum downlink speed in megabits per second (Mbps), as defined by the "downlinkMax" attribute in the W3C Network Information API.</documentation>
+        <documentation source="http://tools.ietf.org/html/draft-ietf-httpbis-client-hints#section-3.4">The "Downlink" header field is a number that, in requests, indicates the client's maximum downlink speed in megabits per second (Mbps), as defined by the "downlinkMax" attribute in the W3C Network Information API.</documentation>
     </http-header>
     <http-header def="Save-Data">
-        <documentation source="http://tools.ietf.org/html/draft-ietf-httpbis-client-hints#section-7">The "Save-Data" header field is a token that, in requests, indicates client's preference for reduced data usage, due to high transfer costs, slow connection speeds, or other reasons.</documentation>
+        <documentation source="http://tools.ietf.org/html/draft-ietf-httpbis-client-hints#section-3.5">The "Save-Data" header field is a token that, in requests, indicates client's preference for reduced data usage, due to high transfer costs, slow connection speeds, or other reasons.</documentation>
     </http-header>
 </service>
