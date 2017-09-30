@@ -238,13 +238,15 @@
                         </xsl:if>
                         <xsl:text>`](</xsl:text>
                         <xsl:value-of select="concat('/', $concepts-dir, '/', $concept/@id, '/', $concept-name)"/>
+                        <xsl:text>)</xsl:text>
                         <xsl:variable name="number-of-defs" select="count($allspecs//*[local-name() eq $concept/@id][@def eq $concept-name])"/>
                         <xsl:if test="$number-of-defs gt 1">
-                            <xsl:text> "</xsl:text>
+                            <xsl:text>&lt;sub title=" There are </xsl:text>
                             <xsl:value-of select="$number-of-defs"/>
-                            <xsl:text> definitions"</xsl:text>
+                            <xsl:text> definitions for this value"></xsl:text>
+                            <xsl:value-of select="$number-of-defs"/>
+                            <xsl:text>&lt;/sub></xsl:text>
                         </xsl:if>
-                        <xsl:text>)</xsl:text>
                         <xsl:text> | </xsl:text>
                         <xsl:for-each select="$allspecs/service[*[local-name() eq $concept/@id][@def eq $concept-name]]">
                             <xsl:sort select="title/text()"/>
