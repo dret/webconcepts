@@ -1,6 +1,6 @@
 ---
 layout:    page
-title:     "XML Namespace"
+title:     "XML Namespaces"
 permalink: /concepts/xml-ns/
 ---
 

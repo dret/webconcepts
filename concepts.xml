@@ -163,7 +163,7 @@
     </concept>
     <concept id="xml-ns">
         <title-singular>XML Namespace</title-singular>
-        <title-plural>XML Namespace</title-plural>
+        <title-plural>XML Namespaces</title-plural>
         <iana-registry>https://www.iana.org/assignments/xml-registry/xml-registry.xhtml#ns</iana-registry>
     </concept>
     <concept id="xml-schema">
