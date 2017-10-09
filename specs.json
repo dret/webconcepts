@@ -2625,6 +2625,15 @@
       "abstract": "JSON is a useful data serialization and messaging format. This specification defines JSON-LD, a JSON-based format to serialize Linked Data. The syntax is designed to easily integrate into deployed systems that already use JSON, and provides a smooth upgrade path from JSON to JSON-LD. It is primarily intended to be a way to use Linked Data in Web-based programming environments, to build interoperable Web services, and to store Linked Data in JSON-based storage engines.",
       "concepts": [{
        "http://webconcepts.info/concepts/media-type/": "http://webconcepts.info/concepts/media-type/application/ld+json" }]}},{
+     "json-rdf": {
+      "id": "http://webconcepts.info/specs/W3C/TR/json-rdf",
+      "title": "RDF 1.1 JSON Alternate Serialization (RDF/JSON)",
+      "name": "W3C TR http://www.w3.org/TR/json-rdf",
+      "URI": "http://www.w3.org/TR/json-rdf",
+      "URL": "http://www.w3.org/TR/json-rdf",
+      "abstract": "The Resource Description Framework (RDF) is a framework for representing information in the Web. This document defines a textual syntax for RDF called RDF/JSON that allows an RDF graph to be completely written in a form compatible with the JavaScript Object Notation (JSON) and alternative to the one recommended in JSON-LD. The syntax defined in this document should not be used unless there is a specific reason to do so. Use of JSON-LD is recommended.",
+      "concepts": [{
+       "http://webconcepts.info/concepts/media-type/": "http://webconcepts.info/concepts/media-type/application/rdf+json" }]}},{
      "ldp": {
       "id": "http://webconcepts.info/specs/W3C/TR/ldp",
       "title": "Linked Data Platform 1.0 (LDP)",

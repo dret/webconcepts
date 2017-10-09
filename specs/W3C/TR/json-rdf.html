@@ -1,0 +1,81 @@
+---
+layout:      page
+title:       "RDF 1.1 JSON Alternate Serialization (RDF/JSON)"
+description: "The Resource Description Framework (RDF) is a framework for representing information
+in the Web. This document defines a textual syntax for RDF called RDF/JSON that allows
+an RDF graph to be completely written in a form compatible with the JavaScript Object
+Notation (JSON) and alternative to the one recommended in JSON-LD. The syntax defined
+in this document should not be used unless there is a specific reason to do so. Use
+of JSON-LD is recommended."
+---
+
+<table cellpadding="5">
+   <tr>
+      <th valign="top" align="right">
+         <em>Document Name:</em>
+      </th>
+      <td>W3C TR http://www.w3.org/TR/json-rdf</td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Document URI:</em>
+      </th>
+      <td>
+         <code>http://www.w3.org/TR/json-rdf</code>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Online Version:</em>
+      </th>
+      <td>
+         <code>
+            <a href="http://www.w3.org/TR/json-rdf">http://www.w3.org/TR/json-rdf</a>
+         </code>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Organization:</em>
+      </th>
+      <td>
+         <a href="../" title="List of specification series by this organization">World Wide Web Consortium (W3C)</a>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Series:</em>
+      </th>
+      <td>
+         <a href="./" title="List of specifications in this series">Technical Report (TR)</a>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Abstract:</em>
+      </th>
+      <td>The Resource Description Framework (RDF) is a framework for representing information
+         in the Web. This document defines a textual syntax for RDF called RDF/JSON that allows
+         an RDF graph to be completely written in a form compatible with the JavaScript Object
+         Notation (JSON) and alternative to the one recommended in JSON-LD. The syntax defined
+         in this document should not be used unless there is a specific reason to do so. Use
+         of JSON-LD is recommended.
+      </td>
+   </tr>
+</table>
+<br></br>
+<hr></hr>
+<h2 id="concepts">Specified Web Concepts:</h2>
+<h3 id="media-type">
+   <a href="/concepts/media-type/" title="List of all Media Types">Media Types</a>
+</h3>
+<code>
+   <a href="/concepts/media-type/application/rdf+json" title="An RDF Graph consists of a set of RDF triples, each triple consisting of a subject, a predicate and an object. An RDF/JSON document serializes such a set of RDF triples as a series of nested data structures. A conforming RDF/JSON document consists of a single JSON object called the root object. Each unique subject in the set of triples is represented as a key in the root object. No key may appear more than once in the root object. The value of each root object key is a further JSON object whose keys are the URIs of the predicates occurring in triples with the given subject. These keys are known as predicate keys. No predicate key may appear more than once within a single object. The value of each predicate key is an array of JSON objects representing the object of each serialized triple.">application/rdf+json</a>
+</code>
+<br></br>
+<hr></hr>
+<p style="text-align: right">Return to ( 
+   <a href="./">Series</a> | 
+   <a href="../">Organization</a> | 
+   <a href="../../">all Specifications</a> )
+</p>

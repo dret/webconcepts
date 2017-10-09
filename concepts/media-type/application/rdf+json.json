@@ -1,0 +1,10 @@
+
+  { "value" : "application\/rdf+json",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/media-type\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/media-type\/application\/rdf+json",
+    "details" : 
+    [ 
+      { "description" : "An RDF Graph consists of a set of RDF triples, each triple consisting of a subject, a predicate and an object. An RDF\/JSON document serializes such a set of RDF triples as a series of nested data structures. A conforming RDF\/JSON document consists of a single JSON object called the root object. Each unique subject in the set of triples is represented as a key in the root object. No key may appear more than once in the root object. The value of each root object key is a further JSON object whose keys are the URIs of the predicates occurring in triples with the given subject. These keys are known as predicate keys. No predicate key may appear more than once within a single object. The value of each predicate key is an array of JSON objects representing the object of each serialized triple.",
+        "documentation" : "https:\/\/www.w3.org\/TR\/rdf-json\/#overview-of-rdf-json",
+        "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/json-rdf",
+        "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/json-rdf" } ] }
