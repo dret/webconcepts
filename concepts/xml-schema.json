@@ -1,0 +1,8 @@
+
+  { "concept" : "xml-schema",
+    "id" : "http:\/\/webconcepts.info\/concepts\/xml-schema\/",
+    "name-singular" : "XML Schema",
+    "name-plural" : "XML Schemas",
+    "registry" : "https:\/\/www.iana.org\/assignments\/xml-registry\/xml-registry.xhtml#schema",
+    "values" : 
+    [  ] }

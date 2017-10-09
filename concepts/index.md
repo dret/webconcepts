@@ -3,7 +3,7 @@ layout: page
 title:  "Web Concepts: Overview"
 ---
 
-This is an overview of 30 Web Concepts (with a total of 711 distinct values) that have been harvested from all [available specifications](/specs):
+This is an overview of 32 Web Concepts (with a total of 711 distinct values) that have been harvested from all [available specifications](/specs):
 
 * [HTTP Authentication Schemes](http-authentication-scheme/) (10)
 * [HTTP Cache Directives](http-cache-directive/) (15)
@@ -35,3 +35,5 @@ This is an overview of 30 Web Concepts (with a total of 711 distinct values) tha
 * [URI Schemes](uri-scheme/) (31)
 * [URN Namespaces](urn-namespace/) (12)
 * [Well-Known URIs](well-known-uri/) (21)
+* [XML Namespace](xml-ns/) (0)
+* [XML Schemas](xml-schema/) (0)

@@ -1,0 +1,8 @@
+
+  { "concept" : "xml-ns",
+    "id" : "http:\/\/webconcepts.info\/concepts\/xml-ns\/",
+    "name-singular" : "XML Namespace",
+    "name-plural" : "XML Namespace",
+    "registry" : "https:\/\/www.iana.org\/assignments\/xml-registry\/xml-registry.xhtml#ns",
+    "values" : 
+    [  ] }

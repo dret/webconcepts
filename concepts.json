@@ -7477,4 +7477,20 @@
             { "description" : "A WebFinger request is an HTTPS request to a WebFinger resource. A WebFinger resource is a well-known URI [3] using the HTTPS scheme constructed along with the required query target and optional link relation types. The path component of a WebFinger URI MUST be the well-known path \"\/.well-known\/webfinger\". A WebFinger URI MUST contain a query component that encodes the query target and optional link relation types.",
               "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7033#section-4",
               "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7033",
-              "spec-name" : "RFC 7033" } ] } ] } ]
+              "spec-name" : "RFC 7033" } ] } ] },
+    
+    { "concept" : "xml-ns",
+      "id" : "http:\/\/webconcepts.info\/concepts\/xml-ns\/",
+      "name-singular" : "XML Namespace",
+      "name-plural" : "XML Namespace",
+      "registry" : "https:\/\/www.iana.org\/assignments\/xml-registry\/xml-registry.xhtml#ns",
+      "values" : 
+      [  ] },
+    
+    { "concept" : "xml-schema",
+      "id" : "http:\/\/webconcepts.info\/concepts\/xml-schema\/",
+      "name-singular" : "XML Schema",
+      "name-plural" : "XML Schemas",
+      "registry" : "https:\/\/www.iana.org\/assignments\/xml-registry\/xml-registry.xhtml#schema",
+      "values" : 
+      [  ] } ]

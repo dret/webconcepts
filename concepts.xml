@@ -161,4 +161,14 @@
         <title-plural>Profile URIs</title-plural>
         <iana-registry>https://www.iana.org/assignments/profile-uris/profile-uris.xhtml#profile</iana-registry>
     </concept>
+    <concept id="xml-ns">
+        <title-singular>XML Namespace</title-singular>
+        <title-plural>XML Namespace</title-plural>
+        <iana-registry>https://www.iana.org/assignments/xml-registry/xml-registry.xhtml#ns</iana-registry>
+    </concept>
+    <concept id="xml-schema">
+        <title-singular>XML Schema</title-singular>
+        <title-plural>XML Schemas</title-plural>
+        <iana-registry>https://www.iana.org/assignments/xml-registry/xml-registry.xhtml#schema</iana-registry>
+    </concept>
 </concepts>
