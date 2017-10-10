@@ -1,1 +1,1 @@
-253 specifications in 6 specification series
+254 specifications in 6 specification series

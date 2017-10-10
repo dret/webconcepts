@@ -2029,6 +2029,15 @@
       "abstract": "This specification allows HTTP CONNECT requests to indicate what protocol is intended to be used within the tunnel once established, using the ALPN header field.",
       "concepts": [{
        "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/ALPN" }]}},{
+     "7644": {
+      "id": "http://webconcepts.info/specs/IETF/RFC/7644",
+      "title": "System for Cross-domain Identity Management: Protocol",
+      "name": "RFC 7644",
+      "URI": "urn:ietf:rfc:7644",
+      "URL": "http://tools.ietf.org/html/rfc7644",
+      "abstract": "The System for Cross-domain Identity Management (SCIM) specification is an HTTP-based protocol that makes managing identities in multi-domain scenarios easier to support via a standardized service. Examples include, but are not limited to, enterprise-to-cloud service providers and inter-cloud scenarios.  The specification suite seeks to build upon experience with existing schemas and deployments, placing specific emphasis on simplicity of development and integration, while applying existing authentication, authorization, and privacy models.  SCIM's intent is to reduce the cost and complexity of user management operations by providing a common user schema, an extension model, and a service protocol defined by this document.",
+      "concepts": [{
+       "http://webconcepts.info/concepts/media-type/": "http://webconcepts.info/concepts/media-type/application/scim+json" }]}},{
      "7662": {
       "id": "http://webconcepts.info/specs/IETF/RFC/7662",
       "title": "OAuth 2.0 Token Introspection",
