@@ -2310,7 +2310,17 @@
       "URL": "http://tools.ietf.org/html/rfc8246",
       "abstract": "The immutable HTTP response Cache-Control extension allows servers to identify resources that will not be updated during their freshness lifetime. This ensures that a client never needs to revalidate a cached fresh resource to be certain it has not been modified.",
       "concepts": [{
-       "http://webconcepts.info/concepts/http-cache-directive/": "http://webconcepts.info/concepts/http-cache-directive/immutable" }]}}]}}]},
+       "http://webconcepts.info/concepts/http-cache-directive/": "http://webconcepts.info/concepts/http-cache-directive/immutable" }]}},{
+     "8255": {
+      "id": "http://webconcepts.info/specs/IETF/RFC/8255",
+      "title": "Multiple Language Content Type",
+      "name": "RFC 8255",
+      "URI": "urn:ietf:rfc:8255",
+      "URL": "http://tools.ietf.org/html/rfc8255",
+      "abstract": "This document defines the 'multipart/multilingual' content type, which is an addition to the Multipurpose Internet Mail Extensions (MIME) standard. This content type makes it possible to send one message that contains multiple language versions of the same information. The translations would be identified by a language tag and selected by the email client based on a user's language settings.",
+      "concepts": [{
+       "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Content-Translation-Type" }, {
+       "http://webconcepts.info/concepts/media-type/": "http://webconcepts.info/concepts/media-type/multipart/multilingual" }]}}]}}]},
  "ISO": {
   "id": "http://webconcepts.info/specs/ISO/",
   "name": "International Organization for Standardization",

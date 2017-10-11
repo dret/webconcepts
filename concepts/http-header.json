@@ -556,15 +556,15 @@
         "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Content-Security-Policy",
         "details" : 
         [ 
-          { "description" : "The Content-Security-Policy HTTP response header field is the preferred mechanism for delivering a policy from a server to a client.",
-            "documentation" : "http:\/\/www.w3.org\/TR\/CSP3\/#csp-header",
-            "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/CSP3",
-            "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/CSP3" },
-          
           { "description" : "The Content-Security-Policy header field is the preferred mechanism for delivering a policy.",
             "documentation" : "http:\/\/www.w3.org\/TR\/CSP2\/#content-security-policy-header-field",
             "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/CSP2",
-            "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/CSP2" } ] },
+            "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/CSP2" },
+          
+          { "description" : "The Content-Security-Policy HTTP response header field is the preferred mechanism for delivering a policy from a server to a client.",
+            "documentation" : "http:\/\/www.w3.org\/TR\/CSP3\/#csp-header",
+            "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/CSP3",
+            "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/CSP3" } ] },
       
       { "value" : "Content-Security-Policy-Pin",
         "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
@@ -581,15 +581,15 @@
         "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Content-Security-Policy-Report-Only",
         "details" : 
         [ 
-          { "description" : "The Content-Security-Policy-Report-Only HTTP response header field allows web developers to experiment with policies by monitoring (but not enforcing) their effects.",
-            "documentation" : "http:\/\/www.w3.org\/TR\/CSP3\/#cspro-header",
-            "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/CSP3",
-            "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/CSP3" },
-          
           { "description" : "The Content-Security-Policy-Report-Only header field lets servers experiment with policies by monitoring (rather than enforcing) a policy.",
             "documentation" : "http:\/\/www.w3.org\/TR\/CSP2\/#content-security-policy-report-only-header-field",
             "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/CSP2",
-            "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/CSP2" } ] },
+            "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/CSP2" },
+          
+          { "description" : "The Content-Security-Policy-Report-Only HTTP response header field allows web developers to experiment with policies by monitoring (but not enforcing) their effects.",
+            "documentation" : "http:\/\/www.w3.org\/TR\/CSP3\/#cspro-header",
+            "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/CSP3",
+            "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/CSP3" } ] },
       
       { "value" : "Content-Security-Policy-Report-Only-Pin",
         "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
@@ -610,6 +610,16 @@
             "documentation" : "http:\/\/tools.ietf.org\/html\/draft-thomson-http-content-signature#section-2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/thomson-http-content-signature",
             "spec-name" : "Internet Draft thomson-http-content-signature" } ] },
+      
+      { "value" : "Content-Translation-Type",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Content-Translation-Type",
+        "details" : 
+        [ 
+          { "description" : "The Content-Translation-Type field can be used in the individual language message parts to identify the type of translation. Based on the value of this field and the user's preferences, a conforming email client can determine which message part to display.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8255#section-6",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8255",
+            "spec-name" : "RFC 8255" } ] },
       
       { "value" : "Content-Type",
         "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
