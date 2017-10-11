@@ -4,12 +4,12 @@
     "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Content-Security-Policy",
     "details" : 
     [ 
-      { "description" : "The Content-Security-Policy header field is the preferred mechanism for delivering a policy.",
-        "documentation" : "http:\/\/www.w3.org\/TR\/CSP2\/#content-security-policy-header-field",
-        "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/CSP2",
-        "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/CSP2" },
-      
       { "description" : "The Content-Security-Policy HTTP response header field is the preferred mechanism for delivering a policy from a server to a client.",
         "documentation" : "http:\/\/www.w3.org\/TR\/CSP3\/#csp-header",
         "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/CSP3",
-        "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/CSP3" } ] }
+        "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/CSP3" },
+      
+      { "description" : "The Content-Security-Policy header field is the preferred mechanism for delivering a policy.",
+        "documentation" : "http:\/\/www.w3.org\/TR\/CSP2\/#content-security-policy-header-field",
+        "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/CSP2",
+        "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/CSP2" } ] }

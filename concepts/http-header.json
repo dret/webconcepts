@@ -556,15 +556,15 @@
         "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Content-Security-Policy",
         "details" : 
         [ 
-          { "description" : "The Content-Security-Policy header field is the preferred mechanism for delivering a policy.",
-            "documentation" : "http:\/\/www.w3.org\/TR\/CSP2\/#content-security-policy-header-field",
-            "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/CSP2",
-            "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/CSP2" },
-          
           { "description" : "The Content-Security-Policy HTTP response header field is the preferred mechanism for delivering a policy from a server to a client.",
             "documentation" : "http:\/\/www.w3.org\/TR\/CSP3\/#csp-header",
             "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/CSP3",
-            "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/CSP3" } ] },
+            "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/CSP3" },
+          
+          { "description" : "The Content-Security-Policy header field is the preferred mechanism for delivering a policy.",
+            "documentation" : "http:\/\/www.w3.org\/TR\/CSP2\/#content-security-policy-header-field",
+            "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/CSP2",
+            "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/CSP2" } ] },
       
       { "value" : "Content-Security-Policy-Pin",
         "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
@@ -581,15 +581,15 @@
         "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Content-Security-Policy-Report-Only",
         "details" : 
         [ 
-          { "description" : "The Content-Security-Policy-Report-Only header field lets servers experiment with policies by monitoring (rather than enforcing) a policy.",
-            "documentation" : "http:\/\/www.w3.org\/TR\/CSP2\/#content-security-policy-report-only-header-field",
-            "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/CSP2",
-            "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/CSP2" },
-          
           { "description" : "The Content-Security-Policy-Report-Only HTTP response header field allows web developers to experiment with policies by monitoring (but not enforcing) their effects.",
             "documentation" : "http:\/\/www.w3.org\/TR\/CSP3\/#cspro-header",
             "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/CSP3",
-            "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/CSP3" } ] },
+            "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/CSP3" },
+          
+          { "description" : "The Content-Security-Policy-Report-Only header field lets servers experiment with policies by monitoring (rather than enforcing) a policy.",
+            "documentation" : "http:\/\/www.w3.org\/TR\/CSP2\/#content-security-policy-report-only-header-field",
+            "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/CSP2",
+            "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/CSP2" } ] },
       
       { "value" : "Content-Security-Policy-Report-Only-Pin",
         "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",

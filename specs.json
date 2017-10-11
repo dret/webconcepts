@@ -882,6 +882,17 @@
       "abstract": "This document describes the Namespace Identifier (NID) for Uniform Resource Name (URN) resources published by the Near Field Communication (NFC) Forum. The NFC Forum defines and manages resources that utilize this URN identification model. Management activities for these and other resource types are provided by the NFC Forum Technical Committee.",
       "concepts": [{
        "http://webconcepts.info/concepts/urn-namespace/": "http://webconcepts.info/concepts/urn-namespace/nfc" }]}},{
+     "4745": {
+      "id": "http://webconcepts.info/specs/IETF/RFC/4745",
+      "title": "Common Policy: A Document Format for Expressing Privacy Preferences",
+      "name": "RFC 4745",
+      "URI": "urn:ietf:rfc:4745",
+      "URL": "http://tools.ietf.org/html/rfc4745",
+      "abstract": "This document defines a framework for authorization policies controlling access to application-specific data. This framework combines common location- and presence-specific authorization aspects. An XML schema specifies the language in which common policy rules are represented. The common policy framework can be extended to other application domains.",
+      "concepts": [{
+       "http://webconcepts.info/concepts/media-type/": "http://webconcepts.info/concepts/media-type/application/auth-policy+xml" }, {
+       "http://webconcepts.info/concepts/xml-ns/": "http://webconcepts.info/concepts/xml-ns/urn:ietf:params:xml:ns:common-policy" }, {
+       "http://webconcepts.info/concepts/xml-schema/": "http://webconcepts.info/concepts/xml-schema/urn:ietf:params:xml:schema:common-policy" }]}},{
      "4791": {
       "id": "http://webconcepts.info/specs/IETF/RFC/4791",
       "title": "Calendaring Extensions to WebDAV (CalDAV)",

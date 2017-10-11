@@ -1,0 +1,10 @@
+
+  { "value" : "urn:ietf:params:xml:ns:common-policy",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/xml-ns\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/xml-ns\/urn:ietf:params:xml:ns:common-policy",
+    "details" : 
+    [ 
+      { "description" : "This document defines a framework for authorization policies controlling access to application-specific data. This framework combines common location- and presence-specific authorization aspects. An XML schema specifies the language in which common policy rules are represented. The common policy framework can be extended to other application domains.",
+        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc4745#section-15.1",
+        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/4745",
+        "spec-name" : "RFC 4745" } ] }

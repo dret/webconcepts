@@ -4,7 +4,7 @@ title:       "IETF Request for Comments Series"
 description: "List of specifications in the Request for Comments (RFC) series by the Internet Engineering Task Force (IETF)"
 ---
 
-There are currently 162 listed specifications in the [Internet Engineering Task Force (IETF)](..)'s Request for Comments (RFC) series.
+There are currently 163 listed specifications in the [Internet Engineering Task Force (IETF)](..)'s Request for Comments (RFC) series.
 
   * [A Media Type Structured Syntax Suffix for JSON Text Sequences (RFC 8091)](8091)
   * [A Media Type for XML Patch Operations (RFC 7351)](7351)
@@ -33,6 +33,7 @@ There are currently 162 listed specifications in the [Internet Engineering Task 
   * [Calendar Access Protocol (CAP) (RFC 4324)](4324)
   * [Calendaring Extensions to WebDAV (CalDAV) (RFC 4791)](4791)
   * [Common Format and MIME Type for Comma-Separated Values (CSV) Files (RFC 4180)](4180)
+  * [Common Policy: A Document Format for Expressing Privacy Preferences (RFC 4745)](4745)
   * [Common Profile for Instant Messaging (CPIM) (RFC 3860)](3860)
   * [Common Profile for Presence (CPP) (RFC 3859)](3859)
   * [Concise Binary Object Representation (CBOR) (RFC 7049)](7049)

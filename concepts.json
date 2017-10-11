@@ -975,15 +975,15 @@
           "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Content-Security-Policy",
           "details" : 
           [ 
-            { "description" : "The Content-Security-Policy header field is the preferred mechanism for delivering a policy.",
-              "documentation" : "http:\/\/www.w3.org\/TR\/CSP2\/#content-security-policy-header-field",
-              "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/CSP2",
-              "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/CSP2" },
-            
             { "description" : "The Content-Security-Policy HTTP response header field is the preferred mechanism for delivering a policy from a server to a client.",
               "documentation" : "http:\/\/www.w3.org\/TR\/CSP3\/#csp-header",
               "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/CSP3",
-              "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/CSP3" } ] },
+              "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/CSP3" },
+            
+            { "description" : "The Content-Security-Policy header field is the preferred mechanism for delivering a policy.",
+              "documentation" : "http:\/\/www.w3.org\/TR\/CSP2\/#content-security-policy-header-field",
+              "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/CSP2",
+              "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/CSP2" } ] },
         
         { "value" : "Content-Security-Policy-Pin",
           "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
@@ -1000,15 +1000,15 @@
           "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Content-Security-Policy-Report-Only",
           "details" : 
           [ 
-            { "description" : "The Content-Security-Policy-Report-Only header field lets servers experiment with policies by monitoring (rather than enforcing) a policy.",
-              "documentation" : "http:\/\/www.w3.org\/TR\/CSP2\/#content-security-policy-report-only-header-field",
-              "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/CSP2",
-              "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/CSP2" },
-            
             { "description" : "The Content-Security-Policy-Report-Only HTTP response header field allows web developers to experiment with policies by monitoring (but not enforcing) their effects.",
               "documentation" : "http:\/\/www.w3.org\/TR\/CSP3\/#cspro-header",
               "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/CSP3",
-              "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/CSP3" } ] },
+              "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/CSP3" },
+            
+            { "description" : "The Content-Security-Policy-Report-Only header field lets servers experiment with policies by monitoring (rather than enforcing) a policy.",
+              "documentation" : "http:\/\/www.w3.org\/TR\/CSP2\/#content-security-policy-report-only-header-field",
+              "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/CSP2",
+              "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/CSP2" } ] },
         
         { "value" : "Content-Security-Policy-Report-Only-Pin",
           "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
@@ -4969,6 +4969,16 @@
               "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/5023",
               "spec-name" : "RFC 5023" } ] },
         
+        { "value" : "application\/auth-policy+xml",
+          "concept" : "http:\/\/webconcepts.info\/concepts\/media-type\/",
+          "id" : "http:\/\/webconcepts.info\/concepts\/media-type\/application\/auth-policy+xml",
+          "details" : 
+          [ 
+            { "description" : "This document defines a framework for authorization policies controlling access to application-specific data. This framework combines common location- and presence-specific authorization aspects. An XML schema specifies the language in which common policy rules are represented. The common policy framework can be extended to other application domains.",
+              "documentation" : "http:\/\/tools.ietf.org\/html\/rfc4745#section-15.2",
+              "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/4745",
+              "spec-name" : "RFC 4745" } ] },
+        
         { "value" : "application\/cbor",
           "concept" : "http:\/\/webconcepts.info\/concepts\/media-type\/",
           "id" : "http:\/\/webconcepts.info\/concepts\/media-type\/application\/cbor",
@@ -7495,7 +7505,16 @@
       "name-plural" : "XML Namespaces",
       "registry" : "https:\/\/www.iana.org\/assignments\/xml-registry\/xml-registry.xhtml#ns",
       "values" : 
-      [  ] },
+      [ 
+        { "value" : "urn:ietf:params:xml:ns:common-policy",
+          "concept" : "http:\/\/webconcepts.info\/concepts\/xml-ns\/",
+          "id" : "http:\/\/webconcepts.info\/concepts\/xml-ns\/urn:ietf:params:xml:ns:common-policy",
+          "details" : 
+          [ 
+            { "description" : "This document defines a framework for authorization policies controlling access to application-specific data. This framework combines common location- and presence-specific authorization aspects. An XML schema specifies the language in which common policy rules are represented. The common policy framework can be extended to other application domains.",
+              "documentation" : "http:\/\/tools.ietf.org\/html\/rfc4745#section-15.1",
+              "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/4745",
+              "spec-name" : "RFC 4745" } ] } ] },
     
     { "concept" : "xml-schema",
       "id" : "http:\/\/webconcepts.info\/concepts\/xml-schema\/",
@@ -7503,4 +7522,13 @@
       "name-plural" : "XML Schemas",
       "registry" : "https:\/\/www.iana.org\/assignments\/xml-registry\/xml-registry.xhtml#schema",
       "values" : 
-      [  ] } ]
+      [ 
+        { "value" : "urn:ietf:params:xml:schema:common-policy",
+          "concept" : "http:\/\/webconcepts.info\/concepts\/xml-schema\/",
+          "id" : "http:\/\/webconcepts.info\/concepts\/xml-schema\/urn:ietf:params:xml:schema:common-policy",
+          "details" : 
+          [ 
+            { "description" : "This document defines a framework for authorization policies controlling access to application-specific data. This framework combines common location- and presence-specific authorization aspects. An XML schema specifies the language in which common policy rules are represented. The common policy framework can be extended to other application domains.",
+              "documentation" : "https:\/\/tools.ietf.org\/html\/rfc4745#section-15.3",
+              "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/4745",
+              "spec-name" : "RFC 4745" } ] } ] } ]
