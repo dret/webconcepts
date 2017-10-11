@@ -4,7 +4,7 @@ permalink:     "/concepts/http-header/Content-Security-Policy-Report-Only"
 title:         "HTTP Header Field: Content-Security-Policy-Report-Only"
 concept-name:  HTTP Header Field
 concept-value: Content-Security-Policy-Report-Only
-description: "The Content-Security-Policy-Report-Only HTTP response header field allows web developers to experiment with policies by monitoring (but not enforcing) their effects."
+description: "The Content-Security-Policy-Report-Only header field lets servers experiment with policies by monitoring (rather than enforcing) a policy."
 ---
 
 [The Content-Security-Policy-Report-Only header field lets servers experiment with policies by monitoring (rather than enforcing) a policy.](http://www.w3.org/TR/CSP2/#content-security-policy-report-only-header-field "Read documentation for HTTP Header Field &#34;Content-Security-Policy-Report-Only&#34;") (**[W3C TR http://www.w3.org/TR/CSP2: Content Security Policy Level 2](/specs/W3C/TR/CSP2 "This document defines a policy language used to declare a set of content restrictions for a web resource, and a mechanism for transmitting the policy from a server to a client where the policy is enforced.")**)
