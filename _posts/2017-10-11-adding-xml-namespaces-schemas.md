@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Adding XML Namespaces as Schemas"
+title:  "Adding XML Namespaces and Schemas"
 categories: update
 ---
 
