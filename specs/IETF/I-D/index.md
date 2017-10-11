@@ -30,7 +30,6 @@ There are currently 45 listed specifications in the [Internet Engineering Task F
   * [Home Documents for HTTP Services: XML Syntax (Internet Draft wilde-home-xml)](wilde-home-xml)
   * [Hypertext Transfer Protocol: Improved HTTP Caching (Internet Draft drechsler-httpbis-improved-caching)](drechsler-httpbis-improved-caching)
   * [JSON Hypertext Application Language (Internet Draft kelly-json-hal)](kelly-json-hal)
-  * [Link Relation Types for Web Services (Internet Draft vandesompel-identifier)](vandesompel-identifier)
   * [Link Relation Types for Web Services (Internet Draft wilde-service-link-rel)](wilde-service-link-rel)
   * [Linkset: Media Types and a Link Relation Type for Link Sets (Internet Draft wilde-linkset)](wilde-linkset)
   * [Marking HTTP Requests as Unimportant (Internet Draft thomson-http-nice)](thomson-http-nice)
@@ -51,3 +50,4 @@ There are currently 45 listed specifications in the [Internet Engineering Task F
   * [The Tunnel-Protocol HTTP Header Field (Internet Draft ietf-httpbis-tunnel-protocol)](ietf-httpbis-tunnel-protocol)
   * [Voluntary Application Server Identification (VAPID) for Web Push (Internet Draft ietf-webpush-vapid)](ietf-webpush-vapid)
   * [Web Linking (Internet Draft nottingham-rfc5988bis)](nottingham-rfc5988bis)
+  * [cite-as: A Link Relation to Convey a Preferred URI for Referencing (Internet Draft vandesompel-citeas)](vandesompel-citeas)

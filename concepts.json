@@ -4017,6 +4017,16 @@
               "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/html4",
               "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/html4" } ] },
         
+        { "value" : "cite-as",
+          "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+          "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/cite-as",
+          "details" : 
+          [ 
+            { "description" : "A link with the \"cite-as\" relation type indicates that the link target is preferred over the link context for the purpose of referencing.",
+              "documentation" : "http:\/\/tools.ietf.org\/html\/draft-vandesompel-citeas#section-4",
+              "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/vandesompel-citeas",
+              "spec-name" : "Internet Draft vandesompel-citeas" } ] },
+        
         { "value" : "collection",
           "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
           "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/collection",
@@ -4281,16 +4291,6 @@
               "documentation" : "https:\/\/www.w3.org\/TR\/html\/links.html#link-type-icon",
               "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/html",
               "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/html" } ] },
-        
-        { "value" : "identifier",
-          "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
-          "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/identifier",
-          "details" : 
-          [ 
-            { "description" : "A link with the \"identifier\" relation type indicates that the link target - the identifying URI - is preferred over the link context for the purpose of referencing.",
-              "documentation" : "http:\/\/tools.ietf.org\/html\/draft-vandesompel-identifier#section-4",
-              "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/vandesompel-identifier",
-              "spec-name" : "Internet Draft vandesompel-identifier" } ] },
         
         { "value" : "index",
           "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
