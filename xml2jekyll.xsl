@@ -239,12 +239,10 @@
                         <xsl:text>`](</xsl:text>
                         <xsl:value-of select="concat('/', $concepts-dir, '/', $concept/@id, '/', $concept-name)"/>
                         <xsl:variable name="number-of-defs" select="count($allspecs//*[local-name() eq $concept/@id][@def eq $concept-name])"/>
-                        <!--
                         <xsl:text> "</xsl:text>
-                        <xsl:value-of select="replace(($allspecs//*[local-name() eq $concept/@id][@def eq $concept-name])[1]/documentation/text(), '&quot;', '&amp;#34;')"/>
-                        <!- - this is cheating by (randomly) picking the first description should there be more than one in all specifications. - ->
+                        <xsl:value-of select="replace(replace(($allspecs//*[local-name() eq $concept/@id][@def eq $concept-name])[1]/documentation/text(), '&quot;', '&amp;#34;'), '&lt;', '&amp;lt;')"/>
+                        <!-- this is cheating by (randomly) picking the first description should there be more than one in all specifications. -->
                         <xsl:text>"</xsl:text>
-                        -->
                         <xsl:text>)</xsl:text>
                         <xsl:if test="$number-of-defs gt 1">
                             <xsl:text>&lt;sub title="There are </xsl:text>
