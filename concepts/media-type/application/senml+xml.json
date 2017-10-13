@@ -1,0 +1,10 @@
+
+  { "value" : "application\/senml+xml",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/media-type\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/media-type\/application\/senml+xml",
+    "details" : 
+    [ 
+      { "description" : "SenML is defined by a data model for measurements and simple meta-data about measurements and devices. The data is structured as a single array that contains a series of SenML Records which can each contain attributes such as an unique identifier for the sensor, the time the measurement was made, the unit the measurement is in, and the current value of the sensor.",
+        "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-core-senml#section-7",
+        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-core-senml",
+        "spec-name" : "Internet Draft ietf-core-senml" } ] }

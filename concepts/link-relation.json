@@ -41,46 +41,6 @@
             "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/html4",
             "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/html4" } ] },
       
-      { "value" : "application\/senml+cbor",
-        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
-        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/application\/senml+cbor",
-        "details" : 
-        [ 
-          { "description" : "",
-            "documentation" : "",
-            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-core-senml",
-            "spec-name" : "Internet Draft ietf-core-senml" } ] },
-      
-      { "value" : "application\/senml+exi",
-        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
-        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/application\/senml+exi",
-        "details" : 
-        [ 
-          { "description" : "",
-            "documentation" : "",
-            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-core-senml",
-            "spec-name" : "Internet Draft ietf-core-senml" } ] },
-      
-      { "value" : "application\/senml+json",
-        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
-        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/application\/senml+json",
-        "details" : 
-        [ 
-          { "description" : "",
-            "documentation" : "",
-            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-core-senml",
-            "spec-name" : "Internet Draft ietf-core-senml" } ] },
-      
-      { "value" : "application\/senml+xml",
-        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
-        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/application\/senml+xml",
-        "details" : 
-        [ 
-          { "description" : "",
-            "documentation" : "",
-            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-core-senml",
-            "spec-name" : "Internet Draft ietf-core-senml" } ] },
-      
       { "value" : "author",
         "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
         "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/author",
