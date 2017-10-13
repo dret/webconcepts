@@ -247,7 +247,7 @@
                         -->
                         <xsl:text>)</xsl:text>
                         <xsl:if test="$number-of-defs gt 1">
-                            <xsl:text>&lt;sub title=" There are </xsl:text>
+                            <xsl:text>&lt;sub title="There are </xsl:text>
                             <xsl:value-of select="$number-of-defs"/>
                             <xsl:text> definitions for this value"></xsl:text>
                             <xsl:value-of select="$number-of-defs"/>
