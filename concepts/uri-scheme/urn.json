@@ -1,0 +1,10 @@
+
+  { "value" : "urn",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/uri-scheme\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/uri-scheme\/urn",
+    "details" : 
+    [ 
+      { "description" : "A Uniform Resource Name (URN) is a Uniform Resource Identifier (URI) that is assigned under the \"urn\" URI scheme and a particular URN namespace, with the intent that the URN will be a persistent, location-independent resource identifier. A URN namespace is a collection of such URNs, each of which is unique, assigned in a consistent and managed way, and assigned according to a common definition.",
+        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8141#section-1",
+        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8141",
+        "spec-name" : "RFC 8141" } ] }

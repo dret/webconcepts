@@ -2264,6 +2264,15 @@
       "abstract": "This document specifies an authentication scheme for the Hypertext Transfer Protocol (HTTP) that is referred to as either the Mutual authentication scheme or the Mutual authentication protocol. This scheme provides true mutual authentication between an HTTP client and an HTTP server using password-based authentication. Unlike the Basic and Digest authentication schemes, the Mutual authentication scheme specified in this document assures the user that the server truly knows the user's encrypted password.",
       "concepts": [{
        "http://webconcepts.info/concepts/http-authentication-scheme/": "http://webconcepts.info/concepts/http-authentication-scheme/Mutual" }]}},{
+     "8141": {
+      "id": "http://webconcepts.info/specs/IETF/RFC/8141",
+      "title": "Uniform Resource Names (URNs)",
+      "name": "RFC 8141",
+      "URI": "urn:ietf:rfc:8141",
+      "URL": "http://tools.ietf.org/html/rfc8141",
+      "abstract": "A Uniform Resource Name (URN) is a Uniform Resource Identifier (URI) that is assigned under the \"urn\" URI scheme and a particular URN namespace, with the intent that the URN will be a persistent, location-independent resource identifier. With regard to URN syntax, this document defines the canonical syntax for URNs (in a way that is consistent with URI syntax), specifies methods for determining URN-equivalence, and discusses URI conformance. With regard to URN namespaces, this document specifies a method for defining a URN namespace and associating it with a namespace identifier, and it describes procedures for registering namespace identifiers with the Internet Assigned Numbers Authority (IANA). This document obsoletes both RFCs 2141 and 3406.",
+      "concepts": [{
+       "http://webconcepts.info/concepts/uri-scheme/": "http://webconcepts.info/concepts/uri-scheme/urn" }]}},{
      "8142": {
       "id": "http://webconcepts.info/specs/IETF/RFC/8142",
       "title": "GeoJSON Text Sequences",
