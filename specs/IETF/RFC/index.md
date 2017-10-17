@@ -4,7 +4,7 @@ title:       "IETF Request for Comments Series"
 description: "List of specifications in the Request for Comments (RFC) series by the Internet Engineering Task Force (IETF)"
 ---
 
-There are currently 166 listed specifications in the [Internet Engineering Task Force (IETF)](..)'s Request for Comments (RFC) series.
+There are currently 167 listed specifications in the [Internet Engineering Task Force (IETF)](..)'s Request for Comments (RFC) series.
 
   * [A Media Type Structured Syntax Suffix for JSON Text Sequences (RFC 8091)](8091)
   * [A Media Type for XML Patch Operations (RFC 7351)](7351)
@@ -153,6 +153,7 @@ There are currently 166 listed specifications in the [Internet Engineering Task 
   * [URI Fragment Identifiers for the text/csv Media Type (RFC 7111)](7111)
   * [URI Fragment Identifiers for the text/plain Media Type (RFC 5174)](5174)
   * [URI Scheme for Global System for Mobile Communications (GSM) Short Message Service (SMS) (RFC 5724)](5724)
+  * [URN Namespace for IEEE (RFC 8069)](8069)
   * [Uniform Resource Locators (URL) (RFC 1738)](1738)
   * [Uniform Resource Name (URN) Namespaces for Broadband Forum (RFC 8057)](8057)
   * [Uniform Resource Names (URNs) (RFC 8141)](8141)

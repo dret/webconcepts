@@ -2205,6 +2205,15 @@
        "http://webconcepts.info/concepts/urn-namespace/": "http://webconcepts.info/concepts/urn-namespace/bbf" }, {
        "http://webconcepts.info/concepts/urn-namespace/": "http://webconcepts.info/concepts/urn-namespace/broadband-forum-org" }, {
        "http://webconcepts.info/concepts/urn-namespace/": "http://webconcepts.info/concepts/urn-namespace/dslforum-org" }]}},{
+     "8069": {
+      "id": "http://webconcepts.info/specs/IETF/RFC/8069",
+      "title": "URN Namespace for IEEE",
+      "name": "RFC 8069",
+      "URI": "urn:ietf:rfc:8069",
+      "URL": "http://tools.ietf.org/html/rfc8069",
+      "abstract": "This document describes the Namespace Identifier (NID) 'ieee' for Uniform Resource Names (URNs) used to identify resources published by the Institute of Electrical and Electronics Engineers (IEEE). IEEE specifies and manages resources that utilize this URN identification model. Management activities for these and other resources types are handled by the manager of the IEEE Registration Authority.",
+      "concepts": [{
+       "http://webconcepts.info/concepts/urn-namespace/": "http://webconcepts.info/concepts/urn-namespace/ieee" }]}},{
      "8081": {
       "id": "http://webconcepts.info/specs/IETF/RFC/8081",
       "title": "The \"font\" Top-Level Media Type",
