@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<service primary="IETF" secondary="RFC" id="7207">
+    <title>A Uniform Resource Name (URN) Namespace for Eurosystem Messaging</title>
+    <documentation source="http://tools.ietf.org/html/rfc7207">This document defines and registers with IANA a Uniform Resource Name (URN) namespace for usage within messages standardized by the Eurosystem. The URN namespace is managed by Deutsche Bundesbank, which is a member of the European System of Central Banks (ESCB).</documentation>
+    <urn-namespace def="eurosystem">
+        <documentation source="http://tools.ietf.org/html/rfc7207#section-2">The goal of the "eurosystem" namespace is to ensure the stability and uniqueness of the names of various items that are used within the messages exchanged between the Eurosystem and the users of TARGET2-Securities (or potentially, other future projects of the Eurosystem).</documentation>
+    </urn-namespace>
+</service>
