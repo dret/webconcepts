@@ -16,6 +16,16 @@
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8147",
             "spec-name" : "RFC 8147" } ] },
       
+      { "value" : "urn:ietf:params:xml:ns:basic-location-profiles",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/xml-ns\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/xml-ns\/urn:ietf:params:xml:ns:basic-location-profiles",
+        "details" : 
+        [ 
+          { "description" : "The Basic Location Profile XML schema extends the Common Policy schema by introducing new child elements to the transformation element.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6772#section-11.5",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6772",
+            "spec-name" : "RFC 6772" } ] },
+      
       { "value" : "urn:ietf:params:xml:ns:common-policy",
         "concept" : "http:\/\/webconcepts.info\/concepts\/xml-ns\/",
         "id" : "http:\/\/webconcepts.info\/concepts\/xml-ns\/urn:ietf:params:xml:ns:common-policy",
@@ -25,6 +35,16 @@
             "documentation" : "http:\/\/tools.ietf.org\/html\/rfc4745#section-15.1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/4745",
             "spec-name" : "RFC 4745" } ] },
+      
+      { "value" : "urn:ietf:params:xml:ns:geolocation-policy",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/xml-ns\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/xml-ns\/urn:ietf:params:xml:ns:geolocation-policy",
+        "details" : 
+        [ 
+          { "description" : "The Geolocation Policy XML schema extends the Common Policy schema by introducing new child elements to the condition and transformation elements.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6772#section-11.2",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6772",
+            "spec-name" : "RFC 6772" } ] },
       
       { "value" : "urn:ietf:params:xml:schema:ECMLv2",
         "concept" : "http:\/\/webconcepts.info\/concepts\/xml-ns\/",

@@ -1,0 +1,10 @@
+
+  { "value" : "urn:ietf:params:xml:ns:basic-location-profiles",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/xml-ns\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/xml-ns\/urn:ietf:params:xml:ns:basic-location-profiles",
+    "details" : 
+    [ 
+      { "description" : "The Basic Location Profile XML schema extends the Common Policy schema by introducing new child elements to the transformation element.",
+        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6772#section-11.5",
+        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6772",
+        "spec-name" : "RFC 6772" } ] }

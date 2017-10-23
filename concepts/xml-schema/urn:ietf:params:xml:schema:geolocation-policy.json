@@ -1,0 +1,10 @@
+
+  { "value" : "urn:ietf:params:xml:schema:geolocation-policy",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/xml-schema\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/xml-schema\/urn:ietf:params:xml:schema:geolocation-policy",
+    "details" : 
+    [ 
+      { "description" : "The Geolocation Policy XML schema extends the Common Policy schema by introducing new child elements to the condition and transformation elements.",
+        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6772#section-11.1",
+        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6772",
+        "spec-name" : "RFC 6772" } ] }
