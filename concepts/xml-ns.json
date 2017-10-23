@@ -6,6 +6,16 @@
     "registry" : "https:\/\/www.iana.org\/assignments\/xml-registry\/xml-registry.xhtml#ns",
     "values" : 
     [ 
+      { "value" : "urn:ietf:params:xml:ns:EmergencyCallData:control",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/xml-ns\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/xml-ns\/urn:ietf:params:xml:ns:EmergencyCallData:control",
+        "details" : 
+        [ 
+          { "description" : "This document defines a block of metadata\/control data as an XML structure containing elements used for eCall and other related emergency call systems and extension points. The control block is an XML data structure allowing for acknowledgments, requests, and capabilities information. It is carried in a body part with a specific MIME media type.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8147#section-9.1",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8147",
+            "spec-name" : "RFC 8147" } ] },
+      
       { "value" : "urn:ietf:params:xml:ns:common-policy",
         "concept" : "http:\/\/webconcepts.info\/concepts\/xml-ns\/",
         "id" : "http:\/\/webconcepts.info\/concepts\/xml-ns\/urn:ietf:params:xml:ns:common-policy",
