@@ -4,7 +4,7 @@ title:  "Adding XML Namespaces and Schemas"
 categories: update
 ---
 
-Web Concepts is growing again! [RFC 3688](https://tools.ietf.org/html/rfc3688) establishes the [IETF XML Registry](https://www.iana.org/assignments/xml-registry/xml-registry.xhtml). While the RFC does identify four concepts ([DTDs](https://www.iana.org/assignments/xml-registry/xml-registry.xhtml#publicid), [namespaces](https://www.iana.org/assignments/xml-registry/xml-registry.xhtml#ns), [schemas](https://www.iana.org/assignments/xml-registry/xml-registry.xhtml#schema), and [RDF schemas](https://www.iana.org/assignments/xml-registry/xml-registry.xhtml#rdfschema)), it seems that only two of these ended up being used (Namespaces and Schema).
+Web Concepts is growing again! [RFC 3688](https://tools.ietf.org/html/rfc3688) establishes the [IETF XML Registry](https://www.iana.org/assignments/xml-registry/xml-registry.xhtml). While the RFC does identify four concepts ([DTDs](https://www.iana.org/assignments/xml-registry/xml-registry.xhtml#publicid), [namespaces](https://www.iana.org/assignments/xml-registry/xml-registry.xhtml#ns), [schemas](https://www.iana.org/assignments/xml-registry/xml-registry.xhtml#schema), and [RDF schemas](https://www.iana.org/assignments/xml-registry/xml-registry.xhtml#rdfschema)), it seems that only two of these ended up being used (namespaces and schemas).
 
 If you're not using any XML in your APIs, these concepts may not be very interesting for you. However, chances are that in any bigger API landscape there will be some XML-based services, and these very well may use XML namespaces and/or schemas.
 
