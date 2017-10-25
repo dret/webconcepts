@@ -169,7 +169,7 @@ There are currently 170 listed specifications in the [Internet Engineering Task 
   * [Web Distributed Authoring and Versioning (WebDAV) SEARCH (RFC 5323)](5323)
   * [Web Distributed Authoring and Versioning (WebDAV): Redirect Reference Resources (RFC 4437)](4437)
   * [Web Host Metadata (RFC 6415)](6415)
-  * [Web Linking (RFC 5988)](5988)
+  * [Web Linking (RFC 8288)](8288)
   * [WebFinger (RFC 7033)](7033)
   * [XML Media Types (RFC 3023)](3023)
   * [XML Media Types (RFC 7303)](7303)
