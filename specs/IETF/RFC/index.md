@@ -4,7 +4,7 @@ title:       "IETF Request for Comments Series"
 description: "List of specifications in the Request for Comments (RFC) series by the Internet Engineering Task Force (IETF)"
 ---
 
-There are currently 170 listed specifications in the [Internet Engineering Task Force (IETF)](..)'s Request for Comments (RFC) series.
+There are currently 171 listed specifications in the [Internet Engineering Task Force (IETF)](..)'s Request for Comments (RFC) series.
 
   * [A Media Type Structured Syntax Suffix for JSON Text Sequences (RFC 8091)](8091)
   * [A Media Type for XML Patch Operations (RFC 7351)](7351)
@@ -48,6 +48,7 @@ There are currently 170 listed specifications in the [Internet Engineering Task 
   * [Enrollment over Secure Transport (RFC 7030)](7030)
   * [Feed Paging and Archiving (RFC 5005)](5005)
   * [Forwarded HTTP Extension (RFC 7239)](7239)
+  * [Generic Event Delivery Using HTTP Push (RFC 8030)](8030)
   * [GeoJSON Text Sequences (RFC 8142)](8142)
   * [Geolocation Policy: A Document Format for Expressing Privacy Preferences for Location Information (RFC 6772)](6772)
   * [Group Communication for the Constrained Application Protocol (CoAP) (RFC 7390)](7390)

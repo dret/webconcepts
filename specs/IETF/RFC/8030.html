@@ -1,8 +1,8 @@
 ---
 layout:      page
 title:       "Generic Event Delivery Using HTTP Push"
-description: "A simple protocol for the delivery of real-time events to user agents is described.
-This scheme uses HTTP/2 server push."
+description: "This document describes a simple protocol for the delivery of real-time events to
+user agents. This scheme uses HTTP/2 server push."
 ---
 
 <table cellpadding="5">
@@ -10,14 +10,14 @@ This scheme uses HTTP/2 server push."
       <th valign="top" align="right">
          <em>Document Name:</em>
       </th>
-      <td>Internet Draft ietf-webpush-protocol</td>
+      <td>RFC 8030</td>
    </tr>
    <tr>
       <th valign="top" align="right">
          <em>Document URI:</em>
       </th>
       <td>
-         <code>urn:ietf:id:ietf-webpush-protocol</code>
+         <code>urn:ietf:rfc:8030</code>
       </td>
    </tr>
    <tr>
@@ -26,7 +26,7 @@ This scheme uses HTTP/2 server push."
       </th>
       <td>
          <code>
-            <a href="http://tools.ietf.org/html/draft-ietf-webpush-protocol">http://tools.ietf.org/html/draft-ietf-webpush-protocol</a>
+            <a href="http://tools.ietf.org/html/rfc8030">http://tools.ietf.org/html/rfc8030</a>
          </code>
       </td>
    </tr>
@@ -43,15 +43,15 @@ This scheme uses HTTP/2 server push."
          <em>Series:</em>
       </th>
       <td>
-         <a href="./" title="List of specifications in this series">Internet Draft (I-D)</a>
+         <a href="./" title="List of specifications in this series">Request for Comments (RFC)</a>
       </td>
    </tr>
    <tr>
       <th valign="top" align="right">
          <em>Abstract:</em>
       </th>
-      <td>A simple protocol for the delivery of real-time events to user agents is described.
-         This scheme uses HTTP/2 server push.
+      <td>This document describes a simple protocol for the delivery of real-time events to
+         user agents. This scheme uses HTTP/2 server push.
       </td>
    </tr>
 </table>
@@ -68,7 +68,7 @@ This scheme uses HTTP/2 server push."
    <a href="/concepts/http-header/Topic" title="A push message topic is a string carried in a Topic header field. A topic is used to correlate push messages sent to the same subscription and does not convey any other semantics.">Topic</a>
 </code>, 
 <code>
-   <a href="/concepts/http-header/Urgency" title="An application server MAY include an Urgency header field in its request for push message delivery. This header field indicates the message urgency.">Urgency</a>
+   <a href="/concepts/http-header/Urgency" title="An application server MAY include an Urgency header field in its request for push message delivery. This header field indicates the message urgency. The push service MUST NOT forward the Urgency header field to the user agent. A push message without the Urgency header field defaults to a value of &amp;#34;normal&amp;#34;.">Urgency</a>
 </code>
 <br></br>
 <hr></hr>

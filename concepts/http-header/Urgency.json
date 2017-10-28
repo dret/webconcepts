@@ -4,7 +4,7 @@
     "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Urgency",
     "details" : 
     [ 
-      { "description" : "An application server MAY include an Urgency header field in its request for push message delivery. This header field indicates the message urgency.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-webpush-protocol#section-5.3",
-        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-webpush-protocol",
-        "spec-name" : "Internet Draft ietf-webpush-protocol" } ] }
+      { "description" : "An application server MAY include an Urgency header field in its request for push message delivery. This header field indicates the message urgency. The push service MUST NOT forward the Urgency header field to the user agent. A push message without the Urgency header field defaults to a value of \"normal\".",
+        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8030#section-5.3",
+        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8030",
+        "spec-name" : "RFC 8030" } ] }

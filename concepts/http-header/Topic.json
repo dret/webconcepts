@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "A push message topic is a string carried in a Topic header field. A topic is used to correlate push messages sent to the same subscription and does not convey any other semantics.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-webpush-protocol#section-5.4",
-        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-webpush-protocol",
-        "spec-name" : "Internet Draft ietf-webpush-protocol" } ] }
+        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8030#section-5.4",
+        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8030",
+        "spec-name" : "RFC 8030" } ] }

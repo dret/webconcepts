@@ -4,10 +4,10 @@ permalink:     "/concepts/http-header/Urgency"
 title:         "HTTP Header Field: Urgency"
 concept-name:  HTTP Header Field
 concept-value: Urgency
-description: "An application server MAY include an Urgency header field in its request for push message delivery. This header field indicates the message urgency."
+description: "An application server MAY include an Urgency header field in its request for push message delivery. This header field indicates the message urgency. The push service MUST NOT forward the Urgency header field to the user agent. A push message without the Urgency header field defaults to a value of \"normal\"."
 ---
 
-[An application server MAY include an Urgency header field in its request for push message delivery. This header field indicates the message urgency.](http://tools.ietf.org/html/draft-ietf-webpush-protocol#section-5.3 "Read documentation for HTTP Header Field &#34;Urgency&#34;") (**[Internet Draft ietf-webpush-protocol: Generic Event Delivery Using HTTP Push](/specs/IETF/I-D/ietf-webpush-protocol "A simple protocol for the delivery of real-time events to user agents is described. This scheme uses HTTP/2 server push.")**)
+[An application server MAY include an Urgency header field in its request for push message delivery. This header field indicates the message urgency. The push service MUST NOT forward the Urgency header field to the user agent. A push message without the Urgency header field defaults to a value of "normal".](http://tools.ietf.org/html/rfc8030#section-5.3 "Read documentation for HTTP Header Field &#34;Urgency&#34;") (**[RFC 8030: Generic Event Delivery Using HTTP Push](/specs/IETF/RFC/8030 "This document describes a simple protocol for the delivery of real-time events to user agents. This scheme uses HTTP/2 server push.")**)
 
 <br/>
 <hr/>

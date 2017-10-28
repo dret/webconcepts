@@ -7,7 +7,7 @@ concept-value: Topic
 description: "A push message topic is a string carried in a Topic header field. A topic is used to correlate push messages sent to the same subscription and does not convey any other semantics."
 ---
 
-[A push message topic is a string carried in a Topic header field. A topic is used to correlate push messages sent to the same subscription and does not convey any other semantics.](http://tools.ietf.org/html/draft-ietf-webpush-protocol#section-5.4 "Read documentation for HTTP Header Field &#34;Topic&#34;") (**[Internet Draft ietf-webpush-protocol: Generic Event Delivery Using HTTP Push](/specs/IETF/I-D/ietf-webpush-protocol "A simple protocol for the delivery of real-time events to user agents is described. This scheme uses HTTP/2 server push.")**)
+[A push message topic is a string carried in a Topic header field. A topic is used to correlate push messages sent to the same subscription and does not convey any other semantics.](http://tools.ietf.org/html/rfc8030#section-5.4 "Read documentation for HTTP Header Field &#34;Topic&#34;") (**[RFC 8030: Generic Event Delivery Using HTTP Push](/specs/IETF/RFC/8030 "This document describes a simple protocol for the delivery of real-time events to user agents. This scheme uses HTTP/2 server push.")**)
 
 <br/>
 <hr/>

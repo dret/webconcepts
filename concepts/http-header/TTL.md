@@ -7,7 +7,7 @@ concept-value: TTL
 description: "An application server MUST include the TTL (Time-To-Live) header field in its request for push message delivery. The TTL header field contains a value in seconds that suggests how long a push message is retained by the push service."
 ---
 
-[An application server MUST include the TTL (Time-To-Live) header field in its request for push message delivery. The TTL header field contains a value in seconds that suggests how long a push message is retained by the push service.](http://tools.ietf.org/html/draft-ietf-webpush-protocol#section-5.2 "Read documentation for HTTP Header Field &#34;TTL&#34;") (**[Internet Draft ietf-webpush-protocol: Generic Event Delivery Using HTTP Push](/specs/IETF/I-D/ietf-webpush-protocol "A simple protocol for the delivery of real-time events to user agents is described. This scheme uses HTTP/2 server push.")**)
+[An application server MUST include the TTL (Time-To-Live) header field in its request for push message delivery. The TTL header field contains a value in seconds that suggests how long a push message is retained by the push service.](http://tools.ietf.org/html/rfc8030#section-5.2 "Read documentation for HTTP Header Field &#34;TTL&#34;") (**[RFC 8030: Generic Event Delivery Using HTTP Push](/specs/IETF/RFC/8030 "This document describes a simple protocol for the delivery of real-time events to user agents. This scheme uses HTTP/2 server push.")**)
 
 <br/>
 <hr/>

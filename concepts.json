@@ -2166,9 +2166,9 @@
           "details" : 
           [ 
             { "description" : "An application server MUST include the TTL (Time-To-Live) header field in its request for push message delivery. The TTL header field contains a value in seconds that suggests how long a push message is retained by the push service.",
-              "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-webpush-protocol#section-5.2",
-              "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-webpush-protocol",
-              "spec-name" : "Internet Draft ietf-webpush-protocol" } ] },
+              "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8030#section-5.2",
+              "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8030",
+              "spec-name" : "RFC 8030" } ] },
         
         { "value" : "Timeout",
           "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
@@ -2206,9 +2206,9 @@
           "details" : 
           [ 
             { "description" : "A push message topic is a string carried in a Topic header field. A topic is used to correlate push messages sent to the same subscription and does not convey any other semantics.",
-              "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-webpush-protocol#section-5.4",
-              "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-webpush-protocol",
-              "spec-name" : "Internet Draft ietf-webpush-protocol" } ] },
+              "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8030#section-5.4",
+              "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8030",
+              "spec-name" : "RFC 8030" } ] },
         
         { "value" : "Trailer",
           "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
@@ -2265,10 +2265,10 @@
           "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Urgency",
           "details" : 
           [ 
-            { "description" : "An application server MAY include an Urgency header field in its request for push message delivery. This header field indicates the message urgency.",
-              "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-webpush-protocol#section-5.3",
-              "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-webpush-protocol",
-              "spec-name" : "Internet Draft ietf-webpush-protocol" } ] },
+            { "description" : "An application server MAY include an Urgency header field in its request for push message delivery. This header field indicates the message urgency. The push service MUST NOT forward the Urgency header field to the user agent. A push message without the Urgency header field defaults to a value of \"normal\".",
+              "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8030#section-5.3",
+              "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8030",
+              "spec-name" : "RFC 8030" } ] },
         
         { "value" : "User-Agent",
           "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
