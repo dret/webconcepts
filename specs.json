@@ -430,7 +430,8 @@
       "URL": "http://tools.ietf.org/html/draft-wilde-sunset-header",
       "abstract": "This specification defines the Sunset HTTP response header field, which indicates that a URI is likely to become unresponsive at a specified point in the future.",
       "concepts": [{
-       "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Sunset" }]}},{
+       "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Sunset" }, {
+       "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/sunset" }]}},{
      "zyp-json-schema": {
       "id": "http://webconcepts.info/specs/IETF/I-D/zyp-json-schema",
       "title": "A JSON Media Type for Describing the Structure and Meaning of JSON Documents",

@@ -4707,6 +4707,16 @@
               "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/5829",
               "spec-name" : "RFC 5829" } ] },
         
+        { "value" : "sunset",
+          "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+          "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/sunset",
+          "details" : 
+          [ 
+            { "description" : "Linking to a resource providing information about a resource's or service's sunset policy and\/or information.",
+              "documentation" : "http:\/\/tools.ietf.org\/html\/draft-wilde-sunset-header#section-5",
+              "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/wilde-sunset-header",
+              "spec-name" : "Internet Draft wilde-sunset-header" } ] },
+        
         { "value" : "tag",
           "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
           "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/tag",
