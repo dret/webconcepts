@@ -21,15 +21,15 @@
         "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/alternate",
         "details" : 
         [ 
-          { "description" : "Designates substitute versions for the document in which the link occurs. When used together with the lang attribute, it implies a translated version of the document. When used together with the media attribute, it implies a version designed for a different medium (or media).",
-            "documentation" : "https:\/\/www.w3.org\/TR\/html\/links.html#link-type-alternate",
-            "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/html",
-            "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/html" },
-          
           { "description" : "The value \"alternate\" signifies that the IRI in the value of the href attribute identifies an alternate version of the resource described by the containing element.",
             "documentation" : "http:\/\/tools.ietf.org\/html\/rfc4287#section-4.2.7.2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/4287",
-            "spec-name" : "RFC 4287" } ] },
+            "spec-name" : "RFC 4287" },
+          
+          { "description" : "Designates substitute versions for the document in which the link occurs. When used together with the lang attribute, it implies a translated version of the document. When used together with the media attribute, it implies a version designed for a different medium (or media).",
+            "documentation" : "https:\/\/www.w3.org\/TR\/html\/links.html#link-type-alternate",
+            "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/html",
+            "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/html" } ] },
       
       { "value" : "appendix",
         "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
@@ -461,15 +461,15 @@
         "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/license",
         "details" : 
         [ 
-          { "description" : "The license keyword indicates that the referenced document provides the copyright license terms under which the main content of the current document is provided.",
-            "documentation" : "https:\/\/www.w3.org\/TR\/html\/links.html#link-type-license",
-            "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/html",
-            "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/html" },
-          
           { "description" : "The \"license\" link relation can be used to associate licenses with a feed or entry. Feeds and entries can be dual-licensed by including multiple \"license\" link relations specifying different href attribute values. If multiple \"license\" link relations are specified, each SHOULD contain a title attribute specifying a human-readable label for the license.",
             "documentation" : "http:\/\/tools.ietf.org\/html\/rfc4946#section-2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/4946",
-            "spec-name" : "RFC 4946" } ] },
+            "spec-name" : "RFC 4946" },
+          
+          { "description" : "The license keyword indicates that the referenced document provides the copyright license terms under which the main content of the current document is provided.",
+            "documentation" : "https:\/\/www.w3.org\/TR\/html\/links.html#link-type-license",
+            "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/html",
+            "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/html" } ] },
       
       { "value" : "linkset",
         "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
@@ -546,15 +546,15 @@
         "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/next",
         "details" : 
         [ 
-          { "description" : "Refers to the next document in a linear sequence of documents. User agents may choose to preload the \"next\" document, to reduce the perceived load time.",
-            "documentation" : "https:\/\/www.w3.org\/TR\/html\/links.html#link-type-next",
-            "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/html",
-            "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/html" },
-          
           { "description" : "A URI that refers to the immediately following document in a series of documents.",
             "documentation" : "http:\/\/tools.ietf.org\/html\/rfc5005#section-3",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/5005",
-            "spec-name" : "RFC 5005" } ] },
+            "spec-name" : "RFC 5005" },
+          
+          { "description" : "Refers to the next document in a linear sequence of documents. User agents may choose to preload the \"next\" document, to reduce the perceived load time.",
+            "documentation" : "https:\/\/www.w3.org\/TR\/html\/links.html#link-type-next",
+            "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/html",
+            "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/html" } ] },
       
       { "value" : "next-archive",
         "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
@@ -861,7 +861,7 @@
         "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/sunset",
         "details" : 
         [ 
-          { "description" : "Linking to a resource providing information about a resource's or service's sunset policy and\/or information.",
+          { "description" : "Linking to a resource providing information about a resource's or service's retirement policy and\/or information.",
             "documentation" : "http:\/\/tools.ietf.org\/html\/draft-wilde-sunset-header#section-5",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/wilde-sunset-header",
             "spec-name" : "Internet Draft wilde-sunset-header" } ] },

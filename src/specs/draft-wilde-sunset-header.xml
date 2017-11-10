@@ -6,6 +6,6 @@
         <documentation source="http://tools.ietf.org/html/draft-wilde-sunset-header#section-3">The Sunset HTTP response header field allows a server to communicate the fact that a resource is expected to become unresponsive at a specific point in time. It provides information for clients which they can use to control their usage of the resource. The Sunset header contains a single timestamp which advertises the point in time when the resource is expected to become unresponsive.</documentation>
     </http-header>
     <link-relation def="sunset">
-        <documentation source="http://tools.ietf.org/html/draft-wilde-sunset-header#section-5">Linking to a resource providing information about a resource's or service's sunset policy and/or information.</documentation>
+        <documentation source="http://tools.ietf.org/html/draft-wilde-sunset-header#section-5">Linking to a resource providing information about a resource's or service's retirement policy and/or information.</documentation>
     </link-relation>
 </service>

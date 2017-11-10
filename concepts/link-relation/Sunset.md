@@ -4,10 +4,10 @@ permalink:     "/concepts/link-relation/sunset"
 title:         "Link Relation: sunset"
 concept-name:  Link Relation
 concept-value: sunset
-description: "Linking to a resource providing information about a resource's or service's sunset policy and/or information."
+description: "Linking to a resource providing information about a resource's or service's retirement policy and/or information."
 ---
 
-[Linking to a resource providing information about a resource's or service's sunset policy and/or information.](http://tools.ietf.org/html/draft-wilde-sunset-header#section-5 "Read documentation for Link Relation &#34;sunset&#34;") (**[Internet Draft wilde-sunset-header: The Sunset HTTP Header](/specs/IETF/I-D/wilde-sunset-header "This specification defines the Sunset HTTP response header field, which indicates that a URI is likely to become unresponsive at a specified point in the future.")**)
+[Linking to a resource providing information about a resource's or service's retirement policy and/or information.](http://tools.ietf.org/html/draft-wilde-sunset-header#section-5 "Read documentation for Link Relation &#34;sunset&#34;") (**[Internet Draft wilde-sunset-header: The Sunset HTTP Header](/specs/IETF/I-D/wilde-sunset-header "This specification defines the Sunset HTTP response header field, which indicates that a URI is likely to become unresponsive at a specified point in the future.")**)
 
 <br/>
 <hr/>

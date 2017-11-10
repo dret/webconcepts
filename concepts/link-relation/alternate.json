@@ -4,12 +4,12 @@
     "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/alternate",
     "details" : 
     [ 
-      { "description" : "Designates substitute versions for the document in which the link occurs. When used together with the lang attribute, it implies a translated version of the document. When used together with the media attribute, it implies a version designed for a different medium (or media).",
-        "documentation" : "https:\/\/www.w3.org\/TR\/html\/links.html#link-type-alternate",
-        "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/html",
-        "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/html" },
-      
       { "description" : "The value \"alternate\" signifies that the IRI in the value of the href attribute identifies an alternate version of the resource described by the containing element.",
         "documentation" : "http:\/\/tools.ietf.org\/html\/rfc4287#section-4.2.7.2",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/4287",
-        "spec-name" : "RFC 4287" } ] }
+        "spec-name" : "RFC 4287" },
+      
+      { "description" : "Designates substitute versions for the document in which the link occurs. When used together with the lang attribute, it implies a translated version of the document. When used together with the media attribute, it implies a version designed for a different medium (or media).",
+        "documentation" : "https:\/\/www.w3.org\/TR\/html\/links.html#link-type-alternate",
+        "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/html",
+        "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/html" } ] }

@@ -4,7 +4,7 @@ permalink:     "/concepts/link-relation/alternate"
 title:         "Link Relation: alternate"
 concept-name:  Link Relation
 concept-value: alternate
-description: "Designates substitute versions for the document in which the link occurs. When used together with the lang attribute, it implies a translated version of the document. When used together with the media attribute, it implies a version designed for a different medium (or media)."
+description: "The value \"alternate\" signifies that the IRI in the value of the href attribute identifies an alternate version of the resource described by the containing element."
 ---
 
 [The value "alternate" signifies that the IRI in the value of the href attribute identifies an alternate version of the resource described by the containing element.](http://tools.ietf.org/html/rfc4287#section-4.2.7.2 "Read documentation for Link Relation &#34;alternate&#34;") (**[RFC 4287: Atom Syndication Format](/specs/IETF/RFC/4287 "Atom is an XML-based document format that describes lists of related information known as &#34;feeds&#34;. Feeds are composed of a number of items, known as &#34;entries&#34;, each with an extensible set of attached metadata. For example, each entry has a title.")**)

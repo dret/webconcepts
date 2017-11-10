@@ -4,7 +4,7 @@ permalink:     "/concepts/http-header/Authorization"
 title:         "HTTP Header Field: Authorization"
 concept-name:  HTTP Header Field
 concept-value: Authorization
-description: "Protocol parameters can be transmitted using the HTTP \"Authorization\" header field as defined by RFC 2617 with the auth-scheme name set to \"OAuth\" (case insensitive)."
+description: "The client is expected to retry the request, passing an Authorization header field line with Digest scheme, which is defined according to the framework above. The values of the opaque and algorithm fields must be those supplied in the WWW-Authenticate response header field for the entity being requested."
 ---
 
 [Protocol parameters can be transmitted using the HTTP "Authorization" header field as defined by RFC 2617 with the auth-scheme name set to "OAuth" (case insensitive).](http://tools.ietf.org/html/rfc5849#section-3.5.1 "Read documentation for HTTP Header Field &#34;Authorization&#34;") (**[RFC 5849: The OAuth 1.0 Protocol](/specs/IETF/RFC/5849 "OAuth provides a method for clients to access server resources on behalf of a resource owner (such as a different client or an end-user). It also provides a process for end-users to authorize third-party access to their server resources without sharing their credentials (typically, a username and password pair), using user-agent redirections.")**)

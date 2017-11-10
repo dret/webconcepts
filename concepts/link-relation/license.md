@@ -4,7 +4,7 @@ permalink:     "/concepts/link-relation/license"
 title:         "Link Relation: license"
 concept-name:  Link Relation
 concept-value: license
-description: "The license keyword indicates that the referenced document provides the copyright license terms under which the main content of the current document is provided."
+description: "The \"license\" link relation can be used to associate licenses with a feed or entry. Feeds and entries can be dual-licensed by including multiple \"license\" link relations specifying different href attribute values. If multiple \"license\" link relations are specified, each SHOULD contain a title attribute specifying a human-readable label for the license."
 ---
 
 [The "license" link relation can be used to associate licenses with a feed or entry. Feeds and entries can be dual-licensed by including multiple "license" link relations specifying different href attribute values. If multiple "license" link relations are specified, each SHOULD contain a title attribute specifying a human-readable label for the license.](http://tools.ietf.org/html/rfc4946#section-2 "Read documentation for Link Relation &#34;license&#34;") (**[RFC 4946: Atom License Extension](/specs/IETF/RFC/4946 "This memo defines an Experimental Protocol for the Internet community. It does not specify an Internet standard of any kind. Discussion and suggestions for improvement are requested. Distribution of this memo is unlimited.")**)

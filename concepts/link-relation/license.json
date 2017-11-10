@@ -4,12 +4,12 @@
     "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/license",
     "details" : 
     [ 
-      { "description" : "The license keyword indicates that the referenced document provides the copyright license terms under which the main content of the current document is provided.",
-        "documentation" : "https:\/\/www.w3.org\/TR\/html\/links.html#link-type-license",
-        "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/html",
-        "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/html" },
-      
       { "description" : "The \"license\" link relation can be used to associate licenses with a feed or entry. Feeds and entries can be dual-licensed by including multiple \"license\" link relations specifying different href attribute values. If multiple \"license\" link relations are specified, each SHOULD contain a title attribute specifying a human-readable label for the license.",
         "documentation" : "http:\/\/tools.ietf.org\/html\/rfc4946#section-2",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/4946",
-        "spec-name" : "RFC 4946" } ] }
+        "spec-name" : "RFC 4946" },
+      
+      { "description" : "The license keyword indicates that the referenced document provides the copyright license terms under which the main content of the current document is provided.",
+        "documentation" : "https:\/\/www.w3.org\/TR\/html\/links.html#link-type-license",
+        "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/html",
+        "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/html" } ] }

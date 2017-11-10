@@ -515,15 +515,15 @@
           "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Accept-Encoding",
           "details" : 
           [ 
-            { "description" : "The \"Accept-Encoding\" header field can be used by user agents to indicate what response content-codings are acceptable in the response. An \"identity\" token is used as a synonym for \"no encoding\" in order to communicate when no encoding is preferred.",
-              "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7231#section-5.3.4",
-              "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7231",
-              "spec-name" : "RFC 7231" },
-            
             { "description" : "Section 5.3.4 of RFC 7231 defines \"Accept-Encoding\" as a request header field only. This specification expands that definition to allow \"Accept-Encoding\" as a response header field as well. When present in a response, it indicates what content codings the resource was willing to accept in the associated request. A field value that only contains \"identity\" implies that no content codings were supported.",
               "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7694#section-3",
               "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7694",
-              "spec-name" : "RFC 7694" } ] },
+              "spec-name" : "RFC 7694" },
+            
+            { "description" : "The \"Accept-Encoding\" header field can be used by user agents to indicate what response content-codings are acceptable in the response. An \"identity\" token is used as a synonym for \"no encoding\" in order to communicate when no encoding is preferred.",
+              "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7231#section-5.3.4",
+              "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7231",
+              "spec-name" : "RFC 7231" } ] },
         
         { "value" : "Accept-Features",
           "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
@@ -760,6 +760,11 @@
           "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Authorization",
           "details" : 
           [ 
+            { "description" : "The client is expected to retry the request, passing an Authorization header field line with Digest scheme, which is defined according to the framework above. The values of the opaque and algorithm fields must be those supplied in the WWW-Authenticate response header field for the entity being requested.",
+              "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7616#section-3.4",
+              "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7616",
+              "spec-name" : "RFC 7616" },
+            
             { "description" : "Protocol parameters can be transmitted using the HTTP \"Authorization\" header field as defined by RFC 2617 with the auth-scheme name set to \"OAuth\" (case insensitive).",
               "documentation" : "http:\/\/tools.ietf.org\/html\/rfc5849#section-3.5.1",
               "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/5849",
@@ -768,12 +773,7 @@
             { "description" : "The \"Authorization\" header field allows a user agent to authenticate itself with an origin server - usually, but not necessarily, after receiving a 401 (Unauthorized) response. Its value consists of credentials containing the authentication information of the user agent for the realm of the resource being requested.",
               "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7235#section-4.1",
               "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7235",
-              "spec-name" : "RFC 7235" },
-            
-            { "description" : "The client is expected to retry the request, passing an Authorization header field line with Digest scheme, which is defined according to the framework above. The values of the opaque and algorithm fields must be those supplied in the WWW-Authenticate response header field for the entity being requested.",
-              "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7616#section-3.4",
-              "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7616",
-              "spec-name" : "RFC 7616" } ] },
+              "spec-name" : "RFC 7235" } ] },
         
         { "value" : "C-Ext",
           "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
@@ -975,15 +975,15 @@
           "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Content-Security-Policy",
           "details" : 
           [ 
-            { "description" : "The Content-Security-Policy header field is the preferred mechanism for delivering a policy.",
-              "documentation" : "http:\/\/www.w3.org\/TR\/CSP2\/#content-security-policy-header-field",
-              "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/CSP2",
-              "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/CSP2" },
-            
             { "description" : "The Content-Security-Policy HTTP response header field is the preferred mechanism for delivering a policy from a server to a client.",
               "documentation" : "http:\/\/www.w3.org\/TR\/CSP3\/#csp-header",
               "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/CSP3",
-              "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/CSP3" } ] },
+              "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/CSP3" },
+            
+            { "description" : "The Content-Security-Policy header field is the preferred mechanism for delivering a policy.",
+              "documentation" : "http:\/\/www.w3.org\/TR\/CSP2\/#content-security-policy-header-field",
+              "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/CSP2",
+              "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/CSP2" } ] },
         
         { "value" : "Content-Security-Policy-Pin",
           "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
@@ -1000,15 +1000,15 @@
           "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Content-Security-Policy-Report-Only",
           "details" : 
           [ 
-            { "description" : "The Content-Security-Policy-Report-Only header field lets servers experiment with policies by monitoring (rather than enforcing) a policy.",
-              "documentation" : "http:\/\/www.w3.org\/TR\/CSP2\/#content-security-policy-report-only-header-field",
-              "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/CSP2",
-              "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/CSP2" },
-            
             { "description" : "The Content-Security-Policy-Report-Only HTTP response header field allows web developers to experiment with policies by monitoring (but not enforcing) their effects.",
               "documentation" : "http:\/\/www.w3.org\/TR\/CSP3\/#cspro-header",
               "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/CSP3",
-              "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/CSP3" } ] },
+              "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/CSP3" },
+            
+            { "description" : "The Content-Security-Policy-Report-Only header field lets servers experiment with policies by monitoring (rather than enforcing) a policy.",
+              "documentation" : "http:\/\/www.w3.org\/TR\/CSP2\/#content-security-policy-report-only-header-field",
+              "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/CSP2",
+              "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/CSP2" } ] },
         
         { "value" : "Content-Security-Policy-Report-Only-Pin",
           "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
@@ -2335,15 +2335,15 @@
           "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/WWW-Authenticate",
           "details" : 
           [ 
-            { "description" : "The \"WWW-Authenticate\" header field consists of at least one challenge that indicates the authentication scheme(s) and parameters applicable to the effective request URI. It MUST be included in 401 (Unauthorized) response messages and MAY be included in other response messages to indicate that supplying credentials (or different credentials) might affect the response.",
-              "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7235#section-4.4",
-              "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7235",
-              "spec-name" : "RFC 7235" },
-            
             { "description" : "If a server receives a request for an access-protected object, and an acceptable Authorization header is not sent, the server responds with a \"401 Unauthorized\" status code, and a WWW-Authenticate header as per the framework defined above.",
               "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7616#section-3.3",
               "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7616",
-              "spec-name" : "RFC 7616" } ] },
+              "spec-name" : "RFC 7616" },
+            
+            { "description" : "The \"WWW-Authenticate\" header field consists of at least one challenge that indicates the authentication scheme(s) and parameters applicable to the effective request URI. It MUST be included in 401 (Unauthorized) response messages and MAY be included in other response messages to indicate that supplying credentials (or different credentials) might affect the response.",
+              "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7235#section-4.4",
+              "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7235",
+              "spec-name" : "RFC 7235" } ] },
         
         { "value" : "Want-Digest",
           "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
@@ -3872,15 +3872,15 @@
           "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/alternate",
           "details" : 
           [ 
-            { "description" : "Designates substitute versions for the document in which the link occurs. When used together with the lang attribute, it implies a translated version of the document. When used together with the media attribute, it implies a version designed for a different medium (or media).",
-              "documentation" : "https:\/\/www.w3.org\/TR\/html\/links.html#link-type-alternate",
-              "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/html",
-              "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/html" },
-            
             { "description" : "The value \"alternate\" signifies that the IRI in the value of the href attribute identifies an alternate version of the resource described by the containing element.",
               "documentation" : "http:\/\/tools.ietf.org\/html\/rfc4287#section-4.2.7.2",
               "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/4287",
-              "spec-name" : "RFC 4287" } ] },
+              "spec-name" : "RFC 4287" },
+            
+            { "description" : "Designates substitute versions for the document in which the link occurs. When used together with the lang attribute, it implies a translated version of the document. When used together with the media attribute, it implies a version designed for a different medium (or media).",
+              "documentation" : "https:\/\/www.w3.org\/TR\/html\/links.html#link-type-alternate",
+              "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/html",
+              "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/html" } ] },
         
         { "value" : "appendix",
           "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
@@ -4312,15 +4312,15 @@
           "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/license",
           "details" : 
           [ 
-            { "description" : "The license keyword indicates that the referenced document provides the copyright license terms under which the main content of the current document is provided.",
-              "documentation" : "https:\/\/www.w3.org\/TR\/html\/links.html#link-type-license",
-              "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/html",
-              "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/html" },
-            
             { "description" : "The \"license\" link relation can be used to associate licenses with a feed or entry. Feeds and entries can be dual-licensed by including multiple \"license\" link relations specifying different href attribute values. If multiple \"license\" link relations are specified, each SHOULD contain a title attribute specifying a human-readable label for the license.",
               "documentation" : "http:\/\/tools.ietf.org\/html\/rfc4946#section-2",
               "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/4946",
-              "spec-name" : "RFC 4946" } ] },
+              "spec-name" : "RFC 4946" },
+            
+            { "description" : "The license keyword indicates that the referenced document provides the copyright license terms under which the main content of the current document is provided.",
+              "documentation" : "https:\/\/www.w3.org\/TR\/html\/links.html#link-type-license",
+              "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/html",
+              "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/html" } ] },
         
         { "value" : "linkset",
           "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
@@ -4397,15 +4397,15 @@
           "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/next",
           "details" : 
           [ 
-            { "description" : "Refers to the next document in a linear sequence of documents. User agents may choose to preload the \"next\" document, to reduce the perceived load time.",
-              "documentation" : "https:\/\/www.w3.org\/TR\/html\/links.html#link-type-next",
-              "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/html",
-              "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/html" },
-            
             { "description" : "A URI that refers to the immediately following document in a series of documents.",
               "documentation" : "http:\/\/tools.ietf.org\/html\/rfc5005#section-3",
               "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/5005",
-              "spec-name" : "RFC 5005" } ] },
+              "spec-name" : "RFC 5005" },
+            
+            { "description" : "Refers to the next document in a linear sequence of documents. User agents may choose to preload the \"next\" document, to reduce the perceived load time.",
+              "documentation" : "https:\/\/www.w3.org\/TR\/html\/links.html#link-type-next",
+              "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/html",
+              "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/html" } ] },
         
         { "value" : "next-archive",
           "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
@@ -4712,7 +4712,7 @@
           "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/sunset",
           "details" : 
           [ 
-            { "description" : "Linking to a resource providing information about a resource's or service's sunset policy and\/or information.",
+            { "description" : "Linking to a resource providing information about a resource's or service's retirement policy and\/or information.",
               "documentation" : "http:\/\/tools.ietf.org\/html\/draft-wilde-sunset-header#section-5",
               "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/wilde-sunset-header",
               "spec-name" : "Internet Draft wilde-sunset-header" } ] },
@@ -5189,15 +5189,15 @@
           "id" : "http:\/\/webconcepts.info\/concepts\/media-type\/application\/json",
           "details" : 
           [ 
-            { "description" : "JavaScript Object Notation (JSON) is a text format for the serialization of structured data. It is derived from the object literals of JavaScript, as defined in the ECMAScript Programming Language Standard, Third Edition.",
-              "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-jsonbis-rfc7159bis#section-1",
-              "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-jsonbis-rfc7159bis",
-              "spec-name" : "Internet Draft ietf-jsonbis-rfc7159bis" },
-            
             { "description" : "JavaScript Object Notation (JSON) is a text format for the serialization of structured data. It is derived from the object literals of JavaScript, as defined in the ECMAScript Programming Language Standard, Third Edition. JSON can represent four primitive types (strings, numbers, booleans, and null) and two structured types (objects and arrays). A string is a sequence of zero or more Unicode characters. An object is an unordered collection of zero or more name\/value pairs, where a name is a string and a value is a string, number, boolean, null, object, or array. An array is an ordered sequence of zero or more values. The terms \"object\" and \"array\" come from the conventions of JavaScript. JSON's design goals were for it to be minimal, portable, textual, and a subset of JavaScript.",
               "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7159#section-1",
               "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7159",
-              "spec-name" : "RFC 7159" } ] },
+              "spec-name" : "RFC 7159" },
+            
+            { "description" : "JavaScript Object Notation (JSON) is a text format for the serialization of structured data. It is derived from the object literals of JavaScript, as defined in the ECMAScript Programming Language Standard, Third Edition.",
+              "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-jsonbis-rfc7159bis#section-1",
+              "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-jsonbis-rfc7159bis",
+              "spec-name" : "Internet Draft ietf-jsonbis-rfc7159bis" } ] },
         
         { "value" : "application\/json-seq",
           "concept" : "http:\/\/webconcepts.info\/concepts\/media-type\/",
