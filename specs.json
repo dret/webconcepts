@@ -428,7 +428,7 @@
       "name": "Internet Draft wilde-sunset-header",
       "URI": "urn:ietf:id:wilde-sunset-header",
       "URL": "http://tools.ietf.org/html/draft-wilde-sunset-header",
-      "abstract": "This specification defines the Sunset HTTP response header field, which indicates that a URI is likely to become unresponsive at a specified point in the future.",
+      "abstract": "This specification defines the Sunset HTTP response header field, which indicates that a URI is likely to become unresponsive at a specified point in the future. It also defines a sunset link relation type that allows linking to resources providing information about an upcoming resource or service sunset.",
       "concepts": [{
        "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Sunset" }, {
        "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/sunset" }]}},{
