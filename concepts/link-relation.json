@@ -596,6 +596,16 @@
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7089",
             "spec-name" : "RFC 7089" } ] },
       
+      { "value" : "payment-method-manifest",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/payment-method-manifest",
+        "details" : 
+        [ 
+          { "description" : "Links to a payment method manifest, which describes a specific payment method within the Web Payments ecosystem.",
+            "documentation" : "https:\/\/www.w3.org\/TR\/payment-method-manifest\/#payment-method-manifest-link",
+            "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/payment-method-manifest",
+            "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/payment-method-manifest" } ] },
+      
       { "value" : "preconnect",
         "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
         "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/preconnect",

@@ -2734,6 +2734,15 @@
       "abstract": "Micropub is an open API standard that is used to create posts on one's own domain using third-party clients. Web apps and native apps (e.g. iPhone, Android) can use Micropub to post short notes, photos, events or other posts to your own site.",
       "concepts": [{
        "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/micropub" }]}},{
+     "payment-method-manifest": {
+      "id": "http://webconcepts.info/specs/W3C/TR/payment-method-manifest",
+      "title": "Payment Method Manifest",
+      "name": "W3C TR http://www.w3.org/TR/payment-method-manifest",
+      "URI": "http://www.w3.org/TR/payment-method-manifest",
+      "URL": "http://www.w3.org/TR/payment-method-manifest",
+      "abstract": "This specification defines the machine-readable manifest file, known as a payment method manifest, describing how a payment method participates in the Web Payments ecosystem, and how such files are to be used.",
+      "concepts": [{
+       "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/payment-method-manifest" }]}},{
      "powder-dr": {
       "id": "http://webconcepts.info/specs/W3C/TR/powder-dr",
       "title": "Protocol for Web Description Resources (POWDER): Description Resources",

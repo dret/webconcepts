@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<service primary="W3C" secondary="TR" id="payment-method-manifest">
+    <title>Payment Method Manifest</title>
+    <documentation source="http://www.w3.org/TR/payment-method-manifest/">This specification defines the machine-readable manifest file, known as a payment method manifest, describing how a payment method participates in the Web Payments ecosystem, and how such files are to be used.</documentation>
+    <link-relation def="payment-method-manifest">
+        <documentation source="https://www.w3.org/TR/payment-method-manifest/#payment-method-manifest-link">Links to a payment method manifest, which describes a specific payment method within the Web Payments ecosystem.</documentation>
+    </link-relation>
+</service>
