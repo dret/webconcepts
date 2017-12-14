@@ -86,7 +86,7 @@ There are currently 171 listed specifications in the [Internet Engineering Task 
   * [JSON Web Signature (JWS) (RFC 7515)](7515)
   * [JSON Web Token (JWT) (RFC 7519)](7519)
   * [JSON Web Token (JWT) Profile for OAuth 2.0 Client Authentication and Authorization Grants (RFC 7523)](7523)
-  * [JavaScript Object Notation (JSON) (RFC 7159)](7159)
+  * [JavaScript Object Notation (JSON) (RFC 8259)](8259)
   * [JavaScript Object Notation (JSON) Text Sequences (RFC 7464)](7464)
   * [Link Relation Types for Simple Version Navigation between Web Resources (RFC 5829)](5829)
   * [Locating Services for Calendaring Extensions to WebDAV (CalDAV) and vCard Extensions to WebDAV (CardDAV) (RFC 6764)](6764)

@@ -4,12 +4,12 @@
     "id" : "http:\/\/webconcepts.info\/concepts\/media-type\/application\/json",
     "details" : 
     [ 
-      { "description" : "JavaScript Object Notation (JSON) is a text format for the serialization of structured data. It is derived from the object literals of JavaScript, as defined in the ECMAScript Programming Language Standard, Third Edition. JSON can represent four primitive types (strings, numbers, booleans, and null) and two structured types (objects and arrays). A string is a sequence of zero or more Unicode characters. An object is an unordered collection of zero or more name\/value pairs, where a name is a string and a value is a string, number, boolean, null, object, or array. An array is an ordered sequence of zero or more values. The terms \"object\" and \"array\" come from the conventions of JavaScript. JSON's design goals were for it to be minimal, portable, textual, and a subset of JavaScript.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7159#section-1",
-        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7159",
-        "spec-name" : "RFC 7159" },
-      
       { "description" : "JavaScript Object Notation (JSON) is a text format for the serialization of structured data. It is derived from the object literals of JavaScript, as defined in the ECMAScript Programming Language Standard, Third Edition.",
         "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-jsonbis-rfc7159bis#section-1",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-jsonbis-rfc7159bis",
-        "spec-name" : "Internet Draft ietf-jsonbis-rfc7159bis" } ] }
+        "spec-name" : "Internet Draft ietf-jsonbis-rfc7159bis" },
+      
+      { "description" : "JavaScript Object Notation (JSON) is a text format for the serialization of structured data. It is derived from the object literals of JavaScript, as defined in the ECMAScript Programming Language Standard, Third Edition. JSON can represent four primitive types (strings, numbers, booleans, and null) and two structured types (objects and arrays).",
+        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8259#section-1",
+        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8259",
+        "spec-name" : "RFC 8259" } ] }

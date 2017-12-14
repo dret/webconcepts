@@ -1520,15 +1520,6 @@
       "abstract": "This memo defines URI fragment identifiers for text/csv MIME entities. These fragment identifiers make it possible to refer to parts of a text/csv MIME entity identified by row, column, or cell. Fragment identification can use single items or ranges.",
       "concepts": [{
        "http://webconcepts.info/concepts/media-type/": "http://webconcepts.info/concepts/media-type/text/csv" }]}},{
-     "7159": {
-      "id": "http://webconcepts.info/specs/IETF/RFC/7159",
-      "title": "JavaScript Object Notation (JSON)",
-      "name": "RFC 7159",
-      "URI": "urn:ietf:rfc:7159",
-      "URL": "http://tools.ietf.org/html/rfc7159",
-      "abstract": "JavaScript Object Notation (JSON) is a lightweight, text-based, language-independent data interchange format. It was derived from the ECMAScript Programming Language Standard. JSON defines a small set of formatting rules for the portable representation of structured data.",
-      "concepts": [{
-       "http://webconcepts.info/concepts/media-type/": "http://webconcepts.info/concepts/media-type/application/json" }]}},{
      "7168": {
       "id": "http://webconcepts.info/specs/IETF/RFC/7168",
       "title": "The Hyper Text Coffee Pot Control Protocol for Tea Efflux Appliances (HTCPCP-TEA)",
@@ -2363,6 +2354,15 @@
       "concepts": [{
        "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Content-Translation-Type" }, {
        "http://webconcepts.info/concepts/media-type/": "http://webconcepts.info/concepts/media-type/multipart/multilingual" }]}},{
+     "8259": {
+      "id": "http://webconcepts.info/specs/IETF/RFC/8259",
+      "title": "JavaScript Object Notation (JSON)",
+      "name": "RFC 8259",
+      "URI": "urn:ietf:rfc:8259",
+      "URL": "http://tools.ietf.org/html/rfc8259",
+      "abstract": "JavaScript Object Notation (JSON) is a lightweight, text-based, language-independent data interchange format. It was derived from the ECMAScript Programming Language Standard. JSON defines a small set of formatting rules for the portable representation of structured data. This document removes inconsistencies with other specifications of JSON, repairs specification errors, and offers experience-based interoperability guidance.",
+      "concepts": [{
+       "http://webconcepts.info/concepts/media-type/": "http://webconcepts.info/concepts/media-type/application/json" }]}},{
      "8288": {
       "id": "http://webconcepts.info/specs/IETF/RFC/8288",
       "title": "Web Linking",

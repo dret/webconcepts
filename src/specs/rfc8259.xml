@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<service primary="IETF" secondary="RFC" id="8259">
+    <title>JavaScript Object Notation (JSON)</title>
+    <documentation source="http://tools.ietf.org/html/rfc8259">JavaScript Object Notation (JSON) is a lightweight, text-based, language-independent data interchange format. It was derived from the ECMAScript Programming Language Standard. JSON defines a small set of formatting rules for the portable representation of structured data. This document removes inconsistencies with other specifications of JSON, repairs specification errors, and offers experience-based interoperability guidance.</documentation>
+    <media-type def="application/json">
+        <documentation source="http://tools.ietf.org/html/rfc8259#section-1">JavaScript Object Notation (JSON) is a text format for the serialization of structured data. It is derived from the object literals of JavaScript, as defined in the ECMAScript Programming Language Standard, Third Edition. JSON can represent four primitive types (strings, numbers, booleans, and null) and two structured types (objects and arrays).</documentation>
+    </media-type>
+</service>
