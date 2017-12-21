@@ -154,15 +154,6 @@
        "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Save-Data" }, {
        "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Viewport-Width" }, {
        "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Width" }]}},{
-     "ietf-httpbis-early-hints": {
-      "id": "http://webconcepts.info/specs/IETF/I-D/ietf-httpbis-early-hints",
-      "title": "An HTTP Status Code for Indicating Hints",
-      "name": "Internet Draft ietf-httpbis-early-hints",
-      "URI": "urn:ietf:id:ietf-httpbis-early-hints",
-      "URL": "http://tools.ietf.org/html/draft-ietf-httpbis-early-hints",
-      "abstract": "This memo introduces an informational status code for HTTP that can be used for indicating hints to help a client start making preparations for processing the final response.",
-      "concepts": [{
-       "http://webconcepts.info/concepts/http-status-code/": "http://webconcepts.info/concepts/http-status-code/103" }]}},{
      "ietf-httpbis-expect-ct": {
       "id": "http://webconcepts.info/specs/IETF/I-D/ietf-httpbis-expect-ct",
       "title": "Expect-CT Extension for HTTP",
@@ -2371,7 +2362,16 @@
       "URL": "http://tools.ietf.org/html/rfc8288",
       "abstract": "This specification defines a way to indicate the relationships between resources on the Web (\"links\") and the type of those relationships (\"link relation types\"). It also defines the use of such links in HTTP headers with the Link header field.",
       "concepts": [{
-       "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Link" }]}}]}}]},
+       "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Link" }]}},{
+     "8297": {
+      "id": "http://webconcepts.info/specs/IETF/RFC/8297",
+      "title": "An HTTP Status Code for Indicating Hints",
+      "name": "RFC 8297",
+      "URI": "urn:ietf:rfc:8297",
+      "URL": "http://tools.ietf.org/html/rfc8297",
+      "abstract": "This memo introduces an informational status code for HTTP that can be used for indicating hints to help a client start making preparations for processing the final response.",
+      "concepts": [{
+       "http://webconcepts.info/concepts/http-status-code/": "http://webconcepts.info/concepts/http-status-code/103" }]}}]}}]},
  "ISO": {
   "id": "http://webconcepts.info/specs/ISO/",
   "name": "International Organization for Standardization",

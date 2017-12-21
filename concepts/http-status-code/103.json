@@ -5,7 +5,7 @@
     "description" : "Early Hints",
     "details" : 
     [ 
-      { "description" : "This informational status code indicates the client that the server is likely to send a final request with the headers included in the informational response.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-httpbis-early-hints#section-2",
-        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpbis-early-hints",
-        "spec-name" : "Internet Draft ietf-httpbis-early-hints" } ] }
+      { "description" : "The 103 (Early Hints) status code indicates the client that the server is likely to send a final request with the headers included in the informational response.",
+        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8297#section-2",
+        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8297",
+        "spec-name" : "RFC 8297" } ] }
