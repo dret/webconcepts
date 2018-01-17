@@ -222,6 +222,15 @@
       "concepts": [{
        "http://webconcepts.info/concepts/http-authentication-scheme/": "http://webconcepts.info/concepts/http-authentication-scheme/vapid" }, {
        "http://webconcepts.info/concepts/media-type/": "http://webconcepts.info/concepts/media-type/application/webpush-options+json" }]}},{
+     "inadarei-api-health-check": {
+      "id": "http://webconcepts.info/specs/IETF/I-D/inadarei-api-health-check",
+      "title": "Health Check Response Format for HTTP APIs",
+      "name": "Internet Draft inadarei-api-health-check",
+      "URI": "urn:ietf:id:inadarei-api-health-check",
+      "URL": "http://tools.ietf.org/html/draft-inadarei-api-health-check",
+      "abstract": "This document proposes a service health check response format for HTTP APIs.",
+      "concepts": [{
+       "http://webconcepts.info/concepts/media-type/": "http://webconcepts.info/concepts/media-type/application/vnd.health+json" }]}},{
      "kelly-json-hal": {
       "id": "http://webconcepts.info/specs/IETF/I-D/kelly-json-hal",
       "title": "JSON Hypertext Application Language",
