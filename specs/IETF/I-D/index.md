@@ -41,7 +41,7 @@ There are currently 44 listed specifications in the [Internet Engineering Task F
   * [Signing HTTP Messages (Internet Draft cavage-http-signatures)](cavage-http-signatures)
   * [The 'XML2RFC' version 3 Vocabulary (Internet Draft hoffman-xml2rfc)](hoffman-xml2rfc)
   * [The +exi Media Type Suffix (Internet Draft shelby-exi-registration)](shelby-exi-registration)
-  * [The Archive and Packaging Pointer (app) URI scheme (Internet Draft soilandreyes-app)](soilandreyes-app)
+  * [The Archive and Packaging (arcp) URI scheme (Internet Draft soilandreyes-arcp)](soilandreyes-arcp)
   * [The JavaScript Object Notation (JSON) Data Interchange Format (Internet Draft ietf-jsonbis-rfc7159bis)](ietf-jsonbis-rfc7159bis)
   * [The Key HTTP Response Header Field (Internet Draft ietf-httpbis-key)](ietf-httpbis-key)
   * [The Link-Template HTTP Header Field (Internet Draft nottingham-link-template)](nottingham-link-template)

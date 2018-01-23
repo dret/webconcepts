@@ -26,15 +26,15 @@
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7565",
             "spec-name" : "RFC 7565" } ] },
       
-      { "value" : "app",
+      { "value" : "arcp",
         "concept" : "http:\/\/webconcepts.info\/concepts\/uri-scheme\/",
-        "id" : "http:\/\/webconcepts.info\/concepts\/uri-scheme\/app",
+        "id" : "http:\/\/webconcepts.info\/concepts\/uri-scheme\/arcp",
         "details" : 
         [ 
-          { "description" : "The \"app\" URI scheme follows the RFC 3986 syntax for hierarchical URIs. The \"app-authority\" component provides a unique identifier for the opened archive. The \"path-absolute\" component provides the absolute path of a resource (e.g. a file or directory) within the archive.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-soilandreyes-app#section-2",
-            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/soilandreyes-app",
-            "spec-name" : "Internet Draft soilandreyes-app" } ] },
+          { "description" : "The \"arcp\" URI scheme follows the RFC 3986 syntax for hierarchical URIs. The \"arcp-authority\" component provides a unique identifier for the opened archive. The \"path-absolute\" component provides the absolute path of a resource (e.g. a file or directory) within the archive.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-soilandreyes-app#section-3",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/soilandreyes-arcp",
+            "spec-name" : "Internet Draft soilandreyes-arcp" } ] },
       
       { "value" : "cap",
         "concept" : "http:\/\/webconcepts.info\/concepts\/uri-scheme\/",

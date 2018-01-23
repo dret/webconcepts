@@ -354,15 +354,15 @@
        "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/provider" }, {
        "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/source" }, {
        "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/to" }]}},{
-     "soilandreyes-app": {
-      "id": "http://webconcepts.info/specs/IETF/I-D/soilandreyes-app",
-      "title": "The Archive and Packaging Pointer (app) URI scheme",
-      "name": "Internet Draft soilandreyes-app",
-      "URI": "urn:ietf:id:soilandreyes-app",
-      "URL": "http://tools.ietf.org/html/draft-soilandreyes-app",
-      "abstract": "This Internet-Draft proposes the Archive and Packaging Pointer URI scheme app. app URIs can be used to consume or reference hypermedia resources bundled inside a file archive or an application package, as well as to resolve URIs for archive resources within a programmatic framework. This URI scheme provides mechanisms to generate a unique base URI to represent the root of the archive, so that relative URI references in a bundled resource can be resolved within the archive without having to extract the archive content on the local file system. An app URI can be used for purposes of isolation (e.g. when consuming multiple archives), security constraints (avoiding “climb out” from the archive), or for externally identifying sub-resources referenced by hypermedia formats.",
+     "soilandreyes-arcp": {
+      "id": "http://webconcepts.info/specs/IETF/I-D/soilandreyes-arcp",
+      "title": "The Archive and Packaging (arcp) URI scheme",
+      "name": "Internet Draft soilandreyes-arcp",
+      "URI": "urn:ietf:id:soilandreyes-arcp",
+      "URL": "http://tools.ietf.org/html/draft-soilandreyes-arcp",
+      "abstract": "This specification proposes the Application and Packaging Pointer URI scheme \"arcp\". arcp URIs can be used to consume or reference hypermedia resources bundled inside a file archive or an application package, as well as to resolve URIs for archive resources within a programmatic framework. This URI scheme provides mechanisms to generate a unique base URI to represent the root of the archive, so that relative URI references in a bundled resource can be resolved within the archive without having to extract the archive content on the local file system. An arcp URI can be used for purposes of isolation (e.g. when consuming multiple archives), security constraints (avoiding \"climb out\" from the archive), or for externally identifying sub-resources referenced by hypermedia formats.",
       "concepts": [{
-       "http://webconcepts.info/concepts/uri-scheme/": "http://webconcepts.info/concepts/uri-scheme/app" }]}},{
+       "http://webconcepts.info/concepts/uri-scheme/": "http://webconcepts.info/concepts/uri-scheme/arcp" }]}},{
      "thomson-http-content-signature": {
       "id": "http://webconcepts.info/specs/IETF/I-D/thomson-http-content-signature",
       "title": "Content-Signature Header Field for HTTP",
