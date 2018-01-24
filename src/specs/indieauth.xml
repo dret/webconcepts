@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<service primary="W3C" secondary="TR" id="indieauth">
+    <title>IndieAuth</title>
+    <documentation source="http://www.w3.org/TR/indieauth/">IndieAuth is an identity layer on top of OAuth 2.0, primarily used to obtain an OAuth 2.0 Bearer Token for use by Micropub clients. End-Users and Clients are all represented by URLs. IndieAuth enables Clients to verify the identity of an End-User, as well as to obtain an access token that can be used to access resources under the control of the End-User.</documentation>
+    <link-relation def="authorization_endpoint">
+        <documentation source="http://www.w3.org/TR/indieauth/#discovery-1">After obtaining the End-User's profile URL, the client fetches the URL and looks for the authorization_endpoint and token_endpoint rel values in the HTTP Link headers and HTML &lt;link> tags. The client builds the authorization request URL by starting with the discovered authorization_endpoint URL.</documentation>
+    </link-relation>
+    <link-relation def="token_endpoint">
+        <documentation source="http://www.w3.org/TR/indieauth/#token-endpoint-0">After obtaining the End-User's profile URL, the client fetches the URL and looks for the authorization_endpoint and token_endpoint rel values in the HTTP Link headers and HTML &lt;link> tags. After the state parameter is validated, the client makes a POST request to the token endpoint to verify the authorization code and retrieve the final user profile URL.</documentation>
+    </link-relation>
+    <link-relation def="redirect_uri">
+        <documentation source="http://www.w3.org/TR/indieauth/#redirect-url">If a client wishes to use a redirect URL that is on a different domain than their client_id, or if the redirect URL uses a custom scheme (such as when the client is a native application), then the client will need to whitelist those redirect URLs so that authorization endpoints can be sure it is safe to redirect users there. The client SHOULD publish one or more &lt;link> tags or Link HTTP headers with a rel attribute of redirect_uri at the client_id URL.</documentation>
+    </link-relation>
+</service>

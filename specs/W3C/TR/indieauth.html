@@ -1,0 +1,85 @@
+---
+layout:      page
+title:       "IndieAuth"
+description: "IndieAuth is an identity layer on top of OAuth 2.0, primarily used to obtain an OAuth
+2.0 Bearer Token for use by Micropub clients. End-Users and Clients are all represented
+by URLs. IndieAuth enables Clients to verify the identity of an End-User, as well
+as to obtain an access token that can be used to access resources under the control
+of the End-User."
+---
+
+<table cellpadding="5">
+   <tr>
+      <th valign="top" align="right">
+         <em>Document Name:</em>
+      </th>
+      <td>W3C TR http://www.w3.org/TR/indieauth</td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Document URI:</em>
+      </th>
+      <td>
+         <code>http://www.w3.org/TR/indieauth</code>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Online Version:</em>
+      </th>
+      <td>
+         <code>
+            <a href="http://www.w3.org/TR/indieauth">http://www.w3.org/TR/indieauth</a>
+         </code>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Organization:</em>
+      </th>
+      <td>
+         <a href="../" title="List of specification series by this organization">World Wide Web Consortium (W3C)</a>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Series:</em>
+      </th>
+      <td>
+         <a href="./" title="List of specifications in this series">Technical Report (TR)</a>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Abstract:</em>
+      </th>
+      <td>IndieAuth is an identity layer on top of OAuth 2.0, primarily used to obtain an OAuth
+         2.0 Bearer Token for use by Micropub clients. End-Users and Clients are all represented
+         by URLs. IndieAuth enables Clients to verify the identity of an End-User, as well
+         as to obtain an access token that can be used to access resources under the control
+         of the End-User.
+      </td>
+   </tr>
+</table>
+<br></br>
+<hr></hr>
+<h2 id="concepts">Specified Web Concepts:</h2>
+<h3 id="link-relation">
+   <a href="/concepts/link-relation/" title="List of all Link Relations">Link Relations</a>
+</h3>
+<code>
+   <a href="/concepts/link-relation/authorization_endpoint" title="After obtaining the End-User's profile URL, the client fetches the URL and looks for the authorization_endpoint and token_endpoint rel values in the HTTP Link headers and HTML &lt;link&gt; tags. The client builds the authorization request URL by starting with the discovered authorization_endpoint URL.">authorization_endpoint</a>
+</code>, 
+<code>
+   <a href="/concepts/link-relation/redirect_uri" title="If a client wishes to use a redirect URL that is on a different domain than their client_id, or if the redirect URL uses a custom scheme (such as when the client is a native application), then the client will need to whitelist those redirect URLs so that authorization endpoints can be sure it is safe to redirect users there. The client SHOULD publish one or more &lt;link&gt; tags or Link HTTP headers with a rel attribute of redirect_uri at the client_id URL.">redirect_uri</a>
+</code>, 
+<code>
+   <a href="/concepts/link-relation/token_endpoint" title="After obtaining the End-User's profile URL, the client fetches the URL and looks for the authorization_endpoint and token_endpoint rel values in the HTTP Link headers and HTML &lt;link&gt; tags. After the state parameter is validated, the client makes a POST request to the token endpoint to verify the authorization code and retrieve the final user profile URL.">token_endpoint</a>
+</code>
+<br></br>
+<hr></hr>
+<p style="text-align: right">Return to ( 
+   <a href="./">Series</a> | 
+   <a href="../">Organization</a> | 
+   <a href="../../">all Specifications</a> )
+</p>

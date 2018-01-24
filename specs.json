@@ -2715,6 +2715,17 @@
        "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/section" }, {
        "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/start" }, {
        "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/subsection" }]}},{
+     "indieauth": {
+      "id": "http://webconcepts.info/specs/W3C/TR/indieauth",
+      "title": "IndieAuth",
+      "name": "W3C TR http://www.w3.org/TR/indieauth",
+      "URI": "http://www.w3.org/TR/indieauth",
+      "URL": "http://www.w3.org/TR/indieauth",
+      "abstract": "IndieAuth is an identity layer on top of OAuth 2.0, primarily used to obtain an OAuth 2.0 Bearer Token for use by Micropub clients. End-Users and Clients are all represented by URLs. IndieAuth enables Clients to verify the identity of an End-User, as well as to obtain an access token that can be used to access resources under the control of the End-User.",
+      "concepts": [{
+       "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/authorization_endpoint" }, {
+       "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/redirect_uri" }, {
+       "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/token_endpoint" }]}},{
      "json-ld": {
       "id": "http://webconcepts.info/specs/W3C/TR/json-ld",
       "title": "JSON-LD 1.0",

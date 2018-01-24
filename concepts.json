@@ -3902,6 +3902,16 @@
               "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/html",
               "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/html" } ] },
         
+        { "value" : "authorization_endpoint",
+          "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+          "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/authorization_endpoint",
+          "details" : 
+          [ 
+            { "description" : "After obtaining the End-User's profile URL, the client fetches the URL and looks for the authorization_endpoint and token_endpoint rel values in the HTTP Link headers and HTML <link> tags. The client builds the authorization request URL by starting with the discovered authorization_endpoint URL.",
+              "documentation" : "http:\/\/www.w3.org\/TR\/indieauth\/#discovery-1",
+              "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/indieauth",
+              "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/indieauth" } ] },
+        
         { "value" : "bcc",
           "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
           "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/bcc",
@@ -4577,6 +4587,16 @@
               "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/snell-more-link-relations",
               "spec-name" : "Internet Draft snell-more-link-relations" } ] },
         
+        { "value" : "redirect_uri",
+          "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+          "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/redirect_uri",
+          "details" : 
+          [ 
+            { "description" : "If a client wishes to use a redirect URL that is on a different domain than their client_id, or if the redirect URL uses a custom scheme (such as when the client is a native application), then the client will need to whitelist those redirect URLs so that authorization endpoints can be sure it is safe to redirect users there. The client SHOULD publish one or more <link> tags or Link HTTP headers with a rel attribute of redirect_uri at the client_id URL.",
+              "documentation" : "http:\/\/www.w3.org\/TR\/indieauth\/#redirect-url",
+              "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/indieauth",
+              "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/indieauth" } ] },
+        
         { "value" : "related",
           "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
           "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/related",
@@ -4786,6 +4806,16 @@
               "documentation" : "http:\/\/tools.ietf.org\/html\/draft-snell-more-link-relations#section-3",
               "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/snell-more-link-relations",
               "spec-name" : "Internet Draft snell-more-link-relations" } ] },
+        
+        { "value" : "token_endpoint",
+          "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+          "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/token_endpoint",
+          "details" : 
+          [ 
+            { "description" : "After obtaining the End-User's profile URL, the client fetches the URL and looks for the authorization_endpoint and token_endpoint rel values in the HTTP Link headers and HTML <link> tags. After the state parameter is validated, the client makes a POST request to the token endpoint to verify the authorization code and retrieve the final user profile URL.",
+              "documentation" : "http:\/\/www.w3.org\/TR\/indieauth\/#token-endpoint-0",
+              "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/indieauth",
+              "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/indieauth" } ] },
         
         { "value" : "type",
           "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",

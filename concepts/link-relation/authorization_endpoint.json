@@ -1,0 +1,10 @@
+
+  { "value" : "authorization_endpoint",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/authorization_endpoint",
+    "details" : 
+    [ 
+      { "description" : "After obtaining the End-User's profile URL, the client fetches the URL and looks for the authorization_endpoint and token_endpoint rel values in the HTTP Link headers and HTML <link> tags. The client builds the authorization request URL by starting with the discovered authorization_endpoint URL.",
+        "documentation" : "http:\/\/www.w3.org\/TR\/indieauth\/#discovery-1",
+        "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/indieauth",
+        "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/indieauth" } ] }
