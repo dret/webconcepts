@@ -1805,6 +1805,15 @@
       "abstract": "The Constrained Application Protocol (CoAP) is a specialized web transfer protocol for constrained devices and constrained networks. It is anticipated that constrained devices will often naturally operate in groups (e.g., in a building automation scenario, all lights in a given room may need to be switched on/off as a group). This specification defines how CoAP should be used in a group communication context.  An approach for using CoAP on top of IP multicast is detailed based on existing CoAP functionality as well as new features introduced in this specification.  Also, various use cases and corresponding protocol flows are provided to illustrate important concepts.  Finally, guidance is provided for deployment in various network topologies.",
       "concepts": [{
        "http://webconcepts.info/concepts/media-type/": "http://webconcepts.info/concepts/media-type/application/coap-group+json" }]}},{
+     "7396": {
+      "id": "http://webconcepts.info/specs/IETF/RFC/7396",
+      "title": "JSON Merge Patch",
+      "name": "RFC 7396",
+      "URI": "urn:ietf:rfc:7396",
+      "URL": "http://tools.ietf.org/html/rfc7396",
+      "abstract": "This specification defines the JSON merge patch format and processing rules. The merge patch format is primarily intended for use with the HTTP PATCH method as a means of describing a set of modifications to a target resource's content.",
+      "concepts": [{
+       "http://webconcepts.info/concepts/media-type/": "http://webconcepts.info/concepts/media-type/application/merge-patch+json" }]}},{
      "7464": {
       "id": "http://webconcepts.info/specs/IETF/RFC/7464",
       "title": "JavaScript Object Notation (JSON) Text Sequences",
