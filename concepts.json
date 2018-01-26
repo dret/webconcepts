@@ -5084,6 +5084,16 @@
               "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7030",
               "spec-name" : "RFC 7030" } ] },
         
+        { "value" : "application\/cwt",
+          "concept" : "http:\/\/webconcepts.info\/concepts\/media-type\/",
+          "id" : "http:\/\/webconcepts.info\/concepts\/media-type\/application\/cwt",
+          "details" : 
+          [ 
+            { "description" : "How to determine that a CBOR data structure is a CWT is application-dependent. In some cases, this information is known from the application context, such as from the position of the CWT in a data structure at which the value must be a CWT. One method of indicating that a CBOR object is a CWT is the use of the \"application\/cwt\" content type by a transport protocol. ",
+              "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-ace-cbor-web-token#section-1",
+              "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-ace-cbor-web-token",
+              "spec-name" : "Internet Draft ietf-ace-cbor-web-token" } ] },
+        
         { "value" : "application\/dash+xml",
           "concept" : "http:\/\/webconcepts.info\/concepts\/media-type\/",
           "id" : "http:\/\/webconcepts.info\/concepts\/media-type\/application\/dash+xml",
