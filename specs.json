@@ -1385,6 +1385,15 @@
       "abstract": "This specification defines the 'describes' link relation type that allows resource representations to indicate that they are describing another resource. In contexts where applications want to associate described resources and description resources, and want to build services based on these associations, the 'describes' link relation type provides the opposite direction of the 'describedby' link relation type, which already is a registered link relation type.",
       "concepts": [{
        "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/describes" }]}},{
+     "6902": {
+      "id": "http://webconcepts.info/specs/IETF/RFC/6902",
+      "title": "JavaScript Object Notation (JSON) Patch",
+      "name": "RFC 6902",
+      "URI": "urn:ietf:rfc:6902",
+      "URL": "http://tools.ietf.org/html/rfc6902",
+      "abstract": "JSON Patch defines a JSON document structure for expressing a sequence of operations to apply to a JavaScript Object Notation (JSON) document; it is suitable for use with the HTTP PATCH method. The \"application/json-patch+json\" media type is used to identify such patch documents.",
+      "concepts": [{
+       "http://webconcepts.info/concepts/media-type/": "http://webconcepts.info/concepts/media-type/application/json-patch+json" }]}},{
      "6903": {
       "id": "http://webconcepts.info/specs/IETF/RFC/6903",
       "title": "Additional Link Relation Types",

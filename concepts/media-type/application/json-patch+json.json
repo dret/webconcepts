@@ -1,0 +1,10 @@
+
+  { "value" : "application\/json-patch+json",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/media-type\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/media-type\/application\/json-patch+json",
+    "details" : 
+    [ 
+      { "description" : "A JSON Patch document is a JSON [RFC4627] document that represents an array of objects. Each object represents a single operation to be applied to the target JSON document.",
+        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6902#section-3",
+        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6902",
+        "spec-name" : "RFC 6902" } ] }
