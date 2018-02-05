@@ -258,6 +258,15 @@
       "abstract": "This specification describes a service to locate OpenPGP keys by mail address using a Web service and the HTTPS protocol.  It also provides a method for secure communication between the key owner and the mail provider to publish and revoke the public key.",
       "concepts": [{
        "http://webconcepts.info/concepts/well-known-uri/": "http://webconcepts.info/concepts/well-known-uri/openpgpkey" }]}},{
+     "michaud-xml-hal": {
+      "id": "http://webconcepts.info/specs/IETF/I-D/michaud-xml-hal",
+      "title": "XML Hypertext Application Language",
+      "name": "Internet Draft michaud-xml-hal",
+      "URI": "urn:ietf:id:michaud-xml-hal",
+      "URL": "http://tools.ietf.org/html/draft-michaud-xml-hal",
+      "abstract": "This document proposes a media type for representing resources and their relations with hyperlinks.",
+      "concepts": [{
+       "http://webconcepts.info/concepts/media-type/": "http://webconcepts.info/concepts/media-type/application/hal+xml" }]}},{
      "mogul-http-dupsup": {
       "id": "http://webconcepts.info/specs/IETF/I-D/mogul-http-dupsup",
       "title": "Duplicate Suppression in HTTP",
