@@ -2401,7 +2401,7 @@
       "name": "RFC 8283",
       "URI": "urn:ietf:rfc:8283",
       "URL": "http://tools.ietf.org/html/rfc8283",
-      "abstract": "The Constrained Application Protocol (CoAP), although inspired by HTTP, was designed to use UDP instead of TCP. The message layer of the CoAP over UDP protocol includes support for reliable delivery, simple congestion control, and flow control. Some environments benefit from the availability of CoAP carried over reliable transports such as TCP or TLS. This document outlines the changes required to use CoAP over TCP, TLS, and WebSockets transports. It also formally updates RFC 7641 for use with these transports.",
+      "abstract": "The Constrained Application Protocol (CoAP), although inspired by HTTP, was designed to use UDP instead of TCP. The message layer of CoAP over UDP includes support for reliable delivery, simple congestion control, and flow control. Some environments benefit from the availability of CoAP carried over reliable transports such as TCP or Transport Layer Security (TLS). This document outlines the changes required to use CoAP over TCP, TLS, and WebSockets transports. It also formally updates RFC 7641 for use with these transports and RFC 7959 to enable the use of larger messages over a reliable transport.",
       "concepts": [{
        "http://webconcepts.info/concepts/uri-scheme/": "http://webconcepts.info/concepts/uri-scheme/coap+tcp" }, {
        "http://webconcepts.info/concepts/uri-scheme/": "http://webconcepts.info/concepts/uri-scheme/coap+ws" }, {
