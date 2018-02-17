@@ -32,9 +32,9 @@
         "details" : 
         [ 
           { "description" : "For \"coap+ws\" respectively \"coaps+ws\" URIs, the WebSocket endpoint is identified by a \"ws\" respectively \"wss\" URI that is composed of the authority part of the URI and the well-known path \"\/.well-known\/coap\".",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-core-coap-tcp-tls#section-10.6",
-            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-core-coap-tcp-tls",
-            "spec-name" : "Internet Draft ietf-core-coap-tcp-tls" } ] },
+            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8283#section-11.6",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8283",
+            "spec-name" : "RFC 8283" } ] },
       
       { "value" : "core",
         "concept" : "http:\/\/webconcepts.info\/concepts\/well-known-uri\/",

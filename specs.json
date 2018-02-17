@@ -94,19 +94,6 @@
       "abstract": "This specification defines an extension to the calendar access protocol (CalDAV) to allow attachments associated with iCalendar data to be stored and managed on the server.",
       "concepts": [{
        "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Cal-Managed-ID" }]}},{
-     "ietf-core-coap-tcp-tls": {
-      "id": "http://webconcepts.info/specs/IETF/I-D/ietf-core-coap-tcp-tls",
-      "title": "CoAP (Constrained Application Protocol) over TCP, TLS, and WebSockets",
-      "name": "Internet Draft ietf-core-coap-tcp-tls",
-      "URI": "urn:ietf:id:ietf-core-coap-tcp-tls",
-      "URL": "http://tools.ietf.org/html/draft-ietf-core-coap-tcp-tls",
-      "abstract": "The Constrained Application Protocol (CoAP), although inspired by HTTP, was designed to use UDP instead of TCP. The message layer of the CoAP over UDP protocol includes support for reliable delivery, simple congestion control, and flow control. Some environments benefit from the availability of CoAP carried over reliable transports such as TCP or TLS. This document outlines the changes required to use CoAP over TCP, TLS, and WebSockets transports. It also formally updates RFC 7641 for use with these transports.",
-      "concepts": [{
-       "http://webconcepts.info/concepts/uri-scheme/": "http://webconcepts.info/concepts/uri-scheme/coap+tcp" }, {
-       "http://webconcepts.info/concepts/uri-scheme/": "http://webconcepts.info/concepts/uri-scheme/coap+ws" }, {
-       "http://webconcepts.info/concepts/uri-scheme/": "http://webconcepts.info/concepts/uri-scheme/coaps+tcp" }, {
-       "http://webconcepts.info/concepts/uri-scheme/": "http://webconcepts.info/concepts/uri-scheme/coaps+ws" }, {
-       "http://webconcepts.info/concepts/well-known-uri/": "http://webconcepts.info/concepts/well-known-uri/coap" }]}},{
      "ietf-core-dynlink": {
       "id": "http://webconcepts.info/specs/IETF/I-D/ietf-core-dynlink",
       "title": "Dynamic Resource Linking for Constrained RESTful Environments",
@@ -2408,6 +2395,19 @@
       "abstract": "JavaScript Object Notation (JSON) is a lightweight, text-based, language-independent data interchange format. It was derived from the ECMAScript Programming Language Standard. JSON defines a small set of formatting rules for the portable representation of structured data. This document removes inconsistencies with other specifications of JSON, repairs specification errors, and offers experience-based interoperability guidance.",
       "concepts": [{
        "http://webconcepts.info/concepts/media-type/": "http://webconcepts.info/concepts/media-type/application/json" }]}},{
+     "8283": {
+      "id": "http://webconcepts.info/specs/IETF/RFC/8283",
+      "title": "CoAP (Constrained Application Protocol) over TCP, TLS, and WebSockets",
+      "name": "RFC 8283",
+      "URI": "urn:ietf:rfc:8283",
+      "URL": "http://tools.ietf.org/html/rfc8283",
+      "abstract": "The Constrained Application Protocol (CoAP), although inspired by HTTP, was designed to use UDP instead of TCP. The message layer of the CoAP over UDP protocol includes support for reliable delivery, simple congestion control, and flow control. Some environments benefit from the availability of CoAP carried over reliable transports such as TCP or TLS. This document outlines the changes required to use CoAP over TCP, TLS, and WebSockets transports. It also formally updates RFC 7641 for use with these transports.",
+      "concepts": [{
+       "http://webconcepts.info/concepts/uri-scheme/": "http://webconcepts.info/concepts/uri-scheme/coap+tcp" }, {
+       "http://webconcepts.info/concepts/uri-scheme/": "http://webconcepts.info/concepts/uri-scheme/coap+ws" }, {
+       "http://webconcepts.info/concepts/uri-scheme/": "http://webconcepts.info/concepts/uri-scheme/coaps+tcp" }, {
+       "http://webconcepts.info/concepts/uri-scheme/": "http://webconcepts.info/concepts/uri-scheme/coaps+ws" }, {
+       "http://webconcepts.info/concepts/well-known-uri/": "http://webconcepts.info/concepts/well-known-uri/coap" }]}},{
      "8288": {
       "id": "http://webconcepts.info/specs/IETF/RFC/8288",
       "title": "Web Linking",
