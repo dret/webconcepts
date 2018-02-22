@@ -1,7 +1,7 @@
 
-  { "value" : " application\/xhtml+xml",
+  { "value" : "application\/xhtml+xml",
     "concept" : "http:\/\/webconcepts.info\/concepts\/media-type\/",
-    "id" : "http:\/\/webconcepts.info\/concepts\/media-type\/ application\/xhtml+xml",
+    "id" : "http:\/\/webconcepts.info\/concepts\/media-type\/application\/xhtml+xml",
     "details" : 
     [ 
       { "description" : "This specification defines an abstract language for describing documents and applications, and some APIs for interacting with in-memory representations of resources that use this language. The second concrete syntax is the XHTML syntax, which is an application of XML. This specification defines the latest version of the XHTML syntax, known as \"XHTML 5.1\".",

@@ -1,7 +1,7 @@
 
-  { "value" : " multipart\/x-mixed-replace",
+  { "value" : "multipart\/x-mixed-replace",
     "concept" : "http:\/\/webconcepts.info\/concepts\/media-type\/",
-    "id" : "http:\/\/webconcepts.info\/concepts\/media-type\/ multipart\/x-mixed-replace",
+    "id" : "http:\/\/webconcepts.info\/concepts\/media-type\/multipart\/x-mixed-replace",
     "details" : 
     [ 
       { "description" : "When a resource with the type multipart\/x-mixed-replace is to be loaded in a browsing context, the user agent must parse the resource using the rules for multipart types.",
