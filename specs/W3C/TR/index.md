@@ -4,7 +4,7 @@ title:       "W3C Technical Report Series"
 description: "List of specifications in the Technical Report (TR) series by the World Wide Web Consortium (W3C)"
 ---
 
-There are currently 41 listed specifications in the [World Wide Web Consortium (W3C)](..)'s Technical Report (TR) series.
+There are currently 42 listed specifications in the [World Wide Web Consortium (W3C)](..)'s Technical Report (TR) series.
 
   * [Activity Streams 2.0 (W3C TR http://www.w3.org/TR/activitystreams-core)](activitystreams-core)
   * [Clear Site Data (W3C TR http://www.w3.org/TR/clear-site-data)](clear-site-data)
@@ -44,6 +44,7 @@ There are currently 41 listed specifications in the [World Wide Web Consortium (
   * [Tracking Preference Expression (DNT) (W3C TR http://www.w3.org/TR/tracking-dnt)](tracking-dnt)
   * [TriG (W3C TR http://www.w3.org/TR/trig)](trig)
   * [Upgrade Insecure Requests (W3C TR http://www.w3.org/TR/upgrade-insecure-requests)](upgrade-insecure-requests)
+  * [WOFF File Format 2.0 (W3C TR http://www.w3.org/TR/WOFF2)](WOFF2)
   * [Web Video Text Tracks (WebVTT) (W3C TR http://www.w3.org/TR/webvtt)](webvtt)
   * [WebSub (W3C TR http://www.w3.org/TR/websub)](websub)
   * [Webmention (W3C TR http://www.w3.org/TR/webmention)](webmention)

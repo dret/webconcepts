@@ -929,7 +929,12 @@
           { "description" : "WOFF 2.0 is used by web browsers, often in conjunction with HTML and CSS. WOFF 2.0 is an improvement on WOFF 1.0.  The two formats have different Internet Media Types and different @font-face formats, and they may be used in parallel.",
             "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8081#section-4.4.6",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8081",
-            "spec-name" : "RFC 8081" } ] },
+            "spec-name" : "RFC 8081" },
+          
+          { "description" : "The primary purpose of the WOFF2 format is to efficiently package fonts linked to Web documents by means of CSS @font-face rules. WOFF 2.0 is an improvement on WOFF 1.0. The two formats have different Internet Media Types and may be used in parallel.",
+            "documentation" : "https:\/\/www.w3.org\/TR\/2018\/REC-WOFF2-20180301\/#FileStructure",
+            "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/WOFF2",
+            "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/WOFF2" } ] },
       
       { "value" : "image\/jpeg",
         "concept" : "http:\/\/webconcepts.info\/concepts\/media-type\/",

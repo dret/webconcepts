@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<service primary="W3C" secondary="TR" id="WOFF2">
+    <title>WOFF File Format 2.0</title>
+    <documentation source="http://www.w3.org/TR/WOFF2/">Based on experience with WOFF 1.0, which is widely deployed, this specification was developed to provide improved compression and thus lower use of network bandwidth, while still allowing fast decompression even on mobile devices. This is achieved by combining a content-aware preprocessing step and improved entropy coding, compared to the Flate compression used in WOFF 1.0.</documentation>
+    <media-type def="font/woff2">
+        <documentation source="https://www.w3.org/TR/2018/REC-WOFF2-20180301/#FileStructure">The primary purpose of the WOFF2 format is to efficiently package fonts linked to Web documents by means of CSS @font-face rules. WOFF 2.0 is an improvement on WOFF 1.0. The two formats have different Internet Media Types and may be used in parallel.</documentation>
+    </media-type>
+</service>

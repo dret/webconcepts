@@ -2616,6 +2616,15 @@
       "concepts": [{
        "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Proxy-Features" }, {
        "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Proxy-Instruction" }]}},{
+     "WOFF2": {
+      "id": "http://webconcepts.info/specs/W3C/TR/WOFF2",
+      "title": "WOFF File Format 2.0",
+      "name": "W3C TR http://www.w3.org/TR/WOFF2",
+      "URI": "http://www.w3.org/TR/WOFF2",
+      "URL": "http://www.w3.org/TR/WOFF2",
+      "abstract": "Based on experience with WOFF 1.0, which is widely deployed, this specification was developed to provide improved compression and thus lower use of network bandwidth, while still allowing fast decompression even on mobile devices. This is achieved by combining a content-aware preprocessing step and improved entropy coding, compared to the Flate compression used in WOFF 1.0.",
+      "concepts": [{
+       "http://webconcepts.info/concepts/media-type/": "http://webconcepts.info/concepts/media-type/font/woff2" }]}},{
      "activitystreams-core": {
       "id": "http://webconcepts.info/specs/W3C/TR/activitystreams-core",
       "title": "Activity Streams 2.0",
