@@ -1,0 +1,10 @@
+
+  { "value" : "inv-maxage",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/http-cache-directive\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/http-cache-directive\/inv-maxage",
+    "details" : 
+    [ 
+      { "description" : "When present, the 'inv-maxage' cache-control extension indicates the number of seconds that caches who implement Linked Cache invalidation can consider responses fresh for, provided they are not invalidated.",
+        "documentation" : "http:\/\/tools.ietf.org\/html\/draft-nottingham-linked-cache-inv#section-4",
+        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/nottingham-linked-cache-inv",
+        "spec-name" : "Internet Draft nottingham-linked-cache-inv" } ] }

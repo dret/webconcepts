@@ -4,7 +4,7 @@ title:       "IETF Internet Draft Series"
 description: "List of specifications in the Internet Draft (I-D) series by the Internet Engineering Task Force (IETF)"
 ---
 
-There are currently 45 listed specifications in the [Internet Engineering Task Force (IETF)](..)'s Internet Draft (I-D) series.
+There are currently 46 listed specifications in the [Internet Engineering Task Force (IETF)](..)'s Internet Draft (I-D) series.
 
   * [A JSON Media Type for Describing the Structure and Meaning of JSON Documents (Internet Draft zyp-json-schema)](zyp-json-schema)
   * [Accept-Push-Policy Header Field (Internet Draft ruellan-http-accept-push-policy)](ruellan-http-accept-push-policy)
@@ -30,6 +30,7 @@ There are currently 45 listed specifications in the [Internet Engineering Task F
   * [Hypertext Transfer Protocol: Improved HTTP Caching (Internet Draft drechsler-httpbis-improved-caching)](drechsler-httpbis-improved-caching)
   * [JSON Hypertext Application Language (Internet Draft kelly-json-hal)](kelly-json-hal)
   * [Link Relation Types for Web Services (Internet Draft wilde-service-link-rel)](wilde-service-link-rel)
+  * [Linked Cache Invalidation (Internet Draft nottingham-linked-cache-inv)](nottingham-linked-cache-inv)
   * [Linkset: Media Types and a Link Relation Type for Link Sets (Internet Draft wilde-linkset)](wilde-linkset)
   * [Marking HTTP Requests as Unimportant (Internet Draft thomson-http-nice)](thomson-http-nice)
   * [Media Types for Sensor Measurement Lists (SenML) (Internet Draft ietf-core-senml)](ietf-core-senml)

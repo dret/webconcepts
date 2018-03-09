@@ -1,0 +1,87 @@
+---
+layout:      page
+title:       "Linked Cache Invalidation"
+description: "This memo defines two new link types that indicate relationships between resources
+in terms of cache invalidation, along with a HTTP cache-control extension that takes
+advantage of those relationships to use them to extend response freshness. Collectively,
+this is referred to as Linked Cache Invalidation (LCI)."
+---
+
+<table cellpadding="5">
+   <tr>
+      <th valign="top" align="right">
+         <em>Document Name:</em>
+      </th>
+      <td>Internet Draft nottingham-linked-cache-inv</td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Document URI:</em>
+      </th>
+      <td>
+         <code>urn:ietf:id:nottingham-linked-cache-inv</code>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Online Version:</em>
+      </th>
+      <td>
+         <code>
+            <a href="http://tools.ietf.org/html/draft-nottingham-linked-cache-inv">http://tools.ietf.org/html/draft-nottingham-linked-cache-inv</a>
+         </code>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Organization:</em>
+      </th>
+      <td>
+         <a href="../" title="List of specification series by this organization">Internet Engineering Task Force (IETF)</a>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Series:</em>
+      </th>
+      <td>
+         <a href="./" title="List of specifications in this series">Internet Draft (I-D)</a>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Abstract:</em>
+      </th>
+      <td>This memo defines two new link types that indicate relationships between resources
+         in terms of cache invalidation, along with a HTTP cache-control extension that takes
+         advantage of those relationships to use them to extend response freshness. Collectively,
+         this is referred to as Linked Cache Invalidation (LCI).
+      </td>
+   </tr>
+</table>
+<br></br>
+<hr></hr>
+<h2 id="concepts">Specified Web Concepts:</h2>
+<h3 id="http-cache-directive">
+   <a href="/concepts/http-cache-directive/" title="List of all HTTP Cache Directives">HTTP Cache Directives</a>
+</h3>
+<code>
+   <a href="/concepts/http-cache-directive/inv-maxage" title="When present, the 'inv-maxage' cache-control extension indicates the number of seconds that caches who implement Linked Cache invalidation can consider responses fresh for, provided they are not invalidated.">inv-maxage</a>
+</code>
+<br></br>
+<h3 id="link-relation">
+   <a href="/concepts/link-relation/" title="List of all Link Relations">Link Relations</a>
+</h3>
+<code>
+   <a href="/concepts/link-relation/inv-by" title="The 'inv-by' link relation type allows a response to nominate one or more other resources that affect the state of the resource it's associated with. That is, when one of the nominated resources changes, it also changes the state of this response's resource.">inv-by</a>
+</code>, 
+<code>
+   <a href="/concepts/link-relation/invalidates" title="The 'invalidates' link relation type allows a response that signifies a state change on the server to indicate one or more associated URIs whose states have also changed.">invalidates</a>
+</code>
+<br></br>
+<hr></hr>
+<p style="text-align: right">Return to ( 
+   <a href="./">Series</a> | 
+   <a href="../">Organization</a> | 
+   <a href="../../">all Specifications</a> )
+</p>

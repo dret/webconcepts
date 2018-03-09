@@ -1,0 +1,10 @@
+
+  { "value" : "invalidates",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/invalidates",
+    "details" : 
+    [ 
+      { "description" : "The 'invalidates' link relation type allows a response that signifies a state change on the server to indicate one or more associated URIs whose states have also changed.",
+        "documentation" : "http:\/\/tools.ietf.org\/html\/draft-nottingham-linked-cache-inv#section-2",
+        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/nottingham-linked-cache-inv",
+        "spec-name" : "Internet Draft nottingham-linked-cache-inv" } ] }
