@@ -1,0 +1,8 @@
+
+  { "concept" : "http2-frame-type",
+    "id" : "http:\/\/webconcepts.info\/concepts\/http2-frame-type\/",
+    "name-singular" : "HTTP\/2 Frame Type",
+    "name-plural" : "HTTP\/2 Frame Types",
+    "registry" : "https:\/\/www.iana.org\/assignments\/http2-parameters\/http2-parameters.xhtml#frame-type",
+    "values" : 
+    [  ] }

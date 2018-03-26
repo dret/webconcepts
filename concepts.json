@@ -3726,6 +3726,14 @@
               "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7234",
               "spec-name" : "RFC 7234" } ] } ] },
     
+    { "concept" : "http2-frame-type",
+      "id" : "http:\/\/webconcepts.info\/concepts\/http2-frame-type\/",
+      "name-singular" : "HTTP\/2 Frame Type",
+      "name-plural" : "HTTP\/2 Frame Types",
+      "registry" : "https:\/\/www.iana.org\/assignments\/http2-parameters\/http2-parameters.xhtml#frame-type",
+      "values" : 
+      [  ] },
+    
     { "concept" : "jwt-claim",
       "id" : "http:\/\/webconcepts.info\/concepts\/jwt-claim\/",
       "name-singular" : "JSON Web Token Claim",

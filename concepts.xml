@@ -171,4 +171,9 @@
         <title-plural>XML Schemas</title-plural>
         <iana-registry>https://www.iana.org/assignments/xml-registry/xml-registry.xhtml#schema</iana-registry>
     </concept>
+    <concept id="http2-frame-type">
+        <title-singular>HTTP/2 Frame Type</title-singular>
+        <title-plural>HTTP/2 Frame Types</title-plural>
+        <iana-registry>https://www.iana.org/assignments/http2-parameters/http2-parameters.xhtml#frame-type</iana-registry>
+    </concept>
 </concepts>
