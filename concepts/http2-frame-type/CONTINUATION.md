@@ -1,0 +1,16 @@
+---
+layout:        concept
+permalink:     "/concepts/http2-frame-type/CONTINUATION"
+title:         "HTTP/2 Frame Type: CONTINUATION"
+concept-name:  HTTP/2 Frame Type
+concept-value: CONTINUATION
+description: "The CONTINUATION frame (type=0x9) is used to continue a sequence of header block fragments (Section 4.3). Any number of CONTINUATION frames can be sent, as long as the preceding frame is on the same stream and is a HEADERS, PUSH_PROMISE, or CONTINUATION frame without the END_HEADERS flag set."
+---
+
+[The CONTINUATION frame (type=0x9) is used to continue a sequence of header block fragments (Section 4.3). Any number of CONTINUATION frames can be sent, as long as the preceding frame is on the same stream and is a HEADERS, PUSH_PROMISE, or CONTINUATION frame without the END_HEADERS flag set.](http://tools.ietf.org/html/rfc7540#section-6.10 "Read documentation for HTTP/2 Frame Type &#34;CONTINUATION&#34;") (**[RFC 7540: Hypertext Transfer Protocol Version 2](/specs/IETF/RFC/7540 "This specification describes an optimized expression of the semantics of the Hypertext Transfer Protocol (HTTP). HTTP/2 enables a more efficient use of network resources and a reduced perception of latency by introducing header field compression and allowing multiple concurrent exchanges on the same connection. It also introduces unsolicited push of representations from servers to clients. This specification is an alternative to, but does not obsolete, the HTTP/1.1 message syntax. HTTP's existing semantics remain unchanged.")**)
+
+<br/>
+<hr/>
+
+<p style="float : left"><a href="./CONTINUATION.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="text-align: right">Return to list of all ( <a href="../http2-frame-type/">HTTP/2 Frame Types</a> | <a href="../">Web Concepts</a> )</p>

@@ -1,0 +1,10 @@
+
+  { "value" : "HEADERS",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/http2-frame-type\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/http2-frame-type\/HEADERS",
+    "details" : 
+    [ 
+      { "description" : "The HEADERS frame (type=0x1) is used to open a stream, and additionally carries a header block fragment. HEADERS frames can be sent on a stream in the \"idle\", \"reserved (local)\", \"open\", or \"half-closed (remote)\" state.",
+        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7540#section-6.2",
+        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7540",
+        "spec-name" : "RFC 7540" } ] }

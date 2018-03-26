@@ -1,0 +1,10 @@
+
+  { "value" : "PRIORITY",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/http2-frame-type\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/http2-frame-type\/PRIORITY",
+    "details" : 
+    [ 
+      { "description" : "The PRIORITY frame (type=0x2) specifies the sender-advised priority of a stream. It can be sent in any stream state, including idle or closed streams.",
+        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7540#section-6.3",
+        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7540",
+        "spec-name" : "RFC 7540" } ] }
