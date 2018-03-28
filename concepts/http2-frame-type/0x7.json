@@ -1,7 +1,8 @@
 
-  { "value" : "GOAWAY",
+  { "value" : "0x7",
     "concept" : "http:\/\/webconcepts.info\/concepts\/http2-frame-type\/",
-    "id" : "http:\/\/webconcepts.info\/concepts\/http2-frame-type\/GOAWAY",
+    "id" : "http:\/\/webconcepts.info\/concepts\/http2-frame-type\/0x7",
+    "description" : "GOAWAY",
     "details" : 
     [ 
       { "description" : "The GOAWAY frame (type=0x7) is used to initiate shutdown of a connection or to signal serious error conditions. GOAWAY allows an endpoint to gracefully stop accepting new streams while still finishing processing of previously established streams. This enables administrative actions, like server maintenance.",

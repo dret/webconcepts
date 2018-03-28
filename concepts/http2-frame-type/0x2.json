@@ -1,7 +1,8 @@
 
-  { "value" : "PRIORITY",
+  { "value" : "0x2",
     "concept" : "http:\/\/webconcepts.info\/concepts\/http2-frame-type\/",
-    "id" : "http:\/\/webconcepts.info\/concepts\/http2-frame-type\/PRIORITY",
+    "id" : "http:\/\/webconcepts.info\/concepts\/http2-frame-type\/0x2",
+    "description" : "PRIORITY",
     "details" : 
     [ 
       { "description" : "The PRIORITY frame (type=0x2) specifies the sender-advised priority of a stream. It can be sent in any stream state, including idle or closed streams.",

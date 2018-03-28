@@ -1957,16 +1957,16 @@
        "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/HTTP2-Settings" }, {
        "http://webconcepts.info/concepts/http-method/": "http://webconcepts.info/concepts/http-method/PRI" }, {
        "http://webconcepts.info/concepts/http-status-code/": "http://webconcepts.info/concepts/http-status-code/421" }, {
-       "http://webconcepts.info/concepts/http2-frame-type/": "http://webconcepts.info/concepts/http2-frame-type/CONTINUATION" }, {
-       "http://webconcepts.info/concepts/http2-frame-type/": "http://webconcepts.info/concepts/http2-frame-type/DATA" }, {
-       "http://webconcepts.info/concepts/http2-frame-type/": "http://webconcepts.info/concepts/http2-frame-type/GOAWAY" }, {
-       "http://webconcepts.info/concepts/http2-frame-type/": "http://webconcepts.info/concepts/http2-frame-type/HEADERS" }, {
-       "http://webconcepts.info/concepts/http2-frame-type/": "http://webconcepts.info/concepts/http2-frame-type/PING" }, {
-       "http://webconcepts.info/concepts/http2-frame-type/": "http://webconcepts.info/concepts/http2-frame-type/PRIORITY" }, {
-       "http://webconcepts.info/concepts/http2-frame-type/": "http://webconcepts.info/concepts/http2-frame-type/PUSH_PROMISE" }, {
-       "http://webconcepts.info/concepts/http2-frame-type/": "http://webconcepts.info/concepts/http2-frame-type/RST_STREAM" }, {
-       "http://webconcepts.info/concepts/http2-frame-type/": "http://webconcepts.info/concepts/http2-frame-type/SETTINGS" }, {
-       "http://webconcepts.info/concepts/http2-frame-type/": "http://webconcepts.info/concepts/http2-frame-type/WINDOW_UPDATE" }]}},{
+       "http://webconcepts.info/concepts/http2-frame-type/": "http://webconcepts.info/concepts/http2-frame-type/0x0" }, {
+       "http://webconcepts.info/concepts/http2-frame-type/": "http://webconcepts.info/concepts/http2-frame-type/0x1" }, {
+       "http://webconcepts.info/concepts/http2-frame-type/": "http://webconcepts.info/concepts/http2-frame-type/0x2" }, {
+       "http://webconcepts.info/concepts/http2-frame-type/": "http://webconcepts.info/concepts/http2-frame-type/0x3" }, {
+       "http://webconcepts.info/concepts/http2-frame-type/": "http://webconcepts.info/concepts/http2-frame-type/0x4" }, {
+       "http://webconcepts.info/concepts/http2-frame-type/": "http://webconcepts.info/concepts/http2-frame-type/0x5" }, {
+       "http://webconcepts.info/concepts/http2-frame-type/": "http://webconcepts.info/concepts/http2-frame-type/0x6" }, {
+       "http://webconcepts.info/concepts/http2-frame-type/": "http://webconcepts.info/concepts/http2-frame-type/0x7" }, {
+       "http://webconcepts.info/concepts/http2-frame-type/": "http://webconcepts.info/concepts/http2-frame-type/0x8" }, {
+       "http://webconcepts.info/concepts/http2-frame-type/": "http://webconcepts.info/concepts/http2-frame-type/0x9" }]}},{
      "7565": {
       "id": "http://webconcepts.info/specs/IETF/RFC/7565",
       "title": "The 'acct' URI Scheme",

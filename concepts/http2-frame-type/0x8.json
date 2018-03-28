@@ -1,7 +1,8 @@
 
-  { "value" : "WINDOW_UPDATE",
+  { "value" : "0x8",
     "concept" : "http:\/\/webconcepts.info\/concepts\/http2-frame-type\/",
-    "id" : "http:\/\/webconcepts.info\/concepts\/http2-frame-type\/WINDOW_UPDATE",
+    "id" : "http:\/\/webconcepts.info\/concepts\/http2-frame-type\/0x8",
+    "description" : "WINDOW_UPDATE",
     "details" : 
     [ 
       { "description" : "The WINDOW_UPDATE frame (type=0x8) is used to implement flow control. Flow control operates at two levels: on each individual stream and on the entire connection.",

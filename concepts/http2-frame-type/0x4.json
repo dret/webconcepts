@@ -1,7 +1,8 @@
 
-  { "value" : "SETTINGS",
+  { "value" : "0x4",
     "concept" : "http:\/\/webconcepts.info\/concepts\/http2-frame-type\/",
-    "id" : "http:\/\/webconcepts.info\/concepts\/http2-frame-type\/SETTINGS",
+    "id" : "http:\/\/webconcepts.info\/concepts\/http2-frame-type\/0x4",
+    "description" : "SETTINGS",
     "details" : 
     [ 
       { "description" : "The SETTINGS frame (type=0x4) conveys configuration parameters that affect how endpoints communicate, such as preferences and constraints on peer behavior. The SETTINGS frame is also used to acknowledge the receipt of those parameters.",

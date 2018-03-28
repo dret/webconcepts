@@ -1,7 +1,8 @@
 
-  { "value" : "PUSH_PROMISE",
+  { "value" : "0x5",
     "concept" : "http:\/\/webconcepts.info\/concepts\/http2-frame-type\/",
-    "id" : "http:\/\/webconcepts.info\/concepts\/http2-frame-type\/PUSH_PROMISE",
+    "id" : "http:\/\/webconcepts.info\/concepts\/http2-frame-type\/0x5",
+    "description" : "PUSH_PROMISE",
     "details" : 
     [ 
       { "description" : "The PUSH_PROMISE frame (type=0x5) is used to notify the peer endpoint in advance of streams the sender intends to initiate. The PUSH_PROMISE frame includes the unsigned 31-bit identifier of the stream the endpoint plans to create along with a set of headers that provide additional context for the stream.",

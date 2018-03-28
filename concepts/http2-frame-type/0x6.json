@@ -1,7 +1,8 @@
 
-  { "value" : "PING",
+  { "value" : "0x6",
     "concept" : "http:\/\/webconcepts.info\/concepts\/http2-frame-type\/",
-    "id" : "http:\/\/webconcepts.info\/concepts\/http2-frame-type\/PING",
+    "id" : "http:\/\/webconcepts.info\/concepts\/http2-frame-type\/0x6",
+    "description" : "PING",
     "details" : 
     [ 
       { "description" : "The PING frame (type=0x6) is a mechanism for measuring a minimal round-trip time from the sender, as well as determining whether an idle connection is still functional. PING frames can be sent from any endpoint.",

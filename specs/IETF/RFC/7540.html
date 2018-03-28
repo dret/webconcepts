@@ -93,34 +93,34 @@ remain unchanged."
    <a href="/concepts/http2-frame-type/" title="List of all HTTP/2 Frame Types">HTTP/2 Frame Types</a>
 </h3>
 <code>
-   <a href="/concepts/http2-frame-type/CONTINUATION" title="The CONTINUATION frame (type=0x9) is used to continue a sequence of header block fragments (Section 4.3). Any number of CONTINUATION frames can be sent, as long as the preceding frame is on the same stream and is a HEADERS, PUSH_PROMISE, or CONTINUATION frame without the END_HEADERS flag set.">CONTINUATION</a>
+   <a href="/concepts/http2-frame-type/0x0" title="DATA frames (type=0x0) convey arbitrary, variable-length sequences of octets associated with a stream. One or more DATA frames are used, for instance, to carry HTTP request or response payloads.">0x0</a>
 </code>, 
 <code>
-   <a href="/concepts/http2-frame-type/DATA" title="DATA frames (type=0x0) convey arbitrary, variable-length sequences of octets associated with a stream. One or more DATA frames are used, for instance, to carry HTTP request or response payloads.">DATA</a>
+   <a href="/concepts/http2-frame-type/0x1" title="The HEADERS frame (type=0x1) is used to open a stream, and additionally carries a header block fragment. HEADERS frames can be sent on a stream in the &amp;#34;idle&amp;#34;, &amp;#34;reserved (local)&amp;#34;, &amp;#34;open&amp;#34;, or &amp;#34;half-closed (remote)&amp;#34; state.">0x1</a>
 </code>, 
 <code>
-   <a href="/concepts/http2-frame-type/GOAWAY" title="The GOAWAY frame (type=0x7) is used to initiate shutdown of a connection or to signal serious error conditions. GOAWAY allows an endpoint to gracefully stop accepting new streams while still finishing processing of previously established streams. This enables administrative actions, like server maintenance.">GOAWAY</a>
+   <a href="/concepts/http2-frame-type/0x2" title="The PRIORITY frame (type=0x2) specifies the sender-advised priority of a stream. It can be sent in any stream state, including idle or closed streams.">0x2</a>
 </code>, 
 <code>
-   <a href="/concepts/http2-frame-type/HEADERS" title="The HEADERS frame (type=0x1) is used to open a stream, and additionally carries a header block fragment. HEADERS frames can be sent on a stream in the &amp;#34;idle&amp;#34;, &amp;#34;reserved (local)&amp;#34;, &amp;#34;open&amp;#34;, or &amp;#34;half-closed (remote)&amp;#34; state.">HEADERS</a>
+   <a href="/concepts/http2-frame-type/0x3" title="The RST_STREAM frame (type=0x3) allows for immediate termination of a stream. RST_STREAM is sent to request cancellation of a stream or to indicate that an error condition has occurred.">0x3</a>
 </code>, 
 <code>
-   <a href="/concepts/http2-frame-type/PING" title="The PING frame (type=0x6) is a mechanism for measuring a minimal round-trip time from the sender, as well as determining whether an idle connection is still functional. PING frames can be sent from any endpoint.">PING</a>
+   <a href="/concepts/http2-frame-type/0x4" title="The SETTINGS frame (type=0x4) conveys configuration parameters that affect how endpoints communicate, such as preferences and constraints on peer behavior. The SETTINGS frame is also used to acknowledge the receipt of those parameters.">0x4</a>
 </code>, 
 <code>
-   <a href="/concepts/http2-frame-type/PRIORITY" title="The PRIORITY frame (type=0x2) specifies the sender-advised priority of a stream. It can be sent in any stream state, including idle or closed streams.">PRIORITY</a>
+   <a href="/concepts/http2-frame-type/0x5" title="The PUSH_PROMISE frame (type=0x5) is used to notify the peer endpoint in advance of streams the sender intends to initiate. The PUSH_PROMISE frame includes the unsigned 31-bit identifier of the stream the endpoint plans to create along with a set of headers that provide additional context for the stream.">0x5</a>
 </code>, 
 <code>
-   <a href="/concepts/http2-frame-type/PUSH_PROMISE" title="The PUSH_PROMISE frame (type=0x5) is used to notify the peer endpoint in advance of streams the sender intends to initiate. The PUSH_PROMISE frame includes the unsigned 31-bit identifier of the stream the endpoint plans to create along with a set of headers that provide additional context for the stream.">PUSH_PROMISE</a>
+   <a href="/concepts/http2-frame-type/0x6" title="The PING frame (type=0x6) is a mechanism for measuring a minimal round-trip time from the sender, as well as determining whether an idle connection is still functional. PING frames can be sent from any endpoint.">0x6</a>
 </code>, 
 <code>
-   <a href="/concepts/http2-frame-type/RST_STREAM" title="The RST_STREAM frame (type=0x3) allows for immediate termination of a stream. RST_STREAM is sent to request cancellation of a stream or to indicate that an error condition has occurred.">RST_STREAM</a>
+   <a href="/concepts/http2-frame-type/0x7" title="The GOAWAY frame (type=0x7) is used to initiate shutdown of a connection or to signal serious error conditions. GOAWAY allows an endpoint to gracefully stop accepting new streams while still finishing processing of previously established streams. This enables administrative actions, like server maintenance.">0x7</a>
 </code>, 
 <code>
-   <a href="/concepts/http2-frame-type/SETTINGS" title="The SETTINGS frame (type=0x4) conveys configuration parameters that affect how endpoints communicate, such as preferences and constraints on peer behavior. The SETTINGS frame is also used to acknowledge the receipt of those parameters.">SETTINGS</a>
+   <a href="/concepts/http2-frame-type/0x8" title="The WINDOW_UPDATE frame (type=0x8) is used to implement flow control. Flow control operates at two levels: on each individual stream and on the entire connection.">0x8</a>
 </code>, 
 <code>
-   <a href="/concepts/http2-frame-type/WINDOW_UPDATE" title="The WINDOW_UPDATE frame (type=0x8) is used to implement flow control. Flow control operates at two levels: on each individual stream and on the entire connection.">WINDOW_UPDATE</a>
+   <a href="/concepts/http2-frame-type/0x9" title="The CONTINUATION frame (type=0x9) is used to continue a sequence of header block fragments (Section 4.3). Any number of CONTINUATION frames can be sent, as long as the preceding frame is on the same stream and is a HEADERS, PUSH_PROMISE, or CONTINUATION frame without the END_HEADERS flag set.">0x9</a>
 </code>
 <br></br>
 <hr></hr>

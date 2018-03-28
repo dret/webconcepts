@@ -1,7 +1,8 @@
 
-  { "value" : "DATA",
+  { "value" : "0x0",
     "concept" : "http:\/\/webconcepts.info\/concepts\/http2-frame-type\/",
-    "id" : "http:\/\/webconcepts.info\/concepts\/http2-frame-type\/DATA",
+    "id" : "http:\/\/webconcepts.info\/concepts\/http2-frame-type\/0x0",
+    "description" : "DATA",
     "details" : 
     [ 
       { "description" : "DATA frames (type=0x0) convey arbitrary, variable-length sequences of octets associated with a stream. One or more DATA frames are used, for instance, to carry HTTP request or response payloads.",
