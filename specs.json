@@ -2202,7 +2202,8 @@
       "abstract": "This document specifies \"alternative services\" for HTTP, which allow an origin's resources to be authoritatively available at a separate network location, possibly accessed with a different protocol configuration.",
       "concepts": [{
        "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Alt-Svc" }, {
-       "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Alt-Used" }]}},{
+       "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Alt-Used" }, {
+       "http://webconcepts.info/concepts/http2-frame-type/": "http://webconcepts.info/concepts/http2-frame-type/0xa" }]}},{
      "7932": {
       "id": "http://webconcepts.info/specs/IETF/RFC/7932",
       "title": "Brotli Compressed Data Format",

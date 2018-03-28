@@ -3841,7 +3841,18 @@
             { "description" : "The CONTINUATION frame (type=0x9) is used to continue a sequence of header block fragments (Section 4.3). Any number of CONTINUATION frames can be sent, as long as the preceding frame is on the same stream and is a HEADERS, PUSH_PROMISE, or CONTINUATION frame without the END_HEADERS flag set.",
               "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7540#section-6.10",
               "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7540",
-              "spec-name" : "RFC 7540" } ] } ] },
+              "spec-name" : "RFC 7540" } ] },
+        
+        { "value" : "0xa",
+          "concept" : "http:\/\/webconcepts.info\/concepts\/http2-frame-type\/",
+          "id" : "http:\/\/webconcepts.info\/concepts\/http2-frame-type\/0xa",
+          "description" : "ALTSVC",
+          "details" : 
+          [ 
+            { "description" : "The ALTSVC HTTP\/2 frame advertises the availability of an alternative service to an HTTP\/2 client. The ALTSVC frame is a non-critical extension to HTTP\/2. Endpoints that do not support this frame will ignore it.",
+              "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7838#section-4",
+              "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7838",
+              "spec-name" : "RFC 7838" } ] } ] },
     
     { "concept" : "jwt-claim",
       "id" : "http:\/\/webconcepts.info\/concepts\/jwt-claim\/",
