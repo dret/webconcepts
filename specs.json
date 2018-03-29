@@ -2447,7 +2447,16 @@
       "URL": "http://tools.ietf.org/html/rfc8297",
       "abstract": "This memo introduces an informational status code for HTTP that can be used for indicating hints to help a client start making preparations for processing the final response.",
       "concepts": [{
-       "http://webconcepts.info/concepts/http-status-code/": "http://webconcepts.info/concepts/http-status-code/103" }]}}]}}]},
+       "http://webconcepts.info/concepts/http-status-code/": "http://webconcepts.info/concepts/http-status-code/103" }]}},{
+     "8336": {
+      "id": "http://webconcepts.info/specs/IETF/RFC/8336",
+      "title": "The ORIGIN HTTP/2 Frame",
+      "name": "RFC 8336",
+      "URI": "urn:ietf:rfc:8336",
+      "URL": "http://tools.ietf.org/html/rfc8336",
+      "abstract": "This document specifies the ORIGIN frame for HTTP/2, to indicate what origins are available on a given connection.",
+      "concepts": [{
+       "http://webconcepts.info/concepts/http2-frame-type/": "http://webconcepts.info/concepts/http2-frame-type/0xc" }]}}]}}]},
  "ISO": {
   "id": "http://webconcepts.info/specs/ISO/",
   "name": "International Organization for Standardization",

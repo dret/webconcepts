@@ -3,7 +3,7 @@ layout: page
 title:  "Web Concepts: Overview"
 ---
 
-This is an overview of 33 Web Concepts (with a total of 753 distinct values) that have been harvested from all [available specifications](/specs):
+This is an overview of 33 Web Concepts (with a total of 754 distinct values) that have been harvested from all [available specifications](/specs):
 
 * [HTTP Authentication Schemes](http-authentication-scheme/) (10)
 * [HTTP Cache Directives](http-cache-directive/) (16)
@@ -16,7 +16,7 @@ This is an overview of 33 Web Concepts (with a total of 753 distinct values) tha
 * [HTTP Status Codes](http-status-code/) (62)
 * [HTTP Transfer Codings](http-transfer-coding/) (7)
 * [HTTP Warn Codes](http-warn-code/) (7)
-* [HTTP/2 Frame Types](http2-frame-type/) (11)
+* [HTTP/2 Frame Types](http2-frame-type/) (12)
 * [JSON Web Token Claims](jwt-claim/) (8)
 * [JWT Confirmation Methods](jwt-confirmation-method/) (4)
 * [Link Relations](link-relation/) (103)

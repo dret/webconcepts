@@ -125,4 +125,15 @@
           { "description" : "The ALTSVC HTTP\/2 frame advertises the availability of an alternative service to an HTTP\/2 client. The ALTSVC frame is a non-critical extension to HTTP\/2. Endpoints that do not support this frame will ignore it.",
             "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7838#section-4",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7838",
-            "spec-name" : "RFC 7838" } ] } ] }
+            "spec-name" : "RFC 7838" } ] },
+      
+      { "value" : "0xc",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/http2-frame-type\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/http2-frame-type\/0xc",
+        "description" : "ORIGIN",
+        "details" : 
+        [ 
+          { "description" : "This HTTP\/2 ORIGIN frame type allows a server to indicate what origin(s) the server would like the client to consider as members of the Origin Set for the connection within which it occurs.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8336#section-2",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8336",
+            "spec-name" : "RFC 8336" } ] } ] }
