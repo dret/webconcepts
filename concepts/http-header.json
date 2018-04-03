@@ -1868,8 +1868,8 @@
         [ 
           { "description" : "The Variant-Key HTTP response header field is used to indicate the value(s) from the Variants header field that identify the representation it occurs within.",
             "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-httpbis-variants#section-3",
-            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/draft-ietf-httpbis-variants",
-            "spec-name" : "Internet Draft draft-ietf-httpbis-variants" } ] },
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpbis-variants",
+            "spec-name" : "Internet Draft ietf-httpbis-variants" } ] },
       
       { "value" : "Variant-Vary",
         "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
@@ -1888,8 +1888,8 @@
         [ 
           { "description" : "The Variants HTTP response header field indicates what representations are available for a given resource at the time that the response is produced, by enumerating the request header fields that it varies on, along with the values that are available for each.",
             "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-httpbis-variants#section-2",
-            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/draft-ietf-httpbis-variants",
-            "spec-name" : "Internet Draft draft-ietf-httpbis-variants" } ] },
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpbis-variants",
+            "spec-name" : "Internet Draft ietf-httpbis-variants" } ] },
       
       { "value" : "Vary",
         "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<service primary="IETF" secondary="I-D" id="draft-ietf-httpbis-variants">
+<service primary="IETF" secondary="I-D" id="ietf-httpbis-variants">
     <title>HTTP Variants</title>
     <documentation source="http://tools.ietf.org/html/draft-ietf-httpbis-variants">This specification introduces an alternative way to communicate a secondary cache key for a HTTP resource, using the HTTP "Variants" and "Variant-Key" response header fields. Its aim is to make HTTP proactive content negotiation more cache-friendly.</documentation>
     <http-header def="Variants">

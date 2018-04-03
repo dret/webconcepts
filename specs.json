@@ -48,16 +48,6 @@
       "concepts": [{
        "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/down" }, {
        "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/up" }]}},{
-     "draft-ietf-httpbis-variants": {
-      "id": "http://webconcepts.info/specs/IETF/I-D/draft-ietf-httpbis-variants",
-      "title": "HTTP Variants",
-      "name": "Internet Draft draft-ietf-httpbis-variants",
-      "URI": "urn:ietf:id:draft-ietf-httpbis-variants",
-      "URL": "http://tools.ietf.org/html/draft-draft-ietf-httpbis-variants",
-      "abstract": "This specification introduces an alternative way to communicate a secondary cache key for a HTTP resource, using the HTTP \"Variants\" and \"Variant-Key\" response header fields. Its aim is to make HTTP proactive content negotiation more cache-friendly.",
-      "concepts": [{
-       "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Variant-Key" }, {
-       "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Variants" }]}},{
      "drechsler-httpbis-improved-caching": {
       "id": "http://webconcepts.info/specs/IETF/I-D/drechsler-httpbis-improved-caching",
       "title": "Hypertext Transfer Protocol: Improved HTTP Caching",
@@ -188,6 +178,16 @@
       "abstract": "This specification allows HTTP CONNECT requests to indicate what protocol will be used within the tunnel once established, using the Tunnel-Protocol header field.",
       "concepts": [{
        "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Tunnel-Protocol" }]}},{
+     "ietf-httpbis-variants": {
+      "id": "http://webconcepts.info/specs/IETF/I-D/ietf-httpbis-variants",
+      "title": "HTTP Variants",
+      "name": "Internet Draft ietf-httpbis-variants",
+      "URI": "urn:ietf:id:ietf-httpbis-variants",
+      "URL": "http://tools.ietf.org/html/draft-ietf-httpbis-variants",
+      "abstract": "This specification introduces an alternative way to communicate a secondary cache key for a HTTP resource, using the HTTP \"Variants\" and \"Variant-Key\" response header fields. Its aim is to make HTTP proactive content negotiation more cache-friendly.",
+      "concepts": [{
+       "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Variant-Key" }, {
+       "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Variants" }]}},{
      "ietf-jsonbis-rfc7159bis": {
       "id": "http://webconcepts.info/specs/IETF/I-D/ietf-jsonbis-rfc7159bis",
       "title": "The JavaScript Object Notation (JSON) Data Interchange Format",

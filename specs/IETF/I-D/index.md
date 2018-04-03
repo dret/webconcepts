@@ -20,7 +20,7 @@ There are currently 46 listed specifications in the [Internet Engineering Task F
   * [HTTP Client Hints (Internet Draft ietf-httpbis-client-hints)](ietf-httpbis-client-hints)
   * [HTTP Link and Unlink Methods (Internet Draft snell-link-method)](snell-link-method)
   * [HTTP State Management Mechanism (Internet Draft ietf-httpbis-rfc6265bis)](ietf-httpbis-rfc6265bis)
-  * [HTTP Variants (Internet Draft draft-ietf-httpbis-variants)](draft-ietf-httpbis-variants)
+  * [HTTP Variants (Internet Draft ietf-httpbis-variants)](ietf-httpbis-variants)
   * [HTTP bytes-live Range Unit for Live Content (Internet Draft pratt-httpbis-bytes-live-range-unit)](pratt-httpbis-bytes-live-range-unit)
   * [HTTP/1.1: Range Responses of Indeterminate Length (Internet Draft combs-http-indeterminate-range)](combs-http-indeterminate-range)
   * [Health Check Response Format for HTTP APIs (Internet Draft inadarei-api-health-check)](inadarei-api-health-check)
