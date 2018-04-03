@@ -4,10 +4,10 @@ permalink:     "/concepts/http-header/Variants"
 title:         "HTTP Header Field: Variants"
 concept-name:  HTTP Header Field
 concept-value: Variants
-description: "The Variants HTTP response header field is used to indicate what other representations are available for a given resource at the time that the response is produced."
+description: "The Variants HTTP response header field indicates what representations are available for a given resource at the time that the response is produced, by enumerating the request header fields that it varies on, along with the values that are available for each."
 ---
 
-[The Variants HTTP response header field is used to indicate what other representations are available for a given resource at the time that the response is produced.](http://tools.ietf.org/html/draft-nottingham-variants#section-2 "Read documentation for HTTP Header Field &#34;Variants&#34;") (**[Internet Draft draft-nottingham-variants: HTTP Variants](/specs/IETF/I-D/draft-nottingham-variants "This specification introduces the HTTP Variants response header field to communicate what representations are available for a given resource.")**)
+[The Variants HTTP response header field indicates what representations are available for a given resource at the time that the response is produced, by enumerating the request header fields that it varies on, along with the values that are available for each.](http://tools.ietf.org/html/draft-ietf-httpbis-variants#section-2 "Read documentation for HTTP Header Field &#34;Variants&#34;") (**[Internet Draft draft-ietf-httpbis-variants: HTTP Variants](/specs/IETF/I-D/draft-ietf-httpbis-variants "This specification introduces an alternative way to communicate a secondary cache key for a HTTP resource, using the HTTP &#34;Variants&#34; and &#34;Variant-Key&#34; response header fields. Its aim is to make HTTP proactive content negotiation more cache-friendly.")**)
 
 <br/>
 <hr/>

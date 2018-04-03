@@ -1,8 +1,9 @@
 ---
 layout:      page
 title:       "HTTP Variants"
-description: "This specification introduces the HTTP Variants response header field to communicate
-what representations are available for a given resource."
+description: "This specification introduces an alternative way to communicate a secondary cache
+key for a HTTP resource, using the HTTP \"Variants\" and \"Variant-Key\" response
+header fields. Its aim is to make HTTP proactive content negotiation more cache-friendly."
 ---
 
 <table cellpadding="5">
@@ -10,14 +11,14 @@ what representations are available for a given resource."
       <th valign="top" align="right">
          <em>Document Name:</em>
       </th>
-      <td>Internet Draft draft-nottingham-variants</td>
+      <td>Internet Draft draft-ietf-httpbis-variants</td>
    </tr>
    <tr>
       <th valign="top" align="right">
          <em>Document URI:</em>
       </th>
       <td>
-         <code>urn:ietf:id:draft-nottingham-variants</code>
+         <code>urn:ietf:id:draft-ietf-httpbis-variants</code>
       </td>
    </tr>
    <tr>
@@ -26,7 +27,7 @@ what representations are available for a given resource."
       </th>
       <td>
          <code>
-            <a href="http://tools.ietf.org/html/draft-draft-nottingham-variants">http://tools.ietf.org/html/draft-draft-nottingham-variants</a>
+            <a href="http://tools.ietf.org/html/draft-draft-ietf-httpbis-variants">http://tools.ietf.org/html/draft-draft-ietf-httpbis-variants</a>
          </code>
       </td>
    </tr>
@@ -50,8 +51,9 @@ what representations are available for a given resource."
       <th valign="top" align="right">
          <em>Abstract:</em>
       </th>
-      <td>This specification introduces the HTTP Variants response header field to communicate
-         what representations are available for a given resource.
+      <td>This specification introduces an alternative way to communicate a secondary cache
+         key for a HTTP resource, using the HTTP "Variants" and "Variant-Key" response header
+         fields. Its aim is to make HTTP proactive content negotiation more cache-friendly.
       </td>
    </tr>
 </table>
@@ -62,7 +64,10 @@ what representations are available for a given resource."
    <a href="/concepts/http-header/" title="List of all HTTP Header Fields">HTTP Header Fields</a>
 </h3>
 <code>
-   <a href="/concepts/http-header/Variants" title="The Variants HTTP response header field is used to indicate what other representations are available for a given resource at the time that the response is produced.">Variants</a>
+   <a href="/concepts/http-header/Variant-Key" title="The Variant-Key HTTP response header field is used to indicate the value(s) from the Variants header field that identify the representation it occurs within.">Variant-Key</a>
+</code>, 
+<code>
+   <a href="/concepts/http-header/Variants" title="The Variants HTTP response header field indicates what representations are available for a given resource at the time that the response is produced, by enumerating the request header fields that it varies on, along with the values that are available for each.">Variants</a>
 </code>
 <br></br>
 <hr></hr>

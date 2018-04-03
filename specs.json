@@ -48,14 +48,15 @@
       "concepts": [{
        "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/down" }, {
        "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/up" }]}},{
-     "draft-nottingham-variants": {
-      "id": "http://webconcepts.info/specs/IETF/I-D/draft-nottingham-variants",
+     "draft-ietf-httpbis-variants": {
+      "id": "http://webconcepts.info/specs/IETF/I-D/draft-ietf-httpbis-variants",
       "title": "HTTP Variants",
-      "name": "Internet Draft draft-nottingham-variants",
-      "URI": "urn:ietf:id:draft-nottingham-variants",
-      "URL": "http://tools.ietf.org/html/draft-draft-nottingham-variants",
-      "abstract": "This specification introduces the HTTP Variants response header field to communicate what representations are available for a given resource.",
+      "name": "Internet Draft draft-ietf-httpbis-variants",
+      "URI": "urn:ietf:id:draft-ietf-httpbis-variants",
+      "URL": "http://tools.ietf.org/html/draft-draft-ietf-httpbis-variants",
+      "abstract": "This specification introduces an alternative way to communicate a secondary cache key for a HTTP resource, using the HTTP \"Variants\" and \"Variant-Key\" response header fields. Its aim is to make HTTP proactive content negotiation more cache-friendly.",
       "concepts": [{
+       "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Variant-Key" }, {
        "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Variants" }]}},{
      "drechsler-httpbis-improved-caching": {
       "id": "http://webconcepts.info/specs/IETF/I-D/drechsler-httpbis-improved-caching",

@@ -1861,6 +1861,16 @@
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7231",
             "spec-name" : "RFC 7231" } ] },
       
+      { "value" : "Variant-Key",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Variant-Key",
+        "details" : 
+        [ 
+          { "description" : "The Variant-Key HTTP response header field is used to indicate the value(s) from the Variants header field that identify the representation it occurs within.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-httpbis-variants#section-3",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/draft-ietf-httpbis-variants",
+            "spec-name" : "Internet Draft draft-ietf-httpbis-variants" } ] },
+      
       { "value" : "Variant-Vary",
         "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
         "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Variant-Vary",
@@ -1876,10 +1886,10 @@
         "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Variants",
         "details" : 
         [ 
-          { "description" : "The Variants HTTP response header field is used to indicate what other representations are available for a given resource at the time that the response is produced.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-nottingham-variants#section-2",
-            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/draft-nottingham-variants",
-            "spec-name" : "Internet Draft draft-nottingham-variants" } ] },
+          { "description" : "The Variants HTTP response header field indicates what representations are available for a given resource at the time that the response is produced, by enumerating the request header fields that it varies on, along with the values that are available for each.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-httpbis-variants#section-2",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/draft-ietf-httpbis-variants",
+            "spec-name" : "Internet Draft draft-ietf-httpbis-variants" } ] },
       
       { "value" : "Vary",
         "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
