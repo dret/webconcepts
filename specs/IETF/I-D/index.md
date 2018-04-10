@@ -4,7 +4,7 @@ title:       "IETF Internet Draft Series"
 description: "List of specifications in the Internet Draft (I-D) series by the Internet Engineering Task Force (IETF)"
 ---
 
-There are currently 46 listed specifications in the [Internet Engineering Task Force (IETF)](..)'s Internet Draft (I-D) series.
+There are currently 47 listed specifications in the [Internet Engineering Task Force (IETF)](..)'s Internet Draft (I-D) series.
 
   * [A JSON Media Type for Describing the Structure and Meaning of JSON Documents (Internet Draft zyp-json-schema)](zyp-json-schema)
   * [Accept-Push-Policy Header Field (Internet Draft ruellan-http-accept-push-policy)](ruellan-http-accept-push-policy)
@@ -41,6 +41,7 @@ There are currently 46 listed specifications in the [Internet Engineering Task F
   * [Representing CoRE Formats in JSON and CBOR (Internet Draft ietf-core-links-json)](ietf-core-links-json)
   * [Signing HTTP Messages (Internet Draft cavage-http-signatures)](cavage-http-signatures)
   * [The 'XML2RFC' version 3 Vocabulary (Internet Draft hoffman-xml2rfc)](hoffman-xml2rfc)
+  * [The 'payto' URI scheme for payments (Internet Draft dold-payto)](dold-payto)
   * [The +exi Media Type Suffix (Internet Draft shelby-exi-registration)](shelby-exi-registration)
   * [The Archive and Packaging (arcp) URI scheme (Internet Draft soilandreyes-arcp)](soilandreyes-arcp)
   * [The JavaScript Object Notation (JSON) Data Interchange Format (Internet Draft ietf-jsonbis-rfc7159bis)](ietf-jsonbis-rfc7159bis)

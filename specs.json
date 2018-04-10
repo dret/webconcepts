@@ -48,6 +48,15 @@
       "concepts": [{
        "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/down" }, {
        "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/up" }]}},{
+     "dold-payto": {
+      "id": "http://webconcepts.info/specs/IETF/I-D/dold-payto",
+      "title": "The 'payto' URI scheme for payments",
+      "name": "Internet Draft dold-payto",
+      "URI": "urn:ietf:id:dold-payto",
+      "URL": "http://tools.ietf.org/html/draft-dold-payto",
+      "abstract": "This document defines the 'payto' Uniform Resource Identifier (URI) scheme for specifying payments.",
+      "concepts": [{
+       "http://webconcepts.info/concepts/uri-scheme/": "http://webconcepts.info/concepts/uri-scheme/payto" }]}},{
      "drechsler-httpbis-improved-caching": {
       "id": "http://webconcepts.info/specs/IETF/I-D/drechsler-httpbis-improved-caching",
       "title": "Hypertext Transfer Protocol: Improved HTTP Caching",

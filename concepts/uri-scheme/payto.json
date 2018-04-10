@@ -1,0 +1,10 @@
+
+  { "value" : "payto",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/uri-scheme\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/uri-scheme\/payto",
+    "details" : 
+    [ 
+      { "description" : "A 'payto' URL identifies a payment method and optionally an account identifier. Additional parameters for a payment, such as an amount or a payment reference, can be provided. The authority component of a payment URI identifies the payment method. The path component of the URI identifies the target account for a payment as interpreted by the respective payment method. The query component of the URI can provide additional parameters for a payment.",
+        "documentation" : "http:\/\/tools.ietf.org\/html\/draft-dold-payto#section-1",
+        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/dold-payto",
+        "spec-name" : "Internet Draft dold-payto" } ] }
