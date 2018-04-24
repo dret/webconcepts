@@ -325,7 +325,7 @@
        "http://webconcepts.info/concepts/http-range-unit/": "http://webconcepts.info/concepts/http-range-unit/bytes-live" }]}},{
      "reschke-http-get-location": {
       "id": "http://webconcepts.info/specs/IETF/I-D/reschke-http-get-location",
-      "title": "The Sunset HTTP Header",
+      "title": "The Hypertext Transfer Protocol (HTTP) GET-Location header",
       "name": "Internet Draft reschke-http-get-location",
       "URI": "urn:ietf:id:reschke-http-get-location",
       "URL": "http://tools.ietf.org/html/draft-reschke-http-get-location",
