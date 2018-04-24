@@ -9,4 +9,4 @@ categories: update
 * Paper: [Erik Wilde, "Surfing the API Web: Web Concepts", 27th International World Wide Web Conference (WWW2018), Lyon, France, April 2018](http://dret.net/netdret/docs/wilde-www2018-web-concepts.pdf)
 * Presentation: ["Surfing the API Web: Web Concepts", WWW2018 Developers' Track, Erik Wilde, April 26, 2018](http://dret.net/lectures/www-2018/)
 
-When I find some time I should probably add this to the Web Concepts home page, so that people can quickly find the paper. Please stay tuned!
+For now, the home page simply links to this update to allow people to find the paper. When I have time for a bigger update, I probably should start working on a documentation section that would have been a useful addition quite a while ago anyway. Don't hold your breath, though...
