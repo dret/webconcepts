@@ -2973,7 +2973,7 @@
       "URL": "http://www.w3.org/TR/upgrade-insecure-requests",
       "abstract": "This document defines a mechanism which allows authors to instruct a user agent to upgrade a priori insecure resource requests to secure transport before fetching them.",
       "concepts": [{
-       "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/HTTPS" }]}},{
+       "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Upgrade-Insecure-Requests" }]}},{
      "void": {
       "id": "http://webconcepts.info/specs/W3C/TR/void",
       "title": "Describing Linked Datasets with the VoID Vocabulary",
