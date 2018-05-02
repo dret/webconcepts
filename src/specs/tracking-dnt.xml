@@ -11,4 +11,7 @@
     <well-known-uri def="dnt">
         <documentation source="http://www.w3.org/TR/tracking-dnt/#status-resource">A site-wide tracking status resource provides information about the potential tracking behavior of resources located at that origin server. A site-wide tracking status resource has the well-known identifier /.well-known/dnt/ relative to the origin server's URI.</documentation>
     </well-known-uri>
+    <media-type def="application/tracking-status+json">
+        <documentation source="http://www.w3.org/TR/tracking-dnt/#status-representation">For each tracking status resource, an origin server MUST provide a valid representation using the application/tracking-status+json media type. This media type consists of a status object serialized as JSON.</documentation>
+    </media-type>
 </service>

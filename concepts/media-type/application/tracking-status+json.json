@@ -1,0 +1,10 @@
+
+  { "value" : "application\/tracking-status+json",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/media-type\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/media-type\/application\/tracking-status+json",
+    "details" : 
+    [ 
+      { "description" : "For each tracking status resource, an origin server MUST provide a valid representation using the application\/tracking-status+json media type. This media type consists of a status object serialized as JSON.",
+        "documentation" : "http:\/\/www.w3.org\/TR\/tracking-dnt\/#status-representation",
+        "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/tracking-dnt",
+        "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/tracking-dnt" } ] }

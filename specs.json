@@ -2955,6 +2955,7 @@
       "concepts": [{
        "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/DNT" }, {
        "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Tk" }, {
+       "http://webconcepts.info/concepts/media-type/": "http://webconcepts.info/concepts/media-type/application/tracking-status+json" }, {
        "http://webconcepts.info/concepts/well-known-uri/": "http://webconcepts.info/concepts/well-known-uri/dnt" }]}},{
      "trig": {
       "id": "http://webconcepts.info/specs/W3C/TR/trig",
