@@ -10,12 +10,7 @@ There probably should be a bit of documentation of how all of this works... A ve
 
 * New specification data gets added to the specification source directory as individual XML files. These specification files contain information about the concepts that are defined by the specifications.
 
-* A new version of the complete site is generated via `transform.xsl`, which requires an XSLT 3.0 processor. The XSLT script reads all specification XML files, and generates Jekyll-enabled MD files for the complete site. It also generates JSON representations for concepts and specifications.
-
-* The MD-based Web site is created by letting Jekyll generate a new site from the output of the XSLT processing step.
-
-* After validating locally that everything looks good, a new version is committed to GitHub, and Jekyll runs there as well as part of the repository setup.
-
+You can find additional information on how to [fork the repo](forking) and how to [add](adding) or [remove](removing) Web Concepts. After forking, adding, or removing, you also need information on [building Web Concepts](building).
 
 ## License
 

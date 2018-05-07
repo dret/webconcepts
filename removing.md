@@ -13,3 +13,8 @@ permalink: /removing
 
 
 ## Removing Concepts
+
+
+## Building Web Concepts
+
+After you're done with removing Web Concepts, you can follow the general guideline for [building Web Concepts](building).
