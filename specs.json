@@ -76,15 +76,6 @@
       "concepts": [{
        "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/derivedfrom" }, {
        "http://webconcepts.info/concepts/media-type/": "http://webconcepts.info/concepts/media-type/application/rfc+xml" }]}},{
-     "ietf-ace-cbor-web-token": {
-      "id": "http://webconcepts.info/specs/IETF/I-D/ietf-ace-cbor-web-token",
-      "title": "CBOR Web Token (CWT)",
-      "name": "Internet Draft ietf-ace-cbor-web-token",
-      "URI": "urn:ietf:id:ietf-ace-cbor-web-token",
-      "URL": "http://tools.ietf.org/html/draft-ietf-ace-cbor-web-token",
-      "abstract": "CBOR Web Token (CWT) is a compact means of representing claims to be transferred between two parties. The claims in a CWT are encoded in the Concise Binary Object Representation (CBOR) and CBOR Object Signing and Encryption (COSE) is used for added application layer security protection. A claim is a piece of information asserted about a subject and is represented as a name/value pair consisting of a claim name and a claim value. CWT is derived from JSON Web Token (JWT) but uses CBOR rather than JSON.",
-      "concepts": [{
-       "http://webconcepts.info/concepts/media-type/": "http://webconcepts.info/concepts/media-type/application/cwt" }]}},{
      "ietf-calext-caldav-attachments": {
       "id": "http://webconcepts.info/specs/IETF/I-D/ietf-calext-caldav-attachments",
       "title": "CalDAV Managed Attachments",
@@ -2466,7 +2457,16 @@
       "URL": "http://tools.ietf.org/html/rfc8336",
       "abstract": "This document specifies the ORIGIN frame for HTTP/2, to indicate what origins are available on a given connection.",
       "concepts": [{
-       "http://webconcepts.info/concepts/http2-frame-type/": "http://webconcepts.info/concepts/http2-frame-type/0xc" }]}}]}}]},
+       "http://webconcepts.info/concepts/http2-frame-type/": "http://webconcepts.info/concepts/http2-frame-type/0xc" }]}},{
+     "8392": {
+      "id": "http://webconcepts.info/specs/IETF/RFC/8392",
+      "title": "CBOR Web Token (CWT)",
+      "name": "RFC 8392",
+      "URI": "urn:ietf:rfc:8392",
+      "URL": "http://tools.ietf.org/html/rfc8392",
+      "abstract": "CBOR Web Token (CWT) is a compact means of representing claims to be transferred between two parties. The claims in a CWT are encoded in the Concise Binary Object Representation (CBOR), and CBOR Object Signing and Encryption (COSE) is used for added application-layer security protection. A claim is a piece of information asserted about a subject and is represented as a name/value pair consisting of a claim name and a claim value. CWT is derived from JSON Web Token (JWT) but uses CBOR rather than JSON.",
+      "concepts": [{
+       "http://webconcepts.info/concepts/media-type/": "http://webconcepts.info/concepts/media-type/application/cwt" }]}}]}}]},
  "ISO": {
   "id": "http://webconcepts.info/specs/ISO/",
   "name": "International Organization for Standardization",
