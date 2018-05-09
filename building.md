@@ -4,6 +4,8 @@ layout:    default
 permalink: /building
 ---
 
+# Building Web Concepts
+
 Here is a rough overview of the current build process for the site:
 
 * A new version of the complete site is generated via `transform.xsl`, which requires an XSLT 3.0 processor. The XSLT script reads all specification XML files, and generates Jekyll-enabled MD files for the complete site. It also generates JSON representations for concepts and specifications.
