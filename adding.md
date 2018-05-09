@@ -17,4 +17,4 @@ permalink: /adding
 
 ## Building Web Concepts
 
-After you're done with adding Web Concepts, you can follow the general guideline for [building Web Concepts](building).
+After you're done with adding Web Concepts, you can follow the general guidelines for [building Web Concepts](building).

@@ -27,4 +27,4 @@ Keep in mind that Web Concepts is entirely driven via *concept documentation*, m
 
 ## Building Web Concepts
 
-After you're done with [adding](adding) or [removing](removing) Web Concepts, you can follow the general guideline for [building Web Concepts](building).
+After you're done with [adding](adding) or [removing](removing) Web Concepts, you can follow the general guidelines for [building Web Concepts](building).
