@@ -1185,16 +1185,6 @@
               "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/3230",
               "spec-name" : "RFC 3230" } ] },
         
-        { "value" : "Downlink",
-          "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
-          "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Downlink",
-          "details" : 
-          [ 
-            { "description" : "The \"Downlink\" header field is a number that, in requests, indicates the client's maximum downlink speed in megabits per second (Mbps), as defined by the \"downlinkMax\" attribute in the W3C Network Information API.",
-              "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-httpbis-client-hints#section-3.4",
-              "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpbis-client-hints",
-              "spec-name" : "Internet Draft ietf-httpbis-client-hints" } ] },
-        
         { "value" : "EDIINT-Features",
           "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
           "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/EDIINT-Features",
@@ -1891,7 +1881,7 @@
           "details" : 
           [ 
             { "description" : "The \"Save-Data\" header field is a token that, in requests, indicates client's preference for reduced data usage, due to high transfer costs, slow connection speeds, or other reasons.",
-              "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-httpbis-client-hints#section-3.5",
+              "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-httpbis-client-hints#section-3.4",
               "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpbis-client-hints",
               "spec-name" : "Internet Draft ietf-httpbis-client-hints" } ] },
         
