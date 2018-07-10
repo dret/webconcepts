@@ -4,7 +4,7 @@ title:       "IETF Request for Comments Series"
 description: "List of specifications in the Request for Comments (RFC) series by the Internet Engineering Task Force (IETF)"
 ---
 
-There are currently 177 listed specifications in the [Internet Engineering Task Force (IETF)](..)'s Request for Comments (RFC) series.
+There are currently 178 listed specifications in the [Internet Engineering Task Force (IETF)](..)'s Request for Comments (RFC) series.
 
   * [A Media Type Structured Syntax Suffix for JSON Text Sequences (RFC 8091)](8091)
   * [A Media Type for XML Patch Operations (RFC 7351)](7351)
@@ -119,6 +119,7 @@ There are currently 177 listed specifications in the [Internet Engineering Task 
   * [Salted Challenge Response HTTP Authentication Mechanism (RFC 7804)](7804)
   * [Scheduling Extensions to CalDAV (RFC 6638)](6638)
   * [Security Assertion Markup Language (SAML) 2.0 Profile for OAuth 2.0 Client Authentication and Authorization Grants (RFC 7522)](7522)
+  * [Security Event Token (SET) (RFC 8417)](8417)
   * [Session Traversal Utilities for NAT (STUN) Extension (RFC 7635)](7635)
   * [System for Cross-domain Identity Management: Protocol (RFC 7644)](7644)
   * [The "about" URI Scheme (RFC 6694)](6694)

@@ -181,7 +181,7 @@
         "id" : "http:\/\/webconcepts.info\/concepts\/media-type\/application\/cwt",
         "details" : 
         [ 
-          { "description" : "How to determine that a CBOR data structure is a CWT is application-dependent. In some cases, this information is known from the application context, such as from the position of the CWT in a data structure at which the value must be a CWT. One method of indicating that a CBOR object is a CWT is the use of the \"application\/cwt\" content type by a transport protocol. ",
+          { "description" : "How to determine that a CBOR data structure is a CWT is application-dependent. In some cases, this information is known from the application context, such as from the position of the CWT in a data structure at which the value must be a CWT. One method of indicating that a CBOR object is a CWT is the use of the \"application\/cwt\" content type by a transport protocol.",
             "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8392#section-1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8392",
             "spec-name" : "RFC 8392" } ] },
@@ -670,6 +670,16 @@
             "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7644#section-8.1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7644",
             "spec-name" : "RFC 7644" } ] },
+      
+      { "value" : "application\/secevent+jwt",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/media-type\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/media-type\/application\/secevent+jwt",
+        "details" : 
+        [ 
+          { "description" : "This specification registers the \"application\/secevent+jwt\" media type, which can be used to indicate that the content is a SET. SETs MAY include this media type in the \"typ\" header parameter of the JWT representing the SET to explicitly declare that the JWT is a SET. This MUST be included if the SET could be used in an application context in which it could be confused with other kinds of JWTs.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8417#section-2.3",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8417",
+            "spec-name" : "RFC 8417" } ] },
       
       { "value" : "application\/senml+cbor",
         "concept" : "http:\/\/webconcepts.info\/concepts\/media-type\/",

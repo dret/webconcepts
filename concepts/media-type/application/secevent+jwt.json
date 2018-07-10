@@ -1,0 +1,10 @@
+
+  { "value" : "application\/secevent+jwt",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/media-type\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/media-type\/application\/secevent+jwt",
+    "details" : 
+    [ 
+      { "description" : "This specification registers the \"application\/secevent+jwt\" media type, which can be used to indicate that the content is a SET. SETs MAY include this media type in the \"typ\" header parameter of the JWT representing the SET to explicitly declare that the JWT is a SET. This MUST be included if the SET could be used in an application context in which it could be confused with other kinds of JWTs.",
+        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8417#section-2.3",
+        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8417",
+        "spec-name" : "RFC 8417" } ] }

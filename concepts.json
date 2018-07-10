@@ -3892,6 +3892,16 @@
               "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7800",
               "spec-name" : "RFC 7800" } ] },
         
+        { "value" : "events",
+          "concept" : "http:\/\/webconcepts.info\/concepts\/jwt-claim\/",
+          "id" : "http:\/\/webconcepts.info\/concepts\/jwt-claim\/events",
+          "details" : 
+          [ 
+            { "description" : "This claim contains a set of event statements that each provide information describing a single logical event that has occurred about a security subject (e.g., a state change to the subject). Multiple event identifiers with the same value MUST NOT be used. The \"events\" claim MUST NOT be used to express multiple independent logical events.",
+              "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8417#section-2.2",
+              "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8417",
+              "spec-name" : "RFC 8417" } ] },
+        
         { "value" : "exp",
           "concept" : "http:\/\/webconcepts.info\/concepts\/jwt-claim\/",
           "id" : "http:\/\/webconcepts.info\/concepts\/jwt-claim\/exp",
@@ -3950,7 +3960,27 @@
             { "description" : "The \"sub\" (subject) claim identifies the principal that is the subject of the JWT. The claims in a JWT are normally statements about the subject. The subject value MUST either be scoped to be locally unique in the context of the issuer or be globally unique.",
               "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7519#section-4.1.2",
               "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7519",
-              "spec-name" : "RFC 7519" } ] } ] },
+              "spec-name" : "RFC 7519" } ] },
+        
+        { "value" : "toe",
+          "concept" : "http:\/\/webconcepts.info\/concepts\/jwt-claim\/",
+          "id" : "http:\/\/webconcepts.info\/concepts\/jwt-claim\/toe",
+          "details" : 
+          [ 
+            { "description" : "A value that represents the date and time at which the event occurred. This value is a NumericDate. By omitting this claim, the issuer indicates that they are not sharing an event time with the recipient. (Note that in some use cases, the represented time might be approximate; statements about the accuracy of this field MAY be made by profiling specifications.)",
+              "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8417#section-2.2",
+              "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8417",
+              "spec-name" : "RFC 8417" } ] },
+        
+        { "value" : "txn",
+          "concept" : "http:\/\/webconcepts.info\/concepts\/jwt-claim\/",
+          "id" : "http:\/\/webconcepts.info\/concepts\/jwt-claim\/txn",
+          "details" : 
+          [ 
+            { "description" : "An OPTIONAL string value that represents a unique transaction identifier. In cases in which multiple related JWTs are issued, the transaction identifier claim can be used to correlate these related JWTs. Note that this claim can be used in JWTs that are SETs and also in JWTs using non-SET profiles.",
+              "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8417#section-2.2",
+              "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8417",
+              "spec-name" : "RFC 8417" } ] } ] },
     
     { "concept" : "jwt-confirmation-method",
       "id" : "http:\/\/webconcepts.info\/concepts\/jwt-confirmation-method\/",
@@ -5238,7 +5268,7 @@
           "id" : "http:\/\/webconcepts.info\/concepts\/media-type\/application\/cwt",
           "details" : 
           [ 
-            { "description" : "How to determine that a CBOR data structure is a CWT is application-dependent. In some cases, this information is known from the application context, such as from the position of the CWT in a data structure at which the value must be a CWT. One method of indicating that a CBOR object is a CWT is the use of the \"application\/cwt\" content type by a transport protocol. ",
+            { "description" : "How to determine that a CBOR data structure is a CWT is application-dependent. In some cases, this information is known from the application context, such as from the position of the CWT in a data structure at which the value must be a CWT. One method of indicating that a CBOR object is a CWT is the use of the \"application\/cwt\" content type by a transport protocol.",
               "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8392#section-1",
               "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8392",
               "spec-name" : "RFC 8392" } ] },
@@ -5727,6 +5757,16 @@
               "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7644#section-8.1",
               "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7644",
               "spec-name" : "RFC 7644" } ] },
+        
+        { "value" : "application\/secevent+jwt",
+          "concept" : "http:\/\/webconcepts.info\/concepts\/media-type\/",
+          "id" : "http:\/\/webconcepts.info\/concepts\/media-type\/application\/secevent+jwt",
+          "details" : 
+          [ 
+            { "description" : "This specification registers the \"application\/secevent+jwt\" media type, which can be used to indicate that the content is a SET. SETs MAY include this media type in the \"typ\" header parameter of the JWT representing the SET to explicitly declare that the JWT is a SET. This MUST be included if the SET could be used in an application context in which it could be confused with other kinds of JWTs.",
+              "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8417#section-2.3",
+              "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8417",
+              "spec-name" : "RFC 8417" } ] },
         
         { "value" : "application\/senml+cbor",
           "concept" : "http:\/\/webconcepts.info\/concepts\/media-type\/",
@@ -7126,6 +7166,16 @@
               "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8091#section-3",
               "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8091",
               "spec-name" : "RFC 8091" } ] },
+        
+        { "value" : "+jwt",
+          "concept" : "http:\/\/webconcepts.info\/concepts\/structured-syntax-suffix\/",
+          "id" : "http:\/\/webconcepts.info\/concepts\/structured-syntax-suffix\/+jwt",
+          "details" : 
+          [ 
+            { "description" : "The \"+jwt\" structured syntax suffix can be used to indicate that the media type is encoded as a JWT.",
+              "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8417#section-7.2",
+              "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8417",
+              "spec-name" : "RFC 8417" } ] },
         
         { "value" : "+wbxml",
           "concept" : "http:\/\/webconcepts.info\/concepts\/structured-syntax-suffix\/",

@@ -3,7 +3,7 @@ layout: page
 title:  "Web Concepts: Overview"
 ---
 
-This is an overview of 33 Web Concepts (with a total of 756 distinct values) that have been harvested from all [available specifications](/specs):
+This is an overview of 33 Web Concepts (with a total of 761 distinct values) that have been harvested from all [available specifications](/specs):
 
 * [HTTP Authentication Schemes](http-authentication-scheme/) (10)
 * [HTTP Cache Directives](http-cache-directive/) (16)
@@ -17,10 +17,10 @@ This is an overview of 33 Web Concepts (with a total of 756 distinct values) tha
 * [HTTP Transfer Codings](http-transfer-coding/) (7)
 * [HTTP Warn Codes](http-warn-code/) (7)
 * [HTTP/2 Frame Types](http2-frame-type/) (12)
-* [JSON Web Token Claims](jwt-claim/) (8)
+* [JSON Web Token Claims](jwt-claim/) (11)
 * [JWT Confirmation Methods](jwt-confirmation-method/) (4)
 * [Link Relations](link-relation/) (103)
-* [Media Types](media-type/) (110)
+* [Media Types](media-type/) (111)
 * [OAuth Access Token Types](oauth-access-token-type/) (2)
 * [OAuth Authorization Endpoint Response Types](oauth-authorization-endpoint-response-type/) (2)
 * [OAuth Dynamic Client Registration Metadata](oauth-client-metadata/) (20)
@@ -32,7 +32,7 @@ This is an overview of 33 Web Concepts (with a total of 756 distinct values) tha
 * [OAuth URIs](oauth-uri/) (5)
 * [PKCE Code Challenge Methods](pkce-code-challenge-method/) (2)
 * [Profile URIs](profile-uri/) (1)
-* [Structured Syntax Suffixes](structured-syntax-suffix/) (10)
+* [Structured Syntax Suffixes](structured-syntax-suffix/) (11)
 * [URI Schemes](uri-scheme/) (34)
 * [URN Namespaces](urn-namespace/) (14)
 * [Well-Known URIs](well-known-uri/) (21)

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<service primary="IETF" secondary="RFC" id="8417">
+    <title>Security Event Token (SET)</title>
+    <documentation source="http://tools.ietf.org/html/rfc8417">This specification defines the Security Event Token (SET) data structure. A SET describes statements of fact from the perspective of an issuer about a subject. These statements of fact represent an event that occurred directly to or about a security subject, for example, a statement about the issuance or revocation of a token on behalf of a subject. This specification is intended to enable representing security- and identity-related events. A SET is a JSON Web Token (JWT), which can be optionally signed and/or encrypted. SETs can be distributed via protocols such as HTTP.</documentation>
+    <media-type def="application/secevent+jwt">
+        <documentation source="http://tools.ietf.org/html/rfc8417#section-2.3">This specification registers the "application/secevent+jwt" media type, which can be used to indicate that the content is a SET. SETs MAY include this media type in the "typ" header parameter of the JWT representing the SET to explicitly declare that the JWT is a SET. This MUST be included if the SET could be used in an application context in which it could be confused with other kinds of JWTs.</documentation>
+    </media-type>
+    <jwt-claim def="events">
+        <documentation source="http://tools.ietf.org/html/rfc8417#section-2.2">This claim contains a set of event statements that each provide information describing a single logical event that has occurred about a security subject (e.g., a state change to the subject). Multiple event identifiers with the same value MUST NOT be used. The "events" claim MUST NOT be used to express multiple independent logical events.</documentation>
+    </jwt-claim>
+    <jwt-claim def="toe">
+        <documentation source="http://tools.ietf.org/html/rfc8417#section-2.2">A value that represents the date and time at which the event occurred. This value is a NumericDate. By omitting this claim, the issuer indicates that they are not sharing an event time with the recipient. (Note that in some use cases, the represented time might be approximate; statements about the accuracy of this field MAY be made by profiling specifications.)</documentation>
+    </jwt-claim>
+    <jwt-claim def="txn">
+        <documentation source="http://tools.ietf.org/html/rfc8417#section-2.2">An OPTIONAL string value that represents a unique transaction identifier. In cases in which multiple related JWTs are issued, the transaction identifier claim can be used to correlate these related JWTs. Note that this claim can be used in JWTs that are SETs and also in JWTs using non-SET profiles.</documentation>
+    </jwt-claim>
+    <structured-syntax-suffix def="+jwt">
+        <documentation source="http://tools.ietf.org/html/rfc8417#section-7.2">The "+jwt" structured syntax suffix can be used to indicate that the media type is encoded as a JWT.</documentation>
+    </structured-syntax-suffix>
+</service>

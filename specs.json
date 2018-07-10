@@ -2465,7 +2465,20 @@
       "URL": "http://tools.ietf.org/html/rfc8392",
       "abstract": "CBOR Web Token (CWT) is a compact means of representing claims to be transferred between two parties. The claims in a CWT are encoded in the Concise Binary Object Representation (CBOR), and CBOR Object Signing and Encryption (COSE) is used for added application-layer security protection. A claim is a piece of information asserted about a subject and is represented as a name/value pair consisting of a claim name and a claim value. CWT is derived from JSON Web Token (JWT) but uses CBOR rather than JSON.",
       "concepts": [{
-       "http://webconcepts.info/concepts/media-type/": "http://webconcepts.info/concepts/media-type/application/cwt" }]}}]}}]},
+       "http://webconcepts.info/concepts/media-type/": "http://webconcepts.info/concepts/media-type/application/cwt" }]}},{
+     "8417": {
+      "id": "http://webconcepts.info/specs/IETF/RFC/8417",
+      "title": "Security Event Token (SET)",
+      "name": "RFC 8417",
+      "URI": "urn:ietf:rfc:8417",
+      "URL": "http://tools.ietf.org/html/rfc8417",
+      "abstract": "This specification defines the Security Event Token (SET) data structure. A SET describes statements of fact from the perspective of an issuer about a subject. These statements of fact represent an event that occurred directly to or about a security subject, for example, a statement about the issuance or revocation of a token on behalf of a subject. This specification is intended to enable representing security- and identity-related events. A SET is a JSON Web Token (JWT), which can be optionally signed and/or encrypted. SETs can be distributed via protocols such as HTTP.",
+      "concepts": [{
+       "http://webconcepts.info/concepts/jwt-claim/": "http://webconcepts.info/concepts/jwt-claim/events" }, {
+       "http://webconcepts.info/concepts/jwt-claim/": "http://webconcepts.info/concepts/jwt-claim/toe" }, {
+       "http://webconcepts.info/concepts/jwt-claim/": "http://webconcepts.info/concepts/jwt-claim/txn" }, {
+       "http://webconcepts.info/concepts/media-type/": "http://webconcepts.info/concepts/media-type/application/secevent+jwt" }, {
+       "http://webconcepts.info/concepts/structured-syntax-suffix/": "http://webconcepts.info/concepts/structured-syntax-suffix/+jwt" }]}}]}}]},
  "ISO": {
   "id": "http://webconcepts.info/specs/ISO/",
   "name": "International Organization for Standardization",

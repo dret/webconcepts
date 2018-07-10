@@ -1,0 +1,10 @@
+
+  { "value" : "+jwt",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/structured-syntax-suffix\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/structured-syntax-suffix\/+jwt",
+    "details" : 
+    [ 
+      { "description" : "The \"+jwt\" structured syntax suffix can be used to indicate that the media type is encoded as a JWT.",
+        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8417#section-7.2",
+        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8417",
+        "spec-name" : "RFC 8417" } ] }

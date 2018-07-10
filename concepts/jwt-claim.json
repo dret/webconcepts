@@ -26,6 +26,16 @@
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7800",
             "spec-name" : "RFC 7800" } ] },
       
+      { "value" : "events",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/jwt-claim\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/jwt-claim\/events",
+        "details" : 
+        [ 
+          { "description" : "This claim contains a set of event statements that each provide information describing a single logical event that has occurred about a security subject (e.g., a state change to the subject). Multiple event identifiers with the same value MUST NOT be used. The \"events\" claim MUST NOT be used to express multiple independent logical events.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8417#section-2.2",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8417",
+            "spec-name" : "RFC 8417" } ] },
+      
       { "value" : "exp",
         "concept" : "http:\/\/webconcepts.info\/concepts\/jwt-claim\/",
         "id" : "http:\/\/webconcepts.info\/concepts\/jwt-claim\/exp",
@@ -84,4 +94,24 @@
           { "description" : "The \"sub\" (subject) claim identifies the principal that is the subject of the JWT. The claims in a JWT are normally statements about the subject. The subject value MUST either be scoped to be locally unique in the context of the issuer or be globally unique.",
             "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7519#section-4.1.2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7519",
-            "spec-name" : "RFC 7519" } ] } ] }
+            "spec-name" : "RFC 7519" } ] },
+      
+      { "value" : "toe",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/jwt-claim\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/jwt-claim\/toe",
+        "details" : 
+        [ 
+          { "description" : "A value that represents the date and time at which the event occurred. This value is a NumericDate. By omitting this claim, the issuer indicates that they are not sharing an event time with the recipient. (Note that in some use cases, the represented time might be approximate; statements about the accuracy of this field MAY be made by profiling specifications.)",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8417#section-2.2",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8417",
+            "spec-name" : "RFC 8417" } ] },
+      
+      { "value" : "txn",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/jwt-claim\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/jwt-claim\/txn",
+        "details" : 
+        [ 
+          { "description" : "An OPTIONAL string value that represents a unique transaction identifier. In cases in which multiple related JWTs are issued, the transaction identifier claim can be used to correlate these related JWTs. Note that this claim can be used in JWTs that are SETs and also in JWTs using non-SET profiles.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8417#section-2.2",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8417",
+            "spec-name" : "RFC 8417" } ] } ] }

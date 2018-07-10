@@ -1,0 +1,16 @@
+---
+layout:        concept
+permalink:     "/concepts/jwt-claim/events"
+title:         "JSON Web Token Claim: events"
+concept-name:  JSON Web Token Claim
+concept-value: events
+description: "This claim contains a set of event statements that each provide information describing a single logical event that has occurred about a security subject (e.g., a state change to the subject). Multiple event identifiers with the same value MUST NOT be used. The \"events\" claim MUST NOT be used to express multiple independent logical events."
+---
+
+[This claim contains a set of event statements that each provide information describing a single logical event that has occurred about a security subject (e.g., a state change to the subject). Multiple event identifiers with the same value MUST NOT be used. The "events" claim MUST NOT be used to express multiple independent logical events.](http://tools.ietf.org/html/rfc8417#section-2.2 "Read documentation for JSON Web Token Claim &#34;events&#34;") (**[RFC 8417: Security Event Token (SET)](/specs/IETF/RFC/8417 "This specification defines the Security Event Token (SET) data structure. A SET describes statements of fact from the perspective of an issuer about a subject. These statements of fact represent an event that occurred directly to or about a security subject, for example, a statement about the issuance or revocation of a token on behalf of a subject. This specification is intended to enable representing security- and identity-related events. A SET is a JSON Web Token (JWT), which can be optionally signed and/or encrypted. SETs can be distributed via protocols such as HTTP.")**)
+
+<br/>
+<hr/>
+
+<p style="float : left"><a href="./events.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="text-align: right">Return to list of all ( <a href="../jwt-claim/">JSON Web Token Claims</a> | <a href="../">Web Concepts</a> )</p>

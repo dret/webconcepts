@@ -1,0 +1,10 @@
+
+  { "value" : "toe",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/jwt-claim\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/jwt-claim\/toe",
+    "details" : 
+    [ 
+      { "description" : "A value that represents the date and time at which the event occurred. This value is a NumericDate. By omitting this claim, the issuer indicates that they are not sharing an event time with the recipient. (Note that in some use cases, the represented time might be approximate; statements about the accuracy of this field MAY be made by profiling specifications.)",
+        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8417#section-2.2",
+        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8417",
+        "spec-name" : "RFC 8417" } ] }
