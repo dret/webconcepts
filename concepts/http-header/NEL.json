@@ -4,7 +4,7 @@
     "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/NEL",
     "details" : 
     [ 
-      { "description" : "The NEL response header is used to communicate an origin's NEL policy to the user agent. The header's value is interpreted as an array of JSON objects, as defined by json-field-value. Each object in the array defines an NEL policy for the origin.",
+      { "description" : "The NEL response header is used to communicate an origin's NEL policy to the user agent. The header's value is interpreted as an array of JSON objects. Each object in the array defines an NEL policy for the origin.",
         "documentation" : "http:\/\/www.w3.org\/TR\/network-error-logging-1\/#nel-response-header",
         "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/network-error-logging-1",
         "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/network-error-logging-1" } ] }
