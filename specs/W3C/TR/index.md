@@ -4,7 +4,7 @@ title:       "W3C Technical Report Series"
 description: "List of specifications in the Technical Report (TR) series by the World Wide Web Consortium (W3C)"
 ---
 
-There are currently 42 listed specifications in the [World Wide Web Consortium (W3C)](..)'s Technical Report (TR) series.
+There are currently 43 listed specifications in the [World Wide Web Consortium (W3C)](..)'s Technical Report (TR) series.
 
   * [Activity Streams 2.0 (W3C TR http://www.w3.org/TR/activitystreams-core)](activitystreams-core)
   * [Clear Site Data (W3C TR http://www.w3.org/TR/clear-site-data)](clear-site-data)
@@ -25,6 +25,7 @@ There are currently 42 listed specifications in the [World Wide Web Consortium (
   * [Manifest for Web Application (W3C TR http://www.w3.org/TR/appmanifest)](appmanifest)
   * [Micropub (W3C TR http://www.w3.org/TR/micropub)](micropub)
   * [Model for Tabular Data and Metadata on the Web (W3C TR http://www.w3.org/TR/tabular-data-model)](tabular-data-model)
+  * [Network Error Logging (W3C TR http://www.w3.org/TR/network-error-logging-1)](network-error-logging-1)
   * [Notification for Proxy Caches (W3C TR http://www.w3.org/TR/WD-proxy)](WD-proxy)
   * [PEP - An Extension Mechanism for HTTP (W3C TR http://www.w3.org/TR/WD-http-pep)](WD-http-pep)
   * [Payment Method Manifest (W3C TR http://www.w3.org/TR/payment-method-manifest)](payment-method-manifest)

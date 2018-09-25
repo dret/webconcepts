@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<service primary="W3C" secondary="TR" id="network-error-logging-1">
+    <title>Network Error Logging</title>
+    <documentation source="http://www.w3.org/TR/network-error-logging-1/">This document defines a mechanism that enables developers to declare a network error reporting policy for a web application. A user agent can use this policy to report encountered network errors that prevented it from successfully fetching requested resources.</documentation>
+    <http-header def="NEL">
+        <documentation source="http://www.w3.org/TR/network-error-logging-1/#nel-response-header">The NEL response header is used to communicate an origin's NEL policy to the user agent. The header's value is interpreted as an array of JSON objects, as defined by json-field-value. Each object in the array defines an NEL policy for the origin.</documentation>
+    </http-header>
+</service>

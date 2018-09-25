@@ -2861,6 +2861,15 @@
       "abstract": "Micropub is an open API standard that is used to create posts on one's own domain using third-party clients. Web apps and native apps (e.g. iPhone, Android) can use Micropub to post short notes, photos, events or other posts to your own site.",
       "concepts": [{
        "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/micropub" }]}},{
+     "network-error-logging-1": {
+      "id": "http://webconcepts.info/specs/W3C/TR/network-error-logging-1",
+      "title": "Network Error Logging",
+      "name": "W3C TR http://www.w3.org/TR/network-error-logging-1",
+      "URI": "http://www.w3.org/TR/network-error-logging-1",
+      "URL": "http://www.w3.org/TR/network-error-logging-1",
+      "abstract": "This document defines a mechanism that enables developers to declare a network error reporting policy for a web application. A user agent can use this policy to report encountered network errors that prevented it from successfully fetching requested resources.",
+      "concepts": [{
+       "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/NEL" }]}},{
      "payment-method-manifest": {
       "id": "http://webconcepts.info/specs/W3C/TR/payment-method-manifest",
       "title": "Payment Method Manifest",
