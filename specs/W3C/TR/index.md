@@ -4,7 +4,7 @@ title:       "W3C Technical Report Series"
 description: "List of specifications in the Technical Report (TR) series by the World Wide Web Consortium (W3C)"
 ---
 
-There are currently 43 listed specifications in the [World Wide Web Consortium (W3C)](..)'s Technical Report (TR) series.
+There are currently 44 listed specifications in the [World Wide Web Consortium (W3C)](..)'s Technical Report (TR) series.
 
   * [Activity Streams 2.0 (W3C TR http://www.w3.org/TR/activitystreams-core)](activitystreams-core)
   * [Clear Site Data (W3C TR http://www.w3.org/TR/clear-site-data)](clear-site-data)
@@ -14,6 +14,7 @@ There are currently 43 listed specifications in the [World Wide Web Consortium (
   * [Content Security Policy Pinning (W3C TR http://www.w3.org/TR/csp-pinning)](csp-pinning)
   * [Cross-Origin Resource Sharing (CORS) (W3C TR http://www.w3.org/TR/cors)](cors)
   * [Describing Linked Datasets with the VoID Vocabulary (W3C TR http://www.w3.org/TR/void)](void)
+  * [Device Memory (W3C TR http://www.w3.org/TR/device-memory-1)](device-memory-1)
   * [Edge Architecture Specification (W3C TR http://www.w3.org/TR/edge-arch)](edge-arch)
   * [Efficient XML Interchange (EXI) Format 1.0 (W3C TR http://www.w3.org/TR/exi)](exi)
   * [Entry Point Regulation (EPR) (W3C TR http://www.w3.org/TR/epr)](epr)

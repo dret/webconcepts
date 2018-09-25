@@ -2733,6 +2733,15 @@
       "concepts": [{
        "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Content-Security-Policy-Pin" }, {
        "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Content-Security-Policy-Report-Only-Pin" }]}},{
+     "device-memory-1": {
+      "id": "http://webconcepts.info/specs/W3C/TR/device-memory-1",
+      "title": "Device Memory",
+      "name": "W3C TR http://www.w3.org/TR/device-memory-1",
+      "URI": "http://www.w3.org/TR/device-memory-1",
+      "URL": "http://www.w3.org/TR/device-memory-1",
+      "abstract": "This document defines a HTTP Client Hint header to surface device capability for memory i.e. device RAM, in order to enable web apps to customize content depending on device memory constraints.",
+      "concepts": [{
+       "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Device-Memory" }]}},{
      "edge-arch": {
       "id": "http://webconcepts.info/specs/W3C/TR/edge-arch",
       "title": "Edge Architecture Specification",

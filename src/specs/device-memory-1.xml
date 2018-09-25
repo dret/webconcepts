@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<service primary="W3C" secondary="TR" id="device-memory-1">
+    <title>Device Memory</title>
+    <documentation source="http://www.w3.org/TR/device-memory-1/">This document defines a HTTP Client Hint header to surface device capability for memory i.e. device RAM, in order to enable web apps to customize content depending on device memory constraints.</documentation>
+    <http-header def="Device-Memory">
+        <documentation source="http://www.w3.org/TR/device-memory-1/#sec-device-memory-client-hint-header">The Device Memory header field is a number that indicates the client's device memory i.e. approximate amount of ram in GiB.</documentation>
+    </http-header>
+</service>

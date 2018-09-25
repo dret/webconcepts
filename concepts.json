@@ -1175,6 +1175,16 @@
               "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/4918",
               "spec-name" : "RFC 4918" } ] },
         
+        { "value" : "Device-Memory",
+          "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
+          "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Device-Memory",
+          "details" : 
+          [ 
+            { "description" : "The Device Memory header field is a number that indicates the client's device memory i.e. approximate amount of ram in GiB.",
+              "documentation" : "http:\/\/www.w3.org\/TR\/device-memory-1\/#sec-device-memory-client-hint-header",
+              "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/device-memory-1",
+              "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/device-memory-1" } ] },
+        
         { "value" : "Digest",
           "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
           "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Digest",
