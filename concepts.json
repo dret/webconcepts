@@ -1225,6 +1225,16 @@
               "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7232",
               "spec-name" : "RFC 7232" } ] },
         
+        { "value" : "Early-Data",
+          "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
+          "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Early-Data",
+          "details" : 
+          [ 
+            { "description" : "The Early-Data request header field indicates that the request has been conveyed in early data and that a client understands the 425 (Too Early) status code.",
+              "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8470#section-5.1",
+              "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8470",
+              "spec-name" : "RFC 8470" } ] },
+        
         { "value" : "Expect",
           "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
           "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Expect",
@@ -3408,6 +3418,16 @@
               "documentation" : "http:\/\/tools.ietf.org\/html\/rfc4918#section-11.4",
               "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/4918",
               "spec-name" : "RFC 4918" } ] },
+        
+        { "value" : "425",
+          "concept" : "http:\/\/webconcepts.info\/concepts\/http-status-code\/",
+          "id" : "http:\/\/webconcepts.info\/concepts\/http-status-code\/425",
+          "details" : 
+          [ 
+            { "description" : "A 425 (Too Early) status code indicates that the server is unwilling to risk processing a request that might be replayed. User agents that send a request in early data are expected to retry the request when receiving a 425 (Too Early) response status code. A user agent SHOULD retry automatically, but any retries MUST NOT be sent in early data.",
+              "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8470#section-5.2",
+              "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8470",
+              "spec-name" : "RFC 8470" } ] },
         
         { "value" : "426",
           "concept" : "http:\/\/webconcepts.info\/concepts\/http-status-code\/",

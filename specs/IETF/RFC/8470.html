@@ -1,0 +1,84 @@
+---
+layout:      page
+title:       "Using Early Data in HTTP"
+description: "Using TLS early data creates an exposure to the possibility of a replay attack. This
+document defines mechanisms that allow clients to communicate with servers about HTTP
+requests that are sent in early data. Techniques are described that use these mechanisms
+to mitigate the risk of replay."
+---
+
+<table cellpadding="5">
+   <tr>
+      <th valign="top" align="right">
+         <em>Document Name:</em>
+      </th>
+      <td>RFC 8470</td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Document URI:</em>
+      </th>
+      <td>
+         <code>urn:ietf:rfc:8470</code>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Online Version:</em>
+      </th>
+      <td>
+         <code>
+            <a href="http://tools.ietf.org/html/rfc8470">http://tools.ietf.org/html/rfc8470</a>
+         </code>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Organization:</em>
+      </th>
+      <td>
+         <a href="../" title="List of specification series by this organization">Internet Engineering Task Force (IETF)</a>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Series:</em>
+      </th>
+      <td>
+         <a href="./" title="List of specifications in this series">Request for Comments (RFC)</a>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Abstract:</em>
+      </th>
+      <td>Using TLS early data creates an exposure to the possibility of a replay attack. This
+         document defines mechanisms that allow clients to communicate with servers about HTTP
+         requests that are sent in early data. Techniques are described that use these mechanisms
+         to mitigate the risk of replay.
+      </td>
+   </tr>
+</table>
+<br></br>
+<hr></hr>
+<h2 id="concepts">Specified Web Concepts:</h2>
+<h3 id="http-header">
+   <a href="/concepts/http-header/" title="List of all HTTP Header Fields">HTTP Header Fields</a>
+</h3>
+<code>
+   <a href="/concepts/http-header/Early-Data" title="The Early-Data request header field indicates that the request has been conveyed in early data and that a client understands the 425 (Too Early) status code.">Early-Data</a>
+</code>
+<br></br>
+<h3 id="http-status-code">
+   <a href="/concepts/http-status-code/" title="List of all HTTP Status Codes">HTTP Status Codes</a>
+</h3>
+<code>
+   <a href="/concepts/http-status-code/425" title="A 425 (Too Early) status code indicates that the server is unwilling to risk processing a request that might be replayed. User agents that send a request in early data are expected to retry the request when receiving a 425 (Too Early) response status code. A user agent SHOULD retry automatically, but any retries MUST NOT be sent in early data.">425</a>
+</code>
+<br></br>
+<hr></hr>
+<p style="text-align: right">Return to ( 
+   <a href="./">Series</a> | 
+   <a href="../">Organization</a> | 
+   <a href="../../">all Specifications</a> )
+</p>
