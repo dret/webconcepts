@@ -2,6 +2,7 @@
   { "value" : "425",
     "concept" : "http:\/\/webconcepts.info\/concepts\/http-status-code\/",
     "id" : "http:\/\/webconcepts.info\/concepts\/http-status-code\/425",
+    "description" : "Too Early",
     "details" : 
     [ 
       { "description" : "A 425 (Too Early) status code indicates that the server is unwilling to risk processing a request that might be replayed. User agents that send a request in early data are expected to retry the request when receiving a 425 (Too Early) response status code. A user agent SHOULD retry automatically, but any retries MUST NOT be sent in early data.",

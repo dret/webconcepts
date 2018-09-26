@@ -5,7 +5,7 @@
     <http-header def="Early-Data">
         <documentation source="http://tools.ietf.org/html/rfc8470#section-5.1">The Early-Data request header field indicates that the request has been conveyed in early data and that a client understands the 425 (Too Early) status code.</documentation>
     </http-header>
-    <http-status-code def="425" description="Too Early">
+    <http-status-code def="425" desc="Too Early">
         <documentation source="http://tools.ietf.org/html/rfc8470#section-5.2">A 425 (Too Early) status code indicates that the server is unwilling to risk processing a request that might be replayed. User agents that send a request in early data are expected to retry the request when receiving a 425 (Too Early) response status code. A user agent SHOULD retry automatically, but any retries MUST NOT be sent in early data.</documentation>
     </http-status-code>
 </service>
