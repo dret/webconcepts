@@ -1415,6 +1415,16 @@
               "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7232",
               "spec-name" : "RFC 7232" } ] },
         
+        { "value" : "Include-Referred-Token-Binding-ID",
+          "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
+          "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Include-Referred-Token-Binding-ID",
+          "details" : 
+          [ 
+            { "description" : "When a Token Consumer redirects the client to a Token Provider as a means to deliver the token request, it SHOULD include an Include-Referred-Token-Binding-ID HTTP response header field in its HTTP response.",
+              "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8473#section-5.3",
+              "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8473",
+              "spec-name" : "RFC 8473" } ] },
+        
         { "value" : "Key",
           "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
           "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Key",
@@ -1944,6 +1954,16 @@
               "documentation" : "http:\/\/www.w3.org\/TR\/COWL\/#header",
               "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/COWL",
               "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/COWL" } ] },
+        
+        { "value" : "Sec-Token-Binding",
+          "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
+          "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Sec-Token-Binding",
+          "details" : 
+          [ 
+            { "description" : "Once a client and server have negotiated the Token Binding protocol with HTTP\/1.1 or HTTP\/2, clients MUST include a Sec-Token-Binding header field in their HTTP requests and MUST include only one such header field per HTTP request. Also, the Sec-Token-Binding header field MUST NOT be included in HTTP responses.",
+              "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8473#section-2",
+              "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8473",
+              "spec-name" : "RFC 8473" } ] },
         
         { "value" : "Sec-WebSocket-Accept",
           "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
