@@ -2443,7 +2443,27 @@
             { "description" : "The X-Frame-Options HTTP header field indicates a policy that specifies whether the browser should render the transmitted resource within a <frame> or an <iframe>. Servers can declare this policy in the header of their HTTP responses to prevent clickjacking attacks, which ensures that their content is not embedded into other pages or frames.",
               "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7034#section-2",
               "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7034",
-              "spec-name" : "RFC 7034" } ] } ] },
+              "spec-name" : "RFC 7034" } ] },
+        
+        { "value" : "traceparent",
+          "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
+          "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/traceparent",
+          "details" : 
+          [ 
+            { "description" : "The traceparent header represents the incoming request in a tracing system in a common format.",
+              "documentation" : "http:\/\/www.w3.org\/TR\/distributed-tracing\/#traceparent-field",
+              "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/distributed-tracing",
+              "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/distributed-tracing" } ] },
+        
+        { "value" : "tracestate",
+          "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
+          "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/tracestate",
+          "details" : 
+          [ 
+            { "description" : "The tracestate HTTP header field conveys information about request position in multiple distributed tracing graphs.",
+              "documentation" : "http:\/\/www.w3.org\/TR\/distributed-tracing\/#tracestate-field",
+              "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/distributed-tracing",
+              "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/distributed-tracing" } ] } ] },
     
     { "concept" : "http-method",
       "id" : "http:\/\/webconcepts.info\/concepts\/http-method\/",

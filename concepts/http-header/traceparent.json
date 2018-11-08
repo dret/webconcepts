@@ -1,0 +1,10 @@
+
+  { "value" : "traceparent",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/traceparent",
+    "details" : 
+    [ 
+      { "description" : "The traceparent header represents the incoming request in a tracing system in a common format.",
+        "documentation" : "http:\/\/www.w3.org\/TR\/distributed-tracing\/#traceparent-field",
+        "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/distributed-tracing",
+        "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/distributed-tracing" } ] }
