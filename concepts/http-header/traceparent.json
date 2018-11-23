@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "The traceparent header represents the incoming request in a tracing system in a common format.",
-        "documentation" : "http:\/\/www.w3.org\/TR\/distributed-tracing\/#traceparent-field",
-        "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/distributed-tracing",
-        "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/distributed-tracing" } ] }
+        "documentation" : "http:\/\/www.w3.org\/TR\/trace-context\/#traceparent-field",
+        "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/trace-context",
+        "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/trace-context" } ] }
