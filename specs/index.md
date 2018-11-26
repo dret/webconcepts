@@ -15,5 +15,5 @@ This is a list of all organizations and their specification series (listing {% i
   * [Java Specification Request (JSR) Series](JCP/JSR/ "Series overview"): 1 Specifications
 * [Organization for the Advancement of Structured Information Standards (OASIS)](OASIS/): 4 Specifications
   * [Standard Series](OASIS/standard/ "Series overview"): 4 Specifications
-* [World Wide Web Consortium (W3C)](W3C/): 45 Specifications
-  * [Technical Report (TR) Series](W3C/TR/ "Series overview"): 45 Specifications
+* [World Wide Web Consortium (W3C)](W3C/): 46 Specifications
+  * [Technical Report (TR) Series](W3C/TR/ "Series overview"): 46 Specifications

@@ -1,0 +1,10 @@
+
+  { "value" : "intervalOverlappedBy",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/intervalOverlappedBy",
+    "details" : 
+    [ 
+      { "description" : "Refers to a resource associated with a time interval that begins before the beginning of the time interval associated with the context resource, and ends after the beginning of the time interval associated with the context resource.",
+        "documentation" : "http:\/\/www.w3.org\/TR\/owl-time\/#time:intervalOverlappedBy",
+        "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/owl-time",
+        "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/owl-time" } ] }

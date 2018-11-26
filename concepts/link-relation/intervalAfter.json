@@ -1,0 +1,10 @@
+
+  { "value" : "intervalAfter",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/intervalAfter",
+    "details" : 
+    [ 
+      { "description" : "Refers to a resource associated with a time interval that ends before the beginning of the time interval associated with the context resource.",
+        "documentation" : "http:\/\/www.w3.org\/TR\/owl-time\/#time:intervalAfter",
+        "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/owl-time",
+        "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/owl-time" } ] }

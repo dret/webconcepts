@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<service primary="W3C" secondary="TR" id="owl-time">
+    <title>Time Ontology in OWL</title>
+    <documentation source="http://www.w3.org/TR/owl-time/">OWL-Time is an OWL-2 DL ontology of temporal concepts, for describing the temporal properties of resources in the world or described in Web pages. The ontology provides a vocabulary for expressing facts about topological (ordering) relations among instants and intervals, together with information about durations, and about temporal position including date-time information. Time positions and durations may be expressed using either the conventional (Gregorian) calendar and clock, or using another temporal reference system such as Unix-time, geologic time, or different calendars.</documentation>
+    <link-relation def="intervalAfter">
+        <documentation source="http://www.w3.org/TR/owl-time/#time:intervalAfter">Refers to a resource associated with a time interval that ends before the beginning of the time interval associated with the context resource.</documentation>
+    </link-relation>
+    <link-relation def="intervalBefore">
+        <documentation source="http://www.w3.org/TR/owl-time/#time:intervalBefore">Refers to a resource associated with a time interval that begins after the end of the time interval associated with the context resource.</documentation>
+    </link-relation>
+    <link-relation def="intervalContains">
+        <documentation source="http://www.w3.org/TR/owl-time/#time:intervalContains">Refers to a resource associated with a time interval that begins after the beginning of the time interval associated with the context resource, and ends before the end of the time interval associated with the context resource.</documentation>
+    </link-relation>
+    <link-relation def="intervalDisjoint">
+        <documentation source="http://www.w3.org/TR/owl-time/#time:intervalDisjoint">Refers to a resource associated with a time interval that begins after the end of the time interval associated with the context resource, or ends before the beginning of the time interval associated with the context resource.</documentation>
+    </link-relation>
+    <link-relation def="intervalDuring">
+        <documentation source="http://www.w3.org/TR/owl-time/#time:intervalDuring">Refers to a resource associated with a time interval that begins before the beginning of the time interval associated with the context resource, and ends after the end of the time interval associated with the context resource.</documentation>
+    </link-relation>
+    <link-relation def="intervalEquals">
+        <documentation source="http://www.w3.org/TR/owl-time/#time:intervalEquals">Refers to a resource associated with a time interval whose beginning coincides with the beginning of the time interval associated with the context resource, and whose end coincides with the end of the time interval associated with the context resource.</documentation>
+    </link-relation>
+    <link-relation def="intervalFinishedBy">
+        <documentation source="http://www.w3.org/TR/owl-time/#time:intervalFinishedBy">Refers to a resource associated with a time interval that begins after the beginning of the time interval associated with the context resource, and whose end coincides with the end of the time interval associated with the context resource.</documentation>
+    </link-relation>
+    <link-relation def="intervalFinishes">
+        <documentation source="http://www.w3.org/TR/owl-time/#time:intervalFinishes">Refers to a resource associated with a time interval that begins before the beginning of the time interval associated with the context resource, and whose end coincides with the end of the time interval associated with the context resource.</documentation>
+    </link-relation>
+    <link-relation def="intervalIn">
+        <documentation source="http://www.w3.org/TR/owl-time/#time:intervalIn">refers to a resource associated with a time interval that begins before or is coincident with the beginning of the time interval associated with the context resource, and ends after or is coincident with the end of the time interval associated with the context resource.</documentation>
+    </link-relation>
+    <link-relation def="intervalMeets">
+        <documentation source="http://www.w3.org/TR/owl-time/#time:intervalMeets">Refers to a resource associated with a time interval whose beginning coincides with the end of the time interval associated with the context resource.</documentation>
+    </link-relation>
+    <link-relation def="intervalMetBy">
+        <documentation source="http://www.w3.org/TR/owl-time/#time:intervalMetBy">Refers to a resource associated with a time interval whose beginning coincides with the end of the time interval associated with the context resource.</documentation>
+    </link-relation>
+    <link-relation def="intervalOverlappedBy">
+        <documentation source="http://www.w3.org/TR/owl-time/#time:intervalOverlappedBy">Refers to a resource associated with a time interval that begins before the beginning of the time interval associated with the context resource, and ends after the beginning of the time interval associated with the context resource.</documentation>
+    </link-relation>
+    <link-relation def="intervalOverlaps">
+        <documentation source="http://www.w3.org/TR/owl-time/#time:intervalOverlaps">Refers to a resource associated with a time interval that begins before the end of the time interval associated with the context resource, and ends after the end of the time interval associated with the context resource.</documentation>
+    </link-relation>
+    <link-relation def="intervalStartedBy">
+        <documentation source="http://www.w3.org/TR/owl-time/#time:intervalStartedBy">Refers to a resource associated with a time interval whose beginning coincides with the beginning of the time interval associated with the context resource, and ends before the end of the time interval associated with the context resource.</documentation>
+    </link-relation>
+    <link-relation def="intervalStarts">
+        <documentation source="http://www.w3.org/TR/owl-time/#time:intervalStarts">Refers to a resource associated with a time interval whose beginning coincides with the beginning of the time interval associated with the context resource, and ends after the end of the time interval associated with the context resource.</documentation>
+    </link-relation>
+</service>

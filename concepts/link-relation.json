@@ -436,6 +436,156 @@
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/zyp-json-schema",
             "spec-name" : "Internet Draft zyp-json-schema" } ] },
       
+      { "value" : "intervalAfter",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/intervalAfter",
+        "details" : 
+        [ 
+          { "description" : "Refers to a resource associated with a time interval that ends before the beginning of the time interval associated with the context resource.",
+            "documentation" : "http:\/\/www.w3.org\/TR\/owl-time\/#time:intervalAfter",
+            "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/owl-time",
+            "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/owl-time" } ] },
+      
+      { "value" : "intervalBefore",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/intervalBefore",
+        "details" : 
+        [ 
+          { "description" : "Refers to a resource associated with a time interval that begins after the end of the time interval associated with the context resource.",
+            "documentation" : "http:\/\/www.w3.org\/TR\/owl-time\/#time:intervalBefore",
+            "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/owl-time",
+            "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/owl-time" } ] },
+      
+      { "value" : "intervalContains",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/intervalContains",
+        "details" : 
+        [ 
+          { "description" : "Refers to a resource associated with a time interval that begins after the beginning of the time interval associated with the context resource, and ends before the end of the time interval associated with the context resource.",
+            "documentation" : "http:\/\/www.w3.org\/TR\/owl-time\/#time:intervalContains",
+            "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/owl-time",
+            "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/owl-time" } ] },
+      
+      { "value" : "intervalDisjoint",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/intervalDisjoint",
+        "details" : 
+        [ 
+          { "description" : "Refers to a resource associated with a time interval that begins after the end of the time interval associated with the context resource, or ends before the beginning of the time interval associated with the context resource.",
+            "documentation" : "http:\/\/www.w3.org\/TR\/owl-time\/#time:intervalDisjoint",
+            "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/owl-time",
+            "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/owl-time" } ] },
+      
+      { "value" : "intervalDuring",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/intervalDuring",
+        "details" : 
+        [ 
+          { "description" : "Refers to a resource associated with a time interval that begins before the beginning of the time interval associated with the context resource, and ends after the end of the time interval associated with the context resource.",
+            "documentation" : "http:\/\/www.w3.org\/TR\/owl-time\/#time:intervalDuring",
+            "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/owl-time",
+            "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/owl-time" } ] },
+      
+      { "value" : "intervalEquals",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/intervalEquals",
+        "details" : 
+        [ 
+          { "description" : "Refers to a resource associated with a time interval whose beginning coincides with the beginning of the time interval associated with the context resource, and whose end coincides with the end of the time interval associated with the context resource.",
+            "documentation" : "http:\/\/www.w3.org\/TR\/owl-time\/#time:intervalEquals",
+            "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/owl-time",
+            "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/owl-time" } ] },
+      
+      { "value" : "intervalFinishedBy",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/intervalFinishedBy",
+        "details" : 
+        [ 
+          { "description" : "Refers to a resource associated with a time interval that begins after the beginning of the time interval associated with the context resource, and whose end coincides with the end of the time interval associated with the context resource.",
+            "documentation" : "http:\/\/www.w3.org\/TR\/owl-time\/#time:intervalFinishedBy",
+            "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/owl-time",
+            "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/owl-time" } ] },
+      
+      { "value" : "intervalFinishes",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/intervalFinishes",
+        "details" : 
+        [ 
+          { "description" : "Refers to a resource associated with a time interval that begins before the beginning of the time interval associated with the context resource, and whose end coincides with the end of the time interval associated with the context resource.",
+            "documentation" : "http:\/\/www.w3.org\/TR\/owl-time\/#time:intervalFinishes",
+            "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/owl-time",
+            "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/owl-time" } ] },
+      
+      { "value" : "intervalIn",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/intervalIn",
+        "details" : 
+        [ 
+          { "description" : "refers to a resource associated with a time interval that begins before or is coincident with the beginning of the time interval associated with the context resource, and ends after or is coincident with the end of the time interval associated with the context resource.",
+            "documentation" : "http:\/\/www.w3.org\/TR\/owl-time\/#time:intervalIn",
+            "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/owl-time",
+            "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/owl-time" } ] },
+      
+      { "value" : "intervalMeets",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/intervalMeets",
+        "details" : 
+        [ 
+          { "description" : "Refers to a resource associated with a time interval whose beginning coincides with the end of the time interval associated with the context resource.",
+            "documentation" : "http:\/\/www.w3.org\/TR\/owl-time\/#time:intervalMeets",
+            "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/owl-time",
+            "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/owl-time" } ] },
+      
+      { "value" : "intervalMetBy",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/intervalMetBy",
+        "details" : 
+        [ 
+          { "description" : "Refers to a resource associated with a time interval whose beginning coincides with the end of the time interval associated with the context resource.",
+            "documentation" : "http:\/\/www.w3.org\/TR\/owl-time\/#time:intervalMetBy",
+            "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/owl-time",
+            "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/owl-time" } ] },
+      
+      { "value" : "intervalOverlappedBy",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/intervalOverlappedBy",
+        "details" : 
+        [ 
+          { "description" : "Refers to a resource associated with a time interval that begins before the beginning of the time interval associated with the context resource, and ends after the beginning of the time interval associated with the context resource.",
+            "documentation" : "http:\/\/www.w3.org\/TR\/owl-time\/#time:intervalOverlappedBy",
+            "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/owl-time",
+            "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/owl-time" } ] },
+      
+      { "value" : "intervalOverlaps",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/intervalOverlaps",
+        "details" : 
+        [ 
+          { "description" : "Refers to a resource associated with a time interval that begins before the end of the time interval associated with the context resource, and ends after the end of the time interval associated with the context resource.",
+            "documentation" : "http:\/\/www.w3.org\/TR\/owl-time\/#time:intervalOverlaps",
+            "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/owl-time",
+            "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/owl-time" } ] },
+      
+      { "value" : "intervalStartedBy",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/intervalStartedBy",
+        "details" : 
+        [ 
+          { "description" : "Refers to a resource associated with a time interval whose beginning coincides with the beginning of the time interval associated with the context resource, and ends before the end of the time interval associated with the context resource.",
+            "documentation" : "http:\/\/www.w3.org\/TR\/owl-time\/#time:intervalStartedBy",
+            "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/owl-time",
+            "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/owl-time" } ] },
+      
+      { "value" : "intervalStarts",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/intervalStarts",
+        "details" : 
+        [ 
+          { "description" : "Refers to a resource associated with a time interval whose beginning coincides with the beginning of the time interval associated with the context resource, and ends after the end of the time interval associated with the context resource.",
+            "documentation" : "http:\/\/www.w3.org\/TR\/owl-time\/#time:intervalStarts",
+            "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/owl-time",
+            "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/owl-time" } ] },
+      
       { "value" : "inv-by",
         "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
         "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/inv-by",
