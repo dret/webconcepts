@@ -4,7 +4,7 @@
     "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/service-doc",
     "details" : 
     [ 
-      { "description" : "The \"service-doc\" link relation type is used to represent the fact that a resource is part of a bigger set of resources that are documented at a specific URI. The target resource is expected to provide documentation that is intended for human consumption.",
+      { "description" : "The \"service-doc\" link relation type is used to represent the fact that a resource is part of a bigger set of resources that are documented at a specific URI. It identifies a resource that is providing documentation that is intended for human consumption.",
         "documentation" : "http:\/\/tools.ietf.org\/html\/draft-wilde-service-link-rel#section-4.1",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/wilde-service-link-rel",
         "spec-name" : "Internet Draft wilde-service-link-rel" } ] }

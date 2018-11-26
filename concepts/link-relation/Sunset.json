@@ -4,7 +4,7 @@
     "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/sunset",
     "details" : 
     [ 
-      { "description" : "Linking to a resource providing information about a resource's or service's retirement policy and\/or information.",
+      { "description" : "Identifies a resource providing information about a resource's or service's retirement policy and\/or information.",
         "documentation" : "http:\/\/tools.ietf.org\/html\/draft-wilde-sunset-header#section-5",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/wilde-sunset-header",
         "spec-name" : "Internet Draft wilde-sunset-header" } ] }
