@@ -449,7 +449,7 @@
        "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/status" }]}},{
      "wilde-sunset-header": {
       "id": "http://webconcepts.info/specs/IETF/I-D/wilde-sunset-header",
-      "title": "The Sunset HTTP Header",
+      "title": "The Sunset HTTP Header Field",
       "name": "Internet Draft wilde-sunset-header",
       "URI": "urn:ietf:id:wilde-sunset-header",
       "URL": "http://tools.ietf.org/html/draft-wilde-sunset-header",
