@@ -971,7 +971,7 @@
         "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/service-desc",
         "details" : 
         [ 
-          { "description" : "The \"service-desc\" link relation type is used to represent the fact that a resource is part of a bigger set of resources that are described at a specific URI. It identifies service description for the context that is primarily intended for consumption by machines. Often, it is provided in a format that is consumed by tools, code libraries, or similar components.",
+          { "description" : "The \"service-desc\" link relation type is used to represent the fact that a resource or a set of resources are described at a specific URI. It identifies service description for the context that is primarily intended for consumption by machines. Often, it is provided in a format that is consumed by tools, code libraries, or similar components.",
             "documentation" : "http:\/\/tools.ietf.org\/html\/draft-wilde-service-link-rel#section-4.2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/wilde-service-link-rel",
             "spec-name" : "Internet Draft wilde-service-link-rel" } ] },
@@ -981,7 +981,7 @@
         "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/service-doc",
         "details" : 
         [ 
-          { "description" : "The \"service-doc\" link relation type is used to represent the fact that a resource is part of a bigger set of resources that are documented at a specific URI. It identifies service documentation for the context that is primarily intended for human consumption.",
+          { "description" : "The \"service-doc\" link relation type is used to represent the fact that a resource or a set of resources are documented at a specific URI. It identifies service documentation for the context that is primarily intended for human consumption.",
             "documentation" : "http:\/\/tools.ietf.org\/html\/draft-wilde-service-link-rel#section-4.1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/wilde-service-link-rel",
             "spec-name" : "Internet Draft wilde-service-link-rel" } ] },
