@@ -1,0 +1,10 @@
+
+  { "value" : "Deprecation",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Deprecation",
+    "details" : 
+    [ 
+      { "description" : "The \"Deprecation\" HTTP response header field allows a server to communicate to a client that the URI-identified resource in context of the message is deprecated.  It can also provide information that the resource is deprecated since which version.",
+        "documentation" : "http:\/\/tools.ietf.org\/html\/draft-dalal-deprecation-header#section-2",
+        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/dalal-deprecation-header",
+        "spec-name" : "Internet Draft dalal-deprecation-header" } ] }

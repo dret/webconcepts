@@ -38,6 +38,16 @@
       "concepts": [{
        "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Accept-Indefinite-Ranges" }, {
        "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Content-Range" }]}},{
+     "dalal-deprecation-header": {
+      "id": "http://webconcepts.info/specs/IETF/I-D/dalal-deprecation-header",
+      "title": "The Deprecation HTTP Header Field",
+      "name": "Internet Draft dalal-deprecation-header",
+      "URI": "urn:ietf:id:dalal-deprecation-header",
+      "URL": "http://tools.ietf.org/html/draft-dalal-deprecation-header",
+      "abstract": "The HTTP Deprecation response header field can be used to signal to consumers of a URI-identified resource that the use of the resource has been deprecated. Additionally, the deprecation link relation can be used to link to a resource that provides additional context for the deprecation, and possibly ways in which clients can find a replacement for the deprecated resource.",
+      "concepts": [{
+       "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Deprecation" }, {
+       "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/deprecation" }]}},{
      "divilly-atom-hierarchy": {
       "id": "http://webconcepts.info/specs/IETF/I-D/divilly-atom-hierarchy",
       "title": "Hierarchy Relations for Atom",
