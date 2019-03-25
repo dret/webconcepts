@@ -163,7 +163,7 @@ There are currently 180 listed specifications in the [Internet Engineering Task 
   * [Token Binding over HTTP (RFC 8473)](8473)
   * [Transparent Content Negotiation in HTTP (RFC 2295)](2295)
   * [URI Fragment Identifiers for the text/csv Media Type (RFC 7111)](7111)
-  * [URI Fragment Identifiers for the text/plain Media Type (RFC 5174)](5174)
+  * [URI Fragment Identifiers for the text/plain Media Type (RFC 5147)](5147)
   * [URI Scheme for Global System for Mobile Communications (GSM) Short Message Service (SMS) (RFC 5724)](5724)
   * [URN Namespace for IEEE (RFC 8069)](8069)
   * [Uniform Resource Locators (URL) (RFC 1738)](1738)
