@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<service primary="W3C" secondary="TR" id="feature-policy-1">
+    <title>Feature Policy</title>
+    <documentation source="http://www.w3.org/TR/feature-policy-1/">This specification defines a mechanism that allows developers to selectively enable and disable use of various browser features and APIs.</documentation>
+    <http-header def="Feature-Policy">
+        <documentation source="http://www.w3.org/TR/feature-policy-1/#feature-policy-http-header-field">The Feature-Policy HTTP header field can be used in the response (server to client) to communicate the feature policy that should be enforced by the client.</documentation>
+    </http-header>
+</service>

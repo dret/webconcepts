@@ -2811,6 +2811,15 @@
       "concepts": [{
        "http://webconcepts.info/concepts/http-content-coding/": "http://webconcepts.info/concepts/http-content-coding/exi" }, {
        "http://webconcepts.info/concepts/media-type/": "http://webconcepts.info/concepts/media-type/application/exi" }]}},{
+     "feature-policy-1": {
+      "id": "http://webconcepts.info/specs/W3C/TR/feature-policy-1",
+      "title": "Feature Policy",
+      "name": "W3C TR http://www.w3.org/TR/feature-policy-1",
+      "URI": "http://www.w3.org/TR/feature-policy-1",
+      "URL": "http://www.w3.org/TR/feature-policy-1",
+      "abstract": "This specification defines a mechanism that allows developers to selectively enable and disable use of various browser features and APIs.",
+      "concepts": [{
+       "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Feature-Policy" }]}},{
      "html": {
       "id": "http://webconcepts.info/specs/W3C/TR/html",
       "title": "Hypertext Markup Language (HTML)",

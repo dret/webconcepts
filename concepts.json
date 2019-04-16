@@ -1285,6 +1285,16 @@
               "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/2774",
               "spec-name" : "RFC 2774" } ] },
         
+        { "value" : "Feature-Policy",
+          "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
+          "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Feature-Policy",
+          "details" : 
+          [ 
+            { "description" : "The Feature-Policy HTTP header field can be used in the response (server to client) to communicate the feature policy that should be enforced by the client.",
+              "documentation" : "http:\/\/www.w3.org\/TR\/feature-policy-1\/#feature-policy-http-header-field",
+              "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/feature-policy-1",
+              "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/feature-policy-1" } ] },
+        
         { "value" : "Forwarded",
           "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
           "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Forwarded",
