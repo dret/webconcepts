@@ -1,0 +1,10 @@
+
+  { "value" : "authenticate",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/authenticate",
+    "details" : 
+    [ 
+      { "description" : "The \"authenticate\" can be used to link to a resource that hosts a page where a user can authenticate itself for the current resource.",
+        "documentation" : "http:\/\/tools.ietf.org\/html\/draft-pot-authentication-link#section-2",
+        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/draft-pot-authentication-link",
+        "spec-name" : "Internet Draft draft-pot-authentication-link" } ] }

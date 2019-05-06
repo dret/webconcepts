@@ -1,0 +1,10 @@
+
+  { "value" : "authenticated-as",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/authenticated-as",
+    "details" : 
+    [ 
+      { "description" : "The \"authenticated-as\" link refers to a resource that describes the\n            effective authenticated user for a HTTP response.",
+        "documentation" : "http:\/\/tools.ietf.org\/html\/draft-pot-authentication-link#section-3",
+        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/draft-pot-authentication-link",
+        "spec-name" : "Internet Draft draft-pot-authentication-link" } ] }

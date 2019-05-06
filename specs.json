@@ -67,6 +67,18 @@
       "abstract": "This document defines the 'payto' Uniform Resource Identifier (URI) scheme for specifying payments.",
       "concepts": [{
        "http://webconcepts.info/concepts/uri-scheme/": "http://webconcepts.info/concepts/uri-scheme/payto" }]}},{
+     "draft-pot-authentication-link": {
+      "id": "http://webconcepts.info/specs/IETF/I-D/draft-pot-authentication-link",
+      "title": "Link Relationship Types for Authentication",
+      "name": "Internet Draft draft-pot-authentication-link",
+      "URI": "urn:ietf:id:draft-pot-authentication-link",
+      "URL": "http://tools.ietf.org/html/draft-draft-pot-authentication-link",
+      "abstract": "This specification defines a set of relationships that may be used to indicate where a user may authenticate, log out, register a new account or find out who is currently authenticated.",
+      "concepts": [{
+       "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/authenticate" }, {
+       "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/authenticated-as" }, {
+       "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/logout" }, {
+       "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/register-user" }]}},{
      "drechsler-httpbis-improved-caching": {
       "id": "http://webconcepts.info/specs/IETF/I-D/drechsler-httpbis-improved-caching",
       "title": "Hypertext Transfer Protocol: Improved HTTP Caching",

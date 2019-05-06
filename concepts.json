@@ -4172,6 +4172,26 @@
               "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/html4",
               "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/html4" } ] },
         
+        { "value" : "authenticate",
+          "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+          "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/authenticate",
+          "details" : 
+          [ 
+            { "description" : "The \"authenticate\" can be used to link to a resource that hosts a page where a user can authenticate itself for the current resource.",
+              "documentation" : "http:\/\/tools.ietf.org\/html\/draft-pot-authentication-link#section-2",
+              "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/draft-pot-authentication-link",
+              "spec-name" : "Internet Draft draft-pot-authentication-link" } ] },
+        
+        { "value" : "authenticated-as",
+          "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+          "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/authenticated-as",
+          "details" : 
+          [ 
+            { "description" : "The \"authenticated-as\" link refers to a resource that describes the\n            effective authenticated user for a HTTP response.",
+              "documentation" : "http:\/\/tools.ietf.org\/html\/draft-pot-authentication-link#section-3",
+              "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/draft-pot-authentication-link",
+              "spec-name" : "Internet Draft draft-pot-authentication-link" } ] },
+        
         { "value" : "author",
           "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
           "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/author",
@@ -4812,6 +4832,16 @@
               "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/snell-more-link-relations",
               "spec-name" : "Internet Draft snell-more-link-relations" } ] },
         
+        { "value" : "logout",
+          "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+          "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/logout",
+          "details" : 
+          [ 
+            { "description" : "The \"logout\" refers to a resource where an authenticated user might end their session.",
+              "documentation" : "http:\/\/tools.ietf.org\/html\/draft-pot-authentication-link#section-4",
+              "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/draft-pot-authentication-link",
+              "spec-name" : "Internet Draft draft-pot-authentication-link" } ] },
+        
         { "value" : "lrdd",
           "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
           "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/lrdd",
@@ -5056,6 +5086,16 @@
               "documentation" : "http:\/\/www.w3.org\/TR\/indieauth\/#redirect-url",
               "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/indieauth",
               "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/indieauth" } ] },
+        
+        { "value" : "register-user",
+          "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+          "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/register-user",
+          "details" : 
+          [ 
+            { "description" : "The \"register-user\" Link Relation refers to a resource where a user might sign up for a service for the context URI.",
+              "documentation" : "http:\/\/tools.ietf.org\/html\/draft-pot-authentication-link#section-5",
+              "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/draft-pot-authentication-link",
+              "spec-name" : "Internet Draft draft-pot-authentication-link" } ] },
         
         { "value" : "related",
           "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
