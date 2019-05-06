@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<service primary="IETF" secondary="I-D" id="draft-pot-authentication-link">
+<service primary="IETF" secondary="I-D" id="pot-authentication-link">
     <title>Link Relationship Types for Authentication</title>
     <documentation source="http://tools.ietf.org/html/draft-pot-authentication-link">This specification defines a set of relationships that may be used to indicate where a user may authenticate, log out, register a new account or find out who is currently authenticated.</documentation>
     <link-relation def="authenticate">

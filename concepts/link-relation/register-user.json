@@ -6,5 +6,5 @@
     [ 
       { "description" : "The \"register-user\" Link Relation refers to a resource where a user might sign up for a service for the context URI.",
         "documentation" : "http:\/\/tools.ietf.org\/html\/draft-pot-authentication-link#section-5",
-        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/draft-pot-authentication-link",
-        "spec-name" : "Internet Draft draft-pot-authentication-link" } ] }
+        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/pot-authentication-link",
+        "spec-name" : "Internet Draft pot-authentication-link" } ] }

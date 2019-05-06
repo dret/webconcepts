@@ -29,7 +29,7 @@ There are currently 48 listed specifications in the [Internet Engineering Task F
   * [Hypertext Transfer Protocol: Improved HTTP Caching (Internet Draft drechsler-httpbis-improved-caching)](drechsler-httpbis-improved-caching)
   * [JSON Hypertext Application Language (Internet Draft kelly-json-hal)](kelly-json-hal)
   * [Link Relation Types for Web Services (Internet Draft wilde-service-link-rel)](wilde-service-link-rel)
-  * [Link Relationship Types for Authentication (Internet Draft draft-pot-authentication-link)](draft-pot-authentication-link)
+  * [Link Relationship Types for Authentication (Internet Draft pot-authentication-link)](pot-authentication-link)
   * [Linked Cache Invalidation (Internet Draft nottingham-linked-cache-inv)](nottingham-linked-cache-inv)
   * [Linkset: Media Types and a Link Relation Type for Link Sets (Internet Draft wilde-linkset)](wilde-linkset)
   * [Marking HTTP Requests as Unimportant (Internet Draft thomson-http-nice)](thomson-http-nice)
