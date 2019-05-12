@@ -4187,7 +4187,7 @@
           "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/authenticated-as",
           "details" : 
           [ 
-            { "description" : "The \"authenticated-as\" link refers to a resource that describes the\n            effective authenticated user for a HTTP response.",
+            { "description" : "The \"authenticated-as\" link refers to a resource that describes the effective authenticated user for a HTTP response.",
               "documentation" : "http:\/\/tools.ietf.org\/html\/draft-pot-authentication-link#section-3",
               "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/pot-authentication-link",
               "spec-name" : "Internet Draft pot-authentication-link" } ] },
