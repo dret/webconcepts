@@ -166,10 +166,10 @@
         "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/cite-as",
         "details" : 
         [ 
-          { "description" : "A link with the \"cite-as\" relation type indicates that the link target is preferred over the link context for the purpose of referencing.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-vandesompel-citeas#section-4",
-            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/vandesompel-citeas",
-            "spec-name" : "Internet Draft vandesompel-citeas" } ] },
+          { "description" : "A link with the \"cite-as\" relation type indicates that, for referencing the link context, use of the URI of the link target is preferred over use of the URI of the link context. It allows the resource identified by the access URI (link context) to unambiguously link to its corresponding reference URI (link target), thereby expressing that the link target is preferred over the link context for the purpose of permanent citation.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8564#section-4",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8564",
+            "spec-name" : "RFC 8564" } ] },
       
       { "value" : "collection",
         "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
