@@ -184,6 +184,6 @@ There are currently 181 listed specifications in the [Internet Engineering Task 
   * [XML Media Types (RFC 7303)](7303)
   * [XML Media Types (RFC 3023)](3023)
   * [application/rdf+xml Media Type Registration (RFC 3870)](3870)
-  * [cite-as: A Link Relation to Convey a Preferred URI for Referencing (RFC 8564)](8564)
+  * [cite-as: A Link Relation to Convey a Preferred URI for Referencing (RFC 8574)](8574)
   * [vCard Format Specification (RFC 6350)](6350)
   * [xCard: vCard XML Representation (RFC 6351)](6351)

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<service primary="IETF" secondary="RFC" id="8564">
-    <title>cite-as: A Link Relation to Convey a Preferred URI for Referencing</title>
-    <documentation source="http://tools.ietf.org/html/rfc8564">A web resource is routinely referenced by means of the URI with which it is directly accessed. But cases exist where referencing a resource by means of a different URI is preferred. This specification defines a link relation type that can be used to convey such a preference.</documentation>
-    <link-relation def="cite-as">
-        <documentation source="http://tools.ietf.org/html/rfc8564#section-4">A link with the "cite-as" relation type indicates that, for referencing the link context, use of the URI of the link target is preferred over use of the URI of the link context. It allows the resource identified by the access URI (link context) to unambiguously link to its corresponding reference URI (link target), thereby expressing that the link target is preferred over the link context for the purpose of permanent citation.</documentation>
-    </link-relation>
-</service>

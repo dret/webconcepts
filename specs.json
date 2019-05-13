@@ -2512,12 +2512,12 @@
       "concepts": [{
        "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Include-Referred-Token-Binding-ID" }, {
        "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Sec-Token-Binding" }]}},{
-     "8564": {
-      "id": "http://webconcepts.info/specs/IETF/RFC/8564",
+     "8574": {
+      "id": "http://webconcepts.info/specs/IETF/RFC/8574",
       "title": "cite-as: A Link Relation to Convey a Preferred URI for Referencing",
-      "name": "RFC 8564",
-      "URI": "urn:ietf:rfc:8564",
-      "URL": "http://tools.ietf.org/html/rfc8564",
+      "name": "RFC 8574",
+      "URI": "urn:ietf:rfc:8574",
+      "URL": "http://tools.ietf.org/html/rfc8574",
       "abstract": "A web resource is routinely referenced by means of the URI with which it is directly accessed. But cases exist where referencing a resource by means of a different URI is preferred. This specification defines a link relation type that can be used to convey such a preference.",
       "concepts": [{
        "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/cite-as" }]}}]}}]},
