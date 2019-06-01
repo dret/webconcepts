@@ -1,0 +1,22 @@
+[
+  {
+    "concept": "http-method",
+    "value": "GET"
+  },
+  {
+    "concept": "http-header",
+    "value": "Host"
+  },
+  {
+    "concept": "http-status-code",
+    "value": "200"
+  },
+  {
+    "concept": "http-header",
+    "value": "Content-Type"
+  },
+  {
+    "concept": "media-type",
+    "value": "application/json"
+  }
+]
