@@ -38,3 +38,5 @@ In summary, the proposal is very simple. The format is JSON-based and exposes an
 
 The `concept` is identified by its identifier in Web Concepts, which is a design that is already used in the [design for the JSON representation of all Web Concepts data](http://webconcepts.info/JSON). The `value` is the value of the specific concept, and once again this reuses the [design for the JSON representation of all Web Concepts data](http://webconcepts.info/JSON).
 
+The example shown above (a very minimal HTTP/1.1 example) represents an API that serves JSON for GET requests, and uses the smallest possible set of HTTP header fields. It is not a good design because it does not list any status codes for signaling problems, but it's short by design to highlight the design idea.
+
