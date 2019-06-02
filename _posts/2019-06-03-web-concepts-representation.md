@@ -40,3 +40,4 @@ The `concept` is identified by its identifier in Web Concepts, which is a design
 
 The example shown above (a very minimal HTTP/1.1 example) represents an API that serves JSON for GET requests, and uses the smallest possible set of HTTP header fields. It is not a good design because it does not list any status codes for signaling problems, but it's short by design to highlight the design idea.
 
+For more details about this design and for following the discussion and evolution of the design please [head over to the representation design space in the GitHub repo](https://github.com/dret/webconcepts/representation-design). The design shown here is likely to change because of feedback and resulting design decisions.
