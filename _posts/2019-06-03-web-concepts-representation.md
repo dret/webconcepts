@@ -10,3 +10,29 @@ On the one hand, this could be a useful starting point for better describing the
 
 Web Concepts always has been open and based on community feedback. The design of the "Web Concepts Representation" should be no different. This blog post is supposed to kick off a design discussion. An [initial proposal for the representation design is available in the GitHub repo](https://github.com/dret/webconcepts/representation-design). Please use this page (and the related GitHub issue tracker) for contributing.
 
+In summary, the proposal is very simple. The format is JSON-based and exposes an array with each concept value as an object that has the two members `concept` and `value`:
+
+```JSON
+[
+  {
+    "concept": "http-method",
+    "value": "GET"
+  },
+  {
+    "concept": "http-header",
+    "value": "Host"
+  },
+  {
+    "concept": "http-status-code",
+    "value": "200"
+  },
+  {
+    "concept": "http-header",
+    "value": "Content-Type"
+  },
+  {
+    "concept": "media-type",
+    "value": "application/json"
+  }
+]```
+
