@@ -42,3 +42,5 @@ The format is JSON-based and exposes an array with each concept value as an obje
   }
 ]
 ```
+
+The format is identified by the media type `application/webconcepts+json`.
