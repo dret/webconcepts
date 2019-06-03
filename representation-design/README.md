@@ -7,6 +7,9 @@ This space is reserved for discussing the design of a *Web Concepts Representati
 
 ## General Design idea
 
+One of the core ideas is that Web Concepts should be open and extensible. This means that while there is [a list of concepts maintained by Web Concepts itself](http://webconcepts.info/concepts/), it should be possible for users to add their own concepts.
+
+
 ## Format Design
 
 The format is JSON-based and exposes an array with each concept value as an object that has the two members `concept` and `value`:
