@@ -9,6 +9,8 @@ This space is reserved for discussing the design of a *Web Concepts Representati
 
 One of the core ideas is that Web Concepts should be open and extensible. This means that while there is [a list of concepts maintained by Web Concepts itself](http://webconcepts.info/concepts/), it should be possible for users to add their own concepts.
 
+For this to work easily, the representation mirrors the *Web Linking* specification, distinguishing between *regular strings* that refer to well-known concepts (those [defined at Web Concepts](http://webconcepts.info/concepts/), such as [`http-header`](http://webconcepts.info/http-header/)), and *URIs* which are extension concepts that anybody can add. It is recommended that these URIs resolve to useful documentation (in the same way as `http://webconcepts.info/http-header/` resolves to a description of the "HTTP header field" concept), so that anybody encountering extension concept has a chance to figure out what they mean. 
+
 
 ## Format Design
 
