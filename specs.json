@@ -326,6 +326,15 @@
        "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/authenticated-as" }, {
        "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/logout" }, {
        "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/register-user" }]}},{
+     "pot-prefer-push": {
+      "id": "http://webconcepts.info/specs/IETF/I-D/pot-prefer-push",
+      "title": "HTTP-client suggested Push Preference",
+      "name": "Internet Draft pot-prefer-push",
+      "URI": "urn:ietf:id:pot-prefer-push",
+      "URL": "http://tools.ietf.org/html/draft-pot-prefer-push",
+      "abstract": "\"Prefer-Push\" is a HTTP header that a client may use to request that a server uses HTTP/2 Push to send related resources as identified by their link relationships.",
+      "concepts": [{
+       "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Prefer-Push" }]}},{
      "pratt-httpbis-bytes-live-range-unit": {
       "id": "http://webconcepts.info/specs/IETF/I-D/pratt-httpbis-bytes-live-range-unit",
       "title": "HTTP bytes-live Range Unit for Live Content",

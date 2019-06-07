@@ -1336,6 +1336,16 @@
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7240",
             "spec-name" : "RFC 7240" } ] },
       
+      { "value" : "Prefer-Push",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Prefer-Push",
+        "details" : 
+        [ 
+          { "description" : "\"Prefer-Push\" is an HTTP header field that a client may use to request that a server uses HTTP\/2 Push to send related resources as identified by their link relationships.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-pot-prefer-push#section-3",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/pot-prefer-push",
+            "spec-name" : "Internet Draft pot-prefer-push" } ] },
+      
       { "value" : "Preference-Applied",
         "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
         "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Preference-Applied",
