@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<service primary="W3C" secondary="TR" id="fetch-metadata">
+    <title>Fetch Metadata Request Headers</title>
+    <documentation source="http://www.w3.org/TR/fetch-metadata/">This document defines a set of Fetch metadata request headers that aim to provide servers with enough information to make a priori decisions about whether or not to service a request based on the way it was made, and the context in which it will be used.</documentation>
+    <http-header def="Sec-Fetch-Dest">
+        <documentation source="http://www.w3.org/TR/fetch-metadata/#sec-fetch-dest-header">The Sec-Fetch-Dest HTTP request header exposes a request's destination to a server.</documentation>
+    </http-header>
+    <http-header def="Sec-Fetch-Mode">
+        <documentation source="http://www.w3.org/TR/fetch-metadata/#sec-fetch-mode-header">The Sec-Fetch-Mode HTTP request header exposes a request's mode to a server.</documentation>
+    </http-header>
+    <http-header def="Sec-Fetch-Site">
+        <documentation source="http://www.w3.org/TR/fetch-metadata/#sec-fetch-site-header">The Sec-Fetch-Site HTTP request header exposes the relationship between a request initiator’s origin and its target’s origin.</documentation>
+    </http-header>
+    <http-header def="Sec-Fetch-User">
+        <documentation source="http://www.w3.org/TR/fetch-metadata/#sec-fetch-user-header">The Sec-Fetch-User HTTP request header exposes whether or not a navigation request was triggered by user activation.</documentation>
+    </http-header>
+</service>

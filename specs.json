@@ -2841,6 +2841,18 @@
       "abstract": "This specification defines a mechanism that allows developers to selectively enable and disable use of various browser features and APIs.",
       "concepts": [{
        "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Feature-Policy" }]}},{
+     "fetch-metadata": {
+      "id": "http://webconcepts.info/specs/W3C/TR/fetch-metadata",
+      "title": "Fetch Metadata Request Headers",
+      "name": "W3C TR http://www.w3.org/TR/fetch-metadata",
+      "URI": "http://www.w3.org/TR/fetch-metadata",
+      "URL": "http://www.w3.org/TR/fetch-metadata",
+      "abstract": "This document defines a set of Fetch metadata request headers that aim to provide servers with enough information to make a priori decisions about whether or not to service a request based on the way it was made, and the context in which it will be used.",
+      "concepts": [{
+       "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Sec-Fetch-Dest" }, {
+       "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Sec-Fetch-Mode" }, {
+       "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Sec-Fetch-Site" }, {
+       "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Sec-Fetch-User" }]}},{
      "html": {
       "id": "http://webconcepts.info/specs/W3C/TR/html",
       "title": "Hypertext Markup Language (HTML)",

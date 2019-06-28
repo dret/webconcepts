@@ -1,0 +1,10 @@
+
+  { "value" : "Sec-Fetch-Site",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Sec-Fetch-Site",
+    "details" : 
+    [ 
+      { "description" : "The Sec-Fetch-Site HTTP request header exposes the relationship between a request initiator’s origin and its target’s origin.",
+        "documentation" : "http:\/\/www.w3.org\/TR\/fetch-metadata\/#sec-fetch-site-header",
+        "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/fetch-metadata",
+        "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/fetch-metadata" } ] }

@@ -4,7 +4,7 @@ title:       "W3C Technical Report Series"
 description: "List of specifications in the Technical Report (TR) series by the World Wide Web Consortium (W3C)"
 ---
 
-There are currently 47 listed specifications in the [World Wide Web Consortium (W3C)](..)'s Technical Report (TR) series.
+There are currently 48 listed specifications in the [World Wide Web Consortium (W3C)](..)'s Technical Report (TR) series.
 
   * [Activity Streams 2.0 (W3C TR http://www.w3.org/TR/activitystreams-core)](activitystreams-core)
   * [Clear Site Data (W3C TR http://www.w3.org/TR/clear-site-data)](clear-site-data)
@@ -19,6 +19,7 @@ There are currently 47 listed specifications in the [World Wide Web Consortium (
   * [Efficient XML Interchange (EXI) Format 1.0 (W3C TR http://www.w3.org/TR/exi)](exi)
   * [Entry Point Regulation (EPR) (W3C TR http://www.w3.org/TR/epr)](epr)
   * [Feature Policy (W3C TR http://www.w3.org/TR/feature-policy-1)](feature-policy-1)
+  * [Fetch Metadata Request Headers (W3C TR http://www.w3.org/TR/fetch-metadata)](fetch-metadata)
   * [Hypertext Markup Language (HTML) (W3C TR http://www.w3.org/TR/html)](html)
   * [Hypertext Markup Language (HTML) 4.01 Specification (W3C TR http://www.w3.org/TR/html4)](html4)
   * [IndieAuth (W3C TR http://www.w3.org/TR/indieauth)](indieauth)

@@ -1,0 +1,10 @@
+
+  { "value" : "Sec-Fetch-Mode",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Sec-Fetch-Mode",
+    "details" : 
+    [ 
+      { "description" : "The Sec-Fetch-Mode HTTP request header exposes a request's mode to a server.",
+        "documentation" : "http:\/\/www.w3.org\/TR\/fetch-metadata\/#sec-fetch-mode-header",
+        "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/fetch-metadata",
+        "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/fetch-metadata" } ] }

@@ -1556,6 +1556,46 @@
             "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/COWL",
             "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/COWL" } ] },
       
+      { "value" : "Sec-Fetch-Dest",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Sec-Fetch-Dest",
+        "details" : 
+        [ 
+          { "description" : "The Sec-Fetch-Dest HTTP request header exposes a request's destination to a server.",
+            "documentation" : "http:\/\/www.w3.org\/TR\/fetch-metadata\/#sec-fetch-dest-header",
+            "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/fetch-metadata",
+            "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/fetch-metadata" } ] },
+      
+      { "value" : "Sec-Fetch-Mode",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Sec-Fetch-Mode",
+        "details" : 
+        [ 
+          { "description" : "The Sec-Fetch-Mode HTTP request header exposes a request's mode to a server.",
+            "documentation" : "http:\/\/www.w3.org\/TR\/fetch-metadata\/#sec-fetch-mode-header",
+            "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/fetch-metadata",
+            "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/fetch-metadata" } ] },
+      
+      { "value" : "Sec-Fetch-Site",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Sec-Fetch-Site",
+        "details" : 
+        [ 
+          { "description" : "The Sec-Fetch-Site HTTP request header exposes the relationship between a request initiator’s origin and its target’s origin.",
+            "documentation" : "http:\/\/www.w3.org\/TR\/fetch-metadata\/#sec-fetch-site-header",
+            "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/fetch-metadata",
+            "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/fetch-metadata" } ] },
+      
+      { "value" : "Sec-Fetch-User",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Sec-Fetch-User",
+        "details" : 
+        [ 
+          { "description" : "The Sec-Fetch-User HTTP request header exposes whether or not a navigation request was triggered by user activation.",
+            "documentation" : "http:\/\/www.w3.org\/TR\/fetch-metadata\/#sec-fetch-user-header",
+            "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/fetch-metadata",
+            "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/fetch-metadata" } ] },
+      
       { "value" : "Sec-Token-Binding",
         "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
         "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Sec-Token-Binding",
