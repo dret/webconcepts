@@ -2529,7 +2529,16 @@
       "URL": "http://tools.ietf.org/html/rfc8574",
       "abstract": "A web resource is routinely referenced by means of the URI with which it is directly accessed. But cases exist where referencing a resource by means of a different URI is preferred. This specification defines a link relation type that can be used to convey such a preference.",
       "concepts": [{
-       "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/cite-as" }]}}]}}]},
+       "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/cite-as" }]}},{
+     "8613": {
+      "id": "http://webconcepts.info/specs/IETF/RFC/8613",
+      "title": "Object Security for Constrained RESTful Environments (OSCORE)",
+      "name": "RFC 8613",
+      "URI": "urn:ietf:rfc:8613",
+      "URL": "http://tools.ietf.org/html/rfc8613",
+      "abstract": "This document defines Object Security for Constrained RESTful Environments (OSCORE), a method for application-layer protection of the Constrained Application Protocol (CoAP), using CBOR Object Signing and Encryption (COSE). OSCORE provides end-to-end protection between endpoints communicating using CoAP or CoAP-mappable HTTP. OSCORE is designed for constrained nodes and networks supporting a range of proxy operations, including translation between different transport protocols.",
+      "concepts": [{
+       "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/OSCORE" }]}}]}}]},
  "ISO": {
   "id": "http://webconcepts.info/specs/ISO/",
   "name": "International Organization for Standardization",

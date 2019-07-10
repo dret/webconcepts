@@ -1625,6 +1625,16 @@
               "specification" : "http:\/\/webconcepts.info\/specs\/OASIS\/standard\/odata-v4.0-part1-protocol",
               "spec-name" : "OASIS Standard odata-v4.0-part1-protocol" } ] },
         
+        { "value" : "OSCORE",
+          "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
+          "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/OSCORE",
+          "details" : 
+          [ 
+            { "description" : "The HTTP OSCORE header field (see Section 13.4) is used for carrying the content of the CoAP OSCORE option when transporting OSCORE messages over HTTP hops.",
+              "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8613#section-11.1",
+              "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8613",
+              "spec-name" : "RFC 8613" } ] },
+        
         { "value" : "Opt",
           "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
           "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Opt",
