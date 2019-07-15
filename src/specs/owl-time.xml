@@ -33,7 +33,7 @@
         <documentation source="http://www.w3.org/TR/owl-time/#time:intervalMeets">Refers to a resource associated with a time interval whose beginning coincides with the end of the time interval associated with the context resource.</documentation>
     </link-relation>
     <link-relation def="intervalMetBy">
-        <documentation source="http://www.w3.org/TR/owl-time/#time:intervalMetBy">Refers to a resource associated with a time interval whose beginning coincides with the end of the time interval associated with the context resource.</documentation>
+        <documentation source="http://www.w3.org/TR/owl-time/#time:intervalMetBy">Refers to a resource associated with a time interval whose end coincides with the beginning of the time interval associated with the context resource</documentation>
     </link-relation>
     <link-relation def="intervalOverlappedBy">
         <documentation source="http://www.w3.org/TR/owl-time/#time:intervalOverlappedBy">Refers to a resource associated with a time interval that begins before the beginning of the time interval associated with the context resource, and ends after the beginning of the time interval associated with the context resource.</documentation>

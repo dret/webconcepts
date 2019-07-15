@@ -4762,7 +4762,7 @@
           "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/intervalMetBy",
           "details" : 
           [ 
-            { "description" : "Refers to a resource associated with a time interval whose beginning coincides with the end of the time interval associated with the context resource.",
+            { "description" : "Refers to a resource associated with a time interval whose end coincides with the beginning of the time interval associated with the context resource",
               "documentation" : "http:\/\/www.w3.org\/TR\/owl-time\/#time:intervalMetBy",
               "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/owl-time",
               "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/owl-time" } ] },
