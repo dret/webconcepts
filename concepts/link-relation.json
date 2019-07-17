@@ -1022,9 +1022,9 @@
         "details" : 
         [ 
           { "description" : "The \"service-desc\" link relation type is used to represent the fact that a resource or a set of resources are described at a specific URI. It identifies service description for the context that is primarily intended for consumption by machines. Often, it is provided in a format that is consumed by tools, code libraries, or similar components.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-wilde-service-link-rel#section-4.2",
-            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/wilde-service-link-rel",
-            "spec-name" : "Internet Draft wilde-service-link-rel" } ] },
+            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8631#section-4.2",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8631",
+            "spec-name" : "RFC 8631" } ] },
       
       { "value" : "service-doc",
         "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
@@ -1032,9 +1032,9 @@
         "details" : 
         [ 
           { "description" : "The \"service-doc\" link relation type is used to represent the fact that a resource or a set of resources are documented at a specific URI. It identifies service documentation for the context that is primarily intended for human consumption.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-wilde-service-link-rel#section-4.1",
-            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/wilde-service-link-rel",
-            "spec-name" : "Internet Draft wilde-service-link-rel" } ] },
+            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8631#section-4.1",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8631",
+            "spec-name" : "RFC 8631" } ] },
       
       { "value" : "service-meta",
         "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
@@ -1042,9 +1042,9 @@
         "details" : 
         [ 
           { "description" : "The \"service-meta\" link relation type is used to link to available metadata for the service context of a resource. It identifies general metadata for the context that is primarily intended for consumption by machines. In many cases, it is provided in a representation that is consumed by tools, code libraries, or similar components.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-wilde-service-link-rel#section-4.3",
-            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/wilde-service-link-rel",
-            "spec-name" : "Internet Draft wilde-service-link-rel" } ] },
+            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8631#section-4.3",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8631",
+            "spec-name" : "RFC 8631" } ] },
       
       { "value" : "source",
         "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
@@ -1072,9 +1072,9 @@
         "details" : 
         [ 
           { "description" : "Identifies a resource that represents the context's status. Such a link may not be available from all resources provided by a Web service, but from select resources such as a service's home resource.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-wilde-service-link-rel#section-5",
-            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/wilde-service-link-rel",
-            "spec-name" : "Internet Draft wilde-service-link-rel" } ] },
+            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8631#section-5",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8631",
+            "spec-name" : "RFC 8631" } ] },
       
       { "value" : "stylesheet",
         "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",

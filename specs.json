@@ -457,18 +457,6 @@
        "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/linkset" }, {
        "http://webconcepts.info/concepts/media-type/": "http://webconcepts.info/concepts/media-type/application/linkset" }, {
        "http://webconcepts.info/concepts/media-type/": "http://webconcepts.info/concepts/media-type/application/linkset+json" }]}},{
-     "wilde-service-link-rel": {
-      "id": "http://webconcepts.info/specs/IETF/I-D/wilde-service-link-rel",
-      "title": "Link Relation Types for Web Services",
-      "name": "Internet Draft wilde-service-link-rel",
-      "URI": "urn:ietf:id:wilde-service-link-rel",
-      "URL": "http://tools.ietf.org/html/draft-wilde-service-link-rel",
-      "abstract": "Many resources provided on the Web are part of sets of resources that are provided in a context that is managed by one particular service provider. Often, these sets of resources are referred to as \"Web Services\" or \"Web APIs\". This specification defines link relations for representing relationships from those resources to ones that provide documentation or descriptions of the Web services. The difference between these concepts is that documentation is primarily intended for human consumers, whereas descriptions are primarily intended for automated consumers. It also defines a link relation to identify a status resource that is used to represent operational information about a service's status.",
-      "concepts": [{
-       "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/service-desc" }, {
-       "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/service-doc" }, {
-       "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/service-meta" }, {
-       "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/status" }]}},{
      "wilde-sunset-header": {
       "id": "http://webconcepts.info/specs/IETF/I-D/wilde-sunset-header",
       "title": "The Sunset HTTP Header Field",
@@ -2538,7 +2526,19 @@
       "URL": "http://tools.ietf.org/html/rfc8613",
       "abstract": "This document defines Object Security for Constrained RESTful Environments (OSCORE), a method for application-layer protection of the Constrained Application Protocol (CoAP), using CBOR Object Signing and Encryption (COSE). OSCORE provides end-to-end protection between endpoints communicating using CoAP or CoAP-mappable HTTP. OSCORE is designed for constrained nodes and networks supporting a range of proxy operations, including translation between different transport protocols.",
       "concepts": [{
-       "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/OSCORE" }]}}]}}]},
+       "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/OSCORE" }]}},{
+     "8631": {
+      "id": "http://webconcepts.info/specs/IETF/RFC/8631",
+      "title": "Link Relation Types for Web Services",
+      "name": "RFC 8631",
+      "URI": "urn:ietf:rfc:8631",
+      "URL": "http://tools.ietf.org/html/rfc8631",
+      "abstract": "Many resources provided on the Web are part of sets of resources that are provided in a context that is managed by one particular service provider. Often, these sets of resources are referred to as \"Web services\" or \"Web APIs\". This specification defines link relations that represent relationships from Web services or APIs to resources that provide documentation, descriptions, metadata, or status information for these resources. Documentation is primarily intended for human consumers, whereas descriptions are primarily intended for automated consumers. Metadata provides information about a service's context. This specification also defines a link relation to identify status resources that are used to represent information about service status.",
+      "concepts": [{
+       "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/service-desc" }, {
+       "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/service-doc" }, {
+       "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/service-meta" }, {
+       "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/status" }]}}]}}]},
  "ISO": {
   "id": "http://webconcepts.info/specs/ISO/",
   "name": "International Organization for Standardization",

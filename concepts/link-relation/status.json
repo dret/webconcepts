@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "Identifies a resource that represents the context's status. Such a link may not be available from all resources provided by a Web service, but from select resources such as a service's home resource.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/draft-wilde-service-link-rel#section-5",
-        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/wilde-service-link-rel",
-        "spec-name" : "Internet Draft wilde-service-link-rel" } ] }
+        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8631#section-5",
+        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8631",
+        "spec-name" : "RFC 8631" } ] }
