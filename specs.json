@@ -150,6 +150,16 @@
        "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Save-Data" }, {
        "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Viewport-Width" }, {
        "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Width" }]}},{
+     "ietf-httpbis-digest-headers": {
+      "id": "http://webconcepts.info/specs/IETF/I-D/ietf-httpbis-digest-headers",
+      "title": "Resource Digests for HTTP",
+      "name": "Internet Draft ietf-httpbis-digest-headers",
+      "URI": "urn:ietf:id:ietf-httpbis-digest-headers",
+      "URL": "http://tools.ietf.org/html/draft-ietf-httpbis-digest-headers",
+      "abstract": "This document defines the Digest and Want-Digest header fields for HTTP, thus allowing client and server to negotiate an integrity checksum of the exchanged resource representation data.",
+      "concepts": [{
+       "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Digest" }, {
+       "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Want-Digest" }]}},{
      "ietf-httpbis-expect-ct": {
       "id": "http://webconcepts.info/specs/IETF/I-D/ietf-httpbis-expect-ct",
       "title": "Expect-CT Extension for HTTP",
