@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<service primary="IETF" secondary="I-D" id="polli-ratelimit-headers">
+    <title>Rate-Limit Header Fields for HTTP</title>
+    <documentation source="http://tools.ietf.org/html/draft-polli-ratelimit-headers">This document defines the RateLimit-Limit, RateLimit-Remaining, RateLimit-Reset header fields for HTTP, thus allowing servers to publish current request quotas and clients to shape their request policy and avoid being throttled out.</documentation>
+    <http-header def="RateLimit-Limit">
+        <documentation source="http://tools.ietf.org/html/draft-polli-ratelimit-headers#section-3.1">The RateLimit-Limit response header field indicates the maximum number of requests that the server allocated to the client in the current time-window.</documentation>
+    </http-header>
+    <http-header def="RateLimit-Remaining">
+        <documentation source="http://tools.ietf.org/html/draft-polli-ratelimit-headers#section-3.2">The RateLimit-Remaining response header field indicates the number of requests left for the client until the quota resets.</documentation>
+    </http-header>
+    <http-header def="RateLimit-Reset">
+        <documentation source="http://tools.ietf.org/html/draft-polli-ratelimit-headers#section-3.3">The RateLimit-Reset response header field indicates either the number of seconds until the quota resets, or the timestamp when the quota resets.</documentation>
+    </http-header>
+</service>
