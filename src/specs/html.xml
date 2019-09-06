@@ -46,7 +46,8 @@
     </link-relation>
     <link-relation def="prev">
         <documentation source="https://www.w3.org/TR/html/links.html#link-type-prev">Refers to the previous document in an ordered series of documents. Some user agents also support the synonym "Previous".</documentation>
-        <link-relation def="search">
+    </link-relation>
+    <link-relation def="search">
         <documentation source="https://www.w3.org/TR/html/links.html#link-type-search">The search keyword indicates that the referenced document provides an interface specifically for searching the document and its related resources.</documentation>
     </link-relation>
     <link-relation def="stylesheet">
