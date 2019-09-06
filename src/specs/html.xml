@@ -32,6 +32,9 @@
     <link-relation def="license">
         <documentation source="https://www.w3.org/TR/html/links.html#link-type-license">The license keyword indicates that the referenced document provides the copyright license terms under which the main content of the current document is provided.</documentation>
     </link-relation>
+    <link-relation def="next">
+        <documentation source="https://www.w3.org/TR/html/links.html#link-type-next">Refers to the next document in a linear sequence of documents. User agents may choose to preload the "next" document, to reduce the perceived load time.</documentation>
+    </link-relation>
     <link-relation def="nofollow">
         <documentation source="https://www.w3.org/TR/html/links.html#link-type-nofollow">The nofollow keyword indicates that the link is not endorsed by the original author or publisher of the page, or that the link to the referenced document was included primarily because of a commercial relationship between people affiliated with the two pages.</documentation>
     </link-relation>
@@ -41,7 +44,9 @@
     <link-relation def="noreferrer">
         <documentation source="https://www.w3.org/TR/html/links.html#link-type-noreferrer">This keyword indicates that no referrer information is to be leaked when following the link.</documentation>
     </link-relation>
-    <link-relation def="search">
+    <link-relation def="prev">
+        <documentation source="https://www.w3.org/TR/html/links.html#link-type-prev">Refers to the previous document in an ordered series of documents. Some user agents also support the synonym "Previous".</documentation>
+        <link-relation def="search">
         <documentation source="https://www.w3.org/TR/html/links.html#link-type-search">The search keyword indicates that the referenced document provides an interface specifically for searching the document and its related resources.</documentation>
     </link-relation>
     <link-relation def="stylesheet">
@@ -49,11 +54,5 @@
     </link-relation>
     <link-relation def="tag">
         <documentation source="https://www.w3.org/TR/html/links.html#link-type-tag">The tag keyword indicates that the tag that the referenced document represents applies to the current document.</documentation>
-    </link-relation>
-    <link-relation def="next">
-        <documentation source="https://www.w3.org/TR/html/links.html#link-type-next">Refers to the next document in a linear sequence of documents. User agents may choose to preload the "next" document, to reduce the perceived load time.</documentation>
-    </link-relation>
-    <link-relation def="prev">
-        <documentation source="https://www.w3.org/TR/html/links.html#link-type-prev">Refers to the previous document in an ordered series of documents. Some user agents also support the synonym "Previous".</documentation>
     </link-relation>
 </service>
