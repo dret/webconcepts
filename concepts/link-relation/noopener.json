@@ -1,0 +1,10 @@
+
+  { "value" : "noopener",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/noopener",
+    "details" : 
+    [ 
+      { "description" : "Requires that any browsing context created by following the hyperlink to disown its opener.",
+        "documentation" : "https:\/\/www.w3.org\/TR\/html\/links.html#link-type-nofollow",
+        "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/html",
+        "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/html" } ] }

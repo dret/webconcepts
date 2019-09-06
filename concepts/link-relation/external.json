@@ -1,0 +1,10 @@
+
+  { "value" : "external",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/external",
+    "details" : 
+    [ 
+      { "description" : "Indicates that the referenced document is not part of the same site as the current document.",
+        "documentation" : "https:\/\/www.w3.org\/TR\/html\/links.html#link-type-external",
+        "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/html",
+        "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/html" } ] }

@@ -324,6 +324,17 @@
        "http://webconcepts.info/concepts/http-cache-directive/": "http://webconcepts.info/concepts/http-cache-directive/inv-maxage" }, {
        "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/inv-by" }, {
        "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/invalidates" }]}},{
+     "polli-ratelimit-headers": {
+      "id": "http://webconcepts.info/specs/IETF/I-D/polli-ratelimit-headers",
+      "title": "Rate-Limit Header Fields for HTTP",
+      "name": "Internet Draft polli-ratelimit-headers",
+      "URI": "urn:ietf:id:polli-ratelimit-headers",
+      "URL": "http://tools.ietf.org/html/draft-polli-ratelimit-headers",
+      "abstract": "This document defines the RateLimit-Limit, RateLimit-Remaining, RateLimit-Reset header fields for HTTP, thus allowing servers to publish current request quotas and clients to shape their request policy and avoid being throttled out.",
+      "concepts": [{
+       "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/RateLimit-Limit" }, {
+       "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/RateLimit-Remaining" }, {
+       "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/RateLimit-Reset" }]}},{
      "pot-authentication-link": {
       "id": "http://webconcepts.info/specs/IETF/I-D/pot-authentication-link",
       "title": "Link Relationship Types for Authentication",
@@ -2878,16 +2889,18 @@
       "name": "W3C TR http://www.w3.org/TR/html",
       "URI": "http://www.w3.org/TR/html",
       "URL": "http://www.w3.org/TR/html",
-      "abstract": "This specification defines the 5th major version, first minor revision of the core language of the World Wide Web: the Hypertext Markup Language (HTML). In this version, new features continue to be introduced to help Web application authors, new elements continue to be introduced based on research into prevailing authoring practices, and special attention continues to be given to defining clear conformance criteria for user agents in an effort to improve interoperability.",
+      "abstract": "This specification defines the 5th major version, second minor revision of the core language of the World Wide Web: the Hypertext Markup Language (HTML). In this version, new features continue to be introduced to help Web application authors, new elements continue to be introduced based on research into prevailing authoring practices, and special attention continues to be given to defining clear conformance criteria for user agents in an effort to improve interoperability.",
       "concepts": [{
        "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/alternate" }, {
        "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/author" }, {
        "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/bookmark" }, {
+       "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/external" }, {
        "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/help" }, {
        "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/icon" }, {
        "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/license" }, {
        "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/next" }, {
        "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/nofollow" }, {
+       "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/noopener" }, {
        "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/noreferrer" }, {
        "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/prev" }, {
        "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/search" }, {

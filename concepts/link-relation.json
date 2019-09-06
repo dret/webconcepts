@@ -346,6 +346,16 @@
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/4287",
             "spec-name" : "RFC 4287" } ] },
       
+      { "value" : "external",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/external",
+        "details" : 
+        [ 
+          { "description" : "Indicates that the referenced document is not part of the same site as the current document.",
+            "documentation" : "https:\/\/www.w3.org\/TR\/html\/links.html#link-type-external",
+            "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/html",
+            "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/html" } ] },
+      
       { "value" : "first",
         "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
         "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/first",
@@ -792,6 +802,16 @@
         "details" : 
         [ 
           { "description" : "The nofollow keyword indicates that the link is not endorsed by the original author or publisher of the page, or that the link to the referenced document was included primarily because of a commercial relationship between people affiliated with the two pages.",
+            "documentation" : "https:\/\/www.w3.org\/TR\/html\/links.html#link-type-nofollow",
+            "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/html",
+            "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/html" } ] },
+      
+      { "value" : "noopener",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/noopener",
+        "details" : 
+        [ 
+          { "description" : "Requires that any browsing context created by following the hyperlink to disown its opener.",
             "documentation" : "https:\/\/www.w3.org\/TR\/html\/links.html#link-type-nofollow",
             "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/html",
             "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/html" } ] },

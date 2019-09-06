@@ -8,8 +8,8 @@ This is a list of all organizations and their specification series (listing {% i
 
 * [International Organization for Standardization (ISO)](ISO/): 3 Specifications
   * [International Electrotechnical Commission (IEC) Series](ISO/IEC/ "Series overview"): 3 Specifications
-* [Internet Engineering Task Force (IETF)](IETF/): 231 Specifications
-  * [Internet Draft (I-D) Series](IETF/I-D/ "Series overview"): 48 Specifications
+* [Internet Engineering Task Force (IETF)](IETF/): 232 Specifications
+  * [Internet Draft (I-D) Series](IETF/I-D/ "Series overview"): 49 Specifications
   * [Request for Comments (RFC) Series](IETF/RFC/ "Series overview"): 183 Specifications
 * [Java Community Process (JCP)](JCP/): 1 Specifications
   * [Java Specification Request (JSR) Series](JCP/JSR/ "Series overview"): 1 Specifications

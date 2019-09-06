@@ -1,0 +1,10 @@
+
+  { "value" : "RateLimit-Reset",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/RateLimit-Reset",
+    "details" : 
+    [ 
+      { "description" : "The RateLimit-Reset response header field indicates either the number of seconds until the quota resets, or the timestamp when the quota resets.",
+        "documentation" : "http:\/\/tools.ietf.org\/html\/draft-polli-ratelimit-headers#section-3.3",
+        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/polli-ratelimit-headers",
+        "spec-name" : "Internet Draft polli-ratelimit-headers" } ] }
