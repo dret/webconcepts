@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <service primary="W3C" secondary="TR" id="html">
     <title>Hypertext Markup Language (HTML)</title>
-    <documentation source="http://www.w3.org/TR/html">This specification defines the 5th major version, first minor revision of the core language of the World Wide Web: the Hypertext Markup Language (HTML). In this version, new features continue to be introduced to help Web application authors, new elements continue to be introduced based on research into prevailing authoring practices, and special attention continues to be given to defining clear conformance criteria for user agents in an effort to improve interoperability.</documentation>
+    <documentation source="http://www.w3.org/TR/html">This specification defines the 5th major version, second minor revision of the core language of the World Wide Web: the Hypertext Markup Language (HTML). In this version, new features continue to be introduced to help Web application authors, new elements continue to be introduced based on research into prevailing authoring practices, and special attention continues to be given to defining clear conformance criteria for user agents in an effort to improve interoperability.</documentation>
     <media-type def="text/html">
         <documentation source="https://www.w3.org/TR/html/introduction.html#html-vs-xhtml">This specification defines an abstract language for describing documents and applications, and some APIs for interacting with in-memory representations of resources that use this language. The first such concrete syntax is the HTML syntax. This is the format suggested for most authors. It is compatible with most legacy Web browsers. This specification defines the latest version of the HTML syntax, known as "HTML 5.1".</documentation>
     </media-type>
@@ -20,6 +20,9 @@
     <link-relation def="bookmark">
         <documentation source="https://www.w3.org/TR/html/links.html#link-type-bookmark">The bookmark keyword gives a permalink for the nearest ancestor article element of the linking element in question, or of the section the linking element is most closely associated with, if there are no ancestor article elements.</documentation>
     </link-relation>
+    <link-relation def="external">
+        <documentation source="https://www.w3.org/TR/html/links.html#link-type-external">Indicates that the referenced document is not part of the same site as the current document.</documentation>
+    </link-relation>
     <link-relation def="help">
         <documentation source="https://www.w3.org/TR/html/links.html#link-type-help">The help keyword indicates that the referenced document provides help for the page as a whole.</documentation>
     </link-relation>
@@ -31,6 +34,9 @@
     </link-relation>
     <link-relation def="nofollow">
         <documentation source="https://www.w3.org/TR/html/links.html#link-type-nofollow">The nofollow keyword indicates that the link is not endorsed by the original author or publisher of the page, or that the link to the referenced document was included primarily because of a commercial relationship between people affiliated with the two pages.</documentation>
+    </link-relation>
+    <link-relation def="noopener">
+        <documentation source="https://www.w3.org/TR/html/links.html#link-type-nofollow">Requires that any browsing context created by following the hyperlink to disown its opener.</documentation>
     </link-relation>
     <link-relation def="noreferrer">
         <documentation source="https://www.w3.org/TR/html/links.html#link-type-noreferrer">This keyword indicates that no referrer information is to be leaked when following the link.</documentation>
