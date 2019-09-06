@@ -6,6 +6,16 @@
     "registry" : "http:\/\/www.iana.org\/assignments\/link-relations\/link-relations.xhtml",
     "values" : 
     [ 
+      { "value" : "P3Pv1",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/P3Pv1",
+        "details" : 
+        [ 
+          { "description" : "Servers MAY serve HTML content with embedded link tags that indicate the location of the relevant P3P policy reference file.",
+            "documentation" : "http:\/\/www.w3.org\/TR\/P3P\/#syntax_link",
+            "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/P3P",
+            "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/P3P" } ] },
+      
       { "value" : "about",
         "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
         "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/about",

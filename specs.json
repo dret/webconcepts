@@ -2709,7 +2709,8 @@
       "URL": "http://www.w3.org/TR/P3P",
       "abstract": "This is the specification of the Platform for Privacy Preferences (P3P). This document, along with its normative references, includes all the specification necessary for the implementation of interoperable P3P applications.",
       "concepts": [{
-       "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/P3P" }]}},{
+       "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/P3P" }, {
+       "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/P3Pv1" }]}},{
      "PNG": {
       "id": "http://webconcepts.info/specs/W3C/TR/PNG",
       "title": "Portable Network Graphics",
