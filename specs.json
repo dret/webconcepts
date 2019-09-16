@@ -478,16 +478,6 @@
        "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/linkset" }, {
        "http://webconcepts.info/concepts/media-type/": "http://webconcepts.info/concepts/media-type/application/linkset" }, {
        "http://webconcepts.info/concepts/media-type/": "http://webconcepts.info/concepts/media-type/application/linkset+json" }]}},{
-     "wilde-sunset-header": {
-      "id": "http://webconcepts.info/specs/IETF/I-D/wilde-sunset-header",
-      "title": "The Sunset HTTP Header Field",
-      "name": "Internet Draft wilde-sunset-header",
-      "URI": "urn:ietf:id:wilde-sunset-header",
-      "URL": "http://tools.ietf.org/html/draft-wilde-sunset-header",
-      "abstract": "This specification defines the Sunset HTTP response header field, which indicates that a URI is likely to become unresponsive at a specified point in the future. It also defines a sunset link relation type that allows linking to resources providing information about an upcoming resource or service sunset.",
-      "concepts": [{
-       "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Sunset" }, {
-       "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/sunset" }]}},{
      "zyp-json-schema": {
       "id": "http://webconcepts.info/specs/IETF/I-D/zyp-json-schema",
       "title": "A JSON Media Type for Describing the Structure and Meaning of JSON Documents",
@@ -2539,6 +2529,16 @@
       "abstract": "A web resource is routinely referenced by means of the URI with which it is directly accessed. But cases exist where referencing a resource by means of a different URI is preferred. This specification defines a link relation type that can be used to convey such a preference.",
       "concepts": [{
        "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/cite-as" }]}},{
+     "8594": {
+      "id": "http://webconcepts.info/specs/IETF/RFC/8594",
+      "title": "The Sunset HTTP Header Field",
+      "name": "RFC 8594",
+      "URI": "urn:ietf:rfc:8594",
+      "URL": "http://tools.ietf.org/html/rfc8594",
+      "abstract": "This specification defines the Sunset HTTP response header field, which indicates that a URI is likely to become unresponsive at a specified point in the future. It also defines a sunset link relation type that allows linking to resources providing information about an upcoming resource or service sunset.",
+      "concepts": [{
+       "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Sunset" }, {
+       "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/sunset" }]}},{
      "8613": {
       "id": "http://webconcepts.info/specs/IETF/RFC/8613",
       "title": "Object Security for Constrained RESTful Environments (OSCORE)",

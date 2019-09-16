@@ -1842,9 +1842,9 @@
         "details" : 
         [ 
           { "description" : "The Sunset HTTP response header field allows a server to communicate the fact that a resource is expected to become unresponsive at a specific point in time. It provides information for clients which they can use to control their usage of the resource. The Sunset header contains a single timestamp which advertises the point in time when the resource is expected to become unresponsive.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-wilde-sunset-header#section-3",
-            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/wilde-sunset-header",
-            "spec-name" : "Internet Draft wilde-sunset-header" } ] },
+            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8594#section-3",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8594",
+            "spec-name" : "RFC 8594" } ] },
       
       { "value" : "Surrogate-Capability",
         "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
