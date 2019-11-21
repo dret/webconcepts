@@ -4,7 +4,7 @@
     "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Accept-CH",
     "details" : 
     [ 
-      { "description" : "Servers can advertise support for Client Hints using the Accept-CH header field or an equivalent HTML meta element with http-equiv attribute.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-httpbis-client-hints#section-2.2.1",
+      { "description" : "The Accept-CH response header field or the equivalent HTML meta element with http-equiv attribute (HTML5) indicate server support for particular hints indicated in its value.",
+        "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-httpbis-client-hints#section-3.1",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpbis-client-hints",
         "spec-name" : "Internet Draft ietf-httpbis-client-hints" } ] }

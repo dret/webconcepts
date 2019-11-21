@@ -4,10 +4,10 @@ permalink:     "/concepts/http-header/Accept-CH"
 title:         "HTTP Header Field: Accept-CH"
 concept-name:  HTTP Header Field
 concept-value: Accept-CH
-description: "Servers can advertise support for Client Hints using the Accept-CH header field or an equivalent HTML meta element with http-equiv attribute."
+description: "The Accept-CH response header field or the equivalent HTML meta element with http-equiv attribute (HTML5) indicate server support for particular hints indicated in its value."
 ---
 
-[Servers can advertise support for Client Hints using the Accept-CH header field or an equivalent HTML meta element with http-equiv attribute.](http://tools.ietf.org/html/draft-ietf-httpbis-client-hints#section-2.2.1 "Read documentation for HTTP Header Field &#34;Accept-CH&#34;") (**[Internet Draft ietf-httpbis-client-hints: HTTP Client Hints](/specs/IETF/I-D/ietf-httpbis-client-hints "An increasing diversity of Web-connected devices and software capabilities has created a need to deliver optimized content for each device. This specification defines a set of HTTP request header fields, colloquially known as Client Hints, to address this. They are intended to be used as input to proactive content negotiation; just as the Accept header allows clients to indicate what formats they prefer, Client Hints allow clients to indicate a list of device and agent specific preferences.")**)
+[The Accept-CH response header field or the equivalent HTML meta element with http-equiv attribute (HTML5) indicate server support for particular hints indicated in its value.](http://tools.ietf.org/html/draft-ietf-httpbis-client-hints#section-3.1 "Read documentation for HTTP Header Field &#34;Accept-CH&#34;") (**[Internet Draft ietf-httpbis-client-hints: HTTP Client Hints](/specs/IETF/I-D/ietf-httpbis-client-hints "HTTP defines proactive content negotiation to allow servers to select the appropriate response for a given request, based upon the user agent's characteristics, as expressed in request headers. In practice, clients are often unwilling to send those request headers, because it is not clear whether they will be used, and sending them impacts both performance and privacy. This document defines an Accept-CH response header that servers can use to advertise their use of request headers for proactive content negotiation, along with a set of guidelines for the creation of such headers, colloquially known as &#34;Client Hints.&#34;")**)
 
 <br/>
 <hr/>
