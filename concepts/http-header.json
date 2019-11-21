@@ -416,6 +416,16 @@
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/drechsler-httpbis-improved-caching",
             "spec-name" : "Internet Draft drechsler-httpbis-improved-caching" } ] },
       
+      { "value" : "Cache-Status",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Cache-Status",
+        "details" : 
+        [ 
+          { "description" : "The Cache-Status HTTP response header indicates caches' handling of the request corresponding to the response it occurs within.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-httpbis-cache-header#section-2",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpbis-cache-header",
+            "spec-name" : "Internet Draft ietf-httpbis-cache-header" } ] },
+      
       { "value" : "Cal-Managed-ID",
         "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
         "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Cal-Managed-ID",
