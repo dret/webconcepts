@@ -1,0 +1,8 @@
+
+  { "concept" : "http-hash-alg",
+    "id" : "http:\/\/webconcepts.info\/concepts\/http-hash-alg\/",
+    "name-singular" : "Hash Algorithm for HTTP Digest Authentication",
+    "name-plural" : "Hash Algorithms for HTTP Digest Authentication",
+    "registry" : "https:\/\/www.iana.org\/assignments\/http-dig-alg\/http-dig-alg.xhtml#hash-alg",
+    "values" : 
+    [  ] }

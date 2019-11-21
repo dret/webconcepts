@@ -176,4 +176,14 @@
         <title-plural>HTTP/2 Frame Types</title-plural>
         <iana-registry>https://www.iana.org/assignments/http2-parameters/http2-parameters.xhtml#frame-type</iana-registry>
     </concept>
+    <concept id="http-dig-alg">
+        <title-singular>HTTP Digest Algorithm Value</title-singular>
+        <title-plural>HTTP Digest Algorithm Values</title-plural>
+        <iana-registry>https://www.iana.org/assignments/http-dig-alg/http-dig-alg.xhtml#http-dig-alg-1</iana-registry>
+    </concept>
+    <concept id="http-hash-alg">
+        <title-singular>Hash Algorithm for HTTP Digest Authentication</title-singular>
+        <title-plural>Hash Algorithms for HTTP Digest Authentication</title-plural>
+        <iana-registry>https://www.iana.org/assignments/http-dig-alg/http-dig-alg.xhtml#hash-alg</iana-registry>
+    </concept>
 </concepts>

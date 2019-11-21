@@ -381,6 +381,14 @@
               "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7230",
               "spec-name" : "RFC 7230" } ] } ] },
     
+    { "concept" : "http-dig-alg",
+      "id" : "http:\/\/webconcepts.info\/concepts\/http-dig-alg\/",
+      "name-singular" : "HTTP Digest Algorithm Value",
+      "name-plural" : "HTTP Digest Algorithm Values",
+      "registry" : "https:\/\/www.iana.org\/assignments\/http-dig-alg\/http-dig-alg.xhtml#http-dig-alg-1",
+      "values" : 
+      [  ] },
+    
     { "concept" : "http-forwarded-parameter",
       "id" : "http:\/\/webconcepts.info\/concepts\/http-forwarded-parameter\/",
       "name-singular" : "HTTP Forwarded Parameter",
@@ -427,6 +435,14 @@
               "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7239#section-5.4",
               "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7239",
               "spec-name" : "RFC 7239" } ] } ] },
+    
+    { "concept" : "http-hash-alg",
+      "id" : "http:\/\/webconcepts.info\/concepts\/http-hash-alg\/",
+      "name-singular" : "Hash Algorithm for HTTP Digest Authentication",
+      "name-plural" : "Hash Algorithms for HTTP Digest Authentication",
+      "registry" : "https:\/\/www.iana.org\/assignments\/http-dig-alg\/http-dig-alg.xhtml#hash-alg",
+      "values" : 
+      [  ] },
     
     { "concept" : "http-header",
       "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/",

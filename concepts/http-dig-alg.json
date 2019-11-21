@@ -1,0 +1,8 @@
+
+  { "concept" : "http-dig-alg",
+    "id" : "http:\/\/webconcepts.info\/concepts\/http-dig-alg\/",
+    "name-singular" : "HTTP Digest Algorithm Value",
+    "name-plural" : "HTTP Digest Algorithm Values",
+    "registry" : "https:\/\/www.iana.org\/assignments\/http-dig-alg\/http-dig-alg.xhtml#http-dig-alg-1",
+    "values" : 
+    [  ] }
