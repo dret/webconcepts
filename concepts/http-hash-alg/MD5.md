@@ -1,0 +1,16 @@
+---
+layout:        concept
+permalink:     "/concepts/http-hash-alg/MD5"
+title:         "Hash Algorithm for HTTP Digest Authentication: MD5"
+concept-name:  Hash Algorithm for HTTP Digest Authentication
+concept-value: MD5
+description: "MD5"
+---
+
+[MD5](http://tools.ietf.org/html/rfc7616#section-6.1 "Read documentation for Hash Algorithm for HTTP Digest Authentication &#34;MD5&#34;") (**[RFC 7616: HTTP Digest Access Authentication](/specs/IETF/RFC/7616 "The Hypertext Transfer Protocol (HTTP) provides a simple challenge-response authentication mechanism that may be used by a server to challenge a client request and by a client to provide authentication information. This document defines the HTTP Digest Authentication scheme that can be used with the HTTP authentication mechanism.")**)
+
+<br/>
+<hr/>
+
+<p style="float : left"><a href="./MD5.json" title="JSON representing this particular Web Concept value">JSON</a></p>
+<p style="text-align: right">Return to list of all ( <a href="../http-hash-alg/">Hash Algorithms for HTTP Digest Authentication</a> | <a href="../">Web Concepts</a> )</p>

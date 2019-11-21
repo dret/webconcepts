@@ -2068,6 +2068,9 @@
       "abstract": "The Hypertext Transfer Protocol (HTTP) provides a simple challenge-response authentication mechanism that may be used by a server to challenge a client request and by a client to provide authentication information. This document defines the HTTP Digest Authentication scheme that can be used with the HTTP authentication mechanism.",
       "concepts": [{
        "http://webconcepts.info/concepts/http-authentication-scheme/": "http://webconcepts.info/concepts/http-authentication-scheme/Digest" }, {
+       "http://webconcepts.info/concepts/http-hash-alg/": "http://webconcepts.info/concepts/http-hash-alg/MD5" }, {
+       "http://webconcepts.info/concepts/http-hash-alg/": "http://webconcepts.info/concepts/http-hash-alg/SHA-256" }, {
+       "http://webconcepts.info/concepts/http-hash-alg/": "http://webconcepts.info/concepts/http-hash-alg/SHA-512-256" }, {
        "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Authorization" }, {
        "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/WWW-Authenticate" }]}},{
      "7617": {

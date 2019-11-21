@@ -442,7 +442,36 @@
       "name-plural" : "Hash Algorithms for HTTP Digest Authentication",
       "registry" : "https:\/\/www.iana.org\/assignments\/http-dig-alg\/http-dig-alg.xhtml#hash-alg",
       "values" : 
-      [  ] },
+      [ 
+        { "value" : "MD5",
+          "concept" : "http:\/\/webconcepts.info\/concepts\/http-hash-alg\/",
+          "id" : "http:\/\/webconcepts.info\/concepts\/http-hash-alg\/MD5",
+          "details" : 
+          [ 
+            { "description" : "MD5",
+              "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7616#section-6.1",
+              "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7616",
+              "spec-name" : "RFC 7616" } ] },
+        
+        { "value" : "SHA-256",
+          "concept" : "http:\/\/webconcepts.info\/concepts\/http-hash-alg\/",
+          "id" : "http:\/\/webconcepts.info\/concepts\/http-hash-alg\/SHA-256",
+          "details" : 
+          [ 
+            { "description" : "SHA-256",
+              "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7616#section-6.1",
+              "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7616",
+              "spec-name" : "RFC 7616" } ] },
+        
+        { "value" : "SHA-512-256",
+          "concept" : "http:\/\/webconcepts.info\/concepts\/http-hash-alg\/",
+          "id" : "http:\/\/webconcepts.info\/concepts\/http-hash-alg\/SHA-512-256",
+          "details" : 
+          [ 
+            { "description" : "SHA-512-256",
+              "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7616#section-6.1",
+              "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7616",
+              "spec-name" : "RFC 7616" } ] } ] },
     
     { "concept" : "http-header",
       "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/",

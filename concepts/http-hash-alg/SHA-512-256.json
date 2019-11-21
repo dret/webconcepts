@@ -1,0 +1,10 @@
+
+  { "value" : "SHA-512-256",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/http-hash-alg\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/http-hash-alg\/SHA-512-256",
+    "details" : 
+    [ 
+      { "description" : "SHA-512-256",
+        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7616#section-6.1",
+        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7616",
+        "spec-name" : "RFC 7616" } ] }

@@ -3,7 +3,7 @@ layout: page
 title:  "Web Concepts: Overview"
 ---
 
-This is an overview of 35 Web Concepts (with a total of 798 distinct values) that have been harvested from all [available specifications](/specs):
+This is an overview of 35 Web Concepts (with a total of 801 distinct values) that have been harvested from all [available specifications](/specs):
 
 * [HTTP Authentication Schemes](http-authentication-scheme/) (10)
 * [HTTP Cache Directives](http-cache-directive/) (16)
@@ -18,7 +18,7 @@ This is an overview of 35 Web Concepts (with a total of 798 distinct values) tha
 * [HTTP Transfer Codings](http-transfer-coding/) (7)
 * [HTTP Warn Codes](http-warn-code/) (7)
 * [HTTP/2 Frame Types](http2-frame-type/) (12)
-* [Hash Algorithms for HTTP Digest Authentication](http-hash-alg/) (0)
+* [Hash Algorithms for HTTP Digest Authentication](http-hash-alg/) (3)
 * [JSON Web Token Claims](jwt-claim/) (11)
 * [JWT Confirmation Methods](jwt-confirmation-method/) (4)
 * [Link Relations](link-relation/) (126)

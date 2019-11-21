@@ -1,0 +1,10 @@
+
+  { "value" : "MD5",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/http-hash-alg\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/http-hash-alg\/MD5",
+    "details" : 
+    [ 
+      { "description" : "MD5",
+        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7616#section-6.1",
+        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7616",
+        "spec-name" : "RFC 7616" } ] }
