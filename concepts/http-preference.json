@@ -6,6 +6,16 @@
     "registry" : "http:\/\/www.iana.org\/assignments\/http-parameters\/http-parameters.xhtml#preferences",
     "values" : 
     [ 
+      { "value" : "depth-noroot",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/http-preference\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/http-preference\/depth-noroot",
+        "details" : 
+        [ 
+          { "description" : "The \"depth-noroot\" preference indicates that the client wishes for the server to exclude the target (root) resource from processing by the HTTP method and only apply the HTTP method to the target resource's subordinate resources.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8144#section-4",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8144",
+            "spec-name" : "RFC 8144" } ] },
+      
       { "value" : "handling",
         "concept" : "http:\/\/webconcepts.info\/concepts\/http-preference\/",
         "id" : "http:\/\/webconcepts.info\/concepts\/http-preference\/handling",
