@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<service primary="IETF" secondary="RFC" id="8674">
+    <title>The "safe" HTTP Preference</title>
+    <documentation source="http://tools.ietf.org/html/rfc8674">This specification defines a preference for HTTP requests that expresses a desire to avoid objectionable content, according to the definition of that term by the origin server. This specification does not define a precise semantic for "safe". Rather, the term is interpreted by the server and within the scope of each web site that chooses to act upon this information. Support for this preference by clients and servers is optional.</documentation>
+    <http-preference def="safe">
+        <documentation source="http://tools.ietf.org/html/rfc8674#section-2">When present in a request, the safe preference indicates that the user prefers that the origin server not respond with content that is designated as objectionable, according to the origin server's definition of the concept.</documentation>
+    </http-preference>
+</service>

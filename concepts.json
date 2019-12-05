@@ -3014,6 +3014,16 @@
               "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7240",
               "spec-name" : "RFC 7240" } ] },
         
+        { "value" : "safe",
+          "concept" : "http:\/\/webconcepts.info\/concepts\/http-preference\/",
+          "id" : "http:\/\/webconcepts.info\/concepts\/http-preference\/safe",
+          "details" : 
+          [ 
+            { "description" : "When present in a request, the safe preference indicates that the user prefers that the origin server not respond with content that is designated as objectionable, according to the origin server's definition of the concept.",
+              "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8674#section-2",
+              "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8674",
+              "spec-name" : "RFC 8674" } ] },
+        
         { "value" : "wait",
           "concept" : "http:\/\/webconcepts.info\/concepts\/http-preference\/",
           "id" : "http:\/\/webconcepts.info\/concepts\/http-preference\/wait",

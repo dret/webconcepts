@@ -2565,7 +2565,16 @@
        "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/service-desc" }, {
        "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/service-doc" }, {
        "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/service-meta" }, {
-       "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/status" }]}}]}}]},
+       "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/status" }]}},{
+     "8674": {
+      "id": "http://webconcepts.info/specs/IETF/RFC/8674",
+      "title": "The \"safe\" HTTP Preference",
+      "name": "RFC 8674",
+      "URI": "urn:ietf:rfc:8674",
+      "URL": "http://tools.ietf.org/html/rfc8674",
+      "abstract": "This specification defines a preference for HTTP requests that expresses a desire to avoid objectionable content, according to the definition of that term by the origin server. This specification does not define a precise semantic for \"safe\". Rather, the term is interpreted by the server and within the scope of each web site that chooses to act upon this information. Support for this preference by clients and servers is optional.",
+      "concepts": [{
+       "http://webconcepts.info/concepts/http-preference/": "http://webconcepts.info/concepts/http-preference/safe" }]}}]}}]},
  "ISO": {
   "id": "http://webconcepts.info/specs/ISO/",
   "name": "International Organization for Standardization",
