@@ -10,8 +10,11 @@ description: "The Sunset HTTP response header field allows a server to communica
 [The Sunset HTTP response header field allows a server to communicate the fact that a resource is expected to become unresponsive at a specific point in time. It provides information for clients which they can use to control their usage of the resource. The Sunset header contains a single timestamp which advertises the point in time when the resource is expected to become unresponsive.](http://tools.ietf.org/html/rfc8594#section-3 "Read documentation for HTTP Header Field &#34;Sunset&#34;") (**[RFC 8594: The Sunset HTTP Header Field](/specs/IETF/RFC/8594 "This specification defines the Sunset HTTP response header field, which indicates that a URI is likely to become unresponsive at a specified point in the future. It also defines a sunset link relation type that allows linking to resources providing information about an upcoming resource or service sunset.")**)
 
 <br/>
+<hr/>
 
-APIs using the Sunset [HTTP Header Field](..): [API1](http://example.com), [API2](http://example.com), [API3](http://example.com), [API4](http://example.com) [API5](http://example.com), [API6](http://example.com), [API7](http://example.com)
+## APIs using the Sunset [HTTP Header Field](..)
+
+[API1](http://example.com), [API2](http://example.com), [API3](http://example.com), [API4](http://example.com) [API5](http://example.com), [API6](http://example.com), [API7](http://example.com)
 
 <br/>
 <hr/>
