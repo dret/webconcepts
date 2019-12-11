@@ -11,10 +11,11 @@ description: "The Sunset HTTP response header field allows a server to communica
 
 <br/>
 <hr/>
+<br/>
 
-## APIs using the Sunset [HTTP Header Field](..)
+### APIs using the Sunset [HTTP Header Field](..)
 
-[API1](http://example.com), [API2](http://example.com), [API3](http://example.com), [API4](http://example.com) [API5](http://example.com), [API6](http://example.com), [API7](http://example.com)
+[Customer Information](http://example.com), [Rewards Calculation](http://example.com), [Bonus Level](http://example.com), [Product Information](http://example.com), [Product Availability](http://example.com), [Shipping Cost Calculation](http://example.com), [Payment Plan Offer](http://example.com)
 
 <br/>
 <hr/>
