@@ -1105,6 +1105,16 @@
               "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/2068",
               "spec-name" : "RFC 2068" } ] },
         
+        { "value" : "Content-Warning",
+          "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
+          "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Content-Warning",
+          "details" : 
+          [ 
+            { "description" : "The Content-Warning header allows to return different kinds of warning information via HTTP.",
+              "documentation" : "http:\/\/tools.ietf.org\/html\/draft-cedik-http-warning#section-8.1",
+              "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/cedik-http-warning",
+              "spec-name" : "Internet Draft cedik-http-warning" } ] },
+        
         { "value" : "Cookie",
           "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
           "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Cookie",
@@ -1185,7 +1195,7 @@
           "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Deprecation",
           "details" : 
           [ 
-            { "description" : "The \"Deprecation\" HTTP response header field allows a server to communicate to a client that the URI-identified resource in context of the message is deprecated.  It can also provide information that the resource is deprecated since which version.",
+            { "description" : "The \"Deprecation\" HTTP response header field allows a server to communicate to a client that the URI-identified resource in context of the message is deprecated. It can also provide information that the resource is deprecated since which version.",
               "documentation" : "http:\/\/tools.ietf.org\/html\/draft-dalal-deprecation-header#section-2",
               "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/dalal-deprecation-header",
               "spec-name" : "Internet Draft dalal-deprecation-header" } ] },

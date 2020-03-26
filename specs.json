@@ -28,6 +28,15 @@
       "abstract": "When communicating over the Internet using the HTTP protocol, it can be desirable for a server or client to authenticate the sender of a particular message. It can also be desirable to ensure that the message was not tampered with during transit. This document describes a way for servers and clients to simultaneously add authentication and message integrity to HTTP messages by using a digital signature.",
       "concepts": [{
        "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Signature" }]}},{
+     "cedik-http-warning": {
+      "id": "http://webconcepts.info/specs/IETF/I-D/cedik-http-warning",
+      "title": "The Deprecation HTTP Header Field",
+      "name": "Internet Draft cedik-http-warning",
+      "URI": "urn:ietf:id:cedik-http-warning",
+      "URL": "http://tools.ietf.org/html/draft-cedik-http-warning",
+      "abstract": "This document defines a new header Content-Warning and a standard response format for representing warning information in HTTP APIs.",
+      "concepts": [{
+       "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Content-Warning" }]}},{
      "combs-http-indeterminate-range": {
       "id": "http://webconcepts.info/specs/IETF/I-D/combs-http-indeterminate-range",
       "title": "HTTP/1.1: Range Responses of Indeterminate Length",

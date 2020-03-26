@@ -11,14 +11,6 @@ description: "The Sunset HTTP response header field allows a server to communica
 
 <br/>
 <hr/>
-<br/>
-
-### APIs using the Sunset [HTTP Header Field](./)
-
-[Customer Information](http://example.com), [Rewards Calculation](http://example.com), [Bonus Level](http://example.com), [Product Information](http://example.com), [Product Availability](http://example.com), [Shipping Cost Calculation](http://example.com), [Payment Plan Offer](http://example.com)
-
-<br/>
-<hr/>
 
 <p style="float : left"><a href="./Sunset.json" title="JSON representing this particular Web Concept value">JSON</a></p>
 <p style="text-align: right">Return to list of all ( <a href="../http-header/">HTTP Header Fields</a> | <a href="../">Web Concepts</a> )</p>
