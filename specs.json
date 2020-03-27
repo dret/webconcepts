@@ -34,7 +34,7 @@
       "name": "Internet Draft cedik-http-warning",
       "URI": "urn:ietf:id:cedik-http-warning",
       "URL": "http://tools.ietf.org/html/draft-cedik-http-warning",
-      "abstract": "This document defines a new header Content-Warning and a standard response format for representing warning information in HTTP APIs.",
+      "abstract": "This document defines a new HTTP header field Content-Warning and a standard response format for representing warning information in HTTP APIs.",
       "concepts": [{
        "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Content-Warning" }]}},{
      "combs-http-indeterminate-range": {

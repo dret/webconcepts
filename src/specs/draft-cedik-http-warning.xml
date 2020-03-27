@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <service primary="IETF" secondary="I-D" id="cedik-http-warning">
     <title>The Deprecation HTTP Header Field</title>
-    <documentation source="http://tools.ietf.org/html/draft-cedik-http-warning">This document defines a new header Content-Warning and a standard response format for representing warning information in HTTP APIs.</documentation>
+    <documentation source="http://tools.ietf.org/html/draft-cedik-http-warning">This document defines a new HTTP header field Content-Warning and a standard response format for representing warning information in HTTP APIs.</documentation>
     <http-header def="Content-Warning">
         <documentation source="http://tools.ietf.org/html/draft-cedik-http-warning#section-8.1">The Content-Warning header allows to return different kinds of warning information via HTTP.</documentation>
     </http-header>
