@@ -67,15 +67,6 @@
       "concepts": [{
        "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/down" }, {
        "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/up" }]}},{
-     "dold-payto": {
-      "id": "http://webconcepts.info/specs/IETF/I-D/dold-payto",
-      "title": "The 'payto' URI scheme for payments",
-      "name": "Internet Draft dold-payto",
-      "URI": "urn:ietf:id:dold-payto",
-      "URL": "http://tools.ietf.org/html/draft-dold-payto",
-      "abstract": "This document defines the 'payto' Uniform Resource Identifier (URI) scheme for specifying payments.",
-      "concepts": [{
-       "http://webconcepts.info/concepts/uri-scheme/": "http://webconcepts.info/concepts/uri-scheme/payto" }]}},{
      "drechsler-httpbis-improved-caching": {
       "id": "http://webconcepts.info/specs/IETF/I-D/drechsler-httpbis-improved-caching",
       "title": "Hypertext Transfer Protocol: Improved HTTP Caching",
@@ -2592,7 +2583,16 @@
       "URL": "http://tools.ietf.org/html/rfc8674",
       "abstract": "This specification defines a preference for HTTP requests that expresses a desire to avoid objectionable content, according to the definition of that term by the origin server. This specification does not define a precise semantic for \"safe\". Rather, the term is interpreted by the server and within the scope of each web site that chooses to act upon this information. Support for this preference by clients and servers is optional.",
       "concepts": [{
-       "http://webconcepts.info/concepts/http-preference/": "http://webconcepts.info/concepts/http-preference/safe" }]}}]}}]},
+       "http://webconcepts.info/concepts/http-preference/": "http://webconcepts.info/concepts/http-preference/safe" }]}},{
+     "8905": {
+      "id": "http://webconcepts.info/specs/IETF/RFC/8905",
+      "title": "The 'payto' URI scheme for payments",
+      "name": "RFC 8905",
+      "URI": "urn:ietf:rfc:8905",
+      "URL": "http://tools.ietf.org/html/rfc8905",
+      "abstract": "This document defines the 'payto' Uniform Resource Identifier (URI) scheme for specifying payments.",
+      "concepts": [{
+       "http://webconcepts.info/concepts/uri-scheme/": "http://webconcepts.info/concepts/uri-scheme/payto" }]}}]}}]},
  "ISO": {
   "id": "http://webconcepts.info/specs/ISO/",
   "name": "International Organization for Standardization",
