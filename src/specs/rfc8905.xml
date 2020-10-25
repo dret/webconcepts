@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <service primary="IETF" secondary="RFC" id="8905">
     <title>The 'payto' URI scheme for payments</title>
-    <documentation source="http://tools.ietf.org/html/rfc8905">This document defines the 'payto' Uniform Resource Identifier (URI) scheme for specifying payments.</documentation>
+    <documentation source="http://tools.ietf.org/html/rfc8905">This document defines the 'payto' Uniform Resource Identifier (URI) scheme for designating targets for payments. A unified URI scheme for all payment target types allows applications to offer user interactions with URIs that represent payment targets, simplifying the introduction of new payment systems and applications.</documentation>
     <uri-scheme def="payto">
         <documentation source="http://tools.ietf.org/html/rfc8905#section-1">A 'payto' URL identifies a payment method and optionally an account identifier. Additional parameters for a payment, such as an amount or a payment reference, can be provided. The authority component of a payment URI identifies the payment method. The path component of the URI identifies the target account for a payment as interpreted by the respective payment method. The query component of the URI can provide additional parameters for a payment.</documentation>
     </uri-scheme>
