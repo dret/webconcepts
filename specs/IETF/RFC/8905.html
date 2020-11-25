@@ -1,8 +1,10 @@
 ---
 layout:      page
 title:       "The 'payto' URI scheme for payments"
-description: "This document defines the 'payto' Uniform Resource Identifier (URI) scheme for specifying
-payments."
+description: "This document defines the 'payto' Uniform Resource Identifier (URI) scheme for designating
+targets for payments. A unified URI scheme for all payment target types allows applications
+to offer user interactions with URIs that represent payment targets, simplifying the
+introduction of new payment systems and applications."
 ---
 
 <table cellpadding="5">
@@ -50,8 +52,10 @@ payments."
       <th valign="top" align="right">
          <em>Abstract:</em>
       </th>
-      <td>This document defines the 'payto' Uniform Resource Identifier (URI) scheme for specifying
-         payments.
+      <td>This document defines the 'payto' Uniform Resource Identifier (URI) scheme for designating
+         targets for payments. A unified URI scheme for all payment target types allows applications
+         to offer user interactions with URIs that represent payment targets, simplifying the
+         introduction of new payment systems and applications.
       </td>
    </tr>
 </table>
@@ -62,7 +66,7 @@ payments."
    <a href="/concepts/uri-scheme/" title="List of all URI Schemes">URI Schemes</a>
 </h3>
 <code>
-   <a href="/concepts/uri-scheme/payto" title="A 'payto' URL identifies a payment method and optionally an account identifier. Additional parameters for a payment, such as an amount or a payment reference, can be provided. The authority component of a payment URI identifies the payment method. The path component of the URI identifies the target account for a payment as interpreted by the respective payment method. The query component of the URI can provide additional parameters for a payment.">payto</a>
+   <a href="/concepts/uri-scheme/payto" title="A 'payto' URI always identifies the target of a payment. A 'payto' URI consists of a payment target type, a target identifier, and optional parameters such as an amount or a payment reference. The interpretation of the target identifier is defined by the payment target type and typically represents either a bank account or an (unsettled) transaction. A unified URI scheme for all payment target types allows applications to offer user interactions with URIs that represent payment targets, simplifying the introduction of new payment systems and applications.">payto</a>
 </code>
 <br></br>
 <hr></hr>
