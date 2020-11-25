@@ -7,7 +7,7 @@ concept-value: Content-Warning
 description: "The Content-Warning header allows to return different kinds of warning information via HTTP."
 ---
 
-[The Content-Warning header allows to return different kinds of warning information via HTTP.](http://tools.ietf.org/html/draft-cedik-http-warning#section-8.1 "Read documentation for HTTP Header Field &#34;Content-Warning&#34;") (**[Internet Draft cedik-http-warning: The Deprecation HTTP Header Field](/specs/IETF/I-D/cedik-http-warning "This document defines a new HTTP header field Content-Warning and a standard response format for representing warning information in HTTP APIs.")**)
+[The Content-Warning header allows to return different kinds of warning information via HTTP.](http://tools.ietf.org/html/draft-cedik-http-warning#section-8.1 "Read documentation for HTTP Header Field &#34;Content-Warning&#34;") (**[Internet Draft cedik-http-warning: Communicating Warning Information in HTTP APIs](/specs/IETF/I-D/cedik-http-warning "This document defines a new HTTP header field Content-Warning and a standard response format for representing warning information in HTTP APIs.")**)
 
 <br/>
 <hr/>
