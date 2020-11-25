@@ -30,7 +30,7 @@
        "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Signature" }]}},{
      "cedik-http-warning": {
       "id": "http://webconcepts.info/specs/IETF/I-D/cedik-http-warning",
-      "title": "The Deprecation HTTP Header Field",
+      "title": "Communicating Warning Information in HTTP APIs",
       "name": "Internet Draft cedik-http-warning",
       "URI": "urn:ietf:id:cedik-http-warning",
       "URL": "http://tools.ietf.org/html/draft-cedik-http-warning",
@@ -740,6 +740,15 @@
        "http://webconcepts.info/concepts/http-method/": "http://webconcepts.info/concepts/http-method/UNCHECKOUT" }, {
        "http://webconcepts.info/concepts/http-method/": "http://webconcepts.info/concepts/http-method/UPDATE" }, {
        "http://webconcepts.info/concepts/http-method/": "http://webconcepts.info/concepts/http-method/VERSION-CONTROL" }]}},{
+     "3508": {
+      "id": "http://webconcepts.info/specs/IETF/RFC/3508",
+      "title": "H.323 Uniform Resource Locator (URL) Scheme Registration",
+      "name": "RFC 3508",
+      "URI": "urn:ietf:rfc:3508",
+      "URL": "http://tools.ietf.org/html/rfc3508",
+      "abstract": "ITU-T Recommendation H.323 version 4 introduced an H.323-specific Uniform Resource Locator (URL). This document reproduces the H323-URL definition found in H.323, and is published as an RFC for ease of access and registration with the Internet Assigned Numbers Authority (IANA).",
+      "concepts": [{
+       "http://webconcepts.info/concepts/uri-scheme/": "http://webconcepts.info/concepts/uri-scheme/payto" }]}},{
      "3510": {
       "id": "http://webconcepts.info/specs/IETF/RFC/3510",
       "title": "Internet Printing Protocol/1.1: IPP URL Scheme",
@@ -2590,7 +2599,7 @@
       "name": "RFC 8905",
       "URI": "urn:ietf:rfc:8905",
       "URL": "http://tools.ietf.org/html/rfc8905",
-      "abstract": "This document defines the 'payto' Uniform Resource Identifier (URI) scheme for specifying payments.",
+      "abstract": "This document defines the 'payto' Uniform Resource Identifier (URI) scheme for designating targets for payments. A unified URI scheme for all payment target types allows applications to offer user interactions with URIs that represent payment targets, simplifying the introduction of new payment systems and applications.",
       "concepts": [{
        "http://webconcepts.info/concepts/uri-scheme/": "http://webconcepts.info/concepts/uri-scheme/payto" }]}}]}}]},
  "ISO": {
