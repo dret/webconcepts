@@ -1,0 +1,10 @@
+
+  { "value" : "h323",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/uri-scheme\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/uri-scheme\/h323",
+    "details" : 
+    [ 
+      { "description" : "The H.323 URL is intended to help an entity resolve the address of another H.323 entity, where an \"entity\" may be a user, a device, or a service. The \"user\" portion of the URL specifies an alias for the entity, without carrying any information about the location of the entity. The \"hostport\", on the other hand, is the domain name of an Endpoint, Gatekeeper, Border Element, or other functional element to which H.323 calls may be directed or for which services may be performed.",
+        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc3508##section-2",
+        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/3508",
+        "spec-name" : "RFC 3508" } ] }

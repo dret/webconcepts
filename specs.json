@@ -748,7 +748,7 @@
       "URL": "http://tools.ietf.org/html/rfc3508",
       "abstract": "ITU-T Recommendation H.323 version 4 introduced an H.323-specific Uniform Resource Locator (URL). This document reproduces the H323-URL definition found in H.323, and is published as an RFC for ease of access and registration with the Internet Assigned Numbers Authority (IANA).",
       "concepts": [{
-       "http://webconcepts.info/concepts/uri-scheme/": "http://webconcepts.info/concepts/uri-scheme/payto" }]}},{
+       "http://webconcepts.info/concepts/uri-scheme/": "http://webconcepts.info/concepts/uri-scheme/h323" }]}},{
      "3510": {
       "id": "http://webconcepts.info/specs/IETF/RFC/3510",
       "title": "Internet Printing Protocol/1.1: IPP URL Scheme",

@@ -3,7 +3,7 @@ layout: page
 title:  "Web Concepts: Overview"
 ---
 
-This is an overview of 35 Web Concepts (with a total of 804 distinct values) that have been harvested from all [available specifications](/specs):
+This is an overview of 35 Web Concepts (with a total of 805 distinct values) that have been harvested from all [available specifications](/specs):
 
 * [HTTP Authentication Schemes](http-authentication-scheme/) (10)
 * [HTTP Cache Directives](http-cache-directive/) (16)
@@ -35,7 +35,7 @@ This is an overview of 35 Web Concepts (with a total of 804 distinct values) tha
 * [PKCE Code Challenge Methods](pkce-code-challenge-method/) (2)
 * [Profile URIs](profile-uri/) (1)
 * [Structured Syntax Suffixes](structured-syntax-suffix/) (11)
-* [URI Schemes](uri-scheme/) (34)
+* [URI Schemes](uri-scheme/) (35)
 * [URN Namespaces](urn-namespace/) (14)
 * [Well-Known URIs](well-known-uri/) (21)
 * [XML Namespaces](xml-ns/) (5)
