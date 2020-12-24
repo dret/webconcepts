@@ -1196,9 +1196,9 @@
           "details" : 
           [ 
             { "description" : "The \"Deprecation\" HTTP response header field allows a server to communicate to a client that the URI-identified resource in context of the message is deprecated. It can also provide information that the resource is deprecated since which version.",
-              "documentation" : "http:\/\/tools.ietf.org\/html\/draft-dalal-deprecation-header#section-2",
-              "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/dalal-deprecation-header",
-              "spec-name" : "Internet Draft dalal-deprecation-header" } ] },
+              "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-httpapi-deprecation-header#section-2",
+              "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpapi-deprecation-header",
+              "spec-name" : "Internet Draft ietf-httpapi-deprecation-header" } ] },
         
         { "value" : "Depth",
           "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
@@ -4503,9 +4503,9 @@
           "details" : 
           [ 
             { "description" : "In addition to the Deprecation HTTP header field, the server can use links with the \"deprecation\" link relation type to communicate to the client where to find more information about deprecation of the context. This information can be in the form of documentation of the resource including details about the deprecation related aspects of the context or the deprecation policy of the context provider or both for example.",
-              "documentation" : "http:\/\/tools.ietf.org\/html\/draft-dalal-deprecation-header#section-3",
-              "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/dalal-deprecation-header",
-              "spec-name" : "Internet Draft dalal-deprecation-header" } ] },
+              "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-httpapi-deprecation-header#section-3",
+              "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpapi-deprecation-header",
+              "spec-name" : "Internet Draft ietf-httpapi-deprecation-header" } ] },
         
         { "value" : "derivedfrom",
           "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
