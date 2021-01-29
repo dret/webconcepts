@@ -832,6 +832,15 @@
       "abstract": "This specification defines a Uniform Resource Name namespace for UUIDs (Universally Unique IDentifier), also known as GUIDs (Globally Unique IDentifier). A UUID is 128 bits long, and can guarantee uniqueness across space and time. UUIDs were originally used in the Apollo Network Computing System and later in the Open Software Foundation's (OSF) Distributed Computing Environment (DCE), and then in Microsoft Windows platforms. This specification is derived from the DCE specification with the kind permission of the OSF (now known as The Open Group). Information from earlier versions of the DCE specification have been incorporated into this document.",
       "concepts": [{
        "http://webconcepts.info/concepts/urn-namespace/": "http://webconcepts.info/concepts/urn-namespace/uuid" }]}},{
+     "4151": {
+      "id": "http://webconcepts.info/specs/IETF/RFC/4151",
+      "title": "Content-ID and Message-ID Uniform Resource Locators",
+      "name": "RFC 4151",
+      "URI": "urn:ietf:rfc:4151",
+      "URL": "http://tools.ietf.org/html/rfc4151",
+      "abstract": "This document describes the \"tag\" Uniform Resource Identifier (URI) scheme. Tag URIs (also known as \"tags\") are designed to be unique across space and time while being tractable to humans. They are distinct from most other URIs in that they have no authoritative resolution mechanism. A tag may be used purely as an entity identifier. Furthermore, using tags has some advantages over the common practice of using \"http\" URIs as identifiers for non-HTTP-accessible resources.",
+      "concepts": [{
+       "http://webconcepts.info/concepts/uri-scheme/": "http://webconcepts.info/concepts/uri-scheme/tag" }]}},{
      "4180": {
       "id": "http://webconcepts.info/specs/IETF/RFC/4180",
       "title": "Common Format and MIME Type for Comma-Separated Values (CSV) Files",

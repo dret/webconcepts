@@ -7980,6 +7980,16 @@
               "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/5724",
               "spec-name" : "RFC 5724" } ] },
         
+        { "value" : "tag",
+          "concept" : "http:\/\/webconcepts.info\/concepts\/uri-scheme\/",
+          "id" : "http:\/\/webconcepts.info\/concepts\/uri-scheme\/tag",
+          "details" : 
+          [ 
+            { "description" : "A tag is a type of Uniform Resource Identifier (URI) designed to meet the following requirements: 1. Identifiers are likely to be unique across space and time, and come from a practically inexhaustible supply. 2. Identifiers are relatively convenient for humans to mint (create), read, type, remember etc. 3. No central registration is necessary, at least for holders of domain names or email addresses; and there is negligible cost to mint each new identifier. 4. The identifiers are independent of any particular resolution scheme.",
+              "documentation" : "http:\/\/tools.ietf.org\/html\/rfc4151#section-1",
+              "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/4151",
+              "spec-name" : "RFC 4151" } ] },
+        
         { "value" : "telnet",
           "concept" : "http:\/\/webconcepts.info\/concepts\/uri-scheme\/",
           "id" : "http:\/\/webconcepts.info\/concepts\/uri-scheme\/telnet",
