@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<service primary="IETF" secondary="I-D" id="zern-webp">
+    <title>WebP Image Format</title>
+    <documentation source="http://tools.ietf.org/html/draft-zern-webp">WebP is a RIFF-based image file format which supports lossless and lossy compression as well as alpha (transparency) and animation. It covers use cases similar to JPEG, PNG and GIF.</documentation>
+    <media-type def="image/webp">
+        <documentation source="http://tools.ietf.org/html/draft-zern-webp#section-1">WebP is a Resource Interchange File Format (RIFF) based image file format which supports lossless and lossy compression as well as alpha (transparency) and animation.  It covers use cases similar to JPEG, PNG and the Graphics Interchange Format (GIF).</documentation>
+    </media-type>
+</service>

@@ -481,6 +481,15 @@
        "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/linkset" }, {
        "http://webconcepts.info/concepts/media-type/": "http://webconcepts.info/concepts/media-type/application/linkset" }, {
        "http://webconcepts.info/concepts/media-type/": "http://webconcepts.info/concepts/media-type/application/linkset+json" }]}},{
+     "zern-webp": {
+      "id": "http://webconcepts.info/specs/IETF/I-D/zern-webp",
+      "title": "WebP Image Format",
+      "name": "Internet Draft zern-webp",
+      "URI": "urn:ietf:id:zern-webp",
+      "URL": "http://tools.ietf.org/html/draft-zern-webp",
+      "abstract": "WebP is a RIFF-based image file format which supports lossless and lossy compression as well as alpha (transparency) and animation. It covers use cases similar to JPEG, PNG and GIF.",
+      "concepts": [{
+       "http://webconcepts.info/concepts/media-type/": "http://webconcepts.info/concepts/media-type/image/webp" }]}},{
      "zyp-json-schema": {
       "id": "http://webconcepts.info/specs/IETF/I-D/zyp-json-schema",
       "title": "A JSON Media Type for Describing the Structure and Meaning of JSON Documents",

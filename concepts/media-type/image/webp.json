@@ -1,0 +1,10 @@
+
+  { "value" : "image\/webp",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/media-type\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/media-type\/image\/webp",
+    "details" : 
+    [ 
+      { "description" : "WebP is a Resource Interchange File Format (RIFF) based image file format which supports lossless and lossy compression as well as alpha (transparency) and animation.  It covers use cases similar to JPEG, PNG and the Graphics Interchange Format (GIF).",
+        "documentation" : "http:\/\/tools.ietf.org\/html\/draft-zern-webp#section-1",
+        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/zern-webp",
+        "spec-name" : "Internet Draft zern-webp" } ] }
