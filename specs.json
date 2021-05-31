@@ -146,6 +146,17 @@
        "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/linkset" }, {
        "http://webconcepts.info/concepts/media-type/": "http://webconcepts.info/concepts/media-type/application/linkset" }, {
        "http://webconcepts.info/concepts/media-type/": "http://webconcepts.info/concepts/media-type/application/linkset+json" }]}},{
+     "ietf-httpapi-ratelimit-headers": {
+      "id": "http://webconcepts.info/specs/IETF/I-D/ietf-httpapi-ratelimit-headers",
+      "title": "Rate-Limit Header Fields for HTTP",
+      "name": "Internet Draft ietf-httpapi-ratelimit-headers",
+      "URI": "urn:ietf:id:ietf-httpapi-ratelimit-headers",
+      "URL": "http://tools.ietf.org/html/draft-ietf-httpapi-ratelimit-headers",
+      "abstract": "This document defines the RateLimit-Limit, RateLimit-Remaining, RateLimit-Reset header fields for HTTP, thus allowing servers to publish current request quotas and clients to shape their request policy and avoid being throttled out.",
+      "concepts": [{
+       "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/RateLimit-Limit" }, {
+       "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/RateLimit-Remaining" }, {
+       "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/RateLimit-Reset" }]}},{
      "ietf-httpbis-cache-header": {
       "id": "http://webconcepts.info/specs/IETF/I-D/ietf-httpbis-cache-header",
       "title": "The Cache-Status HTTP Response Header",
@@ -338,17 +349,6 @@
        "http://webconcepts.info/concepts/http-cache-directive/": "http://webconcepts.info/concepts/http-cache-directive/inv-maxage" }, {
        "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/inv-by" }, {
        "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/invalidates" }]}},{
-     "polli-ratelimit-headers": {
-      "id": "http://webconcepts.info/specs/IETF/I-D/polli-ratelimit-headers",
-      "title": "Rate-Limit Header Fields for HTTP",
-      "name": "Internet Draft polli-ratelimit-headers",
-      "URI": "urn:ietf:id:polli-ratelimit-headers",
-      "URL": "http://tools.ietf.org/html/draft-polli-ratelimit-headers",
-      "abstract": "This document defines the RateLimit-Limit, RateLimit-Remaining, RateLimit-Reset header fields for HTTP, thus allowing servers to publish current request quotas and clients to shape their request policy and avoid being throttled out.",
-      "concepts": [{
-       "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/RateLimit-Limit" }, {
-       "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/RateLimit-Remaining" }, {
-       "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/RateLimit-Reset" }]}},{
      "pot-authentication-link": {
       "id": "http://webconcepts.info/specs/IETF/I-D/pot-authentication-link",
       "title": "Link Relationship Types for Authentication",

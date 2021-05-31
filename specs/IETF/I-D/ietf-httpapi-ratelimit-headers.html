@@ -1,0 +1,81 @@
+---
+layout:      page
+title:       "Rate-Limit Header Fields for HTTP"
+description: "This document defines the RateLimit-Limit, RateLimit-Remaining, RateLimit-Reset header
+fields for HTTP, thus allowing servers to publish current request quotas and clients
+to shape their request policy and avoid being throttled out."
+---
+
+<table cellpadding="5">
+   <tr>
+      <th valign="top" align="right">
+         <em>Document Name:</em>
+      </th>
+      <td>Internet Draft ietf-httpapi-ratelimit-headers</td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Document URI:</em>
+      </th>
+      <td>
+         <code>urn:ietf:id:ietf-httpapi-ratelimit-headers</code>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Online Version:</em>
+      </th>
+      <td>
+         <code>
+            <a href="http://tools.ietf.org/html/draft-ietf-httpapi-ratelimit-headers">http://tools.ietf.org/html/draft-ietf-httpapi-ratelimit-headers</a>
+         </code>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Organization:</em>
+      </th>
+      <td>
+         <a href="../" title="List of specification series by this organization">Internet Engineering Task Force (IETF)</a>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Series:</em>
+      </th>
+      <td>
+         <a href="./" title="List of specifications in this series">Internet Draft (I-D)</a>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Abstract:</em>
+      </th>
+      <td>This document defines the RateLimit-Limit, RateLimit-Remaining, RateLimit-Reset header
+         fields for HTTP, thus allowing servers to publish current request quotas and clients
+         to shape their request policy and avoid being throttled out.
+      </td>
+   </tr>
+</table>
+<br></br>
+<hr></hr>
+<h2 id="concepts">Specified Web Concepts:</h2>
+<h3 id="http-header">
+   <a href="/concepts/http-header/" title="List of all HTTP Header Fields">HTTP Header Fields</a>
+</h3>
+<code>
+   <a href="/concepts/http-header/RateLimit-Limit" title="The RateLimit-Limit response header field indicates the maximum number of requests that the server allocated to the client in the current time-window.">RateLimit-Limit</a>
+</code>, 
+<code>
+   <a href="/concepts/http-header/RateLimit-Remaining" title="The RateLimit-Remaining response header field indicates the number of requests left for the client until the quota resets.">RateLimit-Remaining</a>
+</code>, 
+<code>
+   <a href="/concepts/http-header/RateLimit-Reset" title="The RateLimit-Reset response header field indicates either the number of seconds until the quota resets, or the timestamp when the quota resets.">RateLimit-Reset</a>
+</code>
+<br></br>
+<hr></hr>
+<p style="text-align: right">Return to ( 
+   <a href="./">Series</a> | 
+   <a href="../">Organization</a> | 
+   <a href="../../">all Specifications</a> )
+</p>

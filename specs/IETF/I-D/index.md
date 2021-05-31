@@ -39,7 +39,7 @@ There are currently 50 listed specifications in the [Internet Engineering Task F
   * [OpenPGP Web Key Service (Internet Draft koch-openpgp-webkey-service)](koch-openpgp-webkey-service)
   * [Origin Cookies (Internet Draft west-origin-cookies)](west-origin-cookies)
   * [POST Once Exactly (POE) (Internet Draft nottingham-http-poe)](nottingham-http-poe)
-  * [Rate-Limit Header Fields for HTTP (Internet Draft polli-ratelimit-headers)](polli-ratelimit-headers)
+  * [Rate-Limit Header Fields for HTTP (Internet Draft ietf-httpapi-ratelimit-headers)](ietf-httpapi-ratelimit-headers)
   * [Representing CoRE Formats in JSON and CBOR (Internet Draft ietf-core-links-json)](ietf-core-links-json)
   * [Resource Digests for HTTP (Internet Draft ietf-httpbis-digest-headers)](ietf-httpbis-digest-headers)
   * [Signing HTTP Messages (Internet Draft cavage-http-signatures)](cavage-http-signatures)

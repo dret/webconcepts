@@ -1467,9 +1467,9 @@
         "details" : 
         [ 
           { "description" : "The RateLimit-Limit response header field indicates the maximum number of requests that the server allocated to the client in the current time-window.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-polli-ratelimit-headers#section-3.1",
-            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/polli-ratelimit-headers",
-            "spec-name" : "Internet Draft polli-ratelimit-headers" } ] },
+            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-httpapi-ratelimit-headers#section-3.1",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpapi-ratelimit-headers",
+            "spec-name" : "Internet Draft ietf-httpapi-ratelimit-headers" } ] },
       
       { "value" : "RateLimit-Remaining",
         "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
@@ -1477,9 +1477,9 @@
         "details" : 
         [ 
           { "description" : "The RateLimit-Remaining response header field indicates the number of requests left for the client until the quota resets.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-polli-ratelimit-headers#section-3.2",
-            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/polli-ratelimit-headers",
-            "spec-name" : "Internet Draft polli-ratelimit-headers" } ] },
+            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-httpapi-ratelimit-headers#section-3.2",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpapi-ratelimit-headers",
+            "spec-name" : "Internet Draft ietf-httpapi-ratelimit-headers" } ] },
       
       { "value" : "RateLimit-Reset",
         "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
@@ -1488,8 +1488,8 @@
         [ 
           { "description" : "The RateLimit-Reset response header field indicates either the number of seconds until the quota resets, or the timestamp when the quota resets.",
             "documentation" : "http:\/\/tools.ietf.org\/html\/draft-polli-ratelimit-headers#section-3.3",
-            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/polli-ratelimit-headers",
-            "spec-name" : "Internet Draft polli-ratelimit-headers" } ] },
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpapi-ratelimit-headers",
+            "spec-name" : "Internet Draft ietf-httpapi-ratelimit-headers" } ] },
       
       { "value" : "Redirect-Ref",
         "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
