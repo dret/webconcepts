@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "This document format is identical to the payload of the HTTP Link header. It is defined in Section 3 of RFC 5988bis, more specifically by its ABNF production rule for \"Link\" and subsequent ones.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/draft-wilde-linkset#section-5.1",
-        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/wilde-linkset",
-        "spec-name" : "Internet Draft wilde-linkset" } ] }
+        "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-httpapi-linkset#section-4.1",
+        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpapi-linkset",
+        "spec-name" : "Internet Draft ietf-httpapi-linkset" } ] }

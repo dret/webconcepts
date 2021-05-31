@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<service primary="IETF" secondary="I-D" id="ietf-httpapi-linkset">
+    <title>Linkset: Media Types and a Link Relation Type for Link Sets</title>
+    <documentation source="http://tools.ietf.org/html/draft-ietf-httpapi-linkset">This specification defines two document formats and respective media types for representing sets of links as stand-alone resources. One format is JSON-based, the other aligned with the format for representing links in the HTTP "Link" header field. This specification also introduces a link relation type to support discovery of sets of links.</documentation>
+    <link-relation def="linkset">
+        <documentation source="http://tools.ietf.org/html/draft-ietf-httpapi-linkset#section-5">The "linkset" link relation type is used by a resource to link to a resource that provides a set of links. Typically the Context IRI of these links  is the URI of the responding resource but links with other Context IRIs MAY be provided.</documentation>
+    </link-relation>
+    <media-type def="application/linkset">
+        <documentation source="http://tools.ietf.org/html/draft-ietf-httpapi-linkset#section-4.1">This document format is identical to the payload of the HTTP Link header. It is defined in Section 3 of RFC 5988bis, more specifically by its ABNF production rule for "Link" and subsequent ones.</documentation>
+    </media-type>
+    <media-type def="application/linkset+json">
+        <documentation source="http://tools.ietf.org/html/draft-ietf-httpapi-linkset#section-4.2">For applications that prefer a JSON serialization of link set resources, the following definition provides a JSON serialization which is intended to faithfully reproduce the abstract model of RFC 5988bis.</documentation>
+    </media-type>
+</service>

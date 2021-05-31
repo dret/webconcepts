@@ -135,6 +135,17 @@
       "concepts": [{
        "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Deprecation" }, {
        "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/deprecation" }]}},{
+     "ietf-httpapi-linkset": {
+      "id": "http://webconcepts.info/specs/IETF/I-D/ietf-httpapi-linkset",
+      "title": "Linkset: Media Types and a Link Relation Type for Link Sets",
+      "name": "Internet Draft ietf-httpapi-linkset",
+      "URI": "urn:ietf:id:ietf-httpapi-linkset",
+      "URL": "http://tools.ietf.org/html/draft-ietf-httpapi-linkset",
+      "abstract": "This specification defines two document formats and respective media types for representing sets of links as stand-alone resources. One format is JSON-based, the other aligned with the format for representing links in the HTTP \"Link\" header field. This specification also introduces a link relation type to support discovery of sets of links.",
+      "concepts": [{
+       "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/linkset" }, {
+       "http://webconcepts.info/concepts/media-type/": "http://webconcepts.info/concepts/media-type/application/linkset" }, {
+       "http://webconcepts.info/concepts/media-type/": "http://webconcepts.info/concepts/media-type/application/linkset+json" }]}},{
      "ietf-httpbis-cache-header": {
       "id": "http://webconcepts.info/specs/IETF/I-D/ietf-httpbis-cache-header",
       "title": "The Cache-Status HTTP Response Header",
@@ -470,17 +481,6 @@
       "abstract": "The specification for HTTP API Home Documents provides a JSON syntax only. This specification provides an XML syntax for the same data model, so that the concept of Home Documents can be consistently exposed in both JSON- and XML-based HTTP APIs. It also defines the link relation type \"home\" so that applications can identify links to home documents.",
       "concepts": [{
        "http://webconcepts.info/concepts/media-type/": "http://webconcepts.info/concepts/media-type/application/home+xml" }]}},{
-     "wilde-linkset": {
-      "id": "http://webconcepts.info/specs/IETF/I-D/wilde-linkset",
-      "title": "Linkset: Media Types and a Link Relation Type for Link Sets",
-      "name": "Internet Draft wilde-linkset",
-      "URI": "urn:ietf:id:wilde-linkset",
-      "URL": "http://tools.ietf.org/html/draft-wilde-linkset",
-      "abstract": "This specification defines two media types and a link relation type for sets of links. The media types can be used to represents links in a standalone fashion, in one case in the native format used in the HTTP Link header, and in the other case in a JSON-based format. The link relation can be used to reference these kind of standalone link sets, so that a resource can indicate that additional links putting it into context are available someplace else. One typical scenario is when the number of links to put in  an HTTP Link header field becomes too big, and thus these links should be provided by a distinct resource.",
-      "concepts": [{
-       "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/linkset" }, {
-       "http://webconcepts.info/concepts/media-type/": "http://webconcepts.info/concepts/media-type/application/linkset" }, {
-       "http://webconcepts.info/concepts/media-type/": "http://webconcepts.info/concepts/media-type/application/linkset+json" }]}},{
      "zern-webp": {
       "id": "http://webconcepts.info/specs/IETF/I-D/zern-webp",
       "title": "WebP Image Format",

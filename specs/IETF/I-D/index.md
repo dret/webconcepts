@@ -32,7 +32,7 @@ There are currently 50 listed specifications in the [Internet Engineering Task F
   * [JSON Hypertext Application Language (Internet Draft kelly-json-hal)](kelly-json-hal)
   * [Link Relationship Types for Authentication (Internet Draft pot-authentication-link)](pot-authentication-link)
   * [Linked Cache Invalidation (Internet Draft nottingham-linked-cache-inv)](nottingham-linked-cache-inv)
-  * [Linkset: Media Types and a Link Relation Type for Link Sets (Internet Draft wilde-linkset)](wilde-linkset)
+  * [Linkset: Media Types and a Link Relation Type for Link Sets (Internet Draft ietf-httpapi-linkset)](ietf-httpapi-linkset)
   * [Marking HTTP Requests as Unimportant (Internet Draft thomson-http-nice)](thomson-http-nice)
   * [Media Types for Sensor Measurement Lists (SenML) (Internet Draft ietf-core-senml)](ietf-core-senml)
   * [OAuth 2.0 Message Authentication Code (MAC) Tokens (Internet Draft ietf-oauth-v2-http-mac)](ietf-oauth-v2-http-mac)
