@@ -135,6 +135,15 @@
       "concepts": [{
        "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Deprecation" }, {
        "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/deprecation" }]}},{
+     "ietf-httpapi-idempotency-key-header": {
+      "id": "http://webconcepts.info/specs/IETF/I-D/ietf-httpapi-idempotency-key-header",
+      "title": "The Idempotency-Key HTTP Header Field",
+      "name": "Internet Draft ietf-httpapi-idempotency-key-header",
+      "URI": "urn:ietf:id:ietf-httpapi-idempotency-key-header",
+      "URL": "http://tools.ietf.org/html/draft-ietf-httpapi-idempotency-key-header",
+      "abstract": "The HTTP Idempotency-Key request header field can be used to carry idempotency key in order to make non-idempotent HTTP methods such as \"POST\" or \"PATCH\" fault-tolerant.",
+      "concepts": [{
+       "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Idempotency-Key" }]}},{
      "ietf-httpapi-linkset": {
       "id": "http://webconcepts.info/specs/IETF/I-D/ietf-httpapi-linkset",
       "title": "Linkset: Media Types and a Link Relation Type for Link Sets",

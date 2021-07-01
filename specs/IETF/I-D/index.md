@@ -4,7 +4,7 @@ title:       "IETF Internet Draft Series"
 description: "List of specifications in the Internet Draft (I-D) series by the Internet Engineering Task Force (IETF)"
 ---
 
-There are currently 50 listed specifications in the [Internet Engineering Task Force (IETF)](..)'s Internet Draft (I-D) series.
+There are currently 51 listed specifications in the [Internet Engineering Task Force (IETF)](..)'s Internet Draft (I-D) series.
 
   * [A JSON Media Type for Describing the Structure and Meaning of JSON Documents (Internet Draft zyp-json-schema)](zyp-json-schema)
   * [Accept-Push-Policy Header Field (Internet Draft ruellan-http-accept-push-policy)](ruellan-http-accept-push-policy)
@@ -49,6 +49,7 @@ There are currently 50 listed specifications in the [Internet Engineering Task F
   * [The Cache-Status HTTP Response Header (Internet Draft ietf-httpbis-cache-header)](ietf-httpbis-cache-header)
   * [The Deprecation HTTP Header (Internet Draft ietf-httpapi-deprecation-header)](ietf-httpapi-deprecation-header)
   * [The Hypertext Transfer Protocol (HTTP) GET-Location header (Internet Draft reschke-http-get-location)](reschke-http-get-location)
+  * [The Idempotency-Key HTTP Header Field (Internet Draft ietf-httpapi-idempotency-key-header)](ietf-httpapi-idempotency-key-header)
   * [The JavaScript Object Notation (JSON) Data Interchange Format (Internet Draft ietf-jsonbis-rfc7159bis)](ietf-jsonbis-rfc7159bis)
   * [The Key HTTP Response Header Field (Internet Draft ietf-httpbis-key)](ietf-httpbis-key)
   * [The Link-Template HTTP Header Field (Internet Draft nottingham-link-template)](nottingham-link-template)
