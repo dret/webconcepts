@@ -2704,6 +2704,18 @@
        "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/OData-EntityId" }, {
        "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/OData-Isolation" }, {
        "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/OData-MaxVersion" }]}},{
+     "repeatable-requests-v1.0": {
+      "id": "http://webconcepts.info/specs/OASIS/standard/repeatable-requests-v1.0",
+      "title": "Repeatable Requests Version 1.0",
+      "name": "OASIS Standard repeatable-requests-v1.0",
+      "URI": "urn:oasis:names:specification:repeatable-requests-v1.0",
+      "URL": "https://docs.oasis-open.org/odata/repeatable-requests/v1.0/cs01/repeatable-requests-v1.0-cs01.html",
+      "abstract": "This document describes a method to provide the ability to retry unsafe (i.e. POST, PUT, PATCH, DELETE) requests without incurring unintended side-effects. This specification can be applied to any HTTP based protocol.",
+      "concepts": [{
+       "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Repeatability-Client-ID" }, {
+       "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Repeatability-First-Sent" }, {
+       "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Repeatability-Request-ID" }, {
+       "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Repeatability-Result" }]}},{
      "saml-bindings-2.0-os": {
       "id": "http://webconcepts.info/specs/OASIS/standard/saml-bindings-2.0-os",
       "title": "Bindings for the OASIS Security Assertion Markup Language (SAML) V2.0",

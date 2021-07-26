@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<service primary="OASIS" secondary="standard" id="repeatable-requests-v1.0" url="https://docs.oasis-open.org/odata/repeatable-requests/v1.0/cs01/repeatable-requests-v1.0-cs01.html">
+    <title>Repeatable Requests Version 1.0</title>
+    <documentation source="https://docs.oasis-open.org/odata/repeatable-requests/v1.0/cs01/repeatable-requests-v1.0-cs01.html">This document describes a method to provide the ability to retry unsafe (i.e. POST, PUT, PATCH, DELETE) requests without incurring unintended side-effects. This specification can be applied to any HTTP based protocol.</documentation>
+    <http-header def="Repeatability-Request-ID">
+        <documentation source="https://docs.oasis-open.org/odata/repeatable-requests/v1.0/cs01/repeatable-requests-v1.0-cs01.html#sec_RepeatabilityRequestID">Repeatability-Request-ID MUST be sent by clients to specify that a request is repeatable. The value of the Repeatability-Request-ID is an opaque string representing a client-generated, globally unique for all time, identifier for the request.</documentation>
+    </http-header>
+    <http-header def="Repeatability-First-Sent">
+        <documentation source="https://docs.oasis-open.org/odata/repeatable-requests/v1.0/cs01/repeatable-requests-v1.0-cs01.html#sec_RepeatabilityFirstSent">Repeatability-First-Sent MUST be sent by clients to specify that a request is repeatable. Repeatability-First-Sent is used to specify the date and time at which the request was first created.</documentation>
+    </http-header>
+    <http-header def="Repeatability-Client-ID">
+        <documentation source="https://docs.oasis-open.org/odata/repeatable-requests/v1.0/cs01/repeatable-requests-v1.0-cs01.html#sec_RepeatabilityClientID">Repeatability-Client-ID is an optional header that MAY be provided by the client. Repeatability-Client-ID is an opaque string representing a client-generated, globally unique for all time, identifier for the instance of the client application that issued the request.</documentation>
+    </http-header>
+    <http-header def="Repeatability-Result">
+        <documentation source="https://docs.oasis-open.org/odata/repeatable-requests/v1.0/cs01/repeatable-requests-v1.0-cs01.html#sec_RepeatabilityResult">Servers aware of repeatability MUST return the Repeatability-Result response header in the result of a repeatable request with one of the case-insensitive values accepted or rejected.</documentation>
+    </http-header>
+</service>

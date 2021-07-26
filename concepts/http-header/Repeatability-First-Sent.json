@@ -1,0 +1,10 @@
+
+  { "value" : "Repeatability-First-Sent",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Repeatability-First-Sent",
+    "details" : 
+    [ 
+      { "description" : "Repeatability-First-Sent MUST be sent by clients to specify that a request is repeatable. Repeatability-First-Sent is used to specify the date and time at which the request was first created.",
+        "documentation" : "https:\/\/docs.oasis-open.org\/odata\/repeatable-requests\/v1.0\/cs01\/repeatable-requests-v1.0-cs01.html#sec_RepeatabilityFirstSent",
+        "specification" : "http:\/\/webconcepts.info\/specs\/OASIS\/standard\/repeatable-requests-v1.0",
+        "spec-name" : "OASIS Standard repeatable-requests-v1.0" } ] }

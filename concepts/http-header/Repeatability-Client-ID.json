@@ -1,0 +1,10 @@
+
+  { "value" : "Repeatability-Client-ID",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Repeatability-Client-ID",
+    "details" : 
+    [ 
+      { "description" : "Repeatability-Client-ID is an optional header that MAY be provided by the client. Repeatability-Client-ID is an opaque string representing a client-generated, globally unique for all time, identifier for the instance of the client application that issued the request.",
+        "documentation" : "https:\/\/docs.oasis-open.org\/odata\/repeatable-requests\/v1.0\/cs01\/repeatable-requests-v1.0-cs01.html#sec_RepeatabilityClientID",
+        "specification" : "http:\/\/webconcepts.info\/specs\/OASIS\/standard\/repeatable-requests-v1.0",
+        "spec-name" : "OASIS Standard repeatable-requests-v1.0" } ] }

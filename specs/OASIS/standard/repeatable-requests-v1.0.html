@@ -1,0 +1,84 @@
+---
+layout:      page
+title:       "Repeatable Requests Version 1.0"
+description: "This document describes a method to provide the ability to retry unsafe (i.e. POST,
+PUT, PATCH, DELETE) requests without incurring unintended side-effects. This specification
+can be applied to any HTTP based protocol."
+---
+
+<table cellpadding="5">
+   <tr>
+      <th valign="top" align="right">
+         <em>Document Name:</em>
+      </th>
+      <td>OASIS Standard repeatable-requests-v1.0</td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Document URI:</em>
+      </th>
+      <td>
+         <code>urn:oasis:names:specification:repeatable-requests-v1.0</code>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Online Version:</em>
+      </th>
+      <td>
+         <code>
+            <a href="https://docs.oasis-open.org/odata/repeatable-requests/v1.0/cs01/repeatable-requests-v1.0-cs01.html">https://docs.oasis-open.org/odata/repeatable-requests/v1.0/cs01/repeatable-requests-v1.0-cs01.html</a>
+         </code>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Organization:</em>
+      </th>
+      <td>
+         <a href="../" title="List of specification series by this organization">Organization for the Advancement of Structured Information Standards (OASIS)</a>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Series:</em>
+      </th>
+      <td>
+         <a href="./" title="List of specifications in this series">Standard</a>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Abstract:</em>
+      </th>
+      <td>This document describes a method to provide the ability to retry unsafe (i.e. POST,
+         PUT, PATCH, DELETE) requests without incurring unintended side-effects. This specification
+         can be applied to any HTTP based protocol.
+      </td>
+   </tr>
+</table>
+<br></br>
+<hr></hr>
+<h2 id="concepts">Specified Web Concepts:</h2>
+<h3 id="http-header">
+   <a href="/concepts/http-header/" title="List of all HTTP Header Fields">HTTP Header Fields</a>
+</h3>
+<code>
+   <a href="/concepts/http-header/Repeatability-Client-ID" title="Repeatability-Client-ID is an optional header that MAY be provided by the client. Repeatability-Client-ID is an opaque string representing a client-generated, globally unique for all time, identifier for the instance of the client application that issued the request.">Repeatability-Client-ID</a>
+</code>, 
+<code>
+   <a href="/concepts/http-header/Repeatability-First-Sent" title="Repeatability-First-Sent MUST be sent by clients to specify that a request is repeatable. Repeatability-First-Sent is used to specify the date and time at which the request was first created.">Repeatability-First-Sent</a>
+</code>, 
+<code>
+   <a href="/concepts/http-header/Repeatability-Request-ID" title="Repeatability-Request-ID MUST be sent by clients to specify that a request is repeatable. The value of the Repeatability-Request-ID is an opaque string representing a client-generated, globally unique for all time, identifier for the request.">Repeatability-Request-ID</a>
+</code>, 
+<code>
+   <a href="/concepts/http-header/Repeatability-Result" title="Servers aware of repeatability MUST return the Repeatability-Result response header in the result of a repeatable request with one of the case-insensitive values accepted or rejected.">Repeatability-Result</a>
+</code>
+<br></br>
+<hr></hr>
+<p style="text-align: right">Return to ( 
+   <a href="./">Series</a> | 
+   <a href="../">Organization</a> | 
+   <a href="../../">all Specifications</a> )
+</p>

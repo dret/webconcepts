@@ -1521,6 +1521,46 @@
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7231",
             "spec-name" : "RFC 7231" } ] },
       
+      { "value" : "Repeatability-Client-ID",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Repeatability-Client-ID",
+        "details" : 
+        [ 
+          { "description" : "Repeatability-Client-ID is an optional header that MAY be provided by the client. Repeatability-Client-ID is an opaque string representing a client-generated, globally unique for all time, identifier for the instance of the client application that issued the request.",
+            "documentation" : "https:\/\/docs.oasis-open.org\/odata\/repeatable-requests\/v1.0\/cs01\/repeatable-requests-v1.0-cs01.html#sec_RepeatabilityClientID",
+            "specification" : "http:\/\/webconcepts.info\/specs\/OASIS\/standard\/repeatable-requests-v1.0",
+            "spec-name" : "OASIS Standard repeatable-requests-v1.0" } ] },
+      
+      { "value" : "Repeatability-First-Sent",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Repeatability-First-Sent",
+        "details" : 
+        [ 
+          { "description" : "Repeatability-First-Sent MUST be sent by clients to specify that a request is repeatable. Repeatability-First-Sent is used to specify the date and time at which the request was first created.",
+            "documentation" : "https:\/\/docs.oasis-open.org\/odata\/repeatable-requests\/v1.0\/cs01\/repeatable-requests-v1.0-cs01.html#sec_RepeatabilityFirstSent",
+            "specification" : "http:\/\/webconcepts.info\/specs\/OASIS\/standard\/repeatable-requests-v1.0",
+            "spec-name" : "OASIS Standard repeatable-requests-v1.0" } ] },
+      
+      { "value" : "Repeatability-Request-ID",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Repeatability-Request-ID",
+        "details" : 
+        [ 
+          { "description" : "Repeatability-Request-ID MUST be sent by clients to specify that a request is repeatable. The value of the Repeatability-Request-ID is an opaque string representing a client-generated, globally unique for all time, identifier for the request.",
+            "documentation" : "https:\/\/docs.oasis-open.org\/odata\/repeatable-requests\/v1.0\/cs01\/repeatable-requests-v1.0-cs01.html#sec_RepeatabilityRequestID",
+            "specification" : "http:\/\/webconcepts.info\/specs\/OASIS\/standard\/repeatable-requests-v1.0",
+            "spec-name" : "OASIS Standard repeatable-requests-v1.0" } ] },
+      
+      { "value" : "Repeatability-Result",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Repeatability-Result",
+        "details" : 
+        [ 
+          { "description" : "Servers aware of repeatability MUST return the Repeatability-Result response header in the result of a repeatable request with one of the case-insensitive values accepted or rejected.",
+            "documentation" : "https:\/\/docs.oasis-open.org\/odata\/repeatable-requests\/v1.0\/cs01\/repeatable-requests-v1.0-cs01.html#sec_RepeatabilityResult",
+            "specification" : "http:\/\/webconcepts.info\/specs\/OASIS\/standard\/repeatable-requests-v1.0",
+            "spec-name" : "OASIS Standard repeatable-requests-v1.0" } ] },
+      
       { "value" : "Report-To",
         "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
         "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Report-To",
