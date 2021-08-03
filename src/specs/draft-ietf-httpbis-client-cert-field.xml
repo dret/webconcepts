@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <service primary="IETF" secondary="I-D" id="ietf-httpbis-client-cert-field">
-    <title>CalDAV Managed Attachments</title>
+    <title>Client-Cert HTTP Header Field: Conveying Client Certificate Information from TLS Terminating Reverse Proxies to Origin Server Applications</title>
     <documentation source="http://tools.ietf.org/html/draft-ietf-httpbis-client-cert-field">This document defines the HTTP header field "Client-Cert" that allows a TLS terminating reverse proxy to convey the client certificate of a mutually-authenticated TLS connection to the origin server in a common and predictable manner.</documentation>
     <http-header def="Client-Cert">
         <documentation source="http://tools.ietf.org/html/draft-ietf-httpbis-client-cert-field#section-2">The header value contains the client certificate from the mutually-authenticated TLS connection between the originating client and the TTRP. This enables the backend origin server to utilize the client certificate information in its application logic.</documentation>

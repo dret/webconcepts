@@ -177,7 +177,7 @@
        "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Cache-Status" }]}},{
      "ietf-httpbis-client-cert-field": {
       "id": "http://webconcepts.info/specs/IETF/I-D/ietf-httpbis-client-cert-field",
-      "title": "CalDAV Managed Attachments",
+      "title": "Client-Cert HTTP Header Field: Conveying Client Certificate Information from TLS Terminating Reverse Proxies to Origin Server Applications",
       "name": "Internet Draft ietf-httpbis-client-cert-field",
       "URI": "urn:ietf:id:ietf-httpbis-client-cert-field",
       "URL": "http://tools.ietf.org/html/draft-ietf-httpbis-client-cert-field",
