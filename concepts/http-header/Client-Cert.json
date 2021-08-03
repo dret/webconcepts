@@ -1,0 +1,10 @@
+
+  { "value" : "Client-Cert",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Client-Cert",
+    "details" : 
+    [ 
+      { "description" : "The header value contains the client certificate from the mutually-authenticated TLS connection between the originating client and the TTRP. This enables the backend origin server to utilize the client certificate information in its application logic.",
+        "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-httpbis-client-cert-field#section-2",
+        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpbis-client-cert-field",
+        "spec-name" : "Internet Draft ietf-httpbis-client-cert-field" } ] }

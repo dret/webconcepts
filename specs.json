@@ -175,6 +175,15 @@
       "abstract": "To aid debugging, HTTP caches often append headers to a response detailing how they handled the request. This specification codifies that practice and updates it for HTTP's current caching model.",
       "concepts": [{
        "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Cache-Status" }]}},{
+     "ietf-httpbis-client-cert-field": {
+      "id": "http://webconcepts.info/specs/IETF/I-D/ietf-httpbis-client-cert-field",
+      "title": "CalDAV Managed Attachments",
+      "name": "Internet Draft ietf-httpbis-client-cert-field",
+      "URI": "urn:ietf:id:ietf-httpbis-client-cert-field",
+      "URL": "http://tools.ietf.org/html/draft-ietf-httpbis-client-cert-field",
+      "abstract": "This document defines the HTTP header field \"Client-Cert\" that allows a TLS terminating reverse proxy to convey the client certificate of a mutually-authenticated TLS connection to the origin server in a common and predictable manner.",
+      "concepts": [{
+       "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Client-Cert" }]}},{
      "ietf-httpbis-client-hints": {
       "id": "http://webconcepts.info/specs/IETF/I-D/ietf-httpbis-client-hints",
       "title": "HTTP Client Hints",
