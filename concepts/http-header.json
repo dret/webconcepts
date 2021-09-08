@@ -1441,6 +1441,16 @@
             "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/WD-proxy",
             "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/WD-proxy" } ] },
       
+      { "value" : "Proxy-Status",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Proxy-Status",
+        "details" : 
+        [ 
+          { "description" : "The Proxy-Status HTTP response field allows an intermediary to convey additional information about its handling of a response and its associated request.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-httpbis-proxy-status#section-2",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpbis-proxy-status",
+            "spec-name" : "Internet Draft ietf-httpbis-proxy-status" } ] },
+      
       { "value" : "Public",
         "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
         "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Public",

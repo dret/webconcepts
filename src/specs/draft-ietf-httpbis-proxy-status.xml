@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<service primary="IETF" secondary="I-D" id="ietf-httpbis-proxy-status">
+    <title>The Proxy-Status HTTP Response Header Field</title>
+    <documentation source="http://tools.ietf.org/html/draft-ietf-httpbis-proxy-status">This document defines the Proxy-Status HTTP field to convey the details of intermediary response handling, including generated errors.</documentation>
+    <http-header def="Proxy-Status">
+        <documentation source="http://tools.ietf.org/html/draft-ietf-httpbis-proxy-status#section-2">The Proxy-Status HTTP response field allows an intermediary to convey additional information about its handling of a response and its associated request.</documentation>
+    </http-header>
+</service>
