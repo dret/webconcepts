@@ -168,11 +168,11 @@
        "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/RateLimit-Reset" }]}},{
      "ietf-httpbis-cache-header": {
       "id": "http://webconcepts.info/specs/IETF/I-D/ietf-httpbis-cache-header",
-      "title": "The Cache-Status HTTP Response Header",
+      "title": "The Cache-Status HTTP Response Header Field",
       "name": "Internet Draft ietf-httpbis-cache-header",
       "URI": "urn:ietf:id:ietf-httpbis-cache-header",
       "URL": "http://tools.ietf.org/html/draft-ietf-httpbis-cache-header",
-      "abstract": "To aid debugging, HTTP caches often append headers to a response detailing how they handled the request. This specification codifies that practice and updates it for HTTP's current caching model.",
+      "abstract": "To aid debugging, HTTP caches often append header fields to a response explaining how they handled the request in an ad hoc manner. This specification defines a standard mechanism to do so that is aligned with HTTP's caching model.",
       "concepts": [{
        "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Cache-Status" }]}},{
      "ietf-httpbis-client-cert-field": {

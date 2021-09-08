@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <service primary="IETF" secondary="I-D" id="ietf-httpbis-cache-header">
-    <title>The Cache-Status HTTP Response Header</title>
-    <documentation source="http://tools.ietf.org/html/draft-ietf-httpbis-cache-header">To aid debugging, HTTP caches often append headers to a response detailing how they handled the request. This specification codifies that practice and updates it for HTTP's current caching model.</documentation>
+    <title>The Cache-Status HTTP Response Header Field</title>
+    <documentation source="http://tools.ietf.org/html/draft-ietf-httpbis-cache-header">To aid debugging, HTTP caches often append header fields to a response explaining how they handled the request in an ad hoc manner. This specification defines a standard mechanism to do so that is aligned with HTTP's caching model.</documentation>
     <http-header def="Cache-Status">
-        <documentation source="http://tools.ietf.org/html/draft-ietf-httpbis-cache-header#section-2">The Cache-Status HTTP response header indicates caches' handling of the request corresponding to the response it occurs within.</documentation>
+        <documentation source="http://tools.ietf.org/html/draft-ietf-httpbis-cache-header#section-2">The Cache-Status HTTP response header field indicates how caches have handled that response and its corresponding request.</documentation>
     </http-header>
 </service>

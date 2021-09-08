@@ -905,7 +905,7 @@
           "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Cache-Status",
           "details" : 
           [ 
-            { "description" : "The Cache-Status HTTP response header indicates caches' handling of the request corresponding to the response it occurs within.",
+            { "description" : "The Cache-Status HTTP response header field indicates how caches have handled that response and its corresponding request.",
               "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-httpbis-cache-header#section-2",
               "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpbis-cache-header",
               "spec-name" : "Internet Draft ietf-httpbis-cache-header" } ] },

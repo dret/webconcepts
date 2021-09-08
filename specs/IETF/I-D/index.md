@@ -48,7 +48,7 @@ There are currently 53 listed specifications in the [Internet Engineering Task F
   * [The 'XML2RFC' version 3 Vocabulary (Internet Draft hoffman-xml2rfc)](hoffman-xml2rfc)
   * [The +exi Media Type Suffix (Internet Draft shelby-exi-registration)](shelby-exi-registration)
   * [The Archive and Packaging (arcp) URI scheme (Internet Draft soilandreyes-arcp)](soilandreyes-arcp)
-  * [The Cache-Status HTTP Response Header (Internet Draft ietf-httpbis-cache-header)](ietf-httpbis-cache-header)
+  * [The Cache-Status HTTP Response Header Field (Internet Draft ietf-httpbis-cache-header)](ietf-httpbis-cache-header)
   * [The Deprecation HTTP Header (Internet Draft ietf-httpapi-deprecation-header)](ietf-httpapi-deprecation-header)
   * [The Hypertext Transfer Protocol (HTTP) GET-Location header (Internet Draft reschke-http-get-location)](reschke-http-get-location)
   * [The Idempotency-Key HTTP Header Field (Internet Draft ietf-httpapi-idempotency-key-header)](ietf-httpapi-idempotency-key-header)
