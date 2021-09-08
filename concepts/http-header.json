@@ -166,6 +166,16 @@
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7233",
             "spec-name" : "RFC 7233" } ] },
       
+      { "value" : "Accept-Search",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Accept-Search",
+        "details" : 
+        [ 
+          { "description" : "The \"Accept-Search\" response header field MAY be used by a server to directly signal support for the SEARCH method while identifying the specific query format media types that may be used.",
+            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-httpbis-safe-method-w-body#section-3",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpbis-safe-method-w-body",
+            "spec-name" : "Internet Draft ietf-httpbis-safe-method-w-body" } ] },
+      
       { "value" : "Access-Control-Allow-Credentials",
         "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
         "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Access-Control-Allow-Credentials",
