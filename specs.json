@@ -221,6 +221,15 @@
       "abstract": "The 'Key' header field for HTTP responses allows an origin server to describe the cache key for a negotiated response: a short algorithm that can be used upon later requests to determine if the same response is reusable. Key has the advantage of avoiding an additional round trip for validation whenever a new request differs slightly, but not significantly, from prior requests. Key also informs user agents of the request characteristics that might result in different content, which can be useful if the user agent is not sending Accept* fields in order to reduce the risk of fingerprinting.",
       "concepts": [{
        "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Key" }]}},{
+     "ietf-httpbis-proxy-status": {
+      "id": "http://webconcepts.info/specs/IETF/I-D/ietf-httpbis-proxy-status",
+      "title": "The Proxy-Status HTTP Response Header Field",
+      "name": "Internet Draft ietf-httpbis-proxy-status",
+      "URI": "urn:ietf:id:ietf-httpbis-proxy-status",
+      "URL": "http://tools.ietf.org/html/draft-ietf-httpbis-proxy-status",
+      "abstract": "This document defines the Proxy-Status HTTP field to convey the details of intermediary response handling, including generated errors.",
+      "concepts": [{
+       "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Proxy-Status" }]}},{
      "ietf-httpbis-rfc6265bis": {
       "id": "http://webconcepts.info/specs/IETF/I-D/ietf-httpbis-rfc6265bis",
       "title": "HTTP State Management Mechanism",
