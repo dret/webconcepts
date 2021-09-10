@@ -259,6 +259,15 @@
       "concepts": [{
        "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Accept-Search" }, {
        "http://webconcepts.info/concepts/http-method/": "http://webconcepts.info/concepts/http-method/SEARCH" }]}},{
+     "ietf-httpbis-targeted-cache-control": {
+      "id": "http://webconcepts.info/specs/IETF/I-D/ietf-httpbis-targeted-cache-control",
+      "title": "Targeted HTTP Cache Control",
+      "name": "Internet Draft ietf-httpbis-targeted-cache-control",
+      "URI": "urn:ietf:id:ietf-httpbis-targeted-cache-control",
+      "URL": "http://tools.ietf.org/html/draft-ietf-httpbis-targeted-cache-control",
+      "abstract": "This specification defines a convention for HTTP response header fields that allow directives controlling caching to be targeted at specific caches or classes of caches. It also defines one such header field, targeted at Content Delivery Network (CDN) caches.",
+      "concepts": [{
+       "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/CDN-Cache-Control" }]}},{
      "ietf-httpbis-tunnel-protocol": {
       "id": "http://webconcepts.info/specs/IETF/I-D/ietf-httpbis-tunnel-protocol",
       "title": "The Tunnel-Protocol HTTP Header Field",

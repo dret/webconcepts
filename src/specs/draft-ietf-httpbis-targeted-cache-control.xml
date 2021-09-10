@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<service primary="IETF" secondary="I-D" id="ietf-httpbis-targeted-cache-control">
+    <title>Targeted HTTP Cache Control</title>
+    <documentation source="http://tools.ietf.org/html/draft-ietf-httpbis-targeted-cache-control">This specification defines a convention for HTTP response header fields that allow directives controlling caching to be targeted at specific caches or classes of caches. It also defines one such header field, targeted at Content Delivery Network (CDN) caches.</documentation>
+    <http-header def="CDN-Cache-Control">
+        <documentation source="http://tools.ietf.org/html/draft-ietf-httpbis-targeted-cache-control#section-3">The CDN-Cache-Control response header field is a targeted field that allows origin servers to control the behaviour of CDN caches interposed between them and clients, separately from other caches that might handle the response. It applies to caches that are part of a distributed network that operate on behalf of an origin server (commonly called a Content Delivery Network or CDN).</documentation>
+    </http-header>
+</service>
