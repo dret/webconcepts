@@ -4,8 +4,9 @@ title:       "W3C Technical Report Series"
 description: "List of specifications in the Technical Report (TR) series by the World Wide Web Consortium (W3C)"
 ---
 
-There are currently 48 listed specifications in the [World Wide Web Consortium (W3C)](..)'s Technical Report (TR) series.
+There are currently 49 listed specifications in the [World Wide Web Consortium (W3C)](..)'s Technical Report (TR) series.
 
+  * [A Well-Known URL for Changing Passwords (W3C TR http://www.w3.org/TR/webappsec-change-password-url)](webappsec-change-password-url)
   * [Activity Streams 2.0 (W3C TR http://www.w3.org/TR/activitystreams-core)](activitystreams-core)
   * [Clear Site Data (W3C TR http://www.w3.org/TR/clear-site-data)](clear-site-data)
   * [Confinement with Origin Web Labels (W3C TR http://www.w3.org/TR/COWL)](COWL)

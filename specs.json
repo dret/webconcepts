@@ -3279,6 +3279,15 @@
       "abstract": "VoID is an RDF Schema vocabulary for expressing metadata about RDF datasets. It is intended as a bridge between the publishers and users of RDF data, with applications ranging from data discovery to cataloging and archiving of datasets. This document is a detailed guide to the VoID vocabulary. It describes how VoID can be used to express general metadata based on Dublin Core, access metadata, structural metadata, and links between datasets. It also provides deployment advice and discusses the discovery of VoID descriptions.",
       "concepts": [{
        "http://webconcepts.info/concepts/well-known-uri/": "http://webconcepts.info/concepts/well-known-uri/void" }]}},{
+     "webappsec-change-password-url": {
+      "id": "http://webconcepts.info/specs/W3C/TR/webappsec-change-password-url",
+      "title": "A Well-Known URL for Changing Passwords",
+      "name": "W3C TR http://www.w3.org/TR/webappsec-change-password-url",
+      "URI": "http://www.w3.org/TR/webappsec-change-password-url",
+      "URL": "http://www.w3.org/TR/webappsec-change-password-url",
+      "abstract": "This specification defines a well-known URL that sites can use to make their change password forms discoverable by tools. This simple affordance provides a way for software to help the user find the way to change their password.",
+      "concepts": [{
+       "http://webconcepts.info/concepts/well-known-uri/": "http://webconcepts.info/concepts/well-known-uri/change-password" }]}},{
      "webmention": {
       "id": "http://webconcepts.info/specs/W3C/TR/webmention",
       "title": "Webmention",

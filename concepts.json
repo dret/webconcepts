@@ -8319,6 +8319,16 @@
               "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6764",
               "spec-name" : "RFC 6764" } ] },
         
+        { "value" : "change-password",
+          "concept" : "http:\/\/webconcepts.info\/concepts\/well-known-uri\/",
+          "id" : "http:\/\/webconcepts.info\/concepts\/well-known-uri\/change-password",
+          "details" : 
+          [ 
+            { "description" : "A change password url of an origin is a URL that points to a resource that clients can use to discover where a user should go to update their password on origin.",
+              "documentation" : "https:\/\/w3c.github.io\/webappsec-change-password-url\/#change-password",
+              "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/webappsec-change-password-url",
+              "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/webappsec-change-password-url" } ] },
+        
         { "value" : "coap",
           "concept" : "http:\/\/webconcepts.info\/concepts\/well-known-uri\/",
           "id" : "http:\/\/webconcepts.info\/concepts\/well-known-uri\/coap",
