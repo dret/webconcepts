@@ -630,6 +630,16 @@
               "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ruellan-http-accept-push-policy",
               "spec-name" : "Internet Draft ruellan-http-accept-push-policy" } ] },
         
+        { "value" : "Accept-Query",
+          "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
+          "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Accept-Query",
+          "details" : 
+          [ 
+            { "description" : "The \"Accept-Query\" response header field MAY be used by a server to directly signal support for the QUERY method while identifying the specific query format media type(s) that may be used.",
+              "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-httpbis-safe-method-w-body#section-3",
+              "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpbis-safe-method-w-body",
+              "spec-name" : "Internet Draft ietf-httpbis-safe-method-w-body" } ] },
+        
         { "value" : "Accept-Ranges",
           "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
           "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Accept-Ranges",
@@ -639,16 +649,6 @@
               "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7233#section-2.3",
               "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7233",
               "spec-name" : "RFC 7233" } ] },
-        
-        { "value" : "Accept-Search",
-          "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
-          "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Accept-Search",
-          "details" : 
-          [ 
-            { "description" : "The \"Accept-Search\" response header field MAY be used by a server to directly signal support for the SEARCH method while identifying the specific query format media types that may be used.",
-              "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-httpbis-safe-method-w-body#section-3",
-              "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpbis-safe-method-w-body",
-              "spec-name" : "Internet Draft ietf-httpbis-safe-method-w-body" } ] },
         
         { "value" : "Access-Control-Allow-Credentials",
           "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
@@ -2977,6 +2977,16 @@
               "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7231",
               "spec-name" : "RFC 7231" } ] },
         
+        { "value" : "QUERY",
+          "concept" : "http:\/\/webconcepts.info\/concepts\/http-method\/",
+          "id" : "http:\/\/webconcepts.info\/concepts\/http-method\/QUERY",
+          "details" : 
+          [ 
+            { "description" : "The QUERY method is used to initiate a server-side query. Unlike the HTTP GET method, which requests that a server return a representation of the resource identified by the target URI, the QUERY method is used to ask the server to perform a query operation (described by the request payload) over some set of data scoped to the effective request URI. The payload returned in response to a QUERY cannot be assumed to be a representation of the resource identified by the effective request URI.",
+              "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-httpbis-safe-method-w-body#section-2",
+              "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpbis-safe-method-w-body",
+              "spec-name" : "Internet Draft ietf-httpbis-safe-method-w-body" } ] },
+        
         { "value" : "REBIND",
           "concept" : "http:\/\/webconcepts.info\/concepts\/http-method\/",
           "id" : "http:\/\/webconcepts.info\/concepts\/http-method\/REBIND",
@@ -3005,12 +3015,7 @@
             { "description" : "The client invokes the SEARCH method to initiate a server-side search. The body of the request defines the query. The server MUST emit an entity matching the WebDAV multistatus format.",
               "documentation" : "http:\/\/tools.ietf.org\/html\/rfc5323#section-2",
               "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/5323",
-              "spec-name" : "RFC 5323" },
-            
-            { "description" : "The SEARCH method is used to initiate a server-side search. Unlike the HTTP GET method, which requests that a server return a representation of the resource identified by the target URI, the SEARCH method is used to ask the server to perform a query operation (described by the request payload) over some set of data scoped to the effective request URI. The payload returned in response to a SEARCH cannot be assumed to be a representation of the resource identified by the effective request URI.",
-              "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-httpbis-safe-method-w-body#section-2",
-              "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpbis-safe-method-w-body",
-              "spec-name" : "Internet Draft ietf-httpbis-safe-method-w-body" } ] },
+              "spec-name" : "RFC 5323" } ] },
         
         { "value" : "TRACE",
           "concept" : "http:\/\/webconcepts.info\/concepts\/http-method\/",

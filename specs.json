@@ -251,14 +251,14 @@
        "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Set-Cookie" }]}},{
      "ietf-httpbis-safe-method-w-body": {
       "id": "http://webconcepts.info/specs/IETF/I-D/ietf-httpbis-safe-method-w-body",
-      "title": "HTTP SEARCH Method",
+      "title": "The HTTP QUERY Method",
       "name": "Internet Draft ietf-httpbis-safe-method-w-body",
       "URI": "urn:ietf:id:ietf-httpbis-safe-method-w-body",
       "URL": "http://tools.ietf.org/html/draft-ietf-httpbis-safe-method-w-body",
-      "abstract": "This specification updates the definition and semantics of the HTTP SEARCH request method originally defined by RFC 5323.",
+      "abstract": "This specification defines a new HTTP method, QUERY, as a safe, idempotent request method that can carry request content.",
       "concepts": [{
-       "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Accept-Search" }, {
-       "http://webconcepts.info/concepts/http-method/": "http://webconcepts.info/concepts/http-method/SEARCH" }]}},{
+       "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Accept-Query" }, {
+       "http://webconcepts.info/concepts/http-method/": "http://webconcepts.info/concepts/http-method/QUERY" }]}},{
      "ietf-httpbis-targeted-cache-control": {
       "id": "http://webconcepts.info/specs/IETF/I-D/ietf-httpbis-targeted-cache-control",
       "title": "Targeted HTTP Cache Control",
