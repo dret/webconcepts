@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <service primary="IETF" secondary="I-D" id="ietf-httpbis-safe-method-w-body">
-    <title>HTTP SEARCH Method</title>
-    <documentation source="http://tools.ietf.org/html/draft-ietf-httpbis-safe-method-w-body">This specification updates the definition and semantics of the HTTP SEARCH request method originally defined by RFC 5323.</documentation>
-    <http-method def="SEARCH">
-        <documentation source="http://tools.ietf.org/html/draft-ietf-httpbis-safe-method-w-body#section-2">The SEARCH method is used to initiate a server-side search. Unlike the HTTP GET method, which requests that a server return a representation of the resource identified by the target URI, the SEARCH method is used to ask the server to perform a query operation (described by the request payload) over some set of data scoped to the effective request URI. The payload returned in response to a SEARCH cannot be assumed to be a representation of the resource identified by the effective request URI.</documentation>
+    <title>The HTTP QUERY Method</title>
+    <documentation source="http://tools.ietf.org/html/draft-ietf-httpbis-safe-method-w-body">This specification defines a new HTTP method, QUERY, as a safe, idempotent request method that can carry request content.</documentation>
+    <http-method def="QUERY">
+        <documentation source="http://tools.ietf.org/html/draft-ietf-httpbis-safe-method-w-body#section-2">The QUERY method is used to initiate a server-side query. Unlike the HTTP GET method, which requests that a server return a representation of the resource identified by the target URI, the QUERY method is used to ask the server to perform a query operation (described by the request payload) over some set of data scoped to the effective request URI. The payload returned in response to a QUERY cannot be assumed to be a representation of the resource identified by the effective request URI.</documentation>
     </http-method>
-    <http-header def="Accept-Search">
-        <documentation source="http://tools.ietf.org/html/draft-ietf-httpbis-safe-method-w-body#section-3">The "Accept-Search" response header field MAY be used by a server to directly signal support for the SEARCH method while identifying the specific query format media types that may be used.</documentation>
+    <http-header def="Accept-Query">
+        <documentation source="http://tools.ietf.org/html/draft-ietf-httpbis-safe-method-w-body#section-3">The "Accept-Query" response header field MAY be used by a server to directly signal support for the QUERY method while identifying the specific query format media type(s) that may be used.</documentation>
     </http-header>
 </service>
