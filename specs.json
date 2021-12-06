@@ -72,7 +72,7 @@
       "name": "Internet Draft hoffman-xml2rfc",
       "URI": "urn:ietf:id:hoffman-xml2rfc",
       "URL": "http://tools.ietf.org/html/draft-hoffman-xml2rfc",
-      "abstract": " This document defines the \"XML2RFC\" version 3 vocabulary; an XML-based language used for writing RFCs and Internet-Drafts. It is heavily derived from the version 2 vocabulary that is also under discussion. This document obsoletes the v2 grammar described in RFC 2629 and its expected followup, draft-reschke-xml2rfc.",
+      "abstract": "This document defines the \"XML2RFC\" version 3 vocabulary; an XML-based language used for writing RFCs and Internet-Drafts. It is heavily derived from the version 2 vocabulary that is also under discussion. This document obsoletes the v2 grammar described in RFC 2629 and its expected followup, draft-reschke-xml2rfc.",
       "concepts": [{
        "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/derivedfrom" }, {
        "http://webconcepts.info/concepts/media-type/": "http://webconcepts.info/concepts/media-type/application/rfc+xml" }]}},{
@@ -166,6 +166,15 @@
        "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/RateLimit-Limit" }, {
        "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/RateLimit-Remaining" }, {
        "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/RateLimit-Reset" }]}},{
+     "ietf-httpbis-binary-message": {
+      "id": "http://webconcepts.info/specs/IETF/I-D/ietf-httpbis-binary-message",
+      "title": "Binary Representation of HTTP Messages",
+      "name": "Internet Draft ietf-httpbis-binary-message",
+      "URI": "urn:ietf:id:ietf-httpbis-binary-message",
+      "URL": "http://tools.ietf.org/html/draft-ietf-httpbis-binary-message",
+      "abstract": "This document defines a binary format for representing HTTP messages.",
+      "concepts": [{
+       "http://webconcepts.info/concepts/media-type/": "http://webconcepts.info/concepts/media-type/message/bhttp" }]}},{
      "ietf-httpbis-cache-header": {
       "id": "http://webconcepts.info/specs/IETF/I-D/ietf-httpbis-cache-header",
       "title": "The Cache-Status HTTP Response Header Field",
