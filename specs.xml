@@ -8,7 +8,7 @@
             <md-pattern>$1</md-pattern>
             <name-pattern>RFC $1</name-pattern>
             <uri-pattern>urn:ietf:rfc:$1</uri-pattern>
-            <url-pattern>http://tools.ietf.org/html/rfc$1</url-pattern>
+            <url-pattern>https://datatracker.ietf.org/doc/html/rfc$1</url-pattern>
         </secondary>
         <secondary id="I-D">
             <name short="I-D">Internet Draft</name>
@@ -16,7 +16,7 @@
             <md-pattern>$1</md-pattern>
             <name-pattern>Internet Draft $1</name-pattern>
             <uri-pattern>urn:ietf:id:$1</uri-pattern>
-            <url-pattern>http://tools.ietf.org/html/draft-$1</url-pattern>
+            <url-pattern>https://datatracker.ietf.org/doc/html/draft-$1</url-pattern>
         </secondary>
     </primary>
     <primary id="W3C" href="http://www.w3.org/">
