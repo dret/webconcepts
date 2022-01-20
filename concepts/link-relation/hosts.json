@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "The \"hosts\" relation type (from the verb \"to host\") indicates that the target URI is a resource hosted by the server (i.e., server hosts resource) indicated by the context URI. The target URI MUST be a relative URI of the context URI for this relation type.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6690#section-2.2",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6690#section-2.2",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6690",
         "spec-name" : "RFC 6690" } ] }

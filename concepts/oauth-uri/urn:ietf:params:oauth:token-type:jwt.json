@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "This specification registers the URN \"urn:ietf:params:oauth:token-type:jwt\" for use by applications that declare content types using URIs (rather than, for instance, media types) to indicate that the content referred to is a JWT.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7519#section-9",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7519#section-9",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7519",
         "spec-name" : "RFC 7519" } ] }

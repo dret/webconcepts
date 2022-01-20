@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <service primary="IETF" secondary="RFC" id="7515">
     <title>JSON Web Signature (JWS)</title>
-    <documentation source="http://tools.ietf.org/html/rfc7515">JSON Web Signature (JWS) represents content secured with digital signatures or Message Authentication Codes (MACs) using JSON-based data structures. Cryptographic algorithms and identifiers for use with this specification are described in the separate JSON Web Algorithms (JWA) specification and an IANA registry defined by that specification. Related encryption capabilities are described in the separate JSON Web Encryption (JWE) specification.</documentation>
+    <documentation source="https://datatracker.ietf.org/doc/html/rfc7515">JSON Web Signature (JWS) represents content secured with digital signatures or Message Authentication Codes (MACs) using JSON-based data structures. Cryptographic algorithms and identifiers for use with this specification are described in the separate JSON Web Algorithms (JWA) specification and an IANA registry defined by that specification. Related encryption capabilities are described in the separate JSON Web Encryption (JWE) specification.</documentation>
     <media-type def="application/jose">
-        <documentation source="http://tools.ietf.org/html/rfc7515#section-9.2">The "application/jose" media type can be used to indicate that the content is a JWS or JWE using the JWS Compact Serialization or the JWE Compact Serialization.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7515#section-9.2">The "application/jose" media type can be used to indicate that the content is a JWS or JWE using the JWS Compact Serialization or the JWE Compact Serialization.</documentation>
     </media-type>
     <media-type def="application/jose+json">
-        <documentation source="http://tools.ietf.org/html/rfc7515#section-9.2">The "application/jose+json" media type can be used to indicate that the content is a JWS or JWE using the JWS JSON Serialization or the JWE JSON Serialization.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7515#section-9.2">The "application/jose+json" media type can be used to indicate that the content is a JWS or JWE using the JWS JSON Serialization or the JWE JSON Serialization.</documentation>
     </media-type>
 </service>

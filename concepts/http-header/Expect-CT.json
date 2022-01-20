@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "The \"Expect-CT\" header field is a new response header defined in this specification. It is used by a server to indicate that UAs should evaluate connections to the host emitting the header for CT compliance.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-httpbis-expect-ct#section-2.1",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-ietf-httpbis-expect-ct#section-2.1",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpbis-expect-ct",
         "spec-name" : "Internet Draft ietf-httpbis-expect-ct" } ] }

@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "The \"respond-async\" preference indicates that the client prefers the server to respond asynchronously to a response.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7240#section-4.1",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7240#section-4.1",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7240",
         "spec-name" : "RFC 7240" } ] }

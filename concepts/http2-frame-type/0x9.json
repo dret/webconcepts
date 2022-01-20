@@ -6,6 +6,6 @@
     "details" : 
     [ 
       { "description" : "The CONTINUATION frame (type=0x9) is used to continue a sequence of header block fragments (Section 4.3). Any number of CONTINUATION frames can be sent, as long as the preceding frame is on the same stream and is a HEADERS, PUSH_PROMISE, or CONTINUATION frame without the END_HEADERS flag set.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7540#section-6.10",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7540#section-6.10",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7540",
         "spec-name" : "RFC 7540" } ] }

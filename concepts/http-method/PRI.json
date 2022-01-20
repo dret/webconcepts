@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "This method is never used by an actual client. This method will appear to be used when an HTTP\/1.1 server or intermediary attempts to parse an HTTP\/2 connection preface.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7540#section-3.5",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7540#section-3.5",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7540",
         "spec-name" : "RFC 7540" } ] }

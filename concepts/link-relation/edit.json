@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "The value of \"edit\" specifies that the value of the href attribute is the IRI of an editable Member Entry. When appearing within an atom:entry, the href IRI can be used to retrieve, update, and delete the Resource represented by that Entry. An atom:entry MUST NOT contain more than one \"edit\" link relation.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc5023#section-11.1",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc5023#section-11.1",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/5023",
         "spec-name" : "RFC 5023" } ] }

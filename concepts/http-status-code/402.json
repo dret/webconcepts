@@ -6,6 +6,6 @@
     "details" : 
     [ 
       { "description" : "The 402 (Payment Required) status code is reserved for future use.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7231#section-6.5.2",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7231#section-6.5.2",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7231",
         "spec-name" : "RFC 7231" } ] }

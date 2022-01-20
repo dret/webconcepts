@@ -6,6 +6,6 @@
     "details" : 
     [ 
       { "description" : "The PING frame (type=0x6) is a mechanism for measuring a minimal round-trip time from the sender, as well as determining whether an idle connection is still functional. PING frames can be sent from any endpoint.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7540#section-6.7",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7540#section-6.7",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7540",
         "spec-name" : "RFC 7540" } ] }

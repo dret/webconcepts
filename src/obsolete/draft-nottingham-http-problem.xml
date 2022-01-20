@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <service primary="IETF" secondary="I-D" id="nottingham-http-problem">
     <title>HTTP Problem Detail</title>
-    <documentation source="http://tools.ietf.org/html/draft-nottingham-http-problem">This document defines a "problem detail" as a way to carry machine-readable details of errors in a HTTP response, to avoid the need to invent new error response formats for HTTP APIs.</documentation>
+    <documentation source="https://datatracker.ietf.org/doc/html/draft-nottingham-http-problem">This document defines a "problem detail" as a way to carry machine-readable details of errors in a HTTP response, to avoid the need to invent new error response formats for HTTP APIs.</documentation>
     <media-type def="application/api-problem+json">
         <document xml:id="http-problem-document-json">
             <title>HTTP Problem Detail (JSON)</title>
-            <documentation source="http://tools.ietf.org/html/draft-nottingham-http-problem#section-3">The canonical model for problem details is a JSON object. When serialised as a JSON document, that format is identified with the "application/api-problem+json" media type.</documentation>
+            <documentation source="https://datatracker.ietf.org/doc/html/draft-nottingham-http-problem#section-3">The canonical model for problem details is a JSON object. When serialised as a JSON document, that format is identified with the "application/api-problem+json" media type.</documentation>
         </document>
     </media-type>
     <media-type def="application/api-problem+xml">
         <document xml:id="http-problem-document-xml">
             <title>HTTP Problem Detail (XML)</title>
-            <documentation source="http://tools.ietf.org/html/draft-nottingham-http-problem#appendix-A">Some HTTP-based APIs use XML as their primary format convention. Such APIs MAY express problem details using the format defined in this appendix.</documentation>
+            <documentation source="https://datatracker.ietf.org/doc/html/draft-nottingham-http-problem#appendix-A">Some HTTP-based APIs use XML as their primary format convention. Such APIs MAY express problem details using the format defined in this appendix.</documentation>
         </document>
     </media-type>
 </service>

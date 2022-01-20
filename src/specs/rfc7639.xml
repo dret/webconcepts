@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <service primary="IETF" secondary="RFC" id="7639">
     <title>The ALPN HTTP Header Field</title>
-    <documentation source="http://tools.ietf.org/html/rfc7639">This specification allows HTTP CONNECT requests to indicate what protocol is intended to be used within the tunnel once established, using the ALPN header field.</documentation>
+    <documentation source="https://datatracker.ietf.org/doc/html/rfc7639">This specification allows HTTP CONNECT requests to indicate what protocol is intended to be used within the tunnel once established, using the ALPN header field.</documentation>
     <http-header def="ALPN">
-        <documentation source="http://tools.ietf.org/html/rfc7639#section-2">Clients include the ALPN header field in an HTTP CONNECT request to indicate the application-layer protocol that a client intends to use within the tunnel, or a set of protocols that might be used within the tunnel.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7639#section-2">Clients include the ALPN header field in an HTTP CONNECT request to indicate the application-layer protocol that a client intends to use within the tunnel, or a set of protocols that might be used within the tunnel.</documentation>
     </http-header>
 </service>

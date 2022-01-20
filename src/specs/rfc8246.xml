@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <service primary="IETF" secondary="RFC" id="8246">
     <title>HTTP Immutable Responses</title>
-    <documentation source="http://tools.ietf.org/html/rfc8246">The immutable HTTP response Cache-Control extension allows servers to identify resources that will not be updated during their freshness lifetime. This ensures that a client never needs to revalidate a cached fresh resource to be certain it has not been modified.</documentation>
+    <documentation source="https://datatracker.ietf.org/doc/html/rfc8246">The immutable HTTP response Cache-Control extension allows servers to identify resources that will not be updated during their freshness lifetime. This ensures that a client never needs to revalidate a cached fresh resource to be certain it has not been modified.</documentation>
     <http-cache-directive def="immutable">
-        <documentation source="http://tools.ietf.org/html/rfc8246#section-2">When present in an HTTP response, the immutable Cache-Control extension indicates that the origin server MUST NOT update the representation of that resource during the freshness lifetime of the response.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc8246#section-2">When present in an HTTP response, the immutable Cache-Control extension indicates that the origin server MUST NOT update the representation of that resource during the freshness lifetime of the response.</documentation>
     </http-cache-directive>
 </service>

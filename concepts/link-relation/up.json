@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "An Atom link element with a rel attribute value of \"up\" may be used to reference a resource where parent entries of an entry or a feed may be found.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/draft-divilly-atom-hierarchy#section-2.3",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-divilly-atom-hierarchy#section-2.3",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/divilly-atom-hierarchy",
         "spec-name" : "Internet Draft divilly-atom-hierarchy" } ] }

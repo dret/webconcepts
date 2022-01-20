@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "An \"identity\" token is used as a synonym for \"no encoding\" in order to communicate when no encoding is preferred.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7231#section-5.3.4",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7231#section-5.3.4",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7231",
         "spec-name" : "RFC 7231" } ] }

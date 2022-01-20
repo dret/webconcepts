@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <service primary="IETF" secondary="I-D" id="pot-prefer-push">
     <title>HTTP-client suggested Push Preference</title>
-    <documentation source="http://tools.ietf.org/html/draft-pot-prefer-push">"Prefer-Push" is a HTTP header that a client may use to request that a server uses HTTP/2 Push to send related resources as identified by their link relationships.</documentation>
+    <documentation source="https://datatracker.ietf.org/doc/html/draft-pot-prefer-push">"Prefer-Push" is a HTTP header that a client may use to request that a server uses HTTP/2 Push to send related resources as identified by their link relationships.</documentation>
     <http-header def="Prefer-Push">
-        <documentation source="http://tools.ietf.org/html/draft-pot-prefer-push#section-3">"Prefer-Push" is an HTTP header field that a client may use to request that a server uses HTTP/2 Push to send related resources as identified by their link relationships.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/draft-pot-prefer-push#section-3">"Prefer-Push" is an HTTP header field that a client may use to request that a server uses HTTP/2 Push to send related resources as identified by their link relationships.</documentation>
     </http-header>
 </service>

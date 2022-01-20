@@ -22,7 +22,7 @@
         "details" : 
         [ 
           { "description" : "The \"about\" link relation can be used to refer to a resource that is the subject or topic of the link's context. Multiple subjects can be indicated through the use of multiple \"about\" link relations.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6903#section-2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6903#section-2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6903",
             "spec-name" : "RFC 6903" } ] },
       
@@ -32,7 +32,7 @@
         "details" : 
         [ 
           { "description" : "The value \"alternate\" signifies that the IRI in the value of the href attribute identifies an alternate version of the resource described by the containing element.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc4287#section-4.2.7.2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc4287#section-4.2.7.2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/4287",
             "spec-name" : "RFC 4287" },
           
@@ -57,7 +57,7 @@
         "details" : 
         [ 
           { "description" : "The \"authenticate\" can be used to link to a resource that hosts a page where a user can authenticate itself for the current resource.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-pot-authentication-link#section-2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-pot-authentication-link#section-2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/pot-authentication-link",
             "spec-name" : "Internet Draft pot-authentication-link" } ] },
       
@@ -67,7 +67,7 @@
         "details" : 
         [ 
           { "description" : "The \"authenticated-as\" link refers to a resource that describes the effective authenticated user for a HTTP response.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-pot-authentication-link#section-3",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-pot-authentication-link#section-3",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/pot-authentication-link",
             "spec-name" : "Internet Draft pot-authentication-link" } ] },
       
@@ -97,7 +97,7 @@
         "details" : 
         [ 
           { "description" : "Refers to a resource that is considered to be part of the private secondary audience of the link's context.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-snell-more-link-relations#section-3",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-snell-more-link-relations#section-3",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/snell-more-link-relations",
             "spec-name" : "Internet Draft snell-more-link-relations" } ] },
       
@@ -107,7 +107,7 @@
         "details" : 
         [ 
           { "description" : "Refers to a resource that is privately considered to be the originator of the link's context.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-snell-more-link-relations#section-3",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-snell-more-link-relations#section-3",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/snell-more-link-relations",
             "spec-name" : "Internet Draft snell-more-link-relations" } ] },
       
@@ -127,7 +127,7 @@
         "details" : 
         [ 
           { "description" : "The purpose of a boundto relation type is to indicate that there is a binding between a source resource and a destination resource for the purposes of synchronizing their content.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-core-dynlink#section-6.2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-ietf-core-dynlink#section-6.2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-core-dynlink",
             "spec-name" : "Internet Draft ietf-core-dynlink" } ] },
       
@@ -137,7 +137,7 @@
         "details" : 
         [ 
           { "description" : "Refers to a resource that is considered to be part of the private primary audience of the link's context.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-snell-more-link-relations#section-3",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-snell-more-link-relations#section-3",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/snell-more-link-relations",
             "spec-name" : "Internet Draft snell-more-link-relations" } ] },
       
@@ -147,7 +147,7 @@
         "details" : 
         [ 
           { "description" : "The target (canonical) IRI MUST identify content that is either duplicative or a superset of the content at the context (referring) IRI.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6596#section-3",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6596#section-3",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6596",
             "spec-name" : "RFC 6596" } ] },
       
@@ -157,7 +157,7 @@
         "details" : 
         [ 
           { "description" : "Refers to a resource that is considered to be  part of the public secondary audience of the link's context.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-snell-more-link-relations#section-3",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-snell-more-link-relations#section-3",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/snell-more-link-relations",
             "spec-name" : "Internet Draft snell-more-link-relations" } ] },
       
@@ -177,7 +177,7 @@
         "details" : 
         [ 
           { "description" : "A link with the \"cite-as\" relation type indicates that, for referencing the link context, use of the URI of the link target is preferred over use of the URI of the link context. It allows the resource identified by the access URI (link context) to unambiguously link to its corresponding reference URI (link target), thereby expressing that the link target is preferred over the link context for the purpose of permanent citation.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8574#section-4",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc8574#section-4",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8574",
             "spec-name" : "RFC 8574" } ] },
       
@@ -187,7 +187,7 @@
         "details" : 
         [ 
           { "description" : "When included in a resource that represents a member of a collection, the 'collection' link relation identifies a target resource that represents a collection of which the context resource is a member.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6573#section-2.2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6573#section-2.2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6573",
             "spec-name" : "RFC 6573" } ] },
       
@@ -217,7 +217,7 @@
         "details" : 
         [ 
           { "description" : "This indicates a target to use for creating new instances of a schema. This link definition SHOULD be a submission link with a non-safe method (like POST).",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-zyp-json-schema#section-6.1.1.2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-zyp-json-schema#section-6.1.1.2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/zyp-json-schema",
             "spec-name" : "Internet Draft zyp-json-schema" } ] },
       
@@ -227,7 +227,7 @@
         "details" : 
         [ 
           { "description" : "When included in a response, the \"create-form\" link relation indicates a target resource that represents a form that can be used to append a new member to the link context.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6861#section-3.1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6861#section-3.1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6861",
             "spec-name" : "RFC 6861" } ] },
       
@@ -237,7 +237,7 @@
         "details" : 
         [ 
           { "description" : "A URI that, when dereferenced, returns a feed document containing the most recent entries in the feed.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc5005#section-4",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc5005#section-4",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/5005",
             "spec-name" : "RFC 5005" } ] },
       
@@ -247,7 +247,7 @@
         "details" : 
         [ 
           { "description" : "In addition to the Deprecation HTTP header field, the server can use links with the \"deprecation\" link relation type to communicate to the client where to find more information about deprecation of the context. This information can be in the form of documentation of the resource including details about the deprecation related aspects of the context or the deprecation policy of the context provider or both for example.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-httpapi-deprecation-header#section-3",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-ietf-httpapi-deprecation-header#section-3",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpapi-deprecation-header",
             "spec-name" : "Internet Draft ietf-httpapi-deprecation-header" } ] },
       
@@ -257,7 +257,7 @@
         "details" : 
         [ 
           { "description" : "The document linked to was later converted to the document that contains this link relation. For example, an RFC can have a link to the Internet Draft that became the RFC; in that case, the link relation would be \"derivedfrom\".",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-hoffman-xml2rfc#section-6.2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-hoffman-xml2rfc#section-6.2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/hoffman-xml2rfc",
             "spec-name" : "Internet Draft hoffman-xml2rfc" } ] },
       
@@ -282,7 +282,7 @@
         "details" : 
         [ 
           { "description" : "The relationship A 'describes' B asserts that resource A provides a description of resource B. There are no constraints on the format or representation of either A or B, neither are there any further constraints on either resource.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6892#section-2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6892#section-2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6892",
             "spec-name" : "RFC 6892" } ] },
       
@@ -292,7 +292,7 @@
         "details" : 
         [ 
           { "description" : "Whenever the 'disclosure' relation type is used, the resource at the target Internationalized Resource Identifier (IRI) MUST represent a list of patent disclosures made with respect to the material referenced by context IRI.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6579#section-2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6579#section-2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6579",
             "spec-name" : "RFC 6579" } ] },
       
@@ -312,7 +312,7 @@
         "details" : 
         [ 
           { "description" : "An Atom link element with a rel attribute value of \"down\" may be used to reference a resource where child entries of an entry may be found.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-divilly-atom-hierarchy#section-2.2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-divilly-atom-hierarchy#section-2.2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/divilly-atom-hierarchy",
             "spec-name" : "Internet Draft divilly-atom-hierarchy" } ] },
       
@@ -322,7 +322,7 @@
         "details" : 
         [ 
           { "description" : "The value of \"edit\" specifies that the value of the href attribute is the IRI of an editable Member Entry. When appearing within an atom:entry, the href IRI can be used to retrieve, update, and delete the Resource represented by that Entry. An atom:entry MUST NOT contain more than one \"edit\" link relation.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc5023#section-11.1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc5023#section-11.1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/5023",
             "spec-name" : "RFC 5023" } ] },
       
@@ -332,7 +332,7 @@
         "details" : 
         [ 
           { "description" : "When included in a response, the \"edit-form\" link relation indicates a target resource that represents a form that can be used for updating the context resource.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6861#section-3.2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6861#section-3.2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6861",
             "spec-name" : "RFC 6861" } ] },
       
@@ -342,7 +342,7 @@
         "details" : 
         [ 
           { "description" : "When appearing within an atom:entry, the value of the href attribute is an IRI that can be used to modify a Media Resource associated with that Entry.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc5023#section-11.2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc5023#section-11.2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/5023",
             "spec-name" : "RFC 5023" } ] },
       
@@ -352,7 +352,7 @@
         "details" : 
         [ 
           { "description" : "The value \"enclosure\" signifies that the IRI in the value of the href attribute identifies a related resource that is potentially large in size and might require special handling. For atom:link elements with rel=\"enclosure\", the length attribute SHOULD be provided.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc4287#section-4.2.7.2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc4287#section-4.2.7.2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/4287",
             "spec-name" : "RFC 4287" } ] },
       
@@ -372,7 +372,7 @@
         "details" : 
         [ 
           { "description" : "A URI that refers to the furthest preceding document in a series of documents.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc5005#section-3",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc5005#section-3",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/5005",
             "spec-name" : "RFC 5005" } ] },
       
@@ -382,7 +382,7 @@
         "details" : 
         [ 
           { "description" : "Refers to a resource that is publicly considered to be the originator of the link's context.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-snell-more-link-relations#section-3",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-snell-more-link-relations#section-3",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/snell-more-link-relations",
             "spec-name" : "Internet Draft snell-more-link-relations" } ] },
       
@@ -392,7 +392,7 @@
         "details" : 
         [ 
           { "description" : "This indicates that the target of the link is the full representation for the instance object. The object that contains this link possibly may not be the full representation.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-zyp-json-schema#section-6.1.1.2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-zyp-json-schema#section-6.1.1.2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/zyp-json-schema",
             "spec-name" : "Internet Draft zyp-json-schema" } ] },
       
@@ -402,7 +402,7 @@
         "details" : 
         [ 
           { "description" : "Refers to the resource that generated the context  resource. Typically, this would be used to identify the software application that created the context resource.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-snell-more-link-relations#section-3",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-snell-more-link-relations#section-3",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/snell-more-link-relations",
             "spec-name" : "Internet Draft snell-more-link-relations" } ] },
       
@@ -432,7 +432,7 @@
         "details" : 
         [ 
           { "description" : "The \"home\" link relation type is used to establish a link to a \"home document\" resource that provides context and\/or starting points for the context resource.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-nottingham-json-home#section-6",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-nottingham-json-home#section-6",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/nottingham-json-home",
             "spec-name" : "Internet Draft nottingham-json-home" } ] },
       
@@ -442,7 +442,7 @@
         "details" : 
         [ 
           { "description" : "The \"hosts\" relation type (from the verb \"to host\") indicates that the target URI is a resource hosted by the server (i.e., server hosts resource) indicated by the context URI. The target URI MUST be a relative URI of the context URI for this relation type.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6690#section-2.2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6690#section-2.2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6690",
             "spec-name" : "RFC 6690" } ] },
       
@@ -482,7 +482,7 @@
         "details" : 
         [ 
           { "description" : "This indicates the target resource that represents collection of instances of a schema.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-zyp-json-schema#section-6.1.1.2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-zyp-json-schema#section-6.1.1.2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/zyp-json-schema",
             "spec-name" : "Internet Draft zyp-json-schema" } ] },
       
@@ -642,7 +642,7 @@
         "details" : 
         [ 
           { "description" : "The 'inv-by' link relation type allows a response to nominate one or more other resources that affect the state of the resource it's associated with. That is, when one of the nominated resources changes, it also changes the state of this response's resource.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-nottingham-linked-cache-inv#section-3",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-nottingham-linked-cache-inv#section-3",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/nottingham-linked-cache-inv",
             "spec-name" : "Internet Draft nottingham-linked-cache-inv" } ] },
       
@@ -652,7 +652,7 @@
         "details" : 
         [ 
           { "description" : "The 'invalidates' link relation type allows a response that signifies a state change on the server to indicate one or more associated URIs whose states have also changed.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-nottingham-linked-cache-inv#section-2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-nottingham-linked-cache-inv#section-2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/nottingham-linked-cache-inv",
             "spec-name" : "Internet Draft nottingham-linked-cache-inv" } ] },
       
@@ -662,7 +662,7 @@
         "details" : 
         [ 
           { "description" : "When included in a resource that represents a collection, the 'item' link relation identifies a target resource that represents a member of that collection.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6573#section-2.1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6573#section-2.1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6573",
             "spec-name" : "RFC 6573" } ] },
       
@@ -672,7 +672,7 @@
         "details" : 
         [ 
           { "description" : "A URI that refers to the furthest following document in a series of documents.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc5005#section-3",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc5005#section-3",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/5005",
             "spec-name" : "RFC 5005" } ] },
       
@@ -682,7 +682,7 @@
         "details" : 
         [ 
           { "description" : "When included on a versioned resource, this link points to a resource containing the latest (e.g., current) version.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc5829#section-3.2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc5829#section-3.2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/5829",
             "spec-name" : "RFC 5829" } ] },
       
@@ -692,7 +692,7 @@
         "details" : 
         [ 
           { "description" : "The \"license\" link relation can be used to associate licenses with a feed or entry. Feeds and entries can be dual-licensed by including multiple \"license\" link relations specifying different href attribute values. If multiple \"license\" link relations are specified, each SHOULD contain a title attribute specifying a human-readable label for the license.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc4946#section-2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc4946#section-2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/4946",
             "spec-name" : "RFC 4946" },
           
@@ -707,7 +707,7 @@
         "details" : 
         [ 
           { "description" : "The \"linkset\" link relation type is used by a resource to link to a resource that provides a set of links. Typically the Context IRI of these links  is the URI of the responding resource but links with other Context IRIs MAY be provided.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-httpapi-linkset#section-5",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-ietf-httpapi-linkset#section-5",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpapi-linkset",
             "spec-name" : "Internet Draft ietf-httpapi-linkset" } ] },
       
@@ -717,7 +717,7 @@
         "details" : 
         [ 
           { "description" : "References a URI\/IRI that represents a physical or logical location with which the context resource is associated.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-snell-more-link-relations#section-3",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-snell-more-link-relations#section-3",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/snell-more-link-relations",
             "spec-name" : "Internet Draft snell-more-link-relations" } ] },
       
@@ -727,7 +727,7 @@
         "details" : 
         [ 
           { "description" : "The \"logout\" refers to a resource where an authenticated user might end their session.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-pot-authentication-link#section-4",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-pot-authentication-link#section-4",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/pot-authentication-link",
             "spec-name" : "Internet Draft pot-authentication-link" } ] },
       
@@ -737,7 +737,7 @@
         "details" : 
         [ 
           { "description" : "LRDD documents are linked to resources or host-meta documents using link templates with the \"lrdd\" relation type.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6415#section-1.1.1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6415#section-1.1.1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6415",
             "spec-name" : "RFC 6415" } ] },
       
@@ -757,7 +757,7 @@
         "details" : 
         [ 
           { "description" : "A link with a \"memento\" Relation Type is used to point from a TimeGate or a Memento for an Original Resource, as well as from the Original Resource itself, to a Memento for the Original Resource.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7089#section-2.2.4",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7089#section-2.2.4",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7089",
             "spec-name" : "RFC 7089" } ] },
       
@@ -767,7 +767,7 @@
         "details" : 
         [ 
           { "description" : "Refers to a resource that mentions the context resource in some fashion. This, for example, would be used when an article mentions another article, or a social status update mentions a particular user, etc.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-snell-more-link-relations#section-3",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-snell-more-link-relations#section-3",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/snell-more-link-relations",
             "spec-name" : "Internet Draft snell-more-link-relations" } ] },
       
@@ -787,7 +787,7 @@
         "details" : 
         [ 
           { "description" : "A URI that refers to the immediately following document in a series of documents.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc5005#section-3",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc5005#section-3",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/5005",
             "spec-name" : "RFC 5005" },
           
@@ -802,7 +802,7 @@
         "details" : 
         [ 
           { "description" : "A URI that refers to the immediately following archive document.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc5005#section-4",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc5005#section-4",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/5005",
             "spec-name" : "RFC 5005" } ] },
       
@@ -842,7 +842,7 @@
         "details" : 
         [ 
           { "description" : "A link with an \"original\" Relation Type is used to point from a TimeGate or a Memento to its associated Original Resource.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7089#section-2.2.1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7089#section-2.2.1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7089",
             "spec-name" : "RFC 7089" } ] },
       
@@ -872,7 +872,7 @@
         "details" : 
         [ 
           { "description" : "When included on a versioned resource, this link points to a resource containing the predecessor version in the version history.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc5829#section-3.5",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc5829#section-3.5",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/5829",
             "spec-name" : "RFC 5829" } ] },
       
@@ -922,7 +922,7 @@
         "details" : 
         [ 
           { "description" : "A URI that refers to the immediately preceding archive document.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc5005#section-4",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc5005#section-4",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/5005",
             "spec-name" : "RFC 5005" } ] },
       
@@ -932,7 +932,7 @@
         "details" : 
         [ 
           { "description" : "The \"preview\" link relation can be used to refer to a resource that serves as a preview of the link's context, likely with reduced quality or limited content. For instance, the preview link might reference a screen capture of a video, a brief snippet of audio from a song, or a thumbnail representation of an image.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6903#section-3",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6903#section-3",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6903",
             "spec-name" : "RFC 6903" } ] },
       
@@ -942,7 +942,7 @@
         "details" : 
         [ 
           { "description" : "A URI that refers to the immediately preceding document in a series of documents.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc5005#section-3",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc5005#section-3",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/5005",
             "spec-name" : "RFC 5005" } ] },
       
@@ -952,7 +952,7 @@
         "details" : 
         [ 
           { "description" : "The \"privacy-policy\" link relation can be used to refer to a resource describing the privacy policy associated with the link's context. The privacy policy can be any resource that discloses what personal information about the user is collected and how that personal information is stored, used, managed, and disclosed to other parties.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6903#section-4",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6903#section-4",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6903",
             "spec-name" : "RFC 6903" } ] },
       
@@ -962,7 +962,7 @@
         "details" : 
         [ 
           { "description" : "A profile can be described as additional semantics that can be used to process a resource representation, such as constraints, conventions, extensions, or any other aspects that do not alter the basic media type semantics. A profile MUST NOT change the semantics of the resource representation when processed without profile knowledge, so that clients both with and without knowledge of a profiled resource can safely use the same representation.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6906#section-3",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6906#section-3",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6906",
             "spec-name" : "RFC 6906" } ] },
       
@@ -972,7 +972,7 @@
         "details" : 
         [ 
           { "description" : "Refers to the resource that provided the context resource. Typically, this would be used to identify the entity publishing the resource.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-snell-more-link-relations#section-3",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-snell-more-link-relations#section-3",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/snell-more-link-relations",
             "spec-name" : "Internet Draft snell-more-link-relations" } ] },
       
@@ -992,7 +992,7 @@
         "details" : 
         [ 
           { "description" : "The \"register-user\" Link Relation refers to a resource where a user might sign up for a service for the context URI.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-pot-authentication-link#section-5",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-pot-authentication-link#section-5",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/pot-authentication-link",
             "spec-name" : "Internet Draft pot-authentication-link" } ] },
       
@@ -1002,7 +1002,7 @@
         "details" : 
         [ 
           { "description" : "The value \"related\" signifies that the IRI in the value of the href attribute identifies a resource related to the resource described by the containing element. For example, the feed for a site that discusses the performance of the search engine at \"http:\/\/search.example.com\" might contain, as a child of atom:feed: <link rel=\"related\" href=\"http:\/\/search.example.com\/\"\/> An identical link might appear as a child of any atom:entry whose content contains a discussion of that same search engine.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc4287#section-4.2.7.2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc4287#section-4.2.7.2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/4287",
             "spec-name" : "RFC 4287" } ] },
       
@@ -1012,7 +1012,7 @@
         "details" : 
         [ 
           { "description" : "This relation indicates that the target of the link SHOULD be treated as the root or the body of the representation for the purposes of user agent interaction or fragment resolution. All other properties of the instance objects can be regarded as meta-data descriptions for the data.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-zyp-json-schema#section-6.1.1.2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-zyp-json-schema#section-6.1.1.2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/zyp-json-schema",
             "spec-name" : "Internet Draft zyp-json-schema" } ] },
       
@@ -1042,7 +1042,7 @@
         "details" : 
         [ 
           { "description" : "The value \"self\" signifies that the IRI in the value of the href attribute identifies a resource equivalent to the containing element.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc4287#section-4.2.7.2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc4287#section-4.2.7.2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/4287",
             "spec-name" : "RFC 4287" } ] },
       
@@ -1052,7 +1052,7 @@
         "details" : 
         [ 
           { "description" : "The \"service-desc\" link relation type is used to represent the fact that a resource or a set of resources are described at a specific URI. It identifies service description for the context that is primarily intended for consumption by machines. Often, it is provided in a format that is consumed by tools, code libraries, or similar components.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8631#section-4.2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc8631#section-4.2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8631",
             "spec-name" : "RFC 8631" } ] },
       
@@ -1062,7 +1062,7 @@
         "details" : 
         [ 
           { "description" : "The \"service-doc\" link relation type is used to represent the fact that a resource or a set of resources are documented at a specific URI. It identifies service documentation for the context that is primarily intended for human consumption.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8631#section-4.1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc8631#section-4.1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8631",
             "spec-name" : "RFC 8631" } ] },
       
@@ -1072,7 +1072,7 @@
         "details" : 
         [ 
           { "description" : "The \"service-meta\" link relation type is used to link to available metadata for the service context of a resource. It identifies general metadata for the context that is primarily intended for consumption by machines. In many cases, it is provided in a representation that is consumed by tools, code libraries, or similar components.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8631#section-4.3",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc8631#section-4.3",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8631",
             "spec-name" : "RFC 8631" } ] },
       
@@ -1082,7 +1082,7 @@
         "details" : 
         [ 
           { "description" : "Refers to the original source of information contained by the context resource.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-snell-more-link-relations#section-3",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-snell-more-link-relations#section-3",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/snell-more-link-relations",
             "spec-name" : "Internet Draft snell-more-link-relations" } ] },
       
@@ -1102,7 +1102,7 @@
         "details" : 
         [ 
           { "description" : "Identifies a resource that represents the context's status. Such a link may not be available from all resources provided by a Web service, but from select resources such as a service's home resource.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8631#section-5",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc8631#section-5",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8631",
             "spec-name" : "RFC 8631" } ] },
       
@@ -1132,7 +1132,7 @@
         "details" : 
         [ 
           { "description" : "When included on a versioned resource, this link points to a resource containing the successor version in the version history.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc5829#section-3.6",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc5829#section-3.6",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/5829",
             "spec-name" : "RFC 5829" } ] },
       
@@ -1142,7 +1142,7 @@
         "details" : 
         [ 
           { "description" : "Identifies a resource that provides information about the context's retirement policy.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8594#section-5",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc8594#section-5",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8594",
             "spec-name" : "RFC 8594" } ] },
       
@@ -1162,7 +1162,7 @@
         "details" : 
         [ 
           { "description" : "The \"terms-of-service\" link relation can be used to refer to a resource describing the terms of service associated with the link's context. The terms of service can be any resource that describes the rules to which a consumer of the service must agree to follow when using the service provided by the link's context.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6903#section-5",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6903#section-5",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6903",
             "spec-name" : "RFC 6903" } ] },
       
@@ -1172,7 +1172,7 @@
         "details" : 
         [ 
           { "description" : "A link with a \"timegate\" Relation Type is used to point from the Original Resource, as well as from a Memento associated with the Original Resource, to a TimeGate for the Original Resource.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7089#section-2.2.2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7089#section-2.2.2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7089",
             "spec-name" : "RFC 7089" } ] },
       
@@ -1182,7 +1182,7 @@
         "details" : 
         [ 
           { "description" : "A link with a \"timemap\" Relation Type is used to point from a TimeGate or a Memento associated with an Original Resource, as well as from the Original Resource itself, to a TimeMap for the Original Resource.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7089#section-2.2.3",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7089#section-2.2.3",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7089",
             "spec-name" : "RFC 7089" } ] },
       
@@ -1202,7 +1202,7 @@
         "details" : 
         [ 
           { "description" : "Refers to a resource that is considered to be part of the public primary audience of the link's context.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-snell-more-link-relations#section-3",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-snell-more-link-relations#section-3",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/snell-more-link-relations",
             "spec-name" : "Internet Draft snell-more-link-relations" } ] },
       
@@ -1222,7 +1222,7 @@
         "details" : 
         [ 
           { "description" : "The \"type\" link relation can be used to indicate that the context resource is an instance of the resource identified by the target Internationalized Resource Identifier (IRI).",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6903#section-6",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6903#section-6",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6903",
             "spec-name" : "RFC 6903" } ] },
       
@@ -1232,7 +1232,7 @@
         "details" : 
         [ 
           { "description" : "An Atom link element with a rel attribute value of \"up\" may be used to reference a resource where parent entries of an entry or a feed may be found.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-divilly-atom-hierarchy#section-2.3",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-divilly-atom-hierarchy#section-2.3",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/divilly-atom-hierarchy",
             "spec-name" : "Internet Draft divilly-atom-hierarchy" } ] },
       
@@ -1242,7 +1242,7 @@
         "details" : 
         [ 
           { "description" : "When included on a versioned resource, this link points to a resource containing the version history for this resource.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc5829#section-3.1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc5829#section-3.1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/5829",
             "spec-name" : "RFC 5829" } ] },
       
@@ -1252,7 +1252,7 @@
         "details" : 
         [ 
           { "description" : "The value \"via\" signifies that the IRI in the value of the href attribute identifies a resource that is the source of the information provided in the containing element.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc4287#section-4.2.7.2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc4287#section-4.2.7.2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/4287",
             "spec-name" : "RFC 4287" } ] },
       
@@ -1272,7 +1272,7 @@
         "details" : 
         [ 
           { "description" : "When included on a versioned resource, this link points to a working copy for this resource.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc5829#section-3.3",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc5829#section-3.3",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/5829",
             "spec-name" : "RFC 5829" } ] },
       
@@ -1282,6 +1282,6 @@
         "details" : 
         [ 
           { "description" : "When included on a working copy, this link points to the versioned resource from which this working copy was obtained.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc5829#section-3.4",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc5829#section-3.4",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/5829",
             "spec-name" : "RFC 5829" } ] } ] }

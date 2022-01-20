@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <service primary="IETF" secondary="RFC" id="5023">
     <title>Atom Publishing Protocol (AtomPub)</title>
-    <documentation source="http://tools.ietf.org/html/rfc5023">The Atom Publishing Protocol (AtomPub) is an application-level protocol for publishing and editing Web resources. The protocol is based on HTTP transfer of Atom-formatted representations. The Atom format is documented in the Atom Syndication Format.</documentation>
+    <documentation source="https://datatracker.ietf.org/doc/html/rfc5023">The Atom Publishing Protocol (AtomPub) is an application-level protocol for publishing and editing Web resources. The protocol is based on HTTP transfer of Atom-formatted representations. The Atom format is documented in the Atom Syndication Format.</documentation>
     <media-type def="application/atomcat+xml">
-        <documentation source="http://tools.ietf.org/html/rfc5023#section-16.1">An Atom Publishing Protocol Category Document, when serialized as XML 1.0, can be identified with the following media type.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc5023#section-16.1">An Atom Publishing Protocol Category Document, when serialized as XML 1.0, can be identified with the following media type.</documentation>
     </media-type>
     <media-type def="application/atomsvc+xml">
-        <documentation source="http://tools.ietf.org/html/rfc5023#section-16.2">An Atom Publishing Protocol Service Document, when serialized as XML 1.0, can be identified with the following media type.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc5023#section-16.2">An Atom Publishing Protocol Service Document, when serialized as XML 1.0, can be identified with the following media type.</documentation>
     </media-type>
     <link-relation def="edit">
-        <documentation source="http://tools.ietf.org/html/rfc5023#section-11.1">The value of "edit" specifies that the value of the href attribute is the IRI of an editable Member Entry. When appearing within an atom:entry, the href IRI can be used to retrieve, update, and delete the Resource represented by that Entry. An atom:entry MUST NOT contain more than one "edit" link relation.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc5023#section-11.1">The value of "edit" specifies that the value of the href attribute is the IRI of an editable Member Entry. When appearing within an atom:entry, the href IRI can be used to retrieve, update, and delete the Resource represented by that Entry. An atom:entry MUST NOT contain more than one "edit" link relation.</documentation>
     </link-relation>
     <link-relation def="edit-media">
-        <documentation source="http://tools.ietf.org/html/rfc5023#section-11.2">When appearing within an atom:entry, the value of the href attribute is an IRI that can be used to modify a Media Resource associated with that Entry.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc5023#section-11.2">When appearing within an atom:entry, the value of the href attribute is an IRI that can be used to modify a Media Resource associated with that Entry.</documentation>
     </link-relation>
     <http-header def="Slug">
-        <documentation source="http://tools.ietf.org/html/rfc5023#section-9.7">Slug is an HTTP entity-header whose presence in a POST to a Collection constitutes a request by the client to use the header's value as part of any URIs that would normally be used to retrieve the to-be-created Entry or Media Resources.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc5023#section-9.7">Slug is an HTTP entity-header whose presence in a POST to a Collection constitutes a request by the client to use the header's value as part of any URIs that would normally be used to retrieve the to-be-created Entry or Media Resources.</documentation>
     </http-header>
 </service>

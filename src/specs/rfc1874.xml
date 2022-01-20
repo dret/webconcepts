@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <service primary="IETF" secondary="RFC" id="1874">
     <title>SGML Media Types</title>
-    <documentation source="http://tools.ietf.org/html/rfc1874">This document proposes new media sub-types of Text/SGML and Application/SGML. These media types can be used in the exchange of SGML documents and their entities. Specific details for the exchange or encapsulation of groups of related SGML entities using MIME are currently being considered by the mimesgml Working Group.</documentation>
+    <documentation source="https://datatracker.ietf.org/doc/html/rfc1874">This document proposes new media sub-types of Text/SGML and Application/SGML. These media types can be used in the exchange of SGML documents and their entities. Specific details for the exchange or encapsulation of groups of related SGML entities using MIME are currently being considered by the mimesgml Working Group.</documentation>
     <media-type def="text/sgml">
-        <documentation source="http://tools.ietf.org/html/rfc1874#section-2.1">The Text/SGML media-type can be employed when the contents of the SGML entity is intended to be read by a human and is in a readily comprehensible form.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc1874#section-2.1">The Text/SGML media-type can be employed when the contents of the SGML entity is intended to be read by a human and is in a readily comprehensible form.</documentation>
     </media-type>
     <media-type def="application/sgml">
-        <documentation source="http://tools.ietf.org/html/rfc1874#section-2.2">Use the Application/SGML media-type for SGML text entities that are not appropriate for Text/SGML.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc1874#section-2.2">Use the Application/SGML media-type for SGML text entities that are not appropriate for Text/SGML.</documentation>
     </media-type>
 </service>

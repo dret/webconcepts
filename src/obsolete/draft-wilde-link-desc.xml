@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <service primary="IETF" secondary="I-D" id="wilde-link-desc">
     <title>Link Descriptions</title>
-    <documentation source="http://tools.ietf.org/html/draft-wilde-link-desc">Interactions with many resources on the Web are driven by links, and these links often define certain expectations about the interactions (such as HTTP methods being used, media types being sent in the request, or URI parameters being used in a certain way). While these expectations are essential to define the possible framework for interactions, it may be useful to further narrow them down by providing link descriptions, which can help clients to gain more runtime knowledge about the resource they are about to interact with. This memo defines Link Descriptions, a schema and a media type that can be used to describe links by supporting descriptive markup for representing interaction information with links. Link Descriptions can be used by media types (by inclusion or by reference) that seek to make Link Descriptions runtime-capable, without having to create their own representation.</documentation>
+    <documentation source="https://datatracker.ietf.org/doc/html/draft-wilde-link-desc">Interactions with many resources on the Web are driven by links, and these links often define certain expectations about the interactions (such as HTTP methods being used, media types being sent in the request, or URI parameters being used in a certain way). While these expectations are essential to define the possible framework for interactions, it may be useful to further narrow them down by providing link descriptions, which can help clients to gain more runtime knowledge about the resource they are about to interact with. This memo defines Link Descriptions, a schema and a media type that can be used to describe links by supporting descriptive markup for representing interaction information with links. Link Descriptions can be used by media types (by inclusion or by reference) that seek to make Link Descriptions runtime-capable, without having to create their own representation.</documentation>
     <media-type def="application/ldesc+xml">
         <document xml:id="link-desc-document-xml">
             <title>Link Descriptions (XML)</title>
-            <documentation source="http://tools.ietf.org/html/draft-wilde-link-desc#section-4.1">The Internet media type for a Link Description document is application/ldesc+xml.</documentation>
+            <documentation source="https://datatracker.ietf.org/doc/html/draft-wilde-link-desc#section-4.1">The Internet media type for a Link Description document is application/ldesc+xml.</documentation>
         </document>
     </media-type>
     <link-relation def="ldesc">
-        <documentation source="http://tools.ietf.org/html/draft-wilde-template-desc#section-4.1">Linking to a resource that can be used as a link description for requesting runtime information about a particular link's interaction affordances.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/draft-wilde-template-desc#section-4.1">Linking to a resource that can be used as a link description for requesting runtime information about a particular link's interaction affordances.</documentation>
     </link-relation>
 </service>

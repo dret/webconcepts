@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "The 'inv-by' link relation type allows a response to nominate one or more other resources that affect the state of the resource it's associated with. That is, when one of the nominated resources changes, it also changes the state of this response's resource.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/draft-nottingham-linked-cache-inv#section-3",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-nottingham-linked-cache-inv#section-3",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/nottingham-linked-cache-inv",
         "spec-name" : "Internet Draft nottingham-linked-cache-inv" } ] }

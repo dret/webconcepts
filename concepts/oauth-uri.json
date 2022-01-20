@@ -12,7 +12,7 @@
         "details" : 
         [ 
           { "description" : "To use a JWT Bearer Token for client authentication, the client uses the following parameter values and encodings. The value of the \"client_assertion_type\" is \"urn:ietf:params:oauth:client-assertion-type:jwt-bearer\".",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7523#section-2.2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7523#section-2.2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7523",
             "spec-name" : "RFC 7523" } ] },
       
@@ -22,7 +22,7 @@
         "details" : 
         [ 
           { "description" : "To use a SAML Bearer Assertion for client authentication, the client uses the following parameter values and encodings. The value of the \"client_assertion_type\" parameter is \"urn:ietf:params:oauth:client-assertion-type:saml2-bearer\".",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7522#section-2.2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7522#section-2.2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7522",
             "spec-name" : "RFC 7522" } ] },
       
@@ -32,7 +32,7 @@
         "details" : 
         [ 
           { "description" : "To use a Bearer JWT as an authorization grant, the client uses an access token request as defined in Section 4 of the OAuth Assertion Framework (RFC 7521). The value of the \"grant_type\" is \"urn:ietf:params:oauth:grant-type:jwt-bearer\".",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7523#section-2.1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7523#section-2.1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7523",
             "spec-name" : "RFC 7523" } ] },
       
@@ -42,7 +42,7 @@
         "details" : 
         [ 
           { "description" : "To use a SAML Bearer Assertion as an authorization grant, the client uses an access token request as defined in Section 4 of the OAuth Assertion Framework (RFC 7521). The value of the \"grant_type\" parameter is \"urn:ietf:params:oauth:grant-type:saml2-bearer\".",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7522#section-2.1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7522#section-2.1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7522",
             "spec-name" : "RFC 7522" } ] },
       
@@ -52,6 +52,6 @@
         "details" : 
         [ 
           { "description" : "This specification registers the URN \"urn:ietf:params:oauth:token-type:jwt\" for use by applications that declare content types using URIs (rather than, for instance, media types) to indicate that the content referred to is a JWT.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7519#section-9",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7519#section-9",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7519",
             "spec-name" : "RFC 7519" } ] } ] }

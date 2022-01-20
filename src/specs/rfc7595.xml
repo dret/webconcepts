@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <service primary="IETF" secondary="RFC" id="7595">
     <title>Guidelines and Registration Procedures for URI Schemes</title>
-    <documentation source="http://tools.ietf.org/html/rfc7595">This document updates the guidelines and recommendations, as well as the IANA registration processes, for the definition of Uniform Resource Identifier (URI) schemes.</documentation>
+    <documentation source="https://datatracker.ietf.org/doc/html/rfc7595">This document updates the guidelines and recommendations, as well as the IANA registration processes, for the definition of Uniform Resource Identifier (URI) schemes.</documentation>
     <uri-scheme def="example">
-        <documentation source="http://tools.ietf.org/html/rfc7595#section-8">There is a need for a scheme name that can be used for examples in documentation without fear of conflicts with current or future actual schemes. The scheme "example" is hereby registered as a 'permanent' scheme for that purpose.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7595#section-8">There is a need for a scheme name that can be used for examples in documentation without fear of conflicts with current or future actual schemes. The scheme "example" is hereby registered as a 'permanent' scheme for that purpose.</documentation>
     </uri-scheme>
 </service>

@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "When a message includes a message body encoded with the chunked transfer coding and the sender desires to send metadata in the form of trailer fields at the end of the message, the sender SHOULD generate a Trailer header field before the message body to indicate which fields will be present in the trailers.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7230#section-4.4",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7230#section-4.4",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7230",
         "spec-name" : "RFC 7230" } ] }

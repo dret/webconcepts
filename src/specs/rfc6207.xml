@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <service primary="IETF" secondary="RFC" id="6207">
     <title>The Media Types application/mods+xml, application/mads+xml, application/mets+xml, application/marcxml+xml, and application/sru+xml</title>
-    <documentation source="http://tools.ietf.org/html/rfc6265">This document specifies media types for the following formats: MODS (Metadata Object Description Schema), MADS (Metadata Authority Description Schema), METS (Metadata Encoding and Transmission Standard), MARCXML (MARC21 XML Schema), and the SRU (Search/Retrieve via URL Response Format) protocol response XML schema. These are all XML schemas providing representations of various forms of information including metadata and search results.</documentation>
+    <documentation source="https://datatracker.ietf.org/doc/html/rfc6265">This document specifies media types for the following formats: MODS (Metadata Object Description Schema), MADS (Metadata Authority Description Schema), METS (Metadata Encoding and Transmission Standard), MARCXML (MARC21 XML Schema), and the SRU (Search/Retrieve via URL Response Format) protocol response XML schema. These are all XML schemas providing representations of various forms of information including metadata and search results.</documentation>
     <media-type def="application/mods+xml">
-        <documentation source="http://tools.ietf.org/html/rfc6207#section-2">An XML schema for a bibliographic element set that may be used for a variety of purposes, and particularly for library applications.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc6207#section-2">An XML schema for a bibliographic element set that may be used for a variety of purposes, and particularly for library applications.</documentation>
     </media-type>
     <media-type def="application/mads+xml">
-        <documentation source="http://tools.ietf.org/html/rfc6207#section-3">An XML schema for an authority element set used to provide metadata about agents (people, organizations), events, and terms (topics, geographics, genres, etc.). It is a companion to MODS.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc6207#section-3">An XML schema for an authority element set used to provide metadata about agents (people, organizations), events, and terms (topics, geographics, genres, etc.). It is a companion to MODS.</documentation>
     </media-type>
     <media-type def="application/mets+xml">
-        <documentation source="http://tools.ietf.org/html/rfc6207#section-4">An XML schema for encoding descriptive, administrative, and structural metadata regarding objects within a digital library.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc6207#section-4">An XML schema for encoding descriptive, administrative, and structural metadata regarding objects within a digital library.</documentation>
     </media-type>
     <media-type def="application/marcxml+xml">
-        <documentation source="http://tools.ietf.org/html/rfc6207#section-5">An XML schema for the direct XML representation of the MARC format (for which there already exists a media type, application/marc).</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc6207#section-5">An XML schema for the direct XML representation of the MARC format (for which there already exists a media type, application/marc).</documentation>
     </media-type>
     <media-type def="application/sru+xml">
-        <documentation source="http://tools.ietf.org/html/rfc6207#section-6">An XML schema for the SRU response. SRU is a protocol, and the media type sru+xml pertains specifically to the default SRU response. The SRU response may be supplied in any of a number of suitable schemas, RSS, ATOM, for example, and the client identifies the desired format in the request, hence the need for a media type.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc6207#section-6">An XML schema for the SRU response. SRU is a protocol, and the media type sru+xml pertains specifically to the default SRU response. The SRU response may be supplied in any of a number of suitable schemas, RSS, ATOM, for example, and the client identifies the desired format in the request, hence the need for a media type.</documentation>
     </media-type>
 </service>

@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "The Accept-Indefinite-Ranges request-header field allows the client to indicate its acceptance of indefinite-sized range requests for a resource.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/draft-combs-http-indeterminate-range#section-2.1",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-combs-http-indeterminate-range#section-2.1",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/combs-http-indeterminate-range",
         "spec-name" : "Internet Draft combs-http-indeterminate-range" } ] }

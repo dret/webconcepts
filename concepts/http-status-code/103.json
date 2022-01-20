@@ -6,6 +6,6 @@
     "details" : 
     [ 
       { "description" : "The 103 (Early Hints) status code indicates the client that the server is likely to send a final request with the headers included in the informational response.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8297#section-2",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc8297#section-2",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8297",
         "spec-name" : "RFC 8297" } ] }

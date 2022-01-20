@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "Use the Application\/SGML media-type for SGML text entities that are not appropriate for Text\/SGML.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc1874#section-2.2",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc1874#section-2.2",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/1874",
         "spec-name" : "RFC 1874" } ] }

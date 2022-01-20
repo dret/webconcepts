@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "This specification defines a new content type \"application\/p2p-overlay+xml\" for a MIME entity that contains overlay information.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6940#section-11.1",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6940#section-11.1",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6940",
         "spec-name" : "RFC 6940" } ] }

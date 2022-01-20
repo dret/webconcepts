@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <service primary="IETF" secondary="RFC" id="8069">
     <title>URN Namespace for IEEE</title>
-    <documentation source="http://tools.ietf.org/html/rfc8069">This document describes the Namespace Identifier (NID) 'ieee' for Uniform Resource Names (URNs) used to identify resources published by the Institute of Electrical and Electronics Engineers (IEEE). IEEE specifies and manages resources that utilize this URN identification model. Management activities for these and other resources types are handled by the manager of the IEEE Registration Authority.</documentation>
+    <documentation source="https://datatracker.ietf.org/doc/html/rfc8069">This document describes the Namespace Identifier (NID) 'ieee' for Uniform Resource Names (URNs) used to identify resources published by the Institute of Electrical and Electronics Engineers (IEEE). IEEE specifies and manages resources that utilize this URN identification model. Management activities for these and other resources types are handled by the manager of the IEEE Registration Authority.</documentation>
     <urn-namespace def="ieee">
-        <documentation source="http://tools.ietf.org/html/rfc8069#section-1">The Institute of Electrical and Electronic Engineers (IEEE) is an organization whose objectives include the educational and technical advancement of electrical and electronic engineering, telecommunications, computer engineering, and allied disciplines. As part of these specification efforts, there is a need to maintain identifiers in a managed namespace that is unique and persistent.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc8069#section-1">The Institute of Electrical and Electronic Engineers (IEEE) is an organization whose objectives include the educational and technical advancement of electrical and electronic engineering, telecommunications, computer engineering, and allied disciplines. As part of these specification efforts, there is a need to maintain identifiers in a managed namespace that is unique and persistent.</documentation>
     </urn-namespace>
 </service>

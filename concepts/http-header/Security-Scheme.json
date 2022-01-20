@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "All S-HTTP compliant agents must generate the Security-Scheme header in the headers of all HTTP messages they generate. This header permits other agents to detect that they are communicating with an S-HTTP compliant agent and generate the appropriate cryptographic options headers.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc2660#section-4.1",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc2660#section-4.1",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/2660",
         "spec-name" : "RFC 2660" } ] }

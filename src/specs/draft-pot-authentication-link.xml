@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <service primary="IETF" secondary="I-D" id="pot-authentication-link">
     <title>Link Relationship Types for Authentication</title>
-    <documentation source="http://tools.ietf.org/html/draft-pot-authentication-link">This specification defines a set of relationships that may be used to indicate where a user may authenticate, log out, register a new account or find out who is currently authenticated.</documentation>
+    <documentation source="https://datatracker.ietf.org/doc/html/draft-pot-authentication-link">This specification defines a set of relationships that may be used to indicate where a user may authenticate, log out, register a new account or find out who is currently authenticated.</documentation>
     <link-relation def="authenticate">
-        <documentation source="http://tools.ietf.org/html/draft-pot-authentication-link#section-2">The "authenticate" can be used to link to a resource that hosts a page where a user can authenticate itself for the current resource.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/draft-pot-authentication-link#section-2">The "authenticate" can be used to link to a resource that hosts a page where a user can authenticate itself for the current resource.</documentation>
     </link-relation>
     <link-relation def="authenticated-as">
-        <documentation source="http://tools.ietf.org/html/draft-pot-authentication-link#section-3">The "authenticated-as" link refers to a resource that describes the effective authenticated user for a HTTP response.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/draft-pot-authentication-link#section-3">The "authenticated-as" link refers to a resource that describes the effective authenticated user for a HTTP response.</documentation>
     </link-relation>
     <link-relation def="logout">
-        <documentation source="http://tools.ietf.org/html/draft-pot-authentication-link#section-4">The "logout" refers to a resource where an authenticated user might end their session.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/draft-pot-authentication-link#section-4">The "logout" refers to a resource where an authenticated user might end their session.</documentation>
     </link-relation>
     <link-relation def="register-user">
-        <documentation source="http://tools.ietf.org/html/draft-pot-authentication-link#section-5">The "register-user" Link Relation refers to a resource where a user might sign up for a service for the context URI.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/draft-pot-authentication-link#section-5">The "register-user" Link Relation refers to a resource where a user might sign up for a service for the context URI.</documentation>
     </link-relation>
 </service>

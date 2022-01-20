@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <service primary="IETF" secondary="RFC" id="7615">
     <title>The Hypertext Transfer Protocol (HTTP) Authentication-Info and Proxy-Authentication-Info Response Header Fields</title>
-    <documentation source="http://tools.ietf.org/html/rfc7615">This specification defines the "Authentication-Info" and "Proxy-Authentication-Info" response header fields for use in HTTP authentication schemes which need to return information once the client's authentication credentials have been accepted.</documentation>
+    <documentation source="https://datatracker.ietf.org/doc/html/rfc7615">This specification defines the "Authentication-Info" and "Proxy-Authentication-Info" response header fields for use in HTTP authentication schemes which need to return information once the client's authentication credentials have been accepted.</documentation>
     <http-header def="Authentication-Info">
-        <documentation source="http://tools.ietf.org/html/rfc7615#section-3">HTTP authentication schemes can use the Authentication-Info response header field to communicate information after the client's authentication credentials have been accepted. This information can include a finalization message from the server (e.g., it can contain the server authentication).</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7615#section-3">HTTP authentication schemes can use the Authentication-Info response header field to communicate information after the client's authentication credentials have been accepted. This information can include a finalization message from the server (e.g., it can contain the server authentication).</documentation>
     </http-header>
     <http-header def="Proxy-Authentication-Info">
-        <documentation source="http://tools.ietf.org/html/rfc7615#section-4">The Proxy-Authentication-Info response header field is equivalent to Authentication-Info, except that it applies to proxy authentication. However, unlike Authentication-Info, the Proxy-Authentication-Info header field applies only to the next outbound client on the response chain. This is because only the client that chose a given proxy is likely to have the credentials necessary for authentication.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7615#section-4">The Proxy-Authentication-Info response header field is equivalent to Authentication-Info, except that it applies to proxy authentication. However, unlike Authentication-Info, the Proxy-Authentication-Info header field applies only to the next outbound client on the response chain. This is because only the client that chose a given proxy is likely to have the credentials necessary for authentication.</documentation>
     </http-header>
 </service>

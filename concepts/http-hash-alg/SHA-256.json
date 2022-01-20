@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "SHA-256",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7616#section-6.1",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7616#section-6.1",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7616",
         "spec-name" : "RFC 7616" } ] }

@@ -6,6 +6,6 @@
     "details" : 
     [ 
       { "description" : "The 305 (Use Proxy) status code was defined in a previous version of HTTP\/1.1 and is now deprecated.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7231#section-6.4.5",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7231#section-6.4.5",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7231",
         "spec-name" : "RFC 7231" } ] }

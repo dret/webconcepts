@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "Responses to attribute request messages MUST be encoded as the content-type of \"application\/csrattrs\" with a Content-Transfer-Encoding of \"base64\".",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7030#section-4.5.2",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7030#section-4.5.2",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7030",
         "spec-name" : "RFC 7030" } ] }

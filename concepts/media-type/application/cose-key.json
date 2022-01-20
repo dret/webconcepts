@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "The \"application\/cose-key\" media type is used to indicate that content is a COSE_Key object.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8152#section-16.9.2",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc8152#section-16.9.2",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8152",
         "spec-name" : "RFC 8152" } ] }

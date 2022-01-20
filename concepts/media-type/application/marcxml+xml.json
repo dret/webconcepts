@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "An XML schema for the direct XML representation of the MARC format (for which there already exists a media type, application\/marc).",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6207#section-5",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6207#section-5",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6207",
         "spec-name" : "RFC 6207" } ] }

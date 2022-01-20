@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "The EDIINT-Features header field indicates the originating user agent is capable of supporting the features listed.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6017#section-3",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6017#section-3",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6017",
         "spec-name" : "RFC 6017" } ] }

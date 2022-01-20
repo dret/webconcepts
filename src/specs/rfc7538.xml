@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <service primary="IETF" secondary="RFC" id="7538">
     <title>The Hypertext Transfer Protocol Status Code 308 (Permanent Redirect)</title>
-    <documentation source="http://tools.ietf.org/html/rfc7538">This document specifies the additional Hypertext Transfer Protocol (HTTP) status code 308 (Permanent Redirect).</documentation>
+    <documentation source="https://datatracker.ietf.org/doc/html/rfc7538">This document specifies the additional Hypertext Transfer Protocol (HTTP) status code 308 (Permanent Redirect).</documentation>
     <http-status-code def="308" desc="Permanent Redirect">
-        <documentation source="http://tools.ietf.org/html/rfc7538#section-3">The 308 (Permanent Redirect) status code indicates that the target resource has been assigned a new permanent URI and any future references to this resource ought to use one of the enclosed URIs.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7538#section-3">The 308 (Permanent Redirect) status code indicates that the target resource has been assigned a new permanent URI and any future references to this resource ought to use one of the enclosed URIs.</documentation>
     </http-status-code>
 </service>

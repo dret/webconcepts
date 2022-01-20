@@ -7,7 +7,7 @@ concept-value: MD5
 description: "MD5"
 ---
 
-[MD5](http://tools.ietf.org/html/rfc7616#section-6.1 "Read documentation for Hash Algorithm for HTTP Digest Authentication &#34;MD5&#34;") (**[RFC 7616: HTTP Digest Access Authentication](/specs/IETF/RFC/7616 "The Hypertext Transfer Protocol (HTTP) provides a simple challenge-response authentication mechanism that may be used by a server to challenge a client request and by a client to provide authentication information. This document defines the HTTP Digest Authentication scheme that can be used with the HTTP authentication mechanism.")**)
+[MD5](https://datatracker.ietf.org/doc/html/rfc7616#section-6.1 "Read documentation for Hash Algorithm for HTTP Digest Authentication &#34;MD5&#34;") (**[RFC 7616: HTTP Digest Access Authentication](/specs/IETF/RFC/7616 "The Hypertext Transfer Protocol (HTTP) provides a simple challenge-response authentication mechanism that may be used by a server to challenge a client request and by a client to provide authentication information. This document defines the HTTP Digest Authentication scheme that can be used with the HTTP authentication mechanism.")**)
 
 <br/>
 <hr/>

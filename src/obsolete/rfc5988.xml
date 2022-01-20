@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <service primary="IETF" secondary="RFC" id="5988">
     <title>Web Linking</title>
-    <documentation source="http://tools.ietf.org/html/rfc5988">This document specifies relation types for Web links, and defines a registry for them. It also defines the use of such links in HTTP headers with the Link header field.</documentation>
+    <documentation source="https://datatracker.ietf.org/doc/html/rfc5988">This document specifies relation types for Web links, and defines a registry for them. It also defines the use of such links in HTTP headers with the Link header field.</documentation>
     <http-header def="Link">
-        <documentation source="http://tools.ietf.org/html/rfc5988#section-5">The Link entity-header field provides a means for serialising one or more links in HTTP headers. It is semantically equivalent to the &lt;LINK> element in HTML, as well as the atom:link feed-level element in Atom.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc5988#section-5">The Link entity-header field provides a means for serialising one or more links in HTTP headers. It is semantically equivalent to the &lt;LINK> element in HTML, as well as the atom:link feed-level element in Atom.</documentation>
     </http-header>
 </service>

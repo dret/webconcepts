@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "The \"Last-Modified\" header field in a response provides a timestamp indicating the date and time at which the origin server believes the selected representation was last modified, as determined at the conclusion of handling the request.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7232#section-2.2",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7232#section-2.2",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7232",
         "spec-name" : "RFC 7232" } ] }

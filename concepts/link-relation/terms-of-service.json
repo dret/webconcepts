@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "The \"terms-of-service\" link relation can be used to refer to a resource describing the terms of service associated with the link's context. The terms of service can be any resource that describes the rules to which a consumer of the service must agree to follow when using the service provided by the link's context.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6903#section-5",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6903#section-5",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6903",
         "spec-name" : "RFC 6903" } ] }

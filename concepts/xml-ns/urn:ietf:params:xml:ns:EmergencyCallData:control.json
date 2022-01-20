@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "This document defines a block of metadata\/control data as an XML structure containing elements used for eCall and other related emergency call systems and extension points. The control block is an XML data structure allowing for acknowledgments, requests, and capabilities information. It is carried in a body part with a specific MIME media type.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8147#section-9.1",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc8147#section-9.1",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8147",
         "spec-name" : "RFC 8147" } ] }

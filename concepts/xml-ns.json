@@ -12,7 +12,7 @@
         "details" : 
         [ 
           { "description" : "This document defines a block of metadata\/control data as an XML structure containing elements used for eCall and other related emergency call systems and extension points. The control block is an XML data structure allowing for acknowledgments, requests, and capabilities information. It is carried in a body part with a specific MIME media type.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8147#section-9.1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc8147#section-9.1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8147",
             "spec-name" : "RFC 8147" } ] },
       
@@ -22,7 +22,7 @@
         "details" : 
         [ 
           { "description" : "The Basic Location Profile XML schema extends the Common Policy schema by introducing new child elements to the transformation element.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6772#section-11.5",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6772#section-11.5",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6772",
             "spec-name" : "RFC 6772" } ] },
       
@@ -32,7 +32,7 @@
         "details" : 
         [ 
           { "description" : "This document defines a framework for authorization policies controlling access to application-specific data. This framework combines common location- and presence-specific authorization aspects. An XML schema specifies the language in which common policy rules are represented. The common policy framework can be extended to other application domains.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc4745#section-15.1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc4745#section-15.1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/4745",
             "spec-name" : "RFC 4745" } ] },
       
@@ -42,7 +42,7 @@
         "details" : 
         [ 
           { "description" : "The Geolocation Policy XML schema extends the Common Policy schema by introducing new child elements to the condition and transformation elements.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6772#section-11.2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6772#section-11.2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6772",
             "spec-name" : "RFC 6772" } ] },
       
@@ -52,6 +52,6 @@
         "details" : 
         [ 
           { "description" : "ECML (Electronic Commerce Modeling Language) provides a set of hierarchical payment-oriented data structures that will enable automated software, including electronic wallets from multiple vendors, to supply and query for needed data in a more uniform manner.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc4112#section-1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc4112#section-1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/4112",
             "spec-name" : "RFC 4112" } ] } ] }

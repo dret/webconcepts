@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "The Basic Location Profile XML schema extends the Common Policy schema by introducing new child elements to the transformation element.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6772#section-11.4",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6772#section-11.4",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6772",
         "spec-name" : "RFC 6772" } ] }

@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <service primary="IETF" secondary="RFC" id="5829">
     <title>Link Relation Types for Simple Version Navigation between Web Resources</title>
-    <documentation source="http://tools.ietf.org/html/rfc5829">This specification defines a set of link relation types that may be used on Web resources for navigation between a resource and other resources related to version control, such as past versions and working copies.</documentation>
+    <documentation source="https://datatracker.ietf.org/doc/html/rfc5829">This specification defines a set of link relation types that may be used on Web resources for navigation between a resource and other resources related to version control, such as past versions and working copies.</documentation>
     <link-relation def="version-history">
-        <documentation source="http://tools.ietf.org/html/rfc5829#section-3.1">When included on a versioned resource, this link points to a resource containing the version history for this resource.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc5829#section-3.1">When included on a versioned resource, this link points to a resource containing the version history for this resource.</documentation>
     </link-relation>
     <link-relation def="latest-version">
-        <documentation source="http://tools.ietf.org/html/rfc5829#section-3.2">When included on a versioned resource, this link points to a resource containing the latest (e.g., current) version.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc5829#section-3.2">When included on a versioned resource, this link points to a resource containing the latest (e.g., current) version.</documentation>
     </link-relation>
     <link-relation def="working-copy">
-        <documentation source="http://tools.ietf.org/html/rfc5829#section-3.3">When included on a versioned resource, this link points to a working copy for this resource.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc5829#section-3.3">When included on a versioned resource, this link points to a working copy for this resource.</documentation>
     </link-relation>
     <link-relation def="working-copy-of">
-        <documentation source="http://tools.ietf.org/html/rfc5829#section-3.4">When included on a working copy, this link points to the versioned resource from which this working copy was obtained.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc5829#section-3.4">When included on a working copy, this link points to the versioned resource from which this working copy was obtained.</documentation>
     </link-relation>
     <link-relation def="predecessor-version">
-        <documentation source="http://tools.ietf.org/html/rfc5829#section-3.5">When included on a versioned resource, this link points to a resource containing the predecessor version in the version history.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc5829#section-3.5">When included on a versioned resource, this link points to a resource containing the predecessor version in the version history.</documentation>
     </link-relation>
     <link-relation def="successor-version">
-        <documentation source="http://tools.ietf.org/html/rfc5829#section-3.6">When included on a versioned resource, this link points to a resource containing the successor version in the version history.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc5829#section-3.6">When included on a versioned resource, this link points to a resource containing the successor version in the version history.</documentation>
     </link-relation>
 </service>

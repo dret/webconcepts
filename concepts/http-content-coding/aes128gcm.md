@@ -7,7 +7,7 @@ concept-value: aes128gcm
 description: "The \"aes128gcm\" HTTP content coding indicates that a payload has been encrypted using Advanced Encryption Standard (AES) in Galois/Counter Mode (GCM) as identified as AEAD_AES_128_GCM in RFC 5116. The AEAD_AES_128_GCM algorithm uses a 128 bit content encryption key."
 ---
 
-[The "aes128gcm" HTTP content coding indicates that a payload has been encrypted using Advanced Encryption Standard (AES) in Galois/Counter Mode (GCM) as identified as AEAD_AES_128_GCM in RFC 5116. The AEAD_AES_128_GCM algorithm uses a 128 bit content encryption key.](http://tools.ietf.org/html/rfc8188#section-2 "Read documentation for HTTP Content Coding &#34;aes128gcm&#34;") (**[RFC 8188: Encrypted Content-Encoding for HTTP](/specs/IETF/RFC/8188 "This memo introduces a content coding for HTTP that allows message payloads to be encrypted.")**)
+[The "aes128gcm" HTTP content coding indicates that a payload has been encrypted using Advanced Encryption Standard (AES) in Galois/Counter Mode (GCM) as identified as AEAD_AES_128_GCM in RFC 5116. The AEAD_AES_128_GCM algorithm uses a 128 bit content encryption key.](https://datatracker.ietf.org/doc/html/rfc8188#section-2 "Read documentation for HTTP Content Coding &#34;aes128gcm&#34;") (**[RFC 8188: Encrypted Content-Encoding for HTTP](/specs/IETF/RFC/8188 "This memo introduces a content coding for HTTP that allows message payloads to be encrypted.")**)
 
 <br/>
 <hr/>

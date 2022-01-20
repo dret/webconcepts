@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "An XML schema for an authority element set used to provide metadata about agents (people, organizations), events, and terms (topics, geographics, genres, etc.). It is a companion to MODS.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6207#section-3",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6207#section-3",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6207",
         "spec-name" : "RFC 6207" } ] }

@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "The WebFinger resource returns a JSON Resource Descriptor (JRD) as the resource representation to convey information about an entity on the Internet.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7033#section-10.2",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7033#section-10.2",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7033",
         "spec-name" : "RFC 7033" } ] }

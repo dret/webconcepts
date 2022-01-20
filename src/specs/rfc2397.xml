@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <service primary="IETF" secondary="RFC" id="2397">
     <title>The "data" URL scheme</title>
-    <documentation source="http://tools.ietf.org/html/rfc2397">A new URL scheme, "data", is defined. It allows inclusion of small data items as "immediate" data, as if it had been included externally.</documentation>
+    <documentation source="https://datatracker.ietf.org/doc/html/rfc2397">A new URL scheme, "data", is defined. It allows inclusion of small data items as "immediate" data, as if it had been included externally.</documentation>
     <uri-scheme def="data">
-        <documentation source="http://tools.ietf.org/html/rfc2397#section-2">Some applications that use URLs also have a need to embed (small) media type data directly inline. This document defines a new URL scheme that would work like 'immediate addressing'.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc2397#section-2">Some applications that use URLs also have a need to embed (small) media type data directly inline. This document defines a new URL scheme that would work like 'immediate addressing'.</documentation>
     </uri-scheme>
 </service>

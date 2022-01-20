@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "The LOCK method is used to take out a lock of any access type and to refresh an existing lock.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc4918#section-9.10",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc4918#section-9.10",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/4918",
         "spec-name" : "RFC 4918" } ] }

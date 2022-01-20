@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <service primary="IETF" secondary="RFC" id="8030">
     <title>Generic Event Delivery Using HTTP Push</title>
-    <documentation source="http://tools.ietf.org/html/rfc8030">This document describes a simple protocol for the delivery of real-time events to user agents. This scheme uses HTTP/2 server push.</documentation>
+    <documentation source="https://datatracker.ietf.org/doc/html/rfc8030">This document describes a simple protocol for the delivery of real-time events to user agents. This scheme uses HTTP/2 server push.</documentation>
     <http-header def="TTL">
-        <documentation source="http://tools.ietf.org/html/rfc8030#section-5.2">An application server MUST include the TTL (Time-To-Live) header field in its request for push message delivery. The TTL header field contains a value in seconds that suggests how long a push message is retained by the push service.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc8030#section-5.2">An application server MUST include the TTL (Time-To-Live) header field in its request for push message delivery. The TTL header field contains a value in seconds that suggests how long a push message is retained by the push service.</documentation>
     </http-header>
     <http-header def="Urgency">
-        <documentation source="http://tools.ietf.org/html/rfc8030#section-5.3">An application server MAY include an Urgency header field in its request for push message delivery. This header field indicates the message urgency. The push service MUST NOT forward the Urgency header field to the user agent. A push message without the Urgency header field defaults to a value of "normal".</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc8030#section-5.3">An application server MAY include an Urgency header field in its request for push message delivery. This header field indicates the message urgency. The push service MUST NOT forward the Urgency header field to the user agent. A push message without the Urgency header field defaults to a value of "normal".</documentation>
     </http-header>
     <http-header def="Topic">
-        <documentation source="http://tools.ietf.org/html/rfc8030#section-5.4">A push message topic is a string carried in a Topic header field. A topic is used to correlate push messages sent to the same subscription and does not convey any other semantics.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc8030#section-5.4">A push message topic is a string carried in a Topic header field. A topic is used to correlate push messages sent to the same subscription and does not convey any other semantics.</documentation>
     </http-header>
 </service>

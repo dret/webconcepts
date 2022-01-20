@@ -7,7 +7,7 @@ concept-value: urn:example:profile-uri
 description: "A profile to be used in examples, in accordance with RFC 6963."
 ---
 
-[A profile to be used in examples, in accordance with RFC 6963.](http://tools.ietf.org/html/rfc7284#section-3 "Read documentation for Profile URI &#34;urn:example:profile-uri&#34;") (**[RFC 7284: The Profile URI Registry](/specs/IETF/RFC/7284 "This document defines a registry for profile URIs to be used in specifications standardizing profiles.")**)
+[A profile to be used in examples, in accordance with RFC 6963.](https://datatracker.ietf.org/doc/html/rfc7284#section-3 "Read documentation for Profile URI &#34;urn:example:profile-uri&#34;") (**[RFC 7284: The Profile URI Registry](/specs/IETF/RFC/7284 "This document defines a registry for profile URIs to be used in specifications standardizing profiles.")**)
 
 <br/>
 <hr/>

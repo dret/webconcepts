@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "The value \"via\" signifies that the IRI in the value of the href attribute identifies a resource that is the source of the information provided in the containing element.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc4287#section-4.2.7.2",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc4287#section-4.2.7.2",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/4287",
         "spec-name" : "RFC 4287" } ] }

@@ -12,7 +12,7 @@
         "details" : 
         [ 
           { "description" : "Ad-ID is the industry standard for identifying advertising assets across all media platforms (e.g., over the air, online, over the top, mobile, and place based). Ad-IDs are unique codes for each creative advertising asset. Those unique codes are applied to all media.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8107#section-1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc8107#section-1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8107",
             "spec-name" : "RFC 8107" } ] },
       
@@ -22,7 +22,7 @@
         "details" : 
         [ 
           { "description" : "The \"bbf\" NID is for new work efforts related to data models for protocols other than the Customer Premises Equipment (CPE) WAN Management Protocol (CWMP).",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8057#section-2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc8057#section-2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8057",
             "spec-name" : "RFC 8057" } ] },
       
@@ -32,7 +32,7 @@
         "details" : 
         [ 
           { "description" : "The \"broadband-forum-org\" and \"dslforum-org\" NIDs are used for all data models related to CWMP.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8057#section-3",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc8057#section-3",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8057",
             "spec-name" : "RFC 8057" } ] },
       
@@ -42,7 +42,7 @@
         "details" : 
         [ 
           { "description" : "The \"broadband-forum-org\" and \"dslforum-org\" NIDs are used for all data models related to CWMP. Use of the \"dslforum-org\" NID started prior the organization's 2008 name change from DSL Forum to Broadband Forum.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8057#section-4",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc8057#section-4",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8057",
             "spec-name" : "RFC 8057" } ] },
       
@@ -52,7 +52,7 @@
         "details" : 
         [ 
           { "description" : "The goal of the \"eurosystem\" namespace is to ensure the stability and uniqueness of the names of various items that are used within the messages exchanged between the Eurosystem and the users of TARGET2-Securities (or potentially, other future projects of the Eurosystem).",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7207#section-2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7207#section-2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7207",
             "spec-name" : "RFC 7207" } ] },
       
@@ -62,7 +62,7 @@
         "details" : 
         [ 
           { "description" : "The \"example\" NID is intended to provide a clean, easily recognizable space for minting examples to be used in documentation and in URN-related testing and experimentation. ",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6963#section-5",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6963#section-5",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6963",
             "spec-name" : "RFC 6963" } ] },
       
@@ -72,7 +72,7 @@
         "details" : 
         [ 
           { "description" : "The Institute of Electrical and Electronic Engineers (IEEE) is an organization whose objectives include the educational and technical advancement of electrical and electronic engineering, telecommunications, computer engineering, and allied disciplines. As part of these specification efforts, there is a need to maintain identifiers in a managed namespace that is unique and persistent.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8069#section-1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc8069#section-1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8069",
             "spec-name" : "RFC 8069" } ] },
       
@@ -82,7 +82,7 @@
         "details" : 
         [ 
           { "description" : "This document proposes the \"ietf\" namespace, which consists of the RFC family of documents (RFCs, STDs, FYIs, and BCPs) developed by the IETF and published by the RFC editor and the minutes of working groups (WG) and birds of a feather (BOF) meetings that occur during IETF conferences.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc2648#section-1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc2648#section-1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/2648",
             "spec-name" : "RFC 2648" } ] },
       
@@ -92,7 +92,7 @@
         "details" : 
         [ 
           { "description" : "An International Standard Book Number (ISBN) identifies an edition of a monographic work. The ISBN is defined by the standard NISO\/ANSI\/ISO 2108:1992.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc3187#section-3",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc3187#section-3",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/3187",
             "spec-name" : "RFC 3187" } ] },
       
@@ -102,7 +102,7 @@
         "details" : 
         [ 
           { "description" : "This specification defines the syntax for URNs that identify documents developed by the International Organization for Standardization (ISO) in accordance with the standards development procedures defined in the ISO\/IEC Directives, Part 1 and the ISO supplement and processed by the ISO Central Secretariat.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc5141#section-1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc5141#section-1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/5141",
             "spec-name" : "RFC 5141" } ] },
       
@@ -112,7 +112,7 @@
         "details" : 
         [ 
           { "description" : "In accordance with the ISO standard 3297 International Standard Serial Number (ISSN). The ISSN consists of eight digits in Arabic numerals 0 to 9, except the last digit which is a check digit and can sometimes be an X. The ISSN has no internal meaningful elements to identify language, country, publisher.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc3044#section-5",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc3044#section-5",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/3044",
             "spec-name" : "RFC 3044" } ] },
       
@@ -122,7 +122,7 @@
         "details" : 
         [ 
           { "description" : "NFC Forum working groups will manage the assignment of NFC resources and the specific registration values assigned for each resource class. The Technical Committee will coordinate creation of new resource class assignments based on community need.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc4729#section-2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc4729#section-2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/4729",
             "spec-name" : "RFC 4729" } ] },
       
@@ -132,7 +132,7 @@
         "details" : 
         [ 
           { "description" : "The Organization for the Advancement of Structured Information Standards (OASIS) produces many kinds of documents: specifications, working drafts, technical resolutions, schemas, stylesheets, etc. OASIS wishes to provide global, distributed, persistent, location-independent names for these resources.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc3121#section-1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc3121#section-1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/3121",
             "spec-name" : "RFC 3121" } ] },
       
@@ -142,6 +142,6 @@
         "details" : 
         [ 
           { "description" : "A UUID is an identifier that is unique across both space and time, with respect to the space of all UUIDs. Since a UUID is a fixed size and contains a time field, it is possible for values to rollover (around A.D. 3400, depending on the specific algorithm used).",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc4122#section-3",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc4122#section-3",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/4122",
             "spec-name" : "RFC 4122" } ] } ] }

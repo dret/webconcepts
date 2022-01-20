@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <service primary="IETF" secondary="RFC" id="7240">
     <title>Prefer Header for HTTP</title>
-    <documentation source="http://tools.ietf.org/html/rfc7240">This specification defines an HTTP header field that can be used by a client to request that certain behaviors be employed by a server while processing a request.</documentation>
+    <documentation source="https://datatracker.ietf.org/doc/html/rfc7240">This specification defines an HTTP header field that can be used by a client to request that certain behaviors be employed by a server while processing a request.</documentation>
     <http-header def="Prefer">
-        <documentation source="http://tools.ietf.org/html/rfc7240#section-2">The Prefer request header field is used to indicate that particular server behaviors are preferred by the client, but not required for successful completion of the request. Prefer is similar in nature to the Expect header field with the exception that servers are allowed to ignore stated preferences.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7240#section-2">The Prefer request header field is used to indicate that particular server behaviors are preferred by the client, but not required for successful completion of the request. Prefer is similar in nature to the Expect header field with the exception that servers are allowed to ignore stated preferences.</documentation>
     </http-header>
     <http-header def="Preference-Applied">
-        <documentation source="http://tools.ietf.org/html/rfc7240#section-3">The Preference-Applied response header MAY be included within a response message as an indication as to which Prefer tokens were honored by the server and applied to the processing of a request.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7240#section-3">The Preference-Applied response header MAY be included within a response message as an indication as to which Prefer tokens were honored by the server and applied to the processing of a request.</documentation>
     </http-header>
     <http-preference def="respond-async">
-        <documentation source="http://tools.ietf.org/html/rfc7240#section-4.1">The "respond-async" preference indicates that the client prefers the server to respond asynchronously to a response.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7240#section-4.1">The "respond-async" preference indicates that the client prefers the server to respond asynchronously to a response.</documentation>
     </http-preference>
     <http-preference def="return">
-        <documentation source="http://tools.ietf.org/html/rfc7240#section-4.2">The "return=representation" preference indicates that the client prefers that the server include an entity representing the current state of the resource in the response to a successful request. The "return=minimal" preference, on the other hand, indicates that the client wishes the server to return only a minimal response to a successful request.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7240#section-4.2">The "return=representation" preference indicates that the client prefers that the server include an entity representing the current state of the resource in the response to a successful request. The "return=minimal" preference, on the other hand, indicates that the client wishes the server to return only a minimal response to a successful request.</documentation>
     </http-preference>
     <http-preference def="wait">
-        <documentation source="http://tools.ietf.org/html/rfc7240#section-4.3">The "wait" preference can be used to establish an upper bound on the length of time, in seconds, the client expects it will take the server to process the request once it has been received.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7240#section-4.3">The "wait" preference can be used to establish an upper bound on the length of time, in seconds, the client expects it will take the server to process the request once it has been received.</documentation>
     </http-preference>
     <http-preference def="handling">
-        <documentation source="http://tools.ietf.org/html/rfc7240#section-4.4">The "handling=strict" and "handling=lenient" preferences indicate, at the server's discretion, how the client wishes the server to handle potential error conditions that can arise in the processing of a request.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7240#section-4.4">The "handling=strict" and "handling=lenient" preferences indicate, at the server's discretion, how the client wishes the server to handle potential error conditions that can arise in the processing of a request.</documentation>
     </http-preference>
 </service>

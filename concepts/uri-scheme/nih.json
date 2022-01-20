@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "Fields in nih URIs are separated by a semicolon (;) character. The first field is a hash algorithm string, as in the ni URI format.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6920#section-7",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6920#section-7",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6920",
         "spec-name" : "RFC 6920" } ] }

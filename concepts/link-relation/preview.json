@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "The \"preview\" link relation can be used to refer to a resource that serves as a preview of the link's context, likely with reduced quality or limited content. For instance, the preview link might reference a screen capture of a video, a brief snippet of audio from a song, or a thumbnail representation of an image.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6903#section-3",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6903#section-3",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6903",
         "spec-name" : "RFC 6903" } ] }

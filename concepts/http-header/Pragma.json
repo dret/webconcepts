@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "The \"Pragma\" header field allows backwards compatibility with HTTP\/1.0 caches, so that clients can specify a \"no-cache\" request that they will understand (as Cache-Control was not defined until HTTP\/1.1). When the Cache-Control header field is also present and understood in a request, Pragma is ignored.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7234#section-5.4",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7234#section-5.4",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7234",
         "spec-name" : "RFC 7234" } ] }

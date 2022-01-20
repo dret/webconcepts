@@ -12,7 +12,7 @@
         "details" : 
         [ 
           { "description" : "The \"by\" parameter is used to disclose the interface where the request came in to the proxy server.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7239#section-5.1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7239#section-5.1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7239",
             "spec-name" : "RFC 7239" } ] },
       
@@ -22,7 +22,7 @@
         "details" : 
         [ 
           { "description" : "The \"for\" parameter is used to disclose information about the client that initiated the request and subsequent proxies in a chain of proxies.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7239#section-5.2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7239#section-5.2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7239",
             "spec-name" : "RFC 7239" } ] },
       
@@ -32,7 +32,7 @@
         "details" : 
         [ 
           { "description" : "The \"host\" parameter is used to forward the original value of the \"Host\" header field.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7239#section-5.3",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7239#section-5.3",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7239",
             "spec-name" : "RFC 7239" } ] },
       
@@ -42,6 +42,6 @@
         "details" : 
         [ 
           { "description" : "The \"proto\" parameter has the value of the used protocol type.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7239#section-5.4",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7239#section-5.4",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7239",
             "spec-name" : "RFC 7239" } ] } ] }

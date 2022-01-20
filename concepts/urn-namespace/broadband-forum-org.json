@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "The \"broadband-forum-org\" and \"dslforum-org\" NIDs are used for all data models related to CWMP.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8057#section-3",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc8057#section-3",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8057",
         "spec-name" : "RFC 8057" } ] }

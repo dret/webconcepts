@@ -5,11 +5,11 @@
     "details" : 
     [ 
       { "description" : "JavaScript Object Notation (JSON) is a text format for the serialization of structured data. It is derived from the object literals of JavaScript, as defined in the ECMAScript Programming Language Standard, Third Edition.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-jsonbis-rfc7159bis#section-1",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-ietf-jsonbis-rfc7159bis#section-1",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-jsonbis-rfc7159bis",
         "spec-name" : "Internet Draft ietf-jsonbis-rfc7159bis" },
       
       { "description" : "JavaScript Object Notation (JSON) is a text format for the serialization of structured data. It is derived from the object literals of JavaScript, as defined in the ECMAScript Programming Language Standard, Third Edition. JSON can represent four primitive types (strings, numbers, booleans, and null) and two structured types (objects and arrays).",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8259#section-1",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc8259#section-1",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8259",
         "spec-name" : "RFC 8259" } ] }

@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "The Institute of Electrical and Electronic Engineers (IEEE) is an organization whose objectives include the educational and technical advancement of electrical and electronic engineering, telecommunications, computer engineering, and allied disciplines. As part of these specification efforts, there is a need to maintain identifiers in a managed namespace that is unique and persistent.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8069#section-1",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc8069#section-1",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8069",
         "spec-name" : "RFC 8069" } ] }

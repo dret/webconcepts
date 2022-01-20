@@ -6,6 +6,6 @@
     "details" : 
     [ 
       { "description" : "The 302 (Found) status code indicates that the target resource resides temporarily under a different URI. Since the redirection might be altered on occasion, the client ought to continue to use the effective request URI for future requests.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7231#section-6.4.3",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7231#section-6.4.3",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7231",
         "spec-name" : "RFC 7231" } ] }

@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "The request requires higher privileges than provided by the access token.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6750#section-3.1",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6750#section-3.1",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6750",
         "spec-name" : "RFC 6750" } ] }

@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "Once a client and server have negotiated the Token Binding protocol with HTTP\/1.1 or HTTP\/2, clients MUST include a Sec-Token-Binding header field in their HTTP requests and MUST include only one such header field per HTTP request. Also, the Sec-Token-Binding header field MUST NOT be included in HTTP responses.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8473#section-2",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc8473#section-2",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8473",
         "spec-name" : "RFC 8473" } ] }

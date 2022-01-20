@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <service primary="IETF" secondary="RFC" id="4112">
     <title>Electronic Commerce Modeling Language (ECML) Version 2 Specification</title>
-    <documentation source="http://tools.ietf.org/html/rfc4112">Electronic commerce frequently requires a substantial exchange of information in order to complete a purchase or other transaction, especially the first time the parties communicate. A standard set of hierarchically-organized payment-related information field names in an XML syntax is defined so that this task can be more easily automated. This is the second version of an Electronic Commerce Modeling Language (ECML) and is intended to meet the requirements of RFC 3505.</documentation>
+    <documentation source="https://datatracker.ietf.org/doc/html/rfc4112">Electronic commerce frequently requires a substantial exchange of information in order to complete a purchase or other transaction, especially the first time the parties communicate. A standard set of hierarchically-organized payment-related information field names in an XML syntax is defined so that this task can be more easily automated. This is the second version of an Electronic Commerce Modeling Language (ECML) and is intended to meet the requirements of RFC 3505.</documentation>
     <xml-ns def="urn:ietf:params:xml:schema:ECMLv2">
-        <documentation source="http://tools.ietf.org/html/rfc4112#section-1">ECML (Electronic Commerce Modeling Language) provides a set of hierarchical payment-oriented data structures that will enable automated software, including electronic wallets from multiple vendors, to supply and query for needed data in a more uniform manner.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc4112#section-1">ECML (Electronic Commerce Modeling Language) provides a set of hierarchical payment-oriented data structures that will enable automated software, including electronic wallets from multiple vendors, to supply and query for needed data in a more uniform manner.</documentation>
     </xml-ns>
 </service>

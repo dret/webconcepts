@@ -6,6 +6,6 @@
     "details" : 
     [ 
       { "description" : "The 417 (Expectation Failed) status code indicates that the expectation given in the request's Expect header field could not be met by at least one of the inbound servers.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7231#section-6.5.14",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7231#section-6.5.14",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7231",
         "spec-name" : "RFC 7231" } ] }

@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "Slug is an HTTP entity-header whose presence in a POST to a Collection constitutes a request by the client to use the header's value as part of any URIs that would normally be used to retrieve the to-be-created Entry or Media Resources.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc5023#section-9.7",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc5023#section-9.7",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/5023",
         "spec-name" : "RFC 5023" } ] }

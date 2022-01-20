@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "We define a mapping between URIs following the ni URI scheme and HTTP or HTTPS URLs that makes use of the .well-known URI by defining an \"ni\" suffix.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6920#section-4",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6920#section-4",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6920",
         "spec-name" : "RFC 6920" } ] }

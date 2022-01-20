@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "A \"Deleted Entry Document\" represents exactly one at:deleted-entry element outside the context of an Atom feed. Its root is the at:deleted-entry element.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6721#section-4",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6721#section-4",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6271",
         "spec-name" : "RFC 6271" } ] }

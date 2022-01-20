@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <service primary="IETF" secondary="RFC" id="5842">
     <title>Binding Extensions to Web Distributed Authoring and Versioning (WebDAV)</title>
-    <documentation source="http://tools.ietf.org/html/rfc5842">This specification defines bindings, and the BIND method for creating multiple bindings to the same resource. Creating a new binding to a resource causes at least one new URI to be mapped to that resource. Servers are required to ensure the integrity of any bindings that they allow to be created.</documentation>
+    <documentation source="https://datatracker.ietf.org/doc/html/rfc5842">This specification defines bindings, and the BIND method for creating multiple bindings to the same resource. Creating a new binding to a resource causes at least one new URI to be mapped to that resource. Servers are required to ensure the integrity of any bindings that they allow to be created.</documentation>
     <http-status-code def="208" desc="Already Reported">
-        <documentation source="http://tools.ietf.org/html/rfc5842#section-7.1">The 208 (Already Reported) status code can be used inside a DAV: propstat response element to avoid enumerating the internal members of multiple bindings to the same collection repeatedly. For each binding to a collection inside the request's scope, only one will be reported with a 200 status, while subsequent DAV:response elements for all other bindings will use the 208 status, and no DAV:response elements for their descendants are included.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc5842#section-7.1">The 208 (Already Reported) status code can be used inside a DAV: propstat response element to avoid enumerating the internal members of multiple bindings to the same collection repeatedly. For each binding to a collection inside the request's scope, only one will be reported with a 200 status, while subsequent DAV:response elements for all other bindings will use the 208 status, and no DAV:response elements for their descendants are included.</documentation>
     </http-status-code>
     <http-status-code def="508" desc="Loop Detected">
-        <documentation source="http://tools.ietf.org/html/rfc5842#section-7.1">The 508 (Loop Detected) status code indicates that the server terminated an operation because it encountered an infinite loop while processing a request with "Depth: infinity". This status indicates that the entire operation failed.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc5842#section-7.1">The 508 (Loop Detected) status code indicates that the server terminated an operation because it encountered an infinite loop while processing a request with "Depth: infinity". This status indicates that the entire operation failed.</documentation>
     </http-status-code>
     <http-method def="BIND">
-        <documentation source="http://tools.ietf.org/html/rfc5842#section-4">The BIND method modifies the collection identified by the Request-URI, by adding a new binding from the segment specified in the BIND body to the resource identified in the BIND body.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc5842#section-4">The BIND method modifies the collection identified by the Request-URI, by adding a new binding from the segment specified in the BIND body to the resource identified in the BIND body.</documentation>
     </http-method>
     <http-method def="UNBIND">
-        <documentation source="http://tools.ietf.org/html/rfc5842#section-5">The UNBIND method modifies the collection identified by the Request-URI by removing the binding identified by the segment specified in the UNBIND body.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc5842#section-5">The UNBIND method modifies the collection identified by the Request-URI by removing the binding identified by the segment specified in the UNBIND body.</documentation>
     </http-method>
     <http-method def="REBIND">
-        <documentation source="http://tools.ietf.org/html/rfc5842#section-6">The REBIND method removes a binding to a resource from a collection, and adds a binding to that resource into the collection identified by the Request-URI. The request body specifies the binding to be added (segment) and the old binding to be removed (href). It is effectively an atomic form of a MOVE request, and MUST be treated the same way as MOVE for the purpose of determining access permissions.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc5842#section-6">The REBIND method removes a binding to a resource from a collection, and adds a binding to that resource into the collection identified by the Request-URI. The request body specifies the binding to be added (segment) and the old binding to be removed (href). It is effectively an atomic form of a MOVE request, and MUST be treated the same way as MOVE for the purpose of determining access permissions.</documentation>
     </http-method>
 </service>

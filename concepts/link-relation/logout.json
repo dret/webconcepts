@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "The \"logout\" refers to a resource where an authenticated user might end their session.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/draft-pot-authentication-link#section-4",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-pot-authentication-link#section-4",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/pot-authentication-link",
         "spec-name" : "Internet Draft pot-authentication-link" } ] }

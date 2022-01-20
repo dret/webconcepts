@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <service primary="IETF" secondary="I-D" id="ietf-httpbis-tunnel-protocol">
     <title>The Tunnel-Protocol HTTP Header Field</title>
-    <documentation source="http://tools.ietf.org/html/draft-ietf-httpbis-tunnel-protocol">This specification allows HTTP CONNECT requests to indicate what protocol will be used within the tunnel once established, using the Tunnel-Protocol header field.</documentation>
+    <documentation source="https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-tunnel-protocol">This specification allows HTTP CONNECT requests to indicate what protocol will be used within the tunnel once established, using the Tunnel-Protocol header field.</documentation>
     <http-header def="Tunnel-Protocol">
-        <documentation source="http://tools.ietf.org/html/draft-ietf-httpbis-tunnel-protocol#section-2">Clients include the Tunnel-Protocol header field in an HTTP CONNECT request to indicate the application layer protocol that will be used within the tunnel, or the set of protocols that might be used within the tunnel.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-tunnel-protocol#section-2">Clients include the Tunnel-Protocol header field in an HTTP CONNECT request to indicate the application layer protocol that will be used within the tunnel, or the set of protocols that might be used within the tunnel.</documentation>
     </http-header>
 </service>

@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "This document proposes a \"home document\" format for non-browser HTTP clients.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/draft-nottingham-json-home",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-nottingham-json-home",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/nottingham-json-home",
         "spec-name" : "Internet Draft nottingham-json-home" } ] }

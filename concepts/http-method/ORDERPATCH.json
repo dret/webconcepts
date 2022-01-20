@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "The ORDERPATCH method is used to change the ordering semantics of a collection, to change the order of the collection's members in the ordering, or both.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc3648#section-7",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc3648#section-7",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/3648",
         "spec-name" : "RFC 3648" } ] }

@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "The Content-Base entity-header field may be used to specify the base URI for resolving relative URLs within the entity. This header field is described as Base in RFC 1808, which is expected to be revised.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc2068#section-14.11",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc2068#section-14.11",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/2068",
         "spec-name" : "RFC 2068" } ] }

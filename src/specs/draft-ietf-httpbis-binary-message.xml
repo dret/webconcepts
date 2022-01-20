@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <service primary="IETF" secondary="I-D" id="ietf-httpbis-binary-message">
     <title>Binary Representation of HTTP Messages</title>
-    <documentation source="http://tools.ietf.org/html/draft-ietf-httpbis-binary-message">This document defines a binary format for representing HTTP messages.</documentation>
+    <documentation source="https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-binary-message">This document defines a binary format for representing HTTP messages.</documentation>
     <media-type def="message/bhttp">
-        <documentation source="http://tools.ietf.org/html/draft-ietf-httpbis-binary-message#section-8">This document defines a simple format for representing an HTTP message, either request or response. This allows for the encoding of HTTP messages that can be conveyed outside of an HTTP protocol. This enables the transformation of entire messages, including the application of authenticated encryption.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-binary-message#section-8">This document defines a simple format for representing an HTTP message, either request or response. This allows for the encoding of HTTP messages that can be conveyed outside of an HTTP protocol. This enables the transformation of entire messages, including the application of authenticated encryption.</documentation>
     </media-type>
 </service>

@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "Although 'acct' URIs take the form \"user@host\", the scheme is designed for the purpose of identification instead of interaction. The \"Internet resource\" identified by an 'acct' URI is a user's account hosted at a service provider, where the service provider is typically associated with a DNS domain name.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7565#section-4",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7565#section-4",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7565",
         "spec-name" : "RFC 7565" } ] }

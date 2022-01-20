@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "The Variant-Vary response header can be used in a choice response to record any vary information which applies to the variant data (the entity body combined with some of the entity headers) contained in the response, rather than to the response as a whole.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc2295#section-8.6",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc2295#section-8.6",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/2295",
         "spec-name" : "RFC 2295" } ] }

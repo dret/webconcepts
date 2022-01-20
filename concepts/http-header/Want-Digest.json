@@ -5,11 +5,11 @@
     "details" : 
     [ 
       { "description" : "The \"Want-Digest\" field indicates the sender's desire to receive a representation digest on messages associated with the request URI and representation metadata.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-httpbis-digest-headers#section-4",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-ietf-httpbis-digest-headers#section-4",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpbis-digest-headers",
         "spec-name" : "Internet Draft ietf-httpbis-digest-headers" },
       
       { "description" : "The Want-Digest message header field indicates the sender's desire to receive an instance digest on messages associated with the Request-URI.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc3230#section-4.3.1",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc3230#section-4.3.1",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/3230",
         "spec-name" : "RFC 3230" } ] }

@@ -7,7 +7,7 @@ concept-value: Link
 description: "The Link header field provides a means for serialising one or more links into HTTP headers."
 ---
 
-[The Link header field provides a means for serialising one or more links into HTTP headers.](http://tools.ietf.org/html/rfc8288#section-3 "Read documentation for HTTP Header Field &#34;Link&#34;") (**[RFC 8288: Web Linking](/specs/IETF/RFC/8288 "This specification defines a way to indicate the relationships between resources on the Web (&#34;links&#34;) and the type of those relationships (&#34;link relation types&#34;). It also defines the use of such links in HTTP headers with the Link header field.")**)
+[The Link header field provides a means for serialising one or more links into HTTP headers.](https://datatracker.ietf.org/doc/html/rfc8288#section-3 "Read documentation for HTTP Header Field &#34;Link&#34;") (**[RFC 8288: Web Linking](/specs/IETF/RFC/8288 "This specification defines a way to indicate the relationships between resources on the Web (&#34;links&#34;) and the type of those relationships (&#34;link relation types&#34;). It also defines the use of such links in HTTP headers with the Link header field.")**)
 
 <br/>
 <hr/>

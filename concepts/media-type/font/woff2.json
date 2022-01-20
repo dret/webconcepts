@@ -5,7 +5,7 @@
     "details" : 
     [ 
       { "description" : "WOFF 2.0 is used by web browsers, often in conjunction with HTML and CSS. WOFF 2.0 is an improvement on WOFF 1.0.  The two formats have different Internet Media Types and different @font-face formats, and they may be used in parallel.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8081#section-4.4.6",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc8081#section-4.4.6",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8081",
         "spec-name" : "RFC 8081" },
       

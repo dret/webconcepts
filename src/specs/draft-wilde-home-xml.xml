@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <service primary="IETF" secondary="I-D" id="wilde-home-xml">
     <title>Home Documents for HTTP Services: XML Syntax</title>
-    <documentation source="http://tools.ietf.org/html/draft-wilde-home-xml">The specification for HTTP API Home Documents provides a JSON syntax only. This specification provides an XML syntax for the same data model, so that the concept of Home Documents can be consistently exposed in both JSON- and XML-based HTTP APIs. It also defines the link relation type "home" so that applications can identify links to home documents.</documentation>
+    <documentation source="https://datatracker.ietf.org/doc/html/draft-wilde-home-xml">The specification for HTTP API Home Documents provides a JSON syntax only. This specification provides an XML syntax for the same data model, so that the concept of Home Documents can be consistently exposed in both JSON- and XML-based HTTP APIs. It also defines the link relation type "home" so that applications can identify links to home documents.</documentation>
     <media-type def="application/home+xml">
-        <documentation source="http://tools.ietf.org/html/draft-wilde-home-xml-04#section-4.1">The specification for HTTP Home Documents provides a JSON syntax only. This media type provides an XML syntax for the same underlying data model, so that the concept of HTTP Home Documents can be consistently exposed in both JSON- and XML-based HTTP services.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/draft-wilde-home-xml-04#section-4.1">The specification for HTTP Home Documents provides a JSON syntax only. This media type provides an XML syntax for the same underlying data model, so that the concept of HTTP Home Documents can be consistently exposed in both JSON- and XML-based HTTP services.</documentation>
     </media-type>
 </service>

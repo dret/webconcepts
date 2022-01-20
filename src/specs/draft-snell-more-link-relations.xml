@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <service primary="IETF" secondary="I-D" id="snell-more-link-relations">
     <title>Additional Link Relations and the urn:social Namespace</title>
-    <documentation source="http://tools.ietf.org/html/draft-snell-more-link-relations">This specification defines a number of additional Link Relation Types that can used for a variety of purposes.</documentation>
+    <documentation source="https://datatracker.ietf.org/doc/html/draft-snell-more-link-relations">This specification defines a number of additional Link Relation Types that can used for a variety of purposes.</documentation>
     <link-relation def="to">
-        <documentation source="http://tools.ietf.org/html/draft-snell-more-link-relations#section-3">Refers to a resource that is considered to be part of the public primary audience of the link's context.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/draft-snell-more-link-relations#section-3">Refers to a resource that is considered to be part of the public primary audience of the link's context.</documentation>
     </link-relation>
     <link-relation def="bto">
-        <documentation source="http://tools.ietf.org/html/draft-snell-more-link-relations#section-3">Refers to a resource that is considered to be part of the private primary audience of the link's context.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/draft-snell-more-link-relations#section-3">Refers to a resource that is considered to be part of the private primary audience of the link's context.</documentation>
     </link-relation>
     <link-relation def="cc">
-        <documentation source="http://tools.ietf.org/html/draft-snell-more-link-relations#section-3">Refers to a resource that is considered to be  part of the public secondary audience of the link's context.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/draft-snell-more-link-relations#section-3">Refers to a resource that is considered to be  part of the public secondary audience of the link's context.</documentation>
     </link-relation>
     <link-relation def="bcc">
-        <documentation source="http://tools.ietf.org/html/draft-snell-more-link-relations#section-3">Refers to a resource that is considered to be part of the private secondary audience of the link's context.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/draft-snell-more-link-relations#section-3">Refers to a resource that is considered to be part of the private secondary audience of the link's context.</documentation>
     </link-relation>
     <link-relation def="from">
-        <documentation source="http://tools.ietf.org/html/draft-snell-more-link-relations#section-3">Refers to a resource that is publicly considered to be the originator of the link's context.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/draft-snell-more-link-relations#section-3">Refers to a resource that is publicly considered to be the originator of the link's context.</documentation>
     </link-relation>
     <link-relation def="bfrom">
-        <documentation source="http://tools.ietf.org/html/draft-snell-more-link-relations#section-3">Refers to a resource that is privately considered to be the originator of the link's context.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/draft-snell-more-link-relations#section-3">Refers to a resource that is privately considered to be the originator of the link's context.</documentation>
     </link-relation>
     <link-relation def="source">
-        <documentation source="http://tools.ietf.org/html/draft-snell-more-link-relations#section-3">Refers to the original source of information contained by the context resource.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/draft-snell-more-link-relations#section-3">Refers to the original source of information contained by the context resource.</documentation>
     </link-relation>
     <link-relation def="provider">
-        <documentation source="http://tools.ietf.org/html/draft-snell-more-link-relations#section-3">Refers to the resource that provided the context resource. Typically, this would be used to identify the entity publishing the resource.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/draft-snell-more-link-relations#section-3">Refers to the resource that provided the context resource. Typically, this would be used to identify the entity publishing the resource.</documentation>
     </link-relation>
     <link-relation def="generator">
-        <documentation source="http://tools.ietf.org/html/draft-snell-more-link-relations#section-3">Refers to the resource that generated the context  resource. Typically, this would be used to identify the software application that created the context resource.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/draft-snell-more-link-relations#section-3">Refers to the resource that generated the context  resource. Typically, this would be used to identify the software application that created the context resource.</documentation>
     </link-relation>
     <link-relation def="mentionedby">
-        <documentation source="http://tools.ietf.org/html/draft-snell-more-link-relations#section-3">Refers to a resource that mentions the context resource in some fashion. This, for example, would be used when an article mentions another article, or a social status update mentions a particular user, etc.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/draft-snell-more-link-relations#section-3">Refers to a resource that mentions the context resource in some fashion. This, for example, would be used when an article mentions another article, or a social status update mentions a particular user, etc.</documentation>
     </link-relation>
     <link-relation def="location">
-        <documentation source="http://tools.ietf.org/html/draft-snell-more-link-relations#section-3">References a URI/IRI that represents a physical or logical location with which the context resource is associated.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/draft-snell-more-link-relations#section-3">References a URI/IRI that represents a physical or logical location with which the context resource is associated.</documentation>
     </link-relation>
 </service>

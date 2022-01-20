@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "HTTP SCRAM is an HTTP Authentication mechanism whose client response and server challenge messages are text-based messages containing one or more attribute-value pairs separated by commas. SCRAM-SHA-1 is registered for database compatibility with implementations of RFC 5802 that want to also expose HTTP access to a related service, but it is not recommended for new deployments.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7804#section-5",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7804#section-5",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7804",
         "spec-name" : "RFC 7804" } ] }

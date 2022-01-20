@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <service primary="IETF" secondary="RFC" id="2295">
     <title>Transparent Content Negotiation in HTTP</title>
-    <documentation source="http://tools.ietf.org/html/rfc2295">HTTP allows web site authors to put multiple versions of the same information under a single URL. Transparent content negotiation is an extensible negotiation mechanism, layered on top of HTTP, for automatically selecting the best version when the URL is accessed. This enables the smooth deployment of new web data formats and markup tags.</documentation>
+    <documentation source="https://datatracker.ietf.org/doc/html/rfc2295">HTTP allows web site authors to put multiple versions of the same information under a single URL. Transparent content negotiation is an extensible negotiation mechanism, layered on top of HTTP, for automatically selecting the best version when the URL is accessed. This enables the smooth deployment of new web data formats and markup tags.</documentation>
     <http-header def="Accept-Features">
-        <documentation source="http://tools.ietf.org/html/rfc2295#section-8.2">The Accept-Features request header can be used by a user agent to give information about the presence or absence of certain features in the feature set of the current request. Servers can use this information when running a remote variant selection algorithm.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc2295#section-8.2">The Accept-Features request header can be used by a user agent to give information about the presence or absence of certain features in the feature set of the current request. Servers can use this information when running a remote variant selection algorithm.</documentation>
     </http-header>
     <http-header def="Alternates">
-        <documentation source="http://tools.ietf.org/html/rfc2295#section-8.3">The Alternates response header is used to convey the list of variants bound to a negotiable resource. This list can also include directives for any content negotiation process. If a response from a transparently negotiable resource includes an Alternates header, this header MUST contain the complete variant list bound to the negotiable resource. Responses from resources which do not support transparent content negotiation MAY also use Alternates headers.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc2295#section-8.3">The Alternates response header is used to convey the list of variants bound to a negotiable resource. This list can also include directives for any content negotiation process. If a response from a transparently negotiable resource includes an Alternates header, this header MUST contain the complete variant list bound to the negotiable resource. Responses from resources which do not support transparent content negotiation MAY also use Alternates headers.</documentation>
     </http-header>
     <http-header def="Negotiate">
-        <documentation source="http://tools.ietf.org/html/rfc2295#section-8.4">The Negotiate request header can contain directives for any content negotiation process initiated by the request.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc2295#section-8.4">The Negotiate request header can contain directives for any content negotiation process initiated by the request.</documentation>
     </http-header>
     <http-header def="TCN">
-        <documentation source="http://tools.ietf.org/html/rfc2295#section-8.5">The TCN response header is used by a server to signal that the resource is transparently negotiated.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc2295#section-8.5">The TCN response header is used by a server to signal that the resource is transparently negotiated.</documentation>
     </http-header>
     <http-header def="Variant-Vary">
-        <documentation source="http://tools.ietf.org/html/rfc2295#section-8.6">The Variant-Vary response header can be used in a choice response to record any vary information which applies to the variant data (the entity body combined with some of the entity headers) contained in the response, rather than to the response as a whole.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc2295#section-8.6">The Variant-Vary response header can be used in a choice response to record any vary information which applies to the variant data (the entity body combined with some of the entity headers) contained in the response, rather than to the response as a whole.</documentation>
     </http-header>
     <http-status-code def="506" desc="Variant Also Negotiates">
-        <documentation source="http://tools.ietf.org/html/rfc7725#section-3">The 506 status code indicates that the server has an internal configuration error: the chosen variant resource is configured to engage in transparent content negotiation itself, and is therefore not a proper end point in the negotiation process.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7725#section-3">The 506 status code indicates that the server has an internal configuration error: the chosen variant resource is configured to engage in transparent content negotiation itself, and is therefore not a proper end point in the negotiation process.</documentation>
     </http-status-code>
 </service>

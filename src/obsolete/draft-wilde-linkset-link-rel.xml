@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <service primary="IETF" secondary="I-D" id="wilde-linkset-link-rel">
     <title>Link Relation Types for Web Services</title>
-    <documentation source="http://tools.ietf.org/html/draft-wilde-linkset-link-rel">This specification defines the "linkset" link relation type that can be used to link to a resource that provides a set of links.</documentation>
+    <documentation source="https://datatracker.ietf.org/doc/html/draft-wilde-linkset-link-rel">This specification defines the "linkset" link relation type that can be used to link to a resource that provides a set of links.</documentation>
     <link-relation def="linkset">
-        <documentation source="http://tools.ietf.org/html/draft-wilde-linkset-link-rel#section-5">The "linkset" link relation type is used by a resource to link to a resource that provides a set of links. Typically the Context IRI of these links  is the URI of the responding resource but links with other Context IRIs MAY be provided.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/draft-wilde-linkset-link-rel#section-5">The "linkset" link relation type is used by a resource to link to a resource that provides a set of links. Typically the Context IRI of these links  is the URI of the responding resource but links with other Context IRIs MAY be provided.</documentation>
     </link-relation>
 </service>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <service primary="IETF" secondary="RFC" id="7396">
     <title>JSON Merge Patch</title>
-    <documentation source="http://tools.ietf.org/html/rfc7396">This specification defines the JSON merge patch format and processing rules. The merge patch format is primarily intended for use with the HTTP PATCH method as a means of describing a set of modifications to a target resource's content.</documentation>
+    <documentation source="https://datatracker.ietf.org/doc/html/rfc7396">This specification defines the JSON merge patch format and processing rules. The merge patch format is primarily intended for use with the HTTP PATCH method as a means of describing a set of modifications to a target resource's content.</documentation>
     <media-type def="application/merge-patch+json">
-        <documentation source="http://tools.ietf.org/html/rfc7396#section-1">The merge patch format is primarily intended for use with the HTTP PATCH method as a means of describing a set of modifications to a target resource's content. A JSON merge patch document describes changes to be made to a target JSON document using a syntax that closely mimics the document being modified.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7396#section-1">The merge patch format is primarily intended for use with the HTTP PATCH method as a means of describing a set of modifications to a target resource's content. A JSON merge patch document describes changes to be made to a target JSON document using a syntax that closely mimics the document being modified.</documentation>
     </media-type>
 </service>

@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "The \"Referer\" header field allows the user agent to specify a URI reference for the resource from which the target URI was obtained (i.e., the \"referrer\", though the field name is misspelled).",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7231#section-5.5.2",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7231#section-5.5.2",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7231",
         "spec-name" : "RFC 7231" } ] }

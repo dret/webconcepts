@@ -7,7 +7,7 @@ concept-value: UNLINK
 description: "The UNLINK method is used to remove one or more relationships between the resource identified by the effective request URI and other resources."
 ---
 
-[The UNLINK method is used to remove one or more relationships between the resource identified by the effective request URI and other resources.](http://tools.ietf.org/html/draft-snell-link-method#section-4 "Read documentation for HTTP Request Method &#34;UNLINK&#34;") (**[Internet Draft snell-link-method: HTTP Link and Unlink Methods](/specs/IETF/I-D/snell-link-method "This specification defines the semantics of the LINK and UNLINK HTTP methods.")**)
+[The UNLINK method is used to remove one or more relationships between the resource identified by the effective request URI and other resources.](https://datatracker.ietf.org/doc/html/draft-snell-link-method#section-4 "Read documentation for HTTP Request Method &#34;UNLINK&#34;") (**[Internet Draft snell-link-method: HTTP Link and Unlink Methods](/specs/IETF/I-D/snell-link-method "This specification defines the semantics of the LINK and UNLINK HTTP methods.")**)
 
 <br/>
 <hr/>

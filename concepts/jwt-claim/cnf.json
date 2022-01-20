@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "The \"cnf\" claim is used in the JWT to contain members used to identify the proof-of-possession key.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7800#section-3.1",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7800#section-3.1",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7800",
         "spec-name" : "RFC 7800" } ] }

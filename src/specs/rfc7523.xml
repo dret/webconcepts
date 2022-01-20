@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <service primary="IETF" secondary="RFC" id="7523">
     <title>JSON Web Token (JWT) Profile for OAuth 2.0 Client Authentication and Authorization Grants</title>
-    <documentation source="http://tools.ietf.org/html/rfc7523">This specification defines the use of a JSON Web Token (JWT) Bearer Token as a means for requesting an OAuth 2.0 access token as well as for client authentication.</documentation>
+    <documentation source="https://datatracker.ietf.org/doc/html/rfc7523">This specification defines the use of a JSON Web Token (JWT) Bearer Token as a means for requesting an OAuth 2.0 access token as well as for client authentication.</documentation>
     <oauth-uri def="urn:ietf:params:oauth:grant-type:jwt-bearer">
-        <documentation source="http://tools.ietf.org/html/rfc7523#section-2.1">To use a Bearer JWT as an authorization grant, the client uses an access token request as defined in Section 4 of the OAuth Assertion Framework (RFC 7521). The value of the "grant_type" is "urn:ietf:params:oauth:grant-type:jwt-bearer".</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7523#section-2.1">To use a Bearer JWT as an authorization grant, the client uses an access token request as defined in Section 4 of the OAuth Assertion Framework (RFC 7521). The value of the "grant_type" is "urn:ietf:params:oauth:grant-type:jwt-bearer".</documentation>
     </oauth-uri>
     <oauth-uri def="urn:ietf:params:oauth:client-assertion-type:jwt-bearer">
-        <documentation source="http://tools.ietf.org/html/rfc7523#section-2.2">To use a JWT Bearer Token for client authentication, the client uses the following parameter values and encodings. The value of the "client_assertion_type" is "urn:ietf:params:oauth:client-assertion-type:jwt-bearer".</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7523#section-2.2">To use a JWT Bearer Token for client authentication, the client uses the following parameter values and encodings. The value of the "client_assertion_type" is "urn:ietf:params:oauth:client-assertion-type:jwt-bearer".</documentation>
     </oauth-uri>
 </service>

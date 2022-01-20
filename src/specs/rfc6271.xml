@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <service primary="IETF" secondary="RFC" id="6271">
     <title>The Atom "deleted-entry" Element</title>
-    <documentation source="http://tools.ietf.org/html/rfc6721">This specification adds mechanisms to the Atom Syndication Format that publishers of Atom Feed and Entry documents can use to explicitly identify Atom entries that have been removed.</documentation>
+    <documentation source="https://datatracker.ietf.org/doc/html/rfc6721">This specification adds mechanisms to the Atom Syndication Format that publishers of Atom Feed and Entry documents can use to explicitly identify Atom entries that have been removed.</documentation>
     <media-type def="application/atomdeleted+xml">
-        <documentation source="http://tools.ietf.org/html/rfc6721#section-4">A "Deleted Entry Document" represents exactly one at:deleted-entry element outside the context of an Atom feed. Its root is the at:deleted-entry element.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc6721#section-4">A "Deleted Entry Document" represents exactly one at:deleted-entry element outside the context of an Atom feed. Its root is the at:deleted-entry element.</documentation>
     </media-type>
 </service>

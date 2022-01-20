@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "An application\/link-format document is a collection of web links, each of which is a collection of attributes applied to a \"URI-Reference\". The application\/link-format+json media type is a JSON-based serialization of such a document.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-core-links-json#section-2",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-ietf-core-links-json#section-2",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-core-links-json",
         "spec-name" : "Internet Draft ietf-core-links-json" } ] }

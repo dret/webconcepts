@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "The \"arcp\" URI scheme follows the RFC 3986 syntax for hierarchical URIs. The \"arcp-authority\" component provides a unique identifier for the opened archive. The \"path-absolute\" component provides the absolute path of a resource (e.g. a file or directory) within the archive.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/draft-soilandreyes-app#section-3",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-soilandreyes-app#section-3",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/soilandreyes-arcp",
         "spec-name" : "Internet Draft soilandreyes-arcp" } ] }

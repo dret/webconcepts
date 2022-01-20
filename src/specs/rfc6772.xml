@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <service primary="IETF" secondary="RFC" id="6772">
     <title>Geolocation Policy: A Document Format for Expressing Privacy Preferences for Location Information</title>
-    <documentation source="http://tools.ietf.org/html/rfc6772">This document defines an authorization policy language for controlling access to location information.  It extends the Common Policy authorization framework to provide location-specific access control.  More specifically, this document defines condition elements specific to location information in order to restrict access to data based on the current location of the Target. Furthermore, this document defines two algorithms for reducing the granularity of returned location information.  The first algorithm is defined for usage with civic location information, whereas the other one applies to geodetic location information.  Both algorithms come with limitations.  There are circumstances where the amount of location obfuscation provided is less than what is desired.  These algorithms might not be appropriate for all application domains.</documentation>
+    <documentation source="https://datatracker.ietf.org/doc/html/rfc6772">This document defines an authorization policy language for controlling access to location information.  It extends the Common Policy authorization framework to provide location-specific access control.  More specifically, this document defines condition elements specific to location information in order to restrict access to data based on the current location of the Target. Furthermore, this document defines two algorithms for reducing the granularity of returned location information.  The first algorithm is defined for usage with civic location information, whereas the other one applies to geodetic location information.  Both algorithms come with limitations.  There are circumstances where the amount of location obfuscation provided is less than what is desired.  These algorithms might not be appropriate for all application domains.</documentation>
     <xml-schema def="urn:ietf:params:xml:schema:geolocation-policy">
-        <documentation source="http://tools.ietf.org/html/rfc6772#section-11.1">The Geolocation Policy XML schema extends the Common Policy schema by introducing new child elements to the condition and transformation elements.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc6772#section-11.1">The Geolocation Policy XML schema extends the Common Policy schema by introducing new child elements to the condition and transformation elements.</documentation>
     </xml-schema>
     <xml-ns def="urn:ietf:params:xml:ns:geolocation-policy">
-        <documentation source="http://tools.ietf.org/html/rfc6772#section-11.2">The Geolocation Policy XML schema extends the Common Policy schema by introducing new child elements to the condition and transformation elements.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc6772#section-11.2">The Geolocation Policy XML schema extends the Common Policy schema by introducing new child elements to the condition and transformation elements.</documentation>
     </xml-ns>
     <xml-schema def="urn:ietf:params:xml:schema:basic-location-profiles">
-        <documentation source="http://tools.ietf.org/html/rfc6772#section-11.4">The Basic Location Profile XML schema extends the Common Policy schema by introducing new child elements to the transformation element.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc6772#section-11.4">The Basic Location Profile XML schema extends the Common Policy schema by introducing new child elements to the transformation element.</documentation>
     </xml-schema>
     <xml-ns def="urn:ietf:params:xml:ns:basic-location-profiles">
-        <documentation source="http://tools.ietf.org/html/rfc6772#section-11.5">The Basic Location Profile XML schema extends the Common Policy schema by introducing new child elements to the transformation element.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc6772#section-11.5">The Basic Location Profile XML schema extends the Common Policy schema by introducing new child elements to the transformation element.</documentation>
     </xml-ns>
 </service>

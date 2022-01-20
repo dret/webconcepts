@@ -7,7 +7,7 @@ concept-value: source
 description: "Refers to the original source of information contained by the context resource."
 ---
 
-[Refers to the original source of information contained by the context resource.](http://tools.ietf.org/html/draft-snell-more-link-relations#section-3 "Read documentation for Link Relation &#34;source&#34;") (**[Internet Draft snell-more-link-relations: Additional Link Relations and the urn:social Namespace](/specs/IETF/I-D/snell-more-link-relations "This specification defines a number of additional Link Relation Types that can used for a variety of purposes.")**)
+[Refers to the original source of information contained by the context resource.](https://datatracker.ietf.org/doc/html/draft-snell-more-link-relations#section-3 "Read documentation for Link Relation &#34;source&#34;") (**[Internet Draft snell-more-link-relations: Additional Link Relations and the urn:social Namespace](/specs/IETF/I-D/snell-more-link-relations "This specification defines a number of additional Link Relation Types that can used for a variety of purposes.")**)
 
 <br/>
 <hr/>

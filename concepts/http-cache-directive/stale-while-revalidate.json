@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "When present in an HTTP response, the stale-while-revalidate Cache-Control extension indicates that caches MAY serve the response in which it appears after it becomes stale, up to the indicated number of seconds.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc5861#section-3",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc5861#section-3",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/5861",
         "spec-name" : "RFC 5861" } ] }

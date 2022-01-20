@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <service primary="IETF" secondary="RFC" id="4287">
     <title>Atom Syndication Format</title>
-    <documentation source="http://tools.ietf.org/html/rfc4287">Atom is an XML-based document format that describes lists of related information known as "feeds". Feeds are composed of a number of items, known as "entries", each with an extensible set of attached metadata. For example, each entry has a title.</documentation>
+    <documentation source="https://datatracker.ietf.org/doc/html/rfc4287">Atom is an XML-based document format that describes lists of related information known as "feeds". Feeds are composed of a number of items, known as "entries", each with an extensible set of attached metadata. For example, each entry has a title.</documentation>
     <media-type def="application/atom+xml">
-        <documentation source="http://tools.ietf.org/html/rfc4287#section-2">This specification describes two kinds of Atom Documents: Atom Feed Documents and Atom Entry Documents. Both kinds of Atom Documents are specified in terms of the XML Information Set, serialized as XML 1.0 and identified with the "application/atom+xml" media type. Atom Documents MUST be well-formed XML.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc4287#section-2">This specification describes two kinds of Atom Documents: Atom Feed Documents and Atom Entry Documents. Both kinds of Atom Documents are specified in terms of the XML Information Set, serialized as XML 1.0 and identified with the "application/atom+xml" media type. Atom Documents MUST be well-formed XML.</documentation>
     </media-type>
     <link-relation def="alternate">
-        <documentation source="http://tools.ietf.org/html/rfc4287#section-4.2.7.2">The value "alternate" signifies that the IRI in the value of the href attribute identifies an alternate version of the resource described by the containing element.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc4287#section-4.2.7.2">The value "alternate" signifies that the IRI in the value of the href attribute identifies an alternate version of the resource described by the containing element.</documentation>
     </link-relation>
     <link-relation def="related">
-        <documentation source="http://tools.ietf.org/html/rfc4287#section-4.2.7.2">The value "related" signifies that the IRI in the value of the href attribute identifies a resource related to the resource described by the containing element. For example, the feed for a site that discusses the performance of the search engine at "http://search.example.com" might contain, as a child of atom:feed: &lt;link rel="related" href="http://search.example.com/"/> An identical link might appear as a child of any atom:entry whose content contains a discussion of that same search engine.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc4287#section-4.2.7.2">The value "related" signifies that the IRI in the value of the href attribute identifies a resource related to the resource described by the containing element. For example, the feed for a site that discusses the performance of the search engine at "http://search.example.com" might contain, as a child of atom:feed: &lt;link rel="related" href="http://search.example.com/"/> An identical link might appear as a child of any atom:entry whose content contains a discussion of that same search engine.</documentation>
     </link-relation>
     <link-relation def="self">
-        <documentation source="http://tools.ietf.org/html/rfc4287#section-4.2.7.2">The value "self" signifies that the IRI in the value of the href attribute identifies a resource equivalent to the containing element.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc4287#section-4.2.7.2">The value "self" signifies that the IRI in the value of the href attribute identifies a resource equivalent to the containing element.</documentation>
     </link-relation>
     <link-relation def="enclosure">
-        <documentation source="http://tools.ietf.org/html/rfc4287#section-4.2.7.2">The value "enclosure" signifies that the IRI in the value of the href attribute identifies a related resource that is potentially large in size and might require special handling. For atom:link elements with rel="enclosure", the length attribute SHOULD be provided.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc4287#section-4.2.7.2">The value "enclosure" signifies that the IRI in the value of the href attribute identifies a related resource that is potentially large in size and might require special handling. For atom:link elements with rel="enclosure", the length attribute SHOULD be provided.</documentation>
     </link-relation>
     <link-relation def="via">
-        <documentation source="http://tools.ietf.org/html/rfc4287#section-4.2.7.2">The value "via" signifies that the IRI in the value of the href attribute identifies a resource that is the source of the information provided in the containing element.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc4287#section-4.2.7.2">The value "via" signifies that the IRI in the value of the href attribute identifies a resource that is the source of the information provided in the containing element.</documentation>
     </link-relation>
 </service>

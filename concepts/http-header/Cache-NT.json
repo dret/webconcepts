@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "For precisely identifying transferred content independent of the used URL and independent of additional header fields in the context of content negotiation, the Cache-NT header field is used. The new header field carries an SHA-256 value.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/draft-drechsler-httpbis-improved-caching#section-2.1",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-drechsler-httpbis-improved-caching#section-2.1",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/drechsler-httpbis-improved-caching",
         "spec-name" : "Internet Draft drechsler-httpbis-improved-caching" } ] }

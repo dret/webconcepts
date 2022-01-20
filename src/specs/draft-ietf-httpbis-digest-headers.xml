@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <service primary="IETF" secondary="I-D" id="ietf-httpbis-digest-headers">
     <title>Resource Digests for HTTP</title>
-    <documentation source="http://tools.ietf.org/html/draft-ietf-httpbis-digest-headers">This document defines the Digest and Want-Digest header fields for HTTP, thus allowing client and server to negotiate an integrity checksum of the exchanged resource representation data.</documentation>
+    <documentation source="https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-digest-headers">This document defines the Digest and Want-Digest header fields for HTTP, thus allowing client and server to negotiate an integrity checksum of the exchanged resource representation data.</documentation>
     <http-header def="Digest">
-        <documentation source="http://tools.ietf.org/html/draft-ietf-httpbis-digest-headers#section-3">The "Digest" field contains a list of one or more representation digest values. It can be used in both requests and responses.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-digest-headers#section-3">The "Digest" field contains a list of one or more representation digest values. It can be used in both requests and responses.</documentation>
     </http-header>
     <http-header def="Want-Digest">
-        <documentation source="http://tools.ietf.org/html/draft-ietf-httpbis-digest-headers#section-4">The "Want-Digest" field indicates the sender's desire to receive a representation digest on messages associated with the request URI and representation metadata.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-digest-headers#section-4">The "Want-Digest" field indicates the sender's desire to receive a representation digest on messages associated with the request URI and representation metadata.</documentation>
     </http-header>
 </service>

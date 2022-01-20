@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "A mandatory extension declaration indicates that the ultimate recipient MUST consult and adhere to the rules given by the extension when processing the message or reporting an error. Hop-by-hop extension declarations are meaningful only for a single HTTP connection. In HTTP\/1.1, C-Man, C-Opt, and all header fields with matching header-prefix values defined by C-Man and C-Opt MUST be protected by a Connection header field. That is, these header fields are to be included as Connection header field directives.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc2774#section-4.2",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc2774#section-4.2",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/2774",
         "spec-name" : "RFC 2774" } ] }

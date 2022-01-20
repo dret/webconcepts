@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <service primary="IETF" secondary="I-D" id="ietf-webpush-protocol">
     <title>Generic Event Delivery Using HTTP Push</title>
-    <documentation source="http://tools.ietf.org/html/draft-ietf-webpush-protocol">A simple protocol for the delivery of real-time events to user agents is described. This scheme uses HTTP/2 server push.</documentation>
+    <documentation source="https://datatracker.ietf.org/doc/html/draft-ietf-webpush-protocol">A simple protocol for the delivery of real-time events to user agents is described. This scheme uses HTTP/2 server push.</documentation>
     <http-header def="TTL">
-        <documentation source="http://tools.ietf.org/html/draft-ietf-webpush-protocol#section-5.2">An application server MUST include the TTL (Time-To-Live) header field in its request for push message delivery. The TTL header field contains a value in seconds that suggests how long a push message is retained by the push service.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/draft-ietf-webpush-protocol#section-5.2">An application server MUST include the TTL (Time-To-Live) header field in its request for push message delivery. The TTL header field contains a value in seconds that suggests how long a push message is retained by the push service.</documentation>
     </http-header>
     <http-header def="Urgency">
-        <documentation source="http://tools.ietf.org/html/draft-ietf-webpush-protocol#section-5.3">An application server MAY include an Urgency header field in its request for push message delivery. This header field indicates the message urgency.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/draft-ietf-webpush-protocol#section-5.3">An application server MAY include an Urgency header field in its request for push message delivery. This header field indicates the message urgency.</documentation>
     </http-header>
     <http-header def="Topic">
-        <documentation source="http://tools.ietf.org/html/draft-ietf-webpush-protocol#section-5.4">A push message topic is a string carried in a Topic header field. A topic is used to correlate push messages sent to the same subscription and does not convey any other semantics.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/draft-ietf-webpush-protocol#section-5.4">A push message topic is a string carried in a Topic header field. A topic is used to correlate push messages sent to the same subscription and does not convey any other semantics.</documentation>
     </http-header>
 </service>

@@ -7,7 +7,7 @@ concept-value: HOBA
 description: "An HTTP server that supports HOBA authentication includes the \"HOBA\" auth-scheme value in a WWW-Authenticate header field when it wants the client to authenticate with HOBA."
 ---
 
-[An HTTP server that supports HOBA authentication includes the "HOBA" auth-scheme value in a WWW-Authenticate header field when it wants the client to authenticate with HOBA.](http://tools.ietf.org/html/rfc7486#section-3 "Read documentation for HTTP Authentication Scheme &#34;HOBA&#34;") (**[RFC 7486: HTTP Origin-Bound Authentication (HOBA)](/specs/IETF/RFC/7486 "HTTP Origin-Bound Authentication (HOBA) is a digital-signature-based design for an HTTP authentication method. The design can also be used in JavaScript-based authentication embedded in HTML. HOBA is an alternative to HTTP authentication schemes that require passwords and therefore avoids all problems related to passwords, such as leakage of server-side password databases.")**)
+[An HTTP server that supports HOBA authentication includes the "HOBA" auth-scheme value in a WWW-Authenticate header field when it wants the client to authenticate with HOBA.](https://datatracker.ietf.org/doc/html/rfc7486#section-3 "Read documentation for HTTP Authentication Scheme &#34;HOBA&#34;") (**[RFC 7486: HTTP Origin-Bound Authentication (HOBA)](/specs/IETF/RFC/7486 "HTTP Origin-Bound Authentication (HOBA) is a digital-signature-based design for an HTTP authentication method. The design can also be used in JavaScript-based authentication embedded in HTML. HOBA is an alternative to HTTP authentication schemes that require passwords and therefore avoids all problems related to passwords, such as leakage of server-side password databases.")**)
 
 <br/>
 <hr/>

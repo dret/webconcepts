@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "The Status-URI response header may be used with the 102 (Processing) status code to inform the client as to the status of a method.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc2518#section-9.7",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc2518#section-9.7",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/2518",
         "spec-name" : "RFC 2518" } ] }

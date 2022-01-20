@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <service primary="IETF" secondary="RFC" id="8255">
     <title>Multiple Language Content Type</title>
-    <documentation source="http://tools.ietf.org/html/rfc8255">This document defines the 'multipart/multilingual' content type, which is an addition to the Multipurpose Internet Mail Extensions (MIME) standard. This content type makes it possible to send one message that contains multiple language versions of the same information. The translations would be identified by a language tag and selected by the email client based on a user's language settings.</documentation>
+    <documentation source="https://datatracker.ietf.org/doc/html/rfc8255">This document defines the 'multipart/multilingual' content type, which is an addition to the Multipurpose Internet Mail Extensions (MIME) standard. This content type makes it possible to send one message that contains multiple language versions of the same information. The translations would be identified by a language tag and selected by the email client based on a user's language settings.</documentation>
     <media-type def="multipart/multilingual">
-        <documentation source="http://tools.ietf.org/html/rfc8255#section-3">A 'multipart/multilingual' message will have a number of message parts: exactly one multilingual preface, one or more language message parts, and zero or one language-independent message part. The details of these are described below.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc8255#section-3">A 'multipart/multilingual' message will have a number of message parts: exactly one multilingual preface, one or more language message parts, and zero or one language-independent message part. The details of these are described below.</documentation>
     </media-type>
     <http-header def="Content-Translation-Type">
-        <documentation source="http://tools.ietf.org/html/rfc8255#section-6">The Content-Translation-Type field can be used in the individual language message parts to identify the type of translation. Based on the value of this field and the user's preferences, a conforming email client can determine which message part to display.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc8255#section-6">The Content-Translation-Type field can be used in the individual language message parts to identify the type of translation. Based on the value of this field and the user's preferences, a conforming email client can determine which message part to display.</documentation>
     </http-header>
 </service>

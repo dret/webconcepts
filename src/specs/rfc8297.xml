@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <service primary="IETF" secondary="RFC" id="8297">
     <title>An HTTP Status Code for Indicating Hints</title>
-    <documentation source="http://tools.ietf.org/html/rfc8297">This memo introduces an informational status code for HTTP that can be used for indicating hints to help a client start making preparations for processing the final response.</documentation>
+    <documentation source="https://datatracker.ietf.org/doc/html/rfc8297">This memo introduces an informational status code for HTTP that can be used for indicating hints to help a client start making preparations for processing the final response.</documentation>
     <http-status-code def="103" desc="Early Hints">
-        <documentation source="http://tools.ietf.org/html/rfc8297#section-2">The 103 (Early Hints) status code indicates the client that the server is likely to send a final request with the headers included in the informational response.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc8297#section-2">The 103 (Early Hints) status code indicates the client that the server is likely to send a final request with the headers included in the informational response.</documentation>
     </http-status-code>
 </service>

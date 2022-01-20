@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "The Variants HTTP response header field indicates what representations are available for a given resource at the time that the response is produced, by enumerating the request header fields that it varies on, along with the values that are available for each.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-httpbis-variants#section-2",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-ietf-httpbis-variants#section-2",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpbis-variants",
         "spec-name" : "Internet Draft ietf-httpbis-variants" } ] }

@@ -6,6 +6,6 @@
     "details" : 
     [ 
       { "description" : "The 304 (Not Modified) status code indicates that a conditional GET or HEAD request has been received and would have resulted in a 200 (OK) response if it were not for the fact that the condition evaluated to false. In other words, there is no need for the server to transfer a representation of the target resource because the request indicates that the client, which made the request conditional, already has a valid representation; the server is therefore redirecting the client to make use of that stored representation as if it were the payload of a 200 (OK) response.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7232#section-4.1",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7232#section-4.1",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7232",
         "spec-name" : "RFC 7232" } ] }

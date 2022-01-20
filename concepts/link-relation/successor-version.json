@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "When included on a versioned resource, this link points to a resource containing the successor version in the version history.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc5829#section-3.6",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc5829#section-3.6",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/5829",
         "spec-name" : "RFC 5829" } ] }

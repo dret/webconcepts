@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "The SubOK request header field is used to provide directives from an end-client to a proxy cache regarding the possible substitution of an instance body from a cached response for one resource instance for the instance body of the resource instance specified by the client's request.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/draft-mogul-http-dupsup#section-5.2.1",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-mogul-http-dupsup#section-5.2.1",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/mogul-http-dupsup",
         "spec-name" : "Internet Draft mogul-http-dupsup" } ] }

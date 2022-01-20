@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <service primary="IETF" secondary="RFC" id="4452">
     <title>The "info" URI Scheme for Information Assets with Identifiers in Public Namespaces</title>
-    <documentation source="http://tools.ietf.org/html/rfc4452">This document defines the "info" Uniform Resource Identifier (URI) scheme for information assets with identifiers in public namespaces. Namespaces participating in the "info" URI scheme are regulated by an "info" Registry mechanism.</documentation>
+    <documentation source="https://datatracker.ietf.org/doc/html/rfc4452">This document defines the "info" Uniform Resource Identifier (URI) scheme for information assets with identifiers in public namespaces. Namespaces participating in the "info" URI scheme are regulated by an "info" Registry mechanism.</documentation>
     <uri-scheme def="info">
-        <documentation source="http://tools.ietf.org/html/rfc4452#section-1">This document defines the "info" Uniform Resource Identifier (URI) scheme for information assets that have identifiers in public namespaces but are not part of the URI allocation. By "information asset" this document intends any information construct that has identity within a public namespace.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc4452#section-1">This document defines the "info" Uniform Resource Identifier (URI) scheme for information assets that have identifiers in public namespaces but are not part of the URI allocation. By "information asset" this document intends any information construct that has identity within a public namespace.</documentation>
     </uri-scheme>
 </service>

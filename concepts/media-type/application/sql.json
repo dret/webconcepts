@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "The Structured Query Language (SQL) has been in use for over 30 years with various types of database technologies.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6922#section-3",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6922#section-3",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6922",
         "spec-name" : "RFC 6922" } ] }

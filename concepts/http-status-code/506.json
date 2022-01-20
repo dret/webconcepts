@@ -6,6 +6,6 @@
     "details" : 
     [ 
       { "description" : "The 506 status code indicates that the server has an internal configuration error: the chosen variant resource is configured to engage in transparent content negotiation itself, and is therefore not a proper end point in the negotiation process.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7725#section-3",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7725#section-3",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/2295",
         "spec-name" : "RFC 2295" } ] }

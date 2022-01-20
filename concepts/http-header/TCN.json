@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "The TCN response header is used by a server to signal that the resource is transparently negotiated.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc2295#section-8.5",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc2295#section-8.5",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/2295",
         "spec-name" : "RFC 2295" } ] }

@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <service primary="IETF" secondary="RFC" id="8081">
     <title>The "font" Top-Level Media Type</title>
-    <documentation source="http://tools.ietf.org/html/rfc8081">This memo serves to register and document the "font" top-level media type, under which subtypes for representation formats for fonts may be registered. This document also serves as a registration application for a set of intended subtypes, which are representative of some existing subtypes already in use, and currently registered under the "application" tree by their separate registrations.</documentation>
+    <documentation source="https://datatracker.ietf.org/doc/html/rfc8081">This memo serves to register and document the "font" top-level media type, under which subtypes for representation formats for fonts may be registered. This document also serves as a registration application for a set of intended subtypes, which are representative of some existing subtypes already in use, and currently registered under the "application" tree by their separate registrations.</documentation>
     <media-type def="font/sfnt">
-        <documentation source="http://tools.ietf.org/html/rfc8081#section-4.4.1">Note that "font/sfnt" is an abstract type from which the (widely used in practice) "font/ttf" and "font/otf" types are conceptually derived. Use of "font/sfnt" is likely to be rare in practice.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc8081#section-4.4.1">Note that "font/sfnt" is an abstract type from which the (widely used in practice) "font/ttf" and "font/otf" types are conceptually derived. Use of "font/sfnt" is likely to be rare in practice.</documentation>
     </media-type>
     <media-type def="font/ttf">
-        <documentation source="http://tools.ietf.org/html/rfc8081#section-4.4.2">ISO/IEC 14496-22 "Open Font Format" (OFF) specification being developed by ISO/IEC SC29/WG11.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc8081#section-4.4.2">ISO/IEC 14496-22 "Open Font Format" (OFF) specification being developed by ISO/IEC SC29/WG11.</documentation>
     </media-type>
     <media-type def="font/otf">
-        <documentation source="http://tools.ietf.org/html/rfc8081#section-4.4.3">ISO/IEC 14496-22 "Open Font Format" (OFF) specification being developed by ISO/IEC SC29/WG11.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc8081#section-4.4.3">ISO/IEC 14496-22 "Open Font Format" (OFF) specification being developed by ISO/IEC SC29/WG11.</documentation>
     </media-type>
     <media-type def="font/collection">
-        <documentation source="http://tools.ietf.org/html/rfc8081#section-4.4.4">ISO/IEC 14496-22 "Open Font Format" (OFF) specification being developed by ISO/IEC SC29/WG11.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc8081#section-4.4.4">ISO/IEC 14496-22 "Open Font Format" (OFF) specification being developed by ISO/IEC SC29/WG11.</documentation>
     </media-type>
     <media-type def="font/woff">
-        <documentation source="http://tools.ietf.org/html/rfc8081#section-4.4.5">WOFF is used by web browsers, often in conjunction with HTML and CSS.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc8081#section-4.4.5">WOFF is used by web browsers, often in conjunction with HTML and CSS.</documentation>
     </media-type>
     <media-type def="font/woff2">
-        <documentation source="http://tools.ietf.org/html/rfc8081#section-4.4.6">WOFF 2.0 is used by web browsers, often in conjunction with HTML and CSS. WOFF 2.0 is an improvement on WOFF 1.0.  The two formats have different Internet Media Types and different @font-face formats, and they may be used in parallel.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc8081#section-4.4.6">WOFF 2.0 is used by web browsers, often in conjunction with HTML and CSS. WOFF 2.0 is an improvement on WOFF 1.0.  The two formats have different Internet Media Types and different @font-face formats, and they may be used in parallel.</documentation>
     </media-type>
 </service>

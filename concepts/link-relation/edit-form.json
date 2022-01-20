@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "When included in a response, the \"edit-form\" link relation indicates a target resource that represents a form that can be used for updating the context resource.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6861#section-3.2",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6861#section-3.2",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6861",
         "spec-name" : "RFC 6861" } ] }

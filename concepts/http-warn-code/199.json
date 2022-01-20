@@ -6,6 +6,6 @@
     "details" : 
     [ 
       { "description" : "The warning text can include arbitrary information to be presented to a human user or logged. A system receiving this warning MUST NOT take any automated action, besides presenting the warning to the user.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7234#section-5.5.5",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7234#section-5.5.5",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7234",
         "spec-name" : "RFC 7234" } ] }

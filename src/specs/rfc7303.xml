@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <service primary="IETF" secondary="RFC" id="7303">
     <title>XML Media Types</title>
-    <documentation source="http://tools.ietf.org/html/rfc7303">This specification standardizes three media types - application/xml, application/xml-external-parsed-entity, and application/xml-dtd - for use in exchanging network entities that are related to the Extensible Markup Language (XML) while defining text/xml and text/xml-external-parsed-entity as aliases for the respective application/ types. This specification also standardizes the '+xml' suffix for naming media types outside of these five types when those media types represent XML MIME entities.</documentation>
+    <documentation source="https://datatracker.ietf.org/doc/html/rfc7303">This specification standardizes three media types - application/xml, application/xml-external-parsed-entity, and application/xml-dtd - for use in exchanging network entities that are related to the Extensible Markup Language (XML) while defining text/xml and text/xml-external-parsed-entity as aliases for the respective application/ types. This specification also standardizes the '+xml' suffix for naming media types outside of these five types when those media types represent XML MIME entities.</documentation>
     <media-type def="application/xml">
-        <documentation source="http://tools.ietf.org/html/rfc7303#section-4.1">The media types application/xml or text/xml, or a more specific media type, SHOULD be used for XML document entities.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7303#section-4.1">The media types application/xml or text/xml, or a more specific media type, SHOULD be used for XML document entities.</documentation>
     </media-type>
     <media-type def="application/xml-external-parsed-entity">
-        <documentation source="http://tools.ietf.org/html/rfc7303#section-4.1">The media type application/xml-dtd SHOULD be used for XML external DTD subsets.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7303#section-4.1">The media type application/xml-dtd SHOULD be used for XML external DTD subsets.</documentation>
     </media-type>
     <media-type def="application/xml-dtd">
-        <documentation source="http://tools.ietf.org/html/rfc7303#section-4.1">The media types application/xml-external-parsed-entity or text/xml-external-parsed-entity SHOULD be used for XML external parsed entities.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7303#section-4.1">The media types application/xml-external-parsed-entity or text/xml-external-parsed-entity SHOULD be used for XML external parsed entities.</documentation>
     </media-type>
     <structured-syntax-suffix def="+xml">
-        <documentation source="http://tools.ietf.org/html/rfc7303#section-4.2">When a new media type is introduced for an XML-based format, the name of the media type SHOULD end with '+xml' unless generic XML processing is in some way inappropriate for documents of the new type.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7303#section-4.2">When a new media type is introduced for an XML-based format, the name of the media type SHOULD end with '+xml' unless generic XML processing is in some way inappropriate for documents of the new type.</documentation>
     </structured-syntax-suffix>
 </service>

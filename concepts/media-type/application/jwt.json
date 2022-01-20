@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "The JWT Claims Set represents a JSON object whose members are the claims conveyed by the JWT.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7519#section-4",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7519#section-4",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7519",
         "spec-name" : "RFC 7519" } ] }

@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "The Link header field provides a means for serialising one or more links into HTTP headers.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8288#section-3",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc8288#section-3",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8288",
         "spec-name" : "RFC 8288" } ] }

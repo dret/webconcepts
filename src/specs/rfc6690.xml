@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <service primary="IETF" secondary="RFC" id="6690">
     <title>Constrained RESTful Environments (CoRE) Link Format</title>
-    <documentation source="http://tools.ietf.org/html/rfc6690">This specification defines Web Linking using a link format for use by constrained web servers to describe hosted resources, their attributes, and other relationships between links. Based on the HTTP Link Header field defined in RFC 5988, the Constrained RESTful Environments (CoRE) Link Format is carried as a payload and is assigned an Internet media type. "RESTful" refers to the Representational State Transfer (REST) architecture. A well-known URI is defined as a default entry point for requesting the links hosted by a server.</documentation>
+    <documentation source="https://datatracker.ietf.org/doc/html/rfc6690">This specification defines Web Linking using a link format for use by constrained web servers to describe hosted resources, their attributes, and other relationships between links. Based on the HTTP Link Header field defined in RFC 5988, the Constrained RESTful Environments (CoRE) Link Format is carried as a payload and is assigned an Internet media type. "RESTful" refers to the Representational State Transfer (REST) architecture. A well-known URI is defined as a default entry point for requesting the links hosted by a server.</documentation>
     <media-type def="application/link-format">
-        <documentation source="http://tools.ietf.org/html/rfc6690#section-2">The CoRE Link Format extends the HTTP Link Header field specified in RFC 5988.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc6690#section-2">The CoRE Link Format extends the HTTP Link Header field specified in RFC 5988.</documentation>
     </media-type>
     <link-relation def="hosts">
-        <documentation source="http://tools.ietf.org/html/rfc6690#section-2.2">The "hosts" relation type (from the verb "to host") indicates that the target URI is a resource hosted by the server (i.e., server hosts resource) indicated by the context URI. The target URI MUST be a relative URI of the context URI for this relation type.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc6690#section-2.2">The "hosts" relation type (from the verb "to host") indicates that the target URI is a resource hosted by the server (i.e., server hosts resource) indicated by the context URI. The target URI MUST be a relative URI of the context URI for this relation type.</documentation>
     </link-relation>
     <well-known-uri def="core">
-        <documentation source="http://tools.ietf.org/html/rfc6690#section-4">Resource discovery in CoRE is accomplished through the use of a well-known resource URI that returns a list of links about resources hosted by that server and other link relations. Well-known resources have a path component that begins with "/.well-known/" as specified in RFC 5785. This specification defines a new well-known resource for CoRE Resource Discovery: "/.well-known/core".</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc6690#section-4">Resource discovery in CoRE is accomplished through the use of a well-known resource URI that returns a list of links about resources hosted by that server and other link relations. Well-known resources have a path component that begins with "/.well-known/" as specified in RFC 5785. This specification defines a new well-known resource for CoRE Resource Discovery: "/.well-known/core".</documentation>
     </well-known-uri>
 </service>

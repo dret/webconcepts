@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <service primary="IETF" secondary="RFC" id="5870">
     <title>A Uniform Resource Identifier for Geographic Locations ('geo' URI)</title>
-    <documentation source="http://tools.ietf.org/html/rfc5870">This document specifies a Uniform Resource Identifier (URI) for geographic locations using the 'geo' scheme name. A 'geo' URI identifies a physical location in a two- or three-dimensional coordinate reference system in a compact, simple, human-readable, and protocol-independent way. The default coordinate reference system used is the World Geodetic System 1984 (WGS-84).</documentation>
+    <documentation source="https://datatracker.ietf.org/doc/html/rfc5870">This document specifies a Uniform Resource Identifier (URI) for geographic locations using the 'geo' scheme name. A 'geo' URI identifies a physical location in a two- or three-dimensional coordinate reference system in a compact, simple, human-readable, and protocol-independent way. The default coordinate reference system used is the World Geodetic System 1984 (WGS-84).</documentation>
     <uri-scheme def="geo">
-        <documentation source="http://tools.ietf.org/html/rfc5870#section-3">The 'geo' URI scheme provides the textual representation of the location's spatial coordinates in either two or three dimensions (latitude, longitude, and optionally altitude for the default CRS of WGS-84).</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc5870#section-3">The 'geo' URI scheme provides the textual representation of the location's spatial coordinates in either two or three dimensions (latitude, longitude, and optionally altitude for the default CRS of WGS-84).</documentation>
     </uri-scheme>
 </service>

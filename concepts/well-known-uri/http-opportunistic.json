@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "This specification requires that a server send both an alternative service advertisement and host content in a well-known location to send HTTP requests over TLS.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8164#section-2.3",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc8164#section-2.3",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8164",
         "spec-name" : "RFC 8164" } ] }

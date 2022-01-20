@@ -7,7 +7,7 @@ concept-value: proxy-revalidate
 description: "The \"proxy-revalidate\" response directive has the same meaning as the must-revalidate response directive, except that it does not apply to private caches."
 ---
 
-[The "proxy-revalidate" response directive has the same meaning as the must-revalidate response directive, except that it does not apply to private caches.](http://tools.ietf.org/html/rfc7234#section-5.2.2.7 "Read documentation for HTTP Cache Directive &#34;proxy-revalidate&#34;") (**[RFC 7234: Hypertext Transfer Protocol (HTTP/1.1): Caching](/specs/IETF/RFC/7234 "The Hypertext Transfer Protocol (HTTP) is an application-level protocol for distributed, collaborative, hypertext information systems. This document defines requirements on HTTP caches and the associated header fields that control cache behavior or indicate cacheable response messages.")**)
+[The "proxy-revalidate" response directive has the same meaning as the must-revalidate response directive, except that it does not apply to private caches.](https://datatracker.ietf.org/doc/html/rfc7234#section-5.2.2.7 "Read documentation for HTTP Cache Directive &#34;proxy-revalidate&#34;") (**[RFC 7234: Hypertext Transfer Protocol (HTTP/1.1): Caching](/specs/IETF/RFC/7234 "The Hypertext Transfer Protocol (HTTP) is an application-level protocol for distributed, collaborative, hypertext information systems. This document defines requirements on HTTP caches and the associated header fields that control cache behavior or indicate cacheable response messages.")**)
 
 <br/>
 <hr/>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <service primary="IETF" secondary="RFC" id="7807">
     <title>Problem Details for HTTP APIs</title>
-    <documentation source="http://tools.ietf.org/html/rfc7807">This document defines a "problem detail" as a way to carry machine-readable details of errors in a HTTP response, to avoid the need to invent new error response formats for HTTP APIs.</documentation>
+    <documentation source="https://datatracker.ietf.org/doc/html/rfc7807">This document defines a "problem detail" as a way to carry machine-readable details of errors in a HTTP response, to avoid the need to invent new error response formats for HTTP APIs.</documentation>
     <media-type def="application/problem+json">
-        <documentation source="http://tools.ietf.org/html/rfc7807#section-3">The canonical model for problem details is a JSON object. When serialised as a JSON document, that format is identified with the "application/problem+json" media type.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7807#section-3">The canonical model for problem details is a JSON object. When serialised as a JSON document, that format is identified with the "application/problem+json" media type.</documentation>
     </media-type>
     <media-type def="application/problem+xml">
-        <documentation source="http://tools.ietf.org/html/rfc7807#appendix-A">Some HTTP-based APIs use XML as their primary format convention. Such APIs MAY express problem details using the format defined in this appendix.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7807#appendix-A">Some HTTP-based APIs use XML as their primary format convention. Such APIs MAY express problem details using the format defined in this appendix.</documentation>
     </media-type>
 </service>

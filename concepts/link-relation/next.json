@@ -5,7 +5,7 @@
     "details" : 
     [ 
       { "description" : "A URI that refers to the immediately following document in a series of documents.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc5005#section-3",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc5005#section-3",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/5005",
         "spec-name" : "RFC 5005" },
       

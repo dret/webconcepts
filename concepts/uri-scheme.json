@@ -12,7 +12,7 @@
         "details" : 
         [ 
           { "description" : "The resource that is referenced by a particular \"about\" URI is denoted by the <about-token> part of the URI.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6694#section-2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6694#section-2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6694",
             "spec-name" : "RFC 6694" } ] },
       
@@ -22,7 +22,7 @@
         "details" : 
         [ 
           { "description" : "Although 'acct' URIs take the form \"user@host\", the scheme is designed for the purpose of identification instead of interaction. The \"Internet resource\" identified by an 'acct' URI is a user's account hosted at a service provider, where the service provider is typically associated with a DNS domain name.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7565#section-4",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7565#section-4",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7565",
             "spec-name" : "RFC 7565" } ] },
       
@@ -32,7 +32,7 @@
         "details" : 
         [ 
           { "description" : "The \"arcp\" URI scheme follows the RFC 3986 syntax for hierarchical URIs. The \"arcp-authority\" component provides a unique identifier for the opened archive. The \"path-absolute\" component provides the absolute path of a resource (e.g. a file or directory) within the archive.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-soilandreyes-app#section-3",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-soilandreyes-app#section-3",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/soilandreyes-arcp",
             "spec-name" : "Internet Draft soilandreyes-arcp" } ] },
       
@@ -42,7 +42,7 @@
         "details" : 
         [ 
           { "description" : "The CAP URL scheme is used to designate both calendar stores and calendars accessible using the CAP protocol.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc4324#section-5",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc4324#section-5",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/4324",
             "spec-name" : "RFC 4324" } ] },
       
@@ -52,7 +52,7 @@
         "details" : 
         [ 
           { "description" : "The \"mid\" (Message-ID) and \"cid\" (Content-ID) URL schemes provide identifiers for messages and their body parts. The \"cid\" scheme refers to a specific body part of a message; its use is generally limited to references to other body parts in the same message as the referring body part.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc2392#section-2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc2392#section-2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/2392",
             "spec-name" : "RFC 2392" } ] },
       
@@ -62,7 +62,7 @@
         "details" : 
         [ 
           { "description" : "The \"coap+tcp\" URI scheme identifies CoAP resources that are intended to be accessible using CoAP over TCP.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8283#section-8.1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc8283#section-8.1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8283",
             "spec-name" : "RFC 8283" } ] },
       
@@ -72,7 +72,7 @@
         "details" : 
         [ 
           { "description" : "The \"coap+ws\" URI scheme identifies CoAP resources that are intended to be accessible using CoAP over WebSockets.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8283#section-8.3",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc8283#section-8.3",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8283",
             "spec-name" : "RFC 8283" } ] },
       
@@ -82,7 +82,7 @@
         "details" : 
         [ 
           { "description" : "The \"coaps+tcp\" URI scheme identifies CoAP resources that are intended to be accessible using CoAP over TCP secured with TLS.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8283#section-8.2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc8283#section-8.2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8283",
             "spec-name" : "RFC 8283" } ] },
       
@@ -92,7 +92,7 @@
         "details" : 
         [ 
           { "description" : "The \"coaps+ws\" URI scheme identifies CoAP resources that are intended to be accessible using CoAP over WebSockets secured by TLS.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8283#section-8.4",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc8283#section-8.4",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8283",
             "spec-name" : "RFC 8283" } ] },
       
@@ -102,7 +102,7 @@
         "details" : 
         [ 
           { "description" : "Some applications that use URLs also have a need to embed (small) media type data directly inline. This document defines a new URL scheme that would work like 'immediate addressing'.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc2397#section-2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc2397#section-2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/2397",
             "spec-name" : "RFC 2397" } ] },
       
@@ -112,7 +112,7 @@
         "details" : 
         [ 
           { "description" : "A DNS URI designates a DNS resource record set, referenced by domain name, class, type, and, optionally, the authority.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc4501#section-3",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc4501#section-3",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/4501",
             "spec-name" : "RFC 4501" } ] },
       
@@ -122,7 +122,7 @@
         "details" : 
         [ 
           { "description" : "There is a need for a scheme name that can be used for examples in documentation without fear of conflicts with current or future actual schemes. The scheme \"example\" is hereby registered as a 'permanent' scheme for that purpose.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7595#section-8",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7595#section-8",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7595",
             "spec-name" : "RFC 7595" } ] },
       
@@ -132,7 +132,7 @@
         "details" : 
         [ 
           { "description" : "A file URI identifies an object (a \"file\") stored in a structured object naming and accessing environment on a host (a \"file system\"). The URI can be used in discussions about the file, and if other conditions are met it can be dereferenced to directly access the file.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8089#section-1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc8089#section-1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8089",
             "spec-name" : "RFC 8089" } ] },
       
@@ -142,7 +142,7 @@
         "details" : 
         [ 
           { "description" : "The FTP URL scheme is used to designate files and directories on Internet hosts accessible using the FTP protocol.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc1738#section-3.2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc1738#section-3.2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/1738",
             "spec-name" : "RFC 1738" } ] },
       
@@ -152,7 +152,7 @@
         "details" : 
         [ 
           { "description" : "The 'geo' URI scheme provides the textual representation of the location's spatial coordinates in either two or three dimensions (latitude, longitude, and optionally altitude for the default CRS of WGS-84).",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc5870#section-3",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc5870#section-3",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/5870",
             "spec-name" : "RFC 5870" } ] },
       
@@ -162,7 +162,7 @@
         "details" : 
         [ 
           { "description" : "The H.323 URL is intended to help an entity resolve the address of another H.323 entity, where an \"entity\" may be a user, a device, or a service. The \"user\" portion of the URL specifies an alias for the entity, without carrying any information about the location of the entity. The \"hostport\", on the other hand, is the domain name of an Endpoint, Gatekeeper, Border Element, or other functional element to which H.323 calls may be directed or for which services may be performed.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc3508##section-2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc3508##section-2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/3508",
             "spec-name" : "RFC 3508" } ] },
       
@@ -172,7 +172,7 @@
         "details" : 
         [ 
           { "description" : "The \"http\" URI scheme is hereby defined for the purpose of minting identifiers according to their association with the hierarchical namespace governed by a potential HTTP origin server listening for TCP connections on a given port.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7230#section-2.7.1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7230#section-2.7.1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7230",
             "spec-name" : "RFC 7230" } ] },
       
@@ -182,7 +182,7 @@
         "details" : 
         [ 
           { "description" : "The \"https\" URI scheme is hereby defined for the purpose of minting identifiers according to their association with the hierarchical namespace governed by a potential HTTP origin server listening to a given TCP port for TLS-secured connections.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7230#section-2.7.2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7230#section-2.7.2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7230",
             "spec-name" : "RFC 7230" } ] },
       
@@ -192,7 +192,7 @@
         "details" : 
         [ 
           { "description" : "Use of the im: URI follows closely usage of the mailto: URI. That is, invocation of an IM URI will cause the user's instant messaging application to start, with destination address and message headers fill-in according to the information supplied in the URI.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc3860#appendix-A.4",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc3860#appendix-A.4",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/3860",
             "spec-name" : "RFC 3860" } ] },
       
@@ -202,7 +202,7 @@
         "details" : 
         [ 
           { "description" : "This document defines the \"info\" Uniform Resource Identifier (URI) scheme for information assets that have identifiers in public namespaces but are not part of the URI allocation. By \"information asset\" this document intends any information construct that has identity within a public namespace.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc4452#section-1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc4452#section-1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/4452",
             "spec-name" : "RFC 4452" } ] },
       
@@ -212,7 +212,7 @@
         "details" : 
         [ 
           { "description" : "The \"ipp\" URL scheme MUST only be used to specify absolute URLs (relative IPP URLs are not allowed) for IPP print services and their associated network resources. The \"ipp\" URL scheme MUST only be used to specify the use of the abstract protocol defined in IPP Model over an HTTP transport, as defined in IPP Protocol.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc3510#section-4",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc3510#section-4",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/3510",
             "spec-name" : "RFC 3510" } ] },
       
@@ -222,7 +222,7 @@
         "details" : 
         [ 
           { "description" : "A 'mailto' URI designates an \"Internet resource\", which is the mailbox specified in the address.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6068#section-3",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6068#section-3",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6068",
             "spec-name" : "RFC 6068" } ] },
       
@@ -232,7 +232,7 @@
         "details" : 
         [ 
           { "description" : "The \"mid\" (Message-ID) and \"cid\" (Content-ID) URL schemes provide identifiers for messages and their body parts. The \"mid\" scheme uses (a part of) the message-id of an email message to refer to a specific message.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc2392#section-2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc2392#section-2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/2392",
             "spec-name" : "RFC 2392" } ] },
       
@@ -242,7 +242,7 @@
         "details" : 
         [ 
           { "description" : "A Named Identifier can be represented using the ni URI scheme that we specifically define for the name. However it is represented, the Named Identifier *names* a resource, and the mechanism used to dereference the name and to *locate* the named resource needs to be known by the entity that dereferences it.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6920#section-3",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6920#section-3",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6920",
             "spec-name" : "RFC 6920" } ] },
       
@@ -252,7 +252,7 @@
         "details" : 
         [ 
           { "description" : "Fields in nih URIs are separated by a semicolon (;) character. The first field is a hash algorithm string, as in the ni URI format.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6920#section-7",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6920#section-7",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6920",
             "spec-name" : "RFC 6920" } ] },
       
@@ -262,7 +262,7 @@
         "details" : 
         [ 
           { "description" : "A 'payto' URI always identifies the target of a payment. A 'payto' URI consists of a payment target type, a target identifier, and optional parameters such as an amount or a payment reference. The interpretation of the target identifier is defined by the payment target type and typically represents either a bank account or an (unsettled) transaction. A unified URI scheme for all payment target types allows applications to offer user interactions with URIs that represent payment targets, simplifying the introduction of new payment systems and applications.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8905#section-1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc8905#section-1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8905",
             "spec-name" : "RFC 8905" } ] },
       
@@ -272,7 +272,7 @@
         "details" : 
         [ 
           { "description" : "The URI scheme defined in this document is designed specifically with a mapping to the PKCS #11 API in mind.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7512#section-2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7512#section-2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7512",
             "spec-name" : "RFC 7512" } ] },
       
@@ -282,7 +282,7 @@
         "details" : 
         [ 
           { "description" : "Use of the pres: URI follows closely usage of the mailto: URI. That is, invocation of an PRES URI will cause the user's instant messaging application to start, with destination address and message headers  fill-in according to the information supplied in the URI.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc3859#appendix-A.4",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc3859#appendix-A.4",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/3859",
             "spec-name" : "RFC 3859" } ] },
       
@@ -292,7 +292,7 @@
         "details" : 
         [ 
           { "description" : "This section describes the scheme for a reload URI, which can be used to refer to either a peer (e.g., as used in a certificate), or a resource inside a peer.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6940#section-14.15",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6940#section-14.15",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6940",
             "spec-name" : "RFC 6940" } ] },
       
@@ -302,7 +302,7 @@
         "details" : 
         [ 
           { "description" : "The URI is intended to identify a data resource previously given to the network computing resource. The purpose of this scheme is to permit access to the specific resource for the lifetime of the session with the entity storing the resource.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6787#section-13.6",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6787#section-13.6",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6768",
             "spec-name" : "RFC 6768" } ] },
       
@@ -312,7 +312,7 @@
         "details" : 
         [ 
           { "description" : "This URI scheme provides information that can be used for sending SMS message(s) to specified recipient(s). The functionality is comparable to that of the \"mailto\" URI, which can also be used with a comma-separated list of email addresses.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc5724#section-2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc5724#section-2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/5724",
             "spec-name" : "RFC 5724" } ] },
       
@@ -322,7 +322,7 @@
         "details" : 
         [ 
           { "description" : "A tag is a type of Uniform Resource Identifier (URI) designed to meet the following requirements: 1. Identifiers are likely to be unique across space and time, and come from a practically inexhaustible supply. 2. Identifiers are relatively convenient for humans to mint (create), read, type, remember etc. 3. No central registration is necessary, at least for holders of domain names or email addresses; and there is negligible cost to mint each new identifier. 4. The identifiers are independent of any particular resolution scheme.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc4151#section-1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc4151#section-1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/4151",
             "spec-name" : "RFC 4151" } ] },
       
@@ -332,7 +332,7 @@
         "details" : 
         [ 
           { "description" : "The Telnet URL scheme is used to designate interactive services that may be accessed by the Telnet protocol.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc4248#section-2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc4248#section-2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/4248",
             "spec-name" : "RFC 4248" } ] },
       
@@ -342,7 +342,7 @@
         "details" : 
         [ 
           { "description" : "A Uniform Resource Name (URN) is a Uniform Resource Identifier (URI) that is assigned under the \"urn\" URI scheme and a particular URN namespace, with the intent that the URN will be a persistent, location-independent resource identifier. A URN namespace is a collection of such URNs, each of which is unique, assigned in a consistent and managed way, and assigned according to a common definition.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8141#section-1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc8141#section-1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8141",
             "spec-name" : "RFC 8141" } ] },
       
@@ -352,7 +352,7 @@
         "details" : 
         [ 
           { "description" : "The only operation for this scheme is to open a connection using the WebSocket Protocol.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6455#section-3",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6455#section-3",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6455",
             "spec-name" : "RFC 6455" } ] },
       
@@ -362,6 +362,6 @@
         "details" : 
         [ 
           { "description" : "The only operation for this scheme is to open a connection using the WebSocket Protocol, encrypted using TLS.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6455#section-3",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6455#section-3",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6455",
             "spec-name" : "RFC 6455" } ] } ] }

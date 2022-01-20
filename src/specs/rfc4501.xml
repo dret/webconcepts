@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <service primary="IETF" secondary="RFC" id="4501">
     <title>Domain Name System Uniform Resource Identifiers</title>
-    <documentation source="http://tools.ietf.org/html/rfc4501">This document defines Uniform Resource Identifiers for Domain Name System resources.</documentation>
+    <documentation source="https://datatracker.ietf.org/doc/html/rfc4501">This document defines Uniform Resource Identifiers for Domain Name System resources.</documentation>
     <uri-scheme def="dns">
-        <documentation source="http://tools.ietf.org/html/rfc4501#section-3">A DNS URI designates a DNS resource record set, referenced by domain name, class, type, and, optionally, the authority.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc4501#section-3">A DNS URI designates a DNS resource record set, referenced by domain name, class, type, and, optionally, the authority.</documentation>
     </uri-scheme>
 </service>

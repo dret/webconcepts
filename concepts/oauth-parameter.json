@@ -12,7 +12,7 @@
         "details" : 
         [ 
           { "description" : "The access token issued by the authorization server.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6749#section-4.2.2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6749#section-4.2.2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6749",
             "spec-name" : "RFC 6749" } ] },
       
@@ -22,7 +22,7 @@
         "details" : 
         [ 
           { "description" : "The assertion being used as an authorization grant. Specific serialization of the assertion is defined by profile documents.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7521#section-4.1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7521#section-4.1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7521",
             "spec-name" : "RFC 7521" } ] },
       
@@ -32,7 +32,7 @@
         "details" : 
         [ 
           { "description" : "The assertion being used to authenticate the client. Specific serialization of the assertion is defined by profile documents.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7521#section-4.2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7521#section-4.2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7521",
             "spec-name" : "RFC 7521" } ] },
       
@@ -42,7 +42,7 @@
         "details" : 
         [ 
           { "description" : "The format of the assertion as defined by the authorization server. The value will be an absolute URI.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7521#section-4.2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7521#section-4.2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7521",
             "spec-name" : "RFC 7521" } ] },
       
@@ -52,7 +52,7 @@
         "details" : 
         [ 
           { "description" : "The client identifier issued to the client during the registration process.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6749#section-2.3.1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6749#section-2.3.1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6749",
             "spec-name" : "RFC 6749" } ] },
       
@@ -62,7 +62,7 @@
         "details" : 
         [ 
           { "description" : "The client secret. The client MAY omit the parameter if the client secret is an empty string.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6749#section-2.3.1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6749#section-2.3.1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6749",
             "spec-name" : "RFC 6749" } ] },
       
@@ -72,7 +72,7 @@
         "details" : 
         [ 
           { "description" : "The authorization code received from the authorization server.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6749#section-4.1.3",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6749#section-4.1.3",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6749",
             "spec-name" : "RFC 6749" } ] },
       
@@ -82,7 +82,7 @@
         "details" : 
         [ 
           { "description" : "Code challenge.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7636#section-4.3",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7636#section-4.3",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7636",
             "spec-name" : "RFC 7636" } ] },
       
@@ -92,7 +92,7 @@
         "details" : 
         [ 
           { "description" : "Code verifier transformation method is \"S256\" or \"plain\". Defaults to \"plain\" if not present in the request.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7636#section-4.3",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7636#section-4.3",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7636",
             "spec-name" : "RFC 7636" } ] },
       
@@ -102,7 +102,7 @@
         "details" : 
         [ 
           { "description" : "Code verifier.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7636#section-4.5",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7636#section-4.5",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7636",
             "spec-name" : "RFC 7636" } ] },
       
@@ -112,7 +112,7 @@
         "details" : 
         [ 
           { "description" : "A single ASCII error code.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6749#appendix-A.7",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6749#appendix-A.7",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6749",
             "spec-name" : "RFC 6749" } ] },
       
@@ -122,7 +122,7 @@
         "details" : 
         [ 
           { "description" : "Human-readable ASCII text providing additional information, used to assist the client developer in understanding the error that occurred.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6749#section-4.1.2.1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6749#section-4.1.2.1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6749",
             "spec-name" : "RFC 6749" } ] },
       
@@ -132,7 +132,7 @@
         "details" : 
         [ 
           { "description" : "A URI identifying a human-readable web page with information about the error, used to provide the client developer with additional information about the error.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6749#section-4.1.2.1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6749#section-4.1.2.1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6749",
             "spec-name" : "RFC 6749" } ] },
       
@@ -142,7 +142,7 @@
         "details" : 
         [ 
           { "description" : "The lifetime in seconds of the access token. For example, the value \"3600\" denotes that the access token will\n            expire in one hour from the time the response was generated.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6749#section-4.2.2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6749#section-4.2.2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6749",
             "spec-name" : "RFC 6749" } ] },
       
@@ -152,7 +152,7 @@
         "details" : 
         [ 
           { "description" : "Value MUST be set to \"authorization_code\".",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6749#appendix-A.10",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6749#appendix-A.10",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6749",
             "spec-name" : "RFC 6749" } ] },
       
@@ -162,7 +162,7 @@
         "details" : 
         [ 
           { "description" : "The name of the key (key id), which is an identifier generated by the resource server. It is RECOMMENDED that the authorization server generates this key id by computing a hash over the access_token, for example using SHA-1, and to encode it in a base64 format.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-oauth-v2-http-mac#section-4.1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-ietf-oauth-v2-http-mac#section-4.1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-oauth-v2-http-mac",
             "spec-name" : "Internet Draft ietf-oauth-v2-http-mac" } ] },
       
@@ -172,7 +172,7 @@
         "details" : 
         [ 
           { "description" : "The MAC algorithm used to calculate the request MAC. The value MUST be one of \"hmac-sha-1\", \"hmac-sha-256\", or a registered extension algorithm name. The authorization server is assumed to know the set of algorithms supported by the client and the resource server. It selects an algorithm that meets the security policies and is supported by both nodes.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-oauth-v2-http-mac#section-4.1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-ietf-oauth-v2-http-mac#section-4.1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-oauth-v2-http-mac",
             "spec-name" : "Internet Draft ietf-oauth-v2-http-mac" } ] },
       
@@ -182,7 +182,7 @@
         "details" : 
         [ 
           { "description" : "The session key generated by the authorization server. Note that the lifetime of the session key is equal to the lifetime of the access token.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-oauth-v2-http-mac#section-4.1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-ietf-oauth-v2-http-mac#section-4.1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-oauth-v2-http-mac",
             "spec-name" : "Internet Draft ietf-oauth-v2-http-mac" } ] },
       
@@ -192,7 +192,7 @@
         "details" : 
         [ 
           { "description" : "The resource owner password.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6749#section-4.3.2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6749#section-4.3.2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6749",
             "spec-name" : "RFC 6749" } ] },
       
@@ -202,7 +202,7 @@
         "details" : 
         [ 
           { "description" : "After completing its interaction with the resource owner, the authorization server directs the resource owner's user-agent back to the client. The authorization server redirects the user-agent to the client's redirection endpoint previously established with the authorization server during the client registration process or when making the authorization request.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6749#section-3.1.2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6749#section-3.1.2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6749",
             "spec-name" : "RFC 6749" } ] },
       
@@ -212,7 +212,7 @@
         "details" : 
         [ 
           { "description" : "The refresh token, which can be used to obtain new access tokens using the same authorization grant.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6749#section-5.1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6749#section-5.1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6749",
             "spec-name" : "RFC 6749" } ] },
       
@@ -222,7 +222,7 @@
         "details" : 
         [ 
           { "description" : "The value MUST be one of \"code\" for requesting an authorization code, \"token\" for requesting an access token (implicit grant), or a registered extension value.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6749#section-3.1.1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6749#section-3.1.1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6749",
             "spec-name" : "RFC 6749" } ] },
       
@@ -232,7 +232,7 @@
         "details" : 
         [ 
           { "description" : "The authorization and token endpoints allow the client to specify the scope of the access request using the \"scope\" request parameter. In turn, the authorization server uses the \"scope\" response parameter to inform the client of the scope of the access token issued.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6749#section-3.3",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6749#section-3.3",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6749",
             "spec-name" : "RFC 6749" } ] },
       
@@ -242,7 +242,7 @@
         "details" : 
         [ 
           { "description" : "An opaque value used by the client to maintain state between the request and callback. The authorization server includes this value when redirecting the user-agent back to the client.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6749#section-4.2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6749#section-4.2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6749",
             "spec-name" : "RFC 6749" } ] },
       
@@ -252,7 +252,7 @@
         "details" : 
         [ 
           { "description" : "The type of the token issued.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6749#section-4.2.2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6749#section-4.2.2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6749",
             "spec-name" : "RFC 6749" } ] },
       
@@ -262,6 +262,6 @@
         "details" : 
         [ 
           { "description" : "The resource owner username.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6749#section-4.3.2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6749#section-4.3.2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6749",
             "spec-name" : "RFC 6749" } ] } ] }

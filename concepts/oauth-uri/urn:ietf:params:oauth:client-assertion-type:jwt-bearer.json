@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "To use a JWT Bearer Token for client authentication, the client uses the following parameter values and encodings. The value of the \"client_assertion_type\" is \"urn:ietf:params:oauth:client-assertion-type:jwt-bearer\".",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7523#section-2.2",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7523#section-2.2",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7523",
         "spec-name" : "RFC 7523" } ] }

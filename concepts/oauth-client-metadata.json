@@ -12,7 +12,7 @@
         "details" : 
         [ 
           { "description" : "OAuth 2.0 client identifier string. It SHOULD NOT be currently valid for any other registered client, though an authorization server MAY issue the same client identifier to multiple instances of a registered client at its discretion.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7591#section-3.2.1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7591#section-3.2.1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7591",
             "spec-name" : "RFC 7591" } ] },
       
@@ -22,7 +22,7 @@
         "details" : 
         [ 
           { "description" : "Time at which the client identifier was issued.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7591#section-3.2.1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7591#section-3.2.1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7591",
             "spec-name" : "RFC 7591" } ] },
       
@@ -32,7 +32,7 @@
         "details" : 
         [ 
           { "description" : "URL string of a web page providing information about the client. If present, the server SHOULD display this URL to the end-user in a clickable fashion.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7591#section-2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7591#section-2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7591",
             "spec-name" : "RFC 7591" } ] },
       
@@ -42,7 +42,7 @@
         "details" : 
         [ 
           { "description" : "OAuth 2.0 client secret string. If issued, this MUST be unique for each \"client_id\" and SHOULD be unique for multiple instances of a client using the same \"client_id\".",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7591#section-3.2.1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7591#section-3.2.1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7591",
             "spec-name" : "RFC 7591" } ] },
       
@@ -52,7 +52,7 @@
         "details" : 
         [ 
           { "description" : "Time at which the client secret will expire or 0 if it will not expire.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7591#section-3.2.1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7591#section-3.2.1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7591",
             "spec-name" : "RFC 7591" } ] },
       
@@ -62,7 +62,7 @@
         "details" : 
         [ 
           { "description" : "URL string of a web page providing information about the client.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7591#section-2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7591#section-2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7591",
             "spec-name" : "RFC 7591" } ] },
       
@@ -72,7 +72,7 @@
         "details" : 
         [ 
           { "description" : "Array of strings representing ways to contact people responsible for this client, typically email addresses.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7591#section-2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7591#section-2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7591",
             "spec-name" : "RFC 7591" } ] },
       
@@ -82,7 +82,7 @@
         "details" : 
         [ 
           { "description" : "Array of OAuth 2.0 grant type strings that the client can use at the token endpoint.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7591#section-2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7591#section-2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7591",
             "spec-name" : "RFC 7591" } ] },
       
@@ -92,7 +92,7 @@
         "details" : 
         [ 
           { "description" : "Client's JSON Web Key Set document value, which contains the client's public keys. The value of this field MUST be a JSON object containing a valid JWK Set. These keys can be used by higher-level protocols that use signing or encryption. This parameter is intended to be used by clients that cannot use the \"jwks_uri\" parameter, such as native clients that cannot host public URLs.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7591#section-2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7591#section-2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7591",
             "spec-name" : "RFC 7591" } ] },
       
@@ -102,7 +102,7 @@
         "details" : 
         [ 
           { "description" : "URL string that references a logo for the client. If present, the server SHOULD display this image to the end-user during approval.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7591#section-2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7591#section-2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7591",
             "spec-name" : "RFC 7591" } ] },
       
@@ -112,7 +112,7 @@
         "details" : 
         [ 
           { "description" : "URL string that points to a human-readable privacy policy document that describes how the deployment organization collects, uses, retains, and discloses personal data.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7591#section-2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7591#section-2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7591",
             "spec-name" : "RFC 7591" } ] },
       
@@ -122,12 +122,12 @@
         "details" : 
         [ 
           { "description" : "Array of redirection URI strings for use in redirect-based flows such as the authorization code and implicit flows.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7591#section-2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7591#section-2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7591",
             "spec-name" : "RFC 7591" },
           
           { "description" : "Array of redirection URI strings for use in redirect-based flows such as the authorization code and implicit flows.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7591#section-2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7591#section-2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7591",
             "spec-name" : "RFC 7591" } ] },
       
@@ -137,7 +137,7 @@
         "details" : 
         [ 
           { "description" : "String containing the access token to be used at the client configuration endpoint to perform subsequent operations upon the client registration.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7592#section-3",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7592#section-3",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7592",
             "spec-name" : "RFC 7592" } ] },
       
@@ -147,7 +147,7 @@
         "details" : 
         [ 
           { "description" : "String containing the fully qualified URL of the client configuration endpoint for this client.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7592#section-3",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7592#section-3",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7592",
             "spec-name" : "RFC 7592" } ] },
       
@@ -157,7 +157,7 @@
         "details" : 
         [ 
           { "description" : "Array of the OAuth 2.0 response type strings that the client can use at the authorization endpoint.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7591#section-2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7591#section-2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7591",
             "spec-name" : "RFC 7591" } ] },
       
@@ -167,7 +167,7 @@
         "details" : 
         [ 
           { "description" : "String containing a space-separated list of scope values (as described in OAuth 2.0) that the client can use when requesting access tokens.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7591#section-2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7591#section-2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7591",
             "spec-name" : "RFC 7591" } ] },
       
@@ -177,7 +177,7 @@
         "details" : 
         [ 
           { "description" : "A unique identifier string (e.g., a Universally Unique Identifier (UUID)) assigned by the client developer or software publisher used by registration endpoints to identify the client software to be dynamically registered.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7591#section-2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7591#section-2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7591",
             "spec-name" : "RFC 7591" } ] },
       
@@ -187,7 +187,7 @@
         "details" : 
         [ 
           { "description" : "A version identifier string for the client software identified by \"software_id\". The value of the \"software_version\" SHOULD change on any update to the client software identified by the same \"software_id\".",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7591#section-2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7591#section-2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7591",
             "spec-name" : "RFC 7591" } ] },
       
@@ -197,7 +197,7 @@
         "details" : 
         [ 
           { "description" : "String indicator of the requested authentication method for the token endpoint. Values defined by this specification are: \"none\": The client is a public client as defined in OAuth 2.0 and does not have a client secret; \"client_secret_post\": The client uses the HTTP POST parameters as defined in OAuth 2.0; \"client_secret_basic\": The client uses HTTP Basic as defined in OAuth 2.0. Additional values can be defined via the IANA \"OAuth Token Endpoint Authentication Methods\"",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7591#section-2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7591#section-2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7591",
             "spec-name" : "RFC 7591" } ] },
       
@@ -207,6 +207,6 @@
         "details" : 
         [ 
           { "description" : "URL string that points to a human-readable terms of service document for the client that describes a contractual relationship between the end-user and the client that the end-user accepts when authorizing the client.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7591#section-2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7591#section-2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7591",
             "spec-name" : "RFC 7591" } ] } ] }

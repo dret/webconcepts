@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "The \"Proxy-Authorization\" header field allows the client to identify itself (or its user) to a proxy that requires authentication. Its value consists of credentials containing the authentication information of the client for the proxy and\/or realm of the resource being requested.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7235#section-4.3",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7235#section-4.3",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7235",
         "spec-name" : "RFC 7235" } ] }

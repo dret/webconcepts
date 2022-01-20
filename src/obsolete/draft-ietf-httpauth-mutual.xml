@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <service primary="IETF" secondary="I-D" id="ietf-httpauth-mutual">
     <title>Mutual Authentication Protocol for HTTP</title>
-    <documentation source="http://tools.ietf.org/html/draft-ietf-httpauth-mutual">This document specifies a mutual authentication scheme for the Hypertext Transfer Protocol (HTTP). This scheme provides true mutual authentication between an HTTP client and an HTTP server using password-based authentication. Unlike the Basic and Digest authentication schemes, the Mutual authentication scheme specified in this document assures the user that the server truly knows the user's encrypted password.</documentation>
+    <documentation source="https://datatracker.ietf.org/doc/html/draft-ietf-httpauth-mutual">This document specifies a mutual authentication scheme for the Hypertext Transfer Protocol (HTTP). This scheme provides true mutual authentication between an HTTP client and an HTTP server using password-based authentication. Unlike the Basic and Digest authentication schemes, the Mutual authentication scheme specified in this document assures the user that the server truly knows the user's encrypted password.</documentation>
     <http-authentication-scheme def="Mutual">
-        <documentation source="http://tools.ietf.org/html/draft-ietf-httpauth-mutual#section-2">The scheme provides true mutual authentication between an HTTP client and an HTTP server, using just a simple password as a credential.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/draft-ietf-httpauth-mutual#section-2">The scheme provides true mutual authentication between an HTTP client and an HTTP server, using just a simple password as a credential.</documentation>
     </http-authentication-scheme>
 </service>

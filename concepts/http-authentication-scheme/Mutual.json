@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "The scheme provides true mutual authentication between an HTTP client and an HTTP server, using just a simple password as a credential.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8120#section-2",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc8120#section-2",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8120",
         "spec-name" : "RFC 8120" } ] }

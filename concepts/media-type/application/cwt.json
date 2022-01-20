@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "How to determine that a CBOR data structure is a CWT is application-dependent. In some cases, this information is known from the application context, such as from the position of the CWT in a data structure at which the value must be a CWT. One method of indicating that a CBOR object is a CWT is the use of the \"application\/cwt\" content type by a transport protocol.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8392#section-1",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc8392#section-1",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8392",
         "spec-name" : "RFC 8392" } ] }

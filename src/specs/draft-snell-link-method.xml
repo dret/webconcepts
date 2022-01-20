@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <service primary="IETF" secondary="I-D" id="snell-link-method">
     <title>HTTP Link and Unlink Methods</title>
-    <documentation source="http://tools.ietf.org/html/draft-snell-link-method">This specification defines the semantics of the LINK and UNLINK HTTP methods.</documentation>
+    <documentation source="https://datatracker.ietf.org/doc/html/draft-snell-link-method">This specification defines the semantics of the LINK and UNLINK HTTP methods.</documentation>
     <http-method def="LINK">
-        <documentation source="http://tools.ietf.org/html/draft-snell-link-method#section-3">The LINK method is used to establish one or more relationships between the resource identified by the effective request URI and one or more other resources.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/draft-snell-link-method#section-3">The LINK method is used to establish one or more relationships between the resource identified by the effective request URI and one or more other resources.</documentation>
     </http-method>
     <http-method def="UNLINK">
-        <documentation source="http://tools.ietf.org/html/draft-snell-link-method#section-4">The UNLINK method is used to remove one or more relationships between the resource identified by the effective request URI and other resources.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/draft-snell-link-method#section-4">The UNLINK method is used to remove one or more relationships between the resource identified by the effective request URI and other resources.</documentation>
     </http-method>
 </service>

@@ -12,7 +12,7 @@
         "details" : 
         [ 
           { "description" : "Pan-European eCall provides a standardized and mandated set of vehicle-related data (including VIN, vehicle type, propulsion type, current and optionally previous location coordinates, and the number of occupants) known as the Minimum Set of Data (MSD). The application\/EmergencyCallData.Control+xml media type enables the metadata\/control data to be carried in SIP.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8147#section-9",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc8147#section-9",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8147",
             "spec-name" : "RFC 8147" } ] },
       
@@ -22,7 +22,7 @@
         "details" : 
         [ 
           { "description" : "Pan-European eCall provides a standardized and mandated set of vehicle-related data (including VIN, vehicle type, propulsion type, current and optionally previous location coordinates, and the number of occupants) known as the Minimum Set of Data (MSD). The application\/EmergencyCallData.eCall.MSD media type enables the MSD to be carried in SIP.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8147#section-5",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc8147#section-5",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8147",
             "spec-name" : "RFC 8147" } ] },
       
@@ -42,7 +42,7 @@
         "details" : 
         [ 
           { "description" : "When representing ALPS documents in JSON format, the 'descriptor' and 'ext' properties are always expressed as arrays of anonymous objects - even when there is only one member in the array.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-amundsen-richardson-foster-alps#section-4.2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-amundsen-richardson-foster-alps#section-4.2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/amundsen-richardson-foster-alps",
             "spec-name" : "Internet Draft amundsen-richardson-foster-alps" } ] },
       
@@ -52,7 +52,7 @@
         "details" : 
         [ 
           { "description" : "In the XML version of an ALPS document, the following ALPS properties always appear as XML elements: 'alps', 'doc', 'descriptor', and 'ext'. All other ALPS properties appear as XML attributes.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-amundsen-richardson-foster-alps#section-4.1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-amundsen-richardson-foster-alps#section-4.1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/amundsen-richardson-foster-alps",
             "spec-name" : "Internet Draft amundsen-richardson-foster-alps" } ] },
       
@@ -62,7 +62,7 @@
         "details" : 
         [ 
           { "description" : "This specification describes two kinds of Atom Documents: Atom Feed Documents and Atom Entry Documents. Both kinds of Atom Documents are specified in terms of the XML Information Set, serialized as XML 1.0 and identified with the \"application\/atom+xml\" media type. Atom Documents MUST be well-formed XML.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc4287#section-2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc4287#section-2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/4287",
             "spec-name" : "RFC 4287" } ] },
       
@@ -72,7 +72,7 @@
         "details" : 
         [ 
           { "description" : "An Atom Publishing Protocol Category Document, when serialized as XML 1.0, can be identified with the following media type.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc5023#section-16.1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc5023#section-16.1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/5023",
             "spec-name" : "RFC 5023" } ] },
       
@@ -82,7 +82,7 @@
         "details" : 
         [ 
           { "description" : "A \"Deleted Entry Document\" represents exactly one at:deleted-entry element outside the context of an Atom feed. Its root is the at:deleted-entry element.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6721#section-4",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6721#section-4",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6271",
             "spec-name" : "RFC 6271" } ] },
       
@@ -92,7 +92,7 @@
         "details" : 
         [ 
           { "description" : "An Atom Publishing Protocol Service Document, when serialized as XML 1.0, can be identified with the following media type.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc5023#section-16.2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc5023#section-16.2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/5023",
             "spec-name" : "RFC 5023" } ] },
       
@@ -102,7 +102,7 @@
         "details" : 
         [ 
           { "description" : "This document defines a framework for authorization policies controlling access to application-specific data. This framework combines common location- and presence-specific authorization aspects. An XML schema specifies the language in which common policy rules are represented. The common policy framework can be extended to other application domains.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc4745#section-15.2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc4745#section-15.2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/4745",
             "spec-name" : "RFC 4745" } ] },
       
@@ -112,7 +112,7 @@
         "details" : 
         [ 
           { "description" : "CBOR follows some specific design goals that are not well met by current binary formats. The underlying data model is an extended version of the JSON data model.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7049#section-1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7049#section-1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7049",
             "spec-name" : "RFC 7049" } ] },
       
@@ -122,7 +122,7 @@
         "details" : 
         [ 
           { "description" : "CoAP endpoints implementing the membership configuration RESTful interface MUST support the CoAP group configuration Internet Media Type \"application\/coap-group+json\".",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7390#section-2.6.2.1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7390#section-2.6.2.1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7390",
             "spec-name" : "RFC 7390" } ] },
       
@@ -132,7 +132,7 @@
         "details" : 
         [ 
           { "description" : "This media type represents any payload that a CoAP message can carry, having a content format that can be identified by a CoAP Content-Format parameter (an integer in range 0-65535). The parameter \"cf\" is the integer defining the CoAP content format.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-core-http-mapping#section-6.2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-ietf-core-http-mapping#section-6.2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-core-http-mapping",
             "spec-name" : "Internet Draft ietf-core-http-mapping" } ] },
       
@@ -142,7 +142,7 @@
         "details" : 
         [ 
           { "description" : "The \"application\/cose\" media type is used to indicate that the content is a COSE message.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8152#section-16.9.1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc8152#section-16.9.1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8152",
             "spec-name" : "RFC 8152" } ] },
       
@@ -152,7 +152,7 @@
         "details" : 
         [ 
           { "description" : "The \"application\/cose-key\" media type is used to indicate that content is a COSE_Key object.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8152#section-16.9.2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc8152#section-16.9.2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8152",
             "spec-name" : "RFC 8152" } ] },
       
@@ -162,7 +162,7 @@
         "details" : 
         [ 
           { "description" : "The \"application\/cose-key\" media type is used to indicate that content is a COSE_KeySet object.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8152#section-16.9.2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc8152#section-16.9.2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8152",
             "spec-name" : "RFC 8152" } ] },
       
@@ -172,7 +172,7 @@
         "details" : 
         [ 
           { "description" : "Responses to attribute request messages MUST be encoded as the content-type of \"application\/csrattrs\" with a Content-Transfer-Encoding of \"base64\".",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7030#section-4.5.2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7030#section-4.5.2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7030",
             "spec-name" : "RFC 7030" } ] },
       
@@ -182,7 +182,7 @@
         "details" : 
         [ 
           { "description" : "How to determine that a CBOR data structure is a CWT is application-dependent. In some cases, this information is known from the application context, such as from the position of the CWT in a data structure at which the value must be a CWT. One method of indicating that a CBOR object is a CWT is the use of the \"application\/cwt\" content type by a transport protocol.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8392#section-1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc8392#section-1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8392",
             "spec-name" : "RFC 8392" } ] },
       
@@ -222,7 +222,7 @@
         "details" : 
         [ 
           { "description" : "The media type for GeoJSON text is \"application\/geo+json\". The entry for \"application\/vnd.geo+json\" in the same registry should have its status changed to be Obsolete with a pointer to the media type \"application\/geo+json\" and a reference added to this RFC.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7946#section-12",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7946#section-12",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7946",
             "spec-name" : "RFC 7946" } ] },
       
@@ -232,7 +232,7 @@
         "details" : 
         [ 
           { "description" : "A GeoJSON text sequence is any number of GeoJSON texts, each encoded in UTF-8, each preceded by one ASCII RS character, and each followed by a line feed (LF).",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8142#section-2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc8142#section-2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8142",
             "spec-name" : "RFC 8142" } ] },
       
@@ -242,7 +242,7 @@
         "details" : 
         [ 
           { "description" : "The 'application\/gzip' media type describes a block of data that is compressed using gzip compression. The data is a stream of bytes as described in RFC 1952.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6713#section-3",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6713#section-3",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6713",
             "spec-name" : "RFC 6713" } ] },
       
@@ -252,7 +252,7 @@
         "details" : 
         [ 
           { "description" : "HAL is a generic media type with which Web APIs can be developed and exposed as series of links. Clients of these APIs can select links by their link relation type and traverse them in order to progress through the application.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-kelly-json-hal#section-1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-kelly-json-hal#section-1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/kelly-json-hal",
             "spec-name" : "Internet Draft kelly-json-hal" } ] },
       
@@ -262,7 +262,7 @@
         "details" : 
         [ 
           { "description" : "The XML Hypertext Application Language (HAL) is a standard which establishes conventions for expressing hypermedia controls, such as links, with XML. HAL is a generic media type with which Web APIs can be developed and exposed as series of links. Clients of these APIs can select links by their link relation type and traverse them in order to progress through the application.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-michaud-xml-hal#section-3",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-michaud-xml-hal#section-3",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/michaud-xml-hal",
             "spec-name" : "Internet Draft michaud-xml-hal" } ] },
       
@@ -272,7 +272,7 @@
         "details" : 
         [ 
           { "description" : "This section gives the XML Schema Definition of the \"application\/held+xml\" format. This is presented as a formal definition of the \"application\/held+xml\" format. Note that the XML Schema Definition is not intended to be used with on-the-fly validation of the presence XML document.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc5985#section-7",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc5985#section-7",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/5985",
             "spec-name" : "RFC 5985" } ] },
       
@@ -282,7 +282,7 @@
         "details" : 
         [ 
           { "description" : "This document proposes a \"home document\" format for non-browser HTTP clients.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-nottingham-json-home",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-nottingham-json-home",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/nottingham-json-home",
             "spec-name" : "Internet Draft nottingham-json-home" } ] },
       
@@ -292,7 +292,7 @@
         "details" : 
         [ 
           { "description" : "The specification for HTTP Home Documents provides a JSON syntax only. This media type provides an XML syntax for the same underlying data model, so that the concept of HTTP Home Documents can be consistently exposed in both JSON- and XML-based HTTP services.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-wilde-home-xml-04#section-4.1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-wilde-home-xml-04#section-4.1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/wilde-home-xml",
             "spec-name" : "Internet Draft wilde-home-xml" } ] },
       
@@ -302,7 +302,7 @@
         "details" : 
         [ 
           { "description" : "The application\/http type can be used to enclose a pipeline of one or more HTTP request or response messages (not intermixed).",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7230#section-8.3.2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7230#section-8.3.2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7230",
             "spec-name" : "RFC 7230" } ] },
       
@@ -312,7 +312,7 @@
         "details" : 
         [ 
           { "description" : "The \"application\/jose\" media type can be used to indicate that the content is a JWS or JWE using the JWS Compact Serialization or the JWE Compact Serialization.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7515#section-9.2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7515#section-9.2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7515",
             "spec-name" : "RFC 7515" } ] },
       
@@ -322,7 +322,7 @@
         "details" : 
         [ 
           { "description" : "The \"application\/jose+json\" media type can be used to indicate that the content is a JWS or JWE using the JWS JSON Serialization or the JWE JSON Serialization.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7515#section-9.2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7515#section-9.2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7515",
             "spec-name" : "RFC 7515" } ] },
       
@@ -332,7 +332,7 @@
         "details" : 
         [ 
           { "description" : "The WebFinger resource returns a JSON Resource Descriptor (JRD) as the resource representation to convey information about an entity on the Internet.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7033#section-10.2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7033#section-10.2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7033",
             "spec-name" : "RFC 7033" } ] },
       
@@ -342,12 +342,12 @@
         "details" : 
         [ 
           { "description" : "JavaScript Object Notation (JSON) is a text format for the serialization of structured data. It is derived from the object literals of JavaScript, as defined in the ECMAScript Programming Language Standard, Third Edition.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-jsonbis-rfc7159bis#section-1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-ietf-jsonbis-rfc7159bis#section-1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-jsonbis-rfc7159bis",
             "spec-name" : "Internet Draft ietf-jsonbis-rfc7159bis" },
           
           { "description" : "JavaScript Object Notation (JSON) is a text format for the serialization of structured data. It is derived from the object literals of JavaScript, as defined in the ECMAScript Programming Language Standard, Third Edition. JSON can represent four primitive types (strings, numbers, booleans, and null) and two structured types (objects and arrays).",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8259#section-1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc8259#section-1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8259",
             "spec-name" : "RFC 8259" } ] },
       
@@ -357,7 +357,7 @@
         "details" : 
         [ 
           { "description" : "A JSON Patch document is a JSON [RFC4627] document that represents an array of objects. Each object represents a single operation to be applied to the target JSON document.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6902#section-3",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6902#section-3",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6902",
             "spec-name" : "RFC 6902" } ] },
       
@@ -367,7 +367,7 @@
         "details" : 
         [ 
           { "description" : "\"JSON text sequences\" are specifically not JSON texts themselves but are composed of (possible) JSON texts. JSON text sequences can be parsed (and produced) incrementally without having to have a streaming parser (nor streaming encoder).",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7464#section-2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7464#section-2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7464",
             "spec-name" : "RFC 7464" } ] },
       
@@ -377,7 +377,7 @@
         "details" : 
         [ 
           { "description" : "A JWK is a JSON object that represents a cryptographic key. The members of the object represent properties of the key, including its value.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7517#section-4",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7517#section-4",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7517",
             "spec-name" : "RFC 7517" } ] },
       
@@ -387,7 +387,7 @@
         "details" : 
         [ 
           { "description" : "A JWK Set is a JSON object that represents a set of JWKs. The JSON object MUST have a \"keys\" member, with its value being an array of JWKs.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7517#section-5",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7517#section-5",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7517",
             "spec-name" : "RFC 7517" } ] },
       
@@ -397,7 +397,7 @@
         "details" : 
         [ 
           { "description" : "The JWT Claims Set represents a JSON object whose members are the claims conveyed by the JWT.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7519#section-4",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7519#section-4",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7519",
             "spec-name" : "RFC 7519" } ] },
       
@@ -417,7 +417,7 @@
         "details" : 
         [ 
           { "description" : "The CoRE Link Format extends the HTTP Link Header field specified in RFC 5988.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6690#section-2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6690#section-2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6690",
             "spec-name" : "RFC 6690" } ] },
       
@@ -427,7 +427,7 @@
         "details" : 
         [ 
           { "description" : "An application\/link-format document is a collection of web links, each of which is a collection of attributes applied to a \"URI-Reference\". The application\/link-format+cbor media type is a CBOR-based serialization of such a document.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-core-links-json#section-2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-ietf-core-links-json#section-2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-core-links-json",
             "spec-name" : "Internet Draft ietf-core-links-json" } ] },
       
@@ -437,7 +437,7 @@
         "details" : 
         [ 
           { "description" : "An application\/link-format document is a collection of web links, each of which is a collection of attributes applied to a \"URI-Reference\". The application\/link-format+json media type is a JSON-based serialization of such a document.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-core-links-json#section-2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-ietf-core-links-json#section-2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-core-links-json",
             "spec-name" : "Internet Draft ietf-core-links-json" } ] },
       
@@ -447,7 +447,7 @@
         "details" : 
         [ 
           { "description" : "This document format is identical to the payload of the HTTP Link header. It is defined in Section 3 of RFC 5988bis, more specifically by its ABNF production rule for \"Link\" and subsequent ones.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-httpapi-linkset#section-4.1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-ietf-httpapi-linkset#section-4.1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpapi-linkset",
             "spec-name" : "Internet Draft ietf-httpapi-linkset" } ] },
       
@@ -457,7 +457,7 @@
         "details" : 
         [ 
           { "description" : "For applications that prefer a JSON serialization of link set resources, the following definition provides a JSON serialization which is intended to faithfully reproduce the abstract model of RFC 5988bis.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-httpapi-linkset#section-4.2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-ietf-httpapi-linkset#section-4.2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpapi-linkset",
             "spec-name" : "Internet Draft ietf-httpapi-linkset" } ] },
       
@@ -467,7 +467,7 @@
         "details" : 
         [ 
           { "description" : "An XML schema for an authority element set used to provide metadata about agents (people, organizations), events, and terms (topics, geographics, genres, etc.). It is a companion to MODS.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6207#section-3",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6207#section-3",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6207",
             "spec-name" : "RFC 6207" } ] },
       
@@ -487,7 +487,7 @@
         "details" : 
         [ 
           { "description" : "Since there are different flavors of MARC which would be processed by different applications, this content-type\/subtype refers to the harmonized USMARC\/CANMARC specification. Additional content-types\/subtypes may be defined in the future (e.g. application\/unimarc).",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc2220#section-2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc2220#section-2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/2220",
             "spec-name" : "RFC 2220" } ] },
       
@@ -497,7 +497,7 @@
         "details" : 
         [ 
           { "description" : "An XML schema for the direct XML representation of the MARC format (for which there already exists a media type, application\/marc).",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6207#section-5",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6207#section-5",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6207",
             "spec-name" : "RFC 6207" } ] },
       
@@ -507,7 +507,7 @@
         "details" : 
         [ 
           { "description" : "The merge patch format is primarily intended for use with the HTTP PATCH method as a means of describing a set of modifications to a target resource's content. A JSON merge patch document describes changes to be made to a target JSON document using a syntax that closely mimics the document being modified.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7396#section-1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7396#section-1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7396",
             "spec-name" : "RFC 7396" } ] },
       
@@ -517,7 +517,7 @@
         "details" : 
         [ 
           { "description" : "An XML schema for encoding descriptive, administrative, and structural metadata regarding objects within a digital library.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6207#section-4",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6207#section-4",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6207",
             "spec-name" : "RFC 6207" } ] },
       
@@ -527,7 +527,7 @@
         "details" : 
         [ 
           { "description" : "An XML schema for a bibliographic element set that may be used for a variety of purposes, and particularly for library applications.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6207#section-2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6207#section-2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6207",
             "spec-name" : "RFC 6207" } ] },
       
@@ -537,7 +537,7 @@
         "details" : 
         [ 
           { "description" : "The Natural Language Semantics Markup Language (NLSML) is an XML data structure with elements and attributes designed to carry result information from recognizer (including enrollment) and verifier resources.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6787#section-6.3.1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6787#section-6.3.1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6768",
             "spec-name" : "RFC 6768" } ] },
       
@@ -547,7 +547,7 @@
         "details" : 
         [ 
           { "description" : "This specification defines a new content type \"application\/p2p-overlay+xml\" for a MIME entity that contains overlay information.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6940#section-11.1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6940#section-11.1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6940",
             "spec-name" : "RFC 6940" } ] },
       
@@ -557,7 +557,7 @@
         "details" : 
         [ 
           { "description" : "A new MIME error format is defined for applications that require deterministic error handling when patching cannot be applied. It is anticipated that these error elements can be used within other MIME types that allow extension elements.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc5261#section-5",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc5261#section-5",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/5261",
             "spec-name" : "RFC 5261" } ] },
       
@@ -567,7 +567,7 @@
         "details" : 
         [ 
           { "description" : "PDF is used to represent \"final form\" formatted documents. PDF pages may include text, images, graphics, and multimedia content such as video and audio. PDF is also capable of containing auxiliary structures, including annotations, bookmarks, file attachments, hyperlinks, logical structures, and metadata. These features are useful for navigation and building collections of related documents, as well as for reviewing and commenting on documents.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8118#section-1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc8118#section-1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8118",
             "spec-name" : "RFC 8118" } ] },
       
@@ -597,7 +597,7 @@
         "details" : 
         [ 
           { "description" : "The canonical model for problem details is a JSON object. When serialised as a JSON document, that format is identified with the \"application\/problem+json\" media type.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7807#section-3",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7807#section-3",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7807",
             "spec-name" : "RFC 7807" } ] },
       
@@ -607,7 +607,7 @@
         "details" : 
         [ 
           { "description" : "Some HTTP-based APIs use XML as their primary format convention. Such APIs MAY express problem details using the format defined in this appendix.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7807#appendix-A",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7807#appendix-A",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7807",
             "spec-name" : "RFC 7807" } ] },
       
@@ -637,7 +637,7 @@
         "details" : 
         [ 
           { "description" : "This document updates the specification for the Internet media type \"application\/rfc+xml\" from the one in I-D draft-reschke-xml2rfc.  The following is to be registered with IANA.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-hoffman-xml2rfc#section-6.1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-hoffman-xml2rfc#section-6.1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/hoffman-xml2rfc",
             "spec-name" : "Internet Draft hoffman-xml2rfc" } ] },
       
@@ -667,7 +667,7 @@
         "details" : 
         [ 
           { "description" : "The \"application\/scim+json\" media type is intended to identify JSON structure data that conforms to the SCIM protocol and schema specifications.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7644#section-8.1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7644#section-8.1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7644",
             "spec-name" : "RFC 7644" } ] },
       
@@ -677,7 +677,7 @@
         "details" : 
         [ 
           { "description" : "This specification registers the \"application\/secevent+jwt\" media type, which can be used to indicate that the content is a SET. SETs MAY include this media type in the \"typ\" header parameter of the JWT representing the SET to explicitly declare that the JWT is a SET. This MUST be included if the SET could be used in an application context in which it could be confused with other kinds of JWTs.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8417#section-2.3",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc8417#section-2.3",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8417",
             "spec-name" : "RFC 8417" } ] },
       
@@ -687,7 +687,7 @@
         "details" : 
         [ 
           { "description" : "SenML is defined by a data model for measurements and simple meta-data about measurements and devices. The data is structured as a single array that contains a series of SenML Records which can each contain attributes such as an unique identifier for the sensor, the time the measurement was made, the unit the measurement is in, and the current value of the sensor.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-core-senml#section-6",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-ietf-core-senml#section-6",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-core-senml",
             "spec-name" : "Internet Draft ietf-core-senml" } ] },
       
@@ -697,7 +697,7 @@
         "details" : 
         [ 
           { "description" : "SenML is defined by a data model for measurements and simple meta-data about measurements and devices. The data is structured as a single array that contains a series of SenML Records which can each contain attributes such as an unique identifier for the sensor, the time the measurement was made, the unit the measurement is in, and the current value of the sensor.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-core-senml#section-8",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-ietf-core-senml#section-8",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-core-senml",
             "spec-name" : "Internet Draft ietf-core-senml" } ] },
       
@@ -707,7 +707,7 @@
         "details" : 
         [ 
           { "description" : "SenML is defined by a data model for measurements and simple meta-data about measurements and devices. The data is structured as a single array that contains a series of SenML Records which can each contain attributes such as an unique identifier for the sensor, the time the measurement was made, the unit the measurement is in, and the current value of the sensor.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-core-senml#section-5",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-ietf-core-senml#section-5",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-core-senml",
             "spec-name" : "Internet Draft ietf-core-senml" } ] },
       
@@ -717,7 +717,7 @@
         "details" : 
         [ 
           { "description" : "SenML is defined by a data model for measurements and simple meta-data about measurements and devices. The data is structured as a single array that contains a series of SenML Records which can each contain attributes such as an unique identifier for the sensor, the time the measurement was made, the unit the measurement is in, and the current value of the sensor.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-core-senml#section-7",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-ietf-core-senml#section-7",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-core-senml",
             "spec-name" : "Internet Draft ietf-core-senml" } ] },
       
@@ -727,7 +727,7 @@
         "details" : 
         [ 
           { "description" : "Use the Application\/SGML media-type for SGML text entities that are not appropriate for Text\/SGML.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc1874#section-2.2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc1874#section-2.2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/1874",
             "spec-name" : "RFC 1874" } ] },
       
@@ -737,7 +737,7 @@
         "details" : 
         [ 
           { "description" : "This specification defines the media type \"application\/soap+xml\" which can be used to identify SOAP 1.2 message envelopes that have been serialized with XML 1.0.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc3902#section-1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc3902#section-1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/3902",
             "spec-name" : "RFC 3902" } ] },
       
@@ -747,7 +747,7 @@
         "details" : 
         [ 
           { "description" : "The Structured Query Language (SQL) has been in use for over 30 years with various types of database technologies.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6922#section-3",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6922#section-3",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6922",
             "spec-name" : "RFC 6922" } ] },
       
@@ -757,7 +757,7 @@
         "details" : 
         [ 
           { "description" : "An XML schema for the SRU response. SRU is a protocol, and the media type sru+xml pertains specifically to the default SRU response. The SRU response may be supplied in any of a number of suitable schemas, RSS, ATOM, for example, and the client identifies the desired format in the request, hence the need for a media type.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6207#section-6",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6207#section-6",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6207",
             "spec-name" : "RFC 6207" } ] },
       
@@ -787,7 +787,7 @@
         "details" : 
         [ 
           { "description" : "The MIME media type for use with vCard-in-XML data.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6351#section-8.2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6351#section-8.2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6351",
             "spec-name" : "RFC 6351" } ] },
       
@@ -797,7 +797,7 @@
         "details" : 
         [ 
           { "description" : "The \"application\/vnd.apple.mpegurl\" media type identifies Playlist files used by HTTP Live Streaming. The format of the Playlist files is derived from the M3U playlist file format and inherits two tags from that earlier file format: EXTM3U and EXTINF.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8216#section-4",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc8216#section-4",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8216",
             "spec-name" : "RFC 8216" } ] },
       
@@ -807,7 +807,7 @@
         "details" : 
         [ 
           { "description" : "An API Health Response Format (or, interchangeably, \"health check response\") uses the format described in RFC 8259 and has the media type \"application\/vnd.health+json\". Its content consists of a single mandatory root field (\"status\") and several optional fields.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-inadarei-api-health-check#section-3",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-inadarei-api-health-check#section-3",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/inadarei-api-health-check",
             "spec-name" : "Internet Draft inadarei-api-health-check" } ] },
       
@@ -817,7 +817,7 @@
         "details" : 
         [ 
           { "description" : "The user agent includes the public key of the application server when requesting the creation of a push subscription. The public key is then added to the request to create a push subscription. The push subscription request is extended to include a body. The body of the request is a JSON object. A \"vapid\" member is added to this JSON object, containing the public key on the P-256 curve, encoded in the uncompressed form and base64url encoded.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-webpush-vapid#section-4",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-ietf-webpush-vapid#section-4",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-webpush-vapid",
             "spec-name" : "Internet Draft ietf-webpush-vapid" } ] },
       
@@ -847,7 +847,7 @@
         "details" : 
         [ 
           { "description" : "The media types application\/xml or text\/xml, or a more specific media type, SHOULD be used for XML document entities.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7303#section-4.1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7303#section-4.1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7303",
             "spec-name" : "RFC 7303" } ] },
       
@@ -857,7 +857,7 @@
         "details" : 
         [ 
           { "description" : "The media types application\/xml-external-parsed-entity or text\/xml-external-parsed-entity SHOULD be used for XML external parsed entities.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7303#section-4.1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7303#section-4.1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7303",
             "spec-name" : "RFC 7303" } ] },
       
@@ -867,7 +867,7 @@
         "details" : 
         [ 
           { "description" : "The media type application\/xml-dtd SHOULD be used for XML external DTD subsets.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7303#section-4.1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7303#section-4.1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7303",
             "spec-name" : "RFC 7303" } ] },
       
@@ -877,7 +877,7 @@
         "details" : 
         [ 
           { "description" : "The Internet media type for an XML Patch Document is application\/xml-patch+xml.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7351#section-3",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7351#section-3",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7351",
             "spec-name" : "RFC 7351" } ] },
       
@@ -887,7 +887,7 @@
         "details" : 
         [ 
           { "description" : "The 'application\/zlib' media type describes a block of data that is compressed using zlib compression. The data is a stream of bytes as described in RFC 1950.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6713#section-2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6713#section-2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6713",
             "spec-name" : "RFC 6713" } ] },
       
@@ -897,7 +897,7 @@
         "details" : 
         [ 
           { "description" : "ISO\/IEC 14496-22 \"Open Font Format\" (OFF) specification being developed by ISO\/IEC SC29\/WG11.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8081#section-4.4.4",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc8081#section-4.4.4",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8081",
             "spec-name" : "RFC 8081" } ] },
       
@@ -907,7 +907,7 @@
         "details" : 
         [ 
           { "description" : "ISO\/IEC 14496-22 \"Open Font Format\" (OFF) specification being developed by ISO\/IEC SC29\/WG11.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8081#section-4.4.3",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc8081#section-4.4.3",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8081",
             "spec-name" : "RFC 8081" } ] },
       
@@ -917,7 +917,7 @@
         "details" : 
         [ 
           { "description" : "Note that \"font\/sfnt\" is an abstract type from which the (widely used in practice) \"font\/ttf\" and \"font\/otf\" types are conceptually derived. Use of \"font\/sfnt\" is likely to be rare in practice.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8081#section-4.4.1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc8081#section-4.4.1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8081",
             "spec-name" : "RFC 8081" } ] },
       
@@ -927,7 +927,7 @@
         "details" : 
         [ 
           { "description" : "ISO\/IEC 14496-22 \"Open Font Format\" (OFF) specification being developed by ISO\/IEC SC29\/WG11.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8081#section-4.4.2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc8081#section-4.4.2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8081",
             "spec-name" : "RFC 8081" } ] },
       
@@ -937,7 +937,7 @@
         "details" : 
         [ 
           { "description" : "WOFF is used by web browsers, often in conjunction with HTML and CSS.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8081#section-4.4.5",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc8081#section-4.4.5",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8081",
             "spec-name" : "RFC 8081" } ] },
       
@@ -947,7 +947,7 @@
         "details" : 
         [ 
           { "description" : "WOFF 2.0 is used by web browsers, often in conjunction with HTML and CSS. WOFF 2.0 is an improvement on WOFF 1.0.  The two formats have different Internet Media Types and different @font-face formats, and they may be used in parallel.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8081#section-4.4.6",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc8081#section-4.4.6",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8081",
             "spec-name" : "RFC 8081" },
           
@@ -982,7 +982,7 @@
         "details" : 
         [ 
           { "description" : "WebP is a Resource Interchange File Format (RIFF) based image file format which supports lossless and lossy compression as well as alpha (transparency) and animation.  It covers use cases similar to JPEG, PNG and the Graphics Interchange Format (GIF).",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-zern-webp#section-1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-zern-webp#section-1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/zern-webp",
             "spec-name" : "Internet Draft zern-webp" } ] },
       
@@ -992,7 +992,7 @@
         "details" : 
         [ 
           { "description" : "This document defines a simple format for representing an HTTP message, either request or response. This allows for the encoding of HTTP messages that can be conveyed outside of an HTTP protocol. This enables the transformation of entire messages, including the application of authenticated encryption.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-httpbis-binary-message#section-8",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-ietf-httpbis-binary-message#section-8",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpbis-binary-message",
             "spec-name" : "Internet Draft ietf-httpbis-binary-message" } ] },
       
@@ -1002,7 +1002,7 @@
         "details" : 
         [ 
           { "description" : "The message\/http type can be used to enclose a single HTTP request or response message, provided that it obeys the MIME restrictions for all \"message\" types regarding line length and encodings.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7230#section-8.3.1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7230#section-8.3.1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7230",
             "spec-name" : "RFC 7230" } ] },
       
@@ -1012,7 +1012,7 @@
         "details" : 
         [ 
           { "description" : "The media-type multipart\/form-data follows the rules of all multipart MIME data streams as outlined in RFC 2046. In forms, there are a series of fields to be supplied by the user who fills out the form. Each field has a name. Within a given form, the names are unique.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc2388#section-3",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc2388#section-3",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/2388",
             "spec-name" : "RFC 2388" } ] },
       
@@ -1022,7 +1022,7 @@
         "details" : 
         [ 
           { "description" : "A 'multipart\/multilingual' message will have a number of message parts: exactly one multilingual preface, one or more language message parts, and zero or one language-independent message part. The details of these are described below.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8255#section-3",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc8255#section-3",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8255",
             "spec-name" : "RFC 8255" } ] },
       
@@ -1042,12 +1042,12 @@
         "details" : 
         [ 
           { "description" : "The comma separated values format (CSV) has been used for exchanging and converting data between various spreadsheet programs for quite some time.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc4180#section-1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc4180#section-1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/4180",
             "spec-name" : "RFC 4180" },
           
           { "description" : "This memo updates the text\/csv media type defined in RFC 4180 by defining URI fragment identifiers for text\/csv MIME entities.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7111#section-1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7111#section-1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7111",
             "spec-name" : "RFC 7111" } ] },
       
@@ -1067,7 +1067,7 @@
         "details" : 
         [ 
           { "description" : "The body of the RECOGNIZE method of the MRCP protocol may contain a list of grammar URIs specified in content of media type 'text\/grammar-ref-list'. This type defines a list of grammar URIs and allows each grammar URI to be assigned a weight in the list.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6787#section-9.9",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6787#section-9.9",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6768",
             "spec-name" : "RFC 6768" } ] },
       
@@ -1087,7 +1087,7 @@
         "details" : 
         [ 
           { "description" : "This document registers the text\/markdown media type for use with Markdown, a family of plain-text formatting syntaxes that optionally can be converted to formal markup languages such as HTML.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7763",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7763",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7763",
             "spec-name" : "RFC 7763" } ] },
       
@@ -1097,7 +1097,7 @@
         "details" : 
         [ 
           { "description" : "This memo updates the text\/plain media type defined in RFC 2046  by defining URI fragment identifiers for text\/plain MIME entities. This makes it possible to refer to parts of a text\/plain MIME entity. Such parts can be identified by either character position or range, or by line position or range. Integrity checking information can be added to a fragment identifier to make it more robust, enabling applications to detect changes of the entity.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc5147#section-1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc5147#section-1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/5147",
             "spec-name" : "RFC 5147" } ] },
       
@@ -1107,7 +1107,7 @@
         "details" : 
         [ 
           { "description" : "The Text\/SGML media-type can be employed when the contents of the SGML entity is intended to be read by a human and is in a readily comprehensible form.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc1874#section-2.1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc1874#section-2.1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/1874",
             "spec-name" : "RFC 1874" } ] },
       
@@ -1117,7 +1117,7 @@
         "details" : 
         [ 
           { "description" : "The text\/vcard MIME content type (hereafter known as \"vCard\") contains contact information, typically pertaining to a single contact or group of contacts. The content consists of one or more lines in the format given below.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6350#section-3",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6350#section-3",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6350",
             "spec-name" : "RFC 6350" } ] },
       
@@ -1137,7 +1137,7 @@
         "details" : 
         [ 
           { "description" : "If an XML document - that is, the unprocessed, source XML document - is readable by casual users, text\/xml is preferable to application\/xml. MIME user agents (and web user agents) that do not have explicit support for text\/xml will treat it as text\/plain, for example, by displaying the XML MIME entity as plain text.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc3023#section-3.1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc3023#section-3.1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/3023",
             "spec-name" : "RFC 3023" } ] },
       
@@ -1147,6 +1147,6 @@
         "details" : 
         [ 
           { "description" : "If an XML external parsed entity - that is, the unprocessed, source XML entity - is readable by casual users, text\/xml-external-parsed-entity is preferable to application\/xml-external-parsed-entity. MIME user agents (and web user agents) that do not have explicit support for text\/xml-external-parsed-entity will treat it as text\/plain, for example, by displaying the XML MIME entity as plain text.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc3023#section-3.3",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc3023#section-3.3",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/3023",
             "spec-name" : "RFC 3023" } ] } ] }

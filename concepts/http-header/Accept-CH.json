@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "The Accept-CH response header field or the equivalent HTML meta element with http-equiv attribute (HTML5) indicate server support for particular hints indicated in its value.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-httpbis-client-hints#section-3.1",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-ietf-httpbis-client-hints#section-3.1",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpbis-client-hints",
         "spec-name" : "Internet Draft ietf-httpbis-client-hints" } ] }

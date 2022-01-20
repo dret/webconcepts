@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "A GeoJSON text sequence is any number of GeoJSON texts, each encoded in UTF-8, each preceded by one ASCII RS character, and each followed by a line feed (LF).",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8142#section-2",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc8142#section-2",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8142",
         "spec-name" : "RFC 8142" } ] }

@@ -1,62 +1,62 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <service primary="IETF" secondary="RFC" id="4918">
     <title>HTTP Extensions for Web Distributed Authoring and Versioning (WebDAV)</title>
-    <documentation source="http://tools.ietf.org/html/rfc4918">Web Distributed Authoring and Versioning (WebDAV) consists of a set of methods, headers, and content-types ancillary to HTTP/1.1 for the management of resource properties, creation and management of resource collections, URL namespace manipulation, and resource locking (collision avoidance).</documentation>
+    <documentation source="https://datatracker.ietf.org/doc/html/rfc4918">Web Distributed Authoring and Versioning (WebDAV) consists of a set of methods, headers, and content-types ancillary to HTTP/1.1 for the management of resource properties, creation and management of resource collections, URL namespace manipulation, and resource locking (collision avoidance).</documentation>
     <http-header def="DAV">
-        <documentation source="http://tools.ietf.org/html/rfc4918#section-10.1">This general-header appearing in the response indicates that the resource supports the DAV schema and protocol as specified. As a request header, this header allows the client to advertise compliance with named features when the server needs that information.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc4918#section-10.1">This general-header appearing in the response indicates that the resource supports the DAV schema and protocol as specified. As a request header, this header allows the client to advertise compliance with named features when the server needs that information.</documentation>
     </http-header>
     <http-header def="Depth">
-        <documentation source="http://tools.ietf.org/html/rfc4918#section-10.2">The Depth request header is used with methods executed on resources that could potentially have internal members to indicate whether the method is to be applied only to the resource ("Depth: 0"), to the resource and its internal members only ("Depth: 1"), or the resource and all its members ("Depth: infinity").</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc4918#section-10.2">The Depth request header is used with methods executed on resources that could potentially have internal members to indicate whether the method is to be applied only to the resource ("Depth: 0"), to the resource and its internal members only ("Depth: 1"), or the resource and all its members ("Depth: infinity").</documentation>
     </http-header>
     <http-header def="Destination">
-        <documentation source="http://tools.ietf.org/html/rfc4918#section-10.3">The Destination request header specifies the URI that identifies a destination resource for methods such as COPY and MOVE, which take two URIs as parameters.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc4918#section-10.3">The Destination request header specifies the URI that identifies a destination resource for methods such as COPY and MOVE, which take two URIs as parameters.</documentation>
     </http-header>
     <http-header def="If">
-        <documentation source="http://tools.ietf.org/html/rfc4918#section-10.4">The If request header is intended to have similar functionality to the If-Match header defined in Section 14.24 of RFC 2616. However, the If header handles any state token as well as ETags. A typical example of a state token is a lock token, and lock tokens are the only state tokens defined in this specification.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc4918#section-10.4">The If request header is intended to have similar functionality to the If-Match header defined in Section 14.24 of RFC 2616. However, the If header handles any state token as well as ETags. A typical example of a state token is a lock token, and lock tokens are the only state tokens defined in this specification.</documentation>
     </http-header>
     <http-header def="Lock-Token">
-        <documentation source="http://tools.ietf.org/html/rfc4918#section-10.5">The Lock-Token request header is used with the UNLOCK method to identify the lock to be removed.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc4918#section-10.5">The Lock-Token request header is used with the UNLOCK method to identify the lock to be removed.</documentation>
     </http-header>
     <http-header def="Overwrite">
-        <documentation source="http://tools.ietf.org/html/rfc4918#section-10.6">The Overwrite request header specifies whether the server should overwrite a resource mapped to the destination URL during a COPY or MOVE.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc4918#section-10.6">The Overwrite request header specifies whether the server should overwrite a resource mapped to the destination URL during a COPY or MOVE.</documentation>
     </http-header>
     <http-header def="Timeout">
-        <documentation source="http://tools.ietf.org/html/rfc4918#section-10.7">Clients MAY include Timeout request headers in their LOCK requests. However, the server is not required to honor or even consider these requests.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc4918#section-10.7">Clients MAY include Timeout request headers in their LOCK requests. However, the server is not required to honor or even consider these requests.</documentation>
     </http-header>
     <http-status-code def="207" desc="Multi-Status">
-        <documentation source="http://tools.ietf.org/html/rfc4918#section-11.1">The 207 (Multi-Status) status code provides status for multiple independent operations.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc4918#section-11.1">The 207 (Multi-Status) status code provides status for multiple independent operations.</documentation>
     </http-status-code>
     <http-status-code def="422" desc="Unprocessable Entity">
-        <documentation source="http://tools.ietf.org/html/rfc4918#section-11.2">The 422 (Unprocessable Entity) status code means the server understands the content type of the request entity (hence a 415 (Unsupported Media Type) status code is inappropriate), and the syntax of the request entity is correct (thus a 400 (Bad Request) status code is inappropriate) but was unable to process the contained instructions. For example, this error condition may occur if an XML request body contains well-formed (i.e., syntactically correct), but semantically erroneous, XML instructions.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc4918#section-11.2">The 422 (Unprocessable Entity) status code means the server understands the content type of the request entity (hence a 415 (Unsupported Media Type) status code is inappropriate), and the syntax of the request entity is correct (thus a 400 (Bad Request) status code is inappropriate) but was unable to process the contained instructions. For example, this error condition may occur if an XML request body contains well-formed (i.e., syntactically correct), but semantically erroneous, XML instructions.</documentation>
     </http-status-code>
     <http-status-code def="423" desc="Locked">
-        <documentation source="http://tools.ietf.org/html/rfc4918#section-11.3">The 423 (Locked) status code means the source or destination resource of a method is locked. This response SHOULD contain an appropriate precondition or postcondition code, such as 'lock-token-submitted' or 'no-conflicting-lock'.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc4918#section-11.3">The 423 (Locked) status code means the source or destination resource of a method is locked. This response SHOULD contain an appropriate precondition or postcondition code, such as 'lock-token-submitted' or 'no-conflicting-lock'.</documentation>
     </http-status-code>
     <http-status-code def="424" desc="Failed Dependency">
-        <documentation source="http://tools.ietf.org/html/rfc4918#section-11.4">The 424 (Failed Dependency) status code means that the method could not be performed on the resource because the requested action depended on another action and that action failed. For example, if a command in a PROPPATCH method fails, then, at minimum, the rest of the commands will also fail with 424 (Failed Dependency).</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc4918#section-11.4">The 424 (Failed Dependency) status code means that the method could not be performed on the resource because the requested action depended on another action and that action failed. For example, if a command in a PROPPATCH method fails, then, at minimum, the rest of the commands will also fail with 424 (Failed Dependency).</documentation>
     </http-status-code>
     <http-status-code def="507" desc="Insufficient Storage">
-        <documentation source="http://tools.ietf.org/html/rfc4918#section-11.5">The 507 (Insufficient Storage) status code means the method could not be performed on the resource because the server is unable to store the representation needed to successfully complete the request. This condition is considered to be temporary. If the request that received this status code was the result of a user action, the request MUST NOT be repeated until it is requested by a separate user action.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc4918#section-11.5">The 507 (Insufficient Storage) status code means the method could not be performed on the resource because the server is unable to store the representation needed to successfully complete the request. This condition is considered to be temporary. If the request that received this status code was the result of a user action, the request MUST NOT be repeated until it is requested by a separate user action.</documentation>
     </http-status-code>
     <http-method def="PROPFIND">
-        <documentation source="http://tools.ietf.org/html/rfc4918#section-9.1">The PROPFIND method retrieves properties defined on the resource identified by the Request-URI, if the resource does not have any internal members, or on the resource identified by the Request-URI and potentially its member resources, if the resource is a collection that has internal member URLs.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc4918#section-9.1">The PROPFIND method retrieves properties defined on the resource identified by the Request-URI, if the resource does not have any internal members, or on the resource identified by the Request-URI and potentially its member resources, if the resource is a collection that has internal member URLs.</documentation>
     </http-method>
     <http-method def="PROPPATCH">
-        <documentation source="http://tools.ietf.org/html/rfc4918#section-9.2">The PROPPATCH method processes instructions specified in the request body to set and/or remove properties defined on the resource identified by the Request-URI.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc4918#section-9.2">The PROPPATCH method processes instructions specified in the request body to set and/or remove properties defined on the resource identified by the Request-URI.</documentation>
     </http-method>
     <http-method def="MKCOL">
-        <documentation source="http://tools.ietf.org/html/rfc4918#section-9.3">MKCOL creates a new collection resource at the location specified by the Request-URI. If the Request-URI is already mapped to a resource, then the MKCOL MUST fail. During MKCOL processing, a server MUST make the Request-URI an internal member of its parent collection, unless the Request-URI is "/". If no such ancestor exists, the method MUST fail. When the MKCOL operation creates a new collection resource, all ancestors MUST already exist, or the method MUST fail with a 409 (Conflict) status code.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc4918#section-9.3">MKCOL creates a new collection resource at the location specified by the Request-URI. If the Request-URI is already mapped to a resource, then the MKCOL MUST fail. During MKCOL processing, a server MUST make the Request-URI an internal member of its parent collection, unless the Request-URI is "/". If no such ancestor exists, the method MUST fail. When the MKCOL operation creates a new collection resource, all ancestors MUST already exist, or the method MUST fail with a 409 (Conflict) status code.</documentation>
     </http-method>
     <http-method def="COPY">
-        <documentation source="http://tools.ietf.org/html/rfc4918#section-9.8">The COPY method creates a duplicate of the source resource identified by the Request-URI, in the destination resource identified by the URI in the Destination header. The Destination header MUST be present. The exact behavior of the COPY method depends on the type of the source resource.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc4918#section-9.8">The COPY method creates a duplicate of the source resource identified by the Request-URI, in the destination resource identified by the URI in the Destination header. The Destination header MUST be present. The exact behavior of the COPY method depends on the type of the source resource.</documentation>
     </http-method>
     <http-method def="MOVE">
-        <documentation source="http://tools.ietf.org/html/rfc4918#section-9.9">The MOVE operation on a non-collection resource is the logical equivalent of a copy (COPY), followed by consistency maintenance processing, followed by a delete of the source, where all three actions are performed in a single operation. The consistency maintenance step allows the server to perform updates caused by the move, such as updating all URLs, other than the Request-URI that identifies the source resource, to point to the new destination resource.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc4918#section-9.9">The MOVE operation on a non-collection resource is the logical equivalent of a copy (COPY), followed by consistency maintenance processing, followed by a delete of the source, where all three actions are performed in a single operation. The consistency maintenance step allows the server to perform updates caused by the move, such as updating all URLs, other than the Request-URI that identifies the source resource, to point to the new destination resource.</documentation>
     </http-method>
     <http-method def="LOCK">
-        <documentation source="http://tools.ietf.org/html/rfc4918#section-9.10">The LOCK method is used to take out a lock of any access type and to refresh an existing lock.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc4918#section-9.10">The LOCK method is used to take out a lock of any access type and to refresh an existing lock.</documentation>
     </http-method>
     <http-method def="UNLOCK">
-        <documentation source="http://tools.ietf.org/html/rfc4918#section-9.11">The UNLOCK method removes the lock identified by the lock token in the Lock-Token request header. The Request-URI MUST identify a resource within the scope of the lock.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc4918#section-9.11">The UNLOCK method removes the lock identified by the lock token in the Lock-Token request header. The Request-URI MUST identify a resource within the scope of the lock.</documentation>
     </http-method>
 </service>

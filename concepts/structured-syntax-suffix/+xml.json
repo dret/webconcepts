@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "When a new media type is introduced for an XML-based format, the name of the media type SHOULD end with '+xml' unless generic XML processing is in some way inappropriate for documents of the new type.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7303#section-4.2",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7303#section-4.2",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7303",
         "spec-name" : "RFC 7303" } ] }

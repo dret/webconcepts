@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "When a Token Consumer redirects the client to a Token Provider as a means to deliver the token request, it SHOULD include an Include-Referred-Token-Binding-ID HTTP response header field in its HTTP response.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8473#section-5.3",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc8473#section-5.3",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8473",
         "spec-name" : "RFC 8473" } ] }

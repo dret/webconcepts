@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <service primary="IETF" secondary="RFC" id="6351">
     <title>xCard: vCard XML Representation</title>
-    <documentation source="http://tools.ietf.org/html/rfc6351">This document defines the XML schema of the vCard data format.</documentation>
+    <documentation source="https://datatracker.ietf.org/doc/html/rfc6351">This document defines the XML schema of the vCard data format.</documentation>
     <media-type def="application/vcard+xml">
-        <documentation source="http://tools.ietf.org/html/rfc6351#section-8.2">The MIME media type for use with vCard-in-XML data.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc6351#section-8.2">The MIME media type for use with vCard-in-XML data.</documentation>
     </media-type>
 </service>

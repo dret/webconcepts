@@ -12,7 +12,7 @@
         "details" : 
         [ 
           { "description" : "Boolean indicator of whether or not the presented token is currently active.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7662#section-2.2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7662#section-2.2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7662",
             "spec-name" : "RFC 7662" } ] },
       
@@ -22,7 +22,7 @@
         "details" : 
         [ 
           { "description" : "Service-specific string identifier or list of string identifiers representing the intended audience for this token, as defined in JWT.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7662#section-2.2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7662#section-2.2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7662",
             "spec-name" : "RFC 7662" } ] },
       
@@ -32,7 +32,7 @@
         "details" : 
         [ 
           { "description" : "Client identifier for the OAuth 2.0 client that requested this token.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7662#section-2.2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7662#section-2.2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7662",
             "spec-name" : "RFC 7662" } ] },
       
@@ -42,7 +42,7 @@
         "details" : 
         [ 
           { "description" : "Integer timestamp, measured in the number of seconds since January 1 1970 UTC, indicating when this token will expire, as defined in JWT",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7662#section-2.2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7662#section-2.2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7662",
             "spec-name" : "RFC 7662" } ] },
       
@@ -52,7 +52,7 @@
         "details" : 
         [ 
           { "description" : "Integer timestamp, measured in the number of seconds since January 1 1970 UTC, indicating when this token was originally issued, as defined in JWT.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7662#section-2.2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7662#section-2.2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7662",
             "spec-name" : "RFC 7662" } ] },
       
@@ -62,7 +62,7 @@
         "details" : 
         [ 
           { "description" : "String representing the issuer of this token, as defined in JWT.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7662#section-2.2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7662#section-2.2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7662",
             "spec-name" : "RFC 7662" } ] },
       
@@ -72,7 +72,7 @@
         "details" : 
         [ 
           { "description" : "String identifier for the token, as defined in JWT.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7662#section-2.2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7662#section-2.2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7662",
             "spec-name" : "RFC 7662" } ] },
       
@@ -82,7 +82,7 @@
         "details" : 
         [ 
           { "description" : "Integer timestamp, measured in the number of seconds since January 1 1970 UTC, indicating when this token is not to be used before, as defined in JWT.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7662#section-2.2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7662#section-2.2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7662",
             "spec-name" : "RFC 7662" } ] },
       
@@ -92,7 +92,7 @@
         "details" : 
         [ 
           { "description" : "A JSON string containing a space-separated list of scopes associated with this token, in the format described in OAuth 2.0.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7662#section-2.2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7662#section-2.2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7662",
             "spec-name" : "RFC 7662" } ] },
       
@@ -102,7 +102,7 @@
         "details" : 
         [ 
           { "description" : "Subject of the token, as defined in JWT. Usually a machine-readable identifier of the resource owner who authorized this token.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7662#section-2.2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7662#section-2.2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7662",
             "spec-name" : "RFC 7662" } ] },
       
@@ -112,7 +112,7 @@
         "details" : 
         [ 
           { "description" : "Type of the token as defined in OAuth 2.0.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7662#section-2.2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7662#section-2.2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7662",
             "spec-name" : "RFC 7662" } ] },
       
@@ -122,6 +122,6 @@
         "details" : 
         [ 
           { "description" : "Human-readable identifier for the resource owner who authorized this token.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7662#section-2.2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7662#section-2.2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7662",
             "spec-name" : "RFC 7662" } ] } ] }

@@ -6,6 +6,6 @@
     "details" : 
     [ 
       { "description" : "The GOAWAY frame (type=0x7) is used to initiate shutdown of a connection or to signal serious error conditions. GOAWAY allows an endpoint to gracefully stop accepting new streams while still finishing processing of previously established streams. This enables administrative actions, like server maintenance.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7540#section-6.8",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7540#section-6.8",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7540",
         "spec-name" : "RFC 7540" } ] }

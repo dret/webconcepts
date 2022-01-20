@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "The \"Nice\" header field indicates that a request is less important than a request that doesn't bear this header.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/draft-thomson-http-nice#section-2",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-thomson-http-nice#section-2",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/thomson-http-nice",
         "spec-name" : "Internet Draft thomson-http-nice" } ] }

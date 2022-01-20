@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "A version identifier string for the client software identified by \"software_id\". The value of the \"software_version\" SHOULD change on any update to the client software identified by the same \"software_id\".",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7591#section-2",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7591#section-2",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7591",
         "spec-name" : "RFC 7591" } ] }

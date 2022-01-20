@@ -6,6 +6,6 @@
     "details" : 
     [ 
       { "description" : "DATA frames (type=0x0) convey arbitrary, variable-length sequences of octets associated with a stream. One or more DATA frames are used, for instance, to carry HTTP request or response payloads.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7540#section-6.1",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7540#section-6.1",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7540",
         "spec-name" : "RFC 7540" } ] }

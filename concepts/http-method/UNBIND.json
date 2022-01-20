@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "The UNBIND method modifies the collection identified by the Request-URI by removing the binding identified by the segment specified in the UNBIND body.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc5842#section-5",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc5842#section-5",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/5842",
         "spec-name" : "RFC 5842" } ] }

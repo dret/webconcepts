@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "The POST method requests that the target resource process the representation enclosed in the request according to the resource's own specific semantics.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7231#section-4.3.3",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7231#section-4.3.3",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7231",
         "spec-name" : "RFC 7231" } ] }

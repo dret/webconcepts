@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "The media types application\/xml-external-parsed-entity or text\/xml-external-parsed-entity SHOULD be used for XML external parsed entities.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7303#section-4.1",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7303#section-4.1",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7303",
         "spec-name" : "RFC 7303" } ] }

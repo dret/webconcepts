@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "An API Health Response Format (or, interchangeably, \"health check response\") uses the format described in RFC 8259 and has the media type \"application\/vnd.health+json\". Its content consists of a single mandatory root field (\"status\") and several optional fields.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/draft-inadarei-api-health-check#section-3",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-inadarei-api-health-check#section-3",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/inadarei-api-health-check",
         "spec-name" : "Internet Draft inadarei-api-health-check" } ] }

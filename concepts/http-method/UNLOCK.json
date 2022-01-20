@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "The UNLOCK method removes the lock identified by the lock token in the Lock-Token request header. The Request-URI MUST identify a resource within the scope of the lock.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc4918#section-9.11",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc4918#section-9.11",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/4918",
         "spec-name" : "RFC 4918" } ] }

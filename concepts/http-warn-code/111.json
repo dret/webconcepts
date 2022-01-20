@@ -6,6 +6,6 @@
     "details" : 
     [ 
       { "description" : "A cache SHOULD generate this when sending a stale response because an attempt to validate the response failed, due to an inability to reach the server.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7234#section-5.5.2",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7234#section-5.5.2",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7234",
         "spec-name" : "RFC 7234" } ] }

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <service primary="IETF" secondary="I-D" id="ietf-httpbis-alt-svc">
     <title>HTTP Alternate Services</title>
-    <documentation source="http://tools.ietf.org/html/draft-ietf-httpbis-alt-svc">This document specifies "alternative services" for HTTP, which allow an origin's resources to be authoritatively available at a separate network location, possibly accessed with a different protocol configuration.</documentation>
+    <documentation source="https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-alt-svc">This document specifies "alternative services" for HTTP, which allow an origin's resources to be authoritatively available at a separate network location, possibly accessed with a different protocol configuration.</documentation>
     <http-header def="Alt-Svc">
-        <documentation source="http://tools.ietf.org/html/draft-ietf-httpbis-alt-svc#section-3">An HTTP(S) origin server can advertise the availability of alternative services to clients by adding an Alt-Svc header field to responses.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-alt-svc#section-3">An HTTP(S) origin server can advertise the availability of alternative services to clients by adding an Alt-Svc header field to responses.</documentation>
     </http-header>
     <http-header def="Alt-Used">
-        <documentation source="http://tools.ietf.org/html/draft-ietf-httpbis-alt-svc#section-5">The Alt-Used header field is used in requests to indicate the identity of the alternative service in use, just as the Host header field identifies the host and port of the origin. Alt-Used is intended to allow alternative services to detect loops, differentiate traffic for purposes of load balancing, and generally to ensure that it is possible to identify the intended destination of traffic, since introducing this information after a protocol is in use has proven to be problematic.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-alt-svc#section-5">The Alt-Used header field is used in requests to indicate the identity of the alternative service in use, just as the Host header field identifies the host and port of the origin. Alt-Used is intended to allow alternative services to detect loops, differentiate traffic for purposes of load balancing, and generally to ensure that it is possible to identify the intended destination of traffic, since introducing this information after a protocol is in use has proven to be problematic.</documentation>
     </http-header>
 </service>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <service primary="IETF" secondary="I-D" id="nottingham-json-home">
     <title>Home Documents for HTTP APIs</title>
-    <documentation source="http://tools.ietf.org/html/draft-nottingham-json-home">This document proposes a "home document" format for non-browser HTTP clients.</documentation>
+    <documentation source="https://datatracker.ietf.org/doc/html/draft-nottingham-json-home">This document proposes a "home document" format for non-browser HTTP clients.</documentation>
     <media-type def="application/home+json">
-        <documentation source="http://tools.ietf.org/html/draft-nottingham-json-home">This document proposes a "home document" format for non-browser HTTP clients.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/draft-nottingham-json-home">This document proposes a "home document" format for non-browser HTTP clients.</documentation>
     </media-type>
     <link-relation def="home">
-        <documentation source="http://tools.ietf.org/html/draft-nottingham-json-home#section-6">The "home" link relation type is used to establish a link to a "home document" resource that provides context and/or starting points for the context resource.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/draft-nottingham-json-home#section-6">The "home" link relation type is used to establish a link to a "home document" resource that provides context and/or starting points for the context resource.</documentation>
     </link-relation>
 </service>

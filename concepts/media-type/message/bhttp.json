@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "This document defines a simple format for representing an HTTP message, either request or response. This allows for the encoding of HTTP messages that can be conveyed outside of an HTTP protocol. This enables the transformation of entire messages, including the application of authenticated encryption.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-httpbis-binary-message#section-8",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-ietf-httpbis-binary-message#section-8",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpbis-binary-message",
         "spec-name" : "Internet Draft ietf-httpbis-binary-message" } ] }

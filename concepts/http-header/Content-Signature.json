@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "The Content-Signature header field carries a signature of the payload body of an HTTP message. This allows for content to be protected from modification.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/draft-thomson-http-content-signature#section-2",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-thomson-http-content-signature#section-2",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/thomson-http-content-signature",
         "spec-name" : "Internet Draft thomson-http-content-signature" } ] }

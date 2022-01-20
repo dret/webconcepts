@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <service primary="IETF" secondary="RFC" id="8613">
     <title>Object Security for Constrained RESTful Environments (OSCORE)</title>
-    <documentation source="http://tools.ietf.org/html/rfc8613">This document defines Object Security for Constrained RESTful Environments (OSCORE), a method for application-layer protection of the Constrained Application Protocol (CoAP), using CBOR Object Signing and Encryption (COSE). OSCORE provides end-to-end protection between endpoints communicating using CoAP or CoAP-mappable HTTP. OSCORE is designed for constrained nodes and networks supporting a range of proxy operations, including translation between different transport protocols.</documentation>
+    <documentation source="https://datatracker.ietf.org/doc/html/rfc8613">This document defines Object Security for Constrained RESTful Environments (OSCORE), a method for application-layer protection of the Constrained Application Protocol (CoAP), using CBOR Object Signing and Encryption (COSE). OSCORE provides end-to-end protection between endpoints communicating using CoAP or CoAP-mappable HTTP. OSCORE is designed for constrained nodes and networks supporting a range of proxy operations, including translation between different transport protocols.</documentation>
     <http-header def="OSCORE">
-        <documentation source="http://tools.ietf.org/html/rfc8613#section-11.1">The HTTP OSCORE header field (see Section 13.4) is used for carrying the content of the CoAP OSCORE option when transporting OSCORE messages over HTTP hops.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc8613#section-11.1">The HTTP OSCORE header field (see Section 13.4) is used for carrying the content of the CoAP OSCORE option when transporting OSCORE messages over HTTP hops.</documentation>
     </http-header>
 </service>

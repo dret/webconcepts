@@ -6,6 +6,6 @@
     "details" : 
     [ 
       { "description" : "The 100 (Continue) status code indicates that the initial part of a request has been received and has not yet been rejected by the server. The server intends to send a final response after the request has been fully received and acted upon.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7231#section-6.2.1",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7231#section-6.2.1",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7231",
         "spec-name" : "RFC 7231" } ] }

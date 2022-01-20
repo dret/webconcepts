@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "\"Prefer-Push\" is an HTTP header field that a client may use to request that a server uses HTTP\/2 Push to send related resources as identified by their link relationships.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/draft-pot-prefer-push#section-3",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-pot-prefer-push#section-3",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/pot-prefer-push",
         "spec-name" : "Internet Draft pot-prefer-push" } ] }

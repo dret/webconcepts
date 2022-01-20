@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "The Telnet URL scheme is used to designate interactive services that may be accessed by the Telnet protocol.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc4248#section-2",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc4248#section-2",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/4248",
         "spec-name" : "RFC 4248" } ] }

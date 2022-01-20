@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "The default (identity) encoding; the use of no transformation whatsoever. This content-coding is used only in the Accept-Encoding header, and SHOULD NOT be used in the Content-Encoding header.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc2616#section-3.6",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc2616#section-3.6",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/2616",
         "spec-name" : "RFC 2616" } ] }

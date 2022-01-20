@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "The stale-if-error Cache-Control extension indicates that when an error is encountered, a cached stale response MAY be used to satisfy the request, regardless of other freshness information.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc5861#section-4",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc5861#section-4",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/5861",
         "spec-name" : "RFC 5861" } ] }

@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <service primary="IETF" secondary="RFC" id="5005">
     <title>Feed Paging and Archiving</title>
-    <documentation source="http://tools.ietf.org/html/rfc5005">Syndicated Web feeds (using formats such as Atom) are often split into multiple documents to save bandwidth, allow "sliding window" access, or for other purposes. This specification formalizes two types of feeds that can span one or more feed documents; "paged" feeds and "archived" feeds. Additionally, it defines "complete" feeds to cover the case when a single feed document explicitly represents all of the feed's entries.</documentation>
+    <documentation source="https://datatracker.ietf.org/doc/html/rfc5005">Syndicated Web feeds (using formats such as Atom) are often split into multiple documents to save bandwidth, allow "sliding window" access, or for other purposes. This specification formalizes two types of feeds that can span one or more feed documents; "paged" feeds and "archived" feeds. Additionally, it defines "complete" feeds to cover the case when a single feed document explicitly represents all of the feed's entries.</documentation>
     <link-relation def="first">
-        <documentation source="http://tools.ietf.org/html/rfc5005#section-3">A URI that refers to the furthest preceding document in a series of documents.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc5005#section-3">A URI that refers to the furthest preceding document in a series of documents.</documentation>
     </link-relation>
     <link-relation def="last">
-        <documentation source="http://tools.ietf.org/html/rfc5005#section-3">A URI that refers to the furthest following document in a series of documents.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc5005#section-3">A URI that refers to the furthest following document in a series of documents.</documentation>
     </link-relation>
     <link-relation def="previous">
-        <documentation source="http://tools.ietf.org/html/rfc5005#section-3">A URI that refers to the immediately preceding document in a series of documents.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc5005#section-3">A URI that refers to the immediately preceding document in a series of documents.</documentation>
     </link-relation>
     <link-relation def="next">
-        <documentation source="http://tools.ietf.org/html/rfc5005#section-3">A URI that refers to the immediately following document in a series of documents.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc5005#section-3">A URI that refers to the immediately following document in a series of documents.</documentation>
     </link-relation>
     <link-relation def="prev-archive">
-        <documentation source="http://tools.ietf.org/html/rfc5005#section-4">A URI that refers to the immediately preceding archive document.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc5005#section-4">A URI that refers to the immediately preceding archive document.</documentation>
     </link-relation>
     <link-relation def="next-archive">
-        <documentation source="http://tools.ietf.org/html/rfc5005#section-4">A URI that refers to the immediately following archive document.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc5005#section-4">A URI that refers to the immediately following archive document.</documentation>
     </link-relation>
     <link-relation def="current">
-        <documentation source="http://tools.ietf.org/html/rfc5005#section-4">A URI that, when dereferenced, returns a feed document containing the most recent entries in the feed.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc5005#section-4">A URI that, when dereferenced, returns a feed document containing the most recent entries in the feed.</documentation>
     </link-relation>
 </service>

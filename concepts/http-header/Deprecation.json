@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "The \"Deprecation\" HTTP response header field allows a server to communicate to a client that the URI-identified resource in context of the message is deprecated. It can also provide information that the resource is deprecated since which version.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-httpapi-deprecation-header#section-2",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-ietf-httpapi-deprecation-header#section-2",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpapi-deprecation-header",
         "spec-name" : "Internet Draft ietf-httpapi-deprecation-header" } ] }

@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "An HTTP request using the MKCALENDAR method creates a new calendar collection resource. A server MAY restrict calendar collection creation to particular collections.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc4791#section-5.3.1",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc4791#section-5.3.1",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/4791",
         "spec-name" : "RFC 4791" } ] }

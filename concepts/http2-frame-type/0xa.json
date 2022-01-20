@@ -6,6 +6,6 @@
     "details" : 
     [ 
       { "description" : "The ALTSVC HTTP\/2 frame advertises the availability of an alternative service to an HTTP\/2 client. The ALTSVC frame is a non-critical extension to HTTP\/2. Endpoints that do not support this frame will ignore it.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7838#section-4",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7838#section-4",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7838",
         "spec-name" : "RFC 7838" } ] }

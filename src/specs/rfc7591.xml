@@ -1,71 +1,71 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <service primary="IETF" secondary="RFC" id="7591">
     <title>OAuth 2.0 Dynamic Client Registration Protocol</title>
-    <documentation source="http://tools.ietf.org/html/rfc7591">This specification defines mechanisms for dynamically registering OAuth 2.0 clients with authorization servers. Registration requests send a set of desired client metadata values to the authorization server. The resulting registration responses return a client identifier to use at the authorization server and the client metadata values registered for the client. The client can then use this registration information to communicate with the authorization server using the OAuth 2.0 protocol. This specification also defines a set of common client metadata fields and values for clients to use during registration.</documentation>
+    <documentation source="https://datatracker.ietf.org/doc/html/rfc7591">This specification defines mechanisms for dynamically registering OAuth 2.0 clients with authorization servers. Registration requests send a set of desired client metadata values to the authorization server. The resulting registration responses return a client identifier to use at the authorization server and the client metadata values registered for the client. The client can then use this registration information to communicate with the authorization server using the OAuth 2.0 protocol. This specification also defines a set of common client metadata fields and values for clients to use during registration.</documentation>
     <oauth-client-metadata def="redirect_uris">
-        <documentation source="http://tools.ietf.org/html/rfc7591#section-2">Array of redirection URI strings for use in redirect-based flows such as the authorization code and implicit flows.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7591#section-2">Array of redirection URI strings for use in redirect-based flows such as the authorization code and implicit flows.</documentation>
     </oauth-client-metadata>
     <oauth-client-metadata def="token_endpoint_auth_method">
-        <documentation source="http://tools.ietf.org/html/rfc7591#section-2">String indicator of the requested authentication method for the token endpoint. Values defined by this specification are: "none": The client is a public client as defined in OAuth 2.0 and does not have a client secret; "client_secret_post": The client uses the HTTP POST parameters as defined in OAuth 2.0; "client_secret_basic": The client uses HTTP Basic as defined in OAuth 2.0. Additional values can be defined via the IANA "OAuth Token Endpoint Authentication Methods"</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7591#section-2">String indicator of the requested authentication method for the token endpoint. Values defined by this specification are: "none": The client is a public client as defined in OAuth 2.0 and does not have a client secret; "client_secret_post": The client uses the HTTP POST parameters as defined in OAuth 2.0; "client_secret_basic": The client uses HTTP Basic as defined in OAuth 2.0. Additional values can be defined via the IANA "OAuth Token Endpoint Authentication Methods"</documentation>
     </oauth-client-metadata>
     <oauth-client-metadata def="grant_types">
-        <documentation source="http://tools.ietf.org/html/rfc7591#section-2">Array of OAuth 2.0 grant type strings that the client can use at the token endpoint.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7591#section-2">Array of OAuth 2.0 grant type strings that the client can use at the token endpoint.</documentation>
     </oauth-client-metadata>
     <oauth-client-metadata def="response_types">
-        <documentation source="http://tools.ietf.org/html/rfc7591#section-2">Array of the OAuth 2.0 response type strings that the client can use at the authorization endpoint.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7591#section-2">Array of the OAuth 2.0 response type strings that the client can use at the authorization endpoint.</documentation>
     </oauth-client-metadata>
     <oauth-client-metadata def="client_name">
-        <documentation source="http://tools.ietf.org/html/rfc7591#section-2">URL string of a web page providing information about the client. If present, the server SHOULD display this URL to the end-user in a clickable fashion.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7591#section-2">URL string of a web page providing information about the client. If present, the server SHOULD display this URL to the end-user in a clickable fashion.</documentation>
     </oauth-client-metadata>
     <oauth-client-metadata def="client_uri">
-        <documentation source="http://tools.ietf.org/html/rfc7591#section-2">URL string of a web page providing information about the client.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7591#section-2">URL string of a web page providing information about the client.</documentation>
     </oauth-client-metadata>
     <oauth-client-metadata def="logo_uri">
-        <documentation source="http://tools.ietf.org/html/rfc7591#section-2">URL string that references a logo for the client. If present, the server SHOULD display this image to the end-user during approval.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7591#section-2">URL string that references a logo for the client. If present, the server SHOULD display this image to the end-user during approval.</documentation>
     </oauth-client-metadata>
     <oauth-client-metadata def="scope">
-        <documentation source="http://tools.ietf.org/html/rfc7591#section-2">String containing a space-separated list of scope values (as described in OAuth 2.0) that the client can use when requesting access tokens.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7591#section-2">String containing a space-separated list of scope values (as described in OAuth 2.0) that the client can use when requesting access tokens.</documentation>
     </oauth-client-metadata>
     <oauth-client-metadata def="contacts">
-        <documentation source="http://tools.ietf.org/html/rfc7591#section-2">Array of strings representing ways to contact people responsible for this client, typically email addresses.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7591#section-2">Array of strings representing ways to contact people responsible for this client, typically email addresses.</documentation>
     </oauth-client-metadata>
     <oauth-client-metadata def="redirect_uris">
-        <documentation source="http://tools.ietf.org/html/rfc7591#section-2">Array of redirection URI strings for use in redirect-based flows such as the authorization code and implicit flows.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7591#section-2">Array of redirection URI strings for use in redirect-based flows such as the authorization code and implicit flows.</documentation>
     </oauth-client-metadata>
     <oauth-client-metadata def="tos_uri">
-        <documentation source="http://tools.ietf.org/html/rfc7591#section-2">URL string that points to a human-readable terms of service document for the client that describes a contractual relationship between the end-user and the client that the end-user accepts when authorizing the client.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7591#section-2">URL string that points to a human-readable terms of service document for the client that describes a contractual relationship between the end-user and the client that the end-user accepts when authorizing the client.</documentation>
     </oauth-client-metadata>
     <oauth-client-metadata def="policy_uri">
-        <documentation source="http://tools.ietf.org/html/rfc7591#section-2">URL string that points to a human-readable privacy policy document that describes how the deployment organization collects, uses, retains, and discloses personal data.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7591#section-2">URL string that points to a human-readable privacy policy document that describes how the deployment organization collects, uses, retains, and discloses personal data.</documentation>
     </oauth-client-metadata>
     <oauth-client-metadata def="jwks_uri">
-        <documentation source="http://tools.ietf.org/html/rfc7591#section-2">Client's JSON Web Key Set document value, which contains the client's public keys. The value of this field MUST be a JSON object containing a valid JWK Set. These keys can be used by higher-level protocols that use signing or encryption. This parameter is intended to be used by clients that cannot use the "jwks_uri" parameter, such as native clients that cannot host public URLs.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7591#section-2">Client's JSON Web Key Set document value, which contains the client's public keys. The value of this field MUST be a JSON object containing a valid JWK Set. These keys can be used by higher-level protocols that use signing or encryption. This parameter is intended to be used by clients that cannot use the "jwks_uri" parameter, such as native clients that cannot host public URLs.</documentation>
     </oauth-client-metadata>
     <oauth-client-metadata def="software_id">
-        <documentation source="http://tools.ietf.org/html/rfc7591#section-2">A unique identifier string (e.g., a Universally Unique Identifier (UUID)) assigned by the client developer or software publisher used by registration endpoints to identify the client software to be dynamically registered.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7591#section-2">A unique identifier string (e.g., a Universally Unique Identifier (UUID)) assigned by the client developer or software publisher used by registration endpoints to identify the client software to be dynamically registered.</documentation>
     </oauth-client-metadata>
     <oauth-client-metadata def="software_version">
-        <documentation source="http://tools.ietf.org/html/rfc7591#section-2">A version identifier string for the client software identified by "software_id". The value of the "software_version" SHOULD change on any update to the client software identified by the same "software_id".</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7591#section-2">A version identifier string for the client software identified by "software_id". The value of the "software_version" SHOULD change on any update to the client software identified by the same "software_id".</documentation>
     </oauth-client-metadata>
     <oauth-client-metadata def="client_id">
-        <documentation source="http://tools.ietf.org/html/rfc7591#section-3.2.1">OAuth 2.0 client identifier string. It SHOULD NOT be currently valid for any other registered client, though an authorization server MAY issue the same client identifier to multiple instances of a registered client at its discretion.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7591#section-3.2.1">OAuth 2.0 client identifier string. It SHOULD NOT be currently valid for any other registered client, though an authorization server MAY issue the same client identifier to multiple instances of a registered client at its discretion.</documentation>
     </oauth-client-metadata>
     <oauth-client-metadata def="client_secret">
-        <documentation source="http://tools.ietf.org/html/rfc7591#section-3.2.1">OAuth 2.0 client secret string. If issued, this MUST be unique for each "client_id" and SHOULD be unique for multiple instances of a client using the same "client_id".</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7591#section-3.2.1">OAuth 2.0 client secret string. If issued, this MUST be unique for each "client_id" and SHOULD be unique for multiple instances of a client using the same "client_id".</documentation>
     </oauth-client-metadata>
     <oauth-client-metadata def="client_id_issued_at">
-        <documentation source="http://tools.ietf.org/html/rfc7591#section-3.2.1">Time at which the client identifier was issued.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7591#section-3.2.1">Time at which the client identifier was issued.</documentation>
     </oauth-client-metadata>
     <oauth-client-metadata def="client_secret_expires_at">
-        <documentation source="http://tools.ietf.org/html/rfc7591#section-3.2.1">Time at which the client secret will expire or 0 if it will not expire.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7591#section-3.2.1">Time at which the client secret will expire or 0 if it will not expire.</documentation>
     </oauth-client-metadata>
     <oauth-token-endpoint-auth-method def="none">
-        <documentation source="http://tools.ietf.org/html/rfc7591#section-2">The client is a public client as defined in OAuth 2.0 and does not have a client secret.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7591#section-2">The client is a public client as defined in OAuth 2.0 and does not have a client secret.</documentation>
     </oauth-token-endpoint-auth-method>
     <oauth-token-endpoint-auth-method def="client_secret_post">
-        <documentation source="http://tools.ietf.org/html/rfc7591#section-2">The client uses the HTTP POST parameters as defined in OAuth 2.0.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7591#section-2">The client uses the HTTP POST parameters as defined in OAuth 2.0.</documentation>
     </oauth-token-endpoint-auth-method>
     <oauth-token-endpoint-auth-method def="client_secret_basic">
-        <documentation source="http://tools.ietf.org/html/rfc7591#section-2">The client uses HTTP Basic as defined in OAuth 2.0.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7591#section-2">The client uses HTTP Basic as defined in OAuth 2.0.</documentation>
     </oauth-token-endpoint-auth-method>
 </service>

@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "ISO\/IEC 14496-22 \"Open Font Format\" (OFF) specification being developed by ISO\/IEC SC29\/WG11.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8081#section-4.4.2",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc8081#section-4.4.2",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8081",
         "spec-name" : "RFC 8081" } ] }

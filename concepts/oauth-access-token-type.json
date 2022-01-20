@@ -12,7 +12,7 @@
         "details" : 
         [ 
           { "description" : "A security token with the property that any party in possession of the token (a \"bearer\") can use the token in any way that any other party in possession of it can. Using a bearer token does not require a bearer to prove possession of cryptographic key material (proof-of-possession).",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6750#section-1.2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6750#section-1.2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6750",
             "spec-name" : "RFC 6750" } ] },
       
@@ -22,6 +22,6 @@
         "details" : 
         [ 
           { "description" : "Authorization servers issue MAC Tokens based on requests from clients.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-oauth-v2-http-mac#section-4",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-ietf-oauth-v2-http-mac#section-4",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-oauth-v2-http-mac",
             "spec-name" : "Internet Draft ietf-oauth-v2-http-mac" } ] } ] }

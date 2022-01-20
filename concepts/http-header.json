@@ -12,7 +12,7 @@
         "details" : 
         [ 
           { "description" : "The A-IM request-header field is similar to Accept, but restricts the instance-manipulations that are acceptable in the response. A response may be the result of applying multiple instance-manipulations. When an A-IM request-header field includes one or more delta-coding values, the request MUST contain an If-None-Match header field, listing one or more entity tags from prior responses for the request-URI.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc3229#section-10.5.3",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc3229#section-10.5.3",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/3229",
             "spec-name" : "RFC 3229" } ] },
       
@@ -22,7 +22,7 @@
         "details" : 
         [ 
           { "description" : "Clients include the ALPN header field in an HTTP CONNECT request to indicate the application-layer protocol that a client intends to use within the tunnel, or a set of protocols that might be used within the tunnel.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7639#section-2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7639#section-2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7639",
             "spec-name" : "RFC 7639" } ] },
       
@@ -32,7 +32,7 @@
         "details" : 
         [ 
           { "description" : "The \"Accept\" header field can be used by user agents to specify response media types that are acceptable. Accept header fields can be used to indicate that the request is specifically limited to a small set of desired types, as in the case of a request for an in-line image.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7231#section-5.3.2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7231#section-5.3.2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7231",
             "spec-name" : "RFC 7231" } ] },
       
@@ -42,12 +42,12 @@
         "details" : 
         [ 
           { "description" : "In HTTP, the \"Accept\" request-header field is used to specify media types which are acceptable for the response. However, in HTCPCP, the response may result in additional actions on the part of the automated pot. For this reason, HTCPCP adds a new header field, \"Accept-Additions\".",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc2324#section-2.2.2.1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc2324#section-2.2.2.1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/2324",
             "spec-name" : "RFC 2324" },
           
           { "description" : "It has been observed that some users of blended teas have an occasional preference for teas brewed as an emulsion of cane sugar with hints of water. To allow for this circumstance, the Accept-Additions header field defined in the base HTCPCP specification is updated to allow the following options.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7168#section-2.2.1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7168#section-2.2.1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7168",
             "spec-name" : "RFC 7168" } ] },
       
@@ -57,7 +57,7 @@
         "details" : 
         [ 
           { "description" : "The Accept-CH response header field or the equivalent HTML meta element with http-equiv attribute (HTML5) indicate server support for particular hints indicated in its value.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-httpbis-client-hints#section-3.1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-ietf-httpbis-client-hints#section-3.1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpbis-client-hints",
             "spec-name" : "Internet Draft ietf-httpbis-client-hints" } ] },
       
@@ -67,7 +67,7 @@
         "details" : 
         [ 
           { "description" : "The \"Accept-Charset\" header field can be sent by a user agent to indicate what charsets are acceptable in textual response content. This field allows user agents capable of understanding more comprehensive or special-purpose charsets to signal that capability to an origin server that is capable of representing information in those charsets.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7231#section-5.3.3",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7231#section-5.3.3",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7231",
             "spec-name" : "RFC 7231" } ] },
       
@@ -77,7 +77,7 @@
         "details" : 
         [ 
           { "description" : "The \"Accept-Datetime\" request header is transmitted by a user agent to indicate it wants to access a past state of an Original Resource. To that end, the \"Accept-Datetime\" header is conveyed in an HTTP request issued against a TimeGate for an Original Resource, and its value indicates the datetime of the desired past state of the Original Resource.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7089#section-2.1.1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7089#section-2.1.1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7089",
             "spec-name" : "RFC 7089" } ] },
       
@@ -87,12 +87,12 @@
         "details" : 
         [ 
           { "description" : "Section 5.3.4 of RFC 7231 defines \"Accept-Encoding\" as a request header field only. This specification expands that definition to allow \"Accept-Encoding\" as a response header field as well. When present in a response, it indicates what content codings the resource was willing to accept in the associated request. A field value that only contains \"identity\" implies that no content codings were supported.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7694#section-3",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7694#section-3",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7694",
             "spec-name" : "RFC 7694" },
           
           { "description" : "The \"Accept-Encoding\" header field can be used by user agents to indicate what response content-codings are acceptable in the response. An \"identity\" token is used as a synonym for \"no encoding\" in order to communicate when no encoding is preferred.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7231#section-5.3.4",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7231#section-5.3.4",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7231",
             "spec-name" : "RFC 7231" } ] },
       
@@ -102,7 +102,7 @@
         "details" : 
         [ 
           { "description" : "The Accept-Features request header can be used by a user agent to give information about the presence or absence of certain features in the feature set of the current request. Servers can use this information when running a remote variant selection algorithm.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc2295#section-8.2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc2295#section-8.2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/2295",
             "spec-name" : "RFC 2295" } ] },
       
@@ -112,7 +112,7 @@
         "details" : 
         [ 
           { "description" : "The Accept-Indefinite-Ranges request-header field allows the client to indicate its acceptance of indefinite-sized range requests for a resource.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-combs-http-indeterminate-range#section-2.1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-combs-http-indeterminate-range#section-2.1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/combs-http-indeterminate-range",
             "spec-name" : "Internet Draft combs-http-indeterminate-range" } ] },
       
@@ -122,7 +122,7 @@
         "details" : 
         [ 
           { "description" : "The \"Accept-Language\" header field can be used by user agents to indicate the set of natural languages that are preferred in the response.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7231#section-5.3.5",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7231#section-5.3.5",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7231",
             "spec-name" : "RFC 7231" } ] },
       
@@ -132,7 +132,7 @@
         "details" : 
         [ 
           { "description" : "This specification introduces a new response header Accept-Patch used to specify the patch document formats accepted by the server. Accept-Patch SHOULD appear in the OPTIONS response for any resource that supports the use of the PATCH method. The presence of the Accept-Patch header in response to any method is an implicit indication that PATCH is allowed on the resource identified by the Request-URI.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc5789#section-3.1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc5789#section-3.1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/5789",
             "spec-name" : "RFC 5789" } ] },
       
@@ -152,7 +152,7 @@
         "details" : 
         [ 
           { "description" : "A client can express the desired push policy for a request by sending an \"Accept-Push-Policy\" header field in the request. The header field value contains the push policy that the client expects the server to use when processing the request.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ruellan-http-accept-push-policy#section-3.1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-ruellan-http-accept-push-policy#section-3.1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ruellan-http-accept-push-policy",
             "spec-name" : "Internet Draft ruellan-http-accept-push-policy" } ] },
       
@@ -162,7 +162,7 @@
         "details" : 
         [ 
           { "description" : "The \"Accept-Query\" response header field MAY be used by a server to directly signal support for the QUERY method while identifying the specific query format media type(s) that may be used.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-httpbis-safe-method-w-body#section-3",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-ietf-httpbis-safe-method-w-body#section-3",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpbis-safe-method-w-body",
             "spec-name" : "Internet Draft ietf-httpbis-safe-method-w-body" } ] },
       
@@ -172,7 +172,7 @@
         "details" : 
         [ 
           { "description" : "The \"Accept-Ranges\" header field allows a server to indicate that it supports range requests for the target resource.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7233#section-2.3",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7233#section-2.3",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7233",
             "spec-name" : "RFC 7233" } ] },
       
@@ -262,7 +262,7 @@
         "details" : 
         [ 
           { "description" : "The \"Age\" header field conveys the sender's estimate of the amount of time since the response was generated or successfully validated at the origin server.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7234#section-5.1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7234#section-5.1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7234",
             "spec-name" : "RFC 7234" } ] },
       
@@ -272,7 +272,7 @@
         "details" : 
         [ 
           { "description" : "The \"Allow\" header field lists the set of methods advertised as supported by the target resource. The purpose of this field is strictly to inform the recipient of valid request methods associated with the resource.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7231#section-7.4.1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7231#section-7.4.1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7231",
             "spec-name" : "RFC 7231" } ] },
       
@@ -282,7 +282,7 @@
         "details" : 
         [ 
           { "description" : "An HTTP(S) origin server can advertise the availability of alternative services to clients by adding an Alt-Svc header field to responses.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7838#section-3",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7838#section-3",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7838",
             "spec-name" : "RFC 7838" } ] },
       
@@ -292,7 +292,7 @@
         "details" : 
         [ 
           { "description" : "The Alt-Used header field is used in requests to indicate the identity of the alternative service in use, just as the Host header field identifies the host and port of the origin. Alt-Used is intended to allow alternative services to detect loops, differentiate traffic for purposes of load balancing, and generally to ensure that it is possible to identify the intended destination of traffic, since introducing this information after a protocol is in use has proven to be problematic.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7838#section-5",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7838#section-5",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7838",
             "spec-name" : "RFC 7838" } ] },
       
@@ -302,7 +302,7 @@
         "details" : 
         [ 
           { "description" : "The Alternates response header is used to convey the list of variants bound to a negotiable resource. This list can also include directives for any content negotiation process. If a response from a transparently negotiable resource includes an Alternates header, this header MUST contain the complete variant list bound to the negotiable resource. Responses from resources which do not support transparent content negotiation MAY also use Alternates headers.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc2295#section-8.3",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc2295#section-8.3",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/2295",
             "spec-name" : "RFC 2295" } ] },
       
@@ -312,7 +312,7 @@
         "details" : 
         [ 
           { "description" : "The optional Apply-To-Redirect-Ref header can be used on any request to a redirect reference resource. When it is present and set to \"T\", the request MUST be applied to the reference resource itself, and a 3xx response MUST NOT be returned.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc4437#section-12.2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc4437#section-12.2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/4437",
             "spec-name" : "RFC 4437" } ] },
       
@@ -322,7 +322,7 @@
         "details" : 
         [ 
           { "description" : "The Authentication-Control header provides more precise control of the client behavior for Web applications using an HTTP authentication protocol.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8053#section-4",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc8053#section-4",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8053",
             "spec-name" : "RFC 8053" } ] },
       
@@ -332,7 +332,7 @@
         "details" : 
         [ 
           { "description" : "HTTP authentication schemes can use the Authentication-Info response header field to communicate information after the client's authentication credentials have been accepted. This information can include a finalization message from the server (e.g., it can contain the server authentication).",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7615#section-3",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7615#section-3",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7615",
             "spec-name" : "RFC 7615" } ] },
       
@@ -342,17 +342,17 @@
         "details" : 
         [ 
           { "description" : "The client is expected to retry the request, passing an Authorization header field line with Digest scheme, which is defined according to the framework above. The values of the opaque and algorithm fields must be those supplied in the WWW-Authenticate response header field for the entity being requested.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7616#section-3.4",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7616#section-3.4",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7616",
             "spec-name" : "RFC 7616" },
           
           { "description" : "Protocol parameters can be transmitted using the HTTP \"Authorization\" header field as defined by RFC 2617 with the auth-scheme name set to \"OAuth\" (case insensitive).",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc5849#section-3.5.1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc5849#section-3.5.1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/5849",
             "spec-name" : "RFC 5849" },
           
           { "description" : "The \"Authorization\" header field allows a user agent to authenticate itself with an origin server - usually, but not necessarily, after receiving a 401 (Unauthorized) response. Its value consists of credentials containing the authentication information of the user agent for the realm of the resource being requested.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7235#section-4.1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7235#section-4.1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7235",
             "spec-name" : "RFC 7235" } ] },
       
@@ -362,7 +362,7 @@
         "details" : 
         [ 
           { "description" : "The C-Ext response header field is used to indicate that all hop-by-hop mandatory extension declarations in the request were fulfilled.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc2774#section-4.3",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc2774#section-4.3",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/2774",
             "spec-name" : "RFC 2774" } ] },
       
@@ -372,7 +372,7 @@
         "details" : 
         [ 
           { "description" : "A mandatory extension declaration indicates that the ultimate recipient MUST consult and adhere to the rules given by the extension when processing the message or reporting an error. Hop-by-hop extension declarations are meaningful only for a single HTTP connection. In HTTP\/1.1, C-Man, C-Opt, and all header fields with matching header-prefix values defined by C-Man and C-Opt MUST be protected by a Connection header field. That is, these header fields are to be included as Connection header field directives.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc2774#section-4.2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc2774#section-4.2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/2774",
             "spec-name" : "RFC 2774" } ] },
       
@@ -382,7 +382,7 @@
         "details" : 
         [ 
           { "description" : "An optional extension declaration indicates that the ultimate recipient of the extension MAY consult and adhere to the rules given by the extension when processing the message, or ignore the extension declaration completely. An agent may not be able to distinguish whether the ultimate recipient does not understand an extension referred to by an optional extension or simply ignores the extension declaration. Hop-by-hop extension declarations are meaningful only for a single HTTP connection. In HTTP\/1.1, C-Man, C-Opt, and all header fields with matching header-prefix values defined by C-Man and C-Opt MUST be protected by a Connection header field. That is, these header fields are to be included as Connection header field directives.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc2774#section-4.2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc2774#section-4.2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/2774",
             "spec-name" : "RFC 2774" } ] },
       
@@ -412,7 +412,7 @@
         "details" : 
         [ 
           { "description" : "The CDN-Cache-Control response header field is a targeted field that allows origin servers to control the behaviour of CDN caches interposed between them and clients, separately from other caches that might handle the response. It applies to caches that are part of a distributed network that operate on behalf of an origin server (commonly called a Content Delivery Network or CDN).",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-httpbis-targeted-cache-control#section-3",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-ietf-httpbis-targeted-cache-control#section-3",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpbis-targeted-cache-control",
             "spec-name" : "Internet Draft ietf-httpbis-targeted-cache-control" } ] },
       
@@ -422,7 +422,7 @@
         "details" : 
         [ 
           { "description" : "The \"Cache-Control\" header field is used to specify directives for caches along the request\/response chain. Such cache directives are unidirectional in that the presence of a directive in a request does not imply that the same directive is to be given in the response.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7234#section-5.2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7234#section-5.2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7234",
             "spec-name" : "RFC 7234" } ] },
       
@@ -432,7 +432,7 @@
         "details" : 
         [ 
           { "description" : "For precisely identifying transferred content independent of the used URL and independent of additional header fields in the context of content negotiation, the Cache-NT header field is used. The new header field carries an SHA-256 value.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-drechsler-httpbis-improved-caching#section-2.1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-drechsler-httpbis-improved-caching#section-2.1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/drechsler-httpbis-improved-caching",
             "spec-name" : "Internet Draft drechsler-httpbis-improved-caching" } ] },
       
@@ -442,7 +442,7 @@
         "details" : 
         [ 
           { "description" : "The Cache-Status HTTP response header field indicates how caches have handled that response and its corresponding request.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-httpbis-cache-header#section-2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-ietf-httpbis-cache-header#section-2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpbis-cache-header",
             "spec-name" : "Internet Draft ietf-httpbis-cache-header" } ] },
       
@@ -452,7 +452,7 @@
         "details" : 
         [ 
           { "description" : "The Cal-Managed-ID response header field provides the value of the MANAGED-ID parameter corresponding to a newly added ATTACH property. It MUST be sent only in response to a successful POST request with an action set to attachment-add or attachment-update.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-calext-caldav-attachments#section-5.1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-ietf-calext-caldav-attachments#section-5.1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-calext-caldav-attachments",
             "spec-name" : "Internet Draft ietf-calext-caldav-attachments" } ] },
       
@@ -472,7 +472,7 @@
         "details" : 
         [ 
           { "description" : "The header value contains the client certificate from the mutually-authenticated TLS connection between the originating client and the TTRP. This enables the backend origin server to utilize the client certificate information in its application logic.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-httpbis-client-cert-field#section-2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-ietf-httpbis-client-cert-field#section-2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpbis-client-cert-field",
             "spec-name" : "Internet Draft ietf-httpbis-client-cert-field" } ] },
       
@@ -482,7 +482,7 @@
         "details" : 
         [ 
           { "description" : "The header field-name \"Close\" has been registered as \"reserved\", since using that name as an HTTP header field might conflict with the \"close\" connection option of the Connection header field.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7230#section-8.1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7230#section-8.1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7230",
             "spec-name" : "RFC 7230" } ] },
       
@@ -492,7 +492,7 @@
         "details" : 
         [ 
           { "description" : "The \"Connection\" header field allows the sender to indicate desired control options for the current connection. In order to avoid confusing downstream recipients, a proxy or gateway MUST remove or replace any received connection options before forwarding the message.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7230#section-6.1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7230#section-6.1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7230",
             "spec-name" : "RFC 7230" } ] },
       
@@ -502,7 +502,7 @@
         "details" : 
         [ 
           { "description" : "The Content-Base entity-header field may be used to specify the base URI for resolving relative URLs within the entity. This header field is described as Base in RFC 1808, which is expected to be revised.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc2068#section-14.11",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc2068#section-14.11",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/2068",
             "spec-name" : "RFC 2068" } ] },
       
@@ -512,7 +512,7 @@
         "details" : 
         [ 
           { "description" : "The Content-Disposition response header field is used to convey additional information about how to process the response payload, and also can be used to attach additional metadata, such as the filename to use when saving the response payload locally.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6266#section-4",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6266#section-4",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6266",
             "spec-name" : "RFC 6266" } ] },
       
@@ -522,7 +522,7 @@
         "details" : 
         [ 
           { "description" : "The \"Content-Encoding\" header field indicates what content codings have been applied to the representation, beyond those inherent in the media type, and thus what decoding mechanisms have to be applied in order to obtain data in the media type referenced by the Content-Type header field. Content-Encoding is primarily used to allow a representation's data to be compressed without losing the identity of its underlying media type.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7231#section-3.1.2.2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7231#section-3.1.2.2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7231",
             "spec-name" : "RFC 7231" } ] },
       
@@ -532,7 +532,7 @@
         "details" : 
         [ 
           { "description" : "The \"Content-Language\" header field describes the natural language(s) of the intended audience for the representation. Note that this might not be equivalent to all the languages used within the representation.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7231#section-3.1.3.2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7231#section-3.1.3.2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7231",
             "spec-name" : "RFC 7231" } ] },
       
@@ -542,7 +542,7 @@
         "details" : 
         [ 
           { "description" : "When a message does not have a Transfer-Encoding header field, a Content-Length header field can provide the anticipated size, as a decimal number of octets, for a potential payload body. For messages that do include a payload body, the Content-Length field-value provides the framing information necessary for determining where the body (and message) ends. For messages that do not include a payload body, the Content-Length indicates the size of the selected representation (Section 3 of [Part2]).",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7230#section-3.3.2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7230#section-3.3.2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7230",
             "spec-name" : "RFC 7230" } ] },
       
@@ -552,7 +552,7 @@
         "details" : 
         [ 
           { "description" : "The \"Content-Location\" header field references a URI that can be used as an identifier for a specific resource corresponding to the representation in this message's payload. In other words, if one were to perform a GET request on this URI at the time of this message's generation, then a 200 (OK) response would contain the same representation that is enclosed as payload in this message.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7231#section-3.1.4.2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7231#section-3.1.4.2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7231",
             "spec-name" : "RFC 7231" } ] },
       
@@ -562,12 +562,12 @@
         "details" : 
         [ 
           { "description" : "The Content-Range entity-header is sent with a partial entity-body to specify where in the full entity-body the partial body should be applied.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-combs-http-indeterminate-range#section-2.2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-combs-http-indeterminate-range#section-2.2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/combs-http-indeterminate-range",
             "spec-name" : "Internet Draft combs-http-indeterminate-range" },
           
           { "description" : "The \"Content-Range\" header field is sent in a single part 206 (Partial Content) response to indicate the partial range of the selected representation enclosed as the message payload, sent in each part of a multipart 206 response to indicate the range enclosed within each body part, and sent in 416 (Range Not Satisfiable) responses to provide information about the selected representation.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7233#section-4.2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7233#section-4.2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7233",
             "spec-name" : "RFC 7233" } ] },
       
@@ -627,7 +627,7 @@
         "details" : 
         [ 
           { "description" : "The Content-Signature header field carries a signature of the payload body of an HTTP message. This allows for content to be protected from modification.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-thomson-http-content-signature#section-2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-thomson-http-content-signature#section-2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/thomson-http-content-signature",
             "spec-name" : "Internet Draft thomson-http-content-signature" } ] },
       
@@ -637,7 +637,7 @@
         "details" : 
         [ 
           { "description" : "The Content-Translation-Type field can be used in the individual language message parts to identify the type of translation. Based on the value of this field and the user's preferences, a conforming email client can determine which message part to display.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8255#section-6",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc8255#section-6",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8255",
             "spec-name" : "RFC 8255" } ] },
       
@@ -647,7 +647,7 @@
         "details" : 
         [ 
           { "description" : "The \"Content-Type\" header field indicates the media type of the associated representation: either the representation enclosed in the message payload or the selected representation, as determined by the message semantics. The indicated media type defines both the data format and how that data is intended to be processed by a recipient, within the scope of the received message semantics, after any content codings indicated by Content-Encoding are decoded.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7231#section-3.1.1.5",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7231#section-3.1.1.5",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7231",
             "spec-name" : "RFC 7231" } ] },
       
@@ -657,7 +657,7 @@
         "details" : 
         [ 
           { "description" : "The Content-Version entity-header field defines the version tag associated with a rendition of an evolving entity. Together with the Derived-From field, it allows a group of people to work simultaneously on the creation of a work as an iterative process. The field should be used to allow evolution of a particular work along a single path rather than derived works or renditions in different representations.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc2068#section-19.6.2.2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc2068#section-19.6.2.2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/2068",
             "spec-name" : "RFC 2068" } ] },
       
@@ -667,7 +667,7 @@
         "details" : 
         [ 
           { "description" : "The Content-Warning header allows to return different kinds of warning information via HTTP.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-cedik-http-warning#section-8.1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-cedik-http-warning#section-8.1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/cedik-http-warning",
             "spec-name" : "Internet Draft cedik-http-warning" } ] },
       
@@ -677,12 +677,12 @@
         "details" : 
         [ 
           { "description" : "The user agent sends stored cookies to the origin server in the Cookie header.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-httpbis-rfc6265bis#section-4.2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-ietf-httpbis-rfc6265bis#section-4.2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpbis-rfc6265bis",
             "spec-name" : "Internet Draft ietf-httpbis-rfc6265bis" },
           
           { "description" : "The user agent sends stored cookies to the origin server in the Cookie header.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6265#section-4.2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6265#section-4.2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6265",
             "spec-name" : "RFC 6265" } ] },
       
@@ -692,7 +692,7 @@
         "details" : 
         [ 
           { "description" : "The Cookie2 request header facilitates interoperation between clients and servers that understand different versions of the cookie specification.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc2965#section-3.3",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc2965#section-3.3",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/2965",
             "spec-name" : "RFC 2965" } ] },
       
@@ -702,7 +702,7 @@
         "details" : 
         [ 
           { "description" : "The DASL response header indicates server support for query grammars in the OPTIONS method. The value is a list of URIs that indicate the types of supported grammars. Note that although the URIs can be used to identify each supported search grammar, there is not necessarily a direct relationship between the URI and the XML element name that can be used in XML based SEARCH requests (the element name itself is identified by its namespace name (a URI reference) and the element's local name).",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc5323#section-9.1.1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc5323#section-9.1.1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/5323",
             "spec-name" : "RFC 5323" } ] },
       
@@ -712,7 +712,7 @@
         "details" : 
         [ 
           { "description" : "This general-header appearing in the response indicates that the resource supports the DAV schema and protocol as specified. As a request header, this header allows the client to advertise compliance with named features when the server needs that information.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc4918#section-10.1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc4918#section-10.1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/4918",
             "spec-name" : "RFC 4918" } ] },
       
@@ -732,7 +732,7 @@
         "details" : 
         [ 
           { "description" : "The \"Date\" header field represents the date and time at which the message was originated, having the same semantics as the Origination Date Field (orig-date) defined in Section 3.6.1 of RFC 5322.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7231#section-7.1.1.2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7231#section-7.1.1.2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7231",
             "spec-name" : "RFC 7231" } ] },
       
@@ -742,7 +742,7 @@
         "details" : 
         [ 
           { "description" : "The Delta-Base entity-header field is used in a delta-encoded response to specify the entity tag of the base instance. A Delta-Base header field MUST be included in a response with an IM header that includes a delta-coding, if the request included more than one entity tag in its If-None-Match header field. Any response with an IM header that includes a delta-coding MAY include a Delta-Base header.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc3229#section-10.5.1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc3229#section-10.5.1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/3229",
             "spec-name" : "RFC 3229" } ] },
       
@@ -752,7 +752,7 @@
         "details" : 
         [ 
           { "description" : "The \"Deprecation\" HTTP response header field allows a server to communicate to a client that the URI-identified resource in context of the message is deprecated. It can also provide information that the resource is deprecated since which version.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-httpapi-deprecation-header#section-2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-ietf-httpapi-deprecation-header#section-2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpapi-deprecation-header",
             "spec-name" : "Internet Draft ietf-httpapi-deprecation-header" } ] },
       
@@ -762,7 +762,7 @@
         "details" : 
         [ 
           { "description" : "The Depth request header is used with methods executed on resources that could potentially have internal members to indicate whether the method is to be applied only to the resource (\"Depth: 0\"), to the resource and its internal members only (\"Depth: 1\"), or the resource and all its members (\"Depth: infinity\").",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc4918#section-10.2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc4918#section-10.2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/4918",
             "spec-name" : "RFC 4918" } ] },
       
@@ -772,7 +772,7 @@
         "details" : 
         [ 
           { "description" : "The Destination request header specifies the URI that identifies a destination resource for methods such as COPY and MOVE, which take two URIs as parameters.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc4918#section-10.3",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc4918#section-10.3",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/4918",
             "spec-name" : "RFC 4918" } ] },
       
@@ -792,12 +792,12 @@
         "details" : 
         [ 
           { "description" : "The \"Digest\" field contains a list of one or more representation digest values. It can be used in both requests and responses.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-httpbis-digest-headers#section-3",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-ietf-httpbis-digest-headers#section-3",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpbis-digest-headers",
             "spec-name" : "Internet Draft ietf-httpbis-digest-headers" },
           
           { "description" : "The Digest message header field provides a message digest of the instance described by the message.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc3230#section-4.3.2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc3230#section-4.3.2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/3230",
             "spec-name" : "RFC 3230" } ] },
       
@@ -807,7 +807,7 @@
         "details" : 
         [ 
           { "description" : "The EDIINT-Features header field indicates the originating user agent is capable of supporting the features listed.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6017#section-3",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6017#section-3",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6017",
             "spec-name" : "RFC 6017" } ] },
       
@@ -827,7 +827,7 @@
         "details" : 
         [ 
           { "description" : "The \"ETag\" header field in a response provides the current entity-tag for the selected representation, as determined at the conclusion of handling the request. An entity-tag is an opaque validator for differentiating between multiple representations of the same resource, regardless of whether those multiple representations are due to resource state changes over time, content negotiation resulting in multiple representations being valid at the same time, or both.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7232#section-2.3",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7232#section-2.3",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7232",
             "spec-name" : "RFC 7232" } ] },
       
@@ -837,7 +837,7 @@
         "details" : 
         [ 
           { "description" : "The Early-Data request header field indicates that the request has been conveyed in early data and that a client understands the 425 (Too Early) status code.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8470#section-5.1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc8470#section-5.1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8470",
             "spec-name" : "RFC 8470" } ] },
       
@@ -847,7 +847,7 @@
         "details" : 
         [ 
           { "description" : "The \"Expect\" header field in a request indicates a certain set of behaviors (expectations) that need to be supported by the server in order to properly handle this request.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7231#section-5.1.1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7231#section-5.1.1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7231",
             "spec-name" : "RFC 7231" } ] },
       
@@ -857,7 +857,7 @@
         "details" : 
         [ 
           { "description" : "The \"Expect-CT\" header field is a new response header defined in this specification. It is used by a server to indicate that UAs should evaluate connections to the host emitting the header for CT compliance.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-httpbis-expect-ct#section-2.1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-ietf-httpbis-expect-ct#section-2.1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpbis-expect-ct",
             "spec-name" : "Internet Draft ietf-httpbis-expect-ct" } ] },
       
@@ -867,7 +867,7 @@
         "details" : 
         [ 
           { "description" : "The \"Expires\" header field gives the date\/time after which the response is considered stale. The presence of an Expires field does not imply that the original resource will change or cease to exist at, before, or after that time.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7234#section-5.3",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7234#section-5.3",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7234",
             "spec-name" : "RFC 7234" } ] },
       
@@ -877,7 +877,7 @@
         "details" : 
         [ 
           { "description" : "The Ext header field is used to indicate that all end-to-end mandatory extension declarations in the request were fulfilled.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc2774#section-4.3",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc2774#section-4.3",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/2774",
             "spec-name" : "RFC 2774" } ] },
       
@@ -897,7 +897,7 @@
         "details" : 
         [ 
           { "description" : "The \"Forwarded\" HTTP header field is an OPTIONAL header field that, when used, contains a list of parameter-identifier pairs that disclose information that is altered or lost when a proxy is involved in the path of the request.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7239#section-4",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7239#section-4",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7239",
             "spec-name" : "RFC 7239" } ] },
       
@@ -907,7 +907,7 @@
         "details" : 
         [ 
           { "description" : "The \"From\" header field contains an Internet email address for a human user who controls the requesting user agent.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7231#section-5.5.1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7231#section-5.5.1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7231",
             "spec-name" : "RFC 7231" } ] },
       
@@ -917,7 +917,7 @@
         "details" : 
         [ 
           { "description" : "The GET-Location entity header identifies a substitute resource that can be used in subsequent requests for the same information, but using the GET method.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-reschke-http-get-location#section-3",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-reschke-http-get-location#section-3",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/reschke-http-get-location",
             "spec-name" : "Internet Draft reschke-http-get-location" } ] },
       
@@ -927,7 +927,7 @@
         "details" : 
         [ 
           { "description" : "A request that upgrades from HTTP\/1.1 to HTTP\/2 MUST include exactly one \"HTTP2-Settings\" header field. The \"HTTP2-Settings\" header field is a connection-specific header field that includes parameters that govern the HTTP\/2 connection, provided in anticipation of the server accepting the request to upgrade.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7540#section-3.2.1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7540#section-3.2.1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7540",
             "spec-name" : "RFC 7540" } ] },
       
@@ -937,7 +937,7 @@
         "details" : 
         [ 
           { "description" : "The server MUST add a header field to the response message when the registration has succeeded in order to indicate the new state. The header to be used is \"Hobareg\", and the value when registration has succeeded is to be \"regok\". When registration is in an intermediate state (e.g., on an HTTP response for an interstitial page), the server MAY add this header with a value of \"reginwork\".",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7486#section-6.1.1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7486#section-6.1.1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7486",
             "spec-name" : "RFC 7486" } ] },
       
@@ -947,7 +947,7 @@
         "details" : 
         [ 
           { "description" : "The \"Host\" header field in a request provides the host and port information from the target URI, enabling the origin server to distinguish among resources while servicing requests for multiple host names on a single IP address.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7230#section-5.4",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7230#section-5.4",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7230",
             "spec-name" : "RFC 7230" } ] },
       
@@ -957,7 +957,7 @@
         "details" : 
         [ 
           { "description" : "The IM response-header field is used to indicate the instance-manipulations, if any, that have been applied to the instance represented by the response. Typical instance manipulations include delta encoding and compression.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc3229#section-10.5.2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc3229#section-10.5.2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/3229",
             "spec-name" : "RFC 3229" } ] },
       
@@ -977,7 +977,7 @@
         "details" : 
         [ 
           { "description" : "The If request header is intended to have similar functionality to the If-Match header defined in Section 14.24 of RFC 2616. However, the If header handles any state token as well as ETags. A typical example of a state token is a lock token, and lock tokens are the only state tokens defined in this specification.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc4918#section-10.4",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc4918#section-10.4",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/4918",
             "spec-name" : "RFC 4918" } ] },
       
@@ -987,7 +987,7 @@
         "details" : 
         [ 
           { "description" : "The \"If-Match\" header field makes the request method conditional on the recipient origin server either having at least one current representation of the target resource, when the field-value is \"*\", or having a current representation of the target resource that has an entity-tag matching a member of the list of entity-tags provided in the field-value.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7232#section-3.1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7232#section-3.1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7232",
             "spec-name" : "RFC 7232" } ] },
       
@@ -997,7 +997,7 @@
         "details" : 
         [ 
           { "description" : "The \"If-Modified-Since\" header field makes a GET or HEAD request method conditional on the selected representation's modification date being more recent than the date provided in the field-value. Transfer of the selected representation's data is avoided if that data has not changed.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7232#section-3.3",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7232#section-3.3",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7232",
             "spec-name" : "RFC 7232" } ] },
       
@@ -1007,7 +1007,7 @@
         "details" : 
         [ 
           { "description" : "The \"If-None-Match\" header field makes the request method conditional on a recipient cache or origin server either not having any current representation of the target resource, when the field-value is \"*\", or having a selected representation with an entity-tag that does not match any of those listed in the field-value.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7232#section-3.2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7232#section-3.2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7232",
             "spec-name" : "RFC 7232" } ] },
       
@@ -1017,7 +1017,7 @@
         "details" : 
         [ 
           { "description" : "If a client has a partial copy of a representation and wishes to have an up-to-date copy of the entire representation, it could use the Range header field with a conditional GET (using either or both of If-Unmodified-Since and If-Match.)  However, if the precondition fails because the representation has been modified, the client would then have to make a second request to obtain the entire current representation. The \"If-Range\" header field allows a client to \"short-circuit\" the second request. Informally, its meaning is: if the representation is unchanged, send me the part(s) that I am requesting in Range; otherwise, send me the entire representation.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7233#section-3.2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7233#section-3.2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7233",
             "spec-name" : "RFC 7233" } ] },
       
@@ -1027,7 +1027,7 @@
         "details" : 
         [ 
           { "description" : "The If-Schedule-Tag-Match request header field is used with a method to make it conditional. Clients can set this header to the value returned in the Schedule-Tag response header, or the CALDAV:schedule-tag property, of a scheduling object resource previously retrieved from the server to avoid overwriting \"consequential\" changes to the scheduling object resource.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6638#section-8.3",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6638#section-8.3",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6638",
             "spec-name" : "RFC 6638" } ] },
       
@@ -1037,7 +1037,7 @@
         "details" : 
         [ 
           { "description" : "The \"If-Unmodified-Since\" header field makes the request method conditional on the selected representation's last modification date being earlier than or equal to the date provided in the field-value. This field accomplishes the same purpose as If-Match for cases where the user agent does not have an entity-tag for the representation.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7232#section-3.4",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7232#section-3.4",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7232",
             "spec-name" : "RFC 7232" } ] },
       
@@ -1047,7 +1047,7 @@
         "details" : 
         [ 
           { "description" : "When a Token Consumer redirects the client to a Token Provider as a means to deliver the token request, it SHOULD include an Include-Referred-Token-Binding-ID HTTP response header field in its HTTP response.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8473#section-5.3",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc8473#section-5.3",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8473",
             "spec-name" : "RFC 8473" } ] },
       
@@ -1057,7 +1057,7 @@
         "details" : 
         [ 
           { "description" : "The \"Key\" response header field describes the request attributes that the server has used to select the current representation. As such, its semantics are similar to the \"Vary\" response header field, but it allows more fine-grained description, using \"key modifiers\".",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-httpbis-key#section-2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-ietf-httpbis-key#section-2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpbis-key",
             "spec-name" : "Internet Draft ietf-httpbis-key" } ] },
       
@@ -1067,7 +1067,7 @@
         "details" : 
         [ 
           { "description" : "For certain methods (e.g. GET, PROPFIND), if the request-URL identifies a version-controlled resource, a label can be specified in a Label request header to cause the method to be applied to the version selected by that label from the version history of that version-controlled resource.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc3253#section-8.3",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc3253#section-8.3",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/3253",
             "spec-name" : "RFC 3253" } ] },
       
@@ -1087,7 +1087,7 @@
         "details" : 
         [ 
           { "description" : "The \"Last-Modified\" header field in a response provides a timestamp indicating the date and time at which the origin server believes the selected representation was last modified, as determined at the conclusion of handling the request.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7232#section-2.2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7232#section-2.2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7232",
             "spec-name" : "RFC 7232" } ] },
       
@@ -1097,7 +1097,7 @@
         "details" : 
         [ 
           { "description" : "The Link header field provides a means for serialising one or more links into HTTP headers.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8288#section-3",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc8288#section-3",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8288",
             "spec-name" : "RFC 8288" } ] },
       
@@ -1107,7 +1107,7 @@
         "details" : 
         [ 
           { "description" : "The Link-Template entity-header field provides a means for serialising one or more links into HTTP headers. It is semantically equivalent to the Link header field, except that it uses URI Templates to convey the structure of links.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-nottingham-link-template#section-4",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-nottingham-link-template#section-4",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/nottingham-link-template",
             "spec-name" : "Internet Draft nottingham-link-template" } ] },
       
@@ -1117,7 +1117,7 @@
         "details" : 
         [ 
           { "description" : "The \"Location\" header field is used in some responses to refer to a specific resource in relation to the response. The type of relationship is defined by the combination of request method and status code semantics.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7231#section-7.1.2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7231#section-7.1.2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7231",
             "spec-name" : "RFC 7231" } ] },
       
@@ -1127,7 +1127,7 @@
         "details" : 
         [ 
           { "description" : "The Lock-Token request header is used with the UNLOCK method to identify the lock to be removed.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc4918#section-10.5",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc4918#section-10.5",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/4918",
             "spec-name" : "RFC 4918" } ] },
       
@@ -1137,7 +1137,7 @@
         "details" : 
         [ 
           { "description" : "HTTP is not a MIME-compliant protocol. However, messages can include a single MIME-Version header field to indicate what version of the MIME protocol was used to construct the message. Use of the MIME-Version header field indicates that the message is in full conformance with the MIME protocol (as defined in RFC 2045). Senders are responsible for ensuring full conformance (where possible) when exporting HTTP messages to strict MIME environments.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7231#appendix-A.1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7231#appendix-A.1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7231",
             "spec-name" : "RFC 7231" } ] },
       
@@ -1147,7 +1147,7 @@
         "details" : 
         [ 
           { "description" : "A mandatory extension declaration indicates that the ultimate recipient MUST consult and adhere to the rules given by the extension when processing the message or reporting an error.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc2774#section-4.1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc2774#section-4.1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/2774",
             "spec-name" : "RFC 2774" } ] },
       
@@ -1157,7 +1157,7 @@
         "details" : 
         [ 
           { "description" : "The \"Max-Forwards\" header field provides a mechanism with the TRACE and OPTIONS request methods to limit the number of times that the request is forwarded by proxies.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7231#section-5.1.2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7231#section-5.1.2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7231",
             "spec-name" : "RFC 7231" } ] },
       
@@ -1167,7 +1167,7 @@
         "details" : 
         [ 
           { "description" : "The \"Memento-Datetime\" response header is used by a server to indicate that a response reflects a prior state of an Original Resource. Its value expresses the datetime of that state.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7089#section-2.1.1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7089#section-2.1.1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7089",
             "spec-name" : "RFC 7089" } ] },
       
@@ -1187,7 +1187,7 @@
         "details" : 
         [ 
           { "description" : "The Negotiate request header can contain directives for any content negotiation process initiated by the request.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc2295#section-8.4",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc2295#section-8.4",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/2295",
             "spec-name" : "RFC 2295" } ] },
       
@@ -1197,7 +1197,7 @@
         "details" : 
         [ 
           { "description" : "The \"Nice\" header field indicates that a request is less important than a request that doesn't bear this header.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-thomson-http-nice#section-2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-thomson-http-nice#section-2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/thomson-http-nice",
             "spec-name" : "Internet Draft thomson-http-nice" } ] },
       
@@ -1237,7 +1237,7 @@
         "details" : 
         [ 
           { "description" : "The HTTP OSCORE header field (see Section 13.4) is used for carrying the content of the CoAP OSCORE option when transporting OSCORE messages over HTTP hops.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8613#section-11.1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc8613#section-11.1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8613",
             "spec-name" : "RFC 8613" } ] },
       
@@ -1247,7 +1247,7 @@
         "details" : 
         [ 
           { "description" : "An optional extension declaration indicates that the ultimate recipient of the extension MAY consult and adhere to the rules given by the extension when processing the message, or ignore the extension declaration completely. An agent may not be able to distinguish whether the ultimate recipient does not understand an extension referred to by an optional extension or simply ignores the extension declaration.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc2774#section-4.1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc2774#section-4.1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/2774",
             "spec-name" : "RFC 2774" } ] },
       
@@ -1257,7 +1257,7 @@
         "details" : 
         [ 
           { "description" : "The Optional-WWW-Authenticate header enables a non-mandatory authentication, which is not possible under the current HTTP authentication mechanism.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8053#section-3",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc8053#section-3",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8053",
             "spec-name" : "RFC 8053" } ] },
       
@@ -1267,7 +1267,7 @@
         "details" : 
         [ 
           { "description" : "When a collection is created, the client MAY request that it be ordered and specify the semantics of the ordering by using the new Ordering-Type header with a MKCOL request. For collections that are ordered, the client SHOULD identify the semantics of the ordering with a URI in the Ordering-Type header, although the client MAY simply set the header value to DAV:custom to indicate that the collection is ordered but the semantics of the ordering are not being advertised.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc3648#section-5.1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc3648#section-5.1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/3648",
             "spec-name" : "RFC 3648" } ] },
       
@@ -1287,7 +1287,7 @@
         "details" : 
         [ 
           { "description" : "The user agent includes stored cookies whose \"origin-flag\" is set in the \"Origin-Cookie\" request header. When the user agent generates an HTTP request, it MUST NOT attach more than one \"Origin-Cookie\" header field.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-west-origin-cookies#section-4.4",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-west-origin-cookies#section-4.4",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/west-origin-cookies",
             "spec-name" : "Internet Draft west-origin-cookies" } ] },
       
@@ -1297,7 +1297,7 @@
         "details" : 
         [ 
           { "description" : "The Overwrite request header specifies whether the server should overwrite a resource mapped to the destination URL during a COPY or MOVE.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc4918#section-10.6",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc4918#section-10.6",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/4918",
             "spec-name" : "RFC 4918" } ] },
       
@@ -1337,7 +1337,7 @@
         "details" : 
         [ 
           { "description" : "The POE HTTP header is a request-header field whose field-value indicates the version of POE that a client supports.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-nottingham-http-poe-00#section-4",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-nottingham-http-poe-00#section-4",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/nottingham-http-poe",
             "spec-name" : "Internet Draft nottingham-http-poe" } ] },
       
@@ -1347,7 +1347,7 @@
         "details" : 
         [ 
           { "description" : "The POE-Links HTTP header is an entity-header field whose field-value is a comma-separated list of quoted URI-references (without fragment identifiers) that the origin server asserts to be POE resources. The contents of the POE-Links response header SHOULD correspond to links found in the content of the response body.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-nottingham-http-poe-00#section-3",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-nottingham-http-poe-00#section-3",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/nottingham-http-poe",
             "spec-name" : "Internet Draft nottingham-http-poe" } ] },
       
@@ -1357,7 +1357,7 @@
         "details" : 
         [ 
           { "description" : "When a new member is added to a collection with a client-maintained ordering (for example, with PUT, COPY, or MKCOL), its position in the ordering can be set with the new Position header. The Position header allows the client to specify that an internal member URI should be first in the collection's ordering, last in the collection's ordering, immediately before some other internal member URI in the collection's ordering, or immediately after some other internal member URI in the collection's ordering.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc3648#section-6.1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc3648#section-6.1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/3648",
             "spec-name" : "RFC 3648" } ] },
       
@@ -1367,7 +1367,7 @@
         "details" : 
         [ 
           { "description" : "The \"Pragma\" header field allows backwards compatibility with HTTP\/1.0 caches, so that clients can specify a \"no-cache\" request that they will understand (as Cache-Control was not defined until HTTP\/1.1). When the Cache-Control header field is also present and understood in a request, Pragma is ignored.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7234#section-5.4",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7234#section-5.4",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7234",
             "spec-name" : "RFC 7234" } ] },
       
@@ -1377,7 +1377,7 @@
         "details" : 
         [ 
           { "description" : "The Prefer request header field is used to indicate that particular server behaviors are preferred by the client, but not required for successful completion of the request. Prefer is similar in nature to the Expect header field with the exception that servers are allowed to ignore stated preferences.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7240#section-2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7240#section-2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7240",
             "spec-name" : "RFC 7240" } ] },
       
@@ -1387,7 +1387,7 @@
         "details" : 
         [ 
           { "description" : "\"Prefer-Push\" is an HTTP header field that a client may use to request that a server uses HTTP\/2 Push to send related resources as identified by their link relationships.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-pot-prefer-push#section-3",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-pot-prefer-push#section-3",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/pot-prefer-push",
             "spec-name" : "Internet Draft pot-prefer-push" } ] },
       
@@ -1397,7 +1397,7 @@
         "details" : 
         [ 
           { "description" : "The Preference-Applied response header MAY be included within a response message as an indication as to which Prefer tokens were honored by the server and applied to the processing of a request.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7240#section-3",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7240#section-3",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7240",
             "spec-name" : "RFC 7240" } ] },
       
@@ -1407,7 +1407,7 @@
         "details" : 
         [ 
           { "description" : "The Priority HTTP header field can appear in requests and responses. A client uses it to specify the priority of the response. A server uses it to inform the client that the priority was overwritten. An intermediary can use the Priority information from client requests and server responses to correct or amend the precedence to suit it. The Priority header field is an end-to-end signal of the request priority from the client or the response priority from the server.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-httpbis-priority#section-5",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-ietf-httpbis-priority#section-5",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpbis-priority",
             "spec-name" : "Internet Draft ietf-httpbis-priority" } ] },
       
@@ -1417,7 +1417,7 @@
         "details" : 
         [ 
           { "description" : "The \"Proxy-Authenticate\" header field consists of at least one challenge that indicates the authentication scheme(s) and parameters applicable to the proxy for this effective request URI. It MUST be included as part of a 407 (Proxy Authentication Required) response.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7235#section-4.2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7235#section-4.2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7235",
             "spec-name" : "RFC 7235" } ] },
       
@@ -1427,7 +1427,7 @@
         "details" : 
         [ 
           { "description" : "The Proxy-Authentication-Info response header field is equivalent to Authentication-Info, except that it applies to proxy authentication. However, unlike Authentication-Info, the Proxy-Authentication-Info header field applies only to the next outbound client on the response chain. This is because only the client that chose a given proxy is likely to have the credentials necessary for authentication.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7615#section-4",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7615#section-4",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7615",
             "spec-name" : "RFC 7615" } ] },
       
@@ -1437,7 +1437,7 @@
         "details" : 
         [ 
           { "description" : "The \"Proxy-Authorization\" header field allows the client to identify itself (or its user) to a proxy that requires authentication. Its value consists of credentials containing the authentication information of the client for the proxy and\/or realm of the resource being requested.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7235#section-4.3",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7235#section-4.3",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7235",
             "spec-name" : "RFC 7235" } ] },
       
@@ -1467,7 +1467,7 @@
         "details" : 
         [ 
           { "description" : "The Proxy-Status HTTP response field allows an intermediary to convey additional information about its handling of a response and its associated request.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-httpbis-proxy-status#section-2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-ietf-httpbis-proxy-status#section-2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpbis-proxy-status",
             "spec-name" : "Internet Draft ietf-httpbis-proxy-status" } ] },
       
@@ -1477,7 +1477,7 @@
         "details" : 
         [ 
           { "description" : "The Public response-header field lists the set of methods supported by the server. The purpose of this field is strictly to inform the recipient of the capabilities of the server regarding unusual methods. The methods listed may or may not be applicable to the Request-URI; the Allow header field MAY be used to indicate methods allowed for a particular URI.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc2068#section-14.35",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc2068#section-14.35",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/2068",
             "spec-name" : "RFC 2068" } ] },
       
@@ -1487,7 +1487,7 @@
         "details" : 
         [ 
           { "description" : "Whenever a UA receives a Valid Pinning Header, it MUST set its Pinning Metadata to the exact Pins, Effective Expiration Date (computed from max-age), and (if any) report-uri given in the most recently received Valid Pinning Header.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7469#section-2.5",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7469#section-2.5",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7469",
             "spec-name" : "RFC 7469" } ] },
       
@@ -1497,7 +1497,7 @@
         "details" : 
         [ 
           { "description" : "Upon receipt of a Public-Key-Pins-Report-Only response header field, the UA should evaluate the policy expressed in the field, and SHOULD generate and send a report. However, failure to validate the Pins in the field MUST have no effect on the validity or non-validity of the policy expressed in the PKP field or in previously noted Pins for the Known Pinned Host.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7469#section-2.5",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7469#section-2.5",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7469",
             "spec-name" : "RFC 7469" } ] },
       
@@ -1507,7 +1507,7 @@
         "details" : 
         [ 
           { "description" : "A server can indicate to a client the push policy it used when processing a request by sending a \"Push-Policy\" header field in the corresponding response.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ruellan-http-accept-push-policy#section-3.2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-ruellan-http-accept-push-policy#section-3.2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ruellan-http-accept-push-policy",
             "spec-name" : "Internet Draft ruellan-http-accept-push-policy" } ] },
       
@@ -1517,7 +1517,7 @@
         "details" : 
         [ 
           { "description" : "The \"Range\" header field on a GET request modifies the method semantics to request transfer of only one or more subranges of the selected representation data, rather than the entire selected representation data.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7233#section-3.1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7233#section-3.1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7233",
             "spec-name" : "RFC 7233" } ] },
       
@@ -1527,7 +1527,7 @@
         "details" : 
         [ 
           { "description" : "The RateLimit-Limit response header field indicates the maximum number of requests that the server allocated to the client in the current time-window.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-httpapi-ratelimit-headers#section-3.1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-ietf-httpapi-ratelimit-headers#section-3.1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpapi-ratelimit-headers",
             "spec-name" : "Internet Draft ietf-httpapi-ratelimit-headers" } ] },
       
@@ -1537,7 +1537,7 @@
         "details" : 
         [ 
           { "description" : "The RateLimit-Remaining response header field indicates the number of requests left for the client until the quota resets.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-httpapi-ratelimit-headers#section-3.2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-ietf-httpapi-ratelimit-headers#section-3.2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpapi-ratelimit-headers",
             "spec-name" : "Internet Draft ietf-httpapi-ratelimit-headers" } ] },
       
@@ -1547,7 +1547,7 @@
         "details" : 
         [ 
           { "description" : "The RateLimit-Reset response header field indicates either the number of seconds until the quota resets, or the timestamp when the quota resets.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-polli-ratelimit-headers#section-3.3",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-polli-ratelimit-headers#section-3.3",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpapi-ratelimit-headers",
             "spec-name" : "Internet Draft ietf-httpapi-ratelimit-headers" } ] },
       
@@ -1557,7 +1557,7 @@
         "details" : 
         [ 
           { "description" : "The Redirect-Ref header is used in all 3xx responses from redirect reference resources. The value is the link target as specified during redirect reference resource creation.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc4437#section-12.1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc4437#section-12.1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/4437",
             "spec-name" : "RFC 4437" } ] },
       
@@ -1567,7 +1567,7 @@
         "details" : 
         [ 
           { "description" : "The \"Referer\" header field allows the user agent to specify a URI reference for the resource from which the target URI was obtained (i.e., the \"referrer\", though the field name is misspelled).",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7231#section-5.5.2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7231#section-5.5.2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7231",
             "spec-name" : "RFC 7231" } ] },
       
@@ -1627,7 +1627,7 @@
         "details" : 
         [ 
           { "description" : "Servers send the \"Retry-After\" header field to indicate how long the user agent ought to wait before making a follow-up request. When sent with a 503 (Service Unavailable) response, Retry-After indicates how long the service is expected to be unavailable to the client. When sent with any 3xx (Redirection) response, Retry-After indicates the minimum time that the user agent is asked to wait before issuing the redirected request.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7231#section-7.1.3",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7231#section-7.1.3",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7231",
             "spec-name" : "RFC 7231" } ] },
       
@@ -1647,7 +1647,7 @@
         "details" : 
         [ 
           { "description" : "The Safe response header field is used by origin servers to indicate whether repeating the received HTTP request is safe in the sense of Section 9.1.1 (Safe Methods) of the HTTP\/1.1 specification. For the purpose of this specification, a HTTP request is considered to be a repetition of a previous request if both requests are issued by the same user agent, and apply to the same resource, and have the same request method, and both have no request body, or both have request bodies which are byte-wise identical after decoding of any content and transfer codings.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc2310#section-4",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc2310#section-4",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/2310",
             "spec-name" : "RFC 2310" } ] },
       
@@ -1657,7 +1657,7 @@
         "details" : 
         [ 
           { "description" : "The Schedule-Reply request header is used by a client to indicate to a server whether or not a scheduling operation ought to occur when an \"Attendee\" deletes a scheduling object resource. In particular, it controls whether a reply scheduling message is sent to the \"Organizer\" as a result of the removal. There are situations in which unsolicited scheduling messages need to be silently removed (or ignored) for security or privacy reasons. This request header allows the scheduling object resource to be removed if such a need arises.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6638#section-8.1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6638#section-8.1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6638",
             "spec-name" : "RFC 6638" } ] },
       
@@ -1667,7 +1667,7 @@
         "details" : 
         [ 
           { "description" : "The Schedule-Tag response header provides the current value of the CALDAV:schedule-tag property value.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6638#section-8.2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6638#section-8.2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6638",
             "spec-name" : "RFC 6638" } ] },
       
@@ -1727,7 +1727,7 @@
         "details" : 
         [ 
           { "description" : "Once a client and server have negotiated the Token Binding protocol with HTTP\/1.1 or HTTP\/2, clients MUST include a Sec-Token-Binding header field in their HTTP requests and MUST include only one such header field per HTTP request. Also, the Sec-Token-Binding header field MUST NOT be included in HTTP responses.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8473#section-2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc8473#section-2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8473",
             "spec-name" : "RFC 8473" } ] },
       
@@ -1737,7 +1737,7 @@
         "details" : 
         [ 
           { "description" : "The Sec-WebSocket-Accept header field is used in the WebSocket opening handshake. It is sent from the server to the client to confirm that the server is willing to initiate the WebSocket connection.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6455#section-11.3.3",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6455#section-11.3.3",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6455",
             "spec-name" : "RFC 6455" } ] },
       
@@ -1747,7 +1747,7 @@
         "details" : 
         [ 
           { "description" : "The Sec-WebSocket-Extensions header field is used in the WebSocket opening handshake. It is initially sent from the client to the server, and then subsequently sent from the server to the client, to agree on a set of protocol-level extensions to use for the duration of the connection.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6455#section-11.3.2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6455#section-11.3.2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6455",
             "spec-name" : "RFC 6455" } ] },
       
@@ -1757,7 +1757,7 @@
         "details" : 
         [ 
           { "description" : "The Sec-WebSocket-Key header field is used in the WebSocket opening handshake. It is sent from the client to the server to provide part of the information used by the server to prove that it received a valid WebSocket opening handshake.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6455#section-11.3.1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6455#section-11.3.1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6455",
             "spec-name" : "RFC 6455" } ] },
       
@@ -1767,7 +1767,7 @@
         "details" : 
         [ 
           { "description" : "The Sec-WebSocket-Protocol header field is used in the WebSocket opening handshake. It is sent from the client to the server and back from the server to the client to confirm the subprotocol of the connection. This enables scripts to both select a subprotocol and be sure that the server agreed to serve that subprotocol.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6455#section-11.3.4",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6455#section-11.3.4",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6455",
             "spec-name" : "RFC 6455" } ] },
       
@@ -1777,7 +1777,7 @@
         "details" : 
         [ 
           { "description" : "The Sec-WebSocket-Version header field is used in the WebSocket opening handshake. It is sent from the client to the server to indicate the protocol version of the connection. This enables servers to correctly interpret the opening handshake and subsequent data being sent from the data, and close the connection if the server cannot interpret that data in a safe manner. The Sec-WebSocket-Version header field is also sent from the server to the client on WebSocket handshake error, when the version received from the client does not match a version understood by the server. In such a case, the header field includes the protocol version(s) supported by the server.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6455#section-11.3.5",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6455#section-11.3.5",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6455",
             "spec-name" : "RFC 6455" } ] },
       
@@ -1787,7 +1787,7 @@
         "details" : 
         [ 
           { "description" : "All S-HTTP compliant agents must generate the Security-Scheme header in the headers of all HTTP messages they generate. This header permits other agents to detect that they are communicating with an S-HTTP compliant agent and generate the appropriate cryptographic options headers.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc2660#section-4.1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc2660#section-4.1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/2660",
             "spec-name" : "RFC 2660" } ] },
       
@@ -1797,7 +1797,7 @@
         "details" : 
         [ 
           { "description" : "The \"Server\" header field contains information about the software used by the origin server to handle the request, which is often used by clients to help identify the scope of reported interoperability problems, to work around or tailor requests to avoid particular server limitations, and for analytics regarding server or operating system use.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7231#section-7.4.2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7231#section-7.4.2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7231",
             "spec-name" : "RFC 7231" } ] },
       
@@ -1837,12 +1837,12 @@
         "details" : 
         [ 
           { "description" : "The Set-Cookie HTTP response header is used to send cookies from the server to the user agent.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-httpbis-rfc6265bis#section-4.1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-ietf-httpbis-rfc6265bis#section-4.1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpbis-rfc6265bis",
             "spec-name" : "Internet Draft ietf-httpbis-rfc6265bis" },
           
           { "description" : "The Set-Cookie HTTP response header is used to send cookies from the server to the user agent.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6265#section-4.1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6265#section-4.1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6265",
             "spec-name" : "RFC 6265" } ] },
       
@@ -1852,7 +1852,7 @@
         "details" : 
         [ 
           { "description" : "The origin server initiates a session, if it so desires. To do so, it returns an extra response header to the client, Set-Cookie2.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc2965#section-3.2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc2965#section-3.2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/2965",
             "spec-name" : "RFC 2965" } ] },
       
@@ -1862,7 +1862,7 @@
         "details" : 
         [ 
           { "description" : "The \"signature\" HTTP Header is based on the model that the sender must authenticate itself with a digital signature produced by either a private asymmetric key (e.g., RSA) or a shared symmetric key (e.g., HMAC). The scheme is parameterized enough such that it is not bound to any particular key type or signing algorithm. However, it does explicitly assume that senders can send an HTTP 'Date' header.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-cavage-http-signatures#section-4",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-cavage-http-signatures#section-4",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/cavage-http-signatures",
             "spec-name" : "Internet Draft cavage-http-signatures" } ] },
       
@@ -1872,7 +1872,7 @@
         "details" : 
         [ 
           { "description" : "Slug is an HTTP entity-header whose presence in a POST to a Collection constitutes a request by the client to use the header's value as part of any URIs that would normally be used to retrieve the to-be-created Entry or Media Resources.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc5023#section-9.7",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc5023#section-9.7",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/5023",
             "spec-name" : "RFC 5023" } ] },
       
@@ -1882,7 +1882,7 @@
         "details" : 
         [ 
           { "description" : "The Status-URI response header may be used with the 102 (Processing) status code to inform the client as to the status of a method.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc2518#section-9.7",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc2518#section-9.7",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/2518",
             "spec-name" : "RFC 2518" } ] },
       
@@ -1892,7 +1892,7 @@
         "details" : 
         [ 
           { "description" : "The Strict-Transport-Security HTTP response header field (STS header field) indicates to a UA that it MUST enforce the HSTS Policy in regards to the host emitting the response message containing this header field.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6797#section-6.1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6797#section-6.1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6797",
             "spec-name" : "RFC 6797" } ] },
       
@@ -1902,7 +1902,7 @@
         "details" : 
         [ 
           { "description" : "The SubOK request header field is used to provide directives from an end-client to a proxy cache regarding the possible substitution of an instance body from a cached response for one resource instance for the instance body of the resource instance specified by the client's request.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-mogul-http-dupsup#section-5.2.1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-mogul-http-dupsup#section-5.2.1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/mogul-http-dupsup",
             "spec-name" : "Internet Draft mogul-http-dupsup" } ] },
       
@@ -1912,7 +1912,7 @@
         "details" : 
         [ 
           { "description" : "The Subst response-header field MUST be used by a proxy to supply the URI of the original source of an entity-body, if the source is different from the client's Request-URI, and if the client's request included the \"inform\" directive in a SubOK request header field.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-mogul-http-dupsup#section-5.2.2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-mogul-http-dupsup#section-5.2.2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/mogul-http-dupsup",
             "spec-name" : "Internet Draft mogul-http-dupsup" } ] },
       
@@ -1922,7 +1922,7 @@
         "details" : 
         [ 
           { "description" : "The Sunset HTTP response header field allows a server to communicate the fact that a resource is expected to become unresponsive at a specific point in time. It provides information for clients which they can use to control their usage of the resource. The Sunset header contains a single timestamp which advertises the point in time when the resource is expected to become unresponsive.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8594#section-3",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc8594#section-3",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8594",
             "spec-name" : "RFC 8594" } ] },
       
@@ -1952,7 +1952,7 @@
         "details" : 
         [ 
           { "description" : "The TCN response header is used by a server to signal that the resource is transparently negotiated.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc2295#section-8.5",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc2295#section-8.5",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/2295",
             "spec-name" : "RFC 2295" } ] },
       
@@ -1962,7 +1962,7 @@
         "details" : 
         [ 
           { "description" : "The \"TE\" header field in a request indicates what transfer codings, besides chunked, the client is willing to accept in response, and whether or not the client is willing to accept trailer fields in a chunked transfer coding.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7230#section-4.3",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7230#section-4.3",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7230",
             "spec-name" : "RFC 7230" } ] },
       
@@ -1972,7 +1972,7 @@
         "details" : 
         [ 
           { "description" : "An application server MUST include the TTL (Time-To-Live) header field in its request for push message delivery. The TTL header field contains a value in seconds that suggests how long a push message is retained by the push service.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8030#section-5.2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc8030#section-5.2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8030",
             "spec-name" : "RFC 8030" } ] },
       
@@ -1982,7 +1982,7 @@
         "details" : 
         [ 
           { "description" : "Clients MAY include Timeout request headers in their LOCK requests. However, the server is not required to honor or even consider these requests.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc4918#section-10.7",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc4918#section-10.7",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/4918",
             "spec-name" : "RFC 4918" } ] },
       
@@ -1992,7 +1992,7 @@
         "details" : 
         [ 
           { "description" : "The title of the document. Not part of the document. Isomorphic with the <title> element in HTML.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc4229#section-2.2.11",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc4229#section-2.2.11",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/4229",
             "spec-name" : "RFC 4229" } ] },
       
@@ -2012,7 +2012,7 @@
         "details" : 
         [ 
           { "description" : "A push message topic is a string carried in a Topic header field. A topic is used to correlate push messages sent to the same subscription and does not convey any other semantics.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8030#section-5.4",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc8030#section-5.4",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8030",
             "spec-name" : "RFC 8030" } ] },
       
@@ -2022,7 +2022,7 @@
         "details" : 
         [ 
           { "description" : "When a message includes a message body encoded with the chunked transfer coding and the sender desires to send metadata in the form of trailer fields at the end of the message, the sender SHOULD generate a Trailer header field before the message body to indicate which fields will be present in the trailers.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7230#section-4.4",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7230#section-4.4",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7230",
             "spec-name" : "RFC 7230" } ] },
       
@@ -2032,7 +2032,7 @@
         "details" : 
         [ 
           { "description" : "The Transfer-Encoding header field lists the transfer coding names corresponding to the sequence of transfer codings that have been (or will be) applied to the payload body in order to form the message body.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7230#section-3.3.1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7230#section-3.3.1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7230",
             "spec-name" : "RFC 7230" } ] },
       
@@ -2042,7 +2042,7 @@
         "details" : 
         [ 
           { "description" : "Clients include the Tunnel-Protocol header field in an HTTP CONNECT request to indicate the application layer protocol that will be used within the tunnel, or the set of protocols that might be used within the tunnel.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-httpbis-tunnel-protocol#section-2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-ietf-httpbis-tunnel-protocol#section-2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpbis-tunnel-protocol",
             "spec-name" : "Internet Draft ietf-httpbis-tunnel-protocol" } ] },
       
@@ -2052,7 +2052,7 @@
         "details" : 
         [ 
           { "description" : "The URI header field has, in past versions of this specification, been used as a combination of the existing Location, Content-Location, and Vary header fields as well as the future Alternates field. Its primary purpose has been to include a list of additional URIs for the resource, including names and mirror locations. However, it has become clear that the combination of many different functions within this single field has been a barrier to consistently and correctly implementing any of those functions. Furthermore, we believe that the identification of names and mirror locations would be better performed via the Link header field. The URI header field is therefore deprecated in favor of those other fields.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc2068#section-19.6.2.5",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc2068#section-19.6.2.5",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/2068",
             "spec-name" : "RFC 2068" } ] },
       
@@ -2062,7 +2062,7 @@
         "details" : 
         [ 
           { "description" : "The \"Upgrade\" header field is intended to provide a simple mechanism for transitioning from HTTP\/1.1 to some other protocol on the same connection. A client MAY send a list of protocols in the Upgrade header field of a request to invite the server to switch to one or more of those protocols, in order of descending preference, before sending the final response.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7230#section-6.7",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7230#section-6.7",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7230",
             "spec-name" : "RFC 7230" } ] },
       
@@ -2082,7 +2082,7 @@
         "details" : 
         [ 
           { "description" : "An application server MAY include an Urgency header field in its request for push message delivery. This header field indicates the message urgency. The push service MUST NOT forward the Urgency header field to the user agent. A push message without the Urgency header field defaults to a value of \"normal\".",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8030#section-5.3",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc8030#section-5.3",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8030",
             "spec-name" : "RFC 8030" } ] },
       
@@ -2092,7 +2092,7 @@
         "details" : 
         [ 
           { "description" : "The \"User-Agent\" header field contains information about the user agent originating the request, which is often used by servers to help identify the scope of reported interoperability problems, to work around or tailor responses to avoid particular user agent limitations, and for analytics regarding browser or operating system use.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7231#section-5.5.3",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7231#section-5.5.3",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7231",
             "spec-name" : "RFC 7231" } ] },
       
@@ -2102,7 +2102,7 @@
         "details" : 
         [ 
           { "description" : "The Variant-Key HTTP response header field is used to indicate the value(s) from the Variants header field that identify the representation it occurs within.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-httpbis-variants#section-3",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-ietf-httpbis-variants#section-3",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpbis-variants",
             "spec-name" : "Internet Draft ietf-httpbis-variants" } ] },
       
@@ -2112,7 +2112,7 @@
         "details" : 
         [ 
           { "description" : "The Variant-Vary response header can be used in a choice response to record any vary information which applies to the variant data (the entity body combined with some of the entity headers) contained in the response, rather than to the response as a whole.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc2295#section-8.6",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc2295#section-8.6",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/2295",
             "spec-name" : "RFC 2295" } ] },
       
@@ -2122,7 +2122,7 @@
         "details" : 
         [ 
           { "description" : "The Variants HTTP response header field indicates what representations are available for a given resource at the time that the response is produced, by enumerating the request header fields that it varies on, along with the values that are available for each.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-httpbis-variants#section-2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-ietf-httpbis-variants#section-2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpbis-variants",
             "spec-name" : "Internet Draft ietf-httpbis-variants" } ] },
       
@@ -2132,7 +2132,7 @@
         "details" : 
         [ 
           { "description" : "The \"Vary\" header field in a response describes what parts of a request message, aside from the method, Host header field, and request target, might influence the origin server's process for selecting and representing this response. The value consists of either a single asterisk (\"*\") or a list of header field names (case-insensitive).",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7231#section-7.1.4",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7231#section-7.1.4",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7231",
             "spec-name" : "RFC 7231" } ] },
       
@@ -2142,7 +2142,7 @@
         "details" : 
         [ 
           { "description" : "The \"Via\" header field indicates the presence of intermediate protocols and recipients between the user agent and the server (on requests) or between the origin server and the client (on responses), similar to the \"Received\" header field in email (Section 3.6.7 of RFC 5322). Via can be used for tracking message forwards, avoiding request loops, and identifying the protocol capabilities of senders along the request\/response chain.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7230#section-5.7.1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7230#section-5.7.1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7230",
             "spec-name" : "RFC 7230" } ] },
       
@@ -2152,12 +2152,12 @@
         "details" : 
         [ 
           { "description" : "If a server receives a request for an access-protected object, and an acceptable Authorization header is not sent, the server responds with a \"401 Unauthorized\" status code, and a WWW-Authenticate header as per the framework defined above.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7616#section-3.3",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7616#section-3.3",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7616",
             "spec-name" : "RFC 7616" },
           
           { "description" : "The \"WWW-Authenticate\" header field consists of at least one challenge that indicates the authentication scheme(s) and parameters applicable to the effective request URI. It MUST be included in 401 (Unauthorized) response messages and MAY be included in other response messages to indicate that supplying credentials (or different credentials) might affect the response.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7235#section-4.4",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7235#section-4.4",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7235",
             "spec-name" : "RFC 7235" } ] },
       
@@ -2167,12 +2167,12 @@
         "details" : 
         [ 
           { "description" : "The \"Want-Digest\" field indicates the sender's desire to receive a representation digest on messages associated with the request URI and representation metadata.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-httpbis-digest-headers#section-4",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-ietf-httpbis-digest-headers#section-4",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpbis-digest-headers",
             "spec-name" : "Internet Draft ietf-httpbis-digest-headers" },
           
           { "description" : "The Want-Digest message header field indicates the sender's desire to receive an instance digest on messages associated with the Request-URI.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc3230#section-4.3.1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc3230#section-4.3.1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/3230",
             "spec-name" : "RFC 3230" } ] },
       
@@ -2182,7 +2182,7 @@
         "details" : 
         [ 
           { "description" : "The \"Warning\" header field is used to carry additional information about the status or transformation of a message that might not be reflected in the status code. This information is typically used to warn about possible incorrectness introduced by caching operations or transformations applied to the payload of the message.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7234#section-5.5",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7234#section-5.5",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7234",
             "spec-name" : "RFC 7234" } ] },
       
@@ -2192,7 +2192,7 @@
         "details" : 
         [ 
           { "description" : "The X-Frame-Options HTTP header field indicates a policy that specifies whether the browser should render the transmitted resource within a <frame> or an <iframe>. Servers can declare this policy in the header of their HTTP responses to prevent clickjacking attacks, which ensures that their content is not embedded into other pages or frames.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7034#section-2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7034#section-2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7034",
             "spec-name" : "RFC 7034" } ] },
       

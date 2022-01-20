@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "The \"about\" link relation can be used to refer to a resource that is the subject or topic of the link's context. Multiple subjects can be indicated through the use of multiple \"about\" link relations.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6903#section-2",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6903#section-2",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6903",
         "spec-name" : "RFC 6903" } ] }

@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <service primary="IETF" secondary="RFC" id="7636">
     <title>Proof Key for Code Exchange by OAuth Public Clients</title>
-    <documentation source="http://tools.ietf.org/html/rfc7636">OAuth 2.0 public clients utilizing the Authorization Code Grant are susceptible to the authorization code interception attack.  This specification describes the attack as well as a technique to mitigate against the threat through the use of Proof Key for Code Exchange (PKCE, pronounced "pixy").</documentation>
+    <documentation source="https://datatracker.ietf.org/doc/html/rfc7636">OAuth 2.0 public clients utilizing the Authorization Code Grant are susceptible to the authorization code interception attack.  This specification describes the attack as well as a technique to mitigate against the threat through the use of Proof Key for Code Exchange (PKCE, pronounced "pixy").</documentation>
     <pkce-code-challenge-method def="plain">
-        <documentation source="http://tools.ietf.org/html/rfc7636#section-4.2">The plain transformation is for compatibility with existing deployments and for constrained environments that can't use the S256 transformation.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7636#section-4.2">The plain transformation is for compatibility with existing deployments and for constrained environments that can't use the S256 transformation.</documentation>
     </pkce-code-challenge-method>
     <pkce-code-challenge-method def="S256">
-        <documentation source="http://tools.ietf.org/html/rfc7636#section-4.2">Clients are permitted to use "plain" only if they cannot support "S256" for some technical reason and know via out-of-band configuration that the server supports "plain".</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7636#section-4.2">Clients are permitted to use "plain" only if they cannot support "S256" for some technical reason and know via out-of-band configuration that the server supports "plain".</documentation>
     </pkce-code-challenge-method>
     <oauth-parameter def="code_verifier">
-        <documentation source="http://tools.ietf.org/html/rfc7636#section-4.5">Code verifier.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7636#section-4.5">Code verifier.</documentation>
     </oauth-parameter>
     <oauth-parameter def="code_challenge">
-        <documentation source="http://tools.ietf.org/html/rfc7636#section-4.3">Code challenge.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7636#section-4.3">Code challenge.</documentation>
     </oauth-parameter>
     <oauth-parameter def="code_challenge_method">
-        <documentation source="http://tools.ietf.org/html/rfc7636#section-4.3">Code verifier transformation method is "S256" or "plain". Defaults to "plain" if not present in the request.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7636#section-4.3">Code verifier transformation method is "S256" or "plain". Defaults to "plain" if not present in the request.</documentation>
     </oauth-parameter>
 </service>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <service primary="IETF" secondary="I-D" id="snell-http-prefer">
     <title>Prefer Header for HTTP</title>
-    <documentation source="http://tools.ietf.org/html/draft-snell-http-prefer">This specification defines an HTTP header field that can be used by a client to request that certain behaviors be employed by a server while processing a request.</documentation>
+    <documentation source="https://datatracker.ietf.org/doc/html/draft-snell-http-prefer">This specification defines an HTTP header field that can be used by a client to request that certain behaviors be employed by a server while processing a request.</documentation>
     <http-header def="Prefer">
-        <documentation source="http://tools.ietf.org/html/draft-snell-http-prefer#section-2">The Prefer request header field is used to indicate that particular server behaviors are preferred by the client, but not required for successful completion of the request. Prefer is similar in nature to the Expect header field with the exception that servers are allowed to ignore stated preferences.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/draft-snell-http-prefer#section-2">The Prefer request header field is used to indicate that particular server behaviors are preferred by the client, but not required for successful completion of the request. Prefer is similar in nature to the Expect header field with the exception that servers are allowed to ignore stated preferences.</documentation>
     </http-header>
     <http-header def="Preference-Applied">
-        <documentation source="http://tools.ietf.org/html/draft-snell-http-prefer#section-3">The Preference-Applied response header MAY be included within a response message as an indication as to which Prefer tokens were honored by the server and applied to the processing of a request.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/draft-snell-http-prefer#section-3">The Preference-Applied response header MAY be included within a response message as an indication as to which Prefer tokens were honored by the server and applied to the processing of a request.</documentation>
     </http-header>
 </service>

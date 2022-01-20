@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "The A-IM request-header field is similar to Accept, but restricts the instance-manipulations that are acceptable in the response. A response may be the result of applying multiple instance-manipulations. When an A-IM request-header field includes one or more delta-coding values, the request MUST contain an If-None-Match header field, listing one or more entity tags from prior responses for the request-URI.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc3229#section-10.5.3",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc3229#section-10.5.3",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/3229",
         "spec-name" : "RFC 3229" } ] }

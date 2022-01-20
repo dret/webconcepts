@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "The \"max-stale\" request directive indicates that the client is willing to accept a response that has exceeded its freshness lifetime. If max-stale is assigned a value, then the client is willing to accept a response that has exceeded its freshness lifetime by no more than the specified number of seconds. If no value is assigned to max-stale, then the client is willing to accept a stale response of any age.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7234#section-5.2.1.2",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7234#section-5.2.1.2",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7234",
         "spec-name" : "RFC 7234" } ] }

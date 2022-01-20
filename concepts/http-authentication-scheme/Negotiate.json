@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "Use of Kerberos is wrapped in an HTTP auth-scheme of \"Negotiate\".",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc4559#section-4",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc4559#section-4",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/4559",
         "spec-name" : "RFC 4559" } ] }

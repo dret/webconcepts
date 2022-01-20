@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "The message\/http type can be used to enclose a single HTTP request or response message, provided that it obeys the MIME restrictions for all \"message\" types regarding line length and encodings.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7230#section-8.3.1",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7230#section-8.3.1",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7230",
         "spec-name" : "RFC 7230" } ] }

@@ -1,44 +1,44 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <service primary="IETF" secondary="RFC" id="7540">
     <title>Hypertext Transfer Protocol Version 2</title>
-    <documentation source="http://tools.ietf.org/html/rfc7540">This specification describes an optimized expression of the semantics of the Hypertext Transfer Protocol (HTTP). HTTP/2 enables a more efficient use of network resources and a reduced perception of latency by introducing header field compression and allowing multiple concurrent exchanges on the same connection. It also introduces unsolicited push of representations from servers to clients. This specification is an alternative to, but does not obsolete, the HTTP/1.1 message syntax. HTTP's existing semantics remain unchanged.</documentation>
+    <documentation source="https://datatracker.ietf.org/doc/html/rfc7540">This specification describes an optimized expression of the semantics of the Hypertext Transfer Protocol (HTTP). HTTP/2 enables a more efficient use of network resources and a reduced perception of latency by introducing header field compression and allowing multiple concurrent exchanges on the same connection. It also introduces unsolicited push of representations from servers to clients. This specification is an alternative to, but does not obsolete, the HTTP/1.1 message syntax. HTTP's existing semantics remain unchanged.</documentation>
     <http-header def="HTTP2-Settings">
-        <documentation source="http://tools.ietf.org/html/rfc7540#section-3.2.1">A request that upgrades from HTTP/1.1 to HTTP/2 MUST include exactly one "HTTP2-Settings" header field. The "HTTP2-Settings" header field is a connection-specific header field that includes parameters that govern the HTTP/2 connection, provided in anticipation of the server accepting the request to upgrade.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7540#section-3.2.1">A request that upgrades from HTTP/1.1 to HTTP/2 MUST include exactly one "HTTP2-Settings" header field. The "HTTP2-Settings" header field is a connection-specific header field that includes parameters that govern the HTTP/2 connection, provided in anticipation of the server accepting the request to upgrade.</documentation>
     </http-header>
     <http-status-code def="421" desc="Misdirected Request">
-        <documentation source="http://tools.ietf.org/html/rfc7540#section-9.1.2">The 421 (Misdirected Request) status code indicates that the request was directed at a server that is not able to produce a response. This can be sent by a server that is not configured to produce responses for the combination of scheme and authority that are included in the request URI.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7540#section-9.1.2">The 421 (Misdirected Request) status code indicates that the request was directed at a server that is not able to produce a response. This can be sent by a server that is not configured to produce responses for the combination of scheme and authority that are included in the request URI.</documentation>
     </http-status-code>
     <http-method def="PRI">
-        <documentation source="http://tools.ietf.org/html/rfc7540#section-3.5">This method is never used by an actual client. This method will appear to be used when an HTTP/1.1 server or intermediary attempts to parse an HTTP/2 connection preface.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7540#section-3.5">This method is never used by an actual client. This method will appear to be used when an HTTP/1.1 server or intermediary attempts to parse an HTTP/2 connection preface.</documentation>
     </http-method>
     <http2-frame-type def="0x0" desc="DATA">
-        <documentation source="http://tools.ietf.org/html/rfc7540#section-6.1">DATA frames (type=0x0) convey arbitrary, variable-length sequences of octets associated with a stream. One or more DATA frames are used, for instance, to carry HTTP request or response payloads.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7540#section-6.1">DATA frames (type=0x0) convey arbitrary, variable-length sequences of octets associated with a stream. One or more DATA frames are used, for instance, to carry HTTP request or response payloads.</documentation>
     </http2-frame-type>
     <http2-frame-type def="0x1" desc="HEADERS">
-        <documentation source="http://tools.ietf.org/html/rfc7540#section-6.2">The HEADERS frame (type=0x1) is used to open a stream, and additionally carries a header block fragment. HEADERS frames can be sent on a stream in the "idle", "reserved (local)", "open", or "half-closed (remote)" state.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7540#section-6.2">The HEADERS frame (type=0x1) is used to open a stream, and additionally carries a header block fragment. HEADERS frames can be sent on a stream in the "idle", "reserved (local)", "open", or "half-closed (remote)" state.</documentation>
     </http2-frame-type>
     <http2-frame-type def="0x2" desc="PRIORITY">
-        <documentation source="http://tools.ietf.org/html/rfc7540#section-6.3">The PRIORITY frame (type=0x2) specifies the sender-advised priority of a stream. It can be sent in any stream state, including idle or closed streams.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7540#section-6.3">The PRIORITY frame (type=0x2) specifies the sender-advised priority of a stream. It can be sent in any stream state, including idle or closed streams.</documentation>
     </http2-frame-type>
     <http2-frame-type def="0x3" desc="RST_STREAM">
-        <documentation source="http://tools.ietf.org/html/rfc7540#section-6.4">The RST_STREAM frame (type=0x3) allows for immediate termination of a stream. RST_STREAM is sent to request cancellation of a stream or to indicate that an error condition has occurred.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7540#section-6.4">The RST_STREAM frame (type=0x3) allows for immediate termination of a stream. RST_STREAM is sent to request cancellation of a stream or to indicate that an error condition has occurred.</documentation>
     </http2-frame-type>
     <http2-frame-type def="0x4" desc="SETTINGS">
-        <documentation source="http://tools.ietf.org/html/rfc7540#section-6.5">The SETTINGS frame (type=0x4) conveys configuration parameters that affect how endpoints communicate, such as preferences and constraints on peer behavior. The SETTINGS frame is also used to acknowledge the receipt of those parameters.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7540#section-6.5">The SETTINGS frame (type=0x4) conveys configuration parameters that affect how endpoints communicate, such as preferences and constraints on peer behavior. The SETTINGS frame is also used to acknowledge the receipt of those parameters.</documentation>
     </http2-frame-type>
     <http2-frame-type def="0x5" desc="PUSH_PROMISE">
-        <documentation source="http://tools.ietf.org/html/rfc7540#section-6.6">The PUSH_PROMISE frame (type=0x5) is used to notify the peer endpoint in advance of streams the sender intends to initiate. The PUSH_PROMISE frame includes the unsigned 31-bit identifier of the stream the endpoint plans to create along with a set of headers that provide additional context for the stream.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7540#section-6.6">The PUSH_PROMISE frame (type=0x5) is used to notify the peer endpoint in advance of streams the sender intends to initiate. The PUSH_PROMISE frame includes the unsigned 31-bit identifier of the stream the endpoint plans to create along with a set of headers that provide additional context for the stream.</documentation>
     </http2-frame-type>
     <http2-frame-type def="0x6" desc="PING">
-        <documentation source="http://tools.ietf.org/html/rfc7540#section-6.7">The PING frame (type=0x6) is a mechanism for measuring a minimal round-trip time from the sender, as well as determining whether an idle connection is still functional. PING frames can be sent from any endpoint.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7540#section-6.7">The PING frame (type=0x6) is a mechanism for measuring a minimal round-trip time from the sender, as well as determining whether an idle connection is still functional. PING frames can be sent from any endpoint.</documentation>
     </http2-frame-type>
     <http2-frame-type def="0x7" desc="GOAWAY">
-        <documentation source="http://tools.ietf.org/html/rfc7540#section-6.8">The GOAWAY frame (type=0x7) is used to initiate shutdown of a connection or to signal serious error conditions. GOAWAY allows an endpoint to gracefully stop accepting new streams while still finishing processing of previously established streams. This enables administrative actions, like server maintenance.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7540#section-6.8">The GOAWAY frame (type=0x7) is used to initiate shutdown of a connection or to signal serious error conditions. GOAWAY allows an endpoint to gracefully stop accepting new streams while still finishing processing of previously established streams. This enables administrative actions, like server maintenance.</documentation>
     </http2-frame-type>
     <http2-frame-type def="0x8" desc="WINDOW_UPDATE">
-        <documentation source="http://tools.ietf.org/html/rfc7540#section-6.9">The WINDOW_UPDATE frame (type=0x8) is used to implement flow control. Flow control operates at two levels: on each individual stream and on the entire connection.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7540#section-6.9">The WINDOW_UPDATE frame (type=0x8) is used to implement flow control. Flow control operates at two levels: on each individual stream and on the entire connection.</documentation>
     </http2-frame-type>
     <http2-frame-type def="0x9" desc="CONTINUATION">
-        <documentation source="http://tools.ietf.org/html/rfc7540#section-6.10">The CONTINUATION frame (type=0x9) is used to continue a sequence of header block fragments (Section 4.3). Any number of CONTINUATION frames can be sent, as long as the preceding frame is on the same stream and is a HEADERS, PUSH_PROMISE, or CONTINUATION frame without the END_HEADERS flag set.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7540#section-6.10">The CONTINUATION frame (type=0x9) is used to continue a sequence of header block fragments (Section 4.3). Any number of CONTINUATION frames can be sent, as long as the preceding frame is on the same stream and is a HEADERS, PUSH_PROMISE, or CONTINUATION frame without the END_HEADERS flag set.</documentation>
     </http2-frame-type>
 </service>

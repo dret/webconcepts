@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "The Priority HTTP header field can appear in requests and responses. A client uses it to specify the priority of the response. A server uses it to inform the client that the priority was overwritten. An intermediary can use the Priority information from client requests and server responses to correct or amend the precedence to suit it. The Priority header field is an end-to-end signal of the request priority from the client or the response priority from the server.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-httpbis-priority#section-5",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-ietf-httpbis-priority#section-5",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpbis-priority",
         "spec-name" : "Internet Draft ietf-httpbis-priority" } ] }

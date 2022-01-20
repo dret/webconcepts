@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <service primary="IETF" secondary="RFC" id="7239">
     <title>Forwarded HTTP Extension</title>
-    <documentation source="http://tools.ietf.org/html/rfc7239">This document defines an HTTP extension header field that allows proxy components to disclose information lost in the proxying process, for example, the originating IP address of a request or IP address of the proxy on the user-agent-facing interface. In a path of proxying components, this makes it possible to arrange it so that each subsequent component will have access to, for example, all IP addresses used in the chain of proxied HTTP requests. This document also specifies guidelines for a proxy administrator to anonymize the origin of a request.</documentation>
+    <documentation source="https://datatracker.ietf.org/doc/html/rfc7239">This document defines an HTTP extension header field that allows proxy components to disclose information lost in the proxying process, for example, the originating IP address of a request or IP address of the proxy on the user-agent-facing interface. In a path of proxying components, this makes it possible to arrange it so that each subsequent component will have access to, for example, all IP addresses used in the chain of proxied HTTP requests. This document also specifies guidelines for a proxy administrator to anonymize the origin of a request.</documentation>
     <http-header def="Forwarded">
-        <documentation source="http://tools.ietf.org/html/rfc7239#section-4">The "Forwarded" HTTP header field is an OPTIONAL header field that, when used, contains a list of parameter-identifier pairs that disclose information that is altered or lost when a proxy is involved in the path of the request.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7239#section-4">The "Forwarded" HTTP header field is an OPTIONAL header field that, when used, contains a list of parameter-identifier pairs that disclose information that is altered or lost when a proxy is involved in the path of the request.</documentation>
     </http-header>
     <http-forwarded-parameter def="by">
-        <documentation source="http://tools.ietf.org/html/rfc7239#section-5.1">The "by" parameter is used to disclose the interface where the request came in to the proxy server.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7239#section-5.1">The "by" parameter is used to disclose the interface where the request came in to the proxy server.</documentation>
     </http-forwarded-parameter>
     <http-forwarded-parameter def="for">
-        <documentation source="http://tools.ietf.org/html/rfc7239#section-5.2">The "for" parameter is used to disclose information about the client that initiated the request and subsequent proxies in a chain of proxies.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7239#section-5.2">The "for" parameter is used to disclose information about the client that initiated the request and subsequent proxies in a chain of proxies.</documentation>
     </http-forwarded-parameter>
     <http-forwarded-parameter def="host">
-        <documentation source="http://tools.ietf.org/html/rfc7239#section-5.3">The "host" parameter is used to forward the original value of the "Host" header field.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7239#section-5.3">The "host" parameter is used to forward the original value of the "Host" header field.</documentation>
     </http-forwarded-parameter>
     <http-forwarded-parameter def="proto">
-        <documentation source="http://tools.ietf.org/html/rfc7239#section-5.4">The "proto" parameter has the value of the used protocol type.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7239#section-5.4">The "proto" parameter has the value of the used protocol type.</documentation>
     </http-forwarded-parameter>
 </service>

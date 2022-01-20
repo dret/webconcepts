@@ -7,7 +7,7 @@ concept-value: +cbor
 description: "The suffix \"+cbor\" MAY be used with any media type whose representation follows the CBOR transfer syntax."
 ---
 
-[The suffix "+cbor" MAY be used with any media type whose representation follows the CBOR transfer syntax.](http://tools.ietf.org/html/rfc7049#section-7.5 "Read documentation for Structured Syntax Suffix &#34;+cbor&#34;") (**[RFC 7049: Concise Binary Object Representation (CBOR)](/specs/IETF/RFC/7049 "The Concise Binary Object Representation (CBOR) is a data format whose design goals include the possibility of extremely small code size, fairly small message size, and extensibility without the need for version negotiation. These design goals make it different from earlier binary serializations such as ASN.1 and MessagePack.")**)
+[The suffix "+cbor" MAY be used with any media type whose representation follows the CBOR transfer syntax.](https://datatracker.ietf.org/doc/html/rfc7049#section-7.5 "Read documentation for Structured Syntax Suffix &#34;+cbor&#34;") (**[RFC 7049: Concise Binary Object Representation (CBOR)](/specs/IETF/RFC/7049 "The Concise Binary Object Representation (CBOR) is a data format whose design goals include the possibility of extremely small code size, fairly small message size, and extensibility without the need for version negotiation. These design goals make it different from earlier binary serializations such as ASN.1 and MessagePack.")**)
 
 <br/>
 <hr/>

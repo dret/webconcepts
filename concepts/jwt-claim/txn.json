@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "An OPTIONAL string value that represents a unique transaction identifier. In cases in which multiple related JWTs are issued, the transaction identifier claim can be used to correlate these related JWTs. Note that this claim can be used in JWTs that are SETs and also in JWTs using non-SET profiles.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8417#section-2.2",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc8417#section-2.2",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8417",
         "spec-name" : "RFC 8417" } ] }

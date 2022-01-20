@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "When included in a resource that represents a collection, the 'item' link relation identifies a target resource that represents a member of that collection.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6573#section-2.1",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6573#section-2.1",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6573",
         "spec-name" : "RFC 6573" } ] }

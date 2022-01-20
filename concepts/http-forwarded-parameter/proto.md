@@ -7,7 +7,7 @@ concept-value: proto
 description: "The \"proto\" parameter has the value of the used protocol type."
 ---
 
-[The "proto" parameter has the value of the used protocol type.](http://tools.ietf.org/html/rfc7239#section-5.4 "Read documentation for HTTP Forwarded Parameter &#34;proto&#34;") (**[RFC 7239: Forwarded HTTP Extension](/specs/IETF/RFC/7239 "This document defines an HTTP extension header field that allows proxy components to disclose information lost in the proxying process, for example, the originating IP address of a request or IP address of the proxy on the user-agent-facing interface. In a path of proxying components, this makes it possible to arrange it so that each subsequent component will have access to, for example, all IP addresses used in the chain of proxied HTTP requests. This document also specifies guidelines for a proxy administrator to anonymize the origin of a request.")**)
+[The "proto" parameter has the value of the used protocol type.](https://datatracker.ietf.org/doc/html/rfc7239#section-5.4 "Read documentation for HTTP Forwarded Parameter &#34;proto&#34;") (**[RFC 7239: Forwarded HTTP Extension](/specs/IETF/RFC/7239 "This document defines an HTTP extension header field that allows proxy components to disclose information lost in the proxying process, for example, the originating IP address of a request or IP address of the proxy on the user-agent-facing interface. In a path of proxying components, this makes it possible to arrange it so that each subsequent component will have access to, for example, all IP addresses used in the chain of proxied HTTP requests. This document also specifies guidelines for a proxy administrator to anonymize the origin of a request.")**)
 
 <br/>
 <hr/>

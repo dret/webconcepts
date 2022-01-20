@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "The origin server initiates a session, if it so desires. To do so, it returns an extra response header to the client, Set-Cookie2.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc2965#section-3.2",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc2965#section-3.2",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/2965",
         "spec-name" : "RFC 2965" } ] }

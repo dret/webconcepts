@@ -12,7 +12,7 @@
         "details" : 
         [ 
           { "description" : "The request requires higher privileges than provided by the access token.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6750#section-3.1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6750#section-3.1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6750",
             "spec-name" : "RFC 6750" } ] },
       
@@ -22,7 +22,7 @@
         "details" : 
         [ 
           { "description" : "The request is missing a required parameter, includes an unsupported parameter or parameter value, repeats the same parameter, uses more than one method for including an access token, or is otherwise malformed.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6750#section-3.1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6750#section-3.1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6750",
             "spec-name" : "RFC 6750" } ] },
       
@@ -32,7 +32,7 @@
         "details" : 
         [ 
           { "description" : "The access token provided is expired, revoked, malformed, or invalid for other reasons.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6750#section-3.1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6750#section-3.1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6750",
             "spec-name" : "RFC 6750" } ] },
       
@@ -42,6 +42,6 @@
         "details" : 
         [ 
           { "description" : "The authorization server does not support the revocation of the presented token type. That is, the client tried to revoke an access token on a server not supporting this feature.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7009#section-2.2.1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7009#section-2.2.1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7009",
             "spec-name" : "RFC 7009" } ] } ] }

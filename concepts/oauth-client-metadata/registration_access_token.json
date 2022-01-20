@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "String containing the access token to be used at the client configuration endpoint to perform subsequent operations upon the client registration.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7592#section-3",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7592#section-3",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7592",
         "spec-name" : "RFC 7592" } ] }

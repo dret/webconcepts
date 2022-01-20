@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "The \"by\" parameter is used to disclose the interface where the request came in to the proxy server.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7239#section-5.1",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7239#section-5.1",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7239",
         "spec-name" : "RFC 7239" } ] }

@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "\"JSON text sequences\" are specifically not JSON texts themselves but are composed of (possible) JSON texts. JSON text sequences can be parsed (and produced) incrementally without having to have a streaming parser (nor streaming encoder).",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7464#section-2",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7464#section-2",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7464",
         "spec-name" : "RFC 7464" } ] }

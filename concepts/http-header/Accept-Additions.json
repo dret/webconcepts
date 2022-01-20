@@ -5,11 +5,11 @@
     "details" : 
     [ 
       { "description" : "In HTTP, the \"Accept\" request-header field is used to specify media types which are acceptable for the response. However, in HTCPCP, the response may result in additional actions on the part of the automated pot. For this reason, HTCPCP adds a new header field, \"Accept-Additions\".",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc2324#section-2.2.2.1",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc2324#section-2.2.2.1",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/2324",
         "spec-name" : "RFC 2324" },
       
       { "description" : "It has been observed that some users of blended teas have an occasional preference for teas brewed as an emulsion of cane sugar with hints of water. To allow for this circumstance, the Accept-Additions header field defined in the base HTCPCP specification is updated to allow the following options.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7168#section-2.2.1",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7168#section-2.2.1",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7168",
         "spec-name" : "RFC 7168" } ] }

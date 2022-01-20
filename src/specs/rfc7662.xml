@@ -1,41 +1,41 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <service primary="IETF" secondary="RFC" id="7662">
     <title>OAuth 2.0 Token Introspection</title>
-    <documentation source="http://tools.ietf.org/html/rfc7662">This specification defines a method for a protected resource to query an OAuth 2.0 authorization server to determine the active state of an OAuth 2.0 token and to determine meta-information about this token. OAuth 2.0 deployments can use this method to convey information about the authorization context of the token from the authorization server to the protected resource.</documentation>
+    <documentation source="https://datatracker.ietf.org/doc/html/rfc7662">This specification defines a method for a protected resource to query an OAuth 2.0 authorization server to determine the active state of an OAuth 2.0 token and to determine meta-information about this token. OAuth 2.0 deployments can use this method to convey information about the authorization context of the token from the authorization server to the protected resource.</documentation>
     <oauth-token-introspection-response def="active">
-        <documentation source="http://tools.ietf.org/html/rfc7662#section-2.2">Boolean indicator of whether or not the presented token is currently active.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7662#section-2.2">Boolean indicator of whether or not the presented token is currently active.</documentation>
     </oauth-token-introspection-response>
     <oauth-token-introspection-response def="username">
-        <documentation source="http://tools.ietf.org/html/rfc7662#section-2.2">Human-readable identifier for the resource owner who authorized this token.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7662#section-2.2">Human-readable identifier for the resource owner who authorized this token.</documentation>
     </oauth-token-introspection-response>
     <oauth-token-introspection-response def="client_id">
-        <documentation source="http://tools.ietf.org/html/rfc7662#section-2.2">Client identifier for the OAuth 2.0 client that requested this token.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7662#section-2.2">Client identifier for the OAuth 2.0 client that requested this token.</documentation>
     </oauth-token-introspection-response>
     <oauth-token-introspection-response def="scope">
-        <documentation source="http://tools.ietf.org/html/rfc7662#section-2.2">A JSON string containing a space-separated list of scopes associated with this token, in the format described in OAuth 2.0.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7662#section-2.2">A JSON string containing a space-separated list of scopes associated with this token, in the format described in OAuth 2.0.</documentation>
     </oauth-token-introspection-response>
     <oauth-token-introspection-response def="token_type">
-        <documentation source="http://tools.ietf.org/html/rfc7662#section-2.2">Type of the token as defined in OAuth 2.0.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7662#section-2.2">Type of the token as defined in OAuth 2.0.</documentation>
     </oauth-token-introspection-response>
     <oauth-token-introspection-response def="exp">
-        <documentation source="http://tools.ietf.org/html/rfc7662#section-2.2">Integer timestamp, measured in the number of seconds since January 1 1970 UTC, indicating when this token will expire, as defined in JWT</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7662#section-2.2">Integer timestamp, measured in the number of seconds since January 1 1970 UTC, indicating when this token will expire, as defined in JWT</documentation>
     </oauth-token-introspection-response>
     <oauth-token-introspection-response def="iat">
-        <documentation source="http://tools.ietf.org/html/rfc7662#section-2.2">Integer timestamp, measured in the number of seconds since January 1 1970 UTC, indicating when this token was originally issued, as defined in JWT.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7662#section-2.2">Integer timestamp, measured in the number of seconds since January 1 1970 UTC, indicating when this token was originally issued, as defined in JWT.</documentation>
     </oauth-token-introspection-response>
     <oauth-token-introspection-response def="nbf">
-        <documentation source="http://tools.ietf.org/html/rfc7662#section-2.2">Integer timestamp, measured in the number of seconds since January 1 1970 UTC, indicating when this token is not to be used before, as defined in JWT.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7662#section-2.2">Integer timestamp, measured in the number of seconds since January 1 1970 UTC, indicating when this token is not to be used before, as defined in JWT.</documentation>
     </oauth-token-introspection-response>
     <oauth-token-introspection-response def="sub">
-        <documentation source="http://tools.ietf.org/html/rfc7662#section-2.2">Subject of the token, as defined in JWT. Usually a machine-readable identifier of the resource owner who authorized this token.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7662#section-2.2">Subject of the token, as defined in JWT. Usually a machine-readable identifier of the resource owner who authorized this token.</documentation>
     </oauth-token-introspection-response>
     <oauth-token-introspection-response def="aud">
-        <documentation source="http://tools.ietf.org/html/rfc7662#section-2.2">Service-specific string identifier or list of string identifiers representing the intended audience for this token, as defined in JWT.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7662#section-2.2">Service-specific string identifier or list of string identifiers representing the intended audience for this token, as defined in JWT.</documentation>
     </oauth-token-introspection-response>
     <oauth-token-introspection-response def="iss">
-        <documentation source="http://tools.ietf.org/html/rfc7662#section-2.2">String representing the issuer of this token, as defined in JWT.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7662#section-2.2">String representing the issuer of this token, as defined in JWT.</documentation>
     </oauth-token-introspection-response>
     <oauth-token-introspection-response def="jti">
-        <documentation source="http://tools.ietf.org/html/rfc7662#section-2.2">String identifier for the token, as defined in JWT.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7662#section-2.2">String identifier for the token, as defined in JWT.</documentation>
     </oauth-token-introspection-response>
 </service>

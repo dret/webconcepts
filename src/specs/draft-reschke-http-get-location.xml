@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <service primary="IETF" secondary="I-D" id="reschke-http-get-location">
     <title>The Hypertext Transfer Protocol (HTTP) GET-Location header</title>
-    <documentation source="http://tools.ietf.org/html/draft-reschke-http-get-location">Several hypertext transfer protocol (HTTP) extensions use methods other than GET to expose information.  This has the drawback that this kind of information is harder to identify (missing a URL to which a GET request could be applied) and to cache. This document specifies a simple extension header through which a server can advertise a substitute URL that an HTTP client subsequently can use with the GET method.</documentation>
+    <documentation source="https://datatracker.ietf.org/doc/html/draft-reschke-http-get-location">Several hypertext transfer protocol (HTTP) extensions use methods other than GET to expose information.  This has the drawback that this kind of information is harder to identify (missing a URL to which a GET request could be applied) and to cache. This document specifies a simple extension header through which a server can advertise a substitute URL that an HTTP client subsequently can use with the GET method.</documentation>
     <http-header def="GET-Location">
-        <documentation source="http://tools.ietf.org/html/draft-reschke-http-get-location#section-3">The GET-Location entity header identifies a substitute resource that can be used in subsequent requests for the same information, but using the GET method.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/draft-reschke-http-get-location#section-3">The GET-Location entity header identifies a substitute resource that can be used in subsequent requests for the same information, but using the GET method.</documentation>
     </http-header>
 </service>

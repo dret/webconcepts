@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <service primary="IETF" secondary="RFC" id="7800">
     <title>Proof-of-Possession Key Semantics for JSON Web Tokens (JWTs)</title>
-    <documentation source="http://tools.ietf.org/html/rfc7800">This specification describes how to declare in a JSON Web Token (JWT) that the presenter of the JWT possesses a particular proof-of-possession key and how the recipient can cryptographically confirm proof of possession of the key by the presenter. Being able to prove possession of a key is also sometimes described as the presenter being a holder-of-key.</documentation>
+    <documentation source="https://datatracker.ietf.org/doc/html/rfc7800">This specification describes how to declare in a JSON Web Token (JWT) that the presenter of the JWT possesses a particular proof-of-possession key and how the recipient can cryptographically confirm proof of possession of the key by the presenter. Being able to prove possession of a key is also sometimes described as the presenter being a holder-of-key.</documentation>
     <jwt-claim def="cnf">
-        <documentation source="http://tools.ietf.org/html/rfc7800#section-3.1">The "cnf" claim is used in the JWT to contain members used to identify the proof-of-possession key.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7800#section-3.1">The "cnf" claim is used in the JWT to contain members used to identify the proof-of-possession key.</documentation>
     </jwt-claim>
     <jwt-confirmation-method def="jwk">
-        <documentation source="http://tools.ietf.org/html/rfc7800#section-3.2">When the key held by the presenter is an asymmetric private key, the "jwk" member is a JSON Web Key representing the corresponding asymmetric public key.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7800#section-3.2">When the key held by the presenter is an asymmetric private key, the "jwk" member is a JSON Web Key representing the corresponding asymmetric public key.</documentation>
     </jwt-confirmation-method>
     <jwt-confirmation-method def="jwe">
-        <documentation source="http://tools.ietf.org/html/rfc7800#section-3.3">When the key held by the presenter is a symmetric key, the "jwe" member is an encrypted JSON Web Key encrypted to a key known to the recipient using the JWE Compact Serialization containing the symmetric key.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7800#section-3.3">When the key held by the presenter is a symmetric key, the "jwe" member is an encrypted JSON Web Key encrypted to a key known to the recipient using the JWE Compact Serialization containing the symmetric key.</documentation>
     </jwt-confirmation-method>
     <jwt-confirmation-method def="kid">
-        <documentation source="http://tools.ietf.org/html/rfc7800#section-3.4">The proof-of-possession key can also be identified by the use of a Key ID instead of communicating the actual key, provided the recipient is able to obtain the identified key using the Key ID.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7800#section-3.4">The proof-of-possession key can also be identified by the use of a Key ID instead of communicating the actual key, provided the recipient is able to obtain the identified key using the Key ID.</documentation>
     </jwt-confirmation-method>
     <jwt-confirmation-method def="jku">
-        <documentation source="http://tools.ietf.org/html/rfc7800#section-3.5">The proof-of-possession key can be passed by reference instead of being passed by value. This is done using the "jku" member. Its value is a URI that refers to a resource for a set of JSON-encoded public keys represented as a JWK Set, one of which is the proof-of-possession key.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7800#section-3.5">The proof-of-possession key can be passed by reference instead of being passed by value. This is done using the "jku" member. Its value is a URI that refers to a resource for a set of JSON-encoded public keys represented as a JWK Set, one of which is the proof-of-possession key.</documentation>
     </jwt-confirmation-method>
 </service>

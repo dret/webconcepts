@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "The UNLINK method is used to remove one or more relationships between the resource identified by the effective request URI and other resources.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/draft-snell-link-method#section-4",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-snell-link-method#section-4",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/snell-link-method",
         "spec-name" : "Internet Draft snell-link-method" } ] }

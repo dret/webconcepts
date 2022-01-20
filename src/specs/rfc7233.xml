@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <service primary="IETF" secondary="RFC" id="7233">
     <title>Hypertext Transfer Protocol (HTTP/1.1): Range Requests</title>
-    <documentation source="http://tools.ietf.org/html/rfc7233">The Hypertext Transfer Protocol (HTTP) is an application-level protocol for distributed, collaborative, hypertext information systems. This document defines range requests and the rules for constructing and combining responses to those requests.</documentation>
+    <documentation source="https://datatracker.ietf.org/doc/html/rfc7233">The Hypertext Transfer Protocol (HTTP) is an application-level protocol for distributed, collaborative, hypertext information systems. This document defines range requests and the rules for constructing and combining responses to those requests.</documentation>
     <http-header def="Accept-Ranges">
-        <documentation source="http://tools.ietf.org/html/rfc7233#section-2.3">The "Accept-Ranges" header field allows a server to indicate that it supports range requests for the target resource.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7233#section-2.3">The "Accept-Ranges" header field allows a server to indicate that it supports range requests for the target resource.</documentation>
     </http-header>
     <http-header def="Range">
-        <documentation source="http://tools.ietf.org/html/rfc7233#section-3.1">The "Range" header field on a GET request modifies the method semantics to request transfer of only one or more subranges of the selected representation data, rather than the entire selected representation data.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7233#section-3.1">The "Range" header field on a GET request modifies the method semantics to request transfer of only one or more subranges of the selected representation data, rather than the entire selected representation data.</documentation>
     </http-header>
     <http-header def="If-Range">
-        <documentation source="http://tools.ietf.org/html/rfc7233#section-3.2">If a client has a partial copy of a representation and wishes to have an up-to-date copy of the entire representation, it could use the Range header field with a conditional GET (using either or both of If-Unmodified-Since and If-Match.)  However, if the precondition fails because the representation has been modified, the client would then have to make a second request to obtain the entire current representation. The "If-Range" header field allows a client to "short-circuit" the second request. Informally, its meaning is: if the representation is unchanged, send me the part(s) that I am requesting in Range; otherwise, send me the entire representation.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7233#section-3.2">If a client has a partial copy of a representation and wishes to have an up-to-date copy of the entire representation, it could use the Range header field with a conditional GET (using either or both of If-Unmodified-Since and If-Match.)  However, if the precondition fails because the representation has been modified, the client would then have to make a second request to obtain the entire current representation. The "If-Range" header field allows a client to "short-circuit" the second request. Informally, its meaning is: if the representation is unchanged, send me the part(s) that I am requesting in Range; otherwise, send me the entire representation.</documentation>
     </http-header>
     <http-header def="Content-Range">
-        <documentation source="http://tools.ietf.org/html/rfc7233#section-4.2">The "Content-Range" header field is sent in a single part 206 (Partial Content) response to indicate the partial range of the selected representation enclosed as the message payload, sent in each part of a multipart 206 response to indicate the range enclosed within each body part, and sent in 416 (Range Not Satisfiable) responses to provide information about the selected representation.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7233#section-4.2">The "Content-Range" header field is sent in a single part 206 (Partial Content) response to indicate the partial range of the selected representation enclosed as the message payload, sent in each part of a multipart 206 response to indicate the range enclosed within each body part, and sent in 416 (Range Not Satisfiable) responses to provide information about the selected representation.</documentation>
     </http-header>
     <http-status-code def="206" desc="Partial Content">
-        <documentation source="http://tools.ietf.org/html/rfc7233#section-4.1">The 206 (Partial Content) status code indicates that the server is successfully fulfilling a range request for the target resource by transferring one or more parts of the selected representation that correspond to the satisfiable ranges found in the request's Range header field.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7233#section-4.1">The 206 (Partial Content) status code indicates that the server is successfully fulfilling a range request for the target resource by transferring one or more parts of the selected representation that correspond to the satisfiable ranges found in the request's Range header field.</documentation>
     </http-status-code>
     <http-status-code def="416" desc="Range Not Satisfiable">
-        <documentation source="http://tools.ietf.org/html/rfc7233#section-4.4">The 416 (Range Not Satisfiable) status code indicates that none of the ranges in the request's Range header field (Section 3.1) overlap the current extent of the selected resource or that the set of ranges requested has been rejected due to invalid ranges or an excessive request of small or overlapping ranges.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7233#section-4.4">The 416 (Range Not Satisfiable) status code indicates that none of the ranges in the request's Range header field (Section 3.1) overlap the current extent of the selected resource or that the set of ranges requested has been rejected due to invalid ranges or an excessive request of small or overlapping ranges.</documentation>
     </http-status-code>
     <http-range-unit def="none">
-        <documentation source="http://tools.ietf.org/html/rfc7233#section-2.3">A server that does not support any kind of range request for the target resource MAY send "Accept-Ranges: none" to advise the client not to attempt a range request.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7233#section-2.3">A server that does not support any kind of range request for the target resource MAY send "Accept-Ranges: none" to advise the client not to attempt a range request.</documentation>
     </http-range-unit>
     <http-range-unit def="bytes">
-        <documentation source="http://tools.ietf.org/html/rfc7233#section-2.1">Since representation data is transferred in payloads as a sequence of octets, a byte range is a meaningful substructure for any representation transferable over HTTP. The "bytes" range unit is defined for expressing subranges of the data's octet sequence.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7233#section-2.1">Since representation data is transferred in payloads as a sequence of octets, a byte range is a meaningful substructure for any representation transferable over HTTP. The "bytes" range unit is defined for expressing subranges of the data's octet sequence.</documentation>
     </http-range-unit>
 </service>

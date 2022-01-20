@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <service primary="IETF" secondary="I-D" id="kelly-json-hal">
     <title>JSON Hypertext Application Language</title>
-    <documentation source="http://tools.ietf.org/html/draft-kelly-json-hal">This document proposes a media type for representing resources and their relations with hyperlinks.</documentation>
+    <documentation source="https://datatracker.ietf.org/doc/html/draft-kelly-json-hal">This document proposes a media type for representing resources and their relations with hyperlinks.</documentation>
     <media-type def="application/hal+json">
-        <documentation source="http://tools.ietf.org/html/draft-kelly-json-hal#section-1">HAL is a generic media type with which Web APIs can be developed and exposed as series of links. Clients of these APIs can select links by their link relation type and traverse them in order to progress through the application.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/draft-kelly-json-hal#section-1">HAL is a generic media type with which Web APIs can be developed and exposed as series of links. Clients of these APIs can select links by their link relation type and traverse them in order to progress through the application.</documentation>
     </media-type>
 </service>

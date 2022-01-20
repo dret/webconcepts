@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "If an XML document - that is, the unprocessed, source XML document - is readable by casual users, text\/xml is preferable to application\/xml. MIME user agents (and web user agents) that do not have explicit support for text\/xml will treat it as text\/plain, for example, by displaying the XML MIME entity as plain text.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc3023#section-3.1",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc3023#section-3.1",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/3023",
         "spec-name" : "RFC 3023" } ] }

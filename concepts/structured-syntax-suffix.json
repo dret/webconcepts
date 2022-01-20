@@ -12,7 +12,7 @@
         "details" : 
         [ 
           { "description" : "The suffix \"+ber\" MAY be used with any media type whose representation follows the BER transfer syntax.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6839#section-3.2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6839#section-3.2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6839",
             "spec-name" : "RFC 6839" } ] },
       
@@ -22,7 +22,7 @@
         "details" : 
         [ 
           { "description" : "The suffix \"+cbor\" MAY be used with any media type whose representation follows the CBOR transfer syntax.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7049#section-7.5",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7049#section-7.5",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7049",
             "spec-name" : "RFC 7049" } ] },
       
@@ -32,7 +32,7 @@
         "details" : 
         [ 
           { "description" : "The suffix \"+der\" MAY be used with any media type whose representation follows the DER transfer syntax.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6839#section-3.3",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6839#section-3.3",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6839",
             "spec-name" : "RFC 6839" } ] },
       
@@ -42,7 +42,7 @@
         "details" : 
         [ 
           { "description" : "This document defines a new Structured Syntax Suffix \"+exi\" for use in media types for a specific class of protocols, where the \"exi\" content-type encoding or the generic \"application\/exi\" media type are not viable.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/draft-shelby-exi-registration#section-2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-shelby-exi-registration#section-2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/shelby-exi-registration",
             "spec-name" : "Internet Draft shelby-exi-registration" } ] },
       
@@ -52,7 +52,7 @@
         "details" : 
         [ 
           { "description" : "The suffix \"+fastinfoset\" MAY be used with any media type whose representation follows that established for \"application\/fastinfoset\".",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6839#section-3.4",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6839#section-3.4",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6839",
             "spec-name" : "RFC 6839" } ] },
       
@@ -62,7 +62,7 @@
         "details" : 
         [ 
           { "description" : "The suffix \"+json\" MAY be used with any media type whose representation follows that established for \"application\/json\".",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6839#section-3.1",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6839#section-3.1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6839",
             "spec-name" : "RFC 6839" } ] },
       
@@ -72,7 +72,7 @@
         "details" : 
         [ 
           { "description" : "The use case for the \"+json-seq\" structured syntax suffix is the same as for \"+json\": It SHOULD be used by media types when parsing the JSON text sequence of a media type leads to a meaningful result, by simply using the generic JSON text sequence processing.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8091#section-3",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc8091#section-3",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8091",
             "spec-name" : "RFC 8091" } ] },
       
@@ -82,7 +82,7 @@
         "details" : 
         [ 
           { "description" : "The \"+jwt\" structured syntax suffix can be used to indicate that the media type is encoded as a JWT.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8417#section-7.2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc8417#section-7.2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8417",
             "spec-name" : "RFC 8417" } ] },
       
@@ -92,7 +92,7 @@
         "details" : 
         [ 
           { "description" : "The suffix \"+wbxml\" MAY be used with any media type whose representation follows that established for \"application\/vnd.wap.wbxml\".",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6839#section-3.5",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6839#section-3.5",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6839",
             "spec-name" : "RFC 6839" } ] },
       
@@ -102,7 +102,7 @@
         "details" : 
         [ 
           { "description" : "When a new media type is introduced for an XML-based format, the name of the media type SHOULD end with '+xml' unless generic XML processing is in some way inappropriate for documents of the new type.",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7303#section-4.2",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7303#section-4.2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7303",
             "spec-name" : "RFC 7303" } ] },
       
@@ -112,6 +112,6 @@
         "details" : 
         [ 
           { "description" : "The suffix \"+zip\" MAY be used with any media type whose representation follows that established for \"application\/zip\".",
-            "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6839#section-3.6",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6839#section-3.6",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6839",
             "spec-name" : "RFC 6839" } ] } ] }

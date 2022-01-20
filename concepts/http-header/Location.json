@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "The \"Location\" header field is used in some responses to refer to a specific resource in relation to the response. The type of relationship is defined by the combination of request method and status code semantics.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7231#section-7.1.2",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7231#section-7.1.2",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7231",
         "spec-name" : "RFC 7231" } ] }

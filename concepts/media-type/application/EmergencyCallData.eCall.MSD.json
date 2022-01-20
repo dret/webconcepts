@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "Pan-European eCall provides a standardized and mandated set of vehicle-related data (including VIN, vehicle type, propulsion type, current and optionally previous location coordinates, and the number of occupants) known as the Minimum Set of Data (MSD). The application\/EmergencyCallData.eCall.MSD media type enables the MSD to be carried in SIP.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8147#section-5",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc8147#section-5",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8147",
         "spec-name" : "RFC 8147" } ] }

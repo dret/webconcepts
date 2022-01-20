@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "A DNS URI designates a DNS resource record set, referenced by domain name, class, type, and, optionally, the authority.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc4501#section-3",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc4501#section-3",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/4501",
         "spec-name" : "RFC 4501" } ] }

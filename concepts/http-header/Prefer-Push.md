@@ -7,7 +7,7 @@ concept-value: Prefer-Push
 description: "\"Prefer-Push\" is an HTTP header field that a client may use to request that a server uses HTTP/2 Push to send related resources as identified by their link relationships."
 ---
 
-["Prefer-Push" is an HTTP header field that a client may use to request that a server uses HTTP/2 Push to send related resources as identified by their link relationships.](http://tools.ietf.org/html/draft-pot-prefer-push#section-3 "Read documentation for HTTP Header Field &#34;Prefer-Push&#34;") (**[Internet Draft pot-prefer-push: HTTP-client suggested Push Preference](/specs/IETF/I-D/pot-prefer-push "&#34;Prefer-Push&#34; is a HTTP header that a client may use to request that a server uses HTTP/2 Push to send related resources as identified by their link relationships.")**)
+["Prefer-Push" is an HTTP header field that a client may use to request that a server uses HTTP/2 Push to send related resources as identified by their link relationships.](https://datatracker.ietf.org/doc/html/draft-pot-prefer-push#section-3 "Read documentation for HTTP Header Field &#34;Prefer-Push&#34;") (**[Internet Draft pot-prefer-push: HTTP-client suggested Push Preference](/specs/IETF/I-D/pot-prefer-push "&#34;Prefer-Push&#34; is a HTTP header that a client may use to request that a server uses HTTP/2 Push to send related resources as identified by their link relationships.")**)
 
 <br/>
 <hr/>

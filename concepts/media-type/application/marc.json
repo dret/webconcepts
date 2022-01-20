@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "Since there are different flavors of MARC which would be processed by different applications, this content-type\/subtype refers to the harmonized USMARC\/CANMARC specification. Additional content-types\/subtypes may be defined in the future (e.g. application\/unimarc).",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc2220#section-2",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc2220#section-2",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/2220",
         "spec-name" : "RFC 2220" } ] }

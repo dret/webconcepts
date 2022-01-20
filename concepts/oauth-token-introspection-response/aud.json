@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "Service-specific string identifier or list of string identifiers representing the intended audience for this token, as defined in JWT.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7662#section-2.2",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7662#section-2.2",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7662",
         "spec-name" : "RFC 7662" } ] }

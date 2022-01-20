@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <service primary="IETF" secondary="I-D" id="wilde-sunset-header">
     <title>The Sunset HTTP Header Field</title>
-    <documentation source="http://tools.ietf.org/html/draft-wilde-sunset-header">This specification defines the Sunset HTTP response header field, which indicates that a URI is likely to become unresponsive at a specified point in the future. It also defines a sunset link relation type that allows linking to resources providing information about an upcoming resource or service sunset.</documentation>
+    <documentation source="https://datatracker.ietf.org/doc/html/draft-wilde-sunset-header">This specification defines the Sunset HTTP response header field, which indicates that a URI is likely to become unresponsive at a specified point in the future. It also defines a sunset link relation type that allows linking to resources providing information about an upcoming resource or service sunset.</documentation>
     <http-header def="Sunset">
-        <documentation source="http://tools.ietf.org/html/draft-wilde-sunset-header#section-3">The Sunset HTTP response header field allows a server to communicate the fact that a resource is expected to become unresponsive at a specific point in time. It provides information for clients which they can use to control their usage of the resource. The Sunset header contains a single timestamp which advertises the point in time when the resource is expected to become unresponsive.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/draft-wilde-sunset-header#section-3">The Sunset HTTP response header field allows a server to communicate the fact that a resource is expected to become unresponsive at a specific point in time. It provides information for clients which they can use to control their usage of the resource. The Sunset header contains a single timestamp which advertises the point in time when the resource is expected to become unresponsive.</documentation>
     </http-header>
     <link-relation def="sunset">
-        <documentation source="http://tools.ietf.org/html/draft-wilde-sunset-header#section-5">Identifies a resource that provides information about the context's retirement policy.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/draft-wilde-sunset-header#section-5">Identifies a resource that provides information about the context's retirement policy.</documentation>
     </link-relation>
 </service>

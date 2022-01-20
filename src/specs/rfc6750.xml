@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <service primary="IETF" secondary="RFC" id="6750">
     <title>The OAuth 2.0 Authorization Framework: Bearer Token Usage</title>
-    <documentation source="http://tools.ietf.org/html/rfc6750">This specification describes how to use bearer tokens in HTTP requests to access OAuth 2.0 protected resources. Any party in possession of a bearer token (a "bearer") can use it to get access to the associated resources (without demonstrating possession of a cryptographic key). To prevent misuse, bearer tokens need to be protected from disclosure in storage and in transport.</documentation>
+    <documentation source="https://datatracker.ietf.org/doc/html/rfc6750">This specification describes how to use bearer tokens in HTTP requests to access OAuth 2.0 protected resources. Any party in possession of a bearer token (a "bearer") can use it to get access to the associated resources (without demonstrating possession of a cryptographic key). To prevent misuse, bearer tokens need to be protected from disclosure in storage and in transport.</documentation>
     <oauth-access-token-type def="Bearer">
-        <documentation source="http://tools.ietf.org/html/rfc6750#section-1.2">A security token with the property that any party in possession of the token (a "bearer") can use the token in any way that any other party in possession of it can. Using a bearer token does not require a bearer to prove possession of cryptographic key material (proof-of-possession).</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc6750#section-1.2">A security token with the property that any party in possession of the token (a "bearer") can use the token in any way that any other party in possession of it can. Using a bearer token does not require a bearer to prove possession of cryptographic key material (proof-of-possession).</documentation>
     </oauth-access-token-type>
     <oauth-extension-error def="invalid_request">
-        <documentation source="http://tools.ietf.org/html/rfc6750#section-3.1">The request is missing a required parameter, includes an unsupported parameter or parameter value, repeats the same parameter, uses more than one method for including an access token, or is otherwise malformed.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc6750#section-3.1">The request is missing a required parameter, includes an unsupported parameter or parameter value, repeats the same parameter, uses more than one method for including an access token, or is otherwise malformed.</documentation>
     </oauth-extension-error>
     <oauth-extension-error def="invalid_token">
-        <documentation source="http://tools.ietf.org/html/rfc6750#section-3.1">The access token provided is expired, revoked, malformed, or invalid for other reasons.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc6750#section-3.1">The access token provided is expired, revoked, malformed, or invalid for other reasons.</documentation>
     </oauth-extension-error>
     <oauth-extension-error def="insufficient_scope">
-        <documentation source="http://tools.ietf.org/html/rfc6750#section-3.1">The request requires higher privileges than provided by the access token.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc6750#section-3.1">The request requires higher privileges than provided by the access token.</documentation>
     </oauth-extension-error>
     <http-authentication-scheme def="Bearer">
-        <documentation source="http://tools.ietf.org/html/rfc6750#section-3">All challenges defined by this specification MUST use the auth-scheme value "Bearer". This scheme MUST be followed by one or more auth-param values.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc6750#section-3">All challenges defined by this specification MUST use the auth-scheme value "Bearer". This scheme MUST be followed by one or more auth-param values.</documentation>
     </http-authentication-scheme>
 </service>

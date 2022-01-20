@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "Code verifier transformation method is \"S256\" or \"plain\". Defaults to \"plain\" if not present in the request.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7636#section-4.3",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7636#section-4.3",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7636",
         "spec-name" : "RFC 7636" } ] }

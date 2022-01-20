@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <service primary="IETF" secondary="I-D" id="ietf-calext-caldav-attachments">
     <title>CalDAV Managed Attachments</title>
-    <documentation source="http://tools.ietf.org/html/draft-ietf-calext-caldav-attachments">This specification defines an extension to the calendar access protocol (CalDAV) to allow attachments associated with iCalendar data to be stored and managed on the server.</documentation>
+    <documentation source="https://datatracker.ietf.org/doc/html/draft-ietf-calext-caldav-attachments">This specification defines an extension to the calendar access protocol (CalDAV) to allow attachments associated with iCalendar data to be stored and managed on the server.</documentation>
     <http-header def="Cal-Managed-ID">
-        <documentation source="http://tools.ietf.org/html/draft-ietf-calext-caldav-attachments#section-5.1">The Cal-Managed-ID response header field provides the value of the MANAGED-ID parameter corresponding to a newly added ATTACH property. It MUST be sent only in response to a successful POST request with an action set to attachment-add or attachment-update.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/draft-ietf-calext-caldav-attachments#section-5.1">The Cal-Managed-ID response header field provides the value of the MANAGED-ID parameter corresponding to a newly added ATTACH property. It MUST be sent only in response to a successful POST request with an action set to attachment-add or attachment-update.</documentation>
     </http-header>
 </service>

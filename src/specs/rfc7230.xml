@@ -1,77 +1,77 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <service primary="IETF" secondary="RFC" id="7230">
     <title>Hypertext Transfer Protocol (HTTP/1.1): Message Syntax and Routing</title>
-    <documentation source="http://tools.ietf.org/html/rfc7230">The Hypertext Transfer Protocol (HTTP) is an application-level protocol for distributed, collaborative, hypertext information systems. HTTP has been in use by the World Wide Web global information initiative since 1990. This document provides an overview of HTTP architecture and its associated terminology, defines the "http" and "https" Uniform Resource Identifier (URI) schemes, defines the HTTP/1.1 message syntax and parsing requirements, and describes general security concerns for implementations.</documentation>
+    <documentation source="https://datatracker.ietf.org/doc/html/rfc7230">The Hypertext Transfer Protocol (HTTP) is an application-level protocol for distributed, collaborative, hypertext information systems. HTTP has been in use by the World Wide Web global information initiative since 1990. This document provides an overview of HTTP architecture and its associated terminology, defines the "http" and "https" Uniform Resource Identifier (URI) schemes, defines the HTTP/1.1 message syntax and parsing requirements, and describes general security concerns for implementations.</documentation>
     <http-header def="Transfer-Encoding">
-        <documentation source="http://tools.ietf.org/html/rfc7230#section-3.3.1">The Transfer-Encoding header field lists the transfer coding names corresponding to the sequence of transfer codings that have been (or will be) applied to the payload body in order to form the message body.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7230#section-3.3.1">The Transfer-Encoding header field lists the transfer coding names corresponding to the sequence of transfer codings that have been (or will be) applied to the payload body in order to form the message body.</documentation>
     </http-header>
     <http-header def="Content-Length">
-        <documentation source="http://tools.ietf.org/html/rfc7230#section-3.3.2">When a message does not have a Transfer-Encoding header field, a Content-Length header field can provide the anticipated size, as a decimal number of octets, for a potential payload body. For messages that do include a payload body, the Content-Length field-value provides the framing information necessary for determining where the body (and message) ends. For messages that do not include a payload body, the Content-Length indicates the size of the selected representation (Section 3 of [Part2]).</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7230#section-3.3.2">When a message does not have a Transfer-Encoding header field, a Content-Length header field can provide the anticipated size, as a decimal number of octets, for a potential payload body. For messages that do include a payload body, the Content-Length field-value provides the framing information necessary for determining where the body (and message) ends. For messages that do not include a payload body, the Content-Length indicates the size of the selected representation (Section 3 of [Part2]).</documentation>
     </http-header>
     <http-header def="TE">
-        <documentation source="http://tools.ietf.org/html/rfc7230#section-4.3">The "TE" header field in a request indicates what transfer codings, besides chunked, the client is willing to accept in response, and whether or not the client is willing to accept trailer fields in a chunked transfer coding.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7230#section-4.3">The "TE" header field in a request indicates what transfer codings, besides chunked, the client is willing to accept in response, and whether or not the client is willing to accept trailer fields in a chunked transfer coding.</documentation>
     </http-header>
     <http-header def="Trailer">
-        <documentation source="http://tools.ietf.org/html/rfc7230#section-4.4">When a message includes a message body encoded with the chunked transfer coding and the sender desires to send metadata in the form of trailer fields at the end of the message, the sender SHOULD generate a Trailer header field before the message body to indicate which fields will be present in the trailers.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7230#section-4.4">When a message includes a message body encoded with the chunked transfer coding and the sender desires to send metadata in the form of trailer fields at the end of the message, the sender SHOULD generate a Trailer header field before the message body to indicate which fields will be present in the trailers.</documentation>
     </http-header>
     <http-header def="Host">
-        <documentation source="http://tools.ietf.org/html/rfc7230#section-5.4">The "Host" header field in a request provides the host and port information from the target URI, enabling the origin server to distinguish among resources while servicing requests for multiple host names on a single IP address.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7230#section-5.4">The "Host" header field in a request provides the host and port information from the target URI, enabling the origin server to distinguish among resources while servicing requests for multiple host names on a single IP address.</documentation>
     </http-header>
     <http-header def="Via">
-        <documentation source="http://tools.ietf.org/html/rfc7230#section-5.7.1">The "Via" header field indicates the presence of intermediate protocols and recipients between the user agent and the server (on requests) or between the origin server and the client (on responses), similar to the "Received" header field in email (Section 3.6.7 of RFC 5322). Via can be used for tracking message forwards, avoiding request loops, and identifying the protocol capabilities of senders along the request/response chain.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7230#section-5.7.1">The "Via" header field indicates the presence of intermediate protocols and recipients between the user agent and the server (on requests) or between the origin server and the client (on responses), similar to the "Received" header field in email (Section 3.6.7 of RFC 5322). Via can be used for tracking message forwards, avoiding request loops, and identifying the protocol capabilities of senders along the request/response chain.</documentation>
     </http-header>
     <http-header def="Connection">
-        <documentation source="http://tools.ietf.org/html/rfc7230#section-6.1">The "Connection" header field allows the sender to indicate desired control options for the current connection. In order to avoid confusing downstream recipients, a proxy or gateway MUST remove or replace any received connection options before forwarding the message.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7230#section-6.1">The "Connection" header field allows the sender to indicate desired control options for the current connection. In order to avoid confusing downstream recipients, a proxy or gateway MUST remove or replace any received connection options before forwarding the message.</documentation>
     </http-header>
     <http-header def="Upgrade">
-        <documentation source="http://tools.ietf.org/html/rfc7230#section-6.7">The "Upgrade" header field is intended to provide a simple mechanism for transitioning from HTTP/1.1 to some other protocol on the same connection. A client MAY send a list of protocols in the Upgrade header field of a request to invite the server to switch to one or more of those protocols, in order of descending preference, before sending the final response.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7230#section-6.7">The "Upgrade" header field is intended to provide a simple mechanism for transitioning from HTTP/1.1 to some other protocol on the same connection. A client MAY send a list of protocols in the Upgrade header field of a request to invite the server to switch to one or more of those protocols, in order of descending preference, before sending the final response.</documentation>
     </http-header>
     <http-header def="Close">
-        <documentation source="http://tools.ietf.org/html/rfc7230#section-8.1">The header field-name "Close" has been registered as "reserved", since using that name as an HTTP header field might conflict with the "close" connection option of the Connection header field.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7230#section-8.1">The header field-name "Close" has been registered as "reserved", since using that name as an HTTP header field might conflict with the "close" connection option of the Connection header field.</documentation>
     </http-header>
     <http-content-coding def="compress">
-        <documentation source="http://tools.ietf.org/html/rfc7230#section-4.2.1">The "compress" coding is an adaptive Lempel-Ziv-Welch (LZW) coding that is commonly produced by the UNIX file compression program "compress". A recipient SHOULD consider "x-compress" to be equivalent to "compress".</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7230#section-4.2.1">The "compress" coding is an adaptive Lempel-Ziv-Welch (LZW) coding that is commonly produced by the UNIX file compression program "compress". A recipient SHOULD consider "x-compress" to be equivalent to "compress".</documentation>
     </http-content-coding>
     <http-content-coding def="x-compress">
-        <documentation source="http://tools.ietf.org/html/rfc7230#section-4.2.1">The "compress" coding is an adaptive Lempel-Ziv-Welch (LZW) coding that is commonly produced by the UNIX file compression program "compress". A recipient SHOULD consider "x-compress" to be equivalent to "compress".</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7230#section-4.2.1">The "compress" coding is an adaptive Lempel-Ziv-Welch (LZW) coding that is commonly produced by the UNIX file compression program "compress". A recipient SHOULD consider "x-compress" to be equivalent to "compress".</documentation>
     </http-content-coding>
     <http-content-coding def="deflate">
-        <documentation source="http://tools.ietf.org/html/rfc7230#section-4.2.2">The "deflate" coding is a "zlib" data format containing a "deflate" compressed data stream that uses a combination of the Lempel-Ziv (LZ77) compression algorithm and Huffman coding.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7230#section-4.2.2">The "deflate" coding is a "zlib" data format containing a "deflate" compressed data stream that uses a combination of the Lempel-Ziv (LZ77) compression algorithm and Huffman coding.</documentation>
     </http-content-coding>
     <http-content-coding def="gzip">
-        <documentation source="http://tools.ietf.org/html/rfc7230#section-4.2.3">The "gzip" coding is an LZ77 coding with a 32-bit Cyclic Redundancy Check (CRC) that is commonly produced by the gzip file compression program. A recipient SHOULD consider "x-gzip" to be equivalent to "gzip".</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7230#section-4.2.3">The "gzip" coding is an LZ77 coding with a 32-bit Cyclic Redundancy Check (CRC) that is commonly produced by the gzip file compression program. A recipient SHOULD consider "x-gzip" to be equivalent to "gzip".</documentation>
     </http-content-coding>
     <http-content-coding def="x-gzip">
-        <documentation source="http://tools.ietf.org/html/rfc7230#section-4.2.3">The "gzip" coding is an LZ77 coding with a 32-bit Cyclic Redundancy Check (CRC) that is commonly produced by the gzip file compression program. A recipient SHOULD consider "x-gzip" to be equivalent to "gzip".</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7230#section-4.2.3">The "gzip" coding is an LZ77 coding with a 32-bit Cyclic Redundancy Check (CRC) that is commonly produced by the gzip file compression program. A recipient SHOULD consider "x-gzip" to be equivalent to "gzip".</documentation>
     </http-content-coding>
     <http-transfer-coding def="chunked">
-        <documentation source="http://tools.ietf.org/html/rfc7230#section-4.1">The chunked transfer coding wraps the payload body in order to transfer it as a series of chunks, each with its own size indicator, followed by an OPTIONAL trailer containing header fields.  Chunked enables content streams of unknown size to be transferred as a sequence of length-delimited buffers, which enables the sender to retain connection persistence and the recipient to know when it has received the entire message.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7230#section-4.1">The chunked transfer coding wraps the payload body in order to transfer it as a series of chunks, each with its own size indicator, followed by an OPTIONAL trailer containing header fields.  Chunked enables content streams of unknown size to be transferred as a sequence of length-delimited buffers, which enables the sender to retain connection persistence and the recipient to know when it has received the entire message.</documentation>
     </http-transfer-coding>
     <http-transfer-coding def="compress">
-        <documentation source="http://tools.ietf.org/html/rfc7230#section-4.2.1">The "compress" coding is an adaptive Lempel-Ziv-Welch (LZW) coding that is commonly produced by the UNIX file compression program "compress". A recipient SHOULD consider "x-compress" to be equivalent to "compress".</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7230#section-4.2.1">The "compress" coding is an adaptive Lempel-Ziv-Welch (LZW) coding that is commonly produced by the UNIX file compression program "compress". A recipient SHOULD consider "x-compress" to be equivalent to "compress".</documentation>
     </http-transfer-coding>
     <http-transfer-coding def="x-compress">
-        <documentation source="http://tools.ietf.org/html/rfc7230#section-4.2.1">The "compress" coding is an adaptive Lempel-Ziv-Welch (LZW) coding that is commonly produced by the UNIX file compression program "compress". A recipient SHOULD consider "x-compress" to be equivalent to "compress".</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7230#section-4.2.1">The "compress" coding is an adaptive Lempel-Ziv-Welch (LZW) coding that is commonly produced by the UNIX file compression program "compress". A recipient SHOULD consider "x-compress" to be equivalent to "compress".</documentation>
     </http-transfer-coding>
     <http-transfer-coding def="deflate">
-        <documentation source="http://tools.ietf.org/html/rfc7230#section-4.2.2">The "deflate" coding is a "zlib" data format containing a "deflate" compressed data stream that uses a combination of the Lempel-Ziv (LZ77) compression algorithm and Huffman coding.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7230#section-4.2.2">The "deflate" coding is a "zlib" data format containing a "deflate" compressed data stream that uses a combination of the Lempel-Ziv (LZ77) compression algorithm and Huffman coding.</documentation>
     </http-transfer-coding>
     <http-transfer-coding def="gzip">
-        <documentation source="http://tools.ietf.org/html/rfc7230#section-4.2.3">The "gzip" coding is an LZ77 coding with a 32-bit Cyclic Redundancy Check (CRC) that is commonly produced by the gzip file compression program. A recipient SHOULD consider "x-gzip" to be equivalent to "gzip".</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7230#section-4.2.3">The "gzip" coding is an LZ77 coding with a 32-bit Cyclic Redundancy Check (CRC) that is commonly produced by the gzip file compression program. A recipient SHOULD consider "x-gzip" to be equivalent to "gzip".</documentation>
     </http-transfer-coding>
     <http-transfer-coding def="x-gzip">
-        <documentation source="http://tools.ietf.org/html/rfc7230#section-4.2.3">The "gzip" coding is an LZ77 coding with a 32-bit Cyclic Redundancy Check (CRC) that is commonly produced by the gzip file compression program. A recipient SHOULD consider "x-gzip" to be equivalent to "gzip".</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7230#section-4.2.3">The "gzip" coding is an LZ77 coding with a 32-bit Cyclic Redundancy Check (CRC) that is commonly produced by the gzip file compression program. A recipient SHOULD consider "x-gzip" to be equivalent to "gzip".</documentation>
     </http-transfer-coding>
     <uri-scheme def="http">
-        <documentation source="http://tools.ietf.org/html/rfc7230#section-2.7.1">The "http" URI scheme is hereby defined for the purpose of minting identifiers according to their association with the hierarchical namespace governed by a potential HTTP origin server listening for TCP connections on a given port.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7230#section-2.7.1">The "http" URI scheme is hereby defined for the purpose of minting identifiers according to their association with the hierarchical namespace governed by a potential HTTP origin server listening for TCP connections on a given port.</documentation>
     </uri-scheme>
     <uri-scheme def="https">
-        <documentation source="http://tools.ietf.org/html/rfc7230#section-2.7.2">The "https" URI scheme is hereby defined for the purpose of minting identifiers according to their association with the hierarchical namespace governed by a potential HTTP origin server listening to a given TCP port for TLS-secured connections.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7230#section-2.7.2">The "https" URI scheme is hereby defined for the purpose of minting identifiers according to their association with the hierarchical namespace governed by a potential HTTP origin server listening to a given TCP port for TLS-secured connections.</documentation>
     </uri-scheme>
     <media-type def="message/http">
-        <documentation source="http://tools.ietf.org/html/rfc7230#section-8.3.1">The message/http type can be used to enclose a single HTTP request or response message, provided that it obeys the MIME restrictions for all "message" types regarding line length and encodings.</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7230#section-8.3.1">The message/http type can be used to enclose a single HTTP request or response message, provided that it obeys the MIME restrictions for all "message" types regarding line length and encodings.</documentation>
     </media-type>
     <media-type def="application/http">
-        <documentation source="http://tools.ietf.org/html/rfc7230#section-8.3.2">The application/http type can be used to enclose a pipeline of one or more HTTP request or response messages (not intermixed).</documentation>
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc7230#section-8.3.2">The application/http type can be used to enclose a pipeline of one or more HTTP request or response messages (not intermixed).</documentation>
     </media-type>
 </service>

@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "A 'payto' URI always identifies the target of a payment. A 'payto' URI consists of a payment target type, a target identifier, and optional parameters such as an amount or a payment reference. The interpretation of the target identifier is defined by the payment target type and typically represents either a bank account or an (unsettled) transaction. A unified URI scheme for all payment target types allows applications to offer user interactions with URIs that represent payment targets, simplifying the introduction of new payment systems and applications.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc8905#section-1",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc8905#section-1",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8905",
         "spec-name" : "RFC 8905" } ] }

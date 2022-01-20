@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "The merge patch format is primarily intended for use with the HTTP PATCH method as a means of describing a set of modifications to a target resource's content. A JSON merge patch document describes changes to be made to a target JSON document using a syntax that closely mimics the document being modified.",
-        "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7396#section-1",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7396#section-1",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7396",
         "spec-name" : "RFC 7396" } ] }
