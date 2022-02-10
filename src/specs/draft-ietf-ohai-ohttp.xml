@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<service primary="IETF" secondary="I-D" id="ietf-ohai-ohttp">
+    <title>Oblivious HTTP</title>
+    <documentation source="https://datatracker.ietf.org/doc/html/draft-ietf-ohai-ohttp">This document describes a system for the forwarding of encrypted HTTP messages. This allows a client to make multiple requests of a server without the server being able to link those requests to the client or to identify the requests as having come from the same client.</documentation>
+    <media-type def="message/ohttp-req">
+        <documentation source="https://datatracker.ietf.org/doc/html/draft-ietf-ohai-ohttp#section-7.1">HTTP message encapsulation uses HPKE for request and response encryption. An Encapsulated Request is comprised of a length-prefixed key identifier and a HPKE-protected request message. HPKE protection includes an encapsulated KEM shared secret (or enc), plus the AEAD-protected request message.</documentation>
+    </media-type>
+    <media-type def="message/ohttp-res">
+        <documentation source="https://datatracker.ietf.org/doc/html/draft-ietf-ohai-ohttp#section-7.2">HTTP message encapsulation uses HPKE for request and response encryption. Responses are bound to responses and so consist only of AEAD-protected content.</documentation>
+    </media-type>
+</service>

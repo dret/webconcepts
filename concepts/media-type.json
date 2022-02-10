@@ -1006,6 +1006,26 @@
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7230",
             "spec-name" : "RFC 7230" } ] },
       
+      { "value" : "message\/ohttp-req",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/media-type\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/media-type\/message\/ohttp-req",
+        "details" : 
+        [ 
+          { "description" : "HTTP message encapsulation uses HPKE for request and response encryption. An Encapsulated Request is comprised of a length-prefixed key identifier and a HPKE-protected request message. HPKE protection includes an encapsulated KEM shared secret (or enc), plus the AEAD-protected request message.",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-ietf-ohai-ohttp#section-7.1",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-ohai-ohttp",
+            "spec-name" : "Internet Draft ietf-ohai-ohttp" } ] },
+      
+      { "value" : "message\/ohttp-res",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/media-type\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/media-type\/message\/ohttp-res",
+        "details" : 
+        [ 
+          { "description" : "HTTP message encapsulation uses HPKE for request and response encryption. Responses are bound to responses and so consist only of AEAD-protected content.",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-ietf-ohai-ohttp#section-7.2",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-ohai-ohttp",
+            "spec-name" : "Internet Draft ietf-ohai-ohttp" } ] },
+      
       { "value" : "multipart\/form-data",
         "concept" : "http:\/\/webconcepts.info\/concepts\/media-type\/",
         "id" : "http:\/\/webconcepts.info\/concepts\/media-type\/multipart\/form-data",

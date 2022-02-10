@@ -1,0 +1,80 @@
+---
+layout:      page
+title:       "Oblivious HTTP"
+description: "This document describes a system for the forwarding of encrypted HTTP messages. This
+allows a client to make multiple requests of a server without the server being able
+to link those requests to the client or to identify the requests as having come from
+the same client."
+---
+
+<table cellpadding="5">
+   <tr>
+      <th valign="top" align="right">
+         <em>Document Name:</em>
+      </th>
+      <td>Internet Draft ietf-ohai-ohttp</td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Document URI:</em>
+      </th>
+      <td>
+         <code>urn:ietf:id:ietf-ohai-ohttp</code>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Online Version:</em>
+      </th>
+      <td>
+         <code>
+            <a href="https://datatracker.ietf.org/doc/html/draft-ietf-ohai-ohttp">https://datatracker.ietf.org/doc/html/draft-ietf-ohai-ohttp</a>
+         </code>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Organization:</em>
+      </th>
+      <td>
+         <a href="../" title="List of specification series by this organization">Internet Engineering Task Force (IETF)</a>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Series:</em>
+      </th>
+      <td>
+         <a href="./" title="List of specifications in this series">Internet Draft (I-D)</a>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Abstract:</em>
+      </th>
+      <td>This document describes a system for the forwarding of encrypted HTTP messages. This
+         allows a client to make multiple requests of a server without the server being able
+         to link those requests to the client or to identify the requests as having come from
+         the same client.
+      </td>
+   </tr>
+</table>
+<br></br>
+<hr></hr>
+<h2 id="concepts">Specified Web Concepts:</h2>
+<h3 id="media-type">
+   <a href="/concepts/media-type/" title="List of all Media Types">Media Types</a>
+</h3>
+<code>
+   <a href="/concepts/media-type/message/ohttp-req" title="HTTP message encapsulation uses HPKE for request and response encryption. An Encapsulated Request is comprised of a length-prefixed key identifier and a HPKE-protected request message. HPKE protection includes an encapsulated KEM shared secret (or enc), plus the AEAD-protected request message.">message/ohttp-req</a>
+</code>, 
+<code>
+   <a href="/concepts/media-type/message/ohttp-res" title="HTTP message encapsulation uses HPKE for request and response encryption. Responses are bound to responses and so consist only of AEAD-protected content.">message/ohttp-res</a>
+</code>
+<br></br>
+<hr></hr>
+<p style="text-align: right">Return to ( 
+   <a href="./">Series</a> | 
+   <a href="../">Organization</a> | 
+   <a href="../../">all Specifications</a> )
+</p>
