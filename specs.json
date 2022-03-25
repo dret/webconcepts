@@ -2693,7 +2693,16 @@
       "URL": "https://datatracker.ietf.org/doc/html/rfc8905",
       "abstract": "This document defines the 'payto' Uniform Resource Identifier (URI) scheme for designating targets for payments. A unified URI scheme for all payment target types allows applications to offer user interactions with URIs that represent payment targets, simplifying the introduction of new payment systems and applications.",
       "concepts": [{
-       "http://webconcepts.info/concepts/uri-scheme/": "http://webconcepts.info/concepts/uri-scheme/payto" }]}}]}}]},
+       "http://webconcepts.info/concepts/uri-scheme/": "http://webconcepts.info/concepts/uri-scheme/payto" }]}},{
+     "8959": {
+      "id": "http://webconcepts.info/specs/IETF/RFC/8959",
+      "title": "The \"secret-token\" URI Scheme",
+      "name": "RFC 8959",
+      "URI": "urn:ietf:rfc:8959",
+      "URL": "https://datatracker.ietf.org/doc/html/rfc8959",
+      "abstract": "This document registers the \"secret-token\" URI scheme to aid in the identification of authentication tokens.",
+      "concepts": [{
+       "http://webconcepts.info/concepts/uri-scheme/": "http://webconcepts.info/concepts/uri-scheme/secret-token" }]}}]}}]},
  "ISO": {
   "id": "http://webconcepts.info/specs/ISO/",
   "name": "International Organization for Standardization",

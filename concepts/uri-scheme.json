@@ -296,6 +296,16 @@
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6940",
             "spec-name" : "RFC 6940" } ] },
       
+      { "value" : "secret-token",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/uri-scheme\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/uri-scheme\/secret-token",
+        "details" : 
+        [ 
+          { "description" : "The \"secret-token\" URI scheme identifies a token that is intended to be a secret.",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc8959#section-2",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8959",
+            "spec-name" : "RFC 8959" } ] },
+      
       { "value" : "session",
         "concept" : "http:\/\/webconcepts.info\/concepts\/uri-scheme\/",
         "id" : "http:\/\/webconcepts.info\/concepts\/uri-scheme\/session",

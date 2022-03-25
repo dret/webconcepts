@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<service primary="IETF" secondary="RFC" id="8959">
+    <title>The "secret-token" URI Scheme</title>
+    <documentation source="https://datatracker.ietf.org/doc/html/rfc8959">This document registers the "secret-token" URI scheme to aid in the identification of authentication tokens.</documentation>
+    <uri-scheme def="secret-token">
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc8959#section-2">The "secret-token" URI scheme identifies a token that is intended to be a secret.</documentation>
+    </uri-scheme>
+</service>
