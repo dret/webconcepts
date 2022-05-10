@@ -1,0 +1,10 @@
+
+  { "value" : "text\/ecmascript",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/media-type\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/media-type\/text\/ecmascript",
+    "details" : 
+    [ 
+      { "description" : "This memo describes media types for the JavaScript and ECMAScript programming languages. The most widely supported media type in use is text\/javascript; all others are considered historical and obsolete aliases of text\/javascript.",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc9239#section-6.2.1",
+        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/9239",
+        "spec-name" : "RFC 9239" } ] }

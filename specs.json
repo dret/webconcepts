@@ -2702,7 +2702,17 @@
       "URL": "https://datatracker.ietf.org/doc/html/rfc8959",
       "abstract": "This document registers the \"secret-token\" URI scheme to aid in the identification of authentication tokens.",
       "concepts": [{
-       "http://webconcepts.info/concepts/uri-scheme/": "http://webconcepts.info/concepts/uri-scheme/secret-token" }]}}]}}]},
+       "http://webconcepts.info/concepts/uri-scheme/": "http://webconcepts.info/concepts/uri-scheme/secret-token" }]}},{
+     "9239": {
+      "id": "http://webconcepts.info/specs/IETF/RFC/9239",
+      "title": "Updates to ECMAScript Media Types",
+      "name": "RFC 9239",
+      "URI": "urn:ietf:rfc:9239",
+      "URL": "https://datatracker.ietf.org/doc/html/rfc9239",
+      "abstract": "This document describes the registration of media types for the ECMAScript and JavaScript programming languages and conformance requirements for implementations of these types. This document obsoletes RFC 4329 (\"Scripting Media Types)\", replacing the previous registrations with information and requirements aligned with common usage and implementation experiences.",
+      "concepts": [{
+       "http://webconcepts.info/concepts/media-type/": "http://webconcepts.info/concepts/media-type/text/ecmascript" }, {
+       "http://webconcepts.info/concepts/media-type/": "http://webconcepts.info/concepts/media-type/text/javascript" }]}}]}}]},
  "ISO": {
   "id": "http://webconcepts.info/specs/ISO/",
   "name": "International Organization for Standardization",

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<service primary="IETF" secondary="RFC" id="9239">
+    <title>Updates to ECMAScript Media Types</title>
+    <documentation source="https://datatracker.ietf.org/doc/html/rfc9239">This document describes the registration of media types for the ECMAScript and JavaScript programming languages and conformance requirements for implementations of these types. This document obsoletes RFC 4329 ("Scripting Media Types)", replacing the previous registrations with information and requirements aligned with common usage and implementation experiences.</documentation>
+    <media-type def="text/javascript">
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc9239#section-6.1.1">This memo describes media types for the JavaScript and ECMAScript programming languages. The most widely supported media type in use is text/javascript; all others are considered historical and obsolete aliases of text/javascript.</documentation>
+    </media-type>
+    <media-type def="text/ecmascript">
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc9239#section-6.2.1">This memo describes media types for the JavaScript and ECMAScript programming languages. The most widely supported media type in use is text/javascript; all others are considered historical and obsolete aliases of text/javascript.</documentation>
+    </media-type>
+</service>
