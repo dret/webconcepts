@@ -1580,10 +1580,10 @@
           "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Link-Template",
           "details" : 
           [ 
-            { "description" : "The Link-Template entity-header field provides a means for serialising one or more links into HTTP headers. It is semantically equivalent to the Link header field, except that it uses URI Templates to convey the structure of links.",
-              "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-nottingham-link-template#section-4",
-              "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/nottingham-link-template",
-              "spec-name" : "Internet Draft nottingham-link-template" } ] },
+            { "description" : "The Link-Template header field provides a means for serialising one or more links into HTTP message metadata. It is semantically equivalent to the Link header field defined in Section 3 of \"Web Linking\", except that it uses URI Templates to convey the structure of links.",
+              "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-ietf-httpapi-link-template#section-2",
+              "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/draft-ietf-httpapi-link-template",
+              "spec-name" : "Internet Draft draft-ietf-httpapi-link-template" } ] },
         
         { "value" : "Location",
           "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",

@@ -58,7 +58,7 @@ There are currently 58 listed specifications in the [Internet Engineering Task F
   * [The Idempotency-Key HTTP Header Field (Internet Draft ietf-httpapi-idempotency-key-header)](ietf-httpapi-idempotency-key-header)
   * [The JavaScript Object Notation (JSON) Data Interchange Format (Internet Draft ietf-jsonbis-rfc7159bis)](ietf-jsonbis-rfc7159bis)
   * [The Key HTTP Response Header Field (Internet Draft ietf-httpbis-key)](ietf-httpbis-key)
-  * [The Link-Template HTTP Header Field (Internet Draft nottingham-link-template)](nottingham-link-template)
+  * [The Link-Template HTTP Header Field (Internet Draft draft-ietf-httpapi-link-template)](draft-ietf-httpapi-link-template)
   * [The Proxy-Status HTTP Response Header Field (Internet Draft ietf-httpbis-proxy-status)](ietf-httpbis-proxy-status)
   * [The Tunnel-Protocol HTTP Header Field (Internet Draft ietf-httpbis-tunnel-protocol)](ietf-httpbis-tunnel-protocol)
   * [Voluntary Application Server Identification (VAPID) for Web Push (Internet Draft ietf-webpush-vapid)](ietf-webpush-vapid)

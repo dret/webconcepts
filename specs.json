@@ -57,6 +57,15 @@
       "concepts": [{
        "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/down" }, {
        "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/up" }]}},{
+     "draft-ietf-httpapi-link-template": {
+      "id": "http://webconcepts.info/specs/IETF/I-D/draft-ietf-httpapi-link-template",
+      "title": "The Link-Template HTTP Header Field",
+      "name": "Internet Draft draft-ietf-httpapi-link-template",
+      "URI": "urn:ietf:id:draft-ietf-httpapi-link-template",
+      "URL": "https://datatracker.ietf.org/doc/html/draft-draft-ietf-httpapi-link-template",
+      "abstract": "This specification defines the Link-Template HTTP header field, providing a means for describing the structure of a link between two resources, so that new links can be generated.",
+      "concepts": [{
+       "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Link-Template" }]}},{
      "drechsler-httpbis-improved-caching": {
       "id": "http://webconcepts.info/specs/IETF/I-D/drechsler-httpbis-improved-caching",
       "title": "Hypertext Transfer Protocol: Improved HTTP Caching",
@@ -403,15 +412,6 @@
       "concepts": [{
        "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/home" }, {
        "http://webconcepts.info/concepts/media-type/": "http://webconcepts.info/concepts/media-type/application/home+json" }]}},{
-     "nottingham-link-template": {
-      "id": "http://webconcepts.info/specs/IETF/I-D/nottingham-link-template",
-      "title": "The Link-Template HTTP Header Field",
-      "name": "Internet Draft nottingham-link-template",
-      "URI": "urn:ietf:id:nottingham-link-template",
-      "URL": "https://datatracker.ietf.org/doc/html/draft-nottingham-link-template",
-      "abstract": "This specification defines the Link-Template HTTP header field, providing a means for describing the structure of a link between two resources, so that new links can be generated.",
-      "concepts": [{
-       "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Link-Template" }]}},{
      "nottingham-linked-cache-inv": {
       "id": "http://webconcepts.info/specs/IETF/I-D/nottingham-linked-cache-inv",
       "title": "Linked Cache Invalidation",
