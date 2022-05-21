@@ -1,0 +1,10 @@
+
+  { "value" : "Accept-Profile",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Accept-Profile",
+    "details" : 
+    [ 
+      { "description" : "In order to allow a user agent to inform a server about its preferences regarding profiles for resource representations, the \"Accept-Profile\" HTTP header used. A user agent can specify several profiles and use quality indicators (q-values) to indicate preferences.",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-svensson-profiled-representations#section-4",
+        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/draft-svensson-profiled-representations",
+        "spec-name" : "Internet Draft draft-svensson-profiled-representations" } ] }

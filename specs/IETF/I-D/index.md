@@ -4,7 +4,7 @@ title:       "IETF Internet Draft Series"
 description: "List of specifications in the Internet Draft (I-D) series by the Internet Engineering Task Force (IETF)"
 ---
 
-There are currently 58 listed specifications in the [Internet Engineering Task Force (IETF)](..)'s Internet Draft (I-D) series.
+There are currently 59 listed specifications in the [Internet Engineering Task Force (IETF)](..)'s Internet Draft (I-D) series.
 
   * [A JSON Media Type for Describing the Structure and Meaning of JSON Documents (Internet Draft zyp-json-schema)](zyp-json-schema)
   * [Accept-Push-Policy Header Field (Internet Draft ruellan-http-accept-push-policy)](ruellan-http-accept-push-policy)
@@ -32,6 +32,7 @@ There are currently 58 listed specifications in the [Internet Engineering Task F
   * [Home Documents for HTTP APIs (Internet Draft nottingham-json-home)](nottingham-json-home)
   * [Home Documents for HTTP Services: XML Syntax (Internet Draft wilde-home-xml)](wilde-home-xml)
   * [Hypertext Transfer Protocol: Improved HTTP Caching (Internet Draft drechsler-httpbis-improved-caching)](drechsler-httpbis-improved-caching)
+  * [Indicating, Discovering, Negotiating, and Writing Profiled Representations (Internet Draft draft-svensson-profiled-representations)](draft-svensson-profiled-representations)
   * [JSON Hypertext Application Language (Internet Draft kelly-json-hal)](kelly-json-hal)
   * [Link Relationship Types for Authentication (Internet Draft pot-authentication-link)](pot-authentication-link)
   * [Linked Cache Invalidation (Internet Draft nottingham-linked-cache-inv)](nottingham-linked-cache-inv)
