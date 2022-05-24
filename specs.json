@@ -57,24 +57,6 @@
       "concepts": [{
        "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/down" }, {
        "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/up" }]}},{
-     "draft-ietf-httpapi-link-template": {
-      "id": "http://webconcepts.info/specs/IETF/I-D/draft-ietf-httpapi-link-template",
-      "title": "The Link-Template HTTP Header Field",
-      "name": "Internet Draft draft-ietf-httpapi-link-template",
-      "URI": "urn:ietf:id:draft-ietf-httpapi-link-template",
-      "URL": "https://datatracker.ietf.org/doc/html/draft-draft-ietf-httpapi-link-template",
-      "abstract": "This specification defines the Link-Template HTTP header field, providing a means for describing the structure of a link between two resources, so that new links can be generated.",
-      "concepts": [{
-       "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Link-Template" }]}},{
-     "draft-svensson-profiled-representations": {
-      "id": "http://webconcepts.info/specs/IETF/I-D/draft-svensson-profiled-representations",
-      "title": "Indicating, Discovering, Negotiating, and Writing Profiled Representations",
-      "name": "Internet Draft draft-svensson-profiled-representations",
-      "URI": "urn:ietf:id:draft-svensson-profiled-representations",
-      "URL": "https://datatracker.ietf.org/doc/html/draft-draft-svensson-profiled-representations",
-      "abstract": "This document details approaches for enriching HTTP interactions with information pertaining to the profiles to which resource representations conform. It surveys approaches that were recently introduced to indicate the profile of a resource representation, and to make representations that conform to a profile discoverable. It introduces a generally applicable approach to negotiate for a resource representation that conforms to a profile preferred by a user agent. That approach leverages the existing content negotiation mechanism but applies it to the profile dimension to which it was previously not applied. The document also shows how a server can convey which profiled representations it is able to accept from a user agent.",
-      "concepts": [{
-       "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Accept-Profile" }]}},{
      "drechsler-httpbis-improved-caching": {
       "id": "http://webconcepts.info/specs/IETF/I-D/drechsler-httpbis-improved-caching",
       "title": "Hypertext Transfer Protocol: Improved HTTP Caching",
@@ -162,6 +144,15 @@
       "abstract": "The HTTP Idempotency-Key request header field can be used to carry idempotency key in order to make non-idempotent HTTP methods such as \"POST\" or \"PATCH\" fault-tolerant.",
       "concepts": [{
        "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Idempotency-Key" }]}},{
+     "ietf-httpapi-link-template": {
+      "id": "http://webconcepts.info/specs/IETF/I-D/ietf-httpapi-link-template",
+      "title": "The Link-Template HTTP Header Field",
+      "name": "Internet Draft ietf-httpapi-link-template",
+      "URI": "urn:ietf:id:ietf-httpapi-link-template",
+      "URL": "https://datatracker.ietf.org/doc/html/draft-ietf-httpapi-link-template",
+      "abstract": "This specification defines the Link-Template HTTP header field, providing a means for describing the structure of a link between two resources, so that new links can be generated.",
+      "concepts": [{
+       "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Link-Template" }]}},{
      "ietf-httpapi-linkset": {
       "id": "http://webconcepts.info/specs/IETF/I-D/ietf-httpapi-linkset",
       "title": "Linkset: Media Types and a Link Relation Type for Link Sets",
@@ -537,6 +528,15 @@
       "abstract": "This specification proposes the Application and Packaging Pointer URI scheme \"arcp\". arcp URIs can be used to consume or reference hypermedia resources bundled inside a file archive or an application package, as well as to resolve URIs for archive resources within a programmatic framework. This URI scheme provides mechanisms to generate a unique base URI to represent the root of the archive, so that relative URI references in a bundled resource can be resolved within the archive without having to extract the archive content on the local file system. An arcp URI can be used for purposes of isolation (e.g. when consuming multiple archives), security constraints (avoiding \"climb out\" from the archive), or for externally identifying sub-resources referenced by hypermedia formats.",
       "concepts": [{
        "http://webconcepts.info/concepts/uri-scheme/": "http://webconcepts.info/concepts/uri-scheme/arcp" }]}},{
+     "svensson-profiled-representations": {
+      "id": "http://webconcepts.info/specs/IETF/I-D/svensson-profiled-representations",
+      "title": "Indicating, Discovering, Negotiating, and Writing Profiled Representations",
+      "name": "Internet Draft svensson-profiled-representations",
+      "URI": "urn:ietf:id:svensson-profiled-representations",
+      "URL": "https://datatracker.ietf.org/doc/html/draft-svensson-profiled-representations",
+      "abstract": "This document details approaches for enriching HTTP interactions with information pertaining to the profiles to which resource representations conform. It surveys approaches that were recently introduced to indicate the profile of a resource representation, and to make representations that conform to a profile discoverable. It introduces a generally applicable approach to negotiate for a resource representation that conforms to a profile preferred by a user agent. That approach leverages the existing content negotiation mechanism but applies it to the profile dimension to which it was previously not applied. The document also shows how a server can convey which profiled representations it is able to accept from a user agent.",
+      "concepts": [{
+       "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Accept-Profile" }]}},{
      "thomson-http-content-signature": {
       "id": "http://webconcepts.info/specs/IETF/I-D/thomson-http-content-signature",
       "title": "Content-Signature Header Field for HTTP",

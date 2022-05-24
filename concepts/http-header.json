@@ -153,8 +153,8 @@
         [ 
           { "description" : "In order to allow a user agent to inform a server about its preferences regarding profiles for resource representations, the \"Accept-Profile\" HTTP header used. A user agent can specify several profiles and use quality indicators (q-values) to indicate preferences.",
             "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-svensson-profiled-representations#section-4",
-            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/draft-svensson-profiled-representations",
-            "spec-name" : "Internet Draft draft-svensson-profiled-representations" } ] },
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/svensson-profiled-representations",
+            "spec-name" : "Internet Draft svensson-profiled-representations" } ] },
       
       { "value" : "Accept-Push-Policy",
         "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
@@ -1118,8 +1118,8 @@
         [ 
           { "description" : "The Link-Template header field provides a means for serialising one or more links into HTTP message metadata. It is semantically equivalent to the Link header field defined in Section 3 of \"Web Linking\", except that it uses URI Templates to convey the structure of links.",
             "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-ietf-httpapi-link-template#section-2",
-            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/draft-ietf-httpapi-link-template",
-            "spec-name" : "Internet Draft draft-ietf-httpapi-link-template" } ] },
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpapi-link-template",
+            "spec-name" : "Internet Draft ietf-httpapi-link-template" } ] },
       
       { "value" : "Location",
         "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
