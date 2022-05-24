@@ -6544,6 +6544,16 @@
               "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7351",
               "spec-name" : "RFC 7351" } ] },
         
+        { "value" : "application\/yaml",
+          "concept" : "http:\/\/webconcepts.info\/concepts\/media-type\/",
+          "id" : "http:\/\/webconcepts.info\/concepts\/media-type\/application\/yaml",
+          "details" : 
+          [ 
+            { "description" : "YAML is a data serialization format that is widely used on the Internet.",
+              "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-ietf-httpapi-yaml-mediatypes#section-2.1",
+              "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpapi-yaml-mediatypes",
+              "spec-name" : "Internet Draft ietf-httpapi-yaml-mediatypes" } ] },
+        
         { "value" : "application\/zlib",
           "concept" : "http:\/\/webconcepts.info\/concepts\/media-type\/",
           "id" : "http:\/\/webconcepts.info\/concepts\/media-type\/application\/zlib",

@@ -184,6 +184,15 @@
        "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/RateLimit-Limit" }, {
        "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/RateLimit-Remaining" }, {
        "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/RateLimit-Reset" }]}},{
+     "ietf-httpapi-yaml-mediatypes": {
+      "id": "http://webconcepts.info/specs/IETF/I-D/ietf-httpapi-yaml-mediatypes",
+      "title": "YAML Media Type",
+      "name": "Internet Draft ietf-httpapi-yaml-mediatypes",
+      "URI": "urn:ietf:id:ietf-httpapi-yaml-mediatypes",
+      "URL": "https://datatracker.ietf.org/doc/html/draft-ietf-httpapi-yaml-mediatypes",
+      "abstract": "This document registers the application/yaml media type and the +yaml structured syntax suffix on the IANA Media Types registry.",
+      "concepts": [{
+       "http://webconcepts.info/concepts/media-type/": "http://webconcepts.info/concepts/media-type/application/yaml" }]}},{
      "ietf-httpbis-binary-message": {
       "id": "http://webconcepts.info/specs/IETF/I-D/ietf-httpbis-binary-message",
       "title": "Binary Representation of HTTP Messages",
