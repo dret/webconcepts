@@ -12,7 +12,7 @@ There are currently 60 listed specifications in the [Internet Engineering Task F
   * [Application-Level Profile Semantics (ALPS) (Internet Draft amundsen-richardson-foster-alps)](amundsen-richardson-foster-alps)
   * [Binary Representation of HTTP Messages (Internet Draft ietf-httpbis-binary-message)](ietf-httpbis-binary-message)
   * [CalDAV Managed Attachments (Internet Draft ietf-calext-caldav-attachments)](ietf-calext-caldav-attachments)
-  * [Client-Cert HTTP Header Field: Conveying Client Certificate Information from TLS Terminating Reverse Proxies to Origin Server Applications (Internet Draft ietf-httpbis-client-cert-field)](ietf-httpbis-client-cert-field)
+  * [Client-Cert HTTP Header Field (Internet Draft ietf-httpbis-client-cert-field)](ietf-httpbis-client-cert-field)
   * [Communicating Warning Information in HTTP APIs (Internet Draft cedik-http-warning)](cedik-http-warning)
   * [Content-Signature Header Field for HTTP (Internet Draft thomson-http-content-signature)](thomson-http-content-signature)
   * [Digest Fields (Internet Draft ietf-httpbis-digest-headers)](ietf-httpbis-digest-headers)

@@ -955,8 +955,18 @@
           "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Client-Cert",
           "details" : 
           [ 
-            { "description" : "The header value contains the client certificate from the mutually-authenticated TLS connection between the originating client and the TTRP. This enables the backend origin server to utilize the client certificate information in its application logic.",
-              "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-ietf-httpbis-client-cert-field#section-2",
+            { "description" : "In the context of a TLS terminating reverse proxy deployment, the proxy makes the TLS client certificate available to the backend application with the Client-Cert HTTP header field. This field contains the end-entity certificate used by the client in the TLS handshake.",
+              "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-ietf-httpbis-client-cert-field#section-2.2",
+              "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpbis-client-cert-field",
+              "spec-name" : "Internet Draft ietf-httpbis-client-cert-field" } ] },
+        
+        { "value" : "Client-Cert-Chain",
+          "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
+          "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Client-Cert-Chain",
+          "details" : 
+          [ 
+            { "description" : "In the context of a TLS terminating reverse proxy deployment, the proxy MAY make the certificate chain used for validation of the end-entity certificate available to the backend application with the Client-Cert-Chain HTTP header field. This field contains certificates used by the proxy to validate the certificate used by the client in the TLS handshake. These certificates might or might not have been provided by the client during the TLS handshake.",
+              "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-ietf-httpbis-client-cert-field#section-2.3",
               "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpbis-client-cert-field",
               "spec-name" : "Internet Draft ietf-httpbis-client-cert-field" } ] },
         

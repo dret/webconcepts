@@ -1,10 +1,9 @@
 ---
 layout:      page
-title:       "Client-Cert HTTP Header Field: Conveying Client Certificate Information from TLS Terminating
-Reverse Proxies to Origin Server Applications"
-description: "This document defines the HTTP header field \"Client-Cert\" that allows a TLS terminating
-reverse proxy to convey the client certificate of a mutually-authenticated TLS connection
-to the origin server in a common and predictable manner."
+title:       "Client-Cert HTTP Header Field"
+description: "This document defines HTTP extension header fields that allow a TLS terminating reverse
+proxy to convey the client certificate information of a mutually-authenticated TLS
+connection to the origin server in a common and predictable manner."
 ---
 
 <table cellpadding="5">
@@ -52,9 +51,9 @@ to the origin server in a common and predictable manner."
       <th valign="top" align="right">
          <em>Abstract:</em>
       </th>
-      <td>This document defines the HTTP header field "Client-Cert" that allows a TLS terminating
-         reverse proxy to convey the client certificate of a mutually-authenticated TLS connection
-         to the origin server in a common and predictable manner.
+      <td>This document defines HTTP extension header fields that allow a TLS terminating reverse
+         proxy to convey the client certificate information of a mutually-authenticated TLS
+         connection to the origin server in a common and predictable manner.
       </td>
    </tr>
 </table>
@@ -65,7 +64,10 @@ to the origin server in a common and predictable manner."
    <a href="/concepts/http-header/" title="List of all HTTP Header Fields">HTTP Header Fields</a>
 </h3>
 <code>
-   <a href="/concepts/http-header/Client-Cert" title="The header value contains the client certificate from the mutually-authenticated TLS connection between the originating client and the TTRP. This enables the backend origin server to utilize the client certificate information in its application logic.">Client-Cert</a>
+   <a href="/concepts/http-header/Client-Cert" title="In the context of a TLS terminating reverse proxy deployment, the proxy makes the TLS client certificate available to the backend application with the Client-Cert HTTP header field. This field contains the end-entity certificate used by the client in the TLS handshake.">Client-Cert</a>
+</code>, 
+<code>
+   <a href="/concepts/http-header/Client-Cert-Chain" title="In the context of a TLS terminating reverse proxy deployment, the proxy MAY make the certificate chain used for validation of the end-entity certificate available to the backend application with the Client-Cert-Chain HTTP header field. This field contains certificates used by the proxy to validate the certificate used by the client in the TLS handshake. These certificates might or might not have been provided by the client during the TLS handshake.">Client-Cert-Chain</a>
 </code>
 <br></br>
 <hr></hr>
