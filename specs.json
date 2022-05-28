@@ -222,14 +222,16 @@
        "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Accept-CH" }]}},{
      "ietf-httpbis-digest-headers": {
       "id": "http://webconcepts.info/specs/IETF/I-D/ietf-httpbis-digest-headers",
-      "title": "Resource Digests for HTTP",
+      "title": "Digest Fields",
       "name": "Internet Draft ietf-httpbis-digest-headers",
       "URI": "urn:ietf:id:ietf-httpbis-digest-headers",
       "URL": "https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-digest-headers",
-      "abstract": "This document defines the Digest and Want-Digest header fields for HTTP, thus allowing client and server to negotiate an integrity checksum of the exchanged resource representation data.",
+      "abstract": "This document defines HTTP fields that support integrity digests. The Content-Digest field can be used for the integrity of HTTP message content. The Repr-Digest field can be used for the integrity of HTTP representations. Want-Content-Digest and Want-Repr-Digest can be used to indicate a sender's interest and preferences for receiving the respective Integrity fields.",
       "concepts": [{
-       "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Digest" }, {
-       "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Want-Digest" }]}},{
+       "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Content-Digest" }, {
+       "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Repr-Digest" }, {
+       "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Want-Content-Digest" }, {
+       "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Want-Repr-Digest" }]}},{
      "ietf-httpbis-expect-ct": {
       "id": "http://webconcepts.info/specs/IETF/I-D/ietf-httpbis-expect-ct",
       "title": "Expect-CT Extension for HTTP",

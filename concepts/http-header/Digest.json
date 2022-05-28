@@ -4,11 +4,6 @@
     "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Digest",
     "details" : 
     [ 
-      { "description" : "The \"Digest\" field contains a list of one or more representation digest values. It can be used in both requests and responses.",
-        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-ietf-httpbis-digest-headers#section-3",
-        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpbis-digest-headers",
-        "spec-name" : "Internet Draft ietf-httpbis-digest-headers" },
-      
       { "description" : "The Digest message header field provides a message digest of the instance described by the message.",
         "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc3230#section-4.3.2",
         "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/3230",

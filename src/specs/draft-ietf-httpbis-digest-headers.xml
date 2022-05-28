@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <service primary="IETF" secondary="I-D" id="ietf-httpbis-digest-headers">
-    <title>Resource Digests for HTTP</title>
-    <documentation source="https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-digest-headers">This document defines the Digest and Want-Digest header fields for HTTP, thus allowing client and server to negotiate an integrity checksum of the exchanged resource representation data.</documentation>
-    <http-header def="Digest">
-        <documentation source="https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-digest-headers#section-3">The "Digest" field contains a list of one or more representation digest values. It can be used in both requests and responses.</documentation>
+    <title>Digest Fields</title>
+    <documentation source="https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-digest-headers">This document defines HTTP fields that support integrity digests. The Content-Digest field can be used for the integrity of HTTP message content. The Repr-Digest field can be used for the integrity of HTTP representations. Want-Content-Digest and Want-Repr-Digest can be used to indicate a sender's interest and preferences for receiving the respective Integrity fields.</documentation>
+    <http-header def="Content-Digest">
+        <documentation source="https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-digest-headers#section-2">The Content-Digest HTTP field can be used in requests and responses to communicate digests that are calculated using a hashing algorithm applied to the actual message content.</documentation>
     </http-header>
-    <http-header def="Want-Digest">
-        <documentation source="https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-digest-headers#section-4">The "Want-Digest" field indicates the sender's desire to receive a representation digest on messages associated with the request URI and representation metadata.</documentation>
+    <http-header def="Repr-Digest">
+        <documentation source="https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-digest-headers#section-3">The Repr-Digest HTTP field can be used in requests and responses to communicate digests that are calculated using a hashing algorithm applied to the entire selected representation data.</documentation>
+    </http-header>
+    <http-header def="Want-Content-Digest">
+        <documentation source="https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-digest-headers#section-4">Want-Content-Digest indicates that the sender would like to receive a content digest on messages associated with the request URI and representation metadata, using the Content-Digest field.</documentation>
+    </http-header>
+    <http-header def="Want-Repr-Digest">
+        <documentation source="https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-digest-headers#section-4">Want-Repr-Digest indicates that the sender would like to receive a representation digest on messages associated with the request URI and representation metadata, using the Repr-Digest field.</documentation>
     </http-header>
 </service>

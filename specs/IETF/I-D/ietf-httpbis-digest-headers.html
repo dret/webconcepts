@@ -1,9 +1,11 @@
 ---
 layout:      page
-title:       "Resource Digests for HTTP"
-description: "This document defines the Digest and Want-Digest header fields for HTTP, thus allowing
-client and server to negotiate an integrity checksum of the exchanged resource representation
-data."
+title:       "Digest Fields"
+description: "This document defines HTTP fields that support integrity digests. The Content-Digest
+field can be used for the integrity of HTTP message content. The Repr-Digest field
+can be used for the integrity of HTTP representations. Want-Content-Digest and Want-Repr-Digest
+can be used to indicate a sender's interest and preferences for receiving the respective
+Integrity fields."
 ---
 
 <table cellpadding="5">
@@ -51,9 +53,11 @@ data."
       <th valign="top" align="right">
          <em>Abstract:</em>
       </th>
-      <td>This document defines the Digest and Want-Digest header fields for HTTP, thus allowing
-         client and server to negotiate an integrity checksum of the exchanged resource representation
-         data.
+      <td>This document defines HTTP fields that support integrity digests. The Content-Digest
+         field can be used for the integrity of HTTP message content. The Repr-Digest field
+         can be used for the integrity of HTTP representations. Want-Content-Digest and Want-Repr-Digest
+         can be used to indicate a sender's interest and preferences for receiving the respective
+         Integrity fields.
       </td>
    </tr>
 </table>
@@ -64,10 +68,16 @@ data."
    <a href="/concepts/http-header/" title="List of all HTTP Header Fields">HTTP Header Fields</a>
 </h3>
 <code>
-   <a href="/concepts/http-header/Digest" title="The &amp;#34;Digest&amp;#34; field contains a list of one or more representation digest values. It can be used in both requests and responses.">Digest</a>
+   <a href="/concepts/http-header/Content-Digest" title="The Content-Digest HTTP field can be used in requests and responses to communicate digests that are calculated using a hashing algorithm applied to the actual message content.">Content-Digest</a>
 </code>, 
 <code>
-   <a href="/concepts/http-header/Want-Digest" title="The &amp;#34;Want-Digest&amp;#34; field indicates the sender's desire to receive a representation digest on messages associated with the request URI and representation metadata.">Want-Digest</a>
+   <a href="/concepts/http-header/Repr-Digest" title="The Repr-Digest HTTP field can be used in requests and responses to communicate digests that are calculated using a hashing algorithm applied to the entire selected representation data.">Repr-Digest</a>
+</code>, 
+<code>
+   <a href="/concepts/http-header/Want-Content-Digest" title="Want-Content-Digest indicates that the sender would like to receive a content digest on messages associated with the request URI and representation metadata, using the Content-Digest field.">Want-Content-Digest</a>
+</code>, 
+<code>
+   <a href="/concepts/http-header/Want-Repr-Digest" title="Want-Repr-Digest indicates that the sender would like to receive a representation digest on messages associated with the request URI and representation metadata, using the Repr-Digest field.">Want-Repr-Digest</a>
 </code>
 <br></br>
 <hr></hr>

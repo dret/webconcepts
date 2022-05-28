@@ -516,6 +516,16 @@
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/2068",
             "spec-name" : "RFC 2068" } ] },
       
+      { "value" : "Content-Digest",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Content-Digest",
+        "details" : 
+        [ 
+          { "description" : "The Content-Digest HTTP field can be used in requests and responses to communicate digests that are calculated using a hashing algorithm applied to the actual message content.",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-ietf-httpbis-digest-headers#section-2",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpbis-digest-headers",
+            "spec-name" : "Internet Draft ietf-httpbis-digest-headers" } ] },
+      
       { "value" : "Content-Disposition",
         "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
         "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Content-Disposition",
@@ -801,11 +811,6 @@
         "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Digest",
         "details" : 
         [ 
-          { "description" : "The \"Digest\" field contains a list of one or more representation digest values. It can be used in both requests and responses.",
-            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-ietf-httpbis-digest-headers#section-3",
-            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpbis-digest-headers",
-            "spec-name" : "Internet Draft ietf-httpbis-digest-headers" },
-          
           { "description" : "The Digest message header field provides a message digest of the instance described by the message.",
             "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc3230#section-4.3.2",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/3230",
@@ -1631,6 +1636,16 @@
             "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/reporting-1",
             "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/reporting-1" } ] },
       
+      { "value" : "Repr-Digest",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Repr-Digest",
+        "details" : 
+        [ 
+          { "description" : "The Repr-Digest HTTP field can be used in requests and responses to communicate digests that are calculated using a hashing algorithm applied to the entire selected representation data.",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-ietf-httpbis-digest-headers#section-3",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpbis-digest-headers",
+            "spec-name" : "Internet Draft ietf-httpbis-digest-headers" } ] },
+      
       { "value" : "Retry-After",
         "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
         "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Retry-After",
@@ -2171,20 +2186,35 @@
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7235",
             "spec-name" : "RFC 7235" } ] },
       
+      { "value" : "Want-Content-Digest",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Want-Content-Digest",
+        "details" : 
+        [ 
+          { "description" : "Want-Content-Digest indicates that the sender would like to receive a content digest on messages associated with the request URI and representation metadata, using the Content-Digest field.",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-ietf-httpbis-digest-headers#section-4",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpbis-digest-headers",
+            "spec-name" : "Internet Draft ietf-httpbis-digest-headers" } ] },
+      
       { "value" : "Want-Digest",
         "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
         "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Want-Digest",
         "details" : 
         [ 
-          { "description" : "The \"Want-Digest\" field indicates the sender's desire to receive a representation digest on messages associated with the request URI and representation metadata.",
-            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-ietf-httpbis-digest-headers#section-4",
-            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpbis-digest-headers",
-            "spec-name" : "Internet Draft ietf-httpbis-digest-headers" },
-          
           { "description" : "The Want-Digest message header field indicates the sender's desire to receive an instance digest on messages associated with the Request-URI.",
             "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc3230#section-4.3.1",
             "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/3230",
             "spec-name" : "RFC 3230" } ] },
+      
+      { "value" : "Want-Repr-Digest",
+        "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
+        "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Want-Repr-Digest",
+        "details" : 
+        [ 
+          { "description" : "Want-Repr-Digest indicates that the sender would like to receive a representation digest on messages associated with the request URI and representation metadata, using the Repr-Digest field.",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-ietf-httpbis-digest-headers#section-4",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpbis-digest-headers",
+            "spec-name" : "Internet Draft ietf-httpbis-digest-headers" } ] },
       
       { "value" : "Warning",
         "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",

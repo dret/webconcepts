@@ -1,0 +1,10 @@
+
+  { "value" : "Want-Repr-Digest",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Want-Repr-Digest",
+    "details" : 
+    [ 
+      { "description" : "Want-Repr-Digest indicates that the sender would like to receive a representation digest on messages associated with the request URI and representation metadata, using the Repr-Digest field.",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-ietf-httpbis-digest-headers#section-4",
+        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpbis-digest-headers",
+        "spec-name" : "Internet Draft ietf-httpbis-digest-headers" } ] }
