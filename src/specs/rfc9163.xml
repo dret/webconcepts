@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<service primary="IETF" secondary="RFC" id="9163">
+    <title>Expect-CT Extension for HTTP</title>
+    <documentation source="https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-expect-ct">This document defines a new HTTP header field named "Expect-CT", which allows web host operators to instruct user agents (UAs) to expect valid Signed Certificate Timestamps (SCTs) to be served on connections to these hosts. Expect-CT allows web host operators to discover misconfigurations in their Certificate Transparency (CT) deployments. Further, web host operators can use Expect-CT to ensure that if a UA that supports Expect-CT accepts a misissued certificate, that certificate will be discoverable in Certificate Transparency logs.</documentation>
+    <http-header def="Expect-CT">
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc9239#section-2.1">The Expect-CT response header field is a new field defined in this specification. It is used by a server to indicate that UAs should evaluate connections to the host emitting the header field for CT compliance.</documentation>
+    </http-header>
+</service>

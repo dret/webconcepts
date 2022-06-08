@@ -1355,10 +1355,10 @@
           "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Expect-CT",
           "details" : 
           [ 
-            { "description" : "The \"Expect-CT\" header field is a new response header defined in this specification. It is used by a server to indicate that UAs should evaluate connections to the host emitting the header for CT compliance.",
-              "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-ietf-httpbis-expect-ct#section-2.1",
-              "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpbis-expect-ct",
-              "spec-name" : "Internet Draft ietf-httpbis-expect-ct" } ] },
+            { "description" : "The Expect-CT response header field is a new field defined in this specification. It is used by a server to indicate that UAs should evaluate connections to the host emitting the header field for CT compliance.",
+              "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc9239#section-2.1",
+              "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/9163",
+              "spec-name" : "RFC 9163" } ] },
         
         { "value" : "Expires",
           "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",

@@ -1,0 +1,83 @@
+---
+layout:      page
+title:       "Expect-CT Extension for HTTP"
+description: "This document defines a new HTTP header field named \"Expect-CT\", which allows web
+host operators to instruct user agents (UAs) to expect valid Signed Certificate Timestamps
+(SCTs) to be served on connections to these hosts. Expect-CT allows web host operators
+to discover misconfigurations in their Certificate Transparency (CT) deployments.
+Further, web host operators can use Expect-CT to ensure that if a UA that supports
+Expect-CT accepts a misissued certificate, that certificate will be discoverable in
+Certificate Transparency logs."
+---
+
+<table cellpadding="5">
+   <tr>
+      <th valign="top" align="right">
+         <em>Document Name:</em>
+      </th>
+      <td>RFC 9163</td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Document URI:</em>
+      </th>
+      <td>
+         <code>urn:ietf:rfc:9163</code>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Online Version:</em>
+      </th>
+      <td>
+         <code>
+            <a href="https://datatracker.ietf.org/doc/html/rfc9163">https://datatracker.ietf.org/doc/html/rfc9163</a>
+         </code>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Organization:</em>
+      </th>
+      <td>
+         <a href="../" title="List of specification series by this organization">Internet Engineering Task Force (IETF)</a>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Series:</em>
+      </th>
+      <td>
+         <a href="./" title="List of specifications in this series">Request for Comments (RFC)</a>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Abstract:</em>
+      </th>
+      <td>This document defines a new HTTP header field named "Expect-CT", which allows web
+         host operators to instruct user agents (UAs) to expect valid Signed Certificate Timestamps
+         (SCTs) to be served on connections to these hosts. Expect-CT allows web host operators
+         to discover misconfigurations in their Certificate Transparency (CT) deployments.
+         Further, web host operators can use Expect-CT to ensure that if a UA that supports
+         Expect-CT accepts a misissued certificate, that certificate will be discoverable in
+         Certificate Transparency logs.
+      </td>
+   </tr>
+</table>
+<br></br>
+<hr></hr>
+<h2 id="concepts">Specified Web Concepts:</h2>
+<h3 id="http-header">
+   <a href="/concepts/http-header/" title="List of all HTTP Header Fields">HTTP Header Fields</a>
+</h3>
+<code>
+   <a href="/concepts/http-header/Expect-CT" title="The Expect-CT response header field is a new field defined in this specification. It is used by a server to indicate that UAs should evaluate connections to the host emitting the header field for CT compliance.">Expect-CT</a>
+</code>
+<br></br>
+<hr></hr>
+<p style="text-align: right">Return to ( 
+   <a href="./">Series</a> | 
+   <a href="../">Organization</a> | 
+   <a href="../../">all Specifications</a> )
+</p>
