@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<service primary="IETF" secondary="RFC" id="9209">
+    <title>The Proxy-Status HTTP Response Header Field</title>
+    <documentation source="https://datatracker.ietf.org/doc/html/rfc9209">This document defines the Proxy-Status HTTP response field to convey the details of an intermediary's response handling, including generated errors.</documentation>
+    <http-header def="Proxy-Status">
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc9209#section-2">The Proxy-Status HTTP response field allows an intermediary to convey additional information about its handling of a response and its associated request.</documentation>
+    </http-header>
+</service>

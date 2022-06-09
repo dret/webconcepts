@@ -251,15 +251,6 @@
       "abstract": "This document describes a scheme for prioritizing HTTP responses. This scheme expresses the priority of each HTTP response using absolute values, rather than as a relative relationship between a group of HTTP responses. This document defines the Priority header field for communicating the initial priority in an HTTP version-independent manner, as well as HTTP/2 and HTTP/3 frames for reprioritizing the responses. These share a common format structure that is designed to provide future extensibility.",
       "concepts": [{
        "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Priority" }]}},{
-     "ietf-httpbis-proxy-status": {
-      "id": "http://webconcepts.info/specs/IETF/I-D/ietf-httpbis-proxy-status",
-      "title": "The Proxy-Status HTTP Response Header Field",
-      "name": "Internet Draft ietf-httpbis-proxy-status",
-      "URI": "urn:ietf:id:ietf-httpbis-proxy-status",
-      "URL": "https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-proxy-status",
-      "abstract": "This document defines the Proxy-Status HTTP field to convey the details of intermediary response handling, including generated errors.",
-      "concepts": [{
-       "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Proxy-Status" }]}},{
      "ietf-httpbis-rfc6265bis": {
       "id": "http://webconcepts.info/specs/IETF/I-D/ietf-httpbis-rfc6265bis",
       "title": "HTTP State Management Mechanism",
@@ -2724,6 +2715,15 @@
       "abstract": "This document defines a new HTTP header field named \"Expect-CT\", which allows web host operators to instruct user agents (UAs) to expect valid Signed Certificate Timestamps (SCTs) to be served on connections to these hosts. Expect-CT allows web host operators to discover misconfigurations in their Certificate Transparency (CT) deployments. Further, web host operators can use Expect-CT to ensure that if a UA that supports Expect-CT accepts a misissued certificate, that certificate will be discoverable in Certificate Transparency logs.",
       "concepts": [{
        "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Expect-CT" }]}},{
+     "9209": {
+      "id": "http://webconcepts.info/specs/IETF/RFC/9209",
+      "title": "The Proxy-Status HTTP Response Header Field",
+      "name": "RFC 9209",
+      "URI": "urn:ietf:rfc:9209",
+      "URL": "https://datatracker.ietf.org/doc/html/rfc9209",
+      "abstract": "This document defines the Proxy-Status HTTP response field to convey the details of an intermediary's response handling, including generated errors.",
+      "concepts": [{
+       "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Proxy-Status" }]}},{
      "9239": {
       "id": "http://webconcepts.info/specs/IETF/RFC/9239",
       "title": "Updates to ECMAScript Media Types",

@@ -4,7 +4,7 @@ title:       "IETF Internet Draft Series"
 description: "List of specifications in the Internet Draft (I-D) series by the Internet Engineering Task Force (IETF)"
 ---
 
-There are currently 59 listed specifications in the [Internet Engineering Task Force (IETF)](..)'s Internet Draft (I-D) series.
+There are currently 58 listed specifications in the [Internet Engineering Task Force (IETF)](..)'s Internet Draft (I-D) series.
 
   * [A JSON Media Type for Describing the Structure and Meaning of JSON Documents (Internet Draft zyp-json-schema)](zyp-json-schema)
   * [Accept-Push-Policy Header Field (Internet Draft ruellan-http-accept-push-policy)](ruellan-http-accept-push-policy)
@@ -59,7 +59,6 @@ There are currently 59 listed specifications in the [Internet Engineering Task F
   * [The JavaScript Object Notation (JSON) Data Interchange Format (Internet Draft ietf-jsonbis-rfc7159bis)](ietf-jsonbis-rfc7159bis)
   * [The Key HTTP Response Header Field (Internet Draft ietf-httpbis-key)](ietf-httpbis-key)
   * [The Link-Template HTTP Header Field (Internet Draft ietf-httpapi-link-template)](ietf-httpapi-link-template)
-  * [The Proxy-Status HTTP Response Header Field (Internet Draft ietf-httpbis-proxy-status)](ietf-httpbis-proxy-status)
   * [The Tunnel-Protocol HTTP Header Field (Internet Draft ietf-httpbis-tunnel-protocol)](ietf-httpbis-tunnel-protocol)
   * [Voluntary Application Server Identification (VAPID) for Web Push (Internet Draft ietf-webpush-vapid)](ietf-webpush-vapid)
   * [WebP Image Format (Internet Draft zern-webp)](zern-webp)
