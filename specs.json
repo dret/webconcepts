@@ -271,15 +271,6 @@
       "concepts": [{
        "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Accept-Query" }, {
        "http://webconcepts.info/concepts/http-method/": "http://webconcepts.info/concepts/http-method/QUERY" }]}},{
-     "ietf-httpbis-targeted-cache-control": {
-      "id": "http://webconcepts.info/specs/IETF/I-D/ietf-httpbis-targeted-cache-control",
-      "title": "Targeted HTTP Cache Control",
-      "name": "Internet Draft ietf-httpbis-targeted-cache-control",
-      "URI": "urn:ietf:id:ietf-httpbis-targeted-cache-control",
-      "URL": "https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-targeted-cache-control",
-      "abstract": "This specification defines a convention for HTTP response header fields that allow directives controlling caching to be targeted at specific caches or classes of caches. It also defines one such header field, targeted at Content Delivery Network (CDN) caches.",
-      "concepts": [{
-       "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/CDN-Cache-Control" }]}},{
      "ietf-httpbis-tunnel-protocol": {
       "id": "http://webconcepts.info/specs/IETF/I-D/ietf-httpbis-tunnel-protocol",
       "title": "The Tunnel-Protocol HTTP Header Field",
@@ -2724,6 +2715,15 @@
       "abstract": "This document defines the Proxy-Status HTTP response field to convey the details of an intermediary's response handling, including generated errors.",
       "concepts": [{
        "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Proxy-Status" }]}},{
+     "9213": {
+      "id": "http://webconcepts.info/specs/IETF/RFC/9213",
+      "title": "Targeted HTTP Cache Control",
+      "name": "RFC 9213",
+      "URI": "urn:ietf:rfc:9213",
+      "URL": "https://datatracker.ietf.org/doc/html/rfc9213",
+      "abstract": "This specification defines a convention for HTTP response header fields that allow cache directives to be targeted at specific caches or classes of caches. It also defines one such header field, the CDN-Cache-Control response header field, which is targeted at content delivery network (CDN) caches.",
+      "concepts": [{
+       "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/CDN-Cache-Control" }]}},{
      "9239": {
       "id": "http://webconcepts.info/specs/IETF/RFC/9239",
       "title": "Updates to ECMAScript Media Types",

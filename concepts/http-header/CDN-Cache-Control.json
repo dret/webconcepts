@@ -4,7 +4,7 @@
     "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/CDN-Cache-Control",
     "details" : 
     [ 
-      { "description" : "The CDN-Cache-Control response header field is a targeted field that allows origin servers to control the behaviour of CDN caches interposed between them and clients, separately from other caches that might handle the response. It applies to caches that are part of a distributed network that operate on behalf of an origin server (commonly called a Content Delivery Network or CDN).",
-        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-ietf-httpbis-targeted-cache-control#section-3",
-        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpbis-targeted-cache-control",
-        "spec-name" : "Internet Draft ietf-httpbis-targeted-cache-control" } ] }
+      { "description" : "The CDN-Cache-Control response header field is a targeted field that allows origin servers to control the behavior of CDN caches interposed between them and clients separately from other caches that might handle the response. It applies to caches that are part of a distributed network that operate on behalf of an origin server (commonly called a CDN).",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc9213#section-3",
+        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/9213",
+        "spec-name" : "RFC 9213" } ] }
