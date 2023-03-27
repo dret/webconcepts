@@ -1,0 +1,86 @@
+---
+layout:      page
+title:       "Resumable Uploads for HTTP"
+description: "HTTP clients often encounter interrupted data transfers as a result of canceled requests
+or dropped connections. Prior to interruption, part of a representation may have been
+exchanged. To complete the data transfer of the entire representation, it is often
+desirable to issue subsequent requests that transfer only the remainder of the representation.
+HTTP range requests support this concept of resumable downloads from server to client.
+This document describes a mechanism that supports resumable uploads from client to
+server using HTTP."
+---
+
+<table cellpadding="5">
+   <tr>
+      <th valign="top" align="right">
+         <em>Document Name:</em>
+      </th>
+      <td>Internet Draft draft-ietf-httpbis-resumable-upload</td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Document URI:</em>
+      </th>
+      <td>
+         <code>urn:ietf:id:draft-ietf-httpbis-resumable-upload</code>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Online Version:</em>
+      </th>
+      <td>
+         <code>
+            <a href="https://datatracker.ietf.org/doc/html/draft-draft-ietf-httpbis-resumable-upload">https://datatracker.ietf.org/doc/html/draft-draft-ietf-httpbis-resumable-upload</a>
+         </code>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Organization:</em>
+      </th>
+      <td>
+         <a href="../" title="List of specification series by this organization">Internet Engineering Task Force (IETF)</a>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Series:</em>
+      </th>
+      <td>
+         <a href="./" title="List of specifications in this series">Internet Draft (I-D)</a>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Abstract:</em>
+      </th>
+      <td>HTTP clients often encounter interrupted data transfers as a result of canceled requests
+         or dropped connections. Prior to interruption, part of a representation may have been
+         exchanged. To complete the data transfer of the entire representation, it is often
+         desirable to issue subsequent requests that transfer only the remainder of the representation.
+         HTTP range requests support this concept of resumable downloads from server to client.
+         This document describes a mechanism that supports resumable uploads from client to
+         server using HTTP.
+      </td>
+   </tr>
+</table>
+<br></br>
+<hr></hr>
+<h2 id="concepts">Specified Web Concepts:</h2>
+<h3 id="http-header">
+   <a href="/concepts/http-header/" title="List of all HTTP Header Fields">HTTP Header Fields</a>
+</h3>
+<code>
+   <a href="/concepts/http-header/Upload-Incomplete" title="The Upload-Incomplete request and response header field is an Item Structured Header indicating whether the corresponding upload is considered complete.">Upload-Incomplete</a>
+</code>, 
+<code>
+   <a href="/concepts/http-header/Upload-Offset" title="The Upload-Offset request and response header field is an Item Structured Header indicating the resumption offset of corresponding upload, counted in bytes.">Upload-Offset</a>
+</code>
+<br></br>
+<hr></hr>
+<p style="text-align: right">Return to ( 
+   <a href="./">Series</a> | 
+   <a href="../">Organization</a> | 
+   <a href="../../">all Specifications</a> )
+</p>

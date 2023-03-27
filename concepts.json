@@ -2585,6 +2585,26 @@
               "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/upgrade-insecure-requests",
               "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/upgrade-insecure-requests" } ] },
         
+        { "value" : "Upload-Incomplete",
+          "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
+          "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Upload-Incomplete",
+          "details" : 
+          [ 
+            { "description" : "The Upload-Incomplete request and response header field is an Item Structured Header indicating whether the corresponding upload is considered complete.",
+              "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-ietf-httpbis-resumable-upload-01#section-9.2",
+              "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/draft-ietf-httpbis-resumable-upload",
+              "spec-name" : "Internet Draft draft-ietf-httpbis-resumable-upload" } ] },
+        
+        { "value" : "Upload-Offset",
+          "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
+          "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Upload-Offset",
+          "details" : 
+          [ 
+            { "description" : "The Upload-Offset request and response header field is an Item Structured Header indicating the resumption offset of corresponding upload, counted in bytes.",
+              "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-ietf-httpbis-resumable-upload-01#section-9.1",
+              "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/draft-ietf-httpbis-resumable-upload",
+              "spec-name" : "Internet Draft draft-ietf-httpbis-resumable-upload" } ] },
+        
         { "value" : "Urgency",
           "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
           "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Urgency",

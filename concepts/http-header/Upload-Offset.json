@@ -1,0 +1,10 @@
+
+  { "value" : "Upload-Offset",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Upload-Offset",
+    "details" : 
+    [ 
+      { "description" : "The Upload-Offset request and response header field is an Item Structured Header indicating the resumption offset of corresponding upload, counted in bytes.",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-ietf-httpbis-resumable-upload-01#section-9.1",
+        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/draft-ietf-httpbis-resumable-upload",
+        "spec-name" : "Internet Draft draft-ietf-httpbis-resumable-upload" } ] }

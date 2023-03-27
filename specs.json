@@ -57,6 +57,16 @@
       "concepts": [{
        "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/down" }, {
        "http://webconcepts.info/concepts/link-relation/": "http://webconcepts.info/concepts/link-relation/up" }]}},{
+     "draft-ietf-httpbis-resumable-upload": {
+      "id": "http://webconcepts.info/specs/IETF/I-D/draft-ietf-httpbis-resumable-upload",
+      "title": "Resumable Uploads for HTTP",
+      "name": "Internet Draft draft-ietf-httpbis-resumable-upload",
+      "URI": "urn:ietf:id:draft-ietf-httpbis-resumable-upload",
+      "URL": "https://datatracker.ietf.org/doc/html/draft-draft-ietf-httpbis-resumable-upload",
+      "abstract": "HTTP clients often encounter interrupted data transfers as a result of canceled requests or dropped connections. Prior to interruption, part of a representation may have been exchanged. To complete the data transfer of the entire representation, it is often desirable to issue subsequent requests that transfer only the remainder of the representation. HTTP range requests support this concept of resumable downloads from server to client. This document describes a mechanism that supports resumable uploads from client to server using HTTP.",
+      "concepts": [{
+       "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Upload-Incomplete" }, {
+       "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Upload-Offset" }]}},{
      "drechsler-httpbis-improved-caching": {
       "id": "http://webconcepts.info/specs/IETF/I-D/drechsler-httpbis-improved-caching",
       "title": "Hypertext Transfer Protocol: Improved HTTP Caching",
