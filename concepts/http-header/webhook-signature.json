@@ -1,0 +1,10 @@
+
+  { "value" : "webhook-signature",
+    "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
+    "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/webhook-signature",
+    "details" : 
+    [ 
+      { "description" : "The signature header is a space delimited list of signatures associated with this webhook. The reason it is a list, and not just one signature is to support zero downtime secret rotation. The secret key used for the signature should not be changed under normal circumstances, but it may be required that it does change under some circumstances (e.g. compromise). Supporting zero downtime secret rotation means that webhook operations won't be affected during the secret rotation process.",
+        "documentation" : "https:\/\/github.com\/standard-webhooks\/standard-webhooks\/blob\/main\/spec\/standard-webhooks.md#webhook-headers-sending-metadata-to-consumers",
+        "specification" : "http:\/\/webconcepts.info\/specs\/Webhook\/standard\/webhooks",
+        "spec-name" : "Webhook Standard webhooks" } ] }

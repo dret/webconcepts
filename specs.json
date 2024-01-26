@@ -3383,5 +3383,24 @@
       "URL": "http://www.w3.org/TR/webvtt",
       "abstract": "This specification defines WebVTT, the Web Video Text Tracks format. Its main use is for marking up external text track resources in connection with the HTML <track> element. WebVTT files provide captions or subtitles for video content, and also text video descriptions, chapters for content navigation, and more generally any form of metadata that is time-aligned with audio or video content.",
       "concepts": [{
-       "http://webconcepts.info/concepts/media-type/": "http://webconcepts.info/concepts/media-type/text/vtt" }]}}]}}]}
+       "http://webconcepts.info/concepts/media-type/": "http://webconcepts.info/concepts/media-type/text/vtt" }]}}]}}]},
+ "Webhook": {
+  "id": "http://webconcepts.info/specs/Webhook/",
+  "name": "The Webhook Standard",
+  "short": "Webhook",
+  "series": [{
+   "standard": {
+    "id": "http://webconcepts.info/specs/Webhook/standard/",
+    "name": "Standard",
+    "specs": [{
+     "webhooks": {
+      "id": "http://webconcepts.info/specs/Webhook/standard/webhooks",
+      "title": "Standard Webhooks",
+      "name": "Webhook Standard webhooks",
+      "URL": "https://github.com/standard-webhooks/webhooks",
+      "abstract": "Webhooks are becoming increasingly popular and are used by many of the world's top companies for sending events to users of their APIs. However, the ecosystem is fragmented, with each webhook provider using different implementations and varying quality. Even high quality implementations vary, making them inherently incompatible. This fragmentation is a pain for the providers and consumers, stifling innovation.",
+      "concepts": [{
+       "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/webhook-id" }, {
+       "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/webhook-signature" }, {
+       "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/webhook-timestamp" }]}}]}}]}
 }

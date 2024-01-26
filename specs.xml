@@ -61,4 +61,14 @@
             <uri-pattern>urn:oasis:names:specification:$1</uri-pattern>
         </secondary>
     </primary>
+    <primary id="Webhook" href="https://www.standardwebhooks.com/">
+        <name short="Webhook">The Webhook Standard</name>
+        <secondary id="standard">
+            <name>Standard</name>
+            <id-pattern>^(.+)$</id-pattern>
+            <md-pattern>$1</md-pattern>
+            <name-pattern>Webhook Standard $1</name-pattern>
+            <url-pattern>https://github.com/standard-webhooks/$1</url-pattern>
+        </secondary>
+    </primary>
 </specs>

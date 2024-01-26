@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<service primary="Webhook" secondary="standard" id="webhooks">
+    <title>Standard Webhooks</title>
+    <documentation source="https://github.com/standard-webhooks/standard-webhooks">Webhooks are becoming increasingly popular and are used by many of the world's top companies for sending events to users of their APIs. However, the ecosystem is fragmented, with each webhook provider using different implementations and varying quality. Even high quality implementations vary, making them inherently incompatible. This fragmentation is a pain for the providers and consumers, stifling innovation.</documentation>
+    <http-header def="webhook-id">
+        <documentation source="https://github.com/standard-webhooks/standard-webhooks/blob/main/spec/standard-webhooks.md#webhook-headers-sending-metadata-to-consumers">The unique webhook identifier.</documentation>
+    </http-header>
+    <http-header def="webhook-timestamp">
+        <documentation source="https://github.com/standard-webhooks/standard-webhooks/blob/main/spec/standard-webhooks.md#webhook-headers-sending-metadata-to-consumers">Integer unix timestamp (seconds since epoch).</documentation>
+    </http-header>
+    <http-header def="webhook-signature">
+        <documentation source="https://github.com/standard-webhooks/standard-webhooks/blob/main/spec/standard-webhooks.md#webhook-headers-sending-metadata-to-consumers">The signature header is a space delimited list of signatures associated with this webhook. The reason it is a list, and not just one signature is to support zero downtime secret rotation. The secret key used for the signature should not be changed under normal circumstances, but it may be required that it does change under some circumstances (e.g. compromise). Supporting zero downtime secret rotation means that webhook operations won't be affected during the secret rotation process.</documentation>
+    </http-header>
+</service>

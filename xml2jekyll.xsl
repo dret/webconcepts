@@ -64,12 +64,12 @@
                     <xsl:text>title:       "</xsl:text>
                     <xsl:value-of select="name"/>
                     <xsl:text>: Specification Series"&#xa;</xsl:text>
-                    <xsl:text>description: "List of specification series by the </xsl:text>
+                    <xsl:text>description: "List of specification series by </xsl:text>
                     <xsl:value-of select="name"/>
                     <xsl:if test="exists(name/@short)">
                         <xsl:text> (</xsl:text>
                         <xsl:value-of select="name/@short"/>
-                        <xsl:text>/)</xsl:text>
+                        <xsl:text>)</xsl:text>
                     </xsl:if>
                     <xsl:text>"&#xa;</xsl:text>
                     <xsl:text>---&#xa;&#xa;</xsl:text>

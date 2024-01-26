@@ -1,0 +1,77 @@
+---
+layout:      page
+title:       "Standard Webhooks"
+description: "Webhooks are becoming increasingly popular and are used by many of the world's top
+companies for sending events to users of their APIs. However, the ecosystem is fragmented,
+with each webhook provider using different implementations and varying quality. Even
+high quality implementations vary, making them inherently incompatible. This fragmentation
+is a pain for the providers and consumers, stifling innovation."
+---
+
+<table cellpadding="5">
+   <tr>
+      <th valign="top" align="right">
+         <em>Document Name:</em>
+      </th>
+      <td>Webhook Standard webhooks</td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Online Version:</em>
+      </th>
+      <td>
+         <code>
+            <a href="https://github.com/standard-webhooks/webhooks">https://github.com/standard-webhooks/webhooks</a>
+         </code>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Organization:</em>
+      </th>
+      <td>
+         <a href="../" title="List of specification series by this organization">The Webhook Standard (Webhook)</a>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Series:</em>
+      </th>
+      <td>
+         <a href="./" title="List of specifications in this series">Standard</a>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Abstract:</em>
+      </th>
+      <td>Webhooks are becoming increasingly popular and are used by many of the world's top
+         companies for sending events to users of their APIs. However, the ecosystem is fragmented,
+         with each webhook provider using different implementations and varying quality. Even
+         high quality implementations vary, making them inherently incompatible. This fragmentation
+         is a pain for the providers and consumers, stifling innovation.
+      </td>
+   </tr>
+</table>
+<br></br>
+<hr></hr>
+<h2 id="concepts">Specified Web Concepts:</h2>
+<h3 id="http-header">
+   <a href="/concepts/http-header/" title="List of all HTTP Header Fields">HTTP Header Fields</a>
+</h3>
+<code>
+   <a href="/concepts/http-header/webhook-id" title="The unique webhook identifier.">webhook-id</a>
+</code>, 
+<code>
+   <a href="/concepts/http-header/webhook-signature" title="The signature header is a space delimited list of signatures associated with this webhook. The reason it is a list, and not just one signature is to support zero downtime secret rotation. The secret key used for the signature should not be changed under normal circumstances, but it may be required that it does change under some circumstances (e.g. compromise). Supporting zero downtime secret rotation means that webhook operations won't be affected during the secret rotation process.">webhook-signature</a>
+</code>, 
+<code>
+   <a href="/concepts/http-header/webhook-timestamp" title="Integer unix timestamp (seconds since epoch).">webhook-timestamp</a>
+</code>
+<br></br>
+<hr></hr>
+<p style="text-align: right">Return to ( 
+   <a href="./">Series</a> | 
+   <a href="../">Organization</a> | 
+   <a href="../../">all Specifications</a> )
+</p>
