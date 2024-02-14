@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<service primary="IETF" secondary="I-D" id="ietf-httpapi-yaml-mediatypes">
-    <title>YAML Media Type</title>
-    <documentation source="https://datatracker.ietf.org/doc/html/draft-ietf-httpapi-yaml-mediatypes">This document registers the application/yaml media type and the +yaml structured syntax suffix on the IANA Media Types registry.</documentation>
-    <media-type def="application/yaml">
-        <documentation source="https://datatracker.ietf.org/doc/html/draft-ietf-httpapi-yaml-mediatypes#section-2.1">YAML is a data serialization format that is widely used on the Internet.</documentation>
-    </media-type>
-</service>

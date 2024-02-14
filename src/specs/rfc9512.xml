@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<service primary="IETF" secondary="RFC" id="9512">
+    <title>YAML Media Type</title>
+    <documentation source="https://datatracker.ietf.org/doc/html/rfc9512">This document registers the application/yaml media type and the +yaml structured syntax suffix with IANA. Both identify document components that are serialized according to the YAML specification.</documentation>
+    <media-type def="application/yaml">
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc9512#section-2.1">YAML is a data serialization format that is capable of conveying one or multiple documents in a single presentation stream (e.g., a file or a network resource). The media type for YAML is application/yaml</documentation>
+    </media-type>
+</service>
