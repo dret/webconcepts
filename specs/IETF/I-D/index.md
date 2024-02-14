@@ -4,7 +4,7 @@ title:       "IETF Internet Draft Series"
 description: "List of specifications in the Internet Draft (I-D) series by the Internet Engineering Task Force (IETF)"
 ---
 
-There are currently 58 listed specifications in the [Internet Engineering Task Force (IETF)](..)'s Internet Draft (I-D) series.
+There are currently 57 listed specifications in the [Internet Engineering Task Force (IETF)](..)'s Internet Draft (I-D) series.
 
   * [A JSON Media Type for Describing the Structure and Meaning of JSON Documents (Internet Draft zyp-json-schema)](zyp-json-schema)
   * [Accept-Push-Policy Header Field (Internet Draft ruellan-http-accept-push-policy)](ruellan-http-accept-push-policy)
@@ -15,7 +15,6 @@ There are currently 58 listed specifications in the [Internet Engineering Task F
   * [Client-Cert HTTP Header Field (Internet Draft ietf-httpbis-client-cert-field)](ietf-httpbis-client-cert-field)
   * [Communicating Warning Information in HTTP APIs (Internet Draft cedik-http-warning)](cedik-http-warning)
   * [Content-Signature Header Field for HTTP (Internet Draft thomson-http-content-signature)](thomson-http-content-signature)
-  * [Digest Fields (Internet Draft ietf-httpbis-digest-headers)](ietf-httpbis-digest-headers)
   * [Duplicate Suppression in HTTP (Internet Draft mogul-http-dupsup)](mogul-http-dupsup)
   * [Dynamic Resource Linking for Constrained RESTful Environments (Internet Draft ietf-core-dynlink)](ietf-core-dynlink)
   * [Extensible Prioritization Scheme for HTTP (Internet Draft ietf-httpbis-priority)](ietf-httpbis-priority)
