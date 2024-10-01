@@ -154,15 +154,6 @@
       "abstract": "The HTTP Idempotency-Key request header field can be used to carry idempotency key in order to make non-idempotent HTTP methods such as \"POST\" or \"PATCH\" fault-tolerant.",
       "concepts": [{
        "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Idempotency-Key" }]}},{
-     "ietf-httpapi-link-template": {
-      "id": "http://webconcepts.info/specs/IETF/I-D/ietf-httpapi-link-template",
-      "title": "The Link-Template HTTP Header Field",
-      "name": "Internet Draft ietf-httpapi-link-template",
-      "URI": "urn:ietf:id:ietf-httpapi-link-template",
-      "URL": "https://datatracker.ietf.org/doc/html/draft-ietf-httpapi-link-template",
-      "abstract": "This specification defines the Link-Template HTTP header field, providing a means for describing the structure of a link between two resources, so that new links can be generated.",
-      "concepts": [{
-       "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Link-Template" }]}},{
      "ietf-httpapi-linkset": {
       "id": "http://webconcepts.info/specs/IETF/I-D/ietf-httpapi-linkset",
       "title": "Linkset: Media Types and a Link Relation Type for Link Sets",
@@ -185,15 +176,6 @@
        "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/RateLimit-Limit" }, {
        "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/RateLimit-Remaining" }, {
        "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/RateLimit-Reset" }]}},{
-     "ietf-httpapi-yaml-mediatypes": {
-      "id": "http://webconcepts.info/specs/IETF/I-D/ietf-httpapi-yaml-mediatypes",
-      "title": "YAML Media Type",
-      "name": "Internet Draft ietf-httpapi-yaml-mediatypes",
-      "URI": "urn:ietf:id:ietf-httpapi-yaml-mediatypes",
-      "URL": "https://datatracker.ietf.org/doc/html/draft-ietf-httpapi-yaml-mediatypes",
-      "abstract": "This document registers the application/yaml media type and the +yaml structured syntax suffix on the IANA Media Types registry.",
-      "concepts": [{
-       "http://webconcepts.info/concepts/media-type/": "http://webconcepts.info/concepts/media-type/application/yaml" }]}},{
      "ietf-httpbis-binary-message": {
       "id": "http://webconcepts.info/specs/IETF/I-D/ietf-httpbis-binary-message",
       "title": "Binary Representation of HTTP Messages",
@@ -231,18 +213,6 @@
       "abstract": "HTTP defines proactive content negotiation to allow servers to select the appropriate response for a given request, based upon the user agent's characteristics, as expressed in request headers. In practice, clients are often unwilling to send those request headers, because it is not clear whether they will be used, and sending them impacts both performance and privacy. This document defines an Accept-CH response header that servers can use to advertise their use of request headers for proactive content negotiation, along with a set of guidelines for the creation of such headers, colloquially known as \"Client Hints.\"",
       "concepts": [{
        "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Accept-CH" }]}},{
-     "ietf-httpbis-digest-headers": {
-      "id": "http://webconcepts.info/specs/IETF/I-D/ietf-httpbis-digest-headers",
-      "title": "Digest Fields",
-      "name": "Internet Draft ietf-httpbis-digest-headers",
-      "URI": "urn:ietf:id:ietf-httpbis-digest-headers",
-      "URL": "https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-digest-headers",
-      "abstract": "This document defines HTTP fields that support integrity digests. The Content-Digest field can be used for the integrity of HTTP message content. The Repr-Digest field can be used for the integrity of HTTP representations. Want-Content-Digest and Want-Repr-Digest can be used to indicate a sender's interest and preferences for receiving the respective Integrity fields.",
-      "concepts": [{
-       "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Content-Digest" }, {
-       "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Repr-Digest" }, {
-       "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Want-Content-Digest" }, {
-       "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Want-Repr-Digest" }]}},{
      "ietf-httpbis-key": {
       "id": "http://webconcepts.info/specs/IETF/I-D/ietf-httpbis-key",
       "title": "The Key HTTP Response Header Field",
@@ -2743,7 +2713,37 @@
       "abstract": "This document describes the registration of media types for the ECMAScript and JavaScript programming languages and conformance requirements for implementations of these types. This document obsoletes RFC 4329 (\"Scripting Media Types)\", replacing the previous registrations with information and requirements aligned with common usage and implementation experiences.",
       "concepts": [{
        "http://webconcepts.info/concepts/media-type/": "http://webconcepts.info/concepts/media-type/text/ecmascript" }, {
-       "http://webconcepts.info/concepts/media-type/": "http://webconcepts.info/concepts/media-type/text/javascript" }]}}]}}]},
+       "http://webconcepts.info/concepts/media-type/": "http://webconcepts.info/concepts/media-type/text/javascript" }]}},{
+     "9512": {
+      "id": "http://webconcepts.info/specs/IETF/RFC/9512",
+      "title": "YAML Media Type",
+      "name": "RFC 9512",
+      "URI": "urn:ietf:rfc:9512",
+      "URL": "https://datatracker.ietf.org/doc/html/rfc9512",
+      "abstract": "This document registers the application/yaml media type and the +yaml structured syntax suffix with IANA. Both identify document components that are serialized according to the YAML specification.",
+      "concepts": [{
+       "http://webconcepts.info/concepts/media-type/": "http://webconcepts.info/concepts/media-type/application/yaml" }]}},{
+     "9530": {
+      "id": "http://webconcepts.info/specs/IETF/RFC/9530",
+      "title": "Digest Fields",
+      "name": "RFC 9530",
+      "URI": "urn:ietf:rfc:9530",
+      "URL": "https://datatracker.ietf.org/doc/html/rfc9530",
+      "abstract": "This document defines HTTP fields that support integrity digests. The Content-Digest field can be used for the integrity of HTTP message content. The Repr-Digest field can be used for the integrity of HTTP representations. Want-Content-Digest and Want-Repr-Digest can be used to indicate a sender's interest and preferences for receiving the respective Integrity fields.",
+      "concepts": [{
+       "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Content-Digest" }, {
+       "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Repr-Digest" }, {
+       "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Want-Content-Digest" }, {
+       "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Want-Repr-Digest" }]}},{
+     "9652": {
+      "id": "http://webconcepts.info/specs/IETF/RFC/9652",
+      "title": "The Link-Template HTTP Header Field",
+      "name": "RFC 9652",
+      "URI": "urn:ietf:rfc:9652",
+      "URL": "https://datatracker.ietf.org/doc/html/rfc9652",
+      "abstract": "This specification defines the Link-Template HTTP header field, providing a means for describing the structure of a link between two resources so that new links can be generated.",
+      "concepts": [{
+       "http://webconcepts.info/concepts/http-header/": "http://webconcepts.info/concepts/http-header/Link-Template" }]}}]}}]},
  "ISO": {
   "id": "http://webconcepts.info/specs/ISO/",
   "name": "International Organization for Standardization",

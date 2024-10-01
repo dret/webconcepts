@@ -4,7 +4,7 @@
     "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Link-Template",
     "details" : 
     [ 
-      { "description" : "The Link-Template header field provides a means for serialising one or more links into HTTP message metadata. It is semantically equivalent to the Link header field defined in Section 3 of \"Web Linking\", except that it uses URI Templates to convey the structure of links.",
-        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-ietf-httpapi-link-template#section-2",
-        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpapi-link-template",
-        "spec-name" : "Internet Draft ietf-httpapi-link-template" } ] }
+      { "description" : "The Link-Template header field is a Structured Field that serializes one or more links into HTTP message metadata. It is semantically equivalent to the Link header field defined in Section 3 of Web Linking, except that the link target and link anchor can contain URI Templates.",
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc9652#name-the-link-template-header-fi",
+        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/9652",
+        "spec-name" : "RFC 9652" } ] }

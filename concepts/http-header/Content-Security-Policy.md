@@ -4,7 +4,7 @@ permalink:     "/concepts/http-header/Content-Security-Policy"
 title:         "HTTP Header Field: Content-Security-Policy"
 concept-name:  HTTP Header Field
 concept-value: Content-Security-Policy
-description: "The Content-Security-Policy HTTP response header field is the preferred mechanism for delivering a policy from a server to a client."
+description: "The Content-Security-Policy header field is the preferred mechanism for delivering a policy."
 ---
 
 [The Content-Security-Policy header field is the preferred mechanism for delivering a policy.](http://www.w3.org/TR/CSP2/#content-security-policy-header-field "Read documentation for HTTP Header Field &#34;Content-Security-Policy&#34;") (**[W3C TR http://www.w3.org/TR/CSP2: Content Security Policy Level 2](/specs/W3C/TR/CSP2 "This document defines a policy language used to declare a set of content restrictions for a web resource, and a mechanism for transmitting the policy from a server to a client where the policy is enforced.")**)

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<service primary="IETF" secondary="RFC" id="9652">
+    <title>The Link-Template HTTP Header Field</title>
+    <documentation source="https://datatracker.ietf.org/doc/html/rfc9652">This specification defines the Link-Template HTTP header field, providing a means for describing the structure of a link between two resources so that new links can be generated.</documentation>
+    <http-header def="Link-Template">
+        <documentation source="https://datatracker.ietf.org/doc/html/rfc9652#name-the-link-template-header-fi">The Link-Template header field is a Structured Field that serializes one or more links into HTTP message metadata. It is semantically equivalent to the Link header field defined in Section 3 of Web Linking, except that the link target and link anchor can contain URI Templates.</documentation>
+    </http-header>
+</service>

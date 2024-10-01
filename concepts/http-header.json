@@ -532,9 +532,9 @@
         "details" : 
         [ 
           { "description" : "The Content-Digest HTTP field can be used in requests and responses to communicate digests that are calculated using a hashing algorithm applied to the actual message content.",
-            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-ietf-httpbis-digest-headers#section-2",
-            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpbis-digest-headers",
-            "spec-name" : "Internet Draft ietf-httpbis-digest-headers" } ] },
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc9530#section-2",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/9530",
+            "spec-name" : "RFC 9530" } ] },
       
       { "value" : "Content-Disposition",
         "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
@@ -606,15 +606,15 @@
         "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Content-Security-Policy",
         "details" : 
         [ 
-          { "description" : "The Content-Security-Policy HTTP response header field is the preferred mechanism for delivering a policy from a server to a client.",
-            "documentation" : "http:\/\/www.w3.org\/TR\/CSP3\/#csp-header",
-            "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/CSP3",
-            "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/CSP3" },
-          
           { "description" : "The Content-Security-Policy header field is the preferred mechanism for delivering a policy.",
             "documentation" : "http:\/\/www.w3.org\/TR\/CSP2\/#content-security-policy-header-field",
             "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/CSP2",
-            "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/CSP2" } ] },
+            "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/CSP2" },
+          
+          { "description" : "The Content-Security-Policy HTTP response header field is the preferred mechanism for delivering a policy from a server to a client.",
+            "documentation" : "http:\/\/www.w3.org\/TR\/CSP3\/#csp-header",
+            "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/CSP3",
+            "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/CSP3" } ] },
       
       { "value" : "Content-Security-Policy-Pin",
         "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
@@ -631,15 +631,15 @@
         "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Content-Security-Policy-Report-Only",
         "details" : 
         [ 
-          { "description" : "The Content-Security-Policy-Report-Only HTTP response header field allows web developers to experiment with policies by monitoring (but not enforcing) their effects.",
-            "documentation" : "http:\/\/www.w3.org\/TR\/CSP3\/#cspro-header",
-            "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/CSP3",
-            "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/CSP3" },
-          
           { "description" : "The Content-Security-Policy-Report-Only header field lets servers experiment with policies by monitoring (rather than enforcing) a policy.",
             "documentation" : "http:\/\/www.w3.org\/TR\/CSP2\/#content-security-policy-report-only-header-field",
             "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/CSP2",
-            "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/CSP2" } ] },
+            "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/CSP2" },
+          
+          { "description" : "The Content-Security-Policy-Report-Only HTTP response header field allows web developers to experiment with policies by monitoring (but not enforcing) their effects.",
+            "documentation" : "http:\/\/www.w3.org\/TR\/CSP3\/#cspro-header",
+            "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/CSP3",
+            "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/CSP3" } ] },
       
       { "value" : "Content-Security-Policy-Report-Only-Pin",
         "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
@@ -1131,10 +1131,10 @@
         "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Link-Template",
         "details" : 
         [ 
-          { "description" : "The Link-Template header field provides a means for serialising one or more links into HTTP message metadata. It is semantically equivalent to the Link header field defined in Section 3 of \"Web Linking\", except that it uses URI Templates to convey the structure of links.",
-            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-ietf-httpapi-link-template#section-2",
-            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpapi-link-template",
-            "spec-name" : "Internet Draft ietf-httpapi-link-template" } ] },
+          { "description" : "The Link-Template header field is a Structured Field that serializes one or more links into HTTP message metadata. It is semantically equivalent to the Link header field defined in Section 3 of Web Linking, except that the link target and link anchor can contain URI Templates.",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc9652#name-the-link-template-header-fi",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/9652",
+            "spec-name" : "RFC 9652" } ] },
       
       { "value" : "Location",
         "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
@@ -1652,9 +1652,9 @@
         "details" : 
         [ 
           { "description" : "The Repr-Digest HTTP field can be used in requests and responses to communicate digests that are calculated using a hashing algorithm applied to the entire selected representation data.",
-            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-ietf-httpbis-digest-headers#section-3",
-            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpbis-digest-headers",
-            "spec-name" : "Internet Draft ietf-httpbis-digest-headers" } ] },
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc9530#section-3",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/9530",
+            "spec-name" : "RFC 9530" } ] },
       
       { "value" : "Retry-After",
         "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
@@ -2221,10 +2221,10 @@
         "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Want-Content-Digest",
         "details" : 
         [ 
-          { "description" : "Want-Content-Digest indicates that the sender would like to receive a content digest on messages associated with the request URI and representation metadata, using the Content-Digest field.",
-            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-ietf-httpbis-digest-headers#section-4",
-            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpbis-digest-headers",
-            "spec-name" : "Internet Draft ietf-httpbis-digest-headers" } ] },
+          { "description" : "Want-Content-Digest indicates that the sender would like to receive (via the Content-Digest field) a content digest on messages associated with the request URI and representation metadata.",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc9530#section-4",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/9530",
+            "spec-name" : "RFC 9530" } ] },
       
       { "value" : "Want-Digest",
         "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
@@ -2241,10 +2241,10 @@
         "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Want-Repr-Digest",
         "details" : 
         [ 
-          { "description" : "Want-Repr-Digest indicates that the sender would like to receive a representation digest on messages associated with the request URI and representation metadata, using the Repr-Digest field.",
-            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-ietf-httpbis-digest-headers#section-4",
-            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpbis-digest-headers",
-            "spec-name" : "Internet Draft ietf-httpbis-digest-headers" } ] },
+          { "description" : "Want-Repr-Digest indicates that the sender would like to receive (via the Repr-Digest field) a representation digest on messages associated with the request URI and representation metadata.",
+            "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc9530#section-4",
+            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/9530",
+            "spec-name" : "RFC 9530" } ] },
       
       { "value" : "Warning",
         "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",

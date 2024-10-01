@@ -5,6 +5,6 @@
     "details" : 
     [ 
       { "description" : "The Repr-Digest HTTP field can be used in requests and responses to communicate digests that are calculated using a hashing algorithm applied to the entire selected representation data.",
-        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-ietf-httpbis-digest-headers#section-3",
-        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpbis-digest-headers",
-        "spec-name" : "Internet Draft ietf-httpbis-digest-headers" } ] }
+        "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc9530#section-3",
+        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/9530",
+        "spec-name" : "RFC 9530" } ] }
