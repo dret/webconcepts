@@ -1,7 +1,7 @@
 ---
 layout:    page
 title:     "Profile URIs"
-permalink: /concepts/profile-uri/
+permalink: /webconcepts/concepts/profile-uri/
 ---
 
 
@@ -10,7 +10,7 @@ The following 1 Profile URI values were found in [all available `webconcepts` sp
 
 Profile URI | Specification
 -------: | :-------
-[`urn:example:profile-uri`](/concepts/profile-uri/urn:example:profile-uri "A profile to be used in examples, in accordance with RFC 6963.") | [**RFC 7284**: The Profile URI Registry](/specs/IETF/RFC/7284 "This document defines a registry for profile URIs to be used in specifications standardizing profiles.")
+[`urn:example:profile-uri`](/webconcepts/concepts/profile-uri/urn:example:profile-uri "A profile to be used in examples, in accordance with RFC 6963.") | [**RFC 7284**: The Profile URI Registry](/webconcepts/specs/IETF/RFC/7284 "This document defines a registry for profile URIs to be used in specifications standardizing profiles.")
 
 <br/>
 <hr/>

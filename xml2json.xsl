@@ -50,7 +50,7 @@
                 <xsl:variable name="primary" select="$specs/specs/primary[@id eq current()/@primary]"/>
                 <xsl:value-of select="concat(' &quot;', @primary, '&quot;: {&#xa;')"/>
                 <xsl:text>  "id": </xsl:text>
-                <xsl:value-of select="concat('&quot;', $site-prefix, $specs-dir, '/', $primary/@id, '/&quot;,&#xa;')"/>
+                <xsl:value-of select="concat('&quot;', $site-name, $site-baseurl, '/', $specs-dir, '/', $primary/@id, '/&quot;,&#xa;')"/>
                 <xsl:text>  "name": </xsl:text>
                 <xsl:value-of select="concat('&quot;', $primary/name, '&quot;,&#xa;')"/>
                 <xsl:if test="exists($primary/name/@short)">
@@ -63,7 +63,7 @@
                     <xsl:variable name="secondary" select="$primary/secondary[@id eq current()/@secondary]"/>
                     <xsl:value-of select="concat('{&#xa;   &quot;', @secondary, '&quot;: {&#xa;')"/>
                     <xsl:text>    "id": </xsl:text>
-                    <xsl:value-of select="concat('&quot;', $site-prefix, $specs-dir, '/', $primary/@id, '/', $secondary/@id, '/&quot;,&#xa;')"/>
+                    <xsl:value-of select="concat('&quot;', $site-name, $site-baseurl, '/', $specs-dir, '/', $primary/@id, '/', $secondary/@id, '/&quot;,&#xa;')"/>
                     <xsl:text>    "name": </xsl:text>
                     <xsl:value-of select="concat('&quot;', $secondary/name, '&quot;,&#xa;')"/>
                     <xsl:if test="exists($secondary/name/@short)">
@@ -85,7 +85,7 @@
                         <xsl:variable name="id" select="replace(@id, $secondary/id-pattern, $secondary/md-pattern)"/>
                         <xsl:value-of select="concat('{&#xa;     &quot;', @id, '&quot;: {&#xa;')"/>
                         <xsl:text>      "id": </xsl:text>
-                        <xsl:value-of select="concat('&quot;', $site-prefix, $specs-dir, '/', $primary/@id, '/', $secondary/@id, '/', $id, '&quot;,&#xa;')"/>
+                        <xsl:value-of select="concat('&quot;', $site-name, $site-baseurl, '/', $specs-dir, '/', $primary/@id, '/', $secondary/@id, '/', $id, '&quot;,&#xa;')"/>
                         <xsl:text>      "title": </xsl:text>
                         <xsl:value-of select="concat('&quot;', replace(title, '&quot;', '\\&quot;'), '&quot;,&#xa;')"/>
                         <xsl:text>      "name": "</xsl:text>
@@ -109,9 +109,9 @@
                             <xsl:sort select="@def"/>
                             <xsl:variable name="concept-id" select="$concepts//concept[@id eq current()/local-name()]/@id"/>
                             <xsl:text>{&#xa;       "</xsl:text>
-                            <xsl:value-of select="concat($site-prefix, $concepts-dir, '/', $concept-id, '/')"/>
+                            <xsl:value-of select="concat($site-name, $site-baseurl, '/', $concepts-dir, '/', $concept-id, '/')"/>
                             <xsl:text>": "</xsl:text>
-                            <xsl:value-of select="concat($site-prefix, $concepts-dir, '/', $concept-id, '/', @def)"/>
+                            <xsl:value-of select="concat($site-name, $site-baseurl, '/', $concepts-dir, '/', $concept-id, '/', @def)"/>
                             <xsl:text>" }</xsl:text>
                             <xsl:if test="position() ne last()">
                                 <xsl:text>, </xsl:text>
@@ -149,10 +149,10 @@
                 <xsl:value-of select="$concept-value"/>
             </string>
             <string key="concept">
-                <xsl:value-of select="concat($site-prefix, $concepts-dir, '/', $concept/@id, '/')"/>
+                <xsl:value-of select="concat($site-name, $site-baseurl, '/', $concepts-dir, '/', $concept/@id, '/')"/>
             </string>
             <string key="id">
-                <xsl:value-of select="concat($site-prefix, $concepts-dir, '/', $concept/@id, '/', $concept-value)"/>
+                <xsl:value-of select="concat($site-name, $site-baseurl, '/', $concepts-dir, '/', $concept/@id, '/', $concept-value)"/>
             </string>
             <xsl:variable name="desc" select="$allspecs//*[local-name() eq $concept/@id][@def eq $concept-value][1]/@desc"/>
             <!-- this is cheating by (randomly) picking the first description should there be more than one in all specifications. -->
@@ -173,7 +173,7 @@
                             <xsl:value-of select="documentation/@source"/>
                         </string>
                         <string key="specification">
-                            <xsl:value-of select="concat($site-prefix, $specs-dir, '/', $secondary/../@id, '/', $secondary/@id, '/', $id)"/>
+                            <xsl:value-of select="concat($site-name, $site-baseurl, '/', $specs-dir, '/', $secondary/../@id, '/', $secondary/@id, '/', $id)"/>
                         </string>
                         <string key="spec-name" >
                             <xsl:call-template name="spec-name">
@@ -193,7 +193,7 @@
                 <xsl:value-of select="@id"/>
             </string>
             <string key="id">
-                <xsl:value-of select="concat($site-prefix, $concepts-dir, '/', @id, '/')"/>
+                <xsl:value-of select="concat($site-name, $site-baseurl, '/', $concepts-dir, '/', @id, '/')"/>
             </string>
             <string key="name-singular">
                 <xsl:value-of select="title-singular"/>

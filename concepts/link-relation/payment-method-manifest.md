@@ -7,7 +7,7 @@ concept-value: payment-method-manifest
 description: "Links to a payment method manifest, which describes a specific payment method within the Web Payments ecosystem."
 ---
 
-[Links to a payment method manifest, which describes a specific payment method within the Web Payments ecosystem.](https://www.w3.org/TR/payment-method-manifest/#payment-method-manifest-link "Read documentation for Link Relation &#34;payment-method-manifest&#34;") (**[W3C TR http://www.w3.org/TR/payment-method-manifest: Payment Method Manifest](/specs/W3C/TR/payment-method-manifest "This specification defines the machine-readable manifest file, known as a payment method manifest, describing how a payment method participates in the Web Payments ecosystem, and how such files are to be used.")**)
+[Links to a payment method manifest, which describes a specific payment method within the Web Payments ecosystem.](https://www.w3.org/TR/payment-method-manifest/#payment-method-manifest-link "Read documentation for Link Relation &#34;payment-method-manifest&#34;") (**[W3C TR http://www.w3.org/TR/payment-method-manifest: Payment Method Manifest](/webconcepts/specs/W3C/TR/payment-method-manifest "This specification defines the machine-readable manifest file, known as a payment method manifest, describing how a payment method participates in the Web Payments ecosystem, and how such files are to be used.")**)
 
 <br/>
 <hr/>

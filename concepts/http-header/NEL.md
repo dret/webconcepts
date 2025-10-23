@@ -7,7 +7,7 @@ concept-value: NEL
 description: "The NEL response header is used to communicate an origin's NEL policy to the user agent. The header's value is interpreted as an array of JSON objects. Each object in the array defines an NEL policy for the origin."
 ---
 
-[The NEL response header is used to communicate an origin's NEL policy to the user agent. The header's value is interpreted as an array of JSON objects. Each object in the array defines an NEL policy for the origin.](http://www.w3.org/TR/network-error-logging-1/#nel-response-header "Read documentation for HTTP Header Field &#34;NEL&#34;") (**[W3C TR http://www.w3.org/TR/network-error-logging-1: Network Error Logging](/specs/W3C/TR/network-error-logging-1 "This document defines a mechanism that enables developers to declare a network error reporting policy for a web application. A user agent can use this policy to report encountered network errors that prevented it from successfully fetching requested resources.")**)
+[The NEL response header is used to communicate an origin's NEL policy to the user agent. The header's value is interpreted as an array of JSON objects. Each object in the array defines an NEL policy for the origin.](http://www.w3.org/TR/network-error-logging-1/#nel-response-header "Read documentation for HTTP Header Field &#34;NEL&#34;") (**[W3C TR http://www.w3.org/TR/network-error-logging-1: Network Error Logging](/webconcepts/specs/W3C/TR/network-error-logging-1 "This document defines a mechanism that enables developers to declare a network error reporting policy for a web application. A user agent can use this policy to report encountered network errors that prevented it from successfully fetching requested resources.")**)
 
 <br/>
 <hr/>

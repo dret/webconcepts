@@ -1,7 +1,7 @@
 ---
 layout:    page
 title:     "HTTP Digest Algorithm Values"
-permalink: /concepts/http-dig-alg/
+permalink: /webconcepts/concepts/http-dig-alg/
 ---
 
 

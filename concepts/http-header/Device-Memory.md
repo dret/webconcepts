@@ -7,7 +7,7 @@ concept-value: Device-Memory
 description: "The Device Memory header field is a number that indicates the client's device memory i.e. approximate amount of ram in GiB."
 ---
 
-[The Device Memory header field is a number that indicates the client's device memory i.e. approximate amount of ram in GiB.](http://www.w3.org/TR/device-memory-1/#sec-device-memory-client-hint-header "Read documentation for HTTP Header Field &#34;Device-Memory&#34;") (**[W3C TR http://www.w3.org/TR/device-memory-1: Device Memory](/specs/W3C/TR/device-memory-1 "This document defines a HTTP Client Hint header to surface device capability for memory i.e. device RAM, in order to enable web apps to customize content depending on device memory constraints.")**)
+[The Device Memory header field is a number that indicates the client's device memory i.e. approximate amount of ram in GiB.](http://www.w3.org/TR/device-memory-1/#sec-device-memory-client-hint-header "Read documentation for HTTP Header Field &#34;Device-Memory&#34;") (**[W3C TR http://www.w3.org/TR/device-memory-1: Device Memory](/webconcepts/specs/W3C/TR/device-memory-1 "This document defines a HTTP Client Hint header to surface device capability for memory i.e. device RAM, in order to enable web apps to customize content depending on device memory constraints.")**)
 
 <br/>
 <hr/>

@@ -7,7 +7,7 @@ concept-value: secret-token
 description: "The \"secret-token\" URI scheme identifies a token that is intended to be a secret."
 ---
 
-[The "secret-token" URI scheme identifies a token that is intended to be a secret.](https://datatracker.ietf.org/doc/html/rfc8959#section-2 "Read documentation for URI Scheme &#34;secret-token&#34;") (**[RFC 8959: The "secret-token" URI Scheme](/specs/IETF/RFC/8959 "This document registers the &#34;secret-token&#34; URI scheme to aid in the identification of authentication tokens.")**)
+[The "secret-token" URI scheme identifies a token that is intended to be a secret.](https://datatracker.ietf.org/doc/html/rfc8959#section-2 "Read documentation for URI Scheme &#34;secret-token&#34;") (**[RFC 8959: The "secret-token" URI Scheme](/webconcepts/specs/IETF/RFC/8959 "This document registers the &#34;secret-token&#34; URI scheme to aid in the identification of authentication tokens.")**)
 
 <br/>
 <hr/>

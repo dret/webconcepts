@@ -5,8 +5,9 @@
     <xsl:output name="markup" method="xhtml" encoding="UTF-8" omit-xml-declaration="yes"/>
     <!-- -->
     <xsl:variable name="includes" select="'_includes'"/>
-    <xsl:variable name="site-prefix" select="'https://dret.github.io/webconcepts/'"/>
-    <!-- -->
+  <xsl:variable name="site-baseurl" select="'/webconcepts'"/>
+  <xsl:variable name="site-name" select="'https://dret.github.io'"/>
+  <!-- -->
     <xsl:template name="xml2jekyll">
         <xsl:result-document href="{$includes}/concepts.md" format="markdown">
             <xsl:value-of select="sum(for $i in $concepts/concepts/concept/@id return count(distinct-values($allspecs//*[local-name() = $i]/@def)))"/>
@@ -198,7 +199,7 @@
                     <xsl:value-of select="title-plural"/>
                     <xsl:text>"&#xa;</xsl:text>
                     <xsl:text>permalink: </xsl:text>
-                    <xsl:value-of select="concat('/', $concepts-dir, '/', @id, '/')"/>
+                    <xsl:value-of select="concat($site-baseurl, '/', $concepts-dir, '/', @id, '/')"/>
                     <xsl:text>&#xa;</xsl:text>
                     <xsl:text>---&#xa;&#xa;</xsl:text>
                     <xsl:variable name="values-count" select="count($allspecs//*[local-name() eq $concept/@id]/@def)"/>
@@ -238,7 +239,7 @@
                             <xsl:value-of select="$desc"/>
                         </xsl:if>
                         <xsl:text>`](</xsl:text>
-                        <xsl:value-of select="concat('/', $concepts-dir, '/', $concept/@id, '/', $concept-name)"/>
+                        <xsl:value-of select="concat($site-baseurl, '/', $concepts-dir, '/', $concept/@id, '/', $concept-name)"/>
                         <xsl:variable name="number-of-defs" select="count($allspecs//*[local-name() eq $concept/@id][@def eq $concept-name])"/>
                         <xsl:text> "</xsl:text>
                         <xsl:value-of select="replace(replace(($allspecs//*[local-name() eq $concept/@id][@def eq $concept-name])[1]/documentation/text(), '&quot;', '&amp;#34;'), '&lt;', '&amp;lt;')"/>
@@ -262,7 +263,7 @@
                             <xsl:text>**: </xsl:text>
                             <xsl:value-of select="title/text()"/>
                             <xsl:text>](</xsl:text>
-                            <xsl:value-of select="concat('/', $specs-dir, '/', $secondary/../@id, '/', $secondary/@id, '/', $id)"/>
+                            <xsl:value-of select="concat($site-baseurl, '/', $specs-dir, '/', $secondary/../@id, '/', $secondary/@id, '/', $id)"/>
                             <xsl:text> "</xsl:text>
                             <xsl:value-of select="replace(documentation/text(), '&quot;', '&amp;#34;')"/>
                             <xsl:text>")</xsl:text>
@@ -321,7 +322,7 @@
                                 <xsl:text>: </xsl:text>
                                 <xsl:value-of select="../title/text()"/>
                                 <xsl:text>](</xsl:text>
-                                <xsl:value-of select="concat('/', $specs-dir, '/', $secondary/../@id, '/', $secondary/@id, '/', $id)"/>
+                                <xsl:value-of select="concat($site-baseurl, '/', $specs-dir, '/', $secondary/../@id, '/', $secondary/@id, '/', $id)"/>
                                 <xsl:text> "</xsl:text>
                                 <xsl:value-of select="replace(../documentation/text(), '&quot;', '&amp;#34;')"/>
                                 <xsl:text>")**)&#xa;&#xa;</xsl:text>
