@@ -65,35 +65,35 @@ to a conditional request when one or more preconditions evaluate to false."
 <hr></hr>
 <h2 id="concepts">Specified Web Concepts:</h2>
 <h3 id="http-header">
-   <a href="/concepts/http-header/" title="List of all HTTP Header Fields">HTTP Header Fields</a>
+   <a href="/webconcepts/concepts/http-header/" title="List of all HTTP Header Fields">HTTP Header Fields</a>
 </h3>
 <code>
-   <a href="/concepts/http-header/ETag" title="The &amp;#34;ETag&amp;#34; header field in a response provides the current entity-tag for the selected representation, as determined at the conclusion of handling the request. An entity-tag is an opaque validator for differentiating between multiple representations of the same resource, regardless of whether those multiple representations are due to resource state changes over time, content negotiation resulting in multiple representations being valid at the same time, or both.">ETag</a>
+   <a href="/webconcepts/concepts/http-header/ETag" title="The &amp;#34;ETag&amp;#34; header field in a response provides the current entity-tag for the selected representation, as determined at the conclusion of handling the request. An entity-tag is an opaque validator for differentiating between multiple representations of the same resource, regardless of whether those multiple representations are due to resource state changes over time, content negotiation resulting in multiple representations being valid at the same time, or both.">ETag</a>
 </code>, 
 <code>
-   <a href="/concepts/http-header/If-Match" title="The &amp;#34;If-Match&amp;#34; header field makes the request method conditional on the recipient origin server either having at least one current representation of the target resource, when the field-value is &amp;#34;*&amp;#34;, or having a current representation of the target resource that has an entity-tag matching a member of the list of entity-tags provided in the field-value.">If-Match</a>
+   <a href="/webconcepts/concepts/http-header/If-Match" title="The &amp;#34;If-Match&amp;#34; header field makes the request method conditional on the recipient origin server either having at least one current representation of the target resource, when the field-value is &amp;#34;*&amp;#34;, or having a current representation of the target resource that has an entity-tag matching a member of the list of entity-tags provided in the field-value.">If-Match</a>
 </code>, 
 <code>
-   <a href="/concepts/http-header/If-Modified-Since" title="The &amp;#34;If-Modified-Since&amp;#34; header field makes a GET or HEAD request method conditional on the selected representation's modification date being more recent than the date provided in the field-value. Transfer of the selected representation's data is avoided if that data has not changed.">If-Modified-Since</a>
+   <a href="/webconcepts/concepts/http-header/If-Modified-Since" title="The &amp;#34;If-Modified-Since&amp;#34; header field makes a GET or HEAD request method conditional on the selected representation's modification date being more recent than the date provided in the field-value. Transfer of the selected representation's data is avoided if that data has not changed.">If-Modified-Since</a>
 </code>, 
 <code>
-   <a href="/concepts/http-header/If-None-Match" title="The &amp;#34;If-None-Match&amp;#34; header field makes the request method conditional on a recipient cache or origin server either not having any current representation of the target resource, when the field-value is &amp;#34;*&amp;#34;, or having a selected representation with an entity-tag that does not match any of those listed in the field-value.">If-None-Match</a>
+   <a href="/webconcepts/concepts/http-header/If-None-Match" title="The &amp;#34;If-None-Match&amp;#34; header field makes the request method conditional on a recipient cache or origin server either not having any current representation of the target resource, when the field-value is &amp;#34;*&amp;#34;, or having a selected representation with an entity-tag that does not match any of those listed in the field-value.">If-None-Match</a>
 </code>, 
 <code>
-   <a href="/concepts/http-header/If-Unmodified-Since" title="The &amp;#34;If-Unmodified-Since&amp;#34; header field makes the request method conditional on the selected representation's last modification date being earlier than or equal to the date provided in the field-value. This field accomplishes the same purpose as If-Match for cases where the user agent does not have an entity-tag for the representation.">If-Unmodified-Since</a>
+   <a href="/webconcepts/concepts/http-header/If-Unmodified-Since" title="The &amp;#34;If-Unmodified-Since&amp;#34; header field makes the request method conditional on the selected representation's last modification date being earlier than or equal to the date provided in the field-value. This field accomplishes the same purpose as If-Match for cases where the user agent does not have an entity-tag for the representation.">If-Unmodified-Since</a>
 </code>, 
 <code>
-   <a href="/concepts/http-header/Last-Modified" title="The &amp;#34;Last-Modified&amp;#34; header field in a response provides a timestamp indicating the date and time at which the origin server believes the selected representation was last modified, as determined at the conclusion of handling the request.">Last-Modified</a>
+   <a href="/webconcepts/concepts/http-header/Last-Modified" title="The &amp;#34;Last-Modified&amp;#34; header field in a response provides a timestamp indicating the date and time at which the origin server believes the selected representation was last modified, as determined at the conclusion of handling the request.">Last-Modified</a>
 </code>
 <br></br>
 <h3 id="http-status-code">
-   <a href="/concepts/http-status-code/" title="List of all HTTP Status Codes">HTTP Status Codes</a>
+   <a href="/webconcepts/concepts/http-status-code/" title="List of all HTTP Status Codes">HTTP Status Codes</a>
 </h3>
 <code>
-   <a href="/concepts/http-status-code/304" title="The 304 (Not Modified) status code indicates that a conditional GET or HEAD request has been received and would have resulted in a 200 (OK) response if it were not for the fact that the condition evaluated to false. In other words, there is no need for the server to transfer a representation of the target resource because the request indicates that the client, which made the request conditional, already has a valid representation; the server is therefore redirecting the client to make use of that stored representation as if it were the payload of a 200 (OK) response.">304</a>
+   <a href="/webconcepts/concepts/http-status-code/304" title="The 304 (Not Modified) status code indicates that a conditional GET or HEAD request has been received and would have resulted in a 200 (OK) response if it were not for the fact that the condition evaluated to false. In other words, there is no need for the server to transfer a representation of the target resource because the request indicates that the client, which made the request conditional, already has a valid representation; the server is therefore redirecting the client to make use of that stored representation as if it were the payload of a 200 (OK) response.">304</a>
 </code>, 
 <code>
-   <a href="/concepts/http-status-code/412" title="The 412 (Precondition Failed) status code indicates that one or more conditions given in the request header fields evaluated to false when tested on the server. This response code allows the client to place preconditions on the current resource state (its current representations and metadata) and, thus, prevent the request method from being applied if the target resource is in an unexpected state.">412</a>
+   <a href="/webconcepts/concepts/http-status-code/412" title="The 412 (Precondition Failed) status code indicates that one or more conditions given in the request header fields evaluated to false when tested on the server. This response code allows the client to place preconditions on the current resource state (its current representations and metadata) and, thus, prevent the request method from being applied if the target resource is in an unexpected state.">412</a>
 </code>
 <br></br>
 <hr></hr>

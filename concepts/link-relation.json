@@ -266,15 +266,15 @@
         "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/link-relation\/describedby",
         "details" : 
         [ 
-          { "description" : "The relationship A 'describedby' B asserts that resource B provides a description of resource A. There are no constraints on the format or representation of either A or B, neither are there any further constraints on either resource.",
-            "documentation" : "http:\/\/www.w3.org\/TR\/powder-dr\/#appD",
-            "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/W3C\/TR\/powder-dr",
-            "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/powder-dr" },
-          
           { "description" : "The relationship A describedby B asserts that resource B provides a description of resource A. There are no constraints on the format or representation of either A or B, neither are there any further constraints on either resource.",
             "documentation" : "http:\/\/www.w3.org\/TR\/ldp\/#link-relation-describedby",
             "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/W3C\/TR\/ldp",
-            "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/ldp" } ] },
+            "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/ldp" },
+          
+          { "description" : "The relationship A 'describedby' B asserts that resource B provides a description of resource A. There are no constraints on the format or representation of either A or B, neither are there any further constraints on either resource.",
+            "documentation" : "http:\/\/www.w3.org\/TR\/powder-dr\/#appD",
+            "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/W3C\/TR\/powder-dr",
+            "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/powder-dr" } ] },
       
       { "value" : "describes",
         "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/link-relation\/",

@@ -69,30 +69,30 @@ SETs can be distributed via protocols such as HTTP."
 <hr></hr>
 <h2 id="concepts">Specified Web Concepts:</h2>
 <h3 id="jwt-claim">
-   <a href="/concepts/jwt-claim/" title="List of all JSON Web Token Claims">JSON Web Token Claims</a>
+   <a href="/webconcepts/concepts/jwt-claim/" title="List of all JSON Web Token Claims">JSON Web Token Claims</a>
 </h3>
 <code>
-   <a href="/concepts/jwt-claim/events" title="This claim contains a set of event statements that each provide information describing a single logical event that has occurred about a security subject (e.g., a state change to the subject). Multiple event identifiers with the same value MUST NOT be used. The &amp;#34;events&amp;#34; claim MUST NOT be used to express multiple independent logical events.">events</a>
+   <a href="/webconcepts/concepts/jwt-claim/events" title="This claim contains a set of event statements that each provide information describing a single logical event that has occurred about a security subject (e.g., a state change to the subject). Multiple event identifiers with the same value MUST NOT be used. The &amp;#34;events&amp;#34; claim MUST NOT be used to express multiple independent logical events.">events</a>
 </code>, 
 <code>
-   <a href="/concepts/jwt-claim/toe" title="A value that represents the date and time at which the event occurred. This value is a NumericDate. By omitting this claim, the issuer indicates that they are not sharing an event time with the recipient. (Note that in some use cases, the represented time might be approximate; statements about the accuracy of this field MAY be made by profiling specifications.)">toe</a>
+   <a href="/webconcepts/concepts/jwt-claim/toe" title="A value that represents the date and time at which the event occurred. This value is a NumericDate. By omitting this claim, the issuer indicates that they are not sharing an event time with the recipient. (Note that in some use cases, the represented time might be approximate; statements about the accuracy of this field MAY be made by profiling specifications.)">toe</a>
 </code>, 
 <code>
-   <a href="/concepts/jwt-claim/txn" title="An OPTIONAL string value that represents a unique transaction identifier. In cases in which multiple related JWTs are issued, the transaction identifier claim can be used to correlate these related JWTs. Note that this claim can be used in JWTs that are SETs and also in JWTs using non-SET profiles.">txn</a>
+   <a href="/webconcepts/concepts/jwt-claim/txn" title="An OPTIONAL string value that represents a unique transaction identifier. In cases in which multiple related JWTs are issued, the transaction identifier claim can be used to correlate these related JWTs. Note that this claim can be used in JWTs that are SETs and also in JWTs using non-SET profiles.">txn</a>
 </code>
 <br></br>
 <h3 id="media-type">
-   <a href="/concepts/media-type/" title="List of all Media Types">Media Types</a>
+   <a href="/webconcepts/concepts/media-type/" title="List of all Media Types">Media Types</a>
 </h3>
 <code>
-   <a href="/concepts/media-type/application/secevent+jwt" title="This specification registers the &amp;#34;application/secevent+jwt&amp;#34; media type, which can be used to indicate that the content is a SET. SETs MAY include this media type in the &amp;#34;typ&amp;#34; header parameter of the JWT representing the SET to explicitly declare that the JWT is a SET. This MUST be included if the SET could be used in an application context in which it could be confused with other kinds of JWTs.">application/secevent+jwt</a>
+   <a href="/webconcepts/concepts/media-type/application/secevent+jwt" title="This specification registers the &amp;#34;application/secevent+jwt&amp;#34; media type, which can be used to indicate that the content is a SET. SETs MAY include this media type in the &amp;#34;typ&amp;#34; header parameter of the JWT representing the SET to explicitly declare that the JWT is a SET. This MUST be included if the SET could be used in an application context in which it could be confused with other kinds of JWTs.">application/secevent+jwt</a>
 </code>
 <br></br>
 <h3 id="structured-syntax-suffix">
-   <a href="/concepts/structured-syntax-suffix/" title="List of all Structured Syntax Suffixes">Structured Syntax Suffixes</a>
+   <a href="/webconcepts/concepts/structured-syntax-suffix/" title="List of all Structured Syntax Suffixes">Structured Syntax Suffixes</a>
 </h3>
 <code>
-   <a href="/concepts/structured-syntax-suffix/+jwt" title="The &amp;#34;+jwt&amp;#34; structured syntax suffix can be used to indicate that the media type is encoded as a JWT.">+jwt</a>
+   <a href="/webconcepts/concepts/structured-syntax-suffix/+jwt" title="The &amp;#34;+jwt&amp;#34; structured syntax suffix can be used to indicate that the media type is encoded as a JWT.">+jwt</a>
 </code>
 <br></br>
 <hr></hr>
