@@ -11,7 +11,7 @@ email: erik.wilde@dret.net
 description: > # this means to ignore newlines until "baseurl:"
   Concepts that matter for the Web.
   Document your APIs by documenting their Web Concepts.
-baseurl: "webconcepts" # the subpath of your site, e.g. /blog
+baseurl: "/webconcepts" # the subpath of your site, e.g. /blog
 url: "https://dret.github.io" # the base hostname & protocol for your site
 twitter_username: dret
 github_username:  dret
