@@ -192,7 +192,7 @@
                 <xsl:text>/) (</xsl:text>
                 <xsl:value-of select="count(distinct-values($allspecs//*[local-name() eq current()/@id]/@def))"/>
                 <xsl:text>)&#xa;</xsl:text>
-                <xsl:result-document href="{$concepts-dir}/{@id}.md" format="markdown">
+                <xsl:result-document href="{$concepts-dir}/{@id}/index.md" format="markdown">
                     <xsl:text>---&#xa;</xsl:text>
                     <xsl:text>layout:    page&#xa;</xsl:text>
                     <xsl:text>title:     "</xsl:text>
