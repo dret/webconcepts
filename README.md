@@ -1,12 +1,12 @@
 # Web Concepts
 
-This is the repository for the [Web Concepts site published at `webconcepts.info`](http://webconcepts.info/).
+This is the repository for the [Web Concepts site published at `dret.github.io/webconcepts/`](https://dret.github.io/webconcepts/).
 
 ## Setup
 
 There probably should be a bit of documentation about how all of this works... A very high-level overview is this:
 
-* New categories ([concepts](http://webconcepts.info/concepts) or [specification organizations/series](http://webconcepts.info/specs)) get added via XML configuration files ([`concepts.xml`](concepts.xml) and [`specs.xml`](specs.xml)).
+* New categories ([concepts](https://dret.github.io/webconcepts/concepts) or [specification organizations/series](https://dret.github.io/webconcepts/specs)) get added via XML configuration files ([`concepts.xml`](concepts.xml) and [`specs.xml`](specs.xml)).
 
 * New specification data gets added to the specification source directory [`/src/specs`](src/specs) as individual XML files. These specification files contain information about the concept values that are defined by the specifications.
 
