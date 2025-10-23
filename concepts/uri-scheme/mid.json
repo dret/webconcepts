@@ -1,10 +1,10 @@
 
   { "value" : "mid",
-    "concept" : "http:\/\/webconcepts.info\/concepts\/uri-scheme\/",
-    "id" : "http:\/\/webconcepts.info\/concepts\/uri-scheme\/mid",
+    "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/uri-scheme\/",
+    "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/uri-scheme\/mid",
     "details" : 
     [ 
       { "description" : "The \"mid\" (Message-ID) and \"cid\" (Content-ID) URL schemes provide identifiers for messages and their body parts. The \"mid\" scheme uses (a part of) the message-id of an email message to refer to a specific message.",
         "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc2392#section-2",
-        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/2392",
+        "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/RFC\/2392",
         "spec-name" : "RFC 2392" } ] }

@@ -1,10 +1,10 @@
 
   { "value" : "stale-while-revalidate",
-    "concept" : "http:\/\/webconcepts.info\/concepts\/http-cache-directive\/",
-    "id" : "http:\/\/webconcepts.info\/concepts\/http-cache-directive\/stale-while-revalidate",
+    "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http-cache-directive\/",
+    "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http-cache-directive\/stale-while-revalidate",
     "details" : 
     [ 
       { "description" : "When present in an HTTP response, the stale-while-revalidate Cache-Control extension indicates that caches MAY serve the response in which it appears after it becomes stale, up to the indicated number of seconds.",
         "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc5861#section-3",
-        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/5861",
+        "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/RFC\/5861",
         "spec-name" : "RFC 5861" } ] }

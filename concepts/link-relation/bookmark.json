@@ -1,10 +1,10 @@
 
   { "value" : "bookmark",
-    "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
-    "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/bookmark",
+    "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/link-relation\/",
+    "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/link-relation\/bookmark",
     "details" : 
     [ 
       { "description" : "The bookmark keyword gives a permalink for the nearest ancestor article element of the linking element in question, or of the section the linking element is most closely associated with, if there are no ancestor article elements.",
         "documentation" : "https:\/\/www.w3.org\/TR\/html\/links.html#link-type-bookmark",
-        "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/html",
+        "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/W3C\/TR\/html",
         "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/html" } ] }

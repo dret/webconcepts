@@ -6,7 +6,7 @@ permalink: /concepts/http-authentication-scheme/
 
 
 
-The following 10 HTTP Authentication Scheme values were found in [all available `webconcepts.info` specifications](/specs). Please be advised that the table shown here is maintained and compiled from [Web Concepts](/) sources. The [official HTTP Authentication Scheme registry](http://www.iana.org/assignments/http-authschemes/http-authschemes.xhtml#authschemes) is maintained by the [*Internet Assigned Numbers Authority (IANA)*](http://www.iana.org/).
+The following 10 HTTP Authentication Scheme values were found in [all available `webconcepts` specifications](/specs). Please be advised that the table shown here is maintained and compiled from [Web Concepts](/) sources. The [official HTTP Authentication Scheme registry](http://www.iana.org/assignments/http-authschemes/http-authschemes.xhtml#authschemes) is maintained by the [*Internet Assigned Numbers Authority (IANA)*](http://www.iana.org/).
 
 HTTP Authentication Scheme | Specification
 -------: | :-------

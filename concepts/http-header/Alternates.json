@@ -1,10 +1,10 @@
 
   { "value" : "Alternates",
-    "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
-    "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Alternates",
+    "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http-header\/",
+    "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http-header\/Alternates",
     "details" : 
     [ 
       { "description" : "The Alternates response header is used to convey the list of variants bound to a negotiable resource. This list can also include directives for any content negotiation process. If a response from a transparently negotiable resource includes an Alternates header, this header MUST contain the complete variant list bound to the negotiable resource. Responses from resources which do not support transparent content negotiation MAY also use Alternates headers.",
         "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc2295#section-8.3",
-        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/2295",
+        "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/RFC\/2295",
         "spec-name" : "RFC 2295" } ] }

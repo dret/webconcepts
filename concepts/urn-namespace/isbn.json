@@ -1,10 +1,10 @@
 
   { "value" : "isbn",
-    "concept" : "http:\/\/webconcepts.info\/concepts\/urn-namespace\/",
-    "id" : "http:\/\/webconcepts.info\/concepts\/urn-namespace\/isbn",
+    "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/urn-namespace\/",
+    "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/urn-namespace\/isbn",
     "details" : 
     [ 
       { "description" : "An International Standard Book Number (ISBN) identifies an edition of a monographic work. The ISBN is defined by the standard NISO\/ANSI\/ISO 2108:1992.",
         "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc3187#section-3",
-        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/3187",
+        "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/RFC\/3187",
         "spec-name" : "RFC 3187" } ] }

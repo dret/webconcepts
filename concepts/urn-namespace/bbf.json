@@ -1,10 +1,10 @@
 
   { "value" : "bbf",
-    "concept" : "http:\/\/webconcepts.info\/concepts\/urn-namespace\/",
-    "id" : "http:\/\/webconcepts.info\/concepts\/urn-namespace\/bbf",
+    "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/urn-namespace\/",
+    "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/urn-namespace\/bbf",
     "details" : 
     [ 
       { "description" : "The \"bbf\" NID is for new work efforts related to data models for protocols other than the Customer Premises Equipment (CPE) WAN Management Protocol (CWMP).",
         "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc8057#section-2",
-        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8057",
+        "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/RFC\/8057",
         "spec-name" : "RFC 8057" } ] }

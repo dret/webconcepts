@@ -1,10 +1,10 @@
 
   { "value" : "application\/vnd.apple.mpegurl",
-    "concept" : "http:\/\/webconcepts.info\/concepts\/media-type\/",
-    "id" : "http:\/\/webconcepts.info\/concepts\/media-type\/application\/vnd.apple.mpegurl",
+    "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/media-type\/",
+    "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/media-type\/application\/vnd.apple.mpegurl",
     "details" : 
     [ 
       { "description" : "The \"application\/vnd.apple.mpegurl\" media type identifies Playlist files used by HTTP Live Streaming. The format of the Playlist files is derived from the M3U playlist file format and inherits two tags from that earlier file format: EXTM3U and EXTINF.",
         "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc8216#section-4",
-        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8216",
+        "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/RFC\/8216",
         "spec-name" : "RFC 8216" } ] }

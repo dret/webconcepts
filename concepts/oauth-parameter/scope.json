@@ -1,10 +1,10 @@
 
   { "value" : "scope",
-    "concept" : "http:\/\/webconcepts.info\/concepts\/oauth-parameter\/",
-    "id" : "http:\/\/webconcepts.info\/concepts\/oauth-parameter\/scope",
+    "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/oauth-parameter\/",
+    "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/oauth-parameter\/scope",
     "details" : 
     [ 
       { "description" : "The authorization and token endpoints allow the client to specify the scope of the access request using the \"scope\" request parameter. In turn, the authorization server uses the \"scope\" response parameter to inform the client of the scope of the access token issued.",
         "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6749#section-3.3",
-        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6749",
+        "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/RFC\/6749",
         "spec-name" : "RFC 6749" } ] }

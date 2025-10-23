@@ -1,10 +1,10 @@
 
   { "value" : "MKREDIRECTREF",
-    "concept" : "http:\/\/webconcepts.info\/concepts\/http-method\/",
-    "id" : "http:\/\/webconcepts.info\/concepts\/http-method\/MKREDIRECTREF",
+    "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http-method\/",
+    "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http-method\/MKREDIRECTREF",
     "details" : 
     [ 
       { "description" : "The MKREDIRECTREF method requests the creation of a redirect reference resource.",
         "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc4437#section-6",
-        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/4437",
+        "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/RFC\/4437",
         "spec-name" : "RFC 4437" } ] }

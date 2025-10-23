@@ -6,7 +6,7 @@ permalink: /concepts/http-method/
 
 
 
-The following 40 HTTP Request Method values were found in [all available `webconcepts.info` specifications](/specs). Please be advised that the table shown here is maintained and compiled from [Web Concepts](/) sources. The [official HTTP Request Method registry](http://www.iana.org/assignments/http-methods/http-methods.xhtml#methods) is maintained by the [*Internet Assigned Numbers Authority (IANA)*](http://www.iana.org/).
+The following 40 HTTP Request Method values were found in [all available `webconcepts` specifications](/specs). Please be advised that the table shown here is maintained and compiled from [Web Concepts](/) sources. The [official HTTP Request Method registry](http://www.iana.org/assignments/http-methods/http-methods.xhtml#methods) is maintained by the [*Internet Assigned Numbers Authority (IANA)*](http://www.iana.org/).
 
 HTTP Request Method | Specification
 -------: | :-------

@@ -1,10 +1,10 @@
 
   { "value" : "pkcs11",
-    "concept" : "http:\/\/webconcepts.info\/concepts\/uri-scheme\/",
-    "id" : "http:\/\/webconcepts.info\/concepts\/uri-scheme\/pkcs11",
+    "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/uri-scheme\/",
+    "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/uri-scheme\/pkcs11",
     "details" : 
     [ 
       { "description" : "The URI scheme defined in this document is designed specifically with a mapping to the PKCS #11 API in mind.",
         "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7512#section-2",
-        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7512",
+        "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/RFC\/7512",
         "spec-name" : "RFC 7512" } ] }

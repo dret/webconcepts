@@ -6,7 +6,7 @@ permalink: /concepts/urn-namespace/
 
 
 
-The following 14 URN Namespace values were found in [all available `webconcepts.info` specifications](/specs). Please be advised that the table shown here is maintained and compiled from [Web Concepts](/) sources. The [official URN Namespace registry](http://www.iana.org/assignments/urn-namespaces/urn-namespaces.xhtml) is maintained by the [*Internet Assigned Numbers Authority (IANA)*](http://www.iana.org/).
+The following 14 URN Namespace values were found in [all available `webconcepts` specifications](/specs). Please be advised that the table shown here is maintained and compiled from [Web Concepts](/) sources. The [official URN Namespace registry](http://www.iana.org/assignments/urn-namespaces/urn-namespaces.xhtml) is maintained by the [*Internet Assigned Numbers Authority (IANA)*](http://www.iana.org/).
 
 URN Namespace | Specification
 -------: | :-------

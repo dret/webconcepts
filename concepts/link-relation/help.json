@@ -1,10 +1,10 @@
 
   { "value" : "help",
-    "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
-    "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/help",
+    "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/link-relation\/",
+    "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/link-relation\/help",
     "details" : 
     [ 
       { "description" : "The help keyword indicates that the referenced document provides help for the page as a whole.",
         "documentation" : "https:\/\/www.w3.org\/TR\/html\/links.html#link-type-help",
-        "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/html",
+        "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/W3C\/TR\/html",
         "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/html" } ] }

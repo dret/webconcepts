@@ -1,10 +1,10 @@
 
   { "value" : "Optional-WWW-Authenticate",
-    "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
-    "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Optional-WWW-Authenticate",
+    "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http-header\/",
+    "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http-header\/Optional-WWW-Authenticate",
     "details" : 
     [ 
       { "description" : "The Optional-WWW-Authenticate header enables a non-mandatory authentication, which is not possible under the current HTTP authentication mechanism.",
         "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc8053#section-3",
-        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8053",
+        "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/RFC\/8053",
         "spec-name" : "RFC 8053" } ] }

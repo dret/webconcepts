@@ -1,10 +1,10 @@
 
   { "value" : "must-revalidate",
-    "concept" : "http:\/\/webconcepts.info\/concepts\/http-cache-directive\/",
-    "id" : "http:\/\/webconcepts.info\/concepts\/http-cache-directive\/must-revalidate",
+    "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http-cache-directive\/",
+    "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http-cache-directive\/must-revalidate",
     "details" : 
     [ 
       { "description" : "The \"must-revalidate\" response directive indicates that once it has become stale, a cache MUST NOT use the response to satisfy subsequent requests without successful validation on the origin server.",
         "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7234#section-5.2.2.1",
-        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7234",
+        "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/RFC\/7234",
         "spec-name" : "RFC 7234" } ] }

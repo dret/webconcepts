@@ -5,6 +5,7 @@
     <xsl:output name="markup" method="xhtml" encoding="UTF-8" omit-xml-declaration="yes"/>
     <!-- -->
     <xsl:variable name="includes" select="'_includes'"/>
+    <xsl:variable name="site-prefix" select="'https://dret.github.io/webconcepts/'"/>
     <!-- -->
     <xsl:template name="xml2jekyll">
         <xsl:result-document href="{$includes}/concepts.md" format="markdown">
@@ -212,7 +213,7 @@
                         <xsl:value-of select="$distinct-values-count"/>
                         <xsl:text> distinct values) </xsl:text>
                     </xsl:if>
-                    <xsl:text>were found in [all available `webconcepts.info` specifications](/</xsl:text>
+                    <xsl:text>were found in [all available `webconcepts` specifications](/</xsl:text>
                     <xsl:value-of select="$specs-dir"/>
                     <xsl:text>). Please be advised that the table shown here is maintained and compiled from [Web Concepts](/) sources.</xsl:text>
                     <xsl:if test="exists($concept/iana-registry)">

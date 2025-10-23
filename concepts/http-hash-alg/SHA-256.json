@@ -1,10 +1,10 @@
 
   { "value" : "SHA-256",
-    "concept" : "http:\/\/webconcepts.info\/concepts\/http-hash-alg\/",
-    "id" : "http:\/\/webconcepts.info\/concepts\/http-hash-alg\/SHA-256",
+    "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http-hash-alg\/",
+    "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http-hash-alg\/SHA-256",
     "details" : 
     [ 
       { "description" : "SHA-256",
         "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7616#section-6.1",
-        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7616",
+        "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/RFC\/7616",
         "spec-name" : "RFC 7616" } ] }

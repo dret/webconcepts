@@ -1,139 +1,139 @@
 
   { "concept" : "http2-frame-type",
-    "id" : "http:\/\/webconcepts.info\/concepts\/http2-frame-type\/",
+    "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http2-frame-type\/",
     "name-singular" : "HTTP\/2 Frame Type",
     "name-plural" : "HTTP\/2 Frame Types",
     "registry" : "https:\/\/www.iana.org\/assignments\/http2-parameters\/http2-parameters.xhtml#frame-type",
     "values" : 
     [ 
       { "value" : "0x0",
-        "concept" : "http:\/\/webconcepts.info\/concepts\/http2-frame-type\/",
-        "id" : "http:\/\/webconcepts.info\/concepts\/http2-frame-type\/0x0",
+        "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http2-frame-type\/",
+        "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http2-frame-type\/0x0",
         "description" : "DATA",
         "details" : 
         [ 
           { "description" : "DATA frames (type=0x0) convey arbitrary, variable-length sequences of octets associated with a stream. One or more DATA frames are used, for instance, to carry HTTP request or response payloads.",
             "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7540#section-6.1",
-            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7540",
+            "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/RFC\/7540",
             "spec-name" : "RFC 7540" } ] },
       
       { "value" : "0x1",
-        "concept" : "http:\/\/webconcepts.info\/concepts\/http2-frame-type\/",
-        "id" : "http:\/\/webconcepts.info\/concepts\/http2-frame-type\/0x1",
+        "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http2-frame-type\/",
+        "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http2-frame-type\/0x1",
         "description" : "HEADERS",
         "details" : 
         [ 
           { "description" : "The HEADERS frame (type=0x1) is used to open a stream, and additionally carries a header block fragment. HEADERS frames can be sent on a stream in the \"idle\", \"reserved (local)\", \"open\", or \"half-closed (remote)\" state.",
             "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7540#section-6.2",
-            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7540",
+            "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/RFC\/7540",
             "spec-name" : "RFC 7540" } ] },
       
       { "value" : "0x2",
-        "concept" : "http:\/\/webconcepts.info\/concepts\/http2-frame-type\/",
-        "id" : "http:\/\/webconcepts.info\/concepts\/http2-frame-type\/0x2",
+        "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http2-frame-type\/",
+        "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http2-frame-type\/0x2",
         "description" : "PRIORITY",
         "details" : 
         [ 
           { "description" : "The PRIORITY frame (type=0x2) specifies the sender-advised priority of a stream. It can be sent in any stream state, including idle or closed streams.",
             "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7540#section-6.3",
-            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7540",
+            "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/RFC\/7540",
             "spec-name" : "RFC 7540" } ] },
       
       { "value" : "0x3",
-        "concept" : "http:\/\/webconcepts.info\/concepts\/http2-frame-type\/",
-        "id" : "http:\/\/webconcepts.info\/concepts\/http2-frame-type\/0x3",
+        "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http2-frame-type\/",
+        "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http2-frame-type\/0x3",
         "description" : "RST_STREAM",
         "details" : 
         [ 
           { "description" : "The RST_STREAM frame (type=0x3) allows for immediate termination of a stream. RST_STREAM is sent to request cancellation of a stream or to indicate that an error condition has occurred.",
             "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7540#section-6.4",
-            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7540",
+            "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/RFC\/7540",
             "spec-name" : "RFC 7540" } ] },
       
       { "value" : "0x4",
-        "concept" : "http:\/\/webconcepts.info\/concepts\/http2-frame-type\/",
-        "id" : "http:\/\/webconcepts.info\/concepts\/http2-frame-type\/0x4",
+        "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http2-frame-type\/",
+        "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http2-frame-type\/0x4",
         "description" : "SETTINGS",
         "details" : 
         [ 
           { "description" : "The SETTINGS frame (type=0x4) conveys configuration parameters that affect how endpoints communicate, such as preferences and constraints on peer behavior. The SETTINGS frame is also used to acknowledge the receipt of those parameters.",
             "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7540#section-6.5",
-            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7540",
+            "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/RFC\/7540",
             "spec-name" : "RFC 7540" } ] },
       
       { "value" : "0x5",
-        "concept" : "http:\/\/webconcepts.info\/concepts\/http2-frame-type\/",
-        "id" : "http:\/\/webconcepts.info\/concepts\/http2-frame-type\/0x5",
+        "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http2-frame-type\/",
+        "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http2-frame-type\/0x5",
         "description" : "PUSH_PROMISE",
         "details" : 
         [ 
           { "description" : "The PUSH_PROMISE frame (type=0x5) is used to notify the peer endpoint in advance of streams the sender intends to initiate. The PUSH_PROMISE frame includes the unsigned 31-bit identifier of the stream the endpoint plans to create along with a set of headers that provide additional context for the stream.",
             "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7540#section-6.6",
-            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7540",
+            "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/RFC\/7540",
             "spec-name" : "RFC 7540" } ] },
       
       { "value" : "0x6",
-        "concept" : "http:\/\/webconcepts.info\/concepts\/http2-frame-type\/",
-        "id" : "http:\/\/webconcepts.info\/concepts\/http2-frame-type\/0x6",
+        "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http2-frame-type\/",
+        "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http2-frame-type\/0x6",
         "description" : "PING",
         "details" : 
         [ 
           { "description" : "The PING frame (type=0x6) is a mechanism for measuring a minimal round-trip time from the sender, as well as determining whether an idle connection is still functional. PING frames can be sent from any endpoint.",
             "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7540#section-6.7",
-            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7540",
+            "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/RFC\/7540",
             "spec-name" : "RFC 7540" } ] },
       
       { "value" : "0x7",
-        "concept" : "http:\/\/webconcepts.info\/concepts\/http2-frame-type\/",
-        "id" : "http:\/\/webconcepts.info\/concepts\/http2-frame-type\/0x7",
+        "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http2-frame-type\/",
+        "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http2-frame-type\/0x7",
         "description" : "GOAWAY",
         "details" : 
         [ 
           { "description" : "The GOAWAY frame (type=0x7) is used to initiate shutdown of a connection or to signal serious error conditions. GOAWAY allows an endpoint to gracefully stop accepting new streams while still finishing processing of previously established streams. This enables administrative actions, like server maintenance.",
             "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7540#section-6.8",
-            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7540",
+            "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/RFC\/7540",
             "spec-name" : "RFC 7540" } ] },
       
       { "value" : "0x8",
-        "concept" : "http:\/\/webconcepts.info\/concepts\/http2-frame-type\/",
-        "id" : "http:\/\/webconcepts.info\/concepts\/http2-frame-type\/0x8",
+        "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http2-frame-type\/",
+        "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http2-frame-type\/0x8",
         "description" : "WINDOW_UPDATE",
         "details" : 
         [ 
           { "description" : "The WINDOW_UPDATE frame (type=0x8) is used to implement flow control. Flow control operates at two levels: on each individual stream and on the entire connection.",
             "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7540#section-6.9",
-            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7540",
+            "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/RFC\/7540",
             "spec-name" : "RFC 7540" } ] },
       
       { "value" : "0x9",
-        "concept" : "http:\/\/webconcepts.info\/concepts\/http2-frame-type\/",
-        "id" : "http:\/\/webconcepts.info\/concepts\/http2-frame-type\/0x9",
+        "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http2-frame-type\/",
+        "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http2-frame-type\/0x9",
         "description" : "CONTINUATION",
         "details" : 
         [ 
           { "description" : "The CONTINUATION frame (type=0x9) is used to continue a sequence of header block fragments (Section 4.3). Any number of CONTINUATION frames can be sent, as long as the preceding frame is on the same stream and is a HEADERS, PUSH_PROMISE, or CONTINUATION frame without the END_HEADERS flag set.",
             "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7540#section-6.10",
-            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7540",
+            "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/RFC\/7540",
             "spec-name" : "RFC 7540" } ] },
       
       { "value" : "0xa",
-        "concept" : "http:\/\/webconcepts.info\/concepts\/http2-frame-type\/",
-        "id" : "http:\/\/webconcepts.info\/concepts\/http2-frame-type\/0xa",
+        "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http2-frame-type\/",
+        "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http2-frame-type\/0xa",
         "description" : "ALTSVC",
         "details" : 
         [ 
           { "description" : "The ALTSVC HTTP\/2 frame advertises the availability of an alternative service to an HTTP\/2 client. The ALTSVC frame is a non-critical extension to HTTP\/2. Endpoints that do not support this frame will ignore it.",
             "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7838#section-4",
-            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7838",
+            "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/RFC\/7838",
             "spec-name" : "RFC 7838" } ] },
       
       { "value" : "0xc",
-        "concept" : "http:\/\/webconcepts.info\/concepts\/http2-frame-type\/",
-        "id" : "http:\/\/webconcepts.info\/concepts\/http2-frame-type\/0xc",
+        "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http2-frame-type\/",
+        "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http2-frame-type\/0xc",
         "description" : "ORIGIN",
         "details" : 
         [ 
           { "description" : "This HTTP\/2 ORIGIN frame type allows a server to indicate what origin(s) the server would like the client to consider as members of the Origin Set for the connection within which it occurs.",
             "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc8336#section-2",
-            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8336",
+            "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/RFC\/8336",
             "spec-name" : "RFC 8336" } ] } ] }

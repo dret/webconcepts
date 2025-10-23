@@ -6,7 +6,7 @@ permalink: /concepts/http-header/
 
 
 
-The following 236 HTTP Header Field values (226 distinct values) were found in [all available `webconcepts.info` specifications](/specs). Please be advised that the table shown here is maintained and compiled from [Web Concepts](/) sources. The [official HTTP Header Field registry](http://www.iana.org/assignments/message-headers/message-headers.xhtml) is maintained by the [*Internet Assigned Numbers Authority (IANA)*](http://www.iana.org/).
+The following 236 HTTP Header Field values (226 distinct values) were found in [all available `webconcepts` specifications](/specs). Please be advised that the table shown here is maintained and compiled from [Web Concepts](/) sources. The [official HTTP Header Field registry](http://www.iana.org/assignments/message-headers/message-headers.xhtml) is maintained by the [*Internet Assigned Numbers Authority (IANA)*](http://www.iana.org/).
 
 HTTP Header Field | Specification
 -------: | :-------

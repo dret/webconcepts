@@ -1,10 +1,10 @@
 
   { "value" : "Variants",
-    "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
-    "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Variants",
+    "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http-header\/",
+    "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http-header\/Variants",
     "details" : 
     [ 
       { "description" : "The Variants HTTP response header field indicates what representations are available for a given resource at the time that the response is produced, by enumerating the request header fields that it varies on, along with the values that are available for each.",
         "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-ietf-httpbis-variants#section-2",
-        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpbis-variants",
+        "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/I-D\/ietf-httpbis-variants",
         "spec-name" : "Internet Draft ietf-httpbis-variants" } ] }

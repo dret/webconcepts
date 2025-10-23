@@ -1,10 +1,10 @@
 
   { "value" : "urn:example:profile-uri",
-    "concept" : "http:\/\/webconcepts.info\/concepts\/profile-uri\/",
-    "id" : "http:\/\/webconcepts.info\/concepts\/profile-uri\/urn:example:profile-uri",
+    "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/profile-uri\/",
+    "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/profile-uri\/urn:example:profile-uri",
     "details" : 
     [ 
       { "description" : "A profile to be used in examples, in accordance with RFC 6963.",
         "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7284#section-3",
-        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7284",
+        "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/RFC\/7284",
         "spec-name" : "RFC 7284" } ] }

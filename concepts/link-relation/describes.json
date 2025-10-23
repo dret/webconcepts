@@ -1,10 +1,10 @@
 
   { "value" : "describes",
-    "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
-    "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/describes",
+    "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/link-relation\/",
+    "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/link-relation\/describes",
     "details" : 
     [ 
       { "description" : "The relationship A 'describes' B asserts that resource A provides a description of resource B. There are no constraints on the format or representation of either A or B, neither are there any further constraints on either resource.",
         "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6892#section-2",
-        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6892",
+        "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/RFC\/6892",
         "spec-name" : "RFC 6892" } ] }

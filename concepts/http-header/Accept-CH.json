@@ -1,10 +1,10 @@
 
   { "value" : "Accept-CH",
-    "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
-    "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Accept-CH",
+    "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http-header\/",
+    "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http-header\/Accept-CH",
     "details" : 
     [ 
       { "description" : "The Accept-CH response header field or the equivalent HTML meta element with http-equiv attribute (HTML5) indicate server support for particular hints indicated in its value.",
         "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-ietf-httpbis-client-hints#section-3.1",
-        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpbis-client-hints",
+        "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/I-D\/ietf-httpbis-client-hints",
         "spec-name" : "Internet Draft ietf-httpbis-client-hints" } ] }

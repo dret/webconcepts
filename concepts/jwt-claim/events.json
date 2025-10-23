@@ -1,10 +1,10 @@
 
   { "value" : "events",
-    "concept" : "http:\/\/webconcepts.info\/concepts\/jwt-claim\/",
-    "id" : "http:\/\/webconcepts.info\/concepts\/jwt-claim\/events",
+    "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/jwt-claim\/",
+    "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/jwt-claim\/events",
     "details" : 
     [ 
       { "description" : "This claim contains a set of event statements that each provide information describing a single logical event that has occurred about a security subject (e.g., a state change to the subject). Multiple event identifiers with the same value MUST NOT be used. The \"events\" claim MUST NOT be used to express multiple independent logical events.",
         "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc8417#section-2.2",
-        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8417",
+        "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/RFC\/8417",
         "spec-name" : "RFC 8417" } ] }

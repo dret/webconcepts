@@ -1,10 +1,10 @@
 
   { "value" : "depth-noroot",
-    "concept" : "http:\/\/webconcepts.info\/concepts\/http-preference\/",
-    "id" : "http:\/\/webconcepts.info\/concepts\/http-preference\/depth-noroot",
+    "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http-preference\/",
+    "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http-preference\/depth-noroot",
     "details" : 
     [ 
       { "description" : "The \"depth-noroot\" preference indicates that the client wishes for the server to exclude the target (root) resource from processing by the HTTP method and only apply the HTTP method to the target resource's subordinate resources.",
         "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc8144#section-4",
-        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8144",
+        "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/RFC\/8144",
         "spec-name" : "RFC 8144" } ] }

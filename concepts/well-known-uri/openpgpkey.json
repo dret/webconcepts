@@ -1,10 +1,10 @@
 
   { "value" : "openpgpkey",
-    "concept" : "http:\/\/webconcepts.info\/concepts\/well-known-uri\/",
-    "id" : "http:\/\/webconcepts.info\/concepts\/well-known-uri\/openpgpkey",
+    "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/well-known-uri\/",
+    "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/well-known-uri\/openpgpkey",
     "details" : 
     [ 
       { "description" : "Used for the discovery of Web keys that are made available using the OpenPGP Web Key Service.",
         "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-koch-openpgp-webkey-service#section-3",
-        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/koch-openpgp-webkey-service",
+        "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/I-D\/koch-openpgp-webkey-service",
         "spec-name" : "Internet Draft koch-openpgp-webkey-service" } ] }

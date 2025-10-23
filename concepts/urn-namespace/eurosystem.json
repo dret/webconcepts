@@ -1,10 +1,10 @@
 
   { "value" : "eurosystem",
-    "concept" : "http:\/\/webconcepts.info\/concepts\/urn-namespace\/",
-    "id" : "http:\/\/webconcepts.info\/concepts\/urn-namespace\/eurosystem",
+    "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/urn-namespace\/",
+    "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/urn-namespace\/eurosystem",
     "details" : 
     [ 
       { "description" : "The goal of the \"eurosystem\" namespace is to ensure the stability and uniqueness of the names of various items that are used within the messages exchanged between the Eurosystem and the users of TARGET2-Securities (or potentially, other future projects of the Eurosystem).",
         "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7207#section-2",
-        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7207",
+        "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/RFC\/7207",
         "spec-name" : "RFC 7207" } ] }

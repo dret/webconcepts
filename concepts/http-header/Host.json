@@ -1,10 +1,10 @@
 
   { "value" : "Host",
-    "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
-    "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Host",
+    "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http-header\/",
+    "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http-header\/Host",
     "details" : 
     [ 
       { "description" : "The \"Host\" header field in a request provides the host and port information from the target URI, enabling the origin server to distinguish among resources while servicing requests for multiple host names on a single IP address.",
         "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7230#section-5.4",
-        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7230",
+        "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/RFC\/7230",
         "spec-name" : "RFC 7230" } ] }

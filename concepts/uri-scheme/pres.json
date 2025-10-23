@@ -1,10 +1,10 @@
 
   { "value" : "pres",
-    "concept" : "http:\/\/webconcepts.info\/concepts\/uri-scheme\/",
-    "id" : "http:\/\/webconcepts.info\/concepts\/uri-scheme\/pres",
+    "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/uri-scheme\/",
+    "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/uri-scheme\/pres",
     "details" : 
     [ 
       { "description" : "Use of the pres: URI follows closely usage of the mailto: URI. That is, invocation of an PRES URI will cause the user's instant messaging application to start, with destination address and message headers  fill-in according to the information supplied in the URI.",
         "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc3859#appendix-A.4",
-        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/3859",
+        "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/RFC\/3859",
         "spec-name" : "RFC 3859" } ] }

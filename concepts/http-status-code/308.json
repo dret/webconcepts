@@ -1,11 +1,11 @@
 
   { "value" : "308",
-    "concept" : "http:\/\/webconcepts.info\/concepts\/http-status-code\/",
-    "id" : "http:\/\/webconcepts.info\/concepts\/http-status-code\/308",
+    "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http-status-code\/",
+    "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http-status-code\/308",
     "description" : "Permanent Redirect",
     "details" : 
     [ 
       { "description" : "The 308 (Permanent Redirect) status code indicates that the target resource has been assigned a new permanent URI and any future references to this resource ought to use one of the enclosed URIs.",
         "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7538#section-3",
-        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7538",
+        "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/RFC\/7538",
         "spec-name" : "RFC 7538" } ] }

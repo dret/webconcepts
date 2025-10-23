@@ -1,10 +1,10 @@
 
   { "value" : "derivedfrom",
-    "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
-    "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/derivedfrom",
+    "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/link-relation\/",
+    "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/link-relation\/derivedfrom",
     "details" : 
     [ 
       { "description" : "The document linked to was later converted to the document that contains this link relation. For example, an RFC can have a link to the Internet Draft that became the RFC; in that case, the link relation would be \"derivedfrom\".",
         "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-hoffman-xml2rfc#section-6.2",
-        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/hoffman-xml2rfc",
+        "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/I-D\/hoffman-xml2rfc",
         "spec-name" : "Internet Draft hoffman-xml2rfc" } ] }

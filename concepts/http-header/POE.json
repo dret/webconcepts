@@ -1,10 +1,10 @@
 
   { "value" : "POE",
-    "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
-    "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/POE",
+    "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http-header\/",
+    "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http-header\/POE",
     "details" : 
     [ 
       { "description" : "The POE HTTP header is a request-header field whose field-value indicates the version of POE that a client supports.",
         "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-nottingham-http-poe-00#section-4",
-        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/nottingham-http-poe",
+        "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/I-D\/nottingham-http-poe",
         "spec-name" : "Internet Draft nottingham-http-poe" } ] }

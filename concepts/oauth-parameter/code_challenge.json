@@ -1,10 +1,10 @@
 
   { "value" : "code_challenge",
-    "concept" : "http:\/\/webconcepts.info\/concepts\/oauth-parameter\/",
-    "id" : "http:\/\/webconcepts.info\/concepts\/oauth-parameter\/code_challenge",
+    "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/oauth-parameter\/",
+    "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/oauth-parameter\/code_challenge",
     "details" : 
     [ 
       { "description" : "Code challenge.",
         "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7636#section-4.3",
-        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7636",
+        "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/RFC\/7636",
         "spec-name" : "RFC 7636" } ] }

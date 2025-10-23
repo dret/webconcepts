@@ -1,10 +1,10 @@
 
   { "value" : "dns",
-    "concept" : "http:\/\/webconcepts.info\/concepts\/uri-scheme\/",
-    "id" : "http:\/\/webconcepts.info\/concepts\/uri-scheme\/dns",
+    "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/uri-scheme\/",
+    "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/uri-scheme\/dns",
     "details" : 
     [ 
       { "description" : "A DNS URI designates a DNS resource record set, referenced by domain name, class, type, and, optionally, the authority.",
         "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc4501#section-3",
-        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/4501",
+        "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/RFC\/4501",
         "spec-name" : "RFC 4501" } ] }

@@ -1,10 +1,10 @@
 
   { "value" : "application\/http",
-    "concept" : "http:\/\/webconcepts.info\/concepts\/media-type\/",
-    "id" : "http:\/\/webconcepts.info\/concepts\/media-type\/application\/http",
+    "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/media-type\/",
+    "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/media-type\/application\/http",
     "details" : 
     [ 
       { "description" : "The application\/http type can be used to enclose a pipeline of one or more HTTP request or response messages (not intermixed).",
         "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7230#section-8.3.2",
-        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7230",
+        "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/RFC\/7230",
         "spec-name" : "RFC 7230" } ] }

@@ -1,10 +1,10 @@
 
   { "value" : "iat",
-    "concept" : "http:\/\/webconcepts.info\/concepts\/jwt-claim\/",
-    "id" : "http:\/\/webconcepts.info\/concepts\/jwt-claim\/iat",
+    "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/jwt-claim\/",
+    "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/jwt-claim\/iat",
     "details" : 
     [ 
       { "description" : "The \"iat\" (issued at) claim identifies the time at which the JWT was issued. This claim can be used to determine the age of the JWT.",
         "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7519#section-4.1.6",
-        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7519",
+        "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/RFC\/7519",
         "spec-name" : "RFC 7519" } ] }

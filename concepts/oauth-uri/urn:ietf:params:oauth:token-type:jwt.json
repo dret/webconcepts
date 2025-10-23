@@ -1,10 +1,10 @@
 
   { "value" : "urn:ietf:params:oauth:token-type:jwt",
-    "concept" : "http:\/\/webconcepts.info\/concepts\/oauth-uri\/",
-    "id" : "http:\/\/webconcepts.info\/concepts\/oauth-uri\/urn:ietf:params:oauth:token-type:jwt",
+    "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/oauth-uri\/",
+    "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/oauth-uri\/urn:ietf:params:oauth:token-type:jwt",
     "details" : 
     [ 
       { "description" : "This specification registers the URN \"urn:ietf:params:oauth:token-type:jwt\" for use by applications that declare content types using URIs (rather than, for instance, media types) to indicate that the content referred to is a JWT.",
         "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7519#section-9",
-        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7519",
+        "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/RFC\/7519",
         "spec-name" : "RFC 7519" } ] }

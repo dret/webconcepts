@@ -1,10 +1,10 @@
 
   { "value" : "status",
-    "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
-    "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/status",
+    "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/link-relation\/",
+    "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/link-relation\/status",
     "details" : 
     [ 
       { "description" : "Identifies a resource that represents the context's status. Such a link may not be available from all resources provided by a Web service, but from select resources such as a service's home resource.",
         "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc8631#section-5",
-        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8631",
+        "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/RFC\/8631",
         "spec-name" : "RFC 8631" } ] }

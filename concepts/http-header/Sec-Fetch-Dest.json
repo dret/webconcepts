@@ -1,10 +1,10 @@
 
   { "value" : "Sec-Fetch-Dest",
-    "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
-    "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Sec-Fetch-Dest",
+    "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http-header\/",
+    "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http-header\/Sec-Fetch-Dest",
     "details" : 
     [ 
       { "description" : "The Sec-Fetch-Dest HTTP request header exposes a request's destination to a server.",
         "documentation" : "http:\/\/www.w3.org\/TR\/fetch-metadata\/#sec-fetch-dest-header",
-        "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/fetch-metadata",
+        "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/W3C\/TR\/fetch-metadata",
         "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/fetch-metadata" } ] }

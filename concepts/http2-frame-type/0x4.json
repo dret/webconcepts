@@ -1,11 +1,11 @@
 
   { "value" : "0x4",
-    "concept" : "http:\/\/webconcepts.info\/concepts\/http2-frame-type\/",
-    "id" : "http:\/\/webconcepts.info\/concepts\/http2-frame-type\/0x4",
+    "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http2-frame-type\/",
+    "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http2-frame-type\/0x4",
     "description" : "SETTINGS",
     "details" : 
     [ 
       { "description" : "The SETTINGS frame (type=0x4) conveys configuration parameters that affect how endpoints communicate, such as preferences and constraints on peer behavior. The SETTINGS frame is also used to acknowledge the receipt of those parameters.",
         "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7540#section-6.5",
-        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7540",
+        "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/RFC\/7540",
         "spec-name" : "RFC 7540" } ] }

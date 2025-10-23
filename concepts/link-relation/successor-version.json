@@ -1,10 +1,10 @@
 
   { "value" : "successor-version",
-    "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
-    "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/successor-version",
+    "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/link-relation\/",
+    "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/link-relation\/successor-version",
     "details" : 
     [ 
       { "description" : "When included on a versioned resource, this link points to a resource containing the successor version in the version history.",
         "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc5829#section-3.6",
-        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/5829",
+        "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/RFC\/5829",
         "spec-name" : "RFC 5829" } ] }

@@ -1,10 +1,10 @@
 
   { "value" : "Proxy-Authorization",
-    "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
-    "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Proxy-Authorization",
+    "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http-header\/",
+    "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http-header\/Proxy-Authorization",
     "details" : 
     [ 
       { "description" : "The \"Proxy-Authorization\" header field allows the client to identify itself (or its user) to a proxy that requires authentication. Its value consists of credentials containing the authentication information of the client for the proxy and\/or realm of the resource being requested.",
         "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7235#section-4.3",
-        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7235",
+        "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/RFC\/7235",
         "spec-name" : "RFC 7235" } ] }

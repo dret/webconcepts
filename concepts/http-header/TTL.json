@@ -1,10 +1,10 @@
 
   { "value" : "TTL",
-    "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
-    "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/TTL",
+    "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http-header\/",
+    "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http-header\/TTL",
     "details" : 
     [ 
       { "description" : "An application server MUST include the TTL (Time-To-Live) header field in its request for push message delivery. The TTL header field contains a value in seconds that suggests how long a push message is retained by the push service.",
         "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc8030#section-5.2",
-        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8030",
+        "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/RFC\/8030",
         "spec-name" : "RFC 8030" } ] }

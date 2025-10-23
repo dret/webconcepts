@@ -1,10 +1,10 @@
 
   { "value" : "example",
-    "concept" : "http:\/\/webconcepts.info\/concepts\/uri-scheme\/",
-    "id" : "http:\/\/webconcepts.info\/concepts\/uri-scheme\/example",
+    "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/uri-scheme\/",
+    "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/uri-scheme\/example",
     "details" : 
     [ 
       { "description" : "There is a need for a scheme name that can be used for examples in documentation without fear of conflicts with current or future actual schemes. The scheme \"example\" is hereby registered as a 'permanent' scheme for that purpose.",
         "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7595#section-8",
-        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7595",
+        "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/RFC\/7595",
         "spec-name" : "RFC 7595" } ] }

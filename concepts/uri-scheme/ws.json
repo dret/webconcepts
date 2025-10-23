@@ -1,10 +1,10 @@
 
   { "value" : "ws",
-    "concept" : "http:\/\/webconcepts.info\/concepts\/uri-scheme\/",
-    "id" : "http:\/\/webconcepts.info\/concepts\/uri-scheme\/ws",
+    "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/uri-scheme\/",
+    "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/uri-scheme\/ws",
     "details" : 
     [ 
       { "description" : "The only operation for this scheme is to open a connection using the WebSocket Protocol.",
         "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6455#section-3",
-        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6455",
+        "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/RFC\/6455",
         "spec-name" : "RFC 6455" } ] }

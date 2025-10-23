@@ -1,10 +1,10 @@
 
   { "value" : "application\/csrattrs",
-    "concept" : "http:\/\/webconcepts.info\/concepts\/media-type\/",
-    "id" : "http:\/\/webconcepts.info\/concepts\/media-type\/application\/csrattrs",
+    "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/media-type\/",
+    "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/media-type\/application\/csrattrs",
     "details" : 
     [ 
       { "description" : "Responses to attribute request messages MUST be encoded as the content-type of \"application\/csrattrs\" with a Content-Transfer-Encoding of \"base64\".",
         "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7030#section-4.5.2",
-        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7030",
+        "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/RFC\/7030",
         "spec-name" : "RFC 7030" } ] }

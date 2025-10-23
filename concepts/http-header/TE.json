@@ -1,10 +1,10 @@
 
   { "value" : "TE",
-    "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
-    "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/TE",
+    "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http-header\/",
+    "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http-header\/TE",
     "details" : 
     [ 
       { "description" : "The \"TE\" header field in a request indicates what transfer codings, besides chunked, the client is willing to accept in response, and whether or not the client is willing to accept trailer fields in a chunked transfer coding.",
         "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7230#section-4.3",
-        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7230",
+        "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/RFC\/7230",
         "spec-name" : "RFC 7230" } ] }

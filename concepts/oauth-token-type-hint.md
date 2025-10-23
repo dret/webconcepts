@@ -6,7 +6,7 @@ permalink: /concepts/oauth-token-type-hint/
 
 
 
-The following 2 OAuth Token Type Hint values were found in [all available `webconcepts.info` specifications](/specs). Please be advised that the table shown here is maintained and compiled from [Web Concepts](/) sources. The [official OAuth Token Type Hint registry](http://www.iana.org/assignments/oauth-parameters/oauth-parameters.xhtml#token-type-hint) is maintained by the [*Internet Assigned Numbers Authority (IANA)*](http://www.iana.org/).
+The following 2 OAuth Token Type Hint values were found in [all available `webconcepts` specifications](/specs). Please be advised that the table shown here is maintained and compiled from [Web Concepts](/) sources. The [official OAuth Token Type Hint registry](http://www.iana.org/assignments/oauth-parameters/oauth-parameters.xhtml#token-type-hint) is maintained by the [*Internet Assigned Numbers Authority (IANA)*](http://www.iana.org/).
 
 OAuth Token Type Hint | Specification
 -------: | :-------

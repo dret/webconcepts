@@ -1,11 +1,11 @@
 
   { "value" : "507",
-    "concept" : "http:\/\/webconcepts.info\/concepts\/http-status-code\/",
-    "id" : "http:\/\/webconcepts.info\/concepts\/http-status-code\/507",
+    "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http-status-code\/",
+    "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http-status-code\/507",
     "description" : "Insufficient Storage",
     "details" : 
     [ 
       { "description" : "The 507 (Insufficient Storage) status code means the method could not be performed on the resource because the server is unable to store the representation needed to successfully complete the request. This condition is considered to be temporary. If the request that received this status code was the result of a user action, the request MUST NOT be repeated until it is requested by a separate user action.",
         "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc4918#section-11.5",
-        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/4918",
+        "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/RFC\/4918",
         "spec-name" : "RFC 4918" } ] }

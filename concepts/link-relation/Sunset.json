@@ -1,10 +1,10 @@
 
   { "value" : "sunset",
-    "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
-    "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/sunset",
+    "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/link-relation\/",
+    "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/link-relation\/sunset",
     "details" : 
     [ 
       { "description" : "Identifies a resource that provides information about the context's retirement policy.",
         "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc8594#section-5",
-        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8594",
+        "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/RFC\/8594",
         "spec-name" : "RFC 8594" } ] }

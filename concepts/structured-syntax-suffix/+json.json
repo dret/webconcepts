@@ -1,10 +1,10 @@
 
   { "value" : "+json",
-    "concept" : "http:\/\/webconcepts.info\/concepts\/structured-syntax-suffix\/",
-    "id" : "http:\/\/webconcepts.info\/concepts\/structured-syntax-suffix\/+json",
+    "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/structured-syntax-suffix\/",
+    "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/structured-syntax-suffix\/+json",
     "details" : 
     [ 
       { "description" : "The suffix \"+json\" MAY be used with any media type whose representation follows that established for \"application\/json\".",
         "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6839#section-3.1",
-        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6839",
+        "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/RFC\/6839",
         "spec-name" : "RFC 6839" } ] }

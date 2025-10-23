@@ -1,15 +1,15 @@
 
   { "value" : "Set-Cookie",
-    "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
-    "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Set-Cookie",
+    "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http-header\/",
+    "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http-header\/Set-Cookie",
     "details" : 
     [ 
       { "description" : "The Set-Cookie HTTP response header is used to send cookies from the server to the user agent.",
         "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-ietf-httpbis-rfc6265bis#section-4.1",
-        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpbis-rfc6265bis",
+        "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/I-D\/ietf-httpbis-rfc6265bis",
         "spec-name" : "Internet Draft ietf-httpbis-rfc6265bis" },
       
       { "description" : "The Set-Cookie HTTP response header is used to send cookies from the server to the user agent.",
         "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6265#section-4.1",
-        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6265",
+        "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/RFC\/6265",
         "spec-name" : "RFC 6265" } ] }

@@ -1,10 +1,10 @@
 
   { "value" : "jwk",
-    "concept" : "http:\/\/webconcepts.info\/concepts\/jwt-confirmation-method\/",
-    "id" : "http:\/\/webconcepts.info\/concepts\/jwt-confirmation-method\/jwk",
+    "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/jwt-confirmation-method\/",
+    "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/jwt-confirmation-method\/jwk",
     "details" : 
     [ 
       { "description" : "When the key held by the presenter is an asymmetric private key, the \"jwk\" member is a JSON Web Key representing the corresponding asymmetric public key.",
         "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7800#section-3.2",
-        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7800",
+        "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/RFC\/7800",
         "spec-name" : "RFC 7800" } ] }

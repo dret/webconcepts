@@ -1,10 +1,10 @@
 
   { "value" : "EPR",
-    "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
-    "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/EPR",
+    "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http-header\/",
+    "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http-header\/EPR",
     "details" : 
     [ 
       { "description" : "Servers may request the protections outlined by Entry Point Regulation (EPR) by sending an EPR HTTP response header field along with a response.",
         "documentation" : "http:\/\/www.w3.org\/TR\/epr\/#epr-header",
-        "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/epr",
+        "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/W3C\/TR\/epr",
         "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/epr" } ] }

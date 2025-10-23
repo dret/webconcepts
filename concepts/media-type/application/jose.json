@@ -1,10 +1,10 @@
 
   { "value" : "application\/jose",
-    "concept" : "http:\/\/webconcepts.info\/concepts\/media-type\/",
-    "id" : "http:\/\/webconcepts.info\/concepts\/media-type\/application\/jose",
+    "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/media-type\/",
+    "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/media-type\/application\/jose",
     "details" : 
     [ 
       { "description" : "The \"application\/jose\" media type can be used to indicate that the content is a JWS or JWE using the JWS Compact Serialization or the JWE Compact Serialization.",
         "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7515#section-9.2",
-        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7515",
+        "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/RFC\/7515",
         "spec-name" : "RFC 7515" } ] }

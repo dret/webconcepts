@@ -1,10 +1,10 @@
 
   { "value" : "coap+tcp",
-    "concept" : "http:\/\/webconcepts.info\/concepts\/uri-scheme\/",
-    "id" : "http:\/\/webconcepts.info\/concepts\/uri-scheme\/coap+tcp",
+    "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/uri-scheme\/",
+    "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/uri-scheme\/coap+tcp",
     "details" : 
     [ 
       { "description" : "The \"coap+tcp\" URI scheme identifies CoAP resources that are intended to be accessible using CoAP over TCP.",
         "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc8283#section-8.1",
-        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8283",
+        "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/RFC\/8283",
         "spec-name" : "RFC 8283" } ] }

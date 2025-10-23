@@ -1,10 +1,10 @@
 
   { "value" : "MKCALENDAR",
-    "concept" : "http:\/\/webconcepts.info\/concepts\/http-method\/",
-    "id" : "http:\/\/webconcepts.info\/concepts\/http-method\/MKCALENDAR",
+    "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http-method\/",
+    "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http-method\/MKCALENDAR",
     "details" : 
     [ 
       { "description" : "An HTTP request using the MKCALENDAR method creates a new calendar collection resource. A server MAY restrict calendar collection creation to particular collections.",
         "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc4791#section-5.3.1",
-        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/4791",
+        "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/RFC\/4791",
         "spec-name" : "RFC 4791" } ] }

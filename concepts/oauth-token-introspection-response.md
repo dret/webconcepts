@@ -6,7 +6,7 @@ permalink: /concepts/oauth-token-introspection-response/
 
 
 
-The following 12 OAuth Token Introspection Response values were found in [all available `webconcepts.info` specifications](/specs). Please be advised that the table shown here is maintained and compiled from [Web Concepts](/) sources. The [official OAuth Token Introspection Response registry](http://www.iana.org/assignments/oauth-parameters/oauth-parameters.xhtml#token-introspection-response) is maintained by the [*Internet Assigned Numbers Authority (IANA)*](http://www.iana.org/).
+The following 12 OAuth Token Introspection Response values were found in [all available `webconcepts` specifications](/specs). Please be advised that the table shown here is maintained and compiled from [Web Concepts](/) sources. The [official OAuth Token Introspection Response registry](http://www.iana.org/assignments/oauth-parameters/oauth-parameters.xhtml#token-introspection-response) is maintained by the [*Internet Assigned Numbers Authority (IANA)*](http://www.iana.org/).
 
 OAuth Token Introspection Response | Specification
 -------: | :-------

@@ -1,10 +1,10 @@
 
   { "value" : "logout",
-    "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
-    "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/logout",
+    "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/link-relation\/",
+    "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/link-relation\/logout",
     "details" : 
     [ 
       { "description" : "The \"logout\" refers to a resource where an authenticated user might end their session.",
         "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-pot-authentication-link#section-4",
-        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/pot-authentication-link",
+        "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/I-D\/pot-authentication-link",
         "spec-name" : "Internet Draft pot-authentication-link" } ] }

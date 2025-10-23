@@ -1,10 +1,10 @@
 
   { "value" : "home",
-    "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
-    "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/home",
+    "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/link-relation\/",
+    "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/link-relation\/home",
     "details" : 
     [ 
       { "description" : "The \"home\" link relation type is used to establish a link to a \"home document\" resource that provides context and\/or starting points for the context resource.",
         "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-nottingham-json-home#section-6",
-        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/nottingham-json-home",
+        "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/I-D\/nottingham-json-home",
         "spec-name" : "Internet Draft nottingham-json-home" } ] }

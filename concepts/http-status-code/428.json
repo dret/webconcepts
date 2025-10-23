@@ -1,11 +1,11 @@
 
   { "value" : "428",
-    "concept" : "http:\/\/webconcepts.info\/concepts\/http-status-code\/",
-    "id" : "http:\/\/webconcepts.info\/concepts\/http-status-code\/428",
+    "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http-status-code\/",
+    "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http-status-code\/428",
     "description" : "Precondition Required",
     "details" : 
     [ 
       { "description" : "The 428 status code indicates that the origin server requires the request to be conditional.",
         "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6585#section-3",
-        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6585",
+        "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/RFC\/6585",
         "spec-name" : "RFC 6585" } ] }

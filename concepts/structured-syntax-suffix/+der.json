@@ -1,10 +1,10 @@
 
   { "value" : "+der",
-    "concept" : "http:\/\/webconcepts.info\/concepts\/structured-syntax-suffix\/",
-    "id" : "http:\/\/webconcepts.info\/concepts\/structured-syntax-suffix\/+der",
+    "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/structured-syntax-suffix\/",
+    "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/structured-syntax-suffix\/+der",
     "details" : 
     [ 
       { "description" : "The suffix \"+der\" MAY be used with any media type whose representation follows the DER transfer syntax.",
         "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6839#section-3.3",
-        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6839",
+        "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/RFC\/6839",
         "spec-name" : "RFC 6839" } ] }

@@ -1,10 +1,10 @@
 
   { "value" : "MKACTIVITY",
-    "concept" : "http:\/\/webconcepts.info\/concepts\/http-method\/",
-    "id" : "http:\/\/webconcepts.info\/concepts\/http-method\/MKACTIVITY",
+    "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http-method\/",
+    "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http-method\/MKACTIVITY",
     "details" : 
     [ 
       { "description" : "A MKACTIVITY request creates a new activity resource. A server MAY restrict activity creation to particular collections, but a client can determine the location of these collections from a DAV:activity-collection-set OPTIONS request.",
         "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc3253#section-13.5",
-        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/3253",
+        "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/RFC\/3253",
         "spec-name" : "RFC 3253" } ] }

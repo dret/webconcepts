@@ -1,10 +1,10 @@
 
   { "value" : "service-desc",
-    "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
-    "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/service-desc",
+    "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/link-relation\/",
+    "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/link-relation\/service-desc",
     "details" : 
     [ 
       { "description" : "The \"service-desc\" link relation type is used to represent the fact that a resource or a set of resources are described at a specific URI. It identifies service description for the context that is primarily intended for consumption by machines. Often, it is provided in a format that is consumed by tools, code libraries, or similar components.",
         "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc8631#section-4.2",
-        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8631",
+        "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/RFC\/8631",
         "spec-name" : "RFC 8631" } ] }

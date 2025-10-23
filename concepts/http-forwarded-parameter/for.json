@@ -1,10 +1,10 @@
 
   { "value" : "for",
-    "concept" : "http:\/\/webconcepts.info\/concepts\/http-forwarded-parameter\/",
-    "id" : "http:\/\/webconcepts.info\/concepts\/http-forwarded-parameter\/for",
+    "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http-forwarded-parameter\/",
+    "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http-forwarded-parameter\/for",
     "details" : 
     [ 
       { "description" : "The \"for\" parameter is used to disclose information about the client that initiated the request and subsequent proxies in a chain of proxies.",
         "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7239#section-5.2",
-        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7239",
+        "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/RFC\/7239",
         "spec-name" : "RFC 7239" } ] }

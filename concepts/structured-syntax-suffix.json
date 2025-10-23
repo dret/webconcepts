@@ -1,117 +1,117 @@
 
   { "concept" : "structured-syntax-suffix",
-    "id" : "http:\/\/webconcepts.info\/concepts\/structured-syntax-suffix\/",
+    "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/structured-syntax-suffix\/",
     "name-singular" : "Structured Syntax Suffix",
     "name-plural" : "Structured Syntax Suffixes",
     "registry" : "http:\/\/www.iana.org\/assignments\/media-type-structured-suffix\/media-type-structured-suffix.xhtml",
     "values" : 
     [ 
       { "value" : "+ber",
-        "concept" : "http:\/\/webconcepts.info\/concepts\/structured-syntax-suffix\/",
-        "id" : "http:\/\/webconcepts.info\/concepts\/structured-syntax-suffix\/+ber",
+        "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/structured-syntax-suffix\/",
+        "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/structured-syntax-suffix\/+ber",
         "details" : 
         [ 
           { "description" : "The suffix \"+ber\" MAY be used with any media type whose representation follows the BER transfer syntax.",
             "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6839#section-3.2",
-            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6839",
+            "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/RFC\/6839",
             "spec-name" : "RFC 6839" } ] },
       
       { "value" : "+cbor",
-        "concept" : "http:\/\/webconcepts.info\/concepts\/structured-syntax-suffix\/",
-        "id" : "http:\/\/webconcepts.info\/concepts\/structured-syntax-suffix\/+cbor",
+        "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/structured-syntax-suffix\/",
+        "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/structured-syntax-suffix\/+cbor",
         "details" : 
         [ 
           { "description" : "The suffix \"+cbor\" MAY be used with any media type whose representation follows the CBOR transfer syntax.",
             "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7049#section-7.5",
-            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7049",
+            "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/RFC\/7049",
             "spec-name" : "RFC 7049" } ] },
       
       { "value" : "+der",
-        "concept" : "http:\/\/webconcepts.info\/concepts\/structured-syntax-suffix\/",
-        "id" : "http:\/\/webconcepts.info\/concepts\/structured-syntax-suffix\/+der",
+        "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/structured-syntax-suffix\/",
+        "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/structured-syntax-suffix\/+der",
         "details" : 
         [ 
           { "description" : "The suffix \"+der\" MAY be used with any media type whose representation follows the DER transfer syntax.",
             "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6839#section-3.3",
-            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6839",
+            "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/RFC\/6839",
             "spec-name" : "RFC 6839" } ] },
       
       { "value" : "+exi",
-        "concept" : "http:\/\/webconcepts.info\/concepts\/structured-syntax-suffix\/",
-        "id" : "http:\/\/webconcepts.info\/concepts\/structured-syntax-suffix\/+exi",
+        "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/structured-syntax-suffix\/",
+        "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/structured-syntax-suffix\/+exi",
         "details" : 
         [ 
           { "description" : "This document defines a new Structured Syntax Suffix \"+exi\" for use in media types for a specific class of protocols, where the \"exi\" content-type encoding or the generic \"application\/exi\" media type are not viable.",
             "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-shelby-exi-registration#section-2",
-            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/shelby-exi-registration",
+            "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/I-D\/shelby-exi-registration",
             "spec-name" : "Internet Draft shelby-exi-registration" } ] },
       
       { "value" : "+fastinfoset",
-        "concept" : "http:\/\/webconcepts.info\/concepts\/structured-syntax-suffix\/",
-        "id" : "http:\/\/webconcepts.info\/concepts\/structured-syntax-suffix\/+fastinfoset",
+        "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/structured-syntax-suffix\/",
+        "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/structured-syntax-suffix\/+fastinfoset",
         "details" : 
         [ 
           { "description" : "The suffix \"+fastinfoset\" MAY be used with any media type whose representation follows that established for \"application\/fastinfoset\".",
             "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6839#section-3.4",
-            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6839",
+            "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/RFC\/6839",
             "spec-name" : "RFC 6839" } ] },
       
       { "value" : "+json",
-        "concept" : "http:\/\/webconcepts.info\/concepts\/structured-syntax-suffix\/",
-        "id" : "http:\/\/webconcepts.info\/concepts\/structured-syntax-suffix\/+json",
+        "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/structured-syntax-suffix\/",
+        "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/structured-syntax-suffix\/+json",
         "details" : 
         [ 
           { "description" : "The suffix \"+json\" MAY be used with any media type whose representation follows that established for \"application\/json\".",
             "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6839#section-3.1",
-            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6839",
+            "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/RFC\/6839",
             "spec-name" : "RFC 6839" } ] },
       
       { "value" : "+json-seq",
-        "concept" : "http:\/\/webconcepts.info\/concepts\/structured-syntax-suffix\/",
-        "id" : "http:\/\/webconcepts.info\/concepts\/structured-syntax-suffix\/+json-seq",
+        "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/structured-syntax-suffix\/",
+        "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/structured-syntax-suffix\/+json-seq",
         "details" : 
         [ 
           { "description" : "The use case for the \"+json-seq\" structured syntax suffix is the same as for \"+json\": It SHOULD be used by media types when parsing the JSON text sequence of a media type leads to a meaningful result, by simply using the generic JSON text sequence processing.",
             "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc8091#section-3",
-            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8091",
+            "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/RFC\/8091",
             "spec-name" : "RFC 8091" } ] },
       
       { "value" : "+jwt",
-        "concept" : "http:\/\/webconcepts.info\/concepts\/structured-syntax-suffix\/",
-        "id" : "http:\/\/webconcepts.info\/concepts\/structured-syntax-suffix\/+jwt",
+        "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/structured-syntax-suffix\/",
+        "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/structured-syntax-suffix\/+jwt",
         "details" : 
         [ 
           { "description" : "The \"+jwt\" structured syntax suffix can be used to indicate that the media type is encoded as a JWT.",
             "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc8417#section-7.2",
-            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8417",
+            "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/RFC\/8417",
             "spec-name" : "RFC 8417" } ] },
       
       { "value" : "+wbxml",
-        "concept" : "http:\/\/webconcepts.info\/concepts\/structured-syntax-suffix\/",
-        "id" : "http:\/\/webconcepts.info\/concepts\/structured-syntax-suffix\/+wbxml",
+        "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/structured-syntax-suffix\/",
+        "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/structured-syntax-suffix\/+wbxml",
         "details" : 
         [ 
           { "description" : "The suffix \"+wbxml\" MAY be used with any media type whose representation follows that established for \"application\/vnd.wap.wbxml\".",
             "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6839#section-3.5",
-            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6839",
+            "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/RFC\/6839",
             "spec-name" : "RFC 6839" } ] },
       
       { "value" : "+xml",
-        "concept" : "http:\/\/webconcepts.info\/concepts\/structured-syntax-suffix\/",
-        "id" : "http:\/\/webconcepts.info\/concepts\/structured-syntax-suffix\/+xml",
+        "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/structured-syntax-suffix\/",
+        "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/structured-syntax-suffix\/+xml",
         "details" : 
         [ 
           { "description" : "When a new media type is introduced for an XML-based format, the name of the media type SHOULD end with '+xml' unless generic XML processing is in some way inappropriate for documents of the new type.",
             "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7303#section-4.2",
-            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7303",
+            "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/RFC\/7303",
             "spec-name" : "RFC 7303" } ] },
       
       { "value" : "+zip",
-        "concept" : "http:\/\/webconcepts.info\/concepts\/structured-syntax-suffix\/",
-        "id" : "http:\/\/webconcepts.info\/concepts\/structured-syntax-suffix\/+zip",
+        "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/structured-syntax-suffix\/",
+        "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/structured-syntax-suffix\/+zip",
         "details" : 
         [ 
           { "description" : "The suffix \"+zip\" MAY be used with any media type whose representation follows that established for \"application\/zip\".",
             "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6839#section-3.6",
-            "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6839",
+            "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/RFC\/6839",
             "spec-name" : "RFC 6839" } ] } ] }

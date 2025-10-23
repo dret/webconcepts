@@ -1,11 +1,11 @@
 
   { "value" : "0x3",
-    "concept" : "http:\/\/webconcepts.info\/concepts\/http2-frame-type\/",
-    "id" : "http:\/\/webconcepts.info\/concepts\/http2-frame-type\/0x3",
+    "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http2-frame-type\/",
+    "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http2-frame-type\/0x3",
     "description" : "RST_STREAM",
     "details" : 
     [ 
       { "description" : "The RST_STREAM frame (type=0x3) allows for immediate termination of a stream. RST_STREAM is sent to request cancellation of a stream or to indicate that an error condition has occurred.",
         "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7540#section-6.4",
-        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7540",
+        "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/RFC\/7540",
         "spec-name" : "RFC 7540" } ] }

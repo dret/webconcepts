@@ -6,7 +6,7 @@ permalink: /concepts/pkce-code-challenge-method/
 
 
 
-The following 2 PKCE Code Challenge Method values were found in [all available `webconcepts.info` specifications](/specs). Please be advised that the table shown here is maintained and compiled from [Web Concepts](/) sources. The [official PKCE Code Challenge Method registry](http://www.iana.org/assignments/oauth-parameters/oauth-parameters.xhtml#pkce-code-challenge-method) is maintained by the [*Internet Assigned Numbers Authority (IANA)*](http://www.iana.org/).
+The following 2 PKCE Code Challenge Method values were found in [all available `webconcepts` specifications](/specs). Please be advised that the table shown here is maintained and compiled from [Web Concepts](/) sources. The [official PKCE Code Challenge Method registry](http://www.iana.org/assignments/oauth-parameters/oauth-parameters.xhtml#pkce-code-challenge-method) is maintained by the [*Internet Assigned Numbers Authority (IANA)*](http://www.iana.org/).
 
 PKCE Code Challenge Method | Specification
 -------: | :-------

@@ -1,10 +1,10 @@
 
   { "value" : "sub",
-    "concept" : "http:\/\/webconcepts.info\/concepts\/oauth-token-introspection-response\/",
-    "id" : "http:\/\/webconcepts.info\/concepts\/oauth-token-introspection-response\/sub",
+    "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/oauth-token-introspection-response\/",
+    "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/oauth-token-introspection-response\/sub",
     "details" : 
     [ 
       { "description" : "Subject of the token, as defined in JWT. Usually a machine-readable identifier of the resource owner who authorized this token.",
         "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7662#section-2.2",
-        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7662",
+        "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/RFC\/7662",
         "spec-name" : "RFC 7662" } ] }

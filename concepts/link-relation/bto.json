@@ -1,10 +1,10 @@
 
   { "value" : "bto",
-    "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
-    "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/bto",
+    "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/link-relation\/",
+    "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/link-relation\/bto",
     "details" : 
     [ 
       { "description" : "Refers to a resource that is considered to be part of the private primary audience of the link's context.",
         "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-snell-more-link-relations#section-3",
-        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/snell-more-link-relations",
+        "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/I-D\/snell-more-link-relations",
         "spec-name" : "Internet Draft snell-more-link-relations" } ] }

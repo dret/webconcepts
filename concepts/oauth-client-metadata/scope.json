@@ -1,10 +1,10 @@
 
   { "value" : "scope",
-    "concept" : "http:\/\/webconcepts.info\/concepts\/oauth-client-metadata\/",
-    "id" : "http:\/\/webconcepts.info\/concepts\/oauth-client-metadata\/scope",
+    "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/oauth-client-metadata\/",
+    "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/oauth-client-metadata\/scope",
     "details" : 
     [ 
       { "description" : "String containing a space-separated list of scope values (as described in OAuth 2.0) that the client can use when requesting access tokens.",
         "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7591#section-2",
-        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7591",
+        "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/RFC\/7591",
         "spec-name" : "RFC 7591" } ] }

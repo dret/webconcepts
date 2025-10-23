@@ -1,11 +1,11 @@
 
   { "value" : "0x8",
-    "concept" : "http:\/\/webconcepts.info\/concepts\/http2-frame-type\/",
-    "id" : "http:\/\/webconcepts.info\/concepts\/http2-frame-type\/0x8",
+    "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http2-frame-type\/",
+    "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http2-frame-type\/0x8",
     "description" : "WINDOW_UPDATE",
     "details" : 
     [ 
       { "description" : "The WINDOW_UPDATE frame (type=0x8) is used to implement flow control. Flow control operates at two levels: on each individual stream and on the entire connection.",
         "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7540#section-6.9",
-        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7540",
+        "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/RFC\/7540",
         "spec-name" : "RFC 7540" } ] }

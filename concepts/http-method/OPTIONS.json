@@ -1,10 +1,10 @@
 
   { "value" : "OPTIONS",
-    "concept" : "http:\/\/webconcepts.info\/concepts\/http-method\/",
-    "id" : "http:\/\/webconcepts.info\/concepts\/http-method\/OPTIONS",
+    "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http-method\/",
+    "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http-method\/OPTIONS",
     "details" : 
     [ 
       { "description" : "The OPTIONS method requests information about the communication options available for the target resource, at either the origin server or an intervening intermediary. This method allows a client to determine the options and\/or requirements associated with a resource, or the capabilities of a server, without implying a resource action.",
         "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7231#section-4.3.7",
-        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7231",
+        "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/RFC\/7231",
         "spec-name" : "RFC 7231" } ] }

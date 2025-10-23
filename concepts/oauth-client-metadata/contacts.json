@@ -1,10 +1,10 @@
 
   { "value" : "contacts",
-    "concept" : "http:\/\/webconcepts.info\/concepts\/oauth-client-metadata\/",
-    "id" : "http:\/\/webconcepts.info\/concepts\/oauth-client-metadata\/contacts",
+    "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/oauth-client-metadata\/",
+    "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/oauth-client-metadata\/contacts",
     "details" : 
     [ 
       { "description" : "Array of strings representing ways to contact people responsible for this client, typically email addresses.",
         "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7591#section-2",
-        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7591",
+        "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/RFC\/7591",
         "spec-name" : "RFC 7591" } ] }

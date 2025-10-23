@@ -1,10 +1,10 @@
 
   { "value" : "http",
-    "concept" : "http:\/\/webconcepts.info\/concepts\/uri-scheme\/",
-    "id" : "http:\/\/webconcepts.info\/concepts\/uri-scheme\/http",
+    "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/uri-scheme\/",
+    "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/uri-scheme\/http",
     "details" : 
     [ 
       { "description" : "The \"http\" URI scheme is hereby defined for the purpose of minting identifiers according to their association with the hierarchical namespace governed by a potential HTTP origin server listening for TCP connections on a given port.",
         "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7230#section-2.7.1",
-        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7230",
+        "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/RFC\/7230",
         "spec-name" : "RFC 7230" } ] }

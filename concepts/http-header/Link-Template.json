@@ -1,10 +1,10 @@
 
   { "value" : "Link-Template",
-    "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
-    "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Link-Template",
+    "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http-header\/",
+    "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http-header\/Link-Template",
     "details" : 
     [ 
       { "description" : "The Link-Template header field is a Structured Field that serializes one or more links into HTTP message metadata. It is semantically equivalent to the Link header field defined in Section 3 of Web Linking, except that the link target and link anchor can contain URI Templates.",
         "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc9652#name-the-link-template-header-fi",
-        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/9652",
+        "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/RFC\/9652",
         "spec-name" : "RFC 9652" } ] }

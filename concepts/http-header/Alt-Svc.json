@@ -1,10 +1,10 @@
 
   { "value" : "Alt-Svc",
-    "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
-    "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Alt-Svc",
+    "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http-header\/",
+    "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http-header\/Alt-Svc",
     "details" : 
     [ 
       { "description" : "An HTTP(S) origin server can advertise the availability of alternative services to clients by adding an Alt-Svc header field to responses.",
         "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7838#section-3",
-        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7838",
+        "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/RFC\/7838",
         "spec-name" : "RFC 7838" } ] }

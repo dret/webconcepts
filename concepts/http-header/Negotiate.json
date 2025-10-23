@@ -1,10 +1,10 @@
 
   { "value" : "Negotiate",
-    "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
-    "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Negotiate",
+    "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http-header\/",
+    "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http-header\/Negotiate",
     "details" : 
     [ 
       { "description" : "The Negotiate request header can contain directives for any content negotiation process initiated by the request.",
         "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc2295#section-8.4",
-        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/2295",
+        "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/RFC\/2295",
         "spec-name" : "RFC 2295" } ] }

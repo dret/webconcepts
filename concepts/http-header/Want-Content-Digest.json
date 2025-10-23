@@ -1,10 +1,10 @@
 
   { "value" : "Want-Content-Digest",
-    "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
-    "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Want-Content-Digest",
+    "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http-header\/",
+    "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http-header\/Want-Content-Digest",
     "details" : 
     [ 
       { "description" : "Want-Content-Digest indicates that the sender would like to receive (via the Content-Digest field) a content digest on messages associated with the request URI and representation metadata.",
         "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc9530#section-4",
-        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/9530",
+        "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/RFC\/9530",
         "spec-name" : "RFC 9530" } ] }

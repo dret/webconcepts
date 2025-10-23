@@ -1,10 +1,10 @@
 
   { "value" : "application\/xml-external-parsed-entity",
-    "concept" : "http:\/\/webconcepts.info\/concepts\/media-type\/",
-    "id" : "http:\/\/webconcepts.info\/concepts\/media-type\/application\/xml-external-parsed-entity",
+    "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/media-type\/",
+    "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/media-type\/application\/xml-external-parsed-entity",
     "details" : 
     [ 
       { "description" : "The media type application\/xml-dtd SHOULD be used for XML external DTD subsets.",
         "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7303#section-4.1",
-        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7303",
+        "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/RFC\/7303",
         "spec-name" : "RFC 7303" } ] }

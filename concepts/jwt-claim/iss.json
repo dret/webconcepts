@@ -1,10 +1,10 @@
 
   { "value" : "iss",
-    "concept" : "http:\/\/webconcepts.info\/concepts\/jwt-claim\/",
-    "id" : "http:\/\/webconcepts.info\/concepts\/jwt-claim\/iss",
+    "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/jwt-claim\/",
+    "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/jwt-claim\/iss",
     "details" : 
     [ 
       { "description" : "The \"iss\" (issuer) claim identifies the principal that issued the JWT. The processing of this claim is generally application specific.",
         "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7519#section-4.1.1",
-        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7519",
+        "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/RFC\/7519",
         "spec-name" : "RFC 7519" } ] }

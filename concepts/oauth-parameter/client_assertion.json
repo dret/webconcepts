@@ -1,10 +1,10 @@
 
   { "value" : "client_assertion",
-    "concept" : "http:\/\/webconcepts.info\/concepts\/oauth-parameter\/",
-    "id" : "http:\/\/webconcepts.info\/concepts\/oauth-parameter\/client_assertion",
+    "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/oauth-parameter\/",
+    "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/oauth-parameter\/client_assertion",
     "details" : 
     [ 
       { "description" : "The assertion being used to authenticate the client. Specific serialization of the assertion is defined by profile documents.",
         "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7521#section-4.2",
-        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7521",
+        "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/RFC\/7521",
         "spec-name" : "RFC 7521" } ] }

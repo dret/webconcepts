@@ -1,10 +1,10 @@
 
   { "value" : "Expect-CT",
-    "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
-    "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Expect-CT",
+    "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http-header\/",
+    "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http-header\/Expect-CT",
     "details" : 
     [ 
       { "description" : "The Expect-CT response header field is a new field defined in this specification. It is used by a server to indicate that UAs should evaluate connections to the host emitting the header field for CT compliance.",
         "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc9239#section-2.1",
-        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/9163",
+        "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/RFC\/9163",
         "spec-name" : "RFC 9163" } ] }

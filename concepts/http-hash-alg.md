@@ -6,7 +6,7 @@ permalink: /concepts/http-hash-alg/
 
 
 
-The following 3 Hash Algorithm for HTTP Digest Authentication values were found in [all available `webconcepts.info` specifications](/specs). Please be advised that the table shown here is maintained and compiled from [Web Concepts](/) sources. The [official Hash Algorithm for HTTP Digest Authentication registry](https://www.iana.org/assignments/http-dig-alg/http-dig-alg.xhtml#hash-alg) is maintained by the [*Internet Assigned Numbers Authority (IANA)*](http://www.iana.org/).
+The following 3 Hash Algorithm for HTTP Digest Authentication values were found in [all available `webconcepts` specifications](/specs). Please be advised that the table shown here is maintained and compiled from [Web Concepts](/) sources. The [official Hash Algorithm for HTTP Digest Authentication registry](https://www.iana.org/assignments/http-dig-alg/http-dig-alg.xhtml#hash-alg) is maintained by the [*Internet Assigned Numbers Authority (IANA)*](http://www.iana.org/).
 
 Hash Algorithm for HTTP Digest Authentication | Specification
 -------: | :-------

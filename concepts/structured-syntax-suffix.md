@@ -6,7 +6,7 @@ permalink: /concepts/structured-syntax-suffix/
 
 
 
-The following 11 Structured Syntax Suffix values were found in [all available `webconcepts.info` specifications](/specs). Please be advised that the table shown here is maintained and compiled from [Web Concepts](/) sources. The [official Structured Syntax Suffix registry](http://www.iana.org/assignments/media-type-structured-suffix/media-type-structured-suffix.xhtml) is maintained by the [*Internet Assigned Numbers Authority (IANA)*](http://www.iana.org/).
+The following 11 Structured Syntax Suffix values were found in [all available `webconcepts` specifications](/specs). Please be advised that the table shown here is maintained and compiled from [Web Concepts](/) sources. The [official Structured Syntax Suffix registry](http://www.iana.org/assignments/media-type-structured-suffix/media-type-structured-suffix.xhtml) is maintained by the [*Internet Assigned Numbers Authority (IANA)*](http://www.iana.org/).
 
 Structured Syntax Suffix | Specification
 -------: | :-------

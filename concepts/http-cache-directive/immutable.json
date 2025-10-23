@@ -1,10 +1,10 @@
 
   { "value" : "immutable",
-    "concept" : "http:\/\/webconcepts.info\/concepts\/http-cache-directive\/",
-    "id" : "http:\/\/webconcepts.info\/concepts\/http-cache-directive\/immutable",
+    "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http-cache-directive\/",
+    "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http-cache-directive\/immutable",
     "details" : 
     [ 
       { "description" : "When present in an HTTP response, the immutable Cache-Control extension indicates that the origin server MUST NOT update the representation of that resource during the freshness lifetime of the response.",
         "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc8246#section-2",
-        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8246",
+        "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/RFC\/8246",
         "spec-name" : "RFC 8246" } ] }

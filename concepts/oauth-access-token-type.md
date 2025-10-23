@@ -6,7 +6,7 @@ permalink: /concepts/oauth-access-token-type/
 
 
 
-The following 2 OAuth Access Token Type values were found in [all available `webconcepts.info` specifications](/specs). Please be advised that the table shown here is maintained and compiled from [Web Concepts](/) sources. The [official OAuth Access Token Type registry](http://www.iana.org/assignments/oauth-parameters/oauth-parameters.xhtml#token-types) is maintained by the [*Internet Assigned Numbers Authority (IANA)*](http://www.iana.org/).
+The following 2 OAuth Access Token Type values were found in [all available `webconcepts` specifications](/specs). Please be advised that the table shown here is maintained and compiled from [Web Concepts](/) sources. The [official OAuth Access Token Type registry](http://www.iana.org/assignments/oauth-parameters/oauth-parameters.xhtml#token-types) is maintained by the [*Internet Assigned Numbers Authority (IANA)*](http://www.iana.org/).
 
 OAuth Access Token Type | Specification
 -------: | :-------

@@ -1,10 +1,10 @@
 
   { "value" : "Mutual",
-    "concept" : "http:\/\/webconcepts.info\/concepts\/http-authentication-scheme\/",
-    "id" : "http:\/\/webconcepts.info\/concepts\/http-authentication-scheme\/Mutual",
+    "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http-authentication-scheme\/",
+    "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http-authentication-scheme\/Mutual",
     "details" : 
     [ 
       { "description" : "The scheme provides true mutual authentication between an HTTP client and an HTTP server, using just a simple password as a credential.",
         "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc8120#section-2",
-        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8120",
+        "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/RFC\/8120",
         "spec-name" : "RFC 8120" } ] }

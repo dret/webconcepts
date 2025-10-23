@@ -1,10 +1,10 @@
 
   { "value" : "application\/cwt",
-    "concept" : "http:\/\/webconcepts.info\/concepts\/media-type\/",
-    "id" : "http:\/\/webconcepts.info\/concepts\/media-type\/application\/cwt",
+    "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/media-type\/",
+    "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/media-type\/application\/cwt",
     "details" : 
     [ 
       { "description" : "How to determine that a CBOR data structure is a CWT is application-dependent. In some cases, this information is known from the application context, such as from the position of the CWT in a data structure at which the value must be a CWT. One method of indicating that a CBOR object is a CWT is the use of the \"application\/cwt\" content type by a transport protocol.",
         "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc8392#section-1",
-        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/8392",
+        "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/RFC\/8392",
         "spec-name" : "RFC 8392" } ] }

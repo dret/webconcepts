@@ -1,10 +1,10 @@
 
   { "value" : "working-copy-of",
-    "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
-    "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/working-copy-of",
+    "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/link-relation\/",
+    "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/link-relation\/working-copy-of",
     "details" : 
     [ 
       { "description" : "When included on a working copy, this link points to the versioned resource from which this working copy was obtained.",
         "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc5829#section-3.4",
-        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/5829",
+        "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/RFC\/5829",
         "spec-name" : "RFC 5829" } ] }

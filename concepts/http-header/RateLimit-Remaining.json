@@ -1,10 +1,10 @@
 
   { "value" : "RateLimit-Remaining",
-    "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
-    "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/RateLimit-Remaining",
+    "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http-header\/",
+    "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http-header\/RateLimit-Remaining",
     "details" : 
     [ 
       { "description" : "The RateLimit-Remaining response header field indicates the number of requests left for the client until the quota resets.",
         "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-ietf-httpapi-ratelimit-headers#section-3.2",
-        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpapi-ratelimit-headers",
+        "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/I-D\/ietf-httpapi-ratelimit-headers",
         "spec-name" : "Internet Draft ietf-httpapi-ratelimit-headers" } ] }

@@ -1,10 +1,10 @@
 
   { "value" : "X-Frame-Options",
-    "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
-    "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/X-Frame-Options",
+    "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http-header\/",
+    "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http-header\/X-Frame-Options",
     "details" : 
     [ 
       { "description" : "The X-Frame-Options HTTP header field indicates a policy that specifies whether the browser should render the transmitted resource within a <frame> or an <iframe>. Servers can declare this policy in the header of their HTTP responses to prevent clickjacking attacks, which ensures that their content is not embedded into other pages or frames.",
         "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7034#section-2",
-        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7034",
+        "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/RFC\/7034",
         "spec-name" : "RFC 7034" } ] }

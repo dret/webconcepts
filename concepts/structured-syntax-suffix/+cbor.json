@@ -1,10 +1,10 @@
 
   { "value" : "+cbor",
-    "concept" : "http:\/\/webconcepts.info\/concepts\/structured-syntax-suffix\/",
-    "id" : "http:\/\/webconcepts.info\/concepts\/structured-syntax-suffix\/+cbor",
+    "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/structured-syntax-suffix\/",
+    "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/structured-syntax-suffix\/+cbor",
     "details" : 
     [ 
       { "description" : "The suffix \"+cbor\" MAY be used with any media type whose representation follows the CBOR transfer syntax.",
         "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7049#section-7.5",
-        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7049",
+        "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/RFC\/7049",
         "spec-name" : "RFC 7049" } ] }

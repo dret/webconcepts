@@ -1,10 +1,10 @@
 
   { "value" : "+wbxml",
-    "concept" : "http:\/\/webconcepts.info\/concepts\/structured-syntax-suffix\/",
-    "id" : "http:\/\/webconcepts.info\/concepts\/structured-syntax-suffix\/+wbxml",
+    "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/structured-syntax-suffix\/",
+    "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/structured-syntax-suffix\/+wbxml",
     "details" : 
     [ 
       { "description" : "The suffix \"+wbxml\" MAY be used with any media type whose representation follows that established for \"application\/vnd.wap.wbxml\".",
         "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6839#section-3.5",
-        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6839",
+        "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/RFC\/6839",
         "spec-name" : "RFC 6839" } ] }

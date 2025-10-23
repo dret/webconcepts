@@ -1,10 +1,10 @@
 
   { "value" : "message\/http",
-    "concept" : "http:\/\/webconcepts.info\/concepts\/media-type\/",
-    "id" : "http:\/\/webconcepts.info\/concepts\/media-type\/message\/http",
+    "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/media-type\/",
+    "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/media-type\/message\/http",
     "details" : 
     [ 
       { "description" : "The message\/http type can be used to enclose a single HTTP request or response message, provided that it obeys the MIME restrictions for all \"message\" types regarding line length and encodings.",
         "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7230#section-8.3.1",
-        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7230",
+        "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/RFC\/7230",
         "spec-name" : "RFC 7230" } ] }

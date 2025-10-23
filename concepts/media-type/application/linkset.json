@@ -1,10 +1,10 @@
 
   { "value" : "application\/linkset",
-    "concept" : "http:\/\/webconcepts.info\/concepts\/media-type\/",
-    "id" : "http:\/\/webconcepts.info\/concepts\/media-type\/application\/linkset",
+    "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/media-type\/",
+    "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/media-type\/application\/linkset",
     "details" : 
     [ 
       { "description" : "This document format is identical to the payload of the HTTP Link header. It is defined in Section 3 of RFC 5988bis, more specifically by its ABNF production rule for \"Link\" and subsequent ones.",
         "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-ietf-httpapi-linkset#section-4.1",
-        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpapi-linkset",
+        "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/I-D\/ietf-httpapi-linkset",
         "spec-name" : "Internet Draft ietf-httpapi-linkset" } ] }

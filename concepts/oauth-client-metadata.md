@@ -6,7 +6,7 @@ permalink: /concepts/oauth-client-metadata/
 
 
 
-The following 21 OAuth Dynamic Client Registration Metadata values (20 distinct values) were found in [all available `webconcepts.info` specifications](/specs). Please be advised that the table shown here is maintained and compiled from [Web Concepts](/) sources. The [official OAuth Dynamic Client Registration Metadata registry](http://www.iana.org/assignments/oauth-parameters/oauth-parameters.xhtml#client-metadata) is maintained by the [*Internet Assigned Numbers Authority (IANA)*](http://www.iana.org/).
+The following 21 OAuth Dynamic Client Registration Metadata values (20 distinct values) were found in [all available `webconcepts` specifications](/specs). Please be advised that the table shown here is maintained and compiled from [Web Concepts](/) sources. The [official OAuth Dynamic Client Registration Metadata registry](http://www.iana.org/assignments/oauth-parameters/oauth-parameters.xhtml#client-metadata) is maintained by the [*Internet Assigned Numbers Authority (IANA)*](http://www.iana.org/).
 
 OAuth Dynamic Client Registration Metadata | Specification
 -------: | :-------

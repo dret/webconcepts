@@ -6,7 +6,7 @@ permalink: /concepts/media-type/
 
 
 
-The following 121 Media Type values (118 distinct values) were found in [all available `webconcepts.info` specifications](/specs). Please be advised that the table shown here is maintained and compiled from [Web Concepts](/) sources. The [official Media Type registry](http://www.iana.org/assignments/media-types/media-types.xhtml) is maintained by the [*Internet Assigned Numbers Authority (IANA)*](http://www.iana.org/).
+The following 121 Media Type values (118 distinct values) were found in [all available `webconcepts` specifications](/specs). Please be advised that the table shown here is maintained and compiled from [Web Concepts](/) sources. The [official Media Type registry](http://www.iana.org/assignments/media-types/media-types.xhtml) is maintained by the [*Internet Assigned Numbers Authority (IANA)*](http://www.iana.org/).
 
 Media Type | Specification
 -------: | :-------

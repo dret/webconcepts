@@ -1,10 +1,10 @@
 
   { "value" : "Variant-Key",
-    "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
-    "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Variant-Key",
+    "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http-header\/",
+    "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http-header\/Variant-Key",
     "details" : 
     [ 
       { "description" : "The Variant-Key HTTP response header field is used to indicate the value(s) from the Variants header field that identify the representation it occurs within.",
         "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-ietf-httpbis-variants#section-3",
-        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpbis-variants",
+        "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/I-D\/ietf-httpbis-variants",
         "spec-name" : "Internet Draft ietf-httpbis-variants" } ] }

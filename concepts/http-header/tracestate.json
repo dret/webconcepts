@@ -1,10 +1,10 @@
 
   { "value" : "tracestate",
-    "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
-    "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/tracestate",
+    "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http-header\/",
+    "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http-header\/tracestate",
     "details" : 
     [ 
       { "description" : "The tracestate HTTP header field conveys information about request position in multiple distributed tracing graphs.",
         "documentation" : "http:\/\/www.w3.org\/TR\/trace-context\/#tracestate-field",
-        "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/trace-context",
+        "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/W3C\/TR\/trace-context",
         "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/trace-context" } ] }

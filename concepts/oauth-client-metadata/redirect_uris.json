@@ -1,15 +1,15 @@
 
   { "value" : "redirect_uris",
-    "concept" : "http:\/\/webconcepts.info\/concepts\/oauth-client-metadata\/",
-    "id" : "http:\/\/webconcepts.info\/concepts\/oauth-client-metadata\/redirect_uris",
+    "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/oauth-client-metadata\/",
+    "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/oauth-client-metadata\/redirect_uris",
     "details" : 
     [ 
       { "description" : "Array of redirection URI strings for use in redirect-based flows such as the authorization code and implicit flows.",
         "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7591#section-2",
-        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7591",
+        "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/RFC\/7591",
         "spec-name" : "RFC 7591" },
       
       { "description" : "Array of redirection URI strings for use in redirect-based flows such as the authorization code and implicit flows.",
         "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7591#section-2",
-        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7591",
+        "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/RFC\/7591",
         "spec-name" : "RFC 7591" } ] }

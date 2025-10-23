@@ -1,10 +1,10 @@
 
   { "value" : "invalidates",
-    "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
-    "id" : "http:\/\/webconcepts.info\/concepts\/link-relation\/invalidates",
+    "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/link-relation\/",
+    "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/link-relation\/invalidates",
     "details" : 
     [ 
       { "description" : "The 'invalidates' link relation type allows a response that signifies a state change on the server to indicate one or more associated URIs whose states have also changed.",
         "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-nottingham-linked-cache-inv#section-2",
-        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/nottingham-linked-cache-inv",
+        "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/I-D\/nottingham-linked-cache-inv",
         "spec-name" : "Internet Draft nottingham-linked-cache-inv" } ] }

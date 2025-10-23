@@ -1,10 +1,10 @@
 
   { "value" : "UNLINK",
-    "concept" : "http:\/\/webconcepts.info\/concepts\/http-method\/",
-    "id" : "http:\/\/webconcepts.info\/concepts\/http-method\/UNLINK",
+    "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http-method\/",
+    "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http-method\/UNLINK",
     "details" : 
     [ 
       { "description" : "The UNLINK method is used to remove one or more relationships between the resource identified by the effective request URI and other resources.",
         "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-snell-link-method#section-4",
-        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/snell-link-method",
+        "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/I-D\/snell-link-method",
         "spec-name" : "Internet Draft snell-link-method" } ] }

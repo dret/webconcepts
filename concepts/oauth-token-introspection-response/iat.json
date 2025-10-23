@@ -1,10 +1,10 @@
 
   { "value" : "iat",
-    "concept" : "http:\/\/webconcepts.info\/concepts\/oauth-token-introspection-response\/",
-    "id" : "http:\/\/webconcepts.info\/concepts\/oauth-token-introspection-response\/iat",
+    "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/oauth-token-introspection-response\/",
+    "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/oauth-token-introspection-response\/iat",
     "details" : 
     [ 
       { "description" : "Integer timestamp, measured in the number of seconds since January 1 1970 UTC, indicating when this token was originally issued, as defined in JWT.",
         "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc7662#section-2.2",
-        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7662",
+        "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/RFC\/7662",
         "spec-name" : "RFC 7662" } ] }

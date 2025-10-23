@@ -1,10 +1,10 @@
 
   { "value" : "ftp",
-    "concept" : "http:\/\/webconcepts.info\/concepts\/uri-scheme\/",
-    "id" : "http:\/\/webconcepts.info\/concepts\/uri-scheme\/ftp",
+    "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/uri-scheme\/",
+    "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/uri-scheme\/ftp",
     "details" : 
     [ 
       { "description" : "The FTP URL scheme is used to designate files and directories on Internet hosts accessible using the FTP protocol.",
         "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc1738#section-3.2",
-        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/1738",
+        "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/RFC\/1738",
         "spec-name" : "RFC 1738" } ] }

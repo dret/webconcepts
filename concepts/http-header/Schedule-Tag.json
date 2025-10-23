@@ -1,10 +1,10 @@
 
   { "value" : "Schedule-Tag",
-    "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
-    "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Schedule-Tag",
+    "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http-header\/",
+    "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http-header\/Schedule-Tag",
     "details" : 
     [ 
       { "description" : "The Schedule-Tag response header provides the current value of the CALDAV:schedule-tag property value.",
         "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/rfc6638#section-8.2",
-        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6638",
+        "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/RFC\/6638",
         "spec-name" : "RFC 6638" } ] }

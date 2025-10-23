@@ -6,7 +6,7 @@ permalink: /concepts/http-warn-code/
 
 
 
-The following 7 HTTP Warn Code values were found in [all available `webconcepts.info` specifications](/specs). Please be advised that the table shown here is maintained and compiled from [Web Concepts](/) sources. The [official HTTP Warn Code registry](https://www.iana.org/assignments/http-warn-codes/http-warn-codes.xhtml) is maintained by the [*Internet Assigned Numbers Authority (IANA)*](http://www.iana.org/).
+The following 7 HTTP Warn Code values were found in [all available `webconcepts` specifications](/specs). Please be advised that the table shown here is maintained and compiled from [Web Concepts](/) sources. The [official HTTP Warn Code registry](https://www.iana.org/assignments/http-warn-codes/http-warn-codes.xhtml) is maintained by the [*Internet Assigned Numbers Authority (IANA)*](http://www.iana.org/).
 
 HTTP Warn Code | Specification
 -------: | :-------

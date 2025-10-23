@@ -1,10 +1,10 @@
 
   { "value" : "Client-Cert",
-    "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
-    "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Client-Cert",
+    "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http-header\/",
+    "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http-header\/Client-Cert",
     "details" : 
     [ 
       { "description" : "In the context of a TLS terminating reverse proxy deployment, the proxy makes the TLS client certificate available to the backend application with the Client-Cert HTTP header field. This field contains the end-entity certificate used by the client in the TLS handshake.",
         "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-ietf-httpbis-client-cert-field#section-2.2",
-        "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpbis-client-cert-field",
+        "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/IETF\/I-D\/ietf-httpbis-client-cert-field",
         "spec-name" : "Internet Draft ietf-httpbis-client-cert-field" } ] }

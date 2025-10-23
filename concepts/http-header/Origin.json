@@ -1,10 +1,10 @@
 
   { "value" : "Origin",
-    "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
-    "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Origin",
+    "concept" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http-header\/",
+    "id" : "https:\/\/dret.github.io\/webconcepts\/concepts\/http-header\/Origin",
     "details" : 
     [ 
       { "description" : "The Origin header indicates where the cross-origin request or preflight request originates from.",
         "documentation" : "http:\/\/www.w3.org\/TR\/cors\/#origin-request-header",
-        "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/cors",
+        "specification" : "https:\/\/dret.github.io\/webconcepts\/specs\/W3C\/TR\/cors",
         "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/cors" } ] }
